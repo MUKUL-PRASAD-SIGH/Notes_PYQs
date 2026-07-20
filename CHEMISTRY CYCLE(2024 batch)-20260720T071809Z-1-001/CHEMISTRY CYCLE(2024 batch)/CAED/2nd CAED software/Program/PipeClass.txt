@@ -1,0 +1,1691 @@
+// This formatted file is used by the Solid Edge Piping command and is a means for
+// the user to filter standard fittings during automatic placement. The fittings
+// supported by automatic placement are gouped into "Classes" that define a
+// search method for each of the fittings. The search criterion is applied on the
+// Pipe fittings database in addition to other data from the Pipe command (such
+// as nominal diameter, end treatments, fitting angles etc) to determine a unique
+// fitting that would qualify for placement on the pipe route.
+//
+// Format Description
+//
+// - Lines that begin with // are not processed by Solid Edge and can be used for comments.
+// - Each "Class" is defined between lines containing the tokens 'BeginClass' and 'EndClass'
+// - The first line after 'BeginClass' is the name of the Class. This may be any string,
+//   either recognized as common industry terminology or user defined name. This string will
+//   be available for selecting the fitting class in the Pipe options dialog.
+// - The line following the class name should start with STANDARDS. The words in quotes
+//   following STANDARDS are the piping standards to which that class is applicable. A particular
+//   class could be supported in multiple standards. For example, if definition of class ABC
+//   is valid for ANSI and API the line should be - STANDARDS "API" "ANSI". Classes that
+//   have assigned standards will be displayed in the Pipe options dialog when a listed
+//   standard is selected.
+// - Each of the fittings supported for placement by the Pipe command is listed in UPPER CASE
+//   in the first column.
+// - The second column defines the search method used. Currently only SIMPLE is supported
+//   which uses the strings in the following columns to search in the Pipe fitting database. This
+//   field enables support for more sophisticated search methods in the future. Entries in
+//   this field must be in UPPER CASE. The quotes ("") at start and end of the string will
+//   be removed prior to searching the database.
+// - The third column is the Search Strings which are interpreted based on the search method
+//   and are appropriately applied to the piping database. You may define multiple strings in
+//   quotes and separated by spaces, like - "Class 25"	"Malleable". A fitting will be selected
+//   which matches all the strings.
+//
+
+// --------------------------------------------
+
+//  
+
+
+//Class Name
+
+//My Company Standard (ASME)
+
+
+//Standards
+//STANDARDS	"ASME"
+
+//Fitting       Search method   Search Strings
+
+//ELBOW			SIMPLE			"JIS 2301"	"Class I" 
+//TEE			SIMPLE			"DIN 11852"	"DIN"
+//Y			SIMPLE			"JIS 2301"	"Class I"
+//REDUCER			SIMPLE			"JIS 2301"	"Class I"
+//COUPLING		SIMPLE			"JIS 2301"	"Class I"
+//FLANGE			SIMPLE			"JIS 2301"	"Class I"
+//RETURN180		SIMPLE			"JIS 2301"	"Class I"
+//CROSS		    	SIMPLE			"JIS 2301"	"Class I"
+
+//EndClass
+
+
+// --------------------------------------------
+
+
+
+
+
+BeginClass
+
+// Class name
+
+Flanged - Ductile Iron ASME B16.42
+
+// Standards
+
+STANDARDS	"ANSI"
+
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Ductile iron"		"ASME B16.42"
+TEE			SIMPLE			"Ductile iron"		"ASME B16.42"
+Y			SIMPLE			"Ductile iron"		"ASME B16.42"
+REDUCER			SIMPLE			"Ductile iron"		"ASME B16.42"
+COUPLING		SIMPLE			"Ductile iron"		"ASME B16.42"
+FLANGE			SIMPLE			"Flange"		""
+RETURN180		SIMPLE			"Ductile iron"		"ASME B16.42"
+CROSS		       SIMPLE			"Ductile iron"		"ASME B16.42"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+
+Gray Iron - Class 125 ASME B16.4 
+	
+STANDARDS	"ANSI"
+
+//Fitting       Search method   Search Strings
+
+ ELBOW			SIMPLE			"Class 125"	"ASME B16.4"
+TEE			SIMPLE			"Class 125"	"ASME B16.4"
+Y			SIMPLE			"Class 125"	"ASME B16.4"
+REDUCER			SIMPLE			"Class 125"	"ASME B16.4"
+COUPLING		SIMPLE			"Class 125"	"ASME B16.4"
+//FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 125"	"ASME B16.4"
+CROSS		        SIMPLE			"Class 125"	"ASME B16.4"
+
+EndClass
+
+
+
+BeginClass
+
+
+Gray Iron - Class 250 ASME B16.4 
+	
+STANDARDS	"ANSI"
+
+//Fitting       Search method   Search Strings
+
+ ELBOW			SIMPLE			"Class 250"	"ASME B16.4"
+TEE			SIMPLE			"Class 250"	"ASME B16.4"
+Y			SIMPLE			"Class 250"	"ASME B16.4"
+REDUCER			SIMPLE			"Class 250"	"ASME B16.4"
+COUPLING		SIMPLE			"Class 250"	"ASME B16.4"
+//FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 250"	"ASME B16.4"
+CROSS		        SIMPLE			"Class 250"	"ASME B16.4"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+
+Flanged - Class 25 ASME B16.1 
+	
+STANDARDS	"ANSI"
+
+//Fitting       Search method   Search Strings
+
+ ELBOW			SIMPLE			"Class 25"	"ASME B16.1"
+TEE			SIMPLE			"Class 25"	"ASME B16.1"
+Y			SIMPLE			"Class 25"	"ASME B16.1"
+REDUCER			SIMPLE			"Class 25"	"ASME B16.1"
+COUPLING		SIMPLE			"Class 25"	"ASME B16.1"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 25"	"ASME B16.1"
+CROSS		        SIMPLE			"Class 25"	"ASME B16.1"
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+
+Flanged - Class 125 ASME B16.1
+	
+STANDARDS	"ANSI"
+
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 125"	"ASME B16.1"
+TEE			SIMPLE			"Class 125"	"ASME B16.1"
+Y			SIMPLE			"Class 125"	"ASME B16.1"
+REDUCER			SIMPLE			"Class 125"	"ASME B16.1"
+COUPLING		SIMPLE			"Class 125"	"ASME B16.1"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 125"	"ASME B16.1"
+CROSS		       SIMPLE			"Class 125"	"ASME B16.1"
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+
+Flanged - Class 250 ASME B16.1
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 250"	"ASME B16.1"
+TEE			SIMPLE			"Class 250"	"ASME B16.1"
+Y			SIMPLE			"Class 250"	"ASME B16.1" 
+REDUCER			SIMPLE			"Class 250"	"ASME B16.1"
+COUPLING		SIMPLE			"Class 250"	"ASME B16.1"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 250"	"ASME B16.1"
+CROSS		       SIMPLE			"Class 250"	"ASME B16.1"
+
+EndClass
+
+
+
+
+
+// --------------------------------------------
+
+BeginClass
+
+
+Threaded - Class 150 ASME B16.3
+
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 150"	"ASME B16.3"
+TEE			SIMPLE			"Class 150"	"ASME B16.3"
+Y			SIMPLE			"Class 150"	"ASME B16.3"
+REDUCER			SIMPLE			"Class 150"	"ASME B16.3"
+COUPLING		SIMPLE			"Class 150"	"ASME B16.3"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 150"	"ASME B16.3"
+CROSS		       SIMPLE			"Class 150"	"ASME B16.3"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+
+Threaded - Class 300 ASME B16.3
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 300"	"ASME B16.3"
+TEE			SIMPLE			"Class 300"	"ASME B16.3"
+Y			SIMPLE			"Class 300"	"ASME B16.3"
+REDUCER			SIMPLE			"Class 300"	"ASME B16.3"
+COUPLING		SIMPLE			"Class 300"	"ASME B16.3"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 300"	"ASME B16.3"
+CROSS		       SIMPLE			"Class 300"	"ASME B16.3"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+
+Butt Weld - ASME B16.9
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Wrought"	"ASME B16.9"
+TEE			SIMPLE			"Wrought"	"ASME B16.9"
+Y			SIMPLE			"Wrought"	"ASME B16.9"
+REDUCER			SIMPLE			"Wrought"	"ASME B16.9"
+COUPLING		SIMPLE			"Wrought"	"ASME B16.9"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Wrought"	"ASME B16.9"
+CROSS		       SIMPLE			"Wrought"	"ASME B16.9"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+Class 2000 ASME B16.11
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 2000"	"ASME B16.11"
+TEE			SIMPLE			"Class 2000"	"ASME B16.11"
+Y			SIMPLE			"Class 2000"	"ASME B16.11"
+REDUCER			SIMPLE			"Class 2000"	"ASME B16.11"
+COUPLING		SIMPLE			"Class 2000"	"ASME B16.11"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 2000"	"ASME B16.11"
+CROSS		       SIMPLE			"Class 2000"	"ASME B16.11"
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+Class 3000 ASME B16.11
+
+//STANDARDS	"ASME"
+STANDARDS	"ANSI"
+
+ELBOW			SIMPLE			"Class 3000"	"ASME B16.11"
+TEE			SIMPLE			"Class 3000"	"ASME B16.11"
+Y			SIMPLE			"Class 3000"	"ASME B16.11"
+REDUCER			SIMPLE			"Class 3000"	"ASME B16.11"
+COUPLING		SIMPLE			"Class 3000"	"ASME B16.11"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 3000"	"ASME B16.11"
+CROSS		        SIMPLE			"Class 3000"	"ASME B16.11"
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+Class 6000 ASME B16.11
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 6000"	"ASME B16.11"
+TEE			SIMPLE			"Class 6000"	"ASME B16.11"
+Y			SIMPLE			"Class 6000"	"ASME B16.11"
+REDUCER			SIMPLE			"Class 6000"	"ASME B16.11"
+COUPLING		SIMPLE			"Class 6000"	"ASME B16.11"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 6000"	"ASME B16.11"
+CROSS		       SIMPLE			"Class 6000"	"ASME B16.11"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+Class 9000 ASME B16.11
+	
+STANDARDS	"ANSI"
+	
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"Class 9000"	"ASME B16.11"
+TEE			SIMPLE			"Class 9000"	"ASME B16.11"
+Y			SIMPLE			"Class 9000"	"ASME B16.11"
+REDUCER			SIMPLE			"Class 9000"	"ASME B16.11"
+COUPLING		SIMPLE			"Class 9000"	"ASME B16.11"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"Class 9000"	"ASME B16.11"
+CROSS		       SIMPLE			"Class 9000"	"ASME B16.11"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+Butt Weld DIN 11852,2616
+
+STANDARDS	"DIN"
+
+//Fitting       Search method   Search Strings
+
+// no butt weld elbows, Y's, couplings,flanges, or crosses found in DB
+
+//ELBOW			SIMPLE			""	""
+TEE			SIMPLE			"DIN 11852"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"DIN 2616"	"Reducer"
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+RETURN180		SIMPLE			"DIN 11852"	"Tube bend"
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+DIN 2950-Threaded
+
+STANDARDS	"DIN"
+
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"DIN 2950-90"	"Elbow"
+TEE			SIMPLE			"DIN 2950-130"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"DIN 2950-240"	"Socket reducing"
+COUPLING		SIMPLE			"DIN 2950-270"	"Socket"
+//FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"DIN 2950-1a"	"Bend"
+CROSS		    	SIMPLE			"DIN 2950-180"	"Cross"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+DIN EN 10242 -Threaded
+
+STANDARDS	"DIN"
+
+ELBOW			SIMPLE			"DIN EN 10242-A1"		"Elbow"
+TEE			SIMPLE			"DIN EN 10242-B1"		"Tee"
+//Y			SIMPLE			""		""
+REDUCER			SIMPLE			"DIN EN 10242-M2-red."		"Socket reducing"
+COUPLING		SIMPLE			"DIN EN 10242-M2"		"Socket with right thread"
+//FLANGE			SIMPLE			"Flange"		""
+RETURN180		SIMPLE			"DIN EN 10242-D1"		"Bend"
+CROSS		    	SIMPLE			"DIN EN 10242-C1"		"Cross"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+
+//Class Name
+
+Mixed Standards (DIN)-Threaded
+
+
+//Standards
+STANDARDS	"DIN"
+
+//Fitting       Search method   Search Strings
+
+ELBOW			SIMPLE			"DIN 2983"	"Bend" 
+TEE			SIMPLE			"DIN 2987"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"DIN 2988"	"Socket reduced"
+COUPLING		SIMPLE			"DIN 2986"	"Socket"
+//FLANGE		SIMPLE			""	""
+RETURN180		SIMPLE			"DIN 2983"	"Bend"
+CROSS		    	SIMPLE			"DIN 2987 C"	"Cross"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+DIN 2983, 2986, 2987, 2988-Threaded
+
+STANDARDS	"DIN"
+
+ELBOW			SIMPLE			"DIN 2987"	"Elbow"
+TEE			SIMPLE			"DIN 2987"	"Tee"
+//Y			SIMPLE			"DIN 2983"	""
+REDUCER			SIMPLE			"DIN 2988"	"Socket reduced"
+COUPLING		SIMPLE			"DIN 2986"	"Socket"
+//FLANGE		SIMPLE			""	""
+RETURN180		SIMPLE			"DIN 2983 C"	"Bend 180°"
+CROSS		    	SIMPLE			"DIN 2987 C"	"Cross"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+DIN Threaded DIN EN 10241
+
+STANDARDS	"DIN"
+
+ELBOW			SIMPLE			"DIN EN 10241"	""
+TEE			SIMPLE			"DIN EN 10241"	""
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"DIN EN 10241"	""
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+RETURN180		SIMPLE			"DIN EN 10241"	""
+CROSS		    	SIMPLE			"DIN EN 10241"	""
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+DIN Butt weld DIN EN 10253
+
+STANDARDS	"DIN"
+
+ELBOW			SIMPLE			"DIN EN 10253 - 1"	""
+TEE			SIMPLE			"DIN EN 10253 - 1"	""
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"DIN EN 10253 - 1"	""
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+RETURN180		SIMPLE			"DIN EN 10253 - 1"	""
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+DIN Ductile iron flanged DIN EN 545
+
+STANDARDS	"DIN"
+
+ELBOW			SIMPLE			"DIN EN 545"	""
+TEE			SIMPLE			"DIN EN 545"	""
+//Y			SIMPLE			""	""
+//REDUCER		SIMPLE			""	""
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+//RETURN180		SIMPLE			""	""
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+GB/T - 14383-1993 - Socket Weld
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 14383-1993"	"elbow" 
+TEE			SIMPLE			"GB/T 14383-1993"	"Tee"
+Y			SIMPLE			"GB/T 14383-1993"	"Y"
+REDUCER			SIMPLE			"GB/T 14383-1993"	"Full coupling-red"
+COUPLING		SIMPLE			"GB/T 14383-1993"	"Full coupling"
+//FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			"JIS 2301"	"Class I"
+CROSS		    	SIMPLE			"GB/T 14383-1993"	"Cross"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 14626-1993 - Threaded
+
+STANDARDS	"GB"
+
+//NOte the cross and tee are listed under standard GB NOT GB/T
+
+ELBOW			SIMPLE			"GB/T 14626-1993"	"elbow" 
+TEE			SIMPLE			"GB/T 14626-1993"	"Tee"
+//Y			SIMPLE			""	""
+//REDUCER			SIMPLE		""	""
+COUPLING		SIMPLE			"GB/T 14626-1993"	"Full coupling"
+//FLANGE			SIMPLE		""	""
+//RETURN180		SIMPLE			"JIS 2301"	"Class I"
+CROSS		    	SIMPLE			"GB/T 14626-1993"	"Cross"
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 3420-1982 Socket Weld
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 3420-1982"	"Double socket bend" 
+TEE			SIMPLE			"GB/T 3420-1982"	"Tee or reduced tee"
+//Y			SIMPLE			""	""
+//REDUCER			SIMPLE		""	""
+COUPLING		SIMPLE			"GB/T 14626-1993"	"Full coupling"
+//FLANGE			SIMPLE		""	""
+//RETURN180		SIMPLE			"JIS 2301"	"Class I"
+CROSS		    	SIMPLE			"GB/T 3420-1982"	"Cross"
+
+EndClass
+
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 3420-1982 Flange
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 3420-1982"	"Flange bend" 
+TEE			SIMPLE			"GB/T 3420-1982"	"Flange fitting"
+//Y			SIMPLE			""	""
+//REDUCER			SIMPLE		""	""
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			""	""
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 12459-1990 -Butt Weld
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 12459-1990"	"elbow" 
+TEE			SIMPLE			"GB/T 12459-1990"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"GB/T 12459-1990"	"Reducer-concentric"
+//COUPLING		SIMPLE			""	""
+//FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"GB/T 12459-1990"	"180° elbow"
+CROSS		    	SIMPLE			"GB/T 12459-1990"	"Cross"
+
+EndClass
+
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 13401-1992 -Butt Weld
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 13401-1992"	"elbow" 
+TEE			SIMPLE			"GB/T 13401-1992"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"GB/T 13401-1992"	"Reducer-concentric"
+//COUPLING		SIMPLE			""	""
+//FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			""	""
+CROSS		    	SIMPLE			"GB/T 13401-1992"	"Cross"
+
+EndClass
+
+
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GB/T 17185-1997 -Flanged
+
+STANDARDS	"GB"
+
+ELBOW			SIMPLE			"GB/T 17185-1997"	"elbow" 
+TEE			SIMPLE			"GB/T 17185-1997"	"Tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"GB/T 17185-1997"	"Reducer-concentric"
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			""	""
+CROSS		    	SIMPLE			"GB/T 17185-1997"	"Cross"
+
+EndClass
+
+
+//----------------------------------------------------------
+
+BeginClass
+
+JIS B 2301 - Class I
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2301"	"Class I" 
+TEE			SIMPLE			"JIS B 2301"	"Class I"
+Y			SIMPLE			"JIS B 2301"	"Class I"
+REDUCER			SIMPLE			"JIS B 2301"	"Class I"
+COUPLING		SIMPLE			"JIS B 2301"	"Class I"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2301"	"Class I"
+CROSS		    	SIMPLE			"JIS B 2301"	"Class I"
+
+EndClass
+
+
+// --------------------------------------------
+
+BeginClass
+
+JIS 2301 - Class II
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2301"	"Class II" 
+TEE			SIMPLE			"JIS B 2301"	"Class II"
+Y			SIMPLE			"JIS B 2301"	"Class II"
+REDUCER			SIMPLE			"JIS B 2301"	"Class II"
+COUPLING		SIMPLE			"JIS B 2301"	"Class II"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2301"	"Class II"
+CROSS		    	SIMPLE			"JIS B 2301"	"Class II"
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+JIS B 2311 - Steel - FSGP
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"Steel - FSGP"	"elbow" 
+TEE			SIMPLE			"Steel - FSGP"	"tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"Steel - FSGP"	"Concentric reducer"
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			""	""
+RETURN180		SIMPLE			"Steel - FSGP"	"180° elbow"
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2311 Steel - PY 400-LG
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"Steel - PY 400-LG"	"elbow" 
+TEE			SIMPLE			"Steel - PY 400-LG"	"tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"Steel - PY 400-LG"	"Concentric reducer"
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			""	""
+RETURN180		SIMPLE			"Steel - PY 400-LG"	"180° elbow"
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2311 Steel - PY 400-STD
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"Steel - PY 400-STD"	"elbow" 
+TEE			SIMPLE			"Steel - PY 400-STD"	"tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"Steel - PY 400-STD"	"Concentric reducer"
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			""	""
+//RETURN180		SIMPLE			"Steel - PY 400-STD"	"180° elbow"
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2311 Steel - PY 400-XS
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"Steel - PY 400-XS"	"elbow" 
+TEE			SIMPLE			"Steel - PY 400-XS"	"tee"
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"Steel - PY 400-XS"	"Concentric reducer"
+//COUPLING		SIMPLE			""	""
+FLANGE			SIMPLE			""	""
+//RETURN180		SIMPLE			"Steel - PY 400-XS"	"180° elbow"
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2312 Alloy steel - schedule 120
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120" 
+TEE			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+//Y			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+REDUCER			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+//COUPLING		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Alloy steel - schedule 120"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Alloy steel - schedule 160
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160" 
+TEE			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+//Y			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+REDUCER			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+//COUPLING		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Alloy steel - schedule 160"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Alloy steel - schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40" 
+TEE			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+//Y			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+REDUCER			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+//COUPLING		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Alloy steel - schedule 40"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Alloy steel - schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80" 
+TEE			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+//Y			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+REDUCER			SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+//COUPLING		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Alloy steel - schedule 80"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+
+
+
+
+BeginClass
+
+JIS B 2312 Carbon steel - schedule 120
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120" 
+TEE			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+//Y			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+REDUCER			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+//COUPLING		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Carbon steel - schedule 120"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Carbon steel - schedule 160
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160" 
+TEE			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+//Y			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+REDUCER			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+//COUPLING		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Carbon steel - schedule 160"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+
+BeginClass
+
+JIS B 2312 Carbon steel - schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40" 
+TEE			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+//Y			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+REDUCER			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+//COUPLING		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Carbon steel - schedule 40"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Carbon steel - schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80" 
+TEE			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+//Y			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+REDUCER			SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+//COUPLING		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Carbon steel - schedule 80"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 10S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 10S"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 120
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 120"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 160
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 160"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 20S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 20S"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 40"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 5S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 5S"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2312 Stainless steel - schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80" 
+TEE			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+//Y			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+REDUCER			SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+//COUPLING		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2312"	"Stainless steel - schedule 80"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Alloy steel - LG
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Alloy steel - LG" 
+TEE			SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+//Y			SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+REDUCER			SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+//COUPLING		SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Alloy steel - LG"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Alloy steel - Schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40" 
+TEE			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+//Y			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+REDUCER			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+//COUPLING		SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 40"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2313 Alloy steel - Schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80" 
+TEE			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+//Y			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+REDUCER			SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+//COUPLING		SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Alloy steel - Schedule 80"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2313 Alloy steel - STD
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Alloy steel - STD" 
+TEE			SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+//Y			SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+REDUCER			SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+//COUPLING		SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Alloy steel - STD"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Alloy steel - XS
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Alloy steel - XS" 
+TEE			SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+//Y			SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+REDUCER			SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+//COUPLING		SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Alloy steel - XS"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+JIS B 2313 Carbon steel - LG
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Carbon steel - LG" 
+TEE			SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+//Y			SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+REDUCER			SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+//COUPLING		SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Carbon steel - LG"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Carbon steel - Schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40" 
+TEE			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+//Y			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+REDUCER			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+//COUPLING		SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 40"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Carbon steel - Schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80" 
+TEE			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+//Y			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+REDUCER			SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+//COUPLING		SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Carbon steel - Schedule 80"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+JIS B 2313 Carbon steel - STD
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Carbon steel - STD" 
+TEE			SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+//Y			SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+REDUCER			SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+//COUPLING		SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Carbon steel - STD"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2313 Carbon steel - XS
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Carbon steel - XS" 
+TEE			SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+//Y			SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+REDUCER			SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+//COUPLING		SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Carbon steel - XS"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - LG
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - LG" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - LG"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - Schedule 10S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 10S"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - Schedule 20S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 20S"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - Schedule 40
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 40"
+
+EndClass
+
+// --------------------------------------------
+
+BeginClass
+
+JIS B 2313 Stainless steel - Schedule 5S
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 5S"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - Schedule 80
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - Schedule 80"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - STD
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - STD" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - STD"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+JIS B 2313 Stainless steel - XS
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2313"	"Stainless steel - XS" 
+TEE			SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+//Y			SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+REDUCER			SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+//COUPLING		SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+FLANGE			SIMPLE			"Flange"	""
+RETURN180		SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+//CROSS		    	SIMPLE			"JIS B 2313"	"Stainless steel - XS"
+
+EndClass
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2316 - Schedule 160
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2316"	"Schedule 160" 
+TEE			SIMPLE			"JIS B 2316"	"Schedule 160"
+Y			SIMPLE			"JIS B 2316"	"Schedule 160"
+REDUCER			SIMPLE			"JIS B 2316"	"Schedule 160"
+COUPLING		SIMPLE			"JIS B 2316"	"Schedule 160"
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			"JIS B 2316"	"Schedule 160"
+CROSS		    	SIMPLE			"JIS B 2316"	"Schedule 160"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2316 - Schedule 80-1
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2316"	"Schedule 80-1" 
+TEE			SIMPLE			"JIS B 2316"	"Schedule 80-1"
+Y			SIMPLE			"JIS B 2316"	"Schedule 80-1"
+REDUCER			SIMPLE			"JIS B 2316"	"Schedule 80-1"
+COUPLING		SIMPLE			"JIS B 2316"	"Schedule 80-1"
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			"JIS B 2316"	"Schedule 80-1"
+CROSS		    	SIMPLE			"JIS B 2316"	"Schedule 80-1"
+
+EndClass
+
+
+// --------------------------------------------
+
+
+BeginClass
+
+JIS B 2316 - Schedule 80-2
+
+STANDARDS	"JIS"
+
+ELBOW			SIMPLE			"JIS B 2316"	"Schedule 80-2" 
+TEE			SIMPLE			"JIS B 2316"	"Schedule 80-2"
+Y			SIMPLE			"JIS B 2316"	"Schedule 80-2"
+REDUCER			SIMPLE			"JIS B 2316"	"Schedule 80-2"
+COUPLING		SIMPLE			"JIS B 2316"	"Schedule 80-2"
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			"JIS B 2316"	"Schedule 80-2"
+CROSS		    	SIMPLE			"JIS B 2316"	"Schedule 80-2"
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+UNI 5192
+
+STANDARDS	"UNI"
+
+ELBOW			SIMPLE			"UNI 5192"	""
+TEE			SIMPLE			"UNI 5192"	""
+Y			SIMPLE			"UNI 5192"	""
+REDUCER			SIMPLE			"UNI 5192"	""
+COUPLING		SIMPLE			"UNI 5192"	""
+FLANGE			SIMPLE			"Flange"	""
+//RETURN180		SIMPLE			"UNI 5192"	""
+CROSS		    	SIMPLE			"UNI 5192"	""
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+GOST Butt Weld
+
+STANDARDS	"GOST"
+
+ELBOW			SIMPLE			"GOST 17375-83"	""
+TEE			SIMPLE			"GOST 17376-83"	""
+//Y			SIMPLE			""	""
+//REDUCER		SIMPLE			""	""
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+//RETURN180		SIMPLE			""	""
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+// --------------------------------------------
+
+
+
+
+BeginClass
+
+GOST Threaded
+
+STANDARDS	"GOST"
+
+ELBOW			SIMPLE			"GOST 21859-78"	""
+TEE			SIMPLE			"GOST 21862-78"	""
+//Y			SIMPLE			""	""
+//REDUCER		SIMPLE			""	""
+//COUPLING		SIMPLE			""	""
+//FLANGE		SIMPLE			""	""
+//RETURN180		SIMPLE			""	""
+//CROSS		    	SIMPLE			""	""
+
+EndClass
+
+// --------------------------------------------
+
+
+
+BeginClass
+
+GOST Ductil iron threaded
+
+STANDARDS	"GOST"
+
+ELBOW			SIMPLE			"GOST 8946-75"	""
+TEE			SIMPLE			"GOST 8948-75"	""
+//Y			SIMPLE			""	""
+REDUCER			SIMPLE			"GOST 8957-75"	""
+COUPLING		SIMPLE			"GOST 8954-75"	""
+//FLANGE		SIMPLE			""	""
+//RETURN180		SIMPLE			""	""
+CROSS		    	SIMPLE			"GOST 8951-75"	""
+
+EndClass
+
+// --------------------------------------------

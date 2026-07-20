@@ -1,0 +1,705 @@
+ hstyl3d
+
+ Timestamp is 46b3a464 (Fri Aug 03 16:55:48 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000a038H .text                   CODE
+ 0001:0000a040 00000414H .text$x                 CODE
+ 0001:0000a460 00000276H .text$yc                CODE
+ 0002:00000000 000001a4H .idata$5                DATA
+ 0002:000001a4 00000004H .CRT$XCA                DATA
+ 0002:000001a8 00000050H .CRT$XCU                DATA
+ 0002:000001f8 00000004H .CRT$XCZ                DATA
+ 0002:000001fc 00000004H .CRT$XIA                DATA
+ 0002:00000200 00000004H .CRT$XIAA               DATA
+ 0002:00000204 00000004H .CRT$XIZ                DATA
+ 0002:00000210 000007d8H .rdata                  DATA
+ 0002:000009e8 00000031H .rdata$debug            DATA
+ 0002:00000a1c 00000418H .rdata$r                DATA
+ 0002:00000e40 00000040H .rdata$sxdata           DATA
+ 0002:00000e80 00000004H .rtc$IAA                DATA
+ 0002:00000e84 00000004H .rtc$IZZ                DATA
+ 0002:00000e88 00000004H .rtc$TAA                DATA
+ 0002:00000e8c 00000004H .rtc$TZZ                DATA
+ 0002:00000e90 000003f4H .xdata$x                DATA
+ 0002:00001284 0000008cH .idata$2                DATA
+ 0002:00001310 00000014H .idata$3                DATA
+ 0002:00001324 000001a4H .idata$4                DATA
+ 0002:000014c8 000007e2H .idata$6                DATA
+ 0002:00001cb0 0000006aH .edata                  DATA
+ 0003:00000000 00003498H .data                   DATA
+ 0003:00003498 00000e14H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000010       ___safe_se_handler_count   00000010     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??$wcscpy@PA_W@@YAPA_WAAPA_WPB_W@Z 10001030 f i extutils.obj
+ 0001:00000060       ?SetColor@tagGColor4@@QAEAAU1@K@Z 10001060 f i extutils.obj
+ 0001:00000240       ?GColor4FromCOLORREF@@YA?AUtagGColor4@@K@Z 10001240 f i extutils.obj
+ 0001:00000280       ?BuildVector@@YA?AUtagGVector@@NNN@Z 10001280 f   extutils.obj
+ 0001:000002a0       ?float_mod@@YAMMM@Z        100012a0 f   extutils.obj
+ 0001:00000340       ?clamp_angle@@YAMM@Z       10001340 f   extutils.obj
+ 0001:000003a0       ?FindExtension@@YAPAUtagGMaterialExtended@@PAU1@K@Z 100013a0 f   extutils.obj
+ 0001:000003c0       ?AddExtension@@YAPAUtagGMaterialExtended@@PAPAU1@KK@Z 100013c0 f   extutils.obj
+ 0001:000005f0       ?InsertExtension@@YAXPAPAUtagGMaterialExtended@@PAU1@@Z 100015f0 f   extutils.obj
+ 0001:00000610       ?LookupExtension@@YAPAUtagGMaterialExtended@@PAU1@K@Z 10001610 f   extutils.obj
+ 0001:00000650       ?GetExtension@@YAPAUtagGMaterialExtended@@PAU1@KPAPAU1@@Z 10001650 f   extutils.obj
+ 0001:000006c0       ?RemoveExtension@@YAPAUtagGMaterialExtended@@PAPAU1@K@Z 100016c0 f   extutils.obj
+ 0001:00000720       ?RemoveTexture@@YAPAUtagGMaterialExtended@@PAPAU1@K@Z 10001720 f   extutils.obj
+ 0001:00000790       ?GetExtendedSurface@@YAPAUtagGMaterialExtendedSurface@@PAPAUtagGMaterialExtended@@@Z 10001790 f   extutils.obj
+ 0001:000007d0       ?GetSkybox@@YAPAUtagGMaterialSkybox@@PAPAUtagGMaterialExtended@@0@Z 100017d0 f   extutils.obj
+ 0001:00000830       ?GetSkyboxOrientation@@YAPAUtagGMaterialSkyboxOrientation@@PAPAUtagGMaterialExtended@@0@Z 10001830 f   extutils.obj
+ 0001:00000890       ?GetTexture@@YAPAUtagGMaterialTexture@@PAUtagGMaterialSurface@@K@Z 10001890 f   extutils.obj
+ 0001:000008c0       ?HasTextureType@@YAHPAUtagGMaterialExtended@@KK@Z 100018c0 f   extutils.obj
+ 0001:00000900       ?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z 10001900 f   extutils.obj
+ 0001:00000bd0       ?SetFilenameFromGUserText@@YAXAAVGUserText@@PAPA_W@Z 10001bd0 f   extutils.obj
+ 0001:00000c50       ?FreeImage@@YAJPAUtagGMaterialImage@@@Z 10001c50 f   extutils.obj
+ 0001:00000d80       ?FreeTexture@@YAJPAUtagGMaterialTexture@@@Z 10001d80 f   extutils.obj
+ 0001:00000dc0       ?FreeSkybox@@YAJPAUtagGMaterialSkybox@@@Z 10001dc0 f   extutils.obj
+ 0001:00000e30       ?FreeExtensions@@YAJPAPAUtagGMaterialExtended@@@Z 10001e30 f   extutils.obj
+ 0001:00000ef0       ?SetTextureFilename@@YAJPAUtagGMaterialSurface@@PA_WKPAPAUtagGMaterialExtended@@@Z 10001ef0 f   extutils.obj
+ 0001:000010f0       ?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z 100020f0 f   extutils.obj
+ 0001:000015c0       _IsEqualGUID               100025c0 f i hstyl3ds.obj
+ 0001:00001660       ?Initialize@HStyle3ds@@QAEKXZ 10002660 f   hstyl3ds.obj
+ 0001:00001660       ?Initialize@HStyle3d@@QAEKXZ 10002660 f   hstyle3d.obj
+ 0001:00001670       ?QueryInterface@HStyle3ds@@UAGJABU_GUID@@PAPAX@Z 10002670 f   hstyl3ds.obj
+ 0001:00001760       ?AddRef@IHelperImp@HStyle3ds@@UAGKXZ 10002760 f   hstyl3ds.obj
+ 0001:00001780       ?Release@IHelperImp@HStyle3ds@@UAGKXZ 10002780 f   hstyl3ds.obj
+ 0001:000017a0       ?Bind@IHelperImp@HStyle3ds@@UAGJPAUIUnknown@@@Z 100027a0 f   hstyl3ds.obj
+ 0001:000017d0       ?GetBinding@IHelperImp@HStyle3ds@@UAGJPAPAUIUnknown@@@Z 100027d0 f   hstyl3ds.obj
+ 0001:000017f0       ?SetParent@IHelperImp@HStyle3ds@@UAGJPAUIUnknown@@@Z 100027f0 f   hstyl3ds.obj
+ 0001:00001810       ?GetClassID@IHelperImp@HStyle3ds@@UAGJPAU_GUID@@@Z 10002810 f   hstyl3ds.obj
+ 0001:00001840       ?QueryInterface@IHStyle3dsImp@HStyle3ds@@UAGJABU_GUID@@PAPAX@Z 10002840 f   hstyl3ds.obj
+ 0001:00001860       ?AddRef@IHStyle3dsImp@HStyle3ds@@UAGKXZ 10002860 f   hstyl3ds.obj
+ 0001:00001880       ?Release@IHStyle3dsImp@HStyle3ds@@UAGKXZ 10002880 f   hstyl3ds.obj
+ 0001:000018a0       ?Item@IHStyle3dsImp@HStyle3ds@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 100028a0 f   hstyl3ds.obj
+ 0001:000018e0       ?get_Application@IHStyle3dsImp@HStyle3ds@@UAGJPAPAUIUnknown@@@Z 100028e0 f   hstyl3ds.obj
+ 0001:00001900       ?get_Parent@IHStyle3dsImp@HStyle3ds@@UAGJPAPAUIUnknown@@@Z 10002900 f   hstyl3ds.obj
+ 0001:00001930       ?GetStyleByID@IHStyle3dsImp@HStyle3ds@@UAGJJPAPAUIUnknown@@@Z 10002930 f   hstyl3ds.obj
+ 0001:00001960       ??1HStyle3ds@@QAE@XZ       10002960 f   hstyl3ds.obj
+ 0001:00001990       ?_NewEnum@IHStyle3dsImp@HStyle3ds@@UAGJPAPAUIUnknown@@@Z 10002990 f   hstyl3ds.obj
+ 0001:00001aa0       ?get_Count@IHStyle3dsImp@HStyle3ds@@UAGJPAJ@Z 10002aa0 f   hstyl3ds.obj
+ 0001:00001be0       ?Add@IHStyle3dsImp@HStyle3ds@@UAGJPA_W0PAPAUIUnknown@@@Z 10002be0 f   hstyl3ds.obj
+ 0001:00001d90       ?Remove@IHStyle3dsImp@HStyle3ds@@UAGJPA_W@Z 10002d90 f   hstyl3ds.obj
+ 0001:00001e80       ??0HStyle3ds@@QAE@PAUIUnknown@@@Z 10002e80 f   hstyl3ds.obj
+ 0001:00001eb0       ?Release@HStyle3ds@@UAGKXZ 10002eb0 f   hstyl3ds.obj
+ 0001:00001f00       ??H@YA?AUtagGVector@@ABU0@0@Z 10002f00 f i hstyle3d.obj
+ 0001:00001f40       ??D@YA?AUtagGVector@@ABU0@N@Z 10002f40 f i hstyle3d.obj
+ 0001:00001f80       ?Normalize@@YA?AUtagGUnitVector@@ABUtagGVector@@@Z 10002f80 f i hstyle3d.obj
+ 0001:00001fb0       ?AddRef@HStyle3d@@UAGKXZ   10002fb0 f   hstyle3d.obj
+ 0001:00001fb0       ?AddRef@HStyle3ds@@UAGKXZ  10002fb0 f   hstyl3ds.obj
+ 0001:00001fc0       ?QueryInterface@HStyle3d@@UAGJABU_GUID@@PAPAX@Z 10002fc0 f   hstyle3d.obj
+ 0001:00002050       ?QueryInterface@IHelperImp@HStyle3d@@UAGJABU_GUID@@PAPAX@Z 10003050 f   hstyle3d.obj
+ 0001:00002070       ?AddRef@IHelperImp@HStyle3d@@UAGKXZ 10003070 f   hstyle3d.obj
+ 0001:00002090       ?Release@IHelperImp@HStyle3d@@UAGKXZ 10003090 f   hstyle3d.obj
+ 0001:000020b0       ?Bind@IHelperImp@HStyle3d@@UAGJPAUIUnknown@@@Z 100030b0 f   hstyle3d.obj
+ 0001:000020d0       ?GetBinding@IHelperImp@HStyle3d@@UAGJPAPAUIUnknown@@@Z 100030d0 f   hstyle3d.obj
+ 0001:000020f0       ?SetParent@IHelperImp@HStyle3d@@UAGJPAUIUnknown@@@Z 100030f0 f   hstyle3d.obj
+ 0001:00002110       ?GetClassID@IHelperImp@HStyle3d@@UAGJPAU_GUID@@@Z 10003110 f   hstyle3d.obj
+ 0001:00002140       ?QueryInterface@IHelperImp@HStyle3ds@@UAGJABU_GUID@@PAPAX@Z 10003140 f   hstyl3ds.obj
+ 0001:00002140       ?QueryInterface@IHStyle3dImp@HStyle3d@@UAGJABU_GUID@@PAPAX@Z 10003140 f   hstyle3d.obj
+ 0001:00002160       ?AddRef@IHStyle3dImp@HStyle3d@@UAGKXZ 10003160 f   hstyle3d.obj
+ 0001:00002180       ?Release@IHStyle3dImp@HStyle3d@@UAGKXZ 10003180 f   hstyle3d.obj
+ 0001:000021a0       ?CompareStyle3ds@HStyle3d@@IAEXQAUtagGMaterial@@0PAK@Z 100031a0 f   hstyle3d.obj
+ 0001:00002450       ??1HStyle3d@@QAE@XZ        10003450 f   hstyle3d.obj
+ 0001:00002550       ?get_StyleName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 10003550 f   hstyle3d.obj
+ 0001:00002680       ?put_StyleName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 10003680 f   hstyle3d.obj
+ 0001:00002700       ?get_Parent@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 10003700 f   hstyle3d.obj
+ 0001:000028c0       ?put_Parent@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 100038c0 f   hstyle3d.obj
+ 0001:000029b0       ?Delete@IHStyle3dImp@HStyle3d@@UAGJXZ 100039b0 f   hstyle3d.obj
+ 0001:00002a30       ?BeginPropertyBuffer@HStyle3d@@IAEJXZ 10003a30 f   hstyle3d.obj
+ 0001:00002ac0       ?AllocateWireframe@HStyle3d@@IAEJXZ 10003ac0 f   hstyle3d.obj
+ 0001:00002c10       ?AllocateSurface@HStyle3d@@IAEJXZ 10003c10 f   hstyle3d.obj
+ 0001:00002d50       ?SetOverrideFlags@HStyle3d@@IAEJXZ 10003d50 f   hstyle3d.obj
+ 0001:00002ec0       ?get_StyleID@IHStyle3dImp@HStyle3d@@UAGJPAJ@Z 10003ec0 f   hstyle3d.obj
+ 0001:00002fb0       ??0HStyle3d@@QAE@PAUIUnknown@@@Z 10003fb0 f   hstyle3d.obj
+ 0001:00003000       ?Release@HStyle3d@@UAGKXZ  10004000 f   hstyle3d.obj
+ 0001:00003060       ?BeginPropertyBuffer@IHStyle3dImp@HStyle3d@@UAGJXZ 10004060 f   hstyle3d.obj
+ 0001:00003080       ?FlushPropertyBuffer@HStyle3d@@IAEJXZ 10004080 f   hstyle3d.obj
+ 0001:00003160       ?get_Reflectivity@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10004160 f   hstyle3d.obj
+ 0001:000031d0       ?put_Reflectivity@IHStyle3dImp@HStyle3d@@UAGJM@Z 100041d0 f   hstyle3d.obj
+ 0001:00003280       ?get_Refraction@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10004280 f   hstyle3d.obj
+ 0001:000032f0       ?put_Refraction@IHStyle3dImp@HStyle3d@@UAGJM@Z 100042f0 f   hstyle3d.obj
+ 0001:000033a0       ?get_CastsShadows@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100043a0 f   hstyle3d.obj
+ 0001:00003410       ?put_CastsShadows@IHStyle3dImp@HStyle3d@@UAGJH@Z 10004410 f   hstyle3d.obj
+ 0001:000034a0       ?get_AcceptsShadows@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100044a0 f   hstyle3d.obj
+ 0001:00003520       ?put_AcceptsShadows@IHStyle3dImp@HStyle3d@@UAGJH@Z 10004520 f   hstyle3d.obj
+ 0001:000035b0       ?get_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 100045b0 f   hstyle3d.obj
+ 0001:000036d0       ?put_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 100046d0 f   hstyle3d.obj
+ 0001:00003900       ?get_TextureTransparent@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10004900 f   hstyle3d.obj
+ 0001:00003970       ?put_TextureTransparent@IHStyle3dImp@HStyle3d@@UAGJH@Z 10004970 f   hstyle3d.obj
+ 0001:000039e0       ?get_TextureTransparentColorRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100049e0 f   hstyle3d.obj
+ 0001:00003a50       ?put_TextureTransparentColorRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 10004a50 f   hstyle3d.obj
+ 0001:00003ae0       ?get_TextureTransparentColorGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10004ae0 f   hstyle3d.obj
+ 0001:00003b50       ?put_TextureTransparentColorGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 10004b50 f   hstyle3d.obj
+ 0001:00003be0       ?get_TextureTransparentColorBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10004be0 f   hstyle3d.obj
+ 0001:00003c50       ?put_TextureTransparentColorBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 10004c50 f   hstyle3d.obj
+ 0001:00003ce0       ?GetTextureTransparentColor@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 10004ce0 f   hstyle3d.obj
+ 0001:00003d60       ?SetTextureTransparentColor@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10004d60 f   hstyle3d.obj
+ 0001:00003e50       ?get_TextureUnits@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10004e50 f   hstyle3d.obj
+ 0001:00003ec0       ?put_TextureUnits@IHStyle3dImp@HStyle3d@@UAGJH@Z 10004ec0 f   hstyle3d.obj
+ 0001:00003f50       ?GetTextureScale@IHStyle3dImp@HStyle3d@@UAGJPAM0@Z 10004f50 f   hstyle3d.obj
+ 0001:00003fd0       ?SetTextureScale@IHStyle3dImp@HStyle3d@@UAGJMM@Z 10004fd0 f   hstyle3d.obj
+ 0001:00004060       ?get_TextureScaleX@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005060 f   hstyle3d.obj
+ 0001:000040d0       ?put_TextureScaleX@IHStyle3dImp@HStyle3d@@UAGJM@Z 100050d0 f   hstyle3d.obj
+ 0001:00004150       ?get_TextureScaleY@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005150 f   hstyle3d.obj
+ 0001:000041c0       ?put_TextureScaleY@IHStyle3dImp@HStyle3d@@UAGJM@Z 100051c0 f   hstyle3d.obj
+ 0001:00004240       ?GetTextureOffset@IHStyle3dImp@HStyle3d@@UAGJPAM0@Z 10005240 f   hstyle3d.obj
+ 0001:000042c0       ?SetTextureOffset@IHStyle3dImp@HStyle3d@@UAGJMM@Z 100052c0 f   hstyle3d.obj
+ 0001:00004330       ?get_TextureOffsetX@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005330 f   hstyle3d.obj
+ 0001:000043a0       ?put_TextureOffsetX@IHStyle3dImp@HStyle3d@@UAGJM@Z 100053a0 f   hstyle3d.obj
+ 0001:00004420       ?get_TextureOffsetY@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005420 f   hstyle3d.obj
+ 0001:00004490       ?put_TextureOffsetY@IHStyle3dImp@HStyle3d@@UAGJM@Z 10005490 f   hstyle3d.obj
+ 0001:00004510       ?get_TextureMirrorX@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10005510 f   hstyle3d.obj
+ 0001:00004580       ?put_TextureMirrorX@IHStyle3dImp@HStyle3d@@UAGJH@Z 10005580 f   hstyle3d.obj
+ 0001:000045f0       ?get_TextureMirrorY@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100055f0 f   hstyle3d.obj
+ 0001:00004660       ?put_TextureMirrorY@IHStyle3dImp@HStyle3d@@UAGJH@Z 10005660 f   hstyle3d.obj
+ 0001:000046d0       ?get_TextureRotation@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100056d0 f   hstyle3d.obj
+ 0001:00004740       ?put_TextureRotation@IHStyle3dImp@HStyle3d@@UAGJM@Z 10005740 f   hstyle3d.obj
+ 0001:000047c0       ?get_TextureWeight@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100057c0 f   hstyle3d.obj
+ 0001:00004830       ?put_TextureWeight@IHStyle3dImp@HStyle3d@@UAGJM@Z 10005830 f   hstyle3d.obj
+ 0001:000048c0       ?get_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 100058c0 f   hstyle3d.obj
+ 0001:000049e0       ?put_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 100059e0 f   hstyle3d.obj
+ 0001:00004c10       ?get_BumpmapUnits@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10005c10 f   hstyle3d.obj
+ 0001:00004c80       ?put_BumpmapUnits@IHStyle3dImp@HStyle3d@@UAGJH@Z 10005c80 f   hstyle3d.obj
+ 0001:00004d10       ?GetBumpmapScale@IHStyle3dImp@HStyle3d@@UAGJPAM0@Z 10005d10 f   hstyle3d.obj
+ 0001:00004d90       ?SetBumpmapScale@IHStyle3dImp@HStyle3d@@UAGJMM@Z 10005d90 f   hstyle3d.obj
+ 0001:00004e20       ?get_BumpmapScaleX@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005e20 f   hstyle3d.obj
+ 0001:00004e90       ?put_BumpmapScaleX@IHStyle3dImp@HStyle3d@@UAGJM@Z 10005e90 f   hstyle3d.obj
+ 0001:00004f10       ?get_BumpmapScaleY@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10005f10 f   hstyle3d.obj
+ 0001:00004f80       ?put_BumpmapScaleY@IHStyle3dImp@HStyle3d@@UAGJM@Z 10005f80 f   hstyle3d.obj
+ 0001:00005000       ?GetBumpmapOffset@IHStyle3dImp@HStyle3d@@UAGJPAM0@Z 10006000 f   hstyle3d.obj
+ 0001:00005080       ?SetBumpmapOffset@IHStyle3dImp@HStyle3d@@UAGJMM@Z 10006080 f   hstyle3d.obj
+ 0001:000050f0       ?get_BumpmapOffsetX@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100060f0 f   hstyle3d.obj
+ 0001:00005160       ?put_BumpmapOffsetX@IHStyle3dImp@HStyle3d@@UAGJM@Z 10006160 f   hstyle3d.obj
+ 0001:000051e0       ?get_BumpmapOffsetY@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100061e0 f   hstyle3d.obj
+ 0001:00005250       ?put_BumpmapOffsetY@IHStyle3dImp@HStyle3d@@UAGJM@Z 10006250 f   hstyle3d.obj
+ 0001:000052d0       ?get_BumpmapMirrorX@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100062d0 f   hstyle3d.obj
+ 0001:00005340       ?put_BumpmapMirrorX@IHStyle3dImp@HStyle3d@@UAGJH@Z 10006340 f   hstyle3d.obj
+ 0001:000053b0       ?get_BumpmapMirrorY@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100063b0 f   hstyle3d.obj
+ 0001:00005420       ?put_BumpmapMirrorY@IHStyle3dImp@HStyle3d@@UAGJH@Z 10006420 f   hstyle3d.obj
+ 0001:00005490       ?get_BumpmapRotation@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10006490 f   hstyle3d.obj
+ 0001:00005500       ?put_BumpmapRotation@IHStyle3dImp@HStyle3d@@UAGJM@Z 10006500 f   hstyle3d.obj
+ 0001:00005580       ?get_BumpmapHeight@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10006580 f   hstyle3d.obj
+ 0001:000055f0       ?put_BumpmapHeight@IHStyle3dImp@HStyle3d@@UAGJM@Z 100065f0 f   hstyle3d.obj
+ 0001:000056a0       ?get_BumpmapInvert@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100066a0 f   hstyle3d.obj
+ 0001:000056e0       ?put_BumpmapInvert@IHStyle3dImp@HStyle3d@@UAGJH@Z 100066e0 f   hstyle3d.obj
+ 0001:00005770       ?get_SkyboxType@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10006770 f   hstyle3d.obj
+ 0001:00005820       ?put_SkyboxType@IHStyle3dImp@HStyle3d@@UAGJH@Z 10006820 f   hstyle3d.obj
+ 0001:00005940       ?get_SkyboxAzimuth@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10006940 f   hstyle3d.obj
+ 0001:000059f0       ?put_SkyboxAzimuth@IHStyle3dImp@HStyle3d@@UAGJM@Z 100069f0 f   hstyle3d.obj
+ 0001:00005e10       ?get_SkyboxAltitude@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10006e10 f   hstyle3d.obj
+ 0001:00005f00       ?put_SkyboxAltitude@IHStyle3dImp@HStyle3d@@UAGJM@Z 10006f00 f   hstyle3d.obj
+ 0001:00006330       ?get_SkyboxRoll@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10007330 f   hstyle3d.obj
+ 0001:000064d0       ?put_SkyboxRoll@IHStyle3dImp@HStyle3d@@UAGJM@Z 100074d0 f   hstyle3d.obj
+ 0001:00006800       ?get_SkyboxConeAngle@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10007800 f   hstyle3d.obj
+ 0001:000068e0       ?put_SkyboxConeAngle@IHStyle3dImp@HStyle3d@@UAGJM@Z 100078e0 f   hstyle3d.obj
+ 0001:000069d0       ?SetSkyboxSkyFile@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 100079d0 f   hstyle3d.obj
+ 0001:00006a50       ?GetSkyboxSideFilename@IHStyle3dImp@HStyle3d@@UAGJHPAPA_W@Z 10007a50 f   hstyle3d.obj
+ 0001:00006b20       ?SetSkyboxSideFilename@IHStyle3dImp@HStyle3d@@UAGJHPA_W@Z 10007b20 f   hstyle3d.obj
+ 0001:00006de0       ?SkyboxClear@IHStyle3dImp@HStyle3d@@UAGJH@Z 10007de0 f   hstyle3d.obj
+ 0001:00006f50       ?SkyboxClearAll@IHStyle3dImp@HStyle3d@@UAGJXZ 10007f50 f   hstyle3d.obj
+ 0001:00007030       ?FlushPropertyBuffer@IHStyle3dImp@HStyle3d@@UAGJXZ 10008030 f   hstyle3d.obj
+ 0001:00007050       ?HasWireframeProperties@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 10008050 f   hstyle3d.obj
+ 0001:000070a0       ?HasSurfaceProperties@IHStyle3dImp@HStyle3d@@UAGJPAH@Z 100080a0 f   hstyle3d.obj
+ 0001:000070f0       ?ClearWireframeProperties@IHStyle3dImp@HStyle3d@@UAGJXZ 100080f0 f   hstyle3d.obj
+ 0001:00007190       ?ClearSurfaceProperties@IHStyle3dImp@HStyle3d@@UAGJXZ 10008190 f   hstyle3d.obj
+ 0001:00007230       ?get_Type@IHStyle3dImp@HStyle3d@@UAGJPAJ@Z 10008230 f   hstyle3d.obj
+ 0001:00007280       ?put_Type@IHStyle3dImp@HStyle3d@@UAGJJ@Z 10008280 f   hstyle3d.obj
+ 0001:000072f0       ?get_Flags@IHStyle3dImp@HStyle3d@@UAGJPAJ@Z 100082f0 f   hstyle3d.obj
+ 0001:00007340       ?put_Flags@IHStyle3dImp@HStyle3d@@UAGJJ@Z 10008340 f   hstyle3d.obj
+ 0001:000073b0       ?GetWireframeColor@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 100083b0 f   hstyle3d.obj
+ 0001:00007460       ?SetWireframeColor@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10008460 f   hstyle3d.obj
+ 0001:000075e0       ?get_WireframeColorRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100085e0 f   hstyle3d.obj
+ 0001:00007640       ?put_WireframeColorRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 10008640 f   hstyle3d.obj
+ 0001:00007720       ?get_WireframeColorGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10008720 f   hstyle3d.obj
+ 0001:00007790       ?put_WireframeColorGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 10008790 f   hstyle3d.obj
+ 0001:00007870       ?get_WireframeColorBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10008870 f   hstyle3d.obj
+ 0001:000078e0       ?put_WireframeColorBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 100088e0 f   hstyle3d.obj
+ 0001:000079c0       ?get_StipplePattern@IHStyle3dImp@HStyle3d@@UAGJPAJ@Z 100089c0 f   hstyle3d.obj
+ 0001:00007a20       ?put_StipplePattern@IHStyle3dImp@HStyle3d@@UAGJJ@Z 10008a20 f   hstyle3d.obj
+ 0001:00007a90       ?get_StippleScale@IHStyle3dImp@HStyle3d@@UAGJPAF@Z 10008a90 f   hstyle3d.obj
+ 0001:00007af0       ?put_StippleScale@IHStyle3dImp@HStyle3d@@UAGJF@Z 10008af0 f   hstyle3d.obj
+ 0001:00007b60       ?get_LineWidth@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10008b60 f   hstyle3d.obj
+ 0001:00007bc0       ?put_LineWidth@IHStyle3dImp@HStyle3d@@UAGJM@Z 10008bc0 f   hstyle3d.obj
+ 0001:00007c40       ?get_WidthSpace@IHStyle3dImp@HStyle3d@@UAGJPAF@Z 10008c40 f   hstyle3d.obj
+ 0001:00007cb0       ?put_WidthSpace@IHStyle3dImp@HStyle3d@@UAGJF@Z 10008cb0 f   hstyle3d.obj
+ 0001:00007d50       ?GetDiffuse@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 10008d50 f   hstyle3d.obj
+ 0001:00007dd0       ?SetDiffuse@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10008dd0 f   hstyle3d.obj
+ 0001:00007ed0       ?get_DiffuseRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10008ed0 f   hstyle3d.obj
+ 0001:00007f30       ?put_DiffuseRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 10008f30 f   hstyle3d.obj
+ 0001:00007fc0       ?get_DiffuseGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10008fc0 f   hstyle3d.obj
+ 0001:00008020       ?put_DiffuseGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009020 f   hstyle3d.obj
+ 0001:000080b0       ?get_DiffuseBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 100090b0 f   hstyle3d.obj
+ 0001:00008110       ?put_DiffuseBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009110 f   hstyle3d.obj
+ 0001:000081a0       ?GetSpecular@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 100091a0 f   hstyle3d.obj
+ 0001:00008220       ?SetSpecular@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10009220 f   hstyle3d.obj
+ 0001:00008320       ?get_SpecularRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009320 f   hstyle3d.obj
+ 0001:00008380       ?put_SpecularRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009380 f   hstyle3d.obj
+ 0001:00008410       ?get_SpecularGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009410 f   hstyle3d.obj
+ 0001:00008470       ?put_SpecularGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009470 f   hstyle3d.obj
+ 0001:00008500       ?get_SpecularBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009500 f   hstyle3d.obj
+ 0001:00008560       ?put_SpecularBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009560 f   hstyle3d.obj
+ 0001:000085f0       ?GetAmbient@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 100095f0 f   hstyle3d.obj
+ 0001:00008670       ?SetAmbient@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10009670 f   hstyle3d.obj
+ 0001:00008770       ?get_AmbientRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009770 f   hstyle3d.obj
+ 0001:000087d0       ?put_AmbientRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 100097d0 f   hstyle3d.obj
+ 0001:00008860       ?get_AmbientGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009860 f   hstyle3d.obj
+ 0001:000088c0       ?put_AmbientGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 100098c0 f   hstyle3d.obj
+ 0001:00008950       ?get_AmbientBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009950 f   hstyle3d.obj
+ 0001:000089b0       ?put_AmbientBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 100099b0 f   hstyle3d.obj
+ 0001:00008a40       ?GetEmission@IHStyle3dImp@HStyle3d@@UAGJPAM00@Z 10009a40 f   hstyle3d.obj
+ 0001:00008ac0       ?SetEmission@IHStyle3dImp@HStyle3d@@UAGJMMM@Z 10009ac0 f   hstyle3d.obj
+ 0001:00008bc0       ?get_EmissionRed@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009bc0 f   hstyle3d.obj
+ 0001:00008c20       ?put_EmissionRed@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009c20 f   hstyle3d.obj
+ 0001:00008cb0       ?get_EmissionGreen@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009cb0 f   hstyle3d.obj
+ 0001:00008d10       ?put_EmissionGreen@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009d10 f   hstyle3d.obj
+ 0001:00008da0       ?get_EmissionBlue@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009da0 f   hstyle3d.obj
+ 0001:00008e00       ?put_EmissionBlue@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009e00 f   hstyle3d.obj
+ 0001:00008e90       ?get_Shininess@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009e90 f   hstyle3d.obj
+ 0001:00008ef0       ?put_Shininess@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009ef0 f   hstyle3d.obj
+ 0001:00008f80       ?get_Opacity@IHStyle3dImp@HStyle3d@@UAGJPAM@Z 10009f80 f   hstyle3d.obj
+ 0001:00008fe0       ?put_Opacity@IHStyle3dImp@HStyle3d@@UAGJM@Z 10009fe0 f   hstyle3d.obj
+ 0001:00009070       ?ServerGetNumberOfObjects@@YAKXZ 1000a070 f   server.obj
+ 0001:00009080       ?ServerGetNumberOfLocks@@YAKXZ 1000a080 f   server.obj
+ 0001:00009090       ?ServerIncrementNumberOfObjects@@YAXXZ 1000a090 f   server.obj
+ 0001:000090a0       ?ServerDecrementNumberOfObjects@@YAXXZ 1000a0a0 f   server.obj
+ 0001:000090b0       ?ServerIncrementNumberOfLocks@@YAXXZ 1000a0b0 f   server.obj
+ 0001:000090c0       ?ServerDecrementNumberOfLocks@@YAXXZ 1000a0c0 f   server.obj
+ 0001:000090d0       _DllCanUnloadNow@0         1000a0d0 f   server.obj
+ 0001:000090f0       _DllMain@12                1000a0f0 f   server.obj
+ 0001:00009120       ??0?$ClassFactory@VHStyle3d@@@@QAE@HHH@Z 1000a120 f i server.obj
+ 0001:000091a0       ?OnCreateInstance@?$ClassFactory@VHStyle3d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000a1a0 f i server.obj
+ 0001:000092f0       ??0?$ClassFactory@VHStyle3ds@@@@QAE@HHH@Z 1000a2f0 f i server.obj
+ 0001:00009370       ?OnCreateInstance@?$ClassFactory@VHStyle3ds@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000a370 f i server.obj
+ 0001:000094c0       _DllGetClassObject@12      1000a4c0 f   server.obj
+ 0001:00009610       ??_G?$ClassFactory@VHStyle3d@@@@UAEPAXI@Z 1000a610 f i server.obj
+ 0001:00009610       ??_E?$ClassFactory@VHStyle3d@@@@UAEPAXI@Z 1000a610 f i server.obj
+ 0001:00009670       ??_G?$ClassFactory@VHStyle3ds@@@@UAEPAXI@Z 1000a670 f i server.obj
+ 0001:00009670       ??_E?$ClassFactory@VHStyle3ds@@@@UAEPAXI@Z 1000a670 f i server.obj
+ 0001:000096cc       ?HCollectionStyles@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@@Z 1000a6cc f   daxutil:Daxutil.dll
+ 0001:000096d2       ?HStylesCollectionStyleByID@@YAJPAUIUnknown@@ABU_GUID@@JPAPAU1@@Z 1000a6d2 f   daxutil:Daxutil.dll
+ 0001:000096d8       ?HStylesCollection_NewEnum@@YAJPAUIEnumUnknown@@P6AJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@ZPAPAU3@@Z 1000a6d8 f   daxutil:Daxutil.dll
+ 0001:000096de       ?HNextStylesEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 1000a6de f   daxutil:Daxutil.dll
+ 0001:000096e4       _HGetStyleManager@8        1000a6e4 f   daxutil:Daxutil.dll
+ 0001:000096ea       _HGetBinding@12            1000a6ea f   jengine:jengine.dll
+ 0001:000096f0       _HBindCollection@12        1000a6f0 f   jengine:jengine.dll
+ 0001:000096f6       _JQueryApplication         1000a6f6 f   jengine:jengine.dll
+ 0001:000096fc       _JGetFastDAXObject@16      1000a6fc f   jengine:jengine.dll
+ 0001:00009702       _BatchFlush@0              1000a702 f   jengine:jengine.dll
+ 0001:00009708       _HAddRefObject@8           1000a708 f   jengine:jengine.dll
+ 0001:0000970e       _HReleaseObject@8          1000a70e f   jengine:jengine.dll
+ 0001:00009714       _JBindDAXObject@12         1000a714 f   jengine:jengine.dll
+ 0001:0000971a       _HSetParentObject@12       1000a71a f   jengine:jengine.dll
+ 0001:00009720       _JGetStyleManagerFromObject 1000a720 f   jengine:jengine.dll
+ 0001:00009726       _HRerrEx                   1000a726 f   jutil:JUtil.dll
+ 0001:0000972c       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000a72c f   jutil:JUtil.dll
+ 0001:00009732       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000a732 f   jutil:JUtil.dll
+ 0001:00009738       ?AddRef@JClassFactory@@UAGKXZ 1000a738 f   jutil:JUtil.dll
+ 0001:0000973e       ?Release@JClassFactory@@UAGKXZ 1000a73e f   jutil:JUtil.dll
+ 0001:00009744       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000a744 f   jutil:JUtil.dll
+ 0001:0000974a       ?LockServer@JClassFactory@@UAGJH@Z 1000a74a f   jutil:JUtil.dll
+ 0001:00009750       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000a750 f   umath:umath.dll
+ 0001:00009756       ??L@YANABUtagGVector@@0@Z  1000a756 f   umath:umath.dll
+ 0001:0000975c       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1000a75c f   umath:umath.dll
+ 0001:00009762       ??D@YA?AUtagGVector@@ABU0@0@Z 1000a762 f   umath:umath.dll
+ 0001:00009768       _malloc                    1000a768 f   MSVCRT:MSVCR80.dll
+ 0001:0000976e       __callnewh                 1000a76e f   MSVCRT:MSVCR80.dll
+ 0001:00009780       _floor                     1000a780 f   MSVCRT:MSVCR80.dll
+ 0001:00009786       _memset                    1000a786 f   MSVCRT:MSVCR80.dll
+ 0001:0000978c       ___CxxFrameHandler3        1000a78c f   MSVCRT:MSVCR80.dll
+ 0001:00009792       @__security_check_cookie@4 1000a792 f   MSVCRT:secchk.obj
+ 0001:000097a1       ??_Etype_info@@UAEPAXI@Z   1000a7a1 f i MSVCRT:ti_inst.obj
+ 0001:000097ea       ??3@YAXPAX@Z               1000a7ea f   MSVCRT:MSVCR80.dll
+ 0001:000097f0       __CIatan2                  1000a7f0 f   MSVCRT:MSVCR80.dll
+ 0001:000097f6       __CIsin                    1000a7f6 f   MSVCRT:MSVCR80.dll
+ 0001:000097fc       __CIcos                    1000a7fc f   MSVCRT:MSVCR80.dll
+ 0001:00009802       __CIasin                   1000a802 f   MSVCRT:MSVCR80.dll
+ 0001:00009855       __CRT_INIT@12              1000a855 f   MSVCRT:crtdll.obj
+ 0001:00009b0a       __DllMainCRTStartup@12     1000ab0a f   MSVCRT:crtdll.obj
+ 0001:00009b2b       ___report_gsfailure        1000ab2b f   MSVCRT:gs_report.obj
+ 0001:00009c2f       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000ac2f f   MSVCRT:ehvecdtr.obj
+ 0001:00009c8d       ??_M@YGXPAXIHP6EX0@Z@Z     1000ac8d f   MSVCRT:ehvecdtr.obj
+ 0001:00009cf0       ___clean_type_info_names   1000acf0 f   MSVCRT:tncleanup.obj
+ 0001:00009cfc       __onexit                   1000acfc f   MSVCRT:atonexit.obj
+ 0001:00009d9b       _atexit                    1000ad9b f   MSVCRT:atonexit.obj
+ 0001:00009dad       __RTC_Initialize           1000adad f   MSVCRT:initsect.obj
+ 0001:00009dd1       __RTC_Terminate            1000add1 f   MSVCRT:initsect.obj
+ 0001:00009e00       __ValidateImageBase        1000ae00 f   MSVCRT:pesect.obj
+ 0001:00009e30       __FindPESection            1000ae30 f   MSVCRT:pesect.obj
+ 0001:00009e72       __IsNonwritableInCurrentImage 1000ae72 f   MSVCRT:pesect.obj
+ 0001:00009ede       __initterm                 1000aede f   MSVCRT:MSVCR80.dll
+ 0001:00009ee4       __initterm_e               1000aee4 f   MSVCRT:MSVCR80.dll
+ 0001:00009eea       __amsg_exit                1000aeea f   MSVCRT:MSVCR80.dll
+ 0001:00009ef0       ___CppXcptFilter           1000aef0 f   MSVCRT:MSVCR80.dll
+ 0001:00009ef8       __SEH_prolog4              1000aef8 f   MSVCRT:sehprolg4.obj
+ 0001:00009f3d       __SEH_epilog4              1000af3d f   MSVCRT:sehprolg4.obj
+ 0001:00009f51       __except_handler4          1000af51 f   MSVCRT:chandler4gs.obj
+ 0001:00009f74       ___security_init_cookie    1000af74 f   MSVCRT:gs_support.obj
+ 0001:0000a008       __crt_debugger_hook        1000b008 f   MSVCRT:MSVCR80.dll
+ 0001:0000a00e       ?terminate@@YAXXZ          1000b00e f   MSVCRT:MSVCR80.dll
+ 0001:0000a014       ??1type_info@@UAE@XZ       1000b014 f   MSVCRT:MSVCR80.dll
+ 0001:0000a014       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000b014 f   MSVCRT:MSVCR80.dll
+ 0001:0000a01a       ___clean_type_info_names_internal 1000b01a f   MSVCRT:MSVCR80.dll
+ 0001:0000a020       __unlock                   1000b020 f   MSVCRT:MSVCR80.dll
+ 0001:0000a026       ___dllonexit               1000b026 f   MSVCRT:MSVCR80.dll
+ 0001:0000a02c       __lock                     1000b02c f   MSVCRT:MSVCR80.dll
+ 0001:0000a032       __except_handler4_common   1000b032 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?HStylesCollectionStyleByID@@YAJPAUIUnknown@@ABU_GUID@@JPAPAU1@@Z 1000c000     daxutil:Daxutil.dll
+ 0002:00000004       __imp_?HStylesCollection_NewEnum@@YAJPAUIEnumUnknown@@P6AJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@ZPAPAU3@@Z 1000c004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?HNextStylesEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 1000c008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp__HGetStyleManager@8  1000c00c     daxutil:Daxutil.dll
+ 0002:00000010       __imp_?HCollectionStyles@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@@Z 1000c010     daxutil:Daxutil.dll
+ 0002:00000014       \177Daxutil_NULL_THUNK_DATA 1000c014     daxutil:Daxutil.dll
+ 0002:00000018       __imp_?LockServer@JClassFactory@@UAGJH@Z 1000c018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000c01c     jutil:JUtil.dll
+ 0002:00000020       __imp_?Release@JClassFactory@@UAGKXZ 1000c020     jutil:JUtil.dll
+ 0002:00000024       __imp_?AddRef@JClassFactory@@UAGKXZ 1000c024     jutil:JUtil.dll
+ 0002:00000028       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000c028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000c02c     jutil:JUtil.dll
+ 0002:00000030       __imp_??1JClassFactory@@UAE@XZ 1000c030     jutil:JUtil.dll
+ 0002:00000034       __imp_??4GUserText@@QAEAAV0@PB_W@Z 1000c034     jutil:JUtil.dll
+ 0002:00000038       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000c038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??0GUserText@@QAE@XZ 1000c03c     jutil:JUtil.dll
+ 0002:00000040       __imp_??BGUserText@@QBEPBDXZ 1000c040     jutil:JUtil.dll
+ 0002:00000044       __imp_??YGUserText@@QAEAAV0@PBD@Z 1000c044     jutil:JUtil.dll
+ 0002:00000048       __imp_?Right@GUserText@@QBE?AV1@H@Z 1000c048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?Left@GUserText@@QBE?AV1@H@Z 1000c04c     jutil:JUtil.dll
+ 0002:00000050       __imp_??1GUserText@@QAE@XZ 1000c050     jutil:JUtil.dll
+ 0002:00000054       __imp_??0GUserText@@QAE@ABV0@@Z 1000c054     jutil:JUtil.dll
+ 0002:00000058       __imp_??0GUserText@@QAE@PBDHI@Z 1000c058     jutil:JUtil.dll
+ 0002:0000005c       __imp_?ReverseFind@GUserText@@QBEH_W@Z 1000c05c     jutil:JUtil.dll
+ 0002:00000060       __imp_??0GUserText@@QAE@PB_WHH@Z 1000c060     jutil:JUtil.dll
+ 0002:00000064       __imp__HRerrEx             1000c064     jutil:JUtil.dll
+ 0002:00000068       __imp_?TrimTrailingWhiteSpace@GUserText@@QAEXXZ 1000c068     jutil:JUtil.dll
+ 0002:0000006c       __imp_??4GUserText@@QAEAAV0@PBD@Z 1000c06c     jutil:JUtil.dll
+ 0002:00000070       __imp_??9@YA_NABVGUserText@@0@Z 1000c070     jutil:JUtil.dll
+ 0002:00000074       __imp_?ToLower@GUserText@@QAEHH@Z 1000c074     jutil:JUtil.dll
+ 0002:00000078       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 1000c078     jutil:JUtil.dll
+ 0002:0000007c       \177JUtil_NULL_THUNK_DATA  1000c07c     jutil:JUtil.dll
+ 0002:00000080       __imp__GetCurrentProcess@0 1000c080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__UnhandledExceptionFilter@4 1000c084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__SetUnhandledExceptionFilter@4 1000c088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__IsDebuggerPresent@0 1000c08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__QueryPerformanceCounter@4 1000c090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetTickCount@0      1000c094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetCurrentThreadId@0 1000c098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__GetCurrentProcessId@0 1000c09c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetSystemTimeAsFileTime@4 1000c0a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__Sleep@4             1000c0a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__TerminateProcess@8  1000c0a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__InterlockedCompareExchange@12 1000c0ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__InterlockedExchange@8 1000c0b0     kernel32:KERNEL32.dll
+ 0002:000000b4       \177KERNEL32_NULL_THUNK_DATA 1000c0b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp___stricmp            1000c0b8     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp__stricmp             1000c0b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___except_handler4_common 1000c0bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___onexit             1000c0c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___lock               1000c0c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp____dllonexit         1000c0c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___unlock             1000c0cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__malloc              1000c0d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___callnewh           1000c0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__floor               1000c0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__memset              1000c0dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp__fclose              1000c0e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__getc                1000c0e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp__ungetc              1000c0e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp__fscanf              1000c0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__fopen               1000c0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp____CxxFrameHandler3  1000c0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp__strcpy_s            1000c0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp__fgets               1000c0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp_??3@YAXPAX@Z         1000c100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__free                1000c104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___CIatan2            1000c108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___CIsin              1000c10c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___CIcos              1000c110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___CIasin             1000c114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___encode_pointer     1000c118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___malloc_crt         1000c11c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___encoded_null       1000c120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___decode_pointer     1000c124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___initterm           1000c128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___initterm_e         1000c12c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp___amsg_exit          1000c130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___adjust_fdiv        1000c134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp____CppXcptFilter     1000c138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___crt_debugger_hook  1000c13c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp_?terminate@@YAXXZ    1000c140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000c144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp____clean_type_info_names_internal 1000c148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp__access              1000c14c     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp___access             1000c14c     MSVCRT:MSVCR80.dll
+ 0002:00000150       \177MSVCR80_NULL_THUNK_DATA 1000c150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp__HGetBinding@12      1000c154     jengine:jengine.dll
+ 0002:00000158       __imp__HBindCollection@12  1000c158     jengine:jengine.dll
+ 0002:0000015c       __imp__JQueryApplication   1000c15c     jengine:jengine.dll
+ 0002:00000160       __imp__JGetFastDAXObject@16 1000c160     jengine:jengine.dll
+ 0002:00000164       __imp__BatchFlush@0        1000c164     jengine:jengine.dll
+ 0002:00000168       __imp__HAddRefObject@8     1000c168     jengine:jengine.dll
+ 0002:0000016c       __imp__HReleaseObject@8    1000c16c     jengine:jengine.dll
+ 0002:00000170       __imp__JBindDAXObject@12   1000c170     jengine:jengine.dll
+ 0002:00000174       __imp__JGetStyleManagerFromObject 1000c174     jengine:jengine.dll
+ 0002:00000178       __imp__HSetParentObject@12 1000c178     jengine:jengine.dll
+ 0002:0000017c       \177jengine_NULL_THUNK_DATA 1000c17c     jengine:jengine.dll
+ 0002:00000180       __imp__JSESysFreeString@4  1000c180     sealloc:sealloc.dll
+ 0002:00000184       __imp__JSESysAllocString@4 1000c184     sealloc:sealloc.dll
+ 0002:00000188       __imp__JCoGetMalloc@8      1000c188     sealloc:sealloc.dll
+ 0002:0000018c       \177sealloc_NULL_THUNK_DATA 1000c18c     sealloc:sealloc.dll
+ 0002:00000190       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1000c190     umath:umath.dll
+ 0002:00000194       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1000c194     umath:umath.dll
+ 0002:00000198       __imp_??L@YANABUtagGVector@@0@Z 1000c198     umath:umath.dll
+ 0002:0000019c       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000c19c     umath:umath.dll
+ 0002:000001a0       \177umath_NULL_THUNK_DATA  1000c1a0     umath:umath.dll
+ 0002:000001a4       ___xc_a                    1000c1a4     MSVCRT:cinitexe.obj
+ 0002:000001f8       ___xc_z                    1000c1f8     MSVCRT:cinitexe.obj
+ 0002:000001fc       ___xi_a                    1000c1fc     MSVCRT:cinitexe.obj
+ 0002:00000204       ___xi_z                    1000c204     MSVCRT:cinitexe.obj
+ 0002:0000022c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000c22c     extutils.obj
+ 0002:00000240       __real@406fe00000000000    1000c240     extutils.obj
+ 0002:00000248       __real@bf800000            1000c248     extutils.obj
+ 0002:00000250       __real@4076800000000000    1000c250     extutils.obj
+ 0002:00000258       __real@43b40000            1000c258     extutils.obj
+ 0002:0000025c       __real@42700000            1000c25c     extutils.obj
+ 0002:00000260       ??_C@_0BE@DICCHPIE@?$CF255s?5?$CFf?5?$CFf?5?$CF?$CK?$FL?$FO?6?$FN?6?$AA@ 1000c260     extutils.obj
+ 0002:00000274       ??_C@_0BI@DGBKGAFI@?$CF255?$FL?$FO?$CC?$FN?$CC?5?$CFf?5?$CFf?5?$CF?$CK?$FL?$FO?6?$FN?6?$AA@ 1000c274     extutils.obj
+ 0002:0000028c       ??_C@_01KDCPPGHE@r?$AA@    1000c28c     extutils.obj
+ 0002:00000290       ??_C@_0L@MOBBPAOI@images?4idx?$AA@ 1000c290     extutils.obj
+ 0002:0000029b       ??_C@_00CNPNBAHC@?$AA@     1000c29b     extutils.obj
+ 0002:0000029c       ??_C@_0P@KAICNJDA@?4?2extutils?4cpp?$AA@ 1000c29c     extutils.obj
+ 0002:000002ac       ??_C@_09IPHMPMNJ@FreeImage?$AA@ 1000c2ac     extutils.obj
+ 0002:000002b8       ??_C@_0M@CMNPOPMC@FreeTexture?$AA@ 1000c2b8     extutils.obj
+ 0002:000002c4       ??_C@_0L@GHEIGMEI@FreeSkybox?$AA@ 1000c2c4     extutils.obj
+ 0002:000002d0       ??_C@_0P@PIMHGMEM@FreeExtensions?$AA@ 1000c2d0     extutils.obj
+ 0002:000002e0       ??_C@_0BD@KELLNGKG@SetTextureFilename?$AA@ 1000c2e0     extutils.obj
+ 0002:000002f4       ??_C@_03BNEOMJOP@sky?$AA@  1000c2f4     extutils.obj
+ 0002:000002f8       _IID_IJStyleManager        1000c2f8     guid.obj
+ 0002:00000308       _IID_IJStyleManager2       1000c308     guid.obj
+ 0002:00000318       _IID_IHelper               1000c318     guid.obj
+ 0002:00000328       _CLSID__HStyle3d           1000c328     guid.obj
+ 0002:00000338       _CLSID_JStyle3d            1000c338     guid.obj
+ 0002:00000348       _CLSID_HStyle3ds           1000c348     guid.obj
+ 0002:00000358       _IID__IHStyle3ds           1000c358     guid.obj
+ 0002:00000368       _IID__IHStyle3d            1000c368     guid.obj
+ 0002:00000380       _IID_IJStyle3d             1000c380     guid.obj
+ 0002:00000390       _CLSID_CFrameWorkDispatchObjectFactory 1000c390     guid.obj
+ 0002:000003bc       ??_7IHelperImp@HStyle3ds@@6B@ 1000c3bc     hstyl3ds.obj
+ 0002:000003dc       ??_7IHStyle3dsImp@HStyle3ds@@6B@ 1000c3dc     hstyl3ds.obj
+ 0002:0000040c       ??_7HStyle3ds@@6B@         1000c40c     hstyl3ds.obj
+ 0002:00000418       ??_C@_0P@GMBBLMMO@?4?2hstyl3ds?4cpp?$AA@ 1000c418     hstyl3ds.obj
+ 0002:00000428       ??_C@_0CD@HIEAIFBB@HStyle3ds?3?3IHStyle3dsImp?3?3_NewEn@ 1000c428     hstyl3ds.obj
+ 0002:0000044c       ??_C@_0CE@PPCHDAIN@HStyle3ds?3?3IHStyle3dsImp?3?3get_Co@ 1000c44c     hstyl3ds.obj
+ 0002:00000470       ??_C@_0BO@HMAKLCCE@HStyle3ds?3?3IHStyle3dsImp?3?3Add?$AA@ 1000c470     hstyl3ds.obj
+ 0002:00000490       ??_C@_0CB@LCKLJALG@HStyle3ds?3?3IHStyle3dsImp?3?3Remove@ 1000c490     hstyl3ds.obj
+ 0002:000004b8       ??_7IHelperImp@HStyle3d@@6B@ 1000c4b8     hstyle3d.obj
+ 0002:000004dc       ??_7IHStyle3dImp@HStyle3d@@6B@ 1000c4dc     hstyle3d.obj
+ 0002:00000748       ??_7HStyle3d@@6B@          1000c748     hstyle3d.obj
+ 0002:00000754       ??_C@_0P@HPJKDJF@?4?2hstyle3d?4cpp?$AA@ 1000c754     hstyle3d.obj
+ 0002:00000764       ??_C@_0CG@EAKEFHF@HStyle3d?3?3IHStyle3dImp?3?3get_Styl@ 1000c764     hstyle3d.obj
+ 0002:0000078c       ??_C@_0CG@LDHCHFAD@HStyle3d?3?3IHStyle3dImp?3?3put_Styl@ 1000c78c     hstyle3d.obj
+ 0002:000007b4       ??_C@_0CD@HBDOIMLN@HStyle3d?3?3IHStyle3dImp?3?3get_Pare@ 1000c7b4     hstyle3d.obj
+ 0002:000007d8       ??_C@_0CD@NBFNNMBN@HStyle3d?3?3IHStyle3dImp?3?3put_Pare@ 1000c7d8     hstyle3d.obj
+ 0002:000007fc       ??_C@_0BP@EGMMKGOB@HStyle3d?3?3IHStyle3dImp?3?3Delete?$AA@ 1000c7fc     hstyle3d.obj
+ 0002:00000820       __real@3fe0000000000000    1000c820     hstyle3d.obj
+ 0002:00000828       __real@3f666666            1000c828     hstyle3d.obj
+ 0002:0000082c       ??_C@_0BL@KJNHBAJJ@HStyle3d?3?3SetOverrideFlags?$AA@ 1000c82c     hstyle3d.obj
+ 0002:00000848       ??_C@_0CE@GLIKMEG@HStyle3d?3?3IHStyle3dImp?3?3get_Styl@ 1000c848     hstyle3d.obj
+ 0002:00000870       __real@bff0000000000000    1000c870     hstyle3d.obj
+ 0002:00000878       __real@4066800000000000    1000c878     hstyle3d.obj
+ 0002:00000880       __real@400921fb54442d18    1000c880     hstyle3d.obj
+ 0002:00000888       __real@42b40000            1000c888     hstyle3d.obj
+ 0002:0000088c       __real@c2b40000            1000c88c     hstyle3d.obj
+ 0002:00000890       __real@4056800000000000    1000c890     hstyle3d.obj
+ 0002:00000898       __real@43340000            1000c898     hstyle3d.obj
+ 0002:0000089c       __real@3f008081            1000c89c     hstyle3d.obj
+ 0002:000008a4       ??_7?$ClassFactory@VHStyle3d@@@@6B@ 1000c8a4     server.obj
+ 0002:000008c0       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 1000c8c0     server.obj
+ 0002:000008d8       ??_C@_0CP@MGBPGAOA@ClassFactory?$DMclass?5HStyle3d?$DO?3?3On@ 1000c8d8     server.obj
+ 0002:0000090c       ??_7?$ClassFactory@VHStyle3ds@@@@6B@ 1000c90c     server.obj
+ 0002:00000928       ??_C@_0DA@MLGEMOAB@ClassFactory?$DMclass?5HStyle3ds?$DO?3?3O@ 1000c928     server.obj
+ 0002:00000958       _IID_IDispatch             1000c958     uuid:oaidl_i.obj
+ 0002:00000968       _IID_IClassFactory         1000c968     uuid:unknwn_i.obj
+ 0002:00000978       _IID_IUnknown              1000c978     uuid:unknwn_i.obj
+ 0002:0000098c       ??_7type_info@@6B@         1000c98c     MSVCRT:ti_inst.obj
+ 0002:00000990       __pDefaultRawDllMain       1000c990     MSVCRT:crtdll.obj
+ 0002:00000990       __pRawDllMain              1000c990     MSVCRT:crtdll.obj
+ 0002:000009a0       __load_config_used         1000c9a0     MSVCRT:loadcfg.obj
+ 0002:00000a1c       ??_R3_IHStyle3ds@@8        1000ca1c     hstyl3ds.obj
+ 0002:00000a2c       ??_R2_IHStyle3ds@@8        1000ca2c     hstyl3ds.obj
+ 0002:00000a38       ??_R1A@?0A@EA@_IHStyle3ds@@8 1000ca38     hstyl3ds.obj
+ 0002:00000a54       ??_R1A@?0A@EA@IUnknown@@8  1000ca54     hstyl3ds.obj
+ 0002:00000a70       ??_R3IUnknown@@8           1000ca70     hstyl3ds.obj
+ 0002:00000a80       ??_R2IUnknown@@8           1000ca80     hstyl3ds.obj
+ 0002:00000a88       ??_R4IHelperImp@HStyle3ds@@6B@ 1000ca88     hstyl3ds.obj
+ 0002:00000a9c       ??_R3IHelperImp@HStyle3ds@@8 1000ca9c     hstyl3ds.obj
+ 0002:00000aac       ??_R2IHelperImp@HStyle3ds@@8 1000caac     hstyl3ds.obj
+ 0002:00000abc       ??_R1A@?0A@EA@IHelperImp@HStyle3ds@@8 1000cabc     hstyl3ds.obj
+ 0002:00000ad8       ??_R1A@?0A@EA@IHelper@@8   1000cad8     hstyl3ds.obj
+ 0002:00000af4       ??_R3IHelper@@8            1000caf4     hstyl3ds.obj
+ 0002:00000b04       ??_R2IHelper@@8            1000cb04     hstyl3ds.obj
+ 0002:00000b10       ??_R4IHStyle3dsImp@HStyle3ds@@6B@ 1000cb10     hstyl3ds.obj
+ 0002:00000b24       ??_R3IHStyle3dsImp@HStyle3ds@@8 1000cb24     hstyl3ds.obj
+ 0002:00000b34       ??_R2IHStyle3dsImp@HStyle3ds@@8 1000cb34     hstyl3ds.obj
+ 0002:00000b44       ??_R1A@?0A@EA@IHStyle3dsImp@HStyle3ds@@8 1000cb44     hstyl3ds.obj
+ 0002:00000b60       ??_R4HStyle3ds@@6B@        1000cb60     hstyl3ds.obj
+ 0002:00000b74       ??_R3HStyle3ds@@8          1000cb74     hstyl3ds.obj
+ 0002:00000b84       ??_R2HStyle3ds@@8          1000cb84     hstyl3ds.obj
+ 0002:00000b90       ??_R1A@?0A@EA@HStyle3ds@@8 1000cb90     hstyl3ds.obj
+ 0002:00000bac       ??_R3_IHStyle3d@@8         1000cbac     hstyle3d.obj
+ 0002:00000bbc       ??_R2_IHStyle3d@@8         1000cbbc     hstyle3d.obj
+ 0002:00000bc8       ??_R1A@?0A@EA@_IHStyle3d@@8 1000cbc8     hstyle3d.obj
+ 0002:00000be4       ??_R4IHelperImp@HStyle3d@@6B@ 1000cbe4     hstyle3d.obj
+ 0002:00000bf8       ??_R3IHelperImp@HStyle3d@@8 1000cbf8     hstyle3d.obj
+ 0002:00000c08       ??_R2IHelperImp@HStyle3d@@8 1000cc08     hstyle3d.obj
+ 0002:00000c18       ??_R1A@?0A@EA@IHelperImp@HStyle3d@@8 1000cc18     hstyle3d.obj
+ 0002:00000c34       ??_R4IHStyle3dImp@HStyle3d@@6B@ 1000cc34     hstyle3d.obj
+ 0002:00000c48       ??_R3IHStyle3dImp@HStyle3d@@8 1000cc48     hstyle3d.obj
+ 0002:00000c58       ??_R2IHStyle3dImp@HStyle3d@@8 1000cc58     hstyle3d.obj
+ 0002:00000c68       ??_R1A@?0A@EA@IHStyle3dImp@HStyle3d@@8 1000cc68     hstyle3d.obj
+ 0002:00000c84       ??_R4HStyle3d@@6B@         1000cc84     hstyle3d.obj
+ 0002:00000c98       ??_R3HStyle3d@@8           1000cc98     hstyle3d.obj
+ 0002:00000ca8       ??_R2HStyle3d@@8           1000cca8     hstyle3d.obj
+ 0002:00000cb4       ??_R1A@?0A@EA@HStyle3d@@8  1000ccb4     hstyle3d.obj
+ 0002:00000cd0       ??_R4?$ClassFactory@VHStyle3d@@@@6B@ 1000ccd0     server.obj
+ 0002:00000ce4       ??_R3?$ClassFactory@VHStyle3d@@@@8 1000cce4     server.obj
+ 0002:00000cf4       ??_R2?$ClassFactory@VHStyle3d@@@@8 1000ccf4     server.obj
+ 0002:00000d08       ??_R1A@?0A@EA@?$ClassFactory@VHStyle3d@@@@8 1000cd08     server.obj
+ 0002:00000d24       ??_R1A@?0A@EA@JClassFactory@@8 1000cd24     server.obj
+ 0002:00000d40       ??_R3JClassFactory@@8      1000cd40     server.obj
+ 0002:00000d50       ??_R2JClassFactory@@8      1000cd50     server.obj
+ 0002:00000d60       ??_R1A@?0A@EA@IClassFactory@@8 1000cd60     server.obj
+ 0002:00000d7c       ??_R3IClassFactory@@8      1000cd7c     server.obj
+ 0002:00000d8c       ??_R2IClassFactory@@8      1000cd8c     server.obj
+ 0002:00000d98       ??_R4?$ClassFactory@VHStyle3ds@@@@6B@ 1000cd98     server.obj
+ 0002:00000dac       ??_R3?$ClassFactory@VHStyle3ds@@@@8 1000cdac     server.obj
+ 0002:00000dbc       ??_R2?$ClassFactory@VHStyle3ds@@@@8 1000cdbc     server.obj
+ 0002:00000dd0       ??_R1A@?0A@EA@?$ClassFactory@VHStyle3ds@@@@8 1000cdd0     server.obj
+ 0002:00000dec       ??_R4type_info@@6B@        1000cdec     MSVCRT:ti_inst.obj
+ 0002:00000e00       ??_R3type_info@@8          1000ce00     MSVCRT:ti_inst.obj
+ 0002:00000e10       ??_R2type_info@@8          1000ce10     MSVCRT:ti_inst.obj
+ 0002:00000e18       ??_R1A@?0A@EA@type_info@@8 1000ce18     MSVCRT:ti_inst.obj
+ 0002:00000e40       ___safe_se_handler_table   1000ce40     <linker-defined>
+ 0002:00000e80       ___rtc_iaa                 1000ce80     MSVCRT:initsect.obj
+ 0002:00000e84       ___rtc_izz                 1000ce84     MSVCRT:initsect.obj
+ 0002:00000e88       ___rtc_taa                 1000ce88     MSVCRT:initsect.obj
+ 0002:00000e8c       ___rtc_tzz                 1000ce8c     MSVCRT:initsect.obj
+ 0002:00001284       __IMPORT_DESCRIPTOR_Daxutil 1000d284     daxutil:Daxutil.dll
+ 0002:00001298       __IMPORT_DESCRIPTOR_jengine 1000d298     jengine:jengine.dll
+ 0002:000012ac       __IMPORT_DESCRIPTOR_JUtil  1000d2ac     jutil:JUtil.dll
+ 0002:000012c0       __IMPORT_DESCRIPTOR_umath  1000d2c0     umath:umath.dll
+ 0002:000012d4       __IMPORT_DESCRIPTOR_sealloc 1000d2d4     sealloc:sealloc.dll
+ 0002:000012e8       __IMPORT_DESCRIPTOR_MSVCR80 1000d2e8     MSVCRT:MSVCR80.dll
+ 0002:000012fc       __IMPORT_DESCRIPTOR_KERNEL32 1000d2fc     kernel32:KERNEL32.dll
+ 0002:00001310       __NULL_IMPORT_DESCRIPTOR   1000d310     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  1000e000     newmode.obj
+ 0003:00001e68       ??_R0?AU_IHStyle3ds@@@8    1000fe68     hstyl3ds.obj
+ 0003:00001e84       ??_R0?AUIUnknown@@@8       1000fe84     hstyl3ds.obj
+ 0003:00001e9c       ??_R0?AUIHelperImp@HStyle3ds@@@8 1000fe9c     hstyl3ds.obj
+ 0003:00001ec0       ??_R0?AUIHelper@@@8        1000fec0     hstyl3ds.obj
+ 0003:00001ed8       ??_R0?AUIHStyle3dsImp@HStyle3ds@@@8 1000fed8     hstyl3ds.obj
+ 0003:00001f00       ??_R0?AVHStyle3ds@@@8      1000ff00     hstyl3ds.obj
+ 0003:00002938       ??_R0?AU_IHStyle3d@@@8     10010938     hstyle3d.obj
+ 0003:00002954       ??_R0?AUIHelperImp@HStyle3d@@@8 10010954     hstyle3d.obj
+ 0003:00002978       ??_R0?AUIHStyle3dImp@HStyle3d@@@8 10010978     hstyle3d.obj
+ 0003:0000299c       ??_R0?AVHStyle3d@@@8       1001099c     hstyle3d.obj
+ 0003:000033d8       ??_R0?AV?$ClassFactory@VHStyle3d@@@@@8 100113d8     server.obj
+ 0003:00003404       ??_R0?AVJClassFactory@@@8  10011404     server.obj
+ 0003:00003420       ??_R0?AUIClassFactory@@@8  10011420     server.obj
+ 0003:0000343c       ??_R0?AV?$ClassFactory@VHStyle3ds@@@@@8 1001143c     server.obj
+ 0003:00003470       ___security_cookie         10011470     MSVCRT:gs_cookie.obj
+ 0003:00003474       ___security_cookie_complement 10011474     MSVCRT:gs_cookie.obj
+ 0003:00003478       ??_R0?AVtype_info@@@8      10011478     MSVCRT:ti_inst.obj
+ 0003:00003490       ___native_dllmain_reason   10011490     MSVCRT:natstart.obj
+ 0003:00003494       ___native_vcclrit_reason   10011494     MSVCRT:natstart.obj
+ 0003:0000428c       ?__type_info_root_node@@3U__type_info_node@@A 1001228c     MSVCRT:tncleanup.obj
+ 0003:00004294       __adjust_fdiv              10012294     <common>
+ 0003:00004298       ___native_startup_state    10012298     <common>
+ 0003:0000429c       ___native_startup_lock     1001229c     <common>
+ 0003:000042a0       ___onexitend               100122a0     <common>
+ 0003:000042a4       ___onexitbegin             100122a4     <common>
+ 0003:000042a8       ___dyn_tls_init_callback   100122a8     <common>
+
+ entry point at        0001:00009b0a
+
+ Static symbols
+
+ 0001:00009808       _pre_c_init                1000a808 f   MSVCRT:crtdll.obj
+ 0001:000099f4       ___DllMainCRTStartup       1000a9f4 f   MSVCRT:crtdll.obj
+ 0001:0000a040       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$0 1000b040 f   extutils.obj
+ 0001:0000a04c       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$2 1000b04c f   extutils.obj
+ 0001:0000a06f       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$3 1000b06f f   extutils.obj
+ 0001:0000a07b       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$1 1000b07b f   extutils.obj
+ 0001:0000a09e       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$4 1000b09e f   extutils.obj
+ 0001:0000a0c1       __unwindfunclet$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z$5 1000b0c1 f   extutils.obj
+ 0001:0000a0cd       __ehhandler$?GetTextureDefaults@@YAJPAUtagGMaterialTexture@@PA_W@Z 1000b0cd f   extutils.obj
+ 0001:0000a100       __unwindfunclet$?SetTextureFilename@@YAJPAUtagGMaterialSurface@@PA_WKPAPAUtagGMaterialExtended@@@Z$2 1000b100 f   extutils.obj
+ 0001:0000a109       __ehhandler$?SetTextureFilename@@YAJPAUtagGMaterialSurface@@PA_WKPAPAUtagGMaterialExtended@@@Z 1000b109 f   extutils.obj
+ 0001:0000a130       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$0 1000b130 f   extutils.obj
+ 0001:0000a13c       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$1 1000b13c f   extutils.obj
+ 0001:0000a148       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$2 1000b148 f   extutils.obj
+ 0001:0000a154       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$3 1000b154 f   extutils.obj
+ 0001:0000a160       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$4 1000b160 f   extutils.obj
+ 0001:0000a183       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$5 1000b183 f   extutils.obj
+ 0001:0000a1a6       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$6 1000b1a6 f   extutils.obj
+ 0001:0000a1b2       __unwindfunclet$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z$7 1000b1b2 f   extutils.obj
+ 0001:0000a1be       __ehhandler$?SetSkyFile@@YAJPA_WPAUtagGMaterialSurface@@PAPAUtagGMaterialExtended@@2@Z 1000b1be f   extutils.obj
+ 0001:0000a1f0       __unwindfunclet$?get_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z$0 1000b1f0 f   hstyle3d.obj
+ 0001:0000a1f9       __ehhandler$?get_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 1000b1f9 f   hstyle3d.obj
+ 0001:0000a220       __unwindfunclet$?put_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$0 1000b220 f   hstyle3d.obj
+ 0001:0000a229       __unwindfunclet$?put_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$1 1000b229 f   hstyle3d.obj
+ 0001:0000a232       __unwindfunclet$?put_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$2 1000b232 f   hstyle3d.obj
+ 0001:0000a23b       __ehhandler$?put_TextureFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 1000b23b f   hstyle3d.obj
+ 0001:0000a260       __unwindfunclet$?get_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z$0 1000b260 f   hstyle3d.obj
+ 0001:0000a269       __ehhandler$?get_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPAPA_W@Z 1000b269 f   hstyle3d.obj
+ 0001:0000a290       __unwindfunclet$?put_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$0 1000b290 f   hstyle3d.obj
+ 0001:0000a299       __unwindfunclet$?put_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$1 1000b299 f   hstyle3d.obj
+ 0001:0000a2a2       __unwindfunclet$?put_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z$2 1000b2a2 f   hstyle3d.obj
+ 0001:0000a2ab       __ehhandler$?put_BumpmapFileName@IHStyle3dImp@HStyle3d@@UAGJPA_W@Z 1000b2ab f   hstyle3d.obj
+ 0001:0000a2d0       __unwindfunclet$?SetSkyboxSideFilename@IHStyle3dImp@HStyle3d@@UAGJHPA_W@Z$0 1000b2d0 f   hstyle3d.obj
+ 0001:0000a2d9       __unwindfunclet$?SetSkyboxSideFilename@IHStyle3dImp@HStyle3d@@UAGJHPA_W@Z$1 1000b2d9 f   hstyle3d.obj
+ 0001:0000a2e2       __ehhandler$?SetSkyboxSideFilename@IHStyle3dImp@HStyle3d@@UAGJHPA_W@Z 1000b2e2 f   hstyle3d.obj
+ 0001:0000a300       __unwindfunclet$??0?$ClassFactory@VHStyle3d@@@@QAE@HHH@Z$0 1000b300 f   server.obj
+ 0001:0000a309       __ehhandler$??0?$ClassFactory@VHStyle3d@@@@QAE@HHH@Z 1000b309 f   server.obj
+ 0001:0000a330       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHStyle3d@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 1000b330 f   server.obj
+ 0001:0000a33b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHStyle3d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000b33b f   server.obj
+ 0001:0000a360       __unwindfunclet$??0?$ClassFactory@VHStyle3ds@@@@QAE@HHH@Z$0 1000b360 f   server.obj
+ 0001:0000a369       __ehhandler$??0?$ClassFactory@VHStyle3ds@@@@QAE@HHH@Z 1000b369 f   server.obj
+ 0001:0000a390       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHStyle3ds@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 1000b390 f   server.obj
+ 0001:0000a39b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHStyle3ds@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000b39b f   server.obj
+ 0001:0000a3c0       __unwindfunclet$_DllGetClassObject@12$0 1000b3c0 f   server.obj
+ 0001:0000a3cb       __unwindfunclet$_DllGetClassObject@12$1 1000b3cb f   server.obj
+ 0001:0000a3d6       __ehhandler$_DllGetClassObject@12 1000b3d6 f   server.obj
+ 0001:0000a400       __unwindfunclet$??_G?$ClassFactory@VHStyle3d@@@@UAEPAXI@Z$0 1000b400 f   server.obj
+ 0001:0000a409       __ehhandler$??_G?$ClassFactory@VHStyle3d@@@@UAEPAXI@Z 1000b409 f   server.obj
+ 0001:0000a430       __unwindfunclet$??_G?$ClassFactory@VHStyle3ds@@@@UAEPAXI@Z$0 1000b430 f   server.obj
+ 0001:0000a439       __ehhandler$??_G?$ClassFactory@VHStyle3ds@@@@UAEPAXI@Z 1000b439 f   server.obj
+ 0001:0000a460       ??__EGNULL_Camera@@YAXXZ   1000b460 f   extutils.obj
+ 0001:0000a480       ??__EGNULL_CAMERA@@YAXXZ   1000b480 f   extutils.obj
+ 0001:0000a4a0       ??__EGID_Camera@@YAXXZ     1000b4a0 f   extutils.obj
+ 0001:0000a4c0       ??__EGID_CAMERA@@YAXXZ     1000b4c0 f   extutils.obj
+ 0001:0000a4e0       ??__EGNULL_Camera@@YAXXZ   1000b4e0 f   guid.obj
+ 0001:0000a500       ??__EGNULL_CAMERA@@YAXXZ   1000b500 f   guid.obj
+ 0001:0000a520       ??__EGID_Camera@@YAXXZ     1000b520 f   guid.obj
+ 0001:0000a540       ??__EGID_CAMERA@@YAXXZ     1000b540 f   guid.obj
+ 0001:0000a560       ??__EGNULL_Camera@@YAXXZ   1000b560 f   hstyl3ds.obj
+ 0001:0000a580       ??__EGNULL_CAMERA@@YAXXZ   1000b580 f   hstyl3ds.obj
+ 0001:0000a5a0       ??__EGID_Camera@@YAXXZ     1000b5a0 f   hstyl3ds.obj
+ 0001:0000a5c0       ??__EGID_CAMERA@@YAXXZ     1000b5c0 f   hstyl3ds.obj
+ 0001:0000a5e0       ??__EGNULL_Camera@@YAXXZ   1000b5e0 f   hstyle3d.obj
+ 0001:0000a600       ??__EGNULL_CAMERA@@YAXXZ   1000b600 f   hstyle3d.obj
+ 0001:0000a620       ??__EGID_Camera@@YAXXZ     1000b620 f   hstyle3d.obj
+ 0001:0000a640       ??__EGID_CAMERA@@YAXXZ     1000b640 f   hstyle3d.obj
+ 0001:0000a660       ??__EGNULL_Camera@@YAXXZ   1000b660 f   server.obj
+ 0001:0000a680       ??__EGNULL_CAMERA@@YAXXZ   1000b680 f   server.obj
+ 0001:0000a6a0       ??__EGID_Camera@@YAXXZ     1000b6a0 f   server.obj
+ 0001:0000a6c0       ??__EGID_CAMERA@@YAXXZ     1000b6c0 f   server.obj

@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>header</title>
+<STYLE type='text/css'>
+@import url("styles.css");
+</STYLE>
+<script LANGUAGE="JavaScript" src="util.js"></script>
+<script LANGUAGE="JavaScript">top_level.header = window;</script>
+</head>
+<body class="header">
+<table width="100%">
+<tr>
+<td width="15%">
+<!-- uncomment the img below to place a logo 
+     on left side of header 
+-->
+<!--
+<a href="http://www.immdesign.com"><img src="../icons/logo.gif" border="0"></a>
+-->
+</td>
+<td width="70%">
+<p align="center">
+<span class="titlestyle">
+<script language='javascript'>
+document.write(top_level.print_title())
+</script>
+</span>
+<span class="company">
+<script language='javascript'>
+document.write(top_level.ptv("Company"))
+</script>
+</span>
+</p>
+</td>
+<td>
+<p align="right">
+<span class="authorstyle">
+<script language='javascript'>
+document.write(top_level.print_author());
+</script>
+</span>
+<span class="datestyle">
+<script language='javascript'>
+document.write(top_level.print_date());
+</script>
+</span>
+</p>
+</td>
+</tr>
+</BODY>
+</html>

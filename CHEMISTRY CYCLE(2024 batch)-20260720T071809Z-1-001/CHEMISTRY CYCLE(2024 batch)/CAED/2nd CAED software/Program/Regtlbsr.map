@@ -1,0 +1,203 @@
+ Regtlbsr
+
+ Timestamp is 46b3a540 (Fri Aug 03 16:59:28 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000b82H .text                   CODE
+ 0002:00000000 000000f0H .idata$5                DATA
+ 0002:000000f0 00000004H .CRT$XCA                DATA
+ 0002:000000f4 00000004H .CRT$XCAA               DATA
+ 0002:000000f8 00000004H .CRT$XCZ                DATA
+ 0002:000000fc 00000004H .CRT$XIA                DATA
+ 0002:00000100 00000004H .CRT$XIAA               DATA
+ 0002:00000104 00000004H .CRT$XIZ                DATA
+ 0002:00000110 00000458H .rdata                  DATA
+ 0002:00000568 00000032H .rdata$debug            DATA
+ 0002:000005a0 00000004H .rdata$sxdata           DATA
+ 0002:000005a4 00000004H .rtc$IAA                DATA
+ 0002:000005a8 00000004H .rtc$IZZ                DATA
+ 0002:000005ac 00000004H .rtc$TAA                DATA
+ 0002:000005b0 00000004H .rtc$TZZ                DATA
+ 0002:000005b8 0000005cH .xdata$x                DATA
+ 0002:00000614 00000064H .idata$2                DATA
+ 0002:00000678 00000014H .idata$3                DATA
+ 0002:0000068c 000000f0H .idata$4                DATA
+ 0002:0000077c 000003b2H .idata$6                DATA
+ 0002:00000b2e 00000000H .edata                  DATA
+ 0003:00000000 00000080H .data                   DATA
+ 0003:00000080 00000368H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       _main                      00401000 f   Regtlbs.obj
+ 0001:0000044e       _JGetSolidEdgeLocalMachineApplicationPath 0040144e f   jutil:JUtil.dll
+ 0001:00000454       @__security_check_cookie@4 00401454 f   MSVCRT:secchk.obj
+ 0001:00000464       _memset                    00401464 f   MSVCRT:MSVCR80.dll
+ 0001:0000070d       _mainCRTStartup            0040170d f   MSVCRT:crtexe.obj
+ 0001:00000717       ___report_gsfailure        00401717 f   MSVCRT:gs_report.obj
+ 0001:0000081c       __amsg_exit                0040181c f   MSVCRT:MSVCR80.dll
+ 0001:00000822       __onexit                   00401822 f   MSVCRT:atonexit.obj
+ 0001:000008c1       _atexit                    004018c1 f   MSVCRT:atonexit.obj
+ 0001:000008d3       __RTC_Initialize           004018d3 f   MSVCRT:initsect.obj
+ 0001:000008f7       __RTC_Terminate            004018f7 f   MSVCRT:initsect.obj
+ 0001:0000091c       __XcptFilter               0040191c f   MSVCRT:MSVCR80.dll
+ 0001:00000930       __ValidateImageBase        00401930 f   MSVCRT:pesect.obj
+ 0001:00000960       __FindPESection            00401960 f   MSVCRT:pesect.obj
+ 0001:000009a2       __IsNonwritableInCurrentImage 004019a2 f   MSVCRT:pesect.obj
+ 0001:00000a0e       __initterm                 00401a0e f   MSVCRT:MSVCR80.dll
+ 0001:00000a14       __initterm_e               00401a14 f   MSVCRT:MSVCR80.dll
+ 0001:00000a1c       __SEH_prolog4              00401a1c f   MSVCRT:sehprolg4.obj
+ 0001:00000a61       __SEH_epilog4              00401a61 f   MSVCRT:sehprolg4.obj
+ 0001:00000a75       __except_handler4          00401a75 f   MSVCRT:chandler4gs.obj
+ 0001:00000a98       __setdefaultprecision      00401a98 f   MSVCRT:fp8.obj
+ 0001:00000ac1       __matherr                  00401ac1 f   MSVCRT:merr.obj
+ 0001:00000ac1       __setargv                  00401ac1 f   MSVCRT:dllargv.obj
+ 0001:00000ac4       ___security_init_cookie    00401ac4 f   MSVCRT:gs_support.obj
+ 0001:00000b58       __crt_debugger_hook        00401b58 f   MSVCRT:MSVCR80.dll
+ 0001:00000b5e       __unlock                   00401b5e f   MSVCRT:MSVCR80.dll
+ 0001:00000b64       ___dllonexit               00401b64 f   MSVCRT:MSVCR80.dll
+ 0001:00000b6a       __lock                     00401b6a f   MSVCRT:MSVCR80.dll
+ 0001:00000b70       __except_handler4_common   00401b70 f   MSVCRT:MSVCR80.dll
+ 0001:00000b76       __invoke_watson            00401b76 f   MSVCRT:MSVCR80.dll
+ 0001:00000b7c       __controlfp_s              00401b7c f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__RegCloseKey@4       00402000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegOpenKeyExA@20    00402004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegQueryValueExA@24 00402008     advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 0040200c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__JGetSolidEdgeLocalMachineApplicationPath 00402010     jutil:JUtil.dll
+ 0002:00000014       \177JUtil_NULL_THUNK_DATA  00402014     jutil:JUtil.dll
+ 0002:00000018       __imp__MultiByteToWideChar@24 00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetSystemTimeAsFileTime@4 0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcessId@0 00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentThreadId@0 00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetTickCount@0      00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__IsDebuggerPresent@0 0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__SetUnhandledExceptionFilter@4 00402030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__UnhandledExceptionFilter@4 00402034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetCurrentProcess@0 00402038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__TerminateProcess@8  0040203c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__InterlockedCompareExchange@12 00402040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__Sleep@4             00402044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__InterlockedExchange@8 00402048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__QueryPerformanceCounter@4 0040204c     kernel32:KERNEL32.dll
+ 0002:00000050       \177KERNEL32_NULL_THUNK_DATA 00402050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__memset              00402054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___amsg_exit          00402058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp____getmainargs       0040205c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___cexit              00402060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp___exit               00402064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp___XcptFilter         00402068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp__exit                0040206c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp__sscanf              00402070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp___initterm           00402074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___initterm_e         00402078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___configthreadlocale 0040207c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp____setusermatherr    00402080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp___adjust_fdiv        00402084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp____p__commode        00402088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp____p__fmode          0040208c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___encode_pointer     00402090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp____set_app_type      00402094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___crt_debugger_hook  00402098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___unlock             0040209c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp____dllonexit         004020a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___lock               004020a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___onexit             004020a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___decode_pointer     004020ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___except_handler4_common 004020b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___invoke_watson      004020b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___controlfp_s        004020b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___wcsicmp            004020bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp__wprintf             004020c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp__wcscat_s            004020c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__wcscpy_s            004020c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__strcat_s            004020cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__strcpy_s            004020d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp____initenv           004020d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__strcmpi             004020d8     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp___stricmp            004020d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       \177MSVCR80_NULL_THUNK_DATA 004020dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp__LoadTypeLib@8       004020e0     oleaut32:OLEAUT32.dll
+ 0002:000000e4       __imp__RegisterTypeLib@12  004020e4     oleaut32:OLEAUT32.dll
+ 0002:000000e8       __imp__UnRegisterTypeLib@20 004020e8     oleaut32:OLEAUT32.dll
+ 0002:000000ec       \177OLEAUT32_NULL_THUNK_DATA 004020ec     oleaut32:OLEAUT32.dll
+ 0002:000000f0       ___xc_a                    004020f0     MSVCRT:cinitexe.obj
+ 0002:000000f8       ___xc_z                    004020f8     MSVCRT:cinitexe.obj
+ 0002:000000fc       ___xi_a                    004020fc     MSVCRT:cinitexe.obj
+ 0002:00000104       ___xi_z                    00402104     MSVCRT:cinitexe.obj
+ 0002:0000012c       ??_C@_00CNPNBAHC@?$AA@     0040212c     Regtlbs.obj
+ 0002:00000130       ??_C@_0CH@CLHIEMGN@?$HL1533A357?9CBBF?932F9?9803C?92A2929C@ 00402130     Regtlbs.obj
+ 0002:00000158       ??_C@_0CH@LBHGDMJH@?$HL71C236E4?926EA?936E8?98258?92C570BD@ 00402158     Regtlbs.obj
+ 0002:00000180       ??_C@_0CH@JJJLNMKH@?$HLDF778D1A?90AA4?911D1?9BC6E?90800360@ 00402180     Regtlbs.obj
+ 0002:000001a8       ??_C@_0CH@CGOJHABP@?$HL3E2B3BDC?9F0B9?911d1?9BDFD?9080036B@ 004021a8     Regtlbs.obj
+ 0002:000001d0       ??_C@_0CH@OILEEDJL@?$HL3E2B3BD4?9F0B9?911d1?9BDFD?9080036B@ 004021d0     Regtlbs.obj
+ 0002:000001f8       ??_C@_0CH@GBKMIPLB@?$HL8A7EFA42?9F000?911d1?9BDFC?9080036B@ 004021f8     Regtlbs.obj
+ 0002:00000220       ??_C@_0CH@CMBGANKE@?$HL3E2B3BE1?9F0B9?911d1?9BDFD?9080036B@ 00402220     Regtlbs.obj
+ 0002:00000248       ??_C@_0CH@JCGNIACK@?$HL943AC5C6?9F4DB?911d1?9BE00?9080036B@ 00402248     Regtlbs.obj
+ 0002:00000270       ??_C@_0CH@CMPLANOE@?$HL8A7EFA3A?9F000?911d1?9BDFC?9080036B@ 00402270     Regtlbs.obj
+ 0002:00000298       ??_C@_0CH@IFGHJOAL@?$HLC467A6F5?927ED?911d2?9BE30?9080036B@ 00402298     Regtlbs.obj
+ 0002:000002c0       ??_C@_0CH@FOODFEKH@?$HLAED8FE52?93129?911D1?9BC83?90800360@ 004022c0     Regtlbs.obj
+ 0002:000002e8       ??_C@_11LOCGONAA@?$AA?$AA@ 004022e8     Regtlbs.obj
+ 0002:000002ec       ??_C@_1DK@LMOALPPP@?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAO?$AAn?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 004022ec     Regtlbs.obj
+ 0002:00000328       ??_C@_1CK@LLHOGKHK@?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 00402328     Regtlbs.obj
+ 0002:00000354       ??_C@_1BG@NHMHNNOJ@?$AAr?$AAe?$AAv?$AAm?$AAg?$AAr?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 00402354     Regtlbs.obj
+ 0002:0000036c       ??_C@_1BE@OJCLOFP@?$AAd?$AAr?$AAa?$AAf?$AAt?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 0040236c     Regtlbs.obj
+ 0002:00000380       ??_C@_1BK@PHHDMCIL@?$AAa?$AAs?$AAs?$AAe?$AAm?$AAb?$AAl?$AAy?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 00402380     Regtlbs.obj
+ 0002:0000039c       ??_C@_1BC@HNHPCJCP@?$AAp?$AAa?$AAr?$AAt?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 0040239c     Regtlbs.obj
+ 0002:000003b0       ??_C@_1BK@NJPLILDO@?$AAg?$AAe?$AAo?$AAm?$AAe?$AAt?$AAr?$AAy?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 004023b0     Regtlbs.obj
+ 0002:000003cc       ??_C@_1BI@HIODIEBE@?$AAf?$AAw?$AAk?$AAs?$AAu?$AAp?$AAp?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 004023cc     Regtlbs.obj
+ 0002:000003e4       ??_C@_1BK@HCMMNOPC@?$AAf?$AAr?$AAa?$AAm?$AAe?$AAw?$AAr?$AAk?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 004023e4     Regtlbs.obj
+ 0002:00000400       ??_C@_1BK@JJCIMMAN@?$AAc?$AAo?$AAn?$AAs?$AAt?$AAa?$AAn?$AAt?$AA?4?$AAt?$AAl?$AAb?$AA?$AA@ 00402400     Regtlbs.obj
+ 0002:0000041c       ??_C@_1BK@JBMNENIH@?$AAp?$AAr?$AAo?$AAp?$AAa?$AAu?$AAt?$AAo?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0040241c     Regtlbs.obj
+ 0002:00000438       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 00402438     Regtlbs.obj
+ 0002:00000448       ??_C@_1FC@PPGDBFGF@?$AAO?$AAn?$AAe?$AA?5?$AAo?$AAr?$AA?5?$AAm?$AAo?$AAr?$AAe?$AA?5?$AAt?$AAy?$AAp?$AAe?$AAl?$AAi?$AAb?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAr@ 00402448     Regtlbs.obj
+ 0002:0000049c       ??_C@_1DO@FPBJANMJ@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AA?5?$AAt?$AAy?$AAp?$AAe?$AAl?$AAi?$AAb?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 0040249c     Regtlbs.obj
+ 0002:000004dc       ??_C@_01KICIPPFI@?2?$AA@   004024dc     Regtlbs.obj
+ 0002:000004e0       ??_C@_0M@PBEHJCJG@InstallPath?$AA@ 004024e0     Regtlbs.obj
+ 0002:000004ec       ??_C@_0BA@NEMKPEIF@?2CurrentVersion?$AA@ 004024ec     Regtlbs.obj
+ 0002:000004fc       ??_C@_04NOJCDH@?$CF02x?$AA@ 004024fc     Regtlbs.obj
+ 0002:00000504       ??_C@_04EFDOOIF@?$CF04x?$AA@ 00402504     Regtlbs.obj
+ 0002:0000050c       ??_C@_05HICLOPOC@?$CFl08x?$AA@ 0040250c     Regtlbs.obj
+ 0002:00000514       ??_C@_02GCGDHOON@?9u?$AA@  00402514     Regtlbs.obj
+ 0002:00000520       __load_config_used         00402520     MSVCRT:loadcfg.obj
+ 0002:000005a0       ___safe_se_handler_table   004025a0     <linker-defined>
+ 0002:000005a4       ___rtc_iaa                 004025a4     MSVCRT:initsect.obj
+ 0002:000005a8       ___rtc_izz                 004025a8     MSVCRT:initsect.obj
+ 0002:000005ac       ___rtc_taa                 004025ac     MSVCRT:initsect.obj
+ 0002:000005b0       ___rtc_tzz                 004025b0     MSVCRT:initsect.obj
+ 0002:00000614       __IMPORT_DESCRIPTOR_JUtil  00402614     jutil:JUtil.dll
+ 0002:00000628       __IMPORT_DESCRIPTOR_KERNEL32 00402628     kernel32:KERNEL32.dll
+ 0002:0000063c       __IMPORT_DESCRIPTOR_ADVAPI32 0040263c     advapi32:ADVAPI32.dll
+ 0002:00000650       __IMPORT_DESCRIPTOR_OLEAUT32 00402650     oleaut32:OLEAUT32.dll
+ 0002:00000664       __IMPORT_DESCRIPTOR_MSVCR80 00402664     MSVCRT:MSVCR80.dll
+ 0002:00000678       __NULL_IMPORT_DESCRIPTOR   00402678     jutil:JUtil.dll
+ 0003:00000000       __newmode                  00403000     newmode.obj
+ 0003:00000068       ___security_cookie         00403068     MSVCRT:gs_cookie.obj
+ 0003:0000006c       ___security_cookie_complement 0040306c     MSVCRT:gs_cookie.obj
+ 0003:00000070       ___native_dllmain_reason   00403070     MSVCRT:natstart.obj
+ 0003:00000074       ___native_vcclrit_reason   00403074     MSVCRT:natstart.obj
+ 0003:00000078       ___globallocalestatus      00403078     MSVCRT:xthdloc.obj
+ 0003:0000007c       ___defaultmatherr          0040307c     MSVCRT:merr.obj
+ 0003:000003c4       __dowildcard               004033c4     MSVCRT:wildcard.obj
+ 0003:000003c8       __commode                  004033c8     MSVCRT:xncommod.obj
+ 0003:000003cc       __fmode                    004033cc     MSVCRT:xtxtmode.obj
+ 0003:000003d0       __adjust_fdiv              004033d0     <common>
+ 0003:000003d4       ___native_startup_state    004033d4     <common>
+ 0003:000003d8       ___native_startup_lock     004033d8     <common>
+ 0003:000003dc       ___onexitend               004033dc     <common>
+ 0003:000003e0       ___onexitbegin             004033e0     <common>
+ 0003:000003e4       ___dyn_tls_init_callback   004033e4     <common>
+
+ entry point at        0001:0000070d
+
+ Static symbols
+
+ 0001:0000046a       _pre_cpp_init              0040146a f   MSVCRT:crtexe.obj
+ 0001:000004b5       ___tmainCRTStartup         004014b5 f   MSVCRT:crtexe.obj
+ 0001:0000062b       _pre_c_init                0040162b f   MSVCRT:crtexe.obj

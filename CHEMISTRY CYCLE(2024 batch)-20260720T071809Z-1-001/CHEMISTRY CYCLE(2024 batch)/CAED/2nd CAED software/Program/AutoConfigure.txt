@@ -1,0 +1,69 @@
+// Solid Edge AutoConfigure.txt file.
+// The contents of this file are used by Solid Edge at startup to
+// determine the best known graphics card setting of the installed card.
+// This file must be located in the Solid Edge program directory.
+// For example: C:\Program Files\Solid Edge\Program\AutoConfigure.txt
+//
+// You can add, modify, or delete cards and the setting by following the format:
+// Vendor | Card | Driver Version | Operating System | Default | Maximum [| Options]
+// Operating Systems are
+//	WIN2K (Windows 2000)
+//	WINXP (Windows XP)
+//
+// Default or Maximum settings are:
+//	HX/GA (Graphics card driven advanced)
+//	HW/GB (Graphics card driven basic)
+//	SW (Software driven)
+//	DX (DirectX driven)
+//	BS (Backing store)
+//
+// Options include:
+//  DL (Use display lists)
+//  SB (Use single buffer hilite)
+//  MT (Use multithreaded renderer)
+//
+// An * in a field will indicate a wildcard
+//
+// Users should not edit this file. Any graphics card related problems should be
+// reported through support. This list will be delivered with each version of
+// Solid Edge and version service packs
+
+BeginGraphicsCardList
+
+ATI | FireGL 8800 | 06.14.10.6404 | WIN2K | HX | HX | DL
+ATI | FireGL X2 | 06.14.10.6404 | WINXP | HX | HX | DL
+ATI | Fire GL | * | * | HX | HX | DL
+ATI | FireGL | * | * | HX | DX | DL
+ATI | ATI MOBILITY FIRE GL | * | * | HX | HX | DL
+ATI | MOBILITY FIRE GL | * | * | HX | HX | DL
+ATI | Radeon | * | * | BS | HX | DL
+ATI | Rage | * | * | BS | HX | SB
+ATI | * | * | * | BS | HW
+NVIDIA | Quadro4 980 XGL | 06.14.10 | WINXP | HW | HX | DL
+NVIDIA | Quadro4 900 XGL | 06.14.10 | WIN2K | HW | HX | DL
+NVIDIA | Quadro4 750 XGL | 06.14.10 | WIN2K | BS | HX | DL
+NVIDIA | Quadro PCI-E Series | * | * | HX | HX | DL
+NVIDIA | Quadro FX 330 | * | * | HX | HX 
+NVIDIA | Quadro NVS | * | * | BS | HX | SB
+NVIDIA | Quadro FX | * | * | HX | DX | DL
+NVIDIA | Quadro4 | * | * | HX | HX | DL
+NVIDIA | Quadro | * | * | HX | HX | DL
+NVIDIA | GeForce3 | * | * | BS | HX | DL
+NVIDIA | GeForce | * | * | BS | HX | DL
+NVIDIA | ELSA Synergy | * | * | HW | HX
+NVIDIA | TNT2 | * | WIN2K | BS | HW
+NVIDIA | * | * | * | BS | HX
+3DLABS | Wildcat | * | * | HX | HX | DL,MT
+3DLABS | WildcatVP | * | * | HW | HX | DL
+3DLABS | Wildcat VP | * | * | HW | HX | DL
+3DLABS | * | * | * | BS | HX
+Matrox | Parhelia | * | * | HW | HX
+Matrox | * | * | * | BS | BS 
+Intergraph | * | * | * | BS | HW
+Microsoft | WDDM | * | VISTA | DX | DX
+Microsoft | * | * | * | BS | BS
+* | * | * | * | BS | HW
+
+EndGraphicsCardList
+
+// End of Graphics Card List

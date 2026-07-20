@@ -1,0 +1,381 @@
+ detline
+
+ Timestamp is 46b39dc1 (Fri Aug 03 16:27:29 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000351eH .text                   CODE
+ 0001:00003520 000002d4H .text$x                 CODE
+ 0002:00000000 0000016cH .idata$5                DATA
+ 0002:0000016c 00000004H .CRT$XCA                DATA
+ 0002:00000170 00000004H .CRT$XCZ                DATA
+ 0002:00000174 00000004H .CRT$XIA                DATA
+ 0002:00000178 00000004H .CRT$XIAA               DATA
+ 0002:0000017c 00000004H .CRT$XIZ                DATA
+ 0002:00000180 00000480H .rdata                  DATA
+ 0002:00000600 00000031H .rdata$debug            DATA
+ 0002:00000640 00000020H .rdata$sxdata           DATA
+ 0002:00000660 00000004H .rtc$IAA                DATA
+ 0002:00000664 00000004H .rtc$IZZ                DATA
+ 0002:00000668 00000004H .rtc$TAA                DATA
+ 0002:0000066c 00000004H .rtc$TZZ                DATA
+ 0002:00000670 00000284H .xdata$x                DATA
+ 0002:000008f4 0000008cH .idata$2                DATA
+ 0002:00000980 00000014H .idata$3                DATA
+ 0002:00000994 0000016cH .idata$4                DATA
+ 0002:00000b00 00000706H .idata$6                DATA
+ 0002:00001210 00000274H .edata                  DATA
+ 0003:00000000 00000048H .data                   DATA
+ 0003:00000048 0000066cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000008       ___safe_se_handler_count   00000008     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?ComputeMeasurements@@YAHPAUdline@@@Z 10001030 f   compmeas.obj
+ 0001:000000e0       _Dbl2Str                   100010e0 f   cvt2str.obj
+ 0001:00000160       _Float2Str                 10001160 f   cvt2str.obj
+ 0001:000001e0       _Int2Str                   100011e0 f   cvt2str.obj
+ 0001:00000250       _DWORD2Num                 10001250 f   cvt2str.obj
+ 0001:000002c0       _DWORD2Hex                 100012c0 f   cvt2str.obj
+ 0001:00000330       ??$sprintf@$0IA@@@YAHAAY0IA@DPBDZZ 10001330 f i cvt2str.obj
+ 0001:00000360       _OutputDetailLine          10001360 f   detline.obj
+ 0001:00000470       ??0TestDetails@@QAE@XZ     10001470 f i detline.obj
+ 0001:00000600       ??1dline@@QAE@XZ           10001600 f i detline.obj
+ 0001:00000650       ??1TestDetails@@QAE@XZ     10001650 f i detline.obj
+ 0001:00000780       ?WriteDetailLine@@YAHPAUdline@@@Z 10001780 f   detline.obj
+ 0001:00000d10       _DLStart                   10001d10 f   measure.obj
+ 0001:00000ef0       _DLStop                    10001ef0 f   measure.obj
+ 0001:00001380       ?SetDetLineIDs@@YAXPAUdline@@PAUTestDetails@@PAD@Z 10002380 f   measure.obj
+ 0001:000014e0       _GetOutputFile             100024e0 f   output.obj
+ 0001:000014f0       _SetOutputFile             100024f0 f   output.obj
+ 0001:00001580       _CloseOutputFile           10002580 f   output.obj
+ 0001:000015c0       _SetOutputFileCustom       100025c0 f   output.obj
+ 0001:00001660       ?OpenDefaultOutput@@YAHXZ  10002660 f   output.obj
+ 0001:00001740       ?OpenOutput@@YAHPBDH@Z     10002740 f   output.obj
+ 0001:00001840       _SetTimeFormat             10002840 f   output.obj
+ 0001:00001850       _GetOutputFilePtr          10002850 f   output.obj
+ 0001:00001870       ?OutputHeader@@YAHPAU_iobuf@@@Z 10002870 f   report.obj
+ 0001:00001ab0       ?WriteColumnHeaders@@YAXPAU_iobuf@@@Z 10002ab0 f   report.obj
+ 0001:00001b00       ?WriteCustomHeaders@@YAHPAU_iobuf@@KFPAD@Z 10002b00 f   report.obj
+ 0001:00001c40       _VBOutputDetailLine@64     10002c40 f   vbwrap.obj
+ 0001:00001d40       _VBSetOutputFile@8         10002d40 f   vbwrap.obj
+ 0001:00001d70       _VBCloseOutputFile@0       10002d70 f   vbwrap.obj
+ 0001:00001da0       _VBSetOutputFileCustom@52  10002da0 f   vbwrap.obj
+ 0001:00001df0       _VBCheckStorageLeaked@4    10002df0 f   vbwrap.obj
+ 0001:00001f70       _VBGetCurrentUserPath@8    10002f70 f   vbwrap.obj
+ 0001:00001fc0       _VBMultiply4x4@12          10002fc0 f   vbwrap.obj
+ 0001:00002180       _VBInvert4x4@8             10003180 f   vbwrap.obj
+ 0001:00002310       _VBGetReflectionMatrix@12  10003310 f   vbwrap.obj
+ 0001:00002480       ?CleanRunningObjectTable@@YAXXZ 10003480 f   vbwrap.obj
+ 0001:000025e0       _CleanupAfterShuttingDown@12 100035e0 f   vbwrap.obj
+ 0001:00002b40       _KillExcelApps@12          10003b40 f   vbwrap.obj
+ 0001:00002cb0       ??$sprintf@PAD@@YAHAAPADPBDZZ 10003cb0 f i vbwrap.obj
+ 0001:00002ce4       _JStgOpenStorage           10003ce4 f   jutil:JUtil.dll
+ 0001:00002cea       _JGetSolidEdgeCurrentUserApplicationPath 10003cea f   jutil:JUtil.dll
+ 0001:00002cf0       ??D@YA?AUtagG4x4@@ABU0@0@Z 10003cf0 f   umath:umath.dll
+ 0001:00002cf6       ?Build4x4@@YA?AUtagG4x4@@PBN@Z 10003cf6 f   umath:umath.dll
+ 0001:00002cfc       ?Inverse@tagG4x4@@QBE?AU1@XZ 10003cfc f   umath:umath.dll
+ 0001:00002d02       ??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 10003d02 f   umath:umath.dll
+ 0001:00002d08       ?ReflectTransf@@YA?AUtagGTransf@@ABUtagGUnitVector@@ABUtagGPosition@@@Z 10003d08 f   umath:umath.dll
+ 0001:00002d0e       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10003d0e f   umath:umath.dll
+ 0001:00002d14       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10003d14 f   umath:umath.dll
+ 0001:00002d1a       ?BuildVector@@YA?AUtagGVector@@NNN@Z 10003d1a f   umath:umath.dll
+ 0001:00002d20       _malloc                    10003d20 f   MSVCRT:MSVCR80.dll
+ 0001:00002d26       __callnewh                 10003d26 f   MSVCRT:MSVCR80.dll
+ 0001:00002d30       ___CxxFrameHandler3        10003d30 f   MSVCRT:MSVCR80.dll
+ 0001:00002d36       @__security_check_cookie@4 10003d36 f   MSVCRT:secchk.obj
+ 0001:00002d46       _strcmp                    10003d46 f   MSVCRT:MSVCR80.dll
+ 0001:00002d4c       _memset                    10003d4c f   MSVCRT:MSVCR80.dll
+ 0001:00002d52       ??_V@YAXPAX@Z              10003d52 f   MSVCRT:MSVCR80.dll
+ 0001:00002d60       __alloca_probe             10003d60     MSVCRT:chkstk.obj
+ 0001:00002d60       __chkstk                   10003d60 f   MSVCRT:chkstk.obj
+ 0001:00002dd8       __CRT_INIT@12              10003dd8 f   MSVCRT:crtdll.obj
+ 0001:0000308d       __DllMainCRTStartup@12     1000408d f   MSVCRT:crtdll.obj
+ 0001:000030ae       ___report_gsfailure        100040ae f   MSVCRT:gs_report.obj
+ 0001:000031b2       ___clean_type_info_names   100041b2 f   MSVCRT:tncleanup.obj
+ 0001:000031be       __onexit                   100041be f   MSVCRT:atonexit.obj
+ 0001:0000325d       _atexit                    1000425d f   MSVCRT:atonexit.obj
+ 0001:0000326f       __RTC_Initialize           1000426f f   MSVCRT:initsect.obj
+ 0001:00003293       __RTC_Terminate            10004293 f   MSVCRT:initsect.obj
+ 0001:000032c0       __ValidateImageBase        100042c0 f   MSVCRT:pesect.obj
+ 0001:000032f0       __FindPESection            100042f0 f   MSVCRT:pesect.obj
+ 0001:00003332       __IsNonwritableInCurrentImage 10004332 f   MSVCRT:pesect.obj
+ 0001:0000339e       __initterm                 1000439e f   MSVCRT:MSVCR80.dll
+ 0001:000033a4       __initterm_e               100043a4 f   MSVCRT:MSVCR80.dll
+ 0001:000033aa       __amsg_exit                100043aa f   MSVCRT:MSVCR80.dll
+ 0001:000033b0       ___CppXcptFilter           100043b0 f   MSVCRT:MSVCR80.dll
+ 0001:000033b6       _DllMain@12                100043b6 f   MSVCRT:dllmain.obj
+ 0001:000033d8       __SEH_prolog4              100043d8 f   MSVCRT:sehprolg4.obj
+ 0001:0000341d       __SEH_epilog4              1000441d f   MSVCRT:sehprolg4.obj
+ 0001:00003431       __except_handler4          10004431 f   MSVCRT:chandler4gs.obj
+ 0001:00003454       ___security_init_cookie    10004454 f   MSVCRT:gs_support.obj
+ 0001:000034e8       __crt_debugger_hook        100044e8 f   MSVCRT:MSVCR80.dll
+ 0001:000034ee       ___clean_type_info_names_internal 100044ee f   MSVCRT:MSVCR80.dll
+ 0001:000034f4       __unlock                   100044f4 f   MSVCRT:MSVCR80.dll
+ 0001:000034fa       ___dllonexit               100044fa f   MSVCRT:MSVCR80.dll
+ 0001:00003500       __lock                     10004500 f   MSVCRT:MSVCR80.dll
+ 0001:00003506       __except_handler4_common   10004506 f   MSVCRT:MSVCR80.dll
+ 0001:0000350c       _GetModuleBaseNameA@16     1000450c f   psapi:PSAPI.DLL
+ 0001:00003512       _EnumProcessModules@16     10004512 f   psapi:PSAPI.DLL
+ 0001:00003518       _EnumProcesses@12          10004518 f   psapi:PSAPI.DLL
+ 0002:00000000       __imp__GetUserNameA@8      10005000     advapi32:ADVAPI32.dll
+ 0002:00000004       \177ADVAPI32_NULL_THUNK_DATA 10005004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp_??0GUserText@@QAE@XZ 10005008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??0CATPStopWatch@@QAE@XZ 1000500c     jutil:JUtil.dll
+ 0002:00000010       __imp_??BGUserText@@QBEPBDXZ 10005010     jutil:JUtil.dll
+ 0002:00000014       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10005014     jutil:JUtil.dll
+ 0002:00000018       __imp_??1CATPStopWatch@@QAE@XZ 10005018     jutil:JUtil.dll
+ 0002:0000001c       __imp__JStgOpenStorage     1000501c     jutil:JUtil.dll
+ 0002:00000020       __imp_??BGUserText@@QBEPB_WXZ 10005020     jutil:JUtil.dll
+ 0002:00000024       __imp__JGetSolidEdgeCurrentUserApplicationPath 10005024     jutil:JUtil.dll
+ 0002:00000028       __imp_??4GUserText@@QAEAAV0@PBD@Z 10005028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??1GUserText@@QAE@XZ 1000502c     jutil:JUtil.dll
+ 0002:00000030       \177JUtil_NULL_THUNK_DATA  10005030     jutil:JUtil.dll
+ 0002:00000034       __imp__GetTickCount@0      10005034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__QueryPerformanceCounter@4 10005038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__DisableThreadLibraryCalls@4 1000503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__IsDebuggerPresent@0 10005040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__SetUnhandledExceptionFilter@4 10005044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentThreadId@0 10005048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentProcess@0 1000504c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GlobalMemoryStatus@4 10005050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetLocalTime@4      10005054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetTempPathA@8      10005058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetSystemInfo@4     1000505c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetComputerNameA@8  10005060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__lstrcpynA@12        10005064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__lstrlenA@4          10005068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__Sleep@4             1000506c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__CloseHandle@4       10005070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetLastError@0      10005074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__WaitForSingleObject@8 10005078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__TerminateProcess@8  1000507c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__OpenProcess@12      10005080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetCurrentProcessId@0 10005084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__UnhandledExceptionFilter@4 10005088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__InterlockedCompareExchange@12 1000508c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__InterlockedExchange@8 10005090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetSystemTimeAsFileTime@4 10005094     kernel32:KERNEL32.dll
+ 0002:00000098       \177KERNEL32_NULL_THUNK_DATA 10005098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp___adjust_fdiv        1000509c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__malloc              100050a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___callnewh           100050a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp__vsprintf_s          100050a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp__free                100050ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp____CxxFrameHandler3  100050b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___except_handler4_common 100050b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp__strcmp              100050b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp__fprintf             100050bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp__realloc             100050c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp__fclose              100050c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__strcat_s            100050c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__fscanf              100050cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__fopen               100050d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__strcpy_s            100050d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__memset              100050d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp_??_V@YAXPAX@Z        100050dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___stricmp            100050e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__vsprintf            100050e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___encode_pointer     100050e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___malloc_crt         100050ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___encoded_null       100050f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___decode_pointer     100050f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___initterm           100050f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___initterm_e         100050fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___amsg_exit          10005100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__fflush              10005104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp____CppXcptFilter     10005108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___crt_debugger_hook  1000510c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp____clean_type_info_names_internal 10005110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___unlock             10005114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp____dllonexit         10005118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___lock               1000511c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___onexit             10005120     MSVCRT:MSVCR80.dll
+ 0002:00000124       \177MSVCR80_NULL_THUNK_DATA 10005124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp__GetModuleBaseNameA@16 10005128     psapi:PSAPI.DLL
+ 0002:0000012c       __imp__EnumProcessModules@16 1000512c     psapi:PSAPI.DLL
+ 0002:00000130       __imp__EnumProcesses@12    10005130     psapi:PSAPI.DLL
+ 0002:00000134       \177PSAPI_NULL_THUNK_DATA  10005134     psapi:PSAPI.DLL
+ 0002:00000138       __imp__CoInitialize@4      10005138     ole32:ole32.dll
+ 0002:0000013c       __imp__CreateBindCtx@8     1000513c     ole32:ole32.dll
+ 0002:00000140       __imp__CoUninitialize@0    10005140     ole32:ole32.dll
+ 0002:00000144       \177ole32_NULL_THUNK_DATA  10005144     ole32:ole32.dll
+ 0002:00000148       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10005148     umath:umath.dll
+ 0002:0000014c       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000514c     umath:umath.dll
+ 0002:00000150       __imp_?ReflectTransf@@YA?AUtagGTransf@@ABUtagGUnitVector@@ABUtagGPosition@@@Z 10005150     umath:umath.dll
+ 0002:00000154       __imp_??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 10005154     umath:umath.dll
+ 0002:00000158       __imp_?Inverse@tagG4x4@@QBE?AU1@XZ 10005158     umath:umath.dll
+ 0002:0000015c       __imp_?Build4x4@@YA?AUtagG4x4@@PBN@Z 1000515c     umath:umath.dll
+ 0002:00000160       __imp_??D@YA?AUtagG4x4@@ABU0@0@Z 10005160     umath:umath.dll
+ 0002:00000164       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 10005164     umath:umath.dll
+ 0002:00000168       \177umath_NULL_THUNK_DATA  10005168     umath:umath.dll
+ 0002:0000016c       ___xc_a                    1000516c     MSVCRT:cinitexe.obj
+ 0002:00000170       ___xc_z                    10005170     MSVCRT:cinitexe.obj
+ 0002:00000174       ___xi_a                    10005174     MSVCRT:cinitexe.obj
+ 0002:0000017c       ___xi_z                    1000517c     MSVCRT:cinitexe.obj
+ 0002:0000019c       ??_C@_03DLDNIBIK@?$CFlf?$AA@ 1000519c     cvt2str.obj
+ 0002:000001a0       ??_C@_02NJPGOMH@?$CFf?$AA@ 100051a0     cvt2str.obj
+ 0002:000001a4       ??_C@_02DPKJAMEF@?$CFd?$AA@ 100051a4     cvt2str.obj
+ 0002:000001a8       ??_C@_03JALODAI@?$CFld?$AA@ 100051a8     cvt2str.obj
+ 0002:000001ac       ??_C@_02NJNOFBBI@?$CFx?$AA@ 100051ac     cvt2str.obj
+ 0002:000001b0       ??_C@_01EEMJAFIK@?6?$AA@   100051b0     detline.obj
+ 0002:000001b4       ??_C@_08DIODACMM@?0?5?$CF1?43lf?$AA@ 100051b4     detline.obj
+ 0002:000001c0       ??_C@_0BB@IAECJHBC@?0?$CFld?0?$CFld?0?$CFld?0?$CFld?$AA@ 100051c0     detline.obj
+ 0002:000001d4       ??_C@_0BB@DCNJFCED@?0?5?$CFhd?3?$CFhd?3?$CF1?43lf?$AA@ 100051d4     detline.obj
+ 0002:000001e8       __real@408f400000000000    100051e8     detline.obj
+ 0002:000001f0       ??_C@_03OMLJOFL@?0?$CFs?$AA@ 100051f0     detline.obj
+ 0002:000001f4       ??_C@_03LEIBKMN@?0?$CFd?$AA@ 100051f4     detline.obj
+ 0002:000001f8       ??_C@_0BD@JKBPKCFB@?0?$CFd?0?$CFI64d?0?$CFI64d?0?$CFf?$AA@ 100051f8     detline.obj
+ 0002:0000020c       ??_C@_06FDONMDEL@?0?$CFs?0?$CFs?$AA@ 1000520c     detline.obj
+ 0002:00000214       ??_C@_0M@GKBDCBMJ@?$CFd?0?$CFs?0?$CFs?0?$CFs?$AA@ 10005214     detline.obj
+ 0002:00000220       ??_C@_01NOFIACDB@w?$AA@    10005220     output.obj
+ 0002:00000224       ??_C@_0M@PPKMNAPP@detline?4csv?$AA@ 10005224     output.obj
+ 0002:00000230       ??_C@_02DKCKIIND@?$CFs?$AA@ 10005230     output.obj
+ 0002:00000234       ??_C@_0M@EJLFAOCG@detline?4ini?$AA@ 10005234     output.obj
+ 0002:00000240       ??_C@_01KDCPPGHE@r?$AA@    10005240     output.obj
+ 0002:00000244       ??_C@_01MCMALHOG@a?$AA@    10005244     output.obj
+ 0002:00000248       ??_C@_0L@MFKEEBNL@Tester?3?$CFs?6?$AA@ 10005248     report.obj
+ 0002:00000254       ??_C@_0BA@LFJFBBFM@ProcType?3?$CFdX?$CFd?0?$AA@ 10005254     report.obj
+ 0002:00000264       ??_C@_0O@NMKOBINK@VirtMem?3?$CFdMB?0?$AA@ 10005264     report.obj
+ 0002:00000274       ??_C@_0L@JCGIGCFE@Swap?3?$CFdMB?0?$AA@ 10005274     report.obj
+ 0002:00000280       ??_C@_09MOHEAMHA@RAM?3?$CFdMB?0?$AA@ 10005280     report.obj
+ 0002:0000028c       ??_C@_0BK@HDBHCIDP@?5?$CFd?1?$CFd?1?$CFd?5?$CF?42d?3?$CF?42d?3?$CF?42d?0?$AA@ 1000528c     report.obj
+ 0002:000002a8       ??_C@_05DAPIFGLB@?2?2?$CFs?0?$AA@ 100052a8     report.obj
+ 0002:000002b0       ??_C@_08FMCJHKKC@JBatch20?$AA@ 100052b0     report.obj
+ 0002:000002bc       ??_C@_08EDHMEBNP@December?$AA@ 100052bc     report.obj
+ 0002:000002c8       ??_C@_08HCHEGEOA@November?$AA@ 100052c8     report.obj
+ 0002:000002d4       ??_C@_07JJNFCEND@October?$AA@ 100052d4     report.obj
+ 0002:000002dc       ??_C@_09BHHEALKD@September?$AA@ 100052dc     report.obj
+ 0002:000002e8       ??_C@_06LBBHFDDG@August?$AA@ 100052e8     report.obj
+ 0002:000002f0       ??_C@_04MIEPOIFP@July?$AA@ 100052f0     report.obj
+ 0002:000002f8       ??_C@_04CNLMGBGM@June?$AA@ 100052f8     report.obj
+ 0002:00000300       ??_C@_03CNMDKL@May?$AA@    10005300     report.obj
+ 0002:00000304       ??_C@_05DMJDNLEJ@April?$AA@ 10005304     report.obj
+ 0002:0000030c       ??_C@_05HPCKOFNC@March?$AA@ 1000530c     report.obj
+ 0002:00000314       ??_C@_08GNJGEPFN@February?$AA@ 10005314     report.obj
+ 0002:00000320       ??_C@_07CGJPFGJA@January?$AA@ 10005320     report.obj
+ 0002:00000328       ??_C@_03FEFJNEK@Sat?$AA@   10005328     report.obj
+ 0002:0000032c       ??_C@_03IDIOELNC@Fri?$AA@  1000532c     report.obj
+ 0002:00000330       ??_C@_05HPOGOOJE@Thurs?$AA@ 10005330     report.obj
+ 0002:00000338       ??_C@_03MHOMLAJA@Wed?$AA@  10005338     report.obj
+ 0002:0000033c       ??_C@_04OCKBBCLJ@Tues?$AA@ 1000533c     report.obj
+ 0002:00000344       ??_C@_03PDAGKDH@Mon?$AA@   10005344     report.obj
+ 0002:00000348       ??_C@_03KOEHGMDN@Sun?$AA@  10005348     report.obj
+ 0002:00000350       ??_C@_0IC@HHNLEHAJ@Test?5?$CD?0Major?5Cat?0Sub1?0Sub2?0Prior@ 10005350     report.obj
+ 0002:000003d4       ??_C@_0CN@DGKFPJKM@?0Used?5Mem?5Load?0Used?5Phys?0Used?5Pa@ 100053d4     report.obj
+ 0002:00000404       ??_C@_05ONGLINAC@?0Time?$AA@ 10005404     report.obj
+ 0002:0000040c       ??_C@_0CL@FFFIEDA@?0Mem?5Load?0Avail?5Phys?0Avail?5Page?0@ 1000540c     report.obj
+ 0002:00000438       ??_C@_09OFNIAGMG@?0Cur?5Time?$AA@ 10005438     report.obj
+ 0002:00000444       ??_C@_07KAKNACMK@?0Status?$AA@ 10005444     report.obj
+ 0002:0000044c       ??_C@_0CB@EIELGMMN@?0Priority?0Type?0Test?5Lib?0Function@ 1000544c     report.obj
+ 0002:00000470       ??_C@_0BL@COICEJEK@Test?5?$CD?0Major?5Cat?0Sub1?0Sub2?$AA@ 10005470     report.obj
+ 0002:0000048c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000548c     STDAFX.obj
+ 0002:0000049c       ??_C@_0L@LMCGCLHP@iCnctD?4exe?$AA@ 1000549c     vbwrap.obj
+ 0002:000004a8       ??_C@_09JHFBMIJ@iCnct?4exe?$AA@ 100054a8     vbwrap.obj
+ 0002:000004b4       ??_C@_09PEHCJIDB@partd?4exe?$AA@ 100054b4     vbwrap.obj
+ 0002:000004c0       ??_C@_08CODBDGCK@part?4exe?$AA@ 100054c0     vbwrap.obj
+ 0002:000004cc       ??_C@_09IKJADPOH@edged?4exe?$AA@ 100054cc     vbwrap.obj
+ 0002:000004d8       ??_C@_08HNOKFNCH@edge?4exe?$AA@ 100054d8     vbwrap.obj
+ 0002:000004e4       ??_C@_0BP@KFFFPBBI@unable?5to?5terminate?5process?5?$CFs?$AA@ 100054e4     vbwrap.obj
+ 0002:00000504       ??_C@_0DH@EHGFPKKL@Unexpected?5return?5value?5for?5?$CFs?5?9@ 10005504     vbwrap.obj
+ 0002:0000053c       ??_C@_0DF@DAPFLCCA@wait?5timed?5out?5for?5?$CFs?5?9?5continui@ 1000553c     vbwrap.obj
+ 0002:00000574       ??_C@_0CD@ILFHGGCL@wait?5failed?5for?5?$CFs?5?9?5error?5code?5@ 10005574     vbwrap.obj
+ 0002:00000598       ??_C@_07CIFAGBMG@unknown?$AA@ 10005598     vbwrap.obj
+ 0002:000005a0       ??_C@_09OHCAABMF@Excel?4exe?$AA@ 100055a0     vbwrap.obj
+ 0002:000005ac       __pDefaultRawDllMain       100055ac     MSVCRT:crtdll.obj
+ 0002:000005ac       __pRawDllMain              100055ac     MSVCRT:crtdll.obj
+ 0002:000005b8       __load_config_used         100055b8     MSVCRT:loadcfg.obj
+ 0002:00000640       ___safe_se_handler_table   10005640     <linker-defined>
+ 0002:00000660       ___rtc_iaa                 10005660     MSVCRT:initsect.obj
+ 0002:00000664       ___rtc_izz                 10005664     MSVCRT:initsect.obj
+ 0002:00000668       ___rtc_taa                 10005668     MSVCRT:initsect.obj
+ 0002:0000066c       ___rtc_tzz                 1000566c     MSVCRT:initsect.obj
+ 0002:000008f4       __IMPORT_DESCRIPTOR_JUtil  100058f4     jutil:JUtil.dll
+ 0002:00000908       __IMPORT_DESCRIPTOR_umath  10005908     umath:umath.dll
+ 0002:0000091c       __IMPORT_DESCRIPTOR_KERNEL32 1000591c     kernel32:KERNEL32.dll
+ 0002:00000930       __IMPORT_DESCRIPTOR_ADVAPI32 10005930     advapi32:ADVAPI32.dll
+ 0002:00000944       __IMPORT_DESCRIPTOR_ole32  10005944     ole32:ole32.dll
+ 0002:00000958       __IMPORT_DESCRIPTOR_MSVCR80 10005958     MSVCRT:MSVCR80.dll
+ 0002:0000096c       __IMPORT_DESCRIPTOR_PSAPI  1000596c     psapi:PSAPI.DLL
+ 0002:00000980       __NULL_IMPORT_DESCRIPTOR   10005980     jutil:JUtil.dll
+ 0003:00000000       __newmode                  10007000     newmode.obj
+ 0003:00000004       ?sTimeFmt@@3FA             10007004     detline.obj
+ 0003:0000000c       ?szSEProcessesToKill@@3PAPADA 1000700c     vbwrap.obj
+ 0003:00000030       ___security_cookie         10007030     MSVCRT:gs_cookie.obj
+ 0003:00000034       ___security_cookie_complement 10007034     MSVCRT:gs_cookie.obj
+ 0003:00000040       ___native_dllmain_reason   10007040     MSVCRT:natstart.obj
+ 0003:00000044       ___native_vcclrit_reason   10007044     MSVCRT:natstart.obj
+ 0003:00000048       ?szBuffer@@3PAY0IA@DA      10007048     cvt2str.obj
+ 0003:00000248       ?iCurBuf@@3HA              10007248     cvt2str.obj
+ 0003:00000250       ?flags@@3KA                10007250     detline.obj
+ 0003:00000258       ?gOutputSpec@@3UOutputSpecification@@A 10007258     detline.obj
+ 0003:00000360       ?gTestList@@3PAUdline@@A   10007360     detline.obj
+ 0003:00000364       ?gNumTests@@3HA            10007364     detline.obj
+ 0003:00000368       ?bColFlag@@3HA             10007368     detline.obj
+ 0003:00000694       ?__type_info_root_node@@3U__type_info_node@@A 10007694     MSVCRT:tncleanup.obj
+ 0003:0000069c       __adjust_fdiv              1000769c     <common>
+ 0003:000006a0       ___native_startup_state    100076a0     <common>
+ 0003:000006a4       ___native_startup_lock     100076a4     <common>
+ 0003:000006a8       ___onexitend               100076a8     <common>
+ 0003:000006ac       ___onexitbegin             100076ac     <common>
+ 0003:000006b0       ___dyn_tls_init_callback   100076b0     <common>
+
+ entry point at        0001:0000308d
+
+ Static symbols
+
+ 0001:00002750       ?TerminateProcesses@@YGH_NAA_N1PADIQAPAD@Z 10003750 f   vbwrap.obj
+ 0001:00002d8b       _pre_c_init                10003d8b f   MSVCRT:crtdll.obj
+ 0001:00002f77       ___DllMainCRTStartup       10003f77 f   MSVCRT:crtdll.obj
+ 0001:00003520       __unwindfunclet$_OutputDetailLine$3 10004520 f   detline.obj
+ 0001:0000352b       __unwindfunclet$_OutputDetailLine$2 1000452b f   detline.obj
+ 0001:00003536       __unwindfunclet$_OutputDetailLine$17 10004536 f   detline.obj
+ 0001:00003541       __ehhandler$_OutputDetailLine 10004541 f   detline.obj
+ 0001:00003560       __unwindfunclet$??0TestDetails@@QAE@XZ$0 10004560 f   detline.obj
+ 0001:00003569       __unwindfunclet$??0TestDetails@@QAE@XZ$1 10004569 f   detline.obj
+ 0001:00003575       __unwindfunclet$??0TestDetails@@QAE@XZ$2 10004575 f   detline.obj
+ 0001:00003581       __unwindfunclet$??0TestDetails@@QAE@XZ$3 10004581 f   detline.obj
+ 0001:00003590       __unwindfunclet$??0TestDetails@@QAE@XZ$4 10004590 f   detline.obj
+ 0001:0000359f       __unwindfunclet$??0TestDetails@@QAE@XZ$5 1000459f f   detline.obj
+ 0001:000035ae       __unwindfunclet$??0TestDetails@@QAE@XZ$6 100045ae f   detline.obj
+ 0001:000035bd       __unwindfunclet$??0TestDetails@@QAE@XZ$7 100045bd f   detline.obj
+ 0001:000035cc       __unwindfunclet$??0TestDetails@@QAE@XZ$8 100045cc f   detline.obj
+ 0001:000035db       __unwindfunclet$??0TestDetails@@QAE@XZ$9 100045db f   detline.obj
+ 0001:000035ea       __unwindfunclet$??0TestDetails@@QAE@XZ$10 100045ea f   detline.obj
+ 0001:000035f9       __unwindfunclet$??0TestDetails@@QAE@XZ$11 100045f9 f   detline.obj
+ 0001:00003608       __unwindfunclet$??0TestDetails@@QAE@XZ$12 10004608 f   detline.obj
+ 0001:00003617       __ehhandler$??0TestDetails@@QAE@XZ 10004617 f   detline.obj
+ 0001:00003640       __unwindfunclet$??1dline@@QAE@XZ$0 10004640 f   detline.obj
+ 0001:00003648       __ehhandler$??1dline@@QAE@XZ 10004648 f   detline.obj
+ 0001:00003670       __unwindfunclet$??1TestDetails@@QAE@XZ$0 10004670 f   detline.obj
+ 0001:00003679       __unwindfunclet$??1TestDetails@@QAE@XZ$1 10004679 f   detline.obj
+ 0001:00003685       __unwindfunclet$??1TestDetails@@QAE@XZ$2 10004685 f   detline.obj
+ 0001:00003691       __unwindfunclet$??1TestDetails@@QAE@XZ$3 10004691 f   detline.obj
+ 0001:000036a0       __unwindfunclet$??1TestDetails@@QAE@XZ$4 100046a0 f   detline.obj
+ 0001:000036af       __unwindfunclet$??1TestDetails@@QAE@XZ$5 100046af f   detline.obj
+ 0001:000036be       __unwindfunclet$??1TestDetails@@QAE@XZ$6 100046be f   detline.obj
+ 0001:000036cd       __unwindfunclet$??1TestDetails@@QAE@XZ$7 100046cd f   detline.obj
+ 0001:000036dc       __unwindfunclet$??1TestDetails@@QAE@XZ$8 100046dc f   detline.obj
+ 0001:000036eb       __unwindfunclet$??1TestDetails@@QAE@XZ$9 100046eb f   detline.obj
+ 0001:000036fa       __unwindfunclet$??1TestDetails@@QAE@XZ$10 100046fa f   detline.obj
+ 0001:00003709       __unwindfunclet$??1TestDetails@@QAE@XZ$11 10004709 f   detline.obj
+ 0001:00003718       __unwindfunclet$??1TestDetails@@QAE@XZ$12 10004718 f   detline.obj
+ 0001:00003727       __ehhandler$??1TestDetails@@QAE@XZ 10004727 f   detline.obj
+ 0001:00003750       __unwindfunclet$_DLStop$1  10004750 f   measure.obj
+ 0001:0000375b       __unwindfunclet$_DLStop$0  1000475b f   measure.obj
+ 0001:00003766       __unwindfunclet$_DLStop$15 10004766 f   measure.obj
+ 0001:00003771       __unwindfunclet$_DLStop$29 10004771 f   measure.obj
+ 0001:0000377c       __ehhandler$_DLStop        1000477c f   measure.obj
+ 0001:000037a0       __unwindfunclet$_VBOutputDetailLine@64$0 100047a0 f   vbwrap.obj
+ 0001:000037ab       __ehhandler$_VBOutputDetailLine@64 100047ab f   vbwrap.obj
+ 0001:000037d0       __unwindfunclet$_VBCheckStorageLeaked@4$0 100047d0 f   vbwrap.obj
+ 0001:000037d9       __ehhandler$_VBCheckStorageLeaked@4 100047d9 f   vbwrap.obj

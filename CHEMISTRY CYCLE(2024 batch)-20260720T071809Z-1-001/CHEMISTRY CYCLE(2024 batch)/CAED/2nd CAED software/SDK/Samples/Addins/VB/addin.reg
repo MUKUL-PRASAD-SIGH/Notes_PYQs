@@ -1,0 +1,38 @@
+REGEDIT4
+;Copyright (C) 1999 Unigraphics Solutions. All rights reserved.
+;Changes for REGISTRY format Change
+; 10/27/99 JsBielat
+REGEDIT4
+
+
+
+; Sample script for VB based AddIns.
+; VB automatically puts out most of the basic reg entries. Just add the Solid Edge specific entries
+
+
+
+
+[HKEY_CLASSES_ROOT\CLSID\{C7CF857B-7FE0-11D2-BE8E-080036B4D502}]
+@="My Solid Edge Add-in CLSID"
+"AutoConnect"=dword:00000001
+"409"="This is my localized (US English) addin registry string"
+
+[HKEY_CLASSES_ROOT\CLSID\{C7CF857B-7FE0-11D2-BE8E-080036B4D502}\Environment Categories]
+
+[HKEY_CLASSES_ROOT\CLSID\{C7CF857B-7FE0-11D2-BE8E-080036B4D502}\Environment Categories\{26618396-09D6-11d1-BA07-080036230602}]
+@="Solid Edge Part Environment"
+
+[HKEY_CLASSES_ROOT\CLSID\{C7CF857B-7FE0-11D2-BE8E-080036B4D502}\Implemented Categories]
+
+[HKEY_CLASSES_ROOT\CLSID\{C7CF857B-7FE0-11D2-BE8E-080036B4D502}\Implemented Categories\{26B1D2D1-2B03-11d2-B589-080036E8B802}]
+@="My Solid Edge AddIn"
+
+
+; Register the SolidEdge Addins CATID in case it is not already registered
+
+
+[HKEY_CLASSES_ROOT\Component Categories\{26B1D2D1-2B03-11d2-B589-080036E8B802}]
+@="Solid Edge AddIn CATID"
+[HKEY_CLASSES_ROOT\Component Categories\{26B1D2D1-2B03-11d2-B589-080036E8B802}\409]
+@="This is the CATID for SolidEdge AddIn"
+

@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Language" content="en-us">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/main.css"> <!-- control of fonts and other elements from Main.CSS file -->
+			<base target="_blank">
+	</head>
+	<body id="COPILOT">
+		<!-- Line 1 -->
+		<!-- Must show the "Select Tool" icon (bitmap) on the CCP dialog -->
+		<!-- Must show the "Assembly Pathfinder" page of the edgebar -->
+		<!-- PF_ASM_TREE is 100 in uedgebar.h -->
+		<!-- Dialog   IDD_ASSEMBLYPAGE  is   108  in asmdvx -->
+		<!-- Control  IDC_TREE1  is  1026  in asmdvx -->
+		<div id="Line1">
+			<p>
+				<span>
+					<IMG id="COPILOT_SELECTTOOL__BMP" align='absmiddle' src="images/Select.gif" style="margin:-3px">
+				</span>
+				<a id="EdgeBar_AssemblyPathfinder_EDGEBAR_100_1026" href="javascript:void(0)">Assembly 
+					PathFinder shows the structure of the assembly. Select a part or subassembly 
+					for more options. </a>
+			</p>
+		</div>
+		<!-- Line 2 -->
+		<!-- Must show the "Parts Library" icon (bitmap) on the CCP dialog -->
+		<!-- Must show the "Parts Library" page on the edgebar -->
+		<!-- Must highlight the "parts list pane" which is a SysListView32 control on the Parts Library page of the EdgeBar -->
+		<!-- PF_ASM_PARTS_LIB is 101 in uedgebar.h -->
+		<!-- Dialog   IDD_PART_LIBRARY  is   305  in asmdvx -->
+		<!-- Control  IDC_LIBRARY_LIST  is  1557  in asmdvx -->
+		<div id="Line2">
+			<p>
+				<span>
+					<IMG id="EdgeBar_PartsLibrary_List_EDGEBAR_TAB_101_BMP" align='absmiddle' src="">
+				</span>
+				<a id="EdgeBar_PartsLibrary_List_EDGEBAR_101_1557" href="javascript:void(0)">In the 
+					Parts Library tab, browse your computer, your networks, or Insight libraries 
+					for parts or subassemblies to add to this subassembly. </a>
+			</p>
+		</div>
+		<!-- Line 4 -->
+		<!-- Must show the "Close and Return" icon (bitmap) on the CCP dialog -->
+		<!-- Must show the File menu -->
+		<!-- Must  highlight the "Close and Return icon" which is a menu entry on the File menu -->
+		<div id="Line4">
+			<p>
+				<span>
+					<IMG id="CMD_Menu_File_CloseAndReturn_CMD_BMP" align='absmiddle' src="">
+				</span>
+				<a id="CMD_Menu_File_CloseAndReturn_CMD_65097" href="javascript:void(0)">To 
+					complete changes to this subassembly, close the file and return to the parent 
+					assembly. </a>
+			</p>
+		</div>
+		<!-- Line 5 -->
+		<!-- Must show the "Property Manager" icon (bitmap) on the CCP dialog -->
+		<!-- Must show the Tools Menu -->
+		<!-- Must highlight the "Property Manager" icon in the Tools Menu -->
+		<div id="Line5">
+			<p>
+				<span>
+					<IMG id="CMD_Menu_Tools_PropertyManager_CMD_BMP" align='absmiddle' src="">
+				</span>
+				<a id="CMD_Menu_Tools_PropertyManager_CMD_50005" href="javascript:void(0)">Manage 
+					properties of components in this subassembly with Propertiy Manager. </a>
+			</p>
+		</div>
+	</body>
+</html>

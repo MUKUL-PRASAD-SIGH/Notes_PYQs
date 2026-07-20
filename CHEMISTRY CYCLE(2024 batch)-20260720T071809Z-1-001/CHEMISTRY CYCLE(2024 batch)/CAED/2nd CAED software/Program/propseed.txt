@@ -1,0 +1,85 @@
+\\ Solid Edge property seed file. 1-7-2006
+
+\\ The contents of this file populate lists on dialogs of the Properties command.
+
+\\ It is expected that you customize this file to meet your company's needs.
+\\ Content as delivered is provided for example.
+
+\\ You can put this file where convenient for you as long as you set the file 
+\\ location path within the Solid Edge options dialog.
+
+\\ ----------------------------------------------------------------------------------
+\\ Standard property section
+
+\\ You can customize lists for the following standard properties:
+\\ title, category, keyword, project name.
+
+\\ You can add an item to a list by entering a string of characters followed by a
+\\ semi colon. List items must be between the "begin" and "end" of each list.
+
+\\ You can set one of the list items as the default in the dialog control
+\\ by following the format
+\\ default=item;
+\\ where "item" is the item in the list you want to be the default.
+\\ This must be between the "begin" and "end" of the list.  Also note that this
+\\ default still must be 'accepted' by the users by clicking the 'OK' button
+\\ on the File Properties dialog when creating a new file.
+
+\\ Contents of title list
+Begin Title
+End Title
+
+\\ Contents of category list
+Begin Category
+hardware;
+misc;
+default=;
+End Category
+
+\\ Contents of keyword list
+Begin Keyword
+nut; 
+bolt;
+washer;
+shaft;
+default=;
+End Keyword
+
+\\ Contents of project name list
+Begin Project
+A;
+B;
+default=;
+End Project
+
+\\ ----------------------------------------------------------------------------------
+\\ Custom property section
+
+\\ You can define custom properties by following the format
+\\ define name;type;
+\\ The string "define" must proceed each custom property name.
+\\ Name is the name of the custom property and can be any string of characters.
+\\ Type is one of the following: text, date, number, yes or no.
+\\ The delimiter is a semi colon.
+
+\\ Define custom properties
+Begin Define Custom
+define finish;text;
+define custom2;number;
+End Define Custom
+
+\\ Contents of finish list
+Begin Finish
+gold;
+nickel;
+copper;
+default=nickel;
+End Finish
+
+\\ Contents of custom2 list
+Begin Custom2
+1;
+2;
+3;
+default=2;
+End Custom2

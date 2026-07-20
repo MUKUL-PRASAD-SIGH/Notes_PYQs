@@ -1,0 +1,661 @@
+ SkDrTrg
+
+ Timestamp is 46b3a5e8 (Fri Aug 03 17:02:16 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000046f3H .text                   CODE
+ 0001:00004700 00000585H .text$x                 CODE
+ 0001:00004c90 00000176H .text$yc                CODE
+ 0002:00000000 00000280H .idata$5                DATA
+ 0002:00000280 00000004H .CRT$XCA                DATA
+ 0002:00000284 00000030H .CRT$XCU                DATA
+ 0002:000002b4 00000004H .CRT$XCZ                DATA
+ 0002:000002b8 00000004H .CRT$XIA                DATA
+ 0002:000002bc 00000004H .CRT$XIAA               DATA
+ 0002:000002c0 00000004H .CRT$XIZ                DATA
+ 0002:000002d0 00000ba0H .rdata                  DATA
+ 0002:00000e70 00000031H .rdata$debug            DATA
+ 0002:00000ea4 00000314H .rdata$r                DATA
+ 0002:000011c0 00000064H .rdata$sxdata           DATA
+ 0002:00001224 00000004H .rtc$IAA                DATA
+ 0002:00001228 00000004H .rtc$IZZ                DATA
+ 0002:0000122c 00000004H .rtc$TAA                DATA
+ 0002:00001230 00000004H .rtc$TZZ                DATA
+ 0002:00001238 0000051cH .xdata$x                DATA
+ 0002:00001754 00000000H ATL$__a                 DATA
+ 0002:00001754 00000000H ATL$__z                 DATA
+ 0002:00001754 00000118H .idata$2                DATA
+ 0002:0000186c 00000014H .idata$3                DATA
+ 0002:00001880 00000280H .idata$4                DATA
+ 0002:00001b00 00001128H .idata$6                DATA
+ 0002:00002c30 0000006aH .edata                  DATA
+ 0003:00000000 0000214cH .data                   DATA
+ 0003:00002150 000009f0H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000019       ___safe_se_handler_count   00000019     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ?ServerGetNumberOfObjects@@YAKXZ 10001030 f   SERVER.obj
+ 0001:00000040       ?ServerGetNumberOfLocks@@YAKXZ 10001040 f   SERVER.obj
+ 0001:00000050       ?ServerIncrementNumberOfObjects@@YAXXZ 10001050 f   SERVER.obj
+ 0001:00000060       ?ServerDecrementNumberOfObjects@@YAXXZ 10001060 f   SERVER.obj
+ 0001:00000070       ?ServerIncrementNumberOfLocks@@YAXXZ 10001070 f   SERVER.obj
+ 0001:00000080       ?ServerDecrementNumberOfLocks@@YAXXZ 10001080 f   SERVER.obj
+ 0001:000000c0       _GetResourceModuleHandle@4 100010c0 f   SERVER.obj
+ 0001:000000f0       _DllMain@12                100010f0 f   SERVER.obj
+ 0001:00000140       _DllCanUnloadNow@0         10001140 f   SERVER.obj
+ 0001:00000160       _IsEqualGUID               10001160 f i SERVER.obj
+ 0001:00000200       ??0?$ClassFactory@VJSkDropTarget@@@@QAE@HHH@Z 10001200 f i SERVER.obj
+ 0001:00000280       ?OnCreateInstance@?$ClassFactory@VJSkDropTarget@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10001280 f i SERVER.obj
+ 0001:000003d0       _DllGetClassObject@12      100013d0 f   SERVER.obj
+ 0001:00000580       ??_G?$ClassFactory@VJSkDropTarget@@@@UAEPAXI@Z 10001580 f i SERVER.obj
+ 0001:00000580       ??_E?$ClassFactory@VJSkDropTarget@@@@UAEPAXI@Z 10001580 f i SERVER.obj
+ 0001:000005e0       ?QueryInterface@JSkDropTarget@@UAGJABU_GUID@@PAPAX@Z 100015e0 f   SkDrTrg.obj
+ 0001:00000650       ?AddRef@JSkDropTarget@@UAGKXZ 10001650 f   SkDrTrg.obj
+ 0001:00000660       ?Initialize@JSkDropTarget@@QAEJXZ 10001660 f   SkDrTrg.obj
+ 0001:00000770       ?QueryInterface@IDropTargetImp@JSkDropTarget@@UAGJABU_GUID@@PAPAX@Z 10001770 f   SkDrTrg.obj
+ 0001:00000790       ?AddRef@IDropTargetImp@JSkDropTarget@@UAGKXZ 10001790 f   SkDrTrg.obj
+ 0001:000007b0       ?Release@IDropTargetImp@JSkDropTarget@@UAGKXZ 100017b0 f   SkDrTrg.obj
+ 0001:000007d0       ?DragLeave@IDropTargetImp@JSkDropTarget@@UAGJXZ 100017d0 f   SkDrTrg.obj
+ 0001:00000810       ?BeginUndoRecording@JSkDropTarget@@QAEJPB_WH@Z 10001810 f   SkDrTrg.obj
+ 0001:00000870       ?EndUndoRecording@JSkDropTarget@@QAEJH@Z 10001870 f   SkDrTrg.obj
+ 0001:000008d0       ?SetupSmartMouse@JSkDropTarget@@IAEJXZ 100018d0 f   SkDrTrg.obj
+ 0001:00000cc0       ??I?$TIP@PAUIJGraphic@@@@QAEPAPAUIJGraphic@@XZ 10001cc0 f i SkDrTrg.obj
+ 0001:00000cc0       ??I?$TIP@PAUIJSelectSet@@@@QAEPAPAUIJSelectSet@@XZ 10001cc0 f i SkDrTrg.obj
+ 0001:00000ce0       ??1?$TIP@PAUIJSelectSet@@@@QAE@XZ 10001ce0 f i SkDrTrg.obj
+ 0001:00000ce0       ??1?$TIP@PAUIJViewSet@@@@QAE@XZ 10001ce0 f i SkDrTrg.obj
+ 0001:00000ce0       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001ce0 f i SkDrTrg.obj
+ 0001:00000ce0       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 10001ce0 f i SkDrTrg.obj
+ 0001:00000cf0       ??1JSkDropTarget@@QAE@XZ   10001cf0 f   SkDrTrg.obj
+ 0001:00000d80       ?LocateHelper@JSkDropTarget@@QAEJUtagPOINT@@PBU_GUID@@KPAPAUIUnknown@@PAPAUIJGraphic@@HPAUIEnumUnknown@@PAH@Z 10001d80 f   SkDrTrg.obj
+ 0001:000012f0       ?SetTargetViewActive@JSkDropTarget@@QAGJXZ 100022f0 f   SkDrTrg.obj
+ 0001:00001580       ?BeginUndoRecording@JSkDropTarget@@QAEJIH@Z 10002580 f   SkDrTrg.obj
+ 0001:00001680       ?DragEnter@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z 10002680 f   SkDrTrg.obj
+ 0001:00001720       ?DrawDynamicLists@JSkDropTarget@@IAEJXZ 10002720 f   SkDrTrg.obj
+ 0001:00001880       ?ApplySmartMouse@JSkDropTarget@@IAEJPAUtagPOINT@@PAUtagGPosition2d@@@Z 10002880 f   SkDrTrg.obj
+ 0001:00001990       ?Release@JSkDropTarget@@UAGKXZ 10002990 f   SkDrTrg.obj
+ 0001:000019c0       ??0JSkDropTarget@@QAE@PAUIUnknown@@@Z 100029c0 f   SkDrTrg.obj
+ 0001:00001a70       ?DragOver@IDropTargetImp@JSkDropTarget@@UAGJKU_POINTL@@PAK@Z 10002a70 f   SkDrTrg.obj
+ 0001:00001b20       ?Drop@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z 10002b20 f   SkDrTrg.obj
+ 0001:000020b4       ?InvalidateDropPoint@@YGJXZ 100030b4 f   drgndrp:drgndrp.dll
+ 0001:000020ba       ?SetDropPoint@@YGJUtagGPosition@@@Z 100030ba f   drgndrp:drgndrp.dll
+ 0001:000020c0       _JBeginTransaction@16      100030c0 f   jengine:jengine.dll
+ 0001:000020c6       _JIsUndoTransactionActive@20 100030c6 f   jengine:jengine.dll
+ 0001:000020cc       _JEndTransaction@12        100030cc f   jengine:jengine.dll
+ 0001:000020d2       _JIsObjectAcceptable@24    100030d2 f   jengine:jengine.dll
+ 0001:000020d8       _CreateStdJLocateInfoArray@24 100030d8 f   jengine:jengine.dll
+ 0001:000020de       _JFreeLibrary              100030de f   jutil:JUtil.dll
+ 0001:000020e4       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 100030e4 f   jutil:JUtil.dll
+ 0001:000020ea       ?AddRef@JClassFactory@@UAGKXZ 100030ea f   jutil:JUtil.dll
+ 0001:000020f0       ?Release@JClassFactory@@UAGKXZ 100030f0 f   jutil:JUtil.dll
+ 0001:000020f6       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100030f6 f   jutil:JUtil.dll
+ 0001:000020fc       ?LockServer@JClassFactory@@UAGJH@Z 100030fc f   jutil:JUtil.dll
+ 0001:00002102       _HRerrEx                   10003102 f   jutil:JUtil.dll
+ 0001:00002108       _RCfatalerr                10003108 f   jutil:JUtil.dll
+ 0001:0000210e       _JCoCreateInstance         1000310e f   jutil:JUtil.dll
+ 0001:00002114       _JGetTopOccurrence@12      10003114 f   olesite:OLESITE.dll
+ 0001:00002120       ??3CObject@@SGXPAX@Z       10003120 f i skcmdspt:SMHELPER.obj
+ 0001:00002160       ?_GetBaseClass@SkSMHelper@@KGPAUCRuntimeClass@@XZ 10003160 f   skcmdspt:SMHELPER.obj
+ 0001:00002170       ?GetRuntimeClass@SkSMHelper@@UBEPAUCRuntimeClass@@XZ 10003170 f   skcmdspt:SMHELPER.obj
+ 0001:00002180       ??1SkSMHelper@@UAE@XZ      10003180 f   skcmdspt:SMHELPER.obj
+ 0001:000021d0       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 100031d0 f i skcmdspt:SMHELPER.obj
+ 0001:000021d0       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 100031d0 f i skcmdspt:SMHELPER.obj
+ 0001:000021e0       ?AssertValid@CObject@@UBEXXZ 100031e0 f i skcmdspt:SMHELPER.obj
+ 0001:000021f0       ?AddToList@@YAXQAPAUtagConstraintInfo@@PAHU_GUID@@KH@Z 100031f0 f   skcmdspt:SMHELPER.obj
+ 0001:000022c0       ?GetSolver@SkSMHelper@@UAEJPAPAUIJRelationSolver@@@Z 100032c0 f   skcmdspt:SMHELPER.obj
+ 0001:000022d0       ?SetConstraintBmpColor@SkSMHelper@@UAEJXZ 100032d0 f   skcmdspt:SMHELPER.obj
+ 0001:000023b0       ?SetLocateTolerance@SkSMHelper@@UAEJXZ 100033b0 f   skcmdspt:SMHELPER.obj
+ 0001:00002450       ?SetDefaultInfo@SkSMHelper@@UAEJXZ 10003450 f   skcmdspt:SMHELPER.obj
+ 0001:00002790       ?Locate@SkSMHelper@@QAEJPAUIJView@@VCPoint@@HK@Z 10003790 f   skcmdspt:SMHELPER.obj
+ 0001:00002810       ?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z 10003810 f   skcmdspt:SMHELPER.obj
+ 0001:00002950       ?InstallPinPointRelations@SkSMHelper@@EAEJXZ 10003950 f   skcmdspt:SMHELPER.obj
+ 0001:00002a80       ?RemovePinPointRelations@SkSMHelper@@EAEJXZ 10003a80 f   skcmdspt:SMHELPER.obj
+ 0001:00002bb0       ?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z 10003bb0 f   skcmdspt:SMHELPER.obj
+ 0001:00002c80       ?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z 10003c80 f   skcmdspt:SMHELPER.obj
+ 0001:00002dc0       ?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10003dc0 f   skcmdspt:SMHELPER.obj
+ 0001:00002eb0       ?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z 10003eb0 f   skcmdspt:SMHELPER.obj
+ 0001:00002f80       ?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10003f80 f   skcmdspt:SMHELPER.obj
+ 0001:00003070       ?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z 10004070 f   skcmdspt:SMHELPER.obj
+ 0001:00003150       ??_ESkSMHelper@@UAEPAXI@Z  10004150 f i skcmdspt:SMHELPER.obj
+ 0001:00003150       ??_GSkSMHelper@@UAEPAXI@Z  10004150 f i skcmdspt:SMHELPER.obj
+ 0001:00003170       ?DefaultConstraintClasses@SkSMHelper@@QAEJXZ 10004170 f   skcmdspt:SMHELPER.obj
+ 0001:00003a20       ??0SkSMHelper@@QAE@XZ      10004a20 f   skcmdspt:SMHELPER.obj
+ 0001:00003aa0       ?CreateObject@SkSMHelper@@SGPAVCObject@@XZ 10004aa0 f   skcmdspt:SMHELPER.obj
+ 0001:00003b02       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 10004b02 f   umath:umath.dll
+ 0001:00003b08       ?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 10004b08 f   umath:umath.dll
+ 0001:00003b0e       ?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 10004b0e f   umath:umath.dll
+ 0001:00003b14       _malloc                    10004b14 f   MSVCRT:MSVCR80.dll
+ 0001:00003b1a       __callnewh                 10004b1a f   MSVCRT:MSVCR80.dll
+ 0001:00003b20       ??3@YAXPAX@Z               10004b20 f   MSVCRT:MSVCR80.dll
+ 0001:00003b26       ___CxxFrameHandler3        10004b26 f   MSVCRT:MSVCR80.dll
+ 0001:00003b2c       @__security_check_cookie@4 10004b2c f   MSVCRT:secchk.obj
+ 0001:00003b3b       ??_Etype_info@@UAEPAXI@Z   10004b3b f i MSVCRT:ti_inst.obj
+ 0001:00003b90       __except_handler4          10004b90 f   MSVCRT:chandler4gs.obj
+ 0001:00003bc0       __alloca_probe_16          10004bc0 f   MSVCRT:alloca16.obj
+ 0001:00003bd6       __alloca_probe_8           10004bd6     MSVCRT:alloca16.obj
+ 0001:00003bf0       __allmul                   10004bf0 f   MSVCRT:llmul.obj
+ 0001:00003c71       __CRT_INIT@12              10004c71 f   MSVCRT:crtdll.obj
+ 0001:00003f26       __DllMainCRTStartup@12     10004f26 f   MSVCRT:crtdll.obj
+ 0001:00003f48       _memset                    10004f48 f   MSVCRT:MSVCR80.dll
+ 0001:00003f4e       ___report_gsfailure        10004f4e f   MSVCRT:gs_report.obj
+ 0001:00004052       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10005052 f   MSVCRT:ehvecdtr.obj
+ 0001:000040b0       ??_M@YGXPAXIHP6EX0@Z@Z     100050b0 f   MSVCRT:ehvecdtr.obj
+ 0001:00004114       __except_handler4_common   10005114 f   MSVCRT:MSVCR80.dll
+ 0001:00004120       __alloca_probe             10005120     MSVCRT:chkstk.obj
+ 0001:00004120       __chkstk                   10005120 f   MSVCRT:chkstk.obj
+ 0001:0000414b       ___clean_type_info_names   1000514b f   MSVCRT:tncleanup.obj
+ 0001:00004157       __onexit                   10005157 f   MSVCRT:atonexit.obj
+ 0001:000041f6       _atexit                    100051f6 f   MSVCRT:atonexit.obj
+ 0001:00004208       __RTC_Initialize           10005208 f   MSVCRT:initsect.obj
+ 0001:0000422c       __RTC_Terminate            1000522c f   MSVCRT:initsect.obj
+ 0001:00004250       __ValidateImageBase        10005250 f   MSVCRT:pesect.obj
+ 0001:00004280       __FindPESection            10005280 f   MSVCRT:pesect.obj
+ 0001:000042c2       __IsNonwritableInCurrentImage 100052c2 f   MSVCRT:pesect.obj
+ 0001:0000432e       __initterm                 1000532e f   MSVCRT:MSVCR80.dll
+ 0001:00004334       __initterm_e               10005334 f   MSVCRT:MSVCR80.dll
+ 0001:0000433a       __amsg_exit                1000533a f   MSVCRT:MSVCR80.dll
+ 0001:00004340       ___CppXcptFilter           10005340 f   MSVCRT:MSVCR80.dll
+ 0001:00004348       __SEH_prolog4              10005348 f   MSVCRT:sehprolg4.obj
+ 0001:0000438d       __SEH_epilog4              1000538d f   MSVCRT:sehprolg4.obj
+ 0001:000043a1       ___security_init_cookie    100053a1 f   MSVCRT:gs_support.obj
+ 0001:00004436       __crt_debugger_hook        10005436 f   MSVCRT:MSVCR80.dll
+ 0001:0000443c       ?terminate@@YAXXZ          1000543c f   MSVCRT:MSVCR80.dll
+ 0001:00004442       ??1type_info@@UAE@XZ       10005442 f   MSVCRT:MSVCR80.dll
+ 0001:00004442       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10005442 f   MSVCRT:MSVCR80.dll
+ 0001:00004448       ___clean_type_info_names_internal 10005448 f   MSVCRT:MSVCR80.dll
+ 0001:0000444e       __unlock                   1000544e f   MSVCRT:MSVCR80.dll
+ 0001:00004454       ___dllonexit               10005454 f   MSVCRT:MSVCR80.dll
+ 0001:0000445a       __lock                     1000545a f   MSVCRT:MSVCR80.dll
+ 0001:00004460       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10005460 f   mfc80:MFC80.DLL
+ 0001:00004466       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10005466 f   mfc80:MFC80.DLL
+ 0001:0000446c       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000546c f   mfc80:MFC80.DLL
+ 0001:00004472       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10005472 f   mfc80:MFC80.DLL
+ 0001:00004478       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10005478 f   mfc80:MFC80.DLL
+ 0001:0000447e       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000547e f   mfc80:MFC80.DLL
+ 0001:00004484       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10005484 f   mfc80:MFC80.DLL
+ 0001:0000448a       ?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 1000548a f   mfc80:MFC80.DLL
+ 0001:00004490       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10005490 f   mfc80:MFC80.DLL
+ 0001:00004496       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10005496 f   mfc80:MFC80.DLL
+ 0001:0000449c       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000549c f   mfc80:MFC80.DLL
+ 0001:000044a2       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 100054a2 f   mfc80:MFC80.DLL
+ 0001:000044a8       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 100054a8 f   mfc80:MFC80.DLL
+ 0001:000044ae       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 100054ae f   mfc80:MFC80.DLL
+ 0001:000044b4       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 100054b4 f   mfc80:MFC80.DLL
+ 0001:000044ba       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 100054ba f   mfc80:MFC80.DLL
+ 0001:0000457c       __RawDllMainProxy@12       1000557c f   mfcs80:rawdllmainproxy.obj
+ 0001:0000459f       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000559f f i atls:atltrace.obj
+ 0001:00004604       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10005604 f i atls:atltrace.obj
+ 0001:00004608       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10005608 f i atls:atltrace.obj
+ 0001:0000466c       ?OnFinalRelease@JSMHelper2d@@UAEXXZ 1000566c f   cmdsp2d:CMDSPT2D.dll
+ 0001:00004672       ?GetInterfaceMap@JSMHelper2d@@MBEPBUAFX_INTERFACEMAP@@XZ 10005672 f   cmdsp2d:CMDSPT2D.dll
+ 0001:00004678       ?SetupFeedBack@JSMHelper2d@@UAEJPAUIJView@@@Z 10005678 f   cmdsp2d:CMDSPT2D.dll
+ 0001:0000467e       ?AddPinPoint@JSMHelper2d@@UAEJXZ 1000567e f   cmdsp2d:CMDSPT2D.dll
+ 0001:00004684       ?IsPinPointInstalled@JSMHelper2d@@UAE_NXZ 10005684 f   cmdsp2d:CMDSPT2D.dll
+ 0001:0000468a       ?SetHome@JSMHelper2d@@UAEJXZ 1000568a f   cmdsp2d:CMDSPT2D.dll
+ 0001:00004690       _GetDcmImp                 10005690 f   dcm_imp:DCM_IMP.dll
+ 0001:00004696       _JLoadLibrary              10005696 f   jutil:JUtil.dll
+ 0001:0000469c       __SEH_prolog4_GS           1000569c f   MSVCRT:sehprolg4gs.obj
+ 0001:000046e4       __SEH_epilog4_GS           100056e4 f   MSVCRT:sehprolg4gs.obj
+ 0002:00000000       __imp_?SetPlacementMode@JSMHelper2d@@QAEJH@Z 10006000     cmdsp2d:CMDSPT2D.dll
+ 0002:00000004       __imp_?Initialize@JSMHelper2d@@QAEKXZ 10006004     cmdsp2d:CMDSPT2D.dll
+ 0002:00000008       __imp_?Clear@JSMHelper2d@@QAEJXZ 10006008     cmdsp2d:CMDSPT2D.dll
+ 0002:0000000c       __imp_?RestoreBitmap@JSMHelper2d@@QAEJXZ 1000600c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000010       __imp_?ShowConstraintBitmaps@JSMHelper2d@@QAEJPAUIJView@@@Z 10006010     cmdsp2d:CMDSPT2D.dll
+ 0002:00000014       __imp_?AddConstraintClass@JSMHelper2d@@QAEJABU_GUID@@@Z 10006014     cmdsp2d:CMDSPT2D.dll
+ 0002:00000018       __imp_?ClearConstraintClasses@JSMHelper2d@@QAEJXZ 10006018     cmdsp2d:CMDSPT2D.dll
+ 0002:0000001c       __imp_?Release@JConstraintHelper2d@@QAEJXZ 1000601c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000020       __imp_??1JConstraintHelper2d@@UAE@XZ 10006020     cmdsp2d:CMDSPT2D.dll
+ 0002:00000024       __imp_?Evaluate@JSMHelper2d@@QAEJPAUIJView@@PAU_IJDocument@@PAUtagGPosition2d@@PAVJConstraintHelper2d@@H@Z 10006024     cmdsp2d:CMDSPT2D.dll
+ 0002:00000028       __imp_??0JConstraintHelper2d@@QAE@XZ 10006028     cmdsp2d:CMDSPT2D.dll
+ 0002:0000002c       __imp_?SetTarget@JSMHelper2d@@QAEJPAUIUnknown@@@Z 1000602c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000030       __imp_?ReplaceTarget@JConstraintHelper2d@@QAEJPAUIUnknown@@H@Z 10006030     cmdsp2d:CMDSPT2D.dll
+ 0002:00000034       __imp_?GetConstraints@JConstraintHelper2d@@QAEJPAPAUIConstraintSolver@@0@Z 10006034     cmdsp2d:CMDSPT2D.dll
+ 0002:00000038       __imp_??1JSMHelper2d@@UAE@XZ 10006038     cmdsp2d:CMDSPT2D.dll
+ 0002:0000003c       __imp_?OnFinalRelease@JSMHelper2d@@UAEXXZ 1000603c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000040       __imp_?GetInterfaceMap@JSMHelper2d@@MBEPBUAFX_INTERFACEMAP@@XZ 10006040     cmdsp2d:CMDSPT2D.dll
+ 0002:00000044       __imp_?SetupFeedBack@JSMHelper2d@@UAEJPAUIJView@@@Z 10006044     cmdsp2d:CMDSPT2D.dll
+ 0002:00000048       __imp_?AddPinPoint@JSMHelper2d@@UAEJXZ 10006048     cmdsp2d:CMDSPT2D.dll
+ 0002:0000004c       __imp_?IsPinPointInstalled@JSMHelper2d@@UAE_NXZ 1000604c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000050       __imp_?SetHome@JSMHelper2d@@UAEJXZ 10006050     cmdsp2d:CMDSPT2D.dll
+ 0002:00000054       __imp_?Locate@JSMHelper2d@@QAEJPAUIJView@@VCPoint@@K@Z 10006054     cmdsp2d:CMDSPT2D.dll
+ 0002:00000058       __imp_??0JSMHelper2d@@QAE@XZ 10006058     cmdsp2d:CMDSPT2D.dll
+ 0002:0000005c       __imp_?GetThisClass@JSMHelper2d@@SGPAUCRuntimeClass@@XZ 1000605c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000060       \177CMDSPT2D_NULL_THUNK_DATA 10006060     cmdsp2d:CMDSPT2D.dll
+ 0002:00000064       __imp__GetDcmImp           10006064     dcm_imp:DCM_IMP.dll
+ 0002:00000068       \177DCM_IMP_NULL_THUNK_DATA 10006068     dcm_imp:DCM_IMP.dll
+ 0002:0000006c       __imp__HRerrEx             1000606c     jutil:JUtil.dll
+ 0002:00000070       __imp__RCfatalerr          10006070     jutil:JUtil.dll
+ 0002:00000074       __imp__JCoCreateInstance   10006074     jutil:JUtil.dll
+ 0002:00000078       __imp_??1GUserText@@QAE@XZ 10006078     jutil:JUtil.dll
+ 0002:0000007c       __imp_??BGUserText@@QBEPB_WXZ 1000607c     jutil:JUtil.dll
+ 0002:00000080       __imp_?LockServer@JClassFactory@@UAGJH@Z 10006080     jutil:JUtil.dll
+ 0002:00000084       __imp_??0GUserText@@QAE@XZ 10006084     jutil:JUtil.dll
+ 0002:00000088       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10006088     jutil:JUtil.dll
+ 0002:0000008c       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000608c     jutil:JUtil.dll
+ 0002:00000090       __imp_??1JClassFactory@@UAE@XZ 10006090     jutil:JUtil.dll
+ 0002:00000094       __imp__JFreeLibrary        10006094     jutil:JUtil.dll
+ 0002:00000098       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 10006098     jutil:JUtil.dll
+ 0002:0000009c       __imp_?Release@JClassFactory@@UAGKXZ 1000609c     jutil:JUtil.dll
+ 0002:000000a0       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 100060a0     jutil:JUtil.dll
+ 0002:000000a4       __imp_?AddRef@JClassFactory@@UAGKXZ 100060a4     jutil:JUtil.dll
+ 0002:000000a8       __imp__JLoadLibrary        100060a8     jutil:JUtil.dll
+ 0002:000000ac       __imp_??BGUserText@@QBEPBDXZ 100060ac     jutil:JUtil.dll
+ 0002:000000b0       __imp_??0GUserText@@QAE@PB_WHH@Z 100060b0     jutil:JUtil.dll
+ 0002:000000b4       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 100060b4     jutil:JUtil.dll
+ 0002:000000b8       \177JUtil_NULL_THUNK_DATA  100060b8     jutil:JUtil.dll
+ 0002:000000bc       __imp__GetThreadLocale@0   100060bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetLocaleInfoA@16   100060c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetACP@0            100060c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__GetSystemTimeAsFileTime@4 100060c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__GetCurrentProcessId@0 100060cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__GetCurrentThreadId@0 100060d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__GetTickCount@0      100060d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__QueryPerformanceCounter@4 100060d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__IsDebuggerPresent@0 100060dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__SetUnhandledExceptionFilter@4 100060e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__UnhandledExceptionFilter@4 100060e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__GetCurrentProcess@0 100060e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__TerminateProcess@8  100060ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__InterlockedCompareExchange@12 100060f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__Sleep@4             100060f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__GetProcAddress@8    100060f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__InterlockedExchange@8 100060fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GetVersionExA@4     10006100     kernel32:KERNEL32.dll
+ 0002:00000104       \177KERNEL32_NULL_THUNK_DATA 10006104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10006108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000610c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 10006110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10006114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10006118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1000611c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10006120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 10006124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10006128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000612c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10006130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10006134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10006138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1000613c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10006140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10006144     mfc80:MFC80.DLL
+ 0002:00000148       \177MFC80_NULL_THUNK_DATA  10006148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp___crt_debugger_hook  1000614c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp_?terminate@@YAXXZ    10006150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp____CppXcptFilter     10006158     MSVCRT:MSVCR80.dll
+ 0002:0000015c       __imp___unlock             1000615c     MSVCRT:MSVCR80.dll
+ 0002:00000160       __imp____dllonexit         10006160     MSVCRT:MSVCR80.dll
+ 0002:00000164       __imp___lock               10006164     MSVCRT:MSVCR80.dll
+ 0002:00000168       __imp___onexit             10006168     MSVCRT:MSVCR80.dll
+ 0002:0000016c       __imp___adjust_fdiv        1000616c     MSVCRT:MSVCR80.dll
+ 0002:00000170       __imp___amsg_exit          10006170     MSVCRT:MSVCR80.dll
+ 0002:00000174       __imp___initterm_e         10006174     MSVCRT:MSVCR80.dll
+ 0002:00000178       __imp___initterm           10006178     MSVCRT:MSVCR80.dll
+ 0002:0000017c       __imp___decode_pointer     1000617c     MSVCRT:MSVCR80.dll
+ 0002:00000180       __imp___encoded_null       10006180     MSVCRT:MSVCR80.dll
+ 0002:00000184       __imp___malloc_crt         10006184     MSVCRT:MSVCR80.dll
+ 0002:00000188       __imp___encode_pointer     10006188     MSVCRT:MSVCR80.dll
+ 0002:0000018c       __imp__malloc              1000618c     MSVCRT:MSVCR80.dll
+ 0002:00000190       __imp__memset              10006190     MSVCRT:MSVCR80.dll
+ 0002:00000194       __imp__strtol              10006194     MSVCRT:MSVCR80.dll
+ 0002:00000198       __imp__calloc              10006198     MSVCRT:MSVCR80.dll
+ 0002:0000019c       __imp__wcscpy_s            1000619c     MSVCRT:MSVCR80.dll
+ 0002:000001a0       __imp__free                100061a0     MSVCRT:MSVCR80.dll
+ 0002:000001a4       __imp____CxxFrameHandler3  100061a4     MSVCRT:MSVCR80.dll
+ 0002:000001a8       __imp_??3@YAXPAX@Z         100061a8     MSVCRT:MSVCR80.dll
+ 0002:000001ac       __imp____clean_type_info_names_internal 100061ac     MSVCRT:MSVCR80.dll
+ 0002:000001b0       __imp___callnewh           100061b0     MSVCRT:MSVCR80.dll
+ 0002:000001b4       __imp___except_handler4_common 100061b4     MSVCRT:MSVCR80.dll
+ 0002:000001b8       \177MSVCR80_NULL_THUNK_DATA 100061b8     MSVCRT:MSVCR80.dll
+ 0002:000001bc       __imp__JGetTopOccurrence@12 100061bc     olesite:OLESITE.dll
+ 0002:000001c0       \177OLESITE_NULL_THUNK_DATA 100061c0     olesite:OLESITE.dll
+ 0002:000001c4       __imp__ClientToScreen@8    100061c4     user32:USER32.dll
+ 0002:000001c8       __imp__ScreenToClient@8    100061c8     user32:USER32.dll
+ 0002:000001cc       \177USER32_NULL_THUNK_DATA 100061cc     user32:USER32.dll
+ 0002:000001d0       __imp_?InvalidateDropPoint@@YGJXZ 100061d0     drgndrp:drgndrp.dll
+ 0002:000001d4       __imp_?SetDropPoint@@YGJUtagGPosition@@@Z 100061d4     drgndrp:drgndrp.dll
+ 0002:000001d8       \177drgndrp_NULL_THUNK_DATA 100061d8     drgndrp:drgndrp.dll
+ 0002:000001dc       __imp__JBeginTransaction@16 100061dc     jengine:jengine.dll
+ 0002:000001e0       __imp__CreateStdJLocateInfoArray@24 100061e0     jengine:jengine.dll
+ 0002:000001e4       __imp__JIsObjectAcceptable@24 100061e4     jengine:jengine.dll
+ 0002:000001e8       __imp__JIsUndoTransactionActive@20 100061e8     jengine:jengine.dll
+ 0002:000001ec       __imp__JEndTransaction@12  100061ec     jengine:jengine.dll
+ 0002:000001f0       \177jengine_NULL_THUNK_DATA 100061f0     jengine:jengine.dll
+ 0002:000001f4       __imp__CLSIDFromString@8   100061f4     ole32:ole32.dll
+ 0002:000001f8       \177ole32_NULL_THUNK_DATA  100061f8     ole32:ole32.dll
+ 0002:000001fc       __imp_??0SkPrefsPrecision@@QAE@XZ 100061fc     uskpref:skpref.dll
+ 0002:00000200       __imp_??1SkPrefsPrecision@@UAE@XZ 10006200     uskpref:skpref.dll
+ 0002:00000204       __imp_?GetAngleInfo@SkPrefsPrecision@@QAEJPAN00PAW4X_orient_types@1@@Z 10006204     uskpref:skpref.dll
+ 0002:00000208       __imp_?SetEvaluatedPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 10006208     uskpref:skpref.dll
+ 0002:0000020c       __imp_?SetShowState@SkPrefsPrecision@@QAEJW4RequestorToShow@1@H@Z 1000620c     uskpref:skpref.dll
+ 0002:00000210       __imp_?SetTargetPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 10006210     uskpref:skpref.dll
+ 0002:00000214       __imp_?GetInstallFlag@SkPrefsPrecision@@QAEJPAH@Z 10006214     uskpref:skpref.dll
+ 0002:00000218       __imp_?GetShowState@SkPrefsPrecision@@QAEJPAH@Z 10006218     uskpref:skpref.dll
+ 0002:0000021c       __imp_?GetDisplayHelperLine@SkPrefsPrecision@@QAEJPAH@Z 1000621c     uskpref:skpref.dll
+ 0002:00000220       __imp_?GetDisplayDistance@SkPrefsPrecision@@QAEJPAH@Z 10006220     uskpref:skpref.dll
+ 0002:00000224       __imp_?GetTargetPoint@SkPrefsPrecision@@QAEJPAUtagGPosition2d@@@Z 10006224     uskpref:skpref.dll
+ 0002:00000228       \177skpref_NULL_THUNK_DATA 10006228     uskpref:skpref.dll
+ 0002:0000022c       __imp_?GetOrderCnstrIdFields_givenRegistData@SkPrefsSmartSketch@@QAEXPAPADQA_WPAKPAH@Z 1000622c     sprfhlp:sprfhlp.dll
+ 0002:00000230       __imp_??1SkPrefsSmartSketch@@UAE@XZ 10006230     sprfhlp:sprfhlp.dll
+ 0002:00000234       __imp_?GetCnstrOnExtension@SkPrefsSmartSketch@@QAEJPAH@Z 10006234     sprfhlp:sprfhlp.dll
+ 0002:00000238       __imp_?GetShowRelationshipOnPause@SkPrefsSmartSketch@@QAEJPAH@Z 10006238     sprfhlp:sprfhlp.dll
+ 0002:0000023c       __imp_??0SkPrefsColor@@QAE@XZ 1000623c     sprfhlp:sprfhlp.dll
+ 0002:00000240       __imp_?GetConstraintDisplay@SkPrefsSmartSketch@@QAEJPAH@Z 10006240     sprfhlp:sprfhlp.dll
+ 0002:00000244       __imp_?GetOrderRelationship@SkPrefsSmartSketch@@QAEJW4SmSkRelationships@1@PAK@Z 10006244     sprfhlp:sprfhlp.dll
+ 0002:00000248       __imp_?GetPrefSetEntries_count@SkPrefsSmartSketch@@QAEJPB_WPAK@Z 10006248     sprfhlp:sprfhlp.dll
+ 0002:0000024c       __imp_?GetGUID_fromRelationID@SkPrefsSmartSketch@@QAEXW4SmSkRelationships@1@PAU_GUID@@@Z 1000624c     sprfhlp:sprfhlp.dll
+ 0002:00000250       __imp_?GetShowRelationship@SkPrefsSmartSketch@@QAEJW4SmSkRelationships@1@PAH@Z 10006250     sprfhlp:sprfhlp.dll
+ 0002:00000254       __imp_?GetToleranceZone@SkPrefsSmartSketch@@QAEJPAH@Z 10006254     sprfhlp:sprfhlp.dll
+ 0002:00000258       __imp_??0SkPrefsSmartSketch@@QAE@XZ 10006258     sprfhlp:sprfhlp.dll
+ 0002:0000025c       __imp_?GetRememberRelationship@SkPrefsSmartSketch@@QAEJW4SmSkRelationships@1@PAH@Z 1000625c     sprfhlp:sprfhlp.dll
+ 0002:00000260       __imp_??1SkPrefsColor@@UAE@XZ 10006260     sprfhlp:sprfhlp.dll
+ 0002:00000264       __imp_?GetColor@SkPrefsColor@@QAEJW4SkColors@1@PAK@Z 10006264     sprfhlp:sprfhlp.dll
+ 0002:00000268       __imp_?GetPrefEntryInRegistry_byIndex@SkPrefsSmartSketch@@QAEJPB_WHPAD@Z 10006268     sprfhlp:sprfhlp.dll
+ 0002:0000026c       \177sprfhlp_NULL_THUNK_DATA 1000626c     sprfhlp:sprfhlp.dll
+ 0002:00000270       __imp_?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 10006270     umath:umath.dll
+ 0002:00000274       __imp_?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 10006274     umath:umath.dll
+ 0002:00000278       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 10006278     umath:umath.dll
+ 0002:0000027c       \177umath_NULL_THUNK_DATA  1000627c     umath:umath.dll
+ 0002:00000280       ___xc_a                    10006280     MSVCRT:cinitexe.obj
+ 0002:000002b4       ___xc_z                    100062b4     MSVCRT:cinitexe.obj
+ 0002:000002b8       ___xi_a                    100062b8     MSVCRT:cinitexe.obj
+ 0002:000002c0       ___xi_z                    100062c0     MSVCRT:cinitexe.obj
+ 0002:000002ec       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100062ec     GUID.obj
+ 0002:000002fc       _CLSID_JDropTarget         100062fc     GUID.obj
+ 0002:0000030c       _IID_IJView                1000630c     GUID.obj
+ 0002:0000031c       _IID_IJPersistManager      1000631c     GUID.obj
+ 0002:00000350       _IID_IJLocateInfoArray     10006350     GUID.obj
+ 0002:00000360       _IID_IJLocateInfoAnalyze   10006360     GUID.obj
+ 0002:00000370       _IID_IJGraphicView         10006370     GUID.obj
+ 0002:00000380       _IID_IJGraphic             10006380     GUID.obj
+ 0002:00000390       _IID_IJSelectSet           10006390     GUID.obj
+ 0002:000003a0       _IID_IJDocument            100063a0     GUID.obj
+ 0002:000003b0       _IID_IJWindow              100063b0     GUID.obj
+ 0002:000003c0       _CLSID_JHoriz2d            100063c0     GUID.obj
+ 0002:000003d0       _CLSID_JVert2d             100063d0     GUID.obj
+ 0002:000003e0       _CLSID_JPointOn2d          100063e0     GUID.obj
+ 0002:000003f0       _CLSID_JParallel2d         100063f0     GUID.obj
+ 0002:00000400       _CLSID_JPerpendicular2d    10006400     GUID.obj
+ 0002:00000410       _CLSID_JKeyPoint2d         10006410     GUID.obj
+ 0002:00000420       _CLSID_JIntersect2d        10006420     GUID.obj
+ 0002:00000430       _CLSID_JTangent2d          10006430     GUID.obj
+ 0002:00000440       _CLSID_JPinPointXY2d       10006440     GUID.obj
+ 0002:00000450       _CLSID_JPinPointX2d        10006450     GUID.obj
+ 0002:00000460       _CLSID_JPinPointY2d        10006460     GUID.obj
+ 0002:00000470       _CLSID_JPinPointLX2d       10006470     GUID.obj
+ 0002:00000480       _CLSID_JPinPointLY2d       10006480     GUID.obj
+ 0002:00000490       _CLSID_JAlignHzTemp2d      10006490     GUID.obj
+ 0002:000004a0       _CLSID_JAlignVtTemp2d      100064a0     GUID.obj
+ 0002:000004b0       _CLSID_JSkDropTarget       100064b0     GUID.obj
+ 0002:000004c0       _IID_IJKeyPoint            100064c0     GUID.obj
+ 0002:000004d0       _IID_IJViewSet             100064d0     GUID.obj
+ 0002:000004e0       ??_C@_0M@PMAOGAGK@SKDRTRG?4drx?$AA@ 100064e0     SERVER.obj
+ 0002:000004f0       ??_7?$ClassFactory@VJSkDropTarget@@@@6B@ 100064f0     SERVER.obj
+ 0002:0000050c       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 1000650c     SERVER.obj
+ 0002:00000524       ??_C@_0DE@PLGLFIEB@ClassFactory?$DMclass?5JSkDropTarget@ 10006524     SERVER.obj
+ 0002:00000558       ??_C@_0N@KAGCOLLF@?4?2SERVER?4CPP?$AA@ 10006558     SERVER.obj
+ 0002:00000568       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 10006568     SERVER.obj
+ 0002:0000057c       ??_C@_0BK@MGMEMOMA@JSkDropTarget?3?3Initialize?$AA@ 1000657c     SkDrTrg.obj
+ 0002:00000598       ??_C@_0O@FJFJCLBB@?4?2SkDrTrg?4cpp?$AA@ 10006598     SkDrTrg.obj
+ 0002:000005a8       ??_C@_0CC@EACKIOMI@JSkDropTarget?3?3BeginUndoRecordin@ 100065a8     SkDrTrg.obj
+ 0002:000005cc       ??_C@_0CA@DCPHFAHH@JSkDropTarget?3?3EndUndoRecording?$AA@ 100065cc     SkDrTrg.obj
+ 0002:000005ec       ??_C@_0BP@KJKGAIHG@JSkDropTarget?3?3SetupSmartMouse?$AA@ 100065ec     SkDrTrg.obj
+ 0002:00000610       __real@46293e5939a08cea    10006610     SkDrTrg.obj
+ 0002:0000061c       ??_7JSkDropTarget@@6B@     1000661c     SkDrTrg.obj
+ 0002:00000628       ??_C@_0BM@FMADLCHB@JSkDropTarget?3?3LocateHelper?$AA@ 10006628     SkDrTrg.obj
+ 0002:00000644       ??_C@_0CD@JOLFDCEJ@JSkDropTarget?3?3SetTargetViewActi@ 10006644     SkDrTrg.obj
+ 0002:0000066c       ??_7IDropTargetImp@JSkDropTarget@@6B@ 1000666c     SkDrTrg.obj
+ 0002:00000688       ??_C@_0CJ@DCNNDBGK@JSkDropTarget?3?3IDropTargetImp?3?3D@ 10006688     SkDrTrg.obj
+ 0002:000006b4       ??_C@_0CA@JJOGGDGG@JSkDropTarget?3?3DrawDynamicLists?$AA@ 100066b4     SkDrTrg.obj
+ 0002:000006d4       ??_C@_0CI@HMCMLDDM@JSkDropTarget?3?3IDropTargetImp?3?3D@ 100066d4     SkDrTrg.obj
+ 0002:000006fc       ??_C@_0CE@CBJBDLME@JSkDropTarget?3?3IDropTargetImp?3?3D@ 100066fc     SkDrTrg.obj
+ 0002:00000720       ??_C@_0CM@GOIAMPIP@General?2SESEInsightTarget?2Manage@ 10006720     std.obj
+ 0002:0000074c       ??_C@_0CM@CFLLONED@General?2SESEInsightSource?2Manage@ 1000674c     std.obj
+ 0002:00000778       ??_C@_0BC@PMPKKPPO@SESEInsightTarget?$AA@ 10006778     std.obj
+ 0002:0000078c       ??_C@_0BC@IBOENEBP@SESEInsightSource?$AA@ 1000678c     std.obj
+ 0002:000007a0       ??_C@_0DA@EEEMJNPA@General?2StructureEditorTarget?2Ma@ 100067a0     std.obj
+ 0002:000007d0       ??_C@_0DA@PHHLPDM@General?2StructureEditorSource?2Ma@ 100067d0     std.obj
+ 0002:00000800       ??_C@_0BG@GLPNBFBI@StructureEditorTarget?$AA@ 10006800     std.obj
+ 0002:00000818       ??_C@_0BG@BGODGOPJ@StructureEditorSource?$AA@ 10006818     std.obj
+ 0002:00000830       ??_C@_0L@MNMJNOKC@?2UnManaged?$AA@ 10006830     std.obj
+ 0002:0000083c       ??_C@_08GNBJJBFL@?2Managed?$AA@ 1000683c     std.obj
+ 0002:00000848       ??_C@_0N@DCACADCL@IfFontItalic?$AA@ 10006848     std.obj
+ 0002:00000858       ??_C@_0L@HABBFGEE@FontScript?$AA@ 10006858     std.obj
+ 0002:00000864       ??_C@_08IOPOCEFC@FontSize?$AA@ 10006864     std.obj
+ 0002:00000870       ??_C@_09BIHFJGEM@FontStyle?$AA@ 10006870     std.obj
+ 0002:0000087c       ??_C@_08MKFDOKHL@FontName?$AA@ 1000687c     std.obj
+ 0002:00000888       ??_C@_09PPPLNFCP@Revisions?$AA@ 10006888     std.obj
+ 0002:00000894       ??_C@_0L@IKFKNMIK@LCA?2Step?93?$AA@ 10006894     std.obj
+ 0002:000008a0       ??_C@_0L@JDEBONML@LCA?2Step?92?$AA@ 100068a0     std.obj
+ 0002:000008ac       ??_C@_0L@LIGMLOAI@LCA?2Step?91?$AA@ 100068ac     std.obj
+ 0002:000008b8       ??_C@_0BC@PJLOJMLB@?2ColumnAllignment?$AA@ 100068b8     std.obj
+ 0002:000008cc       ??_C@_0N@MJNDLMLL@?2ColumnWidth?$AA@ 100068cc     std.obj
+ 0002:000008dc       ??_C@_0M@GILJBBJK@?2ColumnName?$AA@ 100068dc     std.obj
+ 0002:000008e8       ??_C@_0BN@JDKHKMCP@General?2EditProfile?2Position?$AA@ 100068e8     std.obj
+ 0002:00000908       ??_C@_0CG@MMFLBBHB@General?2EditProfile?2ManagedPrope@ 10006908     std.obj
+ 0002:00000930       ??_C@_0M@JCDCLJCA@EditProfile?$AA@ 10006930     std.obj
+ 0002:0000093c       ??_C@_08OPPFIBME@General?2?$AA@ 1000693c     std.obj
+ 0002:00000948       ??_C@_0CI@NHNILGNF@General?2SearchResults?2ManagedPro@ 10006948     std.obj
+ 0002:00000970       ??_C@_0CK@GNOEILGH@General?2SearchResults?2UnManagedP@ 10006970     std.obj
+ 0002:0000099c       ??_C@_0O@PKDDHDIC@SearchResults?$AA@ 1000699c     std.obj
+ 0002:000009ac       ??_C@_0CE@CNFCLGND@General?2WhereUsed?2ManagedPropert@ 100069ac     std.obj
+ 0002:000009d0       ??_C@_0CG@DLLONGGL@General?2WhereUsed?2UnManagedPrope@ 100069d0     std.obj
+ 0002:000009f8       ??_C@_09NNDHDAJB@WhereUsed?$AA@ 100069f8     std.obj
+ 0002:00000a04       ??_C@_0BA@FMHGINFB@PropertyManager?$AA@ 10006a04     std.obj
+ 0002:00000a14       ??_C@_05CDEHLADN@?$CFs?$CFlu?$AA@ 10006a14     std.obj
+ 0002:00000a1c       ??_C@_06GDCBNBFJ@?$CFlu?$CFls?$AA@ 10006a1c     std.obj
+ 0002:00000a24       ??_C@_0N@NLFOEMPN@PropValue?$CFlu?$AA@ 10006a24     std.obj
+ 0002:00000a34       ??_C@_09FJMCAKIG@PropCount?$AA@ 10006a34     std.obj
+ 0002:00000a40       ??_C@_0CK@MBCJNOIL@General?2PropertyManager?2ManagedP@ 10006a40     std.obj
+ 0002:00000a6c       ??_C@_0CM@KLFAECG@General?2PropertyManager?2UnManage@ 10006a6c     std.obj
+ 0002:00000aa8       ??_C@_0L@OOFBCNKG@SkSMHelper?$AA@ 10006aa8     skcmdspt:SMHELPER.obj
+ 0002:00000ac8       ?classSkSMHelper@SkSMHelper@@2UCRuntimeClass@@B 10006ac8     skcmdspt:SMHELPER.obj
+ 0002:00000ae4       ??_C@_0BN@DFFJOGFM@GetModuleHandleFromResources?$AA@ 10006ae4     skcmdspt:SMHELPER.obj
+ 0002:00000b04       ??_C@_07JOCCBFIH@i2d?4dcx?$AA@ 10006b04     skcmdspt:SMHELPER.obj
+ 0002:00000b14       ??_7SkSMHelper@@6B@        10006b14     skcmdspt:SMHELPER.obj
+ 0002:00000bb0       ??_C@_0P@FFFCLMAJ@?4?2SMHELPER?4CPP?$AA@ 10006bb0     skcmdspt:SMHELPER.obj
+ 0002:00000bc0       ??_C@_0BL@PMHGEDIE@SkSMHelper?3?3SetDefaultInfo?$AA@ 10006bc0     skcmdspt:SMHELPER.obj
+ 0002:00000bdc       ??_C@_0BD@FBBPHBFF@SkSMHelper?3?3Locate?$AA@ 10006bdc     skcmdspt:SMHELPER.obj
+ 0002:00000bf0       ??_C@_0CC@MNNMBHGI@SkSMHelper?3?3LoadPinPointResource@ 10006bf0     skcmdspt:SMHELPER.obj
+ 0002:00000c14       ??_C@_0CF@KIMHFMIJ@SkSMHelper?3?3InstallPinPointRelat@ 10006c14     skcmdspt:SMHELPER.obj
+ 0002:00000c3c       ??_C@_0CE@KKBBMHDF@SkSMHelper?3?3RemovePinPointRelati@ 10006c3c     skcmdspt:SMHELPER.obj
+ 0002:00000c60       ??_C@_0CE@HDMGDIJA@SkSMHelper?3?3SetPinPointCmdShowSt@ 10006c60     skcmdspt:SMHELPER.obj
+ 0002:00000c84       ??_C@_0BN@KDLEBDMP@SkSMHelper?3?3GetPinPointOnOff?$AA@ 10006c84     skcmdspt:SMHELPER.obj
+ 0002:00000ca4       ??_C@_0CD@CFIKAFAG@SkSMHelper?3?3SetPinPointTargetPoi@ 10006ca4     skcmdspt:SMHELPER.obj
+ 0002:00000cc8       ??_C@_0CD@CEKECCNJ@SkSMHelper?3?3GetPinPointTargetPoi@ 10006cc8     skcmdspt:SMHELPER.obj
+ 0002:00000cec       ??_C@_0CG@NECBFMCC@SkSMHelper?3?3SetPinPointEvaluated@ 10006cec     skcmdspt:SMHELPER.obj
+ 0002:00000d14       ??_C@_0CB@MJKDGENF@SkSMHelper?3?3GetPinPointAngleInfo@ 10006d14     skcmdspt:SMHELPER.obj
+ 0002:00000d38       ??_C@_0CF@BLALJEKM@SkSMHelper?3?3DefaultConstraintCla@ 10006d38     skcmdspt:SMHELPER.obj
+ 0002:00000d60       ??_C@_1BK@KKEFCMNB@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AAs?$AA?$AA@ 10006d60     skcmdspt:SMHELPER.obj
+ 0002:00000d7c       _IID_IClassFactory         10006d7c     uuid:unknwn_i.obj
+ 0002:00000d8c       _IID_IUnknown              10006d8c     uuid:unknwn_i.obj
+ 0002:00000d9c       _IID_IDropTarget           10006d9c     uuid:oleidl_i.obj
+ 0002:00000dac       _GUID_NULL                 10006dac     uuid:cguid_i.obj
+ 0002:00000dc0       ??_7type_info@@6B@         10006dc0     MSVCRT:ti_inst.obj
+ 0002:00000dc4       __pDefaultRawDllMain       10006dc4     MSVCRT:crtdll.obj
+ 0002:00000dd0       ??_C@_06JBKGCNBB@Delete?$AA@ 10006dd0     mfcs80:stdafx.obj
+ 0002:00000dd8       ??_C@_08KAAPDIAN@NoRemove?$AA@ 10006dd8     mfcs80:stdafx.obj
+ 0002:00000de4       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 10006de4     mfcs80:stdafx.obj
+ 0002:00000df0       ??_C@_03LAIAPFCB@Val?$AA@  10006df0     mfcs80:stdafx.obj
+ 0002:00000df4       ??_C@_01HMGJMAIH@B?$AA@    10006df4     mfcs80:stdafx.obj
+ 0002:00000df8       ??_C@_01CKDDGHAB@D?$AA@    10006df8     mfcs80:stdafx.obj
+ 0002:00000dfc       ??_C@_01PLPBNMEI@M?$AA@    10006dfc     mfcs80:stdafx.obj
+ 0002:00000e00       ??_C@_01CPLAODJH@S?$AA@    10006e00     mfcs80:stdafx.obj
+ 0002:00000e24       __pRawDllMain              10006e24     mfcs80:rawdllmainproxy.obj
+ 0002:00000e28       __load_config_used         10006e28     MSVCRT:loadcfg.obj
+ 0002:00000ea4       ??_R4?$ClassFactory@VJSkDropTarget@@@@6B@ 10006ea4     SERVER.obj
+ 0002:00000eb8       ??_R3?$ClassFactory@VJSkDropTarget@@@@8 10006eb8     SERVER.obj
+ 0002:00000ec8       ??_R2?$ClassFactory@VJSkDropTarget@@@@8 10006ec8     SERVER.obj
+ 0002:00000edc       ??_R1A@?0A@EA@?$ClassFactory@VJSkDropTarget@@@@8 10006edc     SERVER.obj
+ 0002:00000ef8       ??_R1A@?0A@EA@JClassFactory@@8 10006ef8     SERVER.obj
+ 0002:00000f14       ??_R3JClassFactory@@8      10006f14     SERVER.obj
+ 0002:00000f24       ??_R2JClassFactory@@8      10006f24     SERVER.obj
+ 0002:00000f34       ??_R1A@?0A@EA@IClassFactory@@8 10006f34     SERVER.obj
+ 0002:00000f50       ??_R3IClassFactory@@8      10006f50     SERVER.obj
+ 0002:00000f60       ??_R2IClassFactory@@8      10006f60     SERVER.obj
+ 0002:00000f6c       ??_R1A@?0A@EA@IUnknown@@8  10006f6c     SERVER.obj
+ 0002:00000f88       ??_R3IUnknown@@8           10006f88     SERVER.obj
+ 0002:00000f98       ??_R2IUnknown@@8           10006f98     SERVER.obj
+ 0002:00000fa0       ??_R4JSkDropTarget@@6B@    10006fa0     SkDrTrg.obj
+ 0002:00000fb4       ??_R3JSkDropTarget@@8      10006fb4     SkDrTrg.obj
+ 0002:00000fc4       ??_R2JSkDropTarget@@8      10006fc4     SkDrTrg.obj
+ 0002:00000fd0       ??_R1A@?0A@EA@JSkDropTarget@@8 10006fd0     SkDrTrg.obj
+ 0002:00000fec       ??_R4IDropTargetImp@JSkDropTarget@@6B@ 10006fec     SkDrTrg.obj
+ 0002:00001000       ??_R3IDropTargetImp@JSkDropTarget@@8 10007000     SkDrTrg.obj
+ 0002:00001010       ??_R2IDropTargetImp@JSkDropTarget@@8 10007010     SkDrTrg.obj
+ 0002:00001020       ??_R1A@?0A@EA@IDropTargetImp@JSkDropTarget@@8 10007020     SkDrTrg.obj
+ 0002:0000103c       ??_R1A@?0A@EA@IDropTarget@@8 1000703c     SkDrTrg.obj
+ 0002:00001058       ??_R3IDropTarget@@8        10007058     SkDrTrg.obj
+ 0002:00001068       ??_R2IDropTarget@@8        10007068     SkDrTrg.obj
+ 0002:00001074       ??_R4SkSMHelper@@6B@       10007074     skcmdspt:SMHELPER.obj
+ 0002:00001088       ??_R3SkSMHelper@@8         10007088     skcmdspt:SMHELPER.obj
+ 0002:00001098       ??_R2SkSMHelper@@8         10007098     skcmdspt:SMHELPER.obj
+ 0002:000010ac       ??_R1A@?0A@EA@SkSMHelper@@8 100070ac     skcmdspt:SMHELPER.obj
+ 0002:000010c8       ??_R1A@?0A@EA@JSMHelper2d@@8 100070c8     skcmdspt:SMHELPER.obj
+ 0002:000010e4       ??_R3JSMHelper2d@@8        100070e4     skcmdspt:SMHELPER.obj
+ 0002:000010f4       ??_R2JSMHelper2d@@8        100070f4     skcmdspt:SMHELPER.obj
+ 0002:00001104       ??_R1A@?0A@EA@CCmdTarget@@8 10007104     skcmdspt:SMHELPER.obj
+ 0002:00001120       ??_R3CCmdTarget@@8         10007120     skcmdspt:SMHELPER.obj
+ 0002:00001130       ??_R2CCmdTarget@@8         10007130     skcmdspt:SMHELPER.obj
+ 0002:0000113c       ??_R1A@?0A@EA@CObject@@8   1000713c     skcmdspt:SMHELPER.obj
+ 0002:00001158       ??_R3CObject@@8            10007158     skcmdspt:SMHELPER.obj
+ 0002:00001168       ??_R2CObject@@8            10007168     skcmdspt:SMHELPER.obj
+ 0002:00001170       ??_R4type_info@@6B@        10007170     MSVCRT:ti_inst.obj
+ 0002:00001184       ??_R3type_info@@8          10007184     MSVCRT:ti_inst.obj
+ 0002:00001194       ??_R2type_info@@8          10007194     MSVCRT:ti_inst.obj
+ 0002:0000119c       ??_R1A@?0A@EA@type_info@@8 1000719c     MSVCRT:ti_inst.obj
+ 0002:000011c0       ___safe_se_handler_table   100071c0     <linker-defined>
+ 0002:00001224       ___rtc_iaa                 10007224     MSVCRT:initsect.obj
+ 0002:00001228       ___rtc_izz                 10007228     MSVCRT:initsect.obj
+ 0002:0000122c       ___rtc_taa                 1000722c     MSVCRT:initsect.obj
+ 0002:00001230       ___rtc_tzz                 10007230     MSVCRT:initsect.obj
+ 0002:00001754       __IMPORT_DESCRIPTOR_CMDSPT2D 10007754     cmdsp2d:CMDSPT2D.dll
+ 0002:00001768       __IMPORT_DESCRIPTOR_drgndrp 10007768     drgndrp:drgndrp.dll
+ 0002:0000177c       __IMPORT_DESCRIPTOR_jengine 1000777c     jengine:jengine.dll
+ 0002:00001790       __IMPORT_DESCRIPTOR_JUtil  10007790     jutil:JUtil.dll
+ 0002:000017a4       __IMPORT_DESCRIPTOR_OLESITE 100077a4     olesite:OLESITE.dll
+ 0002:000017b8       __IMPORT_DESCRIPTOR_umath  100077b8     umath:umath.dll
+ 0002:000017cc       __IMPORT_DESCRIPTOR_skpref 100077cc     uskpref:skpref.dll
+ 0002:000017e0       __IMPORT_DESCRIPTOR_sprfhlp 100077e0     sprfhlp:sprfhlp.dll
+ 0002:000017f4       __IMPORT_DESCRIPTOR_USER32 100077f4     user32:USER32.dll
+ 0002:00001808       __IMPORT_DESCRIPTOR_ole32  10007808     ole32:ole32.dll
+ 0002:0000181c       __IMPORT_DESCRIPTOR_MSVCR80 1000781c     MSVCRT:MSVCR80.dll
+ 0002:00001830       __IMPORT_DESCRIPTOR_MFC80  10007830     mfc80:MFC80.DLL
+ 0002:00001844       __IMPORT_DESCRIPTOR_KERNEL32 10007844     kernel32:KERNEL32.dll
+ 0002:00001858       __IMPORT_DESCRIPTOR_DCM_IMP 10007858     dcm_imp:DCM_IMP.dll
+ 0002:0000186c       __NULL_IMPORT_DESCRIPTOR   1000786c     cmdsp2d:CMDSPT2D.dll
+ 0003:00000000       __newmode                  10009000     newmode.obj
+ 0003:00000a40       ??_R0?AV?$ClassFactory@VJSkDropTarget@@@@@8 10009a40     SERVER.obj
+ 0003:00000a70       ??_R0?AVJClassFactory@@@8  10009a70     SERVER.obj
+ 0003:00000a8c       ??_R0?AUIClassFactory@@@8  10009a8c     SERVER.obj
+ 0003:00000aa8       ??_R0?AUIUnknown@@@8       10009aa8     SERVER.obj
+ 0003:00000ac0       ??_R0?AVJSkDropTarget@@@8  10009ac0     SkDrTrg.obj
+ 0003:00000adc       ??_R0?AVIDropTargetImp@JSkDropTarget@@@8 10009adc     SkDrTrg.obj
+ 0003:00000b08       ??_R0?AUIDropTarget@@@8    10009b08     SkDrTrg.obj
+ 0003:000020a8       ??_R0?AVSkSMHelper@@@8     1000b0a8     skcmdspt:SMHELPER.obj
+ 0003:000020c4       ??_R0?AVJSMHelper2d@@@8    1000b0c4     skcmdspt:SMHELPER.obj
+ 0003:000020e0       ??_R0?AVCCmdTarget@@@8     1000b0e0     skcmdspt:SMHELPER.obj
+ 0003:000020fc       ??_R0?AVCObject@@@8        1000b0fc     skcmdspt:SMHELPER.obj
+ 0003:00002114       ___security_cookie         1000b114     MSVCRT:gs_cookie.obj
+ 0003:00002118       ___security_cookie_complement 1000b118     MSVCRT:gs_cookie.obj
+ 0003:0000211c       ??_R0?AVtype_info@@@8      1000b11c     MSVCRT:ti_inst.obj
+ 0003:00002140       ___native_dllmain_reason   1000b140     MSVCRT:natstart.obj
+ 0003:00002144       ___native_vcclrit_reason   1000b144     MSVCRT:natstart.obj
+ 0003:00002148       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1000b148     atls:atltrace.obj
+ 0003:00002b14       ?__type_info_root_node@@3U__type_info_node@@A 1000bb14     MSVCRT:tncleanup.obj
+ 0003:00002b1c       __afxForceEXCLUDE          1000bb1c     mfcs80:nolib.obj
+ 0003:00002b20       __afxForceSTDAFX           1000bb20     mfcs80:stdafx.obj
+ 0003:00002b24       __adjust_fdiv              1000bb24     <common>
+ 0003:00002b28       ___native_startup_state    1000bb28     <common>
+ 0003:00002b2c       ___native_startup_lock     1000bb2c     <common>
+ 0003:00002b30       ___onexitend               1000bb30     <common>
+ 0003:00002b34       ___onexitbegin             1000bb34     <common>
+ 0003:00002b38       ___dyn_tls_init_callback   1000bb38     <common>
+ 0003:00002b3c       __pActualRawDllMain        1000bb3c     <common>
+
+ entry point at        0001:00003f26
+
+ Static symbols
+
+ 0001:00000090       ?GetResourceModuleHandle@@YAPAUHINSTANCE__@@XZ 10001090 f   SERVER.obj
+ 0001:00002130       ?LoadDCX2dResourceDLL@@YAXXZ 10003130 f   skcmdspt:SMHELPER.obj
+ 0001:00003c24       _pre_c_init                10004c24 f   MSVCRT:crtdll.obj
+ 0001:00003e10       ___DllMainCRTStartup       10004e10 f   MSVCRT:crtdll.obj
+ 0001:000044c0       __FindPESection            100054c0 f   mfcs80:rawdllmainproxy.obj
+ 0001:000044fa       __IsNonwritableInCurrentImage 100054fa f   mfcs80:rawdllmainproxy.obj
+ 0001:00004700       __unwindfunclet$??0?$ClassFactory@VJSkDropTarget@@@@QAE@HHH@Z$0 10005700 f   SERVER.obj
+ 0001:00004709       __ehhandler$??0?$ClassFactory@VJSkDropTarget@@@@QAE@HHH@Z 10005709 f   SERVER.obj
+ 0001:00004730       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJSkDropTarget@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10005730 f   SERVER.obj
+ 0001:0000473b       __ehhandler$?OnCreateInstance@?$ClassFactory@VJSkDropTarget@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000573b f   SERVER.obj
+ 0001:00004760       __unwindfunclet$_DllGetClassObject@12$4 10005760 f   SERVER.obj
+ 0001:0000476b       __ehhandler$_DllGetClassObject@12 1000576b f   SERVER.obj
+ 0001:00004790       __unwindfunclet$??_G?$ClassFactory@VJSkDropTarget@@@@UAEPAXI@Z$0 10005790 f   SERVER.obj
+ 0001:00004799       __ehhandler$??_G?$ClassFactory@VJSkDropTarget@@@@UAEPAXI@Z 10005799 f   SERVER.obj
+ 0001:000047c0       __unwindfunclet$?SetupSmartMouse@JSkDropTarget@@IAEJXZ$19 100057c0 f   SkDrTrg.obj
+ 0001:000047cc       __ehhandler$?SetupSmartMouse@JSkDropTarget@@IAEJXZ 100057cc f   SkDrTrg.obj
+ 0001:00004800       __unwindfunclet$??1JSkDropTarget@@QAE@XZ$0 10005800 f   SkDrTrg.obj
+ 0001:0000480b       __unwindfunclet$??1JSkDropTarget@@QAE@XZ$1 1000580b f   SkDrTrg.obj
+ 0001:0000481a       __ehhandler$??1JSkDropTarget@@QAE@XZ 1000581a f   SkDrTrg.obj
+ 0001:00004840       __unwindfunclet$?BeginUndoRecording@JSkDropTarget@@QAEJIH@Z$1 10005840 f   SkDrTrg.obj
+ 0001:00004849       __ehhandler$?BeginUndoRecording@JSkDropTarget@@QAEJIH@Z 10005849 f   SkDrTrg.obj
+ 0001:00004870       __unwindfunclet$?DrawDynamicLists@JSkDropTarget@@IAEJXZ$6 10005870 f   SkDrTrg.obj
+ 0001:00004878       __unwindfunclet$?DrawDynamicLists@JSkDropTarget@@IAEJXZ$7 10005878 f   SkDrTrg.obj
+ 0001:00004880       __ehhandler$?DrawDynamicLists@JSkDropTarget@@IAEJXZ 10005880 f   SkDrTrg.obj
+ 0001:000048a0       __unwindfunclet$??0JSkDropTarget@@QAE@PAUIUnknown@@@Z$0 100058a0 f   SkDrTrg.obj
+ 0001:000048ab       __unwindfunclet$??0JSkDropTarget@@QAE@PAUIUnknown@@@Z$1 100058ab f   SkDrTrg.obj
+ 0001:000048ba       __ehhandler$??0JSkDropTarget@@QAE@PAUIUnknown@@@Z 100058ba f   SkDrTrg.obj
+ 0001:000048e0       __unwindfunclet$?Drop@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z$16 100058e0 f   SkDrTrg.obj
+ 0001:000048eb       __unwindfunclet$?Drop@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z$17 100058eb f   SkDrTrg.obj
+ 0001:000048f6       __unwindfunclet$?Drop@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z$18 100058f6 f   SkDrTrg.obj
+ 0001:00004902       __ehhandler$?Drop@IDropTargetImp@JSkDropTarget@@UAGJPAUIDataObject@@KU_POINTL@@PAK@Z 10005902 f   SkDrTrg.obj
+ 0001:00004930       __unwindfunclet$??1SkSMHelper@@UAE@XZ$0 10005930 f   skcmdspt:SMHELPER.obj
+ 0001:00004939       __ehhandler$??1SkSMHelper@@UAE@XZ 10005939 f   skcmdspt:SMHELPER.obj
+ 0001:00004960       __unwindfunclet$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ$0 10005960 f   skcmdspt:SMHELPER.obj
+ 0001:0000496c       __unwindfunclet$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ$1 1000596c f   skcmdspt:SMHELPER.obj
+ 0001:00004978       __ehhandler$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ 10005978 f   skcmdspt:SMHELPER.obj
+ 0001:000049b0       __unwindfunclet$?SetLocateTolerance@SkSMHelper@@UAEJXZ$0 100059b0 f   skcmdspt:SMHELPER.obj
+ 0001:000049bc       __ehhandler$?SetLocateTolerance@SkSMHelper@@UAEJXZ 100059bc f   skcmdspt:SMHELPER.obj
+ 0001:000049f0       __unwindfunclet$?SetDefaultInfo@SkSMHelper@@UAEJXZ$12 100059f0 f   skcmdspt:SMHELPER.obj
+ 0001:000049fc       __ehhandler$?SetDefaultInfo@SkSMHelper@@UAEJXZ 100059fc f   skcmdspt:SMHELPER.obj
+ 0001:00004a30       __unwindfunclet$?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z$4 10005a30 f   skcmdspt:SMHELPER.obj
+ 0001:00004a39       __ehhandler$?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z 10005a39 f   skcmdspt:SMHELPER.obj
+ 0001:00004a60       __unwindfunclet$?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z$1 10005a60 f   skcmdspt:SMHELPER.obj
+ 0001:00004a6c       __ehhandler$?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z 10005a6c f   skcmdspt:SMHELPER.obj
+ 0001:00004aa0       __unwindfunclet$?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z$4 10005aa0 f   skcmdspt:SMHELPER.obj
+ 0001:00004aac       __ehhandler$?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z 10005aac f   skcmdspt:SMHELPER.obj
+ 0001:00004ae0       __unwindfunclet$?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z$1 10005ae0 f   skcmdspt:SMHELPER.obj
+ 0001:00004aec       __ehhandler$?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10005aec f   skcmdspt:SMHELPER.obj
+ 0001:00004b20       __unwindfunclet$?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z$1 10005b20 f   skcmdspt:SMHELPER.obj
+ 0001:00004b2c       __ehhandler$?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z 10005b2c f   skcmdspt:SMHELPER.obj
+ 0001:00004b60       __unwindfunclet$?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z$1 10005b60 f   skcmdspt:SMHELPER.obj
+ 0001:00004b6c       __ehhandler$?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10005b6c f   skcmdspt:SMHELPER.obj
+ 0001:00004ba0       __unwindfunclet$?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z$1 10005ba0 f   skcmdspt:SMHELPER.obj
+ 0001:00004bac       __ehhandler$?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z 10005bac f   skcmdspt:SMHELPER.obj
+ 0001:00004be0       __unwindfunclet$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ$15 10005be0 f   skcmdspt:SMHELPER.obj
+ 0001:00004bec       __unwindfunclet$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ$16 10005bec f   skcmdspt:SMHELPER.obj
+ 0001:00004bf8       __ehhandler$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ 10005bf8 f   skcmdspt:SMHELPER.obj
+ 0001:00004c30       __unwindfunclet$??0SkSMHelper@@QAE@XZ$0 10005c30 f   skcmdspt:SMHELPER.obj
+ 0001:00004c39       __ehhandler$??0SkSMHelper@@QAE@XZ 10005c39 f   skcmdspt:SMHELPER.obj
+ 0001:00004c60       __unwindfunclet$?CreateObject@SkSMHelper@@SGPAVCObject@@XZ$0 10005c60 f   skcmdspt:SMHELPER.obj
+ 0001:00004c6a       __ehhandler$?CreateObject@SkSMHelper@@SGPAVCObject@@XZ 10005c6a f   skcmdspt:SMHELPER.obj
+ 0001:00004c90       ??__EGNULL_Camera@@YAXXZ   10005c90 f   GUID.obj
+ 0001:00004cb0       ??__EGNULL_CAMERA@@YAXXZ   10005cb0 f   GUID.obj
+ 0001:00004cd0       ??__EGID_Camera@@YAXXZ     10005cd0 f   GUID.obj
+ 0001:00004cf0       ??__EGID_CAMERA@@YAXXZ     10005cf0 f   GUID.obj
+ 0001:00004d10       ??__EGNULL_Camera@@YAXXZ   10005d10 f   std.obj
+ 0001:00004d30       ??__EGNULL_CAMERA@@YAXXZ   10005d30 f   std.obj
+ 0001:00004d50       ??__EGID_Camera@@YAXXZ     10005d50 f   std.obj
+ 0001:00004d70       ??__EGID_CAMERA@@YAXXZ     10005d70 f   std.obj
+ 0001:00004d90       ??__EGNULL_Camera@@YAXXZ   10005d90 f   skcmdspt:SMHELPER.obj
+ 0001:00004db0       ??__EGNULL_CAMERA@@YAXXZ   10005db0 f   skcmdspt:SMHELPER.obj
+ 0001:00004dd0       ??__EGID_Camera@@YAXXZ     10005dd0 f   skcmdspt:SMHELPER.obj
+ 0001:00004df0       ??__EGID_CAMERA@@YAXXZ     10005df0 f   skcmdspt:SMHELPER.obj

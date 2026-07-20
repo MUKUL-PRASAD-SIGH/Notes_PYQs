@@ -1,0 +1,646 @@
+ jdirsel
+
+ Timestamp is 46b39fcc (Fri Aug 03 16:36:12 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00006168H .text                   CODE
+ 0001:00006170 00000862H .text$x                 CODE
+ 0001:000069e0 00000017H .text$yc                CODE
+ 0001:00006a00 0000001aH .text$yd                CODE
+ 0002:00000000 00000260H .idata$5                DATA
+ 0002:00000260 00000004H .CRT$XCA                DATA
+ 0002:00000264 00000004H .CRT$XCU                DATA
+ 0002:00000268 00000004H .CRT$XCZ                DATA
+ 0002:0000026c 00000004H .CRT$XIA                DATA
+ 0002:00000270 00000004H .CRT$XIAA               DATA
+ 0002:00000274 00000004H .CRT$XIZ                DATA
+ 0002:00000280 000002c8H .rdata                  DATA
+ 0002:00000548 00000031H .rdata$debug            DATA
+ 0002:0000057c 000003acH .rdata$r                DATA
+ 0002:00000930 0000008cH .rdata$sxdata           DATA
+ 0002:000009bc 00000004H .rtc$IAA                DATA
+ 0002:000009c0 00000004H .rtc$IZZ                DATA
+ 0002:000009c4 00000004H .rtc$TAA                DATA
+ 0002:000009c8 00000004H .rtc$TZZ                DATA
+ 0002:000009d0 0000090cH .xdata$x                DATA
+ 0002:000012dc 000000c8H .idata$2                DATA
+ 0002:000013a4 00000014H .idata$3                DATA
+ 0002:000013b8 00000260H .idata$4                DATA
+ 0002:00001618 00000b32H .idata$6                DATA
+ 0002:00002150 00000189H .edata                  DATA
+ 0003:00000000 0000023cH .data                   DATA
+ 0003:00000240 000004a4H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000023       ___safe_se_handler_count   00000023     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??$strcpy@PAD@@YAPADAAPADPBD@Z 10001030 f i drvinfo.obj
+ 0001:00000050       ??0JDriveInfo@@QAE@XZ      10001050 f   drvinfo.obj
+ 0001:00000090       ??1JDriveInfo@@QAE@XZ      10001090 f   drvinfo.obj
+ 0001:000000e0       ?CreateDirectoryImageList@JDriveInfo@@QAEXXZ 100010e0 f   drvinfo.obj
+ 0001:00000280       ?GetUniversalName@@YAHPAD0@Z 10001280 f   drvinfo.obj
+ 0001:000003f0       ?LoadDriveNames@JDriveInfo@@QAEXXZ 100013f0 f   drvinfo.obj
+ 0001:000006e0       ?InitDriveInfo@JDriveInfo@@QAEHXZ 100016e0 f   drvinfo.obj
+ 0001:00000700       ??$wcscpy@PA_W@@YAPA_WAAPA_WPB_W@Z 10001700 f i jbrwse.obj
+ 0001:00000730       _IsEqualGUID               10001730 f i jbrwse.obj
+ 0001:000007d0       ?QueryInterface@JBrowseDir@@UAGJABU_GUID@@PAPAX@Z 100017d0 f   jbrwse.obj
+ 0001:00000830       ?AddRef@JDirControl@@UAGKXZ 10001830 f   jdircont.obj
+ 0001:00000830       ?AddRef@JBrowseDir@@UAGKXZ 10001830 f   jbrwse.obj
+ 0001:00000840       ?Initialize@JBrowseDir@@UAGJPAUHWND__@@PB_W@Z 10001840 f   jbrwse.obj
+ 0001:00000870       ?GetSelectedDirectoryName@JBrowseDir@@UAGJPAPA_W@Z 10001870 f   jbrwse.obj
+ 0001:000008f0       ?OnHelp@JBrowseDir@@AAEXXZ 100018f0 f   jbrwse.obj
+ 0001:00000910       ?SetHelpSendMessageParams@JBrowseDir@@UAGJPAUHWND__@@IIJ@Z 10001910 f   jbrwse.obj
+ 0001:00000950       ?OnTreeViewSelChange@JBrowseDir@@AAEXPAUtagNMTREEVIEWA@@@Z 10001950 f   jbrwse.obj
+ 0001:00000980       ?OnOK@JBrowseDir@@AAEXXZ   10001980 f   jbrwse.obj
+ 0001:000009d0       ?OnCancel@JBrowseDir@@AAEXXZ 100019d0 f   jbrwse.obj
+ 0001:000009e0       ??1JBrowseDir@@QAE@XZ      100019e0 f   jbrwse.obj
+ 0001:00000a60       ?OnInitDialog@JBrowseDir@@AAEHXZ 10001a60 f   jbrwse.obj
+ 0001:00000c20       ??0JBrowseDir@@QAE@XZ      10001c20 f   jbrwse.obj
+ 0001:00000cb0       ?Release@JBrowseDir@@UAGKXZ 10001cb0 f   jbrwse.obj
+ 0001:00000ce0       ?WindowProc@JBrowseDir@@CGJPAUHWND__@@IIJ@Z 10001ce0 f   jbrwse.obj
+ 0001:00000db0       _JGetDirectoryBrowse       10001db0 f   jbrwse.obj
+ 0001:00000e40       ?DoModal@JBrowseDir@@UAGJPAK@Z 10001e40 f   jbrwse.obj
+ 0001:00000f80       ??$ConstructElements@UtagIconData@@@@YGXPAUtagIconData@@H@Z 10001f80 f i jCacheIconIndex.obj
+ 0001:00000fa0       ??1?$JArray@UtagIconData@@U1@@@QAE@XZ 10001fa0 f i jCacheIconIndex.obj
+ 0001:00000fb0       ?SetSize@?$JArray@UtagIconData@@U1@@@QAEXHH@Z 10001fb0 f i jCacheIconIndex.obj
+ 0001:000010d0       ??0CCacheIconData@@QAE@XZ  100020d0 f   jCacheIconIndex.obj
+ 0001:00001130       ??1CCacheIconData@@QAE@XZ  10002130 f   jCacheIconIndex.obj
+ 0001:00001190       ?QueryInterface@JDirControl@@UAGJABU_GUID@@PAPAX@Z 10002190 f   jdircont.obj
+ 0001:00001230       ?Initialize@JDirControl@@UAGJPAUHWND__@@PB_W@Z 10002230 f   jdircont.obj
+ 0001:00001270       ?SetHelpParams@JDirControl@@UAGJPAUHWND__@@PB_WIK@Z 10002270 f   jdircont.obj
+ 0001:000012c0       ?SetHelpSendMessageParams@JDirControl@@UAGJPAUHWND__@@IIJ@Z 100022c0 f   jdircont.obj
+ 0001:00001310       ?GetDirectoryEnum@JDirControl@@UAGJPAPAUIJDirectoryEnum@@@Z 10002310 f   jdircont.obj
+ 0001:00001330       ?AddDirectoryName@JDirControl@@UAGJPB_W@Z 10002330 f   jdircont.obj
+ 0001:000013d0       ?AddStringToListBox@JDirControl@@QAEHPBD@Z 100023d0 f   jdircont.obj
+ 0001:000014b0       ?DeleteListBoxItem@JDirControl@@QAEHH@Z 100024b0 f   jdircont.obj
+ 0001:00001590       ?OnRemove@JDirControl@@QAEXXZ 10002590 f   jdircont.obj
+ 0001:000015f0       ?OnTreeViewSelChange@JDirControl@@QAEXPAUtagNMTREEVIEWA@@@Z 100025f0 f   jdircont.obj
+ 0001:00001620       ?OnRemoveall@JDirControl@@QAEXXZ 10002620 f   jdircont.obj
+ 0001:00001670       ?OnCancel@JDirControl@@QAEXXZ 10002670 f   jdircont.obj
+ 0001:00001680       ?OnHelp@JDirControl@@QAEXXZ 10002680 f   jdircont.obj
+ 0001:000016d0       ?FreeMem@JDirControl@@QAEXXZ 100026d0 f   jdircont.obj
+ 0001:00001720       ?IsInList@JDirControl@@QAEHPAVGUserText@@@Z 10002720 f   jdircont.obj
+ 0001:00001830       ?Next@IJDirectoryEnumImp@JDirControl@@EAGJKPAPA_WPAK@Z 10002830 f   jdircont.obj
+ 0001:00001950       ?Skip@IJDirectoryEnumImp@JDirControl@@EAGJK@Z 10002950 f   jdircont.obj
+ 0001:00001980       ?Reset@IJDirectoryEnumImp@JDirControl@@EAGJXZ 10002980 f   jdircont.obj
+ 0001:000019a0       ?Clone@IJDirectoryEnumImp@JDirControl@@EAGJPAPAUIJDirectoryEnum@@@Z 100029a0 f   jdircont.obj
+ 0001:000019b0       ?QueryInterface@IJDirectoryEnumImp@JDirControl@@EAGJABU_GUID@@PAPAX@Z 100029b0 f   jdircont.obj
+ 0001:000019d0       ?AddRef@IJDirectoryEnumImp@JDirControl@@EAGKXZ 100029d0 f   jdircont.obj
+ 0001:000019f0       ?Release@IJDirectoryEnumImp@JDirControl@@EAGKXZ 100029f0 f   jdircont.obj
+ 0001:00001a10       ?CenterWndOnOwner@@YAHPAUHWND__@@@Z 10002a10 f   jdircont.obj
+ 0001:00001b60       ??1JDirControl@@QAE@XZ     10002b60 f   jdircont.obj
+ 0001:00001c20       ?OnAdd@JDirControl@@QAEXXZ 10002c20 f   jdircont.obj
+ 0001:00001cf0       ?OnOK@JDirControl@@QAEXXZ  10002cf0 f   jdircont.obj
+ 0001:00001e90       ?OnInitDialog@JDirControl@@QAEHXZ 10002e90 f   jdircont.obj
+ 0001:000020c0       ??0JDirControl@@QAE@XZ     100030c0 f   jdircont.obj
+ 0001:00002180       ?WindowProc@JDirControl@@SGJPAUHWND__@@IIJ@Z 10003180 f   jdircont.obj
+ 0001:00002300       _JGetDirectorySelect       10003300 f   jdircont.obj
+ 0001:000023b0       ?Release@JDirControl@@UAGKXZ 100033b0 f   jdircont.obj
+ 0001:000023e0       ?DoModal@JDirControl@@UAGJPAK@Z 100033e0 f   jdircont.obj
+ 0001:00002420       _DllMain@12                10003420 f   jdirsel.obj
+ 0001:00002470       ?QueryInterface@JPropSheet@@UAGJABU_GUID@@PAPAX@Z 10003470 f   jpropsht.obj
+ 0001:000024d0       ?AddRef@JPropSheet@@UAGKXZ 100034d0 f   jpropsht.obj
+ 0001:000024e0       ?Create@JPropSheet@@UAGHPAUHINSTANCE__@@0PADP6AHPAUHWND__@@IIJ@Z2HHHHHH@Z 100034e0 f   jpropsht.obj
+ 0001:00002550       ?InsertPage@JPropSheet@@UAGHPAUHINSTANCE__@@PADH1P6AHPAUHWND__@@IIJ@Z@Z 10003550 f   jpropsht.obj
+ 0001:00002680       ?ProcessMessage@JPropSheet@@UAGHPAUHWND__@@IIJ@Z 10003680 f   jpropsht.obj
+ 0001:00002710       ?HandleTabCharacter@JPropSheet@@UAGHPAUtagMSG@@@Z 10003710 f   jpropsht.obj
+ 0001:00002720       ?SetActivePage@JPropSheet@@UAGHH@Z 10003720 f   jpropsht.obj
+ 0001:00002770       ?ParseDialogTemplate@@YAXPADPAH1@Z 10003770 f   jpropsht.obj
+ 0001:000027e0       ?AddWindowToPage@JPropSheet@@UAGHPAUHWND__@@H@Z 100037e0 f   jpropsht.obj
+ 0001:00002810       ?GetActivePageInfo@JPropSheet@@UAGHPAH0PAPAUHWND__@@@Z 10003810 f   jpropsht.obj
+ 0001:00002840       ?SetTabInfo@JPropSheet@@QAEHPAUHWND__@@0@Z 10003840 f   jpropsht.obj
+ 0001:00002860       ?GetTabInfo@JPropSheet@@QAEHPAH000PAPAUHINSTANCE__@@@Z 10003860 f   jpropsht.obj
+ 0001:000028a0       ?GetPageTitle@JPropSheet@@QAEHHPAH@Z 100038a0 f   jpropsht.obj
+ 0001:000028c0       ?SetPageTabInfo@JPropSheet@@QAEHHPAUHWND__@@0@Z 100038c0 f   jpropsht.obj
+ 0001:000028f0       ?GetPageDialogName@JPropSheet@@QAEHHPAH@Z 100038f0 f   jpropsht.obj
+ 0001:00002910       ?AdjustControlLocations@JPropSheet@@QAEHXZ 10003910 f   jpropsht.obj
+ 0001:00002940       ?GetOriginalControlID@JPropSheet@@UAGHHH@Z 10003940 f   jpropsht.obj
+ 0001:00002970       ?GetGeneratedControlID@JPropSheet@@UAGHHH@Z 10003970 f   jpropsht.obj
+ 0001:000029a0       ?SetPropSheetSize@JPropSheet@@UAGHHHHH@Z 100039a0 f   jpropsht.obj
+ 0001:000029d0       ?GetActivePage@JPropSheet@@UAGHPAH@Z 100039d0 f   jpropsht.obj
+ 0001:000029f0       ??1JPropSheet@@QAE@XZ      100039f0 f   jpropsht.obj
+ 0001:00002a40       ?PropSheetDialogProc@@YGJPAUHWND__@@IIJ@Z 10003a40 f   jpropsht.obj
+ 0001:00002d00       ?Display@JPropSheet@@UAGHXZ 10003d00 f   jpropsht.obj
+ 0001:00002ea0       ??0JPropSheet@@QAE@XZ      10003ea0 f   jpropsht.obj
+ 0001:00002ec0       _JDMGetStdMultiDlgInJDirSel 10003ec0 f   jpropsht.obj
+ 0001:00002f50       ?Release@JPropSheet@@UAGKXZ 10003f50 f   jpropsht.obj
+ 0001:00002f80       ?DestructElements@@YGXPAVGUserText@@H@Z 10003f80 f i jtreedir.obj
+ 0001:00002fb0       ??0tagDBEnumerationNode@@QAE@XZ 10003fb0 f i jtreedir.obj
+ 0001:00003050       ??1tagDBEnumerationNode@@QAE@XZ 10004050 f i jtreedir.obj
+ 0001:000030b0       ?ConstructElements@@YGXPAUtagDBEnumerationNode@@H@Z 100040b0 f i jtreedir.obj
+ 0001:000030f0       ?DestructElements@@YGXPAUtagDBEnumerationNode@@H@Z 100040f0 f i jtreedir.obj
+ 0001:00003170       ?JWS_gutAppendSlashIfNeeded@@YAHAAVGUserText@@@Z 10004170 f i jtreedir.obj
+ 0001:00003290       ??1JTreeDir@@QAE@XZ        10004290 f   jtreedir.obj
+ 0001:00003310       ?QueryInterface@JTreeDir@@UAGJABU_GUID@@PAPAX@Z 10004310 f   jtreedir.obj
+ 0001:000033a0       ?AddRef@JTreeDir@@UAGKXZ   100043a0 f   jtreedir.obj
+ 0001:000033c0       ?InitTreeview@JTreeDir@@UAGJPAUHINSTANCE__@@PAUHWND__@@HHHHH@Z 100043c0 f   jtreedir.obj
+ 0001:00003460       ?AddOneItem@JTreeDir@@UAGPAU_TREEITEM@@PAU2@PAD0H@Z 10004460 f   jtreedir.obj
+ 0001:000034d0       ?TreeviewHandleExpandingItem@JTreeDir@@UAGJJ@Z 100044d0 f   jtreedir.obj
+ 0001:00003620       ?GetTreeviewWindow@JTreeDir@@UAGJPAPAUHWND__@@@Z 10004620 f   jtreedir.obj
+ 0001:00003640       ?GetWebFolderString@JTreeDir@@QAEXAAVGUserText@@@Z 10004640 f   jtreedir.obj
+ 0001:00003660       ?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z 10004660 f   jtreedir.obj
+ 0001:00003ae0       ?QueryInterface@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJABU_GUID@@PAPAX@Z 10004ae0 f   jtreedir.obj
+ 0001:00003b00       ?AddRef@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGKXZ 10004b00 f   jtreedir.obj
+ 0001:00003b20       ?Release@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGKXZ 10004b20 f   jtreedir.obj
+ 0001:00003b40       ?WebEnable@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJH@Z 10004b40 f   jtreedir.obj
+ 0001:00003b50       ?IncludeFiles@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJH@Z 10004b50 f   jtreedir.obj
+ 0001:00003b60       ?IncludeCheckBoxes@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJH@Z 10004b60 f   jtreedir.obj
+ 0001:00003b70       ?ExpandToLastBrowsedPath@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJAAVGUserText@@@Z 10004b70 f   jtreedir.obj
+ 0001:00003b90       ?GetHttpString@JTreeDir@@QAEXAAVGUserText@@@Z 10004b90 f   jtreedir.obj
+ 0001:00003bb0       ?SetLastBrowsedPath@JTreeDir@@QAEXXZ 10004bb0 f   jtreedir.obj
+ 0001:00003be0       ?GetLastBrowsedPath@JTreeDir@@QAEXPAD@Z 10004be0 f   jtreedir.obj
+ 0001:00003c40       ??0?$JArray@UtagDBEnumerationNode@@U1@@@QAE@XZ 10004c40 f i jtreedir.obj
+ 0001:00003c40       ??0?$JArray@UtagIconData@@U1@@@QAE@XZ 10004c40 f i jCacheIconIndex.obj
+ 0001:00003c40       ??0?$JArray@VGUserText@@V1@@@QAE@XZ 10004c40 f i jtreedir.obj
+ 0001:00003c50       ?GetAt@?$JArray@VGUserText@@V1@@@QBE?AVGUserText@@H@Z 10004c50 f i jtreedir.obj
+ 0001:00003cc0       ??1?$JArray@VGUserText@@V1@@@QAE@XZ 10004cc0 f i jtreedir.obj
+ 0001:00003ce0       ??$strcpy@$0BAF@@@YAPADAAY0BAF@DPBD@Z 10004ce0 f i jtreedir.obj
+ 0001:00003d10       ??1?$JArray@UtagDBEnumerationNode@@U1@@@QAE@XZ 10004d10 f i jtreedir.obj
+ 0001:00003d30       ??$strcat@$0BAF@@@YAPADAAY0BAF@DPBD@Z 10004d30 f i jtreedir.obj
+ 0001:00003d60       ??0tagDBEnumerationNode@@QAE@ABU0@@Z 10004d60 f i jtreedir.obj
+ 0001:00003df0       ?SetSize@?$JArray@UtagDBEnumerationNode@@U1@@@QAEXHH@Z 10004df0 f i jtreedir.obj
+ 0001:00003f40       ?Release@JTreeDir@@UAGKXZ  10004f40 f   jtreedir.obj
+ 0001:00003f70       ?ScanForDirectoryAndStub@JTreeDir@@UAGJPADPAU_TREEITEM@@@Z 10004f70 f   jtreedir.obj
+ 0001:00004220       ?PopulateDirectoryTreeview@JTreeDir@@UAGJXZ 10005220 f   jtreedir.obj
+ 0001:00004450       ?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z 10005450 f   jtreedir.obj
+ 0001:000047a0       ?GetSelectedItem@JTreeDir@@UAGJPAPA_W@Z 100057a0 f   jtreedir.obj
+ 0001:00004900       ?SetLastBrowsedPath@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJXZ 10005900 f   jtreedir.obj
+ 0001:00004920       ?GetLastBrowsedPath@IJCustomizeTreeCntrlHelperImp@JTreeDir@@EAGJPAD@Z 10005920 f   jtreedir.obj
+ 0001:00004940       ?AddIconsIfNotInImageList@JTreeDir@@AAEXPADPAH@Z 10005940 f   jtreedir.obj
+ 0001:00004a60       ?GetAt@?$JArray@UtagDBEnumerationNode@@U1@@@QBE?AUtagDBEnumerationNode@@H@Z 10005a60 f i jtreedir.obj
+ 0001:00004ad0       ??0JTreeDir@@QAE@XZ        10005ad0 f   jtreedir.obj
+ 0001:00004b80       _JDMGetStdTreeDirInJDirSel 10005b80 f   jtreedir.obj
+ 0001:00004c10       ?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z 10005c10 f   jtreedir.obj
+ 0001:000052b0       ??0JPropPage@@QAE@XZ       100062b0 f   proppage.obj
+ 0001:000052c0       ??1JPropPage@@QAE@XZ       100062c0 f   proppage.obj
+ 0001:000052f0       ?AddToPage@JPropPage@@QAEHPAUHWND__@@@Z 100062f0 f   proppage.obj
+ 0001:000053b0       ?ErasePage@JPropPage@@QAEHXZ 100063b0 f   proppage.obj
+ 0001:00005470       ?DisplayPage@JPropPage@@QAEHXZ 10006470 f   proppage.obj
+ 0001:000054c0       ?InitPropPage@JPropPage@@QAEHPAUHWND__@@0HHPAD1P6AH0IIJ@ZPAHH@Z 100064c0 f   proppage.obj
+ 0001:00005510       ?CallPageDialogProc@JPropPage@@QAEHPAUHWND__@@IIJ@Z 10006510 f   proppage.obj
+ 0001:00005540       ?GetPageTitle@JPropPage@@QAEHPAH@Z 10006540 f   proppage.obj
+ 0001:00005560       ?SetPageTabInfo@JPropPage@@QAEHPAUHWND__@@0@Z 10006560 f   proppage.obj
+ 0001:00005580       ?GetPageDialogName@JPropPage@@QAEHPAH@Z 10006580 f   proppage.obj
+ 0001:000055a0       ?GetOriginalControlID@JPropPage@@QAEHH@Z 100065a0 f   proppage.obj
+ 0001:000055d0       ?GetGeneratedControlID@JPropPage@@QAEHH@Z 100065d0 f   proppage.obj
+ 0001:00005600       ?AdjustPageControlLocations@JPropPage@@QAEHXZ 10006600 f   proppage.obj
+ 0001:000056c0       ?ReplaceControlIDs@JPropPage@@QAEHPAEH@Z 100066c0 f   proppage.obj
+ 0001:00005880       _WNetCloseEnum@4           10006880 f   mpr:MPR.dll
+ 0001:00005886       _WNetEnumResourceA@16      10006886 f   mpr:MPR.dll
+ 0001:0000588c       _WNetOpenEnumA@20          1000688c f   mpr:MPR.dll
+ 0001:00005892       _JIsNewShell               10006892 f   jutil:JUtil.dll
+ 0001:00005898       ?JIsUrl@@YAJPB_WAAVGUserText@@@Z 10006898 f   jutil:JUtil.dll
+ 0001:0000589e       ?JSetSolidEdgePreferenceString@@YAJPBD00@Z 1000689e f   jutil:JUtil.dll
+ 0001:000058a4       ?JGetSolidEdgePreferenceString@@YAJPBDPAPAD0H@Z 100068a4 f   jutil:JUtil.dll
+ 0001:000058aa       ?JGetWebFoldersInUsersMachine@@YAJAAV?$JArray@VGUserText@@V1@@@@Z 100068aa f   jutil:JUtil.dll
+ 0001:000058b0       _JRFMS_EnumURLDirs@8       100068b0 f   rfmssvs:RFMSsvs.dll
+ 0001:000058b6       _malloc                    100068b6 f   MSVCRT:MSVCR80.dll
+ 0001:000058bc       __callnewh                 100068bc f   MSVCRT:MSVCR80.dll
+ 0001:000058c2       _memset                    100068c2 f   MSVCRT:MSVCR80.dll
+ 0001:000058c8       ___CxxFrameHandler3        100068c8 f   MSVCRT:MSVCR80.dll
+ 0001:000058ce       @__security_check_cookie@4 100068ce f   MSVCRT:secchk.obj
+ 0001:000058dd       ??_Etype_info@@UAEPAXI@Z   100068dd f i MSVCRT:ti_inst.obj
+ 0001:00005926       ??3@YAXPAX@Z               10006926 f   MSVCRT:MSVCR80.dll
+ 0001:0000592c       ??_V@YAXPAX@Z              1000692c f   MSVCRT:MSVCR80.dll
+ 0001:00005932       _memcpy                    10006932 f   MSVCRT:MSVCR80.dll
+ 0001:00005938       __onexit                   10006938 f   MSVCRT:atonexit.obj
+ 0001:000059d7       _atexit                    100069d7 f   MSVCRT:atonexit.obj
+ 0001:00005a36       __CRT_INIT@12              10006a36 f   MSVCRT:crtdll.obj
+ 0001:00005ceb       __DllMainCRTStartup@12     10006ceb f   MSVCRT:crtdll.obj
+ 0001:00005d0c       ___report_gsfailure        10006d0c f   MSVCRT:gs_report.obj
+ 0001:00005e10       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006e10 f   MSVCRT:ehvecdtr.obj
+ 0001:00005e6e       ??_M@YGXPAXIHP6EX0@Z@Z     10006e6e f   MSVCRT:ehvecdtr.obj
+ 0001:00005ed2       __unlock                   10006ed2 f   MSVCRT:MSVCR80.dll
+ 0001:00005ed8       ___dllonexit               10006ed8 f   MSVCRT:MSVCR80.dll
+ 0001:00005ede       __lock                     10006ede f   MSVCRT:MSVCR80.dll
+ 0001:00005ee4       __SEH_prolog4              10006ee4 f   MSVCRT:sehprolg4.obj
+ 0001:00005f29       __SEH_epilog4              10006f29 f   MSVCRT:sehprolg4.obj
+ 0001:00005f3d       __except_handler4          10006f3d f   MSVCRT:chandler4gs.obj
+ 0001:00005f60       ___clean_type_info_names   10006f60 f   MSVCRT:tncleanup.obj
+ 0001:00005f6c       __RTC_Initialize           10006f6c f   MSVCRT:initsect.obj
+ 0001:00005f90       __RTC_Terminate            10006f90 f   MSVCRT:initsect.obj
+ 0001:00005fc0       __ValidateImageBase        10006fc0 f   MSVCRT:pesect.obj
+ 0001:00005ff0       __FindPESection            10006ff0 f   MSVCRT:pesect.obj
+ 0001:00006032       __IsNonwritableInCurrentImage 10007032 f   MSVCRT:pesect.obj
+ 0001:0000609e       __initterm                 1000709e f   MSVCRT:MSVCR80.dll
+ 0001:000060a4       __initterm_e               100070a4 f   MSVCRT:MSVCR80.dll
+ 0001:000060aa       __amsg_exit                100070aa f   MSVCRT:MSVCR80.dll
+ 0001:000060b0       ___CppXcptFilter           100070b0 f   MSVCRT:MSVCR80.dll
+ 0001:000060b6       ___security_init_cookie    100070b6 f   MSVCRT:gs_support.obj
+ 0001:0000614a       __crt_debugger_hook        1000714a f   MSVCRT:MSVCR80.dll
+ 0001:00006150       ?terminate@@YAXXZ          10007150 f   MSVCRT:MSVCR80.dll
+ 0001:00006156       ??1type_info@@UAE@XZ       10007156 f   MSVCRT:MSVCR80.dll
+ 0001:00006156       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10007156 f   MSVCRT:MSVCR80.dll
+ 0001:0000615c       __except_handler4_common   1000715c f   MSVCRT:MSVCR80.dll
+ 0001:00006162       ___clean_type_info_names_internal 10007162 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__ImageList_Add@12    10008000     comctl32:COMCTL32.dll
+ 0002:00000004       __imp__ImageList_Create@20 10008004     comctl32:COMCTL32.dll
+ 0002:00000008       __imp__ImageList_ReplaceIcon@12 10008008     comctl32:COMCTL32.dll
+ 0002:0000000c       __imp__ImageList_Destroy@4 1000800c     comctl32:COMCTL32.dll
+ 0002:00000010       \177COMCTL32_NULL_THUNK_DATA 10008010     comctl32:COMCTL32.dll
+ 0002:00000014       __imp__SetBkColor@8        10008014     gdi32:GDI32.dll
+ 0002:00000018       __imp__SelectObject@8      10008018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__GetTextMetricsA@8   1000801c     gdi32:GDI32.dll
+ 0002:00000020       __imp__GetTextExtentPoint32A@16 10008020     gdi32:GDI32.dll
+ 0002:00000024       __imp__DeleteObject@4      10008024     gdi32:GDI32.dll
+ 0002:00000028       \177GDI32_NULL_THUNK_DATA  10008028     gdi32:GDI32.dll
+ 0002:0000002c       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_??0GUserText@@QAE@XZ 10008030     jutil:JUtil.dll
+ 0002:00000034       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10008034     jutil:JUtil.dll
+ 0002:00000038       __imp_??YGUserText@@QAEAAV0@PBD@Z 10008038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??4GUserText@@QAEAAV0@PBD@Z 1000803c     jutil:JUtil.dll
+ 0002:00000040       __imp__JIsNewShell         10008040     jutil:JUtil.dll
+ 0002:00000044       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10008044     jutil:JUtil.dll
+ 0002:00000048       __imp_?ReverseFind@GUserText@@QBEHPBDI@Z 10008048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?SetAtGrow@JPtrArray@@QAEXHPAX@Z 1000804c     jutil:JUtil.dll
+ 0002:00000050       __imp_?SetSize@JPtrArray@@QAEXHH@Z 10008050     jutil:JUtil.dll
+ 0002:00000054       __imp_??8@YA_NABVGUserText@@0@Z 10008054     jutil:JUtil.dll
+ 0002:00000058       __imp_??1JPtrArray@@QAE@XZ 10008058     jutil:JUtil.dll
+ 0002:0000005c       __imp_??0JPtrArray@@QAE@XZ 1000805c     jutil:JUtil.dll
+ 0002:00000060       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 10008060     jutil:JUtil.dll
+ 0002:00000064       __imp_?Empty@GUserText@@QAEAAV1@XZ 10008064     jutil:JUtil.dll
+ 0002:00000068       __imp_?ReverseFind@GUserText@@QBEH_W@Z 10008068     jutil:JUtil.dll
+ 0002:0000006c       __imp_??YGUserText@@QAEAAV0@PB_W@Z 1000806c     jutil:JUtil.dll
+ 0002:00000070       __imp_?TrimTrailingWhiteSpace@GUserText@@QAEXXZ 10008070     jutil:JUtil.dll
+ 0002:00000074       __imp_??YGUserText@@QAEAAV0@ABV0@@Z 10008074     jutil:JUtil.dll
+ 0002:00000078       __imp_?Left@GUserText@@QBE?AV1@H@Z 10008078     jutil:JUtil.dll
+ 0002:0000007c       __imp_?JIsUrl@@YAJPB_WAAVGUserText@@@Z 1000807c     jutil:JUtil.dll
+ 0002:00000080       __imp_?JSetSolidEdgePreferenceString@@YAJPBD00@Z 10008080     jutil:JUtil.dll
+ 0002:00000084       __imp_?JGetSolidEdgePreferenceString@@YAJPBDPAPAD0H@Z 10008084     jutil:JUtil.dll
+ 0002:00000088       __imp_??0GUserText@@QAE@ABV0@@Z 10008088     jutil:JUtil.dll
+ 0002:0000008c       __imp_??0GUserText@@QAE@PBDHI@Z 1000808c     jutil:JUtil.dll
+ 0002:00000090       __imp_??9@YA_NABVGUserText@@0@Z 10008090     jutil:JUtil.dll
+ 0002:00000094       __imp_?JGetWebFoldersInUsersMachine@@YAJAAV?$JArray@VGUserText@@V1@@@@Z 10008094     jutil:JUtil.dll
+ 0002:00000098       __imp_??BGUserText@@QBEPBDXZ 10008098     jutil:JUtil.dll
+ 0002:0000009c       __imp_??1GUserText@@QAE@XZ 1000809c     jutil:JUtil.dll
+ 0002:000000a0       \177JUtil_NULL_THUNK_DATA  100080a0     jutil:JUtil.dll
+ 0002:000000a4       __imp__GetCurrentThreadId@0 100080a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetTickCount@0      100080a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__QueryPerformanceCounter@4 100080ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__IsDebuggerPresent@0 100080b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__SetUnhandledExceptionFilter@4 100080b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetVolumeInformationA@32 100080b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__GetDriveTypeA@4     100080bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetLogicalDrives@0  100080c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetSystemTimeAsFileTime@4 100080c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__Sleep@4             100080c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__SizeofResource@8    100080cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__LoadResource@8      100080d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__FindResourceA@12    100080d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__FindClose@4         100080d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__FindNextFileA@8     100080dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__FindFirstFileA@8    100080e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__OutputDebugStringA@4 100080e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__UnhandledExceptionFilter@4 100080e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__GetCurrentProcess@0 100080ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__TerminateProcess@8  100080f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__InterlockedCompareExchange@12 100080f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__InterlockedExchange@8 100080f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__GetCurrentProcessId@0 100080fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__lstrlenA@4          10008100     kernel32:KERNEL32.dll
+ 0002:00000104       \177KERNEL32_NULL_THUNK_DATA 10008104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp__WNetEnumResourceA@16 10008108     mpr:MPR.dll
+ 0002:0000010c       __imp__WNetOpenEnumA@20    1000810c     mpr:MPR.dll
+ 0002:00000110       __imp__WNetCloseEnum@4     10008110     mpr:MPR.dll
+ 0002:00000114       \177MPR_NULL_THUNK_DATA    10008114     mpr:MPR.dll
+ 0002:00000118       __imp____CppXcptFilter     10008118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___adjust_fdiv        1000811c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___amsg_exit          10008120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___initterm_e         10008124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___initterm           10008128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp__strcmpi             1000812c     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___stricmp            1000812c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp___encoded_null       10008130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___malloc_crt         10008134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp___decode_pointer     10008138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___onexit             1000813c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp___lock               10008140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp____dllonexit         10008144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp___unlock             10008148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp__strstr              1000814c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp__calloc              10008150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp__memcpy              10008154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp_??_V@YAXPAX@Z        10008158     MSVCRT:MSVCR80.dll
+ 0002:0000015c       __imp_??3@YAXPAX@Z         1000815c     MSVCRT:MSVCR80.dll
+ 0002:00000160       __imp____CxxFrameHandler3  10008160     MSVCRT:MSVCR80.dll
+ 0002:00000164       __imp__strncpy             10008164     MSVCRT:MSVCR80.dll
+ 0002:00000168       __imp__strcat_s            10008168     MSVCRT:MSVCR80.dll
+ 0002:0000016c       __imp__strcpy_s            1000816c     MSVCRT:MSVCR80.dll
+ 0002:00000170       __imp__toupper             10008170     MSVCRT:MSVCR80.dll
+ 0002:00000174       __imp____clean_type_info_names_internal 10008174     MSVCRT:MSVCR80.dll
+ 0002:00000178       __imp___crt_debugger_hook  10008178     MSVCRT:MSVCR80.dll
+ 0002:0000017c       __imp_?terminate@@YAXXZ    1000817c     MSVCRT:MSVCR80.dll
+ 0002:00000180       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10008180     MSVCRT:MSVCR80.dll
+ 0002:00000184       __imp___encode_pointer     10008184     MSVCRT:MSVCR80.dll
+ 0002:00000188       __imp___except_handler4_common 10008188     MSVCRT:MSVCR80.dll
+ 0002:0000018c       __imp__realloc             1000818c     MSVCRT:MSVCR80.dll
+ 0002:00000190       __imp__free                10008190     MSVCRT:MSVCR80.dll
+ 0002:00000194       __imp__memset              10008194     MSVCRT:MSVCR80.dll
+ 0002:00000198       __imp___strupr             10008198     MSVCRT:MSVCR80.dll
+ 0002:0000019c       __imp__malloc              1000819c     MSVCRT:MSVCR80.dll
+ 0002:000001a0       __imp___callnewh           100081a0     MSVCRT:MSVCR80.dll
+ 0002:000001a4       \177MSVCR80_NULL_THUNK_DATA 100081a4     MSVCRT:MSVCR80.dll
+ 0002:000001a8       __imp__JRFMS_EnumURLDirs@8 100081a8     rfmssvs:RFMSsvs.dll
+ 0002:000001ac       \177RFMSsvs_NULL_THUNK_DATA 100081ac     rfmssvs:RFMSsvs.dll
+ 0002:000001b0       __imp__SHGetPathFromIDListA@8 100081b0     shell32:SHELL32.dll
+ 0002:000001b4       __imp__SHBrowseForFolderA@4 100081b4     shell32:SHELL32.dll
+ 0002:000001b8       __imp__SHGetFileInfoA@20   100081b8     shell32:SHELL32.dll
+ 0002:000001bc       \177SHELL32_NULL_THUNK_DATA 100081bc     shell32:SHELL32.dll
+ 0002:000001c0       __imp__FillRect@12         100081c0     user32:USER32.dll
+ 0002:000001c4       __imp__UpdateWindow@4      100081c4     user32:USER32.dll
+ 0002:000001c8       __imp__SetParent@8         100081c8     user32:USER32.dll
+ 0002:000001cc       __imp__LoadCursorA@8       100081cc     user32:USER32.dll
+ 0002:000001d0       __imp__SetCursor@4         100081d0     user32:USER32.dll
+ 0002:000001d4       __imp__DestroyIcon@4       100081d4     user32:USER32.dll
+ 0002:000001d8       __imp__DialogBoxIndirectParamA@20 100081d8     user32:USER32.dll
+ 0002:000001dc       __imp__SetTimer@16         100081dc     user32:USER32.dll
+ 0002:000001e0       __imp__CreateWindowExA@48  100081e0     user32:USER32.dll
+ 0002:000001e4       __imp__KillTimer@8         100081e4     user32:USER32.dll
+ 0002:000001e8       __imp__GetAsyncKeyState@4  100081e8     user32:USER32.dll
+ 0002:000001ec       __imp__GetSysColor@4       100081ec     user32:USER32.dll
+ 0002:000001f0       __imp__GetSystemMetrics@4  100081f0     user32:USER32.dll
+ 0002:000001f4       __imp__GetWindow@8         100081f4     user32:USER32.dll
+ 0002:000001f8       __imp__GetClientRect@8     100081f8     user32:USER32.dll
+ 0002:000001fc       __imp__WinHelpA@16         100081fc     user32:USER32.dll
+ 0002:00000200       __imp__SetFocus@4          10008200     user32:USER32.dll
+ 0002:00000204       __imp__GetDC@4             10008204     user32:USER32.dll
+ 0002:00000208       __imp__ReleaseDC@8         10008208     user32:USER32.dll
+ 0002:0000020c       __imp__DialogBoxParamA@20  1000820c     user32:USER32.dll
+ 0002:00000210       __imp__ShowWindow@8        10008210     user32:USER32.dll
+ 0002:00000214       __imp__GetWindowRect@8     10008214     user32:USER32.dll
+ 0002:00000218       __imp__DestroyWindow@4     10008218     user32:USER32.dll
+ 0002:0000021c       __imp__ScreenToClient@8    1000821c     user32:USER32.dll
+ 0002:00000220       __imp__SetWindowTextA@8    10008220     user32:USER32.dll
+ 0002:00000224       __imp__EndDialog@8         10008224     user32:USER32.dll
+ 0002:00000228       __imp__GetDlgItem@8        10008228     user32:USER32.dll
+ 0002:0000022c       __imp__EnableWindow@8      1000822c     user32:USER32.dll
+ 0002:00000230       __imp__SendMessageA@16     10008230     user32:USER32.dll
+ 0002:00000234       __imp__SetWindowLongA@12   10008234     user32:USER32.dll
+ 0002:00000238       __imp__GetWindowLongA@8    10008238     user32:USER32.dll
+ 0002:0000023c       __imp__LoadBitmapA@8       1000823c     user32:USER32.dll
+ 0002:00000240       __imp__SetWindowPos@28     10008240     user32:USER32.dll
+ 0002:00000244       __imp__SendDlgItemMessageA@20 10008244     user32:USER32.dll
+ 0002:00000248       \177USER32_NULL_THUNK_DATA 10008248     user32:USER32.dll
+ 0002:0000024c       __imp__JCoTaskMemAlloc@4   1000824c     sealloc:sealloc.dll
+ 0002:00000250       __imp__JCoGetMalloc@8      10008250     sealloc:sealloc.dll
+ 0002:00000254       __imp__JCoTaskMemFree@4    10008254     sealloc:sealloc.dll
+ 0002:00000258       __imp__JSHGetMalloc@4      10008258     sealloc:sealloc.dll
+ 0002:0000025c       \177sealloc_NULL_THUNK_DATA 1000825c     sealloc:sealloc.dll
+ 0002:00000260       ___xc_a                    10008260     MSVCRT:cinitexe.obj
+ 0002:00000268       ___xc_z                    10008268     MSVCRT:cinitexe.obj
+ 0002:0000026c       ___xi_a                    1000826c     MSVCRT:cinitexe.obj
+ 0002:00000274       ___xi_z                    10008274     MSVCRT:cinitexe.obj
+ 0002:0000029c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000829c     drvinfo.obj
+ 0002:000002ac       ??_C@_01KICIPPFI@?2?$AA@   100082ac     drvinfo.obj
+ 0002:000002ae       ??_C@_00CNPNBAHC@?$AA@     100082ae     drvinfo.obj
+ 0002:000002b0       ??_C@_03MCOBGNKF@A?3?2?$AA@ 100082b0     drvinfo.obj
+ 0002:000002b4       _IID_IJDirectorySelect     100082b4     guid.obj
+ 0002:000002c4       _IID_IJDirectoryEnum       100082c4     guid.obj
+ 0002:000002d4       _IID_IJBrowseDirectory     100082d4     guid.obj
+ 0002:000002e4       _IID_IJCustomizeTreeCntrlHelper 100082e4     guid.obj
+ 0002:000002f4       _IID_IJMultiDlg            100082f4     guid.obj
+ 0002:00000304       _IID_IJTreeDir             10008304     guid.obj
+ 0002:00000318       ??_7JBrowseDir@@6B@        10008318     jbrwse.obj
+ 0002:00000334       ??_C@_01LFCBOECM@?4?$AA@   10008334     jCacheIconIndex.obj
+ 0002:0000033c       ??_7IJDirectoryEnumImp@JDirControl@@6B@ 1000833c     jdircont.obj
+ 0002:0000035c       ??_7JDirControl@@6B@       1000835c     jdircont.obj
+ 0002:00000380       ??_C@_0M@MJMCJDOL@JDIRSEL?4drx?$AA@ 10008380     jdirsel.obj
+ 0002:00000394       ??_7JPropSheet@@6B@        10008394     jpropsht.obj
+ 0002:000003d0       ??_C@_0BA@KKLNHOCK@SysTabControl32?$AA@ 100083d0     jpropsht.obj
+ 0002:000003e0       ??_C@_0BK@NOKPFCBL@LastBrowsedLocInImportDlg?$AA@ 100083e0     jtreedir.obj
+ 0002:000003fc       ??_C@_0BB@EEDNCDNI@General?2Position?$AA@ 100083fc     jtreedir.obj
+ 0002:00000410       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 10008410     jtreedir.obj
+ 0002:00000414       ??_C@_13CGOKJPIL@?$AA?1?$AA?$AA@ 10008414     jtreedir.obj
+ 0002:0000041c       ??_7JTreeDir@@6B@          1000841c     jtreedir.obj
+ 0002:0000044c       ??_C@_0O@KMCGDBJO@SysTreeView32?$AA@ 1000844c     jtreedir.obj
+ 0002:0000045c       ??_C@_01KMDKNFGN@?1?$AA@   1000845c     jtreedir.obj
+ 0002:00000460       ??_C@_01JLIPDDHJ@?3?$AA@   10008460     jtreedir.obj
+ 0002:00000468       ??_7IJCustomizeTreeCntrlHelperImp@JTreeDir@@6B@ 10008468     jtreedir.obj
+ 0002:0000048c       ??_C@_0M@GNFKPOBJ@PLACEHOLDER?$AA@ 1000848c     jtreedir.obj
+ 0002:00000498       ??_C@_02DJGKEECL@?4?4?$AA@ 10008498     jtreedir.obj
+ 0002:0000049c       ??_C@_03NDEAONJP@?5?5?5?$AA@ 1000849c     jtreedir.obj
+ 0002:000004a0       ??_C@_04FGAJMCLA@?2?$CK?4?$CK?$AA@ 100084a0     jtreedir.obj
+ 0002:000004a8       ??_C@_0CO@HODCENCJ@?6JPropPage?3?3ErasePage?5found?5cont@ 100084a8     proppage.obj
+ 0002:000004d8       _IID_IUnknown              100084d8     uuid:unknwn_i.obj
+ 0002:000004ec       ??_7type_info@@6B@         100084ec     MSVCRT:ti_inst.obj
+ 0002:000004f0       __pDefaultRawDllMain       100084f0     MSVCRT:crtdll.obj
+ 0002:000004f0       __pRawDllMain              100084f0     MSVCRT:crtdll.obj
+ 0002:00000500       __load_config_used         10008500     MSVCRT:loadcfg.obj
+ 0002:0000057c       ??_R4JBrowseDir@@6B@       1000857c     jbrwse.obj
+ 0002:00000590       ??_R3JBrowseDir@@8         10008590     jbrwse.obj
+ 0002:000005a0       ??_R2JBrowseDir@@8         100085a0     jbrwse.obj
+ 0002:000005b0       ??_R1A@?0A@EA@JBrowseDir@@8 100085b0     jbrwse.obj
+ 0002:000005cc       ??_R1A@?0A@EA@IJBrowseDirectory@@8 100085cc     jbrwse.obj
+ 0002:000005e8       ??_R3IJBrowseDirectory@@8  100085e8     jbrwse.obj
+ 0002:000005f8       ??_R2IJBrowseDirectory@@8  100085f8     jbrwse.obj
+ 0002:00000604       ??_R1A@?0A@EA@IUnknown@@8  10008604     jbrwse.obj
+ 0002:00000620       ??_R3IUnknown@@8           10008620     jbrwse.obj
+ 0002:00000630       ??_R2IUnknown@@8           10008630     jbrwse.obj
+ 0002:00000638       ??_R4IJDirectoryEnumImp@JDirControl@@6B@ 10008638     jdircont.obj
+ 0002:0000064c       ??_R3IJDirectoryEnumImp@JDirControl@@8 1000864c     jdircont.obj
+ 0002:0000065c       ??_R2IJDirectoryEnumImp@JDirControl@@8 1000865c     jdircont.obj
+ 0002:0000066c       ??_R1A@?0A@EA@IJDirectoryEnumImp@JDirControl@@8 1000866c     jdircont.obj
+ 0002:00000688       ??_R1A@?0A@EA@IJDirectoryEnum@@8 10008688     jdircont.obj
+ 0002:000006a4       ??_R3IJDirectoryEnum@@8    100086a4     jdircont.obj
+ 0002:000006b4       ??_R2IJDirectoryEnum@@8    100086b4     jdircont.obj
+ 0002:000006c0       ??_R4JDirControl@@6B@      100086c0     jdircont.obj
+ 0002:000006d4       ??_R3JDirControl@@8        100086d4     jdircont.obj
+ 0002:000006e4       ??_R2JDirControl@@8        100086e4     jdircont.obj
+ 0002:000006f4       ??_R1A@?0A@EA@JDirControl@@8 100086f4     jdircont.obj
+ 0002:00000710       ??_R1A@?0A@EA@IJDirectorySelect@@8 10008710     jdircont.obj
+ 0002:0000072c       ??_R3IJDirectorySelect@@8  1000872c     jdircont.obj
+ 0002:0000073c       ??_R2IJDirectorySelect@@8  1000873c     jdircont.obj
+ 0002:00000748       ??_R4JPropSheet@@6B@       10008748     jpropsht.obj
+ 0002:0000075c       ??_R3JPropSheet@@8         1000875c     jpropsht.obj
+ 0002:0000076c       ??_R2JPropSheet@@8         1000876c     jpropsht.obj
+ 0002:0000077c       ??_R1A@?0A@EA@JPropSheet@@8 1000877c     jpropsht.obj
+ 0002:00000798       ??_R1A@?0A@EA@IJMultiDlgInJDirSel@@8 10008798     jpropsht.obj
+ 0002:000007b4       ??_R3IJMultiDlgInJDirSel@@8 100087b4     jpropsht.obj
+ 0002:000007c4       ??_R2IJMultiDlgInJDirSel@@8 100087c4     jpropsht.obj
+ 0002:000007d0       ??_R4JTreeDir@@6B@         100087d0     jtreedir.obj
+ 0002:000007e4       ??_R3JTreeDir@@8           100087e4     jtreedir.obj
+ 0002:000007f4       ??_R2JTreeDir@@8           100087f4     jtreedir.obj
+ 0002:00000804       ??_R1A@?0A@EA@JTreeDir@@8  10008804     jtreedir.obj
+ 0002:00000820       ??_R1A@?0A@EA@IJTreeDirInJDirSel@@8 10008820     jtreedir.obj
+ 0002:0000083c       ??_R3IJTreeDirInJDirSel@@8 1000883c     jtreedir.obj
+ 0002:0000084c       ??_R2IJTreeDirInJDirSel@@8 1000884c     jtreedir.obj
+ 0002:00000858       ??_R4IJCustomizeTreeCntrlHelperImp@JTreeDir@@6B@ 10008858     jtreedir.obj
+ 0002:0000086c       ??_R3IJCustomizeTreeCntrlHelperImp@JTreeDir@@8 1000886c     jtreedir.obj
+ 0002:0000087c       ??_R2IJCustomizeTreeCntrlHelperImp@JTreeDir@@8 1000887c     jtreedir.obj
+ 0002:0000088c       ??_R1A@?0A@EA@IJCustomizeTreeCntrlHelperImp@JTreeDir@@8 1000888c     jtreedir.obj
+ 0002:000008a8       ??_R1A@?0A@EA@IJCustomizeTreeCntrlHelper@@8 100088a8     jtreedir.obj
+ 0002:000008c4       ??_R3IJCustomizeTreeCntrlHelper@@8 100088c4     jtreedir.obj
+ 0002:000008d4       ??_R2IJCustomizeTreeCntrlHelper@@8 100088d4     jtreedir.obj
+ 0002:000008e0       ??_R4type_info@@6B@        100088e0     MSVCRT:ti_inst.obj
+ 0002:000008f4       ??_R3type_info@@8          100088f4     MSVCRT:ti_inst.obj
+ 0002:00000904       ??_R2type_info@@8          10008904     MSVCRT:ti_inst.obj
+ 0002:0000090c       ??_R1A@?0A@EA@type_info@@8 1000890c     MSVCRT:ti_inst.obj
+ 0002:00000930       ___safe_se_handler_table   10008930     <linker-defined>
+ 0002:000009bc       ___rtc_iaa                 100089bc     MSVCRT:initsect.obj
+ 0002:000009c0       ___rtc_izz                 100089c0     MSVCRT:initsect.obj
+ 0002:000009c4       ___rtc_taa                 100089c4     MSVCRT:initsect.obj
+ 0002:000009c8       ___rtc_tzz                 100089c8     MSVCRT:initsect.obj
+ 0002:000012dc       __IMPORT_DESCRIPTOR_COMCTL32 100092dc     comctl32:COMCTL32.dll
+ 0002:000012f0       __IMPORT_DESCRIPTOR_MPR    100092f0     mpr:MPR.dll
+ 0002:00001304       __IMPORT_DESCRIPTOR_JUtil  10009304     jutil:JUtil.dll
+ 0002:00001318       __IMPORT_DESCRIPTOR_RFMSsvs 10009318     rfmssvs:RFMSsvs.dll
+ 0002:0000132c       __IMPORT_DESCRIPTOR_sealloc 1000932c     sealloc:sealloc.dll
+ 0002:00001340       __IMPORT_DESCRIPTOR_KERNEL32 10009340     kernel32:KERNEL32.dll
+ 0002:00001354       __IMPORT_DESCRIPTOR_USER32 10009354     user32:USER32.dll
+ 0002:00001368       __IMPORT_DESCRIPTOR_GDI32  10009368     gdi32:GDI32.dll
+ 0002:0000137c       __IMPORT_DESCRIPTOR_SHELL32 1000937c     shell32:SHELL32.dll
+ 0002:00001390       __IMPORT_DESCRIPTOR_MSVCR80 10009390     MSVCRT:MSVCR80.dll
+ 0002:000013a4       __NULL_IMPORT_DESCRIPTOR   100093a4     comctl32:COMCTL32.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000010       ??_R0?AVJBrowseDir@@@8     1000b010     jbrwse.obj
+ 0003:0000002c       ??_R0?AUIJBrowseDirectory@@@8 1000b02c     jbrwse.obj
+ 0003:0000004c       ??_R0?AUIUnknown@@@8       1000b04c     jbrwse.obj
+ 0003:00000064       ??_R0?AUGMemoryException@@@8 1000b064     jbrwse.obj
+ 0003:0000008c       ??_R0?AVIJDirectoryEnumImp@JDirControl@@@8 1000b08c     jdircont.obj
+ 0003:000000bc       ??_R0?AUIJDirectoryEnum@@@8 1000b0bc     jdircont.obj
+ 0003:000000dc       ??_R0?AVJDirControl@@@8    1000b0dc     jdircont.obj
+ 0003:000000f8       ??_R0?AUIJDirectorySelect@@@8 1000b0f8     jdircont.obj
+ 0003:00000120       ??_R0?AVJPropSheet@@@8     1000b120     jpropsht.obj
+ 0003:0000013c       ??_R0?AUIJMultiDlgInJDirSel@@@8 1000b13c     jpropsht.obj
+ 0003:00000170       ??_R0?AVJTreeDir@@@8       1000b170     jtreedir.obj
+ 0003:00000188       ??_R0?AUIJTreeDirInJDirSel@@@8 1000b188     jtreedir.obj
+ 0003:000001ac       ??_R0?AVIJCustomizeTreeCntrlHelperImp@JTreeDir@@@8 1000b1ac     jtreedir.obj
+ 0003:000001e4       ??_R0?AUIJCustomizeTreeCntrlHelper@@@8 1000b1e4     jtreedir.obj
+ 0003:00000214       ___security_cookie         1000b214     MSVCRT:gs_cookie.obj
+ 0003:00000218       ___security_cookie_complement 1000b218     MSVCRT:gs_cookie.obj
+ 0003:0000021c       ??_R0?AVtype_info@@@8      1000b21c     MSVCRT:ti_inst.obj
+ 0003:00000234       ___native_dllmain_reason   1000b234     MSVCRT:natstart.obj
+ 0003:00000238       ___native_vcclrit_reason   1000b238     MSVCRT:natstart.obj
+ 0003:00000240       ?g_hInstance@@3PAUHINSTANCE__@@A 1000b240     jdirsel.obj
+ 0003:00000244       ?g_hResource@@3PAUHINSTANCE__@@A 1000b244     jdirsel.obj
+ 0003:00000248       ?gutMyComputer@@3VGUserText@@A 1000b248     jdirsel.obj
+ 0003:000006c4       ?__type_info_root_node@@3U__type_info_node@@A 1000b6c4     MSVCRT:tncleanup.obj
+ 0003:000006cc       __adjust_fdiv              1000b6cc     <common>
+ 0003:000006d0       ___native_startup_state    1000b6d0     <common>
+ 0003:000006d4       ___native_startup_lock     1000b6d4     <common>
+ 0003:000006d8       ___dyn_tls_init_callback   1000b6d8     <common>
+ 0003:000006dc       ___onexitend               1000b6dc     <common>
+ 0003:000006e0       ___onexitbegin             1000b6e0     <common>
+
+ entry point at        0001:00005ceb
+
+ Static symbols
+
+ 0001:00000c10       __catch$?OnInitDialog@JBrowseDir@@AAEHXZ$0 10001c10 f   jbrwse.obj
+ 0001:000017ff       __catch$?IsInList@JDirControl@@QAEHPAVGUserText@@@Z$0 100027ff f   jdircont.obj
+ 0001:00001ce8       __catch$?OnAdd@JDirControl@@QAEXXZ$3 10002ce8 f   jdircont.obj
+ 0001:00001e30       __catch$?OnOK@JDirControl@@QAEXXZ$2 10002e30 f   jdircont.obj
+ 0001:000020b5       __catch$?OnInitDialog@JDirControl@@QAEHXZ$0 100030b5 f   jdircont.obj
+ 0001:000035e3       __catch$?TreeviewHandleExpandingItem@JTreeDir@@UAGJJ@Z$0 100045e3 f   jtreedir.obj
+ 0001:00004750       __catch$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$0 10005750 f   jtreedir.obj
+ 0001:000048b2       __catch$?GetSelectedItem@JTreeDir@@UAGJPAPA_W@Z$4 100058b2 f   jtreedir.obj
+ 0001:000059e9       _pre_c_init                100069e9 f   MSVCRT:crtdll.obj
+ 0001:00005bd5       ___DllMainCRTStartup       10006bd5 f   MSVCRT:crtdll.obj
+ 0001:00006170       __unwindfunclet$?LoadDriveNames@JDriveInfo@@QAEXXZ$0 10007170 f   drvinfo.obj
+ 0001:0000617c       __ehhandler$?LoadDriveNames@JDriveInfo@@QAEXXZ 1000717c f   drvinfo.obj
+ 0001:000061b0       __unwindfunclet$??1JBrowseDir@@QAE@XZ$0 100071b0 f   jbrwse.obj
+ 0001:000061bc       __unwindfunclet$??1JBrowseDir@@QAE@XZ$1 100071bc f   jbrwse.obj
+ 0001:000061c8       __ehhandler$??1JBrowseDir@@QAE@XZ 100071c8 f   jbrwse.obj
+ 0001:000061f0       __ehhandler$?OnInitDialog@JBrowseDir@@AAEHXZ 100071f0 f   jbrwse.obj
+ 0001:00006210       __unwindfunclet$??0JBrowseDir@@QAE@XZ$0 10007210 f   jbrwse.obj
+ 0001:0000621c       __unwindfunclet$??0JBrowseDir@@QAE@XZ$1 1000721c f   jbrwse.obj
+ 0001:00006228       __ehhandler$??0JBrowseDir@@QAE@XZ 10007228 f   jbrwse.obj
+ 0001:00006250       __unwindfunclet$_JGetDirectoryBrowse$0 10007250 f   jbrwse.obj
+ 0001:0000625b       __ehhandler$_JGetDirectoryBrowse 1000725b f   jbrwse.obj
+ 0001:00006280       __unwindfunclet$??0CCacheIconData@@QAE@XZ$0 10007280 f   jCacheIconIndex.obj
+ 0001:00006288       __ehhandler$??0CCacheIconData@@QAE@XZ 10007288 f   jCacheIconIndex.obj
+ 0001:000062b0       __unwindfunclet$??1CCacheIconData@@QAE@XZ$0 100072b0 f   jCacheIconIndex.obj
+ 0001:000062b8       __ehhandler$??1CCacheIconData@@QAE@XZ 100072b8 f   jCacheIconIndex.obj
+ 0001:000062e0       __unwindfunclet$?IsInList@JDirControl@@QAEHPAVGUserText@@@Z$2 100072e0 f   jdircont.obj
+ 0001:000062e9       __ehhandler$?IsInList@JDirControl@@QAEHPAVGUserText@@@Z 100072e9 f   jdircont.obj
+ 0001:00006320       __unwindfunclet$??1JDirControl@@QAE@XZ$0 10007320 f   jdircont.obj
+ 0001:0000632c       __unwindfunclet$??1JDirControl@@QAE@XZ$1 1000732c f   jdircont.obj
+ 0001:00006338       __unwindfunclet$??1JDirControl@@QAE@XZ$2 10007338 f   jdircont.obj
+ 0001:00006344       __ehhandler$??1JDirControl@@QAE@XZ 10007344 f   jdircont.obj
+ 0001:00006360       __unwindfunclet$?OnAdd@JDirControl@@QAEXXZ$5 10007360 f   jdircont.obj
+ 0001:00006369       __ehhandler$?OnAdd@JDirControl@@QAEXXZ 10007369 f   jdircont.obj
+ 0001:00006390       __unwindfunclet$?OnOK@JDirControl@@QAEXXZ$5 10007390 f   jdircont.obj
+ 0001:00006399       __ehhandler$?OnOK@JDirControl@@QAEXXZ 10007399 f   jdircont.obj
+ 0001:000063d0       __unwindfunclet$?OnInitDialog@JDirControl@@QAEHXZ$2 100073d0 f   jdircont.obj
+ 0001:000063d9       __ehhandler$?OnInitDialog@JDirControl@@QAEHXZ 100073d9 f   jdircont.obj
+ 0001:00006400       __unwindfunclet$??0JDirControl@@QAE@XZ$0 10007400 f   jdircont.obj
+ 0001:0000640c       __unwindfunclet$??0JDirControl@@QAE@XZ$1 1000740c f   jdircont.obj
+ 0001:00006418       __unwindfunclet$??0JDirControl@@QAE@XZ$2 10007418 f   jdircont.obj
+ 0001:00006424       __ehhandler$??0JDirControl@@QAE@XZ 10007424 f   jdircont.obj
+ 0001:00006440       __unwindfunclet$_JGetDirectorySelect$0 10007440 f   jdircont.obj
+ 0001:0000644b       __ehhandler$_JGetDirectorySelect 1000744b f   jdircont.obj
+ 0001:00006470       __unwindfunclet$?InsertPage@JPropSheet@@UAGHPAUHINSTANCE__@@PADH1P6AHPAUHWND__@@IIJ@Z@Z$0 10007470 f   jpropsht.obj
+ 0001:0000647b       __ehhandler$?InsertPage@JPropSheet@@UAGHPAUHINSTANCE__@@PADH1P6AHPAUHWND__@@IIJ@Z@Z 1000747b f   jpropsht.obj
+ 0001:000064a0       __unwindfunclet$_JDMGetStdMultiDlgInJDirSel$0 100074a0 f   jpropsht.obj
+ 0001:000064ab       __ehhandler$_JDMGetStdMultiDlgInJDirSel 100074ab f   jpropsht.obj
+ 0001:000064d0       __unwindfunclet$??0tagDBEnumerationNode@@QAE@XZ$0 100074d0 f   jtreedir.obj
+ 0001:000064d9       __unwindfunclet$??0tagDBEnumerationNode@@QAE@XZ$1 100074d9 f   jtreedir.obj
+ 0001:000064e5       __ehhandler$??0tagDBEnumerationNode@@QAE@XZ 100074e5 f   jtreedir.obj
+ 0001:00006500       __unwindfunclet$??1tagDBEnumerationNode@@QAE@XZ$0 10007500 f   jtreedir.obj
+ 0001:00006509       __unwindfunclet$??1tagDBEnumerationNode@@QAE@XZ$1 10007509 f   jtreedir.obj
+ 0001:00006515       __ehhandler$??1tagDBEnumerationNode@@QAE@XZ 10007515 f   jtreedir.obj
+ 0001:00006530       __unwindfunclet$?DestructElements@@YGXPAUtagDBEnumerationNode@@H@Z$0 10007530 f   jtreedir.obj
+ 0001:00006539       __unwindfunclet$?DestructElements@@YGXPAUtagDBEnumerationNode@@H@Z$1 10007539 f   jtreedir.obj
+ 0001:00006545       __ehhandler$?DestructElements@@YGXPAUtagDBEnumerationNode@@H@Z 10007545 f   jtreedir.obj
+ 0001:00006560       __unwindfunclet$?JWS_gutAppendSlashIfNeeded@@YAHAAVGUserText@@@Z$0 10007560 f   jtreedir.obj
+ 0001:00006569       __ehhandler$?JWS_gutAppendSlashIfNeeded@@YAHAAVGUserText@@@Z 10007569 f   jtreedir.obj
+ 0001:00006590       __unwindfunclet$??1JTreeDir@@QAE@XZ$0 10007590 f   jtreedir.obj
+ 0001:0000659b       __unwindfunclet$??1JTreeDir@@QAE@XZ$1 1000759b f   jtreedir.obj
+ 0001:000065aa       __unwindfunclet$??1JTreeDir@@QAE@XZ$2 100075aa f   jtreedir.obj
+ 0001:000065b9       __ehhandler$??1JTreeDir@@QAE@XZ 100075b9 f   jtreedir.obj
+ 0001:000065e0       __ehhandler$?TreeviewHandleExpandingItem@JTreeDir@@UAGJJ@Z 100075e0 f   jtreedir.obj
+ 0001:00006610       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$3 10007610 f   jtreedir.obj
+ 0001:0000661c       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$4 1000761c f   jtreedir.obj
+ 0001:00006628       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$5 10007628 f   jtreedir.obj
+ 0001:00006634       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$6 10007634 f   jtreedir.obj
+ 0001:00006640       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$7 10007640 f   jtreedir.obj
+ 0001:0000664c       __unwindfunclet$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z$8 1000764c f   jtreedir.obj
+ 0001:00006658       __ehhandler$?ExpandToLastBrowsedPath@JTreeDir@@QAEJAAVGUserText@@@Z 10007658 f   jtreedir.obj
+ 0001:00006690       __unwindfunclet$?GetAt@?$JArray@VGUserText@@V1@@@QBE?AVGUserText@@H@Z$0 10007690 f   jtreedir.obj
+ 0001:000066aa       __ehhandler$?GetAt@?$JArray@VGUserText@@V1@@@QBE?AVGUserText@@H@Z 100076aa f   jtreedir.obj
+ 0001:000066d0       __unwindfunclet$??0tagDBEnumerationNode@@QAE@ABU0@@Z$0 100076d0 f   jtreedir.obj
+ 0001:000066d9       __unwindfunclet$??0tagDBEnumerationNode@@QAE@ABU0@@Z$1 100076d9 f   jtreedir.obj
+ 0001:000066e5       __ehhandler$??0tagDBEnumerationNode@@QAE@ABU0@@Z 100076e5 f   jtreedir.obj
+ 0001:00006700       __unwindfunclet$?ScanForDirectoryAndStub@JTreeDir@@UAGJPADPAU_TREEITEM@@@Z$0 10007700 f   jtreedir.obj
+ 0001:0000670c       __unwindfunclet$?ScanForDirectoryAndStub@JTreeDir@@UAGJPADPAU_TREEITEM@@@Z$1 1000770c f   jtreedir.obj
+ 0001:00006718       __ehhandler$?ScanForDirectoryAndStub@JTreeDir@@UAGJPADPAU_TREEITEM@@@Z 10007718 f   jtreedir.obj
+ 0001:00006750       __unwindfunclet$?PopulateDirectoryTreeview@JTreeDir@@UAGJXZ$0 10007750 f   jtreedir.obj
+ 0001:0000675c       __ehhandler$?PopulateDirectoryTreeview@JTreeDir@@UAGJXZ 1000775c f   jtreedir.obj
+ 0001:00006790       __unwindfunclet$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$2 10007790 f   jtreedir.obj
+ 0001:00006799       __unwindfunclet$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$3 10007799 f   jtreedir.obj
+ 0001:000067a5       __unwindfunclet$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$4 100077a5 f   jtreedir.obj
+ 0001:000067ae       __unwindfunclet$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$5 100077ae f   jtreedir.obj
+ 0001:000067ba       __ehhandler$?BuildFullPathnameFromTreeviewItem@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z 100077ba f   jtreedir.obj
+ 0001:000067f0       __unwindfunclet$?GetSelectedItem@JTreeDir@@UAGJPAPA_W@Z$6 100077f0 f   jtreedir.obj
+ 0001:000067f9       __ehhandler$?GetSelectedItem@JTreeDir@@UAGJPAPA_W@Z 100077f9 f   jtreedir.obj
+ 0001:00006830       __unwindfunclet$?AddIconsIfNotInImageList@JTreeDir@@AAEXPADPAH@Z$0 10007830 f   jtreedir.obj
+ 0001:0000683e       __ehhandler$?AddIconsIfNotInImageList@JTreeDir@@AAEXPADPAH@Z 1000783e f   jtreedir.obj
+ 0001:00006870       __unwindfunclet$?GetAt@?$JArray@UtagDBEnumerationNode@@U1@@@QBE?AUtagDBEnumerationNode@@H@Z$0 10007870 f   jtreedir.obj
+ 0001:00006889       __ehhandler$?GetAt@?$JArray@UtagDBEnumerationNode@@U1@@@QBE?AUtagDBEnumerationNode@@H@Z 10007889 f   jtreedir.obj
+ 0001:000068b0       __unwindfunclet$??0JTreeDir@@QAE@XZ$0 100078b0 f   jtreedir.obj
+ 0001:000068bb       __unwindfunclet$??0JTreeDir@@QAE@XZ$1 100078bb f   jtreedir.obj
+ 0001:000068ca       __unwindfunclet$??0JTreeDir@@QAE@XZ$2 100078ca f   jtreedir.obj
+ 0001:000068d9       __ehhandler$??0JTreeDir@@QAE@XZ 100078d9 f   jtreedir.obj
+ 0001:00006900       __unwindfunclet$_JDMGetStdTreeDirInJDirSel$0 10007900 f   jtreedir.obj
+ 0001:0000690b       __ehhandler$_JDMGetStdTreeDirInJDirSel 1000790b f   jtreedir.obj
+ 0001:00006930       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$1 10007930 f   jtreedir.obj
+ 0001:0000693b       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$2 1000793b f   jtreedir.obj
+ 0001:00006947       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$3 10007947 f   jtreedir.obj
+ 0001:00006953       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$4 10007953 f   jtreedir.obj
+ 0001:0000695f       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$5 1000795f f   jtreedir.obj
+ 0001:0000696b       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$6 1000796b f   jtreedir.obj
+ 0001:00006977       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$7 10007977 f   jtreedir.obj
+ 0001:00006982       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$8 10007982 f   jtreedir.obj
+ 0001:0000698e       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$9 1000798e f   jtreedir.obj
+ 0001:00006999       __unwindfunclet$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z$10 10007999 f   jtreedir.obj
+ 0001:000069a4       __ehhandler$?ExpandItemDirectories@JTreeDir@@UAGJPAU_TREEITEM@@PAD@Z 100079a4 f   jtreedir.obj
+ 0001:000069e0       ??__EgutMyComputer@@YAXXZ  100079e0 f   jdirsel.obj
+ 0001:00006a00       ??__FgutMyComputer@@YAXXZ  10007a00 f   jdirsel.obj
+ 0001:00006a10       ??__FCacheIconDataObj@?1??AddIconsIfNotInImageList@JTreeDir@@AAEXPADPAH@Z@YAXXZ 10007a10 f   jtreedir.obj

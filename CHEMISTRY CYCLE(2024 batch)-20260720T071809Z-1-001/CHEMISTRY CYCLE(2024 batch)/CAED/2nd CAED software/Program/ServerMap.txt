@@ -1,0 +1,12 @@
+\\This file contains mapping between two SharePoint servers
+\\For e.g. Source:HSVNT315 Destination:HSVNT288
+\\If you take a backup of an existing SharePoint server and 
+\\restore it on another server you should make an entry in this file
+\\that the source is the old server and the destination is the new server.
+\\Insight will use these entries to replace server names in URLs before processing
+\\those URLs. Note that Insight will ALWAYS do the replacement if entries
+\\exist in this file. So you should NOT make entries in this file unnecessarily.
+\\Please consult your administrator in case of any doubts.
+\\NOTE: All lines starting with "\\" are ignored
+
+

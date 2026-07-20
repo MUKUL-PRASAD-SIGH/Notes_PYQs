@@ -1,0 +1,51 @@
+#!/bin/sh
+#
+# This is a UNIX boot script used for starting
+# and stopping the Orbix services
+#
+rval=0
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+export PATH
+
+case "$1" in
+
+# This is primarily for HP...
+'start_msg')
+      echo "Starting SDRC Orbix daemon"
+      exit 0
+      ;;
+
+'start')
+    . /etc/orbix_profile
+    
+    ctr=30
+    timeout=2
+    while [ $ctr -gt 0 ]
+    do
+      if [ -f $IT_CONFIG_DOMAINS_DIR/../bin/start_${IT_DOMAIN_NAME}_services ]; then
+        echo "Starting, ctr = $ctr" >> /tmp/debug_${IT_DOMAIN_NAME}
+        ctr=0
+        echo "Starting Orbix E2A services for the $IT_DOMAIN_NAME domain"
+        nohup $IT_CONFIG_DOMAINS_DIR/../bin/start_${IT_DOMAIN_NAME}_services 
+      else
+        echo "Waiting, ctr = $ctr" >> /tmp/debug_${IT_DOMAIN_NAME}_
+        ctr=`expr $ctr \- 1`
+        sleep $timeout
+      fi
+    done
+    ;;
+ 
+'stop')
+	   if [ -f $IT_CONFIG_DOMAINS_DIR/../bin/stop_${IT_DOMAIN_NAME}_services ]; then
+        echo "Stopping Orbix E2A services for the $IT_DOMAIN_NAME domain"
+        $IT_CONFIG_DOMAINS_DIR/../bin/stop_${IT_DOMAIN_NAME}_services
+    fi
+    ;;
+ 
+*)
+    echo "Usage: $0 { start | stop }"
+    rval=1
+    ;;
+esac
+exit $rval

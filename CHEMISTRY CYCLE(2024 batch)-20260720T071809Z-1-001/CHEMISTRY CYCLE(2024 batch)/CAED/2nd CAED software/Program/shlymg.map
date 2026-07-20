@@ -1,0 +1,697 @@
+ shlymg
+
+ Timestamp is 46b3a5f5 (Fri Aug 03 17:02:29 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005c28H .text                   CODE
+ 0001:00005c30 000005b7H .text$x                 CODE
+ 0001:000061f0 000001f6H .text$yc                CODE
+ 0002:00000000 0000012cH .idata$5                DATA
+ 0002:0000012c 00000004H .CRT$XCA                DATA
+ 0002:00000130 00000040H .CRT$XCU                DATA
+ 0002:00000170 00000004H .CRT$XCZ                DATA
+ 0002:00000174 00000004H .CRT$XIA                DATA
+ 0002:00000178 00000004H .CRT$XIAA               DATA
+ 0002:0000017c 00000004H .CRT$XIZ                DATA
+ 0002:00000180 00000b28H .rdata                  DATA
+ 0002:00000ca8 00000030H .rdata$debug            DATA
+ 0002:00000cd8 00000960H .rdata$r                DATA
+ 0002:00001640 00000074H .rdata$sxdata           DATA
+ 0002:000016b4 00000004H .rtc$IAA                DATA
+ 0002:000016b8 00000004H .rtc$IZZ                DATA
+ 0002:000016bc 00000004H .rtc$TAA                DATA
+ 0002:000016c0 00000004H .rtc$TZZ                DATA
+ 0002:000016c8 000005f4H .xdata$x                DATA
+ 0002:00001cbc 00000078H .idata$2                DATA
+ 0002:00001d34 00000014H .idata$3                DATA
+ 0002:00001d48 0000012cH .idata$4                DATA
+ 0002:00001e74 0000060aH .idata$6                DATA
+ 0002:00002480 00000069H .edata                  DATA
+ 0003:00000000 00002d40H .data                   DATA
+ 0003:00002d40 00000bfcH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000308H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:0000001d       ___safe_se_handler_count   0000001d     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i lyrgrp.obj
+ 0001:000000d0       ?SerializeClassStm@JIOStreamContext@@QAEJPAU_GUID@@@Z 100010d0 f i lyrgrp.obj
+ 0001:00000100       ?Delegate@IOContext@@QAEJPAUIUnknown@@@Z 10001100 f i lyrgrp.obj
+ 0001:00000170       ?Release@IJSheetLayerManagerImp@SheetLayerManager@@UAGKXZ 10001170 f   SHLYMG.obj
+ 0001:00000170       ?Release@IJPersistImp@SheetLayer@@UAGKXZ 10001170 f   SHTLYR.obj
+ 0001:00000170       ?Release@IJLayerGroupImp@JLayerGroup@@UAGKXZ 10001170 f   lyrgrp.obj
+ 0001:00000170       ?Release@IJPersistImp@SheetLayerGroup@@UAGKXZ 10001170 f   SHLYGP.obj
+ 0001:00000190       ?GetClassID@IJPersistImp@JLayerGroup@@UAGJPAU_GUID@@@Z 10001190 f   lyrgrp.obj
+ 0001:000001f0       ?GetThis@IJPersistImp@JLayerGroup@@UAGPAXXZ 100011f0 f   lyrgrp.obj
+ 0001:00000200       ?Convert@IJPersistImp@JLayerGroup@@UAGJPAVCvtContext@@@Z 10001200 f   lyrgrp.obj
+ 0001:00000290       ?QueryInterface@IJDeleteImp@JLayerGroup@@UAGJABU_GUID@@PAPAX@Z 10001290 f   lyrgrp.obj
+ 0001:00000290       ?QueryInterface@IJPersistImp@SheetLayerManager@@UAGJABU_GUID@@PAPAX@Z 10001290 f   SHLYMG.obj
+ 0001:00000290       ?QueryInterface@IJSheetLayerImp@SheetLayer@@UAGJABU_GUID@@PAPAX@Z 10001290 f   SHTLYR.obj
+ 0001:000002b0       ?AddRef@IJSheetLayerImp@SheetLayer@@UAGKXZ 100012b0 f   SHTLYR.obj
+ 0001:000002b0       ?AddRef@IJPersistImp@SheetLayerManager@@UAGKXZ 100012b0 f   SHLYMG.obj
+ 0001:000002b0       ?AddRef@IJDeleteImp@JLayerGroup@@UAGKXZ 100012b0 f   lyrgrp.obj
+ 0001:000002d0       ??1?$TIP@PAUIJGraphicRelationValue@@@@QAE@XZ 100012d0 f i SHTLYR.obj
+ 0001:000002d0       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 100012d0 f i lyrgrp.obj
+ 0001:000002d0       ??1?$TIP@PAUIJRelationValue@@@@QAE@XZ 100012d0 f i lyrgrp.obj
+ 0001:000002e0       ??0?$JList@KK@@QAE@H@Z     100012e0 f i lyrgrp.obj
+ 0001:00000300       ??$ConstructElements@K@@YGXPAKH@Z 10001300 f i lyrgrp.obj
+ 0001:00000320       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10001320 f i lyrgrp.obj
+ 0001:000003a0       ?QueryInterface@JLayerGroup@@UAGJABU_GUID@@PAPAX@Z 100013a0 f   lyrgrp.obj
+ 0001:00000650       ?EnumValues@IJDeleteImp@JLayerGroup@@UAGJPAPAUIEnumJIDREF@@@Z 10001650 f   lyrgrp.obj
+ 0001:000007b0       ?Disconnect@IJDeleteImp@JLayerGroup@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100017b0 f   lyrgrp.obj
+ 0001:000009c0       ?PreValueDelete@IJDeleteImp@JLayerGroup@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100019c0 f   lyrgrp.obj
+ 0001:00000b00       ?RemoveAll@?$JList@KK@@QAEXXZ 10001b00 f i lyrgrp.obj
+ 0001:00000b30       ??1?$JList@KK@@QAE@XZ      10001b30 f i lyrgrp.obj
+ 0001:00000b40       ?NewNode@?$JList@KK@@IAEPAUCNode@1@PAU21@0@Z 10001b40 f i lyrgrp.obj
+ 0001:00000bc0       ?SpacemapLeaking@IJPersist@@UAGJPAUIJPersistManager@@@Z 10001bc0 f i lyrgrp.obj
+ 0001:00000bd0       ??1JLayerGroup@@UAE@XZ     10001bd0 f   lyrgrp.obj
+ 0001:00000c90       ?DisconnectAllLayers@IJLayerGroupImp@JLayerGroup@@UAGJXZ 10001c90 f   lyrgrp.obj
+ 0001:00000e50       ?AddTail@?$JList@KK@@QAEPAU__POSITION@@K@Z 10001e50 f i lyrgrp.obj
+ 0001:00000e80       ??0JLayerGroup@@QAE@PAUIUnknown@@@Z 10001e80 f   lyrgrp.obj
+ 0001:00000f30       ??_GJLayerGroup@@UAEPAXI@Z 10001f30 f i lyrgrp.obj
+ 0001:00000f30       ??_EJLayerGroup@@UAEPAXI@Z 10001f30 f i lyrgrp.obj
+ 0001:00000f50       ?Serialize@IJPersistImp@JLayerGroup@@UAGJPAVIOContext@@@Z 10001f50 f   lyrgrp.obj
+ 0001:00001590       ?GetObjectCount@@YAKXZ     10002590 f   SERVER.obj
+ 0001:000015a0       ?ServerIncrementNumberOfObjects@@YAXXZ 100025a0 f   SERVER.obj
+ 0001:000015b0       ?ServerDecrementNumberOfObjects@@YAXXZ 100025b0 f   SERVER.obj
+ 0001:000015c0       ?GetLockCount@@YAKXZ       100025c0 f   SERVER.obj
+ 0001:000015d0       ?ServerIncrementNumberOfLocks@@YAXXZ 100025d0 f   SERVER.obj
+ 0001:000015e0       ?ServerDecrementNumberOfLocks@@YAXXZ 100025e0 f   SERVER.obj
+ 0001:000015f0       _DllCanUnloadNow@0         100025f0 f   SERVER.obj
+ 0001:00001610       ??0?$ClassFactory@VSheetLayerManager@@@@QAE@HHH@Z 10002610 f i SERVER.obj
+ 0001:00001690       ?OnCreateInstance@?$ClassFactory@VSheetLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002690 f i SERVER.obj
+ 0001:000017e0       ??0?$ClassFactory@VSheetLayerGroup@@@@QAE@HHH@Z 100027e0 f i SERVER.obj
+ 0001:00001860       ?OnCreateInstance@?$ClassFactory@VSheetLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002860 f i SERVER.obj
+ 0001:000019b0       ??0?$ClassFactory@VSheetLayer@@@@QAE@HHH@Z 100029b0 f i SERVER.obj
+ 0001:00001a30       ?OnCreateInstance@?$ClassFactory@VSheetLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002a30 f i SERVER.obj
+ 0001:00001b80       ??0?$ClassFactory@VJLayerGroup@@@@QAE@HHH@Z 10002b80 f i SERVER.obj
+ 0001:00001c00       ?OnCreateInstance@?$ClassFactory@VJLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002c00 f i SERVER.obj
+ 0001:00001d50       _DllGetClassObject@12      10002d50 f   SERVER.obj
+ 0001:00001fc0       ??_G?$ClassFactory@VSheetLayerManager@@@@UAEPAXI@Z 10002fc0 f i SERVER.obj
+ 0001:00001fc0       ??_E?$ClassFactory@VSheetLayerManager@@@@UAEPAXI@Z 10002fc0 f i SERVER.obj
+ 0001:00002020       ??_E?$ClassFactory@VSheetLayerGroup@@@@UAEPAXI@Z 10003020 f i SERVER.obj
+ 0001:00002020       ??_G?$ClassFactory@VSheetLayerGroup@@@@UAEPAXI@Z 10003020 f i SERVER.obj
+ 0001:00002080       ??_E?$ClassFactory@VSheetLayer@@@@UAEPAXI@Z 10003080 f i SERVER.obj
+ 0001:00002080       ??_G?$ClassFactory@VSheetLayer@@@@UAEPAXI@Z 10003080 f i SERVER.obj
+ 0001:000020e0       ??_G?$ClassFactory@VJLayerGroup@@@@UAEPAXI@Z 100030e0 f i SERVER.obj
+ 0001:000020e0       ??_E?$ClassFactory@VJLayerGroup@@@@UAEPAXI@Z 100030e0 f i SERVER.obj
+ 0001:00002140       ?GetClassID@IJPersistImp@SheetLayerGroup@@UAGJPAU_GUID@@@Z 10003140 f   SHLYGP.obj
+ 0001:000021a0       ?Convert@IJPersistImp@SheetLayerGroup@@UAGJPAVCvtContext@@@Z 100031a0 f   SHLYGP.obj
+ 0001:00002230       ?AddRef@IJPersistImp@JLayerGroup@@UAGKXZ 10003230 f   lyrgrp.obj
+ 0001:00002230       ?AddRef@IJDeleteImp@SheetLayerGroup@@UAGKXZ 10003230 f   SHLYGP.obj
+ 0001:00002230       ?AddRef@IJDeleteImp@SheetLayer@@UAGKXZ 10003230 f   SHTLYR.obj
+ 0001:00002250       ?QueryInterface@SheetLayerGroup@@UAGJABU_GUID@@PAPAX@Z 10003250 f   SHLYGP.obj
+ 0001:000024a0       ?EnumValues@IJDeleteImp@SheetLayerGroup@@UAGJPAPAUIEnumJIDREF@@@Z 100034a0 f   SHLYGP.obj
+ 0001:00002600       ?Disconnect@IJDeleteImp@SheetLayerGroup@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10003600 f   SHLYGP.obj
+ 0001:000027c0       ??1SheetLayerGroup@@UAE@XZ 100037c0 f   SHLYGP.obj
+ 0001:00002880       ??_ESheetLayerGroup@@UAEPAXI@Z 10003880 f i SHLYGP.obj
+ 0001:00002880       ??_GSheetLayerGroup@@UAEPAXI@Z 10003880 f i SHLYGP.obj
+ 0001:000028a0       ?Serialize@IJPersistImp@SheetLayerGroup@@UAGJPAVIOContext@@@Z 100038a0 f   SHLYGP.obj
+ 0001:00002e10       ??0SheetLayerGroup@@QAE@PAUIUnknown@@@Z 10003e10 f   SHLYGP.obj
+ 0001:00002ea0       ??1IJSheetLayerManagerImp@SheetLayerManager@@QAE@XZ 10003ea0 f   SHLYMG.obj
+ 0001:00002eb0       ?QueryInterface@IJLayerGroupImp@JLayerGroup@@UAGJABU_GUID@@PAPAX@Z 10003eb0 f   lyrgrp.obj
+ 0001:00002eb0       ?QueryInterface@IJPersistImp@SheetLayerGroup@@UAGJABU_GUID@@PAPAX@Z 10003eb0 f   SHLYGP.obj
+ 0001:00002eb0       ?QueryInterface@IJPersistImp@SheetLayer@@UAGJABU_GUID@@PAPAX@Z 10003eb0 f   SHTLYR.obj
+ 0001:00002eb0       ?QueryInterface@IJSheetLayerManagerImp@SheetLayerManager@@UAGJABU_GUID@@PAPAX@Z 10003eb0 f   SHLYMG.obj
+ 0001:00002ed0       ?GetActiveSheetLayer@IJSheetLayerManagerImp@SheetLayerManager@@UAGJPAK@Z 10003ed0 f   SHLYMG.obj
+ 0001:00002ef0       ?GetClassID@IJPersistImp@SheetLayerManager@@UAGJPAU_GUID@@@Z 10003ef0 f   SHLYMG.obj
+ 0001:00002f50       ?GetThis@IJPersistImp@SheetLayerManager@@UAGPAXXZ 10003f50 f   SHLYMG.obj
+ 0001:00002f60       ?Convert@IJPersistImp@SheetLayerManager@@UAGJPAVCvtContext@@@Z 10003f60 f   SHLYMG.obj
+ 0001:00002ff0       ?QueryInterface@IJLayerImp@SheetLayer@@UAGJABU_GUID@@PAPAX@Z 10003ff0 f   SHTLYR.obj
+ 0001:00002ff0       ?QueryInterface@IJDeleteImp@SheetLayerManager@@UAGJABU_GUID@@PAPAX@Z 10003ff0 f   SHLYMG.obj
+ 0001:00003010       ?AddRef@IJDeleteImp@SheetLayerManager@@UAGKXZ 10004010 f   SHLYMG.obj
+ 0001:00003010       ?AddRef@IJLayerImp@SheetLayer@@UAGKXZ 10004010 f   SHTLYR.obj
+ 0001:00003030       ?Release@IJDeleteImp@SheetLayerManager@@UAGKXZ 10004030 f   SHLYMG.obj
+ 0001:00003030       ?Release@IJLayerImp@SheetLayer@@UAGKXZ 10004030 f   SHTLYR.obj
+ 0001:00003050       ?EnumValues@IJDeleteImp@SheetLayerManager@@UAGJPAPAUIEnumJIDREF@@@Z 10004050 f   SHLYMG.obj
+ 0001:00003070       ?Initialize@SheetLayerManager@@QAGJXZ 10004070 f   SHLYMG.obj
+ 0001:000030b0       ?QueryInterface@SheetLayerManager@@UAGJABU_GUID@@PAPAX@Z 100040b0 f   SHLYMG.obj
+ 0001:00003360       ??0IJSheetLayerManagerImp@SheetLayerManager@@QAE@XZ 10004360 f   SHLYMG.obj
+ 0001:00003370       ?DisconnectSheet@IJSheetLayerManagerImp@SheetLayerManager@@UAGJXZ 10004370 f   SHLYMG.obj
+ 0001:00003460       ?GetSheet@IJSheetLayerManagerImp@SheetLayerManager@@UAGJPAPAUIUnknown@@@Z 10004460 f   SHLYMG.obj
+ 0001:00003560       ?EnumSheetLayers@IJSheetLayerManagerImp@SheetLayerManager@@UAGJPAPAUIEnumUnknown@@@Z 10004560 f   SHLYMG.obj
+ 0001:00003690       ?Disconnect@IJDeleteImp@SheetLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10004690 f   SHLYMG.obj
+ 0001:000038b0       ?PreValueDelete@IJDeleteImp@SheetLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100048b0 f   SHLYMG.obj
+ 0001:00003b20       ??1SheetLayerManager@@UAE@XZ 10004b20 f   SHLYMG.obj
+ 0001:00003bc0       ??_GSheetLayerManager@@UAEPAXI@Z 10004bc0 f i SHLYMG.obj
+ 0001:00003bc0       ??_ESheetLayerManager@@UAEPAXI@Z 10004bc0 f i SHLYMG.obj
+ 0001:00003be0       ?Serialize@IJPersistImp@SheetLayerManager@@UAGJPAVIOContext@@@Z 10004be0 f   SHLYMG.obj
+ 0001:00004050       ??0SheetLayerManager@@QAE@PAUIUnknown@@@Z 10005050 f   SHLYMG.obj
+ 0001:00004100       ?Clone@IJPersistImp@SheetLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 10005100 f   SHLYMG.obj
+ 0001:00004240       ?AddRef@IJPersistImp@SheetLayerGroup@@UAGKXZ 10005240 f   SHLYGP.obj
+ 0001:00004240       ?AddRef@IJLayerGroupImp@JLayerGroup@@UAGKXZ 10005240 f   lyrgrp.obj
+ 0001:00004240       ?AddRef@IJSheetLayerManagerImp@SheetLayerManager@@UAGKXZ 10005240 f   SHLYMG.obj
+ 0001:00004240       ?AddRef@IJPersistImp@SheetLayer@@UAGKXZ 10005240 f   SHTLYR.obj
+ 0001:00004260       ?GetClassID@IJPersistImp@SheetLayer@@UAGJPAU_GUID@@@Z 10005260 f   SHTLYR.obj
+ 0001:000042c0       ?GetThis@IJPersistImp@SheetLayerGroup@@UAGPAXXZ 100052c0 f   SHLYGP.obj
+ 0001:000042c0       ?GetThis@IJPersistImp@SheetLayer@@UAGPAXXZ 100052c0 f   SHTLYR.obj
+ 0001:000042d0       ?Convert@IJPersistImp@SheetLayer@@UAGJPAVCvtContext@@@Z 100052d0 f   SHTLYR.obj
+ 0001:00004360       ?Initialize@SheetLayer@@QAGJXZ 10005360 f   SHTLYR.obj
+ 0001:00004360       ?ShowOnly@IJLayerImp@SheetLayer@@UAGJXZ 10005360 f   SHTLYR.obj
+ 0001:00004360       ?InitNew@IJPersistImp@SheetLayerGroup@@UAGJXZ 10005360 f   SHLYGP.obj
+ 0001:00004360       ?Initialize@IJSheetLayerManagerImp@SheetLayerManager@@QAGJXZ 10005360 f   SHLYMG.obj
+ 0001:00004360       ?Initialize@JLayerGroup@@QAGJXZ 10005360 f   lyrgrp.obj
+ 0001:00004360       ?InitNew@IJPersistImp@SheetLayerManager@@UAGJXZ 10005360 f   SHLYMG.obj
+ 0001:00004360       ?InitNew@IJPersistImp@JLayerGroup@@UAGJXZ 10005360 f   lyrgrp.obj
+ 0001:00004360       ?Initialize@SheetLayerGroup@@QAGJXZ 10005360 f   SHLYGP.obj
+ 0001:00004360       ?InitNew@IJPersistImp@SheetLayer@@UAGJXZ 10005360 f   SHTLYR.obj
+ 0001:00004370       ?Release@IJPersistImp@SheetLayerManager@@UAGKXZ 10005370 f   SHLYMG.obj
+ 0001:00004370       ?Release@IJSheetLayerImp@SheetLayer@@UAGKXZ 10005370 f   SHTLYR.obj
+ 0001:00004370       ?Release@IJDeleteImp@JLayerGroup@@UAGKXZ 10005370 f   lyrgrp.obj
+ 0001:00004390       ?GetLayerIndex@IJSheetLayerImp@SheetLayer@@UAGJPAG@Z 10005390 f   SHTLYR.obj
+ 0001:000043b0       ?GetDescription@IJSheetLayerImp@SheetLayer@@UAGJPAVGUserText@@@Z 100053b0 f   SHTLYR.obj
+ 0001:000043e0       ?QueryInterface@IJDeleteImp@SheetLayerGroup@@UAGJABU_GUID@@PAPAX@Z 100053e0 f   SHLYGP.obj
+ 0001:000043e0       ?QueryInterface@IJPersistImp@JLayerGroup@@UAGJABU_GUID@@PAPAX@Z 100053e0 f   lyrgrp.obj
+ 0001:000043e0       ?QueryInterface@IJDeleteImp@SheetLayer@@UAGJABU_GUID@@PAPAX@Z 100053e0 f   SHTLYR.obj
+ 0001:00004400       ?Release@IJPersistImp@JLayerGroup@@UAGKXZ 10005400 f   lyrgrp.obj
+ 0001:00004400       ?Release@IJDeleteImp@SheetLayerGroup@@UAGKXZ 10005400 f   SHLYGP.obj
+ 0001:00004400       ?Release@IJDeleteImp@SheetLayer@@UAGKXZ 10005400 f   SHTLYR.obj
+ 0001:00004420       ?PreValueDelete@IJDeleteImp@SheetLayer@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 10005420 f   SHTLYR.obj
+ 0001:00004420       ?PreValueDelete@IJDeleteImp@SheetLayerGroup@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 10005420 f   SHLYGP.obj
+ 0001:00004430       ?GetDescription@IJLayerImp@SheetLayer@@UAGJPAVGUserText@@@Z 10005430 f   SHTLYR.obj
+ 0001:00004430       ?GetName@IJLayerImp@SheetLayer@@UAGJPAPA_W@Z 10005430 f   SHTLYR.obj
+ 0001:00004430       ?SetName@IJLayerImp@SheetLayer@@UAGJPB_W@Z 10005430 f   SHTLYR.obj
+ 0001:00004430       ?RemoveObject@IJLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z 10005430 f   SHTLYR.obj
+ 0001:00004430       ?SetDescription@IJLayerImp@SheetLayer@@UAGJPB_W@Z 10005430 f   SHTLYR.obj
+ 0001:00004430       ?GetName@IJLayerImp@SheetLayer@@UAGJPAVGUserText@@@Z 10005430 f   SHTLYR.obj
+ 0001:00004440       ?SetLocatable@IJLayerImp@SheetLayer@@UAGJ_N0@Z 10005440 f   SHTLYR.obj
+ 0001:00004440       ?Clone@IJPersistImp@SheetLayerGroup@@UAGJPAUIUnknown@@PAPAU3@@Z 10005440 f   SHLYGP.obj
+ 0001:00004440       ?SetVisible@IJLayerImp@SheetLayer@@UAGJ_N0@Z 10005440 f   SHTLYR.obj
+ 0001:00004440       ?Clone@IJPersistImp@JLayerGroup@@UAGJPAUIUnknown@@PAPAU3@@Z 10005440 f   lyrgrp.obj
+ 0001:00004450       ?IsVisible@IJLayerImp@SheetLayer@@UAG_NXZ 10005450 f   SHTLYR.obj
+ 0001:00004450       ?IsLocatable@IJLayerImp@SheetLayer@@UAG_NXZ 10005450 f   SHTLYR.obj
+ 0001:00004460       ?GetNumObjects@IJLayerImp@SheetLayer@@UAGIXZ 10005460 f   SHTLYR.obj
+ 0001:00004470       ?IsActive@IJLayerImp@SheetLayer@@UAG_NXZ 10005470 f   SHTLYR.obj
+ 0001:00004470       ?IsAutoHideLayer@IJLayerImp@SheetLayer@@UAG_NXZ 10005470 f   SHTLYR.obj
+ 0001:00004480       ??1SheetLayer@@UAE@XZ      10005480 f   SHTLYR.obj
+ 0001:00004530       ?QueryInterface@SheetLayer@@UAGJABU_GUID@@PAPAX@Z 10005530 f   SHTLYR.obj
+ 0001:000047c0       ?GetJLayer@IJSheetLayerImp@SheetLayer@@UAGJPAPAUIUnknown@@@Z 100057c0 f   SHTLYR.obj
+ 0001:000048a0       ?RemoveObject@IJSheetLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z 100058a0 f   SHTLYR.obj
+ 0001:000049a0       ?EnumValues@IJDeleteImp@SheetLayer@@UAGJPAPAUIEnumJIDREF@@@Z 100059a0 f   SHTLYR.obj
+ 0001:00004ae0       ?Disconnect@IJDeleteImp@SheetLayer@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10005ae0 f   SHTLYR.obj
+ 0001:00004ba0       ?AddObject@IJLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z 10005ba0 f   SHTLYR.obj
+ 0001:00004cd0       ??_ESheetLayer@@UAEPAXI@Z  10005cd0 f i SHTLYR.obj
+ 0001:00004cd0       ??_GSheetLayer@@UAEPAXI@Z  10005cd0 f i SHTLYR.obj
+ 0001:00004cf0       ?Serialize@IJPersistImp@SheetLayer@@UAGJPAVIOContext@@@Z 10005cf0 f   SHTLYR.obj
+ 0001:00005120       ??0SheetLayer@@QAE@PAUIUnknown@@@Z 10006120 f   SHTLYR.obj
+ 0001:000051b0       ?Clone@IJPersistImp@SheetLayer@@UAGJPAUIUnknown@@PAPAU3@@Z 100061b0 f   SHTLYR.obj
+ 0001:0000530e       _JLogModify@4              1000630e f   jengine:jengine.dll
+ 0001:00005314       _CreateStdRelation@8       10006314 f   jengine:jengine.dll
+ 0001:0000531a       _CreateStdRelationValue@12 1000631a f   jengine:jengine.dll
+ 0001:00005320       _JCreateJIDREFDataHolder@12 10006320 f   jengine:jengine.dll
+ 0001:00005326       @GetPersistManager@8       10006326 f   jengine:jengine.dll
+ 0001:0000532c       ?AddRef@CPersistObject@@UAGKXZ 1000632c f   jengine:jengine.dll
+ 0001:00005332       ?Release@CPersistObject@@UAGKXZ 10006332 f   jengine:jengine.dll
+ 0001:00005338       _JCreateUnknownDataHolder@12 10006338 f   jengine:jengine.dll
+ 0001:0000533e       _HRerrEx                   1000633e f   jutil:JUtil.dll
+ 0001:00005344       _JCoCreateInstance         10006344 f   jutil:JUtil.dll
+ 0001:0000534a       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000634a f   jutil:JUtil.dll
+ 0001:00005350       ?AddRef@JClassFactory@@UAGKXZ 10006350 f   jutil:JUtil.dll
+ 0001:00005356       ?Release@JClassFactory@@UAGKXZ 10006356 f   jutil:JUtil.dll
+ 0001:0000535c       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000635c f   jutil:JUtil.dll
+ 0001:00005362       ?LockServer@JClassFactory@@UAGJH@Z 10006362 f   jutil:JUtil.dll
+ 0001:00005368       _malloc                    10006368 f   MSVCRT:MSVCR80.dll
+ 0001:0000536e       __callnewh                 1000636e f   MSVCRT:MSVCR80.dll
+ 0001:00005374       _memset                    10006374 f   MSVCRT:MSVCR80.dll
+ 0001:0000537a       @__security_check_cookie@4 1000637a f   MSVCRT:secchk.obj
+ 0001:00005389       ??_Etype_info@@UAEPAXI@Z   10006389 f i MSVCRT:ti_inst.obj
+ 0001:000053d2       ___CxxFrameHandler3        100063d2 f   MSVCRT:MSVCR80.dll
+ 0001:000053d8       ??3@YAXPAX@Z               100063d8 f   MSVCRT:MSVCR80.dll
+ 0001:0000542b       __CRT_INIT@12              1000642b f   MSVCRT:crtdll.obj
+ 0001:000056e0       __DllMainCRTStartup@12     100066e0 f   MSVCRT:crtdll.obj
+ 0001:00005701       ___report_gsfailure        10006701 f   MSVCRT:gs_report.obj
+ 0001:00005805       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006805 f   MSVCRT:ehvecdtr.obj
+ 0001:00005863       ??_M@YGXPAXIHP6EX0@Z@Z     10006863 f   MSVCRT:ehvecdtr.obj
+ 0001:000058c6       ___clean_type_info_names   100068c6 f   MSVCRT:tncleanup.obj
+ 0001:000058d2       __onexit                   100068d2 f   MSVCRT:atonexit.obj
+ 0001:00005971       _atexit                    10006971 f   MSVCRT:atonexit.obj
+ 0001:00005983       __RTC_Initialize           10006983 f   MSVCRT:initsect.obj
+ 0001:000059a7       __RTC_Terminate            100069a7 f   MSVCRT:initsect.obj
+ 0001:000059d0       __ValidateImageBase        100069d0 f   MSVCRT:pesect.obj
+ 0001:00005a00       __FindPESection            10006a00 f   MSVCRT:pesect.obj
+ 0001:00005a42       __IsNonwritableInCurrentImage 10006a42 f   MSVCRT:pesect.obj
+ 0001:00005aae       __initterm                 10006aae f   MSVCRT:MSVCR80.dll
+ 0001:00005ab4       __initterm_e               10006ab4 f   MSVCRT:MSVCR80.dll
+ 0001:00005aba       __amsg_exit                10006aba f   MSVCRT:MSVCR80.dll
+ 0001:00005ac0       ___CppXcptFilter           10006ac0 f   MSVCRT:MSVCR80.dll
+ 0001:00005ac6       _DllMain@12                10006ac6 f   MSVCRT:dllmain.obj
+ 0001:00005ae8       __SEH_prolog4              10006ae8 f   MSVCRT:sehprolg4.obj
+ 0001:00005b2d       __SEH_epilog4              10006b2d f   MSVCRT:sehprolg4.obj
+ 0001:00005b41       __except_handler4          10006b41 f   MSVCRT:chandler4gs.obj
+ 0001:00005b64       ___security_init_cookie    10006b64 f   MSVCRT:gs_support.obj
+ 0001:00005bf8       __crt_debugger_hook        10006bf8 f   MSVCRT:MSVCR80.dll
+ 0001:00005bfe       ?terminate@@YAXXZ          10006bfe f   MSVCRT:MSVCR80.dll
+ 0001:00005c04       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006c04 f   MSVCRT:MSVCR80.dll
+ 0001:00005c04       ??1type_info@@UAE@XZ       10006c04 f   MSVCRT:MSVCR80.dll
+ 0001:00005c0a       ___clean_type_info_names_internal 10006c0a f   MSVCRT:MSVCR80.dll
+ 0001:00005c10       __unlock                   10006c10 f   MSVCRT:MSVCR80.dll
+ 0001:00005c16       ___dllonexit               10006c16 f   MSVCRT:MSVCR80.dll
+ 0001:00005c1c       __lock                     10006c1c f   MSVCRT:MSVCR80.dll
+ 0001:00005c22       __except_handler4_common   10006c22 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__HRerrEx             10008000     jutil:JUtil.dll
+ 0002:00000004       __imp_?Empty@GUserText@@QAEAAV1@XZ 10008004     jutil:JUtil.dll
+ 0002:00000008       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10008008     jutil:JUtil.dll
+ 0002:0000000c       __imp_?LockServer@JClassFactory@@UAGJH@Z 1000800c     jutil:JUtil.dll
+ 0002:00000010       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10008010     jutil:JUtil.dll
+ 0002:00000014       __imp_?Release@JClassFactory@@UAGKXZ 10008014     jutil:JUtil.dll
+ 0002:00000018       __imp_?AddRef@JClassFactory@@UAGKXZ 10008018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000801c     jutil:JUtil.dll
+ 0002:00000020       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10008020     jutil:JUtil.dll
+ 0002:00000024       __imp_??1JClassFactory@@UAE@XZ 10008024     jutil:JUtil.dll
+ 0002:00000028       __imp__JCoCreateInstance   10008028     jutil:JUtil.dll
+ 0002:0000002c       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_?FreeDataChain@JPlex@@QAEXXZ 10008030     jutil:JUtil.dll
+ 0002:00000034       \177JUtil_NULL_THUNK_DATA  10008034     jutil:JUtil.dll
+ 0002:00000038       __imp__Sleep@4             10008038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__InterlockedCompareExchange@12 1000803c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__TerminateProcess@8  10008040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetCurrentProcess@0 10008044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__UnhandledExceptionFilter@4 10008048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__SetUnhandledExceptionFilter@4 1000804c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__IsDebuggerPresent@0 10008050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__DisableThreadLibraryCalls@4 10008054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__QueryPerformanceCounter@4 10008058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetTickCount@0      1000805c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetCurrentThreadId@0 10008060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetCurrentProcessId@0 10008064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetSystemTimeAsFileTime@4 10008068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__InterlockedExchange@8 1000806c     kernel32:KERNEL32.dll
+ 0002:00000070       \177KERNEL32_NULL_THUNK_DATA 10008070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp___except_handler4_common 10008074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___onexit             10008078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___lock               1000807c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp____dllonexit         10008080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp___unlock             10008084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp____clean_type_info_names_internal 10008088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp__malloc              1000808c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___callnewh           10008090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp__memset              10008094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp____CxxFrameHandler3  10008098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp_??3@YAXPAX@Z         1000809c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___encode_pointer     100080a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___malloc_crt         100080a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___encoded_null       100080a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp__free                100080ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___decode_pointer     100080b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___initterm           100080b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___initterm_e         100080b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___amsg_exit          100080bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___adjust_fdiv        100080c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp____CppXcptFilter     100080c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___crt_debugger_hook  100080c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp_?terminate@@YAXXZ    100080cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100080d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       \177MSVCR80_NULL_THUNK_DATA 100080d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp_??3CPersistObject@@SAXPAX@Z 100080d8     jengine:jengine.dll
+ 0002:000000dc       __imp__JLogModify@4        100080dc     jengine:jengine.dll
+ 0002:000000e0       __imp__CreateStdRelation@8 100080e0     jengine:jengine.dll
+ 0002:000000e4       __imp__CreateStdRelationValue@12 100080e4     jengine:jengine.dll
+ 0002:000000e8       __imp__JCreateJIDREFDataHolder@12 100080e8     jengine:jengine.dll
+ 0002:000000ec       __imp_@GetPersistManager@8 100080ec     jengine:jengine.dll
+ 0002:000000f0       __imp_??1CPersistObject@@UAE@XZ 100080f0     jengine:jengine.dll
+ 0002:000000f4       __imp__JCreateUnknownDataHolder@12 100080f4     jengine:jengine.dll
+ 0002:000000f8       __imp_??2CPersistObject@@SAPAXI@Z 100080f8     jengine:jengine.dll
+ 0002:000000fc       __imp_?GetObjectVersions@CvtContext@@QBEJPBU_GUID@@PAG1@Z 100080fc     jengine:jengine.dll
+ 0002:00000100       __imp_??0CPersistObject@@QAE@PAUIUnknown@@@Z 10008100     jengine:jengine.dll
+ 0002:00000104       __imp_?Release@CPersistObject@@UAGKXZ 10008104     jengine:jengine.dll
+ 0002:00000108       __imp_?AddRef@CPersistObject@@UAGKXZ 10008108     jengine:jengine.dll
+ 0002:0000010c       \177jengine_NULL_THUNK_DATA 1000810c     jengine:jengine.dll
+ 0002:00000110       __imp__ReadClassStm@8      10008110     ole32:ole32.dll
+ 0002:00000114       __imp__WriteClassStm@8     10008114     ole32:ole32.dll
+ 0002:00000118       \177ole32_NULL_THUNK_DATA  10008118     ole32:ole32.dll
+ 0002:0000011c       __imp__JSESysAllocString@4 1000811c     sealloc:sealloc.dll
+ 0002:00000120       __imp__JSESysAllocStringLen@8 10008120     sealloc:sealloc.dll
+ 0002:00000124       __imp__JSESysFreeString@4  10008124     sealloc:sealloc.dll
+ 0002:00000128       \177sealloc_NULL_THUNK_DATA 10008128     sealloc:sealloc.dll
+ 0002:0000012c       ___xc_a                    1000812c     MSVCRT:cinitexe.obj
+ 0002:00000170       ___xc_z                    10008170     MSVCRT:cinitexe.obj
+ 0002:00000174       ___xi_a                    10008174     MSVCRT:cinitexe.obj
+ 0002:0000017c       ___xi_z                    1000817c     MSVCRT:cinitexe.obj
+ 0002:0000019c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000819c     GUID.obj
+ 0002:000001ac       _CLSID_JSheetLayerGroup    100081ac     GUID.obj
+ 0002:000001bc       _CLSID_JSheetLayer         100081bc     GUID.obj
+ 0002:000001cc       _CLSID_JSheetLayerManager  100081cc     GUID.obj
+ 0002:000001dc       _IID_IJPersist             100081dc     GUID.obj
+ 0002:000001ec       _IID_IJSheetLayerManager   100081ec     GUID.obj
+ 0002:000001fc       _IID_IJSheetLayer          100081fc     GUID.obj
+ 0002:0000020c       _GUID_JLayerManagerRelation 1000820c     GUID.obj
+ 0002:0000021c       _IID_IJLayer               1000821c     GUID.obj
+ 0002:0000022c       _IID_IJRelationValue       1000822c     GUID.obj
+ 0002:0000023c       _IID_IJGraphicRelationValue 1000823c     GUID.obj
+ 0002:0000024c       _IID_IJRelation            1000824c     GUID.obj
+ 0002:0000025c       _IID_IJDelete              1000825c     GUID.obj
+ 0002:0000026c       _IID_IJSheet               1000826c     GUID.obj
+ 0002:0000027c       _CLSID_JLayerGroup         1000827c     GUID.obj
+ 0002:0000028c       _IID_IJLayerGroup          1000828c     GUID.obj
+ 0002:0000029c       _GUID_JSheetLayersRelation 1000829c     GUID.obj
+ 0002:000002ac       _GUID_JSheetLayerGroupsRelation 100082ac     GUID.obj
+ 0002:000002bc       ??_C@_0N@IIPCBFAE@?4?2lyrgrp?4cpp?$AA@ 100082bc     lyrgrp.obj
+ 0002:000002cc       ??_C@_0CG@BAONICKE@JLayerGroup?3?3IJPersistImp?3?3GetCl@ 100082cc     lyrgrp.obj
+ 0002:000002f4       ??_C@_0CD@KEHMLPGB@JLayerGroup?3?3IJPersistImp?3?3Conve@ 100082f4     lyrgrp.obj
+ 0002:00000318       ??_C@_0BM@IAIDAHMJ@JLayerGroup?3?3QueryInterface?$AA@ 10008318     lyrgrp.obj
+ 0002:00000334       ??_C@_0CF@HNIEPEEN@JLayerGroup?3?3IJDeleteImp?3?3EnumVa@ 10008334     lyrgrp.obj
+ 0002:0000035c       ??_C@_0CF@JFPOOHJC@JLayerGroup?3?3IJDeleteImp?3?3Discon@ 1000835c     lyrgrp.obj
+ 0002:00000384       ??_C@_0CJ@GPIMLCOE@JLayerGroup?3?3IJDeleteImp?3?3PreVal@ 10008384     lyrgrp.obj
+ 0002:000003b4       ??_7IJLayerGroupImp@JLayerGroup@@6B@ 100083b4     lyrgrp.obj
+ 0002:000003c8       ??_7IJPersistImp@JLayerGroup@@6B@ 100083c8     lyrgrp.obj
+ 0002:000003f4       ??_7IJDeleteImp@JLayerGroup@@6B@ 100083f4     lyrgrp.obj
+ 0002:00000410       ??_7JLayerGroup@@6B@       10008410     lyrgrp.obj
+ 0002:00000420       ??_C@_0DC@PKPCOEOO@JLayerGroup?3?3IJLayerGroupImp?3?3Di@ 10008420     lyrgrp.obj
+ 0002:00000454       ??_C@_0CF@IIOEAFGB@JLayerGroup?3?3IJPersistImp?3?3Seria@ 10008454     lyrgrp.obj
+ 0002:00000480       ??_7?$ClassFactory@VSheetLayerManager@@@@6B@ 10008480     SERVER.obj
+ 0002:0000049c       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 1000849c     SERVER.obj
+ 0002:000004b4       ??_C@_0DI@CKGLKGAF@ClassFactory?$DMclass?5SheetLayerMan@ 100084b4     SERVER.obj
+ 0002:000004f0       ??_7?$ClassFactory@VSheetLayerGroup@@@@6B@ 100084f0     SERVER.obj
+ 0002:0000050c       ??_C@_0DG@JPIPIAFN@ClassFactory?$DMclass?5SheetLayerGro@ 1000850c     SERVER.obj
+ 0002:00000548       ??_7?$ClassFactory@VSheetLayer@@@@6B@ 10008548     SERVER.obj
+ 0002:00000564       ??_C@_0DB@DEJPAKNJ@ClassFactory?$DMclass?5SheetLayer?$DO?3?3@ 10008564     SERVER.obj
+ 0002:0000059c       ??_7?$ClassFactory@VJLayerGroup@@@@6B@ 1000859c     SERVER.obj
+ 0002:000005b8       ??_C@_0DC@IJKBIOMD@ClassFactory?$DMclass?5JLayerGroup?$DO?3@ 100085b8     SERVER.obj
+ 0002:000005ec       ??_C@_0N@KAGCOLLF@?4?2SERVER?4CPP?$AA@ 100085ec     SERVER.obj
+ 0002:000005fc       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 100085fc     SERVER.obj
+ 0002:00000610       ??_C@_0N@DCOJFLGI@?4?2SHLYGP?4CPP?$AA@ 10008610     SHLYGP.obj
+ 0002:00000620       ??_C@_0CK@CEPIIHJN@SheetLayerGroup?3?3IJPersistImp?3?3G@ 10008620     SHLYGP.obj
+ 0002:0000064c       ??_C@_0CH@JHFPJOHE@SheetLayerGroup?3?3IJPersistImp?3?3C@ 1000864c     SHLYGP.obj
+ 0002:00000674       ??_C@_0CA@ECEAHGIO@SheetLayerGroup?3?3QueryInterface?$AA@ 10008674     SHLYGP.obj
+ 0002:00000694       ??_C@_0CJ@GFIDBCE@SheetLayerGroup?3?3IJDeleteImp?3?3En@ 10008694     SHLYGP.obj
+ 0002:000006c0       ??_C@_0CJ@OOCCCCPL@SheetLayerGroup?3?3IJDeleteImp?3?3Di@ 100086c0     SHLYGP.obj
+ 0002:000006f0       ??_7SheetLayerGroup@@6B@   100086f0     SHLYGP.obj
+ 0002:00000704       ??_7IJPersistImp@SheetLayerGroup@@6B@ 10008704     SHLYGP.obj
+ 0002:00000730       ??_7IJDeleteImp@SheetLayerGroup@@6B@ 10008730     SHLYGP.obj
+ 0002:00000748       ??_C@_0CJ@PDDIMAAI@SheetLayerGroup?3?3IJPersistImp?3?3S@ 10008748     SHLYGP.obj
+ 0002:00000778       ??_7IJSheetLayerManagerImp@SheetLayerManager@@6B@ 10008778     SHLYMG.obj
+ 0002:00000794       ??_C@_0N@IIEKDGAF@?4?2SHLYMG?4CPP?$AA@ 10008794     SHLYMG.obj
+ 0002:000007a4       ??_C@_0CM@JGCHEMBN@SheetLayerManager?3?3IJPersistImp?3@ 100087a4     SHLYMG.obj
+ 0002:000007d0       ??_C@_0CJ@JFCJKGGE@SheetLayerManager?3?3IJPersistImp?3@ 100087d0     SHLYMG.obj
+ 0002:000007fc       ??_C@_0BO@ECEJPPBH@SheetLayerManager?3?3Initialize?$AA@ 100087fc     SHLYMG.obj
+ 0002:0000081c       ??_C@_0CC@GOFLGKOO@SheetLayerManager?3?3QueryInterfac@ 1000881c     SHLYMG.obj
+ 0002:00000840       ??_C@_0DL@CJCIPKJK@SheetLayerManager?3?3IJSheetLayerM@ 10008840     SHLYMG.obj
+ 0002:0000087c       ??_C@_0DE@JKGGNBFN@SheetLayerManager?3?3IJSheetLayerM@ 1000887c     SHLYMG.obj
+ 0002:000008b0       ??_C@_0DL@LAPLIBIH@SheetLayerManager?3?3IJSheetLayerM@ 100088b0     SHLYMG.obj
+ 0002:000008ec       ??_C@_0CL@IMOCIKEC@SheetLayerManager?3?3IJDeleteImp?3?3@ 100088ec     SHLYMG.obj
+ 0002:00000918       ??_C@_0CP@ILMLKGJD@SheetLayerManager?3?3IJDeleteImp?3?3@ 10008918     SHLYMG.obj
+ 0002:0000094c       ??_7SheetLayerManager@@6B@ 1000894c     SHLYMG.obj
+ 0002:00000960       ??_7IJPersistImp@SheetLayerManager@@6B@ 10008960     SHLYMG.obj
+ 0002:0000098c       ??_7IJDeleteImp@SheetLayerManager@@6B@ 1000898c     SHLYMG.obj
+ 0002:000009a4       ??_C@_0CL@JBPIGILB@SheetLayerManager?3?3IJPersistImp?3@ 100089a4     SHLYMG.obj
+ 0002:000009d0       ??_C@_0CH@LGGMLJFD@SheetLayerManager?3?3IJPersistImp?3@ 100089d0     SHLYMG.obj
+ 0002:000009f8       ??_C@_0N@GLIDMCNG@?4?2SHTLYR?4CPP?$AA@ 100089f8     SHTLYR.obj
+ 0002:00000a08       ??_C@_0CF@BPLOAGPD@SheetLayer?3?3IJPersistImp?3?3GetCla@ 10008a08     SHTLYR.obj
+ 0002:00000a30       ??_C@_0CC@DFOBNCBG@SheetLayer?3?3IJPersistImp?3?3Conver@ 10008a30     SHTLYR.obj
+ 0002:00000a58       ??_7SheetLayer@@6B@        10008a58     SHTLYR.obj
+ 0002:00000a68       ??_C@_0BL@CFPMDGBN@SheetLayer?3?3QueryInterface?$AA@ 10008a68     SHTLYR.obj
+ 0002:00000a84       ??_C@_0CH@DDOMLPGM@SheetLayer?3?3IJSheetLayerImp?3?3Get@ 10008a84     SHTLYR.obj
+ 0002:00000aac       ??_C@_0CK@OKICPPNP@SheetLayer?3?3IJSheetLayerImp?3?3Rem@ 10008aac     SHTLYR.obj
+ 0002:00000ad8       ??_C@_0CE@COPJJHAE@SheetLayer?3?3IJDeleteImp?3?3EnumVal@ 10008ad8     SHTLYR.obj
+ 0002:00000afc       ??_C@_0CC@MGJCMOCB@SheetLayer?3?3IJLayerImp?3?3AddObjec@ 10008afc     SHTLYR.obj
+ 0002:00000b24       ??_7IJSheetLayerImp@SheetLayer@@6B@ 10008b24     SHTLYR.obj
+ 0002:00000b44       ??_7IJLayerImp@SheetLayer@@6B@ 10008b44     SHTLYR.obj
+ 0002:00000b8c       ??_C@_11LOCGONAA@?$AA?$AA@ 10008b8c     SHTLYR.obj
+ 0002:00000b90       ??_C@_0CE@NLJJGGCI@SheetLayer?3?3IJPersistImp?3?3Serial@ 10008b90     SHTLYR.obj
+ 0002:00000bb8       ??_7IJPersistImp@SheetLayer@@6B@ 10008bb8     SHTLYR.obj
+ 0002:00000be4       ??_7IJDeleteImp@SheetLayer@@6B@ 10008be4     SHTLYR.obj
+ 0002:00000bfc       ??_C@_0CA@PHJJPOOP@SheetLayer?3?3IJPersistImp?3?3Clone?$AA@ 10008bfc     SHTLYR.obj
+ 0002:00000c1c       _IID_IPersist              10008c1c     uuid:objidl_i.obj
+ 0002:00000c2c       _IID_IClassFactory         10008c2c     uuid:unknwn_i.obj
+ 0002:00000c3c       _IID_IUnknown              10008c3c     uuid:unknwn_i.obj
+ 0002:00000c50       ??_7type_info@@6B@         10008c50     MSVCRT:ti_inst.obj
+ 0002:00000c54       __pRawDllMain              10008c54     MSVCRT:crtdll.obj
+ 0002:00000c54       __pDefaultRawDllMain       10008c54     MSVCRT:crtdll.obj
+ 0002:00000c60       __load_config_used         10008c60     MSVCRT:loadcfg.obj
+ 0002:00000cd8       ??_R4IJLayerGroupImp@JLayerGroup@@6B@ 10008cd8     lyrgrp.obj
+ 0002:00000cec       ??_R3IJLayerGroupImp@JLayerGroup@@8 10008cec     lyrgrp.obj
+ 0002:00000cfc       ??_R2IJLayerGroupImp@JLayerGroup@@8 10008cfc     lyrgrp.obj
+ 0002:00000d0c       ??_R1A@?0A@EA@IJLayerGroupImp@JLayerGroup@@8 10008d0c     lyrgrp.obj
+ 0002:00000d28       ??_R1A@?0A@EA@IJLayerGroup@@8 10008d28     lyrgrp.obj
+ 0002:00000d44       ??_R3IJLayerGroup@@8       10008d44     lyrgrp.obj
+ 0002:00000d54       ??_R2IJLayerGroup@@8       10008d54     lyrgrp.obj
+ 0002:00000d60       ??_R1A@?0A@EA@IUnknown@@8  10008d60     lyrgrp.obj
+ 0002:00000d7c       ??_R3IUnknown@@8           10008d7c     lyrgrp.obj
+ 0002:00000d8c       ??_R2IUnknown@@8           10008d8c     lyrgrp.obj
+ 0002:00000d94       ??_R4IJPersistImp@JLayerGroup@@6B@ 10008d94     lyrgrp.obj
+ 0002:00000da8       ??_R3IJPersistImp@JLayerGroup@@8 10008da8     lyrgrp.obj
+ 0002:00000db8       ??_R2IJPersistImp@JLayerGroup@@8 10008db8     lyrgrp.obj
+ 0002:00000dcc       ??_R1A@?0A@EA@IJPersistImp@JLayerGroup@@8 10008dcc     lyrgrp.obj
+ 0002:00000de8       ??_R1A@?0A@EA@IJPersist@@8 10008de8     lyrgrp.obj
+ 0002:00000e04       ??_R3IJPersist@@8          10008e04     lyrgrp.obj
+ 0002:00000e14       ??_R2IJPersist@@8          10008e14     lyrgrp.obj
+ 0002:00000e24       ??_R1A@?0A@EA@IPersist@@8  10008e24     lyrgrp.obj
+ 0002:00000e40       ??_R3IPersist@@8           10008e40     lyrgrp.obj
+ 0002:00000e50       ??_R2IPersist@@8           10008e50     lyrgrp.obj
+ 0002:00000e5c       ??_R4IJDeleteImp@JLayerGroup@@6B@ 10008e5c     lyrgrp.obj
+ 0002:00000e70       ??_R3IJDeleteImp@JLayerGroup@@8 10008e70     lyrgrp.obj
+ 0002:00000e80       ??_R2IJDeleteImp@JLayerGroup@@8 10008e80     lyrgrp.obj
+ 0002:00000e94       ??_R1A@?0A@EA@IJDeleteImp@JLayerGroup@@8 10008e94     lyrgrp.obj
+ 0002:00000eb0       ??_R1A@?0A@EA@IJDelete@@8  10008eb0     lyrgrp.obj
+ 0002:00000ecc       ??_R3IJDelete@@8           10008ecc     lyrgrp.obj
+ 0002:00000edc       ??_R2IJDelete@@8           10008edc     lyrgrp.obj
+ 0002:00000eec       ??_R1A@?0A@EA@IJSemantic@@8 10008eec     lyrgrp.obj
+ 0002:00000f08       ??_R3IJSemantic@@8         10008f08     lyrgrp.obj
+ 0002:00000f18       ??_R2IJSemantic@@8         10008f18     lyrgrp.obj
+ 0002:00000f24       ??_R4JLayerGroup@@6B@      10008f24     lyrgrp.obj
+ 0002:00000f38       ??_R3JLayerGroup@@8        10008f38     lyrgrp.obj
+ 0002:00000f48       ??_R2JLayerGroup@@8        10008f48     lyrgrp.obj
+ 0002:00000f58       ??_R1A@?0A@EA@JLayerGroup@@8 10008f58     lyrgrp.obj
+ 0002:00000f74       ??_R1A@?0A@EA@CPersistObject@@8 10008f74     lyrgrp.obj
+ 0002:00000f90       ??_R3CPersistObject@@8     10008f90     lyrgrp.obj
+ 0002:00000fa0       ??_R2CPersistObject@@8     10008fa0     lyrgrp.obj
+ 0002:00000fac       ??_R4?$ClassFactory@VSheetLayerManager@@@@6B@ 10008fac     SERVER.obj
+ 0002:00000fc0       ??_R3?$ClassFactory@VSheetLayerManager@@@@8 10008fc0     SERVER.obj
+ 0002:00000fd0       ??_R2?$ClassFactory@VSheetLayerManager@@@@8 10008fd0     SERVER.obj
+ 0002:00000fe4       ??_R1A@?0A@EA@?$ClassFactory@VSheetLayerManager@@@@8 10008fe4     SERVER.obj
+ 0002:00001000       ??_R1A@?0A@EA@JClassFactory@@8 10009000     SERVER.obj
+ 0002:0000101c       ??_R3JClassFactory@@8      1000901c     SERVER.obj
+ 0002:0000102c       ??_R2JClassFactory@@8      1000902c     SERVER.obj
+ 0002:0000103c       ??_R1A@?0A@EA@IClassFactory@@8 1000903c     SERVER.obj
+ 0002:00001058       ??_R3IClassFactory@@8      10009058     SERVER.obj
+ 0002:00001068       ??_R2IClassFactory@@8      10009068     SERVER.obj
+ 0002:00001074       ??_R4?$ClassFactory@VSheetLayerGroup@@@@6B@ 10009074     SERVER.obj
+ 0002:00001088       ??_R3?$ClassFactory@VSheetLayerGroup@@@@8 10009088     SERVER.obj
+ 0002:00001098       ??_R2?$ClassFactory@VSheetLayerGroup@@@@8 10009098     SERVER.obj
+ 0002:000010ac       ??_R1A@?0A@EA@?$ClassFactory@VSheetLayerGroup@@@@8 100090ac     SERVER.obj
+ 0002:000010c8       ??_R4?$ClassFactory@VSheetLayer@@@@6B@ 100090c8     SERVER.obj
+ 0002:000010dc       ??_R3?$ClassFactory@VSheetLayer@@@@8 100090dc     SERVER.obj
+ 0002:000010ec       ??_R2?$ClassFactory@VSheetLayer@@@@8 100090ec     SERVER.obj
+ 0002:00001100       ??_R1A@?0A@EA@?$ClassFactory@VSheetLayer@@@@8 10009100     SERVER.obj
+ 0002:0000111c       ??_R4?$ClassFactory@VJLayerGroup@@@@6B@ 1000911c     SERVER.obj
+ 0002:00001130       ??_R3?$ClassFactory@VJLayerGroup@@@@8 10009130     SERVER.obj
+ 0002:00001140       ??_R2?$ClassFactory@VJLayerGroup@@@@8 10009140     SERVER.obj
+ 0002:00001154       ??_R1A@?0A@EA@?$ClassFactory@VJLayerGroup@@@@8 10009154     SERVER.obj
+ 0002:00001170       ??_R4SheetLayerGroup@@6B@  10009170     SHLYGP.obj
+ 0002:00001184       ??_R3SheetLayerGroup@@8    10009184     SHLYGP.obj
+ 0002:00001194       ??_R2SheetLayerGroup@@8    10009194     SHLYGP.obj
+ 0002:000011a4       ??_R1A@?0A@EA@SheetLayerGroup@@8 100091a4     SHLYGP.obj
+ 0002:000011c0       ??_R4IJPersistImp@SheetLayerGroup@@6B@ 100091c0     SHLYGP.obj
+ 0002:000011d4       ??_R3IJPersistImp@SheetLayerGroup@@8 100091d4     SHLYGP.obj
+ 0002:000011e4       ??_R2IJPersistImp@SheetLayerGroup@@8 100091e4     SHLYGP.obj
+ 0002:000011f8       ??_R1A@?0A@EA@IJPersistImp@SheetLayerGroup@@8 100091f8     SHLYGP.obj
+ 0002:00001214       ??_R4IJDeleteImp@SheetLayerGroup@@6B@ 10009214     SHLYGP.obj
+ 0002:00001228       ??_R3IJDeleteImp@SheetLayerGroup@@8 10009228     SHLYGP.obj
+ 0002:00001238       ??_R2IJDeleteImp@SheetLayerGroup@@8 10009238     SHLYGP.obj
+ 0002:0000124c       ??_R1A@?0A@EA@IJDeleteImp@SheetLayerGroup@@8 1000924c     SHLYGP.obj
+ 0002:00001268       ??_R4IJSheetLayerManagerImp@SheetLayerManager@@6B@ 10009268     SHLYMG.obj
+ 0002:0000127c       ??_R3IJSheetLayerManagerImp@SheetLayerManager@@8 1000927c     SHLYMG.obj
+ 0002:0000128c       ??_R2IJSheetLayerManagerImp@SheetLayerManager@@8 1000928c     SHLYMG.obj
+ 0002:0000129c       ??_R1A@?0A@EA@IJSheetLayerManagerImp@SheetLayerManager@@8 1000929c     SHLYMG.obj
+ 0002:000012b8       ??_R1A@?0A@EA@IJSheetLayerManager@@8 100092b8     SHLYMG.obj
+ 0002:000012d4       ??_R3IJSheetLayerManager@@8 100092d4     SHLYMG.obj
+ 0002:000012e4       ??_R2IJSheetLayerManager@@8 100092e4     SHLYMG.obj
+ 0002:000012f0       ??_R4SheetLayerManager@@6B@ 100092f0     SHLYMG.obj
+ 0002:00001304       ??_R3SheetLayerManager@@8  10009304     SHLYMG.obj
+ 0002:00001314       ??_R2SheetLayerManager@@8  10009314     SHLYMG.obj
+ 0002:00001324       ??_R1A@?0A@EA@SheetLayerManager@@8 10009324     SHLYMG.obj
+ 0002:00001340       ??_R4IJPersistImp@SheetLayerManager@@6B@ 10009340     SHLYMG.obj
+ 0002:00001354       ??_R3IJPersistImp@SheetLayerManager@@8 10009354     SHLYMG.obj
+ 0002:00001364       ??_R2IJPersistImp@SheetLayerManager@@8 10009364     SHLYMG.obj
+ 0002:00001378       ??_R1A@?0A@EA@IJPersistImp@SheetLayerManager@@8 10009378     SHLYMG.obj
+ 0002:00001394       ??_R4IJDeleteImp@SheetLayerManager@@6B@ 10009394     SHLYMG.obj
+ 0002:000013a8       ??_R3IJDeleteImp@SheetLayerManager@@8 100093a8     SHLYMG.obj
+ 0002:000013b8       ??_R2IJDeleteImp@SheetLayerManager@@8 100093b8     SHLYMG.obj
+ 0002:000013cc       ??_R1A@?0A@EA@IJDeleteImp@SheetLayerManager@@8 100093cc     SHLYMG.obj
+ 0002:000013e8       ??_R4SheetLayer@@6B@       100093e8     SHTLYR.obj
+ 0002:000013fc       ??_R3SheetLayer@@8         100093fc     SHTLYR.obj
+ 0002:0000140c       ??_R2SheetLayer@@8         1000940c     SHTLYR.obj
+ 0002:0000141c       ??_R1A@?0A@EA@SheetLayer@@8 1000941c     SHTLYR.obj
+ 0002:00001438       ??_R4IJSheetLayerImp@SheetLayer@@6B@ 10009438     SHTLYR.obj
+ 0002:0000144c       ??_R3IJSheetLayerImp@SheetLayer@@8 1000944c     SHTLYR.obj
+ 0002:0000145c       ??_R2IJSheetLayerImp@SheetLayer@@8 1000945c     SHTLYR.obj
+ 0002:0000146c       ??_R1A@?0A@EA@IJSheetLayerImp@SheetLayer@@8 1000946c     SHTLYR.obj
+ 0002:00001488       ??_R1A@?0A@EA@IJSheetLayer@@8 10009488     SHTLYR.obj
+ 0002:000014a4       ??_R3IJSheetLayer@@8       100094a4     SHTLYR.obj
+ 0002:000014b4       ??_R2IJSheetLayer@@8       100094b4     SHTLYR.obj
+ 0002:000014c0       ??_R4IJLayerImp@SheetLayer@@6B@ 100094c0     SHTLYR.obj
+ 0002:000014d4       ??_R3IJLayerImp@SheetLayer@@8 100094d4     SHTLYR.obj
+ 0002:000014e4       ??_R2IJLayerImp@SheetLayer@@8 100094e4     SHTLYR.obj
+ 0002:000014f4       ??_R1A@?0A@EA@IJLayerImp@SheetLayer@@8 100094f4     SHTLYR.obj
+ 0002:00001510       ??_R1A@?0A@EA@IJLayer@@8   10009510     SHTLYR.obj
+ 0002:0000152c       ??_R3IJLayer@@8            1000952c     SHTLYR.obj
+ 0002:0000153c       ??_R2IJLayer@@8            1000953c     SHTLYR.obj
+ 0002:00001548       ??_R4IJPersistImp@SheetLayer@@6B@ 10009548     SHTLYR.obj
+ 0002:0000155c       ??_R3IJPersistImp@SheetLayer@@8 1000955c     SHTLYR.obj
+ 0002:0000156c       ??_R2IJPersistImp@SheetLayer@@8 1000956c     SHTLYR.obj
+ 0002:00001580       ??_R1A@?0A@EA@IJPersistImp@SheetLayer@@8 10009580     SHTLYR.obj
+ 0002:0000159c       ??_R4IJDeleteImp@SheetLayer@@6B@ 1000959c     SHTLYR.obj
+ 0002:000015b0       ??_R3IJDeleteImp@SheetLayer@@8 100095b0     SHTLYR.obj
+ 0002:000015c0       ??_R2IJDeleteImp@SheetLayer@@8 100095c0     SHTLYR.obj
+ 0002:000015d4       ??_R1A@?0A@EA@IJDeleteImp@SheetLayer@@8 100095d4     SHTLYR.obj
+ 0002:000015f0       ??_R4type_info@@6B@        100095f0     MSVCRT:ti_inst.obj
+ 0002:00001604       ??_R3type_info@@8          10009604     MSVCRT:ti_inst.obj
+ 0002:00001614       ??_R2type_info@@8          10009614     MSVCRT:ti_inst.obj
+ 0002:0000161c       ??_R1A@?0A@EA@type_info@@8 1000961c     MSVCRT:ti_inst.obj
+ 0002:00001640       ___safe_se_handler_table   10009640     <linker-defined>
+ 0002:000016b4       ___rtc_iaa                 100096b4     MSVCRT:initsect.obj
+ 0002:000016b8       ___rtc_izz                 100096b8     MSVCRT:initsect.obj
+ 0002:000016bc       ___rtc_taa                 100096bc     MSVCRT:initsect.obj
+ 0002:000016c0       ___rtc_tzz                 100096c0     MSVCRT:initsect.obj
+ 0002:00001cbc       __IMPORT_DESCRIPTOR_jengine 10009cbc     jengine:jengine.dll
+ 0002:00001cd0       __IMPORT_DESCRIPTOR_JUtil  10009cd0     jutil:JUtil.dll
+ 0002:00001ce4       __IMPORT_DESCRIPTOR_sealloc 10009ce4     sealloc:sealloc.dll
+ 0002:00001cf8       __IMPORT_DESCRIPTOR_ole32  10009cf8     ole32:ole32.dll
+ 0002:00001d0c       __IMPORT_DESCRIPTOR_MSVCR80 10009d0c     MSVCRT:MSVCR80.dll
+ 0002:00001d20       __IMPORT_DESCRIPTOR_KERNEL32 10009d20     kernel32:KERNEL32.dll
+ 0002:00001d34       __NULL_IMPORT_DESCRIPTOR   10009d34     jengine:jengine.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000a30       ??_R0?AUIJLayerGroupImp@JLayerGroup@@@8 1000ba30     lyrgrp.obj
+ 0003:00000a5c       ??_R0?AUIJLayerGroup@@@8   1000ba5c     lyrgrp.obj
+ 0003:00000a78       ??_R0?AUIUnknown@@@8       1000ba78     lyrgrp.obj
+ 0003:00000a90       ??_R0?AUIJPersistImp@JLayerGroup@@@8 1000ba90     lyrgrp.obj
+ 0003:00000ab8       ??_R0?AUIJPersist@@@8      1000bab8     lyrgrp.obj
+ 0003:00000ad0       ??_R0?AUIPersist@@@8       1000bad0     lyrgrp.obj
+ 0003:00000ae8       ??_R0?AUIJDeleteImp@JLayerGroup@@@8 1000bae8     lyrgrp.obj
+ 0003:00000b10       ??_R0?AUIJDelete@@@8       1000bb10     lyrgrp.obj
+ 0003:00000b28       ??_R0?AUIJSemantic@@@8     1000bb28     lyrgrp.obj
+ 0003:00000b44       ??_R0?AVJLayerGroup@@@8    1000bb44     lyrgrp.obj
+ 0003:00000b60       ??_R0?AVCPersistObject@@@8 1000bb60     lyrgrp.obj
+ 0003:00000b84       ??_R0?AV?$ClassFactory@VSheetLayerManager@@@@@8 1000bb84     SERVER.obj
+ 0003:00000bb8       ??_R0?AVJClassFactory@@@8  1000bbb8     SERVER.obj
+ 0003:00000bd4       ??_R0?AUIClassFactory@@@8  1000bbd4     SERVER.obj
+ 0003:00000bf0       ??_R0?AV?$ClassFactory@VSheetLayerGroup@@@@@8 1000bbf0     SERVER.obj
+ 0003:00000c20       ??_R0?AV?$ClassFactory@VSheetLayer@@@@@8 1000bc20     SERVER.obj
+ 0003:00000c4c       ??_R0?AV?$ClassFactory@VJLayerGroup@@@@@8 1000bc4c     SERVER.obj
+ 0003:00001698       ??_R0?AVSheetLayerGroup@@@8 1000c698     SHLYGP.obj
+ 0003:000016b8       ??_R0?AUIJPersistImp@SheetLayerGroup@@@8 1000c6b8     SHLYGP.obj
+ 0003:000016e4       ??_R0?AUIJDeleteImp@SheetLayerGroup@@@8 1000c6e4     SHLYGP.obj
+ 0003:00002130       ??_R0?AUIJSheetLayerManagerImp@SheetLayerManager@@@8 1000d130     SHLYMG.obj
+ 0003:00002168       ??_R0?AUIJSheetLayerManager@@@8 1000d168     SHLYMG.obj
+ 0003:0000218c       ??_R0?AVSheetLayerManager@@@8 1000d18c     SHLYMG.obj
+ 0003:000021ac       ??_R0?AUIJPersistImp@SheetLayerManager@@@8 1000d1ac     SHLYMG.obj
+ 0003:000021dc       ??_R0?AUIJDeleteImp@SheetLayerManager@@@8 1000d1dc     SHLYMG.obj
+ 0003:00002c28       ??_R0?AVSheetLayer@@@8     1000dc28     SHTLYR.obj
+ 0003:00002c44       ??_R0?AUIJSheetLayerImp@SheetLayer@@@8 1000dc44     SHTLYR.obj
+ 0003:00002c70       ??_R0?AUIJSheetLayer@@@8   1000dc70     SHTLYR.obj
+ 0003:00002c8c       ??_R0?AUIJLayerImp@SheetLayer@@@8 1000dc8c     SHTLYR.obj
+ 0003:00002cb0       ??_R0?AUIJLayer@@@8        1000dcb0     SHTLYR.obj
+ 0003:00002cc8       ??_R0?AUIJPersistImp@SheetLayer@@@8 1000dcc8     SHTLYR.obj
+ 0003:00002cf0       ??_R0?AUIJDeleteImp@SheetLayer@@@8 1000dcf0     SHTLYR.obj
+ 0003:00002d18       ___security_cookie         1000dd18     MSVCRT:gs_cookie.obj
+ 0003:00002d1c       ___security_cookie_complement 1000dd1c     MSVCRT:gs_cookie.obj
+ 0003:00002d20       ??_R0?AVtype_info@@@8      1000dd20     MSVCRT:ti_inst.obj
+ 0003:00002d38       ___native_dllmain_reason   1000dd38     MSVCRT:natstart.obj
+ 0003:00002d3c       ___native_vcclrit_reason   1000dd3c     MSVCRT:natstart.obj
+ 0003:0000391c       ?__type_info_root_node@@3U__type_info_node@@A 1000e91c     MSVCRT:tncleanup.obj
+ 0003:00003924       __adjust_fdiv              1000e924     <common>
+ 0003:00003928       ___native_startup_state    1000e928     <common>
+ 0003:0000392c       ___native_startup_lock     1000e92c     <common>
+ 0003:00003930       ___onexitend               1000e930     <common>
+ 0003:00003934       ___onexitbegin             1000e934     <common>
+ 0003:00003938       ___dyn_tls_init_callback   1000e938     <common>
+
+ entry point at        0001:000056e0
+
+ Static symbols
+
+ 0001:000053de       _pre_c_init                100063de f   MSVCRT:crtdll.obj
+ 0001:000055ca       ___DllMainCRTStartup       100065ca f   MSVCRT:crtdll.obj
+ 0001:00005c30       __unwindfunclet$??1JLayerGroup@@UAE@XZ$0 10006c30 f   lyrgrp.obj
+ 0001:00005c39       __unwindfunclet$??1JLayerGroup@@UAE@XZ$1 10006c39 f   lyrgrp.obj
+ 0001:00005c44       __unwindfunclet$??1JLayerGroup@@UAE@XZ$2 10006c44 f   lyrgrp.obj
+ 0001:00005c4f       __ehhandler$??1JLayerGroup@@UAE@XZ 10006c4f f   lyrgrp.obj
+ 0001:00005c70       __unwindfunclet$?DisconnectAllLayers@IJLayerGroupImp@JLayerGroup@@UAGJXZ$3 10006c70 f   lyrgrp.obj
+ 0001:00005c78       __unwindfunclet$?DisconnectAllLayers@IJLayerGroupImp@JLayerGroup@@UAGJXZ$4 10006c78 f   lyrgrp.obj
+ 0001:00005c80       __ehhandler$?DisconnectAllLayers@IJLayerGroupImp@JLayerGroup@@UAGJXZ 10006c80 f   lyrgrp.obj
+ 0001:00005ca0       __unwindfunclet$??0JLayerGroup@@QAE@PAUIUnknown@@@Z$0 10006ca0 f   lyrgrp.obj
+ 0001:00005ca9       __unwindfunclet$??0JLayerGroup@@QAE@PAUIUnknown@@@Z$1 10006ca9 f   lyrgrp.obj
+ 0001:00005cb4       __unwindfunclet$??0JLayerGroup@@QAE@PAUIUnknown@@@Z$2 10006cb4 f   lyrgrp.obj
+ 0001:00005cbf       __ehhandler$??0JLayerGroup@@QAE@PAUIUnknown@@@Z 10006cbf f   lyrgrp.obj
+ 0001:00005ce0       __unwindfunclet$??0?$ClassFactory@VSheetLayerManager@@@@QAE@HHH@Z$0 10006ce0 f   SERVER.obj
+ 0001:00005ce9       __ehhandler$??0?$ClassFactory@VSheetLayerManager@@@@QAE@HHH@Z 10006ce9 f   SERVER.obj
+ 0001:00005d10       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VSheetLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10006d10 f   SERVER.obj
+ 0001:00005d1c       __ehhandler$?OnCreateInstance@?$ClassFactory@VSheetLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10006d1c f   SERVER.obj
+ 0001:00005d40       __unwindfunclet$??0?$ClassFactory@VSheetLayerGroup@@@@QAE@HHH@Z$0 10006d40 f   SERVER.obj
+ 0001:00005d49       __ehhandler$??0?$ClassFactory@VSheetLayerGroup@@@@QAE@HHH@Z 10006d49 f   SERVER.obj
+ 0001:00005d70       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VSheetLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10006d70 f   SERVER.obj
+ 0001:00005d7c       __ehhandler$?OnCreateInstance@?$ClassFactory@VSheetLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10006d7c f   SERVER.obj
+ 0001:00005da0       __unwindfunclet$??0?$ClassFactory@VSheetLayer@@@@QAE@HHH@Z$0 10006da0 f   SERVER.obj
+ 0001:00005da9       __ehhandler$??0?$ClassFactory@VSheetLayer@@@@QAE@HHH@Z 10006da9 f   SERVER.obj
+ 0001:00005dd0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VSheetLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10006dd0 f   SERVER.obj
+ 0001:00005ddc       __ehhandler$?OnCreateInstance@?$ClassFactory@VSheetLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10006ddc f   SERVER.obj
+ 0001:00005e00       __unwindfunclet$??0?$ClassFactory@VJLayerGroup@@@@QAE@HHH@Z$0 10006e00 f   SERVER.obj
+ 0001:00005e09       __ehhandler$??0?$ClassFactory@VJLayerGroup@@@@QAE@HHH@Z 10006e09 f   SERVER.obj
+ 0001:00005e30       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10006e30 f   SERVER.obj
+ 0001:00005e3c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJLayerGroup@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10006e3c f   SERVER.obj
+ 0001:00005e60       __unwindfunclet$_DllGetClassObject@12$4 10006e60 f   SERVER.obj
+ 0001:00005e6b       __unwindfunclet$_DllGetClassObject@12$5 10006e6b f   SERVER.obj
+ 0001:00005e76       __unwindfunclet$_DllGetClassObject@12$6 10006e76 f   SERVER.obj
+ 0001:00005e81       __unwindfunclet$_DllGetClassObject@12$7 10006e81 f   SERVER.obj
+ 0001:00005e8c       __ehhandler$_DllGetClassObject@12 10006e8c f   SERVER.obj
+ 0001:00005eb0       __unwindfunclet$??_G?$ClassFactory@VSheetLayerManager@@@@UAEPAXI@Z$0 10006eb0 f   SERVER.obj
+ 0001:00005eb9       __ehhandler$??_G?$ClassFactory@VSheetLayerManager@@@@UAEPAXI@Z 10006eb9 f   SERVER.obj
+ 0001:00005ee0       __unwindfunclet$??_G?$ClassFactory@VSheetLayerGroup@@@@UAEPAXI@Z$0 10006ee0 f   SERVER.obj
+ 0001:00005ee9       __ehhandler$??_G?$ClassFactory@VSheetLayerGroup@@@@UAEPAXI@Z 10006ee9 f   SERVER.obj
+ 0001:00005f10       __unwindfunclet$??_G?$ClassFactory@VSheetLayer@@@@UAEPAXI@Z$0 10006f10 f   SERVER.obj
+ 0001:00005f19       __ehhandler$??_G?$ClassFactory@VSheetLayer@@@@UAEPAXI@Z 10006f19 f   SERVER.obj
+ 0001:00005f40       __unwindfunclet$??_G?$ClassFactory@VJLayerGroup@@@@UAEPAXI@Z$0 10006f40 f   SERVER.obj
+ 0001:00005f49       __ehhandler$??_G?$ClassFactory@VJLayerGroup@@@@UAEPAXI@Z 10006f49 f   SERVER.obj
+ 0001:00005f70       __unwindfunclet$??1SheetLayerGroup@@UAE@XZ$0 10006f70 f   SHLYGP.obj
+ 0001:00005f79       __unwindfunclet$??1SheetLayerGroup@@UAE@XZ$1 10006f79 f   SHLYGP.obj
+ 0001:00005f84       __ehhandler$??1SheetLayerGroup@@UAE@XZ 10006f84 f   SHLYGP.obj
+ 0001:00005fa0       __unwindfunclet$??0SheetLayerGroup@@QAE@PAUIUnknown@@@Z$0 10006fa0 f   SHLYGP.obj
+ 0001:00005fa9       __unwindfunclet$??0SheetLayerGroup@@QAE@PAUIUnknown@@@Z$1 10006fa9 f   SHLYGP.obj
+ 0001:00005fb4       __ehhandler$??0SheetLayerGroup@@QAE@PAUIUnknown@@@Z 10006fb4 f   SHLYGP.obj
+ 0001:00005fd0       __unwindfunclet$?GetSheet@IJSheetLayerManagerImp@SheetLayerManager@@UAGJPAPAUIUnknown@@@Z$3 10006fd0 f   SHLYMG.obj
+ 0001:00005fd8       __ehhandler$?GetSheet@IJSheetLayerManagerImp@SheetLayerManager@@UAGJPAPAUIUnknown@@@Z 10006fd8 f   SHLYMG.obj
+ 0001:00006000       __unwindfunclet$??1SheetLayerManager@@UAE@XZ$0 10007000 f   SHLYMG.obj
+ 0001:00006009       __unwindfunclet$??1SheetLayerManager@@UAE@XZ$1 10007009 f   SHLYMG.obj
+ 0001:00006014       __unwindfunclet$??1SheetLayerManager@@UAE@XZ$2 10007014 f   SHLYMG.obj
+ 0001:0000601f       __unwindfunclet$??1SheetLayerManager@@UAE@XZ$3 1000701f f   SHLYMG.obj
+ 0001:0000602a       __ehhandler$??1SheetLayerManager@@UAE@XZ 1000702a f   SHLYMG.obj
+ 0001:00006050       __unwindfunclet$??0SheetLayerManager@@QAE@PAUIUnknown@@@Z$0 10007050 f   SHLYMG.obj
+ 0001:00006059       __unwindfunclet$??0SheetLayerManager@@QAE@PAUIUnknown@@@Z$1 10007059 f   SHLYMG.obj
+ 0001:00006064       __unwindfunclet$??0SheetLayerManager@@QAE@PAUIUnknown@@@Z$2 10007064 f   SHLYMG.obj
+ 0001:0000606f       __unwindfunclet$??0SheetLayerManager@@QAE@PAUIUnknown@@@Z$3 1000706f f   SHLYMG.obj
+ 0001:0000607a       __ehhandler$??0SheetLayerManager@@QAE@PAUIUnknown@@@Z 1000707a f   SHLYMG.obj
+ 0001:000060a0       __unwindfunclet$?Clone@IJPersistImp@SheetLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z$3 100070a0 f   SHLYMG.obj
+ 0001:000060ac       __ehhandler$?Clone@IJPersistImp@SheetLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 100070ac f   SHLYMG.obj
+ 0001:000060d0       __unwindfunclet$??1SheetLayer@@UAE@XZ$0 100070d0 f   SHTLYR.obj
+ 0001:000060d9       __ehhandler$??1SheetLayer@@UAE@XZ 100070d9 f   SHTLYR.obj
+ 0001:00006100       __unwindfunclet$?GetJLayer@IJSheetLayerImp@SheetLayer@@UAGJPAPAUIUnknown@@@Z$2 10007100 f   SHTLYR.obj
+ 0001:00006108       __ehhandler$?GetJLayer@IJSheetLayerImp@SheetLayer@@UAGJPAPAUIUnknown@@@Z 10007108 f   SHTLYR.obj
+ 0001:00006130       __unwindfunclet$?RemoveObject@IJSheetLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z$2 10007130 f   SHTLYR.obj
+ 0001:00006138       __ehhandler$?RemoveObject@IJSheetLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z 10007138 f   SHTLYR.obj
+ 0001:00006160       __unwindfunclet$?AddObject@IJLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z$3 10007160 f   SHTLYR.obj
+ 0001:00006168       __ehhandler$?AddObject@IJLayerImp@SheetLayer@@UAGJPAUIUnknown@@@Z 10007168 f   SHTLYR.obj
+ 0001:00006190       __unwindfunclet$??0SheetLayer@@QAE@PAUIUnknown@@@Z$0 10007190 f   SHTLYR.obj
+ 0001:00006199       __ehhandler$??0SheetLayer@@QAE@PAUIUnknown@@@Z 10007199 f   SHTLYR.obj
+ 0001:000061c0       __unwindfunclet$?Clone@IJPersistImp@SheetLayer@@UAGJPAUIUnknown@@PAPAU3@@Z$5 100071c0 f   SHTLYR.obj
+ 0001:000061cc       __ehhandler$?Clone@IJPersistImp@SheetLayer@@UAGJPAUIUnknown@@PAPAU3@@Z 100071cc f   SHTLYR.obj
+ 0001:000061f0       ??__EGNULL_Camera@@YAXXZ   100071f0 f   lyrgrp.obj
+ 0001:00006210       ??__EGNULL_CAMERA@@YAXXZ   10007210 f   lyrgrp.obj
+ 0001:00006230       ??__EGID_Camera@@YAXXZ     10007230 f   lyrgrp.obj
+ 0001:00006250       ??__EGID_CAMERA@@YAXXZ     10007250 f   lyrgrp.obj
+ 0001:00006270       ??__EGNULL_Camera@@YAXXZ   10007270 f   SHLYGP.obj
+ 0001:00006290       ??__EGNULL_CAMERA@@YAXXZ   10007290 f   SHLYGP.obj
+ 0001:000062b0       ??__EGID_Camera@@YAXXZ     100072b0 f   SHLYGP.obj
+ 0001:000062d0       ??__EGID_CAMERA@@YAXXZ     100072d0 f   SHLYGP.obj
+ 0001:000062f0       ??__EGNULL_Camera@@YAXXZ   100072f0 f   SHLYMG.obj
+ 0001:00006310       ??__EGNULL_CAMERA@@YAXXZ   10007310 f   SHLYMG.obj
+ 0001:00006330       ??__EGID_Camera@@YAXXZ     10007330 f   SHLYMG.obj
+ 0001:00006350       ??__EGID_CAMERA@@YAXXZ     10007350 f   SHLYMG.obj
+ 0001:00006370       ??__EGNULL_Camera@@YAXXZ   10007370 f   SHTLYR.obj
+ 0001:00006390       ??__EGNULL_CAMERA@@YAXXZ   10007390 f   SHTLYR.obj
+ 0001:000063b0       ??__EGID_Camera@@YAXXZ     100073b0 f   SHTLYR.obj
+ 0001:000063d0       ??__EGID_CAMERA@@YAXXZ     100073d0 f   SHTLYR.obj

@@ -1,0 +1,891 @@
+ Frustrm
+
+ Timestamp is 46b3a176 (Fri Aug 03 16:43:18 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00009ef2H .text                   CODE
+ 0001:00009f00 000008acH .text$x                 CODE
+ 0001:0000a7b0 00000036H .text$yc                CODE
+ 0001:0000a7f0 0000001aH .text$yd                CODE
+ 0002:00000000 0000025cH .idata$5                DATA
+ 0002:0000025c 00000004H .CRT$XCA                DATA
+ 0002:00000260 00000008H .CRT$XCU                DATA
+ 0002:00000268 00000004H .CRT$XCZ                DATA
+ 0002:0000026c 00000004H .CRT$XIA                DATA
+ 0002:00000270 00000004H .CRT$XIAA               DATA
+ 0002:00000274 00000004H .CRT$XIZ                DATA
+ 0002:00000280 00000938H .rdata                  DATA
+ 0002:00000bb8 00000031H .rdata$debug            DATA
+ 0002:00000bec 00000350H .rdata$r                DATA
+ 0002:00000f40 000000b8H .rdata$sxdata           DATA
+ 0002:00000ff8 00000004H .rtc$IAA                DATA
+ 0002:00000ffc 00000004H .rtc$IZZ                DATA
+ 0002:00001000 00000004H .rtc$TAA                DATA
+ 0002:00001004 00000004H .rtc$TZZ                DATA
+ 0002:00001008 00000f1cH .xdata$x                DATA
+ 0002:00001f24 000000c8H .idata$2                DATA
+ 0002:00001fec 00000014H .idata$3                DATA
+ 0002:00002000 0000025cH .idata$4                DATA
+ 0002:0000225c 00000be2H .idata$6                DATA
+ 0002:00002e40 00000200H .edata                  DATA
+ 0003:00000000 000002b8H .data                   DATA
+ 0003:000002b8 00000e24H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000408H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000002e       ___safe_se_handler_count   0000002e     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??0bad_alloc@std@@QAE@PBD@Z 10001030 f i CJMFILE.obj
+ 0001:00000090       ??1bad_alloc@std@@UAE@XZ   10001090 f i CJMFILE.obj
+ 0001:000000e0       ??_Ebad_alloc@std@@UAEPAXI@Z 100010e0 f i CJMFILE.obj
+ 0001:000000e0       ??_Gbad_alloc@std@@UAEPAXI@Z 100010e0 f i CJMFILE.obj
+ 0001:00000150       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001150 f i CJMFILE.obj
+ 0001:000001c0       ??1logic_error@std@@UAE@XZ 100011c0 f i CJMFILE.obj
+ 0001:00000220       ?what@logic_error@std@@UBEPBDXZ 10001220 f i CJMFILE.obj
+ 0001:00000230       ??_Elogic_error@std@@UAEPAXI@Z 10001230 f i CJMFILE.obj
+ 0001:00000230       ??_Glogic_error@std@@UAEPAXI@Z 10001230 f i CJMFILE.obj
+ 0001:00000250       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001250 f i CJMFILE.obj
+ 0001:000002b0       ??1length_error@std@@UAE@XZ 100012b0 f i CJMFILE.obj
+ 0001:00000300       ??_Glength_error@std@@UAEPAXI@Z 10001300 f i CJMFILE.obj
+ 0001:00000300       ??_Elength_error@std@@UAEPAXI@Z 10001300 f i CJMFILE.obj
+ 0001:00000360       ??1CJMAbstractFile@@UAE@XZ 10001360 f i CJMFILE.obj
+ 0001:00000370       ??_ECJMAbstractFile@@UAEPAXI@Z 10001370 f i CJMFILE.obj
+ 0001:00000370       ??_GCJMAbstractFile@@UAEPAXI@Z 10001370 f i CJMFILE.obj
+ 0001:00000390       ??0CJMMemBlock@@QAE@H@Z    10001390 f   CJMFILE.obj
+ 0001:000003f0       ??1CJMMemBlock@@QAE@XZ     100013f0 f   CJMFILE.obj
+ 0001:00000420       ?AvailableSpace@CJMMemBlock@@QAEKK@Z 10001420 f   CJMFILE.obj
+ 0001:00000430       ?GetPosition@CJMMemFile@@UBEKXZ 10001430 f   CJMFILE.obj
+ 0001:00000440       ?Read@CJMFile@@UAEIPAXI@Z  10001440 f   CJMFILE.obj
+ 0001:00000470       ?Write@CJMFile@@UAEIPBXI@Z 10001470 f   CJMFILE.obj
+ 0001:000004a0       ?Seek@CJMFile@@UAEJJW4SeekPosition@CJMAbstractFile@@@Z 100014a0 f   CJMFILE.obj
+ 0001:00000500       ?GetPosition@CJMFile@@UBEKXZ 10001500 f   CJMFILE.obj
+ 0001:00000520       ?Flush@CJMFile@@UAEXXZ     10001520 f   CJMFILE.obj
+ 0001:00000540       ?_Xlen@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@KAXXZ 10001540 f i CJMFILE.obj
+ 0001:000005a0       ??0logic_error@std@@QAE@ABV01@@Z 100015a0 f i CJMFILE.obj
+ 0001:00000610       ??0length_error@std@@QAE@ABV01@@Z 10001610 f i CJMFILE.obj
+ 0001:00000670       ??0bad_alloc@std@@QAE@ABV01@@Z 10001670 f i CJMFILE.obj
+ 0001:000006d0       ?Write@CJMMemBlock@@QAEKKPAEK@Z 100016d0 f   CJMFILE.obj
+ 0001:00000720       ?Read@CJMMemBlock@@QAEKKPAEK@Z 10001720 f   CJMFILE.obj
+ 0001:00000770       ?Seek@CJMMemFile@@UAEJJW4SeekPosition@CJMAbstractFile@@@Z 10001770 f   CJMFILE.obj
+ 0001:00000870       ??0CJMFile@@QAE@XZ         10001870 f   CJMFILE.obj
+ 0001:000008f0       ?Open@CJMFile@@QAEHPBDI@Z  100018f0 f   CJMFILE.obj
+ 0001:00000990       ?Close@CJMFile@@UAEXXZ     10001990 f   CJMFILE.obj
+ 0001:000009d0       ?allocate@?$allocator@PAVCJMMemBlock@@@std@@QAEPAPAVCJMMemBlock@@I@Z 100019d0 f i CJMFILE.obj
+ 0001:00000a20       ??1CJMFile@@UAE@XZ         10001a20 f   CJMFILE.obj
+ 0001:00000a90       ?begin@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAE?AV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@XZ 10001a90 f i CJMFILE.obj
+ 0001:00000ac0       ?end@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAE?AV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@XZ 10001ac0 f i CJMFILE.obj
+ 0001:00000af0       ??$fill@PAPAVCJMMemBlock@@PAV1@@std@@YAXPAPAVCJMMemBlock@@0ABQAV1@@Z 10001af0 f i CJMFILE.obj
+ 0001:00000b10       ??$_Unchecked_move_backward@PAPAVCJMMemBlock@@PAPAV1@@stdext@@YAPAPAVCJMMemBlock@@PAPAV1@00@Z 10001b10 f i CJMFILE.obj
+ 0001:00000b40       ?Read@CJMMemFile@@UAEIPAXI@Z 10001b40 f   CJMFILE.obj
+ 0001:00000c60       ??_ECJMFile@@UAEPAXI@Z     10001c60 f i CJMFILE.obj
+ 0001:00000c60       ??_GCJMFile@@UAEPAXI@Z     10001c60 f i CJMFILE.obj
+ 0001:00000c80       ??1?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAE@XZ 10001c80 f i CJMFILE.obj
+ 0001:00000cb0       ?erase@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAE?AV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@V32@0@Z 10001cb0 f i CJMFILE.obj
+ 0001:00000d10       ??$_Umove@V?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEPAPAVCJMMemBlock@@V?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@1@0PAPAV2@@Z 10001d10 f i CJMFILE.obj
+ 0001:00000d50       ??$_Umove@PAPAVCJMMemBlock@@@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEPAPAVCJMMemBlock@@PAPAV2@00@Z 10001d50 f i CJMFILE.obj
+ 0001:00000d90       ?Close@CJMMemFile@@UAEXXZ  10001d90 f   CJMFILE.obj
+ 0001:00000e30       ?reserve@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAEXI@Z 10001e30 f i CJMFILE.obj
+ 0001:00000f30       ?_Ufill@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEPAPAVCJMMemBlock@@PAPAV3@IABQAV3@@Z 10001f30 f i CJMFILE.obj
+ 0001:00000f60       ?_Insert_n@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEXV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@IABQAVCJMMemBlock@@@Z 10001f60 f i CJMFILE.obj
+ 0001:000011b0       ??0CJMMemFile@@QAE@I@Z     100021b0 f   CJMFILE.obj
+ 0001:00001230       ??1CJMMemFile@@UAE@XZ      10002230 f   CJMFILE.obj
+ 0001:000012b0       ?insert@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAE?AV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@V32@ABQAVCJMMemBlock@@@Z 100022b0 f i CJMFILE.obj
+ 0001:00001340       ??_ECJMMemFile@@UAEPAXI@Z  10002340 f i CJMFILE.obj
+ 0001:00001340       ??_GCJMMemFile@@UAEPAXI@Z  10002340 f i CJMFILE.obj
+ 0001:00001360       ?push_back@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAEXABQAVCJMMemBlock@@@Z 10002360 f i CJMFILE.obj
+ 0001:000013d0       ?Write@CJMMemFile@@UAEIPBXI@Z 100023d0 f   CJMFILE.obj
+ 0001:00002140       _FGCRCU                    10003140 f   FG.obj
+ 0001:00002250       _FGCRSU                    10003250 f   FG.obj
+ 0001:00002390       _FGEVCU                    10003390 f   FG.obj
+ 0001:00002430       _FGEVSU                    10003430 f   FG.obj
+ 0001:000024e0       _FGPRCU                    100034e0 f   FG.obj
+ 0001:00002590       _FGPRSU                    10003590 f   FG.obj
+ 0001:00002650       ?JSM_free@@YAXPAX@Z        10003650 f   JSM_memory.obj
+ 0001:00002660       ??1?$TIP@PAUIJMemoryHandler@@@@QAE@XZ 10003660 f i JSM_memory.obj
+ 0001:00002670       ?JSM_alloc_in_area@@YAPAXHI@Z 10003670 f   JSM_memory.obj
+ 0001:00002760       ??$strcpy@QAD@@YAPADAAPADPBD@Z 10003760 f i SEFRUST.obj
+ 0001:00002760       ??$strcpy@PAD@@YAPADAAPADPBD@Z 10003760 f i SEFRUST.obj
+ 0001:00002780       _IsEqualGUID               10003780 f i SEFRUST.obj
+ 0001:00002820       ??$sprintf@PAD@@YAHAAPADPBDZZ 10003820 f i SEFRUST.obj
+ 0001:00002840       ??3@YAXPAX0@Z              10003840 f i SEFRUST.obj
+ 0001:00002840       ?Flush@CJMMemFile@@UAEXXZ  10003840 f i CJMFILE.obj
+ 0001:00002850       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10003850 f i SEFRUST.obj
+ 0001:000028b0       ??1out_of_range@std@@UAE@XZ 100038b0 f i SEFRUST.obj
+ 0001:00002900       ??_Eout_of_range@std@@UAEPAXI@Z 10003900 f i SEFRUST.obj
+ 0001:00002900       ??_Gout_of_range@std@@UAEPAXI@Z 10003900 f i SEFRUST.obj
+ 0001:00002960       ?JMGetFrustrumMemoryStatistics@@YAJW4MemoryType@@AAH@Z 10003960 f   SEFRUST.obj
+ 0001:00002990       ??0CJMDeltaFile@@QAE@HI@Z  10003990 f   SEFRUST.obj
+ 0001:000029f0       ??1CJMDeltaFile@@QAE@XZ    100039f0 f   SEFRUST.obj
+ 0001:00002a60       ?Read@CJMFrustrumFile@@QAEHPAXKPAK@Z 10003a60 f   SEFRUST.obj
+ 0001:00002b00       ?ReadAsFormat@CJMFrustrumFile@@QAEHPAXKPAKH@Z 10003b00 f   SEFRUST.obj
+ 0001:00002bd0       ?Write@CJMFrustrumFile@@QAEHPAXK@Z 10003bd0 f   SEFRUST.obj
+ 0001:00002c60       ?Seek@CJMFrustrumFile@@QAEHJH@Z 10003c60 f   SEFRUST.obj
+ 0001:00002d00       ?GetPosition@CJMFrustrumFile@@QAEHPAJ@Z 10003d00 f   SEFRUST.obj
+ 0001:00002d80       ?SkipHeader@CJMFrustrumFile@@QAEHXZ 10003d80 f   SEFRUST.obj
+ 0001:00002fd0       ?Flush@CJMFrustrumFile@@QAEHXZ 10003fd0 f   SEFRUST.obj
+ 0001:00003060       ?QueryInterface@CJMFrustrumData@@UAGJABU_GUID@@PAPAX@Z 10004060 f   SEFRUST.obj
+ 0001:000030c0       ?AddRef@CJMFrustrumData@@UAGKXZ 100040c0 f   SEFRUST.obj
+ 0001:000030d0       ?Release@CJMFrustrumData@@UAGKXZ 100040d0 f   SEFRUST.obj
+ 0001:000030e0       ?GetKeywordValueFromLastFile@CJMFrustrumData@@UAGJHPADH@Z 100040e0 f   SEFRUST.obj
+ 0001:00003120       ?MemoryFrustrumAlloc@CJMFrustrumData@@QAEPAXI@Z 10004120 f   SEFRUST.obj
+ 0001:00003190       ?MemoryFrustrumFree@CJMFrustrumData@@QAEXPAX@Z 10004190 f   SEFRUST.obj
+ 0001:000031b0       ?FrustrumStart@CJMFrustrumData@@QAEXPAH@Z 100041b0 f   SEFRUST.obj
+ 0001:000031d0       ?FrustrumAbort@CJMFrustrumData@@QAEXPAH@Z 100041d0 f   SEFRUST.obj
+ 0001:000031e0       ?FrustrumMemoryAlloc@CJMFrustrumData@@QAEXPAHPAPAD0@Z 100041e0 f   SEFRUST.obj
+ 0001:00003230       ?FrustrumMemoryFree@CJMFrustrumData@@QAEXPAHPAPAD0@Z 10004230 f   SEFRUST.obj
+ 0001:00003270       ?GraphicOutputCloseSegment@CJMFrustrumData@@QAEXPBH000PBN00PAH@Z 10004270 f   SEFRUST.obj
+ 0001:00003270       ?GraphicOutputOpenSegment@CJMFrustrumData@@QAEXPBH000PBN00PAH@Z 10004270 f   SEFRUST.obj
+ 0001:00003270       ?GraphicOutputSegment@CJMFrustrumData@@QAEXPBH000PBN00PAH@Z 10004270 f   SEFRUST.obj
+ 0001:00003280       ?GraphicOutputPixelData@CJMFrustrumData@@QAEXPBHPBN00PAH@Z 10004280 f   SEFRUST.obj
+ 0001:00003280       ?GraphicOutputOpenPixelData@CJMFrustrumData@@QAEXPBHPBN00PAH@Z 10004280 f   SEFRUST.obj
+ 0001:00003280       ?GraphicOutputClosePixelData@CJMFrustrumData@@QAEXPBHPBN00PAH@Z 10004280 f   SEFRUST.obj
+ 0001:00003290       _SE_FSTART                 10004290 f   SEFRUST.obj
+ 0001:00003320       _SE_FABORT                 10004320 f   SEFRUST.obj
+ 0001:000033b0       _SE_FMALLO                 100043b0 f   SEFRUST.obj
+ 0001:00003440       _SE_FMFREE                 10004440 f   SEFRUST.obj
+ 0001:000034d0       _SE_GOSGMT                 100044d0 f   SEFRUST.obj
+ 0001:00003570       _SE_GOOPSG                 10004570 f   SEFRUST.obj
+ 0001:00003610       _SE_GOCLSG                 10004610 f   SEFRUST.obj
+ 0001:000036b0       _SE_GOPIXL                 100046b0 f   SEFRUST.obj
+ 0001:00003750       _SE_GOOPPX                 10004750 f   SEFRUST.obj
+ 0001:000037f0       _SE_GOCLPX                 100047f0 f   SEFRUST.obj
+ 0001:00003890       _SE_MEMORY_Alloc           10004890 f   SEFRUST.obj
+ 0001:00003920       _SE_MEMORY_Free            10004920 f   SEFRUST.obj
+ 0001:000039b0       ?FiletypeGuiseString@@YAPADHH@Z 100049b0 f   SEFRUST.obj
+ 0001:00003a90       ?FiletypeFormatString@@YAPADHH@Z 10004a90 f   SEFRUST.obj
+ 0001:00003b90       ?SE_ParasolidErrorHandler@@YAHPAUPK_ERROR_sf@@@Z 10004b90 f   SEFRUST.obj
+ 0001:00003c00       ?JMErrorHandlerRegistration@@YAHXZ 10004c00 f   SEFRUST.obj
+ 0001:00003c10       ?JMMemoryFrustrumRegistration@@YAHXZ 10004c10 f   SEFRUST.obj
+ 0001:00003c30       ?JMGetFrustrumDataInterface@@YAJPAPAUIJMFrustrumData@@@Z 10004c30 f   SEFRUST.obj
+ 0001:00003c50       ?JGetInitialPartition@@YAHXZ 10004c50 f   SEFRUST.obj
+ 0001:00003c60       ?JFrustrumRegistered@@YAHXZ 10004c60 f   SEFRUST.obj
+ 0001:00003c70       ?JMinStopParasolidModeller@@YAJXZ 10004c70 f   SEFRUST.obj
+ 0001:00003ca0       ?JDeletePartition@@YAJH@Z  10004ca0 f   SEFRUST.obj
+ 0001:00003ee0       ?FormatVersion@@YAXPADABUPK_SESSION_kernel_version_t@@@Z 10004ee0 f   SEFRUST.obj
+ 0001:00003f20       ?_Max@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@@Z 10004f20 f i SEFRUST.obj
+ 0001:00003f20       ?_Max@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@@Z 10004f20 f i SEFRUST.obj
+ 0001:00003f40       ?_Min@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@@Z 10004f40 f i SEFRUST.obj
+ 0001:00003f40       ?_Min@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@@Z 10004f40 f i SEFRUST.obj
+ 0001:00003f60       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAEXXZ 10004f60 f i SEFRUST.obj
+ 0001:00003f60       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAEXXZ 10004f60 f i SEFRUST.obj
+ 0001:00003ff0       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAEXXZ 10004ff0 f i SEFRUST.obj
+ 0001:00003ff0       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAEXXZ 10004ff0 f i SEFRUST.obj
+ 0001:00004060       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBHI@2@D@Z 10005060 f i SEFRUST.obj
+ 0001:00004060       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@D@Z 10005060 f i SEFRUST.obj
+ 0001:000040a0       ??0?$JArray@PAVCJMFrustrumFile@@PAV1@@@QAE@XZ 100050a0 f i SEFRUST.obj
+ 0001:000040b0       ??$sprintf@$0BCE@@@YAHAAY0BCE@DPBDZZ 100050b0 f i SEFRUST.obj
+ 0001:000040d0       ??$strcpy@$0BCE@@@YAPADAAY0BCE@DPBD@Z 100050d0 f i SEFRUST.obj
+ 0001:00004100       ??$strcat@$0BCE@@@YAPADAAY0BCE@DPBD@Z 10005100 f i SEFRUST.obj
+ 0001:00004130       ??$strcat@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10005130 f i SEFRUST.obj
+ 0001:00004160       ??$sprintf@$0BAA@@@YAHAAY0BAA@DPBDZZ 10005160 f i SEFRUST.obj
+ 0001:00004180       ??$ConstructElements@PAVCJMFrustrumFile@@@@YGXPAPAVCJMFrustrumFile@@H@Z 10005180 f i SEFRUST.obj
+ 0001:000041a0       ??0CJMFrustrumFile@@QAE@XZ 100051a0 f   SEFRUST.obj
+ 0001:00004230       ?Close@CJMFrustrumFile@@QAEHH@Z 10005230 f   SEFRUST.obj
+ 0001:00004350       ?WriteHeader@CJMFrustrumFile@@QAEHPBDH@Z 10005350 f   SEFRUST.obj
+ 0001:00004bd0       ?WriteXmlHeader@CJMFrustrumFile@@QAEHPBDH@Z 10005bd0 f   SEFRUST.obj
+ 0001:00004c50       ??0CJMFileHeader@@QAE@XZ   10005c50 f   SEFRUST.obj
+ 0001:00004da0       ?SetPartTransmitReceiveType@CJMFrustrumData@@UAGJHPAUIUnknown@@@Z 10005da0 f   SEFRUST.obj
+ 0001:00004de0       ?GetFileExtensionType@@YAHPAD@Z 10005de0 f   SEFRUST.obj
+ 0001:000050b0       ?GetSpecialBuild@@YA_NPAD@Z 100060b0 f   SEFRUST.obj
+ 0001:00005280       ?SEGetParasolidInfo@@YAHAAVGUserText@@@Z 10006280 f   SEFRUST.obj
+ 0001:000053b0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@@Z 100063b0 f i SEFRUST.obj
+ 0001:000053b0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@@Z 100063b0 f i SEFRUST.obj
+ 0001:00005410       ?_Lrotate@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@@Z 10006410 f i SEFRUST.obj
+ 0001:00005410       ?_Lrotate@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@@Z 10006410 f i SEFRUST.obj
+ 0001:00005460       ?RemoveAt@?$JArray@PAVCJMFrustrumFile@@PAV1@@@QAEXHH@Z 10006460 f i SEFRUST.obj
+ 0001:000054a0       ??1?$JArray@PAVCJMFrustrumFile@@PAV1@@@QAE@XZ 100064a0 f i SEFRUST.obj
+ 0001:000054b0       ?SetSize@?$JArray@PAVCJMFrustrumFile@@PAV1@@@QAEXHH@Z 100064b0 f i SEFRUST.obj
+ 0001:000055d0       ?SetAtGrow@?$JArray@PAVCJMFrustrumFile@@PAV1@@@QAEXHPAVCJMFrustrumFile@@@Z 100065d0 f i SEFRUST.obj
+ 0001:00005610       ??1CJMFrustrumFile@@QAE@XZ 10006610 f   SEFRUST.obj
+ 0001:00005620       ?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z 10006620 f   SEFRUST.obj
+ 0001:00005c10       ?GetFrustrumFile@CJMFrustrumData@@QAEPAVCJMFrustrumFile@@HPAH@Z 10006c10 f   SEFRUST.obj
+ 0001:00005c60       ?RemoveFrustrumFile@CJMFrustrumData@@QAEHH@Z 10006c60 f   SEFRUST.obj
+ 0001:00005cb0       ?FrustrumFileClose@CJMFrustrumData@@QAEXPBH00PAH@Z 10006cb0 f   SEFRUST.obj
+ 0001:00005d50       ?FrustrumFileRead@CJMFrustrumData@@QAEXPBH00PADPAH2@Z 10006d50 f   SEFRUST.obj
+ 0001:00005e10       ?FrustrumFileWrite@CJMFrustrumData@@QAEXPBH00PBDPAH@Z 10006e10 f   SEFRUST.obj
+ 0001:00005ed0       ?FrustrumFileSeek@CJMFrustrumData@@QAEXPBH00PAH@Z 10006ed0 f   SEFRUST.obj
+ 0001:00005f50       ?FrustrumFileTell@CJMFrustrumData@@QAEXPBH0PAH1@Z 10006f50 f   SEFRUST.obj
+ 0001:00005fe0       _SE_FFCLOS                 10006fe0 f   SEFRUST.obj
+ 0001:00006070       _SE_FFREAD                 10007070 f   SEFRUST.obj
+ 0001:00006110       _SE_FFWRIT                 10007110 f   SEFRUST.obj
+ 0001:000061b0       _SE_FFSEEK                 100071b0 f   SEFRUST.obj
+ 0001:00006240       _SE_FFTELL                 10007240 f   SEFRUST.obj
+ 0001:000064e0       ?_Erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@@Z 100074e0 f i SEFRUST.obj
+ 0001:000064e0       ?_Erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@@Z 100074e0 f i SEFRUST.obj
+ 0001:00006520       ?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHI@2@D@Z 10007520 f i SEFRUST.obj
+ 0001:000065c0       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 100075c0 f i SEFRUST.obj
+ 0001:00006870       ??0out_of_range@std@@QAE@ABV01@@Z 10007870 f i SEFRUST.obj
+ 0001:000068d0       ?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@D@Z 100078d0 f i SEFRUST.obj
+ 0001:00006970       ?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@XZ 10007970 f i SEFRUST.obj
+ 0001:00006a20       ?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@XZ 10007a20 f i SEFRUST.obj
+ 0001:00006ad0       ??$_Distance2@Viterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@I@std@@YAXViterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@0@0AAIUbidirectional_iterator_tag@0@@Z 10007ad0 f i SEFRUST.obj
+ 0001:00006ad0       ??$_Distance2@Viterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@I@std@@YAXViterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@0@0AAIUbidirectional_iterator_tag@0@@Z 10007ad0 f i SEFRUST.obj
+ 0001:00006b10       ?FrustrumStop@CJMFrustrumData@@QAEXPAH@Z 10007b10 f   SEFRUST.obj
+ 0001:00006ba0       ?FrustrumOpenFileForRead@CJMFrustrumData@@QAEXPBH0PBD00PAH2@Z 10007ba0 f   SEFRUST.obj
+ 0001:00006f70       ?FrustrumOpenFileForWrite@CJMFrustrumData@@QAEXPBH0PBD010PAH2@Z 10007f70 f   SEFRUST.obj
+ 0001:00007330       ?FrustrumOpenRollbackFile@CJMFrustrumData@@QAEXPBH00PAH11@Z 10008330 f   SEFRUST.obj
+ 0001:00007530       _SE_FSTOP                  10008530 f   SEFRUST.obj
+ 0001:000075c0       _SE_FFOPRD                 100085c0 f   SEFRUST.obj
+ 0001:00007660       _SE_FFOPWR                 10008660 f   SEFRUST.obj
+ 0001:00007700       _SE_FFOPRB                 10008700 f   SEFRUST.obj
+ 0001:000077a0       ?JMGetFrustrum@@YAXAAUPK_SESSION_frustrum_s@@@Z 100087a0 f   SEFRUST.obj
+ 0001:00007860       ?JMFrustrumRegistration@@YAHXZ 10008860 f   SEFRUST.obj
+ 0001:00007880       ?find@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@ABH@Z 10008880 f i SEFRUST.obj
+ 0001:000078f0       ?find@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@ABI@Z 100088f0 f i SEFRUST.obj
+ 0001:00007960       ?equal_range@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@V123@@2@ABH@Z 10008960 f i SEFRUST.obj
+ 0001:000079c0       ?_Insert@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHI@2@@Z 100089c0 f i SEFRUST.obj
+ 0001:00007ba0       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10008ba0 f i SEFRUST.obj
+ 0001:00007c70       ?equal_range@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@V123@@2@ABI@Z 10008c70 f i SEFRUST.obj
+ 0001:00007cd0       ?_Insert@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@@Z 10008cd0 f i SEFRUST.obj
+ 0001:00007eb0       ?erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10008eb0 f i SEFRUST.obj
+ 0001:00008160       ?DeltaFind@CJMFrustrumData@@AAEPAVCJMDeltaFile@@IAAIAAPAV2@@Z 10009160 f   SEFRUST.obj
+ 0001:00008200       ?DeltaFindForRead@CJMFrustrumData@@AAEPAVCJMDeltaFile@@I@Z 10009200 f   SEFRUST.obj
+ 0001:00008220       ?DeltaFindForWrite@CJMFrustrumData@@AAEPAVCJMDeltaFile@@I@Z 10009220 f   SEFRUST.obj
+ 0001:00008240       ?DELTA_open_for_read@CJMFrustrumData@@QAEHI@Z 10009240 f   SEFRUST.obj
+ 0001:00008270       ?DELTA_close@CJMFrustrumData@@QAEHI@Z 10009270 f   SEFRUST.obj
+ 0001:000082d0       ?DELTA_write@CJMFrustrumData@@QAEHIIPBD@Z 100092d0 f   SEFRUST.obj
+ 0001:00008320       ?DELTA_read@CJMFrustrumData@@QAEHIIPAD@Z 10009320 f   SEFRUST.obj
+ 0001:00008360       _SE_DELTA_open_for_read    10009360 f   SEFRUST.obj
+ 0001:000083f0       _SE_DELTA_close            100093f0 f   SEFRUST.obj
+ 0001:00008480       _SE_DELTA_write            10009480 f   SEFRUST.obj
+ 0001:00008520       _SE_DELTA_read             10009520 f   SEFRUST.obj
+ 0001:000085c0       ?insert@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBHI@2@@Z 100095c0 f i SEFRUST.obj
+ 0001:00008680       ??1?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE@XZ 10009680 f i SEFRUST.obj
+ 0001:000086c0       ?insert@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@@Z 100096c0 f i SEFRUST.obj
+ 0001:00008780       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAEIABI@Z 10009780 f i SEFRUST.obj
+ 0001:000087f0       ?erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 100097f0 f i SEFRUST.obj
+ 0001:000088c0       ??1?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ 100098c0 f i SEFRUST.obj
+ 0001:00008930       ?DumpDeltaInfo@CJMFrustrumData@@UAGJPAU_iobuf@@H@Z 10009930 f   SEFRUST.obj
+ 0001:00008aa0       ?DELTA_open_for_write@CJMFrustrumData@@QAEHHPAI@Z 10009aa0 f   SEFRUST.obj
+ 0001:00008c20       _SE_DELTA_open_for_write   10009c20 f   SEFRUST.obj
+ 0001:00008cc0       ??1?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE@XZ 10009cc0 f i SEFRUST.obj
+ 0001:00008d00       ?erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAEIABH@Z 10009d00 f i SEFRUST.obj
+ 0001:00008d70       ??0?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ 10009d70 f i SEFRUST.obj
+ 0001:00008de0       ??1?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ 10009de0 f i SEFRUST.obj
+ 0001:00008e50       ??1CJMFrustrumData@@QAE@XZ 10009e50 f   SEFRUST.obj
+ 0001:00009080       ?DELTA_delete@CJMFrustrumData@@QAEHI@Z 1000a080 f   SEFRUST.obj
+ 0001:00009110       _SE_DELTA_delete           1000a110 f   SEFRUST.obj
+ 0001:000091a0       ?JMRollbackFrustrumRegistration@@YAHXZ 1000a1a0 f   SEFRUST.obj
+ 0001:000091f0       ?JMinStartParasolidModeller@@YAJH@Z 1000a1f0 f   SEFRUST.obj
+ 0001:000093b0       ??0?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ 1000a3b0 f i SEFRUST.obj
+ 0001:00009420       ??0CJMFrustrumData@@QAE@XZ 1000a420 f   SEFRUST.obj
+ 0001:0000951a       _VerQueryValueA@16         1000a51a f   version:VERSION.dll
+ 0001:00009520       _GetFileVersionInfoA@16    1000a520 f   version:VERSION.dll
+ 0001:00009526       _GetFileVersionInfoSizeA@8 1000a526 f   version:VERSION.dll
+ 0001:0000952c       _PK_SESSION_abort          1000a52c f   pskernel:PSKERNEL.dll
+ 0001:00009532       _PK_SESSION_tidy           1000a532 f   pskernel:PSKERNEL.dll
+ 0001:00009538       _PK_ERROR_register_callbacks 1000a538 f   pskernel:PSKERNEL.dll
+ 0001:0000953e       _PK_MEMORY_register_callbacks 1000a53e f   pskernel:PSKERNEL.dll
+ 0001:00009544       _PK_SESSION_stop           1000a544 f   pskernel:PSKERNEL.dll
+ 0001:0000954a       _PK_SESSION_ask_mark       1000a54a f   pskernel:PSKERNEL.dll
+ 0001:00009550       _PK_MEMORY_free            1000a550 f   pskernel:PSKERNEL.dll
+ 0001:00009556       _PK_PARTITION_ask_pmark    1000a556 f   pskernel:PSKERNEL.dll
+ 0001:0000955c       _PK_PMARK_delete           1000a55c f   pskernel:PSKERNEL.dll
+ 0001:00009562       _PK_PMARK_goto             1000a562 f   pskernel:PSKERNEL.dll
+ 0001:00009568       _PK_PARTITION_set_current  1000a568 f   pskernel:PSKERNEL.dll
+ 0001:0000956e       _PK_PARTITION_ask_pmarks   1000a56e f   pskernel:PSKERNEL.dll
+ 0001:00009574       _PK_PARTITION_ask_initial_pmark 1000a574 f   pskernel:PSKERNEL.dll
+ 0001:0000957a       _PK_SESSION_ask_kernel_version 1000a57a f   pskernel:PSKERNEL.dll
+ 0001:00009580       _PK_SESSION_ask_smp        1000a580 f   pskernel:PSKERNEL.dll
+ 0001:00009586       _PK_SESSION_register_frustrum 1000a586 f   pskernel:PSKERNEL.dll
+ 0001:0000958c       _PK_PMARK_ask_identifier   1000a58c f   pskernel:PSKERNEL.dll
+ 0001:00009592       _PK_DELTA_register_callbacks 1000a592 f   pskernel:PSKERNEL.dll
+ 0001:00009598       _PK_SESSION_set_swept_spun_surfs 1000a598 f   pskernel:PSKERNEL.dll
+ 0001:0000959e       _PK_SESSION_set_roll_forward 1000a59e f   pskernel:PSKERNEL.dll
+ 0001:000095a4       _PK_SESSION_set_journalling 1000a5a4 f   pskernel:PSKERNEL.dll
+ 0001:000095aa       _PK_PARTITION_make_pmark   1000a5aa f   pskernel:PSKERNEL.dll
+ 0001:000095b0       _PK_SESSION_ask_curr_partition 1000a5b0 f   pskernel:PSKERNEL.dll
+ 0001:000095b6       _PK_SESSION_set_software_option 1000a5b6 f   pskernel:PSKERNEL.dll
+ 0001:000095bc       _PK_SESSION_start          1000a5bc f   pskernel:PSKERNEL.dll
+ 0001:000095c2       ?SE_SetIsParasolidException@@YAJH@Z 1000a5c2 f   jutil:JUtil.dll
+ 0001:000095c8       ?SE_FrustrumExceptionFilter@@YAJPAU_EXCEPTION_POINTERS@@@Z 1000a5c8 f   jutil:JUtil.dll
+ 0001:000095ce       ?JCheckRegEntryStringEx@@YAJPBDPAD0PAPADHHPAUHKEY__@@@Z 1000a5ce f   jutil:JUtil.dll
+ 0001:000095d4       _HRerrEx                   1000a5d4 f   jutil:JUtil.dll
+ 0001:000095da       _JGetSolidEdgeApplicationPath 1000a5da f   jutil:JUtil.dll
+ 0001:000095e0       _JStgOpenStorage           1000a5e0 f   jutil:JUtil.dll
+ 0001:000095e6       ?JQueryMemoryHandler@@YAJPAPAUIJMemoryHandler@@@Z 1000a5e6 f   sealloc:sealloc.dll
+ 0001:000095ec       _malloc                    1000a5ec f   MSVCRT:MSVCR80.dll
+ 0001:000095f2       __callnewh                 1000a5f2 f   MSVCRT:MSVCR80.dll
+ 0001:000095f8       ___CxxFrameHandler3        1000a5f8 f   MSVCRT:MSVCR80.dll
+ 0001:000095fe       @__security_check_cookie@4 1000a5fe f   MSVCRT:secchk.obj
+ 0001:0000960d       ??_Etype_info@@UAEPAXI@Z   1000a60d f i MSVCRT:ti_inst.obj
+ 0001:00009656       ?what@exception@std@@UBEPBDXZ 1000a656 f   MSVCRT:MSVCR80.dll
+ 0001:0000965c       ??3@YAXPAX@Z               1000a65c f   MSVCRT:MSVCR80.dll
+ 0001:00009662       __purecall                 1000a662 f   MSVCRT:MSVCR80.dll
+ 0001:00009668       __CxxThrowException@8      1000a668 f   MSVCRT:MSVCR80.dll
+ 0001:0000966e       ??0exception@std@@QAE@ABV01@@Z 1000a66e f   MSVCRT:MSVCR80.dll
+ 0001:00009674       _memcpy                    1000a674 f   MSVCRT:MSVCR80.dll
+ 0001:00009680       __CIcos                    1000a680 f   MSVCRT:MSVCR80.dll
+ 0001:00009686       __CIsin                    1000a686 f   MSVCRT:MSVCR80.dll
+ 0001:0000968c       __CIexp                    1000a68c f   MSVCRT:MSVCR80.dll
+ 0001:00009692       __except_handler4          1000a692 f   MSVCRT:chandler4gs.obj
+ 0001:000096b6       _memset                    1000a6b6 f   MSVCRT:MSVCR80.dll
+ 0001:000096bc       ??_V@YAXPAX@Z              1000a6bc f   MSVCRT:MSVCR80.dll
+ 0001:000096c2       __onexit                   1000a6c2 f   MSVCRT:atonexit.obj
+ 0001:00009761       _atexit                    1000a761 f   MSVCRT:atonexit.obj
+ 0001:000097c0       __CRT_INIT@12              1000a7c0 f   MSVCRT:crtdll.obj
+ 0001:00009a75       __DllMainCRTStartup@12     1000aa75 f   MSVCRT:crtdll.obj
+ 0001:00009a96       ___report_gsfailure        1000aa96 f   MSVCRT:gs_report.obj
+ 0001:00009b9a       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000ab9a f   MSVCRT:ehvecdtr.obj
+ 0001:00009bf8       ??_M@YGXPAXIHP6EX0@Z@Z     1000abf8 f   MSVCRT:ehvecdtr.obj
+ 0001:00009c5c       __except_handler4_common   1000ac5c f   MSVCRT:MSVCR80.dll
+ 0001:00009c62       __unlock                   1000ac62 f   MSVCRT:MSVCR80.dll
+ 0001:00009c68       ___dllonexit               1000ac68 f   MSVCRT:MSVCR80.dll
+ 0001:00009c6e       __lock                     1000ac6e f   MSVCRT:MSVCR80.dll
+ 0001:00009c74       __SEH_prolog4              1000ac74 f   MSVCRT:sehprolg4.obj
+ 0001:00009cb9       __SEH_epilog4              1000acb9 f   MSVCRT:sehprolg4.obj
+ 0001:00009ccd       ___clean_type_info_names   1000accd f   MSVCRT:tncleanup.obj
+ 0001:00009cd9       __RTC_Initialize           1000acd9 f   MSVCRT:initsect.obj
+ 0001:00009cfd       __RTC_Terminate            1000acfd f   MSVCRT:initsect.obj
+ 0001:00009d30       __ValidateImageBase        1000ad30 f   MSVCRT:pesect.obj
+ 0001:00009d60       __FindPESection            1000ad60 f   MSVCRT:pesect.obj
+ 0001:00009da2       __IsNonwritableInCurrentImage 1000ada2 f   MSVCRT:pesect.obj
+ 0001:00009e0e       __initterm                 1000ae0e f   MSVCRT:MSVCR80.dll
+ 0001:00009e14       __initterm_e               1000ae14 f   MSVCRT:MSVCR80.dll
+ 0001:00009e1a       __amsg_exit                1000ae1a f   MSVCRT:MSVCR80.dll
+ 0001:00009e20       ___CppXcptFilter           1000ae20 f   MSVCRT:MSVCR80.dll
+ 0001:00009e26       _DllMain@12                1000ae26 f   MSVCRT:dllmain.obj
+ 0001:00009e46       ___security_init_cookie    1000ae46 f   MSVCRT:gs_support.obj
+ 0001:00009eda       __crt_debugger_hook        1000aeda f   MSVCRT:MSVCR80.dll
+ 0001:00009ee0       ?terminate@@YAXXZ          1000aee0 f   MSVCRT:MSVCR80.dll
+ 0001:00009ee6       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000aee6 f   MSVCRT:MSVCR80.dll
+ 0001:00009ee6       ??1type_info@@UAE@XZ       1000aee6 f   MSVCRT:MSVCR80.dll
+ 0001:00009eec       ___clean_type_info_names_internal 1000aeec f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetUserNameA@8      1000c000     advapi32:ADVAPI32.dll
+ 0002:00000004       \177ADVAPI32_NULL_THUNK_DATA 1000c004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp_??0BufferedStream@@QAE@XZ 1000c008     jutil:JUtil.dll
+ 0002:0000000c       __imp_?Init@BufferedStream@@QAIJPAUIStream@@KPAXK@Z 1000c00c     jutil:JUtil.dll
+ 0002:00000010       __imp_??YGUserText@@QAEAAV0@PBD@Z 1000c010     jutil:JUtil.dll
+ 0002:00000014       __imp_??0GUserText@@QAE@PBDHI@Z 1000c014     jutil:JUtil.dll
+ 0002:00000018       __imp__JGetSolidEdgeApplicationPath 1000c018     jutil:JUtil.dll
+ 0002:0000001c       __imp__HRerrEx             1000c01c     jutil:JUtil.dll
+ 0002:00000020       __imp__JStgOpenStorage     1000c020     jutil:JUtil.dll
+ 0002:00000024       __imp_?GetStream@BufferedStream@@QAIPAUIStream@@XZ 1000c024     jutil:JUtil.dll
+ 0002:00000028       __imp_?Flush@BufferedStream@@QAIJXZ 1000c028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??1BufferedStream@@QAE@XZ 1000c02c     jutil:JUtil.dll
+ 0002:00000030       __imp_?SE_FrustrumExceptionFilter@@YAJPAU_EXCEPTION_POINTERS@@@Z 1000c030     jutil:JUtil.dll
+ 0002:00000034       __imp_?SE_SetIsParasolidException@@YAJH@Z 1000c034     jutil:JUtil.dll
+ 0002:00000038       __imp_??1GUserText@@QAE@XZ 1000c038     jutil:JUtil.dll
+ 0002:0000003c       __imp_?JCheckRegEntryStringEx@@YAJPBDPAD0PAPADHHPAUHKEY__@@@Z 1000c03c     jutil:JUtil.dll
+ 0002:00000040       __imp_??4GUserText@@QAEAAV0@PBD@Z 1000c040     jutil:JUtil.dll
+ 0002:00000044       \177JUtil_NULL_THUNK_DATA  1000c044     jutil:JUtil.dll
+ 0002:00000048       __imp__GetDateFormatA@24   1000c048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetTempPathA@8      1000c04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetFileAttributesA@4 1000c050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__InterlockedExchange@8 1000c054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetUserDefaultLangID@0 1000c058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__lstrcpyA@8          1000c05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__lstrcatA@8          1000c060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetVolumeInformationA@32 1000c064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetComputerNameA@8  1000c068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetVersionExA@4     1000c06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetLocalTime@4      1000c070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__Sleep@4             1000c074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__InterlockedCompareExchange@12 1000c078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__TerminateProcess@8  1000c07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetCurrentProcess@0 1000c080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__UnhandledExceptionFilter@4 1000c084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__SetUnhandledExceptionFilter@4 1000c088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__IsDebuggerPresent@0 1000c08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__DisableThreadLibraryCalls@4 1000c090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__QueryPerformanceCounter@4 1000c094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetTickCount@0      1000c098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__GetCurrentThreadId@0 1000c09c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetCurrentProcessId@0 1000c0a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetSystemTimeAsFileTime@4 1000c0a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetACP@0            1000c0a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__RaiseException@16   1000c0ac     kernel32:KERNEL32.dll
+ 0002:000000b0       \177KERNEL32_NULL_THUNK_DATA 1000c0b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000c0b4     msvcprt:MSVCP80.dll
+ 0002:000000b8       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000c0b8     msvcprt:MSVCP80.dll
+ 0002:000000bc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 1000c0bc     msvcprt:MSVCP80.dll
+ 0002:000000c0       \177MSVCP80_NULL_THUNK_DATA 1000c0c0     msvcprt:MSVCP80.dll
+ 0002:000000c4       __imp___except_handler4_common 1000c0c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp_??_V@YAXPAX@Z        1000c0c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__memmove             1000c0cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__calloc              1000c0d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__printf              1000c0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__free                1000c0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___encode_pointer     1000c0dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp____dllonexit         1000c0e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___lock               1000c0e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___onexit             1000c0e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___decode_pointer     1000c0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___malloc_crt         1000c0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___encoded_null       1000c0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___initterm           1000c0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___initterm_e         1000c0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___amsg_exit          1000c100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___adjust_fdiv        1000c104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp____CppXcptFilter     1000c108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp__remove              1000c10c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp__strcat_s            1000c110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp__vsprintf_s          1000c114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___crt_debugger_hook  1000c118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp_?terminate@@YAXXZ    1000c11c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000c120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp____clean_type_info_names_internal 1000c124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___unlock             1000c128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp__stricmp             1000c12c     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___stricmp            1000c12c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp__malloc              1000c130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___callnewh           1000c134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp_??1exception@std@@UAE@XZ 1000c138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp_??0exception@std@@QAE@ABQBD@Z 1000c13c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp____CxxFrameHandler3  1000c140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp_?what@exception@std@@UBEPBDXZ 1000c144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp_??3@YAXPAX@Z         1000c148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp_??0exception@std@@QAE@XZ 1000c14c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp___purecall           1000c150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp__fread               1000c154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp__fwrite              1000c158     MSVCRT:MSVCR80.dll
+ 0002:0000015c       __imp__ftell               1000c15c     MSVCRT:MSVCR80.dll
+ 0002:00000160       __imp__fseek               1000c160     MSVCRT:MSVCR80.dll
+ 0002:00000164       __imp__fflush              1000c164     MSVCRT:MSVCR80.dll
+ 0002:00000168       __imp___invalid_parameter_noinfo 1000c168     MSVCRT:MSVCR80.dll
+ 0002:0000016c       __imp___CxxThrowException@8 1000c16c     MSVCRT:MSVCR80.dll
+ 0002:00000170       __imp_??0exception@std@@QAE@ABV01@@Z 1000c170     MSVCRT:MSVCR80.dll
+ 0002:00000174       __imp__strcpy_s            1000c174     MSVCRT:MSVCR80.dll
+ 0002:00000178       __imp__memmove_s           1000c178     MSVCRT:MSVCR80.dll
+ 0002:0000017c       __imp__memcpy              1000c17c     MSVCRT:MSVCR80.dll
+ 0002:00000180       __imp__fopen               1000c180     MSVCRT:MSVCR80.dll
+ 0002:00000184       __imp__fclose              1000c184     MSVCRT:MSVCR80.dll
+ 0002:00000188       __imp__toupper             1000c188     MSVCRT:MSVCR80.dll
+ 0002:0000018c       __imp__islower             1000c18c     MSVCRT:MSVCR80.dll
+ 0002:00000190       __imp___CIcos              1000c190     MSVCRT:MSVCR80.dll
+ 0002:00000194       __imp___CIsin              1000c194     MSVCRT:MSVCR80.dll
+ 0002:00000198       __imp___CIexp              1000c198     MSVCRT:MSVCR80.dll
+ 0002:0000019c       __imp__strchr              1000c19c     MSVCRT:MSVCR80.dll
+ 0002:000001a0       __imp__strrchr             1000c1a0     MSVCRT:MSVCR80.dll
+ 0002:000001a4       __imp__vsprintf            1000c1a4     MSVCRT:MSVCR80.dll
+ 0002:000001a8       __imp__strncpy             1000c1a8     MSVCRT:MSVCR80.dll
+ 0002:000001ac       __imp__strtok              1000c1ac     MSVCRT:MSVCR80.dll
+ 0002:000001b0       __imp__strncmp             1000c1b0     MSVCRT:MSVCR80.dll
+ 0002:000001b4       __imp__memset              1000c1b4     MSVCRT:MSVCR80.dll
+ 0002:000001b8       \177MSVCR80_NULL_THUNK_DATA 1000c1b8     MSVCRT:MSVCR80.dll
+ 0002:000001bc       __imp__PK_PMARK_ask_identifier 1000c1bc     pskernel:PSKERNEL.dll
+ 0002:000001c0       __imp__PK_PARTITION_set_current 1000c1c0     pskernel:PSKERNEL.dll
+ 0002:000001c4       __imp__PK_PARTITION_ask_pmarks 1000c1c4     pskernel:PSKERNEL.dll
+ 0002:000001c8       __imp__PK_SESSION_abort    1000c1c8     pskernel:PSKERNEL.dll
+ 0002:000001cc       __imp__PK_SESSION_tidy     1000c1cc     pskernel:PSKERNEL.dll
+ 0002:000001d0       __imp__PK_ERROR_register_callbacks 1000c1d0     pskernel:PSKERNEL.dll
+ 0002:000001d4       __imp__PK_MEMORY_register_callbacks 1000c1d4     pskernel:PSKERNEL.dll
+ 0002:000001d8       __imp__PK_SESSION_stop     1000c1d8     pskernel:PSKERNEL.dll
+ 0002:000001dc       __imp__PK_SESSION_ask_mark 1000c1dc     pskernel:PSKERNEL.dll
+ 0002:000001e0       __imp__PK_MEMORY_free      1000c1e0     pskernel:PSKERNEL.dll
+ 0002:000001e4       __imp__PK_PARTITION_ask_pmark 1000c1e4     pskernel:PSKERNEL.dll
+ 0002:000001e8       __imp__PK_PMARK_delete     1000c1e8     pskernel:PSKERNEL.dll
+ 0002:000001ec       __imp__PK_SESSION_start    1000c1ec     pskernel:PSKERNEL.dll
+ 0002:000001f0       __imp__PK_SESSION_set_software_option 1000c1f0     pskernel:PSKERNEL.dll
+ 0002:000001f4       __imp__PK_SESSION_ask_curr_partition 1000c1f4     pskernel:PSKERNEL.dll
+ 0002:000001f8       __imp__PK_PARTITION_make_pmark 1000c1f8     pskernel:PSKERNEL.dll
+ 0002:000001fc       __imp__PK_SESSION_set_journalling 1000c1fc     pskernel:PSKERNEL.dll
+ 0002:00000200       __imp__PK_SESSION_set_roll_forward 1000c200     pskernel:PSKERNEL.dll
+ 0002:00000204       __imp__PK_SESSION_set_swept_spun_surfs 1000c204     pskernel:PSKERNEL.dll
+ 0002:00000208       __imp__PK_DELTA_register_callbacks 1000c208     pskernel:PSKERNEL.dll
+ 0002:0000020c       __imp__PK_PARTITION_ask_initial_pmark 1000c20c     pskernel:PSKERNEL.dll
+ 0002:00000210       __imp__PK_SESSION_register_frustrum 1000c210     pskernel:PSKERNEL.dll
+ 0002:00000214       __imp__PK_SESSION_ask_smp  1000c214     pskernel:PSKERNEL.dll
+ 0002:00000218       __imp__PK_SESSION_ask_kernel_version 1000c218     pskernel:PSKERNEL.dll
+ 0002:0000021c       __imp__PK_PMARK_goto       1000c21c     pskernel:PSKERNEL.dll
+ 0002:00000220       \177PSKERNEL_NULL_THUNK_DATA 1000c220     pskernel:PSKERNEL.dll
+ 0002:00000224       __imp__MessageBoxA@16      1000c224     user32:USER32.dll
+ 0002:00000228       __imp__wsprintfA           1000c228     user32:USER32.dll
+ 0002:0000022c       \177USER32_NULL_THUNK_DATA 1000c22c     user32:USER32.dll
+ 0002:00000230       __imp__GetFileVersionInfoA@16 1000c230     version:VERSION.dll
+ 0002:00000234       __imp__GetFileVersionInfoSizeA@8 1000c234     version:VERSION.dll
+ 0002:00000238       __imp__VerQueryValueA@16   1000c238     version:VERSION.dll
+ 0002:0000023c       \177VERSION_NULL_THUNK_DATA 1000c23c     version:VERSION.dll
+ 0002:00000240       __imp_?JQueryMemoryHandler@@YAJPAPAUIJMemoryHandler@@@Z 1000c240     sealloc:sealloc.dll
+ 0002:00000244       __imp__JSESysFreeString@4  1000c244     sealloc:sealloc.dll
+ 0002:00000248       \177sealloc_NULL_THUNK_DATA 1000c248     sealloc:sealloc.dll
+ 0002:0000024c       __imp_?SM_alloc_in_area@@YAPAXHI@Z 1000c24c     ugsm:ugsm.dll
+ 0002:00000250       __imp_?SM_free@@YAXPAX@Z   1000c250     ugsm:ugsm.dll
+ 0002:00000254       __imp_?SM_create_area@@YAHPBDH@Z 1000c254     ugsm:ugsm.dll
+ 0002:00000258       \177ugsm_NULL_THUNK_DATA   1000c258     ugsm:ugsm.dll
+ 0002:0000025c       ___xc_a                    1000c25c     MSVCRT:cinitexe.obj
+ 0002:00000268       ___xc_z                    1000c268     MSVCRT:cinitexe.obj
+ 0002:0000026c       ___xi_a                    1000c26c     MSVCRT:cinitexe.obj
+ 0002:00000274       ___xi_z                    1000c274     MSVCRT:cinitexe.obj
+ 0002:0000029c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000c29c     CJMFILE.obj
+ 0002:000002b0       ??_7bad_alloc@std@@6B@     1000c2b0     CJMFILE.obj
+ 0002:000002bc       ??_7logic_error@std@@6B@   1000c2bc     CJMFILE.obj
+ 0002:000002c8       ??_7length_error@std@@6B@  1000c2c8     CJMFILE.obj
+ 0002:000002d4       ??_7CJMAbstractFile@@6B@   1000c2d4     CJMFILE.obj
+ 0002:000002f0       ??_C@_0BB@OAFPLMLD@Solid?5Edge?5Delta?$AA@ 1000c2f0     CJMFILE.obj
+ 0002:00000304       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 1000c304     CJMFILE.obj
+ 0002:0000031c       ??_7CJMFile@@6B@           1000c31c     CJMFILE.obj
+ 0002:00000338       ??_C@_00CNPNBAHC@?$AA@     1000c338     CJMFILE.obj
+ 0002:00000340       ??_7CJMMemFile@@6B@        1000c340     CJMFILE.obj
+ 0002:00000360       __real@c043bd3cc9be45de    1000c360     FG.obj
+ 0002:00000368       __real@3ff0000000000000    1000c368     FG.obj
+ 0002:00000370       __real@401921fb54442d18    1000c370     FG.obj
+ 0002:00000378       __real@c063bd3cc9be45de    1000c378     FG.obj
+ 0002:00000380       __real@c02921fb54442d18    1000c380     FG.obj
+ 0002:00000388       __real@402921fb54442d18    1000c388     FG.obj
+ 0002:00000390       __real@3fcfbd273d5bab22    1000c390     FG.obj
+ 0002:00000398       __real@402fc00000000000    1000c398     FG.obj
+ 0002:000003a0       __real@3fe370a3d70a3d71    1000c3a0     FG.obj
+ 0002:000003a8       __real@403ec00000000000    1000c3a8     FG.obj
+ 0002:000003b0       __real@3fe599999999999a    1000c3b0     FG.obj
+ 0002:000003b8       __real@4050333333333333    1000c3b8     FG.obj
+ 0002:000003c0       __real@4040333333333333    1000c3c0     FG.obj
+ 0002:000003c8       __real@4024400000000000    1000c3c8     FG.obj
+ 0002:000003d0       __real@4034400000000000    1000c3d0     FG.obj
+ 0002:000003d8       __real@3fb9e8c47a17f413    1000c3d8     FG.obj
+ 0002:000003e0       __real@4003d633482be8bc    1000c3e0     FG.obj
+ 0002:000003e8       __real@403e600000000000    1000c3e8     FG.obj
+ 0002:000003f0       __real@402e600000000000    1000c3f0     FG.obj
+ 0002:000003f8       __real@4002000000000000    1000c3f8     FG.obj
+ 0002:00000400       __real@3fd1a1f4b1ee2435    1000c400     FG.obj
+ 0002:00000408       __real@400b000000000000    1000c408     FG.obj
+ 0002:00000410       __real@400ccccccccccccd    1000c410     FG.obj
+ 0002:00000418       __real@3fc999999999999a    1000c418     FG.obj
+ 0002:00000420       __real@3fe0000000000000    1000c420     FG.obj
+ 0002:00000428       __real@3fe8000000000000    1000c428     FG.obj
+ 0002:00000430       __real@4010000000000000    1000c430     FG.obj
+ 0002:00000438       __real@4008000000000000    1000c438     FG.obj
+ 0002:00000440       __real@401c000000000000    1000c440     FG.obj
+ 0002:00000448       __real@4024000000000000    1000c448     FG.obj
+ 0002:00000450       __real@4048800000000000    1000c450     FG.obj
+ 0002:00000458       __real@bfd0000000000000    1000c458     FG.obj
+ 0002:00000460       __real@4000000000000000    1000c460     FG.obj
+ 0002:00000468       __real@4022000000000000    1000c468     FG.obj
+ 0002:00000470       ??_C@_09OOIKFIPO@SDL?1helix?$AA@ 1000c470     FG.obj
+ 0002:0000047c       ??_C@_08CIDAKJEF@SDL?1sine?$AA@ 1000c47c     FG.obj
+ 0002:00000488       ??_C@_0P@NPJGLKCK@SDL?1corrugated?$AA@ 1000c488     FG.obj
+ 0002:00000498       ??_C@_0M@KKPCNLIM@SDL?1incline?$AA@ 1000c498     FG.obj
+ 0002:000004a4       ??_C@_0L@HHKKGCPO@SDL?1franke?$AA@ 1000c4a4     FG.obj
+ 0002:000004b0       _IID_IJPersistManager      1000c4b0     Guid.obj
+ 0002:000004c0       _IID_IJDocument            1000c4c0     Guid.obj
+ 0002:000004d0       _IID_IJMFrustrumData       1000c4d0     Guid.obj
+ 0002:000004e0       ??_C@_08CGOABGJL@Frustrum?$AA@ 1000c4e0     SEFRUST.obj
+ 0002:000004f0       ??_7out_of_range@std@@6B@  1000c4f0     SEFRUST.obj
+ 0002:000004f8       ??_C@_04KHDDFIAA@APPL?$AA@ 1000c4f8     SEFRUST.obj
+ 0002:00000500       ??_C@_03MIDAHEMN@FRU?$AA@  1000c500     SEFRUST.obj
+ 0002:00000504       ??_C@_01NEMOKFLO@?$DN?$AA@ 1000c504     SEFRUST.obj
+ 0002:00000508       ??_C@_0BB@HDFAOLNB@Small?5Solid?5Edge?$AA@ 1000c508     SEFRUST.obj
+ 0002:0000051c       ??_C@_0L@CJCLPLAB@Solid?5Edge?$AA@ 1000c51c     SEFRUST.obj
+ 0002:00000528       ??_C@_0EB@JNCNNLMM@Parasolid?5DLL?5version?5?$CFd?4?$CF02d?4?$CF0@ 1000c528     SEFRUST.obj
+ 0002:0000056c       ??_C@_09JPAMNJHL@DATE?$DN?$CFs?$DL?6?$AA@ 1000c56c     SEFRUST.obj
+ 0002:00000578       ??_C@_0BB@LLBDCGMK@ddd?8?0?8?5MMM?5dd?5yy?$AA@ 1000c578     SEFRUST.obj
+ 0002:0000058c       ??_C@_05PKEGNAF@FILE?$DN?$AA@ 1000c58c     SEFRUST.obj
+ 0002:00000594       ??_C@_04LDLBJEDE@KEY?$DN?$AA@ 1000c594     SEFRUST.obj
+ 0002:0000059c       ??_C@_06CPJOGPND@GUISE?$DN?$AA@ 1000c59c     SEFRUST.obj
+ 0002:000005a4       ??_C@_02NCGPMEBG@?$DL?6?$AA@ 1000c5a4     SEFRUST.obj
+ 0002:000005a8       ??_C@_07ELMCKOC@FORMAT?$DN?$AA@ 1000c5a8     SEFRUST.obj
+ 0002:000005b0       ??_C@_08MPOKPFNH@USER?$DN?$CFs?6?$AA@ 1000c5b0     SEFRUST.obj
+ 0002:000005bc       ??_C@_0BG@OEAEEHN@SITE?$DNHuntsville?0?5AL?$DL?6?$AA@ 1000c5bc     SEFRUST.obj
+ 0002:000005d4       ??_C@_0BB@BGDHKJGJ@APPL?$DNSolidEdge?$DL?6?$AA@ 1000c5d4     SEFRUST.obj
+ 0002:000005e8       ??_C@_0BM@HOCFNBDJ@FRU?$DNUnigraphics?5Solutions?$DL?6?$AA@ 1000c5e8     SEFRUST.obj
+ 0002:00000604       ??_C@_0BD@NFDMPHCH@OS_RELEASE?$DN?$CFd?4?$CFd?$DL?6?$AA@ 1000c604     SEFRUST.obj
+ 0002:00000618       ??_C@_0N@KLNMAPCA@OS?$DNunknown?$DL?6?$AA@ 1000c618     SEFRUST.obj
+ 0002:00000628       ??_C@_0BA@KFKKGEBA@OS?$DNWindows?5NT?$DL?6?$AA@ 1000c628     SEFRUST.obj
+ 0002:00000638       ??_C@_0BA@GNMCMIKJ@OS?$DNWindows?595?$DL?6?$AA@ 1000c638     SEFRUST.obj
+ 0002:00000648       ??_C@_0BB@KJDHNLDI@OS?$DNWindows?53?41?$DL?6?$AA@ 1000c648     SEFRUST.obj
+ 0002:0000065c       ??_C@_0BA@BNFLADJF@MC_ID?$DNunknown?$DL?6?$AA@ 1000c65c     SEFRUST.obj
+ 0002:0000066c       ??_C@_0BD@HNJMPOIG@MC_MODEL?$DNunknown?$DL?6?$AA@ 1000c66c     SEFRUST.obj
+ 0002:00000680       ??_C@_07EHDIMBMA@MC?$DN?$CFs?$DL?6?$AA@ 1000c680     SEFRUST.obj
+ 0002:00000688       ??_C@_0BH@MOKMFBGA@?$DM?$DPxml?5version?$DN?$CC1?40?$CC?5?$DP?$DO?$AA@ 1000c688     SEFRUST.obj
+ 0002:000006a0       ??_C@_0EC@LDDFDDFF@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK@ 1000c6a0     SEFRUST.obj
+ 0002:000006e4       ??_C@_0BA@KMCHDOPM@?$CK?$CKEND_OF_HEADER?$AA@ 1000c6e4     SEFRUST.obj
+ 0002:000006f4       ??_C@_08JNGNBNCD@?$CK?$CKPART3?$DL?$AA@ 1000c6f4     SEFRUST.obj
+ 0002:00000700       ??_C@_08JMKPHHBE@?$CK?$CKPART2?$DL?$AA@ 1000c700     SEFRUST.obj
+ 0002:0000070c       ??_C@_08JOOJMJEN@?$CK?$CKPART1?$DL?$AA@ 1000c70c     SEFRUST.obj
+ 0002:00000718       ??_C@_0L@FPFMPDDA@0123456789?$AA@ 1000c718     SEFRUST.obj
+ 0002:00000724       ??_C@_08EFFAFLAB@?$FN?$FO_?$GA?$HL?$HM?$HN?$HO?$AA@ 1000c724     SEFRUST.obj
+ 0002:00000730       ??_C@_01KICIPPFI@?2?$AA@   1000c730     SEFRUST.obj
+ 0002:00000734       ??_C@_0BG@NENCPKCL@?$CD$?$CF?$CG?8?$CI?$CJ?$CK?$CL?0?9?4?1?3?$DL?$DM?$DN?$DO?$DP?$EA?$FL?$AA@ 1000c734     SEFRUST.obj
+ 0002:0000074c       ??_C@_01BJJEKLCA@?$CC?$AA@ 1000c74c     SEFRUST.obj
+ 0002:00000750       ??_C@_02LEGMHFOO@?5?$CB?$AA@ 1000c750     SEFRUST.obj
+ 0002:00000754       ??_C@_09PDNCOCPJ@PARASOLID?$AA@ 1000c754     SEFRUST.obj
+ 0002:00000760       ??_C@_0BL@GLMNMCKF@?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$CK?$AA@ 1000c760     SEFRUST.obj
+ 0002:0000077c       ??_C@_0BL@JIGBPIBD@abcdefghijklmnopqrstuvwxyz?$AA@ 1000c77c     SEFRUST.obj
+ 0002:00000798       ??_C@_0BL@PIDGKGOO@ABCDEFGHIJKLMNOPQRSTUVWXYZ?$AA@ 1000c798     SEFRUST.obj
+ 0002:000007b4       ??_C@_02FKAPCJPD@?$CK?$CK?$AA@ 1000c7b4     SEFRUST.obj
+ 0002:000007b8       ??_C@_03MPELFIKF@FAT?$AA@  1000c7b8     SEFRUST.obj
+ 0002:000007bc       ??_C@_0M@HAPBGFPN@PSchemaPath?$AA@ 1000c7bc     SEFRUST.obj
+ 0002:000007c8       ??_C@_0BC@KCDBDEAA@?4?2src?2SEFRUST?4CPP?$AA@ 1000c7c8     SEFRUST.obj
+ 0002:000007dc       ??_C@_0BA@CHDIHJJL@JMGetSchemaPath?$AA@ 1000c7dc     SEFRUST.obj
+ 0002:000007ec       ??_C@_0BJ@KPNNKBCP@?2VarFileInfo?2Translation?$AA@ 1000c7ec     SEFRUST.obj
+ 0002:00000808       ??_C@_0CG@LLNDMMNI@?2StringFileInfo?2?$CF04x?$CF04x?2Special@ 1000c808     SEFRUST.obj
+ 0002:00000830       ??_C@_0DD@PADANADO@Could?5not?5allocate?5buffer?5for?5ve@ 1000c830     SEFRUST.obj
+ 0002:00000864       ??_C@_0N@KCCMFKNC@pskernel?4dll?$AA@ 1000c864     SEFRUST.obj
+ 0002:00000874       ??_C@_01CLKCMJKC@?5?$AA@   1000c874     SEFRUST.obj
+ 0002:00000878       ??_C@_0BI@PPELHGHD@?5Multithreading?5Enabled?$AA@ 1000c878     SEFRUST.obj
+ 0002:00000890       ??_C@_1BE@IFMDMFPN@?$AAP?$AAA?$AAR?$AAA?$AAS?$AAO?$AAL?$AAI?$AAD?$AA?$AA@ 1000c890     SEFRUST.obj
+ 0002:000008a4       ??_C@_0BG@GCBKKKCD@CJMFrustrumFile?3?3Open?$AA@ 1000c8a4     SEFRUST.obj
+ 0002:000008c0       ??_C@_0MO@GGMBCPHO@Invalid?5Schema?5path?5or?5path?5is?5n@ 1000c8c0     SEFRUST.obj
+ 0002:00000990       ??_C@_09LGMGOABD@SolidEdge?$AA@ 1000c990     SEFRUST.obj
+ 0002:0000099c       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 1000c99c     SEFRUST.obj
+ 0002:000009b8       ??_C@_07IKOBJFF@xmt_bin?$AA@ 1000c9b8     SEFRUST.obj
+ 0002:000009c0       ??_C@_03EABLMIDI@x_b?$AA@  1000c9c0     SEFRUST.obj
+ 0002:000009c4       ??_C@_07NABFCCIK@xmt_txt?$AA@ 1000c9c4     SEFRUST.obj
+ 0002:000009cc       ??_C@_03FMIDHNOP@x_t?$AA@  1000c9cc     SEFRUST.obj
+ 0002:000009d0       ??_C@_08FBLICIPL@rollback?$AA@ 1000c9d0     SEFRUST.obj
+ 0002:000009dc       ??_C@_0N@DLKFEIMK@rollback?4001?$AA@ 1000c9dc     SEFRUST.obj
+ 0002:000009ec       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 1000c9ec     SEFRUST.obj
+ 0002:00000a00       ??_C@_0BM@NEHCJEKG@?7?7?5Pmark?5Id?5?3?5?$CFd?5Size?5?3?5?$CFd?6?$AA@ 1000ca00     SEFRUST.obj
+ 0002:00000a1c       ??_C@_0BE@BMHDFJFP@?7?5?$CD?5of?5PMarks?5?3?5?$CFd?6?$AA@ 1000ca1c     SEFRUST.obj
+ 0002:00000a34       ??_7CJMFrustrumData@@6B@   1000ca34     SEFRUST.obj
+ 0002:00000a50       ??_C@_0KE@BDPLINIM@Could?5not?5enable?5ParaSolid?5journ@ 1000ca50     SEFRUST.obj
+ 0002:00000af4       ??_C@_0BL@EMCDOIHG@JMinStartParasolidModeller?$AA@ 1000caf4     SEFRUST.obj
+ 0002:00000b10       ??_C@_09JMKJCEPC@SEJournal?$AA@ 1000cb10     SEFRUST.obj
+ 0002:00000b1c       _IID_IUnknown              1000cb1c     uuid:unknwn_i.obj
+ 0002:00000b2c       _IID_IPersistStorage       1000cb2c     uuid:objidl_i.obj
+ 0002:00000b3c       _IID_IStorage              1000cb3c     uuid:objidl_i.obj
+ 0002:00000b4c       _IID_IStream               1000cb4c     uuid:objidl_i.obj
+ 0002:00000b60       ??_7type_info@@6B@         1000cb60     MSVCRT:ti_inst.obj
+ 0002:00000b64       __pRawDllMain              1000cb64     MSVCRT:crtdll.obj
+ 0002:00000b64       __pDefaultRawDllMain       1000cb64     MSVCRT:crtdll.obj
+ 0002:00000b70       __load_config_used         1000cb70     MSVCRT:loadcfg.obj
+ 0002:00000bec       ??_R4bad_alloc@std@@6B@    1000cbec     CJMFILE.obj
+ 0002:00000c00       ??_R3bad_alloc@std@@8      1000cc00     CJMFILE.obj
+ 0002:00000c10       ??_R2bad_alloc@std@@8      1000cc10     CJMFILE.obj
+ 0002:00000c1c       ??_R1A@?0A@EA@bad_alloc@std@@8 1000cc1c     CJMFILE.obj
+ 0002:00000c38       ??_R1A@?0A@EA@exception@std@@8 1000cc38     CJMFILE.obj
+ 0002:00000c54       ??_R3exception@std@@8      1000cc54     CJMFILE.obj
+ 0002:00000c64       ??_R2exception@std@@8      1000cc64     CJMFILE.obj
+ 0002:00000c6c       ??_R4logic_error@std@@6B@  1000cc6c     CJMFILE.obj
+ 0002:00000c80       ??_R3logic_error@std@@8    1000cc80     CJMFILE.obj
+ 0002:00000c90       ??_R2logic_error@std@@8    1000cc90     CJMFILE.obj
+ 0002:00000c9c       ??_R1A@?0A@EA@logic_error@std@@8 1000cc9c     CJMFILE.obj
+ 0002:00000cb8       ??_R4length_error@std@@6B@ 1000ccb8     CJMFILE.obj
+ 0002:00000ccc       ??_R3length_error@std@@8   1000cccc     CJMFILE.obj
+ 0002:00000cdc       ??_R2length_error@std@@8   1000ccdc     CJMFILE.obj
+ 0002:00000cec       ??_R1A@?0A@EA@length_error@std@@8 1000ccec     CJMFILE.obj
+ 0002:00000d08       ??_R4CJMAbstractFile@@6B@  1000cd08     CJMFILE.obj
+ 0002:00000d1c       ??_R3CJMAbstractFile@@8    1000cd1c     CJMFILE.obj
+ 0002:00000d2c       ??_R2CJMAbstractFile@@8    1000cd2c     CJMFILE.obj
+ 0002:00000d34       ??_R1A@?0A@EA@CJMAbstractFile@@8 1000cd34     CJMFILE.obj
+ 0002:00000d50       ??_R4CJMFile@@6B@          1000cd50     CJMFILE.obj
+ 0002:00000d64       ??_R3CJMFile@@8            1000cd64     CJMFILE.obj
+ 0002:00000d74       ??_R2CJMFile@@8            1000cd74     CJMFILE.obj
+ 0002:00000d80       ??_R1A@?0A@EA@CJMFile@@8   1000cd80     CJMFILE.obj
+ 0002:00000d9c       ??_R4CJMMemFile@@6B@       1000cd9c     CJMFILE.obj
+ 0002:00000db0       ??_R3CJMMemFile@@8         1000cdb0     CJMFILE.obj
+ 0002:00000dc0       ??_R2CJMMemFile@@8         1000cdc0     CJMFILE.obj
+ 0002:00000dcc       ??_R1A@?0A@EA@CJMMemFile@@8 1000cdcc     CJMFILE.obj
+ 0002:00000de8       ??_R4out_of_range@std@@6B@ 1000cde8     SEFRUST.obj
+ 0002:00000dfc       ??_R3out_of_range@std@@8   1000cdfc     SEFRUST.obj
+ 0002:00000e0c       ??_R2out_of_range@std@@8   1000ce0c     SEFRUST.obj
+ 0002:00000e1c       ??_R1A@?0A@EA@out_of_range@std@@8 1000ce1c     SEFRUST.obj
+ 0002:00000e38       ??_R4CJMFrustrumData@@6B@  1000ce38     SEFRUST.obj
+ 0002:00000e4c       ??_R3CJMFrustrumData@@8    1000ce4c     SEFRUST.obj
+ 0002:00000e5c       ??_R2CJMFrustrumData@@8    1000ce5c     SEFRUST.obj
+ 0002:00000e6c       ??_R1A@?0A@EA@CJMFrustrumData@@8 1000ce6c     SEFRUST.obj
+ 0002:00000e88       ??_R1A@?0A@EA@IJMFrustrumData@@8 1000ce88     SEFRUST.obj
+ 0002:00000ea4       ??_R3IJMFrustrumData@@8    1000cea4     SEFRUST.obj
+ 0002:00000eb4       ??_R2IJMFrustrumData@@8    1000ceb4     SEFRUST.obj
+ 0002:00000ec0       ??_R1A@?0A@EA@IUnknown@@8  1000cec0     SEFRUST.obj
+ 0002:00000edc       ??_R3IUnknown@@8           1000cedc     SEFRUST.obj
+ 0002:00000eec       ??_R2IUnknown@@8           1000ceec     SEFRUST.obj
+ 0002:00000ef4       ??_R4type_info@@6B@        1000cef4     MSVCRT:ti_inst.obj
+ 0002:00000f08       ??_R3type_info@@8          1000cf08     MSVCRT:ti_inst.obj
+ 0002:00000f18       ??_R2type_info@@8          1000cf18     MSVCRT:ti_inst.obj
+ 0002:00000f20       ??_R1A@?0A@EA@type_info@@8 1000cf20     MSVCRT:ti_inst.obj
+ 0002:00000f40       ___safe_se_handler_table   1000cf40     <linker-defined>
+ 0002:00000ff8       ___rtc_iaa                 1000cff8     MSVCRT:initsect.obj
+ 0002:00000ffc       ___rtc_izz                 1000cffc     MSVCRT:initsect.obj
+ 0002:00001000       ___rtc_taa                 1000d000     MSVCRT:initsect.obj
+ 0002:00001004       ___rtc_tzz                 1000d004     MSVCRT:initsect.obj
+ 0002:00001178       __TI3?AVlength_error@std@@ 1000d178     CJMFILE.obj
+ 0002:000011b4       __CTA3?AVlength_error@std@@ 1000d1b4     CJMFILE.obj
+ 0002:000011c4       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 1000d1c4     CJMFILE.obj
+ 0002:000011e0       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 1000d1e0     CJMFILE.obj
+ 0002:000011fc       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1000d1fc     CJMFILE.obj
+ 0002:00001278       __TI2?AVbad_alloc@std@@    1000d278     CJMFILE.obj
+ 0002:00001288       __CTA2?AVbad_alloc@std@@   1000d288     CJMFILE.obj
+ 0002:00001294       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 1000d294     CJMFILE.obj
+ 0002:00001934       __TI3?AVout_of_range@std@@ 1000d934     SEFRUST.obj
+ 0002:00001970       __CTA3?AVout_of_range@std@@ 1000d970     SEFRUST.obj
+ 0002:00001980       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 1000d980     SEFRUST.obj
+ 0002:00001f24       __IMPORT_DESCRIPTOR_VERSION 1000df24     version:VERSION.dll
+ 0002:00001f38       __IMPORT_DESCRIPTOR_PSKERNEL 1000df38     pskernel:PSKERNEL.dll
+ 0002:00001f4c       __IMPORT_DESCRIPTOR_JUtil  1000df4c     jutil:JUtil.dll
+ 0002:00001f60       __IMPORT_DESCRIPTOR_ugsm   1000df60     ugsm:ugsm.dll
+ 0002:00001f74       __IMPORT_DESCRIPTOR_sealloc 1000df74     sealloc:sealloc.dll
+ 0002:00001f88       __IMPORT_DESCRIPTOR_KERNEL32 1000df88     kernel32:KERNEL32.dll
+ 0002:00001f9c       __IMPORT_DESCRIPTOR_USER32 1000df9c     user32:USER32.dll
+ 0002:00001fb0       __IMPORT_DESCRIPTOR_ADVAPI32 1000dfb0     advapi32:ADVAPI32.dll
+ 0002:00001fc4       __IMPORT_DESCRIPTOR_MSVCP80 1000dfc4     msvcprt:MSVCP80.dll
+ 0002:00001fd8       __IMPORT_DESCRIPTOR_MSVCR80 1000dfd8     MSVCRT:MSVCR80.dll
+ 0002:00001fec       __NULL_IMPORT_DESCRIPTOR   1000dfec     version:VERSION.dll
+ 0003:00000000       __newmode                  10010000     newmode.obj
+ 0003:0000000c       ??_R0?AVbad_alloc@std@@@8  1001000c     CJMFILE.obj
+ 0003:00000028       ??_R0?AVexception@std@@@8  10010028     CJMFILE.obj
+ 0003:00000044       ??_R0?AVlogic_error@std@@@8 10010044     CJMFILE.obj
+ 0003:00000064       ??_R0?AVlength_error@std@@@8 10010064     CJMFILE.obj
+ 0003:00000084       ??_R0?AVCJMAbstractFile@@@8 10010084     CJMFILE.obj
+ 0003:000000a4       ??_R0?AVCJMFile@@@8        100100a4     CJMFILE.obj
+ 0003:000000bc       ??_R0?AVCJMMemFile@@@8     100100bc     CJMFILE.obj
+ 0003:000000f0       ?szFrustrumnSubSysName@@3PBDB 100100f0     SEFRUST.obj
+ 0003:000000fc       ??_R0?AVout_of_range@std@@@8 100100fc     SEFRUST.obj
+ 0003:00000238       ??_R0?AVCJMFrustrumData@@@8 10010238     SEFRUST.obj
+ 0003:00000258       ??_R0?AUIJMFrustrumData@@@8 10010258     SEFRUST.obj
+ 0003:00000278       ??_R0?AUIUnknown@@@8       10010278     SEFRUST.obj
+ 0003:00000290       ___security_cookie         10010290     MSVCRT:gs_cookie.obj
+ 0003:00000294       ___security_cookie_complement 10010294     MSVCRT:gs_cookie.obj
+ 0003:00000298       ??_R0?AVtype_info@@@8      10010298     MSVCRT:ti_inst.obj
+ 0003:000002b0       ___native_dllmain_reason   100102b0     MSVCRT:natstart.obj
+ 0003:000002b4       ___native_vcclrit_reason   100102b4     MSVCRT:natstart.obj
+ 0003:000002c0       ?parasolid_area@CJMMemBlock@@0HA 100102c0     CJMFILE.obj
+ 0003:000002f0       ?tInitialPartition@@3HA    100102f0     SEFRUST.obj
+ 0003:000002f8       ?m_FileHeader@CJMFrustrumFile@@2VCJMFileHeader@@A 100102f8     SEFRUST.obj
+ 0003:000010bc       ?__type_info_root_node@@3U__type_info_node@@A 100110bc     MSVCRT:tncleanup.obj
+ 0003:000010c4       __adjust_fdiv              100110c4     <common>
+ 0003:000010c8       ___native_startup_state    100110c8     <common>
+ 0003:000010cc       ___native_startup_lock     100110cc     <common>
+ 0003:000010d0       ___dyn_tls_init_callback   100110d0     <common>
+ 0003:000010d4       ___onexitend               100110d4     <common>
+ 0003:000010d8       ___onexitbegin             100110d8     <common>
+
+ entry point at        0001:00009a75
+
+ Static symbols
+
+ 0001:00000f13       __catch$?reserve@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAEXI@Z$0 10001f13 f i CJMFILE.obj
+ 0001:000010bf       __catch$?_Insert_n@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEXV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@IABQAVCJMMemBlock@@@Z$0 100020bf f i CJMFILE.obj
+ 0001:000010cb       __catch$?_Insert_n@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEXV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@IABQAVCJMMemBlock@@@Z$2 100020cb f i CJMFILE.obj
+ 0001:00001540       ?su_P@@YAHPAHHHH@Z         10002540 f   FG.obj
+ 0001:00001540       ?cu_P@@YAHPAHH@Z           10002540 f   FG.obj
+ 0001:00001550       ?cu_dP_dt@@YAHPAHH@Z       10002550 f   FG.obj
+ 0001:00001550       ?su_dP_du@@YAHPAHHHH@Z     10002550 f   FG.obj
+ 0001:00001570       ?su_dP2_du2@@YAHPAHHHH@Z   10002570 f   FG.obj
+ 0001:00001570       ?cu_dP2_dt2@@YAHPAHH@Z     10002570 f   FG.obj
+ 0001:00001590       ?su_dP_dv@@YAHPAHHHH@Z     10002590 f   FG.obj
+ 0001:000015b0       ?su_dP2_dv2@@YAHPAHHHH@Z   100025b0 f   FG.obj
+ 0001:000015e0       ?su_dP2_dudv@@YAHPAHHHH@Z  100025e0 f   FG.obj
+ 0001:00001620       ?su_check_params@@YAHHHHH@Z 10002620 f   FG.obj
+ 0001:00001650       ?cu_check_params@@YAHHH@Z  10002650 f   FG.obj
+ 0001:00001670       ?keycmpu@@YAHPADPBDH@Z     10002670 f   FG.obj
+ 0001:00001710       ?sine@@YAXQAHQAN1PANPAH13@Z 10002710 f   FG.obj
+ 0001:00001820       ?helix@@YAXQAHQAN1PANPAH13@Z 10002820 f   FG.obj
+ 0001:00001940       ?corrugated@@YAXQAHQANPAN22PAH3313@Z 10002940 f   FG.obj
+ 0001:00001af0       ?incline@@YAXQAHQANPAN22PAH3313@Z 10002af0 f   FG.obj
+ 0001:00001c60       ?franke@@YAXPAHPAN111000QAN0@Z 10002c60 f   FG.obj
+ 0001:00003ad0       ?CheckValidFilename@@YAXPADPAH@Z 10004ad0 f   SEFRUST.obj
+ 0001:00003af0       ?FormatString@@YAPADH@Z    10004af0 f   SEFRUST.obj
+ 0001:00003b10       ?GuiseString@@YAPADH@Z     10004b10 f   SEFRUST.obj
+ 0001:00004f70       ?JMGetSchemaPath@@YAJQAD@Z 10005f70 f   SEFRUST.obj
+ 0001:000062d0       ?ExtendSchemaFileName@@YAJPAD@Z 100072d0 f   SEFRUST.obj
+ 0001:00006420       ?TestSchemaPath@@YAJXZ     10007420 f   SEFRUST.obj
+ 0001:000065a8       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHI@2@D@Z$0 100075a8 f i SEFRUST.obj
+ 0001:00006958       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@D@Z$0 10007958 f i SEFRUST.obj
+ 0001:00006a02       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@XZ$0 10007a02 f i SEFRUST.obj
+ 0001:00006ab2       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@XZ$0 10007ab2 f i SEFRUST.obj
+ 0001:00009773       _pre_c_init                1000a773 f   MSVCRT:crtdll.obj
+ 0001:0000995f       ___DllMainCRTStartup       1000a95f f   MSVCRT:crtdll.obj
+ 0001:00009f00       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 1000af00 f   CJMFILE.obj
+ 0001:00009f09       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 1000af09 f   CJMFILE.obj
+ 0001:00009f30       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 1000af30 f   CJMFILE.obj
+ 0001:00009f39       __ehhandler$??1bad_alloc@std@@UAE@XZ 1000af39 f   CJMFILE.obj
+ 0001:00009f60       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 1000af60 f   CJMFILE.obj
+ 0001:00009f69       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 1000af69 f   CJMFILE.obj
+ 0001:00009f90       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000af90 f   CJMFILE.obj
+ 0001:00009f99       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 1000af99 f   CJMFILE.obj
+ 0001:00009fa5       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000afa5 f   CJMFILE.obj
+ 0001:00009fc0       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 1000afc0 f   CJMFILE.obj
+ 0001:00009fc9       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 1000afc9 f   CJMFILE.obj
+ 0001:00009fd5       __ehhandler$??1logic_error@std@@UAE@XZ 1000afd5 f   CJMFILE.obj
+ 0001:00009ff0       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000aff0 f   CJMFILE.obj
+ 0001:00009ff8       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000aff8 f   CJMFILE.obj
+ 0001:0000a020       __unwindfunclet$??1length_error@std@@UAE@XZ$0 1000b020 f   CJMFILE.obj
+ 0001:0000a028       __ehhandler$??1length_error@std@@UAE@XZ 1000b028 f   CJMFILE.obj
+ 0001:0000a050       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 1000b050 f   CJMFILE.obj
+ 0001:0000a058       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 1000b058 f   CJMFILE.obj
+ 0001:0000a080       __unwindfunclet$?_Xlen@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@KAXXZ$0 1000b080 f   CJMFILE.obj
+ 0001:0000a089       __ehhandler$?_Xlen@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@KAXXZ 1000b089 f   CJMFILE.obj
+ 0001:0000a0b0       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 1000b0b0 f   CJMFILE.obj
+ 0001:0000a0b9       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 1000b0b9 f   CJMFILE.obj
+ 0001:0000a0c5       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 1000b0c5 f   CJMFILE.obj
+ 0001:0000a0e0       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 1000b0e0 f   CJMFILE.obj
+ 0001:0000a0e8       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 1000b0e8 f   CJMFILE.obj
+ 0001:0000a110       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 1000b110 f   CJMFILE.obj
+ 0001:0000a119       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 1000b119 f   CJMFILE.obj
+ 0001:0000a140       __unwindfunclet$??0CJMFile@@QAE@XZ$0 1000b140 f   CJMFILE.obj
+ 0001:0000a148       __ehhandler$??0CJMFile@@QAE@XZ 1000b148 f   CJMFILE.obj
+ 0001:0000a170       __unwindfunclet$??1CJMFile@@UAE@XZ$0 1000b170 f   CJMFILE.obj
+ 0001:0000a178       __ehhandler$??1CJMFile@@UAE@XZ 1000b178 f   CJMFILE.obj
+ 0001:0000a1a0       __ehhandler$?reserve@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@QAEXI@Z 1000b1a0 f   CJMFILE.obj
+ 0001:0000a1c0       __ehhandler$?_Insert_n@?$vector@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@std@@IAEXV?$_Vector_iterator@PAVCJMMemBlock@@V?$allocator@PAVCJMMemBlock@@@std@@@2@IABQAVCJMMemBlock@@@Z 1000b1c0 f   CJMFILE.obj
+ 0001:0000a1e0       __unwindfunclet$??0CJMMemFile@@QAE@I@Z$0 1000b1e0 f   CJMFILE.obj
+ 0001:0000a1e8       __unwindfunclet$??0CJMMemFile@@QAE@I@Z$1 1000b1e8 f   CJMFILE.obj
+ 0001:0000a1f3       __ehhandler$??0CJMMemFile@@QAE@I@Z 1000b1f3 f   CJMFILE.obj
+ 0001:0000a210       __unwindfunclet$??1CJMMemFile@@UAE@XZ$0 1000b210 f   CJMFILE.obj
+ 0001:0000a218       __unwindfunclet$??1CJMMemFile@@UAE@XZ$1 1000b218 f   CJMFILE.obj
+ 0001:0000a223       __ehhandler$??1CJMMemFile@@UAE@XZ 1000b223 f   CJMFILE.obj
+ 0001:0000a240       __unwindfunclet$?Write@CJMMemFile@@UAEIPBXI@Z$0 1000b240 f   CJMFILE.obj
+ 0001:0000a24b       __ehhandler$?Write@CJMMemFile@@UAEIPBXI@Z 1000b24b f   CJMFILE.obj
+ 0001:0000a270       __unwindfunclet$?JSM_alloc_in_area@@YAPAXHI@Z$0 1000b270 f   JSM_memory.obj
+ 0001:0000a278       __ehhandler$?JSM_alloc_in_area@@YAPAXHI@Z 1000b278 f   JSM_memory.obj
+ 0001:0000a2a0       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000b2a0 f   SEFRUST.obj
+ 0001:0000a2a8       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000b2a8 f   SEFRUST.obj
+ 0001:0000a2d0       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 1000b2d0 f   SEFRUST.obj
+ 0001:0000a2d8       __ehhandler$??1out_of_range@std@@UAE@XZ 1000b2d8 f   SEFRUST.obj
+ 0001:0000a300       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 1000b300 f   SEFRUST.obj
+ 0001:0000a308       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 1000b308 f   SEFRUST.obj
+ 0001:0000a330       __unwindfunclet$??0CJMDeltaFile@@QAE@HI@Z$0 1000b330 f   SEFRUST.obj
+ 0001:0000a33b       __ehhandler$??0CJMDeltaFile@@QAE@HI@Z 1000b33b f   SEFRUST.obj
+ 0001:0000a360       __unwindfunclet$??1CJMDeltaFile@@QAE@XZ$0 1000b360 f   SEFRUST.obj
+ 0001:0000a36b       __ehhandler$??1CJMDeltaFile@@QAE@XZ 1000b36b f   SEFRUST.obj
+ 0001:0000a390       __unwindfunclet$?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z$17 1000b390 f   SEFRUST.obj
+ 0001:0000a39b       __unwindfunclet$?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z$18 1000b39b f   SEFRUST.obj
+ 0001:0000a3a4       __unwindfunclet$?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z$19 1000b3a4 f   SEFRUST.obj
+ 0001:0000a3ad       __unwindfunclet$?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z$20 1000b3ad f   SEFRUST.obj
+ 0001:0000a3b8       __ehhandler$?Open@CJMFrustrumFile@@QAEHPAUIUnknown@@@Z 1000b3b8 f   SEFRUST.obj
+ 0001:0000a3e0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHI@2@D@Z$2 1000b3e0 f   SEFRUST.obj
+ 0001:0000a3f1       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHI@2@D@Z 1000b3f1 f   SEFRUST.obj
+ 0001:0000a410       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 1000b410 f   SEFRUST.obj
+ 0001:0000a419       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000b419 f   SEFRUST.obj
+ 0001:0000a440       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 1000b440 f   SEFRUST.obj
+ 0001:0000a448       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 1000b448 f   SEFRUST.obj
+ 0001:0000a470       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@D@Z$2 1000b470 f   SEFRUST.obj
+ 0001:0000a481       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@D@Z 1000b481 f   SEFRUST.obj
+ 0001:0000a4a0       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@XZ 1000b4a0 f   SEFRUST.obj
+ 0001:0000a4c0       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@XZ 1000b4c0 f   SEFRUST.obj
+ 0001:0000a4e0       __unwindfunclet$?FrustrumOpenFileForRead@CJMFrustrumData@@QAEXPBH0PBD00PAH2@Z$0 1000b4e0 f   SEFRUST.obj
+ 0001:0000a4ee       __ehhandler$?FrustrumOpenFileForRead@CJMFrustrumData@@QAEXPBH0PBD00PAH2@Z 1000b4ee f   SEFRUST.obj
+ 0001:0000a520       __unwindfunclet$?FrustrumOpenFileForWrite@CJMFrustrumData@@QAEXPBH0PBD010PAH2@Z$0 1000b520 f   SEFRUST.obj
+ 0001:0000a52e       __ehhandler$?FrustrumOpenFileForWrite@CJMFrustrumData@@QAEXPBH0PBD010PAH2@Z 1000b52e f   SEFRUST.obj
+ 0001:0000a560       __unwindfunclet$?FrustrumOpenRollbackFile@CJMFrustrumData@@QAEXPBH00PAH11@Z$0 1000b560 f   SEFRUST.obj
+ 0001:0000a56e       __ehhandler$?FrustrumOpenRollbackFile@CJMFrustrumData@@QAEXPBH00PAH11@Z 1000b56e f   SEFRUST.obj
+ 0001:0000a5a0       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHI@2@@Z$0 1000b5a0 f   SEFRUST.obj
+ 0001:0000a5a9       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHI@2@@Z 1000b5a9 f   SEFRUST.obj
+ 0001:0000a5d0       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@@Z$0 1000b5d0 f   SEFRUST.obj
+ 0001:0000a5d9       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@$0A@@std@@@2@ABU?$pair@$$CBIPAVCJMDeltaFile@@@2@@Z 1000b5d9 f   SEFRUST.obj
+ 0001:0000a600       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 1000b600 f   SEFRUST.obj
+ 0001:0000a609       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000b609 f   SEFRUST.obj
+ 0001:0000a630       __unwindfunclet$??1?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ$0 1000b630 f   SEFRUST.obj
+ 0001:0000a638       __ehhandler$??1?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ 1000b638 f   SEFRUST.obj
+ 0001:0000a660       __unwindfunclet$?DELTA_open_for_write@CJMFrustrumData@@QAEHHPAI@Z$0 1000b660 f   SEFRUST.obj
+ 0001:0000a66b       __ehhandler$?DELTA_open_for_write@CJMFrustrumData@@QAEHHPAI@Z 1000b66b f   SEFRUST.obj
+ 0001:0000a690       __unwindfunclet$??0?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ$0 1000b690 f   SEFRUST.obj
+ 0001:0000a698       __ehhandler$??0?$map@IPAVCJMDeltaFile@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCJMDeltaFile@@@std@@@3@@std@@QAE@XZ 1000b698 f   SEFRUST.obj
+ 0001:0000a6c0       __unwindfunclet$??1?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ$0 1000b6c0 f   SEFRUST.obj
+ 0001:0000a6c8       __ehhandler$??1?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ 1000b6c8 f   SEFRUST.obj
+ 0001:0000a6f0       __unwindfunclet$??1CJMFrustrumData@@QAE@XZ$0 1000b6f0 f   SEFRUST.obj
+ 0001:0000a6fb       __unwindfunclet$??1CJMFrustrumData@@QAE@XZ$1 1000b6fb f   SEFRUST.obj
+ 0001:0000a706       __unwindfunclet$??1CJMFrustrumData@@QAE@XZ$2 1000b706 f   SEFRUST.obj
+ 0001:0000a711       __unwindfunclet$??1CJMFrustrumData@@QAE@XZ$3 1000b711 f   SEFRUST.obj
+ 0001:0000a719       __unwindfunclet$??1CJMFrustrumData@@QAE@XZ$4 1000b719 f   SEFRUST.obj
+ 0001:0000a721       __ehhandler$??1CJMFrustrumData@@QAE@XZ 1000b721 f   SEFRUST.obj
+ 0001:0000a740       __unwindfunclet$??0?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ$0 1000b740 f   SEFRUST.obj
+ 0001:0000a748       __ehhandler$??0?$map@HIU?$less@H@std@@V?$allocator@U?$pair@$$CBHI@std@@@2@@std@@QAE@XZ 1000b748 f   SEFRUST.obj
+ 0001:0000a770       __unwindfunclet$??0CJMFrustrumData@@QAE@XZ$0 1000b770 f   SEFRUST.obj
+ 0001:0000a77b       __unwindfunclet$??0CJMFrustrumData@@QAE@XZ$1 1000b77b f   SEFRUST.obj
+ 0001:0000a786       __unwindfunclet$??0CJMFrustrumData@@QAE@XZ$2 1000b786 f   SEFRUST.obj
+ 0001:0000a791       __ehhandler$??0CJMFrustrumData@@QAE@XZ 1000b791 f   SEFRUST.obj
+ 0001:0000a7b0       ??__EgSEFrustrumData@@YAXXZ 1000b7b0 f   SEFRUST.obj
+ 0001:0000a7d0       ??__E?m_FileHeader@CJMFrustrumFile@@2VCJMFileHeader@@A@@YAXXZ 1000b7d0 f   SEFRUST.obj
+ 0001:0000a7f0       ??__F?m_FileHeader@CJMFrustrumFile@@2VCJMFileHeader@@A@@YAXXZ 1000b7f0 f   SEFRUST.obj
+ 0001:0000a800       ??__FgSEFrustrumData@@YAXXZ 1000b800 f   SEFRUST.obj

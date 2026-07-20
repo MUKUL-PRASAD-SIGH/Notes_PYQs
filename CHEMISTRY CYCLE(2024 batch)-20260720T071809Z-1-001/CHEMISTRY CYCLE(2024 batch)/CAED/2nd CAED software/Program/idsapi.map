@@ -1,0 +1,727 @@
+ idsapi
+
+ Timestamp is 46b3a3b6 (Fri Aug 03 16:52:54 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000058feH .text                   CODE
+ 0001:00005900 00000a85H .text$x                 CODE
+ 0001:00006390 000000f6H .text$yc                CODE
+ 0002:00000000 00000240H .idata$5                DATA
+ 0002:00000240 00000004H .CRT$XCA                DATA
+ 0002:00000244 00000020H .CRT$XCU                DATA
+ 0002:00000264 00000004H .CRT$XCZ                DATA
+ 0002:00000268 00000004H .CRT$XIA                DATA
+ 0002:0000026c 00000004H .CRT$XIAA               DATA
+ 0002:00000270 00000004H .CRT$XIZ                DATA
+ 0002:00000280 000004f8H .rdata                  DATA
+ 0002:00000778 00000030H .rdata$debug            DATA
+ 0002:000007a8 00000318H .rdata$r                DATA
+ 0002:00000ac0 000000b4H .rdata$sxdata           DATA
+ 0002:00000b74 00000004H .rtc$IAA                DATA
+ 0002:00000b78 00000004H .rtc$IZZ                DATA
+ 0002:00000b7c 00000004H .rtc$TAA                DATA
+ 0002:00000b80 00000004H .rtc$TZZ                DATA
+ 0002:00000b88 00000bf4H .xdata$x                DATA
+ 0002:0000177c 000000c8H .idata$2                DATA
+ 0002:00001844 00000014H .idata$3                DATA
+ 0002:00001858 00000240H .idata$4                DATA
+ 0002:00001a98 000010f6H .idata$6                DATA
+ 0002:00002b90 000001abH .edata                  DATA
+ 0003:00000000 000015a8H .data                   DATA
+ 0003:000015a8 000007b4H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000002d       ___safe_se_handler_count   0000002d     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??0bad_alloc@std@@QAE@PBD@Z 10001030 f i CloneIDS.obj
+ 0001:00000090       ??1bad_alloc@std@@UAE@XZ   10001090 f i CloneIDS.obj
+ 0001:000000e0       ??_Gbad_alloc@std@@UAEPAXI@Z 100010e0 f i CloneIDS.obj
+ 0001:000000e0       ??_Ebad_alloc@std@@UAEPAXI@Z 100010e0 f i CloneIDS.obj
+ 0001:00000150       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001150 f i CloneIDS.obj
+ 0001:000001c0       ??1logic_error@std@@UAE@XZ 100011c0 f i CloneIDS.obj
+ 0001:00000220       ?what@logic_error@std@@UBEPBDXZ 10001220 f i CloneIDS.obj
+ 0001:00000230       ??_Elogic_error@std@@UAEPAXI@Z 10001230 f i CloneIDS.obj
+ 0001:00000230       ??_Glogic_error@std@@UAEPAXI@Z 10001230 f i CloneIDS.obj
+ 0001:00000250       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001250 f i CloneIDS.obj
+ 0001:000002b0       ??1length_error@std@@UAE@XZ 100012b0 f i CloneIDS.obj
+ 0001:00000300       ??_Elength_error@std@@UAEPAXI@Z 10001300 f i CloneIDS.obj
+ 0001:00000300       ??_Glength_error@std@@UAEPAXI@Z 10001300 f i CloneIDS.obj
+ 0001:00000360       ?PartNode@IDSTreeWalkClone@@UAEJPAVPartOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?FinishAssembly@TreeWalkCallback@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?OccurrenceNode@TreeWalkCallback@@UAEJPAV0@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?AssemblyNode@TreeWalkCallback@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?StartAssembly@IDSTreeWalkClone@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?StartAssembly@TreeWalkCallback@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000360       ?PartNode@TreeWalkCallback@@UAEJPAVPartOccurrence@@PAVTreeWalkContext@@@Z 10001360 f i CloneIDS.obj
+ 0001:00000370       ??0bad_alloc@std@@QAE@ABV01@@Z 10001370 f i CloneIDS.obj
+ 0001:000003d0       ?_Xlen@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@KAXXZ 100013d0 f i CloneIDS.obj
+ 0001:00000430       ??0logic_error@std@@QAE@ABV01@@Z 10001430 f i CloneIDS.obj
+ 0001:000004a0       ??0length_error@std@@QAE@ABV01@@Z 100014a0 f i CloneIDS.obj
+ 0001:00000500       ?allocate@?$allocator@PAPAVAssemblySite@@@std@@QAEPAPAPAVAssemblySite@@I@Z 10001500 f i CloneIDS.obj
+ 0001:00000550       ?_Tidy@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@IAEXXZ 10001550 f i CloneIDS.obj
+ 0001:000005c0       ??1?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@QAE@XZ 100015c0 f i CloneIDS.obj
+ 0001:000005d0       ??1?$stack@PAVAssemblySite@@V?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@@std@@QAE@XZ 100015d0 f i CloneIDS.obj
+ 0001:00000620       ??1IDSTreeWalkClone@@QAE@XZ 10001620 f i CloneIDS.obj
+ 0001:00000670       ??0IDSTreeWalkClone@@QAE@XZ 10001670 f i CloneIDS.obj
+ 0001:000006d0       ?FinishAssembly@IDSTreeWalkClone@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 100016d0 f i CloneIDS.obj
+ 0001:00000710       ?back@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@QAEAAPAVAssemblySite@@XZ 10001710 f i CloneIDS.obj
+ 0001:00000780       ?_Growmap@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@IAEXI@Z 10001780 f i CloneIDS.obj
+ 0001:000008e0       ?push_back@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@QAEXABQAVAssemblySite@@@Z 100018e0 f i CloneIDS.obj
+ 0001:00000960       ?SetCloneRootSite@IDSTreeWalkClone@@QAEJPBVAssemblySite@@@Z 10001960 f i CloneIDS.obj
+ 0001:00000980       ?AssemblyNode@IDSTreeWalkClone@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10001980 f i CloneIDS.obj
+ 0001:00000ab0       _JCloneIDS@12              10001ab0 f   CloneIDS.obj
+ 0001:00000cd0       ?ServerGetNumberOfObjects@@YAKXZ 10001cd0 f   server.obj
+ 0001:00000ce0       ?ServerGetNumberOfLocks@@YAKXZ 10001ce0 f   server.obj
+ 0001:00000cf0       _DllCanUnloadNow@0         10001cf0 f   server.obj
+ 0001:00000d10       _DllMain@12                10001d10 f   server.obj
+ 0001:00000df0       _IsEqualGUID               10001df0 f i server.obj
+ 0001:00000e90       _DllGetClassObject@12      10001e90 f   server.obj
+ 0001:00000ee0       ??0NameList@@QAE@XZ        10001ee0 f   utilfn.obj
+ 0001:00000ef0       ?GetNameCount@NameList@@QBEIXZ 10001ef0 f   utilfn.obj
+ 0001:00000f00       ?GetName@NameList@@QBEPA_WI@Z 10001f00 f   utilfn.obj
+ 0001:00000f10       ?Purge@NameList@@QAEXXZ    10001f10 f   utilfn.obj
+ 0001:00000f60       ?JGetFileTimeStampEx@@YAJPB_WPAU_FILETIME@@@Z 10001f60 f   utilfn.obj
+ 0001:00000f70       _JGetIDSHandler@12         10001f70 f   utilfn.obj
+ 0001:00001010       ??3@YAXPAX0@Z              10002010 f i utilfn.obj
+ 0001:00001020       _JGetIDSUpdateSites@16     10002020 f   utilfn.obj
+ 0001:00001090       _JSetOccUserName@8         10002090 f   utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJDocumentVersion@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIPersist@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJPropertySetStorage@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJStorageWithParent@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJDocumentStorage@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIPropertySetStorage@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIPersistStorage@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJIDSApi@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJIDSOverrideTree@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010e0       ??1?$TIP@PAUIStorage@@@@QAE@XZ 100020e0 f i utilfn.obj
+ 0001:000010f0       ??4?$TIP@PAU_IJDocument@@@@QAEAAV0@ABQAU_IJDocument@@@Z 100020f0 f i utilfn.obj
+ 0001:000010f0       ??4?$TIP@PAUIStorage@@@@QAEAAV0@ABQAUIStorage@@@Z 100020f0 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIJDocumentStorage@@@@QAEPAPAUIJDocumentStorage@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIJDocumentVersion@@@@QAEPAPAUIJDocumentVersion@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIPersistStorage@@@@QAEPAPAUIPersistStorage@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIJStorageWithParent@@@@QAEPAPAUIJStorageWithParent@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIJPropertySetStorage@@@@QAEPAPAUIJPropertySetStorage@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIJIDSApi@@@@QAEPAPAUIJIDSApi@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIPropertySetStorage@@@@QAEPAPAUIPropertySetStorage@@XZ 10002120 f i utilfn.obj
+ 0001:00001120       ??I?$TIP@PAUIStorage@@@@QAEPAPAUIStorage@@XZ 10002120 f i utilfn.obj
+ 0001:00001140       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10002140 f i utilfn.obj
+ 0001:000011a0       ??1out_of_range@std@@UAE@XZ 100021a0 f i utilfn.obj
+ 0001:000011f0       ??_Eout_of_range@std@@UAEPAXI@Z 100021f0 f i utilfn.obj
+ 0001:000011f0       ??_Gout_of_range@std@@UAEPAXI@Z 100021f0 f i utilfn.obj
+ 0001:00001250       ??0_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@QAE@PAU012@00ABQAVSiteNode@@D@Z 10002250 f i utilfn.obj
+ 0001:00001280       ??$JAddIDSUserData@VAssemblySite@@@@YAJPAVAssemblySite@@KQAUIUnknown@@@Z 10002280 f i utilfn.obj
+ 0001:000012b0       ??$JAddIDSUserData@VAssemblySite@@@@YAJPAVAssemblySite@@KAAU_FILETIME@@@Z 100022b0 f i utilfn.obj
+ 0001:00001300       ??$JGetIDSUserData@VAttachmentNode@@@@YAJPAVAttachmentNode@@KPAPAX@Z 10002300 f i utilfn.obj
+ 0001:00001300       ??$JGetIDSUserData@VAttachmentNode@@@@YAJPAVAttachmentNode@@KPAK@Z 10002300 f i utilfn.obj
+ 0001:00001330       _GetGID_TRANSF             10002330 f i utilfn.obj
+ 0001:000013a0       ??1?$pair@$$CBVGUserFileName@@V1@@std@@QAE@XZ 100023a0 f i utilfn.obj
+ 0001:00001400       ??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABVGUserFileName@@0@Z 10002400 f i utilfn.obj
+ 0001:00001470       ??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABU01@@Z 10002470 f i utilfn.obj
+ 0001:000014e0       ?_Max@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@@Z 100024e0 f i utilfn.obj
+ 0001:00001500       ?_Min@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@@Z 10002500 f i utilfn.obj
+ 0001:00001520       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAEXXZ 10002520 f i utilfn.obj
+ 0001:00001590       ??1NameList@@QAE@XZ        10002590 f   utilfn.obj
+ 0001:000015a0       ?AddName@NameList@@QAEJPB_W@Z 100025a0 f   utilfn.obj
+ 0001:00001ec0       _JBuildIDSHelper@8         10002ec0 f   utilfn.obj
+ 0001:000025a0       ?JOccNameUserDataCleanup@@YAJKPAPAX@Z 100035a0 f   utilfn.obj
+ 0001:00002610       ?OccurrenceNode@ApplyOccurrenceNames@@UAEJPAV0@PAVTreeWalkContext@@@Z 10003610 f i utilfn.obj
+ 0001:00002660       ??$JGetIDSUserData@VSiteNode@@@@YAJPAVSiteNode@@KPAPAX@Z 10003660 f i utilfn.obj
+ 0001:00002660       ??$JGetIDSUserData@VPartSite@@@@YAJPAVPartSite@@KPAK@Z 10003660 f i utilfn.obj
+ 0001:00002660       ??$JGetIDSUserData@VAssemblySite@@@@YAJPAVAssemblySite@@KPAK@Z 10003660 f i utilfn.obj
+ 0001:00002690       ?FinishAssembly@ApplyIOTs@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10003690 f i utilfn.obj
+ 0001:000027b0       _JCheckIDSInternalConsistency@16 100037b0 f   utilfn.obj
+ 0001:000028b0       _JRefreshFilePropertiesUserData@4 100038b0 f   utilfn.obj
+ 0001:00002b10       ?_Lrotate@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@@Z 10003b10 f i utilfn.obj
+ 0001:00002b60       ?_Rrotate@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@@Z 10003b60 f i utilfn.obj
+ 0001:00002bc0       ?construct@?$allocator@PAVSiteNode@@@std@@QAEXPAPAVSiteNode@@ABQAV3@@Z 10003bc0 f i utilfn.obj
+ 0001:00002be0       ?_Dec@const_iterator@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@QAEXXZ 10003be0 f i utilfn.obj
+ 0001:00002c70       ?_Lbound@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@ABVGUserFileName@@@Z 10003c70 f i utilfn.obj
+ 0001:00002cd0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z 10003cd0 f i utilfn.obj
+ 0001:00002d20       ?_Rrotate@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z 10003d20 f i utilfn.obj
+ 0001:00002d80       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAEXXZ 10003d80 f i utilfn.obj
+ 0001:00002e10       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z 10003e10 f i utilfn.obj
+ 0001:00002e90       _JUpdateIDS@8              10003e90 f   utilfn.obj
+ 0001:000030e0       ?_Buynode@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEPAU_Node@?$_List_nod@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@2@PAU342@0ABQAVSiteNode@@@Z 100040e0 f i utilfn.obj
+ 0001:00003190       ?_Incsize@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEXI@Z 10004190 f i utilfn.obj
+ 0001:00003220       ?_Buynode@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@PAU342@00ABQAVSiteNode@@D@Z 10004220 f i utilfn.obj
+ 0001:000032c0       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z 100042c0 f i utilfn.obj
+ 0001:00003360       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@XZ 10004360 f i utilfn.obj
+ 0001:00003410       ?remove@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@QAEXABQAVSiteNode@@@Z 10004410 f i utilfn.obj
+ 0001:000034a0       ?_Insert@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@ABQAVSiteNode@@@Z 100044a0 f i utilfn.obj
+ 0001:00003680       ?find@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@ABVGUserFileName@@@Z 10004680 f i utilfn.obj
+ 0001:00003700       ?_Insert@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@ABU?$pair@$$CBVGUserFileName@@V1@@2@@Z 10004700 f i utilfn.obj
+ 0001:000038e0       ?insert@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@_N@2@ABQAVSiteNode@@@Z 100048e0 f i utilfn.obj
+ 0001:000039a0       ?insert@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBVGUserFileName@@V1@@2@@Z 100049a0 f i utilfn.obj
+ 0001:00003ab0       ?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10004ab0 f i utilfn.obj
+ 0001:00003d90       ??0out_of_range@std@@QAE@ABV01@@Z 10004d90 f i utilfn.obj
+ 0001:00003df0       ?_Erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z 10004df0 f i utilfn.obj
+ 0001:00003e90       ?StartAssembly@CJIDSGetUpdateSites@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10004e90 f i utilfn.obj
+ 0001:00003fd0       ?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10004fd0 f i utilfn.obj
+ 0001:000040a0       ??1?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE@XZ 100050a0 f i utilfn.obj
+ 0001:000040e0       ??1?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ 100050e0 f i utilfn.obj
+ 0001:00004150       ??0?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ 10005150 f i utilfn.obj
+ 0001:00004a70       _JBuildIDS@12              10005a70 f   utilfn.obj
+ 0001:00004f4c       ?CreateAsmTree@@YAJPAPAVAsmTree@@PAVJProgress@@@Z 10005f4c f   asmds:asmds.dll
+ 0001:00004f52       ?DeleteAsmTree@@YAJPAVAsmTree@@@Z 10005f52 f   asmds:asmds.dll
+ 0001:00004f58       ?RemoveUserDataCleanupFunction@@YAJP6AJKPAPAX@Z@Z 10005f58 f   asmds:asmds.dll
+ 0001:00004f5e       ?AddUserDataCleanupFunction@@YAJP6AJKPAPAX@Z@Z 10005f5e f   asmds:asmds.dll
+ 0001:00004f64       _CreateCachedPropertySetStorage@4 10005f64 f   jdchlp:jdchlp.dll
+ 0001:00004f6a       ?IsFileFamilyByDocument@@YAJPAUIUnknown@@PAH@Z 10005f6a f   jengine:jengine.dll
+ 0001:00004f70       _JGetDocBuildVersionFromStg 10005f70 f   jengine:jengine.dll
+ 0001:00004f76       _JGetDocumentIfOpen@12     10005f76 f   jengine:jengine.dll
+ 0001:00004f7c       _HRerrEx                   10005f7c f   jutil:JUtil.dll
+ 0001:00004f82       _JCoCreateInstance         10005f82 f   jutil:JUtil.dll
+ 0001:00004f88       _JStgOpenStorage           10005f88 f   jutil:JUtil.dll
+ 0001:00004f8e       ?GetMasterStorageByStorage@@YAJPAUIStorage@@KPAPAU1@@Z 10005f8e f   jutil:JUtil.dll
+ 0001:00004f94       ?GetFamilySeedNameByStorage@@YAJPAUIStorage@@PA_WI@Z 10005f94 f   jutil:JUtil.dll
+ 0001:00004f9a       ?IsFileFamilyByStorage@@YAJPAUIStorage@@PAH@Z 10005f9a f   jutil:JUtil.dll
+ 0001:00004fa0       ?IsFileFamilyByPath@@YAJPB_WPAH@Z 10005fa0 f   jutil:JUtil.dll
+ 0001:00004fa6       ?JIUnknownUserDataCleanup@@YAJKPAPAX@Z 10005fa6 f   liteidsapi:liteidsapi.dll
+ 0001:00004fac       ?JClsidUserDataCleanup@@YAJKPAPAX@Z 10005fac f   liteidsapi:liteidsapi.dll
+ 0001:00004fb2       ?JGetFileTimeStampLite@@YAJPB_WPAU_FILETIME@@@Z 10005fb2 f   liteidsapi:liteidsapi.dll
+ 0001:00004fb8       ?CacheFilePropertiesFromStorage@@YAJQAUIStorage@@QAVAssemblySite@@@Z 10005fb8 f   liteidsapi:liteidsapi.dll
+ 0001:00004fbe       _JFile_ProcessNewFilesCreateOnDisk@8 10005fbe f   rfmssvs:RFMSsvs.dll
+ 0001:00004fc4       ?JRFMS_ManagedOrUnmanagedFileExists@@YAHAAVGUserText@@@Z 10005fc4 f   rfmssvs:RFMSsvs.dll
+ 0001:00004fca       ?JRFMS_IsValidSharePointFile@@YAHAAVGUserText@@PAV1@@Z 10005fca f   rfmssvs:RFMSsvs.dll
+ 0001:00004fd0       _malloc                    10005fd0 f   MSVCRT:MSVCR80.dll
+ 0001:00004fd6       __callnewh                 10005fd6 f   MSVCRT:MSVCR80.dll
+ 0001:00004fdc       ??_Etype_info@@UAEPAXI@Z   10005fdc f i MSVCRT:ti_inst.obj
+ 0001:00005026       ??3@YAXPAX@Z               10006026 f   MSVCRT:MSVCR80.dll
+ 0001:0000502c       ___CxxFrameHandler3        1000602c f   MSVCRT:MSVCR80.dll
+ 0001:00005032       @__security_check_cookie@4 10006032 f   MSVCRT:secchk.obj
+ 0001:00005042       ?what@exception@std@@UBEPBDXZ 10006042 f   MSVCRT:MSVCR80.dll
+ 0001:00005048       __CxxThrowException@8      10006048 f   MSVCRT:MSVCR80.dll
+ 0001:0000504e       ??0exception@std@@QAE@ABV01@@Z 1000604e f   MSVCRT:MSVCR80.dll
+ 0001:00005060       _memset                    10006060 f   MSVCRT:MSVCR80.dll
+ 0001:00005070       __alloca_probe             10006070     MSVCRT:chkstk.obj
+ 0001:00005070       __chkstk                   10006070 f   MSVCRT:chkstk.obj
+ 0001:000050a0       __alloca_probe_16          100060a0 f   MSVCRT:alloca16.obj
+ 0001:000050b6       __alloca_probe_8           100060b6     MSVCRT:alloca16.obj
+ 0001:00005119       __CRT_INIT@12              10006119 f   MSVCRT:crtdll.obj
+ 0001:000053ce       __DllMainCRTStartup@12     100063ce f   MSVCRT:crtdll.obj
+ 0001:000053ef       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 100063ef f   MSVCRT:ehvecdtr.obj
+ 0001:0000544d       ??_M@YGXPAXIHP6EX0@Z@Z     1000644d f   MSVCRT:ehvecdtr.obj
+ 0001:000054b0       ___report_gsfailure        100064b0 f   MSVCRT:gs_report.obj
+ 0001:000055b4       ___clean_type_info_names   100065b4 f   MSVCRT:tncleanup.obj
+ 0001:000055c0       __onexit                   100065c0 f   MSVCRT:atonexit.obj
+ 0001:0000565f       _atexit                    1000665f f   MSVCRT:atonexit.obj
+ 0001:00005671       __RTC_Initialize           10006671 f   MSVCRT:initsect.obj
+ 0001:00005695       __RTC_Terminate            10006695 f   MSVCRT:initsect.obj
+ 0001:000056c0       __ValidateImageBase        100066c0 f   MSVCRT:pesect.obj
+ 0001:000056f0       __FindPESection            100066f0 f   MSVCRT:pesect.obj
+ 0001:00005732       __IsNonwritableInCurrentImage 10006732 f   MSVCRT:pesect.obj
+ 0001:0000579e       __initterm                 1000679e f   MSVCRT:MSVCR80.dll
+ 0001:000057a4       __initterm_e               100067a4 f   MSVCRT:MSVCR80.dll
+ 0001:000057aa       __amsg_exit                100067aa f   MSVCRT:MSVCR80.dll
+ 0001:000057b0       ___CppXcptFilter           100067b0 f   MSVCRT:MSVCR80.dll
+ 0001:000057b8       __SEH_prolog4              100067b8 f   MSVCRT:sehprolg4.obj
+ 0001:000057fd       __SEH_epilog4              100067fd f   MSVCRT:sehprolg4.obj
+ 0001:00005811       __except_handler4          10006811 f   MSVCRT:chandler4gs.obj
+ 0001:00005834       ___security_init_cookie    10006834 f   MSVCRT:gs_support.obj
+ 0001:000058c8       ?terminate@@YAXXZ          100068c8 f   MSVCRT:MSVCR80.dll
+ 0001:000058ce       ??1type_info@@UAE@XZ       100068ce f   MSVCRT:MSVCR80.dll
+ 0001:000058ce       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 100068ce f   MSVCRT:MSVCR80.dll
+ 0001:000058d4       __crt_debugger_hook        100068d4 f   MSVCRT:MSVCR80.dll
+ 0001:000058da       ___clean_type_info_names_internal 100068da f   MSVCRT:MSVCR80.dll
+ 0001:000058e0       __unlock                   100068e0 f   MSVCRT:MSVCR80.dll
+ 0001:000058e6       ___dllonexit               100068e6 f   MSVCRT:MSVCR80.dll
+ 0001:000058ec       __lock                     100068ec f   MSVCRT:MSVCR80.dll
+ 0001:000058f2       __except_handler4_common   100068f2 f   MSVCRT:MSVCR80.dll
+ 0001:000058f8       _JGetForeignLinkInfoFromLinkStorage@16 100068f8 f   liteidsapi:liteidsapi.dll
+ 0002:00000000       __imp_?ReverseFind@GUserText@@QBEHPBDI@Z 10008000     jutil:JUtil.dll
+ 0002:00000004       __imp_?GetNumChars@GUserText@@QBEHXZ 10008004     jutil:JUtil.dll
+ 0002:00000008       __imp_?IsFileFamilyByPath@@YAJPB_WPAH@Z 10008008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??4GUserText@@QAEAAV0@PB_W@Z 1000800c     jutil:JUtil.dll
+ 0002:00000010       __imp_??0GUserFileName@@QAE@ABVGUserText@@@Z 10008010     jutil:JUtil.dll
+ 0002:00000014       __imp_??0GUserText@@QAE@PB_WHH@Z 10008014     jutil:JUtil.dll
+ 0002:00000018       __imp_?ReverseFind@GUserText@@QBEHV1@@Z 10008018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?Left@GUserText@@QBE?AV1@H@Z 1000801c     jutil:JUtil.dll
+ 0002:00000020       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10008020     jutil:JUtil.dll
+ 0002:00000024       __imp_?Right@GUserText@@QBE?AV1@H@Z 10008024     jutil:JUtil.dll
+ 0002:00000028       __imp_??H@YA?AVGUserText@@ABV0@0@Z 10008028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??YGUserText@@QAEAAV0@ABV0@@Z 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_??0GUserText@@QAE@XZ 10008030     jutil:JUtil.dll
+ 0002:00000034       __imp_??4GUserText@@QAEAAV0@PBD@Z 10008034     jutil:JUtil.dll
+ 0002:00000038       __imp_?IsFileFamilyByStorage@@YAJPAUIStorage@@PAH@Z 10008038     jutil:JUtil.dll
+ 0002:0000003c       __imp_?GetFamilySeedNameByStorage@@YAJPAUIStorage@@PA_WI@Z 1000803c     jutil:JUtil.dll
+ 0002:00000040       __imp_??YGUserText@@QAEAAV0@PB_W@Z 10008040     jutil:JUtil.dll
+ 0002:00000044       __imp_??BGUserText@@QBEPBDXZ 10008044     jutil:JUtil.dll
+ 0002:00000048       __imp_??0GUserText@@QAE@PBDHI@Z 10008048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?GetMasterStorageByStorage@@YAJPAUIStorage@@KPAPAU1@@Z 1000804c     jutil:JUtil.dll
+ 0002:00000050       __imp__JStgOpenStorage     10008050     jutil:JUtil.dll
+ 0002:00000054       __imp_??0GUserFileName@@QAE@ABV0@@Z 10008054     jutil:JUtil.dll
+ 0002:00000058       __imp_??1GUserFileName@@QAE@XZ 10008058     jutil:JUtil.dll
+ 0002:0000005c       __imp_??BGUserText@@QBEPB_WXZ 1000805c     jutil:JUtil.dll
+ 0002:00000060       __imp_??1GUserText@@QAE@XZ 10008060     jutil:JUtil.dll
+ 0002:00000064       __imp__JCoCreateInstance   10008064     jutil:JUtil.dll
+ 0002:00000068       __imp__HRerrEx             10008068     jutil:JUtil.dll
+ 0002:0000006c       \177JUtil_NULL_THUNK_DATA  1000806c     jutil:JUtil.dll
+ 0002:00000070       __imp__InterlockedExchange@8 10008070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__Sleep@4             10008074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetModuleHandleA@4  10008078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__FileTimeToDosDateTime@12 1000807c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__QueryPerformanceCounter@4 10008080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__InterlockedCompareExchange@12 10008084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__TerminateProcess@8  10008088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetCurrentProcess@0 1000808c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__UnhandledExceptionFilter@4 10008090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetUnhandledExceptionFilter@4 10008094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetTickCount@0      10008098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__GetSystemTimeAsFileTime@4 1000809c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetCurrentProcessId@0 100080a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetCurrentThreadId@0 100080a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__IsDebuggerPresent@0 100080a8     kernel32:KERNEL32.dll
+ 0002:000000ac       \177KERNEL32_NULL_THUNK_DATA 100080ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 100080b0     msvcprt:MSVCP80.dll
+ 0002:000000b4       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 100080b4     msvcprt:MSVCP80.dll
+ 0002:000000b8       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 100080b8     msvcprt:MSVCP80.dll
+ 0002:000000bc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 100080bc     msvcprt:MSVCP80.dll
+ 0002:000000c0       \177MSVCP80_NULL_THUNK_DATA 100080c0     msvcprt:MSVCP80.dll
+ 0002:000000c4       __imp___decode_pointer     100080c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___encoded_null       100080c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___malloc_crt         100080cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___encode_pointer     100080d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___wstat64i32         100080d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__memset              100080d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__wcsstr              100080dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___initterm           100080e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___wcsicmp            100080e4     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__wcsicmp             100080e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp__free                100080e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___invalid_parameter_noinfo 100080ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__memmove_s           100080f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp_??0exception@std@@QAE@XZ 100080f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp_??0exception@std@@QAE@ABV01@@Z 100080f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___CxxThrowException@8 100080fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp_?what@exception@std@@UBEPBDXZ 10008100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp____CxxFrameHandler3  10008104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp_??0exception@std@@QAE@ABQBD@Z 10008108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp_??1exception@std@@UAE@XZ 1000810c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp_??3@YAXPAX@Z         10008110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___callnewh           10008114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp__malloc              10008118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___initterm_e         1000811c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___amsg_exit          10008120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___adjust_fdiv        10008124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp____CppXcptFilter     10008128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp_?terminate@@YAXXZ    1000812c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10008130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___crt_debugger_hook  10008134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp____clean_type_info_names_internal 10008138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___unlock             1000813c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp____dllonexit         10008140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp___lock               10008144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp___onexit             10008148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp__realloc             1000814c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp___except_handler4_common 10008150     MSVCRT:MSVCR80.dll
+ 0002:00000154       \177MSVCR80_NULL_THUNK_DATA 10008154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp_?JRFMS_ManagedOrUnmanagedFileExists@@YAHAAVGUserText@@@Z 10008158     rfmssvs:RFMSsvs.dll
+ 0002:0000015c       __imp__JFile_ProcessNewFilesCreateOnDisk@8 1000815c     rfmssvs:RFMSsvs.dll
+ 0002:00000160       __imp_?JRFMS_IsValidSharePointFile@@YAHAAVGUserText@@PAV1@@Z 10008160     rfmssvs:RFMSsvs.dll
+ 0002:00000164       \177RFMSsvs_NULL_THUNK_DATA 10008164     rfmssvs:RFMSsvs.dll
+ 0002:00000168       __imp_?GetSite@OccurrenceNode@@QBEPAVSiteNode@@XZ 10008168     asmds:asmds.dll
+ 0002:0000016c       __imp_?GetFlags@SiteNode@@QBEKXZ 1000816c     asmds:asmds.dll
+ 0002:00000170       __imp_?CreateAndAddAttachment@AssemblySite@@QAEJPBDKKPAUtagG4x4@@PAPAVAttachmentNode@@PAHQAV?$NodeList@VOccurrenceNode@@@@@Z 10008170     asmds:asmds.dll
+ 0002:00000174       __imp_?GetFilePath@SiteNode@@QBEPBDXZ 10008174     asmds:asmds.dll
+ 0002:00000178       __imp_?GetAttachmentID@AttachmentNode@@QBEKXZ 10008178     asmds:asmds.dll
+ 0002:0000017c       __imp_?GetSymbology@AttachmentNode@@QBEKXZ 1000817c     asmds:asmds.dll
+ 0002:00000180       __imp_?GiveAsG4x4@AttachmentMatrix@@QBEPBUtagG4x4@@XZ 10008180     asmds:asmds.dll
+ 0002:00000184       __imp_?GetXFormFromParent@AttachmentNode@@QBEPBVAttachmentMatrix@@XZ 10008184     asmds:asmds.dll
+ 0002:00000188       __imp_?GetAttachmentSite@AttachmentNode@@QBEPAVSiteNode@@XZ 10008188     asmds:asmds.dll
+ 0002:0000018c       __imp_?GetAttachment@OccurrenceNode@@QBEPBVAttachmentNode@@XZ 1000818c     asmds:asmds.dll
+ 0002:00000190       __imp_?CreatePartSite@AsmTree@@QAEJPBDKPAPAVPartSite@@@Z 10008190     asmds:asmds.dll
+ 0002:00000194       __imp_?CreateOccurrenceTree@AsmTree@@QAEJPAVAssemblySite@@@Z 10008194     asmds:asmds.dll
+ 0002:00000198       __imp_?Walk@AssemblyOccurrence@@QAEJPAVTreeWalkCallback@@PAXH@Z 10008198     asmds:asmds.dll
+ 0002:0000019c       __imp_?CreateAssemblySite@AsmTree@@QAEJPBDKPAPAVAssemblySite@@@Z 1000819c     asmds:asmds.dll
+ 0002:000001a0       __imp_?CreateAsmTree@@YAJPAPAVAsmTree@@PAVJProgress@@@Z 100081a0     asmds:asmds.dll
+ 0002:000001a4       __imp_?DeleteAsmTree@@YAJPAVAsmTree@@@Z 100081a4     asmds:asmds.dll
+ 0002:000001a8       __imp_?RemoveUserDataCleanupFunction@@YAJP6AJKPAPAX@Z@Z 100081a8     asmds:asmds.dll
+ 0002:000001ac       __imp_?AddUserDataCleanupFunction@@YAJP6AJKPAPAX@Z@Z 100081ac     asmds:asmds.dll
+ 0002:000001b0       __imp_?SetUserName@OccurrenceNode@@QAEJPBD@Z 100081b0     asmds:asmds.dll
+ 0002:000001b4       __imp_?AddUserData@SiteNode@@QAEJKPAX@Z 100081b4     asmds:asmds.dll
+ 0002:000001b8       __imp_?GetUserData@SiteNode@@QAEPAXKPAH@Z 100081b8     asmds:asmds.dll
+ 0002:000001bc       __imp_?GetUserData@AttachmentNode@@QAEPAXKPAH@Z 100081bc     asmds:asmds.dll
+ 0002:000001c0       __imp_?SetFlags@SiteNode@@QAEJK@Z 100081c0     asmds:asmds.dll
+ 0002:000001c4       __imp_?SetFilePath@SiteNode@@QAEXPBD@Z 100081c4     asmds:asmds.dll
+ 0002:000001c8       __imp_?GetWritableAttachment@OccurrenceNode@@QBEPAVAttachmentNode@@XZ 100081c8     asmds:asmds.dll
+ 0002:000001cc       __imp_?Apply@JIDSOverrideTree@@QAEJPAUIJStyleLibrary@@PAVAssemblyOccurrence@@K@Z 100081cc     asmds:asmds.dll
+ 0002:000001d0       __imp_?RemoveUserData@SiteNode@@QAEJK@Z 100081d0     asmds:asmds.dll
+ 0002:000001d4       __imp_?GetChildByIndex@AssemblyOccurrence@@QAEPAVOccurrenceNode@@K@Z 100081d4     asmds:asmds.dll
+ 0002:000001d8       __imp_?SetOverrideTrackingMode@AsmTree@@QAEX_N@Z 100081d8     asmds:asmds.dll
+ 0002:000001dc       __imp_?Walk@AsmTree@@QAEJPAVTreeWalkCallback@@PAXH@Z 100081dc     asmds:asmds.dll
+ 0002:000001e0       __imp_?CreateAssemblySiteNoCheck@AsmTree@@QAEJPBDKPAPAVAssemblySite@@@Z 100081e0     asmds:asmds.dll
+ 0002:000001e4       __imp_??4AttachmentMatrix@@QAEAAV0@ABUtagGTransf@@@Z 100081e4     asmds:asmds.dll
+ 0002:000001e8       __imp_?AddAttachments@AssemblySite@@QAEJKPBUAttachmentBundle@@QAPAVAttachmentNode@@@Z 100081e8     asmds:asmds.dll
+ 0002:000001ec       __imp_?GetPartSiteManager@AsmTree@@QBEPAVSiteManager@@XZ 100081ec     asmds:asmds.dll
+ 0002:000001f0       __imp_?RewindIterator@?$NodeManager@VSiteNode@@K@@QAEXXZ 100081f0     asmds:asmds.dll
+ 0002:000001f4       __imp_?GetNextNode@?$NodeManager@VSiteNode@@K@@QAEPAVSiteNode@@XZ 100081f4     asmds:asmds.dll
+ 0002:000001f8       __imp_?GetAssemblySiteManager@AsmTree@@QBEPAVSiteManager@@XZ 100081f8     asmds:asmds.dll
+ 0002:000001fc       __imp_?FindSite@AsmTree@@QBEJPBDPAPAVSiteNode@@@Z 100081fc     asmds:asmds.dll
+ 0002:00000200       __imp_?GetChildCount@AssemblyOccurrence@@QAEKXZ 10008200     asmds:asmds.dll
+ 0002:00000204       \177asmds_NULL_THUNK_DATA  10008204     asmds:asmds.dll
+ 0002:00000208       __imp__CreateCachedPropertySetStorage@4 10008208     jdchlp:jdchlp.dll
+ 0002:0000020c       \177jdchlp_NULL_THUNK_DATA 1000820c     jdchlp:jdchlp.dll
+ 0002:00000210       __imp_?IsFileFamilyByDocument@@YAJPAUIUnknown@@PAH@Z 10008210     jengine:jengine.dll
+ 0002:00000214       __imp__JGetDocBuildVersionFromStg 10008214     jengine:jengine.dll
+ 0002:00000218       __imp__JGetDocumentIfOpen@12 10008218     jengine:jengine.dll
+ 0002:0000021c       \177jengine_NULL_THUNK_DATA 1000821c     jengine:jengine.dll
+ 0002:00000220       __imp__JGetForeignLinkInfoFromLinkStorage@16 10008220     liteidsapi:liteidsapi.dll
+ 0002:00000224       __imp_?JGetFileTimeStampLite@@YAJPB_WPAU_FILETIME@@@Z 10008224     liteidsapi:liteidsapi.dll
+ 0002:00000228       __imp_?CacheFilePropertiesFromStorage@@YAJQAUIStorage@@QAVAssemblySite@@@Z 10008228     liteidsapi:liteidsapi.dll
+ 0002:0000022c       __imp_?JIUnknownUserDataCleanup@@YAJKPAPAX@Z 1000822c     liteidsapi:liteidsapi.dll
+ 0002:00000230       __imp_?JClsidUserDataCleanup@@YAJKPAPAX@Z 10008230     liteidsapi:liteidsapi.dll
+ 0002:00000234       \177liteidsapi_NULL_THUNK_DATA 10008234     liteidsapi:liteidsapi.dll
+ 0002:00000238       __imp__JCoTaskMemFree@4    10008238     sealloc:sealloc.dll
+ 0002:0000023c       \177sealloc_NULL_THUNK_DATA 1000823c     sealloc:sealloc.dll
+ 0002:00000240       ___xc_a                    10008240     MSVCRT:cinitexe.obj
+ 0002:00000264       ___xc_z                    10008264     MSVCRT:cinitexe.obj
+ 0002:00000268       ___xi_a                    10008268     MSVCRT:cinitexe.obj
+ 0002:00000270       ___xi_z                    10008270     MSVCRT:cinitexe.obj
+ 0002:0000029c       _IID_IJIDSApi              1000829c     CloneIDS.obj
+ 0002:000002ac       _CLSID_JAsmIDSHandler      100082ac     CloneIDS.obj
+ 0002:000002bc       _CLSID_JForeignFileIDSHandler 100082bc     CloneIDS.obj
+ 0002:000002cc       _CLSID_JPartIDSHandler     100082cc     CloneIDS.obj
+ 0002:000002dc       _CLSID_JDraftIDSHandler    100082dc     CloneIDS.obj
+ 0002:000002ec       _CLSID_JAsmLiteIDSHandler  100082ec     CloneIDS.obj
+ 0002:000002fc       _CLSID_JGenLinkIDSHandler  100082fc     CloneIDS.obj
+ 0002:00000310       ??_7bad_alloc@std@@6B@     10008310     CloneIDS.obj
+ 0002:0000031c       ??_7logic_error@std@@6B@   1000831c     CloneIDS.obj
+ 0002:00000328       ??_7length_error@std@@6B@  10008328     CloneIDS.obj
+ 0002:00000330       ??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@ 10008330     CloneIDS.obj
+ 0002:00000348       ??_7IDSTreeWalkClone@@6B@  10008348     CloneIDS.obj
+ 0002:0000035c       ??_C@_0P@FHKNOEKC@?4?2CloneIDS?4cpp?$AA@ 1000835c     CloneIDS.obj
+ 0002:0000036c       ??_C@_0BP@EAJIDHMD@IDSTreeWalkClone?3?3AssemblyNode?$AA@ 1000836c     CloneIDS.obj
+ 0002:0000038c       ??_C@_09OLHNBMPB@JCloneIDS?$AA@ 1000838c     CloneIDS.obj
+ 0002:00000398       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 10008398     guid.obj
+ 0002:000003b0       _IID_IJPersistManager      100083b0     guid.obj
+ 0002:000003c0       _CLSID_DraftDocument       100083c0     guid.obj
+ 0002:000003d0       _CLSID_PartDocument        100083d0     guid.obj
+ 0002:000003e0       _CLSID_AssemblyDocument    100083e0     guid.obj
+ 0002:000003f0       _CLSID_SheetMetalDocument  100083f0     guid.obj
+ 0002:00000400       _CLSID_WeldmentDocument    10008400     guid.obj
+ 0002:00000410       _CLSID_FamilyOfAssembliesDocument 10008410     guid.obj
+ 0002:00000420       _IID_IJDocument            10008420     guid.obj
+ 0002:00000430       _IID_IJPropertySetStorage  10008430     guid.obj
+ 0002:00000440       _IID_IJDocumentStorage     10008440     guid.obj
+ 0002:00000450       _IID_IJStorageWithParent   10008450     guid.obj
+ 0002:00000460       _IID_IJIDSOverrideTree     10008460     guid.obj
+ 0002:00000470       _IID_IJDocumentVersion     10008470     guid.obj
+ 0002:00000480       ??_C@_0N@NHMOHGJB@?4?2server?4cpp?$AA@ 10008480     server.obj
+ 0002:00000490       ??_C@_09BAOPECPK@asmds?4dll?$AA@ 10008490     server.obj
+ 0002:0000049c       ??_C@_07JLKLLPCJ@DllMain?$AA@ 1000849c     server.obj
+ 0002:000004ac       ??_C@_0N@HBAFHPDG@?4?2utilfn?4cpp?$AA@ 100084ac     utilfn.obj
+ 0002:000004bc       ??_C@_0P@EPKHPCCN@JGetIDSHandler?$AA@ 100084bc     utilfn.obj
+ 0002:000004d0       ??_7CJIDSGetUpdateSites@@6B@ 100084d0     utilfn.obj
+ 0002:000004e4       ??_C@_0BD@BKJIHJOJ@JGetIDSUpdateSites?$AA@ 100084e4     utilfn.obj
+ 0002:000004f8       ??_C@_0BA@CMONAKLH@JSetOccUserName?$AA@ 100084f8     utilfn.obj
+ 0002:0000050c       ??_7out_of_range@std@@6B@  1000850c     utilfn.obj
+ 0002:00000514       ??_C@_0BC@IAAJDABE@NameList?3?3AddName?$AA@ 10008514     utilfn.obj
+ 0002:00000528       ??_C@_1BA@OPIJHNMA@?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AA?$AB?$AA?$AA@ 10008528     utilfn.obj
+ 0002:00000538       ??_C@_0BL@KGBKJKIC@GetFamilyMemberNamesByPath?$AA@ 10008538     utilfn.obj
+ 0002:00000554       ??_C@_0CE@DGJLMOEK@CacheFilePropertiesFromDocOrStor@ 10008554     utilfn.obj
+ 0002:00000578       ??_C@_13MGDFOILI@?$AA?$CB?$AA?$AA@ 10008578     utilfn.obj
+ 0002:0000057c       ??_C@_0BA@PAEGPMOB@JBuildIDSHelper?$AA@ 1000857c     utilfn.obj
+ 0002:0000058c       ??_C@_0BI@LCCEMOGJ@JOccNameUserDataCleanup?$AA@ 1000858c     utilfn.obj
+ 0002:000005a8       ??_7ApplyOccurrenceNames@@6B@ 100085a8     utilfn.obj
+ 0002:000005c0       ??_7ApplyIOTs@@6B@         100085c0     utilfn.obj
+ 0002:000005d4       ??_C@_0BN@EEAKBCDM@JCheckIDSInternalConsistency?$AA@ 100085d4     utilfn.obj
+ 0002:000005f4       ??_C@_0BP@PPHDDLAP@JRefreshFilePropertiesUserData?$AA@ 100085f4     utilfn.obj
+ 0002:00000614       ??_C@_0L@LHBJODGH@JUpdateIDS?$AA@ 10008614     utilfn.obj
+ 0002:00000620       ??_C@_0BB@MOGOBHAF@list?$DMT?$DO?5too?5long?$AA@ 10008620     utilfn.obj
+ 0002:00000634       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 10008634     utilfn.obj
+ 0002:00000648       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 10008648     utilfn.obj
+ 0002:00000664       ??_C@_0DC@PIMJNFAH@Failed?5to?5create?5new?5local?5file?5@ 10008664     utilfn.obj
+ 0002:00000698       ??_C@_0BN@LPKHCFFC@JAsmProcessNewFilesForCreate?$AA@ 10008698     utilfn.obj
+ 0002:000006b8       ??_C@_01LFCBOECM@?4?$AA@   100086b8     utilfn.obj
+ 0002:000006bc       ??_C@_09IMIKJPDD@JBuildIDS?$AA@ 100086bc     utilfn.obj
+ 0002:000006c8       _IID_IClassFactory         100086c8     uuid:unknwn_i.obj
+ 0002:000006d8       _IID_IUnknown              100086d8     uuid:unknwn_i.obj
+ 0002:000006e8       _IID_IPersistStorage       100086e8     uuid:objidl_i.obj
+ 0002:000006f8       _IID_IPersist              100086f8     uuid:objidl_i.obj
+ 0002:00000708       _GUID_NULL                 10008708     uuid:cguid_i.obj
+ 0002:0000071c       ??_7type_info@@6B@         1000871c     MSVCRT:ti_inst.obj
+ 0002:00000720       __pRawDllMain              10008720     MSVCRT:crtdll.obj
+ 0002:00000720       __pDefaultRawDllMain       10008720     MSVCRT:crtdll.obj
+ 0002:00000730       __load_config_used         10008730     MSVCRT:loadcfg.obj
+ 0002:000007a8       ??_R3TreeWalkCallback@@8   100087a8     CloneIDS.obj
+ 0002:000007b8       ??_R2TreeWalkCallback@@8   100087b8     CloneIDS.obj
+ 0002:000007c0       ??_R1A@?0A@EA@TreeWalkCallback@@8 100087c0     CloneIDS.obj
+ 0002:000007dc       ??_R4bad_alloc@std@@6B@    100087dc     CloneIDS.obj
+ 0002:000007f0       ??_R3bad_alloc@std@@8      100087f0     CloneIDS.obj
+ 0002:00000800       ??_R2bad_alloc@std@@8      10008800     CloneIDS.obj
+ 0002:0000080c       ??_R1A@?0A@EA@bad_alloc@std@@8 1000880c     CloneIDS.obj
+ 0002:00000828       ??_R1A@?0A@EA@exception@std@@8 10008828     CloneIDS.obj
+ 0002:00000844       ??_R3exception@std@@8      10008844     CloneIDS.obj
+ 0002:00000854       ??_R2exception@std@@8      10008854     CloneIDS.obj
+ 0002:0000085c       ??_R4logic_error@std@@6B@  1000885c     CloneIDS.obj
+ 0002:00000870       ??_R3logic_error@std@@8    10008870     CloneIDS.obj
+ 0002:00000880       ??_R2logic_error@std@@8    10008880     CloneIDS.obj
+ 0002:0000088c       ??_R1A@?0A@EA@logic_error@std@@8 1000888c     CloneIDS.obj
+ 0002:000008a8       ??_R4length_error@std@@6B@ 100088a8     CloneIDS.obj
+ 0002:000008bc       ??_R3length_error@std@@8   100088bc     CloneIDS.obj
+ 0002:000008cc       ??_R2length_error@std@@8   100088cc     CloneIDS.obj
+ 0002:000008dc       ??_R1A@?0A@EA@length_error@std@@8 100088dc     CloneIDS.obj
+ 0002:000008f8       ??_R4IDSTreeWalkClone@@6B@ 100088f8     CloneIDS.obj
+ 0002:0000090c       ??_R3IDSTreeWalkClone@@8   1000890c     CloneIDS.obj
+ 0002:0000091c       ??_R2IDSTreeWalkClone@@8   1000891c     CloneIDS.obj
+ 0002:00000928       ??_R1A@?0A@EA@IDSTreeWalkClone@@8 10008928     CloneIDS.obj
+ 0002:00000944       ??_R4CJIDSGetUpdateSites@@6B@ 10008944     utilfn.obj
+ 0002:00000958       ??_R3CJIDSGetUpdateSites@@8 10008958     utilfn.obj
+ 0002:00000968       ??_R2CJIDSGetUpdateSites@@8 10008968     utilfn.obj
+ 0002:00000974       ??_R1A@?0A@EA@CJIDSGetUpdateSites@@8 10008974     utilfn.obj
+ 0002:00000990       ??_R4out_of_range@std@@6B@ 10008990     utilfn.obj
+ 0002:000009a4       ??_R3out_of_range@std@@8   100089a4     utilfn.obj
+ 0002:000009b4       ??_R2out_of_range@std@@8   100089b4     utilfn.obj
+ 0002:000009c4       ??_R1A@?0A@EA@out_of_range@std@@8 100089c4     utilfn.obj
+ 0002:000009e0       ??_R4ApplyOccurrenceNames@@6B@ 100089e0     utilfn.obj
+ 0002:000009f4       ??_R3ApplyOccurrenceNames@@8 100089f4     utilfn.obj
+ 0002:00000a04       ??_R2ApplyOccurrenceNames@@8 10008a04     utilfn.obj
+ 0002:00000a10       ??_R1A@?0A@EA@ApplyOccurrenceNames@@8 10008a10     utilfn.obj
+ 0002:00000a2c       ??_R4ApplyIOTs@@6B@        10008a2c     utilfn.obj
+ 0002:00000a40       ??_R3ApplyIOTs@@8          10008a40     utilfn.obj
+ 0002:00000a50       ??_R2ApplyIOTs@@8          10008a50     utilfn.obj
+ 0002:00000a5c       ??_R1A@?0A@EA@ApplyIOTs@@8 10008a5c     utilfn.obj
+ 0002:00000a78       ??_R4type_info@@6B@        10008a78     MSVCRT:ti_inst.obj
+ 0002:00000a8c       ??_R3type_info@@8          10008a8c     MSVCRT:ti_inst.obj
+ 0002:00000a9c       ??_R2type_info@@8          10008a9c     MSVCRT:ti_inst.obj
+ 0002:00000aa4       ??_R1A@?0A@EA@type_info@@8 10008aa4     MSVCRT:ti_inst.obj
+ 0002:00000ac0       ___safe_se_handler_table   10008ac0     <linker-defined>
+ 0002:00000b74       ___rtc_iaa                 10008b74     MSVCRT:initsect.obj
+ 0002:00000b78       ___rtc_izz                 10008b78     MSVCRT:initsect.obj
+ 0002:00000b7c       ___rtc_taa                 10008b7c     MSVCRT:initsect.obj
+ 0002:00000b80       ___rtc_tzz                 10008b80     MSVCRT:initsect.obj
+ 0002:00000c0c       __TI2?AVbad_alloc@std@@    10008c0c     CloneIDS.obj
+ 0002:00000c1c       __CTA2?AVbad_alloc@std@@   10008c1c     CloneIDS.obj
+ 0002:00000c28       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10008c28     CloneIDS.obj
+ 0002:00000c44       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 10008c44     CloneIDS.obj
+ 0002:00000d78       __TI3?AVlength_error@std@@ 10008d78     CloneIDS.obj
+ 0002:00000db4       __CTA3?AVlength_error@std@@ 10008db4     CloneIDS.obj
+ 0002:00000dc4       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 10008dc4     CloneIDS.obj
+ 0002:00000de0       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 10008de0     CloneIDS.obj
+ 0002:00001440       __TI3?AVout_of_range@std@@ 10009440     utilfn.obj
+ 0002:00001494       __CTA3?AVout_of_range@std@@ 10009494     utilfn.obj
+ 0002:000014a4       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 100094a4     utilfn.obj
+ 0002:0000177c       __IMPORT_DESCRIPTOR_asmds  1000977c     asmds:asmds.dll
+ 0002:00001790       __IMPORT_DESCRIPTOR_jdchlp 10009790     jdchlp:jdchlp.dll
+ 0002:000017a4       __IMPORT_DESCRIPTOR_jengine 100097a4     jengine:jengine.dll
+ 0002:000017b8       __IMPORT_DESCRIPTOR_JUtil  100097b8     jutil:JUtil.dll
+ 0002:000017cc       __IMPORT_DESCRIPTOR_liteidsapi 100097cc     liteidsapi:liteidsapi.dll
+ 0002:000017e0       __IMPORT_DESCRIPTOR_RFMSsvs 100097e0     rfmssvs:RFMSsvs.dll
+ 0002:000017f4       __IMPORT_DESCRIPTOR_sealloc 100097f4     sealloc:sealloc.dll
+ 0002:00001808       __IMPORT_DESCRIPTOR_KERNEL32 10009808     kernel32:KERNEL32.dll
+ 0002:0000181c       __IMPORT_DESCRIPTOR_MSVCP80 1000981c     msvcprt:MSVCP80.dll
+ 0002:00001830       __IMPORT_DESCRIPTOR_MSVCR80 10009830     MSVCRT:MSVCR80.dll
+ 0002:00001844       __NULL_IMPORT_DESCRIPTOR   10009844     asmds:asmds.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000004       ??_R0?AVTreeWalkCallback@@@8 1000b004     CloneIDS.obj
+ 0003:00000024       ??_R0?AVbad_alloc@std@@@8  1000b024     CloneIDS.obj
+ 0003:00000040       ??_R0?AVexception@std@@@8  1000b040     CloneIDS.obj
+ 0003:0000005c       ??_R0?AVlogic_error@std@@@8 1000b05c     CloneIDS.obj
+ 0003:0000007c       ??_R0?AVlength_error@std@@@8 1000b07c     CloneIDS.obj
+ 0003:0000009c       ??_R0?AVIDSTreeWalkClone@@@8 1000b09c     CloneIDS.obj
+ 0003:00001500       ??_R0?AVCJIDSGetUpdateSites@@@8 1000c500     utilfn.obj
+ 0003:00001524       ??_R0?AVout_of_range@std@@@8 1000c524     utilfn.obj
+ 0003:00001544       ??_R0?AVApplyOccurrenceNames@@@8 1000c544     utilfn.obj
+ 0003:00001568       ??_R0?AVApplyIOTs@@@8      1000c568     utilfn.obj
+ 0003:00001580       ??_R0?AVtype_info@@@8      1000c580     MSVCRT:ti_inst.obj
+ 0003:00001598       ___security_cookie         1000c598     MSVCRT:gs_cookie.obj
+ 0003:0000159c       ___security_cookie_complement 1000c59c     MSVCRT:gs_cookie.obj
+ 0003:000015a0       ___native_dllmain_reason   1000c5a0     MSVCRT:natstart.obj
+ 0003:000015a4       ___native_vcclrit_reason   1000c5a4     MSVCRT:natstart.obj
+ 0003:000017d0       ?g_cLock@@3KA              1000c7d0     server.obj
+ 0003:000017d4       ?g_cObj@@3KA               1000c7d4     server.obj
+ 0003:000017d8       ?hInstance@@3PAUHINSTANCE__@@A 1000c7d8     server.obj
+ 0003:00001d3c       ?__type_info_root_node@@3U__type_info_node@@A 1000cd3c     MSVCRT:tncleanup.obj
+ 0003:00001d44       __adjust_fdiv              1000cd44     <common>
+ 0003:00001d48       ___native_startup_state    1000cd48     <common>
+ 0003:00001d4c       ___native_startup_lock     1000cd4c     <common>
+ 0003:00001d50       ___onexitend               1000cd50     <common>
+ 0003:00001d54       ___onexitbegin             1000cd54     <common>
+ 0003:00001d58       ___dyn_tls_init_callback   1000cd58     <common>
+
+ entry point at        0001:000053ce
+
+ Static symbols
+
+ 0001:00001650       ?GetFamilyMemberNamesByPath@@YAJPB_WPAPAVNameList@@@Z 10002650 f   utilfn.obj
+ 0001:00001830       ?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z 10002830 f   utilfn.obj
+ 0001:00003173       __catch$?_Buynode@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEPAU_Node@?$_List_nod@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@2@PAU342@0ABQAVSiteNode@@@Z$0 10004173 f i utilfn.obj
+ 0001:000032a8       __catch$?_Buynode@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@PAU342@00ABQAVSiteNode@@D@Z$0 100042a8 f i utilfn.obj
+ 0001:00003348       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z$0 10004348 f i utilfn.obj
+ 0001:000033f2       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@XZ$0 100043f2 f i utilfn.obj
+ 0001:000041c0       ?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z 100051c0 f   utilfn.obj
+ 0001:000050cc       _pre_c_init                100060cc f   MSVCRT:crtdll.obj
+ 0001:000052b8       ___DllMainCRTStartup       100062b8 f   MSVCRT:crtdll.obj
+ 0001:00005900       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 10006900 f   CloneIDS.obj
+ 0001:00005909       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 10006909 f   CloneIDS.obj
+ 0001:00005930       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 10006930 f   CloneIDS.obj
+ 0001:00005939       __ehhandler$??1bad_alloc@std@@UAE@XZ 10006939 f   CloneIDS.obj
+ 0001:00005960       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 10006960 f   CloneIDS.obj
+ 0001:00005969       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 10006969 f   CloneIDS.obj
+ 0001:00005990       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10006990 f   CloneIDS.obj
+ 0001:00005999       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 10006999 f   CloneIDS.obj
+ 0001:000059a5       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100069a5 f   CloneIDS.obj
+ 0001:000059c0       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 100069c0 f   CloneIDS.obj
+ 0001:000059c9       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 100069c9 f   CloneIDS.obj
+ 0001:000059d5       __ehhandler$??1logic_error@std@@UAE@XZ 100069d5 f   CloneIDS.obj
+ 0001:000059f0       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 100069f0 f   CloneIDS.obj
+ 0001:000059f8       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100069f8 f   CloneIDS.obj
+ 0001:00005a20       __unwindfunclet$??1length_error@std@@UAE@XZ$0 10006a20 f   CloneIDS.obj
+ 0001:00005a28       __ehhandler$??1length_error@std@@UAE@XZ 10006a28 f   CloneIDS.obj
+ 0001:00005a50       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 10006a50 f   CloneIDS.obj
+ 0001:00005a58       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 10006a58 f   CloneIDS.obj
+ 0001:00005a80       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 10006a80 f   CloneIDS.obj
+ 0001:00005a89       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 10006a89 f   CloneIDS.obj
+ 0001:00005ab0       __unwindfunclet$?_Xlen@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@KAXXZ$0 10006ab0 f   CloneIDS.obj
+ 0001:00005ab9       __ehhandler$?_Xlen@?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@KAXXZ 10006ab9 f   CloneIDS.obj
+ 0001:00005ae0       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 10006ae0 f   CloneIDS.obj
+ 0001:00005ae9       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 10006ae9 f   CloneIDS.obj
+ 0001:00005af5       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 10006af5 f   CloneIDS.obj
+ 0001:00005b10       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 10006b10 f   CloneIDS.obj
+ 0001:00005b18       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 10006b18 f   CloneIDS.obj
+ 0001:00005b40       __unwindfunclet$??1?$stack@PAVAssemblySite@@V?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@@std@@QAE@XZ$0 10006b40 f   CloneIDS.obj
+ 0001:00005b48       __ehhandler$??1?$stack@PAVAssemblySite@@V?$deque@PAVAssemblySite@@V?$allocator@PAVAssemblySite@@@std@@@std@@@std@@QAE@XZ 10006b48 f   CloneIDS.obj
+ 0001:00005b70       __unwindfunclet$??1IDSTreeWalkClone@@QAE@XZ$0 10006b70 f   CloneIDS.obj
+ 0001:00005b7b       __unwindfunclet$??1IDSTreeWalkClone@@QAE@XZ$1 10006b7b f   CloneIDS.obj
+ 0001:00005b83       __ehhandler$??1IDSTreeWalkClone@@QAE@XZ 10006b83 f   CloneIDS.obj
+ 0001:00005ba0       __unwindfunclet$??0IDSTreeWalkClone@@QAE@XZ$1 10006ba0 f   CloneIDS.obj
+ 0001:00005ba8       __unwindfunclet$??0IDSTreeWalkClone@@QAE@XZ$0 10006ba8 f   CloneIDS.obj
+ 0001:00005bb3       __ehhandler$??0IDSTreeWalkClone@@QAE@XZ 10006bb3 f   CloneIDS.obj
+ 0001:00005bd0       __unwindfunclet$_JCloneIDS@12$13 10006bd0 f   CloneIDS.obj
+ 0001:00005bd8       __unwindfunclet$_JCloneIDS@12$14 10006bd8 f   CloneIDS.obj
+ 0001:00005be0       __unwindfunclet$_JCloneIDS@12$15 10006be0 f   CloneIDS.obj
+ 0001:00005be8       __ehhandler$_JCloneIDS@12  10006be8 f   CloneIDS.obj
+ 0001:00005c10       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10006c10 f   utilfn.obj
+ 0001:00005c18       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10006c18 f   utilfn.obj
+ 0001:00005c40       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 10006c40 f   utilfn.obj
+ 0001:00005c48       __ehhandler$??1out_of_range@std@@UAE@XZ 10006c48 f   utilfn.obj
+ 0001:00005c70       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 10006c70 f   utilfn.obj
+ 0001:00005c78       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 10006c78 f   utilfn.obj
+ 0001:00005ca0       __unwindfunclet$??1?$pair@$$CBVGUserFileName@@V1@@std@@QAE@XZ$0 10006ca0 f   utilfn.obj
+ 0001:00005ca9       __unwindfunclet$??1?$pair@$$CBVGUserFileName@@V1@@std@@QAE@XZ$1 10006ca9 f   utilfn.obj
+ 0001:00005cb5       __ehhandler$??1?$pair@$$CBVGUserFileName@@V1@@std@@QAE@XZ 10006cb5 f   utilfn.obj
+ 0001:00005cd0       __unwindfunclet$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABVGUserFileName@@0@Z$0 10006cd0 f   utilfn.obj
+ 0001:00005cd9       __unwindfunclet$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABVGUserFileName@@0@Z$1 10006cd9 f   utilfn.obj
+ 0001:00005ce5       __ehhandler$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABVGUserFileName@@0@Z 10006ce5 f   utilfn.obj
+ 0001:00005d00       __unwindfunclet$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABU01@@Z$0 10006d00 f   utilfn.obj
+ 0001:00005d09       __unwindfunclet$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABU01@@Z$1 10006d09 f   utilfn.obj
+ 0001:00005d15       __ehhandler$??0?$pair@$$CBVGUserFileName@@V1@@std@@QAE@ABU01@@Z 10006d15 f   utilfn.obj
+ 0001:00005d30       __unwindfunclet$?GetFamilyMemberNamesByPath@@YAJPB_WPAPAVNameList@@@Z$5 10006d30 f   utilfn.obj
+ 0001:00005d3b       __ehhandler$?GetFamilyMemberNamesByPath@@YAJPB_WPAPAVNameList@@@Z 10006d3b f   utilfn.obj
+ 0001:00005d70       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$20 10006d70 f   utilfn.obj
+ 0001:00005d78       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$21 10006d78 f   utilfn.obj
+ 0001:00005d80       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$22 10006d80 f   utilfn.obj
+ 0001:00005d88       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$23 10006d88 f   utilfn.obj
+ 0001:00005d90       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$24 10006d90 f   utilfn.obj
+ 0001:00005d99       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$25 10006d99 f   utilfn.obj
+ 0001:00005da2       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$26 10006da2 f   utilfn.obj
+ 0001:00005daa       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$27 10006daa f   utilfn.obj
+ 0001:00005db2       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$28 10006db2 f   utilfn.obj
+ 0001:00005dba       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$29 10006dba f   utilfn.obj
+ 0001:00005dc2       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$30 10006dc2 f   utilfn.obj
+ 0001:00005dca       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$31 10006dca f   utilfn.obj
+ 0001:00005dd2       __unwindfunclet$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z$32 10006dd2 f   utilfn.obj
+ 0001:00005dda       __ehhandler$?CacheFilePropertiesFromDocOrStorage@@YAJQAU_IJDocument@@QAUIStorage@@QAVAssemblySite@@@Z 10006dda f   utilfn.obj
+ 0001:00005e00       __unwindfunclet$_JBuildIDSHelper@8$7 10006e00 f   utilfn.obj
+ 0001:00005e0b       __unwindfunclet$_JBuildIDSHelper@8$8 10006e0b f   utilfn.obj
+ 0001:00005e17       __unwindfunclet$_JBuildIDSHelper@8$9 10006e17 f   utilfn.obj
+ 0001:00005e22       __unwindfunclet$_JBuildIDSHelper@8$10 10006e22 f   utilfn.obj
+ 0001:00005e2d       __ehhandler$_JBuildIDSHelper@8 10006e2d f   utilfn.obj
+ 0001:00005e60       __unwindfunclet$?FinishAssembly@ApplyIOTs@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z$0 10006e60 f   utilfn.obj
+ 0001:00005e68       __ehhandler$?FinishAssembly@ApplyIOTs@@UAEJPAVAssemblyOccurrence@@PAVTreeWalkContext@@@Z 10006e68 f   utilfn.obj
+ 0001:00005e90       __unwindfunclet$_JCheckIDSInternalConsistency@16$4 10006e90 f   utilfn.obj
+ 0001:00005e98       __ehhandler$_JCheckIDSInternalConsistency@16 10006e98 f   utilfn.obj
+ 0001:00005ec0       __unwindfunclet$_JRefreshFilePropertiesUserData@4$4 10006ec0 f   utilfn.obj
+ 0001:00005ec9       __unwindfunclet$_JRefreshFilePropertiesUserData@4$5 10006ec9 f   utilfn.obj
+ 0001:00005ed1       __unwindfunclet$_JRefreshFilePropertiesUserData@4$6 10006ed1 f   utilfn.obj
+ 0001:00005ed9       __unwindfunclet$_JRefreshFilePropertiesUserData@4$7 10006ed9 f   utilfn.obj
+ 0001:00005ee1       __ehhandler$_JRefreshFilePropertiesUserData@4 10006ee1 f   utilfn.obj
+ 0001:00005f00       __unwindfunclet$??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z$0 10006f00 f   utilfn.obj
+ 0001:00005f0b       __ehhandler$??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z 10006f0b f   utilfn.obj
+ 0001:00005f30       __unwindfunclet$_JUpdateIDS@8$8 10006f30 f   utilfn.obj
+ 0001:00005f38       __unwindfunclet$_JUpdateIDS@8$9 10006f38 f   utilfn.obj
+ 0001:00005f41       __unwindfunclet$_JUpdateIDS@8$10 10006f41 f   utilfn.obj
+ 0001:00005f49       __ehhandler$_JUpdateIDS@8  10006f49 f   utilfn.obj
+ 0001:00005f70       __ehhandler$?_Buynode@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEPAU_Node@?$_List_nod@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@2@PAU342@0ABQAVSiteNode@@@Z 10006f70 f   utilfn.obj
+ 0001:00005f90       __unwindfunclet$?_Incsize@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEXI@Z$0 10006f90 f   utilfn.obj
+ 0001:00005f99       __ehhandler$?_Incsize@?$list@PAVSiteNode@@V?$allocator@PAVSiteNode@@@std@@@std@@IAEXI@Z 10006f99 f   utilfn.obj
+ 0001:00005fc0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@PAU342@00ABQAVSiteNode@@D@Z$2 10006fc0 f   utilfn.obj
+ 0001:00005fd1       __ehhandler$?_Buynode@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@PAU342@00ABQAVSiteNode@@D@Z 10006fd1 f   utilfn.obj
+ 0001:00005ff0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z$2 10006ff0 f   utilfn.obj
+ 0001:00006001       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserFileName@@V1@@2@D@Z 10007001 f   utilfn.obj
+ 0001:00006020       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@XZ 10007020 f   utilfn.obj
+ 0001:00006040       __unwindfunclet$?_Insert@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@ABQAVSiteNode@@@Z$0 10007040 f   utilfn.obj
+ 0001:00006049       __ehhandler$?_Insert@?$_Tree@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@PAVSiteNode@@U?$less@PAVSiteNode@@@std@@V?$allocator@PAVSiteNode@@@3@$0A@@std@@@2@ABQAVSiteNode@@@Z 10007049 f   utilfn.obj
+ 0001:00006070       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@ABU?$pair@$$CBVGUserFileName@@V1@@2@@Z$0 10007070 f   utilfn.obj
+ 0001:00006079       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@ABU?$pair@$$CBVGUserFileName@@V1@@2@@Z 10007079 f   utilfn.obj
+ 0001:000060a0       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 100070a0 f   utilfn.obj
+ 0001:000060a9       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$1 100070a9 f   utilfn.obj
+ 0001:000060b4       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$2 100070b4 f   utilfn.obj
+ 0001:000060bd       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$3 100070bd f   utilfn.obj
+ 0001:000060c9       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 100070c9 f   utilfn.obj
+ 0001:000060f0       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 100070f0 f   utilfn.obj
+ 0001:000060f8       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 100070f8 f   utilfn.obj
+ 0001:00006120       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z$0 10007120 f   utilfn.obj
+ 0001:0000612b       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z$1 1000712b f   utilfn.obj
+ 0001:00006134       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z$2 10007134 f   utilfn.obj
+ 0001:00006140       __ehhandler$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@$0A@@std@@@2@@Z 10007140 f   utilfn.obj
+ 0001:00006160       __unwindfunclet$??1?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ$0 10007160 f   utilfn.obj
+ 0001:00006168       __ehhandler$??1?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ 10007168 f   utilfn.obj
+ 0001:00006190       __unwindfunclet$??0?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ$0 10007190 f   utilfn.obj
+ 0001:00006198       __ehhandler$??0?$map@VGUserFileName@@V1@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserFileName@@V1@@std@@@std@@@std@@QAE@XZ 10007198 f   utilfn.obj
+ 0001:000061c0       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$3 100071c0 f   utilfn.obj
+ 0001:000061cb       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$4 100071cb f   utilfn.obj
+ 0001:000061d7       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$5 100071d7 f   utilfn.obj
+ 0001:000061e3       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$6 100071e3 f   utilfn.obj
+ 0001:000061ef       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$7 100071ef f   utilfn.obj
+ 0001:000061fb       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$8 100071fb f   utilfn.obj
+ 0001:00006207       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$9 10007207 f   utilfn.obj
+ 0001:00006213       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$10 10007213 f   utilfn.obj
+ 0001:0000621e       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$11 1000721e f   utilfn.obj
+ 0001:0000622a       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$12 1000722a f   utilfn.obj
+ 0001:00006236       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$13 10007236 f   utilfn.obj
+ 0001:00006242       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$14 10007242 f   utilfn.obj
+ 0001:0000624e       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$15 1000724e f   utilfn.obj
+ 0001:0000625a       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$16 1000725a f   utilfn.obj
+ 0001:00006266       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$17 10007266 f   utilfn.obj
+ 0001:00006271       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$18 10007271 f   utilfn.obj
+ 0001:0000627d       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$19 1000727d f   utilfn.obj
+ 0001:00006289       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$20 10007289 f   utilfn.obj
+ 0001:00006295       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$21 10007295 f   utilfn.obj
+ 0001:000062a1       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$22 100072a1 f   utilfn.obj
+ 0001:000062aa       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$23 100072aa f   utilfn.obj
+ 0001:000062b6       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$24 100072b6 f   utilfn.obj
+ 0001:000062c2       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$25 100072c2 f   utilfn.obj
+ 0001:000062ce       __unwindfunclet$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z$26 100072ce f   utilfn.obj
+ 0001:000062d7       __ehhandler$?JAsmProcessNewFilesForCreate@@YAJPAVAsmTree@@@Z 100072d7 f   utilfn.obj
+ 0001:00006300       __unwindfunclet$_JBuildIDS@12$7 10007300 f   utilfn.obj
+ 0001:00006309       __unwindfunclet$_JBuildIDS@12$8 10007309 f   utilfn.obj
+ 0001:00006312       __unwindfunclet$_JBuildIDS@12$9 10007312 f   utilfn.obj
+ 0001:0000631b       __unwindfunclet$_JBuildIDS@12$10 1000731b f   utilfn.obj
+ 0001:00006324       __unwindfunclet$_JBuildIDS@12$11 10007324 f   utilfn.obj
+ 0001:0000632d       __unwindfunclet$_JBuildIDS@12$12 1000732d f   utilfn.obj
+ 0001:00006336       __unwindfunclet$_JBuildIDS@12$13 10007336 f   utilfn.obj
+ 0001:0000633f       __unwindfunclet$_JBuildIDS@12$14 1000733f f   utilfn.obj
+ 0001:00006348       __unwindfunclet$_JBuildIDS@12$15 10007348 f   utilfn.obj
+ 0001:00006351       __unwindfunclet$_JBuildIDS@12$16 10007351 f   utilfn.obj
+ 0001:0000635d       __ehhandler$_JBuildIDS@12  1000735d f   utilfn.obj
+ 0001:00006390       ??__EGNULL_Camera@@YAXXZ   10007390 f   guid.obj
+ 0001:000063b0       ??__EGNULL_CAMERA@@YAXXZ   100073b0 f   guid.obj
+ 0001:000063d0       ??__EGID_Camera@@YAXXZ     100073d0 f   guid.obj
+ 0001:000063f0       ??__EGID_CAMERA@@YAXXZ     100073f0 f   guid.obj
+ 0001:00006410       ??__EGNULL_Camera@@YAXXZ   10007410 f   STDAFX.obj
+ 0001:00006430       ??__EGNULL_CAMERA@@YAXXZ   10007430 f   STDAFX.obj
+ 0001:00006450       ??__EGID_Camera@@YAXXZ     10007450 f   STDAFX.obj
+ 0001:00006470       ??__EGID_CAMERA@@YAXXZ     10007470 f   STDAFX.obj

@@ -1,0 +1,138 @@
+ cnstbmp
+
+ Timestamp is 46b3a5c1 (Fri Aug 03 17:01:37 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000800H .text                   CODE
+ 0002:00000000 0000008cH .idata$5                DATA
+ 0002:0000008c 00000004H .CRT$XCA                DATA
+ 0002:00000090 00000004H .CRT$XCZ                DATA
+ 0002:00000094 00000004H .CRT$XIA                DATA
+ 0002:00000098 00000004H .CRT$XIAA               DATA
+ 0002:0000009c 00000004H .CRT$XIZ                DATA
+ 0002:000000a0 00000090H .rdata                  DATA
+ 0002:00000130 00000031H .rdata$debug            DATA
+ 0002:00000170 00000004H .rdata$sxdata           DATA
+ 0002:00000174 00000004H .rtc$IAA                DATA
+ 0002:00000178 00000004H .rtc$IZZ                DATA
+ 0002:0000017c 00000004H .rtc$TAA                DATA
+ 0002:00000180 00000004H .rtc$TZZ                DATA
+ 0002:00000188 00000064H .xdata$x                DATA
+ 0002:000001ec 0000003cH .idata$2                DATA
+ 0002:00000228 00000014H .idata$3                DATA
+ 0002:0000023c 0000008cH .idata$4                DATA
+ 0002:000002c8 000002a0H .idata$6                DATA
+ 0002:00000570 00000055H .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000018 00000354H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ?GetResourceModuleHandle@@YAPAUHINSTANCE__@@XZ 10001000 f   CNSTRBMP.obj
+ 0001:00000030       _DllMain@12                10001030 f   CNSTRBMP.obj
+ 0001:00000080       ?GetCnstrBmpRcDllHandle@@YGPAUHINSTANCE__@@XZ 10001080 f   CNSTRBMP.obj
+ 0001:00000086       _JFreeLibrary              10001086 f   jutil:JUtil.dll
+ 0001:000000d9       __CRT_INIT@12              100010d9 f   MSVCRT:crtdll.obj
+ 0001:0000038e       __DllMainCRTStartup@12     1000138e f   MSVCRT:crtdll.obj
+ 0001:000003af       ___clean_type_info_names   100013af f   MSVCRT:tncleanup.obj
+ 0001:000003bb       __onexit                   100013bb f   MSVCRT:atonexit.obj
+ 0001:0000045a       _atexit                    1000145a f   MSVCRT:atonexit.obj
+ 0001:0000046c       __RTC_Initialize           1000146c f   MSVCRT:initsect.obj
+ 0001:00000490       __RTC_Terminate            10001490 f   MSVCRT:initsect.obj
+ 0001:000004c0       __ValidateImageBase        100014c0 f   MSVCRT:pesect.obj
+ 0001:000004f0       __FindPESection            100014f0 f   MSVCRT:pesect.obj
+ 0001:00000532       __IsNonwritableInCurrentImage 10001532 f   MSVCRT:pesect.obj
+ 0001:0000059e       __initterm                 1000159e f   MSVCRT:MSVCR80.dll
+ 0001:000005a4       __initterm_e               100015a4 f   MSVCRT:MSVCR80.dll
+ 0001:000005aa       __amsg_exit                100015aa f   MSVCRT:MSVCR80.dll
+ 0001:000005b0       ___CppXcptFilter           100015b0 f   MSVCRT:MSVCR80.dll
+ 0001:000005b8       __SEH_prolog4              100015b8 f   MSVCRT:sehprolg4.obj
+ 0001:000005fd       __SEH_epilog4              100015fd f   MSVCRT:sehprolg4.obj
+ 0001:00000611       __except_handler4          10001611 f   MSVCRT:chandler4gs.obj
+ 0001:00000634       ___security_init_cookie    10001634 f   MSVCRT:gs_support.obj
+ 0001:000006c8       ___clean_type_info_names_internal 100016c8 f   MSVCRT:MSVCR80.dll
+ 0001:000006ce       __unlock                   100016ce f   MSVCRT:MSVCR80.dll
+ 0001:000006d4       ___dllonexit               100016d4 f   MSVCRT:MSVCR80.dll
+ 0001:000006da       __lock                     100016da f   MSVCRT:MSVCR80.dll
+ 0001:000006e0       @__security_check_cookie@4 100016e0 f   MSVCRT:secchk.obj
+ 0001:000006f0       __except_handler4_common   100016f0 f   MSVCRT:MSVCR80.dll
+ 0001:000006f6       ___report_gsfailure        100016f6 f   MSVCRT:gs_report.obj
+ 0001:000007fa       __crt_debugger_hook        100017fa f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__JFreeLibrary        10002000     jutil:JUtil.dll
+ 0002:00000004       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 10002004     jutil:JUtil.dll
+ 0002:00000008       \177JUtil_NULL_THUNK_DATA  10002008     jutil:JUtil.dll
+ 0002:0000000c       __imp__IsDebuggerPresent@0 1000200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__SetUnhandledExceptionFilter@4 10002010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__UnhandledExceptionFilter@4 10002014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcess@0 10002018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__TerminateProcess@8  1000201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetSystemTimeAsFileTime@4 10002020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcessId@0 10002024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetCurrentThreadId@0 10002028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetTickCount@0      1000202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__QueryPerformanceCounter@4 10002030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedCompareExchange@12 10002034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__Sleep@4             10002038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__InterlockedExchange@8 1000203c     kernel32:KERNEL32.dll
+ 0002:00000040       \177KERNEL32_NULL_THUNK_DATA 10002040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp___unlock             10002044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp____clean_type_info_names_internal 10002048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp___lock               1000204c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp___onexit             10002050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___except_handler4_common 10002054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___crt_debugger_hook  10002058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp____CppXcptFilter     1000205c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___adjust_fdiv        10002060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp___amsg_exit          10002064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp___initterm_e         10002068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp___initterm           1000206c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp___decode_pointer     10002070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp__free                10002074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___encoded_null       10002078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___malloc_crt         1000207c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp___encode_pointer     10002080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp____dllonexit         10002084     MSVCRT:MSVCR80.dll
+ 0002:00000088       \177MSVCR80_NULL_THUNK_DATA 10002088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       ___xc_a                    1000208c     MSVCRT:cinitexe.obj
+ 0002:00000090       ___xc_z                    10002090     MSVCRT:cinitexe.obj
+ 0002:00000094       ___xi_a                    10002094     MSVCRT:cinitexe.obj
+ 0002:0000009c       ___xi_z                    1000209c     MSVCRT:cinitexe.obj
+ 0002:000000bc       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100020bc     CNSTRBMP.obj
+ 0002:000000cc       ??_C@_0N@BMFFLDDO@CNSTRBMP?4drx?$AA@ 100020cc     CNSTRBMP.obj
+ 0002:000000dc       __pRawDllMain              100020dc     MSVCRT:crtdll.obj
+ 0002:000000dc       __pDefaultRawDllMain       100020dc     MSVCRT:crtdll.obj
+ 0002:000000e8       __load_config_used         100020e8     MSVCRT:loadcfg.obj
+ 0002:00000170       ___safe_se_handler_table   10002170     <linker-defined>
+ 0002:00000174       ___rtc_iaa                 10002174     MSVCRT:initsect.obj
+ 0002:00000178       ___rtc_izz                 10002178     MSVCRT:initsect.obj
+ 0002:0000017c       ___rtc_taa                 1000217c     MSVCRT:initsect.obj
+ 0002:00000180       ___rtc_tzz                 10002180     MSVCRT:initsect.obj
+ 0002:000001ec       __IMPORT_DESCRIPTOR_JUtil  100021ec     jutil:JUtil.dll
+ 0002:00000200       __IMPORT_DESCRIPTOR_MSVCR80 10002200     MSVCRT:MSVCR80.dll
+ 0002:00000214       __IMPORT_DESCRIPTOR_KERNEL32 10002214     kernel32:KERNEL32.dll
+ 0002:00000228       __NULL_IMPORT_DESCRIPTOR   10002228     jutil:JUtil.dll
+ 0003:00000000       __newmode                  10003000     newmode.obj
+ 0003:00000008       ___native_dllmain_reason   10003008     MSVCRT:natstart.obj
+ 0003:0000000c       ___native_vcclrit_reason   1000300c     MSVCRT:natstart.obj
+ 0003:00000010       ___security_cookie         10003010     MSVCRT:gs_cookie.obj
+ 0003:00000014       ___security_cookie_complement 10003014     MSVCRT:gs_cookie.obj
+ 0003:00000024       ?__type_info_root_node@@3U__type_info_node@@A 10003024     MSVCRT:tncleanup.obj
+ 0003:00000354       __adjust_fdiv              10003354     <common>
+ 0003:00000358       ___native_startup_state    10003358     <common>
+ 0003:0000035c       ___native_startup_lock     1000335c     <common>
+ 0003:00000360       ___onexitend               10003360     <common>
+ 0003:00000364       ___onexitbegin             10003364     <common>
+ 0003:00000368       ___dyn_tls_init_callback   10003368     <common>
+
+ entry point at        0001:0000038e
+
+ Static symbols
+
+ 0001:0000008c       _pre_c_init                1000108c f   MSVCRT:crtdll.obj
+ 0001:00000278       ___DllMainCRTStartup       10001278 f   MSVCRT:crtdll.obj

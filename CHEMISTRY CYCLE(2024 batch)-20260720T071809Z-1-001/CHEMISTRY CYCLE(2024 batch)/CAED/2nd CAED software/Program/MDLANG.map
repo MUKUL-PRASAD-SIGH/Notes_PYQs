@@ -1,0 +1,2046 @@
+ MDLANG
+
+ Timestamp is 46b3ac9f (Fri Aug 03 17:30:55 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00018845H .text                   CODE
+ 0001:00018850 00001701H .text$x                 CODE
+ 0001:00019f60 00000d33H .text$yc                CODE
+ 0001:0001aca0 00000075H .text$yd                CODE
+ 0002:00000000 000002d8H .idata$5                DATA
+ 0002:000002d8 00000004H .CRT$XCA                DATA
+ 0002:000002dc 00000004H .CRT$XCL                DATA
+ 0002:000002e0 00000048H .CRT$XCU                DATA
+ 0002:00000328 00000004H .CRT$XCZ                DATA
+ 0002:0000032c 00000004H .CRT$XIA                DATA
+ 0002:00000330 00000004H .CRT$XIAA               DATA
+ 0002:00000334 00000004H .CRT$XIC                DATA
+ 0002:00000338 00000004H .CRT$XIZ                DATA
+ 0002:00000340 00003bb8H .rdata                  DATA
+ 0002:00003ef8 00000030H .rdata$debug            DATA
+ 0002:00003f28 00000610H .rdata$r                DATA
+ 0002:00004540 00000154H .rdata$sxdata           DATA
+ 0002:00004694 00000004H .rtc$IAA                DATA
+ 0002:00004698 00000004H .rtc$IZZ                DATA
+ 0002:0000469c 00000004H .rtc$TAA                DATA
+ 0002:000046a0 00000004H .rtc$TZZ                DATA
+ 0002:000046a8 00001494H .xdata$x                DATA
+ 0002:00005b3c 00000000H ATL$__a                 DATA
+ 0002:00005b3c 00000000H ATL$__z                 DATA
+ 0002:00005b3c 00000104H .idata$2                DATA
+ 0002:00005c40 00000014H .idata$3                DATA
+ 0002:00005c54 000002d8H .idata$4                DATA
+ 0002:00005f2c 00000760H .idata$6                DATA
+ 0002:00006690 0000067aH .edata                  DATA
+ 0003:00000000 0000280cH .data                   DATA
+ 0003:00002810 00000c08H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003f8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000055       ___safe_se_handler_count   00000055     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10001030 f   BodyBool.obj
+ 0001:00000500       ?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10001500 f   BodyBool.obj
+ 0001:00000d90       ?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10001d90 f   BodyBool.obj
+ 0001:00001290       ?Alloc@CMemoryStream@@IAEPAEK@Z 10002290 f   CMemStm.obj
+ 0001:000012b0       ?Realloc@CMemoryStream@@IAEPAEPAEK@Z 100022b0 f   CMemStm.obj
+ 0001:000012e0       ?Memcpy@CMemoryStream@@IAEPAEPAEPBEI@Z 100022e0 f   CMemStm.obj
+ 0001:00001300       ?Free@CMemoryStream@@IAEXPAE@Z 10002300 f   CMemStm.obj
+ 0001:00001320       ?GetPosition@CMemoryStream@@ABEKXZ 10002320 f   CMemStm.obj
+ 0001:00001330       ?GrowFile@CMemoryStream@@IAEHK@Z 10002330 f   CMemStm.obj
+ 0001:000013a0       ?Read@CMemoryStream@@AAEKPAXK@Z 100023a0 f   CMemStm.obj
+ 0001:000013f0       ?Write@CMemoryStream@@AAEKPBXK@Z 100023f0 f   CMemStm.obj
+ 0001:00001440       ?Seek@CMemoryStream@@AAEJJK@Z 10002440 f   CMemStm.obj
+ 0001:00001480       ?Close@CMemoryStream@@AAEXXZ 10002480 f   CMemStm.obj
+ 0001:000014b0       ?AdjustBufferAllocation@CMemoryStream@@AAEXXZ 100024b0 f   CMemStm.obj
+ 0001:000014e0       ?AddRef@CMemoryStream@@UAGKXZ 100024e0 f   CMemStm.obj
+ 0001:000014f0       ?Release@CMemoryStream@@UAGKXZ 100024f0 f   CMemStm.obj
+ 0001:00001510       ?Read@CMemoryStream@@UAGJPAXKPAK@Z 10002510 f   CMemStm.obj
+ 0001:00001540       ?Write@CMemoryStream@@UAGJPBXKPAK@Z 10002540 f   CMemStm.obj
+ 0001:00001570       ?Seek@CMemoryStream@@UAGJT_LARGE_INTEGER@@KPAT_ULARGE_INTEGER@@@Z 10002570 f   CMemStm.obj
+ 0001:000015c0       ?SetSize@CMemoryStream@@UAGJT_ULARGE_INTEGER@@@Z 100025c0 f   CMemStm.obj
+ 0001:000015e0       ?CopyTo@CMemoryStream@@UAGJPAUIStream@@T_ULARGE_INTEGER@@PAT3@2@Z 100025e0 f   CMemStm.obj
+ 0001:000016a0       _IsEqualGUID               100026a0 f i CMemStm.obj
+ 0001:00001740       ??1CMemoryStream@@QAE@XZ   10002740 f   CMemStm.obj
+ 0001:00001770       ?Commit@CMemoryStream@@UAGJK@Z 10002770 f i CMemStm.obj
+ 0001:00001780       ?Revert@CMemoryStream@@UAGJXZ 10002780 f i CMemStm.obj
+ 0001:00001790       ?LockRegion@CMemoryStream@@UAGJT_ULARGE_INTEGER@@0K@Z 10002790 f i CMemStm.obj
+ 0001:00001790       ?UnlockRegion@CMemoryStream@@UAGJT_ULARGE_INTEGER@@0K@Z 10002790 f i CMemStm.obj
+ 0001:000017a0       ?Stat@CMemoryStream@@UAGJPAUtagSTATSTG@@K@Z 100027a0 f i CMemStm.obj
+ 0001:000017b0       ?Clone@CMemoryStream@@UAGJPAPAUIStream@@@Z 100027b0 f i CMemStm.obj
+ 0001:000017c0       ?QueryInterface@CMemoryStream@@UAGJABU_GUID@@PAPAX@Z 100027c0 f   CMemStm.obj
+ 0001:00001820       ??0CMemoryStream@@QAE@I@Z  10002820 f   CMemStm.obj
+ 0001:00001860       ?ToJupiterPosition@@YA?AUtagGPosition@@QAN@Z 10002860 f i Draft.obj
+ 0001:000018c0       ?ToJupiterUnitVector@@YA?AUtagGUnitVector@@QAN@Z 100028c0 f i Draft.obj
+ 0001:00001920       ?JMCreateDraft@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10002920 f   Draft.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHModels@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHProfile@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHPartDocAutoExtension@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHSweptProtrusionFeatures@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHLoftedProtrusionFeatures@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHModel@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHFeatureCommon@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHSweptCutoutFeatures@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAUIJMTopologyProxy@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHLoftedCutoutFeatures@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHProfileSets@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAUIJMGetPartData@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 100034d0 f i BodyBool.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHProfileSet@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAUIJMTopology@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024d0       ??1?$TIP@PAU_IHProfiles@@@@QAE@XZ 100034d0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHModel@@@@QAEPAPAU_IHModel@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHModels@@@@QAEPAPAU_IHModels@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHFeatureCommon@@@@QAEPAPAU_IHFeatureCommon@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHSweptCutoutFeatures@@@@QAEPAPAU_IHSweptCutoutFeatures@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAUIJMTopology@@@@QAEPAPAUIJMTopology@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHProfileSet@@@@QAEPAPAU_IHProfileSet@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHLoftedProtrusionFeatures@@@@QAEPAPAU_IHLoftedProtrusionFeatures@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHSweptProtrusionFeatures@@@@QAEPAPAU_IHSweptProtrusionFeatures@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHProfiles@@@@QAEPAPAU_IHProfiles@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 100034e0 f i BodyBool.obj
+ 0001:000024e0       ??I?$TIP@PAUIJMGetPartData@@@@QAEPAPAUIJMGetPartData@@XZ 100034e0 f i LoftSweep.obj
+ 0001:000024e0       ??I?$TIP@PAU_IHLoftedCutoutFeatures@@@@QAEPAPAU_IHLoftedCutoutFeatures@@XZ 100034e0 f i LoftSweep.obj
+ 0001:00002500       ?AfxCrtErrorCheck@@YAHH@Z  10003500 f i LoftSweep.obj
+ 0001:00002590       ?memcpy_s@Checked@ATL@@YAXPAXIPBXI@Z 10003590 f i LoftSweep.obj
+ 0001:000025c0       ??A?$CArray@PAUtagRoundSetData@@PAU1@@@QAEAAPAUtagRoundSetData@@H@Z 100035c0 f i MDLANG.obj
+ 0001:000025c0       ??A?$CArray@PAUtagUniqueSetData@@PAU1@@@QAEAAPAUtagUniqueSetData@@H@Z 100035c0 f i MDLANG.obj
+ 0001:000025c0       ??ACStringArray@@QAEAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@H@Z 100035c0 f i MDLANG.obj
+ 0001:000025c0       ??A?$CArray@PAUtagFeatureInputs@@PAU1@@@QAEAAPAUtagFeatureInputs@@H@Z 100035c0 f i MDLANG.obj
+ 0001:000025c0       ??A?$CArray@HH@@QAEAAHH@Z  100035c0 f i LoftSweep.obj
+ 0001:000025c0       ??A?$CArray@PAUtagProfileBasedData@@PAU1@@@QAEAAPAUtagProfileBasedData@@H@Z 100035c0 f i LoftSweep.obj
+ 0001:000025c0       ??A?$CArray@PAUtagDraftSetData@@PAU1@@@QAEAAPAUtagDraftSetData@@H@Z 100035c0 f i Draft.obj
+ 0001:000025e0       ??1?$CArray@PAUIUnknown@@PAU1@@@UAE@XZ 100035e0 f i LoftSweep.obj
+ 0001:00002600       ??3CObject@@SGXPAX@Z       10003600 f i LoftSweep.obj
+ 0001:00002610       ?AssertValid@CObject@@UBEXXZ 10003610 f i LoftSweep.obj
+ 0001:00002610       ??3@YAXPAX0@Z              10003610 f i MdDefin.obj
+ 0001:00002620       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10003620 f i LoftSweep.obj
+ 0001:00002630       ??A?$CArray@UtagThreeDoubles@@U1@@@QAEAAUtagThreeDoubles@@H@Z 10003630 f i LoftSweep.obj
+ 0001:00002650       ??_G?$CArray@PAUIUnknown@@PAU1@@@UAEPAXI@Z 10003650 f i LoftSweep.obj
+ 0001:00002650       ??_E?$CArray@PAUIUnknown@@PAU1@@@UAEPAXI@Z 10003650 f i LoftSweep.obj
+ 0001:00002670       ??0?$CArray@PAUIUnknown@@PAU1@@@QAE@XZ 10003670 f i LoftSweep.obj
+ 0001:00002690       ?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z 10003690 f   LoftSweep.obj
+ 0001:00002a40       ?ClearArray@@YAXAAV?$CArray@PAUIUnknown@@PAU1@@@@Z 10003a40 f i LoftSweep.obj
+ 0001:00002a90       ?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z 10003a90 f   LoftSweep.obj
+ 0001:00002f60       ?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z 10003f60 f   LoftSweep.obj
+ 0001:00003ea0       ?RemoveAll@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QAEXXZ 10004ea0 f i MdDefin.obj
+ 0001:00003ef0       ?GetNextAssoc@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QBEXAAPAU__POSITION@@AAHAAPAV?$CList@PBDPBD@@@Z 10004ef0 f i MdDefin.obj
+ 0001:00003f80       ?InitHashTable@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QAEXIH@Z 10004f80 f i MdDefin.obj
+ 0001:00003ff0       ??$CompareElements@HH@@YGHPBH0@Z 10004ff0 f i MdDefin.obj
+ 0001:00004020       ??2CObject@@SGPAXI@Z       10005020 f i MdDefin.obj
+ 0001:00004030       ??0?$CList@PBDPBD@@QAE@H@Z 10005030 f i MdDefin.obj
+ 0001:00004060       ?RemoveAll@?$CList@PBDPBD@@QAEXXZ 10005060 f i MdDefin.obj
+ 0001:00004090       ??1?$CList@PBDPBD@@UAE@XZ  10005090 f i MdDefin.obj
+ 0001:000040a0       ??0?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QAE@H@Z 100050a0 f i MdDefin.obj
+ 0001:000040d0       ??1?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@UAE@XZ 100050d0 f i MdDefin.obj
+ 0001:000040e0       ??_E?$CList@PBDPBD@@UAEPAXI@Z 100050e0 f i MdDefin.obj
+ 0001:000040e0       ??_G?$CList@PBDPBD@@UAEPAXI@Z 100050e0 f i MdDefin.obj
+ 0001:00004100       ??_G?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@UAEPAXI@Z 10005100 f i MdDefin.obj
+ 0001:00004100       ??_E?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@UAEPAXI@Z 10005100 f i MdDefin.obj
+ 0001:00004120       ?NewNode@?$CList@PBDPBD@@IAEPAUCNode@1@PAU21@0@Z 10005120 f i MdDefin.obj
+ 0001:00004190       ?GetAssocAt@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@IBEPAVCAssoc@1@HAAI0@Z 10005190 f i MdDefin.obj
+ 0001:000041f0       ??1CParsUtilGlobals@@QAE@XZ 100051f0 f i MdDefin.obj
+ 0001:00004290       ?AddTail@?$CList@PBDPBD@@QAEPAU__POSITION@@PBD@Z 10005290 f i MdDefin.obj
+ 0001:000042c0       ?Serialize@?$CList@PBDPBD@@UAEXAAVCArchive@@@Z 100052c0 f i MdDefin.obj
+ 0001:00004340       ?Lookup@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QBEHHAAPAV?$CList@PBDPBD@@@Z 10005340 f i MdDefin.obj
+ 0001:00004370       ?NewAssoc@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@IAEPAVCAssoc@1@H@Z 10005370 f i MdDefin.obj
+ 0001:00004440       ?GetConstString@@YAJAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAPBD@Z 10005440 f   MdDefin.obj
+ 0001:000045a0       ??A?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@QAEAAPAV?$CList@PBDPBD@@H@Z 100055a0 f i MdDefin.obj
+ 0001:00004610       ?CreateStringHash@@YAJXZ   10005610 f   MdDefin.obj
+ 0001:00004700       ?Serialize@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@UAEXAAVCArchive@@@Z 10005700 f i MdDefin.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUtagDraftSetData@@PAU1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@HH@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUtagRoundSetData@@PAU1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUtagProfileBasedData@@PAU1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUtagUniqueSetData@@PAU1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUtagFeatureInputs@@PAU1@@@QAEXHH@Z 100057c0 f i MDLANG.obj
+ 0001:000047c0       ?SetSize@?$CArray@PAUIUnknown@@PAU1@@@QAEXHH@Z 100057c0 f i LoftSweep.obj
+ 0001:00004910       ?_AfxInitManaged@@YAHXZ    10005910 f i MDLANG.obj
+ 0001:00004920       ??1AFX_MAINTAIN_STATE2@@QAE@XZ 10005920 f i MDLANG.obj
+ 0001:00004a90       ?Dump@tagThreeDoubles@@QAEXPAVCStdioFile@@@Z 10005a90 f i MDLANG.obj
+ 0001:00004b30       ?Dump@tagInfinitePlane@@QAEXPAVCStdioFile@@@Z 10005b30 f i MDLANG.obj
+ 0001:00004c40       ?Dump@tagPointDirection@@QAEXPAVCStdioFile@@@Z 10005c40 f i MDLANG.obj
+ 0001:00004d50       ?Dump@tagPointRadiusData@@QAEXPAVCStdioFile@@@Z 10005d50 f i MDLANG.obj
+ 0001:00004e50       ??0tagFeatureProps@@QAE@XZ 10005e50 f i MDLANG.obj
+ 0001:00004eb0       ?Dump@tagFeatureProps@@QAEXPAVCStdioFile@@@Z 10005eb0 f i MDLANG.obj
+ 0001:00004fe0       ??0tagBodyData@@QAE@XZ     10005fe0 f i MDLANG.obj
+ 0001:00005040       ?Dump@tagBodyData@@QAEXPAVCStdioFile@@@Z 10006040 f i MDLANG.obj
+ 0001:00005180       ??0tagHoleData@@QAE@XZ     10006180 f i MDLANG.obj
+ 0001:000051e0       ?Dump@tagHoleData@@QAEXPAVCStdioFile@@@Z 100061e0 f i MDLANG.obj
+ 0001:000056b0       ?Dump@tagRibData@@QAEXPAVCStdioFile@@@Z 100066b0 f i MDLANG.obj
+ 0001:00005800       ??1tagFeatureProps@@QAE@XZ 10006800 f i MDLANG.obj
+ 0001:00005850       ??0?$CArray@HH@@QAE@XZ     10006850 f i MDLANG.obj
+ 0001:00005870       ??1?$CArray@HH@@UAE@XZ     10006870 f i MDLANG.obj
+ 0001:00005890       ??0?$CArray@UtagThreeDoubles@@U1@@@QAE@XZ 10006890 f i MDLANG.obj
+ 0001:000058b0       ??1?$CArray@UtagThreeDoubles@@U1@@@UAE@XZ 100068b0 f i MDLANG.obj
+ 0001:000058d0       ??0?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@QAE@XZ 100068d0 f i MDLANG.obj
+ 0001:000058f0       ??1?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@UAE@XZ 100068f0 f i MDLANG.obj
+ 0001:00005910       ??0?$CArray@UtagTwoDoubles@@U1@@@QAE@XZ 10006910 f i MDLANG.obj
+ 0001:00005930       ??A?$CArray@UtagTwoDoubles@@U1@@@QAEAAUtagTwoDoubles@@H@Z 10006930 f i MDLANG.obj
+ 0001:00005950       ??1?$CArray@UtagTwoDoubles@@U1@@@UAE@XZ 10006950 f i MDLANG.obj
+ 0001:00005970       ??A?$CArray@UtagPointRadiusData@@AAU1@@@QAEAAUtagPointRadiusData@@H@Z 10006970 f i MDLANG.obj
+ 0001:00005990       ??1?$CArray@UtagPointRadiusData@@AAU1@@@UAE@XZ 10006990 f i MDLANG.obj
+ 0001:000059b0       ??0?$CArray@PAUtagProfileBasedData@@PAU1@@@QAE@XZ 100069b0 f i MDLANG.obj
+ 0001:000059d0       ??1?$CArray@PAUtagProfileBasedData@@PAU1@@@UAE@XZ 100069d0 f i MDLANG.obj
+ 0001:000059f0       ??0?$CArray@PAUtagDraftSetData@@PAU1@@@QAE@XZ 100069f0 f i MDLANG.obj
+ 0001:00005a10       ??1?$CArray@PAUtagDraftSetData@@PAU1@@@UAE@XZ 10006a10 f i MDLANG.obj
+ 0001:00005a30       ??0?$CArray@PAUtagUniqueSetData@@PAU1@@@QAE@XZ 10006a30 f i MDLANG.obj
+ 0001:00005a50       ??1?$CArray@PAUtagUniqueSetData@@PAU1@@@UAE@XZ 10006a50 f i MDLANG.obj
+ 0001:00005a70       ??1?$CArray@PAUtagFeatureInputs@@PAU1@@@UAE@XZ 10006a70 f i MDLANG.obj
+ 0001:00005a90       ??_E?$CArray@HH@@UAEPAXI@Z 10006a90 f i MDLANG.obj
+ 0001:00005a90       ??_G?$CArray@HH@@UAEPAXI@Z 10006a90 f i MDLANG.obj
+ 0001:00005ab0       ??_E?$CArray@UtagThreeDoubles@@U1@@@UAEPAXI@Z 10006ab0 f i MDLANG.obj
+ 0001:00005ab0       ??_G?$CArray@UtagThreeDoubles@@U1@@@UAEPAXI@Z 10006ab0 f i MDLANG.obj
+ 0001:00005ad0       ??_E?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@UAEPAXI@Z 10006ad0 f i MDLANG.obj
+ 0001:00005ad0       ??_G?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@UAEPAXI@Z 10006ad0 f i MDLANG.obj
+ 0001:00005af0       ??_E?$CArray@UtagTwoDoubles@@U1@@@UAEPAXI@Z 10006af0 f i MDLANG.obj
+ 0001:00005af0       ??_G?$CArray@UtagTwoDoubles@@U1@@@UAEPAXI@Z 10006af0 f i MDLANG.obj
+ 0001:00005b10       ??_E?$CArray@UtagPointRadiusData@@AAU1@@@UAEPAXI@Z 10006b10 f i MDLANG.obj
+ 0001:00005b10       ??_G?$CArray@UtagPointRadiusData@@AAU1@@@UAEPAXI@Z 10006b10 f i MDLANG.obj
+ 0001:00005b30       ??_G?$CArray@PAUtagProfileBasedData@@PAU1@@@UAEPAXI@Z 10006b30 f i MDLANG.obj
+ 0001:00005b30       ??_E?$CArray@PAUtagProfileBasedData@@PAU1@@@UAEPAXI@Z 10006b30 f i MDLANG.obj
+ 0001:00005b50       ??_E?$CArray@PAUtagDraftSetData@@PAU1@@@UAEPAXI@Z 10006b50 f i MDLANG.obj
+ 0001:00005b50       ??_G?$CArray@PAUtagDraftSetData@@PAU1@@@UAEPAXI@Z 10006b50 f i MDLANG.obj
+ 0001:00005b70       ??_G?$CArray@PAUtagUniqueSetData@@PAU1@@@UAEPAXI@Z 10006b70 f i MDLANG.obj
+ 0001:00005b70       ??_E?$CArray@PAUtagUniqueSetData@@PAU1@@@UAEPAXI@Z 10006b70 f i MDLANG.obj
+ 0001:00005b90       ??_G?$CArray@PAUtagFeatureInputs@@PAU1@@@UAEPAXI@Z 10006b90 f i MDLANG.obj
+ 0001:00005b90       ??_E?$CArray@PAUtagFeatureInputs@@PAU1@@@UAEPAXI@Z 10006b90 f i MDLANG.obj
+ 0001:00005bb0       ?JMParserError@@YAJAAKAAPBD@Z 10006bb0 f   MDLANG.obj
+ 0001:00005c50       ?JMEnableLog@@YAJH@Z       10006c50 f   MDLANG.obj
+ 0001:00005ce0       ?JMRegisterProgressCallBackFunction@@YAJP6AHJ@Z@Z 10006ce0 f   MDLANG.obj
+ 0001:00005d70       ?SetSize@?$CArray@UtagThreeDoubles@@U1@@@QAEXHH@Z 10006d70 f i MDLANG.obj
+ 0001:00006020       ?SetSize@?$CArray@UtagTwoDoubles@@U1@@@QAEXHH@Z 10007020 f i MDLANG.obj
+ 0001:00006170       ?SetSize@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHH@Z 10007170 f i MDLANG.obj
+ 0001:000063e0       ??0?$CArray@PAUtagRoundSetData@@PAU1@@@QAE@XZ 100073e0 f i MDLANG.obj
+ 0001:00006400       ??1?$CArray@PAUtagRoundSetData@@PAU1@@@UAE@XZ 10007400 f i MDLANG.obj
+ 0001:00006420       ??_G?$CArray@PAUtagRoundSetData@@PAU1@@@UAEPAXI@Z 10007420 f i MDLANG.obj
+ 0001:00006420       ??_E?$CArray@PAUtagRoundSetData@@PAU1@@@UAEPAXI@Z 10007420 f i MDLANG.obj
+ 0001:00006440       ??0?$CArray@PAUtagFeatureInputs@@PAU1@@@QAE@XZ 10007440 f i MDLANG.obj
+ 0001:00006460       ??$SerializeElements@UtagThreeDoubles@@@@YGXAAVCArchive@@PAUtagThreeDoubles@@H@Z 10007460 f i MDLANG.obj
+ 0001:00006510       ??$SerializeElements@UtagTwoDoubles@@@@YGXAAVCArchive@@PAUtagTwoDoubles@@H@Z 10007510 f i MDLANG.obj
+ 0001:000065b0       ??$SerializeElements@UtagPointRadiusData@@@@YGXAAVCArchive@@PAUtagPointRadiusData@@H@Z 100075b0 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@PAV?$CArray@UtagThreeDoubles@@U1@@@@@YGXAAVCArchive@@PAPAV?$CArray@UtagThreeDoubles@@U1@@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@PAUtagFeatureInputs@@@@YGXAAVCArchive@@PAPAUtagFeatureInputs@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@PAUtagProfileBasedData@@@@YGXAAVCArchive@@PAPAUtagProfileBasedData@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@PAUtagUniqueSetData@@@@YGXAAVCArchive@@PAPAUtagUniqueSetData@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@PAV?$CList@PBDPBD@@@@YGXAAVCArchive@@PAPAV?$CList@PBDPBD@@H@Z 10007650 f i MdDefin.obj
+ 0001:00006650       ??$SerializeElements@PBD@@YGXAAVCArchive@@PAPBDH@Z 10007650 f i MdDefin.obj
+ 0001:00006650       ??$SerializeElements@PAUtagDraftSetData@@@@YGXAAVCArchive@@PAPAUtagDraftSetData@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006650       ??$SerializeElements@H@@YGXAAVCArchive@@PAHH@Z 10007650 f i MdDefin.obj
+ 0001:00006650       ??$SerializeElements@PAUIUnknown@@@@YGXAAVCArchive@@PAPAUIUnknown@@H@Z 10007650 f i LoftSweep.obj
+ 0001:00006650       ??$SerializeElements@PAUtagRoundSetData@@@@YGXAAVCArchive@@PAPAUtagRoundSetData@@H@Z 10007650 f i MDLANG.obj
+ 0001:00006700       ??0tagReferenceAxisData@@QAE@XZ 10007700 f i MDLANG.obj
+ 0001:00006760       ?Dump@tagReferenceAxisData@@QAEXPAVCStdioFile@@@Z 10007760 f i MDLANG.obj
+ 0001:00006830       ?Dump@tagProfileBasedData@@QAEXPAVCStdioFile@@@Z 10007830 f i MDLANG.obj
+ 0001:00006d80       ??1tagReferenceAxisData@@QAE@XZ 10007d80 f i MDLANG.obj
+ 0001:00006dd0       ?Dump@tagRoundSetData@@QAEXPAVCStdioFile@@@Z 10007dd0 f i MDLANG.obj
+ 0001:00006fd0       ??0tagChamferData@@QAE@XZ  10007fd0 f i MDLANG.obj
+ 0001:00007060       ?Dump@tagChamferData@@QAEXPAVCStdioFile@@@Z 10008060 f i MDLANG.obj
+ 0001:00007340       ??0tagFaceSetData@@QAE@XZ  10008340 f i MDLANG.obj
+ 0001:000073b0       ?Dump@tagFaceSetData@@QAEXPAVCStdioFile@@@Z 100083b0 f i MDLANG.obj
+ 0001:00007530       ?Dump@tagDraftSetData@@QAEXPAVCStdioFile@@@Z 10008530 f i MDLANG.obj
+ 0001:00007600       ??0tagDraftData@@QAE@XZ    10008600 f i MDLANG.obj
+ 0001:00007670       ?Dump@tagDraftData@@QAEXPAVCStdioFile@@@Z 10008670 f i MDLANG.obj
+ 0001:00007770       ??0tagPatternData@@QAE@XZ  10008770 f i MDLANG.obj
+ 0001:00007890       ?Dump@tagPatternData@@QAEXPAVCStdioFile@@@Z 10008890 f i MDLANG.obj
+ 0001:000080d0       ?Dump@tagUniqueSetData@@QAEXPAVCStdioFile@@@Z 100090d0 f i MDLANG.obj
+ 0001:000081a0       ?Dump@tagThinwallData@@QAEXPAVCStdioFile@@@Z 100091a0 f i MDLANG.obj
+ 0001:000082e0       ??0tagLoftSweepData@@QAE@XZ 100092e0 f i MDLANG.obj
+ 0001:00008360       ?Dump@tagLoftSweepData@@QAEXPAVCStdioFile@@@Z 10009360 f i MDLANG.obj
+ 0001:000085a0       ??0tagFeatureInputs@@QAE@XZ 100095a0 f i MDLANG.obj
+ 0001:00008610       ?Dump@tagFeatureInputs@@QAEXPAVCStdioFile@@@Z 10009610 f i MDLANG.obj
+ 0001:000086d0       ??1tagPatternData@@QAE@XZ  100096d0 f i MDLANG.obj
+ 0001:00008740       ?Serialize@?$CArray@UtagThreeDoubles@@U1@@@UAEXAAVCArchive@@@Z 10009740 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUtagProfileBasedData@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUIUnknown@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i LoftSweep.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUtagFeatureInputs@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUtagDraftSetData@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUtagUniqueSetData@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@PAUtagRoundSetData@@PAU1@@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:000087a0       ?Serialize@?$CArray@HH@@UAEXAAVCArchive@@@Z 100097a0 f i MDLANG.obj
+ 0001:00008800       ?Serialize@?$CArray@UtagTwoDoubles@@U1@@@UAEXAAVCArchive@@@Z 10009800 f i MDLANG.obj
+ 0001:00008860       ?Serialize@?$CArray@UtagPointRadiusData@@AAU1@@@UAEXAAVCArchive@@@Z 10009860 f i MDLANG.obj
+ 0001:000088c0       ??0tagProfileBasedData@@QAE@XZ 100098c0 f i MDLANG.obj
+ 0001:00008a00       ??1tagProfileBasedData@@QAE@XZ 10009a00 f i MDLANG.obj
+ 0001:00008b90       ??1tagRoundSetData@@QAE@XZ 10009b90 f i MDLANG.obj
+ 0001:00008c90       ??1tagChamferData@@QAE@XZ  10009c90 f i MDLANG.obj
+ 0001:00008d90       ??1tagFaceSetData@@QAE@XZ  10009d90 f i MDLANG.obj
+ 0001:00008e80       ??0tagThinwallData@@QAE@XZ 10009e80 f i MDLANG.obj
+ 0001:00008ef0       ??1tagDraftData@@QAE@XZ    10009ef0 f i MDLANG.obj
+ 0001:00008fa0       ??1tagThinwallData@@QAE@XZ 10009fa0 f i MDLANG.obj
+ 0001:00009060       ??1tagLoftSweepData@@QAE@XZ 1000a060 f i MDLANG.obj
+ 0001:00009160       ??1tagFeatureInputs@@QAE@XZ 1000a160 f i MDLANG.obj
+ 0001:00009360       ?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z 1000a360 f   MDLANG.obj
+ 0001:00009ee0       ?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z 1000aee0 f   MDLANG.obj
+ 0001:0000aaf0       ?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z 1000baf0 f   MDLANG.obj
+ 0001:0000aea0       ?JMGetFeaturePropertyFromString@@YAJPBDAAW4FeaturePropertyConstants@@@Z 1000bea0 f   MdUtil.obj
+ 0001:0000aee0       ?JMGetStringFromFeatureProperty@@YAPBDW4FeaturePropertyConstants@@@Z 1000bee0 f   MdUtil.obj
+ 0001:0000af10       ?JMGetPatternOffsetTypeFromString@@YAJPBDAAW4PatternOffsetTypeConstants@@@Z 1000bf10 f   MdUtil.obj
+ 0001:0000af60       ?JMGetStringFromPatternOffsetType@@YAPBDW4PatternOffsetTypeConstants@@@Z 1000bf60 f   MdUtil.obj
+ 0001:0000af90       ?JMGetStaggerTypeFromString@@YAJPBDAAW4StaggerTypeConstants@@@Z 1000bf90 f   MdUtil.obj
+ 0001:0000afe0       ?JMGetStringFromStaggerType@@YAPBDW4StaggerTypeConstants@@@Z 1000bfe0 f   MdUtil.obj
+ 0001:0000b010       ?JMGetGeom2dOrientationFromString@@YAJPBDAAW4Geom2dOrientationConstants@@@Z 1000c010 f   MdUtil.obj
+ 0001:0000b050       ?JMGetStringFromGeom2dOrientation@@YAPBDW4Geom2dOrientationConstants@@@Z 1000c050 f   MdUtil.obj
+ 0001:0000b070       ?JMGetPatternTypeFromString@@YAJPBDAAK@Z 1000c070 f   MdUtil.obj
+ 0001:0000b0b0       ?JMGetStringFromPatternTyp@@YAPBDK@Z 1000c0b0 f   MdUtil.obj
+ 0001:0000b0d0       ?JMHDeleteOneDimensionalSafeArrayCreatedFromRegularArray_SE@@YAJPAPAUtagSAFEARRAY@@@Z 1000c0d0 f   MdUtil.obj
+ 0001:0000b0f0       ?JMHCreateOneDimensionalSafeArrayFromRegularArray_SE@@YAJKPAPAXGPAPAUtagSAFEARRAY@@@Z 1000c0f0 f   MdUtil.obj
+ 0001:0000b380       ?JMGetNameErrorStatus@@YAJPAUIUnknown@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAW4FeatureStatusConstants@@1@Z 1000c380 f   MdUtil.obj
+ 0001:0000b540       ?JMCreateMultiProxySet@@YAJPAU_IHModel@@HHAAV?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@H1PAPAUIUnknown@@@Z 1000c540 f   MdUtil.obj
+ 0001:0000ba20       ?GetMPOUnkFromHModel@@YAJPAUIUnknown@@PAPAU1@@Z 1000ca20 f   MdUtil.obj
+ 0001:0000baf0       ?GetNextChar@@YADPAUIStream@@@Z 1000caf0 f   ParsUtil.obj
+ 0001:0000bb50       ?UndoChar@@YAXPAUIStream@@@Z 1000cb50 f   ParsUtil.obj
+ 0001:0000bb80       ?SkipLine@@YAXPAUIStream@@@Z 1000cb80 f   ParsUtil.obj
+ 0001:0000bc00       ?GetToken@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z 1000cc00 f   ParsUtil.obj
+ 0001:0000bdd0       ?GetConstToken@@YAJPAUIStream@@AAPBDAAK@Z 1000cdd0 f   ParsUtil.obj
+ 0001:0000be60       ?ParseDoubleValue@@YAJPAUIStream@@AANAAK@Z 1000ce60 f   ParsUtil.obj
+ 0001:0000bf50       ?ParseMultiDoubleValues@@YAJPAUIStream@@HQANAAK@Z 1000cf50 f   ParsUtil.obj
+ 0001:0000c130       ?ParseStringValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z 1000d130 f   ParsUtil.obj
+ 0001:0000c1a0       ?ParseConstStringValue@@YAJPAUIStream@@AAPBDAAK@Z 1000d1a0 f   ParsUtil.obj
+ 0001:0000c210       ?ParseFileStmValue@@YAJPAUIStream@@AAPAU1@AAK@Z 1000d210 f   ParsUtil.obj
+ 0001:0000c320       ?ParseIntValue@@YAJPAUIStream@@AAHAAK@Z 1000d320 f   ParsUtil.obj
+ 0001:0000c420       ?ParseNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z 1000d420 f   ParsUtil.obj
+ 0001:0000c4b0       ?Parse3DoubleInput@@YAJPAUIStream@@QANAAK@Z 1000d4b0 f   ParsUtil.obj
+ 0001:0000c540       ?Parse2DoubleInput@@YAJPAUIStream@@QANAAK@Z 1000d540 f   ParsUtil.obj
+ 0001:0000c5d0       ?ParsePointRadiusValues@@YAJPAUIStream@@AAUtagPointRadiusData@@AAK@Z 1000d5d0 f   ParsUtil.obj
+ 0001:0000c6e0       ?ParseInfinitePlaneValues@@YAJPAUIStream@@AAUtagInfinitePlane@@AAK@Z 1000d6e0 f   ParsUtil.obj
+ 0001:0000c7f0       ?ParsePointDirectionValues@@YAJPAUIStream@@AAUtagPointDirection@@AAK@Z 1000d7f0 f   ParsUtil.obj
+ 0001:0000c900       ?ParseFeatPropConstInput@@YAJPAUIStream@@AAW4FeaturePropertyConstants@@AAK@Z 1000d900 f   ParsUtil.obj
+ 0001:0000c960       ?ParseDPRFeatureProps@@YAJPAUIStream@@AAUtagFeatureProps@@AAK@Z 1000d960 f   ParsUtil.obj
+ 0001:0000cac0       ??HATL@@YA?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@0@ABV10@0@Z 1000dac0 f i ParsUtil.obj
+ 0001:0000cb60       ?SetAtGrow@?$CArray@UtagTwoDoubles@@U1@@@QAEXHUtagTwoDoubles@@@Z 1000db60 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@QAEXHPAV?$CArray@UtagThreeDoubles@@U1@@@@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUIUnknown@@PAU1@@@QAEXHPAUIUnknown@@@Z 1000dbb0 f i LoftSweep.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUtagRoundSetData@@PAU1@@@QAEXHPAUtagRoundSetData@@@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUtagFeatureInputs@@PAU1@@@QAEXHPAUtagFeatureInputs@@@Z 1000dbb0 f i MDLANG.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUtagDraftSetData@@PAU1@@@QAEXHPAUtagDraftSetData@@@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUtagUniqueSetData@@PAU1@@@QAEXHPAUtagUniqueSetData@@@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@PAUtagProfileBasedData@@PAU1@@@QAEXHPAUtagProfileBasedData@@@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbb0       ?SetAtGrow@?$CArray@HH@@QAEXHH@Z 1000dbb0 f i ParsUtil.obj
+ 0001:0000cbe0       ??0?$CArray@UtagPointRadiusData@@AAU1@@@QAE@XZ 1000dbe0 f i ParsUtil.obj
+ 0001:0000cc00       ?ParseFileNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z 1000dc00 f   ParsUtil.obj
+ 0001:0000cdb0       ?ParsePlaneInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000ddb0 f   ParsUtil.obj
+ 0001:0000cf50       ?Add@?$CArray@UtagTwoDoubles@@U1@@@QAEHUtagTwoDoubles@@@Z 1000df50 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@PAUtagRoundSetData@@PAU1@@@QAEHPAUtagRoundSetData@@@Z 1000df80 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@PAUIUnknown@@PAU1@@@QAEHPAUIUnknown@@@Z 1000df80 f i LoftSweep.obj
+ 0001:0000cf80       ?Add@?$CArray@PAUtagUniqueSetData@@PAU1@@@QAEHPAUtagUniqueSetData@@@Z 1000df80 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@PAUtagDraftSetData@@PAU1@@@QAEHPAUtagDraftSetData@@@Z 1000df80 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@HH@@QAEHH@Z  1000df80 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@QAEHPAV?$CArray@UtagThreeDoubles@@U1@@@@Z 1000df80 f i ParsUtil.obj
+ 0001:0000cf80       ?Add@?$CArray@PAUtagProfileBasedData@@PAU1@@@QAEHPAUtagProfileBasedData@@@Z 1000df80 f i ParsUtil.obj
+ 0001:0000cfa0       ?SetAtGrow@?$CArray@UtagThreeDoubles@@U1@@@QAEXHUtagThreeDoubles@@@Z 1000dfa0 f i ParsUtil.obj
+ 0001:0000d000       ?SetAtGrow@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHAAUtagPointRadiusData@@@Z 1000e000 f i ParsUtil.obj
+ 0001:0000d040       ??0tagRoundSetData@@QAE@XZ 1000e040 f i ParsUtil.obj
+ 0001:0000d0c0       ??0tagDraftSetData@@QAE@XZ 1000e0c0 f i ParsUtil.obj
+ 0001:0000d120       ??0tagUniqueSetData@@QAE@XZ 1000e120 f i ParsUtil.obj
+ 0001:0000d180       ?ParsePatternProfileValues@@YAJPAUIStream@@AAUtagPatternData@@AAK@Z 1000e180 f   ParsUtil.obj
+ 0001:0000d7e0       ?ParsePatternProfileInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000e7e0 f   ParsUtil.obj
+ 0001:0000d8e0       ?ParseFeatureNamesInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000e8e0 f   ParsUtil.obj
+ 0001:0000da50       ?Add@?$CArray@UtagThreeDoubles@@U1@@@QAEHUtagThreeDoubles@@@Z 1000ea50 f i ParsUtil.obj
+ 0001:0000da90       ?ParsePointValues@@YAJPAUIStream@@AAV?$CArray@UtagThreeDoubles@@U1@@@AAK@Z 1000ea90 f   ParsUtil.obj
+ 0001:0000dba0       ?ParseBodyOrProfileInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000eba0 f   ParsUtil.obj
+ 0001:0000deb0       ?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000eeb0 f   ParsUtil.obj
+ 0001:0000e560       ?ParseReferenceAxisInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000f560 f   ParsUtil.obj
+ 0001:0000e6b0       ?ParseVariableRadiusInput@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z 1000f6b0 f   ParsUtil.obj
+ 0001:0000e7b0       ?ParseRoundSetInput@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z 1000f7b0 f   ParsUtil.obj
+ 0001:0000e960       ?ParseLoftSweepCurveSetInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1000f960 f   ParsUtil.obj
+ 0001:0000ec10       ?ParseDraftUniqueSetInput@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z 1000fc10 f   ParsUtil.obj
+ 0001:0000edd0       ?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z 1000fdd0 f   ParsUtil.obj
+ 0001:0000fb90       ??D@YA?AUtagGVector@@ABU0@N@Z 10010b90 f i Pattern.obj
+ 0001:0000fbd0       ?GetFeatureByReferenceId@@YAJHPAV?$CArray@PAUtagFeatureInputs@@PAU1@@@PAPAUIUnknown@@@Z 10010bd0 f   Pattern.obj
+ 0001:0000fc50       ?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z 10010c50 f   Pattern.obj
+ 0001:000118b0       ?Normalize@@YA?AUtagGUnitVector@@ABUtagGVector@@@Z 100128b0 f i ProtCut.obj
+ 0001:000118e0       ?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 100128e0 f   ProtCut.obj
+ 0001:00014d40       ?JMCreateRibWeb@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10015d40 f   RibWeb.obj
+ 0001:000159b0       ?JMCreateRound@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 100169b0 f   RndChmf.obj
+ 0001:00016460       ?JMCreateChamfer@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10017460 f   RndChmf.obj
+ 0001:00016d00       ??4PersistentCutawayDef@@QAEAAU0@ABU0@@Z 10017d00 f i StdAfx.obj
+ 0001:00016d20       ??_FCMemoryStream@@QAEXXZ  10017d20 f i StdAfx.obj
+ 0001:00016d30       ?JMCreateThinwall@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10017d30 f   Thinwall.obj
+ 0001:00017692       _BatchFlush@0              10018692 f   jengine:jengine.dll
+ 0001:00017698       _BatchFlushOn              10018698 f   jengine:jengine.dll
+ 0001:0001769e       _BatchFlushOff             1001869e f   jengine:jengine.dll
+ 0001:000176a4       _JEnableLoggingWithoutClearDANGER@4 100186a4 f   jengine:jengine.dll
+ 0001:000176aa       _JGetDocActiveView         100186aa f   jengine:jengine.dll
+ 0001:000176b0       _JDisableLoggingWithoutClearDANGER@4 100186b0 f   jengine:jengine.dll
+ 0001:000176b6       _JIsLoggingEnabled@4       100186b6 f   jengine:jengine.dll
+ 0001:000176bc       _JSetDisableLoggingUntilNextTransactionFlag@8 100186bc f   jengine:jengine.dll
+ 0001:000176c2       _JGetDisableLoggingUntilNextTransactionFlag@8 100186c2 f   jengine:jengine.dll
+ 0001:000176c8       _HRerrEx                   100186c8 f   jutil:JUtil.dll
+ 0001:000176ce       ?Jsetdefaultprecision53@@YAXXZ 100186ce f   jutil:JUtil.dll
+ 0001:000176d4       _RCfatalerr                100186d4 f   jutil:JUtil.dll
+ 0001:000176da       _JCoCreateInstance         100186da f   jutil:JUtil.dll
+ 0001:000176e0       ?JMGetBodyFromEntity@@YAHH@Z 100186e0 f   partmnk:partmnk.dll
+ 0001:000176e6       ?SEGetEntitiesByGeomPoints@@YAHHHPAUPK_VECTOR_s@@HPAVTAG_LIST@@@Z 100186e6 f   partutl:partutl.dll
+ 0001:000176ec       ??1TAG_LIST@@QAE@XZ        100186ec f   taglist:taglist.dll
+ 0001:000176f2       ?count@TAG_LIST@@QBEHXZ    100186f2 f   taglist:taglist.dll
+ 0001:000176f8       ?purge@TAG_LIST@@QAEXXZ    100186f8 f   taglist:taglist.dll
+ 0001:000176fe       ??ATAG_LIST@@QBEHH@Z       100186fe f   taglist:taglist.dll
+ 0001:00017704       ??0TAG_LIST@@QAE@XZ        10018704 f   taglist:taglist.dll
+ 0001:0001770a       _IMGPlaneFreeMem           1001870a f   ugeom:ugeom.dll
+ 0001:00017710       _IMRectBy3Pts2d            10018710 f   ugeom2d:ugeom2d.dll
+ 0001:00017716       ?IsEqual@tagGUnitVector@@QBEHABUtagGVector@@@Z 10018716 f   umath:umath.dll
+ 0001:0001771c       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1001871c f   umath:umath.dll
+ 0001:00017722       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10018722 f   umath:umath.dll
+ 0001:00017728       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 10018728 f   umath:umath.dll
+ 0001:0001772e       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1001872e f   umath:umath.dll
+ 0001:00017734       ??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10018734 f   umath:umath.dll
+ 0001:0001773a       ?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1001873a f   umath:umath.dll
+ 0001:00017740       ??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 10018740 f   umath:umath.dll
+ 0001:00017746       ?Inverse@tagGTransf@@QBE?AU1@XZ 10018746 f   umath:umath.dll
+ 0001:0001774c       ?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@1@Z 1001874c f   umath:umath.dll
+ 0001:00017752       ??D@YA?AUtagGVector@@ABU0@0@Z 10018752 f   umath:umath.dll
+ 0001:00017758       _JHeapCreate@12            10018758 f   sealloc:sealloc.dll
+ 0001:0001775e       _JHeapDestroy@4            1001875e f   sealloc:sealloc.dll
+ 0001:00017764       _JHeapAlloc@12             10018764 f   sealloc:sealloc.dll
+ 0001:0001776a       _JHeapReAlloc@16           1001876a f   sealloc:sealloc.dll
+ 0001:00017770       _JHeapFree@12              10018770 f   sealloc:sealloc.dll
+ 0001:00017776       ??3@YAXPAX@Z               10018776 f   mfc80:MFC80.DLL
+ 0001:0001777c       ?WriteString@CStdioFile@@UAEXPBD@Z 1001877c f   mfc80:MFC80.DLL
+ 0001:00017782       ??_V@YAXPAX@Z              10018782 f   mfc80:MFC80.DLL
+ 0001:00017788       ?AfxThrowInvalidArgException@@YGXXZ 10018788 f   mfc80:MFC80.DLL
+ 0001:0001778e       ?AfxThrowMemoryException@@YGXXZ 1001878e f   mfc80:MFC80.DLL
+ 0001:00017794       ?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 10018794 f   mfc80:MFC80.DLL
+ 0001:0001779a       ?AfxThrowArchiveException@@YGXHPBD@Z 1001879a f   mfc80:MFC80.DLL
+ 0001:000177a0       ?Read@CArchive@@QAEIPAXI@Z 100187a0 f   mfc80:MFC80.DLL
+ 0001:000177a6       ?Write@CArchive@@QAEXPBXI@Z 100187a6 f   mfc80:MFC80.DLL
+ 0001:000177ac       ?ReadCount@CArchive@@QAEKXZ 100187ac f   mfc80:MFC80.DLL
+ 0001:000177b2       ?WriteCount@CArchive@@QAEXK@Z 100187b2 f   mfc80:MFC80.DLL
+ 0001:000177b8       ?FreeDataChain@CPlex@@QAEXXZ 100187b8 f   mfc80:MFC80.DLL
+ 0001:000177be       ?Create@CPlex@@SGPAU1@AAPAU1@II@Z 100187be f   mfc80:MFC80.DLL
+ 0001:000177c4       ?AfxDeactivateActCtx@@YGHKK@Z 100187c4 f   mfc80:MFC80.DLL
+ 0001:000177ca       ??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 100187ca f   mfc80:MFC80.DLL
+ 0001:000177d0       ?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 100187d0 f   mfc80:MFC80.DLL
+ 0001:000177d6       ??1CStringArray@@UAE@XZ    100187d6 f   mfc80:MFC80.DLL
+ 0001:000177dc       ??0CStringArray@@QAE@XZ    100187dc f   mfc80:MFC80.DLL
+ 0001:000177e2       ?Flush@CStdioFile@@UAEXXZ  100187e2 f   mfc80:MFC80.DLL
+ 0001:000177e8       ?Close@CStdioFile@@UAEXXZ  100187e8 f   mfc80:MFC80.DLL
+ 0001:000177ee       ?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 100187ee f   mfc80:MFC80.DLL
+ 0001:000177f4       ??1CFile@@UAE@XZ           100187f4 f   mfc80:MFC80.DLL
+ 0001:000177fa       ?Close@CFile@@UAEXXZ       100187fa f   mfc80:MFC80.DLL
+ 0001:00017800       ?Read@CFile@@UAEIPAXI@Z    10018800 f   mfc80:MFC80.DLL
+ 0001:00017806       ?GetFilePath@CFile@@UBE?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@XZ 10018806 f   mfc80:MFC80.DLL
+ 0001:0001780c       ?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 1001880c f   mfc80:MFC80.DLL
+ 0001:00017812       ??0CFile@@QAE@XZ           10018812 f   mfc80:MFC80.DLL
+ 0001:00017818       ??0CStdioFile@@QAE@XZ      10018818 f   mfc80:MFC80.DLL
+ 0001:0001781e       ??1CStdioFile@@UAE@XZ      1001881e f   mfc80:MFC80.DLL
+ 0001:00017824       ?SetAtGrow@CStringArray@@QAEXHABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 10018824 f   mfc80:MFC80.DLL
+ 0001:0001782a       ?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 1001882a f   mfcs80:dllmodul.obj
+ 0001:00017875       _InternalDllMain@12        10018875 f   mfcs80:dllmodul.obj
+ 0001:000179ec       _RawDllMain@12             100189ec f   mfcs80:dllmodul.obj
+ 0001:00017a46       _DllMain@12                10018a46 f   mfcs80:dllmodul.obj
+ 0001:00017a83       ??0_AFX_DLL_MODULE_STATE@@QAE@XZ 10018a83 f i mfcs80:dllmodul.obj
+ 0001:00017aa3       ??_E_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10018aa3 f i mfcs80:dllmodul.obj
+ 0001:00017aa3       ??_G_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10018aa3 f i mfcs80:dllmodul.obj
+ 0001:00017abe       ?AfxGetApp@@YGPAVCWinApp@@XZ 10018abe f i mfcs80:dllmodulX.obj
+ 0001:00017ac8       _malloc                    10018ac8 f   msvcrt:MSVCR80.dll
+ 0001:00017ace       __callnewh                 10018ace f   msvcrt:MSVCR80.dll
+ 0001:00017ad4       ___CxxFrameHandler3        10018ad4 f   msvcrt:MSVCR80.dll
+ 0001:00017ada       @__security_check_cookie@4 10018ada f   msvcrt:secchk.obj
+ 0001:00017aea       _memset                    10018aea f   msvcrt:MSVCR80.dll
+ 0001:00017af0       _memcpy                    10018af0 f   msvcrt:MSVCR80.dll
+ 0001:00017af6       ??_Etype_info@@UAEPAXI@Z   10018af6 f i msvcrt:ti_inst.obj
+ 0001:00017b3f       __onexit                   10018b3f f   msvcrt:atonexit.obj
+ 0001:00017bde       _atexit                    10018bde f   msvcrt:atonexit.obj
+ 0001:00017bf0       __ftol2_sse                10018bf0 f   msvcrt:ftol2.obj
+ 0001:00017bf9       __ftol2_pentium4           10018bf9 f   msvcrt:ftol2.obj
+ 0001:00017c0c       __ftol2_sse_excpt          10018c0c f   msvcrt:ftol2.obj
+ 0001:00017c26       __ftol2                    10018c26 f   msvcrt:ftol2.obj
+ 0001:00017c9b       __except_handler4          10018c9b f   msvcrt:chandler4gs.obj
+ 0001:00017cc0       __alloca_probe_16          10018cc0 f   msvcrt:alloca16.obj
+ 0001:00017cd6       __alloca_probe_8           10018cd6     msvcrt:alloca16.obj
+ 0001:00017cf0       __allmul                   10018cf0 f   msvcrt:llmul.obj
+ 0001:00017d71       __CRT_INIT@12              10018d71 f   msvcrt:crtdll.obj
+ 0001:00018026       __DllMainCRTStartup@12     10019026 f   msvcrt:crtdll.obj
+ 0001:00018047       __EH_prolog3               10019047 f   msvcrt:ehprolg3.obj
+ 0001:0001807a       __EH_prolog3_catch         1001907a f   msvcrt:ehprolg3.obj
+ 0001:000180b0       __EH_epilog3               100190b0 f   msvcrt:ehprolg3.obj
+ 0001:000180c4       __SEH_prolog4_GS           100190c4 f   msvcrt:sehprolg4gs.obj
+ 0001:0001810c       __SEH_epilog4_GS           1001910c f   msvcrt:sehprolg4gs.obj
+ 0001:0001811b       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1001911b f   msvcrt:ehvecdtr.obj
+ 0001:00018179       ??_M@YGXPAXIHP6EX0@Z@Z     10019179 f   msvcrt:ehvecdtr.obj
+ 0001:000181dc       ___report_gsfailure        100191dc f   msvcrt:gs_report.obj
+ 0001:000182e0       __unlock                   100192e0 f   msvcrt:MSVCR80.dll
+ 0001:000182e6       ___dllonexit               100192e6 f   msvcrt:MSVCR80.dll
+ 0001:000182ec       __lock                     100192ec f   msvcrt:MSVCR80.dll
+ 0001:000182f4       __SEH_prolog4              100192f4 f   msvcrt:sehprolg4.obj
+ 0001:00018339       __SEH_epilog4              10019339 f   msvcrt:sehprolg4.obj
+ 0001:0001839d       __get_sse2_info            1001939d f   msvcrt:cpu_disp.obj
+ 0001:000183fd       ___sse2_available_init     100193fd f   msvcrt:cpu_disp.obj
+ 0001:0001840a       __except_handler4_common   1001940a f   msvcrt:MSVCR80.dll
+ 0001:00018410       __chkstk                   10019410 f   msvcrt:chkstk.obj
+ 0001:00018410       __alloca_probe             10019410     msvcrt:chkstk.obj
+ 0001:0001843b       ___clean_type_info_names   1001943b f   msvcrt:tncleanup.obj
+ 0001:00018447       __RTC_Initialize           10019447 f   msvcrt:initsect.obj
+ 0001:0001846b       __RTC_Terminate            1001946b f   msvcrt:initsect.obj
+ 0001:00018490       __ValidateImageBase        10019490 f   msvcrt:pesect.obj
+ 0001:000184c0       __FindPESection            100194c0 f   msvcrt:pesect.obj
+ 0001:00018502       __IsNonwritableInCurrentImage 10019502 f   msvcrt:pesect.obj
+ 0001:0001856e       __initterm                 1001956e f   msvcrt:MSVCR80.dll
+ 0001:00018574       __initterm_e               10019574 f   msvcrt:MSVCR80.dll
+ 0001:0001857a       __amsg_exit                1001957a f   msvcrt:MSVCR80.dll
+ 0001:00018580       ___CppXcptFilter           10019580 f   msvcrt:MSVCR80.dll
+ 0001:00018586       ___security_init_cookie    10019586 f   msvcrt:gs_support.obj
+ 0001:0001861a       ?terminate@@YAXXZ          1001961a f   msvcrt:MSVCR80.dll
+ 0001:00018620       __crt_debugger_hook        10019620 f   msvcrt:MSVCR80.dll
+ 0001:00018626       ??1type_info@@UAE@XZ       10019626 f   msvcrt:MSVCR80.dll
+ 0001:00018626       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10019626 f   msvcrt:MSVCR80.dll
+ 0001:0001862c       ___clean_type_info_names_internal 1001962c f   msvcrt:MSVCR80.dll
+ 0001:00018632       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10019632 f i atls:atltrace.obj
+ 0001:00018697       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10019697 f i atls:atltrace.obj
+ 0001:0001869b       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 1001969b f i atls:atltrace.obj
+ 0001:00018700       ??1AFX_MODULE_STATE@@UAE@XZ 10019700 f   mfc80:MFC80.DLL
+ 0001:00018706       ?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 10019706 f   mfc80:MFC80.DLL
+ 0001:0001870c       ?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 1001970c f   mfc80:MFC80.DLL
+ 0001:00018712       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10019712 f   mfc80:MFC80.DLL
+ 0001:00018718       ?AfxUnlockTempMaps@@YGHH@Z 10019718 f   mfc80:MFC80.DLL
+ 0001:0001871e       ?AfxLockTempMaps@@YGXXZ    1001971e f   mfc80:MFC80.DLL
+ 0001:00018724       ?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 10019724 f   mfc80:MFC80.DLL
+ 0001:0001872a       ?Delete@CException@@QAEXXZ 1001972a f   mfc80:MFC80.DLL
+ 0001:00018730       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10019730 f   mfc80:MFC80.DLL
+ 0001:00018736       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10019736 f   mfc80:MFC80.DLL
+ 0001:0001873c       ?AfxWinTerm@@YGXXZ         1001973c f   mfc80:MFC80.DLL
+ 0001:00018742       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 10019742 f   mfc80:MFC80.DLL
+ 0001:00018748       ?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 10019748 f   mfc80:MFC80.DLL
+ 0001:0001874e       ?AfxCoreInitModule@@YGXXZ  1001974e f   mfc80:MFC80.DLL
+ 0001:00018754       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10019754 f   mfc80:MFC80.DLL
+ 0001:0001875a       ??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 1001975a f   mfc80:MFC80.DLL
+ 0001:00018760       ??3CNoTrackObject@@SGXPAX@Z 10019760 f   mfc80:MFC80.DLL
+ 0001:00018822       __RawDllMainProxy@12       10019822 f   mfcs80:rawdllmainproxy.obj
+ 0002:00000000       __imp_??1GUserText@@QAE@XZ 1001c000     jutil:JUtil.dll
+ 0002:00000004       __imp_??4GUserText@@QAEAAV0@PB_W@Z 1001c004     jutil:JUtil.dll
+ 0002:00000008       __imp_??BGUserText@@QBEPBDXZ 1001c008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??0GUserText@@QAE@XZ 1001c00c     jutil:JUtil.dll
+ 0002:00000010       __imp__JCoCreateInstance   1001c010     jutil:JUtil.dll
+ 0002:00000014       __imp__RCfatalerr          1001c014     jutil:JUtil.dll
+ 0002:00000018       __imp_?Jsetdefaultprecision53@@YAXXZ 1001c018     jutil:JUtil.dll
+ 0002:0000001c       __imp__HRerrEx             1001c01c     jutil:JUtil.dll
+ 0002:00000020       __imp_??0GUserText@@QAE@PBDHI@Z 1001c020     jutil:JUtil.dll
+ 0002:00000024       __imp_??BGUserText@@QBEPB_WXZ 1001c024     jutil:JUtil.dll
+ 0002:00000028       \177JUtil_NULL_THUNK_DATA  1001c028     jutil:JUtil.dll
+ 0002:0000002c       __imp__InterlockedExchange@8 1001c02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetACP@0            1001c030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetLocaleInfoA@16   1001c034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetThreadLocale@0   1001c038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetVersionExA@4     1001c03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetTempPathA@8      1001c040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__LocalFree@4         1001c044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__LocalAlloc@8        1001c048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetSystemTimeAsFileTime@4 1001c04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcessId@0 1001c050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentThreadId@0 1001c054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetTickCount@0      1001c058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__QueryPerformanceCounter@4 1001c05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__IsDebuggerPresent@0 1001c060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__SetUnhandledExceptionFilter@4 1001c064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__UnhandledExceptionFilter@4 1001c068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetCurrentProcess@0 1001c06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__TerminateProcess@8  1001c070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__InterlockedCompareExchange@12 1001c074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__Sleep@4             1001c078     kernel32:KERNEL32.dll
+ 0002:0000007c       \177KERNEL32_NULL_THUNK_DATA 1001c07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_??1AFX_MODULE_STATE@@UAE@XZ 1001c080     mfc80:MFC80.DLL
+ 0002:00000084       __imp_?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 1001c084     mfc80:MFC80.DLL
+ 0002:00000088       __imp_?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 1001c088     mfc80:MFC80.DLL
+ 0002:0000008c       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1001c08c     mfc80:MFC80.DLL
+ 0002:00000090       __imp_?AfxUnlockTempMaps@@YGHH@Z 1001c090     mfc80:MFC80.DLL
+ 0002:00000094       __imp_?AfxLockTempMaps@@YGXXZ 1001c094     mfc80:MFC80.DLL
+ 0002:00000098       __imp_?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 1001c098     mfc80:MFC80.DLL
+ 0002:0000009c       __imp_?Delete@CException@@QAEXXZ 1001c09c     mfc80:MFC80.DLL
+ 0002:000000a0       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1001c0a0     mfc80:MFC80.DLL
+ 0002:000000a4       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1001c0a4     mfc80:MFC80.DLL
+ 0002:000000a8       __imp_??3@YAXPAX@Z         1001c0a8     mfc80:MFC80.DLL
+ 0002:000000ac       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1001c0ac     mfc80:MFC80.DLL
+ 0002:000000b0       __imp_?AfxWinTerm@@YGXXZ   1001c0b0     mfc80:MFC80.DLL
+ 0002:000000b4       __imp_?WriteString@CStdioFile@@UAEXPBD@Z 1001c0b4     mfc80:MFC80.DLL
+ 0002:000000b8       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 1001c0b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 1001c0bc     mfc80:MFC80.DLL
+ 0002:000000c0       __imp_??_V@YAXPAX@Z        1001c0c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_?AfxThrowInvalidArgException@@YGXXZ 1001c0c4     mfc80:MFC80.DLL
+ 0002:000000c8       __imp_?AfxThrowMemoryException@@YGXXZ 1001c0c8     mfc80:MFC80.DLL
+ 0002:000000cc       __imp_?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 1001c0cc     mfc80:MFC80.DLL
+ 0002:000000d0       __imp_?AfxThrowArchiveException@@YGXHPBD@Z 1001c0d0     mfc80:MFC80.DLL
+ 0002:000000d4       __imp_?Read@CArchive@@QAEIPAXI@Z 1001c0d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_?Write@CArchive@@QAEXPBXI@Z 1001c0d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_?ReadCount@CArchive@@QAEKXZ 1001c0dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?WriteCount@CArchive@@QAEXK@Z 1001c0e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_?Compare@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHPBD@Z 1001c0e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?FreeDataChain@CPlex@@QAEXXZ 1001c0e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?Create@CPlex@@SGPAU1@AAPAU1@II@Z 1001c0ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?MakeLower@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV12@XZ 1001c0f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_??A?$CSimpleStringT@D$00@ATL@@QBEDH@Z 1001c0f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_?GetLength@?$CSimpleStringT@D$00@ATL@@QBEHXZ 1001c0f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?AfxDeactivateActCtx@@YGHKK@Z 1001c0fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?Format@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAAXPBDZZ 1001c100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1001c104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001c108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_??1CStringArray@@UAE@XZ 1001c10c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_??0CStringArray@@QAE@XZ 1001c110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?Flush@CStdioFile@@UAEXXZ 1001c114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?Close@CStdioFile@@UAEXXZ 1001c118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?Open@CStdioFile@@UAEHPBDIPAVCFileException@@@Z 1001c11c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?hFileNull@CFile@@2QAXA 1001c120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_??1CFile@@UAE@XZ     1001c124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?Close@CFile@@UAEXXZ 1001c128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?Read@CFile@@UAEIPAXI@Z 1001c12c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?Left@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBE?AV12@H@Z 1001c130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?ReverseFind@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHD@Z 1001c134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@ABV01@@Z 1001c138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetFilePath@CFile@@UBE?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@XZ 1001c13c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?Open@CFile@@UAEHPBDIPAVCFileException@@@Z 1001c140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_??0CFile@@QAE@XZ     1001c144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_??0CStdioFile@@QAE@XZ 1001c148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@PBD@Z 1001c14c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_??1CStdioFile@@UAE@XZ 1001c150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 1001c154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@D@Z 1001c158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@D@Z 1001c15c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?Concatenate@?$CSimpleStringT@D$00@ATL@@KAXAAV12@PBDH1H@Z 1001c160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@PAUIAtlStringMgr@1@@Z 1001c164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?GetManager@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEPAUIAtlStringMgr@2@XZ 1001c168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?SetAtGrow@CStringArray@@QAEXHABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 1001c16c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@ABV?$CSimpleStringT@D$00@1@@Z 1001c170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 1001c174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 1001c178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?AfxCoreInitModule@@YGXXZ 1001c17c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001c180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 1001c184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_??3CNoTrackObject@@SGXPAX@Z 1001c188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1001c18c     mfc80:MFC80.DLL
+ 0002:00000190       \177MFC80_NULL_THUNK_DATA  1001c190     mfc80:MFC80.DLL
+ 0002:00000194       __imp__clock               1001c194     msvcrt:MSVCR80.dll
+ 0002:00000198       __imp___strdup             1001c198     msvcrt:MSVCR80.dll
+ 0002:0000019c       __imp__setlocale           1001c19c     msvcrt:MSVCR80.dll
+ 0002:000001a0       __imp__sscanf              1001c1a0     msvcrt:MSVCR80.dll
+ 0002:000001a4       __imp___unlock             1001c1a4     msvcrt:MSVCR80.dll
+ 0002:000001a8       __imp___encode_pointer     1001c1a8     msvcrt:MSVCR80.dll
+ 0002:000001ac       __imp____dllonexit         1001c1ac     msvcrt:MSVCR80.dll
+ 0002:000001b0       __imp___lock               1001c1b0     msvcrt:MSVCR80.dll
+ 0002:000001b4       __imp___onexit             1001c1b4     msvcrt:MSVCR80.dll
+ 0002:000001b8       __imp___decode_pointer     1001c1b8     msvcrt:MSVCR80.dll
+ 0002:000001bc       __imp___except_handler4_common 1001c1bc     msvcrt:MSVCR80.dll
+ 0002:000001c0       __imp___malloc_crt         1001c1c0     msvcrt:MSVCR80.dll
+ 0002:000001c4       __imp___encoded_null       1001c1c4     msvcrt:MSVCR80.dll
+ 0002:000001c8       __imp___initterm           1001c1c8     msvcrt:MSVCR80.dll
+ 0002:000001cc       __imp___initterm_e         1001c1cc     msvcrt:MSVCR80.dll
+ 0002:000001d0       __imp___amsg_exit          1001c1d0     msvcrt:MSVCR80.dll
+ 0002:000001d4       __imp___adjust_fdiv        1001c1d4     msvcrt:MSVCR80.dll
+ 0002:000001d8       __imp____CppXcptFilter     1001c1d8     msvcrt:MSVCR80.dll
+ 0002:000001dc       __imp_?terminate@@YAXXZ    1001c1dc     msvcrt:MSVCR80.dll
+ 0002:000001e0       __imp___crt_debugger_hook  1001c1e0     msvcrt:MSVCR80.dll
+ 0002:000001e4       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1001c1e4     msvcrt:MSVCR80.dll
+ 0002:000001e8       __imp____clean_type_info_names_internal 1001c1e8     msvcrt:MSVCR80.dll
+ 0002:000001ec       __imp__free                1001c1ec     msvcrt:MSVCR80.dll
+ 0002:000001f0       __imp__strcat_s            1001c1f0     msvcrt:MSVCR80.dll
+ 0002:000001f4       __imp__memcpy_s            1001c1f4     msvcrt:MSVCR80.dll
+ 0002:000001f8       __imp__memcpy              1001c1f8     msvcrt:MSVCR80.dll
+ 0002:000001fc       __imp__memset              1001c1fc     msvcrt:MSVCR80.dll
+ 0002:00000200       __imp____CxxFrameHandler3  1001c200     msvcrt:MSVCR80.dll
+ 0002:00000204       __imp___callnewh           1001c204     msvcrt:MSVCR80.dll
+ 0002:00000208       __imp__malloc              1001c208     msvcrt:MSVCR80.dll
+ 0002:0000020c       \177MSVCR80_NULL_THUNK_DATA 1001c20c     msvcrt:MSVCR80.dll
+ 0002:00000210       __imp__SafeArrayDestroy@4  1001c210     oleaut32:OLEAUT32.dll
+ 0002:00000214       __imp__SafeArrayCreate@12  1001c214     oleaut32:OLEAUT32.dll
+ 0002:00000218       __imp__SafeArrayPutElement@12 1001c218     oleaut32:OLEAUT32.dll
+ 0002:0000021c       __imp__VariantInit@4       1001c21c     oleaut32:OLEAUT32.dll
+ 0002:00000220       \177OLEAUT32_NULL_THUNK_DATA 1001c220     oleaut32:OLEAUT32.dll
+ 0002:00000224       __imp__JGetDisableLoggingUntilNextTransactionFlag@8 1001c224     jengine:jengine.dll
+ 0002:00000228       __imp__JSetDisableLoggingUntilNextTransactionFlag@8 1001c228     jengine:jengine.dll
+ 0002:0000022c       __imp__JIsLoggingEnabled@4 1001c22c     jengine:jengine.dll
+ 0002:00000230       __imp__JDisableLoggingWithoutClearDANGER@4 1001c230     jengine:jengine.dll
+ 0002:00000234       __imp__JGetDocActiveView   1001c234     jengine:jengine.dll
+ 0002:00000238       __imp__JEnableLoggingWithoutClearDANGER@4 1001c238     jengine:jengine.dll
+ 0002:0000023c       __imp__BatchFlushOff       1001c23c     jengine:jengine.dll
+ 0002:00000240       __imp__BatchFlush@0        1001c240     jengine:jengine.dll
+ 0002:00000244       __imp__BatchFlushOn        1001c244     jengine:jengine.dll
+ 0002:00000248       \177jengine_NULL_THUNK_DATA 1001c248     jengine:jengine.dll
+ 0002:0000024c       __imp_?JMGetBodyFromEntity@@YAHH@Z 1001c24c     partmnk:partmnk.dll
+ 0002:00000250       \177partmnk_NULL_THUNK_DATA 1001c250     partmnk:partmnk.dll
+ 0002:00000254       __imp_?SEGetEntitiesByGeomPoints@@YAHHHPAUPK_VECTOR_s@@HPAVTAG_LIST@@@Z 1001c254     partutl:partutl.dll
+ 0002:00000258       \177partutl_NULL_THUNK_DATA 1001c258     partutl:partutl.dll
+ 0002:0000025c       __imp__JHeapFree@12        1001c25c     sealloc:sealloc.dll
+ 0002:00000260       __imp__JHeapReAlloc@16     1001c260     sealloc:sealloc.dll
+ 0002:00000264       __imp__JHeapAlloc@12       1001c264     sealloc:sealloc.dll
+ 0002:00000268       __imp__JHeapDestroy@4      1001c268     sealloc:sealloc.dll
+ 0002:0000026c       __imp__JHeapCreate@12      1001c26c     sealloc:sealloc.dll
+ 0002:00000270       __imp__JSESysAllocString@4 1001c270     sealloc:sealloc.dll
+ 0002:00000274       __imp__JSESysFreeString@4  1001c274     sealloc:sealloc.dll
+ 0002:00000278       __imp__JVariantClear@4     1001c278     sealloc:sealloc.dll
+ 0002:0000027c       \177sealloc_NULL_THUNK_DATA 1001c27c     sealloc:sealloc.dll
+ 0002:00000280       __imp_??ATAG_LIST@@QBEHH@Z 1001c280     taglist:taglist.dll
+ 0002:00000284       __imp_??1TAG_LIST@@QAE@XZ  1001c284     taglist:taglist.dll
+ 0002:00000288       __imp_??0TAG_LIST@@QAE@XZ  1001c288     taglist:taglist.dll
+ 0002:0000028c       __imp_?count@TAG_LIST@@QBEHXZ 1001c28c     taglist:taglist.dll
+ 0002:00000290       __imp_?purge@TAG_LIST@@QAEXXZ 1001c290     taglist:taglist.dll
+ 0002:00000294       \177taglist_NULL_THUNK_DATA 1001c294     taglist:taglist.dll
+ 0002:00000298       __imp__IMGPlaneFreeMem     1001c298     ugeom:ugeom.dll
+ 0002:0000029c       \177ugeom_NULL_THUNK_DATA  1001c29c     ugeom:ugeom.dll
+ 0002:000002a0       __imp__IMRectBy3Pts2d      1001c2a0     ugeom2d:ugeom2d.dll
+ 0002:000002a4       \177ugeom2d_NULL_THUNK_DATA 1001c2a4     ugeom2d:ugeom2d.dll
+ 0002:000002a8       __imp_?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@1@Z 1001c2a8     umath:umath.dll
+ 0002:000002ac       __imp_?Inverse@tagGTransf@@QBE?AU1@XZ 1001c2ac     umath:umath.dll
+ 0002:000002b0       __imp_??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 1001c2b0     umath:umath.dll
+ 0002:000002b4       __imp_?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1001c2b4     umath:umath.dll
+ 0002:000002b8       __imp_??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1001c2b8     umath:umath.dll
+ 0002:000002bc       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1001c2bc     umath:umath.dll
+ 0002:000002c0       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1001c2c0     umath:umath.dll
+ 0002:000002c4       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1001c2c4     umath:umath.dll
+ 0002:000002c8       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1001c2c8     umath:umath.dll
+ 0002:000002cc       __imp_?IsEqual@tagGUnitVector@@QBEHABUtagGVector@@@Z 1001c2cc     umath:umath.dll
+ 0002:000002d0       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1001c2d0     umath:umath.dll
+ 0002:000002d4       \177umath_NULL_THUNK_DATA  1001c2d4     umath:umath.dll
+ 0002:000002d8       ___xc_a                    1001c2d8     msvcrt:cinitexe.obj
+ 0002:00000328       ___xc_z                    1001c328     msvcrt:cinitexe.obj
+ 0002:0000032c       ___xi_a                    1001c32c     msvcrt:cinitexe.obj
+ 0002:00000338       ___xi_z                    1001c338     msvcrt:cinitexe.obj
+ 0002:0000035c       ??_C@_0CP@CBMFFIIK@Missing?5needed?5feature?5inputs?5fo@ 1001c35c     BodyBool.obj
+ 0002:0000038c       ??_C@_01EEMJAFIK@?6?$AA@   1001c38c     BodyBool.obj
+ 0002:00000390       ??_C@_09NIMDIGFC@?5Status?5?3?$AA@ 1001c390     BodyBool.obj
+ 0002:0000039c       ??_C@_09KIDKPBFF@?6Feature?5?$AA@ 1001c39c     BodyBool.obj
+ 0002:000003a8       ??_C@_0CP@LLLOEBEP@Creation?5of?5BodyFeature?5failed?4?5@ 1001c3a8     BodyBool.obj
+ 0002:000003d8       ??_C@_0CO@FFNDKFKL@Creation?5of?5BodyFeature?5failed?4?5@ 1001c3d8     BodyBool.obj
+ 0002:00000408       ??_C@_0DH@LIIIMMNM@Model?5already?5present?0?5Body?5feat@ 1001c408     BodyBool.obj
+ 0002:00000440       ??_C@_0BD@CFFICMDK@?4?2SRC?2BodyBool?4cpp?$AA@ 1001c440     BodyBool.obj
+ 0002:00000454       ??_C@_0BE@CBEFKLMN@JMCreateBodyFeature?$AA@ 1001c454     BodyBool.obj
+ 0002:00000468       ??_C@_0DC@LBLAHPAN@Missing?5needed?5feature?5inputs?5fo@ 1001c468     BodyBool.obj
+ 0002:0000049c       ??_C@_0DH@DOIEBAAG@Model?5must?5present?0?5Boolean?5feat@ 1001c49c     BodyBool.obj
+ 0002:000004d4       ??_C@_0CG@JAPOFNHF@Creation?5of?5Boolean?5feature?5?5fai@ 1001c4d4     BodyBool.obj
+ 0002:000004fc       ??_C@_0DC@PDPCKPG@Creation?5of?5Boolean?5feature?5fail@ 1001c4fc     BodyBool.obj
+ 0002:00000530       ??_C@_0DF@HNBOJHEI@Creation?5of?5Tool?5body?5feature?5?5f@ 1001c530     BodyBool.obj
+ 0002:00000568       ??_C@_0DE@BPIIMDCA@Creation?5of?5Tool?5body?5feature?5fa@ 1001c568     BodyBool.obj
+ 0002:0000059c       ??_C@_0DE@OOGACCIG@Creation?5of?5Tool?5body?5feature?5fa@ 1001c59c     BodyBool.obj
+ 0002:000005d0       ??_C@_0BH@DIGADIG@JMCreateBooleanFeature?$AA@ 1001c5d0     BodyBool.obj
+ 0002:000005e8       ??_C@_0DJ@EFAAMGLE@Missing?5needed?5construction?5inpu@ 1001c5e8     BodyBool.obj
+ 0002:00000624       ??_C@_0P@DCNLKPKA@?6Construction?5?$AA@ 1001c624     BodyBool.obj
+ 0002:00000634       ??_C@_0DF@JCNBFKDO@Creation?5of?5copy?5construction?5?5f@ 1001c634     BodyBool.obj
+ 0002:0000066c       ??_C@_0DE@FFFJPGD@Creation?5of?5copy?5construction?5fa@ 1001c66c     BodyBool.obj
+ 0002:000006a0       ??_C@_0DE@PELNHOMF@Creation?5of?5copy?5construction?5fa@ 1001c6a0     BodyBool.obj
+ 0002:000006d4       ??_C@_0BJ@LCOJKMMP@JMCreateCopyConstruction?$AA@ 1001c6d4     BodyBool.obj
+ 0002:000006f4       ??_7CMemoryStream@@6B@     1001c6f4     CMemStm.obj
+ 0002:0000072c       ??_C@_0CI@GJJMKONF@Missing?5needed?5feature?5inputs?5fo@ 1001c72c     Draft.obj
+ 0002:00000754       ??_C@_0DF@GKGGCFCA@Model?5must?5present?0?5Draft?5featur@ 1001c754     Draft.obj
+ 0002:0000078c       ??_C@_0CJ@IIHCKILJ@Creation?5of?5Draft?5failed?4?5Check?5@ 1001c78c     Draft.obj
+ 0002:000007b8       ??_C@_0CI@JKCHLGMG@Creation?5of?5Draft?5failed?4?5Check?5@ 1001c7b8     Draft.obj
+ 0002:000007e0       ??_C@_0CL@BPACBAFC@Creation?5of?5Chamfer?5failed?4?5Chec@ 1001c7e0     Draft.obj
+ 0002:0000080c       ??_C@_0CK@DIEGNFMN@Creation?5of?5Chamfer?5failed?4?5Chec@ 1001c80c     Draft.obj
+ 0002:00000838       ??_C@_0DK@FMGFDGFL@Missing?5needed?5feature?5inputs?5?$CIf@ 1001c838     Draft.obj
+ 0002:00000874       ??_C@_0DP@PBDBHNME@Draft?5angle?5must?5not?5be?5negative@ 1001c874     Draft.obj
+ 0002:000008b4       ??_C@_0DO@FEKGPMP@Draft?5angle?5must?5not?5be?5negative@ 1001c8b4     Draft.obj
+ 0002:000008f4       ??_C@_0CO@IFLLNOGG@Creation?5of?5face?5proxy?5failed?4?5C@ 1001c8f4     Draft.obj
+ 0002:00000924       ??_C@_0CN@DODLFHEM@Creation?5of?5face?5proxy?5failed?4?5C@ 1001c924     Draft.obj
+ 0002:00000954       ??_C@_0DD@IJENJKEI@Creation?5of?5reference?5plane?5fail@ 1001c954     Draft.obj
+ 0002:00000988       ??_C@_0DC@HOGEEBIH@Creation?5of?5reference?5plane?5fail@ 1001c988     Draft.obj
+ 0002:000009bc       ??_C@_0BA@OJEMDALP@?4?2SRC?2Draft?4cpp?$AA@ 1001c9bc     Draft.obj
+ 0002:000009cc       ??_C@_0O@LINCBCJN@JMCreateDraft?$AA@ 1001c9cc     Draft.obj
+ 0002:000009dc       ??_C@_05HIKPKPAA@curve?$AA@ 1001c9dc     GUID.obj
+ 0002:000009e4       ??_C@_07BOEDKGLJ@cpcurve?$AA@ 1001c9e4     GUID.obj
+ 0002:000009ec       ??_C@_07PPKCIPKC@trcurve?$AA@ 1001c9ec     GUID.obj
+ 0002:000009f4       ??_C@_07GCPIJHJC@spcurve?$AA@ 1001c9f4     GUID.obj
+ 0002:000009fc       ??_C@_06LMGHKIAC@fcurve?$AA@ 1001c9fc     GUID.obj
+ 0002:00000a04       ??_C@_06EKCPNIOL@icurve?$AA@ 1001ca04     GUID.obj
+ 0002:00000a0c       ??_C@_06EICIIMBB@bcurve?$AA@ 1001ca0c     GUID.obj
+ 0002:00000a14       ??_C@_07IANGJLLC@ellipse?$AA@ 1001ca14     GUID.obj
+ 0002:00000a1c       ??_C@_06EPAGOIP@circle?$AA@ 1001ca1c     GUID.obj
+ 0002:00000a24       ??_C@_04HJPCFDOP@line?$AA@ 1001ca24     GUID.obj
+ 0002:00000a2c       ??_C@_07OLGKIMHI@blendsf?$AA@ 1001ca2c     GUID.obj
+ 0002:00000a34       ??_C@_04EFNENOPD@spun?$AA@ 1001ca34     GUID.obj
+ 0002:00000a3c       ??_C@_05JLCDMOHP@swept?$AA@ 1001ca3c     GUID.obj
+ 0002:00000a44       ??_C@_05BGNBAILF@fsurf?$AA@ 1001ca44     GUID.obj
+ 0002:00000a4c       ??_C@_06KLHHMIGM@offset?$AA@ 1001ca4c     GUID.obj
+ 0002:00000a54       ??_C@_05INEAEKKD@bsurf?$AA@ 1001ca54     GUID.obj
+ 0002:00000a5c       ??_C@_05FCPCBJIO@torus?$AA@ 1001ca5c     GUID.obj
+ 0002:00000a64       ??_C@_06FOHEPPJH@sphere?$AA@ 1001ca64     GUID.obj
+ 0002:00000a6c       ??_C@_03GFEAAPHK@cyl?$AA@  1001ca6c     GUID.obj
+ 0002:00000a70       ??_C@_04NOMJJLOC@cone?$AA@ 1001ca70     GUID.obj
+ 0002:00000a78       ??_C@_05MAIECAHP@plane?$AA@ 1001ca78     GUID.obj
+ 0002:00000a80       ??_C@_06LEBKBMLE@Vertex?$AA@ 1001ca80     GUID.obj
+ 0002:00000a88       ??_C@_04EIJIPNMI@Edge?$AA@ 1001ca88     GUID.obj
+ 0002:00000a90       ??_C@_03NMLMJBIE@Fin?$AA@  1001ca90     GUID.obj
+ 0002:00000a94       ??_C@_04KLCPKPBE@Loop?$AA@ 1001ca94     GUID.obj
+ 0002:00000a9c       ??_C@_04DPOPNPPG@Face?$AA@ 1001ca9c     GUID.obj
+ 0002:00000aa4       ??_C@_05OJBIAJFH@Shell?$AA@ 1001caa4     GUID.obj
+ 0002:00000aac       ??_C@_06FLCJJPBG@Region?$AA@ 1001caac     GUID.obj
+ 0002:00000ab4       ??_C@_04MJIIEFNN@Body?$AA@ 1001cab4     GUID.obj
+ 0002:00000abc       ??_C@_0N@MMBDGCHC@General?5Body?$AA@ 1001cabc     GUID.obj
+ 0002:00000acc       ??_C@_0L@KIDLEDBE@Solid?5Body?$AA@ 1001cacc     GUID.obj
+ 0002:00000ad8       ??_C@_0L@NGDFGHLH@Sheet?5Body?$AA@ 1001cad8     GUID.obj
+ 0002:00000ae4       ??_C@_09HHHPIAOB@Wire?5Body?$AA@ 1001cae4     GUID.obj
+ 0002:00000af0       ??_C@_0L@PILBJAGG@Acorn?5Body?$AA@ 1001caf0     GUID.obj
+ 0002:00000afc       ??_C@_0N@MEIFBAJO@Minimum?5Body?$AA@ 1001cafc     GUID.obj
+ 0002:00000b0c       ??_C@_09JJBHCMJI@Unhandled?$AA@ 1001cb0c     GUID.obj
+ 0002:00000b18       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1001cb18     GUID.obj
+ 0002:00000b48       _IID_IJPersistManager      1001cb48     GUID.obj
+ 0002:00000b58       _CLSID_JMFeatureNavigatorMgr 1001cb58     GUID.obj
+ 0002:00000b68       _IID__IHFeatureCommon      1001cb68     GUID.obj
+ 0002:00000b78       _IID__IHPartDocAutoExtension 1001cb78     GUID.obj
+ 0002:00000b88       _IID__IHConstructions      1001cb88     GUID.obj
+ 0002:00000b98       _IID__IHConstructionCommon 1001cb98     GUID.obj
+ 0002:00000ba8       _IID_IJPlane               1001cba8     GUID.obj
+ 0002:00000bb8       _IID__IHHoleDataCollection 1001cbb8     GUID.obj
+ 0002:00000bc8       _IID__IHRefAxes            1001cbc8     GUID.obj
+ 0002:00000bd8       _IID__IHRefPlanes          1001cbd8     GUID.obj
+ 0002:00000be8       _IID__IHModel              1001cbe8     GUID.obj
+ 0002:00000bf8       _IID__IHModels             1001cbf8     GUID.obj
+ 0002:00000c08       _IID_IJMREProperty         1001cc08     GUID.obj
+ 0002:00000c18       _IID__IHProfile            1001cc18     GUID.obj
+ 0002:00000c28       _IID__IHProfileSet         1001cc28     GUID.obj
+ 0002:00000c38       _IID__IHProfileSets        1001cc38     GUID.obj
+ 0002:00000c48       _IID_IJMGetPartData        1001cc48     GUID.obj
+ 0002:00000c58       _IID_IJMTopology           1001cc58     GUID.obj
+ 0002:00000c68       _IID_IJViewSet             1001cc68     GUID.obj
+ 0002:00000c78       _IID_IJView                1001cc78     GUID.obj
+ 0002:00000c88       _IID_IJMFeatureNavigatorMgr 1001cc88     GUID.obj
+ 0002:00000c98       _IID__IHLines2d            1001cc98     GUID.obj
+ 0002:00000ca8       _IID__IHRectPattern2d      1001cca8     GUID.obj
+ 0002:00000cb8       _IID__IHRectPatterns2d     1001ccb8     GUID.obj
+ 0002:00000cc8       _IID__IHCircPattern2d      1001ccc8     GUID.obj
+ 0002:00000cd8       _IID__IHCircPatterns2d     1001ccd8     GUID.obj
+ 0002:00000ce8       _IID_IJMTopologyProxy      1001cce8     GUID.obj
+ 0002:00000cfc       ??_7?$CArray@PAUIUnknown@@PAU1@@@6B@ 1001ccfc     LoftSweep.obj
+ 0002:00000d10       ??_C@_0BE@KEFCANK@?4?2SRC?2LoftSweep?4cpp?$AA@ 1001cd10     LoftSweep.obj
+ 0002:00000d24       ??_C@_0BL@CFDICAOH@CreateVertexProxyOnSection?$AA@ 1001cd24     LoftSweep.obj
+ 0002:00000d40       ??_C@_0CL@NGOHHKDH@Creation?5of?5Profile?5failed?4?5Chec@ 1001cd40     LoftSweep.obj
+ 0002:00000d6c       ??_C@_0CK@NBAMDGLO@Creation?5of?5Profile?5failed?4?5Chec@ 1001cd6c     LoftSweep.obj
+ 0002:00000d98       ??_C@_0CJ@EDHHDCFM@Creation?5of?5proxy?5failed?4?5Check?5@ 1001cd98     LoftSweep.obj
+ 0002:00000dc4       ??_C@_0CI@POAONPHG@Creation?5of?5proxy?5failed?4?5Check?5@ 1001cdc4     LoftSweep.obj
+ 0002:00000dec       ??_C@_0BI@GDPMPELI@CreateSectionOrPathData?$AA@ 1001cdec     LoftSweep.obj
+ 0002:00000e04       ??_C@_0DK@JFPPGAMP@Cutout?5can?5not?5be?5created?5as?5bas@ 1001ce04     LoftSweep.obj
+ 0002:00000e40       ??_C@_0DK@HLCNFNPI@Cutout?5can?5not?5be?5created?5as?5bas@ 1001ce40     LoftSweep.obj
+ 0002:00000e7c       ??_C@_0CP@BHOLLGPJ@All?5vertex?5map?5entries?5must?5be?5?4@ 1001ce7c     LoftSweep.obj
+ 0002:00000eac       ??_C@_0BC@KOGAMNDF@JMCreateLoftSweep?$AA@ 1001ceac     LoftSweep.obj
+ 0002:00000ec0       ??_C@_0O@FGDOOLLJ@alignparallel?$AA@ 1001cec0     MdDefin.obj
+ 0002:00000ed0       ??_C@_0M@FFKKPPKM@alignnormal?$AA@ 1001ced0     MdDefin.obj
+ 0002:00000edc       ??_C@_0BA@MONBKIDM@paralleltoplane?$AA@ 1001cedc     MdDefin.obj
+ 0002:00000eec       ??_C@_0L@OJJGELPD@continuous?$AA@ 1001ceec     MdDefin.obj
+ 0002:00000ef8       ??_C@_07JCJHBIIN@natural?$AA@ 1001cef8     MdDefin.obj
+ 0002:00000f00       ??_C@_0BA@HEOACDLM@tangentinterior?$AA@ 1001cf00     MdDefin.obj
+ 0002:00000f10       ??_C@_07IDAIGADD@tangent?$AA@ 1001cf10     MdDefin.obj
+ 0002:00000f18       ??_C@_06IKJOPBFO@closed?$AA@ 1001cf18     MdDefin.obj
+ 0002:00000f20       ??_C@_04LBNBHAJC@fast?$AA@ 1001cf20     MdDefin.obj
+ 0002:00000f28       ??_C@_05DNJFACGF@smart?$AA@ 1001cf28     MdDefin.obj
+ 0002:00000f30       ??_C@_0BB@KNGLKLEL@counterclockwise?$AA@ 1001cf30     MdDefin.obj
+ 0002:00000f44       ??_C@_09OLFIMAB@clockwise?$AA@ 1001cf44     MdDefin.obj
+ 0002:00000f50       ??_C@_05LAPONLG@false?$AA@ 1001cf50     MdDefin.obj
+ 0002:00000f58       ??_C@_04LOAJBDKD@true?$AA@ 1001cf58     MdDefin.obj
+ 0002:00000f60       ??_C@_0O@MCEIOBID@columnstagger?$AA@ 1001cf60     MdDefin.obj
+ 0002:00000f70       ??_C@_0L@KBLOJMCM@rowstagger?$AA@ 1001cf70     MdDefin.obj
+ 0002:00000f7c       ??_C@_09HHCHCFND@nostagger?$AA@ 1001cf7c     MdDefin.obj
+ 0002:00000f88       ??_C@_0BD@EFDPIDCF@patternfixedoffset?$AA@ 1001cf88     MdDefin.obj
+ 0002:00000f9c       ??_C@_0BC@FAGJLDBD@patternfilloffset?$AA@ 1001cf9c     MdDefin.obj
+ 0002:00000fb0       ??_C@_0BB@KOKGKAOB@patternfitoffset?$AA@ 1001cfb0     MdDefin.obj
+ 0002:00000fc4       ??_C@_0BI@NNOIFEDP@thknormaltoprofileplane?$AA@ 1001cfc4     MdDefin.obj
+ 0002:00000fdc       ??_C@_0BC@JCKCKPDP@thkinprofileplane?$AA@ 1001cfdc     MdDefin.obj
+ 0002:00000ff0       ??_C@_08PJBBOGCJ@noextend?$AA@ 1001cff0     MdDefin.obj
+ 0002:00000ffc       ??_C@_06BPBOMFNI@extend?$AA@ 1001cffc     MdDefin.obj
+ 0002:00001004       ??_C@_0BN@MOGGACOH@counterboreprofileisatbottom?$AA@ 1001d004     MdDefin.obj
+ 0002:00001024       ??_C@_0BK@EEKAPLFH@counterboreprofileisattop?$AA@ 1001d024     MdDefin.obj
+ 0002:00001040       ??_C@_0BB@LLIFHLDI@taperdimatbottom?$AA@ 1001d040     MdDefin.obj
+ 0002:00001054       ??_C@_0O@JKMOEJFL@taperdimattop?$AA@ 1001d054     MdDefin.obj
+ 0002:00001064       ??_C@_0O@JOPOPNBF@vbottomdimtov?$AA@ 1001d064     MdDefin.obj
+ 0002:00001074       ??_C@_0BB@PCKMODDC@vbottomdimtoflat?$AA@ 1001d074     MdDefin.obj
+ 0002:00001088       ??_C@_0BF@JCPBOFEJ@threehundredandsixty?$AA@ 1001d088     MdDefin.obj
+ 0002:000010a0       ??_C@_07BCPNPMFC@outside?$AA@ 1001d0a0     MdDefin.obj
+ 0002:000010a8       ??_C@_06OBELJJBF@inside?$AA@ 1001d0a8     MdDefin.obj
+ 0002:000010b0       ??_C@_04CGFJFPFD@none?$AA@ 1001d0b0     MdDefin.obj
+ 0002:000010b8       ??_C@_09KBBAOGEC@intersect?$AA@ 1001d0b8     MdDefin.obj
+ 0002:000010c4       ??_C@_08LJLIHDOM@subtract?$AA@ 1001d0c4     MdDefin.obj
+ 0002:000010d0       ??_C@_05DOIMOMOF@unite?$AA@ 1001d0d0     MdDefin.obj
+ 0002:000010d8       ??_C@_0P@DKJHMMLH@unequalsetback?$AA@ 1001d0d8     MdDefin.obj
+ 0002:000010e8       ??_C@_09JEICMEAN@byrlratio?$AA@ 1001d0e8     MdDefin.obj
+ 0002:000010f4       ??_C@_07NCGFFAJD@byratio?$AA@ 1001d0f4     MdDefin.obj
+ 0002:000010fc       ??_C@_07GLPPGFGH@byangle?$AA@ 1001d0fc     MdDefin.obj
+ 0002:00001104       ??_C@_07ELENMCCO@tapered?$AA@ 1001d104     MdDefin.obj
+ 0002:0000110c       ??_C@_06GEHMOPHN@tapped?$AA@ 1001d10c     MdDefin.obj
+ 0002:00001114       ??_C@_0N@MJEAJLGH@counterdrill?$AA@ 1001d114     MdDefin.obj
+ 0002:00001124       ??_C@_0M@BHGJNHEO@countersink?$AA@ 1001d124     MdDefin.obj
+ 0002:00001130       ??_C@_0M@OEDNEBDK@counterbore?$AA@ 1001d130     MdDefin.obj
+ 0002:0000113c       ??_C@_06MDDCAKGD@simple?$AA@ 1001d13c     MdDefin.obj
+ 0002:00001144       ??_C@_0L@MGNBAIMJ@throughall?$AA@ 1001d144     MdDefin.obj
+ 0002:00001150       ??_C@_06KPKMINDC@fromto?$AA@ 1001d150     MdDefin.obj
+ 0002:00001158       ??_C@_06LIFNCCDB@tonext?$AA@ 1001d158     MdDefin.obj
+ 0002:00001160       ??_C@_06IOFACJAH@finite?$AA@ 1001d160     MdDefin.obj
+ 0002:00001168       ??_C@_09GAAPDMOJ@symmetric?$AA@ 1001d168     MdDefin.obj
+ 0002:00001174       ??_C@_05DHJDAOHK@right?$AA@ 1001d174     MdDefin.obj
+ 0002:0000117c       ??_C@_04GOOOJOPP@left?$AA@ 1001d17c     MdDefin.obj
+ 0002:00001184       ??_C@_0BA@BHJIOAE@alignmentmethod?$AA@ 1001d184     MdDefin.obj
+ 0002:00001194       ??_C@_0N@HPIGMPFG@pathcurveset?$AA@ 1001d194     MdDefin.obj
+ 0002:000011a4       ??_C@_0CA@BMEIDIEB@endsectionendconditionmagnitude?$AA@ 1001d1a4     MdDefin.obj
+ 0002:000011c4       ??_C@_0BH@JPOIHEIO@endsectionendcondition?$AA@ 1001d1c4     MdDefin.obj
+ 0002:000011dc       ??_C@_0CC@MJCHLDBA@startsectionendconditionmagnitud@ 1001d1dc     MdDefin.obj
+ 0002:00001200       ??_C@_0BJ@KLLELDMO@startsectionendcondition?$AA@ 1001d200     MdDefin.obj
+ 0002:0000121c       ??_C@_08IDKCFBMI@periodic?$AA@ 1001d21c     MdDefin.obj
+ 0002:00001228       ??_C@_0O@IHCFPGM@guidecurveset?$AA@ 1001d228     MdDefin.obj
+ 0002:00001238       ??_C@_06HLKHCFCI@vertex?$AA@ 1001d238     MdDefin.obj
+ 0002:00001240       ??_C@_0BA@IDAFIAGA@crosssectionset?$AA@ 1001d240     MdDefin.obj
+ 0002:00001250       ??_C@_09GLPHDNGI@uniqueset?$AA@ 1001d250     MdDefin.obj
+ 0002:0000125c       ??_C@_0M@BLJDNMPH@openfaceset?$AA@ 1001d25c     MdDefin.obj
+ 0002:00001268       ??_C@_0BC@OFAPMPJF@suppressoccurence?$AA@ 1001d268     MdDefin.obj
+ 0002:0000127c       ??_C@_0BD@KKGHNEHG@referenceoccurence?$AA@ 1001d27c     MdDefin.obj
+ 0002:00001290       ??_C@_0M@OEMLBJPL@patterntype?$AA@ 1001d290     MdDefin.obj
+ 0002:0000129c       ??_C@_0M@KPMDGEHG@orientation?$AA@ 1001d29c     MdDefin.obj
+ 0002:000012a8       ??_C@_0L@JPKGCJNA@sweepangle?$AA@ 1001d2a8     MdDefin.obj
+ 0002:000012b4       ??_C@_0BJ@FAINKBGC@staggerincludelastcolumn?$AA@ 1001d2b4     MdDefin.obj
+ 0002:000012d0       ??_C@_0BC@NDOBJDIK@staggeroffsethalf?$AA@ 1001d2d0     MdDefin.obj
+ 0002:000012e4       ??_C@_0O@KEBAAIK@staggeroffset?$AA@ 1001d2e4     MdDefin.obj
+ 0002:000012f4       ??_C@_0M@IMHGPAEH@staggertype?$AA@ 1001d2f4     MdDefin.obj
+ 0002:00001300       ??_C@_06LOIGFACE@yspace?$AA@ 1001d300     MdDefin.obj
+ 0002:00001308       ??_C@_06BIPBFLJA@xspace?$AA@ 1001d308     MdDefin.obj
+ 0002:00001310       ??_C@_05OLNILLAB@space?$AA@ 1001d310     MdDefin.obj
+ 0002:00001318       ??_C@_06NLJKCCGH@ycount?$AA@ 1001d318     MdDefin.obj
+ 0002:00001320       ??_C@_06HNONCJND@xcount?$AA@ 1001d320     MdDefin.obj
+ 0002:00001328       ??_C@_05IOMEMJEC@count?$AA@ 1001d328     MdDefin.obj
+ 0002:00001330       ??_C@_0L@JJCIEELJ@offsettype?$AA@ 1001d330     MdDefin.obj
+ 0002:0000133c       ??_C@_06LNLHEAAG@height?$AA@ 1001d33c     MdDefin.obj
+ 0002:00001344       ??_C@_05IGKADHGO@width?$AA@ 1001d344     MdDefin.obj
+ 0002:0000134c       ??_C@_0L@HCMJANHJ@ydirection?$AA@ 1001d34c     MdDefin.obj
+ 0002:00001358       ??_C@_0L@LDEHNCLJ@xdirection?$AA@ 1001d358     MdDefin.obj
+ 0002:00001364       ??_C@_0M@CEIMHLNJ@centerpoint?$AA@ 1001d364     MdDefin.obj
+ 0002:00001370       ??_C@_0L@OOCEKHDN@startpoint?$AA@ 1001d370     MdDefin.obj
+ 0002:0000137c       ??_C@_0P@CCDKLEE@patternprofile?$AA@ 1001d37c     MdDefin.obj
+ 0002:0000138c       ??_C@_09GLPKLBIH@thickness?$AA@ 1001d38c     MdDefin.obj
+ 0002:00001398       ??_C@_0O@CPCJHFMK@thicknessside?$AA@ 1001d398     MdDefin.obj
+ 0002:000013a8       ??_C@_0N@JPJIMLEE@materialside?$AA@ 1001d3a8     MdDefin.obj
+ 0002:000013b8       ??_C@_0O@NGDPPFOJ@thicknesstype?$AA@ 1001d3b8     MdDefin.obj
+ 0002:000013c8       ??_C@_0BB@BCAAALLG@profileextension?$AA@ 1001d3c8     MdDefin.obj
+ 0002:000013dc       ??_C@_0M@LMLKNABO@finiteangle?$AA@ 1001d3dc     MdDefin.obj
+ 0002:000013e8       ??_C@_09NBLAJAHF@draftside?$AA@ 1001d3e8     MdDefin.obj
+ 0002:000013f4       ??_C@_0P@JMBNKMPD@referenceplane?$AA@ 1001d3f4     MdDefin.obj
+ 0002:00001404       ??_C@_08HFPHPKEG@draftset?$AA@ 1001d404     MdDefin.obj
+ 0002:00001410       ??_C@_07COPPBHJ@faceset?$AA@ 1001d410     MdDefin.obj
+ 0002:00001418       ??_C@_05FECBCJJD@angle?$AA@ 1001d418     MdDefin.obj
+ 0002:00001420       ??_C@_09HPKLLIJF@direction?$AA@ 1001d420     MdDefin.obj
+ 0002:0000142c       ??_C@_0O@FKPGIMEN@referenceaxis?$AA@ 1001d42c     MdDefin.obj
+ 0002:0000143c       ??_C@_0M@MIPOFNLL@booleantype?$AA@ 1001d43c     MdDefin.obj
+ 0002:00001448       ??_C@_08IOCOFKIJ@toolbody?$AA@ 1001d448     MdDefin.obj
+ 0002:00001454       ??_C@_0N@FKHMBKHM@setbackangle?$AA@ 1001d454     MdDefin.obj
+ 0002:00001464       ??_C@_0BB@CBIIHCAK@setbackdistance2?$AA@ 1001d464     MdDefin.obj
+ 0002:00001478       ??_C@_0BB@KKFCBMJ@setbackdistance1?$AA@ 1001d478     MdDefin.obj
+ 0002:0000148c       ??_C@_0N@JAKNDHFM@equalsetback?$AA@ 1001d48c     MdDefin.obj
+ 0002:0000149c       ??_C@_0O@NEMIHIEJ@referenceface?$AA@ 1001d49c     MdDefin.obj
+ 0002:000014ac       ??_C@_0M@HNAGMBLH@chamfertype?$AA@ 1001d4ac     MdDefin.obj
+ 0002:000014b8       ??_C@_06KGHINEPG@radius?$AA@ 1001d4b8     MdDefin.obj
+ 0002:000014c0       ??_C@_0P@NAPELGOC@variableradius?$AA@ 1001d4c0     MdDefin.obj
+ 0002:000014d0       ??_C@_0P@OGJBCKD@constantradius?$AA@ 1001d4d0     MdDefin.obj
+ 0002:000014e0       ??_C@_07EFMJJLCL@edgeset?$AA@ 1001d4e0     MdDefin.obj
+ 0002:000014e8       ??_C@_08FCLBEIHF@roundset?$AA@ 1001d4e8     MdDefin.obj
+ 0002:000014f4       ??_C@_0M@FGKBBLM@taperrvalue?$AA@ 1001d4f4     MdDefin.obj
+ 0002:00001500       ??_C@_0M@DCILPGCP@taperlvalue?$AA@ 1001d500     MdDefin.obj
+ 0002:0000150c       ??_C@_0BP@CIPGGADO@counterboreprofilelocationtype?$AA@ 1001d50c     MdDefin.obj
+ 0002:0000152c       ??_C@_0N@IGHDBMME@taperdimtype?$AA@ 1001d52c     MdDefin.obj
+ 0002:0000153c       ??_C@_0P@EDGPBAF@vbottomdimtype?$AA@ 1001d53c     MdDefin.obj
+ 0002:0000154c       ??_C@_0BE@PEBMGBFI@threadminordiameter?$AA@ 1001d54c     MdDefin.obj
+ 0002:00001560       ??_C@_0M@JJNFJJDF@threaddepth?$AA@ 1001d560     MdDefin.obj
+ 0002:0000156c       ??_C@_0BC@GJGLBBDK@threaddepthmethod?$AA@ 1001d56c     MdDefin.obj
+ 0002:00001580       ??_C@_05ECPGPNFF@taper?$AA@ 1001d580     MdDefin.obj
+ 0002:00001588       ??_C@_0M@DOHGBFOM@tapermethod?$AA@ 1001d588     MdDefin.obj
+ 0002:00001594       ??_C@_0O@PBCFOKED@treatmenttype?$AA@ 1001d594     MdDefin.obj
+ 0002:000015a4       ??_C@_0M@CIDEPGDP@bottomangle?$AA@ 1001d5a4     MdDefin.obj
+ 0002:000015b0       ??_C@_0BB@ENJGEPO@countersinkangle?$AA@ 1001d5b0     MdDefin.obj
+ 0002:000015c4       ??_C@_0BE@BOFCBFLA@countersinkdiameter?$AA@ 1001d5c4     MdDefin.obj
+ 0002:000015d8       ??_C@_0BB@IJMMOLJK@counterboredepth?$AA@ 1001d5d8     MdDefin.obj
+ 0002:000015ec       ??_C@_0BE@CCNLKJLA@counterborediameter?$AA@ 1001d5ec     MdDefin.obj
+ 0002:00001600       ??_C@_0N@CCKHGFFI@holediameter?$AA@ 1001d600     MdDefin.obj
+ 0002:00001610       ??_C@_08LFLHJMCJ@holetype?$AA@ 1001d610     MdDefin.obj
+ 0002:0000161c       ??_C@_06IKLLLDHL@normal?$AA@ 1001d61c     MdDefin.obj
+ 0002:00001624       ??_C@_09CDILMFHK@rootpoint?$AA@ 1001d624     MdDefin.obj
+ 0002:00001630       ??_C@_05BBEJFBFA@point?$AA@ 1001d630     MdDefin.obj
+ 0002:00001638       ??_C@_07EBIAPNND@toplane?$AA@ 1001d638     MdDefin.obj
+ 0002:00001640       ??_C@_09HDMKOJPM@fromplane?$AA@ 1001d640     MdDefin.obj
+ 0002:0000164c       ??_C@_06EEOFJBCG@toface?$AA@ 1001d64c     MdDefin.obj
+ 0002:00001654       ??_C@_08NGJNFNAK@fromface?$AA@ 1001d654     MdDefin.obj
+ 0002:00001660       ??_C@_0M@PBPCJDBP@finitedepth?$AA@ 1001d660     MdDefin.obj
+ 0002:0000166c       ??_C@_0L@HIAFKLMH@extenttype?$AA@ 1001d66c     MdDefin.obj
+ 0002:00001678       ??_C@_0L@IBBDCLOE@extentside?$AA@ 1001d678     MdDefin.obj
+ 0002:00001684       ??_C@_0M@HNDICJOF@profileside?$AA@ 1001d684     MdDefin.obj
+ 0002:00001690       ??_C@_0O@BLKCDDJP@profilenormal?$AA@ 1001d690     MdDefin.obj
+ 0002:000016a0       ??_C@_07LNMDFKEJ@profile?$AA@ 1001d6a0     MdDefin.obj
+ 0002:000016a8       ??_C@_04IEJGKNJ@body?$AA@  1001d6a8     MdDefin.obj
+ 0002:000016b0       ??_C@_0M@DGCNGDHI@referenceid?$AA@ 1001d6b0     MdDefin.obj
+ 0002:000016bc       ??_C@_04MEMAJGDJ@name?$AA@ 1001d6bc     MdDefin.obj
+ 0002:000016c4       ??_C@_07CPCPJPKL@version?$AA@ 1001d6c4     MdDefin.obj
+ 0002:000016cc       ??_C@_0BB@JEABAKGO@copyconstruction?$AA@ 1001d6cc     MdDefin.obj
+ 0002:000016e0       ??_C@_0M@HIFPMDHG@sweptcutout?$AA@ 1001d6e0     MdDefin.obj
+ 0002:000016ec       ??_C@_0BA@CKJOCCCH@sweptprotrusion?$AA@ 1001d6ec     MdDefin.obj
+ 0002:000016fc       ??_C@_0N@KMFNEHIL@loftedcutout?$AA@ 1001d6fc     MdDefin.obj
+ 0002:0000170c       ??_C@_0BB@LCGCLEO@loftedprotrusion?$AA@ 1001d70c     MdDefin.obj
+ 0002:00001720       ??_C@_08NLIKBPMM@thinwall?$AA@ 1001d720     MdDefin.obj
+ 0002:0000172c       ??_C@_06LLKPBPOH@mirror?$AA@ 1001d72c     MdDefin.obj
+ 0002:00001734       ??_C@_07CHFOACKJ@pattern?$AA@ 1001d734     MdDefin.obj
+ 0002:0000173c       ??_C@_0L@HDKNCELB@webnetwork?$AA@ 1001d73c     MdDefin.obj
+ 0002:00001748       ??_C@_03PEALBHO@rib?$AA@   1001d748     MdDefin.obj
+ 0002:0000174c       ??_C@_05NKNJDLLJ@draft?$AA@ 1001d74c     MdDefin.obj
+ 0002:00001754       ??_C@_0P@LKFMMANC@revolvedcutout?$AA@ 1001d754     MdDefin.obj
+ 0002:00001764       ??_C@_0BD@LEJGOCHD@revolvedprotrusion?$AA@ 1001d764     MdDefin.obj
+ 0002:00001778       ??_C@_05MIMAKCN@round?$AA@ 1001d778     MdDefin.obj
+ 0002:00001780       ??_C@_07JDLCFACP@chamfer?$AA@ 1001d780     MdDefin.obj
+ 0002:00001788       ??_C@_04KKJNHOJN@hole?$AA@ 1001d788     MdDefin.obj
+ 0002:00001790       ??_C@_0P@LAHMOOHC@extrudedcutout?$AA@ 1001d790     MdDefin.obj
+ 0002:000017a0       ??_C@_0BD@LOHPFNCA@extrudedprotrusion?$AA@ 1001d7a0     MdDefin.obj
+ 0002:000017b4       ??_C@_0P@IEOPDBKJ@booleanfeature?$AA@ 1001d7b4     MdDefin.obj
+ 0002:000017c4       ??_C@_0M@BEINFLIB@bodyfeature?$AA@ 1001d7c4     MdDefin.obj
+ 0002:000017d0       ??_C@_0N@IHCLMNMP@construction?$AA@ 1001d7d0     MdDefin.obj
+ 0002:000017e0       ??_C@_07IJDDADGK@feature?$AA@ 1001d7e0     MdDefin.obj
+ 0002:000017e8       ??_C@_0O@MMJBOBDI@byreferenceid?$AA@ 1001d7e8     MdDefin.obj
+ 0002:000017f8       ??_C@_0N@JMEMOOAO@byarcpattern?$AA@ 1001d7f8     MdDefin.obj
+ 0002:00001808       ??_C@_0BA@MFLKEGLB@bycirclepattern?$AA@ 1001d808     MdDefin.obj
+ 0002:00001818       ??_C@_0O@LNHIJBFE@byrectpattern?$AA@ 1001d818     MdDefin.obj
+ 0002:00001828       ??_C@_06KPIKLPJP@byname?$AA@ 1001d828     MdDefin.obj
+ 0002:00001830       ??_C@_0BB@CKOBPEPC@bypointdirection?$AA@ 1001d830     MdDefin.obj
+ 0002:00001844       ??_C@_0O@MMFCEGEL@bypointradius?$AA@ 1001d844     MdDefin.obj
+ 0002:00001854       ??_C@_0BB@KJHBPNLB@chainbygeompoint?$AA@ 1001d854     MdDefin.obj
+ 0002:00001868       ??_C@_0N@LMENLNCL@byholecenter?$AA@ 1001d868     MdDefin.obj
+ 0002:00001878       ??_C@_0BA@KHCAJHGI@byinfiniteplane?$AA@ 1001d878     MdDefin.obj
+ 0002:00001888       ??_C@_0M@FMDNOMKN@bygeompoint?$AA@ 1001d888     MdDefin.obj
+ 0002:00001894       ??_C@_0L@DMOHGGLL@by2doubles?$AA@ 1001d894     MdDefin.obj
+ 0002:000018a0       ??_C@_0L@CLJMHCPI@by3doubles?$AA@ 1001d8a0     MdDefin.obj
+ 0002:000018ac       ??_C@_05HIDHBJAP@bytag?$AA@ 1001d8ac     MdDefin.obj
+ 0002:000018b4       ??_C@_08IDODENMK@bystream?$AA@ 1001d8b4     MdDefin.obj
+ 0002:000018c0       ??_C@_08JOFDIOJB@byxtfile?$AA@ 1001d8c0     MdDefin.obj
+ 0002:000018cc       ??_C@_01CELHOKLL@?$HN?$AA@ 1001d8cc     MdDefin.obj
+ 0002:000018d0       ??_C@_01HCONENDN@?$HL?$AA@ 1001d8d0     MdDefin.obj
+ 0002:000018d4       ??_C@_01IHBHIGKO@?0?$AA@   1001d8d4     MdDefin.obj
+ 0002:000018d8       ??_C@_01ICJEACDI@?$DL?$AA@ 1001d8d8     MdDefin.obj
+ 0002:000018dc       ??_C@_01PKGAHCOL@?$CJ?$AA@ 1001d8dc     MdDefin.obj
+ 0002:000018e0       ??_C@_01ODHLEDKK@?$CI?$AA@ 1001d8e0     MdDefin.obj
+ 0002:000018e4       ??_C@_01NEMOKFLO@?$DN?$AA@ 1001d8e4     MdDefin.obj
+ 0002:000018ec       ??_7?$CList@PBDPBD@@6B@    1001d8ec     MdDefin.obj
+ 0002:00001904       ??_7?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@6B@ 1001d904     MdDefin.obj
+ 0002:00001918       ??_C@_0BM@BJAJDNJJ@?7?53?5Doubles?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001d918     MDLANG.obj
+ 0002:00001934       ??_C@_0BJ@CHHCEJNB@?7?5Normal?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001d934     MDLANG.obj
+ 0002:00001950       ??_C@_0BM@OEBCIFMG@?7?5RootPoint?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001d950     MDLANG.obj
+ 0002:0000196c       ??_C@_0BA@NPBEIINP@Infinite?5Plane?6?$AA@ 1001d96c     MDLANG.obj
+ 0002:0000197c       ??_C@_0BM@CDNNEOLO@?7?5Direction?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001d97c     MDLANG.obj
+ 0002:00001998       ??_C@_0BI@IJBJNOCO@?7?5Point?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001d998     MDLANG.obj
+ 0002:000019b0       ??_C@_0BB@FFNOPAAJ@PointDirection?5?6?$AA@ 1001d9b0     MDLANG.obj
+ 0002:000019c4       ??_C@_0BB@BAODBAJD@?7?5Radius?5?3?5?$CFlf?5?6?$AA@ 1001d9c4     MDLANG.obj
+ 0002:000019d8       ??_C@_0O@CHPKILJP@Point?5Radius?6?$AA@ 1001d9d8     MDLANG.obj
+ 0002:000019e8       ??_C@_0BF@GCPJPPIF@?7?5ReferenceId?5?3?5?$CFd?5?6?$AA@ 1001d9e8     MDLANG.obj
+ 0002:00001a00       ??_C@_0O@JEJMIKA@?7?5Name?5?3?5?$CFs?5?6?$AA@ 1001da00     MDLANG.obj
+ 0002:00001a10       ??_C@_0BC@JPPONLLN@?7?5Version?5?3?5?$CFlf?5?6?$AA@ 1001da10     MDLANG.obj
+ 0002:00001a24       ??_C@_0BF@FLHGHCM@?7?5FeatureType?5?3?5?$CFs?5?6?$AA@ 1001da24     MDLANG.obj
+ 0002:00001a3c       ??_C@_0O@JGOLGCIK@FeatureProps?6?$AA@ 1001da3c     MDLANG.obj
+ 0002:00001a4c       ??_C@_0BF@JDDCMPFN@?7?5BooleanType?5?3?5?$CFs?5?6?$AA@ 1001da4c     MDLANG.obj
+ 0002:00001a64       ??_C@_0BB@NGIFDNOI@?7?5BodyTag?5?3?5?$CFx?5?6?$AA@ 1001da64     MDLANG.obj
+ 0002:00001a78       ??_C@_0BE@HFGPEDIA@?7?5BodyStream?5?3?5?$CFx?5?6?$AA@ 1001da78     MDLANG.obj
+ 0002:00001a8c       ??_C@_0BE@NDLACIN@?7?5BodyXTFile?5?3?5?$CFs?5?6?$AA@ 1001da8c     MDLANG.obj
+ 0002:00001aa0       ??_C@_0P@BOFAJIAO@BodyBasedData?6?$AA@ 1001daa0     MDLANG.obj
+ 0002:00001ab0       ??_C@_0BG@GOHAFABA@?7?5TaperRValue?5?3?5?$CFlf?5?6?$AA@ 1001dab0     MDLANG.obj
+ 0002:00001ac8       ??_C@_0BG@MHGBNHCK@?7?5TaperLValue?5?3?5?$CFlf?5?6?$AA@ 1001dac8     MDLANG.obj
+ 0002:00001ae0       ??_C@_0CI@NPOFLJDN@?7?5CounterboreProfileLocationType@ 1001dae0     MDLANG.obj
+ 0002:00001b08       ??_C@_0BG@GOJBGOII@?7?5TaperDimType?5?3?5?$CFs?5?6?$AA@ 1001db08     MDLANG.obj
+ 0002:00001b20       ??_C@_0BI@LILDNPMG@?7?5VBottomDimType?5?3?5?$CFs?5?6?$AA@ 1001db20     MDLANG.obj
+ 0002:00001b38       ??_C@_0BO@COKOMMCO@?7?5ThreadMinorDiameter?5?3?5?$CFlf?5?6?$AA@ 1001db38     MDLANG.obj
+ 0002:00001b58       ??_C@_0BG@OOFCDPFL@?7?5ThreadDepth?5?3?5?$CFlf?5?6?$AA@ 1001db58     MDLANG.obj
+ 0002:00001b70       ??_C@_0BL@KHDFCILB@?7?5ThreadDepthMethod?5?3?5?$CFs?5?6?$AA@ 1001db70     MDLANG.obj
+ 0002:00001b8c       ??_C@_0BA@NCEANBGK@?7?5Taper?5?3?5?$CFlf?5?6?$AA@ 1001db8c     MDLANG.obj
+ 0002:00001b9c       ??_C@_0BF@GBIFIBGN@?7?5TaperMethod?5?3?5?$CFs?5?6?$AA@ 1001db9c     MDLANG.obj
+ 0002:00001bb4       ??_C@_0BH@BKAPDOHI@?7?5TreatmentType?5?3?5?$CFs?5?6?$AA@ 1001dbb4     MDLANG.obj
+ 0002:00001bcc       ??_C@_0BG@PCNDPGBM@?7?5BottomAngle?5?3?5?$CFlf?5?6?$AA@ 1001dbcc     MDLANG.obj
+ 0002:00001be4       ??_C@_0BL@HGIAGOBN@?7?5CountersinkAngle?5?3?5?$CFlf?5?6?$AA@ 1001dbe4     MDLANG.obj
+ 0002:00001c00       ??_C@_0BO@LJBFCAGD@?7?5CountersinkDiameter?5?3?5?$CFlf?5?6?$AA@ 1001dc00     MDLANG.obj
+ 0002:00001c20       ??_C@_0BL@EGBCLNEM@?7?5CounterboreDepth?5?3?5?$CFlf?5?6?$AA@ 1001dc20     MDLANG.obj
+ 0002:00001c3c       ??_C@_0BO@DKOBFCA@?7?5CounterboreDiameter?5?3?5?$CFlf?5?6?$AA@ 1001dc3c     MDLANG.obj
+ 0002:00001c5c       ??_C@_0BH@PHMCOHCJ@?7?5HoleDiameter?5?3?5?$CFlf?5?6?$AA@ 1001dc5c     MDLANG.obj
+ 0002:00001c74       ??_C@_0BC@KKAEFCEB@?7?5HoleType?5?3?5?$CFs?5?6?$AA@ 1001dc74     MDLANG.obj
+ 0002:00001c88       ??_C@_0M@KIFODLJA@?7?5HoleData?6?$AA@ 1001dc88     MDLANG.obj
+ 0002:00001c94       ??_C@_0BE@OAKKDPBC@?7?5Thickness?5?3?5?$CFlf?5?6?$AA@ 1001dc94     MDLANG.obj
+ 0002:00001ca8       ??_C@_0BH@OIMKBGGE@?7?5ThicknessSide?5?3?5?$CFs?5?6?$AA@ 1001dca8     MDLANG.obj
+ 0002:00001cc0       ??_C@_0BK@ENPAPEDI@?7?5ProfileExtension?5?3?5?$CFs?5?6?$AA@ 1001dcc0     MDLANG.obj
+ 0002:00001cdc       ??_C@_0BH@BMOBBKLC@?7?5ThicknessType?5?3?5?$CFs?5?6?$AA@ 1001dcdc     MDLANG.obj
+ 0002:00001cf4       ??_C@_0BD@GIPJHMJB@Rib?5Specific?5Data?6?$AA@ 1001dcf4     MDLANG.obj
+ 0002:00001d0c       ??_7?$CArray@HH@@6B@       1001dd0c     MDLANG.obj
+ 0002:00001d24       ??_7?$CArray@UtagThreeDoubles@@U1@@@6B@ 1001dd24     MDLANG.obj
+ 0002:00001d3c       ??_7?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@6B@ 1001dd3c     MDLANG.obj
+ 0002:00001d54       ??_7?$CArray@UtagTwoDoubles@@U1@@@6B@ 1001dd54     MDLANG.obj
+ 0002:00001d6c       ??_7?$CArray@UtagPointRadiusData@@AAU1@@@6B@ 1001dd6c     MDLANG.obj
+ 0002:00001d84       ??_7?$CArray@PAUtagProfileBasedData@@PAU1@@@6B@ 1001dd84     MDLANG.obj
+ 0002:00001d9c       ??_7?$CArray@PAUtagDraftSetData@@PAU1@@@6B@ 1001dd9c     MDLANG.obj
+ 0002:00001db4       ??_7?$CArray@PAUtagUniqueSetData@@PAU1@@@6B@ 1001ddb4     MDLANG.obj
+ 0002:00001dcc       ??_7?$CArray@PAUtagFeatureInputs@@PAU1@@@6B@ 1001ddcc     MDLANG.obj
+ 0002:00001de4       ??_7?$CArray@PAUtagRoundSetData@@PAU1@@@6B@ 1001dde4     MDLANG.obj
+ 0002:00001df8       ??_C@_0M@IAAMJGBE@EdgePoints?6?$AA@ 1001ddf8     MDLANG.obj
+ 0002:00001e04       ??_C@_0BA@LLPJEIDO@ReferenceAxis?5?6?$AA@ 1001de04     MDLANG.obj
+ 0002:00001e14       ??_C@_0BB@EONGHFDJ@VertexMapPoints?6?$AA@ 1001de14     MDLANG.obj
+ 0002:00001e28       ??_C@_0BI@HMKLMMIJ@ChainEdgeSetGeomPoints?6?$AA@ 1001de28     MDLANG.obj
+ 0002:00001e40       ??_C@_0BD@MGDCEGKK@EdgeSetGeomPoints?6?$AA@ 1001de40     MDLANG.obj
+ 0002:00001e54       ??_C@_0O@DCGELMJJ@ToFacePoints?6?$AA@ 1001de54     MDLANG.obj
+ 0002:00001e64       ??_C@_0BA@FIODLADK@FromFacePoints?6?$AA@ 1001de64     MDLANG.obj
+ 0002:00001e74       ??_C@_0BG@JBHPBHIJ@?7?5FiniteDepth?5?3?5?$CFlf?5?6?$AA@ 1001de74     MDLANG.obj
+ 0002:00001e8c       ??_C@_0BE@KPELHHND@?7?5ExtentType?5?3?5?$CFs?5?6?$AA@ 1001de8c     MDLANG.obj
+ 0002:00001ea0       ??_C@_0BE@FLGAHLAF@?7?5ExtentSide?5?3?5?$CFs?5?6?$AA@ 1001dea0     MDLANG.obj
+ 0002:00001eb4       ??_C@_0BF@DMJCLBLD@?7?5ProfileSide?5?3?5?$CFs?5?6?$AA@ 1001deb4     MDLANG.obj
+ 0002:00001ecc       ??_C@_0M@MFGCOLEJ@HolePoints?6?$AA@ 1001decc     MDLANG.obj
+ 0002:00001ed8       ??_C@_0CA@NIMKOFHB@?7?5ProfileNormal?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001ded8     MDLANG.obj
+ 0002:00001ef8       ??_C@_0BI@JCMJGFCN@?7?7?5ProfileTag?5?$CFd?5?3?5?$CFx?5?6?$AA@ 1001def8     MDLANG.obj
+ 0002:00001f10       ??_C@_0BK@CONPADMG@?7?5ProfileTag?5Count?5?3?5?$CFx?5?6?$AA@ 1001df10     MDLANG.obj
+ 0002:00001f2c       ??_C@_0BH@NEDDFDBJ@?7?5ProfileStream?5?3?5?$CFx?5?6?$AA@ 1001df2c     MDLANG.obj
+ 0002:00001f44       ??_C@_0BH@KMGHBCBE@?7?5ProfileXTFile?5?3?5?$CFs?5?6?$AA@ 1001df44     MDLANG.obj
+ 0002:00001f5c       ??_C@_0BC@JEPPKPIO@ProfileBasedData?6?$AA@ 1001df5c     MDLANG.obj
+ 0002:00001f70       ??_C@_0BC@HHCCIEM@?7?5VariableRadius?6?$AA@ 1001df70     MDLANG.obj
+ 0002:00001f84       ??_C@_0BJ@KMFMJEID@?7?5ConstantRadius?5?3?5?$CFlf?5?6?$AA@ 1001df84     MDLANG.obj
+ 0002:00001fa0       ??_C@_0O@LCKCGDG@RoundSetData?6?$AA@ 1001dfa0     MDLANG.obj
+ 0002:00001fb0       ??_C@_0BH@MCECCGIH@?7?5SetbackAngle?5?3?5?$CFlf?5?6?$AA@ 1001dfb0     MDLANG.obj
+ 0002:00001fc8       ??_C@_0BL@FHHOGGJH@?7?5SetbackDistance2?5?3?5?$CFlf?5?6?$AA@ 1001dfc8     MDLANG.obj
+ 0002:00001fe4       ??_C@_0BL@LMEJNNJE@?7?5SetbackDistance1?5?3?5?$CFlf?5?6?$AA@ 1001dfe4     MDLANG.obj
+ 0002:00002000       ??_C@_0BH@DFMCCANI@?7?5EqualSetback?5?3?5?$CFlf?5?6?$AA@ 1001e000     MDLANG.obj
+ 0002:00002018       ??_C@_0BH@IAJNEHDA@?7?5ReferenceFacePoints?6?$AA@ 1001e018     MDLANG.obj
+ 0002:00002030       ??_C@_0BF@GMNONGCF@?7?5ChamferType?5?3?5?$CFs?5?6?$AA@ 1001e030     MDLANG.obj
+ 0002:00002048       ??_C@_0N@MAGIGHPE@ChamferData?6?$AA@ 1001e048     MDLANG.obj
+ 0002:00002058       ??_C@_0BI@EIAPAMAI@ChainFaceSetGeomPoints?6?$AA@ 1001e058     MDLANG.obj
+ 0002:00002070       ??_C@_0BD@PCJGIGCL@FaceSetGeomPoints?6?$AA@ 1001e070     MDLANG.obj
+ 0002:00002084       ??_C@_0BA@NBJOPGDJ@?7?5Angle?5?3?5?$CFlf?5?6?$AA@ 1001e084     MDLANG.obj
+ 0002:00002094       ??_C@_0BF@IAMJHMLO@DraftSetFaceSetData?6?$AA@ 1001e094     MDLANG.obj
+ 0002:000020ac       ??_C@_0O@PEACCBGG@DraftSetData?6?$AA@ 1001e0ac     MDLANG.obj
+ 0002:000020bc       ??_C@_0BD@MLKJFHAK@?7?5DraftSide?5?3?5?$CFs?5?6?$AA@ 1001e0bc     MDLANG.obj
+ 0002:000020d0       ??_C@_0L@CCNCNBOJ@DraftData?6?$AA@ 1001e0d0     MDLANG.obj
+ 0002:000020dc       ??_C@_0BF@MANFNFCO@?7?5PatternType?5?3?5?$CFs?5?6?$AA@ 1001e0dc     MDLANG.obj
+ 0002:000020f4       ??_C@_0BP@PPBAPADP@?7?5SuppressOccurence?5?3?5?$CFd?0?5?$CFd?5?6?$AA@ 1001e0f4     MDLANG.obj
+ 0002:00002114       ??_C@_0CA@EIKGCBHI@?7?5ReferenceOccurence?5?3?5?$CFd?0?5?$CFd?5?6?$AA@ 1001e114     MDLANG.obj
+ 0002:00002134       ??_C@_0BF@PKPMAPAG@?7?5Orientation?5?3?5?$CFs?5?6?$AA@ 1001e134     MDLANG.obj
+ 0002:0000214c       ??_C@_0CC@KAFHHFKF@?7?5StaggerIncludelastColumn?5?3?5?$CFs?5@ 1001e14c     MDLANG.obj
+ 0002:00002170       ??_C@_0BL@PDDGLJAL@?7?5StaggerOffsetHalf?5?3?5?$CFs?5?6?$AA@ 1001e170     MDLANG.obj
+ 0002:0000218c       ??_C@_05MAJJAKPI@FALSE?$AA@ 1001e18c     MDLANG.obj
+ 0002:00002194       ??_C@_04HCDDPBNL@TRUE?$AA@ 1001e194     MDLANG.obj
+ 0002:0000219c       ??_C@_0BI@JIDNCGBA@?7?5StaggerOffset?5?3?5?$CFlf?5?6?$AA@ 1001e19c     MDLANG.obj
+ 0002:000021b4       ??_C@_0BF@IOKJPJ@?7?5StaggerType?5?3?5?$CFs?5?6?$AA@ 1001e1b4     MDLANG.obj
+ 0002:000021cc       ??_C@_0BB@JKOOHDOB@?7?5YSpace?5?3?5?$CFlf?5?6?$AA@ 1001e1cc     MDLANG.obj
+ 0002:000021e0       ??_C@_0BK@HDCOCELP@?7?5XSpace?5or?5Space?5?3?5?$CFlf?5?6?$AA@ 1001e1e0     MDLANG.obj
+ 0002:000021fc       ??_C@_0BA@PFDMBFLG@?7?5YCount?5?3?5?$CFd?5?6?$AA@ 1001e1fc     MDLANG.obj
+ 0002:0000220c       ??_C@_0BJ@KADJJDIJ@?7?5XCount?5or?5Count?5?3?5?$CFd?5?6?$AA@ 1001e20c     MDLANG.obj
+ 0002:00002228       ??_C@_0BE@KDJMLIBK@?7?5OffsetType?5?3?5?$CFs?5?6?$AA@ 1001e228     MDLANG.obj
+ 0002:0000223c       ??_C@_0BB@DIBFMAE@?7?5Height?5?3?5?$CFlf?5?6?$AA@ 1001e23c     MDLANG.obj
+ 0002:00002250       ??_C@_0BA@KEMIPLHF@?7?5Width?5?3?5?$CFlf?5?6?$AA@ 1001e250     MDLANG.obj
+ 0002:00002260       ??_C@_0BN@LDLHMNID@?7?5YDirection?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001e260     MDLANG.obj
+ 0002:00002280       ??_C@_0BN@NNDLNGMC@?7?5XDirection?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001e280     MDLANG.obj
+ 0002:000022a0       ??_C@_0BO@IFHCHDLB@?7?5CenterPoint?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001e2a0     MDLANG.obj
+ 0002:000022c0       ??_C@_0BN@NJHMMMBJ@?7?5StartPoint?5?3?5?$CFlf?5?$CFlf?5?$CFlf?5?6?$AA@ 1001e2c0     MDLANG.obj
+ 0002:000022e0       ??_C@_0BL@CMNDKJAJ@?7?5PatternProfile?5By?5?3?5?$CFs?5?6?$AA@ 1001e2e0     MDLANG.obj
+ 0002:000022fc       ??_C@_03OELGJLOB@Arc?$AA@  1001e2fc     MDLANG.obj
+ 0002:00002300       ??_C@_06MLENFHBD@Circle?$AA@ 1001e300     MDLANG.obj
+ 0002:00002308       ??_C@_04HGDEFKPD@Rect?$AA@ 1001e308     MDLANG.obj
+ 0002:00002310       ??_C@_0BM@CKJNGFLJ@?7?5FeatureReferenceId?5?3?5?$CFd?5?6?$AA@ 1001e310     MDLANG.obj
+ 0002:0000232c       ??_C@_0BF@CFPNENGH@?7?5FeatureName?5?3?5?$CFs?5?6?$AA@ 1001e32c     MDLANG.obj
+ 0002:00002344       ??_C@_0BH@BDJPJEGP@Pattern?5Specific?5Data?6?$AA@ 1001e344     MDLANG.obj
+ 0002:0000235c       ??_C@_0BG@ICAOGDFD@UniqueSetFaceSetData?6?$AA@ 1001e35c     MDLANG.obj
+ 0002:00002374       ??_C@_0P@PAIJBPCF@UniqueSetData?6?$AA@ 1001e374     MDLANG.obj
+ 0002:00002384       ??_C@_0BB@LIOFNECC@OpenFaceSetData?6?$AA@ 1001e384     MDLANG.obj
+ 0002:00002398       ??_C@_0O@KJNAJI@ThinwallData?6?$AA@ 1001e398     MDLANG.obj
+ 0002:000023a8       ??_C@_0BJ@PPPDILDI@?7?5AlignmentMethod?5?3?5?$CFs?5?6?$AA@ 1001e3a8     MDLANG.obj
+ 0002:000023c4       ??_C@_0CK@FANONMEI@?7?5EndSectionEndConditionMagnitud@ 1001e3c4     MDLANG.obj
+ 0002:000023f0       ??_C@_0CA@JAPPDFFM@?7?5EndSectionEndCondition?5?3?5?$CFs?5?6?$AA@ 1001e3f0     MDLANG.obj
+ 0002:00002410       ??_C@_0CM@LHPEJLAF@?7?5StartSectionEndConditionMagnit@ 1001e410     MDLANG.obj
+ 0002:0000243c       ??_C@_0CC@GGOICGCB@?7?5StartSectionEndCondition?5?3?5?$CFs?5@ 1001e43c     MDLANG.obj
+ 0002:00002460       ??_C@_0BC@MHNEJGPP@?7?5Periodic?5?3?5?$CFs?5?6?$AA@ 1001e460     MDLANG.obj
+ 0002:00002474       ??_C@_0BE@FEDBKMFG@Path?5or?5Guide?5Sets?6?$AA@ 1001e474     MDLANG.obj
+ 0002:00002488       ??_C@_0BE@JNCMOPHP@Cross?5section?5Sets?6?$AA@ 1001e488     MDLANG.obj
+ 0002:0000249c       ??_C@_0BE@MABNKNIE@Loft?5or?5Sweep?5Data?6?$AA@ 1001e49c     MDLANG.obj
+ 0002:000024b0       ??_C@_02PHMGELLB@?6?6?$AA@ 1001e4b0     MDLANG.obj
+ 0002:000024b4       ??_C@_0BA@EOIHFEPB@Unknown?5error?4?6?$AA@ 1001e4b4     MDLANG.obj
+ 0002:000024c4       ??_C@_0DE@PMPKDPDF@?6?6Parser?5failed?5at?5Line?5No?5?$CFd?5wi@ 1001e4c4     MDLANG.obj
+ 0002:000024f8       ??_C@_0CC@JPMGFCAJ@?6?6Finished?5Parsing?0?5Time?5taken?5?3@ 1001e4f8     MDLANG.obj
+ 0002:0000251c       ??_C@_0BB@BNBKCJKB@?$CFd?5milli?5seconds?$AA@ 1001e51c     MDLANG.obj
+ 0002:00002530       ??_C@_0BL@KFLDEJNL@Expecting?5Input?5?3?5?$CFs?5or?5?$CFs?$AA@ 1001e530     MDLANG.obj
+ 0002:0000254c       ??_C@_0BO@IJKDJPLP@Unexpected?5construction?5type?4?$AA@ 1001e54c     MDLANG.obj
+ 0002:0000256c       ??_C@_0CL@INABJKJJ@ERROR?3?5Parse?5error?5in?5constructi@ 1001e56c     MDLANG.obj
+ 0002:00002598       ??_C@_0CP@GNKIJPCH@ERROR?3?5Parse?5error?5in?5constructi@ 1001e598     MDLANG.obj
+ 0002:000025c8       ??_C@_0CG@CCKJPMDL@ERROR?3?5Parse?5error?5in?5feature?5in@ 1001e5c8     MDLANG.obj
+ 0002:000025f0       ??_C@_0CK@OGCHHBKD@ERROR?3?5Parse?5error?5in?5feature?5pr@ 1001e5f0     MDLANG.obj
+ 0002:0000261c       ??_C@_0BJ@FCNNMMID@Unexpected?5feature?5type?4?$AA@ 1001e61c     MDLANG.obj
+ 0002:00002638       ??_C@_0BL@CPHKMCJP@?6?6?$CFd?4?5Construction?5inputs?6?$AA@ 1001e638     MDLANG.obj
+ 0002:00002654       ??_C@_0BG@HGMAINHJ@?6?6?$CFd?4?5Feature?5inputs?6?$AA@ 1001e654     MDLANG.obj
+ 0002:0000266a       ??_C@_00CNPNBAHC@?$AA@     1001e66a     MDLANG.obj
+ 0002:0000266c       ??_C@_0BH@JHOGAGD@Parsing?5input?5file?4?4?4?6?$AA@ 1001e66c     MDLANG.obj
+ 0002:00002684       ??_C@_01GFHCPBMG@C?$AA@    1001e684     MDLANG.obj
+ 0002:00002688       ??_C@_0BO@MICHMFLI@?6?6?$CFd?4?5Creating?5Hole?5Feature?5?6?$AA@ 1001e688     MDLANG.obj
+ 0002:000026a8       ??_C@_0CJ@KFECIFCE@?6?6?$CFd?4?5Creating?5Revolved?5cutout?5F@ 1001e6a8     MDLANG.obj
+ 0002:000026d4       ??_C@_0CN@CFCBIPIF@?6?6?$CFd?4?5Creating?5Revolved?5Protrusi@ 1001e6d4     MDLANG.obj
+ 0002:00002704       ??_C@_0CJ@BGJKJCGE@?6?6?$CFd?4?5Creating?5Extruded?5cutout?5F@ 1001e704     MDLANG.obj
+ 0002:00002730       ??_C@_0CN@LMNFMPGM@?6?6?$CFd?4?5Creating?5Extruded?5Protrusi@ 1001e730     MDLANG.obj
+ 0002:00002760       ??_C@_0CL@PKLDIOHL@?6?6?$CFd?4?5Creating?5Rib?5or?5Webnetwork@ 1001e760     MDLANG.obj
+ 0002:0000278c       ??_C@_0CA@INHHCBGB@?6?6?$CFd?4?5Creating?5Mirror?5Feature?5?6?$AA@ 1001e78c     MDLANG.obj
+ 0002:000027ac       ??_C@_0CB@ENPIACH@?6?6?$CFd?4?5Creating?5Pattern?5Feature?5?6@ 1001e7ac     MDLANG.obj
+ 0002:000027d0       ??_C@_0CG@HFOIGDPC@?6?6?$CFd?4?5Creating?5Swept?5Cutout?5Feat@ 1001e7d0     MDLANG.obj
+ 0002:000027f8       ??_C@_0CK@MOICGGLN@?6?6?$CFd?4?5Creating?5Swept?5Protrusion?5@ 1001e7f8     MDLANG.obj
+ 0002:00002824       ??_C@_0CH@EKNJJEMF@?6?6?$CFd?4?5Creating?5Lofted?5Cutout?5Fea@ 1001e824     MDLANG.obj
+ 0002:0000284c       ??_C@_0CL@GDMOOJHP@?6?6?$CFd?4?5Creating?5Lofted?5Protrusion@ 1001e84c     MDLANG.obj
+ 0002:00002878       ??_C@_0BK@CIOBDPKB@Unsupported?5feature?5type?4?$AA@ 1001e878     MDLANG.obj
+ 0002:00002894       ??_C@_0CC@NJCHBCIH@?6?6?$CFd?4?5Creating?5Copy?5construction@ 1001e894     MDLANG.obj
+ 0002:000028b8       ??_C@_0CC@HPONMAKM@?6?6?$CFd?4?5Creating?5Thinwall?5Feature?5@ 1001e8b8     MDLANG.obj
+ 0002:000028dc       ??_C@_0BP@JAIACGNA@?6?6?$CFd?4?5Creating?5Draft?5Feature?5?6?$AA@ 1001e8dc     MDLANG.obj
+ 0002:000028fc       ??_C@_0CB@LDCFMLAM@?6?6?$CFd?4?5Creating?5Chamfer?5Feature?5?6@ 1001e8fc     MDLANG.obj
+ 0002:00002920       ??_C@_0BP@LEFPBBAP@?6?6?$CFd?4?5Creating?5Round?5Feature?5?6?$AA@ 1001e920     MDLANG.obj
+ 0002:00002940       ??_C@_0CB@FAFGMDNF@?6?6?$CFd?4?5Creating?5Boolean?5Feature?5?6@ 1001e940     MDLANG.obj
+ 0002:00002964       ??_C@_0BO@PMDJMLLO@?6?6?$CFd?4?5Creating?5Body?5Feature?5?6?$AA@ 1001e964     MDLANG.obj
+ 0002:00002984       ??_C@_0BB@CLICJJJN@?4?2SRC?2MDLANG?4cpp?$AA@ 1001e984     MDLANG.obj
+ 0002:00002998       ??_C@_0BM@ELOKPKAI@JMCreateFeatureTreeByStream?$AA@ 1001e998     MDLANG.obj
+ 0002:000029b4       ??_C@_0N@FOHIJILA@SEPARSER?4LOG?$AA@ 1001e9b4     MDLANG.obj
+ 0002:000029c4       ??_C@_0BM@JIEKGMPA@Unable?5to?5open?5input?5file?4?6?$AA@ 1001e9c4     MDLANG.obj
+ 0002:000029e0       ??_C@_0BK@GFAEBGL@JMCreateFeatureTreeByFile?$AA@ 1001e9e0     MDLANG.obj
+ 0002:000029fc       ??_C@_0BB@MOOAMBJJ@?4?2SRC?2MdUtil?4cpp?$AA@ 1001e9fc     MdUtil.obj
+ 0002:00002a10       ??_C@_0DE@ICKFAFLF@JMHCreateOneDimensionalSafeArray@ 1001ea10     MdUtil.obj
+ 0002:00002a44       ??_C@_08HAHFJNCO@SUCCEESS?$AA@ 1001ea44     MdUtil.obj
+ 0002:00002a50       ??_C@_07KAJBENLI@Error?3?5?$AA@ 1001ea50     MdUtil.obj
+ 0002:00002a58       ??_C@_09CKCJCCOK@Warning?3?5?$AA@ 1001ea58     MdUtil.obj
+ 0002:00002a64       ??_C@_0BF@MDMIAFJC@JMGetNameErrorStatus?$AA@ 1001ea64     MdUtil.obj
+ 0002:00002a7c       ??_C@_0BG@HMFIKOGC@JMCreateMultiProxySet?$AA@ 1001ea7c     MdUtil.obj
+ 0002:00002a94       ??_C@_0BF@MFMIBGMF@Expecting?5Input?5?3?5?$CFs?$AA@ 1001ea94     ParsUtil.obj
+ 0002:00002aac       ??_C@_07LFFIHBO@?$DMvalue?$DO?$AA@ 1001eaac     ParsUtil.obj
+ 0002:00002ab4       ??_C@_03DLDNIBIK@?$CFlf?$AA@ 1001eab4     ParsUtil.obj
+ 0002:00002ab8       ??_C@_0BM@OHDKBNIN@In?5valid?5stream?5pointer?5?3?$CFx?$AA@ 1001eab8     ParsUtil.obj
+ 0002:00002ad4       ??_C@_02BBAHNLBA@?$CFp?$AA@ 1001ead4     ParsUtil.obj
+ 0002:00002ad8       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1001ead8     ParsUtil.obj
+ 0002:00002adc       ??_C@_0BG@HKJOJJPM@?$DMPoint?5Radius?5values?$DO?$AA@ 1001eadc     ParsUtil.obj
+ 0002:00002af4       ??_C@_0BI@GHCDHFCO@?$DMInfinite?5plane?5values?$DO?$AA@ 1001eaf4     ParsUtil.obj
+ 0002:00002b0c       ??_C@_0BJ@IOBGHBOD@?$DMPoint?5direction?5values?$DO?$AA@ 1001eb0c     ParsUtil.obj
+ 0002:00002b28       ??_C@_0BN@PDIJNJKH@improper?5feature?5input?5value?$AA@ 1001eb28     ParsUtil.obj
+ 0002:00002b48       ??_C@_0BI@BKMKLIBC@feature?5property?5tokens?$AA@ 1001eb48     ParsUtil.obj
+ 0002:00002b60       ??_C@_0HA@CBFKMPEI@Unable?5to?5locate?5File?5?3?5?$CFs?0?5The?5@ 1001eb60     ParsUtil.obj
+ 0002:00002bd0       ??_C@_0BF@KBFMBNLJ@infinite?5plane?5input?$AA@ 1001ebd0     ParsUtil.obj
+ 0002:00002be8       ??_C@_0CD@DIJPIMNJ@In?5valid?5input?5for?5pattern?5profi@ 1001ebe8     ParsUtil.obj
+ 0002:00002c0c       ??_C@_0BG@BLOJMOED@pattern?5profile?5input?$AA@ 1001ec0c     ParsUtil.obj
+ 0002:00002c24       ??_C@_0BO@NLGJHDLD@ByName?5or?5ByReferenceId?5input?$AA@ 1001ec24     ParsUtil.obj
+ 0002:00002c44       ??_C@_0BG@ICPBLMJG@body?5or?5profile?5input?$AA@ 1001ec44     ParsUtil.obj
+ 0002:00002c5c       ??_C@_0BL@GAGCOJFA@In?5valid?5Parasolid?5Tag?5?3?$CFd?$AA@ 1001ec5c     ParsUtil.obj
+ 0002:00002c78       ??_C@_0BM@IECAJMLH@Expecting?5Input?5?3?5?$CFs?5or?5?$CFs?5?$AA@ 1001ec78     ParsUtil.obj
+ 0002:00002c94       ??_C@_0BF@DGFICHEN@reference?5axis?5input?$AA@ 1001ec94     ParsUtil.obj
+ 0002:00002cac       ??_C@_0BE@EHMMAFAM@point?5radius?5values?$AA@ 1001ecac     ParsUtil.obj
+ 0002:00002cc0       ??_C@_0BA@PNKHAKCF@round?5set?5input?$AA@ 1001ecc0     ParsUtil.obj
+ 0002:00002cd0       ??_C@_0BL@ICCJGHON@loft?5sweep?5curve?5set?5input?$AA@ 1001ecd0     ParsUtil.obj
+ 0002:00002cec       ??_C@_0CN@GDJOFPKN@Invalid?5arg?5for?5ParseLoftSweepCu@ 1001ecec     ParsUtil.obj
+ 0002:00002d1c       ??_C@_0BN@GBIIMAEJ@draftset?5or?5unique?5set?5input?$AA@ 1001ed1c     ParsUtil.obj
+ 0002:00002d3c       ??_C@_0BF@JCHEFOED@feature?5input?5tokens?$AA@ 1001ed3c     ParsUtil.obj
+ 0002:00002d54       ??_C@_0BP@MPCJIJHC@unquieset?5feature?5input?5tokens?$AA@ 1001ed54     ParsUtil.obj
+ 0002:00002d74       ??_C@_0BO@NAJJACGL@draftset?5feature?5input?5tokens?$AA@ 1001ed74     ParsUtil.obj
+ 0002:00002d94       ??_C@_0DE@CKLNPMIN@Missing?5needed?5feature?5inputs?5fo@ 1001ed94     Pattern.obj
+ 0002:00002dc8       ??_C@_0EB@MMBCICBJ@Model?5must?5present?0?5Pattern?5or?5M@ 1001edc8     Pattern.obj
+ 0002:00002e0c       ??_C@_0DF@LJJPAKNM@Creation?5of?5Pattern?5or?5Mirror?5fa@ 1001ee0c     Pattern.obj
+ 0002:00002e44       ??_C@_0DE@BJALDMGI@Creation?5of?5Pattern?5or?5Mirror?5fa@ 1001ee44     Pattern.obj
+ 0002:00002e78       ??_C@_0DI@FIMDCAIC@Creation?5of?5pattern?5profile?5geom@ 1001ee78     Pattern.obj
+ 0002:00002eb0       ??_C@_0DH@ELLJHKCD@Creation?5of?5pattern?5profile?5geom@ 1001eeb0     Pattern.obj
+ 0002:00002ee8       ??_C@_0EF@NEFFHBIN@Invalid?5width?5or?5height?5of?5recta@ 1001eee8     Pattern.obj
+ 0002:00002f30       ??_C@_0EE@OJEIGHN@Invalid?5width?5or?5height?5of?5recta@ 1001ef30     Pattern.obj
+ 0002:00002f78       __real@4024000000000000    1001ef78     Pattern.obj
+ 0002:00002f80       ??_C@_0DG@MICNGJKL@Unable?5to?5find?5the?5feature?5for?5g@ 1001ef80     Pattern.obj
+ 0002:00002fb8       ??_C@_0CN@FAAOABG@Unable?5to?5find?5the?5feature?5for?5g@ 1001efb8     Pattern.obj
+ 0002:00002fe8       ??_C@_0CJ@PPBIHHAB@Missing?5needed?5feature?5inputs?5fo@ 1001efe8     Pattern.obj
+ 0002:00003014       ??_C@_0CK@GOHDPCIM@Missing?5needed?5feature?5inputs?5fo@ 1001f014     Pattern.obj
+ 0002:00003040       ??_C@_0BC@GIIEAGFA@?4?2SRC?2Pattern?4cpp?$AA@ 1001f040     Pattern.obj
+ 0002:00003054       ??_C@_0BG@OKKOPJEF@JMCreatePatternMirror?$AA@ 1001f054     Pattern.obj
+ 0002:0000306c       ??_C@_0DN@KPPAGJLF@Missing?5needed?5feature?5inputs?5fo@ 1001f06c     ProtCut.obj
+ 0002:000030ac       ??_C@_0CJ@JBBKIIEF@Creation?5of?5Holes?5failed?4?5Check?5@ 1001f0ac     ProtCut.obj
+ 0002:000030d8       ??_C@_0CI@JODBDLFA@Creation?5of?5Holes?5failed?4?5Check?5@ 1001f0d8     ProtCut.obj
+ 0002:00003100       ??_C@_0CI@ONLEMPKD@Creation?5of?5Hole?5failed?4?5Check?5i@ 1001f100     ProtCut.obj
+ 0002:00003128       ??_C@_0CH@OMJJGKJO@Creation?5of?5Hole?5failed?4?5Check?5i@ 1001f128     ProtCut.obj
+ 0002:00003150       ??_C@_0DD@EJOBFENL@Creation?5of?5Revolved?5cutout?5fail@ 1001f150     ProtCut.obj
+ 0002:00003184       ??_C@_0DC@LOCGGDLD@Creation?5of?5Revolved?5Cutout?5fail@ 1001f184     ProtCut.obj
+ 0002:000031b8       ??_C@_0DH@EKEEJIB@Creation?5of?5Revolved?5Protrusion?5@ 1001f1b8     ProtCut.obj
+ 0002:000031f0       ??_C@_0DG@JPLKHNJI@Creation?5of?5Revolved?5Protrusion?5@ 1001f1f0     ProtCut.obj
+ 0002:00003228       ??_C@_0CK@FDPPCAJE@Creation?5of?5cutout?5failed?4?5Check@ 1001f228     ProtCut.obj
+ 0002:00003254       ??_C@_0CJ@HKIGFBKH@Creation?5of?5Cutout?5failed?4?5Check@ 1001f254     ProtCut.obj
+ 0002:00003280       ??_C@_0CO@LNAIAHMD@Creation?5of?5Protrusion?5failed?4?5C@ 1001f280     ProtCut.obj
+ 0002:000032b0       ??_C@_0CN@FFCADGOO@Creation?5of?5Protrusion?5failed?4?5C@ 1001f2b0     ProtCut.obj
+ 0002:000032e0       ??_C@_0CM@FMPBFBHP@Creation?5of?5profiles?5failed?4?5Che@ 1001f2e0     ProtCut.obj
+ 0002:0000330c       ??_C@_0CL@KCOOJCKF@Creation?5of?5profiles?5failed?4?5Che@ 1001f30c     ProtCut.obj
+ 0002:00003338       ??_C@_0DG@HGCEOLP@Creation?5of?5To?5reference?5plane?5f@ 1001f338     ProtCut.obj
+ 0002:00003370       ??_C@_0DF@OPFPEPBK@Creation?5of?5To?5reference?5plane?5f@ 1001f370     ProtCut.obj
+ 0002:000033a8       ??_C@_0DI@EDLBMNPD@Creation?5of?5From?5reference?5plane@ 1001f3a8     ProtCut.obj
+ 0002:000033e0       ??_C@_0DH@DIPBHAHG@Creation?5of?5From?5reference?5plane@ 1001f3e0     ProtCut.obj
+ 0002:00003418       ??_C@_0DB@IMMGENFP@Creation?5of?5To?5face?5proxy?5failed@ 1001f418     ProtCut.obj
+ 0002:0000344c       ??_C@_0DA@PFOEEFEA@Creation?5of?5To?5face?5proxy?5failed@ 1001f44c     ProtCut.obj
+ 0002:0000347c       ??_C@_0DD@KKPEHIOE@Creation?5of?5From?5face?5proxy?5fail@ 1001f47c     ProtCut.obj
+ 0002:000034b0       ??_C@_0DC@BOOBFCHA@Creation?5of?5From?5face?5proxy?5fail@ 1001f4b0     ProtCut.obj
+ 0002:000034e4       ??_C@_0DH@NOPOAGKF@Creation?5of?5From?5reference?5axis?5@ 1001f4e4     ProtCut.obj
+ 0002:0000351c       ??_C@_0DG@KFENIJPD@Creation?5of?5From?5reference?5axis?5@ 1001f51c     ProtCut.obj
+ 0002:00003558       __real@3fbf7ced916872b0    1001f558     ProtCut.obj
+ 0002:00003560       ??_C@_0DB@OPAFFMNN@Creation?5of?5ReferenceAxis?5failed@ 1001f560     ProtCut.obj
+ 0002:00003594       ??_C@_0DA@DAJJBOFN@Creation?5of?5ReferenceAxis?5failed@ 1001f594     ProtCut.obj
+ 0002:000035c4       ??_C@_0CM@KBJNAABK@Creation?5of?5HoleData?5failed?4?5Che@ 1001f5c4     ProtCut.obj
+ 0002:000035f0       ??_C@_0CL@KMEGINLP@Creation?5of?5HoleData?5failed?4?5Che@ 1001f5f0     ProtCut.obj
+ 0002:00003620       __real@400921fb54442d18    1001f620     ProtCut.obj
+ 0002:00003628       __real@4066800000000000    1001f628     ProtCut.obj
+ 0002:00003630       ??_C@_0BC@NICNKKCH@?4?2SRC?2ProtCut?4cpp?$AA@ 1001f630     ProtCut.obj
+ 0002:00003644       ??_C@_0BN@MFHGMMCP@JMCreateProtrusionHoleCutout?$AA@ 1001f644     ProtCut.obj
+ 0002:00003664       ??_C@_0CH@IJHCDMGF@Missing?5needed?5feature?5inputs?5fo@ 1001f664     ProtCut.obj
+ 0002:00003690       ??_C@_0FM@CABJJGCA@Missing?5needed?5feature?5inputs?5?$CIe@ 1001f690     ProtCut.obj
+ 0002:000036f0       ??_C@_0EO@HGCJLNGE@Missing?5needed?5feature?5inputs?5fo@ 1001f6f0     ProtCut.obj
+ 0002:00003740       ??_C@_0GD@LHBHOKNK@Missing?5needed?5feature?5inputs?5?$CIf@ 1001f740     ProtCut.obj
+ 0002:000037a4       ??_C@_0DE@IFNEAKGO@Missing?5needed?5feature?5inputs?5fo@ 1001f7a4     RibWeb.obj
+ 0002:000037d8       ??_C@_0DD@BDFCLGMC@Model?5must?5present?0?5Rib?5feature?5@ 1001f7d8     RibWeb.obj
+ 0002:0000380c       ??_C@_0CO@KLPKLHJP@Creation?5of?5Rib?5or?5Web?5failed?4?5C@ 1001f80c     RibWeb.obj
+ 0002:0000383c       ??_C@_0CN@MLFPCPDB@Creation?5of?5Rib?5or?5Web?5failed?4?5C@ 1001f83c     RibWeb.obj
+ 0002:0000386c       ??_C@_0BB@MGBDLJIO@?4?2SRC?2RibWeb?4cpp?$AA@ 1001f86c     RibWeb.obj
+ 0002:00003880       ??_C@_0P@KGABEDDB@JMCreateRibWeb?$AA@ 1001f880     RibWeb.obj
+ 0002:00003890       ??_C@_0ED@DCOLCPOL@Missing?5needed?5feature?5inputs?5?$CIf@ 1001f890     RibWeb.obj
+ 0002:000038d4       ??_C@_0CG@DJGFPGIJ@Missing?5needed?5feature?5inputs?5fo@ 1001f8d4     RibWeb.obj
+ 0002:000038fc       ??_C@_0DF@BAMALMNF@Model?5must?5present?0?5Round?5featur@ 1001f8fc     RndChmf.obj
+ 0002:00003934       ??_C@_0CJ@LMECAPLG@Creation?5of?5Round?5failed?4?5Check?5@ 1001f934     RndChmf.obj
+ 0002:00003960       ??_C@_0CI@MEFJEFKP@Creation?5of?5Round?5failed?4?5Check?5@ 1001f960     RndChmf.obj
+ 0002:00003988       ??_C@_0DK@PJAFALO@Missing?5needed?5feature?5inputs?5?$CIe@ 1001f988     RndChmf.obj
+ 0002:000039c4       ??_C@_0CI@LPMJJPEB@Missing?5needed?5feature?5inputs?5fo@ 1001f9c4     RndChmf.obj
+ 0002:000039ec       ??_C@_0BC@JMHJDLGB@?4?2SRC?2RndChmf?4cpp?$AA@ 1001f9ec     RndChmf.obj
+ 0002:00003a00       ??_C@_0O@GOIHCDAJ@JMCreateRound?$AA@ 1001fa00     RndChmf.obj
+ 0002:00003a10       ??_C@_0CK@NKJPKAAK@Missing?5needed?5feature?5inputs?5fo@ 1001fa10     RndChmf.obj
+ 0002:00003a3c       ??_C@_0DH@LIFEMJDA@Model?5must?5present?0?5Chamfer?5feat@ 1001fa3c     RndChmf.obj
+ 0002:00003a74       ??_C@_0DI@FIIABDLD@Creation?5of?5reference?5face?5proxy@ 1001fa74     RndChmf.obj
+ 0002:00003aac       ??_C@_0DH@IIKELCD@Creation?5of?5reference?5face?5proxy@ 1001faac     RndChmf.obj
+ 0002:00003ae4       ??_C@_0BA@CAOIELOO@JMCreateChamfer?$AA@ 1001fae4     RndChmf.obj
+ 0002:00003af8       ??_C@_0FC@LFBPMDNG@Missing?5needed?5feature?5input?5?$CIan@ 1001faf8     RndChmf.obj
+ 0002:00003b50       ??_C@_0FE@BGNHNLEI@Missing?5needed?5feature?5input?5?$CIun@ 1001fb50     RndChmf.obj
+ 0002:00003ba4       ??_C@_0DP@GAALMHKL@Missing?5needed?5feature?5input?5?$CIEq@ 1001fba4     RndChmf.obj
+ 0002:00003c10       ??_C@_0CL@JAMHOGHL@Missing?5needed?5feature?5inputs?5fo@ 1001fc10     Thinwall.obj
+ 0002:00003c3c       ??_C@_0CM@GCKCFBIN@Creation?5of?5Thinwall?5failed?4?5Che@ 1001fc3c     Thinwall.obj
+ 0002:00003c68       ??_C@_0CL@JPJJLLEC@Creation?5of?5Thinwall?5failed?4?5Che@ 1001fc68     Thinwall.obj
+ 0002:00003c94       ??_C@_0DN@GJFJKGO@Missing?5needed?5feature?5inputs?5?$CIf@ 1001fc94     Thinwall.obj
+ 0002:00003cd8       ??_C@_0ED@PBDBBLGD@Thickness?5value?5must?5not?5be?5nega@ 1001fcd8     Thinwall.obj
+ 0002:00003d20       ??_C@_0EC@FCMMIMP@Thickness?5value?5must?5not?5be?5nega@ 1001fd20     Thinwall.obj
+ 0002:00003d64       ??_C@_0DD@IFKOJDBO@Creation?5of?5Thinwall?5inputs?5fail@ 1001fd64     Thinwall.obj
+ 0002:00003d98       ??_C@_0DC@CLHGCPEM@Creation?5of?5Thinwall?5inputs?5fail@ 1001fd98     Thinwall.obj
+ 0002:00003dcc       ??_C@_0BD@LAAOGBG@?4?2SRC?2Thinwall?4cpp?$AA@ 1001fdcc     Thinwall.obj
+ 0002:00003de0       ??_C@_0BB@DHFKLHPB@JMCreateThinwall?$AA@ 1001fde0     Thinwall.obj
+ 0002:00003df4       ??_C@_06JBKGCNBB@Delete?$AA@ 1001fdf4     mfcs80:dllmodul.obj
+ 0002:00003dfc       ??_C@_08KAAPDIAN@NoRemove?$AA@ 1001fdfc     mfcs80:dllmodul.obj
+ 0002:00003e08       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 1001fe08     mfcs80:dllmodul.obj
+ 0002:00003e14       ??_C@_03LAIAPFCB@Val?$AA@  1001fe14     mfcs80:dllmodul.obj
+ 0002:00003e18       ??_C@_01HMGJMAIH@B?$AA@    1001fe18     mfcs80:dllmodul.obj
+ 0002:00003e1c       ??_C@_01CKDDGHAB@D?$AA@    1001fe1c     mfcs80:dllmodul.obj
+ 0002:00003e20       ??_C@_01PLPBNMEI@M?$AA@    1001fe20     mfcs80:dllmodul.obj
+ 0002:00003e24       ??_C@_01CPLAODJH@S?$AA@    1001fe24     mfcs80:dllmodul.obj
+ 0002:00003e48       __pActualRawDllMain        1001fe48     mfcs80:dllmodul.obj
+ 0002:00003e50       ??_7_AFX_DLL_MODULE_STATE@@6B@ 1001fe50     mfcs80:dllmodul.obj
+ 0002:00003e78       ??_7type_info@@6B@         1001fe78     msvcrt:ti_inst.obj
+ 0002:00003e7c       __pDefaultRawDllMain       1001fe7c     msvcrt:crtdll.obj
+ 0002:00003e88       _IID_IStream               1001fe88     uuid:objidl_i.obj
+ 0002:00003e98       _IID_IUnknown              1001fe98     uuid:unknwn_i.obj
+ 0002:00003ea8       __pRawDllMain              1001fea8     mfcs80:rawdllmainproxy.obj
+ 0002:00003eb0       __load_config_used         1001feb0     msvcrt:loadcfg.obj
+ 0002:00003f28       ??_R4CMemoryStream@@6B@    1001ff28     CMemStm.obj
+ 0002:00003f3c       ??_R3CMemoryStream@@8      1001ff3c     CMemStm.obj
+ 0002:00003f4c       ??_R2CMemoryStream@@8      1001ff4c     CMemStm.obj
+ 0002:00003f60       ??_R1A@?0A@EA@CMemoryStream@@8 1001ff60     CMemStm.obj
+ 0002:00003f7c       ??_R1A@?0A@EA@IStream@@8   1001ff7c     CMemStm.obj
+ 0002:00003f98       ??_R3IStream@@8            1001ff98     CMemStm.obj
+ 0002:00003fa8       ??_R2IStream@@8            1001ffa8     CMemStm.obj
+ 0002:00003fb8       ??_R1A@?0A@EA@ISequentialStream@@8 1001ffb8     CMemStm.obj
+ 0002:00003fd4       ??_R3ISequentialStream@@8  1001ffd4     CMemStm.obj
+ 0002:00003fe4       ??_R2ISequentialStream@@8  1001ffe4     CMemStm.obj
+ 0002:00003ff0       ??_R1A@?0A@EA@IUnknown@@8  1001fff0     CMemStm.obj
+ 0002:0000400c       ??_R3IUnknown@@8           1002000c     CMemStm.obj
+ 0002:0000401c       ??_R2IUnknown@@8           1002001c     CMemStm.obj
+ 0002:00004024       ??_R4?$CArray@PAUIUnknown@@PAU1@@@6B@ 10020024     LoftSweep.obj
+ 0002:00004038       ??_R3?$CArray@PAUIUnknown@@PAU1@@@8 10020038     LoftSweep.obj
+ 0002:00004048       ??_R2?$CArray@PAUIUnknown@@PAU1@@@8 10020048     LoftSweep.obj
+ 0002:00004054       ??_R1A@?0A@EA@?$CArray@PAUIUnknown@@PAU1@@@8 10020054     LoftSweep.obj
+ 0002:00004070       ??_R1A@?0A@EA@CObject@@8   10020070     LoftSweep.obj
+ 0002:0000408c       ??_R3CObject@@8            1002008c     LoftSweep.obj
+ 0002:0000409c       ??_R2CObject@@8            1002009c     LoftSweep.obj
+ 0002:000040a4       ??_R4?$CList@PBDPBD@@6B@   100200a4     MdDefin.obj
+ 0002:000040b8       ??_R3?$CList@PBDPBD@@8     100200b8     MdDefin.obj
+ 0002:000040c8       ??_R2?$CList@PBDPBD@@8     100200c8     MdDefin.obj
+ 0002:000040d4       ??_R1A@?0A@EA@?$CList@PBDPBD@@8 100200d4     MdDefin.obj
+ 0002:000040f0       ??_R4?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@6B@ 100200f0     MdDefin.obj
+ 0002:00004104       ??_R3?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@8 10020104     MdDefin.obj
+ 0002:00004114       ??_R2?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@8 10020114     MdDefin.obj
+ 0002:00004120       ??_R1A@?0A@EA@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@8 10020120     MdDefin.obj
+ 0002:0000413c       ??_R4?$CArray@HH@@6B@      1002013c     MDLANG.obj
+ 0002:00004150       ??_R3?$CArray@HH@@8        10020150     MDLANG.obj
+ 0002:00004160       ??_R2?$CArray@HH@@8        10020160     MDLANG.obj
+ 0002:0000416c       ??_R1A@?0A@EA@?$CArray@HH@@8 1002016c     MDLANG.obj
+ 0002:00004188       ??_R4?$CArray@UtagThreeDoubles@@U1@@@6B@ 10020188     MDLANG.obj
+ 0002:0000419c       ??_R3?$CArray@UtagThreeDoubles@@U1@@@8 1002019c     MDLANG.obj
+ 0002:000041ac       ??_R2?$CArray@UtagThreeDoubles@@U1@@@8 100201ac     MDLANG.obj
+ 0002:000041b8       ??_R1A@?0A@EA@?$CArray@UtagThreeDoubles@@U1@@@8 100201b8     MDLANG.obj
+ 0002:000041d4       ??_R4?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@6B@ 100201d4     MDLANG.obj
+ 0002:000041e8       ??_R3?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@8 100201e8     MDLANG.obj
+ 0002:000041f8       ??_R2?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@8 100201f8     MDLANG.obj
+ 0002:00004204       ??_R1A@?0A@EA@?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@8 10020204     MDLANG.obj
+ 0002:00004220       ??_R4?$CArray@UtagTwoDoubles@@U1@@@6B@ 10020220     MDLANG.obj
+ 0002:00004234       ??_R3?$CArray@UtagTwoDoubles@@U1@@@8 10020234     MDLANG.obj
+ 0002:00004244       ??_R2?$CArray@UtagTwoDoubles@@U1@@@8 10020244     MDLANG.obj
+ 0002:00004250       ??_R1A@?0A@EA@?$CArray@UtagTwoDoubles@@U1@@@8 10020250     MDLANG.obj
+ 0002:0000426c       ??_R4?$CArray@UtagPointRadiusData@@AAU1@@@6B@ 1002026c     MDLANG.obj
+ 0002:00004280       ??_R3?$CArray@UtagPointRadiusData@@AAU1@@@8 10020280     MDLANG.obj
+ 0002:00004290       ??_R2?$CArray@UtagPointRadiusData@@AAU1@@@8 10020290     MDLANG.obj
+ 0002:0000429c       ??_R1A@?0A@EA@?$CArray@UtagPointRadiusData@@AAU1@@@8 1002029c     MDLANG.obj
+ 0002:000042b8       ??_R4?$CArray@PAUtagProfileBasedData@@PAU1@@@6B@ 100202b8     MDLANG.obj
+ 0002:000042cc       ??_R3?$CArray@PAUtagProfileBasedData@@PAU1@@@8 100202cc     MDLANG.obj
+ 0002:000042dc       ??_R2?$CArray@PAUtagProfileBasedData@@PAU1@@@8 100202dc     MDLANG.obj
+ 0002:000042e8       ??_R1A@?0A@EA@?$CArray@PAUtagProfileBasedData@@PAU1@@@8 100202e8     MDLANG.obj
+ 0002:00004304       ??_R4?$CArray@PAUtagDraftSetData@@PAU1@@@6B@ 10020304     MDLANG.obj
+ 0002:00004318       ??_R3?$CArray@PAUtagDraftSetData@@PAU1@@@8 10020318     MDLANG.obj
+ 0002:00004328       ??_R2?$CArray@PAUtagDraftSetData@@PAU1@@@8 10020328     MDLANG.obj
+ 0002:00004334       ??_R1A@?0A@EA@?$CArray@PAUtagDraftSetData@@PAU1@@@8 10020334     MDLANG.obj
+ 0002:00004350       ??_R4?$CArray@PAUtagUniqueSetData@@PAU1@@@6B@ 10020350     MDLANG.obj
+ 0002:00004364       ??_R3?$CArray@PAUtagUniqueSetData@@PAU1@@@8 10020364     MDLANG.obj
+ 0002:00004374       ??_R2?$CArray@PAUtagUniqueSetData@@PAU1@@@8 10020374     MDLANG.obj
+ 0002:00004380       ??_R1A@?0A@EA@?$CArray@PAUtagUniqueSetData@@PAU1@@@8 10020380     MDLANG.obj
+ 0002:0000439c       ??_R4?$CArray@PAUtagFeatureInputs@@PAU1@@@6B@ 1002039c     MDLANG.obj
+ 0002:000043b0       ??_R3?$CArray@PAUtagFeatureInputs@@PAU1@@@8 100203b0     MDLANG.obj
+ 0002:000043c0       ??_R2?$CArray@PAUtagFeatureInputs@@PAU1@@@8 100203c0     MDLANG.obj
+ 0002:000043cc       ??_R1A@?0A@EA@?$CArray@PAUtagFeatureInputs@@PAU1@@@8 100203cc     MDLANG.obj
+ 0002:000043e8       ??_R4?$CArray@PAUtagRoundSetData@@PAU1@@@6B@ 100203e8     MDLANG.obj
+ 0002:000043fc       ??_R3?$CArray@PAUtagRoundSetData@@PAU1@@@8 100203fc     MDLANG.obj
+ 0002:0000440c       ??_R2?$CArray@PAUtagRoundSetData@@PAU1@@@8 1002040c     MDLANG.obj
+ 0002:00004418       ??_R1A@?0A@EA@?$CArray@PAUtagRoundSetData@@PAU1@@@8 10020418     MDLANG.obj
+ 0002:00004434       ??_R4_AFX_DLL_MODULE_STATE@@6B@ 10020434     mfcs80:dllmodul.obj
+ 0002:00004448       ??_R3_AFX_DLL_MODULE_STATE@@8 10020448     mfcs80:dllmodul.obj
+ 0002:00004458       ??_R2_AFX_DLL_MODULE_STATE@@8 10020458     mfcs80:dllmodul.obj
+ 0002:00004468       ??_R1A@?0A@EA@_AFX_DLL_MODULE_STATE@@8 10020468     mfcs80:dllmodul.obj
+ 0002:00004484       ??_R1A@?0A@EA@AFX_MODULE_STATE@@8 10020484     mfcs80:dllmodul.obj
+ 0002:000044a0       ??_R3AFX_MODULE_STATE@@8   100204a0     mfcs80:dllmodul.obj
+ 0002:000044b0       ??_R2AFX_MODULE_STATE@@8   100204b0     mfcs80:dllmodul.obj
+ 0002:000044bc       ??_R1A@?0A@EA@CNoTrackObject@@8 100204bc     mfcs80:dllmodul.obj
+ 0002:000044d8       ??_R3CNoTrackObject@@8     100204d8     mfcs80:dllmodul.obj
+ 0002:000044e8       ??_R2CNoTrackObject@@8     100204e8     mfcs80:dllmodul.obj
+ 0002:000044f0       ??_R4type_info@@6B@        100204f0     msvcrt:ti_inst.obj
+ 0002:00004504       ??_R3type_info@@8          10020504     msvcrt:ti_inst.obj
+ 0002:00004514       ??_R2type_info@@8          10020514     msvcrt:ti_inst.obj
+ 0002:0000451c       ??_R1A@?0A@EA@type_info@@8 1002051c     msvcrt:ti_inst.obj
+ 0002:00004540       ___safe_se_handler_table   10020540     <linker-defined>
+ 0002:00004694       ___rtc_iaa                 10020694     msvcrt:initsect.obj
+ 0002:00004698       ___rtc_izz                 10020698     msvcrt:initsect.obj
+ 0002:0000469c       ___rtc_taa                 1002069c     msvcrt:initsect.obj
+ 0002:000046a0       ___rtc_tzz                 100206a0     msvcrt:initsect.obj
+ 0002:00005b3c       __IMPORT_DESCRIPTOR_jengine 10021b3c     jengine:jengine.dll
+ 0002:00005b50       __IMPORT_DESCRIPTOR_JUtil  10021b50     jutil:JUtil.dll
+ 0002:00005b64       __IMPORT_DESCRIPTOR_partmnk 10021b64     partmnk:partmnk.dll
+ 0002:00005b78       __IMPORT_DESCRIPTOR_partutl 10021b78     partutl:partutl.dll
+ 0002:00005b8c       __IMPORT_DESCRIPTOR_taglist 10021b8c     taglist:taglist.dll
+ 0002:00005ba0       __IMPORT_DESCRIPTOR_ugeom  10021ba0     ugeom:ugeom.dll
+ 0002:00005bb4       __IMPORT_DESCRIPTOR_ugeom2d 10021bb4     ugeom2d:ugeom2d.dll
+ 0002:00005bc8       __IMPORT_DESCRIPTOR_umath  10021bc8     umath:umath.dll
+ 0002:00005bdc       __IMPORT_DESCRIPTOR_sealloc 10021bdc     sealloc:sealloc.dll
+ 0002:00005bf0       __IMPORT_DESCRIPTOR_MFC80  10021bf0     mfc80:MFC80.DLL
+ 0002:00005c04       __IMPORT_DESCRIPTOR_MSVCR80 10021c04     msvcrt:MSVCR80.dll
+ 0002:00005c18       __IMPORT_DESCRIPTOR_KERNEL32 10021c18     kernel32:KERNEL32.dll
+ 0002:00005c2c       __IMPORT_DESCRIPTOR_OLEAUT32 10021c2c     oleaut32:OLEAUT32.dll
+ 0002:00005c40       __NULL_IMPORT_DESCRIPTOR   10021c40     jengine:jengine.dll
+ 0003:00000000       __newmode                  10023000     newmode.obj
+ 0003:00000004       ??_R0?AVCMemoryStream@@@8  10023004     CMemStm.obj
+ 0003:00000020       ??_R0?AUIStream@@@8        10023020     CMemStm.obj
+ 0003:00000038       ??_R0?AUISequentialStream@@@8 10023038     CMemStm.obj
+ 0003:00000058       ??_R0?AUIUnknown@@@8       10023058     CMemStm.obj
+ 0003:00000b6c       ??_R0?AV?$CArray@PAUIUnknown@@PAU1@@@@8 10023b6c     LoftSweep.obj
+ 0003:00000b98       ??_R0?AVCObject@@@8        10023b98     LoftSweep.obj
+ 0003:00000bb0       ?PARSER_EQUAL_STR@@3PBDB   10023bb0     MdDefin.obj
+ 0003:00000bb4       ?PARSER_OBRACKET_STR@@3PBDB 10023bb4     MdDefin.obj
+ 0003:00000bb8       ?PARSER_CBRACKET_STR@@3PBDB 10023bb8     MdDefin.obj
+ 0003:00000bbc       ?PARSER_SEMICOLON_STR@@3PBDB 10023bbc     MdDefin.obj
+ 0003:00000bc0       ?PARSER_CAMA_STR@@3PBDB    10023bc0     MdDefin.obj
+ 0003:00000bc4       ?PARSER_OFBRACKET_STR@@3PBDB 10023bc4     MdDefin.obj
+ 0003:00000bc8       ?PARSER_CFBRACKET_STR@@3PBDB 10023bc8     MdDefin.obj
+ 0003:00000bcc       ?PARSER_BYXTFILE_STR@@3PBDB 10023bcc     MdDefin.obj
+ 0003:00000bd0       ?PARSER_BYSTREAM_STR@@3PBDB 10023bd0     MdDefin.obj
+ 0003:00000bd4       ?PARSER_BYTAG_STR@@3PBDB   10023bd4     MdDefin.obj
+ 0003:00000bd8       ?PARSER_BY3DOUBLES_STR@@3PBDB 10023bd8     MdDefin.obj
+ 0003:00000bdc       ?PARSER_BY2DOUBLES_STR@@3PBDB 10023bdc     MdDefin.obj
+ 0003:00000be0       ?PARSER_BYGEOMPOINT_STR@@3PBDB 10023be0     MdDefin.obj
+ 0003:00000be4       ?PARSER_BYINFINITEPLANE_STR@@3PBDB 10023be4     MdDefin.obj
+ 0003:00000be8       ?PARSER_BYHOLECENTER_STR@@3PBDB 10023be8     MdDefin.obj
+ 0003:00000bec       ?PARSER_CHAINBYGEOMPOINT_STR@@3PBDB 10023bec     MdDefin.obj
+ 0003:00000bf0       ?PARSER_BYPOINTRADIUS_STR@@3PBDB 10023bf0     MdDefin.obj
+ 0003:00000bf4       ?PARSER_BYPOINTDIRECTION_STR@@3PBDB 10023bf4     MdDefin.obj
+ 0003:00000bf8       ?PARSER_BYNAME_STR@@3PBDB  10023bf8     MdDefin.obj
+ 0003:00000bfc       ?PARSER_BYRECTPATTERN_STR@@3PBDB 10023bfc     MdDefin.obj
+ 0003:00000c00       ?PARSER_BYCIRCLEPATTERN_STR@@3PBDB 10023c00     MdDefin.obj
+ 0003:00000c04       ?PARSER_BYARCPATTERN_STR@@3PBDB 10023c04     MdDefin.obj
+ 0003:00000c08       ?PARSER_BYREFERENCEID_STR@@3PBDB 10023c08     MdDefin.obj
+ 0003:00000c0c       ?PARSER_FEATURE@@3PBDB     10023c0c     MdDefin.obj
+ 0003:00000c10       ?PARSER_CONSTRUCTION@@3PBDB 10023c10     MdDefin.obj
+ 0003:00000c14       ?PARSER_FEATURE_BODYFEATURE@@3PBDB 10023c14     MdDefin.obj
+ 0003:00000c18       ?PARSER_FEATURE_BOOLEANFEATURE@@3PBDB 10023c18     MdDefin.obj
+ 0003:00000c1c       ?PARSER_FEATURE_EXTRUDEDPROTRUSION@@3PBDB 10023c1c     MdDefin.obj
+ 0003:00000c20       ?PARSER_FEATURE_EXTRUDEDCUTOUT@@3PBDB 10023c20     MdDefin.obj
+ 0003:00000c24       ?PARSER_FEATURE_HOLE@@3PBDB 10023c24     MdDefin.obj
+ 0003:00000c28       ?PARSER_FEATURE_CHAMFER@@3PBDB 10023c28     MdDefin.obj
+ 0003:00000c2c       ?PARSER_FEATURE_ROUND@@3PBDB 10023c2c     MdDefin.obj
+ 0003:00000c30       ?PARSER_FEATURE_REVOLVEDPROTRUSION@@3PBDB 10023c30     MdDefin.obj
+ 0003:00000c34       ?PARSER_FEATURE_REVOLVEDCUTOUT@@3PBDB 10023c34     MdDefin.obj
+ 0003:00000c38       ?PARSER_FEATURE_DRAFT@@3PBDB 10023c38     MdDefin.obj
+ 0003:00000c3c       ?PARSER_FEATURE_RIB@@3PBDB 10023c3c     MdDefin.obj
+ 0003:00000c40       ?PARSER_FEATURE_WEBNETWORK@@3PBDB 10023c40     MdDefin.obj
+ 0003:00000c44       ?PARSER_FEATURE_PATTERN@@3PBDB 10023c44     MdDefin.obj
+ 0003:00000c48       ?PARSER_FEATURE_MIRROR@@3PBDB 10023c48     MdDefin.obj
+ 0003:00000c4c       ?PARSER_FEATURE_THINWALL@@3PBDB 10023c4c     MdDefin.obj
+ 0003:00000c50       ?PARSER_FEATURE_LOFTEDPROTRUSION@@3PBDB 10023c50     MdDefin.obj
+ 0003:00000c54       ?PARSER_FEATURE_LOFTEDCUTOUT@@3PBDB 10023c54     MdDefin.obj
+ 0003:00000c58       ?PARSER_FEATURE_SWEPTPROTRUSION@@3PBDB 10023c58     MdDefin.obj
+ 0003:00000c5c       ?PARSER_FEATURE_SWEPTCUTOUT@@3PBDB 10023c5c     MdDefin.obj
+ 0003:00000c60       ?PARSER_CONSTRUCTION_COPYCONSTRUCTION@@3PBDB 10023c60     MdDefin.obj
+ 0003:00000c64       ?FEATURE_VERSION@@3PBDB    10023c64     MdDefin.obj
+ 0003:00000c68       ?FEATURE_NAME@@3PBDB       10023c68     MdDefin.obj
+ 0003:00000c6c       ?FEATURE_REFERENCEID@@3PBDB 10023c6c     MdDefin.obj
+ 0003:00000c70       ?FEATUREINPUT_BODY@@3PBDB  10023c70     MdDefin.obj
+ 0003:00000c74       ?FEATUREINPUT_PROFILE@@3PBDB 10023c74     MdDefin.obj
+ 0003:00000c78       ?FEATUREINPUT_PROFILENORMAL@@3PBDB 10023c78     MdDefin.obj
+ 0003:00000c7c       ?FEATUREINPUT_PROFILESIDE@@3PBDB 10023c7c     MdDefin.obj
+ 0003:00000c80       ?FEATUREINPUT_EXTENTSIDE@@3PBDB 10023c80     MdDefin.obj
+ 0003:00000c84       ?FEATUREINPUT_EXTENTTYPE@@3PBDB 10023c84     MdDefin.obj
+ 0003:00000c88       ?FEATUREINPUT_FINITEDEPTH@@3PBDB 10023c88     MdDefin.obj
+ 0003:00000c8c       ?FEATUREINPUT_FROMFACE@@3PBDB 10023c8c     MdDefin.obj
+ 0003:00000c90       ?FEATUREINPUT_TOFACE@@3PBDB 10023c90     MdDefin.obj
+ 0003:00000c94       ?FEATUREINPUT_FROMPLANE@@3PBDB 10023c94     MdDefin.obj
+ 0003:00000c98       ?FEATUREINPUT_TOPLANE@@3PBDB 10023c98     MdDefin.obj
+ 0003:00000c9c       ?FEATUREINPUT_POINT@@3PBDB 10023c9c     MdDefin.obj
+ 0003:00000ca0       ?FEATUREINPUT_ROOTPOINT@@3PBDB 10023ca0     MdDefin.obj
+ 0003:00000ca4       ?FEATUREINPUT_NORMAL@@3PBDB 10023ca4     MdDefin.obj
+ 0003:00000ca8       ?FEATUREINPUT_HOLETYPE@@3PBDB 10023ca8     MdDefin.obj
+ 0003:00000cac       ?FEATUREINPUT_HOLEDIAMETER@@3PBDB 10023cac     MdDefin.obj
+ 0003:00000cb0       ?FEATUREINPUT_COUNTERBOREDIAMETER@@3PBDB 10023cb0     MdDefin.obj
+ 0003:00000cb4       ?FEATUREINPUT_COUNTERBOREDEPTH@@3PBDB 10023cb4     MdDefin.obj
+ 0003:00000cb8       ?FEATUREINPUT_COUNTERSINKDIAMETER@@3PBDB 10023cb8     MdDefin.obj
+ 0003:00000cbc       ?FEATUREINPUT_COUNTERSINKANGLE@@3PBDB 10023cbc     MdDefin.obj
+ 0003:00000cc0       ?FEATUREINPUT_BOTTOMANGLE@@3PBDB 10023cc0     MdDefin.obj
+ 0003:00000cc4       ?FEATUREINPUT_TREATMENTTYPE@@3PBDB 10023cc4     MdDefin.obj
+ 0003:00000cc8       ?FEATUREINPUT_TAPERMETHOD@@3PBDB 10023cc8     MdDefin.obj
+ 0003:00000ccc       ?FEATUREINPUT_TAPER@@3PBDB 10023ccc     MdDefin.obj
+ 0003:00000cd0       ?FEATUREINPUT_THREADDEPTHMETHOD@@3PBDB 10023cd0     MdDefin.obj
+ 0003:00000cd4       ?FEATUREINPUT_THREADDEPTH@@3PBDB 10023cd4     MdDefin.obj
+ 0003:00000cd8       ?FEATUREINPUT_THREADMINORDIAMETER@@3PBDB 10023cd8     MdDefin.obj
+ 0003:00000cdc       ?FEATUREINPUT_VBOTTOMDIMTYPE@@3PBDB 10023cdc     MdDefin.obj
+ 0003:00000ce0       ?FEATUREINPUT_TAPERDIMTYPE@@3PBDB 10023ce0     MdDefin.obj
+ 0003:00000ce4       ?FEATUREINPUT_COUNTERBOREPROFILELOCATIONTYPE@@3PBDB 10023ce4     MdDefin.obj
+ 0003:00000ce8       ?FEATUREINPUT_TAPERLVALUE@@3PBDB 10023ce8     MdDefin.obj
+ 0003:00000cec       ?FEATUREINPUT_TAPERRVALUE@@3PBDB 10023cec     MdDefin.obj
+ 0003:00000cf0       ?FEATUREINPUT_ROUNDSET@@3PBDB 10023cf0     MdDefin.obj
+ 0003:00000cf4       ?FEATUREINPUT_EDGESET@@3PBDB 10023cf4     MdDefin.obj
+ 0003:00000cf8       ?FEATUREINPUT_CONSTANTRADIUS@@3PBDB 10023cf8     MdDefin.obj
+ 0003:00000cfc       ?FEATUREINPUT_VARIABLERADIUS@@3PBDB 10023cfc     MdDefin.obj
+ 0003:00000d00       ?FEATUREINPUT_RADIUS@@3PBDB 10023d00     MdDefin.obj
+ 0003:00000d04       ?FEATUREINPUT_CHAMFERTYPE@@3PBDB 10023d04     MdDefin.obj
+ 0003:00000d08       ?FEATUREINPUT_REFERENCEFACE@@3PBDB 10023d08     MdDefin.obj
+ 0003:00000d0c       ?FEATUREINPUT_EQUALSETBACK@@3PBDB 10023d0c     MdDefin.obj
+ 0003:00000d10       ?FEATUREINPUT_SETBACKDISTANCE1@@3PBDB 10023d10     MdDefin.obj
+ 0003:00000d14       ?FEATUREINPUT_SETBACKDISTANCE2@@3PBDB 10023d14     MdDefin.obj
+ 0003:00000d18       ?FEATUREINPUT_SETBACKANGLE@@3PBDB 10023d18     MdDefin.obj
+ 0003:00000d1c       ?FEATUREINPUT_TOOLBODY@@3PBDB 10023d1c     MdDefin.obj
+ 0003:00000d20       ?FEATUREINPUT_BOOLEANTYPE@@3PBDB 10023d20     MdDefin.obj
+ 0003:00000d24       ?FEATUREINPUT_REFERENCEAXIS@@3PBDB 10023d24     MdDefin.obj
+ 0003:00000d28       ?FEATUREINPUT_DIRECTION@@3PBDB 10023d28     MdDefin.obj
+ 0003:00000d2c       ?FEATUREINPUT_ANGLE@@3PBDB 10023d2c     MdDefin.obj
+ 0003:00000d30       ?FEATUREINPUT_FACESET@@3PBDB 10023d30     MdDefin.obj
+ 0003:00000d34       ?FEATUREINPUT_DRAFTSET@@3PBDB 10023d34     MdDefin.obj
+ 0003:00000d38       ?FEATUREINPUT_REFERENCEPLANE@@3PBDB 10023d38     MdDefin.obj
+ 0003:00000d3c       ?FEATUREINPUT_DRAFTSIDE@@3PBDB 10023d3c     MdDefin.obj
+ 0003:00000d40       ?FEATUREINPUT_FINITEANGLE@@3PBDB 10023d40     MdDefin.obj
+ 0003:00000d44       ?FEATUREINPUT_PROFILEEXTENSION@@3PBDB 10023d44     MdDefin.obj
+ 0003:00000d48       ?FEATUREINPUT_THICKNESSTYPE@@3PBDB 10023d48     MdDefin.obj
+ 0003:00000d4c       ?FEATUREINPUT_MATERIALSIDE@@3PBDB 10023d4c     MdDefin.obj
+ 0003:00000d50       ?FEATUREINPUT_THICKNESSSIDE@@3PBDB 10023d50     MdDefin.obj
+ 0003:00000d54       ?FEATUREINPUT_THICKNESS@@3PBDB 10023d54     MdDefin.obj
+ 0003:00000d58       ?FEATUREINPUT_PATTERNPROFILE@@3PBDB 10023d58     MdDefin.obj
+ 0003:00000d5c       ?FEATUREINPUT_STARTPOINT@@3PBDB 10023d5c     MdDefin.obj
+ 0003:00000d60       ?FEATUREINPUT_CENTERPOINT@@3PBDB 10023d60     MdDefin.obj
+ 0003:00000d64       ?FEATUREINPUT_XDIRECTION@@3PBDB 10023d64     MdDefin.obj
+ 0003:00000d68       ?FEATUREINPUT_YDIRECTION@@3PBDB 10023d68     MdDefin.obj
+ 0003:00000d6c       ?FEATUREINPUT_WIDTH@@3PBDB 10023d6c     MdDefin.obj
+ 0003:00000d70       ?FEATUREINPUT_HEIGHT@@3PBDB 10023d70     MdDefin.obj
+ 0003:00000d74       ?FEATUREINPUT_OFFSETTYPE@@3PBDB 10023d74     MdDefin.obj
+ 0003:00000d78       ?FEATUREINPUT_COUNT@@3PBDB 10023d78     MdDefin.obj
+ 0003:00000d7c       ?FEATUREINPUT_XCOUNT@@3PBDB 10023d7c     MdDefin.obj
+ 0003:00000d80       ?FEATUREINPUT_YCOUNT@@3PBDB 10023d80     MdDefin.obj
+ 0003:00000d84       ?FEATUREINPUT_SPACE@@3PBDB 10023d84     MdDefin.obj
+ 0003:00000d88       ?FEATUREINPUT_XSPACE@@3PBDB 10023d88     MdDefin.obj
+ 0003:00000d8c       ?FEATUREINPUT_YSPACE@@3PBDB 10023d8c     MdDefin.obj
+ 0003:00000d90       ?FEATUREINPUT_STAGGERTYPE@@3PBDB 10023d90     MdDefin.obj
+ 0003:00000d94       ?FEATUREINPUT_STAGGEROFFSET@@3PBDB 10023d94     MdDefin.obj
+ 0003:00000d98       ?FEATUREINPUT_STAGGEROFFSETHALF@@3PBDB 10023d98     MdDefin.obj
+ 0003:00000d9c       ?FEATUREINPUT_STAGGERINCLUDELASTCOLUMN@@3PBDB 10023d9c     MdDefin.obj
+ 0003:00000da0       ?FEATUREINPUT_SWEEPANGLE@@3PBDB 10023da0     MdDefin.obj
+ 0003:00000da4       ?FEATUREINPUT_ORIENTATION@@3PBDB 10023da4     MdDefin.obj
+ 0003:00000da8       ?FEATUREINPUT_PATTERNTYPE@@3PBDB 10023da8     MdDefin.obj
+ 0003:00000dac       ?FEATUREINPUT_REFERENCEOCCURENCE@@3PBDB 10023dac     MdDefin.obj
+ 0003:00000db0       ?FEATUREINPUT_SUPPRESSOCCURENCE@@3PBDB 10023db0     MdDefin.obj
+ 0003:00000db4       ?FEATUREINPUT_OPENFACESET@@3PBDB 10023db4     MdDefin.obj
+ 0003:00000db8       ?FEATUREINPUT_UNIQUESET@@3PBDB 10023db8     MdDefin.obj
+ 0003:00000dbc       ?FEATUREINPUT_CROSSSECTIONSET@@3PBDB 10023dbc     MdDefin.obj
+ 0003:00000dc0       ?FEATUREINPUT_VERTEX@@3PBDB 10023dc0     MdDefin.obj
+ 0003:00000dc4       ?FEATUREINPUT_GUIDECURVESET@@3PBDB 10023dc4     MdDefin.obj
+ 0003:00000dc8       ?FEATUREINPUT_PERIODIC@@3PBDB 10023dc8     MdDefin.obj
+ 0003:00000dcc       ?FEATUREINPUT_STARTSECTIONENDCONDITION@@3PBDB 10023dcc     MdDefin.obj
+ 0003:00000dd0       ?FEATUREINPUT_STARTSECTIONENDCONDITIONMAGNITUDE@@3PBDB 10023dd0     MdDefin.obj
+ 0003:00000dd4       ?FEATUREINPUT_ENDSECTIONENDCONDITION@@3PBDB 10023dd4     MdDefin.obj
+ 0003:00000dd8       ?FEATUREINPUT_ENDSECTIONENDCONDITIONMAGNITUDE@@3PBDB 10023dd8     MdDefin.obj
+ 0003:00000ddc       ?FEATUREINPUT_PATHCURVESET@@3PBDB 10023ddc     MdDefin.obj
+ 0003:00000de0       ?FEATUREINPUT_ALIGNMENTMETHOD@@3PBDB 10023de0     MdDefin.obj
+ 0003:00000de4       ?FEATUREPROPERTY_LEFT@@3PBDB 10023de4     MdDefin.obj
+ 0003:00000de8       ?FEATUREPROPERTY_RIGHT@@3PBDB 10023de8     MdDefin.obj
+ 0003:00000dec       ?FEATUREPROPERTY_SYMMETRIC@@3PBDB 10023dec     MdDefin.obj
+ 0003:00000df0       ?FEATUREPROPERTY_FINITE@@3PBDB 10023df0     MdDefin.obj
+ 0003:00000df4       ?FEATUREPROPERTY_TONEXT@@3PBDB 10023df4     MdDefin.obj
+ 0003:00000df8       ?FEATUREPROPERTY_FROMTO@@3PBDB 10023df8     MdDefin.obj
+ 0003:00000dfc       ?FEATUREPROPERTY_THROUGHALL@@3PBDB 10023dfc     MdDefin.obj
+ 0003:00000e00       ?FEATUREPROPERTY_REGULARHOLE@@3PBDB 10023e00     MdDefin.obj
+ 0003:00000e04       ?FEATUREPROPERTY_COUNTERBOREHOLE@@3PBDB 10023e04     MdDefin.obj
+ 0003:00000e08       ?FEATUREPROPERTY_COUNTERSINKHOLE@@3PBDB 10023e08     MdDefin.obj
+ 0003:00000e0c       ?FEATUREPROPERTY_COUNTERDRILLHOLE@@3PBDB 10023e0c     MdDefin.obj
+ 0003:00000e10       ?FEATUREPROPERTY_TAPPEDHOLE@@3PBDB 10023e10     MdDefin.obj
+ 0003:00000e14       ?FEATUREPROPERTY_TAPEREDHOLE@@3PBDB 10023e14     MdDefin.obj
+ 0003:00000e18       ?FEATUREPROPERTY_TAPERBYANGLE@@3PBDB 10023e18     MdDefin.obj
+ 0003:00000e1c       ?FEATUREPROPERTY_TAPERBYRATIO@@3PBDB 10023e1c     MdDefin.obj
+ 0003:00000e20       ?FEATUREPROPERTY_TAPERBYRLRATIO@@3PBDB 10023e20     MdDefin.obj
+ 0003:00000e24       ?FEATUREPROPERTY_CHAMFER45DEGSETBACK@@3PBDB 10023e24     MdDefin.obj
+ 0003:00000e28       ?FEATUREPROPERTY_CHAMFERANGLESETBACK@@3PBDB 10023e28     MdDefin.obj
+ 0003:00000e2c       ?FEATUREPROPERTY_CHAMFER2SETBACKS@@3PBDB 10023e2c     MdDefin.obj
+ 0003:00000e30       ?FEATUREPROPERTY_UNITE@@3PBDB 10023e30     MdDefin.obj
+ 0003:00000e34       ?FEATUREPROPERTY_SUBTRACT@@3PBDB 10023e34     MdDefin.obj
+ 0003:00000e38       ?FEATUREPROPERTY_INTERSECT@@3PBDB 10023e38     MdDefin.obj
+ 0003:00000e3c       ?FEATUREPROPERTY_NONE@@3PBDB 10023e3c     MdDefin.obj
+ 0003:00000e40       ?FEATUREPROPERTY_INSIDE@@3PBDB 10023e40     MdDefin.obj
+ 0003:00000e44       ?FEATUREPROPERTY_OUTSIDE@@3PBDB 10023e44     MdDefin.obj
+ 0003:00000e48       ?FEATUREPROPERTY_THREEHUNDREDANDSIXTY@@3PBDB 10023e48     MdDefin.obj
+ 0003:00000e4c       ?FEATUREPROPERTY_VBOTTOMDIMTOFLAT@@3PBDB 10023e4c     MdDefin.obj
+ 0003:00000e50       ?FEATUREPROPERTY_VBOTTOMDIMTOV@@3PBDB 10023e50     MdDefin.obj
+ 0003:00000e54       ?FEATUREPROPERTY_TAPERDIMATTOP@@3PBDB 10023e54     MdDefin.obj
+ 0003:00000e58       ?FEATUREPROPERTY_TAPERDIMATBOTTOM@@3PBDB 10023e58     MdDefin.obj
+ 0003:00000e5c       ?FEATUREPROPERTY_COUNTERBOREPROFILEISATTOP@@3PBDB 10023e5c     MdDefin.obj
+ 0003:00000e60       ?FEATUREPROPERTY_COUNTERBOREPROFILEISATBOTTOM@@3PBDB 10023e60     MdDefin.obj
+ 0003:00000e64       ?FEATUREPROPERTY_EXTEND@@3PBDB 10023e64     MdDefin.obj
+ 0003:00000e68       ?FEATUREPROPERTY_NOEXTEND@@3PBDB 10023e68     MdDefin.obj
+ 0003:00000e6c       ?FEATUREPROPERTY_THKINPROFILEPLANE@@3PBDB 10023e6c     MdDefin.obj
+ 0003:00000e70       ?FEATUREPROPERTY_THKNORMALTOPROFILEPLANE@@3PBDB 10023e70     MdDefin.obj
+ 0003:00000e74       ?FEATUREPROPERTY_PATTERNFITOFFSET@@3PBDB 10023e74     MdDefin.obj
+ 0003:00000e78       ?FEATUREPROPERTY_PATTERNFILLOFFSET@@3PBDB 10023e78     MdDefin.obj
+ 0003:00000e7c       ?FEATUREPROPERTY_PATTERNFIXEDOFFSET@@3PBDB 10023e7c     MdDefin.obj
+ 0003:00000e80       ?FEATUREPROPERTY_NOSTAGGER@@3PBDB 10023e80     MdDefin.obj
+ 0003:00000e84       ?FEATUREPROPERTY_ROWSTAGGER@@3PBDB 10023e84     MdDefin.obj
+ 0003:00000e88       ?FEATUREPROPERTY_COLUMNSTAGGER@@3PBDB 10023e88     MdDefin.obj
+ 0003:00000e8c       ?FEATUREPROPERTY_TRUE@@3PBDB 10023e8c     MdDefin.obj
+ 0003:00000e90       ?FEATUREPROPERTY_FALSE@@3PBDB 10023e90     MdDefin.obj
+ 0003:00000e94       ?FEATUREPROPERTY_CLOCKWISE@@3PBDB 10023e94     MdDefin.obj
+ 0003:00000e98       ?FEATUREPROPERTY_COUNTERCLOCKWISE@@3PBDB 10023e98     MdDefin.obj
+ 0003:00000e9c       ?FEATUREPROPERTY_SMART@@3PBDB 10023e9c     MdDefin.obj
+ 0003:00000ea0       ?FEATUREPROPERTY_FAST@@3PBDB 10023ea0     MdDefin.obj
+ 0003:00000ea4       ?FEATUREPROPERTY_CLOSED@@3PBDB 10023ea4     MdDefin.obj
+ 0003:00000ea8       ?FEATUREPROPERTY_TANGENT@@3PBDB 10023ea8     MdDefin.obj
+ 0003:00000eac       ?FEATUREPROPERTY_TANGENTINTERIOR@@3PBDB 10023eac     MdDefin.obj
+ 0003:00000eb0       ?FEATUREPROPERTY_NATURAL@@3PBDB 10023eb0     MdDefin.obj
+ 0003:00000eb4       ?FEATUREPROPERTY_CONTINUOUS@@3PBDB 10023eb4     MdDefin.obj
+ 0003:00000eb8       ?FEATUREPROPERTY_PARALLELTOPLANE@@3PBDB 10023eb8     MdDefin.obj
+ 0003:00000ebc       ?FEATUREPROPERTY_ALIGNNORMAL@@3PBDB 10023ebc     MdDefin.obj
+ 0003:00000ec0       ?FEATUREPROPERTY_ALIGNPARALLEL@@3PBDB 10023ec0     MdDefin.obj
+ 0003:00000ec4       ??_R0?AV?$CList@PBDPBD@@@8 10023ec4     MdDefin.obj
+ 0003:00000ee4       ??_R0?AV?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@@8 10023ee4     MdDefin.obj
+ 0003:00000f14       ??_R0?AV?$CArray@HH@@@8    10023f14     MDLANG.obj
+ 0003:00000f30       ??_R0?AV?$CArray@UtagThreeDoubles@@U1@@@@8 10023f30     MDLANG.obj
+ 0003:00000f60       ??_R0?AV?$CArray@PAV?$CArray@UtagThreeDoubles@@U1@@@PAV1@@@@8 10023f60     MDLANG.obj
+ 0003:00000fa0       ??_R0?AV?$CArray@UtagTwoDoubles@@U1@@@@8 10023fa0     MDLANG.obj
+ 0003:00000fcc       ??_R0?AV?$CArray@UtagPointRadiusData@@AAU1@@@@8 10023fcc     MDLANG.obj
+ 0003:00001000       ??_R0?AV?$CArray@PAUtagProfileBasedData@@PAU1@@@@8 10024000     MDLANG.obj
+ 0003:00001038       ??_R0?AV?$CArray@PAUtagDraftSetData@@PAU1@@@@8 10024038     MDLANG.obj
+ 0003:0000106c       ??_R0?AV?$CArray@PAUtagUniqueSetData@@PAU1@@@@8 1002406c     MDLANG.obj
+ 0003:000010a0       ??_R0?AV?$CArray@PAUtagFeatureInputs@@PAU1@@@@8 100240a0     MDLANG.obj
+ 0003:000010d4       ??_R0?AV?$CArray@PAUtagRoundSetData@@PAU1@@@@8 100240d4     MDLANG.obj
+ 0003:00001108       ?FeaturePropertyStringMap@@3PAUtagFeaturePropertyStringMap@@A 10024108     MdUtil.obj
+ 0003:00002758       ??_R0PAVCMemoryException@@@8 10025758     mfcs80:dllmodul.obj
+ 0003:00002778       ??_R0?AV_AFX_DLL_MODULE_STATE@@@8 10025778     mfcs80:dllmodul.obj
+ 0003:0000279c       ??_R0?AVAFX_MODULE_STATE@@@8 1002579c     mfcs80:dllmodul.obj
+ 0003:000027bc       ??_R0?AVCNoTrackObject@@@8 100257bc     mfcs80:dllmodul.obj
+ 0003:000027dc       ___security_cookie         100257dc     msvcrt:gs_cookie.obj
+ 0003:000027e0       ___security_cookie_complement 100257e0     msvcrt:gs_cookie.obj
+ 0003:000027e4       ??_R0?AVtype_info@@@8      100257e4     msvcrt:ti_inst.obj
+ 0003:00002800       ___native_dllmain_reason   10025800     msvcrt:natstart.obj
+ 0003:00002804       ___native_vcclrit_reason   10025804     msvcrt:natstart.obj
+ 0003:00002808       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10025808     atls:atltrace.obj
+ 0003:00002810       ?m_heapHandle@SetupLocalHeap@@0PAXA 10025810     CMemStm.obj
+ 0003:00002814       ?ObjectCount@SetupLocalHeap@@0IA 10025814     CMemStm.obj
+ 0003:00002a50       ?g_Data@@3VCParsUtilGlobals@@A 10025a50     MdDefin.obj
+ 0003:00002a70       ?FEATUREINPUT_FEATURE@@3PBDB 10025a70     MdDefin.obj
+ 0003:00002a74       ?FEATUREPROPERTY_NORMAL@@3PBDB 10025a74     MdDefin.obj
+ 0003:00002a78       ?AllMDLangStrings@@3PAUtagAllMDLangStrings@@A 10025a78     MdDefin.obj
+ 0003:00002d74       ?JMProgressCallbackFunction@@3P6AHJ@ZA 10025d74     MDLANG.obj
+ 0003:00002d78       ?bEnableLog@@3HA           10025d78     MDLANG.obj
+ 0003:00002d7c       ?ulParseErrorLine@@3KA     10025d7c     MDLANG.obj
+ 0003:00002d80       ?logFile@@3VCStdioFile@@A  10025d80     MDLANG.obj
+ 0003:00002d94       ?szParseError@@3V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@A 10025d94     MDLANG.obj
+ 0003:00002d98       ?szParseFilePath@@3V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@A 10025d98     MDLANG.obj
+ 0003:00002da0       ___@@_PchSym_@00@UkhoUhgwwoohUnwozmtUwveUdrmDCUivovzhvUhgwzucOlyq@ 10025da0     StdAfx.obj
+ 0003:00003004       __afxForceEXCLUDE          10026004     mfcs80:nolib.obj
+ 0003:00003008       ?__mixedModuleStartup@@3HA 10026008     mfcs80:dllmodul.obj
+ 0003:00003010       __afxForceUSRDLL           10026010     mfcs80:dllmodul.obj
+ 0003:000030c8       __afxForceSTDAFX           100260c8     mfcs80:stdafx.obj
+ 0003:000033f4       ?__type_info_root_node@@3U__type_info_node@@A 100263f4     msvcrt:tncleanup.obj
+ 0003:000033fc       __adjust_fdiv              100263fc     <common>
+ 0003:00003400       ___native_startup_state    10026400     <common>
+ 0003:00003404       ___native_startup_lock     10026404     <common>
+ 0003:00003408       ___sse2_available          10026408     <common>
+ 0003:0000340c       ___dyn_tls_init_callback   1002640c     <common>
+ 0003:00003410       ___onexitend               10026410     <common>
+ 0003:00003414       ___onexitbegin             10026414     <common>
+
+ entry point at        0001:00018026
+
+ Static symbols
+
+ 0001:00004940       ?JMGetStringFromFeatureType@@YAPBDH@Z 10005940 f   MDLANG.obj
+ 0001:00009310       ?DeleteFeatureInputsArray@@YAXPAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z 1000a310 f   MDLANG.obj
+ 0001:00017922       __catch$_InternalDllMain@12$2 10018922 f   mfcs80:dllmodul.obj
+ 0001:00017d24       _pre_c_init                10018d24 f   msvcrt:crtdll.obj
+ 0001:00017f10       ___DllMainCRTStartup       10018f10 f   msvcrt:crtdll.obj
+ 0001:0001834d       _has_osfxsr_set            1001934d f   msvcrt:cpu_disp.obj
+ 0001:00018766       __FindPESection            10019766 f   mfcs80:rawdllmainproxy.obj
+ 0001:000187a0       __IsNonwritableInCurrentImage 100197a0 f   mfcs80:rawdllmainproxy.obj
+ 0001:00018850       __unwindfunclet$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$12 10019850 f   BodyBool.obj
+ 0001:00018858       __unwindfunclet$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$13 10019858 f   BodyBool.obj
+ 0001:00018861       __unwindfunclet$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$14 10019861 f   BodyBool.obj
+ 0001:0001886a       __unwindfunclet$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$15 1001986a f   BodyBool.obj
+ 0001:00018873       __unwindfunclet$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$16 10019873 f   BodyBool.obj
+ 0001:0001887c       __ehhandler$?JMCreateBodyFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001987c f   BodyBool.obj
+ 0001:000188a0       __unwindfunclet$?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$20 100198a0 f   BodyBool.obj
+ 0001:000188ac       __unwindfunclet$?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$21 100198ac f   BodyBool.obj
+ 0001:000188b8       __unwindfunclet$?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$22 100198b8 f   BodyBool.obj
+ 0001:000188c4       __unwindfunclet$?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$23 100198c4 f   BodyBool.obj
+ 0001:000188d0       __ehhandler$?JMCreateBooleanFeature@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 100198d0 f   BodyBool.obj
+ 0001:00018900       __unwindfunclet$?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$10 10019900 f   BodyBool.obj
+ 0001:00018909       __unwindfunclet$?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$11 10019909 f   BodyBool.obj
+ 0001:00018912       __unwindfunclet$?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$12 10019912 f   BodyBool.obj
+ 0001:0001891b       __unwindfunclet$?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$13 1001991b f   BodyBool.obj
+ 0001:00018924       __ehhandler$?JMCreateCopyConstruction@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10019924 f   BodyBool.obj
+ 0001:00018940       __unwindfunclet$?JMCreateDraft@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$23 10019940 f   Draft.obj
+ 0001:0001894c       __unwindfunclet$?JMCreateDraft@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$24 1001994c f   Draft.obj
+ 0001:00018958       __unwindfunclet$?JMCreateDraft@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$25 10019958 f   Draft.obj
+ 0001:00018964       __ehhandler$?JMCreateDraft@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 10019964 f   Draft.obj
+ 0001:00018990       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$10 10019990 f   LoftSweep.obj
+ 0001:00018998       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$11 10019998 f   LoftSweep.obj
+ 0001:000189a0       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$12 100199a0 f   LoftSweep.obj
+ 0001:000189a8       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$13 100199a8 f   LoftSweep.obj
+ 0001:000189b0       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$14 100199b0 f   LoftSweep.obj
+ 0001:000189b8       __unwindfunclet$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z$15 100199b8 f   LoftSweep.obj
+ 0001:000189c0       __ehhandler$?CreateVertexProxyOnSection@@YAJPAUIUnknown@@PAU_IHModel@@PANPAPAU1@@Z 100199c0 f   LoftSweep.obj
+ 0001:000189e0       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$9 100199e0 f   LoftSweep.obj
+ 0001:000189e8       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$10 100199e8 f   LoftSweep.obj
+ 0001:000189f0       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$11 100199f0 f   LoftSweep.obj
+ 0001:000189f8       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$12 100199f8 f   LoftSweep.obj
+ 0001:00018a00       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$13 10019a00 f   LoftSweep.obj
+ 0001:00018a08       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$14 10019a08 f   LoftSweep.obj
+ 0001:00018a10       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$15 10019a10 f   LoftSweep.obj
+ 0001:00018a18       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$16 10019a18 f   LoftSweep.obj
+ 0001:00018a20       __unwindfunclet$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z$17 10019a20 f   LoftSweep.obj
+ 0001:00018a28       __ehhandler$?CreateSectionOrPathData@@YAJPAUIUnknown@@PAU_IHModel@@PAUtagProfileBasedData@@AAV?$CArray@PAUIUnknown@@PAU1@@@@Z 10019a28 f   LoftSweep.obj
+ 0001:00018a50       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$33 10019a50 f   LoftSweep.obj
+ 0001:00018a5b       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$34 10019a5b f   LoftSweep.obj
+ 0001:00018a66       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$35 10019a66 f   LoftSweep.obj
+ 0001:00018a71       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$36 10019a71 f   LoftSweep.obj
+ 0001:00018a7c       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$37 10019a7c f   LoftSweep.obj
+ 0001:00018a87       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$38 10019a87 f   LoftSweep.obj
+ 0001:00018a8f       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$39 10019a8f f   LoftSweep.obj
+ 0001:00018a9a       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$40 10019a9a f   LoftSweep.obj
+ 0001:00018aa5       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$41 10019aa5 f   LoftSweep.obj
+ 0001:00018ab0       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$42 10019ab0 f   LoftSweep.obj
+ 0001:00018abb       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$43 10019abb f   LoftSweep.obj
+ 0001:00018ac6       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$44 10019ac6 f   LoftSweep.obj
+ 0001:00018ace       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$45 10019ace f   LoftSweep.obj
+ 0001:00018ad9       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$46 10019ad9 f   LoftSweep.obj
+ 0001:00018ae4       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$47 10019ae4 f   LoftSweep.obj
+ 0001:00018aef       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$48 10019aef f   LoftSweep.obj
+ 0001:00018afa       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$49 10019afa f   LoftSweep.obj
+ 0001:00018b05       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$50 10019b05 f   LoftSweep.obj
+ 0001:00018b0e       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$51 10019b0e f   LoftSweep.obj
+ 0001:00018b1a       __unwindfunclet$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z$52 10019b1a f   LoftSweep.obj
+ 0001:00018b26       __ehhandler$?JMCreateLoftSweep@@YAJPAUIUnknown@@PAUtagFeatureInputs@@_N2@Z 10019b26 f   LoftSweep.obj
+ 0001:00018b50       __unwindfunclet$??1CParsUtilGlobals@@QAE@XZ$0 10019b50 f   MdDefin.obj
+ 0001:00018b58       __ehhandler$??1CParsUtilGlobals@@QAE@XZ 10019b58 f   MdDefin.obj
+ 0001:00018b80       __unwindfunclet$?NewAssoc@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@IAEPAVCAssoc@1@H@Z$0 10019b80 f   MdDefin.obj
+ 0001:00018b91       __ehhandler$?NewAssoc@?$CMap@HHPAV?$CList@PBDPBD@@PAV1@@@IAEPAVCAssoc@1@H@Z 10019b91 f   MdDefin.obj
+ 0001:00018bb0       __unwindfunclet$?CreateStringHash@@YAJXZ$0 10019bb0 f   MdDefin.obj
+ 0001:00018bba       __ehhandler$?CreateStringHash@@YAJXZ 10019bba f   MdDefin.obj
+ 0001:00018be0       __unwindfunclet$??__Eg_Data@@YAXXZ$0 10019be0 f   MdDefin.obj
+ 0001:00018bea       __ehhandler$??__Eg_Data@@YAXXZ 10019bea f   MdDefin.obj
+ 0001:00018c10       __unwindfunclet$?Dump@tagThreeDoubles@@QAEXPAVCStdioFile@@@Z$0 10019c10 f   MDLANG.obj
+ 0001:00018c19       __ehhandler$?Dump@tagThreeDoubles@@QAEXPAVCStdioFile@@@Z 10019c19 f   MDLANG.obj
+ 0001:00018c40       __unwindfunclet$?Dump@tagInfinitePlane@@QAEXPAVCStdioFile@@@Z$0 10019c40 f   MDLANG.obj
+ 0001:00018c49       __ehhandler$?Dump@tagInfinitePlane@@QAEXPAVCStdioFile@@@Z 10019c49 f   MDLANG.obj
+ 0001:00018c70       __unwindfunclet$?Dump@tagPointDirection@@QAEXPAVCStdioFile@@@Z$0 10019c70 f   MDLANG.obj
+ 0001:00018c79       __ehhandler$?Dump@tagPointDirection@@QAEXPAVCStdioFile@@@Z 10019c79 f   MDLANG.obj
+ 0001:00018ca0       __unwindfunclet$?Dump@tagPointRadiusData@@QAEXPAVCStdioFile@@@Z$0 10019ca0 f   MDLANG.obj
+ 0001:00018ca9       __ehhandler$?Dump@tagPointRadiusData@@QAEXPAVCStdioFile@@@Z 10019ca9 f   MDLANG.obj
+ 0001:00018cd0       __unwindfunclet$??0tagFeatureProps@@QAE@XZ$0 10019cd0 f   MDLANG.obj
+ 0001:00018cdc       __ehhandler$??0tagFeatureProps@@QAE@XZ 10019cdc f   MDLANG.obj
+ 0001:00018d00       __unwindfunclet$?Dump@tagFeatureProps@@QAEXPAVCStdioFile@@@Z$0 10019d00 f   MDLANG.obj
+ 0001:00018d09       __ehhandler$?Dump@tagFeatureProps@@QAEXPAVCStdioFile@@@Z 10019d09 f   MDLANG.obj
+ 0001:00018d30       __unwindfunclet$??0tagBodyData@@QAE@XZ$0 10019d30 f   MDLANG.obj
+ 0001:00018d39       __ehhandler$??0tagBodyData@@QAE@XZ 10019d39 f   MDLANG.obj
+ 0001:00018d60       __unwindfunclet$?Dump@tagBodyData@@QAEXPAVCStdioFile@@@Z$0 10019d60 f   MDLANG.obj
+ 0001:00018d69       __ehhandler$?Dump@tagBodyData@@QAEXPAVCStdioFile@@@Z 10019d69 f   MDLANG.obj
+ 0001:00018d90       __unwindfunclet$?Dump@tagHoleData@@QAEXPAVCStdioFile@@@Z$0 10019d90 f   MDLANG.obj
+ 0001:00018d99       __ehhandler$?Dump@tagHoleData@@QAEXPAVCStdioFile@@@Z 10019d99 f   MDLANG.obj
+ 0001:00018dc0       __unwindfunclet$?Dump@tagRibData@@QAEXPAVCStdioFile@@@Z$0 10019dc0 f   MDLANG.obj
+ 0001:00018dc9       __ehhandler$?Dump@tagRibData@@QAEXPAVCStdioFile@@@Z 10019dc9 f   MDLANG.obj
+ 0001:00018df0       __unwindfunclet$??1tagFeatureProps@@QAE@XZ$0 10019df0 f   MDLANG.obj
+ 0001:00018dfc       __ehhandler$??1tagFeatureProps@@QAE@XZ 10019dfc f   MDLANG.obj
+ 0001:00018e20       __unwindfunclet$?JMParserError@@YAJAAKAAPBD@Z$0 10019e20 f   MDLANG.obj
+ 0001:00018e28       __ehhandler$?JMParserError@@YAJAAKAAPBD@Z 10019e28 f   MDLANG.obj
+ 0001:00018e50       __unwindfunclet$?JMEnableLog@@YAJH@Z$0 10019e50 f   MDLANG.obj
+ 0001:00018e58       __ehhandler$?JMEnableLog@@YAJH@Z 10019e58 f   MDLANG.obj
+ 0001:00018e80       __unwindfunclet$?JMRegisterProgressCallBackFunction@@YAJP6AHJ@Z@Z$0 10019e80 f   MDLANG.obj
+ 0001:00018e88       __ehhandler$?JMRegisterProgressCallBackFunction@@YAJP6AHJ@Z@Z 10019e88 f   MDLANG.obj
+ 0001:00018eb0       __unwindfunclet$?SetSize@?$CArray@UtagThreeDoubles@@U1@@@QAEXHH@Z$0 10019eb0 f   MDLANG.obj
+ 0001:00018eca       __unwindfunclet$?SetSize@?$CArray@UtagThreeDoubles@@U1@@@QAEXHH@Z$1 10019eca f   MDLANG.obj
+ 0001:00018ef1       __unwindfunclet$?SetSize@?$CArray@UtagThreeDoubles@@U1@@@QAEXHH@Z$2 10019ef1 f   MDLANG.obj
+ 0001:00018f13       __ehhandler$?SetSize@?$CArray@UtagThreeDoubles@@U1@@@QAEXHH@Z 10019f13 f   MDLANG.obj
+ 0001:00018f30       __unwindfunclet$?SetSize@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHH@Z$0 10019f30 f   MDLANG.obj
+ 0001:00018f4a       __unwindfunclet$?SetSize@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHH@Z$1 10019f4a f   MDLANG.obj
+ 0001:00018f71       __unwindfunclet$?SetSize@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHH@Z$2 10019f71 f   MDLANG.obj
+ 0001:00018f93       __ehhandler$?SetSize@?$CArray@UtagPointRadiusData@@AAU1@@@QAEXHH@Z 10019f93 f   MDLANG.obj
+ 0001:00018fb0       __unwindfunclet$??0tagReferenceAxisData@@QAE@XZ$0 10019fb0 f   MDLANG.obj
+ 0001:00018fb8       __ehhandler$??0tagReferenceAxisData@@QAE@XZ 10019fb8 f   MDLANG.obj
+ 0001:00018fe0       __unwindfunclet$?Dump@tagReferenceAxisData@@QAEXPAVCStdioFile@@@Z$0 10019fe0 f   MDLANG.obj
+ 0001:00018fe9       __ehhandler$?Dump@tagReferenceAxisData@@QAEXPAVCStdioFile@@@Z 10019fe9 f   MDLANG.obj
+ 0001:00019010       __unwindfunclet$?Dump@tagProfileBasedData@@QAEXPAVCStdioFile@@@Z$0 1001a010 f   MDLANG.obj
+ 0001:00019019       __ehhandler$?Dump@tagProfileBasedData@@QAEXPAVCStdioFile@@@Z 1001a019 f   MDLANG.obj
+ 0001:00019040       __unwindfunclet$??1tagReferenceAxisData@@QAE@XZ$0 1001a040 f   MDLANG.obj
+ 0001:00019048       __ehhandler$??1tagReferenceAxisData@@QAE@XZ 1001a048 f   MDLANG.obj
+ 0001:00019070       __unwindfunclet$?Dump@tagRoundSetData@@QAEXPAVCStdioFile@@@Z$0 1001a070 f   MDLANG.obj
+ 0001:00019079       __ehhandler$?Dump@tagRoundSetData@@QAEXPAVCStdioFile@@@Z 1001a079 f   MDLANG.obj
+ 0001:000190a0       __unwindfunclet$??0tagChamferData@@QAE@XZ$0 1001a0a0 f   MDLANG.obj
+ 0001:000190ab       __unwindfunclet$??0tagChamferData@@QAE@XZ$1 1001a0ab f   MDLANG.obj
+ 0001:000190b6       __unwindfunclet$??0tagChamferData@@QAE@XZ$2 1001a0b6 f   MDLANG.obj
+ 0001:000190c1       __ehhandler$??0tagChamferData@@QAE@XZ 1001a0c1 f   MDLANG.obj
+ 0001:000190e0       __unwindfunclet$?Dump@tagChamferData@@QAEXPAVCStdioFile@@@Z$0 1001a0e0 f   MDLANG.obj
+ 0001:000190e9       __ehhandler$?Dump@tagChamferData@@QAEXPAVCStdioFile@@@Z 1001a0e9 f   MDLANG.obj
+ 0001:00019110       __unwindfunclet$??0tagFaceSetData@@QAE@XZ$0 1001a110 f   MDLANG.obj
+ 0001:00019118       __unwindfunclet$??0tagFaceSetData@@QAE@XZ$1 1001a118 f   MDLANG.obj
+ 0001:00019123       __ehhandler$??0tagFaceSetData@@QAE@XZ 1001a123 f   MDLANG.obj
+ 0001:00019140       __unwindfunclet$?Dump@tagFaceSetData@@QAEXPAVCStdioFile@@@Z$0 1001a140 f   MDLANG.obj
+ 0001:00019149       __ehhandler$?Dump@tagFaceSetData@@QAEXPAVCStdioFile@@@Z 1001a149 f   MDLANG.obj
+ 0001:00019170       __unwindfunclet$?Dump@tagDraftSetData@@QAEXPAVCStdioFile@@@Z$0 1001a170 f   MDLANG.obj
+ 0001:00019179       __ehhandler$?Dump@tagDraftSetData@@QAEXPAVCStdioFile@@@Z 1001a179 f   MDLANG.obj
+ 0001:000191a0       __unwindfunclet$??0tagDraftData@@QAE@XZ$0 1001a1a0 f   MDLANG.obj
+ 0001:000191ab       __ehhandler$??0tagDraftData@@QAE@XZ 1001a1ab f   MDLANG.obj
+ 0001:000191d0       __unwindfunclet$?Dump@tagDraftData@@QAEXPAVCStdioFile@@@Z$0 1001a1d0 f   MDLANG.obj
+ 0001:000191d9       __ehhandler$?Dump@tagDraftData@@QAEXPAVCStdioFile@@@Z 1001a1d9 f   MDLANG.obj
+ 0001:00019200       __unwindfunclet$??0tagPatternData@@QAE@XZ$0 1001a200 f   MDLANG.obj
+ 0001:0001920e       __unwindfunclet$??0tagPatternData@@QAE@XZ$1 1001a20e f   MDLANG.obj
+ 0001:0001921c       __unwindfunclet$??0tagPatternData@@QAE@XZ$2 1001a21c f   MDLANG.obj
+ 0001:0001922a       __ehhandler$??0tagPatternData@@QAE@XZ 1001a22a f   MDLANG.obj
+ 0001:00019250       __unwindfunclet$?Dump@tagPatternData@@QAEXPAVCStdioFile@@@Z$0 1001a250 f   MDLANG.obj
+ 0001:00019259       __ehhandler$?Dump@tagPatternData@@QAEXPAVCStdioFile@@@Z 1001a259 f   MDLANG.obj
+ 0001:00019280       __unwindfunclet$?Dump@tagUniqueSetData@@QAEXPAVCStdioFile@@@Z$0 1001a280 f   MDLANG.obj
+ 0001:00019289       __ehhandler$?Dump@tagUniqueSetData@@QAEXPAVCStdioFile@@@Z 1001a289 f   MDLANG.obj
+ 0001:000192b0       __unwindfunclet$?Dump@tagThinwallData@@QAEXPAVCStdioFile@@@Z$0 1001a2b0 f   MDLANG.obj
+ 0001:000192b9       __ehhandler$?Dump@tagThinwallData@@QAEXPAVCStdioFile@@@Z 1001a2b9 f   MDLANG.obj
+ 0001:000192e0       __unwindfunclet$??0tagLoftSweepData@@QAE@XZ$0 1001a2e0 f   MDLANG.obj
+ 0001:000192e8       __unwindfunclet$??0tagLoftSweepData@@QAE@XZ$1 1001a2e8 f   MDLANG.obj
+ 0001:000192f3       __ehhandler$??0tagLoftSweepData@@QAE@XZ 1001a2f3 f   MDLANG.obj
+ 0001:00019310       __unwindfunclet$?Dump@tagLoftSweepData@@QAEXPAVCStdioFile@@@Z$0 1001a310 f   MDLANG.obj
+ 0001:00019319       __ehhandler$?Dump@tagLoftSweepData@@QAEXPAVCStdioFile@@@Z 1001a319 f   MDLANG.obj
+ 0001:00019340       __unwindfunclet$??0tagFeatureInputs@@QAE@XZ$0 1001a340 f   MDLANG.obj
+ 0001:00019348       __ehhandler$??0tagFeatureInputs@@QAE@XZ 1001a348 f   MDLANG.obj
+ 0001:00019370       __unwindfunclet$??1tagPatternData@@QAE@XZ$0 1001a370 f   MDLANG.obj
+ 0001:0001937e       __unwindfunclet$??1tagPatternData@@QAE@XZ$1 1001a37e f   MDLANG.obj
+ 0001:0001938c       __unwindfunclet$??1tagPatternData@@QAE@XZ$2 1001a38c f   MDLANG.obj
+ 0001:0001939a       __ehhandler$??1tagPatternData@@QAE@XZ 1001a39a f   MDLANG.obj
+ 0001:000193c0       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$0 1001a3c0 f   MDLANG.obj
+ 0001:000193c9       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$1 1001a3c9 f   MDLANG.obj
+ 0001:000193d4       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$2 1001a3d4 f   MDLANG.obj
+ 0001:000193df       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$3 1001a3df f   MDLANG.obj
+ 0001:000193ed       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$4 1001a3ed f   MDLANG.obj
+ 0001:000193fb       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$5 1001a3fb f   MDLANG.obj
+ 0001:00019409       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$6 1001a409 f   MDLANG.obj
+ 0001:00019417       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$7 1001a417 f   MDLANG.obj
+ 0001:00019425       __unwindfunclet$??0tagProfileBasedData@@QAE@XZ$8 1001a425 f   MDLANG.obj
+ 0001:00019433       __ehhandler$??0tagProfileBasedData@@QAE@XZ 1001a433 f   MDLANG.obj
+ 0001:00019450       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$0 1001a450 f   MDLANG.obj
+ 0001:00019459       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$1 1001a459 f   MDLANG.obj
+ 0001:00019464       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$2 1001a464 f   MDLANG.obj
+ 0001:0001946f       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$3 1001a46f f   MDLANG.obj
+ 0001:0001947d       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$4 1001a47d f   MDLANG.obj
+ 0001:0001948b       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$5 1001a48b f   MDLANG.obj
+ 0001:00019499       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$6 1001a499 f   MDLANG.obj
+ 0001:000194a7       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$7 1001a4a7 f   MDLANG.obj
+ 0001:000194b5       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$8 1001a4b5 f   MDLANG.obj
+ 0001:000194c3       __unwindfunclet$??1tagProfileBasedData@@QAE@XZ$9 1001a4c3 f   MDLANG.obj
+ 0001:000194cb       __ehhandler$??1tagProfileBasedData@@QAE@XZ 1001a4cb f   MDLANG.obj
+ 0001:000194f0       __unwindfunclet$??1tagRoundSetData@@QAE@XZ$0 1001a4f0 f   MDLANG.obj
+ 0001:000194f8       __unwindfunclet$??1tagRoundSetData@@QAE@XZ$1 1001a4f8 f   MDLANG.obj
+ 0001:00019503       __unwindfunclet$??1tagRoundSetData@@QAE@XZ$2 1001a503 f   MDLANG.obj
+ 0001:0001950e       __ehhandler$??1tagRoundSetData@@QAE@XZ 1001a50e f   MDLANG.obj
+ 0001:00019530       __unwindfunclet$??1tagChamferData@@QAE@XZ$0 1001a530 f   MDLANG.obj
+ 0001:0001953b       __unwindfunclet$??1tagChamferData@@QAE@XZ$1 1001a53b f   MDLANG.obj
+ 0001:00019546       __unwindfunclet$??1tagChamferData@@QAE@XZ$2 1001a546 f   MDLANG.obj
+ 0001:00019551       __ehhandler$??1tagChamferData@@QAE@XZ 1001a551 f   MDLANG.obj
+ 0001:00019570       __unwindfunclet$??1tagFaceSetData@@QAE@XZ$0 1001a570 f   MDLANG.obj
+ 0001:00019578       __unwindfunclet$??1tagFaceSetData@@QAE@XZ$1 1001a578 f   MDLANG.obj
+ 0001:00019583       __ehhandler$??1tagFaceSetData@@QAE@XZ 1001a583 f   MDLANG.obj
+ 0001:000195a0       __unwindfunclet$??0tagThinwallData@@QAE@XZ$0 1001a5a0 f   MDLANG.obj
+ 0001:000195ab       __unwindfunclet$??0tagThinwallData@@QAE@XZ$1 1001a5ab f   MDLANG.obj
+ 0001:000195b6       __ehhandler$??0tagThinwallData@@QAE@XZ 1001a5b6 f   MDLANG.obj
+ 0001:000195e0       __unwindfunclet$??1tagDraftData@@QAE@XZ$0 1001a5e0 f   MDLANG.obj
+ 0001:000195eb       __unwindfunclet$??1tagDraftData@@QAE@XZ$1 1001a5eb f   MDLANG.obj
+ 0001:000195f3       __ehhandler$??1tagDraftData@@QAE@XZ 1001a5f3 f   MDLANG.obj
+ 0001:00019610       __unwindfunclet$??1tagThinwallData@@QAE@XZ$0 1001a610 f   MDLANG.obj
+ 0001:0001961b       __unwindfunclet$??1tagThinwallData@@QAE@XZ$1 1001a61b f   MDLANG.obj
+ 0001:00019626       __unwindfunclet$??1tagThinwallData@@QAE@XZ$2 1001a626 f   MDLANG.obj
+ 0001:0001962e       __ehhandler$??1tagThinwallData@@QAE@XZ 1001a62e f   MDLANG.obj
+ 0001:00019650       __unwindfunclet$??1tagLoftSweepData@@QAE@XZ$0 1001a650 f   MDLANG.obj
+ 0001:00019658       __unwindfunclet$??1tagLoftSweepData@@QAE@XZ$1 1001a658 f   MDLANG.obj
+ 0001:00019663       __ehhandler$??1tagLoftSweepData@@QAE@XZ 1001a663 f   MDLANG.obj
+ 0001:00019680       __unwindfunclet$??1tagFeatureInputs@@QAE@XZ$0 1001a680 f   MDLANG.obj
+ 0001:00019688       __unwindfunclet$??1tagFeatureInputs@@QAE@XZ$1 1001a688 f   MDLANG.obj
+ 0001:00019691       __unwindfunclet$??1tagFeatureInputs@@QAE@XZ$2 1001a691 f   MDLANG.obj
+ 0001:0001969d       __ehhandler$??1tagFeatureInputs@@QAE@XZ 1001a69d f   MDLANG.obj
+ 0001:000196c0       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$35 1001a6c0 f   MDLANG.obj
+ 0001:000196cb       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$36 1001a6cb f   MDLANG.obj
+ 0001:000196d6       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$37 1001a6d6 f   MDLANG.obj
+ 0001:000196e1       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$38 1001a6e1 f   MDLANG.obj
+ 0001:000196ec       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$39 1001a6ec f   MDLANG.obj
+ 0001:000196f7       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$40 1001a6f7 f   MDLANG.obj
+ 0001:00019702       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$41 1001a702 f   MDLANG.obj
+ 0001:0001970d       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$42 1001a70d f   MDLANG.obj
+ 0001:00019718       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$43 1001a718 f   MDLANG.obj
+ 0001:00019723       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$44 1001a723 f   MDLANG.obj
+ 0001:0001972e       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$45 1001a72e f   MDLANG.obj
+ 0001:00019738       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$46 1001a738 f   MDLANG.obj
+ 0001:00019743       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$47 1001a743 f   MDLANG.obj
+ 0001:0001974e       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$48 1001a74e f   MDLANG.obj
+ 0001:00019759       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$49 1001a759 f   MDLANG.obj
+ 0001:00019764       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$50 1001a764 f   MDLANG.obj
+ 0001:0001976f       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$51 1001a76f f   MDLANG.obj
+ 0001:0001977a       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$52 1001a77a f   MDLANG.obj
+ 0001:00019785       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$53 1001a785 f   MDLANG.obj
+ 0001:00019790       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$54 1001a790 f   MDLANG.obj
+ 0001:0001979b       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$55 1001a79b f   MDLANG.obj
+ 0001:000197a6       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$56 1001a7a6 f   MDLANG.obj
+ 0001:000197b1       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$57 1001a7b1 f   MDLANG.obj
+ 0001:000197bc       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$58 1001a7bc f   MDLANG.obj
+ 0001:000197c5       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$59 1001a7c5 f   MDLANG.obj
+ 0001:000197d0       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$60 1001a7d0 f   MDLANG.obj
+ 0001:000197db       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$61 1001a7db f   MDLANG.obj
+ 0001:000197e4       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$62 1001a7e4 f   MDLANG.obj
+ 0001:000197ed       __unwindfunclet$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$63 1001a7ed f   MDLANG.obj
+ 0001:000197f6       __ehhandler$?JMParseFile@@YAJPAUIStream@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z 1001a7f6 f   MDLANG.obj
+ 0001:00019820       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$4 1001a820 f   MDLANG.obj
+ 0001:0001982b       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$5 1001a82b f   MDLANG.obj
+ 0001:00019836       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$6 1001a836 f   MDLANG.obj
+ 0001:00019842       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$7 1001a842 f   MDLANG.obj
+ 0001:0001984e       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$8 1001a84e f   MDLANG.obj
+ 0001:0001985a       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$10 1001a85a f   MDLANG.obj
+ 0001:00019866       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$11 1001a866 f   MDLANG.obj
+ 0001:00019872       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$12 1001a872 f   MDLANG.obj
+ 0001:0001987e       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$15 1001a87e f   MDLANG.obj
+ 0001:0001988a       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$17 1001a88a f   MDLANG.obj
+ 0001:00019896       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$16 1001a896 f   MDLANG.obj
+ 0001:000198a2       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$14 1001a8a2 f   MDLANG.obj
+ 0001:000198ae       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$13 1001a8ae f   MDLANG.obj
+ 0001:000198ba       __unwindfunclet$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z$9 1001a8ba f   MDLANG.obj
+ 0001:000198c6       __ehhandler$?JMCreateFeatureTreeByStream@@YAJPAUIStream@@PAUIUnknown@@@Z 1001a8c6 f   MDLANG.obj
+ 0001:00019900       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$5 1001a900 f   MDLANG.obj
+ 0001:0001990b       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$6 1001a90b f   MDLANG.obj
+ 0001:00019916       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$7 1001a916 f   MDLANG.obj
+ 0001:00019922       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$8 1001a922 f   MDLANG.obj
+ 0001:0001992e       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$9 1001a92e f   MDLANG.obj
+ 0001:0001993a       __unwindfunclet$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z$10 1001a93a f   MDLANG.obj
+ 0001:00019948       __ehhandler$?JMCreateFeatureTreeByFile@@YAJPBDPAUIUnknown@@@Z 1001a948 f   MDLANG.obj
+ 0001:00019980       __unwindfunclet$?JMGetNameErrorStatus@@YAJPAUIUnknown@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAW4FeatureStatusConstants@@1@Z$4 1001a980 f   MdUtil.obj
+ 0001:00019989       __ehhandler$?JMGetNameErrorStatus@@YAJPAUIUnknown@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAW4FeatureStatusConstants@@1@Z 1001a989 f   MdUtil.obj
+ 0001:000199b0       __unwindfunclet$?GetMPOUnkFromHModel@@YAJPAUIUnknown@@PAPAU1@@Z$0 1001a9b0 f   MdUtil.obj
+ 0001:000199b8       __ehhandler$?GetMPOUnkFromHModel@@YAJPAUIUnknown@@PAPAU1@@Z 1001a9b8 f   MdUtil.obj
+ 0001:000199e0       __unwindfunclet$?GetConstToken@@YAJPAUIStream@@AAPBDAAK@Z$1 1001a9e0 f   ParsUtil.obj
+ 0001:000199e9       __ehhandler$?GetConstToken@@YAJPAUIStream@@AAPBDAAK@Z 1001a9e9 f   ParsUtil.obj
+ 0001:00019a10       __unwindfunclet$?ParseDoubleValue@@YAJPAUIStream@@AANAAK@Z$3 1001aa10 f   ParsUtil.obj
+ 0001:00019a19       __ehhandler$?ParseDoubleValue@@YAJPAUIStream@@AANAAK@Z 1001aa19 f   ParsUtil.obj
+ 0001:00019a40       __unwindfunclet$?ParseMultiDoubleValues@@YAJPAUIStream@@HQANAAK@Z$10 1001aa40 f   ParsUtil.obj
+ 0001:00019a49       __ehhandler$?ParseMultiDoubleValues@@YAJPAUIStream@@HQANAAK@Z 1001aa49 f   ParsUtil.obj
+ 0001:00019a70       __unwindfunclet$?ParseFileStmValue@@YAJPAUIStream@@AAPAU1@AAK@Z$4 1001aa70 f   ParsUtil.obj
+ 0001:00019a79       __ehhandler$?ParseFileStmValue@@YAJPAUIStream@@AAPAU1@AAK@Z 1001aa79 f   ParsUtil.obj
+ 0001:00019aa0       __unwindfunclet$?ParseIntValue@@YAJPAUIStream@@AAHAAK@Z$3 1001aaa0 f   ParsUtil.obj
+ 0001:00019aa9       __ehhandler$?ParseIntValue@@YAJPAUIStream@@AAHAAK@Z 1001aaa9 f   ParsUtil.obj
+ 0001:00019ad0       __unwindfunclet$??HATL@@YA?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@0@ABV10@0@Z$0 1001aad0 f   ParsUtil.obj
+ 0001:00019aea       __ehhandler$??HATL@@YA?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@0@ABV10@0@Z 1001aaea f   ParsUtil.obj
+ 0001:00019b10       __unwindfunclet$?ParseFileNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z$4 1001ab10 f   ParsUtil.obj
+ 0001:00019b19       __unwindfunclet$?ParseFileNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z$5 1001ab19 f   ParsUtil.obj
+ 0001:00019b21       __unwindfunclet$?ParseFileNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z$6 1001ab21 f   ParsUtil.obj
+ 0001:00019b2a       __ehhandler$?ParseFileNameValue@@YAJPAUIStream@@AAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@AAK@Z 1001ab2a f   ParsUtil.obj
+ 0001:00019b50       __unwindfunclet$??0tagRoundSetData@@QAE@XZ$0 1001ab50 f   ParsUtil.obj
+ 0001:00019b58       __unwindfunclet$??0tagRoundSetData@@QAE@XZ$1 1001ab58 f   ParsUtil.obj
+ 0001:00019b63       __unwindfunclet$??0tagRoundSetData@@QAE@XZ$2 1001ab63 f   ParsUtil.obj
+ 0001:00019b6e       __ehhandler$??0tagRoundSetData@@QAE@XZ 1001ab6e f   ParsUtil.obj
+ 0001:00019b90       __unwindfunclet$??0tagDraftSetData@@QAE@XZ$0 1001ab90 f   ParsUtil.obj
+ 0001:00019b98       __ehhandler$??0tagDraftSetData@@QAE@XZ 1001ab98 f   ParsUtil.obj
+ 0001:00019bc0       __unwindfunclet$??0tagUniqueSetData@@QAE@XZ$0 1001abc0 f   ParsUtil.obj
+ 0001:00019bc8       __ehhandler$??0tagUniqueSetData@@QAE@XZ 1001abc8 f   ParsUtil.obj
+ 0001:00019bf0       __unwindfunclet$?ParseFeatureNamesInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$5 1001abf0 f   ParsUtil.obj
+ 0001:00019bf9       __ehhandler$?ParseFeatureNamesInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1001abf9 f   ParsUtil.obj
+ 0001:00019c20       __unwindfunclet$?ParseBodyOrProfileInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$8 1001ac20 f   ParsUtil.obj
+ 0001:00019c29       __ehhandler$?ParseBodyOrProfileInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1001ac29 f   ParsUtil.obj
+ 0001:00019c50       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$35 1001ac50 f   ParsUtil.obj
+ 0001:00019c5a       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$36 1001ac5a f   ParsUtil.obj
+ 0001:00019c64       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$39 1001ac64 f   ParsUtil.obj
+ 0001:00019c6e       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$40 1001ac6e f   ParsUtil.obj
+ 0001:00019c78       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$41 1001ac78 f   ParsUtil.obj
+ 0001:00019c82       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$42 1001ac82 f   ParsUtil.obj
+ 0001:00019c8c       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$37 1001ac8c f   ParsUtil.obj
+ 0001:00019c96       __unwindfunclet$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z$38 1001ac96 f   ParsUtil.obj
+ 0001:00019ca0       __ehhandler$?ParseEntityInput@@YAJPAUIStream@@PBDAAUtagFeatureInputs@@AAK@Z 1001aca0 f   ParsUtil.obj
+ 0001:00019cc0       __unwindfunclet$?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z$37 1001acc0 f   ParsUtil.obj
+ 0001:00019ccb       __unwindfunclet$?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z$38 1001accb f   ParsUtil.obj
+ 0001:00019cd6       __unwindfunclet$?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z$39 1001acd6 f   ParsUtil.obj
+ 0001:00019ce1       __unwindfunclet$?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z$40 1001ace1 f   ParsUtil.obj
+ 0001:00019cec       __ehhandler$?ParseDPRFeatureInputs@@YAJPAUIStream@@AAUtagFeatureInputs@@AAK@Z 1001acec f   ParsUtil.obj
+ 0001:00019d10       __unwindfunclet$?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$51 1001ad10 f   Pattern.obj
+ 0001:00019d1c       __unwindfunclet$?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$52 1001ad1c f   Pattern.obj
+ 0001:00019d28       __unwindfunclet$?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$53 1001ad28 f   Pattern.obj
+ 0001:00019d34       __unwindfunclet$?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z$54 1001ad34 f   Pattern.obj
+ 0001:00019d40       __ehhandler$?JMCreatePatternMirror@@YAJPAUIUnknown@@PAUtagFeatureInputs@@PAV?$CArray@PAUtagFeatureInputs@@PAU1@@@@Z 1001ad40 f   Pattern.obj
+ 0001:00019d70       __unwindfunclet$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$92 1001ad70 f   ProtCut.obj
+ 0001:00019d7b       __unwindfunclet$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$93 1001ad7b f   ProtCut.obj
+ 0001:00019d86       __unwindfunclet$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$94 1001ad86 f   ProtCut.obj
+ 0001:00019d92       __unwindfunclet$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$95 1001ad92 f   ProtCut.obj
+ 0001:00019d9e       __unwindfunclet$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$96 1001ad9e f   ProtCut.obj
+ 0001:00019daa       __ehhandler$?JMCreateProtrusionHoleCutout@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001adaa f   ProtCut.obj
+ 0001:00019dd0       __unwindfunclet$?JMCreateRibWeb@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$31 1001add0 f   RibWeb.obj
+ 0001:00019ddc       __unwindfunclet$?JMCreateRibWeb@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$32 1001addc f   RibWeb.obj
+ 0001:00019de8       __unwindfunclet$?JMCreateRibWeb@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$33 1001ade8 f   RibWeb.obj
+ 0001:00019df4       __ehhandler$?JMCreateRibWeb@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001adf4 f   RibWeb.obj
+ 0001:00019e20       __unwindfunclet$?JMCreateRound@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$21 1001ae20 f   RndChmf.obj
+ 0001:00019e29       __unwindfunclet$?JMCreateRound@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$22 1001ae29 f   RndChmf.obj
+ 0001:00019e35       __unwindfunclet$?JMCreateRound@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$23 1001ae35 f   RndChmf.obj
+ 0001:00019e41       __ehhandler$?JMCreateRound@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001ae41 f   RndChmf.obj
+ 0001:00019e70       __unwindfunclet$?JMCreateChamfer@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$18 1001ae70 f   RndChmf.obj
+ 0001:00019e7c       __unwindfunclet$?JMCreateChamfer@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$19 1001ae7c f   RndChmf.obj
+ 0001:00019e88       __unwindfunclet$?JMCreateChamfer@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$20 1001ae88 f   RndChmf.obj
+ 0001:00019e94       __ehhandler$?JMCreateChamfer@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001ae94 f   RndChmf.obj
+ 0001:00019ec0       __unwindfunclet$?JMCreateThinwall@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$19 1001aec0 f   Thinwall.obj
+ 0001:00019ec9       __unwindfunclet$?JMCreateThinwall@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$20 1001aec9 f   Thinwall.obj
+ 0001:00019ed5       __unwindfunclet$?JMCreateThinwall@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z$21 1001aed5 f   Thinwall.obj
+ 0001:00019ee1       __ehhandler$?JMCreateThinwall@@YAJPAUIUnknown@@PAUtagFeatureInputs@@@Z 1001aee1 f   Thinwall.obj
+ 0001:00019f02       __unwindfunclet$?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z$0 1001af02 f   mfcs80:dllmodul.obj
+ 0001:00019f0a       __ehhandler$?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 1001af0a f   mfcs80:dllmodul.obj
+ 0001:00019f25       __unwindfunclet$_InternalDllMain@12$5 1001af25 f   mfcs80:dllmodul.obj
+ 0001:00019f2e       __unwindfunclet$_InternalDllMain@12$6 1001af2e f   mfcs80:dllmodul.obj
+ 0001:00019f36       __ehhandler$_InternalDllMain@12 1001af36 f   mfcs80:dllmodul.obj
+ 0001:00019f60       ??__ELocalHeap@@YAXXZ      1001af60 f   CMemStm.obj
+ 0001:00019fa0       ??__EGNULL_Camera@@YAXXZ   1001afa0 f   GUID.obj
+ 0001:00019fc0       ??__EGNULL_CAMERA@@YAXXZ   1001afc0 f   GUID.obj
+ 0001:00019fe0       ??__EGID_Camera@@YAXXZ     1001afe0 f   GUID.obj
+ 0001:0001a000       ??__EGID_CAMERA@@YAXXZ     1001b000 f   GUID.obj
+ 0001:0001a020       ??__Eg_Data@@YAXXZ         1001b020 f   MdDefin.obj
+ 0001:0001a080       ??__EFEATUREINPUT_FEATURE@@YAXXZ 1001b080 f   MdDefin.obj
+ 0001:0001a090       ??__EFEATUREPROPERTY_NORMAL@@YAXXZ 1001b090 f   MdDefin.obj
+ 0001:0001a0a0       ??__EAllMDLangStrings@@YAXXZ 1001b0a0 f   MdDefin.obj
+ 0001:0001a920       ??__ElogFile@@YAXXZ        1001b920 f   MDLANG.obj
+ 0001:0001a940       ??__EszParseError@@YAXXZ   1001b940 f   MDLANG.obj
+ 0001:0001a960       ??__EszParseFilePath@@YAXXZ 1001b960 f   MDLANG.obj
+ 0001:0001a980       ??__EFeaturePropertyStringMap@@YAXXZ 1001b980 f   MdUtil.obj
+ 0001:0001ab80       ??__EGNULL_Camera@@YAXXZ   1001bb80 f   StdAfx.obj
+ 0001:0001aba0       ??__EGNULL_CAMERA@@YAXXZ   1001bba0 f   StdAfx.obj
+ 0001:0001abc0       ??__EGID_Camera@@YAXXZ     1001bbc0 f   StdAfx.obj
+ 0001:0001abe0       ??__EGID_CAMERA@@YAXXZ     1001bbe0 f   StdAfx.obj
+ 0001:0001ac00       ??__EJMStdIncludeFaceTypesForSilhouettes@@YAXXZ 1001bc00 f   StdAfx.obj
+ 0001:0001ac7d       ??__EafxModuleState@@YAXXZ 1001bc7d f   mfcs80:dllmodul.obj
+ 0001:0001aca0       ??__FLocalHeap@@YAXXZ      1001bca0 f   CMemStm.obj
+ 0001:0001acd0       ??__Fg_Data@@YAXXZ         1001bcd0 f   MdDefin.obj
+ 0001:0001ace0       ??__FlogFile@@YAXXZ        1001bce0 f   MDLANG.obj
+ 0001:0001acf0       ??__FszParseError@@YAXXZ   1001bcf0 f   MDLANG.obj
+ 0001:0001ad00       ??__FszParseFilePath@@YAXXZ 1001bd00 f   MDLANG.obj
+ 0001:0001ad0b       ??__FafxModuleState@@YAXXZ 1001bd0b f   mfcs80:dllmodul.obj

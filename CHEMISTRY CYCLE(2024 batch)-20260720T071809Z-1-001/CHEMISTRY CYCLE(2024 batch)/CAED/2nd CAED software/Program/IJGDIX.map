@@ -1,0 +1,616 @@
+ IJGDIX
+
+ Timestamp is 46b3a339 (Fri Aug 03 16:50:49 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004d18H .text                   CODE
+ 0001:00004d20 000000e4H .text$x                 CODE
+ 0001:00004e10 00000176H .text$yc                CODE
+ 0002:00000000 000002f4H .idata$5                DATA
+ 0002:000002f4 00000004H .CRT$XCA                DATA
+ 0002:000002f8 00000030H .CRT$XCU                DATA
+ 0002:00000328 00000004H .CRT$XCZ                DATA
+ 0002:0000032c 00000004H .CRT$XIA                DATA
+ 0002:00000330 00000004H .CRT$XIAA               DATA
+ 0002:00000334 00000004H .CRT$XIC                DATA
+ 0002:00000338 00000004H .CRT$XIZ                DATA
+ 0002:00000340 000004c0H .rdata                  DATA
+ 0002:00000800 00000030H .rdata$debug            DATA
+ 0002:00000830 00000218H .rdata$r                DATA
+ 0002:00000a50 00000018H .rdata$sxdata           DATA
+ 0002:00000a68 00000004H .rtc$IAA                DATA
+ 0002:00000a6c 00000004H .rtc$IZZ                DATA
+ 0002:00000a70 00000004H .rtc$TAA                DATA
+ 0002:00000a74 00000004H .rtc$TZZ                DATA
+ 0002:00000a78 000001a4H .xdata$x                DATA
+ 0002:00000c1c 00000078H .idata$2                DATA
+ 0002:00000c94 00000014H .idata$3                DATA
+ 0002:00000ca8 000002f4H .idata$4                DATA
+ 0002:00000f9c 00000d58H .idata$6                DATA
+ 0002:00001d00 00000082H .edata                  DATA
+ 0003:00000000 00001f68H .data                   DATA
+ 0003:00001f68 000009b8H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000006       ___safe_se_handler_count   00000006     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i GDIXIMP.obj
+ 0001:000000d0       ??1JGDIX@@QAE@XZ           100010d0 f   GDIXIMP.obj
+ 0001:000000e0       ?Initialize@JGDIX@@QAEJXZ  100010e0 f   GDIXIMP.obj
+ 0001:00000120       ?AddRef@JGDIX@@UAGKXZ      10001120 f   GDIXIMP.obj
+ 0001:00000130       ?QueryInterface@JGDIX@@UAGJABU_GUID@@PAPAX@Z 10001130 f   GDIXIMP.obj
+ 0001:000001a0       ?QueryInterface@IJGDIXImp@JGDIX@@UAGJABU_GUID@@PAPAX@Z 100011a0 f   GDIXIMP.obj
+ 0001:000001c0       ?AddRef@IJGDIXImp@JGDIX@@UAGKXZ 100011c0 f   GDIXIMP.obj
+ 0001:000001e0       ?Release@IJGDIXImp@JGDIX@@UAGKXZ 100011e0 f   GDIXIMP.obj
+ 0001:00000200       ?SetDC@IJGDIXImp@JGDIX@@UAGJPAUHDC__@@@Z 10001200 f   GDIXIMP.obj
+ 0001:00000210       ?GetDC@IJGDIXImp@JGDIX@@UAGJPAPAUHDC__@@@Z 10001210 f   GDIXIMP.obj
+ 0001:00000250       ?LoadIdentity@IJGDIXImp@JGDIX@@UAGJXZ 10001250 f   GDIXIMP.obj
+ 0001:000002d0       ?PushMatrix@IJGDIXImp@JGDIX@@UAGJXZ 100012d0 f   GDIXIMP.obj
+ 0001:00000330       ?PopMatrix@IJGDIXImp@JGDIX@@UAGJXZ 10001330 f   GDIXIMP.obj
+ 0001:00000380       ?LoadMatrix@IJGDIXImp@JGDIX@@UAGJPBUtagXFORM@@@Z 10001380 f   GDIXIMP.obj
+ 0001:00000420       ?GetMatrix@IJGDIXImp@JGDIX@@UAGJPAUtagXFORM@@@Z 10001420 f   GDIXIMP.obj
+ 0001:000004a0       ?GetTransforms@IJGDIXImp@JGDIX@@UAGJPAUtagG4x4@@0@Z 100014a0 f   GDIXIMP.obj
+ 0001:000005d0       ?MultMatrix@IJGDIXImp@JGDIX@@UAGJPBUtagXFORM@@@Z 100015d0 f   GDIXIMP.obj
+ 0001:00000640       ?SetHints@IJGDIXImp@JGDIX@@UAGJK@Z 10001640 f   GDIXIMP.obj
+ 0001:00000660       ?GetHints@IJGDIXImp@JGDIX@@UAGJPAK@Z 10001660 f   GDIXIMP.obj
+ 0001:00000680       ?BitBltd@IJGDIXImp@JGDIX@@UAGHNNNNPAUHDC__@@NNK@Z 10001680 f   GDIXIMP.obj
+ 0001:00000690       ?Chord@IJGDIXImp@JGDIX@@UAGHHHHHHHHH@Z 10001690 f   GDIXIMP.obj
+ 0001:00000770       ?Chordd@IJGDIXImp@JGDIX@@UAGHNNNNNNNN@Z 10001770 f   GDIXIMP.obj
+ 0001:00000850       ?CloseMetaFile@IJGDIXImp@JGDIX@@UAGPAUHMETAFILE__@@XZ 10001850 f   GDIXIMP.obj
+ 0001:00000870       ?CreateCompatibleBitmap@IJGDIXImp@JGDIX@@UAGPAUHBITMAP__@@HH@Z 10001870 f   GDIXIMP.obj
+ 0001:00000890       ?CreateDiscardableBitmap@IJGDIXImp@JGDIX@@UAGPAUHBITMAP__@@HH@Z 10001890 f   GDIXIMP.obj
+ 0001:000008b0       ?CreateDIBitmap@IJGDIXImp@JGDIX@@UAGPAUHBITMAP__@@PBUtagBITMAPINFOHEADER@@KPBXPBUtagBITMAPINFO@@I@Z 100018b0 f   GDIXIMP.obj
+ 0001:000008d0       ?DeleteDC@IJGDIXImp@JGDIX@@UAGHXZ 100018d0 f   GDIXIMP.obj
+ 0001:000008f0       ?EnumFontFamiliesA@IJGDIXImp@JGDIX@@UAGHPBDP6GHPBUtagLOGFONTA@@PBUtagTEXTMETRICA@@KJ@ZJ@Z 100018f0 f   GDIXIMP.obj
+ 0001:00000910       ?EnumFontsA@IJGDIXImp@JGDIX@@UAGHPBDP6GHPBUtagLOGFONTA@@PBUtagTEXTMETRICA@@KJ@ZJ@Z 10001910 f   GDIXIMP.obj
+ 0001:00000930       ?EnumObjects@IJGDIXImp@JGDIX@@UAGHHP6GHPAXJ@ZJ@Z 10001930 f   GDIXIMP.obj
+ 0001:00000950       ?Escape@IJGDIXImp@JGDIX@@UAGHHHPBDPAX@Z 10001950 f   GDIXIMP.obj
+ 0001:00000970       ?ExtEscape@IJGDIXImp@JGDIX@@UAGHHHPBDHPAD@Z 10001970 f   GDIXIMP.obj
+ 0001:00000990       ?ExtFloodFill@IJGDIXImp@JGDIX@@UAGHHHKI@Z 10001990 f   GDIXIMP.obj
+ 0001:00000a00       ?ExtFloodFilld@IJGDIXImp@JGDIX@@UAGHNNKI@Z 10001a00 f   GDIXIMP.obj
+ 0001:00000a70       ?FloodFill@IJGDIXImp@JGDIX@@UAGHHHK@Z 10001a70 f   GDIXIMP.obj
+ 0001:00000ae0       ?FloodFilld@IJGDIXImp@JGDIX@@UAGHNNK@Z 10001ae0 f   GDIXIMP.obj
+ 0001:00000b50       ?LineTo@IJGDIXImp@JGDIX@@UAGHHH@Z 10001b50 f   GDIXIMP.obj
+ 0001:00000bc0       ?LineTod@IJGDIXImp@JGDIX@@UAGHNN@Z 10001bc0 f   GDIXIMP.obj
+ 0001:00000c30       ?MoveToEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10001c30 f   GDIXIMP.obj
+ 0001:00000ca0       ?MoveToExd@IJGDIXImp@JGDIX@@UAGHNNPAUtagPOINT@@@Z 10001ca0 f   GDIXIMP.obj
+ 0001:00000d10       ?PatBlt@IJGDIXImp@JGDIX@@UAGHHHHHK@Z 10001d10 f   GDIXIMP.obj
+ 0001:00000d20       ?PatBltd@IJGDIXImp@JGDIX@@UAGHNNNNK@Z 10001d20 f   GDIXIMP.obj
+ 0001:00000d30       ?BitBlt@IJGDIXImp@JGDIX@@UAGHHHHHPAUHDC__@@HHK@Z 10001d30 f   GDIXIMP.obj
+ 0001:00000d30       ?Pie@IJGDIXImp@JGDIX@@UAGHHHHHHHHH@Z 10001d30 f   GDIXIMP.obj
+ 0001:00000d40       ?Pied@IJGDIXImp@JGDIX@@UAGHNNNNNNNN@Z 10001d40 f   GDIXIMP.obj
+ 0001:00000d50       ?PlayMetaFile@IJGDIXImp@JGDIX@@UAGHPAUHMETAFILE__@@@Z 10001d50 f   GDIXIMP.obj
+ 0001:00000d70       ?PolyPolygon@IJGDIXImp@JGDIX@@UAGHPBUtagPOINT@@PBHH@Z 10001d70 f   GDIXIMP.obj
+ 0001:00000ee0       ?PolyPolygond@IJGDIXImp@JGDIX@@UAGHPBUtagPOINTD@@PBHH@Z 10001ee0 f   GDIXIMP.obj
+ 0001:00001060       ?PtVisible@IJGDIXImp@JGDIX@@UAGHHH@Z 10002060 f   GDIXIMP.obj
+ 0001:000010d0       ?PtVisibled@IJGDIXImp@JGDIX@@UAGHNN@Z 100020d0 f   GDIXIMP.obj
+ 0001:00001140       ?RectVisible@IJGDIXImp@JGDIX@@UAGHPBUtagRECT@@@Z 10002140 f   GDIXIMP.obj
+ 0001:00001350       ?RectVisibled@IJGDIXImp@JGDIX@@UAGHPBUtagRECTD@@@Z 10002350 f   GDIXIMP.obj
+ 0001:00001570       ?Rectangle@IJGDIXImp@JGDIX@@UAGHHHHH@Z 10002570 f   GDIXIMP.obj
+ 0001:00001690       ?Rectangled@IJGDIXImp@JGDIX@@UAGHNNNN@Z 10002690 f   GDIXIMP.obj
+ 0001:000017b0       ?RestoreDC@IJGDIXImp@JGDIX@@UAGHH@Z 100027b0 f   GDIXIMP.obj
+ 0001:000017d0       ?ResetDCA@IJGDIXImp@JGDIX@@UAGPAUHDC__@@PBU_devicemodeA@@@Z 100027d0 f   GDIXIMP.obj
+ 0001:000017f0       ?RealizePalette@IJGDIXImp@JGDIX@@UAGIXZ 100027f0 f   GDIXIMP.obj
+ 0001:00001810       ?SaveDC@IJGDIXImp@JGDIX@@UAGHXZ 10002810 f   GDIXIMP.obj
+ 0001:00001830       ?SelectObject@IJGDIXImp@JGDIX@@UAGPAXPAX@Z 10002830 f   GDIXIMP.obj
+ 0001:00001890       ?SelectPalette@IJGDIXImp@JGDIX@@UAGPAUHPALETTE__@@PAU3@H@Z 10002890 f   GDIXIMP.obj
+ 0001:000018b0       ?SetBkColor@IJGDIXImp@JGDIX@@UAGKK@Z 100028b0 f   GDIXIMP.obj
+ 0001:000018d0       ?SetBkMode@IJGDIXImp@JGDIX@@UAGHH@Z 100028d0 f   GDIXIMP.obj
+ 0001:000018f0       ?SetBoundsRect@IJGDIXImp@JGDIX@@UAGIPBUtagRECT@@I@Z 100028f0 f   GDIXIMP.obj
+ 0001:00001910       ?SetDIBits@IJGDIXImp@JGDIX@@UAGHPAUHBITMAP__@@IIPBXPBUtagBITMAPINFO@@I@Z 10002910 f   GDIXIMP.obj
+ 0001:00001930       ?SetDIBitsToDevice@IJGDIXImp@JGDIX@@UAGHHHKKHHIIPBXPBUtagBITMAPINFO@@I@Z 10002930 f   GDIXIMP.obj
+ 0001:00001950       ?SetMapperFlags@IJGDIXImp@JGDIX@@UAGKK@Z 10002950 f   GDIXIMP.obj
+ 0001:00001970       ?SetMapMode@IJGDIXImp@JGDIX@@UAGHH@Z 10002970 f   GDIXIMP.obj
+ 0001:00001990       ?SetPixel@IJGDIXImp@JGDIX@@UAGKHHK@Z 10002990 f   GDIXIMP.obj
+ 0001:00001a00       ?SetPixeld@IJGDIXImp@JGDIX@@UAGKNNK@Z 10002a00 f   GDIXIMP.obj
+ 0001:00001a70       ?SetPolyFillMode@IJGDIXImp@JGDIX@@UAGHH@Z 10002a70 f   GDIXIMP.obj
+ 0001:00001a90       ?SetROP2@IJGDIXImp@JGDIX@@UAGHH@Z 10002a90 f   GDIXIMP.obj
+ 0001:00001ab0       ?SetStretchBltMode@IJGDIXImp@JGDIX@@UAGHH@Z 10002ab0 f   GDIXIMP.obj
+ 0001:00001ad0       ?SetSystemPaletteUse@IJGDIXImp@JGDIX@@UAGII@Z 10002ad0 f   GDIXIMP.obj
+ 0001:00001af0       ?SetTextCharacterExtra@IJGDIXImp@JGDIX@@UAGHH@Z 10002af0 f   GDIXIMP.obj
+ 0001:00001b10       ?SetTextColor@IJGDIXImp@JGDIX@@UAGKK@Z 10002b10 f   GDIXIMP.obj
+ 0001:00001b30       ?SetTextAlign@IJGDIXImp@JGDIX@@UAGII@Z 10002b30 f   GDIXIMP.obj
+ 0001:00001b50       ?SetTextJustification@IJGDIXImp@JGDIX@@UAGHHH@Z 10002b50 f   GDIXIMP.obj
+ 0001:00001b70       ?StretchBlt@IJGDIXImp@JGDIX@@UAGHHHHHPAUHDC__@@HHHHK@Z 10002b70 f   GDIXIMP.obj
+ 0001:00001b80       ?StretchBltd@IJGDIXImp@JGDIX@@UAGHNNNNPAUHDC__@@NNNNK@Z 10002b80 f   GDIXIMP.obj
+ 0001:00001b90       ?StretchDIBits@IJGDIXImp@JGDIX@@UAGHHHHHHHHHPBXPBUtagBITMAPINFO@@IK@Z 10002b90 f   GDIXIMP.obj
+ 0001:00001ba0       ?StretchDIBitsd@IJGDIXImp@JGDIX@@UAGHNNNNHHHHPBXPBUtagBITMAPINFO@@IK@Z 10002ba0 f   GDIXIMP.obj
+ 0001:00001bb0       ?UpdateColors@IJGDIXImp@JGDIX@@UAGHXZ 10002bb0 f   GDIXIMP.obj
+ 0001:00001bd0       ?PlayMetaFileRecord@IJGDIXImp@JGDIX@@UAGHPAUtagHANDLETABLE@@PAUtagMETARECORD@@I@Z 10002bd0 f   GDIXIMP.obj
+ 0001:00001bf0       ?EnumMetaFile@IJGDIXImp@JGDIX@@UAGHPAUHMETAFILE__@@P6GHPAUHDC__@@PAUtagHANDLETABLE@@PAUtagMETARECORD@@HJ@ZJ@Z 10002bf0 f   GDIXIMP.obj
+ 0001:00001c10       ?GetTextMetricsA@IJGDIXImp@JGDIX@@UAGHPAUtagTEXTMETRICA@@@Z 10002c10 f   GDIXIMP.obj
+ 0001:00001c30       ?CreateBitmap@IJGDIXImp@JGDIX@@UAGPAUHBITMAP__@@HHIIPBX@Z 10002c30 f   GDIXIMP.obj
+ 0001:00001c60       ?CreateBitmapIndirect@IJGDIXImp@JGDIX@@UAGPAUHBITMAP__@@PBUtagBITMAP@@@Z 10002c60 f   GDIXIMP.obj
+ 0001:00001c70       ?GetBitmapBits@IJGDIXImp@JGDIX@@UAGJPAUHBITMAP__@@JPAX@Z 10002c70 f   GDIXIMP.obj
+ 0001:00001c90       ?GetBitmapDimensionEx@IJGDIXImp@JGDIX@@UAGHPAUHBITMAP__@@PAUtagSIZE@@@Z 10002c90 f   GDIXIMP.obj
+ 0001:00001cb0       ?SetBitmapBits@IJGDIXImp@JGDIX@@UAGJPAUHBITMAP__@@KPBX@Z 10002cb0 f   GDIXIMP.obj
+ 0001:00001cd0       ?CreateCompatibleDC@IJGDIXImp@JGDIX@@UAGPAUHDC__@@XZ 10002cd0 f   GDIXIMP.obj
+ 0001:00001cf0       ?CreateDCA@IJGDIXImp@JGDIX@@UAGPAUHDC__@@PBD00PBU_devicemodeA@@@Z 10002cf0 f   GDIXIMP.obj
+ 0001:00001d10       ?CreateICA@IJGDIXImp@JGDIX@@UAGPAUHDC__@@PBD00PBU_devicemodeA@@@Z 10002d10 f   GDIXIMP.obj
+ 0001:00001d30       ?GetAspectRatioFilterEx@IJGDIXImp@JGDIX@@UAGHPAUtagSIZE@@@Z 10002d30 f   GDIXIMP.obj
+ 0001:00001d50       ?GetBkColor@IJGDIXImp@JGDIX@@UAGKXZ 10002d50 f   GDIXIMP.obj
+ 0001:00001d70       ?GetBkMode@IJGDIXImp@JGDIX@@UAGHXZ 10002d70 f   GDIXIMP.obj
+ 0001:00001d90       ?GetBrushOrgEx@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@@Z 10002d90 f   GDIXIMP.obj
+ 0001:00001db0       ?GetCurrentPositionEx@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@@Z 10002db0 f   GDIXIMP.obj
+ 0001:00001dd0       ?GetDeviceCaps@IJGDIXImp@JGDIX@@UAGHH@Z 10002dd0 f   GDIXIMP.obj
+ 0001:00001df0       ?GetMapMode@IJGDIXImp@JGDIX@@UAGHXZ 10002df0 f   GDIXIMP.obj
+ 0001:00001e10       ?GetPolyFillMode@IJGDIXImp@JGDIX@@UAGHXZ 10002e10 f   GDIXIMP.obj
+ 0001:00001e30       ?GetStretchBltMode@IJGDIXImp@JGDIX@@UAGHXZ 10002e30 f   GDIXIMP.obj
+ 0001:00001e50       ?GetSystemPaletteEntries@IJGDIXImp@JGDIX@@UAGIIIPAUtagPALETTEENTRY@@@Z 10002e50 f   GDIXIMP.obj
+ 0001:00001e70       ?GetSystemPaletteUse@IJGDIXImp@JGDIX@@UAGIXZ 10002e70 f   GDIXIMP.obj
+ 0001:00001e90       ?GetViewportExtEx@IJGDIXImp@JGDIX@@UAGHPAUtagSIZE@@@Z 10002e90 f   GDIXIMP.obj
+ 0001:00001eb0       ?GetViewportOrgEx@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@@Z 10002eb0 f   GDIXIMP.obj
+ 0001:00001ed0       ?GetWindowExtEx@IJGDIXImp@JGDIX@@UAGHPAUtagSIZE@@@Z 10002ed0 f   GDIXIMP.obj
+ 0001:00001ef0       ?GetWindowOrgEx@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@@Z 10002ef0 f   GDIXIMP.obj
+ 0001:00001f10       ?OffsetViewportOrgEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10002f10 f   GDIXIMP.obj
+ 0001:00001f30       ?OffsetWindowOrgEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10002f30 f   GDIXIMP.obj
+ 0001:00001f50       ?ScaleViewportExtEx@IJGDIXImp@JGDIX@@UAGHHHHHPAUtagSIZE@@@Z 10002f50 f   GDIXIMP.obj
+ 0001:00001f70       ?ScaleWindowExtEx@IJGDIXImp@JGDIX@@UAGHHHHHPAUtagSIZE@@@Z 10002f70 f   GDIXIMP.obj
+ 0001:00001f90       ?SetViewportExtEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagSIZE@@@Z 10002f90 f   GDIXIMP.obj
+ 0001:00001fb0       ?SetViewportOrgEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10002fb0 f   GDIXIMP.obj
+ 0001:00001fd0       ?SetWindowExtEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagSIZE@@@Z 10002fd0 f   GDIXIMP.obj
+ 0001:00001ff0       ?SetWindowOrgEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10002ff0 f   GDIXIMP.obj
+ 0001:00002010       ?SetBrushOrgEx@IJGDIXImp@JGDIX@@UAGHHHPAUtagPOINT@@@Z 10003010 f   GDIXIMP.obj
+ 0001:00002030       ?GetDCOrgEx@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@@Z 10003030 f   GDIXIMP.obj
+ 0001:00002050       ?GetDIBits@IJGDIXImp@JGDIX@@UAGHPAUHBITMAP__@@IIPAXPAUtagBITMAPINFO@@I@Z 10003050 f   GDIXIMP.obj
+ 0001:00002070       ?GetPixel@IJGDIXImp@JGDIX@@UAGKHH@Z 10003070 f   GDIXIMP.obj
+ 0001:00002090       ?Polygon@IJGDIXImp@JGDIX@@UAGHPBUtagPOINT@@H@Z 10003090 f   GDIXIMP.obj
+ 0001:00002130       ?Polyline@IJGDIXImp@JGDIX@@UAGHPBUtagPOINT@@H@Z 10003130 f   GDIXIMP.obj
+ 0001:00002150       ?Polylined@IJGDIXImp@JGDIX@@UAGHPBUtagPOINTD@@H@Z 10003150 f   GDIXIMP.obj
+ 0001:000021f0       ?CopyMetaFileA@IJGDIXImp@JGDIX@@UAGPAUHMETAFILE__@@PAU3@PBD@Z 100031f0 f   GDIXIMP.obj
+ 0001:00002210       ?DeleteMetaFile@IJGDIXImp@JGDIX@@UAGHPAUHMETAFILE__@@@Z 10003210 f   GDIXIMP.obj
+ 0001:00002220       ?GetMetaFileBitsEx@IJGDIXImp@JGDIX@@UAGIPAUHMETAFILE__@@IPAX@Z 10003220 f   GDIXIMP.obj
+ 0001:00002240       ?GetMetaFileA@IJGDIXImp@JGDIX@@UAGPAUHMETAFILE__@@PBD@Z 10003240 f   GDIXIMP.obj
+ 0001:00002250       ?SetMetaFileBitsEx@IJGDIXImp@JGDIX@@UAGPAUHMETAFILE__@@IPBE@Z 10003250 f   GDIXIMP.obj
+ 0001:00002270       ?CreateBrushIndirect@IJGDIXImp@JGDIX@@UAGPAUHBRUSH__@@PBUtagLOGBRUSH@@@Z 10003270 f   GDIXIMP.obj
+ 0001:00002280       ?CreateHatchBrush@IJGDIXImp@JGDIX@@UAGPAUHBRUSH__@@HK@Z 10003280 f   GDIXIMP.obj
+ 0001:000022a0       ?CreatePen@IJGDIXImp@JGDIX@@UAGPAUHPEN__@@HHK@Z 100032a0 f   GDIXIMP.obj
+ 0001:000022c0       ?CreateDIBPatternBrush@IJGDIXImp@JGDIX@@UAGPAUHBRUSH__@@PAXI@Z 100032c0 f   GDIXIMP.obj
+ 0001:000022e0       ?CreatePatternBrush@IJGDIXImp@JGDIX@@UAGPAUHBRUSH__@@PAUHBITMAP__@@@Z 100032e0 f   GDIXIMP.obj
+ 0001:000022f0       ?CreateSolidBrush@IJGDIXImp@JGDIX@@UAGPAUHBRUSH__@@K@Z 100032f0 f   GDIXIMP.obj
+ 0001:00002300       ?CreatePenIndirect@IJGDIXImp@JGDIX@@UAGPAUHPEN__@@PBUtagLOGPEN@@@Z 10003300 f   GDIXIMP.obj
+ 0001:00002310       ?DeleteObject@IJGDIXImp@JGDIX@@UAGHPAX@Z 10003310 f   GDIXIMP.obj
+ 0001:00002320       ?GetObjectType@IJGDIXImp@JGDIX@@UAGKPAX@Z 10003320 f   GDIXIMP.obj
+ 0001:00002330       ?GetStockObject@IJGDIXImp@JGDIX@@UAGPAXH@Z 10003330 f   GDIXIMP.obj
+ 0001:00002340       ?UnrealizeObject@IJGDIXImp@JGDIX@@UAGHPAX@Z 10003340 f   GDIXIMP.obj
+ 0001:00002350       ?DPtoLP@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@H@Z 10003350 f   GDIXIMP.obj
+ 0001:00002370       ?LPtoDP@IJGDIXImp@JGDIX@@UAGHPAUtagPOINT@@H@Z 10003370 f   GDIXIMP.obj
+ 0001:00002390       ?AnimatePalette@IJGDIXImp@JGDIX@@UAGHPAUHPALETTE__@@IIPBUtagPALETTEENTRY@@@Z 10003390 f   GDIXIMP.obj
+ 0001:000023b0       ?CreatePalette@IJGDIXImp@JGDIX@@UAGPAUHPALETTE__@@PBUtagLOGPALETTE@@@Z 100033b0 f   GDIXIMP.obj
+ 0001:000023c0       ?GetNearestPaletteIndex@IJGDIXImp@JGDIX@@UAGIPAUHPALETTE__@@K@Z 100033c0 f   GDIXIMP.obj
+ 0001:000023e0       ?GetPaletteEntries@IJGDIXImp@JGDIX@@UAGIPAUHPALETTE__@@IIPAUtagPALETTEENTRY@@@Z 100033e0 f   GDIXIMP.obj
+ 0001:00002400       ?ResizePalette@IJGDIXImp@JGDIX@@UAGHPAUHPALETTE__@@I@Z 10003400 f   GDIXIMP.obj
+ 0001:00002420       ?SetPaletteEntries@IJGDIXImp@JGDIX@@UAGIPAUHPALETTE__@@IIPBUtagPALETTEENTRY@@@Z 10003420 f   GDIXIMP.obj
+ 0001:00002440       ?StartDocA@IJGDIXImp@JGDIX@@UAGHPBU_DOCINFOA@@@Z 10003440 f   GDIXIMP.obj
+ 0001:00002460       ?EndDoc@IJGDIXImp@JGDIX@@UAGHXZ 10003460 f   GDIXIMP.obj
+ 0001:00002480       ?StartPage@IJGDIXImp@JGDIX@@UAGHXZ 10003480 f   GDIXIMP.obj
+ 0001:000024a0       ?EndPage@IJGDIXImp@JGDIX@@UAGHXZ 100034a0 f   GDIXIMP.obj
+ 0001:000024c0       ?AbortDoc@IJGDIXImp@JGDIX@@UAGHXZ 100034c0 f   GDIXIMP.obj
+ 0001:000024e0       ?SetAbortProc@IJGDIXImp@JGDIX@@UAGHP6GHPAUHDC__@@H@Z@Z 100034e0 f   GDIXIMP.obj
+ 0001:00002500       ?GetBoundsRect@IJGDIXImp@JGDIX@@UAGIPAUtagRECT@@I@Z 10003500 f   GDIXIMP.obj
+ 0001:00002520       ?GetClipBox@IJGDIXImp@JGDIX@@UAGHPAUtagRECT@@@Z 10003520 f   GDIXIMP.obj
+ 0001:00002540       ?GetGlyphOutlineA@IJGDIXImp@JGDIX@@UAGKIIPAU_GLYPHMETRICS@@KPAXPBU_MAT2@@@Z 10003540 f   GDIXIMP.obj
+ 0001:00002560       ?GetFontData@IJGDIXImp@JGDIX@@UAGKKKPAXK@Z 10003560 f   GDIXIMP.obj
+ 0001:00002580       ?GetRasterizerCaps@IJGDIXImp@JGDIX@@UAGHPAU_RASTERIZER_STATUS@@I@Z 10003580 f   GDIXIMP.obj
+ 0001:000025a0       ?GetTextCharacterExtra@IJGDIXImp@JGDIX@@UAGHXZ 100035a0 f   GDIXIMP.obj
+ 0001:000025c0       ?GetTextAlign@IJGDIXImp@JGDIX@@UAGIXZ 100035c0 f   GDIXIMP.obj
+ 0001:000025e0       ?GetTextColor@IJGDIXImp@JGDIX@@UAGKXZ 100035e0 f   GDIXIMP.obj
+ 0001:00002600       ?GetTextExtentPointA@IJGDIXImp@JGDIX@@UAGHPBDHPAUtagSIZE@@@Z 10003600 f   GDIXIMP.obj
+ 0001:00002620       ?GetTextExtentExPointA@IJGDIXImp@JGDIX@@UAGHPBDHHPAH1PAUtagSIZE@@@Z 10003620 f   GDIXIMP.obj
+ 0001:00002640       ?GetKerningPairsA@IJGDIXImp@JGDIX@@UAGKKPAUtagKERNINGPAIR@@@Z 10003640 f   GDIXIMP.obj
+ 0001:00002660       ?CreateFontIndirectA@IJGDIXImp@JGDIX@@UAGPAUHFONT__@@PBUtagLOGFONTA@@@Z 10003660 f   GDIXIMP.obj
+ 0001:00002670       ?CreateScalableFontResourceA@IJGDIXImp@JGDIX@@UAGHKPBD00@Z 10003670 f   GDIXIMP.obj
+ 0001:00002690       ?ExtTextOutA@IJGDIXImp@JGDIX@@UAGHHHIPBUtagRECT@@PBDIPBH@Z 10003690 f   GDIXIMP.obj
+ 0001:00002990       ?ExtTextOutd@IJGDIXImp@JGDIX@@UAGHNNIPBUtagRECT@@PBDIPBH@Z 10003990 f   GDIXIMP.obj
+ 0001:00002c90       ?GetCharWidthA@IJGDIXImp@JGDIX@@UAGHIIPAH@Z 10003c90 f   GDIXIMP.obj
+ 0001:00002cb0       ?GetCharABCWidthsA@IJGDIXImp@JGDIX@@UAGHIIPAU_ABC@@@Z 10003cb0 f   GDIXIMP.obj
+ 0001:00002cd0       ?GetOutlineTextMetricsA@IJGDIXImp@JGDIX@@UAGIIPAU_OUTLINETEXTMETRICA@@@Z 10003cd0 f   GDIXIMP.obj
+ 0001:00002cf0       ?GetTextFaceA@IJGDIXImp@JGDIX@@UAGHHPAD@Z 10003cf0 f   GDIXIMP.obj
+ 0001:00002d10       ?RemoveFontResourceA@IJGDIXImp@JGDIX@@UAGHPBD@Z 10003d10 f   GDIXIMP.obj
+ 0001:00002d20       ?TextOutA@IJGDIXImp@JGDIX@@UAGHHHPBDH@Z 10003d20 f   GDIXIMP.obj
+ 0001:00002e80       ?TextOutd@IJGDIXImp@JGDIX@@UAGHNNPBDH@Z 10003e80 f   GDIXIMP.obj
+ 0001:00002fe0       ?stroke_arc@@YAXPAUtagVectD@@NNNNH0@Z 10003fe0 f   GDIXIMP.obj
+ 0001:00003180       ?Release@JGDIX@@UAGKXZ     10004180 f   GDIXIMP.obj
+ 0001:000031b0       ?Arc@IJGDIXImp@JGDIX@@UAGHHHHHHHHH@Z 100041b0 f   GDIXIMP.obj
+ 0001:000032e0       ?Arcd@IJGDIXImp@JGDIX@@UAGHNNNNNNNN@Z 100042e0 f   GDIXIMP.obj
+ 0001:00003400       ?Ellipse@IJGDIXImp@JGDIX@@UAGHHHHH@Z 10004400 f   GDIXIMP.obj
+ 0001:00003510       ?Ellipsed@IJGDIXImp@JGDIX@@UAGHNNNN@Z 10004510 f   GDIXIMP.obj
+ 0001:00003600       ?RoundRect@IJGDIXImp@JGDIX@@UAGHHHHHHH@Z 10004600 f   GDIXIMP.obj
+ 0001:00003820       ?RoundRectd@IJGDIXImp@JGDIX@@UAGHNNNNNN@Z 10004820 f   GDIXIMP.obj
+ 0001:00003a30       ??0JGDIX@@QAE@PAUIUnknown@@@Z 10004a30 f   GDIXIMP.obj
+ 0001:00003a60       ?Create@JGDIX@@SAJPAUIUnknown@@PAPAU2@@Z 10004a60 f   GDIXIMP.obj
+ 0001:00003b70       _CreateStdJGDIX@8          10004b70 f   GDIXIMP.obj
+ 0001:00003b90       ?ServerGetNumberOfObjects@@YAKXZ 10004b90 f   SERVER.obj
+ 0001:00003ba0       ?ServerGetNumberOfLocks@@YAKXZ 10004ba0 f   SERVER.obj
+ 0001:00003bb0       ?ServerIncrementNumberOfObjects@@YAXXZ 10004bb0 f   SERVER.obj
+ 0001:00003bc0       ?ServerDecrementNumberOfObjects@@YAXXZ 10004bc0 f   SERVER.obj
+ 0001:00003bd0       ?ServerIncrementNumberOfLocks@@YAXXZ 10004bd0 f   SERVER.obj
+ 0001:00003be0       ?ServerDecrementNumberOfLocks@@YAXXZ 10004be0 f   SERVER.obj
+ 0001:00003bf0       _DllMain@12                10004bf0 f   SERVER.obj
+ 0001:00003c00       _DllCanUnloadNow@0         10004c00 f   SERVER.obj
+ 0001:00003c20       ??0?$ClassFactory@VJGDIX@@@@QAE@HHH@Z 10004c20 f i SERVER.obj
+ 0001:00003ca0       ?OnCreateInstance@?$ClassFactory@VJGDIX@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10004ca0 f i SERVER.obj
+ 0001:00003df0       _DllGetClassObject@12      10004df0 f   SERVER.obj
+ 0001:00003f90       ??_E?$ClassFactory@VJGDIX@@@@UAEPAXI@Z 10004f90 f i SERVER.obj
+ 0001:00003f90       ??_G?$ClassFactory@VJGDIX@@@@UAEPAXI@Z 10004f90 f i SERVER.obj
+ 0001:00003ff0       ?multiplyxform@@YAXPBUtagXFORMD@@PBUtagXFORM@@PAU1@@Z 10004ff0 f   XFORMOP.obj
+ 0001:00004070       ?transform@@YAXPBUtagXFORMD@@PBUtagVectD@@PAU2@H@Z 10005070 f   XFORMOP.obj
+ 0001:00004190       ?scaleandtrans@@YAXPBUtagXFORMD@@PBUtagVectD@@PAU2@H@Z 10005190 f   XFORMOP.obj
+ 0001:00004256       _HRerrEx                   10005256 f   jutil:JUtil.dll
+ 0001:0000425c       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000525c f   jutil:JUtil.dll
+ 0001:00004262       ?AddRef@JClassFactory@@UAGKXZ 10005262 f   jutil:JUtil.dll
+ 0001:00004268       ?Release@JClassFactory@@UAGKXZ 10005268 f   jutil:JUtil.dll
+ 0001:0000426e       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000526e f   jutil:JUtil.dll
+ 0001:00004274       ?LockServer@JClassFactory@@UAGJH@Z 10005274 f   jutil:JUtil.dll
+ 0001:0000427a       ?Inverse@tagG4x4@@QBE?AU1@XZ 1000527a f   umath:umath.dll
+ 0001:00004280       ?ConvertXFORMToG4x4@@YAJPAUtagXFORM@@PAUtagG4x4@@@Z 10005280 f   uwmath:uwmath.dll
+ 0001:00004286       _malloc                    10005286 f   MSVCRT:MSVCR80.dll
+ 0001:0000428c       __callnewh                 1000528c f   MSVCRT:MSVCR80.dll
+ 0001:00004292       ??_Etype_info@@UAEPAXI@Z   10005292 f i MSVCRT:ti_inst.obj
+ 0001:000042e0       ??3@YAXPAX@Z               100052e0 f   MSVCRT:MSVCR80.dll
+ 0001:000042f0       __ftol2_sse                100052f0 f   MSVCRT:ftol2.obj
+ 0001:000042f9       __ftol2_pentium4           100052f9 f   MSVCRT:ftol2.obj
+ 0001:0000430c       __ftol2_sse_excpt          1000530c f   MSVCRT:ftol2.obj
+ 0001:00004326       __ftol2                    10005326 f   MSVCRT:ftol2.obj
+ 0001:0000439b       @__security_check_cookie@4 1000539b f   MSVCRT:secchk.obj
+ 0001:000043b0       __alloca_probe_16          100053b0 f   MSVCRT:alloca16.obj
+ 0001:000043c6       __alloca_probe_8           100053c6     MSVCRT:alloca16.obj
+ 0001:000043dc       __CIatan2                  100053dc f   MSVCRT:MSVCR80.dll
+ 0001:000043e2       __CIsqrt                   100053e2 f   MSVCRT:MSVCR80.dll
+ 0001:000043e8       __CIsin                    100053e8 f   MSVCRT:MSVCR80.dll
+ 0001:000043ee       __CIcos                    100053ee f   MSVCRT:MSVCR80.dll
+ 0001:00004400       __chkstk                   10005400 f   MSVCRT:chkstk.obj
+ 0001:00004400       __alloca_probe             10005400     MSVCRT:chkstk.obj
+ 0001:0000442c       ___CxxFrameHandler3        1000542c f   MSVCRT:MSVCR80.dll
+ 0001:0000447f       __CRT_INIT@12              1000547f f   MSVCRT:crtdll.obj
+ 0001:00004734       __DllMainCRTStartup@12     10005734 f   MSVCRT:crtdll.obj
+ 0001:00004755       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10005755 f   MSVCRT:ehvecdtr.obj
+ 0001:000047b3       ??_M@YGXPAXIHP6EX0@Z@Z     100057b3 f   MSVCRT:ehvecdtr.obj
+ 0001:00004866       __get_sse2_info            10005866 f   MSVCRT:cpu_disp.obj
+ 0001:000048c6       ___sse2_available_init     100058c6 f   MSVCRT:cpu_disp.obj
+ 0001:000048d3       ___report_gsfailure        100058d3 f   MSVCRT:gs_report.obj
+ 0001:000049d7       ___clean_type_info_names   100059d7 f   MSVCRT:tncleanup.obj
+ 0001:000049e3       __onexit                   100059e3 f   MSVCRT:atonexit.obj
+ 0001:00004a82       _atexit                    10005a82 f   MSVCRT:atonexit.obj
+ 0001:00004a94       __RTC_Initialize           10005a94 f   MSVCRT:initsect.obj
+ 0001:00004ab8       __RTC_Terminate            10005ab8 f   MSVCRT:initsect.obj
+ 0001:00004ae0       __ValidateImageBase        10005ae0 f   MSVCRT:pesect.obj
+ 0001:00004b10       __FindPESection            10005b10 f   MSVCRT:pesect.obj
+ 0001:00004b52       __IsNonwritableInCurrentImage 10005b52 f   MSVCRT:pesect.obj
+ 0001:00004bbe       __initterm                 10005bbe f   MSVCRT:MSVCR80.dll
+ 0001:00004bc4       __initterm_e               10005bc4 f   MSVCRT:MSVCR80.dll
+ 0001:00004bca       __amsg_exit                10005bca f   MSVCRT:MSVCR80.dll
+ 0001:00004bd0       ___CppXcptFilter           10005bd0 f   MSVCRT:MSVCR80.dll
+ 0001:00004bd8       __SEH_prolog4              10005bd8 f   MSVCRT:sehprolg4.obj
+ 0001:00004c1d       __SEH_epilog4              10005c1d f   MSVCRT:sehprolg4.obj
+ 0001:00004c31       __except_handler4          10005c31 f   MSVCRT:chandler4gs.obj
+ 0001:00004c54       ___security_init_cookie    10005c54 f   MSVCRT:gs_support.obj
+ 0001:00004ce8       ?terminate@@YAXXZ          10005ce8 f   MSVCRT:MSVCR80.dll
+ 0001:00004cee       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10005cee f   MSVCRT:MSVCR80.dll
+ 0001:00004cee       ??1type_info@@UAE@XZ       10005cee f   MSVCRT:MSVCR80.dll
+ 0001:00004cf4       __crt_debugger_hook        10005cf4 f   MSVCRT:MSVCR80.dll
+ 0001:00004cfa       ___clean_type_info_names_internal 10005cfa f   MSVCRT:MSVCR80.dll
+ 0001:00004d00       __unlock                   10005d00 f   MSVCRT:MSVCR80.dll
+ 0001:00004d06       ___dllonexit               10005d06 f   MSVCRT:MSVCR80.dll
+ 0001:00004d0c       __lock                     10005d0c f   MSVCRT:MSVCR80.dll
+ 0001:00004d12       __except_handler4_common   10005d12 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetPixel@12         10006000     gdi32:GDI32.dll
+ 0002:00000004       __imp__GetCharABCWidthsA@16 10006004     gdi32:GDI32.dll
+ 0002:00000008       __imp__GetCharWidthA@16    10006008     gdi32:GDI32.dll
+ 0002:0000000c       __imp__GetObjectA@12       1000600c     gdi32:GDI32.dll
+ 0002:00000010       __imp__ExtTextOutA@32      10006010     gdi32:GDI32.dll
+ 0002:00000014       __imp__CreateScalableFontResourceA@16 10006014     gdi32:GDI32.dll
+ 0002:00000018       __imp__CreateFontIndirectA@4 10006018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__GetKerningPairsA@12 1000601c     gdi32:GDI32.dll
+ 0002:00000020       __imp__GetTextExtentExPointA@28 10006020     gdi32:GDI32.dll
+ 0002:00000024       __imp__TextOutA@20         10006024     gdi32:GDI32.dll
+ 0002:00000028       __imp__RemoveFontResourceA@4 10006028     gdi32:GDI32.dll
+ 0002:0000002c       __imp__GetTextFaceA@12     1000602c     gdi32:GDI32.dll
+ 0002:00000030       __imp__DeleteObject@4      10006030     gdi32:GDI32.dll
+ 0002:00000034       __imp__Chord@36            10006034     gdi32:GDI32.dll
+ 0002:00000038       __imp__CloseMetaFile@4     10006038     gdi32:GDI32.dll
+ 0002:0000003c       __imp__CreateCompatibleBitmap@12 1000603c     gdi32:GDI32.dll
+ 0002:00000040       __imp__CreateDiscardableBitmap@12 10006040     gdi32:GDI32.dll
+ 0002:00000044       __imp__CreateDIBitmap@24   10006044     gdi32:GDI32.dll
+ 0002:00000048       __imp__DeleteDC@4          10006048     gdi32:GDI32.dll
+ 0002:0000004c       __imp__EnumFontFamiliesA@16 1000604c     gdi32:GDI32.dll
+ 0002:00000050       __imp__EnumFontsA@16       10006050     gdi32:GDI32.dll
+ 0002:00000054       __imp__EnumObjects@16      10006054     gdi32:GDI32.dll
+ 0002:00000058       __imp__Escape@20           10006058     gdi32:GDI32.dll
+ 0002:0000005c       __imp__ExtEscape@24        1000605c     gdi32:GDI32.dll
+ 0002:00000060       __imp__ExtFloodFill@20     10006060     gdi32:GDI32.dll
+ 0002:00000064       __imp__FloodFill@16        10006064     gdi32:GDI32.dll
+ 0002:00000068       __imp__LineTo@12           10006068     gdi32:GDI32.dll
+ 0002:0000006c       __imp__MoveToEx@16         1000606c     gdi32:GDI32.dll
+ 0002:00000070       __imp__PlayMetaFile@8      10006070     gdi32:GDI32.dll
+ 0002:00000074       __imp__PolyPolygon@16      10006074     gdi32:GDI32.dll
+ 0002:00000078       __imp__PtVisible@12        10006078     gdi32:GDI32.dll
+ 0002:0000007c       __imp__RectVisible@8       1000607c     gdi32:GDI32.dll
+ 0002:00000080       __imp__Polygon@12          10006080     gdi32:GDI32.dll
+ 0002:00000084       __imp__SetPolyFillMode@8   10006084     gdi32:GDI32.dll
+ 0002:00000088       __imp__RestoreDC@8         10006088     gdi32:GDI32.dll
+ 0002:0000008c       __imp__ResetDCA@8          1000608c     gdi32:GDI32.dll
+ 0002:00000090       __imp__RealizePalette@4    10006090     gdi32:GDI32.dll
+ 0002:00000094       __imp__SaveDC@4            10006094     gdi32:GDI32.dll
+ 0002:00000098       __imp__SelectObject@8      10006098     gdi32:GDI32.dll
+ 0002:0000009c       __imp__SelectPalette@12    1000609c     gdi32:GDI32.dll
+ 0002:000000a0       __imp__SetBkColor@8        100060a0     gdi32:GDI32.dll
+ 0002:000000a4       __imp__SetBkMode@8         100060a4     gdi32:GDI32.dll
+ 0002:000000a8       __imp__SetBoundsRect@12    100060a8     gdi32:GDI32.dll
+ 0002:000000ac       __imp__SetDIBits@28        100060ac     gdi32:GDI32.dll
+ 0002:000000b0       __imp__SetDIBitsToDevice@48 100060b0     gdi32:GDI32.dll
+ 0002:000000b4       __imp__SetMapperFlags@8    100060b4     gdi32:GDI32.dll
+ 0002:000000b8       __imp__SetMapMode@8        100060b8     gdi32:GDI32.dll
+ 0002:000000bc       __imp__SetPixel@16         100060bc     gdi32:GDI32.dll
+ 0002:000000c0       __imp__SetROP2@8           100060c0     gdi32:GDI32.dll
+ 0002:000000c4       __imp__SetStretchBltMode@8 100060c4     gdi32:GDI32.dll
+ 0002:000000c8       __imp__SetSystemPaletteUse@8 100060c8     gdi32:GDI32.dll
+ 0002:000000cc       __imp__SetTextCharacterExtra@8 100060cc     gdi32:GDI32.dll
+ 0002:000000d0       __imp__SetTextColor@8      100060d0     gdi32:GDI32.dll
+ 0002:000000d4       __imp__SetTextAlign@8      100060d4     gdi32:GDI32.dll
+ 0002:000000d8       __imp__SetTextJustification@12 100060d8     gdi32:GDI32.dll
+ 0002:000000dc       __imp__UpdateColors@4      100060dc     gdi32:GDI32.dll
+ 0002:000000e0       __imp__PlayMetaFileRecord@16 100060e0     gdi32:GDI32.dll
+ 0002:000000e4       __imp__EnumMetaFile@16     100060e4     gdi32:GDI32.dll
+ 0002:000000e8       __imp__GetTextMetricsA@8   100060e8     gdi32:GDI32.dll
+ 0002:000000ec       __imp__CreateBitmap@20     100060ec     gdi32:GDI32.dll
+ 0002:000000f0       __imp__CreateBitmapIndirect@4 100060f0     gdi32:GDI32.dll
+ 0002:000000f4       __imp__GetBitmapBits@12    100060f4     gdi32:GDI32.dll
+ 0002:000000f8       __imp__GetBitmapDimensionEx@8 100060f8     gdi32:GDI32.dll
+ 0002:000000fc       __imp__SetBitmapBits@12    100060fc     gdi32:GDI32.dll
+ 0002:00000100       __imp__CreateCompatibleDC@4 10006100     gdi32:GDI32.dll
+ 0002:00000104       __imp__CreateDCA@16        10006104     gdi32:GDI32.dll
+ 0002:00000108       __imp__CreateICA@16        10006108     gdi32:GDI32.dll
+ 0002:0000010c       __imp__GetAspectRatioFilterEx@8 1000610c     gdi32:GDI32.dll
+ 0002:00000110       __imp__GetBkColor@4        10006110     gdi32:GDI32.dll
+ 0002:00000114       __imp__GetBkMode@4         10006114     gdi32:GDI32.dll
+ 0002:00000118       __imp__GetBrushOrgEx@8     10006118     gdi32:GDI32.dll
+ 0002:0000011c       __imp__GetCurrentPositionEx@8 1000611c     gdi32:GDI32.dll
+ 0002:00000120       __imp__GetDeviceCaps@8     10006120     gdi32:GDI32.dll
+ 0002:00000124       __imp__GetMapMode@4        10006124     gdi32:GDI32.dll
+ 0002:00000128       __imp__GetPolyFillMode@4   10006128     gdi32:GDI32.dll
+ 0002:0000012c       __imp__GetStretchBltMode@4 1000612c     gdi32:GDI32.dll
+ 0002:00000130       __imp__GetSystemPaletteEntries@16 10006130     gdi32:GDI32.dll
+ 0002:00000134       __imp__GetSystemPaletteUse@4 10006134     gdi32:GDI32.dll
+ 0002:00000138       __imp__GetViewportExtEx@8  10006138     gdi32:GDI32.dll
+ 0002:0000013c       __imp__GetViewportOrgEx@8  1000613c     gdi32:GDI32.dll
+ 0002:00000140       __imp__GetWindowExtEx@8    10006140     gdi32:GDI32.dll
+ 0002:00000144       __imp__GetWindowOrgEx@8    10006144     gdi32:GDI32.dll
+ 0002:00000148       __imp__OffsetViewportOrgEx@16 10006148     gdi32:GDI32.dll
+ 0002:0000014c       __imp__OffsetWindowOrgEx@16 1000614c     gdi32:GDI32.dll
+ 0002:00000150       __imp__ScaleViewportExtEx@24 10006150     gdi32:GDI32.dll
+ 0002:00000154       __imp__ScaleWindowExtEx@24 10006154     gdi32:GDI32.dll
+ 0002:00000158       __imp__SetViewportExtEx@16 10006158     gdi32:GDI32.dll
+ 0002:0000015c       __imp__SetViewportOrgEx@16 1000615c     gdi32:GDI32.dll
+ 0002:00000160       __imp__SetWindowExtEx@16   10006160     gdi32:GDI32.dll
+ 0002:00000164       __imp__SetWindowOrgEx@16   10006164     gdi32:GDI32.dll
+ 0002:00000168       __imp__SetBrushOrgEx@16    10006168     gdi32:GDI32.dll
+ 0002:0000016c       __imp__GetDCOrgEx@8        1000616c     gdi32:GDI32.dll
+ 0002:00000170       __imp__GetDIBits@28        10006170     gdi32:GDI32.dll
+ 0002:00000174       __imp__GetTextExtentPointA@16 10006174     gdi32:GDI32.dll
+ 0002:00000178       __imp__Polyline@12         10006178     gdi32:GDI32.dll
+ 0002:0000017c       __imp__CopyMetaFileA@8     1000617c     gdi32:GDI32.dll
+ 0002:00000180       __imp__DeleteMetaFile@4    10006180     gdi32:GDI32.dll
+ 0002:00000184       __imp__GetMetaFileBitsEx@12 10006184     gdi32:GDI32.dll
+ 0002:00000188       __imp__GetMetaFileA@4      10006188     gdi32:GDI32.dll
+ 0002:0000018c       __imp__SetMetaFileBitsEx@8 1000618c     gdi32:GDI32.dll
+ 0002:00000190       __imp__CreateBrushIndirect@4 10006190     gdi32:GDI32.dll
+ 0002:00000194       __imp__CreateHatchBrush@8  10006194     gdi32:GDI32.dll
+ 0002:00000198       __imp__CreatePen@12        10006198     gdi32:GDI32.dll
+ 0002:0000019c       __imp__CreateDIBPatternBrush@8 1000619c     gdi32:GDI32.dll
+ 0002:000001a0       __imp__CreatePatternBrush@4 100061a0     gdi32:GDI32.dll
+ 0002:000001a4       __imp__CreateSolidBrush@4  100061a4     gdi32:GDI32.dll
+ 0002:000001a8       __imp__CreatePenIndirect@4 100061a8     gdi32:GDI32.dll
+ 0002:000001ac       __imp__GetObjectType@4     100061ac     gdi32:GDI32.dll
+ 0002:000001b0       __imp__GetStockObject@4    100061b0     gdi32:GDI32.dll
+ 0002:000001b4       __imp__UnrealizeObject@4   100061b4     gdi32:GDI32.dll
+ 0002:000001b8       __imp__DPtoLP@12           100061b8     gdi32:GDI32.dll
+ 0002:000001bc       __imp__LPtoDP@12           100061bc     gdi32:GDI32.dll
+ 0002:000001c0       __imp__AnimatePalette@16   100061c0     gdi32:GDI32.dll
+ 0002:000001c4       __imp__CreatePalette@4     100061c4     gdi32:GDI32.dll
+ 0002:000001c8       __imp__GetNearestPaletteIndex@8 100061c8     gdi32:GDI32.dll
+ 0002:000001cc       __imp__GetPaletteEntries@16 100061cc     gdi32:GDI32.dll
+ 0002:000001d0       __imp__ResizePalette@8     100061d0     gdi32:GDI32.dll
+ 0002:000001d4       __imp__SetPaletteEntries@16 100061d4     gdi32:GDI32.dll
+ 0002:000001d8       __imp__StartDocA@8         100061d8     gdi32:GDI32.dll
+ 0002:000001dc       __imp__EndDoc@4            100061dc     gdi32:GDI32.dll
+ 0002:000001e0       __imp__StartPage@4         100061e0     gdi32:GDI32.dll
+ 0002:000001e4       __imp__EndPage@4           100061e4     gdi32:GDI32.dll
+ 0002:000001e8       __imp__AbortDoc@4          100061e8     gdi32:GDI32.dll
+ 0002:000001ec       __imp__SetAbortProc@8      100061ec     gdi32:GDI32.dll
+ 0002:000001f0       __imp__GetBoundsRect@12    100061f0     gdi32:GDI32.dll
+ 0002:000001f4       __imp__GetClipBox@8        100061f4     gdi32:GDI32.dll
+ 0002:000001f8       __imp__GetGlyphOutlineA@28 100061f8     gdi32:GDI32.dll
+ 0002:000001fc       __imp__GetFontData@20      100061fc     gdi32:GDI32.dll
+ 0002:00000200       __imp__GetRasterizerCaps@8 10006200     gdi32:GDI32.dll
+ 0002:00000204       __imp__GetTextCharacterExtra@4 10006204     gdi32:GDI32.dll
+ 0002:00000208       __imp__GetTextAlign@4      10006208     gdi32:GDI32.dll
+ 0002:0000020c       __imp__GetTextColor@4      1000620c     gdi32:GDI32.dll
+ 0002:00000210       __imp__GetOutlineTextMetricsA@12 10006210     gdi32:GDI32.dll
+ 0002:00000214       \177GDI32_NULL_THUNK_DATA  10006214     gdi32:GDI32.dll
+ 0002:00000218       __imp_?LockServer@JClassFactory@@UAGJH@Z 10006218     jutil:JUtil.dll
+ 0002:0000021c       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000621c     jutil:JUtil.dll
+ 0002:00000220       __imp_?Release@JClassFactory@@UAGKXZ 10006220     jutil:JUtil.dll
+ 0002:00000224       __imp_?AddRef@JClassFactory@@UAGKXZ 10006224     jutil:JUtil.dll
+ 0002:00000228       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10006228     jutil:JUtil.dll
+ 0002:0000022c       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000622c     jutil:JUtil.dll
+ 0002:00000230       __imp_??1JClassFactory@@UAE@XZ 10006230     jutil:JUtil.dll
+ 0002:00000234       __imp__HRerrEx             10006234     jutil:JUtil.dll
+ 0002:00000238       \177JUtil_NULL_THUNK_DATA  10006238     jutil:JUtil.dll
+ 0002:0000023c       __imp__GetSystemTimeAsFileTime@4 1000623c     kernel32:KERNEL32.dll
+ 0002:00000240       __imp__GetCurrentProcessId@0 10006240     kernel32:KERNEL32.dll
+ 0002:00000244       __imp__GetCurrentThreadId@0 10006244     kernel32:KERNEL32.dll
+ 0002:00000248       __imp__QueryPerformanceCounter@4 10006248     kernel32:KERNEL32.dll
+ 0002:0000024c       __imp__IsDebuggerPresent@0 1000624c     kernel32:KERNEL32.dll
+ 0002:00000250       __imp__SetUnhandledExceptionFilter@4 10006250     kernel32:KERNEL32.dll
+ 0002:00000254       __imp__UnhandledExceptionFilter@4 10006254     kernel32:KERNEL32.dll
+ 0002:00000258       __imp__GetCurrentProcess@0 10006258     kernel32:KERNEL32.dll
+ 0002:0000025c       __imp__TerminateProcess@8  1000625c     kernel32:KERNEL32.dll
+ 0002:00000260       __imp__InterlockedCompareExchange@12 10006260     kernel32:KERNEL32.dll
+ 0002:00000264       __imp__Sleep@4             10006264     kernel32:KERNEL32.dll
+ 0002:00000268       __imp__InterlockedExchange@8 10006268     kernel32:KERNEL32.dll
+ 0002:0000026c       __imp__GetTickCount@0      1000626c     kernel32:KERNEL32.dll
+ 0002:00000270       \177KERNEL32_NULL_THUNK_DATA 10006270     kernel32:KERNEL32.dll
+ 0002:00000274       __imp___encoded_null       10006274     MSVCRT:MSVCR80.dll
+ 0002:00000278       __imp__free                10006278     MSVCRT:MSVCR80.dll
+ 0002:0000027c       __imp___decode_pointer     1000627c     MSVCRT:MSVCR80.dll
+ 0002:00000280       __imp___initterm           10006280     MSVCRT:MSVCR80.dll
+ 0002:00000284       __imp___initterm_e         10006284     MSVCRT:MSVCR80.dll
+ 0002:00000288       __imp___amsg_exit          10006288     MSVCRT:MSVCR80.dll
+ 0002:0000028c       __imp___adjust_fdiv        1000628c     MSVCRT:MSVCR80.dll
+ 0002:00000290       __imp___malloc_crt         10006290     MSVCRT:MSVCR80.dll
+ 0002:00000294       __imp_?terminate@@YAXXZ    10006294     MSVCRT:MSVCR80.dll
+ 0002:00000298       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006298     MSVCRT:MSVCR80.dll
+ 0002:0000029c       __imp___crt_debugger_hook  1000629c     MSVCRT:MSVCR80.dll
+ 0002:000002a0       __imp____clean_type_info_names_internal 100062a0     MSVCRT:MSVCR80.dll
+ 0002:000002a4       __imp___unlock             100062a4     MSVCRT:MSVCR80.dll
+ 0002:000002a8       __imp____dllonexit         100062a8     MSVCRT:MSVCR80.dll
+ 0002:000002ac       __imp___lock               100062ac     MSVCRT:MSVCR80.dll
+ 0002:000002b0       __imp___onexit             100062b0     MSVCRT:MSVCR80.dll
+ 0002:000002b4       __imp___except_handler4_common 100062b4     MSVCRT:MSVCR80.dll
+ 0002:000002b8       __imp___encode_pointer     100062b8     MSVCRT:MSVCR80.dll
+ 0002:000002bc       __imp____CxxFrameHandler3  100062bc     MSVCRT:MSVCR80.dll
+ 0002:000002c0       __imp___CIcos              100062c0     MSVCRT:MSVCR80.dll
+ 0002:000002c4       __imp___CIsin              100062c4     MSVCRT:MSVCR80.dll
+ 0002:000002c8       __imp___CIsqrt             100062c8     MSVCRT:MSVCR80.dll
+ 0002:000002cc       __imp___CIatan2            100062cc     MSVCRT:MSVCR80.dll
+ 0002:000002d0       __imp_??3@YAXPAX@Z         100062d0     MSVCRT:MSVCR80.dll
+ 0002:000002d4       __imp___callnewh           100062d4     MSVCRT:MSVCR80.dll
+ 0002:000002d8       __imp__malloc              100062d8     MSVCRT:MSVCR80.dll
+ 0002:000002dc       __imp____CppXcptFilter     100062dc     MSVCRT:MSVCR80.dll
+ 0002:000002e0       \177MSVCR80_NULL_THUNK_DATA 100062e0     MSVCRT:MSVCR80.dll
+ 0002:000002e4       __imp_?Inverse@tagG4x4@@QBE?AU1@XZ 100062e4     umath:umath.dll
+ 0002:000002e8       \177umath_NULL_THUNK_DATA  100062e8     umath:umath.dll
+ 0002:000002ec       __imp_?ConvertXFORMToG4x4@@YAJPAUtagXFORM@@PAUtagG4x4@@@Z 100062ec     uwmath:uwmath.dll
+ 0002:000002f0       \177uwmath_NULL_THUNK_DATA 100062f0     uwmath:uwmath.dll
+ 0002:000002f4       ___xc_a                    100062f4     MSVCRT:cinitexe.obj
+ 0002:00000328       ___xc_z                    10006328     MSVCRT:cinitexe.obj
+ 0002:0000032c       ___xi_a                    1000632c     MSVCRT:cinitexe.obj
+ 0002:00000338       ___xi_z                    10006338     MSVCRT:cinitexe.obj
+ 0002:0000035c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000635c     GDIXGUID.obj
+ 0002:0000036c       _CLSID_JGDIX               1000636c     GDIXGUID.obj
+ 0002:0000037c       _IID_IJGDIX                1000637c     GDIXGUID.obj
+ 0002:00000390       ??_7JGDIX@@6B@             10006390     GDIXIMP.obj
+ 0002:0000039c       ??_C@_0O@MBDAOCG@?4?2GDIXIMP?4CPP?$AA@ 1000639c     GDIXIMP.obj
+ 0002:000003ac       ??_C@_0BI@DONOGHDK@JGDIX?3?3IJGDIXImp?3?3GetDC?$AA@ 100063ac     GDIXIMP.obj
+ 0002:000003c4       ??_C@_0CA@FGODJAPJ@JGDIX?3?3IJGDIXImp?3?3GetTransforms?$AA@ 100063c4     GDIXIMP.obj
+ 0002:000003e8       __real@4024000000000000    100063e8     GDIXIMP.obj
+ 0002:000003f0       __real@400921fb54442d18    100063f0     GDIXIMP.obj
+ 0002:000003f8       __real@4066800000000000    100063f8     GDIXIMP.obj
+ 0002:00000404       ??_7IJGDIXImp@JGDIX@@6B@   10006404     GDIXIMP.obj
+ 0002:000006c8       __real@3fe0000000000000    100066c8     GDIXIMP.obj
+ 0002:000006d0       __real@401921fb54442d18    100066d0     GDIXIMP.obj
+ 0002:000006d8       __real@4012d97c7f3321d2    100066d8     GDIXIMP.obj
+ 0002:000006e0       __real@3ff921fb54442d18    100066e0     GDIXIMP.obj
+ 0002:000006e8       ??_C@_0O@EMLGKABK@JGDIX?3?3Create?$AA@ 100066e8     GDIXIMP.obj
+ 0002:000006fc       ??_7?$ClassFactory@VJGDIX@@@@6B@ 100066fc     SERVER.obj
+ 0002:00000718       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 10006718     SERVER.obj
+ 0002:00000730       ??_C@_0CM@IDJKNAFK@ClassFactory?$DMclass?5JGDIX?$DO?3?3OnCre@ 10006730     SERVER.obj
+ 0002:0000075c       ??_C@_0N@KAGCOLLF@?4?2SERVER?4CPP?$AA@ 1000675c     SERVER.obj
+ 0002:0000076c       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 1000676c     SERVER.obj
+ 0002:00000780       _IID_IClassFactory         10006780     uuid:unknwn_i.obj
+ 0002:00000790       _IID_IUnknown              10006790     uuid:unknwn_i.obj
+ 0002:000007a4       ??_7type_info@@6B@         100067a4     MSVCRT:ti_inst.obj
+ 0002:000007a8       __pDefaultRawDllMain       100067a8     MSVCRT:crtdll.obj
+ 0002:000007a8       __pRawDllMain              100067a8     MSVCRT:crtdll.obj
+ 0002:000007b8       __load_config_used         100067b8     MSVCRT:loadcfg.obj
+ 0002:00000830       ??_R4JGDIX@@6B@            10006830     GDIXIMP.obj
+ 0002:00000844       ??_R3JGDIX@@8              10006844     GDIXIMP.obj
+ 0002:00000854       ??_R2JGDIX@@8              10006854     GDIXIMP.obj
+ 0002:00000860       ??_R1A@?0A@EA@JGDIX@@8     10006860     GDIXIMP.obj
+ 0002:0000087c       ??_R1A@?0A@EA@IUnknown@@8  1000687c     GDIXIMP.obj
+ 0002:00000898       ??_R3IUnknown@@8           10006898     GDIXIMP.obj
+ 0002:000008a8       ??_R2IUnknown@@8           100068a8     GDIXIMP.obj
+ 0002:000008b0       ??_R4IJGDIXImp@JGDIX@@6B@  100068b0     GDIXIMP.obj
+ 0002:000008c4       ??_R3IJGDIXImp@JGDIX@@8    100068c4     GDIXIMP.obj
+ 0002:000008d4       ??_R2IJGDIXImp@JGDIX@@8    100068d4     GDIXIMP.obj
+ 0002:000008e4       ??_R1A@?0A@EA@IJGDIXImp@JGDIX@@8 100068e4     GDIXIMP.obj
+ 0002:00000900       ??_R1A@?0A@EA@IJGDIX@@8    10006900     GDIXIMP.obj
+ 0002:0000091c       ??_R3IJGDIX@@8             1000691c     GDIXIMP.obj
+ 0002:0000092c       ??_R2IJGDIX@@8             1000692c     GDIXIMP.obj
+ 0002:00000938       ??_R4?$ClassFactory@VJGDIX@@@@6B@ 10006938     SERVER.obj
+ 0002:0000094c       ??_R3?$ClassFactory@VJGDIX@@@@8 1000694c     SERVER.obj
+ 0002:0000095c       ??_R2?$ClassFactory@VJGDIX@@@@8 1000695c     SERVER.obj
+ 0002:00000970       ??_R1A@?0A@EA@?$ClassFactory@VJGDIX@@@@8 10006970     SERVER.obj
+ 0002:0000098c       ??_R1A@?0A@EA@JClassFactory@@8 1000698c     SERVER.obj
+ 0002:000009a8       ??_R3JClassFactory@@8      100069a8     SERVER.obj
+ 0002:000009b8       ??_R2JClassFactory@@8      100069b8     SERVER.obj
+ 0002:000009c8       ??_R1A@?0A@EA@IClassFactory@@8 100069c8     SERVER.obj
+ 0002:000009e4       ??_R3IClassFactory@@8      100069e4     SERVER.obj
+ 0002:000009f4       ??_R2IClassFactory@@8      100069f4     SERVER.obj
+ 0002:00000a00       ??_R4type_info@@6B@        10006a00     MSVCRT:ti_inst.obj
+ 0002:00000a14       ??_R3type_info@@8          10006a14     MSVCRT:ti_inst.obj
+ 0002:00000a24       ??_R2type_info@@8          10006a24     MSVCRT:ti_inst.obj
+ 0002:00000a2c       ??_R1A@?0A@EA@type_info@@8 10006a2c     MSVCRT:ti_inst.obj
+ 0002:00000a50       ___safe_se_handler_table   10006a50     <linker-defined>
+ 0002:00000a68       ___rtc_iaa                 10006a68     MSVCRT:initsect.obj
+ 0002:00000a6c       ___rtc_izz                 10006a6c     MSVCRT:initsect.obj
+ 0002:00000a70       ___rtc_taa                 10006a70     MSVCRT:initsect.obj
+ 0002:00000a74       ___rtc_tzz                 10006a74     MSVCRT:initsect.obj
+ 0002:00000c1c       __IMPORT_DESCRIPTOR_JUtil  10006c1c     jutil:JUtil.dll
+ 0002:00000c30       __IMPORT_DESCRIPTOR_umath  10006c30     umath:umath.dll
+ 0002:00000c44       __IMPORT_DESCRIPTOR_uwmath 10006c44     uwmath:uwmath.dll
+ 0002:00000c58       __IMPORT_DESCRIPTOR_GDI32  10006c58     gdi32:GDI32.dll
+ 0002:00000c6c       __IMPORT_DESCRIPTOR_MSVCR80 10006c6c     MSVCRT:MSVCR80.dll
+ 0002:00000c80       __IMPORT_DESCRIPTOR_KERNEL32 10006c80     kernel32:KERNEL32.dll
+ 0002:00000c94       __NULL_IMPORT_DESCRIPTOR   10006c94     jutil:JUtil.dll
+ 0003:00000000       __newmode                  10008000     newmode.obj
+ 0003:00001448       ??_R0?AVJGDIX@@@8          10009448     GDIXIMP.obj
+ 0003:0000145c       ??_R0?AUIUnknown@@@8       1000945c     GDIXIMP.obj
+ 0003:00001474       ??_R0?AUIJGDIXImp@JGDIX@@@8 10009474     GDIXIMP.obj
+ 0003:00001494       ??_R0?AUIJGDIX@@@8         10009494     GDIXIMP.obj
+ 0003:00001ed0       ??_R0?AV?$ClassFactory@VJGDIX@@@@@8 10009ed0     SERVER.obj
+ 0003:00001ef8       ??_R0?AVJClassFactory@@@8  10009ef8     SERVER.obj
+ 0003:00001f14       ??_R0?AUIClassFactory@@@8  10009f14     SERVER.obj
+ 0003:00001f30       ??_R0?AVtype_info@@@8      10009f30     MSVCRT:ti_inst.obj
+ 0003:00001f50       ___security_cookie         10009f50     MSVCRT:gs_cookie.obj
+ 0003:00001f54       ___security_cookie_complement 10009f54     MSVCRT:gs_cookie.obj
+ 0003:00001f60       ___native_dllmain_reason   10009f60     MSVCRT:natstart.obj
+ 0003:00001f64       ___native_vcclrit_reason   10009f64     MSVCRT:natstart.obj
+ 0003:000028fc       ?__type_info_root_node@@3U__type_info_node@@A 1000a8fc     MSVCRT:tncleanup.obj
+ 0003:00002904       __adjust_fdiv              1000a904     <common>
+ 0003:00002908       ___native_startup_state    1000a908     <common>
+ 0003:0000290c       ___native_startup_lock     1000a90c     <common>
+ 0003:00002910       ___onexitend               1000a910     <common>
+ 0003:00002914       ___onexitbegin             1000a914     <common>
+ 0003:00002918       ___sse2_available          1000a918     <common>
+ 0003:0000291c       ___dyn_tls_init_callback   1000a91c     <common>
+
+ entry point at        0001:00004734
+
+ Static symbols
+
+ 0001:00004432       _pre_c_init                10005432 f   MSVCRT:crtdll.obj
+ 0001:0000461e       ___DllMainCRTStartup       1000561e f   MSVCRT:crtdll.obj
+ 0001:00004816       _has_osfxsr_set            10005816 f   MSVCRT:cpu_disp.obj
+ 0001:00004d20       __unwindfunclet$?Create@JGDIX@@SAJPAUIUnknown@@PAPAU2@@Z$3 10005d20 f   GDIXIMP.obj
+ 0001:00004d2b       __ehhandler$?Create@JGDIX@@SAJPAUIUnknown@@PAPAU2@@Z 10005d2b f   GDIXIMP.obj
+ 0001:00004d50       __unwindfunclet$??0?$ClassFactory@VJGDIX@@@@QAE@HHH@Z$0 10005d50 f   SERVER.obj
+ 0001:00004d59       __ehhandler$??0?$ClassFactory@VJGDIX@@@@QAE@HHH@Z 10005d59 f   SERVER.obj
+ 0001:00004d80       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJGDIX@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10005d80 f   SERVER.obj
+ 0001:00004d8b       __ehhandler$?OnCreateInstance@?$ClassFactory@VJGDIX@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10005d8b f   SERVER.obj
+ 0001:00004db0       __unwindfunclet$_DllGetClassObject@12$4 10005db0 f   SERVER.obj
+ 0001:00004dbb       __ehhandler$_DllGetClassObject@12 10005dbb f   SERVER.obj
+ 0001:00004de0       __unwindfunclet$??_G?$ClassFactory@VJGDIX@@@@UAEPAXI@Z$0 10005de0 f   SERVER.obj
+ 0001:00004de9       __ehhandler$??_G?$ClassFactory@VJGDIX@@@@UAEPAXI@Z 10005de9 f   SERVER.obj
+ 0001:00004e10       ??__EGNULL_Camera@@YAXXZ   10005e10 f   GDIXGUID.obj
+ 0001:00004e30       ??__EGNULL_CAMERA@@YAXXZ   10005e30 f   GDIXGUID.obj
+ 0001:00004e50       ??__EGID_Camera@@YAXXZ     10005e50 f   GDIXGUID.obj
+ 0001:00004e70       ??__EGID_CAMERA@@YAXXZ     10005e70 f   GDIXGUID.obj
+ 0001:00004e90       ??__EGNULL_Camera@@YAXXZ   10005e90 f   GDIXIMP.obj
+ 0001:00004eb0       ??__EGNULL_CAMERA@@YAXXZ   10005eb0 f   GDIXIMP.obj
+ 0001:00004ed0       ??__EGID_Camera@@YAXXZ     10005ed0 f   GDIXIMP.obj
+ 0001:00004ef0       ??__EGID_CAMERA@@YAXXZ     10005ef0 f   GDIXIMP.obj
+ 0001:00004f10       ??__EGNULL_Camera@@YAXXZ   10005f10 f   SERVER.obj
+ 0001:00004f30       ??__EGNULL_CAMERA@@YAXXZ   10005f30 f   SERVER.obj
+ 0001:00004f50       ??__EGID_Camera@@YAXXZ     10005f50 f   SERVER.obj
+ 0001:00004f70       ??__EGID_CAMERA@@YAXXZ     10005f70 f   SERVER.obj

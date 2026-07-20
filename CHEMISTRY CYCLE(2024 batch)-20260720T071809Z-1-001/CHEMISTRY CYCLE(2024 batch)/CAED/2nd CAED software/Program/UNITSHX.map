@@ -1,0 +1,953 @@
+ UNITSHX
+
+ Timestamp is 46b3a34c (Fri Aug 03 16:51:08 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004ed0H .text                   CODE
+ 0001:00004ed0 00000a66H .text$x                 CODE
+ 0001:00005940 00000936H .text$yc                CODE
+ 0001:00006280 00000054H .text$yd                CODE
+ 0002:00000000 0000031cH .idata$5                DATA
+ 0002:0000031c 00000004H .CRT$XCA                DATA
+ 0002:00000320 0000001cH .CRT$XCU                DATA
+ 0002:0000033c 00000004H .CRT$XCZ                DATA
+ 0002:00000340 00000004H .CRT$XIA                DATA
+ 0002:00000344 00000004H .CRT$XIAA               DATA
+ 0002:00000348 00000004H .CRT$XIZ                DATA
+ 0002:00000350 00001120H .rdata                  DATA
+ 0002:00001470 00000031H .rdata$debug            DATA
+ 0002:000014a4 00000470H .rdata$r                DATA
+ 0002:00001920 00000068H .rdata$sxdata           DATA
+ 0002:00001988 00000004H .rtc$IAA                DATA
+ 0002:0000198c 00000004H .rtc$IZZ                DATA
+ 0002:00001990 00000004H .rtc$TAA                DATA
+ 0002:00001994 00000004H .rtc$TZZ                DATA
+ 0002:00001998 00000994H .xdata$x                DATA
+ 0002:0000232c 00000000H ATL$__a                 DATA
+ 0002:0000232c 00000000H ATL$__z                 DATA
+ 0002:0000232c 000000f0H .idata$2                DATA
+ 0002:0000241c 00000014H .idata$3                DATA
+ 0002:00002430 0000031cH .idata$4                DATA
+ 0002:0000274c 00000902H .idata$6                DATA
+ 0002:00003050 0000006aH .edata                  DATA
+ 0003:00000000 00001970H .data                   DATA
+ 0003:00001970 00000b20H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000001a       ___safe_se_handler_count   0000001a     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??1PrecisionData@@QAE@XZ   10001030 f i AdvUnitsDlg.obj
+ 0001:00000080       ??1UnitData@@QAE@XZ        10001080 f i AdvUnitsDlg.obj
+ 0001:000000d0       ??1UnitPrecData@@QAE@XZ    100010d0 f i AdvUnitsDlg.obj
+ 0001:00000130       ?GetThisMessageMap@JAdvancedUnitsDlg@@KGPBUAFX_MSGMAP@@XZ 10001130 f   AdvUnitsDlg.obj
+ 0001:00000140       ??0AdvUnitData@@QAE@XZ     10001140 f i AdvUnitsDlg.obj
+ 0001:00000190       ??1AdvUnitData@@QAE@XZ     10001190 f i AdvUnitsDlg.obj
+ 0001:000001e0       ??1JAdvancedUnitsDlg@@UAE@XZ 100011e0 f   AdvUnitsDlg.obj
+ 0001:00000260       ??1tagSELVCOLUMN@@QAE@XZ   10001260 f i AdvUnitsDlg.obj
+ 0001:000002b0       ?GetPrecisionIndex@JAdvancedUnitsDlg@@IAEHUtagUomFormat@@H@Z 100012b0 f   AdvUnitsDlg.obj
+ 0001:00000310       ?SetUnitPrecValuesInDoc@JAdvancedUnitsDlg@@IAEXPAUIHPrefSetEx@@AAUUnitPrecData@@AAUAdvUnitData@@@Z 10001310 f   AdvUnitsDlg.obj
+ 0001:00000440       ?OnCancel@JAdvancedUnitsDlg@@EAEXXZ 10001440 f   AdvUnitsDlg.obj
+ 0001:00000450       ??I?$TIP@PAUIHPrefSetEx@@@@QAEPAPAUIHPrefSetEx@@XZ 10001450 f i AdvUnitsDlg.obj
+ 0001:00000450       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 10001450 f i AdvUnitsDlg.obj
+ 0001:00000470       ??1?$TIP@PAU_IJApplication@@@@QAE@XZ 10001470 f i AdvUnitsDlg.obj
+ 0001:00000470       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001470 f i AdvUnitsDlg.obj
+ 0001:00000470       ??1?$TIP@PAUIHPrefSetEx@@@@QAE@XZ 10001470 f i AdvUnitsDlg.obj
+ 0001:00000470       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 10001470 f i AdvUnitsDlg.obj
+ 0001:00000480       ?AssertValid@CObject@@UBEXXZ 10001480 f i AdvUnitsDlg.obj
+ 0001:00000490       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10001490 f i AdvUnitsDlg.obj
+ 0001:00000490       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10001490 f i AdvUnitsDlg.obj
+ 0001:000004a0       ?BeginModalState@CWnd@@UAEXXZ 100014a0 f i AdvUnitsDlg.obj
+ 0001:000004b0       ?EndModalState@CWnd@@UAEXXZ 100014b0 f i AdvUnitsDlg.obj
+ 0001:000004c0       ?Create@CDialog@@UAEHIPAVCWnd@@@Z 100014c0 f i AdvUnitsDlg.obj
+ 0001:000004d0       ??1_variant_t@@QAE@XZ      100014d0 f i AdvUnitsDlg.obj
+ 0001:000004e0       ??0tagSELVITEM@@QAE@XZ     100014e0 f i AdvUnitsDlg.obj
+ 0001:000005b0       ??1tagSELVITEM@@QAE@XZ     100015b0 f i AdvUnitsDlg.obj
+ 0001:00000630       ??0tagSELVCOLUMN@@QAE@XZ   10001630 f i AdvUnitsDlg.obj
+ 0001:000006a0       ?SetCurrUnitIDs@AdvUnitData@@QAEXIII@Z 100016a0 f i AdvUnitsDlg.obj
+ 0001:00000700       ?GetMessageMap@JAdvancedUnitsDlg@@MBEPBUAFX_MSGMAP@@XZ 10001700 f   AdvUnitsDlg.obj
+ 0001:00000710       ??0JAdvancedUnitsDlg@@QAE@PAVCWnd@@@Z 10001710 f   AdvUnitsDlg.obj
+ 0001:000007a0       ??_EJAdvancedUnitsDlg@@UAEPAXI@Z 100017a0 f i AdvUnitsDlg.obj
+ 0001:000007a0       ??_GJAdvancedUnitsDlg@@UAEPAXI@Z 100017a0 f i AdvUnitsDlg.obj
+ 0001:000007c0       ?DoDataExchange@JAdvancedUnitsDlg@@MAEXPAVCDataExchange@@@Z 100017c0 f   AdvUnitsDlg.obj
+ 0001:000007e0       ?InitializeUnitsData@JAdvancedUnitsDlg@@IAEXXZ 100017e0 f   AdvUnitsDlg.obj
+ 0001:00000910       ?InsertColumns@JAdvancedUnitsDlg@@IAEXXZ 10001910 f   AdvUnitsDlg.obj
+ 0001:00000ae0       ??1tagSELVINSERTSTRUCT@@QAE@XZ 10001ae0 f i AdvUnitsDlg.obj
+ 0001:00000b30       ?InsertRows@JAdvancedUnitsDlg@@IAEXXZ 10001b30 f   AdvUnitsDlg.obj
+ 0001:00001170       ?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ 10002170 f   AdvUnitsDlg.obj
+ 0001:00001630       ?OnInitDialog@JAdvancedUnitsDlg@@EAEHXZ 10002630 f   AdvUnitsDlg.obj
+ 0001:00001660       ?OnOK@JAdvancedUnitsDlg@@EAEXXZ 10002660 f   AdvUnitsDlg.obj
+ 0001:00001670       ??1JCommonUnitsPropSheetExtClassFactory@@QAE@XZ 10002670 f   CMNUNITS.obj
+ 0001:00001680       ?LockServer@JCommonUnitsPropSheetExtClassFactory@@UAGJH@Z 10002680 f   CMNUNITS.obj
+ 0001:00001720       ?QueryInterface@IShellExtInitImp@JCommonUnitsPropSheetExt@@UAGJABU_GUID@@PAPAX@Z 10002720 f   CMNUNITS.obj
+ 0001:00001740       ?AddRef@IShellExtInitImp@JCommonUnitsPropSheetExt@@UAGKXZ 10002740 f   CMNUNITS.obj
+ 0001:00001760       ?Release@IShellExtInitImp@JCommonUnitsPropSheetExt@@UAGKXZ 10002760 f   CMNUNITS.obj
+ 0001:00001780       ?Initialize@IShellExtInitImp@JCommonUnitsPropSheetExt@@UAGJPBU_ITEMIDLIST@@PAUIDataObject@@PAUHKEY__@@@Z 10002780 f   CMNUNITS.obj
+ 0001:00001990       ?QueryInterface@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJABU_GUID@@PAPAX@Z 10002990 f   CMNUNITS.obj
+ 0001:000019b0       ?AddRef@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGKXZ 100029b0 f   CMNUNITS.obj
+ 0001:000019d0       ?Release@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGKXZ 100029d0 f   CMNUNITS.obj
+ 0001:000019f0       ?Initialize@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJPAUIStorage@@PAX@Z 100029f0 f   CMNUNITS.obj
+ 0001:00001a20       ?InitializeForSEAccessories@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJPAUIStorage@@PAXVGUserText@@@Z 10002a20 f   CMNUNITS.obj
+ 0001:00001a70       ?SetFileType@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJK@Z 10002a70 f   CMNUNITS.obj
+ 0001:00001a80       ?QueryInterface@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@UAGJABU_GUID@@PAPAX@Z 10002a80 f   CMNUNITS.obj
+ 0001:00001aa0       ?AddRef@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@UAGKXZ 10002aa0 f   CMNUNITS.obj
+ 0001:00001ac0       ?Release@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@UAGKXZ 10002ac0 f   CMNUNITS.obj
+ 0001:00001ae0       ?ReplacePage@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@UAGJIP6GHPAU_PSP@@J@ZJ@Z 10002ae0 f   CMNUNITS.obj
+ 0001:00001af0       _IsEqualGUID               10002af0 f i CMNUNITS.obj
+ 0001:00001b90       ??1JCommonUnitsPropSheetExt@@QAE@XZ 10002b90 f   CMNUNITS.obj
+ 0001:00001c60       ?QueryInterface@JCommonUnitsPropSheetExt@@UAGJABU_GUID@@PAPAX@Z 10002c60 f   CMNUNITS.obj
+ 0001:00001d00       ?AddRef@JCommonUnitsPropSheetExtClassFactory@@UAGKXZ 10002d00 f   CMNUNITS.obj
+ 0001:00001d00       ?AddRef@JCommonUnitsPropSheetExt@@UAGKXZ 10002d00 f   CMNUNITS.obj
+ 0001:00001d10       ?Initialize@JCommonUnitsPropSheetExt@@QAGJXZ 10002d10 f   CMNUNITS.obj
+ 0001:00001f50       ?QueryInterface@JCommonUnitsPropSheetExtClassFactory@@UAGJABU_GUID@@PAPAX@Z 10002f50 f   CMNUNITS.obj
+ 0001:00001fb0       ?Release@JCommonUnitsPropSheetExtClassFactory@@UAGKXZ 10002fb0 f   CMNUNITS.obj
+ 0001:00001fe0       ?Release@JCommonUnitsPropSheetExt@@UAGKXZ 10002fe0 f   CMNUNITS.obj
+ 0001:00003910       ??0JCommonUnitsPropSheetExtClassFactory@@QAE@XZ 10004910 f   CMNUNITS.obj
+ 0001:00003930       ??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z 10004930 f   CMNUNITS.obj
+ 0001:00003bf0       ?CreateInstance@JCommonUnitsPropSheetExtClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004bf0 f   CMNUNITS.obj
+ 0001:00003d30       ?AddPages@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@UAGJP6GHPAU_PSP@@J@ZJ@Z 10004d30 f   CMNUNITS.obj
+ 0001:00003db0       ?ServerGetObjectCount@@YAKXZ 10004db0 f   DLLFUNC.obj
+ 0001:00003dc0       ?ServerIncrementObjectCount@@YAXXZ 10004dc0 f   DLLFUNC.obj
+ 0001:00003dd0       ?ServerDecrementObjectCount@@YAXXZ 10004dd0 f   DLLFUNC.obj
+ 0001:00003de0       ?ServerGetLockCount@@YAKXZ 10004de0 f   DLLFUNC.obj
+ 0001:00003df0       ?ServerIncrementLockCount@@YAXXZ 10004df0 f   DLLFUNC.obj
+ 0001:00003e00       ?ServerDecrementLockCount@@YAXXZ 10004e00 f   DLLFUNC.obj
+ 0001:00003e40       _GetResourceModuleHandle@4 10004e40 f   DLLFUNC.obj
+ 0001:00003e70       _DllMain@12                10004e70 f   DLLFUNC.obj
+ 0001:00003ec0       _DllCanUnloadNow@0         10004ec0 f   DLLFUNC.obj
+ 0001:00003ee0       _DllGetClassObject@12      10004ee0 f   DLLFUNC.obj
+ 0001:00004002       _JQueryApplication         10005002 f   jengine:jengine.dll
+ 0001:00004008       _HRerrEx                   10005008 f   jutil:JUtil.dll
+ 0001:0000400e       ?AdviseUOMEnd@@YAXXZ       1000500e f   jutil:JUtil.dll
+ 0001:00004014       ?AdviseUOMStart@@YAXXZ     10005014 f   jutil:JUtil.dll
+ 0001:0000401a       _JFreeLibrary              1000501a f   jutil:JUtil.dll
+ 0001:00004020       ??3@YAXPAX@Z               10005020 f   mfc80:MFC80.DLL
+ 0001:00004026       ?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 10005026 f   mfc80:MFC80.DLL
+ 0001:0000402c       ??1CDialog@@UAE@XZ         1000502c f   mfc80:MFC80.DLL
+ 0001:00004032       ?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 10005032 f   mfc80:MFC80.DLL
+ 0001:00004038       ?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10005038 f   mfc80:MFC80.DLL
+ 0001:0000403e       ?OnFinalRelease@CWnd@@UAEXXZ 1000503e f   mfc80:MFC80.DLL
+ 0001:00004044       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10005044 f   mfc80:MFC80.DLL
+ 0001:0000404a       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000504a f   mfc80:MFC80.DLL
+ 0001:00004050       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10005050 f   mfc80:MFC80.DLL
+ 0001:00004056       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10005056 f   mfc80:MFC80.DLL
+ 0001:0000405c       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000505c f   mfc80:MFC80.DLL
+ 0001:00004062       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10005062 f   mfc80:MFC80.DLL
+ 0001:00004068       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10005068 f   mfc80:MFC80.DLL
+ 0001:0000406e       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000506e f   mfc80:MFC80.DLL
+ 0001:00004074       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 10005074 f   mfc80:MFC80.DLL
+ 0001:0000407a       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000507a f   mfc80:MFC80.DLL
+ 0001:00004080       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10005080 f   mfc80:MFC80.DLL
+ 0001:00004086       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10005086 f   mfc80:MFC80.DLL
+ 0001:0000408c       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000508c f   mfc80:MFC80.DLL
+ 0001:00004092       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10005092 f   mfc80:MFC80.DLL
+ 0001:00004098       ?PreSubclassWindow@CWnd@@UAEXXZ 10005098 f   mfc80:MFC80.DLL
+ 0001:0000409e       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 1000509e f   mfc80:MFC80.DLL
+ 0001:000040a4       ?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 100050a4 f   mfc80:MFC80.DLL
+ 0001:000040aa       ?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 100050aa f   mfc80:MFC80.DLL
+ 0001:000040b0       ?DestroyWindow@CWnd@@UAEHXZ 100050b0 f   mfc80:MFC80.DLL
+ 0001:000040b6       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 100050b6 f   mfc80:MFC80.DLL
+ 0001:000040bc       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 100050bc f   mfc80:MFC80.DLL
+ 0001:000040c2       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 100050c2 f   mfc80:MFC80.DLL
+ 0001:000040c8       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 100050c8 f   mfc80:MFC80.DLL
+ 0001:000040ce       ?WinHelpA@CWnd@@UAEXKI@Z   100050ce f   mfc80:MFC80.DLL
+ 0001:000040d4       ?HtmlHelpA@CWnd@@UAEXKI@Z  100050d4 f   mfc80:MFC80.DLL
+ 0001:000040da       ?WinHelpInternal@CWnd@@UAEXKI@Z 100050da f   mfc80:MFC80.DLL
+ 0001:000040e0       ?ContinueModal@CWnd@@UAEHXZ 100050e0 f   mfc80:MFC80.DLL
+ 0001:000040e6       ?EndModalLoop@CWnd@@UAEXH@Z 100050e6 f   mfc80:MFC80.DLL
+ 0001:000040ec       ?EnsureStdObj@CWnd@@UAEJXZ 100050ec f   mfc80:MFC80.DLL
+ 0001:000040f2       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 100050f2 f   mfc80:MFC80.DLL
+ 0001:000040f8       ?get_accChildCount@CWnd@@UAEJPAJ@Z 100050f8 f   mfc80:MFC80.DLL
+ 0001:000040fe       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 100050fe f   mfc80:MFC80.DLL
+ 0001:00004104       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10005104 f   mfc80:MFC80.DLL
+ 0001:0000410a       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000510a f   mfc80:MFC80.DLL
+ 0001:00004110       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10005110 f   mfc80:MFC80.DLL
+ 0001:00004116       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 10005116 f   mfc80:MFC80.DLL
+ 0001:0000411c       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1000511c f   mfc80:MFC80.DLL
+ 0001:00004122       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10005122 f   mfc80:MFC80.DLL
+ 0001:00004128       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 10005128 f   mfc80:MFC80.DLL
+ 0001:0000412e       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000512e f   mfc80:MFC80.DLL
+ 0001:00004134       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 10005134 f   mfc80:MFC80.DLL
+ 0001:0000413a       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 1000513a f   mfc80:MFC80.DLL
+ 0001:00004140       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10005140 f   mfc80:MFC80.DLL
+ 0001:00004146       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 10005146 f   mfc80:MFC80.DLL
+ 0001:0000414c       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 1000514c f   mfc80:MFC80.DLL
+ 0001:00004152       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 10005152 f   mfc80:MFC80.DLL
+ 0001:00004158       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 10005158 f   mfc80:MFC80.DLL
+ 0001:0000415e       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 1000515e f   mfc80:MFC80.DLL
+ 0001:00004164       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10005164 f   mfc80:MFC80.DLL
+ 0001:0000416a       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1000516a f   mfc80:MFC80.DLL
+ 0001:00004170       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 10005170 f   mfc80:MFC80.DLL
+ 0001:00004176       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 10005176 f   mfc80:MFC80.DLL
+ 0001:0000417c       ?OnCommand@CWnd@@MAEHIJ@Z  1000517c f   mfc80:MFC80.DLL
+ 0001:00004182       ?OnNotify@CWnd@@MAEHIJPAJ@Z 10005182 f   mfc80:MFC80.DLL
+ 0001:00004188       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 10005188 f   mfc80:MFC80.DLL
+ 0001:0000418e       ?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 1000518e f   mfc80:MFC80.DLL
+ 0001:00004194       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 10005194 f   mfc80:MFC80.DLL
+ 0001:0000419a       ?WindowProc@CWnd@@MAEJIIJ@Z 1000519a f   mfc80:MFC80.DLL
+ 0001:000041a0       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 100051a0 f   mfc80:MFC80.DLL
+ 0001:000041a6       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 100051a6 f   mfc80:MFC80.DLL
+ 0001:000041ac       ?PostNcDestroy@CWnd@@MAEXXZ 100051ac f   mfc80:MFC80.DLL
+ 0001:000041b2       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 100051b2 f   mfc80:MFC80.DLL
+ 0001:000041b8       ?CheckAutoCenter@CDialog@@UAEHXZ 100051b8 f   mfc80:MFC80.DLL
+ 0001:000041be       ?IsFrameWnd@CWnd@@UBEHXZ   100051be f   mfc80:MFC80.DLL
+ 0001:000041c4       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 100051c4 f   mfc80:MFC80.DLL
+ 0001:000041ca       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 100051ca f   mfc80:MFC80.DLL
+ 0001:000041d0       ?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 100051d0 f   mfc80:MFC80.DLL
+ 0001:000041d6       ?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 100051d6 f   mfc80:MFC80.DLL
+ 0001:000041dc       ?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 100051dc f   mfc80:MFC80.DLL
+ 0001:000041e2       ?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 100051e2 f   mfc80:MFC80.DLL
+ 0001:000041e8       ?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 100051e8 f   mfc80:MFC80.DLL
+ 0001:000041ee       ?DoModal@CDialog@@UAEHXZ   100051ee f   mfc80:MFC80.DLL
+ 0001:000041f4       ?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 100051f4 f   mfc80:MFC80.DLL
+ 0001:000041fa       ?PreInitDialog@CDialog@@MAEXXZ 100051fa f   mfc80:MFC80.DLL
+ 0001:00004200       ?OnCancel@CDialog@@MAEXXZ  10005200 f   mfc80:MFC80.DLL
+ 0001:00004206       ??0CDialog@@QAE@IPAVCWnd@@@Z 10005206 f   mfc80:MFC80.DLL
+ 0001:0000420c       ?DDX_Control@@YGXPAVCDataExchange@@HAAVCWnd@@@Z 1000520c f   mfc80:MFC80.DLL
+ 0001:00004212       ?OnInitDialog@CDialog@@UAEHXZ 10005212 f   mfc80:MFC80.DLL
+ 0001:00004218       ?OnOK@CDialog@@MAEXXZ      10005218 f   mfc80:MFC80.DLL
+ 0001:0000421e       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000521e f   mfc80:MFC80.DLL
+ 0001:00004224       ?FromHandle@CWnd@@SGPAV1@PAUHWND__@@@Z 10005224 f   mfc80:MFC80.DLL
+ 0001:0000422a       _malloc                    1000522a f   msvcrt:MSVCR80.dll
+ 0001:00004230       __callnewh                 10005230 f   msvcrt:MSVCR80.dll
+ 0001:00004236       ___CxxFrameHandler3        10005236 f   msvcrt:MSVCR80.dll
+ 0001:0000423c       @__security_check_cookie@4 1000523c f   msvcrt:secchk.obj
+ 0001:0000424b       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000524b f   msvcrt:ehvecdtr.obj
+ 0001:000042a9       ??_M@YGXPAXIHP6EX0@Z@Z     100052a9 f   msvcrt:ehvecdtr.obj
+ 0001:0000430c       ??_Etype_info@@UAEPAXI@Z   1000530c f i msvcrt:ti_inst.obj
+ 0001:00004355       ??_L@YGXPAXIHP6EX0@Z1@Z    10005355 f   msvcrt:ehvecctr.obj
+ 0001:000043ba       __onexit                   100053ba f   msvcrt:atonexit.obj
+ 0001:00004459       _atexit                    10005459 f   msvcrt:atonexit.obj
+ 0001:0000446c       _memset                    1000546c f   msvcrt:MSVCR80.dll
+ 0001:00004472       __except_handler4          10005472 f   msvcrt:chandler4gs.obj
+ 0001:000044a0       __alloca_probe_16          100054a0 f   msvcrt:alloca16.obj
+ 0001:000044b6       __alloca_probe_8           100054b6     msvcrt:alloca16.obj
+ 0001:000044d0       __allmul                   100054d0 f   msvcrt:llmul.obj
+ 0001:00004551       __CRT_INIT@12              10005551 f   msvcrt:crtdll.obj
+ 0001:00004806       __DllMainCRTStartup@12     10005806 f   msvcrt:crtdll.obj
+ 0001:00004828       __SEH_prolog4_GS           10005828 f   msvcrt:sehprolg4gs.obj
+ 0001:00004870       __SEH_epilog4_GS           10005870 f   msvcrt:sehprolg4gs.obj
+ 0001:0000487f       ___report_gsfailure        1000587f f   msvcrt:gs_report.obj
+ 0001:00004984       ?terminate@@YAXXZ          10005984 f   msvcrt:MSVCR80.dll
+ 0001:0000498c       __SEH_prolog4              1000598c f   msvcrt:sehprolg4.obj
+ 0001:000049d1       __SEH_epilog4              100059d1 f   msvcrt:sehprolg4.obj
+ 0001:000049e6       __unlock                   100059e6 f   msvcrt:MSVCR80.dll
+ 0001:000049ec       ___dllonexit               100059ec f   msvcrt:MSVCR80.dll
+ 0001:000049f2       __lock                     100059f2 f   msvcrt:MSVCR80.dll
+ 0001:000049f8       __except_handler4_common   100059f8 f   msvcrt:MSVCR80.dll
+ 0001:00004a00       __chkstk                   10005a00 f   msvcrt:chkstk.obj
+ 0001:00004a00       __alloca_probe             10005a00     msvcrt:chkstk.obj
+ 0001:00004a2b       ___clean_type_info_names   10005a2b f   msvcrt:tncleanup.obj
+ 0001:00004a37       __RTC_Initialize           10005a37 f   msvcrt:initsect.obj
+ 0001:00004a5b       __RTC_Terminate            10005a5b f   msvcrt:initsect.obj
+ 0001:00004a80       __ValidateImageBase        10005a80 f   msvcrt:pesect.obj
+ 0001:00004ab0       __FindPESection            10005ab0 f   msvcrt:pesect.obj
+ 0001:00004af2       __IsNonwritableInCurrentImage 10005af2 f   msvcrt:pesect.obj
+ 0001:00004b5e       __initterm                 10005b5e f   msvcrt:MSVCR80.dll
+ 0001:00004b64       __initterm_e               10005b64 f   msvcrt:MSVCR80.dll
+ 0001:00004b6a       __amsg_exit                10005b6a f   msvcrt:MSVCR80.dll
+ 0001:00004b70       ___CppXcptFilter           10005b70 f   msvcrt:MSVCR80.dll
+ 0001:00004b76       ___security_init_cookie    10005b76 f   msvcrt:gs_support.obj
+ 0001:00004c0a       __crt_debugger_hook        10005c0a f   msvcrt:MSVCR80.dll
+ 0001:00004c10       ??1type_info@@UAE@XZ       10005c10 f   msvcrt:MSVCR80.dll
+ 0001:00004c10       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10005c10 f   msvcrt:MSVCR80.dll
+ 0001:00004c16       ___clean_type_info_names_internal 10005c16 f   msvcrt:MSVCR80.dll
+ 0001:00004c20       ?_com_issue_error@@YGXJ@Z  10005c20 f   comsuppw:comsupp.obj
+ 0001:00004c30       ??1_com_error@@UAE@XZ      10005c30 f i comsuppw:comraise.obj
+ 0001:00004c60       ?_com_raise_error@@YGXJPAUIErrorInfo@@@Z 10005c60 f   comsuppw:comraise.obj
+ 0001:00004ca0       ??0_com_error@@QAE@ABV0@@Z 10005ca0 f i comsuppw:comraise.obj
+ 0001:00004ce0       ??_G_com_error@@UAEPAXI@Z  10005ce0 f i comsuppw:comraise.obj
+ 0001:00004ce0       ??_E_com_error@@UAEPAXI@Z  10005ce0 f i comsuppw:comraise.obj
+ 0001:00004d1c       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10005d1c f i atls:atltrace.obj
+ 0001:00004d81       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10005d81 f i atls:atltrace.obj
+ 0001:00004d85       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10005d85 f i atls:atltrace.obj
+ 0001:00004ea5       __RawDllMainProxy@12       10005ea5 f   mfcs80:rawdllmainproxy.obj
+ 0001:00004ec8       __CxxThrowException@8      10005ec8 f   msvcrt:MSVCR80.dll
+ 0002:00000000       __imp__CreatePropertySheetPageA@4 10008000     comctl32:COMCTL32.dll
+ 0002:00000004       __imp__DestroyPropertySheetPage@4 10008004     comctl32:COMCTL32.dll
+ 0002:00000008       \177COMCTL32_NULL_THUNK_DATA 10008008     comctl32:COMCTL32.dll
+ 0002:0000000c       __imp__JFreeLibrary        1000800c     jutil:JUtil.dll
+ 0002:00000010       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 10008010     jutil:JUtil.dll
+ 0002:00000014       __imp_?AdviseUOMStart@@YAXXZ 10008014     jutil:JUtil.dll
+ 0002:00000018       __imp_?AdviseUOMEnd@@YAXXZ 10008018     jutil:JUtil.dll
+ 0002:0000001c       __imp_??BGUserText@@QBEPBDXZ 1000801c     jutil:JUtil.dll
+ 0002:00000020       __imp_??YGUserText@@QAEAAV0@PB_W@Z 10008020     jutil:JUtil.dll
+ 0002:00000024       __imp_??YGUserText@@QAEAAV0@ABV0@@Z 10008024     jutil:JUtil.dll
+ 0002:00000028       __imp_??4GUserText@@QAEAAV0@PBD@Z 10008028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??0GUserText@@QAE@PB_WHH@Z 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_??0GUserText@@QAE@PBDHI@Z 10008030     jutil:JUtil.dll
+ 0002:00000034       __imp_??1GUserText@@QAE@XZ 10008034     jutil:JUtil.dll
+ 0002:00000038       __imp_??0GUserText@@QAE@XZ 10008038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??BGUserText@@QBEPB_WXZ 1000803c     jutil:JUtil.dll
+ 0002:00000040       __imp_?IsEmpty@GUserText@@QBEHXZ 10008040     jutil:JUtil.dll
+ 0002:00000044       __imp_?Empty@GUserText@@QAEAAV1@XZ 10008044     jutil:JUtil.dll
+ 0002:00000048       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10008048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?GetDefaultUnitFormat@@YAHIPAUtagUomFormat@@@Z 1000804c     jutil:JUtil.dll
+ 0002:00000050       __imp_?GetDefaultUnits@@YAHIPAI00@Z 10008050     jutil:JUtil.dll
+ 0002:00000054       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 10008054     jutil:JUtil.dll
+ 0002:00000058       __imp_?GetUnitName@@YAHIAAVGUserText@@@Z 10008058     jutil:JUtil.dll
+ 0002:0000005c       __imp_??0GUserText@@QAE@ABV0@@Z 1000805c     jutil:JUtil.dll
+ 0002:00000060       __imp_?SetMMIUnits@@YAHXZ  10008060     jutil:JUtil.dll
+ 0002:00000064       __imp_?SetDefaultUnitFormat@@YAHIAAUtagUomFormat@@@Z 10008064     jutil:JUtil.dll
+ 0002:00000068       __imp_?SetDefaultUnits@@YAHIPAI00@Z 10008068     jutil:JUtil.dll
+ 0002:0000006c       __imp__HRerrEx             1000806c     jutil:JUtil.dll
+ 0002:00000070       \177JUtil_NULL_THUNK_DATA  10008070     jutil:JUtil.dll
+ 0002:00000074       __imp__IsDebuggerPresent@0 10008074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__QueryPerformanceCounter@4 10008078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetTickCount@0      1000807c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetCurrentThreadId@0 10008080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetCurrentProcessId@0 10008084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetSystemTimeAsFileTime@4 10008088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__LocalFree@4         1000808c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetACP@0            10008090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetLocaleInfoA@16   10008094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetThreadLocale@0   10008098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__GetVersionExA@4     1000809c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__SetUnhandledExceptionFilter@4 100080a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__UnhandledExceptionFilter@4 100080a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetCurrentProcess@0 100080a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__TerminateProcess@8  100080ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__InterlockedCompareExchange@12 100080b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__InterlockedExchange@8 100080b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__Sleep@4             100080b8     kernel32:KERNEL32.dll
+ 0002:000000bc       \177KERNEL32_NULL_THUNK_DATA 100080bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp_?FromHandle@CWnd@@SGPAV1@PAUHWND__@@@Z 100080c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 100080c4     mfc80:MFC80.DLL
+ 0002:000000c8       __imp_?OnOK@CDialog@@MAEXXZ 100080c8     mfc80:MFC80.DLL
+ 0002:000000cc       __imp_?OnInitDialog@CDialog@@UAEHXZ 100080cc     mfc80:MFC80.DLL
+ 0002:000000d0       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 100080d0     mfc80:MFC80.DLL
+ 0002:000000d4       __imp_?LoadStringA@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEHPAUHINSTANCE__@@I@Z 100080d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 100080d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 100080dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?DDX_Control@@YGXPAVCDataExchange@@HAAVCWnd@@@Z 100080e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_??0CDialog@@QAE@IPAVCWnd@@@Z 100080e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?OnCancel@CDialog@@MAEXXZ 100080e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?PreInitDialog@CDialog@@MAEXXZ 100080ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 100080f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_?DoModal@CDialog@@UAEHXZ 100080f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 100080f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 100080fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 10008100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_??3@YAXPAX@Z         10008104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 10008108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_??1CDialog@@UAE@XZ   1000810c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 10008110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10008114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?OnFinalRelease@CWnd@@UAEXXZ 10008118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000811c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10008120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10008124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10008128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000812c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10008130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10008134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10008138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 1000813c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10008140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 10008144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10008148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000814c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10008150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 10008154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 10008158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 1000815c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 10008160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?DestroyWindow@CWnd@@UAEHXZ 10008164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 10008168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 1000816c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 10008170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 10008174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?WinHelpA@CWnd@@UAEXKI@Z 10008178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?HtmlHelpA@CWnd@@UAEXKI@Z 1000817c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 10008180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_?ContinueModal@CWnd@@UAEHXZ 10008184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_?EndModalLoop@CWnd@@UAEXH@Z 10008188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_?EnsureStdObj@CWnd@@UAEJXZ 1000818c     mfc80:MFC80.DLL
+ 0002:00000190       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 10008190     mfc80:MFC80.DLL
+ 0002:00000194       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 10008194     mfc80:MFC80.DLL
+ 0002:00000198       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 10008198     mfc80:MFC80.DLL
+ 0002:0000019c       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1000819c     mfc80:MFC80.DLL
+ 0002:000001a0       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100081a0     mfc80:MFC80.DLL
+ 0002:000001a4       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100081a4     mfc80:MFC80.DLL
+ 0002:000001a8       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 100081a8     mfc80:MFC80.DLL
+ 0002:000001ac       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 100081ac     mfc80:MFC80.DLL
+ 0002:000001b0       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100081b0     mfc80:MFC80.DLL
+ 0002:000001b4       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 100081b4     mfc80:MFC80.DLL
+ 0002:000001b8       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100081b8     mfc80:MFC80.DLL
+ 0002:000001bc       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 100081bc     mfc80:MFC80.DLL
+ 0002:000001c0       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 100081c0     mfc80:MFC80.DLL
+ 0002:000001c4       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100081c4     mfc80:MFC80.DLL
+ 0002:000001c8       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 100081c8     mfc80:MFC80.DLL
+ 0002:000001cc       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 100081cc     mfc80:MFC80.DLL
+ 0002:000001d0       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 100081d0     mfc80:MFC80.DLL
+ 0002:000001d4       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 100081d4     mfc80:MFC80.DLL
+ 0002:000001d8       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 100081d8     mfc80:MFC80.DLL
+ 0002:000001dc       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 100081dc     mfc80:MFC80.DLL
+ 0002:000001e0       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 100081e0     mfc80:MFC80.DLL
+ 0002:000001e4       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 100081e4     mfc80:MFC80.DLL
+ 0002:000001e8       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 100081e8     mfc80:MFC80.DLL
+ 0002:000001ec       __imp_?OnCommand@CWnd@@MAEHIJ@Z 100081ec     mfc80:MFC80.DLL
+ 0002:000001f0       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 100081f0     mfc80:MFC80.DLL
+ 0002:000001f4       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 100081f4     mfc80:MFC80.DLL
+ 0002:000001f8       __imp_?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 100081f8     mfc80:MFC80.DLL
+ 0002:000001fc       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 100081fc     mfc80:MFC80.DLL
+ 0002:00000200       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 10008200     mfc80:MFC80.DLL
+ 0002:00000204       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 10008204     mfc80:MFC80.DLL
+ 0002:00000208       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 10008208     mfc80:MFC80.DLL
+ 0002:0000020c       __imp_?PostNcDestroy@CWnd@@MAEXXZ 1000820c     mfc80:MFC80.DLL
+ 0002:00000210       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 10008210     mfc80:MFC80.DLL
+ 0002:00000214       __imp_?CheckAutoCenter@CDialog@@UAEHXZ 10008214     mfc80:MFC80.DLL
+ 0002:00000218       __imp_?IsFrameWnd@CWnd@@UBEHXZ 10008218     mfc80:MFC80.DLL
+ 0002:0000021c       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 1000821c     mfc80:MFC80.DLL
+ 0002:00000220       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 10008220     mfc80:MFC80.DLL
+ 0002:00000224       __imp_?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 10008224     mfc80:MFC80.DLL
+ 0002:00000228       __imp_?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 10008228     mfc80:MFC80.DLL
+ 0002:0000022c       \177MFC80_NULL_THUNK_DATA  1000822c     mfc80:MFC80.DLL
+ 0002:00000230       __imp___decode_pointer     10008230     msvcrt:MSVCR80.dll
+ 0002:00000234       __imp____clean_type_info_names_internal 10008234     msvcrt:MSVCR80.dll
+ 0002:00000238       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10008238     msvcrt:MSVCR80.dll
+ 0002:0000023c       __imp___crt_debugger_hook  1000823c     msvcrt:MSVCR80.dll
+ 0002:00000240       __imp____CppXcptFilter     10008240     msvcrt:MSVCR80.dll
+ 0002:00000244       __imp___adjust_fdiv        10008244     msvcrt:MSVCR80.dll
+ 0002:00000248       __imp___amsg_exit          10008248     msvcrt:MSVCR80.dll
+ 0002:0000024c       __imp___initterm_e         1000824c     msvcrt:MSVCR80.dll
+ 0002:00000250       __imp___initterm           10008250     msvcrt:MSVCR80.dll
+ 0002:00000254       __imp___encoded_null       10008254     msvcrt:MSVCR80.dll
+ 0002:00000258       __imp___malloc_crt         10008258     msvcrt:MSVCR80.dll
+ 0002:0000025c       __imp___except_handler4_common 1000825c     msvcrt:MSVCR80.dll
+ 0002:00000260       __imp___CxxThrowException@8 10008260     msvcrt:MSVCR80.dll
+ 0002:00000264       __imp___onexit             10008264     msvcrt:MSVCR80.dll
+ 0002:00000268       __imp___lock               10008268     msvcrt:MSVCR80.dll
+ 0002:0000026c       __imp____dllonexit         1000826c     msvcrt:MSVCR80.dll
+ 0002:00000270       __imp___encode_pointer     10008270     msvcrt:MSVCR80.dll
+ 0002:00000274       __imp___unlock             10008274     msvcrt:MSVCR80.dll
+ 0002:00000278       __imp_?terminate@@YAXXZ    10008278     msvcrt:MSVCR80.dll
+ 0002:0000027c       __imp__malloc              1000827c     msvcrt:MSVCR80.dll
+ 0002:00000280       __imp___callnewh           10008280     msvcrt:MSVCR80.dll
+ 0002:00000284       __imp____CxxFrameHandler3  10008284     msvcrt:MSVCR80.dll
+ 0002:00000288       __imp__memset              10008288     msvcrt:MSVCR80.dll
+ 0002:0000028c       __imp__free                1000828c     msvcrt:MSVCR80.dll
+ 0002:00000290       \177MSVCR80_NULL_THUNK_DATA 10008290     msvcrt:MSVCR80.dll
+ 0002:00000294       __imp__SafeArrayCreateVector@12 10008294     oleaut32:OLEAUT32.dll
+ 0002:00000298       __imp__SafeArrayPutElement@12 10008298     oleaut32:OLEAUT32.dll
+ 0002:0000029c       __imp__VariantInit@4       1000829c     oleaut32:OLEAUT32.dll
+ 0002:000002a0       \177OLEAUT32_NULL_THUNK_DATA 100082a0     oleaut32:OLEAUT32.dll
+ 0002:000002a4       __imp__DragQueryFileA@16   100082a4     shell32:SHELL32.dll
+ 0002:000002a8       \177SHELL32_NULL_THUNK_DATA 100082a8     shell32:SHELL32.dll
+ 0002:000002ac       __imp__RegisterWindowMessageA@4 100082ac     user32:USER32.dll
+ 0002:000002b0       __imp__GetParent@4         100082b0     user32:USER32.dll
+ 0002:000002b4       __imp__GetDlgItem@8        100082b4     user32:USER32.dll
+ 0002:000002b8       __imp__SetWindowLongA@12   100082b8     user32:USER32.dll
+ 0002:000002bc       __imp__EnableWindow@8      100082bc     user32:USER32.dll
+ 0002:000002c0       __imp__GetWindowLongA@8    100082c0     user32:USER32.dll
+ 0002:000002c4       __imp__SendMessageA@16     100082c4     user32:USER32.dll
+ 0002:000002c8       \177USER32_NULL_THUNK_DATA 100082c8     user32:USER32.dll
+ 0002:000002cc       __imp_?InsertColumn@SEListCtrl@@QAEJHPBUtagSELVCOLUMN@@@Z 100082cc     control:control.dll
+ 0002:000002d0       __imp_??1SEListCtrl@@UAE@XZ 100082d0     control:control.dll
+ 0002:000002d4       __imp_??0SEListCtrl@@QAE@XZ 100082d4     control:control.dll
+ 0002:000002d8       __imp_?SetItem@SEListCtrl@@QAEHPAUtagSELVITEM@@@Z 100082d8     control:control.dll
+ 0002:000002dc       __imp_?GetItem@SEListCtrl@@QBEHPAUtagSELVITEM@@@Z 100082dc     control:control.dll
+ 0002:000002e0       __imp_?GetColumnAt@SEListCtrl@@QBEJH@Z 100082e0     control:control.dll
+ 0002:000002e4       __imp_?InsertItem@SEListCtrl@@QAEPAVSEListItem@@PAUtagSELVINSERTSTRUCT@@@Z 100082e4     control:control.dll
+ 0002:000002e8       __imp_?GetItem@SEListCtrl@@QAEPAVSEListItem@@H@Z 100082e8     control:control.dll
+ 0002:000002ec       \177control_NULL_THUNK_DATA 100082ec     control:control.dll
+ 0002:000002f0       __imp__JQueryApplication   100082f0     jengine:jengine.dll
+ 0002:000002f4       \177jengine_NULL_THUNK_DATA 100082f4     jengine:jengine.dll
+ 0002:000002f8       __imp__GetClassFile@8      100082f8     ole32:ole32.dll
+ 0002:000002fc       __imp__ReleaseStgMedium@4  100082fc     ole32:ole32.dll
+ 0002:00000300       __imp__CoLockObjectExternal@12 10008300     ole32:ole32.dll
+ 0002:00000304       \177ole32_NULL_THUNK_DATA  10008304     ole32:ole32.dll
+ 0002:00000308       __imp__JVariantClear@4     10008308     sealloc:sealloc.dll
+ 0002:0000030c       __imp__JSESysAllocString@4 1000830c     sealloc:sealloc.dll
+ 0002:00000310       __imp__JCoTaskMemFree@4    10008310     sealloc:sealloc.dll
+ 0002:00000314       __imp__JCoTaskMemAlloc@4   10008314     sealloc:sealloc.dll
+ 0002:00000318       \177sealloc_NULL_THUNK_DATA 10008318     sealloc:sealloc.dll
+ 0002:0000031c       ___xc_a                    1000831c     msvcrt:cinitexe.obj
+ 0002:0000033c       ___xc_z                    1000833c     msvcrt:cinitexe.obj
+ 0002:00000340       ___xi_a                    10008340     msvcrt:cinitexe.obj
+ 0002:00000348       ___xi_z                    10008348     msvcrt:cinitexe.obj
+ 0002:00000394       ??_7JAdvancedUnitsDlg@@6B@ 10008394     AdvUnitsDlg.obj
+ 0002:000004f8       ??_C@_0BC@EJDGPFLK@?4?2AdvUnitsDlg?4cpp?$AA@ 100084f8     AdvUnitsDlg.obj
+ 0002:0000050c       ??_C@_0CC@HCFECPBC@JAdvancedUnitsDlg?3?3WriteUnitsDat@ 1000850c     AdvUnitsDlg.obj
+ 0002:00000530       ??_C@_0O@CCDMPJLA@0?412345678901?$AA@ 10008530     AdvUnitsDlg.obj
+ 0002:00000540       ??_C@_0N@PCLCAGMF@0?40000000001?$AA@ 10008540     AdvUnitsDlg.obj
+ 0002:00000550       ??_C@_0M@JIMDLKCI@0?4000000001?$AA@ 10008550     AdvUnitsDlg.obj
+ 0002:0000055c       ??_C@_0L@FJFPKFDJ@0?400000001?$AA@ 1000855c     AdvUnitsDlg.obj
+ 0002:00000568       ??_C@_09KEFNBPAH@0?40000001?$AA@ 10008568     AdvUnitsDlg.obj
+ 0002:00000574       ??_C@_08MEBOFLBN@0?4000001?$AA@ 10008574     AdvUnitsDlg.obj
+ 0002:00000580       ??_C@_07DHNEJEIC@0?400001?$AA@ 10008580     AdvUnitsDlg.obj
+ 0002:00000588       ??_C@_06EEGKEDJA@0?40001?$AA@ 10008588     AdvUnitsDlg.obj
+ 0002:00000590       ??_C@_05CGKLNCBH@0?4001?$AA@ 10008590     AdvUnitsDlg.obj
+ 0002:00000598       ??_C@_04DKCHIKEL@0?401?$AA@ 10008598     AdvUnitsDlg.obj
+ 0002:000005a0       ??_C@_03NKBOLEBK@0?41?$AA@ 100085a0     AdvUnitsDlg.obj
+ 0002:000005a4       ??_C@_01HIHLOKLC@1?$AA@    100085a4     AdvUnitsDlg.obj
+ 0002:000005a8       ??_C@_1CA@PJKFCDEE@?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AA?5?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AA?$AA@ 100085a8     AdvUnitsDlg.obj
+ 0002:000005c8       ??_C@_1CC@GNNBMLL@?$AAA?$AAn?$AAg?$AAu?$AAl?$AAa?$AAr?$AA?5?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AA?$AA@ 100085c8     AdvUnitsDlg.obj
+ 0002:000005ec       ??_C@_1BE@GPCELNGD@?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AA?$AA@ 100085ec     AdvUnitsDlg.obj
+ 0002:00000600       ??_C@_1M@BHHFJIFF@?$AAF?$AAo?$AAr?$AAc?$AAe?$AA?$AA@ 10008600     AdvUnitsDlg.obj
+ 0002:0000060c       ??_C@_1BO@CHLANLK@?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AA?5?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AA?$AA@ 1000860c     AdvUnitsDlg.obj
+ 0002:0000062c       ??_C@_1O@MMOJFJJC@?$AAS?$AAt?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 1000862c     AdvUnitsDlg.obj
+ 0002:0000063c       ??_C@_1BM@KBIHOPGI@?$AAS?$AAp?$AAe?$AAc?$AAi?$AAf?$AAi?$AAc?$AA?5?$AAH?$AAe?$AAa?$AAt?$AA?$AA@ 1000863c     AdvUnitsDlg.obj
+ 0002:00000658       ??_C@_1CK@GHEHCEKD@?$AAT?$AAh?$AAe?$AAr?$AAm?$AAa?$AAl?$AA?5?$AAC?$AAo?$AAn?$AAd?$AAu?$AAc?$AAt?$AAi?$AAv?$AAi?$AAt?$AAy?$AA?$AA@ 10008658     AdvUnitsDlg.obj
+ 0002:00000684       ??_C@_1CK@NLPHMJND@?$AAC?$AAo?$AAe?$AAf?$AA?4?$AA?5?$AAo?$AAf?$AA?5?$AAT?$AAh?$AAe?$AAr?$AAm?$AAa?$AAl?$AA?5?$AAE?$AAx?$AAp?$AA?$AA@ 10008684     AdvUnitsDlg.obj
+ 0002:000006b0       ??_C@_1O@JBBNLINE@?$AAS?$AAc?$AAa?$AAl?$AAa?$AAr?$AA?$AA@ 100086b0     AdvUnitsDlg.obj
+ 0002:000006c0       ??_C@_19JPEMMLKB@?$AAM?$AAa?$AAs?$AAs?$AA?$AA@ 100086c0     AdvUnitsDlg.obj
+ 0002:000006cc       ??_C@_1O@DMLCJFNF@?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AA?$AA@ 100086cc     AdvUnitsDlg.obj
+ 0002:000006dc       ??_C@_1BA@HEEIHFEP@?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AA?$AA@ 100086dc     AdvUnitsDlg.obj
+ 0002:000006ec       ??_C@_1DE@CMILCIIM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 100086ec     AdvUnitsDlg.obj
+ 0002:00000720       ??_C@_1DK@MEJDKABD@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008720     AdvUnitsDlg.obj
+ 0002:0000075c       ??_C@_1DG@HFEKFACJ@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAu?$AAl?$AAa?$AAr?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 1000875c     AdvUnitsDlg.obj
+ 0002:00000794       ??_C@_1DM@OJHMBHBM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAu?$AAl?$AAa?$AAr?$AAV?$AAe?$AAl?$AAo?$AAc?$AAi?$AAt?$AAy?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008794     AdvUnitsDlg.obj
+ 0002:000007d0       ??_C@_1CK@JDKLFDPH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 100087d0     AdvUnitsDlg.obj
+ 0002:000007fc       ??_C@_1DA@EFEEJKNM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAr?$AAe?$AAq?$AAu?$AAe?$AAn?$AAc?$AAy?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 100087fc     AdvUnitsDlg.obj
+ 0002:0000082c       ??_C@_1CM@FMBDLOHM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAo?$AAr?$AAc?$AAe?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1000882c     AdvUnitsDlg.obj
+ 0002:00000858       ??_C@_1CI@FINHMNIP@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAF?$AAo?$AAr?$AAc?$AAe?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008858     AdvUnitsDlg.obj
+ 0002:00000880       ??_C@_1DC@EGAGIHEA@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 10008880     AdvUnitsDlg.obj
+ 0002:000008b4       ??_C@_1CK@JPPLPNDB@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAL?$AAi?$AAn?$AAe?$AAa?$AAr?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AA?$AA@ 100088b4     AdvUnitsDlg.obj
+ 0002:000008e0       ??_C@_1CE@DMFDLBKF@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAS?$AAt?$AAr?$AAe?$AAs?$AAs?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 100088e0     AdvUnitsDlg.obj
+ 0002:00000904       ??_C@_1BM@FJOPEFOL@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAS?$AAt?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10008904     AdvUnitsDlg.obj
+ 0002:00000920       ??_C@_1DA@MPHMECBN@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAS?$AAp?$AAe?$AAc?$AAi?$AAf?$AAi?$AAc?$AAH?$AAe?$AAa?$AAt?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 10008920     AdvUnitsDlg.obj
+ 0002:00000950       ??_C@_1CI@EIIHHCCA@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAS?$AAp?$AAe?$AAc?$AAi?$AAf?$AAi?$AAc?$AAH?$AAe?$AAa?$AAt?$AA?$AA@ 10008950     AdvUnitsDlg.obj
+ 0002:00000978       ??_C@_1CK@PNNEJMAM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAT?$AAh?$AAe?$AAr?$AAm?$AAC?$AAo?$AAn?$AAd?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 10008978     AdvUnitsDlg.obj
+ 0002:000009a4       ??_C@_1CC@MIPFKLFM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAT?$AAh?$AAe?$AAr?$AAm?$AAC?$AAo?$AAn?$AAd?$AA?$AA@ 100089a4     AdvUnitsDlg.obj
+ 0002:000009c8       ??_C@_1DA@HBEFPNLH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAC?$AAo?$AAe?$AAf?$AAT?$AAh?$AAe?$AAr?$AAm?$AAE?$AAx?$AAp?$AAP?$AAr?$AAe?$AAc?$AA?$AA@ 100089c8     AdvUnitsDlg.obj
+ 0002:000009f8       ??_C@_1CI@LDBMAOKD@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAC?$AAo?$AAe?$AAf?$AAT?$AAh?$AAe?$AAr?$AAm?$AAE?$AAx?$AAp?$AA?$AA@ 100089f8     AdvUnitsDlg.obj
+ 0002:00000a20       ??_C@_1CO@DOHNNPHB@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAS?$AAc?$AAa?$AAl?$AAa?$AAr?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008a20     AdvUnitsDlg.obj
+ 0002:00000a4e       ??_C@_00CNPNBAHC@?$AA@     10008a4e     AdvUnitsDlg.obj
+ 0002:00000a50       ??_C@_1CK@FLKLJAGJ@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAM?$AAa?$AAs?$AAs?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008a50     AdvUnitsDlg.obj
+ 0002:00000a7c       ??_C@_1CG@HDKBEILH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAM?$AAa?$AAs?$AAs?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008a7c     AdvUnitsDlg.obj
+ 0002:00000aa4       ??_C@_1CO@BCFGLFOC@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008aa4     AdvUnitsDlg.obj
+ 0002:00000ad4       ??_C@_1CK@KAODEKJC@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAV?$AAo?$AAl?$AAu?$AAm?$AAe?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008ad4     AdvUnitsDlg.obj
+ 0002:00000b00       ??_C@_1DA@HBADFPAG@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008b00     AdvUnitsDlg.obj
+ 0002:00000b30       ??_C@_1CM@CEEOBJMH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAe?$AAn?$AAs?$AAi?$AAt?$AAy?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008b30     AdvUnitsDlg.obj
+ 0002:00000b60       ??_7JCommonUnitsPropSheetExtClassFactory@@6B@ 10008b60     CMNUNITS.obj
+ 0002:00000b74       ??_C@_0P@GJLJBHCB@?4?2CMNUNITS?4CPP?$AA@ 10008b74     CMNUNITS.obj
+ 0002:00000b84       ??_C@_0DB@KJBFBCGA@JCommonUnitsPropSheetExtClassFac@ 10008b84     CMNUNITS.obj
+ 0002:00000bb8       ??_C@_0DH@MADIPHMP@JCommonUnitsPropSheetExt?3?3IShell@ 10008bb8     CMNUNITS.obj
+ 0002:00000bf0       ??_C@_0DM@LAJOMAAN@JCommonUnitsPropSheetExt?3?3IJProp@ 10008bf0     CMNUNITS.obj
+ 0002:00000c30       ??_7JCommonUnitsPropSheetExt@@6B@ 10008c30     CMNUNITS.obj
+ 0002:00000c40       ??_7IShellExtInitImp@JCommonUnitsPropSheetExt@@6B@ 10008c40     CMNUNITS.obj
+ 0002:00000c54       ??_7IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@6B@ 10008c54     CMNUNITS.obj
+ 0002:00000c70       ??_7IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@6B@ 10008c70     CMNUNITS.obj
+ 0002:00000c84       ??_C@_1DC@GMIJEFGL@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAi?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008c84     CMNUNITS.obj
+ 0002:00000cb8       ??_C@_1CI@FKBIFBFA@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAi?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10008cb8     CMNUNITS.obj
+ 0002:00000ce0       ??_C@_1DA@HBCKCIK@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAi?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAT?$AAe?$AAr?$AAt?$AAi?$AAa?$AAr?$AAy?$AA?$AA@ 10008ce0     CMNUNITS.obj
+ 0002:00000d10       ??_C@_1DC@GFEALANM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAi?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAS?$AAe?$AAc?$AAo?$AAn?$AAd?$AAa?$AAr?$AAy?$AA?$AA@ 10008d10     CMNUNITS.obj
+ 0002:00000d44       ??_C@_1CO@CLKKIIJ@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAD?$AAi?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008d44     CMNUNITS.obj
+ 0002:00000d74       ??_C@_1CM@GMEKIKKB@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAl?$AAe?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008d74     CMNUNITS.obj
+ 0002:00000da0       ??_C@_1CC@CGKOCCCC@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAl?$AAe?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10008da0     CMNUNITS.obj
+ 0002:00000dc4       ??_C@_1CK@MEFGADHH@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAl?$AAe?$AAT?$AAe?$AAr?$AAt?$AAi?$AAa?$AAr?$AAy?$AA?$AA@ 10008dc4     CMNUNITS.obj
+ 0002:00000df0       ??_C@_1CM@GFIDHPBG@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAl?$AAe?$AAS?$AAe?$AAc?$AAo?$AAn?$AAd?$AAa?$AAr?$AAy?$AA?$AA@ 10008df0     CMNUNITS.obj
+ 0002:00000e1c       ??_C@_1CI@JPNABOCO@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAn?$AAg?$AAl?$AAe?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008e1c     CMNUNITS.obj
+ 0002:00000e44       ??_C@_1CK@EACHJENJ@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAr?$AAe?$AAa?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008e44     CMNUNITS.obj
+ 0002:00000e70       ??_C@_1CA@GFCKAFP@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAr?$AAe?$AAa?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10008e70     CMNUNITS.obj
+ 0002:00000e90       ??_C@_1CG@BHLHAMDM@?$AAD?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAA?$AAr?$AAe?$AAa?$AAP?$AAr?$AAi?$AAm?$AAa?$AAr?$AAy?$AA?$AA@ 10008e90     CMNUNITS.obj
+ 0002:00000eb8       ??_C@_0BK@IEKKCKGE@GetDocumentUomPreferences?$AA@ 10008eb8     CMNUNITS.obj
+ 0002:00000ed4       ??_C@_17HIKLPLBG@?$AA?5?$AA?9?$AA?5?$AA?$AA@ 10008ed4     CMNUNITS.obj
+ 0002:00000edc       ??_C@_0BC@NLAJBPF@UpdateGlobalUnits?$AA@ 10008edc     CMNUNITS.obj
+ 0002:00000ef0       ??_C@_0CF@OPDAJHMO@CommonUnitsPropPageDlg_OnNotifyA@ 10008ef0     CMNUNITS.obj
+ 0002:00000f18       ??_C@_0BF@OCMHANML@JContextHelpByHelpID?$AA@ 10008f18     CMNUNITS.obj
+ 0002:00000f30       ??_C@_0DF@CAFDFFCJ@JCommonUnitsPropSheetExtClassFac@ 10008f30     CMNUNITS.obj
+ 0002:00000f68       ??_C@_0M@NPGLOBCF@UNITSHX?4drx?$AA@ 10008f68     DLLFUNC.obj
+ 0002:00000f74       ??_C@_0O@NMNLCBPI@?4?2DLLFUNC?4CPP?$AA@ 10008f74     DLLFUNC.obj
+ 0002:00000f84       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 10008f84     DLLFUNC.obj
+ 0002:00000f98       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 10008f98     GUID.obj
+ 0002:00000fa8       _IID_IJApplication         10008fa8     GUID.obj
+ 0002:00000fb8       _IID_IJDocument            10008fb8     GUID.obj
+ 0002:00000fc8       _IID_IHPrefSetEx           10008fc8     GUID.obj
+ 0002:00000fd8       _IID_IJPropSheetExtInit    10008fd8     GUID.obj
+ 0002:00000fe8       _CLSID_JCommonUnitsPropSheetExt 10008fe8     GUID.obj
+ 0002:00000ff8       ??_C@_0CM@GOIAMPIP@General?2SESEInsightTarget?2Manage@ 10008ff8     precomp.obj
+ 0002:00001024       ??_C@_0CM@CFLLONED@General?2SESEInsightSource?2Manage@ 10009024     precomp.obj
+ 0002:00001050       ??_C@_0BC@PMPKKPPO@SESEInsightTarget?$AA@ 10009050     precomp.obj
+ 0002:00001064       ??_C@_0BC@IBOENEBP@SESEInsightSource?$AA@ 10009064     precomp.obj
+ 0002:00001078       ??_C@_0DA@EEEMJNPA@General?2StructureEditorTarget?2Ma@ 10009078     precomp.obj
+ 0002:000010a8       ??_C@_0DA@PHHLPDM@General?2StructureEditorSource?2Ma@ 100090a8     precomp.obj
+ 0002:000010d8       ??_C@_0BG@GLPNBFBI@StructureEditorTarget?$AA@ 100090d8     precomp.obj
+ 0002:000010f0       ??_C@_0BG@BGODGOPJ@StructureEditorSource?$AA@ 100090f0     precomp.obj
+ 0002:00001108       ??_C@_0L@MNMJNOKC@?2UnManaged?$AA@ 10009108     precomp.obj
+ 0002:00001114       ??_C@_08GNBJJBFL@?2Managed?$AA@ 10009114     precomp.obj
+ 0002:00001120       ??_C@_0N@DCACADCL@IfFontItalic?$AA@ 10009120     precomp.obj
+ 0002:00001130       ??_C@_0L@HABBFGEE@FontScript?$AA@ 10009130     precomp.obj
+ 0002:0000113c       ??_C@_08IOPOCEFC@FontSize?$AA@ 1000913c     precomp.obj
+ 0002:00001148       ??_C@_09BIHFJGEM@FontStyle?$AA@ 10009148     precomp.obj
+ 0002:00001154       ??_C@_08MKFDOKHL@FontName?$AA@ 10009154     precomp.obj
+ 0002:00001160       ??_C@_09PPPLNFCP@Revisions?$AA@ 10009160     precomp.obj
+ 0002:0000116c       ??_C@_0L@IKFKNMIK@LCA?2Step?93?$AA@ 1000916c     precomp.obj
+ 0002:00001178       ??_C@_0L@JDEBONML@LCA?2Step?92?$AA@ 10009178     precomp.obj
+ 0002:00001184       ??_C@_0L@LIGMLOAI@LCA?2Step?91?$AA@ 10009184     precomp.obj
+ 0002:00001190       ??_C@_0BC@PJLOJMLB@?2ColumnAllignment?$AA@ 10009190     precomp.obj
+ 0002:000011a4       ??_C@_0N@MJNDLMLL@?2ColumnWidth?$AA@ 100091a4     precomp.obj
+ 0002:000011b4       ??_C@_0M@GILJBBJK@?2ColumnName?$AA@ 100091b4     precomp.obj
+ 0002:000011c0       ??_C@_0BN@JDKHKMCP@General?2EditProfile?2Position?$AA@ 100091c0     precomp.obj
+ 0002:000011e0       ??_C@_0CG@MMFLBBHB@General?2EditProfile?2ManagedPrope@ 100091e0     precomp.obj
+ 0002:00001208       ??_C@_0M@JCDCLJCA@EditProfile?$AA@ 10009208     precomp.obj
+ 0002:00001214       ??_C@_08OPPFIBME@General?2?$AA@ 10009214     precomp.obj
+ 0002:00001220       ??_C@_0CI@NHNILGNF@General?2SearchResults?2ManagedPro@ 10009220     precomp.obj
+ 0002:00001248       ??_C@_0CK@GNOEILGH@General?2SearchResults?2UnManagedP@ 10009248     precomp.obj
+ 0002:00001274       ??_C@_0O@PKDDHDIC@SearchResults?$AA@ 10009274     precomp.obj
+ 0002:00001284       ??_C@_0CE@CNFCLGND@General?2WhereUsed?2ManagedPropert@ 10009284     precomp.obj
+ 0002:000012a8       ??_C@_0CG@DLLONGGL@General?2WhereUsed?2UnManagedPrope@ 100092a8     precomp.obj
+ 0002:000012d0       ??_C@_09NNDHDAJB@WhereUsed?$AA@ 100092d0     precomp.obj
+ 0002:000012dc       ??_C@_0BA@FMHGINFB@PropertyManager?$AA@ 100092dc     precomp.obj
+ 0002:000012ec       ??_C@_05CDEHLADN@?$CFs?$CFlu?$AA@ 100092ec     precomp.obj
+ 0002:000012f4       ??_C@_06GDCBNBFJ@?$CFlu?$CFls?$AA@ 100092f4     precomp.obj
+ 0002:000012fc       ??_C@_0N@NLFOEMPN@PropValue?$CFlu?$AA@ 100092fc     precomp.obj
+ 0002:0000130c       ??_C@_09FJMCAKIG@PropCount?$AA@ 1000930c     precomp.obj
+ 0002:00001318       ??_C@_0CK@MBCJNOIL@General?2PropertyManager?2ManagedP@ 10009318     precomp.obj
+ 0002:00001344       ??_C@_0CM@KLFAECG@General?2PropertyManager?2UnManage@ 10009344     precomp.obj
+ 0002:00001370       _IID_IShellPropSheetExt    10009370     shell32:shguid.obj
+ 0002:00001380       _IID_IShellExtInit         10009380     shell32:shguid.obj
+ 0002:00001390       _IID_IClassFactory         10009390     uuid:unknwn_i.obj
+ 0002:000013a0       _IID_IUnknown              100093a0     uuid:unknwn_i.obj
+ 0002:000013b0       ??_C@_06JBKGCNBB@Delete?$AA@ 100093b0     mfcs80:stdafx.obj
+ 0002:000013b8       ??_C@_08KAAPDIAN@NoRemove?$AA@ 100093b8     mfcs80:stdafx.obj
+ 0002:000013c4       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 100093c4     mfcs80:stdafx.obj
+ 0002:000013d0       ??_C@_03LAIAPFCB@Val?$AA@  100093d0     mfcs80:stdafx.obj
+ 0002:000013d4       ??_C@_01HMGJMAIH@B?$AA@    100093d4     mfcs80:stdafx.obj
+ 0002:000013d8       ??_C@_01CKDDGHAB@D?$AA@    100093d8     mfcs80:stdafx.obj
+ 0002:000013dc       ??_C@_01PLPBNMEI@M?$AA@    100093dc     mfcs80:stdafx.obj
+ 0002:000013e0       ??_C@_01CPLAODJH@S?$AA@    100093e0     mfcs80:stdafx.obj
+ 0002:00001408       ??_7type_info@@6B@         10009408     msvcrt:ti_inst.obj
+ 0002:0000140c       __pDefaultRawDllMain       1000940c     msvcrt:crtdll.obj
+ 0002:0000141c       ??_7_com_error@@6B@        1000941c     comsuppw:comraise.obj
+ 0002:00001420       __pRawDllMain              10009420     mfcs80:rawdllmainproxy.obj
+ 0002:00001428       __load_config_used         10009428     msvcrt:loadcfg.obj
+ 0002:000014a4       ??_R4JAdvancedUnitsDlg@@6B@ 100094a4     AdvUnitsDlg.obj
+ 0002:000014b8       ??_R3JAdvancedUnitsDlg@@8  100094b8     AdvUnitsDlg.obj
+ 0002:000014c8       ??_R2JAdvancedUnitsDlg@@8  100094c8     AdvUnitsDlg.obj
+ 0002:000014e0       ??_R1A@?0A@EA@JAdvancedUnitsDlg@@8 100094e0     AdvUnitsDlg.obj
+ 0002:000014fc       ??_R1A@?0A@EA@CDialog@@8   100094fc     AdvUnitsDlg.obj
+ 0002:00001518       ??_R3CDialog@@8            10009518     AdvUnitsDlg.obj
+ 0002:00001528       ??_R2CDialog@@8            10009528     AdvUnitsDlg.obj
+ 0002:0000153c       ??_R1A@?0A@EA@CWnd@@8      1000953c     AdvUnitsDlg.obj
+ 0002:00001558       ??_R3CWnd@@8               10009558     AdvUnitsDlg.obj
+ 0002:00001568       ??_R2CWnd@@8               10009568     AdvUnitsDlg.obj
+ 0002:00001578       ??_R1A@?0A@EA@CCmdTarget@@8 10009578     AdvUnitsDlg.obj
+ 0002:00001594       ??_R3CCmdTarget@@8         10009594     AdvUnitsDlg.obj
+ 0002:000015a4       ??_R2CCmdTarget@@8         100095a4     AdvUnitsDlg.obj
+ 0002:000015b0       ??_R1A@?0A@EA@CObject@@8   100095b0     AdvUnitsDlg.obj
+ 0002:000015cc       ??_R3CObject@@8            100095cc     AdvUnitsDlg.obj
+ 0002:000015dc       ??_R2CObject@@8            100095dc     AdvUnitsDlg.obj
+ 0002:000015e4       ??_R4JCommonUnitsPropSheetExtClassFactory@@6B@ 100095e4     CMNUNITS.obj
+ 0002:000015f8       ??_R3JCommonUnitsPropSheetExtClassFactory@@8 100095f8     CMNUNITS.obj
+ 0002:00001608       ??_R2JCommonUnitsPropSheetExtClassFactory@@8 10009608     CMNUNITS.obj
+ 0002:00001618       ??_R1A@?0A@EA@JCommonUnitsPropSheetExtClassFactory@@8 10009618     CMNUNITS.obj
+ 0002:00001634       ??_R1A@?0A@EA@IClassFactory@@8 10009634     CMNUNITS.obj
+ 0002:00001650       ??_R3IClassFactory@@8      10009650     CMNUNITS.obj
+ 0002:00001660       ??_R2IClassFactory@@8      10009660     CMNUNITS.obj
+ 0002:0000166c       ??_R1A@?0A@EA@IUnknown@@8  1000966c     CMNUNITS.obj
+ 0002:00001688       ??_R3IUnknown@@8           10009688     CMNUNITS.obj
+ 0002:00001698       ??_R2IUnknown@@8           10009698     CMNUNITS.obj
+ 0002:000016a0       ??_R4JCommonUnitsPropSheetExt@@6B@ 100096a0     CMNUNITS.obj
+ 0002:000016b4       ??_R3JCommonUnitsPropSheetExt@@8 100096b4     CMNUNITS.obj
+ 0002:000016c4       ??_R2JCommonUnitsPropSheetExt@@8 100096c4     CMNUNITS.obj
+ 0002:000016d0       ??_R1A@?0A@EA@JCommonUnitsPropSheetExt@@8 100096d0     CMNUNITS.obj
+ 0002:000016ec       ??_R4IShellExtInitImp@JCommonUnitsPropSheetExt@@6B@ 100096ec     CMNUNITS.obj
+ 0002:00001700       ??_R3IShellExtInitImp@JCommonUnitsPropSheetExt@@8 10009700     CMNUNITS.obj
+ 0002:00001710       ??_R2IShellExtInitImp@JCommonUnitsPropSheetExt@@8 10009710     CMNUNITS.obj
+ 0002:00001720       ??_R1A@?0A@EA@IShellExtInitImp@JCommonUnitsPropSheetExt@@8 10009720     CMNUNITS.obj
+ 0002:0000173c       ??_R1A@?0A@EA@IShellExtInit@@8 1000973c     CMNUNITS.obj
+ 0002:00001758       ??_R3IShellExtInit@@8      10009758     CMNUNITS.obj
+ 0002:00001768       ??_R2IShellExtInit@@8      10009768     CMNUNITS.obj
+ 0002:00001774       ??_R4IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@6B@ 10009774     CMNUNITS.obj
+ 0002:00001788       ??_R3IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@8 10009788     CMNUNITS.obj
+ 0002:00001798       ??_R2IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@8 10009798     CMNUNITS.obj
+ 0002:000017a8       ??_R1A@?0A@EA@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@8 100097a8     CMNUNITS.obj
+ 0002:000017c4       ??_R1A@?0A@EA@IJPropSheetExtInit@@8 100097c4     CMNUNITS.obj
+ 0002:000017e0       ??_R3IJPropSheetExtInit@@8 100097e0     CMNUNITS.obj
+ 0002:000017f0       ??_R2IJPropSheetExtInit@@8 100097f0     CMNUNITS.obj
+ 0002:000017fc       ??_R4IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@6B@ 100097fc     CMNUNITS.obj
+ 0002:00001810       ??_R3IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@8 10009810     CMNUNITS.obj
+ 0002:00001820       ??_R2IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@8 10009820     CMNUNITS.obj
+ 0002:00001830       ??_R1A@?0A@EA@IShellPropSheetExtImp@JCommonUnitsPropSheetExt@@8 10009830     CMNUNITS.obj
+ 0002:0000184c       ??_R1A@?0A@EA@IShellPropSheetExt@@8 1000984c     CMNUNITS.obj
+ 0002:00001868       ??_R3IShellPropSheetExt@@8 10009868     CMNUNITS.obj
+ 0002:00001878       ??_R2IShellPropSheetExt@@8 10009878     CMNUNITS.obj
+ 0002:00001884       ??_R4type_info@@6B@        10009884     msvcrt:ti_inst.obj
+ 0002:00001898       ??_R3type_info@@8          10009898     msvcrt:ti_inst.obj
+ 0002:000018a8       ??_R2type_info@@8          100098a8     msvcrt:ti_inst.obj
+ 0002:000018b0       ??_R1A@?0A@EA@type_info@@8 100098b0     msvcrt:ti_inst.obj
+ 0002:000018cc       ??_R4_com_error@@6B@       100098cc     comsuppw:comraise.obj
+ 0002:000018e0       ??_R3_com_error@@8         100098e0     comsuppw:comraise.obj
+ 0002:000018f0       ??_R2_com_error@@8         100098f0     comsuppw:comraise.obj
+ 0002:000018f8       ??_R1A@?0A@EA@_com_error@@8 100098f8     comsuppw:comraise.obj
+ 0002:00001920       ___safe_se_handler_table   10009920     <linker-defined>
+ 0002:00001988       ___rtc_iaa                 10009988     msvcrt:initsect.obj
+ 0002:0000198c       ___rtc_izz                 1000998c     msvcrt:initsect.obj
+ 0002:00001990       ___rtc_taa                 10009990     msvcrt:initsect.obj
+ 0002:00001994       ___rtc_tzz                 10009994     msvcrt:initsect.obj
+ 0002:000022dc       __TI1?AV_com_error@@       1000a2dc     comsuppw:comraise.obj
+ 0002:000022ec       __CTA1?AV_com_error@@      1000a2ec     comsuppw:comraise.obj
+ 0002:000022f4       __CT??_R0?AV_com_error@@@8??0_com_error@@QAE@ABV0@@Z16 1000a2f4     comsuppw:comraise.obj
+ 0002:0000232c       __IMPORT_DESCRIPTOR_COMCTL32 1000a32c     comctl32:COMCTL32.dll
+ 0002:00002340       __IMPORT_DESCRIPTOR_control 1000a340     control:control.dll
+ 0002:00002354       __IMPORT_DESCRIPTOR_jengine 1000a354     jengine:jengine.dll
+ 0002:00002368       __IMPORT_DESCRIPTOR_JUtil  1000a368     jutil:JUtil.dll
+ 0002:0000237c       __IMPORT_DESCRIPTOR_sealloc 1000a37c     sealloc:sealloc.dll
+ 0002:00002390       __IMPORT_DESCRIPTOR_KERNEL32 1000a390     kernel32:KERNEL32.dll
+ 0002:000023a4       __IMPORT_DESCRIPTOR_USER32 1000a3a4     user32:USER32.dll
+ 0002:000023b8       __IMPORT_DESCRIPTOR_SHELL32 1000a3b8     shell32:SHELL32.dll
+ 0002:000023cc       __IMPORT_DESCRIPTOR_ole32  1000a3cc     ole32:ole32.dll
+ 0002:000023e0       __IMPORT_DESCRIPTOR_OLEAUT32 1000a3e0     oleaut32:OLEAUT32.dll
+ 0002:000023f4       __IMPORT_DESCRIPTOR_MFC80  1000a3f4     mfc80:MFC80.DLL
+ 0002:00002408       __IMPORT_DESCRIPTOR_MSVCR80 1000a408     msvcrt:MSVCR80.dll
+ 0002:0000241c       __NULL_IMPORT_DESCRIPTOR   1000a41c     comctl32:COMCTL32.dll
+ 0003:00000000       __newmode                  1000c000     newmode.obj
+ 0003:000008d4       ??_R0?AVJAdvancedUnitsDlg@@@8 1000c8d4     AdvUnitsDlg.obj
+ 0003:000008f4       ??_R0?AVCDialog@@@8        1000c8f4     AdvUnitsDlg.obj
+ 0003:0000090c       ??_R0?AVCWnd@@@8           1000c90c     AdvUnitsDlg.obj
+ 0003:00000920       ??_R0?AVCCmdTarget@@@8     1000c920     AdvUnitsDlg.obj
+ 0003:0000093c       ??_R0?AVCObject@@@8        1000c93c     AdvUnitsDlg.obj
+ 0003:00000ca0       ??_R0?AVJCommonUnitsPropSheetExtClassFactory@@@8 1000cca0     CMNUNITS.obj
+ 0003:00000cd4       ??_R0?AUIClassFactory@@@8  1000ccd4     CMNUNITS.obj
+ 0003:00000cf0       ??_R0?AUIUnknown@@@8       1000ccf0     CMNUNITS.obj
+ 0003:00000d08       ??_R0?AVJCommonUnitsPropSheetExt@@@8 1000cd08     CMNUNITS.obj
+ 0003:00000d30       ??_R0?AUIShellExtInitImp@JCommonUnitsPropSheetExt@@@8 1000cd30     CMNUNITS.obj
+ 0003:00000d68       ??_R0?AUIShellExtInit@@@8  1000cd68     CMNUNITS.obj
+ 0003:00000d84       ??_R0?AUIJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@@8 1000cd84     CMNUNITS.obj
+ 0003:00000dc4       ??_R0?AUIJPropSheetExtInit@@@8 1000cdc4     CMNUNITS.obj
+ 0003:00000de8       ??_R0?AUIShellPropSheetExtImp@JCommonUnitsPropSheetExt@@@8 1000cde8     CMNUNITS.obj
+ 0003:00000e28       ??_R0?AUIShellPropSheetExt@@@8 1000ce28     CMNUNITS.obj
+ 0003:00001918       ___security_cookie         1000d918     msvcrt:gs_cookie.obj
+ 0003:0000191c       ___security_cookie_complement 1000d91c     msvcrt:gs_cookie.obj
+ 0003:00001920       ??_R0?AVtype_info@@@8      1000d920     msvcrt:ti_inst.obj
+ 0003:00001940       ___native_dllmain_reason   1000d940     msvcrt:natstart.obj
+ 0003:00001944       ___native_vcclrit_reason   1000d944     msvcrt:natstart.obj
+ 0003:00001948       ?__errorPfn@@3P6GXJPAUIErrorInfo@@@ZA 1000d948     comsuppw:comsupp.obj
+ 0003:0000194c       ??_R0?AV_com_error@@@8     1000d94c     comsuppw:comraise.obj
+ 0003:00001968       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1000d968     atls:atltrace.obj
+ 0003:00002138       __afxForceEXCLUDE          1000e138     mfcs80:nolib.obj
+ 0003:0000213c       __afxForceSTDAFX           1000e13c     mfcs80:stdafx.obj
+ 0003:0000246c       ?__type_info_root_node@@3U__type_info_node@@A 1000e46c     msvcrt:tncleanup.obj
+ 0003:00002474       __pActualRawDllMain        1000e474     <common>
+ 0003:00002478       __adjust_fdiv              1000e478     <common>
+ 0003:0000247c       ___native_startup_state    1000e47c     <common>
+ 0003:00002480       ___native_startup_lock     1000e480     <common>
+ 0003:00002484       ___dyn_tls_init_callback   1000e484     <common>
+ 0003:00002488       ___onexitend               1000e488     <common>
+ 0003:0000248c       ___onexitbegin             1000e48c     <common>
+
+ entry point at        0001:00004806
+
+ Static symbols
+
+ 0001:00001d20       ?SetPST@@YAXIIII@Z         10002d20 f   CMNUNITS.obj
+ 0001:00001d70       ?GetPST@@YAXIPAI00@Z       10002d70 f   CMNUNITS.obj
+ 0001:00001dd0       ?s_find_precision_index@@YAHUtagUomFormat@@@Z 10002dd0 f   CMNUNITS.obj
+ 0001:00001e30       ?l_GetSystemType@@YAIII@Z  10002e30 f   CMNUNITS.obj
+ 0001:00001f30       ?s_set_precision@@YAXPAUtagUomFormat@@HH@Z 10002f30 f   CMNUNITS.obj
+ 0001:00002010       ?GetDocumentUomPreferences@@YAHIPAI0000@Z 10003010 f   CMNUNITS.obj
+ 0001:00002430       ?SetComboBoxes@@YAHHPAUHWND__@@I@Z 10003430 f   CMNUNITS.obj
+ 0001:00002d40       ?CommonUnitsPropPageDlg_OnInitDialog@@YAHPAUHWND__@@J@Z 10003d40 f   CMNUNITS.obj
+ 0001:00002d80       ?CommonUnitsPropPageDlg_OnAdvancedUnits@@YAHXZ 10003d80 f   CMNUNITS.obj
+ 0001:00002e30       ?UpdateGlobalUnits@@YAJPAUHWND__@@@Z 10003e30 f   CMNUNITS.obj
+ 0001:000038c0       ?CommonUnitsPropPageDlg_OnNotifyApply@@YAHPAUHWND__@@J@Z 100048c0 f   CMNUNITS.obj
+ 0001:00003aa0       ?CommonUnitsPropPageDlgProc@@YGJPAUHWND__@@IIJ@Z 10004aa0 f   CMNUNITS.obj
+ 0001:00003e10       ?GetResourceModuleHandle@@YAPAUHINSTANCE__@@XZ 10004e10 f   DLLFUNC.obj
+ 0001:00004504       _pre_c_init                10005504 f   msvcrt:crtdll.obj
+ 0001:000046f0       ___DllMainCRTStartup       100056f0 f   msvcrt:crtdll.obj
+ 0001:00004de9       __FindPESection            10005de9 f   mfcs80:rawdllmainproxy.obj
+ 0001:00004e23       __IsNonwritableInCurrentImage 10005e23 f   mfcs80:rawdllmainproxy.obj
+ 0001:00004ed0       __unwindfunclet$??1PrecisionData@@QAE@XZ$0 10005ed0 f   AdvUnitsDlg.obj
+ 0001:00004edc       __ehhandler$??1PrecisionData@@QAE@XZ 10005edc f   AdvUnitsDlg.obj
+ 0001:00004f00       __unwindfunclet$??1UnitData@@QAE@XZ$0 10005f00 f   AdvUnitsDlg.obj
+ 0001:00004f0c       __ehhandler$??1UnitData@@QAE@XZ 10005f0c f   AdvUnitsDlg.obj
+ 0001:00004f30       __unwindfunclet$??1UnitPrecData@@QAE@XZ$0 10005f30 f   AdvUnitsDlg.obj
+ 0001:00004f39       __unwindfunclet$??1UnitPrecData@@QAE@XZ$1 10005f39 f   AdvUnitsDlg.obj
+ 0001:00004f45       __ehhandler$??1UnitPrecData@@QAE@XZ 10005f45 f   AdvUnitsDlg.obj
+ 0001:00004f60       __unwindfunclet$??0AdvUnitData@@QAE@XZ$0 10005f60 f   AdvUnitsDlg.obj
+ 0001:00004f6c       __ehhandler$??0AdvUnitData@@QAE@XZ 10005f6c f   AdvUnitsDlg.obj
+ 0001:00004f90       __unwindfunclet$??1AdvUnitData@@QAE@XZ$0 10005f90 f   AdvUnitsDlg.obj
+ 0001:00004f9c       __ehhandler$??1AdvUnitData@@QAE@XZ 10005f9c f   AdvUnitsDlg.obj
+ 0001:00004fc0       __unwindfunclet$??1JAdvancedUnitsDlg@@UAE@XZ$0 10005fc0 f   AdvUnitsDlg.obj
+ 0001:00004fc8       __unwindfunclet$??1JAdvancedUnitsDlg@@UAE@XZ$1 10005fc8 f   AdvUnitsDlg.obj
+ 0001:00004fd4       __unwindfunclet$??1JAdvancedUnitsDlg@@UAE@XZ$2 10005fd4 f   AdvUnitsDlg.obj
+ 0001:00004fec       __ehhandler$??1JAdvancedUnitsDlg@@UAE@XZ 10005fec f   AdvUnitsDlg.obj
+ 0001:00005010       __unwindfunclet$??1tagSELVCOLUMN@@QAE@XZ$0 10006010 f   AdvUnitsDlg.obj
+ 0001:0000501c       __ehhandler$??1tagSELVCOLUMN@@QAE@XZ 1000601c f   AdvUnitsDlg.obj
+ 0001:00005040       __unwindfunclet$??0tagSELVITEM@@QAE@XZ$0 10006040 f   AdvUnitsDlg.obj
+ 0001:0000504b       __unwindfunclet$??0tagSELVITEM@@QAE@XZ$1 1000604b f   AdvUnitsDlg.obj
+ 0001:00005057       __unwindfunclet$??0tagSELVITEM@@QAE@XZ$2 10006057 f   AdvUnitsDlg.obj
+ 0001:00005062       __unwindfunclet$??0tagSELVITEM@@QAE@XZ$3 10006062 f   AdvUnitsDlg.obj
+ 0001:0000506e       __ehhandler$??0tagSELVITEM@@QAE@XZ 1000606e f   AdvUnitsDlg.obj
+ 0001:00005090       __unwindfunclet$??1tagSELVITEM@@QAE@XZ$0 10006090 f   AdvUnitsDlg.obj
+ 0001:0000509b       __unwindfunclet$??1tagSELVITEM@@QAE@XZ$1 1000609b f   AdvUnitsDlg.obj
+ 0001:000050a7       __unwindfunclet$??1tagSELVITEM@@QAE@XZ$2 100060a7 f   AdvUnitsDlg.obj
+ 0001:000050b2       __unwindfunclet$??1tagSELVITEM@@QAE@XZ$3 100060b2 f   AdvUnitsDlg.obj
+ 0001:000050be       __ehhandler$??1tagSELVITEM@@QAE@XZ 100060be f   AdvUnitsDlg.obj
+ 0001:000050e0       __unwindfunclet$??0tagSELVCOLUMN@@QAE@XZ$0 100060e0 f   AdvUnitsDlg.obj
+ 0001:000050ec       __ehhandler$??0tagSELVCOLUMN@@QAE@XZ 100060ec f   AdvUnitsDlg.obj
+ 0001:00005110       __unwindfunclet$??0JAdvancedUnitsDlg@@QAE@PAVCWnd@@@Z$0 10006110 f   AdvUnitsDlg.obj
+ 0001:00005118       __unwindfunclet$??0JAdvancedUnitsDlg@@QAE@PAVCWnd@@@Z$1 10006118 f   AdvUnitsDlg.obj
+ 0001:00005124       __unwindfunclet$??0JAdvancedUnitsDlg@@QAE@PAVCWnd@@@Z$2 10006124 f   AdvUnitsDlg.obj
+ 0001:0000513c       __ehhandler$??0JAdvancedUnitsDlg@@QAE@PAVCWnd@@@Z 1000613c f   AdvUnitsDlg.obj
+ 0001:00005160       __unwindfunclet$?InsertColumns@JAdvancedUnitsDlg@@IAEXXZ$0 10006160 f   AdvUnitsDlg.obj
+ 0001:00005169       __unwindfunclet$?InsertColumns@JAdvancedUnitsDlg@@IAEXXZ$1 10006169 f   AdvUnitsDlg.obj
+ 0001:00005171       __unwindfunclet$?InsertColumns@JAdvancedUnitsDlg@@IAEXXZ$2 10006171 f   AdvUnitsDlg.obj
+ 0001:0000517a       __ehhandler$?InsertColumns@JAdvancedUnitsDlg@@IAEXXZ 1000617a f   AdvUnitsDlg.obj
+ 0001:000051a0       __unwindfunclet$??1tagSELVINSERTSTRUCT@@QAE@XZ$0 100061a0 f   AdvUnitsDlg.obj
+ 0001:000051ab       __ehhandler$??1tagSELVINSERTSTRUCT@@QAE@XZ 100061ab f   AdvUnitsDlg.obj
+ 0001:000051d0       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$10 100061d0 f   AdvUnitsDlg.obj
+ 0001:000051db       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$0 100061db f   AdvUnitsDlg.obj
+ 0001:000051e6       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$1 100061e6 f   AdvUnitsDlg.obj
+ 0001:000051f2       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$2 100061f2 f   AdvUnitsDlg.obj
+ 0001:000051fd       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$3 100061fd f   AdvUnitsDlg.obj
+ 0001:00005209       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$4 10006209 f   AdvUnitsDlg.obj
+ 0001:00005214       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$5 10006214 f   AdvUnitsDlg.obj
+ 0001:00005220       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$6 10006220 f   AdvUnitsDlg.obj
+ 0001:0000522b       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$7 1000622b f   AdvUnitsDlg.obj
+ 0001:00005236       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$8 10006236 f   AdvUnitsDlg.obj
+ 0001:00005241       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$9 10006241 f   AdvUnitsDlg.obj
+ 0001:0000524c       __unwindfunclet$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ$11 1000624c f   AdvUnitsDlg.obj
+ 0001:00005257       __ehhandler$?InsertRows@JAdvancedUnitsDlg@@IAEXXZ 10006257 f   AdvUnitsDlg.obj
+ 0001:00005280       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$10 10006280 f   AdvUnitsDlg.obj
+ 0001:0000528b       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$11 1000628b f   AdvUnitsDlg.obj
+ 0001:00005296       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$12 10006296 f   AdvUnitsDlg.obj
+ 0001:000052a1       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$13 100062a1 f   AdvUnitsDlg.obj
+ 0001:000052ac       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$14 100062ac f   AdvUnitsDlg.obj
+ 0001:000052b7       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$15 100062b7 f   AdvUnitsDlg.obj
+ 0001:000052c2       __unwindfunclet$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ$16 100062c2 f   AdvUnitsDlg.obj
+ 0001:000052cd       __ehhandler$?WriteUnitsData@JAdvancedUnitsDlg@@IAEXXZ 100062cd f   AdvUnitsDlg.obj
+ 0001:000052f0       __unwindfunclet$??__EaPrecisionData@@YAXXZ$0 100062f0 f   AdvUnitsDlg.obj
+ 0001:000052fb       __unwindfunclet$??__EaPrecisionData@@YAXXZ$1 100062fb f   AdvUnitsDlg.obj
+ 0001:00005305       __unwindfunclet$??__EaPrecisionData@@YAXXZ$2 10006305 f   AdvUnitsDlg.obj
+ 0001:00005310       __unwindfunclet$??__EaPrecisionData@@YAXXZ$3 10006310 f   AdvUnitsDlg.obj
+ 0001:0000531a       __unwindfunclet$??__EaPrecisionData@@YAXXZ$4 1000631a f   AdvUnitsDlg.obj
+ 0001:00005325       __unwindfunclet$??__EaPrecisionData@@YAXXZ$5 10006325 f   AdvUnitsDlg.obj
+ 0001:0000532f       __unwindfunclet$??__EaPrecisionData@@YAXXZ$6 1000632f f   AdvUnitsDlg.obj
+ 0001:0000533a       __unwindfunclet$??__EaPrecisionData@@YAXXZ$7 1000633a f   AdvUnitsDlg.obj
+ 0001:00005344       __unwindfunclet$??__EaPrecisionData@@YAXXZ$8 10006344 f   AdvUnitsDlg.obj
+ 0001:0000534f       __unwindfunclet$??__EaPrecisionData@@YAXXZ$9 1000634f f   AdvUnitsDlg.obj
+ 0001:00005359       __unwindfunclet$??__EaPrecisionData@@YAXXZ$10 10006359 f   AdvUnitsDlg.obj
+ 0001:00005364       __unwindfunclet$??__EaPrecisionData@@YAXXZ$11 10006364 f   AdvUnitsDlg.obj
+ 0001:0000536e       __unwindfunclet$??__EaPrecisionData@@YAXXZ$12 1000636e f   AdvUnitsDlg.obj
+ 0001:00005379       __unwindfunclet$??__EaPrecisionData@@YAXXZ$13 10006379 f   AdvUnitsDlg.obj
+ 0001:00005383       __unwindfunclet$??__EaPrecisionData@@YAXXZ$14 10006383 f   AdvUnitsDlg.obj
+ 0001:0000538e       __unwindfunclet$??__EaPrecisionData@@YAXXZ$15 1000638e f   AdvUnitsDlg.obj
+ 0001:00005398       __unwindfunclet$??__EaPrecisionData@@YAXXZ$16 10006398 f   AdvUnitsDlg.obj
+ 0001:000053a3       __unwindfunclet$??__EaPrecisionData@@YAXXZ$17 100063a3 f   AdvUnitsDlg.obj
+ 0001:000053ad       __unwindfunclet$??__EaPrecisionData@@YAXXZ$18 100063ad f   AdvUnitsDlg.obj
+ 0001:000053b8       __unwindfunclet$??__EaPrecisionData@@YAXXZ$19 100063b8 f   AdvUnitsDlg.obj
+ 0001:000053c2       __unwindfunclet$??__EaPrecisionData@@YAXXZ$20 100063c2 f   AdvUnitsDlg.obj
+ 0001:000053cd       __unwindfunclet$??__EaPrecisionData@@YAXXZ$21 100063cd f   AdvUnitsDlg.obj
+ 0001:000053d7       __unwindfunclet$??__EaPrecisionData@@YAXXZ$22 100063d7 f   AdvUnitsDlg.obj
+ 0001:000053e2       __unwindfunclet$??__EaPrecisionData@@YAXXZ$23 100063e2 f   AdvUnitsDlg.obj
+ 0001:000053ec       __ehhandler$??__EaPrecisionData@@YAXXZ 100063ec f   AdvUnitsDlg.obj
+ 0001:00005410       __unwindfunclet$??__EaUnitData@@YAXXZ$0 10006410 f   AdvUnitsDlg.obj
+ 0001:0000541b       __unwindfunclet$??__EaUnitData@@YAXXZ$1 1000641b f   AdvUnitsDlg.obj
+ 0001:00005425       __unwindfunclet$??__EaUnitData@@YAXXZ$2 10006425 f   AdvUnitsDlg.obj
+ 0001:00005430       __unwindfunclet$??__EaUnitData@@YAXXZ$3 10006430 f   AdvUnitsDlg.obj
+ 0001:0000543a       __unwindfunclet$??__EaUnitData@@YAXXZ$4 1000643a f   AdvUnitsDlg.obj
+ 0001:00005445       __unwindfunclet$??__EaUnitData@@YAXXZ$5 10006445 f   AdvUnitsDlg.obj
+ 0001:0000544f       __unwindfunclet$??__EaUnitData@@YAXXZ$6 1000644f f   AdvUnitsDlg.obj
+ 0001:0000545a       __unwindfunclet$??__EaUnitData@@YAXXZ$7 1000645a f   AdvUnitsDlg.obj
+ 0001:00005464       __unwindfunclet$??__EaUnitData@@YAXXZ$8 10006464 f   AdvUnitsDlg.obj
+ 0001:0000546f       __unwindfunclet$??__EaUnitData@@YAXXZ$9 1000646f f   AdvUnitsDlg.obj
+ 0001:00005479       __unwindfunclet$??__EaUnitData@@YAXXZ$10 10006479 f   AdvUnitsDlg.obj
+ 0001:00005484       __unwindfunclet$??__EaUnitData@@YAXXZ$11 10006484 f   AdvUnitsDlg.obj
+ 0001:0000548e       __unwindfunclet$??__EaUnitData@@YAXXZ$12 1000648e f   AdvUnitsDlg.obj
+ 0001:00005499       __unwindfunclet$??__EaUnitData@@YAXXZ$13 10006499 f   AdvUnitsDlg.obj
+ 0001:000054a3       __unwindfunclet$??__EaUnitData@@YAXXZ$14 100064a3 f   AdvUnitsDlg.obj
+ 0001:000054ae       __unwindfunclet$??__EaUnitData@@YAXXZ$15 100064ae f   AdvUnitsDlg.obj
+ 0001:000054b8       __unwindfunclet$??__EaUnitData@@YAXXZ$16 100064b8 f   AdvUnitsDlg.obj
+ 0001:000054c3       __unwindfunclet$??__EaUnitData@@YAXXZ$17 100064c3 f   AdvUnitsDlg.obj
+ 0001:000054cd       __unwindfunclet$??__EaUnitData@@YAXXZ$18 100064cd f   AdvUnitsDlg.obj
+ 0001:000054d8       __unwindfunclet$??__EaUnitData@@YAXXZ$19 100064d8 f   AdvUnitsDlg.obj
+ 0001:000054e2       __unwindfunclet$??__EaUnitData@@YAXXZ$20 100064e2 f   AdvUnitsDlg.obj
+ 0001:000054ed       __unwindfunclet$??__EaUnitData@@YAXXZ$21 100064ed f   AdvUnitsDlg.obj
+ 0001:000054f7       __unwindfunclet$??__EaUnitData@@YAXXZ$22 100064f7 f   AdvUnitsDlg.obj
+ 0001:00005502       __unwindfunclet$??__EaUnitData@@YAXXZ$23 10006502 f   AdvUnitsDlg.obj
+ 0001:0000550c       __unwindfunclet$??__EaUnitData@@YAXXZ$24 1000650c f   AdvUnitsDlg.obj
+ 0001:00005517       __unwindfunclet$??__EaUnitData@@YAXXZ$25 10006517 f   AdvUnitsDlg.obj
+ 0001:00005521       __ehhandler$??__EaUnitData@@YAXXZ 10006521 f   AdvUnitsDlg.obj
+ 0001:00005540       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$0 10006540 f   AdvUnitsDlg.obj
+ 0001:0000554b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$1 1000654b f   AdvUnitsDlg.obj
+ 0001:00005556       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$2 10006556 f   AdvUnitsDlg.obj
+ 0001:00005560       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$3 10006560 f   AdvUnitsDlg.obj
+ 0001:0000556b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$4 1000656b f   AdvUnitsDlg.obj
+ 0001:00005576       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$5 10006576 f   AdvUnitsDlg.obj
+ 0001:00005580       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$6 10006580 f   AdvUnitsDlg.obj
+ 0001:0000558b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$7 1000658b f   AdvUnitsDlg.obj
+ 0001:00005596       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$8 10006596 f   AdvUnitsDlg.obj
+ 0001:000055a0       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$9 100065a0 f   AdvUnitsDlg.obj
+ 0001:000055ab       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$10 100065ab f   AdvUnitsDlg.obj
+ 0001:000055b6       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$11 100065b6 f   AdvUnitsDlg.obj
+ 0001:000055c0       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$12 100065c0 f   AdvUnitsDlg.obj
+ 0001:000055cb       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$13 100065cb f   AdvUnitsDlg.obj
+ 0001:000055d6       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$14 100065d6 f   AdvUnitsDlg.obj
+ 0001:000055e0       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$15 100065e0 f   AdvUnitsDlg.obj
+ 0001:000055eb       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$16 100065eb f   AdvUnitsDlg.obj
+ 0001:000055f6       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$17 100065f6 f   AdvUnitsDlg.obj
+ 0001:00005600       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$18 10006600 f   AdvUnitsDlg.obj
+ 0001:0000560b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$19 1000660b f   AdvUnitsDlg.obj
+ 0001:00005616       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$20 10006616 f   AdvUnitsDlg.obj
+ 0001:00005620       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$21 10006620 f   AdvUnitsDlg.obj
+ 0001:0000562b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$22 1000662b f   AdvUnitsDlg.obj
+ 0001:00005636       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$23 10006636 f   AdvUnitsDlg.obj
+ 0001:00005640       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$24 10006640 f   AdvUnitsDlg.obj
+ 0001:0000564b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$25 1000664b f   AdvUnitsDlg.obj
+ 0001:00005656       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$26 10006656 f   AdvUnitsDlg.obj
+ 0001:00005660       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$27 10006660 f   AdvUnitsDlg.obj
+ 0001:0000566b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$28 1000666b f   AdvUnitsDlg.obj
+ 0001:00005676       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$29 10006676 f   AdvUnitsDlg.obj
+ 0001:00005680       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$30 10006680 f   AdvUnitsDlg.obj
+ 0001:0000568b       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$31 1000668b f   AdvUnitsDlg.obj
+ 0001:00005696       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$32 10006696 f   AdvUnitsDlg.obj
+ 0001:000056a0       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$33 100066a0 f   AdvUnitsDlg.obj
+ 0001:000056ab       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$34 100066ab f   AdvUnitsDlg.obj
+ 0001:000056b6       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$35 100066b6 f   AdvUnitsDlg.obj
+ 0001:000056c0       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$36 100066c0 f   AdvUnitsDlg.obj
+ 0001:000056cb       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$37 100066cb f   AdvUnitsDlg.obj
+ 0001:000056d6       __unwindfunclet$??__EaUnitPrecData@@YAXXZ$38 100066d6 f   AdvUnitsDlg.obj
+ 0001:000056e0       __ehhandler$??__EaUnitPrecData@@YAXXZ 100066e0 f   AdvUnitsDlg.obj
+ 0001:00005700       __unwindfunclet$?InitializeForSEAccessories@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJPAUIStorage@@PAXVGUserText@@@Z$0 10006700 f   CMNUNITS.obj
+ 0001:00005709       __ehhandler$?InitializeForSEAccessories@IJPropSheetExtInitImp@JCommonUnitsPropSheetExt@@UAGJPAUIStorage@@PAXVGUserText@@@Z 10006709 f   CMNUNITS.obj
+ 0001:00005730       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$0 10006730 f   CMNUNITS.obj
+ 0001:0000573c       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$1 1000673c f   CMNUNITS.obj
+ 0001:0000574b       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$2 1000674b f   CMNUNITS.obj
+ 0001:0000575a       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$3 1000675a f   CMNUNITS.obj
+ 0001:00005769       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$4 10006769 f   CMNUNITS.obj
+ 0001:00005778       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$5 10006778 f   CMNUNITS.obj
+ 0001:00005787       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$6 10006787 f   CMNUNITS.obj
+ 0001:00005796       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$7 10006796 f   CMNUNITS.obj
+ 0001:000057a5       __unwindfunclet$??1JCommonUnitsPropSheetExt@@QAE@XZ$8 100067a5 f   CMNUNITS.obj
+ 0001:000057b4       __ehhandler$??1JCommonUnitsPropSheetExt@@QAE@XZ 100067b4 f   CMNUNITS.obj
+ 0001:000057d0       __unwindfunclet$?SetComboBoxes@@YAHHPAUHWND__@@I@Z$0 100067d0 f   CMNUNITS.obj
+ 0001:000057d9       __unwindfunclet$?SetComboBoxes@@YAHHPAUHWND__@@I@Z$1 100067d9 f   CMNUNITS.obj
+ 0001:000057e2       __unwindfunclet$?SetComboBoxes@@YAHHPAUHWND__@@I@Z$2 100067e2 f   CMNUNITS.obj
+ 0001:000057eb       __ehhandler$?SetComboBoxes@@YAHHPAUHWND__@@I@Z 100067eb f   CMNUNITS.obj
+ 0001:00005810       __unwindfunclet$?CommonUnitsPropPageDlg_OnAdvancedUnits@@YAHXZ$0 10006810 f   CMNUNITS.obj
+ 0001:0000581b       __ehhandler$?CommonUnitsPropPageDlg_OnAdvancedUnits@@YAHXZ 1000681b f   CMNUNITS.obj
+ 0001:00005840       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$0 10006840 f   CMNUNITS.obj
+ 0001:0000584c       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$1 1000684c f   CMNUNITS.obj
+ 0001:0000585b       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$2 1000685b f   CMNUNITS.obj
+ 0001:0000586a       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$3 1000686a f   CMNUNITS.obj
+ 0001:00005879       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$4 10006879 f   CMNUNITS.obj
+ 0001:00005888       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$5 10006888 f   CMNUNITS.obj
+ 0001:00005897       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$6 10006897 f   CMNUNITS.obj
+ 0001:000058a6       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$7 100068a6 f   CMNUNITS.obj
+ 0001:000058b5       __unwindfunclet$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z$8 100068b5 f   CMNUNITS.obj
+ 0001:000058c4       __ehhandler$??0JCommonUnitsPropSheetExt@@QAE@PAUIUnknown@@@Z 100068c4 f   CMNUNITS.obj
+ 0001:000058e0       __unwindfunclet$?CreateInstance@JCommonUnitsPropSheetExtClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$4 100068e0 f   CMNUNITS.obj
+ 0001:000058eb       __ehhandler$?CreateInstance@JCommonUnitsPropSheetExtClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100068eb f   CMNUNITS.obj
+ 0001:00005910       __unwindfunclet$_DllGetClassObject@12$3 10006910 f   DLLFUNC.obj
+ 0001:0000591b       __ehhandler$_DllGetClassObject@12 1000691b f   DLLFUNC.obj
+ 0001:00005940       ??__EaPrecisionData@@YAXXZ 10006940 f   AdvUnitsDlg.obj
+ 0001:00005b30       ??__EaUnitData@@YAXXZ      10006b30 f   AdvUnitsDlg.obj
+ 0001:00005f80       ??__EaUnitPrecData@@YAXXZ  10006f80 f   AdvUnitsDlg.obj
+ 0001:00006200       ??__EGNULL_Camera@@YAXXZ   10007200 f   precomp.obj
+ 0001:00006220       ??__EGNULL_CAMERA@@YAXXZ   10007220 f   precomp.obj
+ 0001:00006240       ??__EGID_Camera@@YAXXZ     10007240 f   precomp.obj
+ 0001:00006260       ??__EGID_CAMERA@@YAXXZ     10007260 f   precomp.obj
+ 0001:00006280       ??__FaPrecisionData@@YAXXZ 10007280 f   AdvUnitsDlg.obj
+ 0001:000062a0       ??__FaUnitData@@YAXXZ      100072a0 f   AdvUnitsDlg.obj
+ 0001:000062c0       ??__FaUnitPrecData@@YAXXZ  100072c0 f   AdvUnitsDlg.obj

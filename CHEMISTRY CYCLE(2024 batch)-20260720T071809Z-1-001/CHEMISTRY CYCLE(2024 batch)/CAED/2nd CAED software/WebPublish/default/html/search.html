@@ -1,0 +1,111 @@
+<HTML>
+<head>
+<STYLE type='text/css'>@import url("styles.css");</STYLE>
+<script LANGUAGE="JavaScript" src="util.js"></script>
+<SCRIPT language="javascript">top_level.instr = window;</script>
+<SCRIPT language="javascript">
+
+function findform( selectLabel, searchValue ) {
+	if ( searchValue != "" ) SelectObjectByProperty( selectLabel, searchValue )
+	searchID.value = ""
+}
+
+// Color Functions
+
+function GetColors( ) {
+if ( CheckWebView() ) {
+	top_level.busy = 1
+	getColors2( top_level.objectTree  )
+	top_level.busy = 0
+}
+}
+function getColors2( treeNode ) {
+	var i = 0;
+	if (treeNode.nodeArray.length > 0 ) {
+		for (i=0; i<treeNode.nodeArray.length;i++) {
+			var id = treeNode.nodeArray[i].nodeId
+			if (typeof (top_level.objectList[id].color) == "undefined") {
+				top_level.IPAControl.Select( id )
+				top_level.objectList[id].color = top_level.IPAControl.getColor()
+				top_level.IPAControl.DeselectAll();
+			}
+			if (treeNode.nodeArray[i].nodeLeaf) {
+			} else {
+				getColors2(treeNode.nodeArray[i] )
+			}
+		}
+	}
+}
+
+function ResetColors( ) {
+if ( CheckWebView() ) {
+	DeselectAll();
+	top_level.busy = 1
+	resetColors2( top_level.objectTree  )
+	top_level.busy = 0
+}
+}
+function resetColors2( treeNode ) {
+	var i = 0;
+	if (treeNode.nodeArray.length > 0 ) {
+		for (i=0; i<treeNode.nodeArray.length;i++) {
+			var id = treeNode.nodeArray[i].nodeId
+			top_level.IPAControl.Select( id )
+			top_level.IPAControl.setColor( top_level.objectList[id].color )
+			top_level.IPAControl.DeselectAll();
+			if (treeNode.nodeArray[i].nodeLeaf) {
+			} else {
+				resetColors2(treeNode.nodeArray[i] )
+			}
+		}
+	}
+}
+
+// actually get the colors here
+GetColors ()
+
+</script>
+</head>
+<BODY class="props">
+<span class='instr'>
+<a href='toc.html'><center>Return to Table of Contents</center></a>
+</span><br>
+<div class='comment'>Search</div><br>
+<span class="compname">Search:<br> 
+<select id=selectChoice name=select >
+<script language="JavaScript">
+fillSearchProps( document )
+</script>
+</select>
+<br>contains<br><input type=text name=filename size="10" id="searchID" >
+<br>
+<input type=button value="Go" onclick="findform( selectChoice.value,searchID.value )">
+</span>
+<br><br>
+Color Selected Objects
+<br>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FF0000" onclick="javascript:SetColor('#FF0000')" >&nbsp;</td>
+    <td bgcolor="#00FF00" onclick="javascript:SetColor('#00FF00')">&nbsp;</td>
+    <td bgcolor="#0000FF" onclick="javascript:SetColor('#0000FF')">&nbsp;</td>
+    <td bgcolor="#FFFF00" onclick="javascript:SetColor('#FFFF00')" >&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CC0000" onclick="javascript:SetColor('#CC0000')">&nbsp;</td>
+    <td bgcolor="#66FFCC" onclick="javascript:SetColor('#66FFCC')">&nbsp;</td>
+    <td bgcolor="#0099FF" onclick="javascript:SetColor('#0099FF')">&nbsp;</td>
+    <td bgcolor="#FFCC99" onclick="javascript:SetColor('#FFCC99')">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FF33FF" onclick="javascript:SetColor('#FF33FF')">&nbsp;</td>
+    <td bgcolor="#336600" onclick="javascript:SetColor('#336600')">&nbsp;</td>
+    <td bgcolor="#66FFFF" onclick="javascript:SetColor('#66FFFF')">&nbsp;</td>
+    <td bgcolor="#FF9900" onclick="javascript:SetColor('#FF9900')">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<input type=button value="Reset Colors" onclick="javascript:ResetColors()">
+</body>
+</HTML>
+

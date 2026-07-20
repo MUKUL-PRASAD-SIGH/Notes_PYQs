@@ -1,0 +1,111 @@
+\\ Solid Edge PipeThreads.txt file.
+\\ The contents of this file populate lists on the options dialog of the Thread command.
+
+\\ This file must be located in the Solid Edge program directory.
+\\ For example: c:\Program Files\Solid Edge\Program\PipeThreads.txt
+
+\\ You can add sizes to the table by following the format:
+\\ For Straight Pipe threads...
+\\ outside pipe diameter ; internal minor diameter; external minor diameter; thread type
+\\ for Tapered Pipe Threads...
+\\ Outside Pipe Diameter ; Length for External Threads ; inside pipe diameter ; Length for Internal Threads ; Thread Height ; Thread Type External ; Thread Type Internal
+\\ Diameters are values and thread type is a string.
+\\ The delimiter is a semi colon. 
+\\ White spaces are ignored.
+\\ You can also delete sizes from the list.
+
+\\ If you edit the list you should copy the file before uninstalling Solid Edge. 
+
+\\ Beginning of Tapered Pipe Threads
+\\ Beginning of inch sizes
+BeginInch 
+
+\\Beginning of Straight Pipe Threads
+BeginStraightPipe
+0.4050 ; 0.3580 ; 0.3259  ; 1/8-27 NPSM
+0.5400 ; 0.4680 ; 0.4208  ; 1/4-18 NPSM
+0.6750 ; 0.6030 ; 0.5568  ; 3/8-18 NPSM
+0.8400 ; 0.7470 ; 0.6893  ; 1/2-14 NPSM
+1.0500 ; 0.9580 ; 0.9003  ; 3/4-14 NPSM
+1.3150 ; 1.2010 ; 1.1304  ; 1-11.5 NPSM
+1.6600 ; 1.5460 ; 1.4754  ; 1  1/4-11.5 NPSM
+1.9000 ; 1.7850 ; 1.7144  ; 1  1/2-11.5 NPSM
+2.3750 ; 2.2590 ; 2.1884  ; 2-11.5 NPSM
+2.8750 ; 2.7080 ; 2.6095  ; 2  1/2-8 NPSM
+3.5000 ; 3.3340 ; 3.2355  ; 3-8 NPSM
+4.0000 ; 3.8350 ; 3.7365  ; 3  1/2-8 NPSM
+4.5000 ; 4.3330 ; 4.2345  ; 4-8 NPSM
+5.5630 ; 5.3950 ; 5.2965  ; 5-8 NPSM
+6.6250 ; 6.4520 ; 6.3535  ; 6-8 NPSM
+EndStraightPipe
+
+BeginTaperPipe
+0.3125 ; 0.3896 ; 0.2642 ; 0.2711 ; 0.0296 ; 1/16-27 NPT ;  1/16-27 NPT
+0.4050 ; 0.3924 ; 0.3566 ; 0.2726 ; 0.0296 ; 1/8-27 NPT ; 1/8-27 NPT
+0.5400 ; 0.5946 ; 0.4670 ; 0.3945 ; 0.0444 ; 1/4-18 NPT ;  1/4-18 NPT
+0.6750 ; 0.6006 ; 0.6016 ; 0.4067 ; 0.0444 ; 3/8-18 NPT ;  3/8-18 NPT
+0.8400 ; 0.7815 ; 0.7450 ; 0.5343 ; 0.0571 ; 1/2-14 NPT ;  1/2-14 NPT
+1.0500 ; 0.7935 ; 0.9543 ; 0.5533 ; 0.0571 ; 3/4-14 NPT ;  3/4-14 NPT
+1.3150 ; 0.9845 ; 1.1973 ; 0.6609 ; 0.0696 ; 1-11.5 NPT; 1-11.5 NPT
+1.6600 ; 1.0085 ; 1.5408 ; 0.6809 ; 0.0696 ; 1  1/4-11.5 NPT ; 1  1/4-11.5 NPT
+1.9000 ; 1.0252 ; 1.7798 ; 0.6809 ; 0.0696 ; 1  1/2-11.5 NPT ; 1  1/2-11.5 NPT
+2.3750 ; 1.0582 ; 2.2527 ; 0.6969 ; 0.0696 ; 2-11.5 NPT ;  2-11.5 NPT
+2.8750 ; 1.5712 ; 2.7039 ; 0.9320 ; 0.1000 ; 2  1/2-8 NPT ; 2  1/2-8 NPT
+3.5000 ; 1.6337 ; 3.3250 ; 1.0160 ; 0.1000 ; 3-8 NPT ; 3-8 NPT
+4.0000 ; 1.6837 ; 3.8219 ; 1.0710 ; 0.1000 ; 3  1/2-8 NPT ; 3  1/2-8 NPT
+4.5000 ; 1.7337 ; 4.3188 ; 1.0940 ; 0.1000 ; 4-8 NPT ; 4-8 NPT
+5.5630 ; 1.8400 ; 5.3751 ; 1.1870 ; 0.1000 ; 5-8 NPT ; 5-8 NPT
+6.6250 ; 1.9462 ; 6.4305 ; 1.2080 ; 0.1000 ; 6-8 NPT ; 6-8 NPT
+8.6250 ; 2.1462 ; 8.4180 ; 1.3130 ; 0.1000 ; 8-8 NPT ; 8-8 NPT
+10.750 ; 2.3587 ; 10.5297 ; 1.4600 ; 0.1000 ; 10-8 NPT ; 10-8 NPT
+12.750 ; 2.5587 ; 12.5172 ; 1.6100 ; 0.1000 ; 12-8 NPT ; 12-8 NPT
+14.000 ; 2.6837 ; 13.7594 ; 1.8120 ; 0.1000 ; 14-8 NPT ;  14-8 NPT
+16.000 ; 2.8837 ; 15.7469 ; 2.0620 ; 0.1000 ; 16-8 NPT ; 16-8 NPT
+18.000 ; 3.0837 ; 17.7344 ; 2.2500 ; 0.1000; 18-8 NPT ; 18-8 NPT
+20.000 ; 3.2837 ; 19.7219 ; 2.3750 ; 0.1000 ; 20-8 NPT ; 20-8 NPT
+24.000 ; 3.6837 ; 23.6969 ; 2.6250 ; 0.1000 ; 24-8 NPT ;  24-8 NPT
+EndTaperPipe
+EndInch
+\\ End of inch sizes.
+
+\\ Beginning of metric sizes.
+BeginMetric
+BeginStraightPipe
+8.5   ; 6.561   ; 6.561   ; Rp 1/16-28
+10.5  ; 8.566   ; 8.566   ; Rp 1/8-28
+13.8  ; 11.445  ; 11.445  ; Rp 1/4-19
+17.3  ; 14.950  ; 14.950  ; Rp 3/8-19
+21.7  ; 18.531  ; 18.531  ; Rp 1/2-14
+27.2  ; 24.117  ; 24.117  ; Rp 3/4-14
+34.0  ; 30.291  ; 30.291  ; Rp 1-11
+42.7  ; 38.952  ; 38.952  ; Rp 1 1/4-11
+48.6  ; 44.845  ; 44.845  ; Rp 1 1/2-11
+60.5  ; 56.656  ; 56.656  ; Rp 2-11
+76.3  ; 72.226  ; 72.226  ; Rp 2 1/2-11
+89.1  ; 84.926  ; 84.926  ; Rp 3-11
+114.3 ; 110.072 ; 110.072 ; Rp 4-11
+139.8 ; 135.472 ; 135.472 ; Rp 5-11
+165.2 ; 160.872 ; 160.872 ; Rp 6-11
+EndStraightPipe
+
+BeginTaperPipe
+8.5   ; 7.4  ; 7.142   ; 6.2  ; 0.581 ; R 1/16-28  ; Rc 1/16-28
+10.5  ; 7.4  ; 9.147   ; 6.2  ; 0.581 ; R 1/8-28   ; Rc 1/8-28
+13.8  ; 11.0 ; 12.301  ; 9.4  ; 0.856 ; R 1/4-19   ; Rc 1/4-19
+17.3  ; 11.4 ; 15.806  ; 9.7  ; 0.856 ; R 3/8-19   ; Rc 3/8-19
+21.7  ; 15.0 ; 19.793  ; 12.7 ; 1.162 ; R 1/2-14   ; Rc 1/2-14
+27.2  ; 16.3 ; 25.279  ; 14.1 ; 1.162 ; R 3/4-14   ; Rc 3/4-14
+34.0  ; 19.1 ; 31.770  ; 16.2 ; 1.479 ; R 1-11     ; Rc 1-11
+42.7  ; 21.4 ; 40.431  ; 18.5 ; 1.479 ; R 1 1/4-11 ; Rc 1 1/4-11
+48.6  ; 21.4 ; 46.324  ; 18.5 ; 1.479 ; R 1 1/2-11 ; Rc 1 1/2-11
+60.5  ; 25.7 ; 58.135  ; 22.8 ; 1.479 ; R 2-11     ; Rc 2-11
+76.3  ; 30.2 ; 73.705  ; 26.7 ; 1.479 ; R 2 1/2-11 ; Rc 2 1/2-11
+89.1  ; 33.3 ; 86.405  ; 29.8 ; 1.479 ; R 3-11     ; Rc 3-11
+114.3 ; 39.3 ; 111.551 ; 35.8 ; 1.479 ; R 4-11     ; Rc 4-11
+139.8 ; 43.6 ; 136.951 ; 40.1 ; 1.479 ; R 5-11     ; Rc 5-11
+165.2 ; 43.6 ; 162.351 ; 40.1 ; 1.479 ; R 6-11     ; Rc 6-11
+EndTaperPipe
+EndMetric
+\\ End of metric Sizes
+\\End of Taper Pipe Threads
+

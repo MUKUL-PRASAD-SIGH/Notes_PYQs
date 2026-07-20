@@ -1,0 +1,449 @@
+ IESTL
+
+ Timestamp is 46b3a3ee (Fri Aug 03 16:53:50 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002028H .text                   CODE
+ 0001:00002030 00000056H .text$x                 CODE
+ 0002:00000000 00000138H .idata$5                DATA
+ 0002:00000138 00000004H .CRT$XCA                DATA
+ 0002:0000013c 00000004H .CRT$XCZ                DATA
+ 0002:00000140 00000004H .CRT$XIA                DATA
+ 0002:00000144 00000004H .CRT$XIAA               DATA
+ 0002:00000148 00000004H .CRT$XIZ                DATA
+ 0002:00000150 00001410H .rdata                  DATA
+ 0002:00001560 0000002fH .rdata$debug            DATA
+ 0002:00001590 000001d8H .rdata$r                DATA
+ 0002:00001770 0000000cH .rdata$sxdata           DATA
+ 0002:0000177c 00000004H .rtc$IAA                DATA
+ 0002:00001780 00000004H .rtc$IZZ                DATA
+ 0002:00001784 00000004H .rtc$TAA                DATA
+ 0002:00001788 00000004H .rtc$TZZ                DATA
+ 0002:00001790 000000fcH .xdata$x                DATA
+ 0002:0000188c 00000078H .idata$2                DATA
+ 0002:00001904 00000014H .idata$3                DATA
+ 0002:00001918 00000138H .idata$4                DATA
+ 0002:00001a50 000005f6H .idata$6                DATA
+ 0002:00002050 00000068H .edata                  DATA
+ 0003:00000000 000000f8H .data                   DATA
+ 0003:000000f8 0000035cH .bss                    DATA
+ 0004:00000000 000000a0H .rsrc$01                DATA
+ 0004:000000a0 00000590H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000003       ___safe_se_handler_count   00000003     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?GetPointsFromFacetData@@YA_NABUPK_TOPOL_facet_r_s@@HQAUtagGPosition@@AAUtagGUnitVector@@@Z 10001030 f   cfutil.obj
+ 0001:00000360       ??$strcpy@$0BAA@@@YAPADAAY0BAA@DPBD@Z 10001360 f i cfutil.obj
+ 0001:00000390       ??$sprintf@$0GE@@@YAHAAY0GE@DPBDZZ 10001390 f i cfutil.obj
+ 0001:000003b0       ?Cf_SavebodyAsFacets@@YAJHHPAU_iobuf@@NIN@Z 100013b0 f   cfutil.obj
+ 0001:00000ac0       _IsEqualGUID               10001ac0 f i server.obj
+ 0001:00000b60       ?ServerGetNumberOfObjects@@YAKXZ 10001b60 f   server.obj
+ 0001:00000b70       ?ServerGetNumberOfLocks@@YAKXZ 10001b70 f   server.obj
+ 0001:00000b80       ?ServerIncrementNumberOfObjects@@YAXXZ 10001b80 f   server.obj
+ 0001:00000b90       ?ServerDecrementNumberOfObjects@@YAXXZ 10001b90 f   server.obj
+ 0001:00000ba0       ?ServerIncrementNumberOfLocks@@YAXXZ 10001ba0 f   server.obj
+ 0001:00000bb0       ?ServerDecrementNumberOfLocks@@YAXXZ 10001bb0 f   server.obj
+ 0001:00000bc0       _DllGetClassObject@12      10001bc0 f   server.obj
+ 0001:00000cd0       _DllCanUnloadNow@0         10001cd0 f   server.obj
+ 0001:00000cf0       ?QueryInterface@JWriteStlClassFactory@@UAGJABU_GUID@@PAPAX@Z 10001cf0 f   writestl.obj
+ 0001:00000d40       ?AddRef@JWriteStl@@UAGKXZ  10001d40 f   writestl.obj
+ 0001:00000d40       ?AddRef@JWriteStlClassFactory@@UAGKXZ 10001d40 f   writestl.obj
+ 0001:00000d50       ?LockServer@JWriteStlClassFactory@@UAGJH@Z 10001d50 f   writestl.obj
+ 0001:00000d70       ??1JWriteStlClassFactory@@QAE@XZ 10001d70 f   writestl.obj
+ 0001:00000d80       ?QueryInterface@JWriteStl@@UAGJABU_GUID@@PAPAX@Z 10001d80 f   writestl.obj
+ 0001:00000df0       ?QueryInterface@ImpIJWriteData@JWriteStl@@UAGJABU_GUID@@PAPAX@Z 10001df0 f   writestl.obj
+ 0001:00000e10       ?AddRef@ImpIJWriteData@JWriteStl@@UAGKXZ 10001e10 f   writestl.obj
+ 0001:00000e30       ?Release@ImpIJWriteData@JWriteStl@@UAGKXZ 10001e30 f   writestl.obj
+ 0001:00000e50       ?SetConfiguration@ImpIJWriteData@JWriteStl@@UAGHPBDGPAX@Z 10001e50 f   writestl.obj
+ 0001:00000ea0       ?OpenFile@ImpIJWriteData@JWriteStl@@UAGJPAXHPBD@Z 10001ea0 f   writestl.obj
+ 0001:00000fa0       ?CloseFile@ImpIJWriteData@JWriteStl@@UAGHXZ 10001fa0 f   writestl.obj
+ 0001:00000ff0       ?SetTransformation@ImpIJWriteData@JWriteStl@@UAGHPAX@Z 10001ff0 f   writestl.obj
+ 0001:00001000       ?GetTransformation@ImpIJWriteData@JWriteStl@@UAGHPAPAX@Z 10002000 f   writestl.obj
+ 0001:00001010       ?GetSupportedInputFormats@ImpIJWriteData@JWriteStl@@UAGHPAG@Z 10002010 f   writestl.obj
+ 0001:00001030       ?StartLogging@ImpIJWriteData@JWriteStl@@UAGJH@Z 10002030 f   writestl.obj
+ 0001:00001050       ?StopLogging@ImpIJWriteData@JWriteStl@@UAGJXZ 10002050 f   writestl.obj
+ 0001:00001070       ?GetEstimatedProcessingTimeOfPutGraphics@ImpIJWriteData@JWriteStl@@UAGJGHPAK@Z 10002070 f   writestl.obj
+ 0001:00001070       ?PutGlobalData@ImpIJWriteData@JWriteStl@@UAGJGPAXPAUIJReadData@@@Z 10002070 f   writestl.obj
+ 0001:00001080       ?PutGraphics@ImpIJWriteData@JWriteStl@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z 10002080 f   writestl.obj
+ 0001:00001490       ?PutSymbolDefinitions@ImpIJWriteData@JWriteStl@@UAGJGHPAPAXPAUIJReadData@@@Z 10002490 f   writestl.obj
+ 0001:000014a0       ??1JWriteStl@@QAE@XZ       100024a0 f   writestl.obj
+ 0001:00001520       ?Initialize@JWriteStl@@QAEKXZ 10002520 f   writestl.obj
+ 0001:00001530       ?Release@JWriteStl@@UAGKXZ 10002530 f   writestl.obj
+ 0001:00001560       ?Release@JWriteStlClassFactory@@UAGKXZ 10002560 f   writestl.obj
+ 0001:00001590       ??0JWriteStlClassFactory@@QAE@XZ 10002590 f   writestl.obj
+ 0001:000015a0       ??0JWriteStl@@QAE@PAUIUnknown@@@Z 100025a0 f   writestl.obj
+ 0001:00001610       ?CreateInstance@JWriteStlClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10002610 f   writestl.obj
+ 0001:000016f0       ?CFGmemoryAvailable@@YAHHPADH@Z 100026f0 f   config:config.dll
+ 0001:000016f6       _PK_MEMORY_free            100026f6 f   pskernel:PSKERNEL.dll
+ 0001:000016fc       _PK_MEMORY_alloc           100026fc f   pskernel:PSKERNEL.dll
+ 0001:00001702       _PK_ASSEMBLY_ask_parts_transfs 10002702 f   pskernel:PSKERNEL.dll
+ 0001:00001708       _PK_ASSEMBLY_make_level_assembly 10002708 f   pskernel:PSKERNEL.dll
+ 0001:0000170e       _PK_ENTITY_ask_class       1000270e f   pskernel:PSKERNEL.dll
+ 0001:00001714       _PK_ENTITY_delete          10002714 f   pskernel:PSKERNEL.dll
+ 0001:0000171a       _PK_TOPOL_facet_r_f        1000271a f   pskernel:PSKERNEL.dll
+ 0001:00001720       _PK_TOPOL_facet            10002720 f   pskernel:PSKERNEL.dll
+ 0001:00001726       _PK_PMARK_goto             10002726 f   pskernel:PSKERNEL.dll
+ 0001:0000172c       _PK_PARTITION_ask_pmark    1000272c f   pskernel:PSKERNEL.dll
+ 0001:00001732       _PK_PARTITION_set_current  10002732 f   pskernel:PSKERNEL.dll
+ 0001:00001738       _PK_ENTITY_ask_partition   10002738 f   pskernel:PSKERNEL.dll
+ 0001:0000173e       _PK_SESSION_ask_curr_partition 1000273e f   pskernel:PSKERNEL.dll
+ 0001:00001744       ?BuildVector@@YA?AUtagGVector@@NNN@Z 10002744 f   umath:umath.dll
+ 0001:0000174a       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000274a f   umath:umath.dll
+ 0001:00001750       ??D@YA?AUtagGVector@@ABU0@0@Z 10002750 f   umath:umath.dll
+ 0001:00001756       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10002756 f   umath:umath.dll
+ 0001:0000175c       _malloc                    1000275c f   MSVCRT:MSVCR80.dll
+ 0001:00001762       __callnewh                 10002762 f   MSVCRT:MSVCR80.dll
+ 0001:00001770       @__security_check_cookie@4 10002770 f   MSVCRT:secchk.obj
+ 0001:00001780       _memset                    10002780 f   MSVCRT:MSVCR80.dll
+ 0001:00001786       ??3@YAXPAX@Z               10002786 f   MSVCRT:MSVCR80.dll
+ 0001:0000178c       ___CxxFrameHandler3        1000278c f   MSVCRT:MSVCR80.dll
+ 0001:00001792       ??_Etype_info@@UAEPAXI@Z   10002792 f i MSVCRT:ti_inst.obj
+ 0001:00001828       __CRT_INIT@12              10002828 f   MSVCRT:crtdll.obj
+ 0001:00001add       __DllMainCRTStartup@12     10002add f   MSVCRT:crtdll.obj
+ 0001:00001afe       ___report_gsfailure        10002afe f   MSVCRT:gs_report.obj
+ 0001:00001c02       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10002c02 f   MSVCRT:ehvecdtr.obj
+ 0001:00001c60       ??_M@YGXPAXIHP6EX0@Z@Z     10002c60 f   MSVCRT:ehvecdtr.obj
+ 0001:00001cc3       ___clean_type_info_names   10002cc3 f   MSVCRT:tncleanup.obj
+ 0001:00001ccf       __onexit                   10002ccf f   MSVCRT:atonexit.obj
+ 0001:00001d6e       _atexit                    10002d6e f   MSVCRT:atonexit.obj
+ 0001:00001d80       __RTC_Initialize           10002d80 f   MSVCRT:initsect.obj
+ 0001:00001da4       __RTC_Terminate            10002da4 f   MSVCRT:initsect.obj
+ 0001:00001dd0       __ValidateImageBase        10002dd0 f   MSVCRT:pesect.obj
+ 0001:00001e00       __FindPESection            10002e00 f   MSVCRT:pesect.obj
+ 0001:00001e42       __IsNonwritableInCurrentImage 10002e42 f   MSVCRT:pesect.obj
+ 0001:00001eae       __initterm                 10002eae f   MSVCRT:MSVCR80.dll
+ 0001:00001eb4       __initterm_e               10002eb4 f   MSVCRT:MSVCR80.dll
+ 0001:00001eba       __amsg_exit                10002eba f   MSVCRT:MSVCR80.dll
+ 0001:00001ec0       ___CppXcptFilter           10002ec0 f   MSVCRT:MSVCR80.dll
+ 0001:00001ec6       _DllMain@12                10002ec6 f   MSVCRT:dllmain.obj
+ 0001:00001ee8       __SEH_prolog4              10002ee8 f   MSVCRT:sehprolg4.obj
+ 0001:00001f2d       __SEH_epilog4              10002f2d f   MSVCRT:sehprolg4.obj
+ 0001:00001f41       __except_handler4          10002f41 f   MSVCRT:chandler4gs.obj
+ 0001:00001f64       ___security_init_cookie    10002f64 f   MSVCRT:gs_support.obj
+ 0001:00001ff8       __crt_debugger_hook        10002ff8 f   MSVCRT:MSVCR80.dll
+ 0001:00001ffe       ?terminate@@YAXXZ          10002ffe f   MSVCRT:MSVCR80.dll
+ 0001:00002004       ??1type_info@@UAE@XZ       10003004 f   MSVCRT:MSVCR80.dll
+ 0001:00002004       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10003004 f   MSVCRT:MSVCR80.dll
+ 0001:0000200a       ___clean_type_info_names_internal 1000300a f   MSVCRT:MSVCR80.dll
+ 0001:00002010       __unlock                   10003010 f   MSVCRT:MSVCR80.dll
+ 0001:00002016       ___dllonexit               10003016 f   MSVCRT:MSVCR80.dll
+ 0001:0000201c       __lock                     1000301c f   MSVCRT:MSVCR80.dll
+ 0001:00002022       __except_handler4_common   10003022 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?ConvertUnitToUnit@@YAHINPANII@Z 10004000     jutil:JUtil.dll
+ 0002:00000004       \177JUtil_NULL_THUNK_DATA  10004004     jutil:JUtil.dll
+ 0002:00000008       __imp__GetCurrentProcessId@0 10004008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetCurrentThreadId@0 1000400c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetTickCount@0      10004010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__QueryPerformanceCounter@4 10004014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__DisableThreadLibraryCalls@4 10004018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__IsDebuggerPresent@0 1000401c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetSystemTimeAsFileTime@4 10004020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__UnhandledExceptionFilter@4 10004024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetCurrentProcess@0 10004028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__TerminateProcess@8  1000402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedCompareExchange@12 10004030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__Sleep@4             10004034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__OutputDebugStringA@4 10004038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__SetUnhandledExceptionFilter@4 1000403c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__InterlockedExchange@8 10004040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetPrivateProfileStringA@24 10004044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetLocaleInfoA@16   10004048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__SetLocaleInfoA@12   1000404c     kernel32:KERNEL32.dll
+ 0002:00000050       \177KERNEL32_NULL_THUNK_DATA 10004050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp____clean_type_info_names_internal 10004054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp____dllonexit         10004058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp___lock               1000405c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___onexit             10004060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp___except_handler4_common 10004064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp__strchr              10004068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp___unlock             1000406c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp__malloc              10004070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp___callnewh           10004074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp__strcpy_s            10004078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp__vsprintf_s          1000407c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp__fwrite              10004080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__fprintf             10004084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp__localeconv          10004088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp__setlocale           1000408c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp__memset              10004090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp_??3@YAXPAX@Z         10004094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp____CxxFrameHandler3  10004098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp__stricmp             1000409c     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___stricmp            1000409c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__fopen               100040a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp__fclose              100040a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp__atof                100040a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___encode_pointer     100040ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___malloc_crt         100040b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___encoded_null       100040b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp__free                100040b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___decode_pointer     100040bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___initterm           100040c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___initterm_e         100040c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___amsg_exit          100040c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___adjust_fdiv        100040cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp____CppXcptFilter     100040d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___crt_debugger_hook  100040d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp_?terminate@@YAXXZ    100040d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100040dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       \177MSVCR80_NULL_THUNK_DATA 100040e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__PK_PMARK_goto       100040e4     pskernel:PSKERNEL.dll
+ 0002:000000e8       __imp__PK_ENTITY_ask_class 100040e8     pskernel:PSKERNEL.dll
+ 0002:000000ec       __imp__PK_MEMORY_free      100040ec     pskernel:PSKERNEL.dll
+ 0002:000000f0       __imp__PK_MEMORY_alloc     100040f0     pskernel:PSKERNEL.dll
+ 0002:000000f4       __imp__PK_ASSEMBLY_ask_parts_transfs 100040f4     pskernel:PSKERNEL.dll
+ 0002:000000f8       __imp__PK_SESSION_ask_curr_partition 100040f8     pskernel:PSKERNEL.dll
+ 0002:000000fc       __imp__PK_ENTITY_ask_partition 100040fc     pskernel:PSKERNEL.dll
+ 0002:00000100       __imp__PK_PARTITION_set_current 10004100     pskernel:PSKERNEL.dll
+ 0002:00000104       __imp__PK_PARTITION_ask_pmark 10004104     pskernel:PSKERNEL.dll
+ 0002:00000108       __imp__PK_ENTITY_delete    10004108     pskernel:PSKERNEL.dll
+ 0002:0000010c       __imp__PK_TOPOL_facet      1000410c     pskernel:PSKERNEL.dll
+ 0002:00000110       __imp__PK_TOPOL_facet_r_f  10004110     pskernel:PSKERNEL.dll
+ 0002:00000114       __imp__PK_ASSEMBLY_make_level_assembly 10004114     pskernel:PSKERNEL.dll
+ 0002:00000118       \177PSKERNEL_NULL_THUNK_DATA 10004118     pskernel:PSKERNEL.dll
+ 0002:0000011c       __imp_?CFGmemoryAvailable@@YAHHPADH@Z 1000411c     config:config.dll
+ 0002:00000120       \177config_NULL_THUNK_DATA 10004120     config:config.dll
+ 0002:00000124       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10004124     umath:umath.dll
+ 0002:00000128       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 10004128     umath:umath.dll
+ 0002:0000012c       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1000412c     umath:umath.dll
+ 0002:00000130       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 10004130     umath:umath.dll
+ 0002:00000134       \177umath_NULL_THUNK_DATA  10004134     umath:umath.dll
+ 0002:00000138       ___xc_a                    10004138     MSVCRT:cinitexe.obj
+ 0002:0000013c       ___xc_z                    1000413c     MSVCRT:cinitexe.obj
+ 0002:00000140       ___xi_a                    10004140     MSVCRT:cinitexe.obj
+ 0002:00000148       ___xi_z                    10004148     MSVCRT:cinitexe.obj
+ 0002:0000016c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000416c     cfutil.obj
+ 0002:0000017c       ??_C@_02DKCKIIND@?$CFs?$AA@ 1000417c     cfutil.obj
+ 0002:00000180       ??_C@_0EH@HLIDJFEG@solid?5binary?5STL?5from?5Solid?5Edge@ 10004180     cfutil.obj
+ 0002:000001c8       ??_C@_09GAEEHCEA@endsolid?6?$AA@ 100041c8     cfutil.obj
+ 0002:000001d4       ??_C@_0M@LNPKNBHG@?5?5endfacet?6?$AA@ 100041d4     cfutil.obj
+ 0002:000001e0       ??_C@_0N@JHGGPDNB@?5?5?5?5endloop?6?$AA@ 100041e0     cfutil.obj
+ 0002:000001f0       ??_C@_0BJ@OGLCDGJF@?5?5?5?5?5?5vertex?5?5?5?$CFe?5?$CFe?5?$CFe?6?$AA@ 100041f0     cfutil.obj
+ 0002:0000020c       ??_C@_0BA@EGIGMJOG@?5?5?5?5outer?5loop?6?$AA@ 1000420c     cfutil.obj
+ 0002:0000021c       ??_C@_0BJ@DOCPCGLB@?5?5facet?5normal?5?$CFe?5?$CFe?5?$CFe?6?$AA@ 1000421c     cfutil.obj
+ 0002:00000238       ??_C@_0N@KHJEFGPK@solid?5ascii?6?$AA@ 10004238     cfutil.obj
+ 0002:00000248       ??_C@_07NEKHPBCG@English?$AA@ 10004248     cfutil.obj
+ 0002:00000250       ??_C@_01LFCBOECM@?4?$AA@   10004250     cfutil.obj
+ 0002:00000254       _IID_IJWriteData           10004254     guid.obj
+ 0002:00000264       _CLSID_JWriteStl           10004264     guid.obj
+ 0002:00000274       ??_C@_0CB@CJDFPOKG@Export?5Surface?5Plane?5Angle?5Value@ 10004274     writestl.obj
+ 0002:00000298       ??_C@_0BD@PNLBHEEG@Output?5File?5Format?$AA@ 10004298     writestl.obj
+ 0002:000002ac       ??_C@_0BH@IECCINFA@Export?5Tolerance?5Value?$AA@ 100042ac     writestl.obj
+ 0002:000002c4       ??_C@_0N@PONGCODM@Export?5Units?$AA@ 100042c4     writestl.obj
+ 0002:000002d4       ??_C@_0N@PANHANCL@Import?5Units?$AA@ 100042d4     writestl.obj
+ 0002:000002e4       ??_C@_0BJ@BGOBHFA@Import?5Make?5Base?5Feature?$AA@ 100042e4     writestl.obj
+ 0002:00000300       ??_C@_0BE@FCPGGPBN@Import?5Property?5map?$AA@ 10004300     writestl.obj
+ 0002:00000314       ??_C@_0L@OBJFLDAK@Time?5Stamp?$AA@ 10004314     writestl.obj
+ 0002:00000320       ??_C@_0BF@HLJDKAHE@Write?5Export?5Feature?$AA@ 10004320     writestl.obj
+ 0002:00000338       ??_C@_0BH@IOEKAGKJ@Write?5Feature?5To?5Color?$AA@ 10004338     writestl.obj
+ 0002:00000350       ??_C@_0BL@IGKFIBPC@Write?5Feature?5To?5Line?5Type?$AA@ 10004350     writestl.obj
+ 0002:0000036c       ??_C@_0BJ@EFAHJCME@Arrowhead?5Import?5Mapping?$AA@ 1000436c     writestl.obj
+ 0002:00000388       ??_C@_0BE@KHPHPGFP@Read?5Polyline?5Width?$AA@ 10004388     writestl.obj
+ 0002:0000039c       ??_C@_01GOHFPIOK@m?$AA@    1000439c     writestl.obj
+ 0002:000003a0       ??_C@_08CHBOKEDA@JT?5Units?$AA@ 100043a0     writestl.obj
+ 0002:000003ac       ??_C@_0BD@JJFEBOEJ@Healing?5and?5Sewing?$AA@ 100043ac     writestl.obj
+ 0002:000003c0       ??_C@_08FAGNKDJG@Relative?$AA@ 100043c0     writestl.obj
+ 0002:000003cc       ??_C@_0BJ@LPFIMAOP@Chordal?5Tolerance?5Option?$AA@ 100043cc     writestl.obj
+ 0002:000003e8       ??_C@_05CGKLNCBH@0?4001?$AA@ 100043e8     writestl.obj
+ 0002:000003f0       ??_C@_0BI@CBIMJFOD@Chordal?5Tolerance?5Value?$AA@ 100043f0     writestl.obj
+ 0002:00000408       ??_C@_0M@GENAFPDI@Part?5Layers?$AA@ 10004408     writestl.obj
+ 0002:00000414       ??_C@_0BG@GMNFDLGE@Current?5Configuration?$AA@ 10004414     writestl.obj
+ 0002:0000042c       ??_C@_0L@FOPFONEP@Map?5Colors?$AA@ 1000442c     writestl.obj
+ 0002:00000438       ??_C@_0BF@KKOLLPHF@Translate?5Background?$AA@ 10004438     writestl.obj
+ 0002:00000450       ??_C@_0BI@MFGGFIDK@Background?5On?5File?5Open?$AA@ 10004450     writestl.obj
+ 0002:00000468       ??_C@_0BC@DJCMOLJP@RecognizeFeatures?$AA@ 10004468     writestl.obj
+ 0002:0000047c       ??_C@_0M@LPOJEKPL@ProE?5Flavor?$AA@ 1000447c     writestl.obj
+ 0002:00000488       ??_C@_0N@HODFCELD@Catia?5Flavor?$AA@ 10004488     writestl.obj
+ 0002:00000498       ??_C@_0BL@JNBEGPMO@Stringently?5Check?5Surfaces?$AA@ 10004498     writestl.obj
+ 0002:000004b4       ??_C@_01GBGANLPD@0?$AA@    100044b4     writestl.obj
+ 0002:000004b8       ??_C@_0BG@KCANDBPI@Sew?5Imported?5Surfaces?$AA@ 100044b8     writestl.obj
+ 0002:000004d0       ??_C@_0BG@DBKJODPG@Read?5Bounded?5Surfaces?$AA@ 100044d0     writestl.obj
+ 0002:000004e8       ??_C@_0BJ@FEMKLCAN@Include?5Precise?5Geometry?$AA@ 100044e8     writestl.obj
+ 0002:00000504       ??_C@_0BN@NOOPPGPK@Trim?5Curve?5Preference?5Export?$AA@ 10004504     writestl.obj
+ 0002:00000524       ??_C@_0BN@EKFEAPKG@Trim?5Curve?5Preference?5Import?$AA@ 10004524     writestl.obj
+ 0002:00000544       ??_C@_0BA@NNHGKEDJ@Save?5Preference?$AA@ 10004544     writestl.obj
+ 0002:00000554       ??_C@_0O@IDDDOBKM@Import?5Bodies?$AA@ 10004554     writestl.obj
+ 0002:00000564       ??_C@_01EKENIIDA@3?$AA@    10004564     writestl.obj
+ 0002:00000568       ??_C@_09GBPDBPAF@Export?5As?$AA@ 10004568     writestl.obj
+ 0002:00000574       ??_C@_01HIHLOKLC@1?$AA@    10004574     writestl.obj
+ 0002:00000578       ??_C@_05CFLIFMAE@Units?$AA@ 10004578     writestl.obj
+ 0002:00000580       ??_C@_0BE@NMCKNGJH@Write?5Layer?5Locates?$AA@ 10004580     writestl.obj
+ 0002:00000594       ??_C@_0BF@GKCDCOKJ@Write?5Layer?5Displays?$AA@ 10004594     writestl.obj
+ 0002:000005ac       ??_C@_0BC@FGHJBLN@Write?5Layer?5Names?$AA@ 100045ac     writestl.obj
+ 0002:000005c0       ??_C@_0BI@GGCOGNPK@Write?5Linestyle?5Weights?$AA@ 100045c0     writestl.obj
+ 0002:000005d8       ??_C@_0BH@IAPEJMBJ@Write?5Linestyle?5Colors?$AA@ 100045d8     writestl.obj
+ 0002:000005f0       ??_C@_0BB@OPILLNGD@Break?5Dimensions?$AA@ 100045f0     writestl.obj
+ 0002:00000604       ??_C@_0BG@PHGJIMFO@Write?5Linestyle?5Names?$AA@ 10004604     writestl.obj
+ 0002:0000061c       ??_C@_0BC@DCAOBJNM@Write?5Hatchstyles?$AA@ 1000461c     writestl.obj
+ 0002:00000630       ??_C@_0BB@IKJBCALA@Read?5Hatchstyles?$AA@ 10004630     writestl.obj
+ 0002:00000644       ??_C@_0N@FIFLIAKF@Bigfont?5Name?$AA@ 10004644     writestl.obj
+ 0002:00000654       ??_C@_0BG@NPFJHKMO@Application?5Text?5Type?$AA@ 10004654     writestl.obj
+ 0002:0000066c       ??_C@_0BO@OOLPFCMN@Process?5Construction?5Elements?$AA@ 1000466c     writestl.obj
+ 0002:0000068c       ??_C@_0CI@OEHJMIL@Process?5Non?9Displayable?5Referenc@ 1000468c     writestl.obj
+ 0002:000006b4       ??_C@_0BD@BCHIGLJA@Max?4?5Nesting?5Depth?$AA@ 100046b4     writestl.obj
+ 0002:000006c8       ??_C@_0BG@HCCJKKEI@AutoCAD?5Extended?5Data?$AA@ 100046c8     writestl.obj
+ 0002:000006e0       ??_C@_0BC@BKMMCJAL@MS?5resource?5files?$AA@ 100046e0     writestl.obj
+ 0002:000006f4       ??_C@_0CF@PMOCJJHO@Foreign?5to?5Neutral?5Server?5Entity@ 100046f4     writestl.obj
+ 0002:0000071c       ??_C@_0CC@FBBHGIJD@Application?5to?5Neutral?5Entity?5Ma@ 1000471c     writestl.obj
+ 0002:00000740       ??_C@_0CK@LHDLKMKA@Neutral?5to?5Foreign?5Translation?5E@ 10004740     writestl.obj
+ 0002:0000076c       ??_C@_0CK@EKDDLMNO@Foreign?5to?5Neutral?5Translation?5E@ 1000476c     writestl.obj
+ 0002:00000798       ??_C@_0BI@HIIOGLAB@Translate?5Scaled?5Layers?$AA@ 10004798     writestl.obj
+ 0002:000007b0       ??_C@_0BJ@HGICCCH@Override?5Linetype?5Colors?$AA@ 100047b0     writestl.obj
+ 0002:000007cc       ??_C@_0BA@HBGHIPKH@Override?5Colors?$AA@ 100047cc     writestl.obj
+ 0002:000007dc       ??_C@_0BF@CNNJHLCF@Read?5Linetype?5Colors?$AA@ 100047dc     writestl.obj
+ 0002:000007f4       ??_C@_0M@FDJECDLA@Read?5Colors?$AA@ 100047f4     writestl.obj
+ 0002:00000800       ??_C@_0BN@ONKCLLBK@Processing?5Batch?5Translation?$AA@ 10004800     writestl.obj
+ 0002:00000820       ??_C@_0BE@DAGKDAGO@Write?5Default?5Units?$AA@ 10004820     writestl.obj
+ 0002:00000834       ??_C@_0CC@EIOMEKFP@Memory?5Needed?5Per?5Foreign?5Elemen@ 10004834     writestl.obj
+ 0002:00000858       ??_C@_0CB@CLNPGHDA@Memory?5Needed?5Per?5Native?5Element@ 10004858     writestl.obj
+ 0002:0000087c       ??_C@_0BF@ILGCNOID@Symbol?5Template?5File?$AA@ 1000487c     writestl.obj
+ 0002:00000894       ??_C@_0BI@OCLBEPOH@Pos?5Units?5Per?5Sub?5Units?$AA@ 10004894     writestl.obj
+ 0002:000008ac       ??_C@_0BL@MMJJPDED@Sub?5Units?5Per?5Master?5Units?$AA@ 100048ac     writestl.obj
+ 0002:000008c8       ??_C@_0M@ICLKLKFA@Active?5View?$AA@ 100048c8     writestl.obj
+ 0002:000008d4       ??_C@_0BD@KMAMHCHB@Read?5Block?5Options?$AA@ 100048d4     writestl.obj
+ 0002:000008e8       ??_C@_0O@DCHCMCMB@Shared?5embeds?$AA@ 100048e8     writestl.obj
+ 0002:000008f8       ??_C@_0BC@ICFCHNJB@Read?5Cell?5Options?$AA@ 100048f8     writestl.obj
+ 0002:0000090c       ??_C@_0BE@GCLMENOJ@Enable?5DebugLogging?$AA@ 1000490c     writestl.obj
+ 0002:00000920       ??_C@_0N@JMOEGMKL@Write?5Layers?$AA@ 10004920     writestl.obj
+ 0002:00000930       ??_C@_0BP@PBJIHBKO@Write?5Polyline?5Width?5Threshold?$AA@ 10004930     writestl.obj
+ 0002:00000950       ??_C@_0BG@FLHOALAM@Read?5Part?5Name?5Prefix?$AA@ 10004950     writestl.obj
+ 0002:00000968       ??_C@_0BE@DOPDOAKO@Read?5Part?5File?5Path?$AA@ 10004968     writestl.obj
+ 0002:0000097c       ??_C@_0BI@MACLNPNC@Read?5Part?5Template?5File?$AA@ 1000497c     writestl.obj
+ 0002:00000994       ??_C@_0BM@KLJLDDKK@Read?5Assembly?5Template?5File?$AA@ 10004994     writestl.obj
+ 0002:000009b0       ??_C@_0BD@CJDEKAO@Read?5Default?5Width?$AA@ 100049b0     writestl.obj
+ 0002:000009c4       ??_C@_0O@PFMBKECH@Template?5File?$AA@ 100049c4     writestl.obj
+ 0002:000009d4       ??_C@_0BH@OFFDFAJO@Write?5Embedded?5Objects?$AA@ 100049d4     writestl.obj
+ 0002:000009ec       ??_C@_06KMEJCCGM@Ignore?$AA@ 100049ec     writestl.obj
+ 0002:000009f4       ??_C@_0BF@JLBAABMG@Write?5Linked?5Objects?$AA@ 100049f4     writestl.obj
+ 0002:00000a0c       ??_C@_0N@HEAKGDJN@Write?5Widths?$AA@ 10004a0c     writestl.obj
+ 0002:00000a1c       ??_C@_0M@LAIFMFIJ@Read?5Widths?$AA@ 10004a1c     writestl.obj
+ 0002:00000a28       ??_C@_0BK@BLOBOGFI@Write?5Font?5Resource?5Files?$AA@ 10004a28     writestl.obj
+ 0002:00000a44       ??_C@_0BJ@GNNJFEGO@Read?5Font?5Resource?5Files?$AA@ 10004a44     writestl.obj
+ 0002:00000a60       ??_C@_0BP@EKNMPDJB@Write?5Linestyle?5Resource?5Files?$AA@ 10004a60     writestl.obj
+ 0002:00000a80       ??_C@_0BO@IANLFCPO@Read?5Linestyle?5Resource?5Files?$AA@ 10004a80     writestl.obj
+ 0002:00000aa0       ??_C@_0BA@LEDOLEFK@Ignore?5Warnings?$AA@ 10004aa0     writestl.obj
+ 0002:00000ab0       ??_C@_0BF@NMEKCCPP@Read?5Reference?5Paths?$AA@ 10004ab0     writestl.obj
+ 0002:00000ac8       ??_C@_09KMILOHFO@Translate?$AA@ 10004ac8     writestl.obj
+ 0002:00000ad4       ??_C@_0BH@EDICNJKJ@Read?5Reference?5Options?$AA@ 10004ad4     writestl.obj
+ 0002:00000aec       ??_C@_0O@LEJBMJLO@Write?5Version?$AA@ 10004aec     writestl.obj
+ 0002:00000afc       ??_C@_0BD@BKNLFPGM@Export?5Entry?5Point?$AA@ 10004afc     writestl.obj
+ 0002:00000b10       ??_C@_0BD@DAELHCPE@Import?5Entry?5Point?$AA@ 10004b10     writestl.obj
+ 0002:00000b24       ??_C@_03ECEIPJGG@Dll?$AA@  10004b24     writestl.obj
+ 0002:00000b28       ??_C@_0N@ODHLKEAA@Option?5Forms?$AA@ 10004b28     writestl.obj
+ 0002:00000b38       ??_C@_0BB@NFDEABFA@Write?5Text?5Fonts?$AA@ 10004b38     writestl.obj
+ 0002:00000b4c       ??_C@_0BA@PHKIGCGH@Read?5Text?5Fonts?$AA@ 10004b4c     writestl.obj
+ 0002:00000b5c       ??_C@_0BD@KGCHCEFC@Read?5Default?5Units?$AA@ 10004b5c     writestl.obj
+ 0002:00000b70       ??_C@_0BC@KIAAFNBC@Projection?5Vector?$AA@ 10004b70     writestl.obj
+ 0002:00000b84       ??_C@_0M@NEBNFABG@0?40?50?40?51?40?$AA@ 10004b84     writestl.obj
+ 0002:00000b90       ??_C@_06EFAGIKOH@Normal?$AA@ 10004b90     writestl.obj
+ 0002:00000b98       ??_C@_0M@GMKBDHHD@0?40?50?40?50?40?$AA@ 10004b98     writestl.obj
+ 0002:00000ba4       ??_C@_0BA@GJLDONN@Reference?5Point?$AA@ 10004ba4     writestl.obj
+ 0002:00000bb4       ??_C@_03PGGAENPN@Top?$AA@  10004bb4     writestl.obj
+ 0002:00000bb8       ??_C@_04FABLJDN@Name?$AA@  10004bb8     writestl.obj
+ 0002:00000bc0       ??_C@_0BG@NNEHMMHB@Transformation?5Matrix?$AA@ 10004bc0     writestl.obj
+ 0002:00000bd8       ??_C@_04KOACHJEN@Type?$AA@ 10004bd8     writestl.obj
+ 0002:00000be0       ??_C@_0BD@OOIDEPKH@Write?5Default?5View?$AA@ 10004be0     writestl.obj
+ 0002:00000bf8       ??_C@_0EA@DCDFKCHG@1?40?50?40?50?40?50?40?50?40?51?40?50?40?50?40?5@ 10004bf8     writestl.obj
+ 0002:00000c38       ??_C@_0P@DIBIOLFJ@Transformation?$AA@ 10004c38     writestl.obj
+ 0002:00000c48       ??_C@_0BC@KKDPPNON@Read?5Default?5View?$AA@ 10004c48     writestl.obj
+ 0002:00000c5c       ??_C@_0BB@LHDEPIHM@Write?5Linestyles?$AA@ 10004c5c     writestl.obj
+ 0002:00000c70       ??_C@_0BA@JFKIJLEL@Read?5Linestyles?$AA@ 10004c70     writestl.obj
+ 0002:00000c80       ??_C@_0P@HNBPIHLB@Enable?5Logging?$AA@ 10004c80     writestl.obj
+ 0002:00000c90       ??_C@_09HACGBFPA@Seed?5File?$AA@ 10004c90     writestl.obj
+ 0002:00000c9c       ??_C@_0L@GEDNDJAA@Entity?5Map?$AA@ 10004c9c     writestl.obj
+ 0002:00000ca7       ??_C@_00CNPNBAHC@?$AA@     10004ca7     writestl.obj
+ 0002:00000ca8       ??_C@_04KAIBKGKB@Dlls?$AA@ 10004ca8     writestl.obj
+ 0002:00000cb0       ??_C@_07KHIHFBFN@Options?$AA@ 10004cb0     writestl.obj
+ 0002:00001410       ??_7JWriteStlClassFactory@@6B@ 10005410     writestl.obj
+ 0002:00001424       ??_C@_02GMLFBBN@wb?$AA@    10005424     writestl.obj
+ 0002:00001428       ??_C@_01NOFIACDB@w?$AA@    10005428     writestl.obj
+ 0002:0000142c       ??_C@_0BB@KKCEJGMD@Save?5STL?5Failed?6?$AA@ 1000542c     writestl.obj
+ 0002:00001440       ??_C@_0BL@JGILBOOD@ERROR?3?5Not?5a?5body?5pointer?4?$AA@ 10005440     writestl.obj
+ 0002:0000145c       ??_C@_0CA@NCGEFGLB@Cf_SavebodyAsFacets?5failed?$CB?$CB?$CB?$CB?6?$AA@ 1000545c     writestl.obj
+ 0002:00001480       __real@3fe921fb54442d18    10005480     writestl.obj
+ 0002:00001488       __real@3f847ae147ae147b    10005488     writestl.obj
+ 0002:00001494       ??_7JWriteStl@@6B@         10005494     writestl.obj
+ 0002:000014a4       ??_7ImpIJWriteData@JWriteStl@@6B@ 100054a4     writestl.obj
+ 0002:000014e0       _IID_IClassFactory         100054e0     uuid:unknwn_i.obj
+ 0002:000014f0       _IID_IUnknown              100054f0     uuid:unknwn_i.obj
+ 0002:00001504       ??_7type_info@@6B@         10005504     MSVCRT:ti_inst.obj
+ 0002:00001508       __pRawDllMain              10005508     MSVCRT:crtdll.obj
+ 0002:00001508       __pDefaultRawDllMain       10005508     MSVCRT:crtdll.obj
+ 0002:00001518       __load_config_used         10005518     MSVCRT:loadcfg.obj
+ 0002:00001590       ??_R4JWriteStlClassFactory@@6B@ 10005590     writestl.obj
+ 0002:000015a4       ??_R3JWriteStlClassFactory@@8 100055a4     writestl.obj
+ 0002:000015b4       ??_R2JWriteStlClassFactory@@8 100055b4     writestl.obj
+ 0002:000015c4       ??_R1A@?0A@EA@JWriteStlClassFactory@@8 100055c4     writestl.obj
+ 0002:000015e0       ??_R1A@?0A@EA@IClassFactory@@8 100055e0     writestl.obj
+ 0002:000015fc       ??_R3IClassFactory@@8      100055fc     writestl.obj
+ 0002:0000160c       ??_R2IClassFactory@@8      1000560c     writestl.obj
+ 0002:00001618       ??_R1A@?0A@EA@IUnknown@@8  10005618     writestl.obj
+ 0002:00001634       ??_R3IUnknown@@8           10005634     writestl.obj
+ 0002:00001644       ??_R2IUnknown@@8           10005644     writestl.obj
+ 0002:0000164c       ??_R4JWriteStl@@6B@        1000564c     writestl.obj
+ 0002:00001660       ??_R3JWriteStl@@8          10005660     writestl.obj
+ 0002:00001670       ??_R2JWriteStl@@8          10005670     writestl.obj
+ 0002:0000167c       ??_R1A@?0A@EA@JWriteStl@@8 1000567c     writestl.obj
+ 0002:00001698       ??_R4ImpIJWriteData@JWriteStl@@6B@ 10005698     writestl.obj
+ 0002:000016ac       ??_R3ImpIJWriteData@JWriteStl@@8 100056ac     writestl.obj
+ 0002:000016bc       ??_R2ImpIJWriteData@JWriteStl@@8 100056bc     writestl.obj
+ 0002:000016cc       ??_R1A@?0A@EA@ImpIJWriteData@JWriteStl@@8 100056cc     writestl.obj
+ 0002:000016e8       ??_R1A@?0A@EA@IJWriteData@@8 100056e8     writestl.obj
+ 0002:00001704       ??_R3IJWriteData@@8        10005704     writestl.obj
+ 0002:00001714       ??_R2IJWriteData@@8        10005714     writestl.obj
+ 0002:00001720       ??_R4type_info@@6B@        10005720     MSVCRT:ti_inst.obj
+ 0002:00001734       ??_R3type_info@@8          10005734     MSVCRT:ti_inst.obj
+ 0002:00001744       ??_R2type_info@@8          10005744     MSVCRT:ti_inst.obj
+ 0002:0000174c       ??_R1A@?0A@EA@type_info@@8 1000574c     MSVCRT:ti_inst.obj
+ 0002:00001770       ___safe_se_handler_table   10005770     <linker-defined>
+ 0002:0000177c       ___rtc_iaa                 1000577c     MSVCRT:initsect.obj
+ 0002:00001780       ___rtc_izz                 10005780     MSVCRT:initsect.obj
+ 0002:00001784       ___rtc_taa                 10005784     MSVCRT:initsect.obj
+ 0002:00001788       ___rtc_tzz                 10005788     MSVCRT:initsect.obj
+ 0002:0000188c       __IMPORT_DESCRIPTOR_config 1000588c     config:config.dll
+ 0002:000018a0       __IMPORT_DESCRIPTOR_PSKERNEL 100058a0     pskernel:PSKERNEL.dll
+ 0002:000018b4       __IMPORT_DESCRIPTOR_JUtil  100058b4     jutil:JUtil.dll
+ 0002:000018c8       __IMPORT_DESCRIPTOR_umath  100058c8     umath:umath.dll
+ 0002:000018dc       __IMPORT_DESCRIPTOR_KERNEL32 100058dc     kernel32:KERNEL32.dll
+ 0002:000018f0       __IMPORT_DESCRIPTOR_MSVCR80 100058f0     MSVCRT:MSVCR80.dll
+ 0002:00001904       __NULL_IMPORT_DESCRIPTOR   10005904     config:config.dll
+ 0003:00000000       __newmode                  10007000     newmode.obj
+ 0003:00000010       ??_R0?AVJWriteStlClassFactory@@@8 10007010     writestl.obj
+ 0003:00000034       ??_R0?AUIClassFactory@@@8  10007034     writestl.obj
+ 0003:00000050       ??_R0?AUIUnknown@@@8       10007050     writestl.obj
+ 0003:00000068       ??_R0?AVJWriteStl@@@8      10007068     writestl.obj
+ 0003:00000080       ??_R0?AUImpIJWriteData@JWriteStl@@@8 10007080     writestl.obj
+ 0003:000000a8       ??_R0?AUIJWriteData@@@8    100070a8     writestl.obj
+ 0003:000000d0       ___security_cookie         100070d0     MSVCRT:gs_cookie.obj
+ 0003:000000d4       ___security_cookie_complement 100070d4     MSVCRT:gs_cookie.obj
+ 0003:000000d8       ??_R0?AVtype_info@@@8      100070d8     MSVCRT:ti_inst.obj
+ 0003:000000f0       ___native_dllmain_reason   100070f0     MSVCRT:natstart.obj
+ 0003:000000f4       ___native_vcclrit_reason   100070f4     MSVCRT:natstart.obj
+ 0003:00000434       ?__type_info_root_node@@3U__type_info_node@@A 10007434     MSVCRT:tncleanup.obj
+ 0003:0000043c       __adjust_fdiv              1000743c     <common>
+ 0003:00000440       ___native_startup_state    10007440     <common>
+ 0003:00000444       ___native_startup_lock     10007444     <common>
+ 0003:00000448       ___onexitend               10007448     <common>
+ 0003:0000044c       ___onexitbegin             1000744c     <common>
+ 0003:00000450       ___dyn_tls_init_callback   10007450     <common>
+
+ entry point at        0001:00001add
+
+ Static symbols
+
+ 0001:00000230       ?GetEntityArrays@@YAHHAAHPAPAH10@Z 10001230 f   cfutil.obj
+ 0001:000017db       _pre_c_init                100027db f   MSVCRT:crtdll.obj
+ 0001:000019c7       ___DllMainCRTStartup       100029c7 f   MSVCRT:crtdll.obj
+ 0001:00002030       __unwindfunclet$_DllGetClassObject@12$0 10003030 f   server.obj
+ 0001:0000203b       __ehhandler$_DllGetClassObject@12 1000303b f   server.obj
+ 0001:00002060       __unwindfunclet$?CreateInstance@JWriteStlClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$0 10003060 f   writestl.obj
+ 0001:0000206b       __ehhandler$?CreateInstance@JWriteStlClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000306b f   writestl.obj

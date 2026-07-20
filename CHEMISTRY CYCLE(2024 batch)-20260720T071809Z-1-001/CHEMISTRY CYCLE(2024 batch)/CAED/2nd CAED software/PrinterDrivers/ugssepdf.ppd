@@ -1,0 +1,455 @@
+*PPD-Adobe: "4.3"
+*FileVersion: "1.0"
+*FormatVersion: "4.3" 
+*LanguageEncoding: "ISOLatin1"
+*LanguageVersion: "English"
+*Manufacturer: "UGS"
+*ModelName: "Solid Edge PS Writer"
+*NickName: "Solid Edge PS"
+*% PCFileName should be of the form XXNNNNNN.PDF where XX is an assigned
+*% manufacturer code.
+*PCFileName: "SolidEdgePDF.PDF"
+*PPD-Adobe: "4.3"
+*Product: "(Solid Edge)"
+*PSVersion: "(3010) 815"
+*ShortNickName: "Solid Edge PS"
+
+*% *DefaultImageableArea:
+*% *DefaultPageRegion:
+*% *PageRegion:
+*% *ImageableArea:
+*% *DefaultPageSize:
+*% *PageSize:
+*% *DefaultPaperDimension:
+*% *PaperDimension:
+
+*% == Above are required
+
+*Copyright: "2006 UGS Corp.  All rights reserved"
+*%
+*%  Copyright (C) 2006, UGS Corp.  All rights reserved.
+*%
+
+
+*% == Basic Capabilities
+*LanguageLevel: "3"
+*ColorDevice: True
+*DefaultColorSpace: RGB
+*FileSystem: True
+*Extensions: CMYK FileSystem Composite
+*TTRasterizer: Type42
+*FreeVM: "10000000"
+*PrintPSErrors: True
+*ContoneOnly: True
+*% AccurateScreensSupport: True
+
+*% order dependency
+*%  10 HWResolution
+*%  20 PageSize and other page device parameters
+*%  30 PDFSETTINGS
+*%  40 distiller parameters
+
+*% == Resolution
+*OpenUI *Resolution: PickOne
+*DefaultResolution: 600dpi
+*OrderDependency: 10 AnySetup *Resolution
+*Resolution 72dpi: "<< /HWResolution [72 72] >> setpagedevice"
+*Resolution 96dpi: "<< /HWResolution [96 96] >> setpagedevice"
+*Resolution 144dpi: "<< /HWResolution [144 144] >> setpagedevice"
+*Resolution 150dpi: "<< /HWResolution [150 150] >> setpagedevice"
+*Resolution 300dpi: "<< /HWResolution [300 300] >> setpagedevice"
+*Resolution 600dpi: "<< /HWResolution [600 600] >> setpagedevice"
+*Resolution 720dpi: "<< /HWResolution [720 720] >> setpagedevice"
+*Resolution 1200dpi: "<< /HWResolution [1200 1200] >> setpagedevice"
+*Resolution 2400dpi: "<< /HWResolution [2400 2400] >> setpagedevice"
+*Resolution 3600dpi: "<< /HWResolution [3600 3600] >> setpagedevice"
+*Resolution 4000dpi: "<< /HWResolution [4000 4000] >> setpagedevice"
+*CloseUI: *Resolution
+
+
+*% == Paper Handling 
+
+
+*HWMargins: 0 0 0 0
+*ParamCustomPageSize Width: 1 points 72 14400
+*ParamCustomPageSize Height: 2 points 72 14400
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*NonUIOrderDependency: 20 AnySetup *CustomPageSize
+*CustomPageSize True: "
+  5 -2 roll exch 5 2 roll
+  3 -2 roll exch 3 2 roll
+  [ {}
+    {90 rotate 0 currentpagedevice /PageSize get 0 get neg translate}
+    {180 rotate currentpagedevice /PageSize get 
+     dup 0 get neg exch 1 get neg translate}
+    {270 rotate currentpagedevice /PageSize get 1 get neg 0 translate}
+  ] exch get
+  4 dict dup begin 6 1 roll
+  /Install exch def
+  2 array astore /PageOffset exch def
+  2 array astore /PageSize exch def
+  /ImagingBBox null def
+  end setpagedevice"
+*End
+*MaxMediaWidth: "14400"
+*MaxMediaHeight: "14400"
+
+*LandscapeOrientation: Any
+
+*OpenUI *PageSize: PickOne
+*DefaultPageSize: Letter
+*OrderDependency: 20 AnySetup *PageSize
+*PageSize Letter/Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize AnsiA/ANSI A: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize AnsiB/ANSI B: "<</PageSize[792 1224]/ImagingBBox null>>setpagedevice"
+*PageSize AnsiC/ANSI C: "<</PageSize[1224 1584]/ImagingBBox null>>setpagedevice"
+*PageSize AnsiD/ANSI D: "<</PageSize[1584 2448]/ImagingBBox null>>setpagedevice"
+*PageSize AnsiE/ANSI E: "<</PageSize[2448 3168]/ImagingBBox null>>setpagedevice"
+*PageSize ISOA4/ISO A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageSize ISOA3/ISO A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageSize ISOA2/ISO A2: "<</PageSize[1191 1684]/ImagingBBox null>>setpagedevice"
+*PageSize ISOA1/ISO A1: "<</PageSize[1684 2384]/ImagingBBox null>>setpagedevice"
+*PageSize ISOA0/ISO A0: "<</PageSize[2384 3370]/ImagingBBox null>>setpagedevice"
+*PageSize OVERSIZEA2/Oversize A2: "<</PageSize[1361 1772]/ImagingBBox null>>setpagedevice"
+*PageSize OVERSIZEA1/Oversize A1: "<</PageSize[1772 2551]/ImagingBBox null>>setpagedevice"
+*PageSize OVERSIZEA0/Oversize A0: "<</PageSize[2551 3529]/ImagingBBox null>>setpagedevice"
+*PageSize JISB4/JIS B4: "<</PageSize[729 1032]/ImagingBBox null>>setpagedevice"
+*PageSize JISB3/JIS B3: "<</PageSize[1032 1460]/ImagingBBox null>>setpagedevice"
+*PageSize JISB2/JIS B2: "<</PageSize[1460 2064]/ImagingBBox null>>setpagedevice"
+*PageSize JISB1/JIS B1: "<</PageSize[2064 2920]/ImagingBBox null>>setpagedevice"
+*PageSize ARCHA/ARCH A: "<</PageSize[648 864]/ImagingBBox null>>setpagedevice"
+*PageSize ARCHB/ARCH B: "<</PageSize[864 1296]/ImagingBBox null>>setpagedevice"
+*PageSize ARCHC/ARCH C: "<</PageSize[1296 1728]/ImagingBBox null>>setpagedevice"
+*PageSize ARCHD/ARCH D: "<</PageSize[1728 2592]/ImagingBBox null>>setpagedevice"
+*PageSize ARCHE/ARCH E: "<</PageSize[2592 3456]/ImagingBBox null>>setpagedevice"
+*PageSize P24x48/Paper 24" x 48": "<</PageSize[1728 3456]/ImagingBBox null>>setpagedevice"
+*PageSize P24x60/Paper 24" x 60": "<</PageSize[1728 4320]/ImagingBBox null>>setpagedevice"
+*PageSize P24x72/Paper 24" x 72": "<</PageSize[1728 5184]/ImagingBBox null>>setpagedevice"
+*PageSize P24x84/Paper 24" x 84": "<</PageSize[1728 6048]/ImagingBBox null>>setpagedevice"
+*PageSize P24x96/Paper 24" x 96": "<</PageSize[1728 6912]/ImagingBBox null>>setpagedevice"
+*PageSize P24x108/Paper 24" x 108": "<</PageSize[1728 7776]/ImagingBBox null>>setpagedevice"
+*PageSize P36x60/Paper 36" x 60": "<</PageSize[2592 4320]/ImagingBBox null>>setpagedevice"
+*PageSize P36x72/Paper 36" x 72": "<</PageSize[2592 5184]/ImagingBBox null>>setpagedevice"
+*PageSize P36x84/Paper 36" x 84": "<</PageSize[2592 6048]/ImagingBBox null>>setpagedevice"
+*PageSize P36x96/Paper 36" x 96": "<</PageSize[2592 6912]/ImagingBBox null>>setpagedevice"
+*PageSize P36x108/Paper 36" x 108": "<</PageSize[2592 7776]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*DefaultPageRegion: Letter
+*OrderDependency: 30 AnySetup *PageRegion
+*PageRegion Letter/Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion AnsiA/ANSI A: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion AnsiB/ANSI B: "<</PageSize[792 1224]/ImagingBBox null>>setpagedevice"
+*PageRegion AnsiC/ANSI C: "<</PageSize[1224 1584]/ImagingBBox null>>setpagedevice"
+*PageRegion AnsiD/ANSI D: "<</PageSize[1584 2448]/ImagingBBox null>>setpagedevice"
+*PageRegion AnsiE/ANSI E: "<</PageSize[2448 3168]/ImagingBBox null>>setpagedevice"
+*PageRegion ISOA4/ISO A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageRegion ISOA3/ISO A3: "<</PageSize[842 1191]/ImagingBBox null>>setpagedevice"
+*PageRegion ISOA2/ISO A2: "<</PageSize[1191 1684]/ImagingBBox null>>setpagedevice"
+*PageRegion ISOA1/ISO A1: "<</PageSize[1684 2384]/ImagingBBox null>>setpagedevice"
+*PageRegion ISOA0/ISO A0: "<</PageSize[2384 3370]/ImagingBBox null>>setpagedevice"
+*PageRegion OVERSIZEA2/Oversize A2: "<</PageSize[1361 1772]/ImagingBBox null>>setpagedevice"
+*PageRegion OVERSIZEA1/Oversize A1: "<</PageSize[1772 2551]/ImagingBBox null>>setpagedevice"
+*PageRegion OVERSIZEA0/Oversize A0: "<</PageSize[2551 3529]/ImagingBBox null>>setpagedevice"
+*PageRegion JISB4/JIS B4: "<</PageSize[729 1032]/ImagingBBox null>>setpagedevice"
+*PageRegion JISB3/JIS B3: "<</PageSize[1032 1460]/ImagingBBox null>>setpagedevice"
+*PageRegion JISB2/JIS B2: "<</PageSize[1460 2064]/ImagingBBox null>>setpagedevice"
+*PageRegion JISB1/JIS B1: "<</PageSize[2064 2920]/ImagingBBox null>>setpagedevice"
+*PageRegion ARCHA/ARCH A: "<</PageSize[648 864]/ImagingBBox null>>setpagedevice"
+*PageRegion ARCHB/ARCH B: "<</PageSize[864 1296]/ImagingBBox null>>setpagedevice"
+*PageRegion ARCHC/ARCH C: "<</PageSize[1296 1728]/ImagingBBox null>>setpagedevice"
+*PageRegion ARCHD/ARCH D: "<</PageSize[1728 2592]/ImagingBBox null>>setpagedevice"
+*PageRegion ARCHE/ARCH E: "<</PageSize[2592 3456]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x48/Paper 24" x 48": "<</PageSize[1728 3456]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x60/Paper 24" x 60": "<</PageSize[1728 4320]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x72/Paper 24" x 72": "<</PageSize[1728 5184]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x84/Paper 24" x 84": "<</PageSize[1728 6048]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x96/Paper 24" x 96": "<</PageSize[1728 6912]/ImagingBBox null>>setpagedevice"
+*PageRegion P24x108/Paper 24" x 108": "<</PageSize[1728 7776]/ImagingBBox null>>setpagedevice"
+*PageRegion P36x60/Paper 36" x 60": "<</PageSize[2592 4320]/ImagingBBox null>>setpagedevice"
+*PageRegion P36x72/Paper 36" x 72": "<</PageSize[2592 5184]/ImagingBBox null>>setpagedevice"
+*PageRegion P36x84/Paper 36" x 84": "<</PageSize[2592 6048]/ImagingBBox null>>setpagedevice"
+*PageRegion P36x96/Paper 36" x 96": "<</PageSize[2592 6912]/ImagingBBox null>>setpagedevice"
+*PageRegion P36x108/Paper 36" x 108": "<</PageSize[2592 7776]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter: "0 0 612 792"
+*ImageableArea AnsiA/ANSI A: "0 0 612 792"
+*ImageableArea AnsiB/ANSI B: "0 0 792 1224"
+*ImageableArea AnsiC/ANSI C: "0 0 1224 1584"
+*ImageableArea AnsiD/ANSI D: "0 0 1584 2448"
+*ImageableArea AnsiE/ANSI E: "0 0 2448 3168"
+*ImageableArea ISOA4/ISO A4: "0 0 595 842"
+*ImageableArea ISOA3/ISO A3: "0 0 842 1191"
+*ImageableArea ISOA2/ISO A2: "0 0 1191 1684"
+*ImageableArea ISOA1/ISO A1: "0 0 1684 2384"
+*ImageableArea ISOA0/ISO A0: "0 0 2384 3370"
+*ImageableArea OVERSIZEA2/Oversize A2: "0 0 1361 1772"
+*ImageableArea OVERSIZEA1/Oversize A1: "0 0 1772 2551"
+*ImageableArea OVERSIZEA0/Oversize A0: "0 0 2551 3529"
+*ImageableArea JISB4/JIS B4: "0 0 729 1032"
+*ImageableArea JISB3/JIS B3: "0 0 1032 1460"
+*ImageableArea JISB2/JIS B2: "0 0 1460 2064"
+*ImageableArea JISB1/JIS B1: "0 0 2064 2920"
+*ImageableArea ARCHA/ARCH A: "0 0 648 864"
+*ImageableArea ARCHB/ARCH B: "0 0 864 1296"
+*ImageableArea ARCHC/ARCH C: "0 0 1296 1728"
+*ImageableArea ARCHD/ARCH D: "0 0 1728 2592"
+*ImageableArea ARCHE/ARCH E: "0 0 2592 3456"
+*ImageableArea P24x48/Paper 24" x 48": "0 0 1728 3456"
+*ImageableArea P24x60/Paper 24" x 60": "0 0 1728 4320"
+*ImageableArea P24x72/Paper 24" x 72": "0 0 1728 5184"
+*ImageableArea P24x84/Paper 24" x 84": "0 0 1728 6048"
+*ImageableArea P24x96/Paper 24" x 96": "0 0 1728 6912"
+*ImageableArea P24x108/Paper 24" x 108": "0 0 1728 7776"
+*ImageableArea P36x60/Paper 36" x 60": "0 0 2592 4320"
+*ImageableArea P36x72/Paper 36" x 72": "0 0 2592 5184"
+*ImageableArea P36x84/Paper 36" x 84": "0 0 2592 6048"
+*ImageableArea P36x96/Paper 36" x 96": "0 0 2592 6912"
+*ImageableArea P36x108/Paper 36" x 108": "0 0 2592 7776"
+
+
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter: "612 792"
+*PaperDimension AnsiA/ANSI A: "612 792"
+*PaperDimension AnsiB/ANSI B: "792 1224"
+*PaperDimension AnsiC/ANSI C: "1224 1584"
+*PaperDimension AnsiD/ANSI D: "1584 2448"
+*PaperDimension AnsiE/ANSI E: "2448 3168"
+*PaperDimension ISOA4/ISO A4: "595 842"
+*PaperDimension ISOA3/ISO A3: "842 1191"
+*PaperDimension ISOA2/ISO A2: "1191 1684"
+*PaperDimension ISOA1/ISO A1: "1684 2384"
+*PaperDimension ISOA0/ISO A0: "2384 3370"
+*PaperDimension OVERSIZEA2/Oversize A2: "1361 1772"
+*PaperDimension OVERSIZEA1/Oversize A1: "1772 2551"
+*PaperDimension OVERSIZEA0/Oversize A0: "2551 3529"
+*PaperDimension JISB4/JIS B4: "729 1032"
+*PaperDimension JISB3/JIS B3: "1032 1460"
+*PaperDimension JISB2/JIS B2: "1460 2064"
+*PaperDimension JISB1/JIS B1: "2064 2920"
+*PaperDimension ARCHA/ARCH A: "648 864"
+*PaperDimension ARCHB/ARCH B: "864 1296"
+*PaperDimension ARCHC/ARCH C: "1296 1728"
+*PaperDimension ARCHD/ARCH D: "1728 2592"
+*PaperDimension ARCHE/ARCH E: "2592 3456"
+*PaperDimension P24x48/Paper 24" x 48": "1728 3456"
+*PaperDimension P24x60/Paper 24" x 60": "1728 4320"
+*PaperDimension P24x72/Paper 24" x 72": "1728 5184"
+*PaperDimension P24x84/Paper 24" x 84": "1728 6048"
+*PaperDimension P24x96/Paper 24" x 96": "1728 6912"
+*PaperDimension P24x108/Paper 24" x 108": "1728 7776"
+*PaperDimension P36x60/Paper 36" x 60": "2592 4320"
+*PaperDimension P36x72/Paper 36" x 72": "2592 5184"
+*PaperDimension P36x84/Paper 36" x 84": "2592 6048"
+*PaperDimension P36x96/Paper 36" x 96": "2592 6912"
+*PaperDimension P36x108/Paper 36" x 108": "2592 7776"
+
+
+*% Custom Page Sizes ===================
+*MaxMediaWidth: "14400"
+*MaxMediaHeight: "14400"
+*HWMargins: 0 0 0 0
+*ParamCustomPageSize Width: 1 points 72 14400
+*ParamCustomPageSize Height: 2 points 72 14400
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*OrderDependency: 30 PageSetup *CustomPageSize
+*CustomPageSize True: "
+	4 dict begin
+		/Orientation exch def
+		2 array astore /Margins exch def
+		2 array astore /PageSize exch def
+		/ImagingBBox null def
+		currentdict
+	end setpagedevice
+"
+*End
+
+
+*% == Fonts
+*DefaultFont: Courier
+*% First the standard 35 aliases with the actual fonts commented out.
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*% *Font URWBookmanL-DemiBold: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*% *Font URWBookmanL-DemiBoldItal: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*% *Font URWBookmanL-Ligh: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*% *Font URWBookmanL-LighItal: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*% *Font NimbusMonL-Regu: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusMonL-ReguObli: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*% *Font NimbusMonL-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusMonL-BoldObli: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*% *Font URWGothicL-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*% *Font URWGothicL-BookObli: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*% *Font URWGothicL-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*% *Font URWGothicL-DemiObli: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-Regu: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-ReguItal: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-BoldItal: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-ReguCond: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-ReguCondItal: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-BoldCond: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*% *Font NimbusSanL-BoldCondItal: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*% *Font URWPalladioL-Roma: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*% *Font URWPalladioL-Ital: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*% *Font URWPalladioL-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*% *Font URWPalladioL-BoldItal: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*% *Font CenturySchL-Roma: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*% *Font CenturySchL-Ital: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*% *Font CenturySchL-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*% *Font CenturySchL-BoldItal: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*% *Font NimbusRomNo9L-Regu: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*% *Font NimbusRomNo9L-ReguItal: Standard "(1.05)" Standard ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*% *Font NimbusRomNo9L-Medi: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*% *Font NimbusRomNo9L-MediItal: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*% *Font StandardSymL: Special (001.005)" Special ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*% *Font URWChanceryL-MediItal: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special (001.005)" Special ROM
+*% *Font Dingbats: Special (001.005)" Special ROM
+*% Then a few ghostscript extras
+*Font Charter-Roman: Standard "(2.0-1.0)" Standard ROM
+*Font CharterBT-Roman: Standard "(2.0-1.0)" Standard ROM
+*Font Charter-Italic: Standard "(2.0-1.0)" Standard ROM
+*Font CharterBT-Italic: Standard "(2.0-1.0)" Standard ROM
+*Font Charter-Bold: Standard "(2.0-1.0)" Standard ROM
+*Font CharterBT-Bold: Standard "(2.0-1.0)" Standard ROM
+*Font Charter-BoldItalic: Standard "(2.0-1.0)" Standard ROM
+*Font CharterBT-BoldItalic: Standard "(2.0-1.0)" Standard ROM
+*Font Utopia-Regular: Standard "(001.001)" Standard ROM
+*Font Utopia-Italic: Standard "(001.001)" Standard ROM
+*Font Utopia-Bold: Standard "(001.001)" Standard ROM
+*Font Utopia-BoldItalic: Standard "(001.001)" Standard ROM
+
+*% == Most of these set distiller parameters
+*% If the target device is not the Ghostscript pdfwrite device,
+*% then these should all be left at "Default"
+*OpenGroup: PDF
+
+*% == The pdfwrite device can select different color spaces
+*OpenUI *ColorModel/PDF Colour Model: PickOne
+*DefaultColorModel: "Default"
+*OrderDependency: 20 AnySetup *ColorModel
+*ColorModel Default: ""
+*ColorModel Grey: "<< /ProcessColorModel /DeviceGray >> setpagedevice"
+*ColorModel RGB: "<< /ProcessColorModel /DeviceRGB >> setpagedevice"
+*ColorModel CMYK: "<< /ProcessColorModel /DeviceCMYK >> setpagedevice"
+*CloseUI: *ColorModel
+
+*OpenUI *PDFSettings/PDF Settings: PickOne
+*DefaultPDFSettings: "Default"
+*OrderDependency: 30 AnySetup *PDFSettings
+*PDFSettings Default: ""
+*PDFSettings Screen: ".distillersettings /screen get setdistillerparams"
+*PDFSettings Ebook: ".distillersettings /ebook get setdistillerparams"
+*PDFSettings Printer: ".distillersettings /printer get setdistillerparams"
+*PDFSettings Prepress: ".distillersettings /prepress get setdistillerparams"
+*CloseUI: *PDFSettings
+
+*OpenUI *ColorImageFilter/PDF Colour Image Compression: PickOne
+*DefaultColorImageFilter: "Default"
+*OrderDependency: 40 AnySetup *ColorImageFilter
+*ColorImageFilter Default: ""
+*ColorImageFilter JPEG: "<< /AutoFilterColorImages false /ColorImageFilter /DCTEncode >> setdistillerparams"
+*ColorImageFilter Flate: "<< /AutoFilterColorImages false /ColorImageFilter /FlateEncode >> setdistillerparams"
+*CloseUI: *ColorImageFilter
+
+*OpenUI *GrayImageFilter/PDF Grey Image Compression: PickOne
+*DefaultGrayImageFilter: "Default"
+*OrderDependency: 40 AnySetup *GrayImageFilter
+*GrayImageFilter Default: ""
+*GrayImageFilter JPEG: "<< /AutoFilterGrayImages false /GrayImageFilter /DCTEncode >> setdistillerparams"
+*GrayImageFilter Flate: "<< /AutoFilterGrayImages false /GrayImageFilter /FlateEncode >> setdistillerparams"
+*CloseUI: *GrayImageFilter
+
+*OpenUI *MonoImageFilter/PDF Monochrome Image Compression: PickOne
+*DefaultMonoImageFilter: "Default"
+*OrderDependency: 40 AnySetup *MonoImageFilter
+*MonoImageFilter Default: ""
+*MonoImageFilter FaxG3/Fax G3: "<< /AutoFilterMonoImages false /MonoImageFilter /CCITTFaxEncode >> setdistillerparams"
+*MonoImageFilter Flate: "<< /AutoFilterMonoImages false /MonoImageFilter /FlateEncode >> setdistillerparams"
+*CloseUI: *MonoImageFilter
+
+*OpenUI *CompatibilityLevel/PDF Compatibility: PickOne
+*DefaultCompatibilityLevel: "Default"
+*OrderDependency: 40 AnySetup *CompatibilityLevel
+*CompatibilityLevel Default: ""
+*CompatibilityLevel 1.2: "<< /CompatibilityLevel 1.2 >> setdistillerparams"
+*CompatibilityLevel 1.3: "<< /CompatibilityLevel 1.3 >> setdistillerparams"
+*CompatibilityLevel 1.4: "<< /CompatibilityLevel 1.4 >> setdistillerparams"
+*CloseUI: *CompatibilityLevel
+
+*OpenUI *AutoRotatePages/PDF AutoRotatePages: PickOne
+*DefaultAutoRotatePages: "Default"
+*OrderDependency: 40 AnySetup *AutoRotatePages
+*AutoRotatePages Default: ""
+*AutoRotatePages None: "<< /AutoRotatePages /None >> setdistillerparams"
+*AutoRotatePages PageByPage: "<< /AutoRotatePages /PageByPage >> setdistillerparams"
+*AutoRotatePages All: "<< /AutoRotatePages /All >> setdistillerparams"
+*CloseUI: *AutoRotatePages
+
+*OpenUI *EmbedAllFonts/PDF EmbedAllFonts: PickOne
+*DefaultEmbedAllFonts: "Default"
+*OrderDependency: 40 AnySetup *EmbedAllFonts
+*EmbedAllFonts Default: ""
+*EmbedAllFonts True: "<< /EmbedAllFonts true >> setdistillerparams"
+*EmbedAllFonts False: "<< /EmbedAllFonts false >> setdistillerparams"
+*CloseUI: *EmbedAllFonts
+
+*OpenUI *SubsetFonts/PDF SubsetFonts: PickOne
+*DefaultSubsetFonts: "Default"
+*OrderDependency: 40 AnySetup *SubsetFonts
+*SubsetFonts Default: ""
+*SubsetFonts True: "<< /SubsetFonts true >> setdistillerparams"
+*SubsetFonts False: "<< /SubsetFonts false >> setdistillerparams"
+*CloseUI: *SubsetFonts
+
+*OpenUI *CompressPages/PDF Compress Pages: PickOne
+*DefaultCompressPages: "Default"
+*OrderDependency: 40 AnySetup *CompressPages
+*CompressPages Default: ""
+*CompressPages True: "<< /CompressPages true >> setdistillerparams"
+*CompressPages False: "<< /CompressPages false >> setdistillerparams"
+*CloseUI: *CompressPages
+
+*CloseGroup: PDF
+
+*% End of Solid Edge PDF Writer PPD file

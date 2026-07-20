@@ -1,0 +1,1742 @@
+ GCMSTN
+
+ Timestamp is 46b3a738 (Fri Aug 03 17:07:52 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0003afdeH .text                   CODE
+ 0001:0003afe0 000005bbH .text$x                 CODE
+ 0001:0003b5a0 00000696H .text$yc                CODE
+ 0001:0003bc40 0000000aH .text$yd                CODE
+ 0002:00000000 000005b4H .idata$5                DATA
+ 0002:000005b4 00000004H .CRT$XCA                DATA
+ 0002:000005b8 000000d4H .CRT$XCU                DATA
+ 0002:0000068c 00000004H .CRT$XCZ                DATA
+ 0002:00000690 00000004H .CRT$XIA                DATA
+ 0002:00000694 00000004H .CRT$XIAA               DATA
+ 0002:00000698 00000004H .CRT$XIC                DATA
+ 0002:0000069c 00000004H .CRT$XIZ                DATA
+ 0002:000006a0 000033a0H .rdata                  DATA
+ 0002:00003a40 00000030H .rdata$debug            DATA
+ 0002:00003a70 00000090H .rdata$r                DATA
+ 0002:00003b00 00000064H .rdata$sxdata           DATA
+ 0002:00003b64 00000004H .rtc$IAA                DATA
+ 0002:00003b68 00000004H .rtc$IZZ                DATA
+ 0002:00003b6c 00000004H .rtc$TAA                DATA
+ 0002:00003b70 00000004H .rtc$TZZ                DATA
+ 0002:00003b78 00000554H .xdata$x                DATA
+ 0002:000040cc 000000dcH .idata$2                DATA
+ 0002:000041a8 00000014H .idata$3                DATA
+ 0002:000041bc 000005b4H .idata$4                DATA
+ 0002:00004770 00001412H .idata$6                DATA
+ 0002:00005b90 00000a80H .edata                  DATA
+ 0003:00000000 00008400H .data                   DATA
+ 0003:00008400 00002240H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000019       ___safe_se_handler_count   00000019     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?GCMSTNgetPointFromMultilineAssoc@@YAHTIGDSassoc_info@@PATIGDS_elements@@PAN@Z 10001030 f   dgnassoc.obj
+ 0001:00000630       _GetGID_4x4                10001630 f i dgnassoc.obj
+ 0001:000009b0       ?GCMSTNgetPointFromIntersectionAssoc@@YAHTIGDSassoc_info@@PATIGDS_elements@@PAN@Z 100019b0 f   dgnassoc.obj
+ 0001:00000b50       ?GCMSTNgetPointFromBSplineAssoc@@YAHTIGDSassoc_info@@PATIGDS_elements@@PAN@Z 10001b50 f   dgnassoc.obj
+ 0001:00000c40       ?GCMSTNgetPointFromAssocInfo@@YAHTIGDSassoc_info@@PAN@Z 10001c40 f   dgnassoc.obj
+ 0001:00000d60       ??0tagGDimension@@QAE@XZ   10001d60 f i dgndim.obj
+ 0001:00000dd0       ??1tagGDimension@@QAE@XZ   10001dd0 f i dgndim.obj
+ 0001:00000e40       ?GCMSTNmapTerminatorFromIgds@@YAXEEPAE@Z 10001e40 f   dgndim.obj
+ 0001:00001460       ?GCMSTNIsSimilarDirection@@YAHUtagGPosition@@00@Z 10002460 f   dgndim.obj
+ 0001:00002510       ?GCMSTNGetScaleFromTransformation@@YAXPAUtagG4x4@@AAN@Z 10003510 f   dgndim.obj
+ 0001:00002760       ??$_itoa@$0GE@@@YAPADHAAY0GE@DH@Z 10003760 f i dgndim.obj
+ 0001:00002790       ??$strcpy@$0GE@@@YAPADAAY0GE@DPBD@Z 10003790 f i dgndim.obj
+ 0001:000027b0       ??$sprintf@$09@@YAHAAY09DPBDZZ 100037b0 f i dgndim.obj
+ 0001:000027d0       ??$sprintf@$0BAA@@@YAHAAY0BAA@DPBDZZ 100037d0 f i dgndim.obj
+ 0001:000027f0       ?JDimGetDefaultAttributes@@YAXINPAUtagJDIMATTRBUNDLE@@@Z 100037f0 f i dgndim.obj
+ 0001:000028c0       ??$wcscpy@$08@@YAPA_WAAY08_WPB_W@Z 100038c0 f i dgndim.obj
+ 0001:00002b60       ?GCMSTNGetDimAngleBetw3Pts@@YAXUtagGPosition@@00PAN@Z 10003b60 f   dgndim.obj
+ 0001:00002cc0       ?GCMSTNpoint_at_distance@@YAXUtagGPosition@@0NPAU1@@Z 10003cc0 f   dgndim.obj
+ 0001:00002d60       ?GCMSTNcalcInsideLimit@@YANPBUtagGDimension@@NPAN@Z 10003d60 f   dgndim.obj
+ 0001:00003410       ?JDimGetStandardParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004410 f i dgndim.obj
+ 0001:00003920       ?JDimGetDefaultANSIParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004920 f i dgndim.obj
+ 0001:00003a30       ?JDimGetDefaultBSIParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004a30 f i dgndim.obj
+ 0001:00003a70       ?JDimGetDefaultDINParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004a70 f i dgndim.obj
+ 0001:00003a90       ?JDimGetDefaultJISParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004a90 f i dgndim.obj
+ 0001:00003b10       ?JDimGetDefaultASAParameters@@YAXPAUtagJDIMPARAMBUNDLE@@@Z 10004b10 f i dgndim.obj
+ 0001:00003c20       ?JDimGetDefaultParameters@@YAXGPAUtagJDIMPARAMBUNDLE@@@Z 10004c20 f i dgndim.obj
+ 0001:00007920       ?GC_IGDS_DIMENSIONToGDimension@@YAHPAX0PAHPAPAPAX@Z 10008920 f   dgndim.obj
+ 0001:00007fd0       ?GC_IGDS_DIMENSIONToGGraphic@@YAHPAX0PAHPAPAPAX@Z 10008fd0 f   dgndim.obj
+ 0001:00008840       ?GC_IGDS_DIMENSION_STYLEToGDimStyle@@YAHPAX0PAHPAPAPAX@Z 10009840 f   dgndstyl.obj
+ 0001:000089e0       ??$strcpy@PAD@@YAPADAAPADPBD@Z 100099e0 f i dgng2cv.obj
+ 0001:00008a00       ?GC_IGDS_POINT_STRINGToGPoints2d@@YAHPAX0PAHPAPAPAX@Z 10009a00 f   dgng2cv.obj
+ 0001:00009020       ?GC_IGDS_LINESTRINGToGLine2d@@YAHPAX0PAHPAPAPAX@Z 1000a020 f   dgng2cv.obj
+ 0001:000093f0       ?GC_IGDS_SHAPEToGLine2d@@YAHPAX0PAHPAPAPAX@Z 1000a3f0 f   dgng2cv.obj
+ 0001:00009400       ?GC_IGDS_ELLIPSEToGEllipse2d@@YAHPAX0PAHPAPAPAX@Z 1000a400 f   dgng2cv.obj
+ 0001:000097c0       ?GC_IGDS_ARCToGArc2d@@YAHPAX0PAHPAPAPAX@Z 1000a7c0 f   dgng2cv.obj
+ 0001:000097d0       ?GC_IGDS_BSPCURHDRToGBspCurve2d@@YAHPAX0PAHPAPAPAX@Z 1000a7d0 f   dgng2cv.obj
+ 0001:00009be0       ?GC_IGDS_CURVEToGBspCurve2d@@YAHPAX0PAHPAPAPAX@Z 1000abe0 f   dgng2cv.obj
+ 0001:00009de0       ?GC_IGDS_CURVEToGLineString2d@@YAHPAX0PAHPAPAPAX@Z 1000ade0 f   dgng2cv.obj
+ 0001:00009ff0       ?GC_IGDS_CPLXSTRToGComplexString2d@@YAHPAX0PAHPAPAPAX@Z 1000aff0 f   dgng2cv.obj
+ 0001:0000a2e0       ?GC_IGDS_CPLXSHAPEToGComplexString2d@@YAHPAX0PAHPAPAPAX@Z 1000b2e0 f   dgng2cv.obj
+ 0001:0000a2f0       ??D@YA?AUtagGVector@@NABU0@@Z 1000b2f0 f i dgng2cv.obj
+ 0001:0000a330       ?GC_IGDS_LINEToGLine2d@@YAHPAX0PAHPAPAPAX@Z 1000b330 f   dgng2cv.obj
+ 0001:0000a630       ?GC_IGDS_LINESTRINGToGLineString2d@@YAHPAX0PAHPAPAPAX@Z 1000b630 f   dgng2cv.obj
+ 0001:0000a8e0       ?GC_IGDS_SHAPEToGLineString2d@@YAHPAX0PAHPAPAPAX@Z 1000b8e0 f   dgng2cv.obj
+ 0001:0000a8f0       ?GC_IGDS_CPLXSTRToGType2d@@YAHPAX0PAHPAPAPAX@Z 1000b8f0 f   dgng2cv.obj
+ 0001:0000ab70       ?GC_IGDS_CPLXSHAPEToGType2d@@YAHPAX0PAHPAPAPAX@Z 1000bb70 f   dgng2cv.obj
+ 0001:0000ab80       ?GC_IGDS_CPLXSTRToGType2dForServers@@YAHPAX0PAHPAPAPAX@Z 1000bb80 f   dgng2cv.obj
+ 0001:0000af30       ?GC_IGDS_CPLXSHAPEToGType2dForServers@@YAHPAX0PAHPAPAPAX@Z 1000bf30 f   dgng2cv.obj
+ 0001:0000af40       ?GC_IGDS_MULTILINEToGGroup@@YAHPAX0PAHPAPAPAX@Z 1000bf40 f   dgng2cv.obj
+ 0001:0000ca30       ?GC_IGDS_BSPSURHDRToGLine2d@@YAHPAX0PAHPAPAPAX@Z 1000da30 f   dgng2sf.obj
+ 0001:0000d1d0       ?GC_IGDS_BSPSURHDRToGBspCurve2d@@YAHPAX0PAHPAPAPAX@Z 1000e1d0 f   dgng2sf.obj
+ 0001:0000de70       ?GC_IGDS_CONEToGType2d@@YAHPAX0PAHPAPAPAX@Z 1000ee70 f   dgng2sf.obj
+ 0001:0000ec90       ?GC_IGDS_SURFToGGroup2d@@YAHPAX0PAHPAPAPAX@Z 1000fc90 f   dgng2sf.obj
+ 0001:0000efc0       ?GC_IGDS_BSPSURHDRToGLineString2d@@YAHPAX0PAHPAPAPAX@Z 1000ffc0 f   dgng2sf.obj
+ 0001:0000f480       ?GC_IGDS_SHARCELLDEFToGSymbolDefinition@@YAHPAX0PAHPAPAPAX@Z 10010480 f   dgngtcel.obj
+ 0001:0000fa20       ?GC_IGDS_SHARCELLINSTToGGroup@@YAHPAX0PAHPAPAPAX@Z 10010a20 f   dgngtcel.obj
+ 0001:0000ff30       ??$strcpy@$0CB@@@YAPADAAY0CB@DPBD@Z 10010f30 f i dgngtcel.obj
+ 0001:0000ff50       ??$strcat@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10010f50 f i dgngtcel.obj
+ 0001:0000ff80       ?GC_IGDS_CELLToGSymbolDefinition@@YAHPAX0PAHPAPAPAX@Z 10010f80 f   dgngtcel.obj
+ 0001:00010560       ?GC_IGDS_SHARCELLINSTToGSymbolInstance@@YAHPAX0PAHPAPAPAX@Z 10011560 f   dgngtcel.obj
+ 0001:00010ab0       ?GC_IGDS_CELL_DEFToGSymbolDefinition@@YAHPAX0PAHPAPAPAX@Z 10011ab0 f   dgngtcel.obj
+ 0001:00010f90       ?GCMSTNprocessReferenceCellAsGroup@@YAHPATIGDS_elements@@PAXPAPAPAXPAH@Z 10011f90 f   dgngtcel.obj
+ 0001:000114f0       ?GCMSTNconvertIGDS_CELLToGGroup@@YAHPAX0HPAHPAPAPAX@Z 100124f0 f   dgngtcel.obj
+ 0001:00011730       ?GC_IGDS_CELLToGGroup@@YAHPAX0PAHPAPAPAX@Z 10012730 f   dgngtcel.obj
+ 0001:00011750       ?GC_IGDS_CELLToGTypesForServers@@YAHPAX0PAHPAPAPAX@Z 10012750 f   dgngtcel.obj
+ 0001:00011a80       ?GC_IGDS_CELLToGSymbolInstance@@YAHPAX0PAHPAPAPAX@Z 10012a80 f   dgngtcel.obj
+ 0001:00012050       ?GC_IGDS_REFFILEfreeReferenceOptions@@YAXXZ 10013050 f   dgngtref.obj
+ 0001:000120b0       ?GCMSTN_GetUnitsTypeFromString@@YAHPADPAI@Z 100130b0 f   dgngtref.obj
+ 0001:000123b0       ??$wcscpy@PA_W@@YAPA_WABQA_WPB_W@Z 100133b0 f i dgngtref.obj
+ 0001:000123b0       ??$wcscpy@PA_W@@YAPA_WAAPA_WPB_W@Z 100133b0 f i dgng2cv.obj
+ 0001:000123e0       ??$sprintf@$0BAE@@@YAHAAY0BAE@DPBDZZ 100133e0 f i dgngtref.obj
+ 0001:00012400       ??H@YA?AUtagGVector@@ABU0@0@Z 10013400 f i dgngtref.obj
+ 0001:00012440       ??$strcpy@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10013440 f i dgngtref.obj
+ 0001:00012470       ?GC_IGDS_REFFILEsetReferenceOptions@@YAXPAD@Z 10013470 f   dgngtref.obj
+ 0001:000129d0       ?GC_IGDS_REFFILEToGReference@@YAHPAX0PAHPAPAPAX@Z 100139d0 f   dgngtref.obj
+ 0001:00013a00       ?GC_IGDS_RASTERToGReference@@YAHPAX0PAHPAPAPAX@Z 10014a00 f   dgngtref.obj
+ 0001:000140c0       ?GCMSTN3DGeometryToGTypeElement@@YAHEPADPAUtagG4x4@@PATIGDS_elements@@PAPAX@Z 100150c0 f   dgngtsup.obj
+ 0001:00014140       ?GCMSTNgetComplexStringComponentTypedCurves@@YAHHPAPAXPAH0@Z 10015140 f   dgngtsup.obj
+ 0001:00014250       ?GCMSTNcreateGroupGTypeFromComponents@@YAHPADHPAPAX1@Z 10015250 f   dgngtsup.obj
+ 0001:00014300       ?GCMSTNcreateGroupGTypeFromComponents@@YAHPADHPAPAXH1@Z 10015300 f   dgngtsup.obj
+ 0001:00014410       ?GCMSTNsplitIsoparamCurveByBoundaries@@YAHUtagGTypedCurve@@FNHPAUtagGTypedCurve2d@@PAU1@HPAHPAPAU1@@Z 10015410 f   dgngtsup.obj
+ 0001:00015290       ?GCMSTNcreateComplexStringFromComponentGTypes@@YAHHPAPAXNHPAE0@Z 10016290 f   dgngtsup.obj
+ 0001:00015390       ?GCAsianText@@YAHGPADAAH@Z 10016390 f   dgngtxt.obj
+ 0001:00015660       ?GCConcatenateStrings@@YAHHAAG0PAPAD@Z 10016660 f   dgngtxt.obj
+ 0001:00015840       ??$_itoa@$0GAA@@@YAPADHAAY0GAA@DH@Z 10016840 f i dgngtxt.obj
+ 0001:00015870       ??$_ltoa@$0GAA@@@YAPADJAAY0GAA@DH@Z 10016870 f i dgngtxt.obj
+ 0001:000158a0       ??1tagJCharStyleDescrList@@UAE@XZ 100168a0 f i dgngtxt.obj
+ 0001:000158c0       ??_GtagJCharStyleDescrList@@UAEPAXI@Z 100168c0 f i dgngtxt.obj
+ 0001:000158c0       ??_EtagJCharStyleDescrList@@UAEPAXI@Z 100168c0 f i dgngtxt.obj
+ 0001:00015900       ?GCMSTNigdsTextToGTextBox@@YAHUIGDScommon_header_info@@JJEJJJTIGDS_rotation@@GGGPADHPAUtagG4x4@@UIGDS_text_param@@PAUtagGTextBox@@@Z 10016900 f   dgngtxt.obj
+ 0001:00016390       ??0tagGTextBox@@QAE@XZ     10017390 f i dgngtxt.obj
+ 0001:000163e0       ??1tagGTextBox@@QAE@XZ     100173e0 f i dgngtxt.obj
+ 0001:00016440       ?GC_IGDS_TEXT_NODEToGTextBox@@YAHPAX0PAHPAPAPAX@Z 10017440 f   dgngtxt.obj
+ 0001:00016b40       ?GC_IGDS_ATTRIBUTEToGTextBox@@YAHPAX0PAHPAPAPAX@Z 10017b40 f   dgngtxt.obj
+ 0001:000172e0       ?GC_IGDS_TEXTToGTextBox@@YAHPAX0PAHPAPAPAX@Z 100182e0 f   dgngtxt.obj
+ 0001:00017e10       ??$sprintf@PAD@@YAHAAPADPBDZZ 10018e10 f i dgnpnote.obj
+ 0001:00017e10       ??$sprintf@PAD@@YAHABQADPBDZZ 10018e10 f i g2dgndim.obj
+ 0001:00017e30       ??$sprintf@$0FA@@@YAHAAY0FA@DPBDZZ 10018e30 f i dgnpnote.obj
+ 0001:00017e50       ??$sprintf@$0DM@@@YAHAAY0DM@DPBDZZ 10018e50 f i dgnpnote.obj
+ 0001:00017e70       ??$sprintf@$02@@YAHAAY02DPBDZZ 10018e70 f i dgnpnote.obj
+ 0001:0001a080       ?GCMSTNprocessLabelLineDimension@@YAHPATIGDS_elements@@QAUtagG4x4@@PAEPAHPAPAUtagGGroup@@@Z 1001b080 f   dgnpnote.obj
+ 0001:0001b120       ?GCMSTNprocessPlaceNoteDimension@@YAHPATIGDS_elements@@EQAUtagG4x4@@PAEPAHPAPAUtagGGroup@@@Z 1001c120 f   dgnpnote.obj
+ 0001:0001b2b0       ?GCMSTNInitializeGlobals@@YAXPAX0PADPAUtagConfigData@@@Z 1001c2b0 f   dgnproc.obj
+ 0001:0001b470       ?GCMSTNResetGlobals@@YAXXZ 1001c470 f   dgnproc.obj
+ 0001:0001b5a0       ?GCMSTNInitTransWithoutProj@@YAXPAX@Z 1001c5a0 f   dgnproc.obj
+ 0001:0001b5c0       ?GCMSTNStartLogging@@YAHHH@Z 1001c5c0 f   dgnproc.obj
+ 0001:0001b5e0       ?GCMSTNStopLogging@@YAHXZ  1001c5e0 f   dgnproc.obj
+ 0001:0001b600       ?GCMSTNWriteToLog@@YAHIZZ  1001c600 f   dgnproc.obj
+ 0001:0001b630       ?GCMSTNgetReadTextFont@@YAHPAD0@Z 1001c630 f   dgnproc.obj
+ 0001:0001b6b0       ?GCMSTNgetWriteTextFont@@YAHPAD0@Z 1001c6b0 f   dgnproc.obj
+ 0001:0001b730       ?GCMSTNSharedCellDefToGSymbolDefinition@@YAHPAX0PAPAX@Z 1001c730 f   dgnproc.obj
+ 0001:0001b790       ?GCMSTNNamedCellToGSymbolDefinition@@YAHPAX0PAPAX@Z 1001c790 f   dgnproc.obj
+ 0001:0001b810       ?GCMSTNgetCellDefPath@@YAHPAD@Z 1001c810 f   dgnproc.obj
+ 0001:0001b840       ?GCMSTNMapString@@YAHPAD0H@Z 1001c840 f   dgnproc.obj
+ 0001:0001b8f0       ?GCMSTNMapValue@@YAHNPANH@Z 1001c8f0 f   dgnproc.obj
+ 0001:0001ba60       ?GCMSTNGetLevel@@YAHPADPAI@Z 1001ca60 f   dgnproc.obj
+ 0001:0001bad0       ?GCMSTNGetUsedLevelNum@@YAXPAD@Z 1001cad0 f   dgnproc.obj
+ 0001:0001bb30       ?GCMSTNsetProcSymbolsAsRigidGroups@@YAXH@Z 1001cb30 f   dgnproc.obj
+ 0001:0001bb40       ?GCMSTNGetProcessReferenceFileFlag@@YAHPAH@Z 1001cb40 f   dgnproc.obj
+ 0001:0001bb60       ?GCMSTNGetStdView@@YAHXZ   1001cb60 f   dgnproc.obj
+ 0001:0001bb70       ?GCMSTNGetConfigUnitType@@YAHXZ 1001cb70 f   dgnproc.obj
+ 0001:0001bb80       ?GCMSTNGetTransWithoutProj@@YAHPAPAX@Z 1001cb80 f   dgnproc.obj
+ 0001:0001bb90       ?GCMSTNGetProgAppName@@YAXPAD@Z 1001cb90 f   dgnproc.obj
+ 0001:0001bbb0       ?GCMSTNProcessYourself@@YAHPAX0PADPAHPAPAPAX@Z 1001cbb0 f   dgnproc.obj
+ 0001:0001bc70       ?GCMSTNreadAndProcessNextElement@@YAHPATIGDS_elements@@PAXPAHPAPAPAX@Z 1001cc70 f   dgnproc.obj
+ 0001:0001bd60       ?GCMSTNreadAndProcessNextNElements@@YAHPAXHPAHPAPAPAX@Z 1001cd60 f   dgnproc.obj
+ 0001:0001bf50       ?GCMSTNreadAndProcessNextNWords@@YAHPAXHPAHPAPAPAX@Z 1001cf50 f   dgnproc.obj
+ 0001:0001c120       ?GCMSTNsetCellDefPath@@YAHPAD@Z 1001d120 f   dgnproc.obj
+ 0001:0001c150       ??G@YA?AUtagGVector@@ABUtagGPosition@@0@Z 1001d150 f i dgnsfsup.obj
+ 0001:0001c190       ?GCMSTNcreateBsplineSurface@@YAHPAUIGDS_bssurface@@PAUIGDS_bssurface_data@@PAEPAPAD@Z 1001d190 f   dgnsfsup.obj
+ 0001:0001d000       ?GC_IGDS_ProcessType5@@YAHPAX0PAHPAPAPAX@Z 1001e000 f   dgntyp5.obj
+ 0001:0001d0b0       ?GC_IGDS_ProcessType66@@YAHPAX0PAHPAPAPAX@Z 1001e0b0 f   dgntyp66.obj
+ 0001:0001d180       ?GC_GLine2dToIGDS_LINE@@YAHPAX0PAHPAPAPAX@Z 1001e180 f   g2dgncv.obj
+ 0001:0001d390       ?GC_GLineString2dToIGDS_LINESTRING@@YAHPAX0PAHPAPAPAX@Z 1001e390 f   g2dgncv.obj
+ 0001:0001d6d0       ?GC_GPoint2dToIGDS_LINE@@YAHPAX0PAHPAPAPAX@Z 1001e6d0 f   g2dgncv.obj
+ 0001:0001d850       ?GC_GEllipse2dToIGDS_ELLIPSE@@YAHPAX0PAHPAPAPAX@Z 1001e850 f   g2dgncv.obj
+ 0001:0001da10       ?GC_GBspCurve2dToIGDS_BSPCURHDR@@YAHPAX0PAHPAPAPAX@Z 1001ea10 f   g2dgncv.obj
+ 0001:0001dcd0       ?GC_GRectangle2dToIGDS_SHAPE@@YAHPAX0PAHPAPAPAX@Z 1001ecd0 f   g2dgncv.obj
+ 0001:0001df90       ?TRMACROgetPositiveAngle@@YANN@Z 1001ef90 f i g2dgncv.obj
+ 0001:0001dfe0       ?GC_GArc2dToIGDS_ELLIPSE@@YAHPAX0PAHPAPAPAX@Z 1001efe0 f   g2dgncv.obj
+ 0001:0001ec80       ??$sprintf@$0BJ@@@YAHAAY0BJ@DPBDZZ 1001fc80 f i g2dgndim.obj
+ 0001:0001eca0       ?Normalize@@YA?AUtagGUnitVector@@ABUtagGVector@@@Z 1001fca0 f i g2dgndim.obj
+ 0001:00021d10       ?GC_GDimensionToIGDS_DIMENSION@@YAHPAX0PAHPAPAPAX@Z 10022d10 f   g2dgndim.obj
+ 0001:00021f60       ??0CellData@@QAE@XZ        10022f60 f   g2icell.obj
+ 0001:00021f80       ??1CellData@@QAE@XZ        10022f80 f   g2icell.obj
+ 0001:00021f90       ?GC_IGDS_SharedCellInit@@YAHXZ 10022f90 f   g2icell.obj
+ 0001:00021fa0       ??0?$JList@PAVCellData@@PAV1@@@QAE@H@Z 10022fa0 f i g2icell.obj
+ 0001:00021fc0       ??$strcpy@$0BA@@@YAPADAAY0BA@DPBD@Z 10022fc0 f i g2icell.obj
+ 0001:00021fe0       ??$ConstructElements@PAVCellData@@@@YGXPAPAVCellData@@H@Z 10022fe0 f i g2icell.obj
+ 0001:00022000       _GetGID_TRANSF             10023000 f i g2icell.obj
+ 0001:00022070       ?SetSymbolName@CellData@@QAEHPA_W@Z 10023070 f   g2icell.obj
+ 0001:00022110       ?GCU_get_cell_by_name@@YAPAU__POSITION@@PAD@Z 10023110 f   g2icell.obj
+ 0001:00022170       ?GCU_get_cell_by_symbolname@@YAPAU__POSITION@@PA_W@Z 10023170 f   g2icell.obj
+ 0001:000221d0       ?GCU_gen_cell_name@@YAHPADPA_W@Z 100231d0 f   g2icell.obj
+ 0001:000223f0       ?GC_GSymbolInstance2dToIGDS_SHARCELLINST@@YAHPAX0PAHPAPAPAX@Z 100233f0 f   g2icell.obj
+ 0001:00022790       ?RemoveAll@?$JList@PAVCellData@@PAV1@@@QAEXXZ 10023790 f i g2icell.obj
+ 0001:000227d0       ??1?$JList@PAVCellData@@PAV1@@@QAE@XZ 100237d0 f i g2icell.obj
+ 0001:000227e0       ?NewNode@?$JList@PAVCellData@@PAV1@@@IAEPAUCNode@1@PAU21@0@Z 100237e0 f i g2icell.obj
+ 0001:00022860       ?GC_IGDS_SharedCellFree@@YAHXZ 10023860 f   g2icell.obj
+ 0001:00022870       ?AddTail@?$JList@PAVCellData@@PAV1@@@QAEPAU__POSITION@@PAVCellData@@@Z 10023870 f i g2icell.obj
+ 0001:000228a0       ?GC_GSymbolDefinition2dToIGDS_SHARCELLDEF@@YAHPAX0PAHPAPAPAX@Z 100238a0 f   g2icell.obj
+ 0001:00022fc0       ?GCU_GetElementSize@@YAHPATIGDS_elements@@H@Z 10023fc0 f   g2icplx.obj
+ 0001:00023100       ?GC_GComplexString2dToIGDS_CPLXSTR@@YAHPAX0PAHPAPAPAX@Z 10024100 f   g2icplx.obj
+ 0001:00023d30       ?GC_GLeaderToIGDS_DIMENSION@@YAHPAX0PAHPAPAPAX@Z 10024d30 f   g2ldrdim.obj
+ 0001:00024590       ?GCMSTNProcessType66Level1@@YAHPAX0PAHPAPAPAX@Z 10025590 f   g2type66.obj
+ 0001:00024630       _DllMain@12                10025630 f   genlib.obj
+ 0001:00024650       ?GCMSTNGetNextEntityId@@YAHXZ 10025650 f   genlib.obj
+ 0001:00024660       ?GCMSTNconvertGTypeLayerName@@YAXPA_WPAD@Z 10025660 f   genlib.obj
+ 0001:00024690       ?GCMSTNmapLevelNameToNum@@YAHPA_WPAH@Z 10025690 f   genlib.obj
+ 0001:000246f0       ??$wcscat@PA_W@@YAPA_WAAPA_WPB_W@Z 100256f0 f i genlib.obj
+ 0001:00024740       ?GCMSTNgetGTransfFromMatrix@@YAXPANPAUtagGTransf@@@Z 10025740 f   genlib.obj
+ 0001:00024840       ?GCMSTNgetGTransfFromIGDSrotation@@YAHTIGDS_rotation@@PAUtagGTransf@@@Z 10025840 f   genlib.obj
+ 0001:000248d0       ?GCMSTNgetG4x4FromMatrix@@YAXPANAAUtagG4x4@@@Z 100258d0 f   genlib.obj
+ 0001:000249d0       ?GCMSTNgetG4x4From2dMatrix@@YAXPANAAUtagG4x4@@@Z 100259d0 f   genlib.obj
+ 0001:00024ac0       ?GCMSTNigdsLinksToDynAttrSets@@YAXUIGDScommon_header_info@@PAKPAPAUtagGFreeFormAttrSet@@@Z 10025ac0 f   genlib.obj
+ 0001:00024e90       ?GCMSTNmapLevelNumToName@@YAHHPA_W@Z 10025e90 f   genlib.obj
+ 0001:00024f40       ?GCMSTNconstructGType2dElement@@YAHEPADPATIGDS_elements@@KPAXPAPAUtagGType2d@@@Z 10025f40 f   genlib.obj
+ 0001:000252d0       ?GCMSTNgetG4x4FromIGDSCellMatrix@@YAXPAJAAUtagG4x4@@@Z 100262d0 f   genlib.obj
+ 0001:00025340       ?GCMSTNconstructGType2dElement@@YAHEPADPATIGDS_elements@@PAXPAPAUtagGType2d@@@Z 10026340 f   genlib.obj
+ 0001:00025370       ?GC_GGroupToIgdsElements@@YAHPAX0PAHPAPAPAX@Z 10026370 f   gtdgngrp.obj
+ 0001:00025a50       ?CopyOfIEMSTN_GetUnitsTypeFromString@@YAJPADPAI@Z 10026a50 f   gtdgnref.obj
+ 0001:00025d70       ?GCMSTNSubtractLongsNoOverflow@@YAJJJ@Z 10026d70 f   gtdgnref.obj
+ 0001:00025db0       ?GCMSTNStrokeType66ClipBoundary@@YAJPAUtagGReference@@PAUIGDS_ref_file_typ66@@PAUtagGTransf@@@Z 10026db0 f   gtdgnref.obj
+ 0001:00026290       ??$_itoa@$0BE@@@YAPADHAAY0BE@DH@Z 10027290 f i gtdgnref.obj
+ 0001:000262c0       ??$strcpy@$0EB@@@YAPADAAY0EB@DPBD@Z 100272c0 f i gtdgnref.obj
+ 0001:000262e0       ??$strcat@$0GE@@@YAPADAAY0GE@DPBD@Z 100272e0 f i gtdgnref.obj
+ 0001:00026300       ??$strcpy@$0BG@@@YAPADAAY0BG@DPBD@Z 10027300 f i gtdgnref.obj
+ 0001:00026320       ??$strcpy@$0CK@@@YAPADAAY0CK@DPBD@Z 10027320 f i gtdgnref.obj
+ 0001:00026340       ??$strcpy@$0BI@@@YAPADAAY0BI@DPBD@Z 10027340 f i gtdgnref.obj
+ 0001:00026360       ?GCMSTNGenerateType66ClipBoundary@@YAJPAUtagGReference@@PAUIGDS_ref_file_typ66@@PAUtagGTransf@@@Z 10027360 f   gtdgnref.obj
+ 0001:00026da0       ?GC_GReferenceToIGDS_REFFILE@@YAHPAX0PAHPAPAPAX@Z 10027da0 f   gtdgnref.obj
+ 0001:00027a00       ?GCMSTNcreateIGDSellipticalArc@@YAXPAUtagGEllipse2d@@PAUIGDS_elliptical_arc@@@Z 10028a00 f   gtdgnsup.obj
+ 0001:00027d30       ?GCMSTNsplitBsplineCurve@@YAHPAUtagGBspCurve2d@@PAHPAPAPAU1@@Z 10028d30 f   gtdgnsup.obj
+ 0001:00027da0       ?GCMSTNcreateIGDSBsplineCurve@@YAHPAUtagGBspCurve2d@@PAUIGDS_bscurve_data@@@Z 10028da0 f   gtdgnsup.obj
+ 0001:000280e0       ?GCMSTNgetTextCharStyle@@YAHPAUtagGTextBox@@HPAPAUtagJTextStyleChar@@@Z 100290e0 f   gtdgntxt.obj
+ 0001:00028150       ?GCMSTNGTextToIGDS_TEXT@@YAHUtagGText@@PAUtagGTransf@@PAUtagJTextStyleChar@@PATIGDS_elements@@@Z 10029150 f   gtdgntxt.obj
+ 0001:00028c10       ?GC_GTextBoxToIGDStext@@YAHPAX0PAHPAPAPAX@Z 10029c10 f   gtdgntxt.obj
+ 0001:000298e0       ?GCMSTN_SetSymbologyOptions@@YAXPAD@Z 1002a8e0 f   symblgy.obj
+ 0001:00029920       ?GCMSTNgetCOLORREFfromIgdsColor@@YAXEPAK@Z 1002a920 f   symblgy.obj
+ 0001:000299a0       ?GCMSTNgetWidthfromIGDSWeight@@YAXEPAN@Z 1002a9a0 f   symblgy.obj
+ 0001:000299f0       ?GCMSTNgetOrigin@@YAXPATIGDS_elements@@PAJPAUtagGPosition@@@Z 1002a9f0 f   symblgy.obj
+ 0001:00029b70       ?GCMSTNgetIGDScolorFromRGB@@YAXKPAH@Z 1002ab70 f   symblgy.obj
+ 0001:00029c70       ?GCMSTNgetIGDSWeightfromWidth@@YAXNPAH@Z 1002ac70 f   symblgy.obj
+ 0001:00029ce0       ?GCMSTNgetAcceptPoint@@YAXPATIGDS_elements@@PAUtagGPosition@@PAJ@Z 1002ace0 f   symblgy.obj
+ 0001:00029e40       ?GCMSTNgetStylefromIGDSStyle@@YAXEPAI@Z 1002ae40 f   symblgy.obj
+ 0001:00029fa0       ?GCMSTNfillDataFromIGDSpattern@@YAHPATIGDS_elements@@PAXPAUGSymbology@@@Z 1002afa0 f   symblgy.obj
+ 0001:0002a3d0       ?GCMSTNgetIGDSStylefromStyle@@YAXIPAD0@Z 1002b3d0 f   symblgy.obj
+ 0001:0002a5c0       ?GCMSTNgetIGDSpatternfromHatchFill@@YAXPAUGSymbology@@PAXPATIGDS_elements@@@Z 1002b5c0 f   symblgy.obj
+ 0001:0002a840       ?GCMSTNprocessGSymbology@@YAXPATIGDS_elements@@PAXPAUGSymbology@@@Z 1002b840 f   symblgy.obj
+ 0001:0002aab0       ?GCMSTNprocessIGDSsymbology@@YAXUGSymbology@@PAXPATIGDS_elements@@@Z 1002bab0 f   symblgy.obj
+ 0001:0002abfe       ?CFGgetUnitType@@YAHPADHPAH@Z 1002bbfe f   config:config.dll
+ 0001:0002ac04       ?CFGgetStdView@@YAHPADHPAH@Z 1002bc04 f   config:config.dll
+ 0001:0002ac0a       ?CFGgetReadCellBlockOption@@YAHPAD0PAH@Z 1002bc0a f   config:config.dll
+ 0001:0002ac10       ?CFGsortNumericMap@@YAXPAUCFGmap@@H@Z 1002bc10 f   config:config.dll
+ 0001:0002ac16       ?CFGgetMap@@YAHPBDHPAUCFGmap@@@Z 1002bc16 f   config:config.dll
+ 0001:0002ac1c       ?CFGgetEntityMapFunctionAddr@@YAXPAUTREntityMap@@PADPAPAX@Z 1002bc1c f   config:config.dll
+ 0001:0002ac22       _WideString                1002bc22 f   jutil:JUtil.dll
+ 0001:0002ac28       _JGetSolidEdgeCurrentUserApplicationPath 1002bc28 f   jutil:JUtil.dll
+ 0001:0002ac2e       _JGetSolidEdgeLocalMachineApplicationPath 1002bc2e f   jutil:JUtil.dll
+ 0001:0002ac34       _ConvertStrAtoW            1002bc34 f   jutil:JUtil.dll
+ 0001:0002ac3a       _JFreeLibrary              1002bc3a f   jutil:JUtil.dll
+ 0001:0002ac40       _AnsiString                1002bc40 f   jutil:JUtil.dll
+ 0001:0002ac46       _HRerrEx                   1002bc46 f   jutil:JUtil.dll
+ 0001:0002ac4c       _IGDStransformReadDatabasePtsToWorld 1002bc4c f   mstnrw:MSTNRW.dll
+ 0001:0002ac52       _IGDS_point_at_distance    1002bc52 f   mstnrw:MSTNRW.dll
+ 0001:0002ac58       _IGDS_dist_from_2pts       1002bc58 f   mstnrw:MSTNRW.dll
+ 0001:0002ac5e       _IGDStransformWorldToReadDatabasePts 1002bc5e f   mstnrw:MSTNRW.dll
+ 0001:0002ac64       _IGDSfseek_r               1002bc64 f   mstnrw:MSTNRW.dll
+ 0001:0002ac6a       _IGDSget_r_byte_offset     1002bc6a f   mstnrw:MSTNRW.dll
+ 0001:0002ac70       _IGDSget_offset_from_id    1002bc70 f   mstnrw:MSTNRW.dll
+ 0001:0002ac76       _IGDSget_ele_from_id       1002bc76 f   mstnrw:MSTNRW.dll
+ 0001:0002ac7c       _IGDSgetPointFromAssocInfo 1002bc7c f   mstnrw:MSTNRW.dll
+ 0001:0002ac82       _IGDS_getReadScaleFactor   1002bc82 f   mstnrw:MSTNRW.dll
+ 0001:0002ac88       _IGDS_2upper               1002bc88 f   mstnrw:MSTNRW.dll
+ 0001:0002ac8e       _IGDSstring_strip          1002bc8e f   mstnrw:MSTNRW.dll
+ 0001:0002ac94       _IGDS_getReadType9         1002bc94 f   mstnrw:MSTNRW.dll
+ 0001:0002ac9a       _IGDSget_fontName          1002bc9a f   mstnrw:MSTNRW.dll
+ 0001:0002aca0       _IGDSdimension_quaternion_to_matrix 1002bca0 f   mstnrw:MSTNRW.dll
+ 0001:0002aca6       _IGDS_getReadFileDim       1002bca6 f   mstnrw:MSTNRW.dll
+ 0001:0002acac       _IGDSgetEntityTypeLiteral  1002bcac f   mstnrw:MSTNRW.dll
+ 0001:0002acb2       _IGDS_getReadColorTable    1002bcb2 f   mstnrw:MSTNRW.dll
+ 0001:0002acb8       _IGDSget_dim_text_height   1002bcb8 f   mstnrw:MSTNRW.dll
+ 0001:0002acbe       _IGDSfree_complex_data     1002bcbe f   mstnrw:MSTNRW.dll
+ 0001:0002acc4       _IGDSget_complex_data      1002bcc4 f   mstnrw:MSTNRW.dll
+ 0001:0002acca       _IGDS_analyzeLinkage       1002bcca f   mstnrw:MSTNRW.dll
+ 0001:0002acd0       _IGDSquaternion_to_matrix  1002bcd0 f   mstnrw:MSTNRW.dll
+ 0001:0002acd6       _IGDSget_ele               1002bcd6 f   mstnrw:MSTNRW.dll
+ 0001:0002acdc       _IGDSgetReadCellNewName    1002bcdc f   mstnrw:MSTNRW.dll
+ 0001:0002ace2       _IGDSfrewind_r             1002bce2 f   mstnrw:MSTNRW.dll
+ 0001:0002ace8       _IGDS_getReadSharedCellOffset 1002bce8 f   mstnrw:MSTNRW.dll
+ 0001:0002acee       _IGDSrad50_to_ascii        1002bcee f   mstnrw:MSTNRW.dll
+ 0001:0002acf4       _IGDSat_offset_get_ele     1002bcf4 f   mstnrw:MSTNRW.dll
+ 0001:0002acfa       _IGDS_getReadCellDefinitionOffset 1002bcfa f   mstnrw:MSTNRW.dll
+ 0001:0002ad00       _IGDS_getReadFileType      1002bd00 f   mstnrw:MSTNRW.dll
+ 0001:0002ad06       _IGDScellIsGroupedHole     1002bd06 f   mstnrw:MSTNRW.dll
+ 0001:0002ad0c       _IGDSclose_igds_file       1002bd0c f   mstnrw:MSTNRW.dll
+ 0001:0002ad12       _IGDSopen_igds_file        1002bd12 f   mstnrw:MSTNRW.dll
+ 0001:0002ad18       _IGDSget_igds_filename     1002bd18 f   mstnrw:MSTNRW.dll
+ 0001:0002ad1e       _IGDS_getReadNextAssocId   1002bd1e f   mstnrw:MSTNRW.dll
+ 0001:0002ad24       _IGDS_getReadElementSymbologyOverrides 1002bd24 f   mstnrw:MSTNRW.dll
+ 0001:0002ad2a       _IGDSparse_text_param      1002bd2a f   mstnrw:MSTNRW.dll
+ 0001:0002ad30       _IGDS_putLinkage           1002bd30 f   mstnrw:MSTNRW.dll
+ 0001:0002ad36       _IGDSaccumulate_range      1002bd36 f   mstnrw:MSTNRW.dll
+ 0001:0002ad3c       _IGDSpoints_range          1002bd3c f   mstnrw:MSTNRW.dll
+ 0001:0002ad42       _IGDStransformWorldToWriteDatabasePts 1002bd42 f   mstnrw:MSTNRW.dll
+ 0001:0002ad48       _IGDSinit_range            1002bd48 f   mstnrw:MSTNRW.dll
+ 0001:0002ad4e       _IGDS_getWriteNextGroupNum 1002bd4e f   mstnrw:MSTNRW.dll
+ 0001:0002ad54       _IGDS_getWriteScaleFactor  1002bd54 f   mstnrw:MSTNRW.dll
+ 0001:0002ad5a       _IGDSget_fontNumber        1002bd5a f   mstnrw:MSTNRW.dll
+ 0001:0002ad60       _IGDS_getWriteType9        1002bd60 f   mstnrw:MSTNRW.dll
+ 0001:0002ad66       _IGDSdimension_matrix_to_quaternion 1002bd66 f   mstnrw:MSTNRW.dll
+ 0001:0002ad6c       _IGDS_getWriteFileDim      1002bd6c f   mstnrw:MSTNRW.dll
+ 0001:0002ad72       _IGDSput_dim_text_height   1002bd72 f   mstnrw:MSTNRW.dll
+ 0001:0002ad78       _IGDS_MapLevelNameToNum    1002bd78 f   mstnrw:MSTNRW.dll
+ 0001:0002ad7e       _IGDSmatrix_from_angle     1002bd7e f   mstnrw:MSTNRW.dll
+ 0001:0002ad84       _IGDSparse_UserDataLinkages 1002bd84 f   mstnrw:MSTNRW.dll
+ 0001:0002ad8a       _IGDSparse_database_linkages 1002bd8a f   mstnrw:MSTNRW.dll
+ 0001:0002ad90       _IGDS_GetDefLayerName      1002bd90 f   mstnrw:MSTNRW.dll
+ 0001:0002ad96       _IGDS_MapLevelNumToName    1002bd96 f   mstnrw:MSTNRW.dll
+ 0001:0002ad9c       _IGDSat_offset_put_ele     1002bd9c f   mstnrw:MSTNRW.dll
+ 0001:0002ada2       _IGDS_getWriteReferenceNumber 1002bda2 f   mstnrw:MSTNRW.dll
+ 0001:0002ada8       _IGDSget_cur_w_file        1002bda8 f   mstnrw:MSTNRW.dll
+ 0001:0002adae       _IGDSisMSTNfile            1002bdae f   mstnrw:MSTNRW.dll
+ 0001:0002adb4       _IGDS_getWriteGlobalData   1002bdb4 f   mstnrw:MSTNRW.dll
+ 0001:0002adba       _IGDSmatrix_to_quaternion  1002bdba f   mstnrw:MSTNRW.dll
+ 0001:0002adc0       _IGDSgetNumWordsInTextString 1002bdc0 f   mstnrw:MSTNRW.dll
+ 0001:0002adc6       _IGDS_getWriteNextTextNodeNum 1002bdc6 f   mstnrw:MSTNRW.dll
+ 0001:0002adcc       _IGDS_getWriteColorNumberFromRGB 1002bdcc f   mstnrw:MSTNRW.dll
+ 0001:0002add2       _IGDS_getWriteColorTable   1002bdd2 f   mstnrw:MSTNRW.dll
+ 0001:0002add8       _IGDSparse_assoc_pattern   1002bdd8 f   mstnrw:MSTNRW.dll
+ 0001:0002adde       _IGDS_getReadViewFillMode  1002bdde f   mstnrw:MSTNRW.dll
+ 0001:0002ade4       _IGDSgetReadStyleNameFromId 1002bde4 f   mstnrw:MSTNRW.dll
+ 0001:0002adea       _IGDSparse_UDLS_info       1002bdea f   mstnrw:MSTNRW.dll
+ 0001:0002adf0       _IGDSgetWriteStyleIdFromName 1002bdf0 f   mstnrw:MSTNRW.dll
+ 0001:0002ae40       ?TRFreeGBoundaries2d@@YAXPAUtagGBoundaries2d@@@Z 1002be40 f   trutil:freedata.obj
+ 0001:0002ae80       ?TRFreeGCurve2d@@YAXHPAX@Z 1002be80 f   trutil:freedata.obj
+ 0001:0002afa0       ?TRFreeGTypedCurve@@YAXPAUtagGTypedCurve@@@Z 1002bfa0 f   trutil:freedata.obj
+ 0001:0002b000       ?TRFreeGCurve@@YAXHPAX@Z   1002c000 f   trutil:freedata.obj
+ 0001:0002b0c0       ?TRFreeGBoundaries@@YAXPAUtagGBoundaries@@@Z 1002c0c0 f   trutil:freedata.obj
+ 0001:0002b100       ?TRFreeGSurface@@YAXHPAX@Z 1002c100 f   trutil:freedata.obj
+ 0001:0002b330       ?TRFreeGText@@YAXPAUtagGText@@@Z 1002c330 f   trutil:freedata.obj
+ 0001:0002b430       ?TRFreeGSymbolInstance@@YAXPAX@Z 1002c430 f   trutil:freedata.obj
+ 0001:0002b4a0       ?TRFreeGSatSolid@@YAXPAX@Z 1002c4a0 f   trutil:freedata.obj
+ 0001:0002b4f0       ?TRfreeGFreeFormAttrSet@@YAXKPAUtagGFreeFormAttrSet@@@Z 1002c4f0 f   trutil:freedata.obj
+ 0001:0002b590       ?TRFreeGSymbology@@YAXPAUGSymbology@@@Z 1002c590 f   trutil:freedata.obj
+ 0001:0002b6b0       ?TRFreeGTypedCurve2d@@YAXPAUtagGTypedCurve2d@@@Z 1002c6b0 f   trutil:freedata.obj
+ 0001:0002b6d0       ?TRFreeGTypeNonGraphicData@@YAXPAX@Z 1002c6d0 f   trutil:freedata.obj
+ 0001:0002b760       ?TRFreeGReference@@YAXPAX@Z 1002c760 f   trutil:freedata.obj
+ 0001:0002b830       ?TRFreeGType@@YAXPAX@Z     1002c830 f   trutil:freedata.obj
+ 0001:0002bc70       ?TRFreeGTextBox@@YAXPAUtagGTextBox@@@Z 1002cc70 f   trutil:freedata.obj
+ 0001:0002bd90       ?TRFreeGType2d@@YAXPAX@Z   1002cd90 f   trutil:freedata.obj
+ 0001:0002c1e0       ?TRFreeGSymbolDefinition@@YAXPAX@Z 1002d1e0 f   trutil:freedata.obj
+ 0001:0002c280       ??0tagJANNOTWELDSYMINFO@@QAE@XZ 1002d280 f i trutil:gdimgeom.obj
+ 0001:0002c3f0       ?TRGIsSimilarDirection@@YAHABUtagGPosition@@00@Z 1002d3f0 f   trutil:gdimgeom.obj
+ 0001:0002c450       ?TRGpoint_at_distance@@YAXABUtagGPosition@@0ABNPAU1@@Z 1002d450 f   trutil:gdimgeom.obj
+ 0001:0002c570       ?TRFreeDimGeometryInfo@@YAXPAUtagJDIMGEOMETRYINFO@@@Z 1002d570 f   trutil:gdimgeom.obj
+ 0001:0002c7b0       ?TRGDimension2Geometry@@YAXPAUtagGDimension@@PAUtagJDIMGEOMETRYINFO@@@Z 1002d7b0 f   trutil:gdimgeom.obj
+ 0001:0002dd10       ?TRGDimension2GType2d@@YAXPAXPAHPAPAPAX@Z 1002ed10 f   trutil:gdimgeom.obj
+ 0001:0002e6a0       ?TRGLeader2AnnotGeometry@@YAXPAUtagGLeader@@PAUtagJANNOTGEOMETRYINFO@@@Z 1002f6a0 f   trutil:gdimgeom.obj
+ 0001:0002ea80       ?TRGLeader2GType2d@@YAXPAXPAHPAPAPAX@Z 1002fa80 f   trutil:gdimgeom.obj
+ 0001:0002eec0       ?TRcreatePoint@@YAHAAUtagGPosition@@PAEPAPAD@Z 1002fec0 f   trutil:trcreate.obj
+ 0001:0002ef10       ?TRcreateLine@@YAHAAUtagGPosition@@0PAEPAPAD@Z 1002ff10 f   trutil:trcreate.obj
+ 0001:0002ef90       ?TRcreateLineString@@YAHHPAUtagGPosition@@PAEPAPAD@Z 1002ff90 f   trutil:trcreate.obj
+ 0001:0002f270       ?TRcreateEllipticalArc@@YAHUtagGPosition@@UtagGVector@@1NNPAEPAPAD@Z 10030270 f   trutil:trcreate.obj
+ 0001:0002f5d0       ?TRcreateBsplineCurve@@YAHHHPANHPAUtagGPosition@@0HHHPAEPAPAD@Z 100305d0 f   trutil:trcreate.obj
+ 0001:0002f8d0       ?TRcreateComplexStringFromTypedCurves@@YAHHPAXHNPAEPAPAD@Z 100308d0 f   trutil:trcreate.obj
+ 0001:0002fab0       ?TRcreateGBoundaries2dFromArrayOfGPosition2dArrays@@YAHHPAHPAPAUtagGPosition2d@@AAUtagGBoundaries2d@@@Z 10030ab0 f   trutil:trcreate.obj
+ 0001:0002fca0       ?TRcreateGBoundariesFromArrayOfGPositionArrays@@YAHHPAHPAPAUtagGPosition@@AAUtagGBoundaries@@@Z 10030ca0 f   trutil:trcreate.obj
+ 0001:0002fe90       ?TRcreateBsplineSurface@@YAHHHHHPAN0HHPAUtagGPosition@@0HHHHHHPAHPAPAUtagGPosition2d@@PAEPAPAD@Z 10030e90 f   trutil:trcreate.obj
+ 0001:00030700       ?TRFree3DGeometry@@YAXEPAD@Z 10031700 f   trutil:trcreate.obj
+ 0001:00030a70       ?TRcopy3DGeometry@@YAHEPADPAPAD@Z 10031a70 f   trutil:trcreate.obj
+ 0001:00031400       ?TRuniform_knots@@YAHHHHPAN@Z 10032400 f   trutil:trfunc.obj
+ 0001:000315b0       ?TRexpand_knots@@YAHHHHPAN@Z 100325b0 f   trutil:trfunc.obj
+ 0001:000317c0       ?TRIsEqual@@YAHNN@Z        100327c0 f   trutil:trfunc.obj
+ 0001:000317f0       ?TRIsEqual@@YAHNNN@Z       100327f0 f   trutil:trfunc.obj
+ 0001:00031820       ?TRIsEqual@@YAHAAUtagGPosition2d@@0N@Z 10032820 f   trutil:trfunc.obj
+ 0001:00031880       ?TRIsEqual@@YAHAAUtagGPosition@@0N@Z 10032880 f   trutil:trfunc.obj
+ 0001:00031900       ?TRIsEqualAngle@@YAHNNN@Z  10032900 f   trutil:trfunc.obj
+ 0001:00031940       ?TRFilterDupPoints@@YAXHPAUtagGPosition@@AAH@Z 10032940 f   trutil:trfunc.obj
+ 0001:000319b0       ?TRFilterDupPoints@@YAXHPAUtagGPosition2d@@AAH@Z 100329b0 f   trutil:trfunc.obj
+ 0001:00031a20       ?TRexpand_poles@@YAHHEHPAUtagGPosition@@PANPAH01@Z 10032a20 f   trutil:trfunc.obj
+ 0001:00032030       ?TRexpand_poles@@YAHHHEHHHHPAUtagGPosition@@PANPAH201@Z 10033030 f   trutil:trfunc.obj
+ 0001:000337b0       ?TRProcessFunction@@YAHPAX00PAHPAPAPAX@Z 100347b0 f   trutil:trfunc.obj
+ 0001:000337e0       ?TRGetNeutralFormatEntName@@YAXHPAXPAD@Z 100347e0 f   trutil:trfunc.obj
+ 0001:00033e60       ?TRwrite@@YAXHPBD@Z        10034e60 f   trutil:trfunc.obj
+ 0001:00033e90       ?TRwritedent@@YAXHH@Z      10034e90 f   trutil:trfunc.obj
+ 0001:00033f40       ?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 10034f40 f   trutil:trfunc.obj
+ 0001:00034010       ?GDistanceSq@@YANABUtagGPosition@@0@Z 10035010 f i trutil:trcvutil.obj
+ 0001:00034040       ??G@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10035040 f i trutil:trcvutil.obj
+ 0001:00034070       ?TRgetCurveEndPointsFromGeometry@@YAHEPADPAUtagGPosition@@1@Z 10035070 f   trutil:trcvutil.obj
+ 0001:00034740       ?TRisClosedCurve@@YAHEPAD@Z 10035740 f   trutil:trcvutil.obj
+ 0001:00034900       ?TRisClosedCurveWithinTol@@YAHEPADN@Z 10035900 f   trutil:trcvutil.obj
+ 0001:00034b20       ?TRTransformGTypedCurve@@YAHPAUtagGTypedCurve@@AAUtagG4x4@@PAHPAUtagGPoint@@0@Z 10035b20 f   trutil:trcvutil.obj
+ 0001:00034bf0       ?TR3dTo2d@@YAHHPAUtagGPoint@@PAUtagGTypedCurve@@PAPAUtagGPoint2d@@PAUtagGTypedCurve2d@@@Z 10035bf0 f   trutil:trcvutil.obj
+ 0001:00034c90       ?TRTransformAndConvertGeometry@@YAHEPADPAUtagG4x4@@HPAEPAPAD@Z 10035c90 f   trutil:trcvutil.obj
+ 0001:00034fa0       ?TRvalidComplexStringComponents@@YAHHPAXHN@Z 10035fa0 f   trutil:trcvutil.obj
+ 0001:000352a0       ?TRconnectDisjointComplexStringComponents@@YAHHPAXNHHPAHPAPAX@Z 100362a0 f   trutil:trcvutil.obj
+ 0001:000364e0       ?TRGComplexString2dChkPar@@YAXABUtagGComplexString2d@@NAAU1@PAH2@Z 100374e0 f   trutil:trcvutil.obj
+ 0001:00036710       ?TRGComplexStringChkPar@@YAXABUtagGComplexString@@NAAU1@PAH2@Z 10037710 f   trutil:trcvutil.obj
+ 0001:00036920       ?TRmakeComplexStringValid@@YAHPAUtagGComplexString@@NHH@Z 10037920 f   trutil:trcvutil.obj
+ 0001:00036e90       ?TRmakeComplexStringValid@@YAHPAUtagGComplexString2d@@NHH@Z 10037e90 f   trutil:trcvutil.obj
+ 0001:000373d0       ?isValid2dCopyType@@YAHE@Z 100383d0 f i trutil:trgeomcp.obj
+ 0001:00037430       ?CopyGComplexString@@YAHPAUtagGComplexString@@0@Z 10038430 f   trutil:trgeomcp.obj
+ 0001:000374c0       ?CopyGCurve@@YAHHPAXPAPAX@Z 100384c0 f   trutil:trgeomcp.obj
+ 0001:000376a0       ?CopyGCurve2d@@YAHHPAXPAPAX@Z 100386a0 f   trutil:trgeomcp.obj
+ 0001:00037ae0       ?CopyGSymbology@@YAHPAUGSymbology@@0@Z 10038ae0 f   trutil:trgeomcp.obj
+ 0001:00037e10       ?CopyGType2d@@YAHPAUtagGType2d@@PAPAU1@@Z 10038e10 f   trutil:trgeomcp.obj
+ 0001:00037ff0       ?CopyGBoundaries@@YAHPAUtagGBoundaries@@0@Z 10038ff0 f   trutil:trgeomcp.obj
+ 0001:00038080       ?CopyGComplexString2d@@YAHPAUtagGComplexString2d@@0@Z 10039080 f   trutil:trgeomcp.obj
+ 0001:00038110       ?CopyGBoundaries2d@@YAHPAUtagGBoundaries2d@@0@Z 10039110 f   trutil:trgeomcp.obj
+ 0001:000381a0       ?CopyGBspSurface@@YAHPAUtagGBspSurface@@PAPAU1@@Z 100391a0 f   trutil:trgeomcp.obj
+ 0001:00038380       ?CopyGSurface@@YAHHPAXPAPAX@Z 10039380 f   trutil:trgeomcp.obj
+ 0001:00038a60       ?TRIsRasterFile@@YAHPADPAN10@Z 10039a60 f   trutil:Trraster.obj
+ 0001:00038c50       ?TRextractGeometryFromGType2d@@YAHPAXPAEPAPAD@Z 10039c50 f   trutil:gtyputil.obj
+ 0001:00038d70       ?TRallocateGroup@@YAHPA_WHPAPAUtagGGroup@@@Z 10039d70 f   trutil:trgroup.obj
+ 0001:00038de0       ?TRallocateGroupGType@@YAHIPA_WHPAPAX@Z 10039de0 f   trutil:trgroup.obj
+ 0001:00038f90       ?TRaddNewMembersToGroup@@YAHHPAPAXPAUtagGGroup@@@Z 10039f90 f   trutil:trgroup.obj
+ 0001:00039040       ?TRaddNewMembersToGroupGType@@YAHIPAXHPAPAX@Z 1003a040 f   trutil:trgroup.obj
+ 0001:00039420       ??I?$TIP@PAUIJDimGeometry@@@@QAEPAPAUIJDimGeometry@@XZ 1003a420 f i trutil:jdimgeom.obj
+ 0001:00039440       ??1?$TIP@PAUIJDimAttributes@@@@QAE@XZ 1003a440 f i trutil:jdimgeom.obj
+ 0001:00039440       ??1?$TIP@PAUIJAnnotGeometry@@@@QAE@XZ 1003a440 f i trutil:jdimgeom.obj
+ 0001:00039440       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 1003a440 f i trutil:jdimgeom.obj
+ 0001:00039440       ??1?$TIP@PAUIJDimGeometry@@@@QAE@XZ 1003a440 f i trutil:jdimgeom.obj
+ 0001:00039450       ?TRHGetDimGeomFromAssocGTypeInfo@@YAJPAUtagJDIMASSOCGTYPEINFO@@PAUtagGPosition@@11PAUtagJDIMGEOMETRYINFO@@@Z 1003a450 f   trutil:jdimgeom.obj
+ 0001:00039ea0       ?TRGetAnnotGeomFromAssocGTypeInfo@@YAJPAUtagJANNOTASSOCGTYPEINFO@@PAUtagJANNOTGEOMETRYINFO@@@Z 1003aea0 f   trutil:jdimgeom.obj
+ 0001:0003a12c       _IMGBspCurveFreeMem        1003b12c f   ugeom:ugeom.dll
+ 0001:0003a132       _IMFitCurveToGBspCurve     1003b132 f   ugeom:ugeom.dll
+ 0001:0003a138       _IMGTypedCurveFreeMem      1003b138 f   ugeom:ugeom.dll
+ 0001:0003a13e       _IMTypedSurfaceIsoCv       1003b13e f   ugeom:ugeom.dll
+ 0001:0003a144       _IMTypedCurveActivSplt     1003b144 f   ugeom:ugeom.dll
+ 0001:0003a14a       _IMGTypedSurfaceFreeMem    1003b14a f   ugeom:ugeom.dll
+ 0001:0003a150       _IMGetGTypedCurveEndPts    1003b150 f   ugeom:ugeom.dll
+ 0001:0003a156       _IMProjGPosGLine           1003b156 f   ugeom:ugeom.dll
+ 0001:0003a15c       _IMGBspSurfaceFreeMem      1003b15c f   ugeom:ugeom.dll
+ 0001:0003a162       _IMGLineBy2Pts             1003b162 f   ugeom:ugeom.dll
+ 0001:0003a168       _IMLineStringTstPlan       1003b168 f   ugeom:ugeom.dll
+ 0001:0003a16e       _IMGEllipseByCtrNorMajRat  1003b16e f   ugeom:ugeom.dll
+ 0001:0003a174       _IMGBspCurveMultEndKnots   1003b174 f   ugeom:ugeom.dll
+ 0001:0003a17a       _IMCreateGBspCurve         1003b17a f   ugeom:ugeom.dll
+ 0001:0003a180       _IMComplexStringValid      1003b180 f   ugeom:ugeom.dll
+ 0001:0003a186       _IMGComplexStringSetScope  1003b186 f   ugeom:ugeom.dll
+ 0001:0003a18c       _IMGComplexStringSetForm   1003b18c f   ugeom:ugeom.dll
+ 0001:0003a192       _IMGBspSurfacePtsEval      1003b192 f   ugeom:ugeom.dll
+ 0001:0003a198       _IMGBspSurfaceMultEndKnots 1003b198 f   ugeom:ugeom.dll
+ 0001:0003a19e       _IMCreateGBspSurface       1003b19e f   ugeom:ugeom.dll
+ 0001:0003a1a4       _IMGBoundariesFreeMem      1003b1a4 f   ugeom:ugeom.dll
+ 0001:0003a1aa       _IMGBspCurveCopyWithAlloc  1003b1aa f   ugeom:ugeom.dll
+ 0001:0003a1b0       _IMBspCurveArrev0          1003b1b0 f   ugeom:ugeom.dll
+ 0001:0003a1b6       _IMGetGArcEndPts           1003b1b6 f   ugeom:ugeom.dll
+ 0001:0003a1bc       _IMGetGLineEndPts          1003b1bc f   ugeom:ugeom.dll
+ 0001:0003a1c2       _IMSetForm                 1003b1c2 f   ugeom:ugeom.dll
+ 0001:0003a1c8       _IMLineStringIsClosed      1003b1c8 f   ugeom:ugeom.dll
+ 0001:0003a1ce       _IMGetGComplexStringEndPts 1003b1ce f   ugeom:ugeom.dll
+ 0001:0003a1d4       _IMGetGBspCurveEndPts      1003b1d4 f   ugeom:ugeom.dll
+ 0001:0003a1da       _IMTypedCurveTransform4x4  1003b1da f   ugeom:ugeom.dll
+ 0001:0003a1e0       _IMTypedCurve3dToTypedCurve2d 1003b1e0 f   ugeom:ugeom.dll
+ 0001:0003a1e6       _IMTypedSurfaceTransform4x4 1003b1e6 f   ugeom:ugeom.dll
+ 0001:0003a1ec       _IMGTypedCurveReverse      1003b1ec f   ugeom:ugeom.dll
+ 0001:0003a1f2       _IMGComplexStringCopy      1003b1f2 f   ugeom:ugeom.dll
+ 0001:0003a1f8       _IMGArcByStEndRadNorACen   1003b1f8 f   ugeom:ugeom.dll
+ 0001:0003a1fe       _IMTypedCurveTransform     1003b1fe f   ugeom:ugeom.dll
+ 0001:0003a204       _IMGComplexStringFreeMem   1003b204 f   ugeom:ugeom.dll
+ 0001:0003a20a       _IMGTypedCurveCopy         1003b20a f   ugeom:ugeom.dll
+ 0001:0003a210       _IMGBspSurfaceAllocMem     1003b210 f   ugeom:ugeom.dll
+ 0001:0003a216       _IMFree                    1003b216 f   ugeom2d:ugeom2d.dll
+ 0001:0003a21c       _IMIntersectTCTC2d         1003b21c f   ugeom2d:ugeom2d.dll
+ 0001:0003a222       _IMGBspCurveGetPositionFromParameter2d 1003b222 f   ugeom2d:ugeom2d.dll
+ 0001:0003a228       _IMLineGetEndPoint2d       1003b228 f   ugeom2d:ugeom2d.dll
+ 0001:0003a22e       _IMLineByPtAngLen2d        1003b22e f   ugeom2d:ugeom2d.dll
+ 0001:0003a234       _IMLineGetLength2d         1003b234 f   ugeom2d:ugeom2d.dll
+ 0001:0003a23a       _IMLineGetAngle2d          1003b23a f   ugeom2d:ugeom2d.dll
+ 0001:0003a240       _IMLineByPtPt2d            1003b240 f   ugeom2d:ugeom2d.dll
+ 0001:0003a246       _IMLineGetParameterFromPosition2d 1003b246 f   ugeom2d:ugeom2d.dll
+ 0001:0003a24c       _IMProjectPointOnLine2d    1003b24c f   ugeom2d:ugeom2d.dll
+ 0001:0003a252       _IMLineSetStartParameter2d 1003b252 f   ugeom2d:ugeom2d.dll
+ 0001:0003a258       _IMLineSetEndParameter2d   1003b258 f   ugeom2d:ugeom2d.dll
+ 0001:0003a25e       _IMLineCopy2d              1003b25e f   ugeom2d:ugeom2d.dll
+ 0001:0003a264       _IMLineGetEndPoints2d      1003b264 f   ugeom2d:ugeom2d.dll
+ 0001:0003a26a       _IMLineVertical2d          1003b26a f   ugeom2d:ugeom2d.dll
+ 0001:0003a270       _IMLineHorizontal2d        1003b270 f   ugeom2d:ugeom2d.dll
+ 0001:0003a276       _IMLineGetPerp2d           1003b276 f   ugeom2d:ugeom2d.dll
+ 0001:0003a27c       _IMTwoLnsParallel2d        1003b27c f   ugeom2d:ugeom2d.dll
+ 0001:0003a282       _IMTypedCurveRangeBox2d    1003b282 f   ugeom2d:ugeom2d.dll
+ 0001:0003a288       _IMTypedCurveBoreLocate2d  1003b288 f   ugeom2d:ugeom2d.dll
+ 0001:0003a28e       _IMTwoGTypedCurvesTangent2d 1003b28e f   ugeom2d:ugeom2d.dll
+ 0001:0003a294       _IMLineGetPositionFromParameter2d 1003b294 f   ugeom2d:ugeom2d.dll
+ 0001:0003a29a       _IMLineGetOffset2d         1003b29a f   ugeom2d:ugeom2d.dll
+ 0001:0003a2a0       _IMLineExtendDistance2d    1003b2a0 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2a6       _IMSetScope2d              1003b2a6 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2ac       _IMLineTransform2d         1003b2ac f   ugeom2d:ugeom2d.dll
+ 0001:0003a2b2       _IMLineStringTransform2d   1003b2b2 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2b8       _IMEllipseRangeBox2d       1003b2b8 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2be       _IMEllipseTransform2d      1003b2be f   ugeom2d:ugeom2d.dll
+ 0001:0003a2c4       _IMGBspCurveFreeMem2d      1003b2c4 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2ca       _IMBspCurveTransform2d     1003b2ca f   ugeom2d:ugeom2d.dll
+ 0001:0003a2d0       _IMRectGetCorners2d        1003b2d0 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2d6       _IMRectangleTransform2d    1003b2d6 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2dc       _IMArcRangeBox2d           1003b2dc f   ugeom2d:ugeom2d.dll
+ 0001:0003a2e2       _IMEllipseGetOrientation2d 1003b2e2 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2e8       _IMArcTransform2d          1003b2e8 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2ee       _IMArcGetLength2d          1003b2ee f   ugeom2d:ugeom2d.dll
+ 0001:0003a2f4       _IMArcByCtrStEnd2d         1003b2f4 f   ugeom2d:ugeom2d.dll
+ 0001:0003a2fa       _IMLineIsPositionOnLine2d  1003b2fa f   ugeom2d:ugeom2d.dll
+ 0001:0003a300       _IMStrokeTypedCurve2d      1003b300 f   ugeom2d:ugeom2d.dll
+ 0001:0003a306       _IMTypedCurveLength2d      1003b306 f   ugeom2d:ugeom2d.dll
+ 0001:0003a30c       _IMGBspCurveSplitInTwo2d   1003b30c f   ugeom2d:ugeom2d.dll
+ 0001:0003a312       _IMGComplexStringValid2d   1003b312 f   ugeom2d:ugeom2d.dll
+ 0001:0003a318       _IMGComplexString2dSetScope 1003b318 f   ugeom2d:ugeom2d.dll
+ 0001:0003a31e       _IMGComplexString2dSetForm 1003b31e f   ugeom2d:ugeom2d.dll
+ 0001:0003a324       _IMSetFitTolerance         1003b324 f   ugeom2d:ugeom2d.dll
+ 0001:0003a32a       _IMGetGComplexString2dEndPts 1003b32a f   ugeom2d:ugeom2d.dll
+ 0001:0003a330       _IMGBspCurveGetEndPoints2d 1003b330 f   ugeom2d:ugeom2d.dll
+ 0001:0003a336       _IMArcGetEndPoints2d       1003b336 f   ugeom2d:ugeom2d.dll
+ 0001:0003a33c       _IMGTypedCurveFreeMem2d    1003b33c f   ugeom2d:ugeom2d.dll
+ 0001:0003a342       _IMGetGTypedCurve2dEndPts  1003b342 f   ugeom2d:ugeom2d.dll
+ 0001:0003a348       _IMTypedCurveReverse2d     1003b348 f   ugeom2d:ugeom2d.dll
+ 0001:0003a34e       _IMGComplexStringCopy2d    1003b34e f   ugeom2d:ugeom2d.dll
+ 0001:0003a354       _IMGArcByStEndRadOrtACen2d 1003b354 f   ugeom2d:ugeom2d.dll
+ 0001:0003a35a       _IMTypedCurveTransform2d   1003b35a f   ugeom2d:ugeom2d.dll
+ 0001:0003a360       _IMGComplexStringFreeMem2d 1003b360 f   ugeom2d:ugeom2d.dll
+ 0001:0003a366       _IMTypedCurveCopy2d        1003b366 f   ugeom2d:ugeom2d.dll
+ 0001:0003a36c       _IMBspCurveCopy2d          1003b36c f   ugeom2d:ugeom2d.dll
+ 0001:0003a372       _IMGBspCurve2dAllocMem     1003b372 f   ugeom2d:ugeom2d.dll
+ 0001:0003a378       ??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 1003b378 f   umath:umath.dll
+ 0001:0003a37e       ?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 1003b37e f   umath:umath.dll
+ 0001:0003a384       ?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 1003b384 f   umath:umath.dll
+ 0001:0003a38a       ?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1003b38a f   umath:umath.dll
+ 0001:0003a390       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1003b390 f   umath:umath.dll
+ 0001:0003a396       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1003b396 f   umath:umath.dll
+ 0001:0003a39c       ?IsEqual@tagGPosition2d@@QBEHABU1@@Z 1003b39c f   umath:umath.dll
+ 0001:0003a3a2       ?GetDistanceTolerance@@YA?BNXZ 1003b3a2 f   umath:umath.dll
+ 0001:0003a3a8       ?GiveAngle@@YANABUtagGVector2d@@0@Z 1003b3a8 f   umath:umath.dll
+ 0001:0003a3ae       ?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 1003b3ae f   umath:umath.dll
+ 0001:0003a3b4       ??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1003b3b4 f   umath:umath.dll
+ 0001:0003a3ba       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1003b3ba f   umath:umath.dll
+ 0001:0003a3c0       ?BuildUnitVector@@YA?AUtagGUnitVector@@ABUtagGPosition@@0@Z 1003b3c0 f   umath:umath.dll
+ 0001:0003a3c6       ??YtagGPosition@@QAEAAU0@ABUtagGVector@@@Z 1003b3c6 f   umath:umath.dll
+ 0001:0003a3cc       ?GDistance@@YANABUtagGPosition@@0@Z 1003b3cc f   umath:umath.dll
+ 0001:0003a3d2       ?GetLength@tagGVector@@QBENXZ 1003b3d2 f   umath:umath.dll
+ 0001:0003a3d8       ??D@YA?AUtagGVector@@ABUtagG4x4@@ABU0@@Z 1003b3d8 f   umath:umath.dll
+ 0001:0003a3de       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1003b3de f   umath:umath.dll
+ 0001:0003a3e4       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1003b3e4 f   umath:umath.dll
+ 0001:0003a3ea       ??XtagGVector@@QAEAAU0@N@Z 1003b3ea f   umath:umath.dll
+ 0001:0003a3f0       ??XtagGPosition@@QAEAAU0@ABUtagG4x4@@@Z 1003b3f0 f   umath:umath.dll
+ 0001:0003a3f6       ??D@YA?AUtagGMatrix@@ABU0@0@Z 1003b3f6 f   umath:umath.dll
+ 0001:0003a3fc       ??XtagGVector@@QAEAAU0@ABUtagGTransf@@@Z 1003b3fc f   umath:umath.dll
+ 0001:0003a402       ?IsEqual@tagGPosition@@QBEHABU1@@Z 1003b402 f   umath:umath.dll
+ 0001:0003a408       ?BuildVector@@YA?AUtagGVector@@ABUtagGPosition@@0@Z 1003b408 f   umath:umath.dll
+ 0001:0003a40e       ??D@YA?AUtagGUnitVector@@ABU0@ABUtagGTransf@@@Z 1003b40e f   umath:umath.dll
+ 0001:0003a414       ?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 1003b414 f   umath:umath.dll
+ 0001:0003a41a       ??5tagGBox2d@@QBEHABU0@@Z  1003b41a f   umath:umath.dll
+ 0001:0003a420       ??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1003b420 f   umath:umath.dll
+ 0001:0003a426       ??D@YA?AUtagG4x4@@ABU0@0@Z 1003b426 f   umath:umath.dll
+ 0001:0003a42c       ?Translate4x4@@YAXABUtagGVector@@AAUtagG4x4@@PAJ@Z 1003b42c f   umath:umath.dll
+ 0001:0003a432       ?Inverse@tagG4x4@@QBE?AU1@XZ 1003b432 f   umath:umath.dll
+ 0001:0003a438       ?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 1003b438 f   umath:umath.dll
+ 0001:0003a43e       ??5tagGBox2d@@QBEHABUtagGPosition2d@@@Z 1003b43e f   umath:umath.dll
+ 0001:0003a444       ?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1003b444 f   umath:umath.dll
+ 0001:0003a44a       ?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1003b44a f   umath:umath.dll
+ 0001:0003a450       ??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 1003b450 f   umath:umath.dll
+ 0001:0003a456       ?IsColinear@tagGVector@@QBEHABU1@@Z 1003b456 f   umath:umath.dll
+ 0001:0003a45c       ??D@YA?AUtagGVector@@ABU0@0@Z 1003b45c f   umath:umath.dll
+ 0001:0003a462       ?Convert2d@tagGTransf@@QBE?AUtagGTransf2d@@XZ 1003b462 f   umath:umath.dll
+ 0001:0003a468       ??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1003b468 f   umath:umath.dll
+ 0001:0003a46e       ??AtagGPosition@@QAEAANI@Z 1003b46e f   umath:umath.dll
+ 0001:0003a474       ??AtagGVector@@QAEAANI@Z   1003b474 f   umath:umath.dll
+ 0001:0003a47a       ?GDistance@@YANABUtagGPosition2d@@0@Z 1003b47a f   umath:umath.dll
+ 0001:0003a480       ??XtagGBox@@QAEAAU0@ABUtagG4x4@@@Z 1003b480 f   umath:umath.dll
+ 0001:0003a486       ??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1003b486 f   umath:umath.dll
+ 0001:0003a48c       ?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 1003b48c f   umath:umath.dll
+ 0001:0003a492       ?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 1003b492 f   umath:umath.dll
+ 0001:0003a498       ?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGVector@@00H@Z 1003b498 f   umath:umath.dll
+ 0001:0003a49e       ??D@YA?AUtagGVector@@ABUtagGMatrix@@ABU0@@Z 1003b49e f   umath:umath.dll
+ 0001:0003a4a4       ?Transpose@tagGMatrix@@QBE?AU1@XZ 1003b4a4 f   umath:umath.dll
+ 0001:0003a4aa       ?IsEuclidean@tagGMatrix@@QBEHXZ 1003b4aa f   umath:umath.dll
+ 0001:0003a4b0       ?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 1003b4b0 f   umath:umath.dll
+ 0001:0003a4b6       ??XtagGBox2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1003b4b6 f   umath:umath.dll
+ 0001:0003a4bc       ??XtagGVector@@QAEAAU0@ABUtagGMatrix@@@Z 1003b4bc f   umath:umath.dll
+ 0001:0003a4c2       ?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 1003b4c2 f   umath:umath.dll
+ 0001:0003a4c8       ?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 1003b4c8 f   umath:umath.dll
+ 0001:0003a4ce       ??XtagGUnitVector@@QAEAAU0@ABUtagGTransf@@@Z 1003b4ce f   umath:umath.dll
+ 0001:0003a4d4       ??L@YANABUtagGVector@@0@Z  1003b4d4 f   umath:umath.dll
+ 0001:0003a4da       ??_0tagGVector@@QAEAAU0@N@Z 1003b4da f   umath:umath.dll
+ 0001:0003a4e0       ?GetFitTolerance@@YA?BNXZ  1003b4e0 f   umath:umath.dll
+ 0001:0003a4e6       ?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 1003b4e6 f   umath:umath.dll
+ 0001:0003a4ec       ?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 1003b4ec f   umath:umath.dll
+ 0001:0003a4f2       _malloc                    1003b4f2 f   MSVCRT:MSVCR80.dll
+ 0001:0003a4f8       __callnewh                 1003b4f8 f   MSVCRT:MSVCR80.dll
+ 0001:0003a500       @__security_check_cookie@4 1003b500 f   MSVCRT:secchk.obj
+ 0001:0003a510       __CIpow                    1003b510 f   MSVCRT:MSVCR80.dll
+ 0001:0003a520       __ftol2_sse                1003b520 f   MSVCRT:ftol2.obj
+ 0001:0003a529       __ftol2_pentium4           1003b529 f   MSVCRT:ftol2.obj
+ 0001:0003a53c       __ftol2_sse_excpt          1003b53c f   MSVCRT:ftol2.obj
+ 0001:0003a556       __ftol2                    1003b556 f   MSVCRT:ftol2.obj
+ 0001:0003a5cc       __CIsin                    1003b5cc f   MSVCRT:MSVCR80.dll
+ 0001:0003a5d2       __CIcos                    1003b5d2 f   MSVCRT:MSVCR80.dll
+ 0001:0003a5d8       __CIatan2                  1003b5d8 f   MSVCRT:MSVCR80.dll
+ 0001:0003a5de       _memset                    1003b5de f   MSVCRT:MSVCR80.dll
+ 0001:0003a5e4       ??3@YAXPAX@Z               1003b5e4 f   MSVCRT:MSVCR80.dll
+ 0001:0003a5ea       _memcpy                    1003b5ea f   MSVCRT:MSVCR80.dll
+ 0001:0003a5f0       __chkstk                   1003b5f0 f   MSVCRT:chkstk.obj
+ 0001:0003a5f0       __alloca_probe             1003b5f0     MSVCRT:chkstk.obj
+ 0001:0003a61c       ___CxxFrameHandler3        1003b61c f   MSVCRT:MSVCR80.dll
+ 0001:0003a622       ??_V@YAXPAX@Z              1003b622 f   MSVCRT:MSVCR80.dll
+ 0001:0003a628       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1003b628 f   MSVCRT:ehvecdtr.obj
+ 0001:0003a686       ??_M@YGXPAXIHP6EX0@Z@Z     1003b686 f   MSVCRT:ehvecdtr.obj
+ 0001:0003a6ea       __CIsqrt                   1003b6ea f   MSVCRT:MSVCR80.dll
+ 0001:0003a6f0       ??_L@YGXPAXIHP6EX0@Z1@Z    1003b6f0 f   MSVCRT:ehvecctr.obj
+ 0001:0003a756       __CIatan                   1003b756 f   MSVCRT:MSVCR80.dll
+ 0001:0003a75c       __CItan                    1003b75c f   MSVCRT:MSVCR80.dll
+ 0001:0003a762       ??_Etype_info@@UAEPAXI@Z   1003b762 f i MSVCRT:ti_inst.obj
+ 0001:0003a7ab       __onexit                   1003b7ab f   MSVCRT:atonexit.obj
+ 0001:0003a84a       _atexit                    1003b84a f   MSVCRT:atonexit.obj
+ 0001:0003a8a9       __CRT_INIT@12              1003b8a9 f   MSVCRT:crtdll.obj
+ 0001:0003ab5e       __DllMainCRTStartup@12     1003bb5e f   MSVCRT:crtdll.obj
+ 0001:0003ab7f       ___report_gsfailure        1003bb7f f   MSVCRT:gs_report.obj
+ 0001:0003acd3       __get_sse2_info            1003bcd3 f   MSVCRT:cpu_disp.obj
+ 0001:0003ad33       ___sse2_available_init     1003bd33 f   MSVCRT:cpu_disp.obj
+ 0001:0003ad40       ?terminate@@YAXXZ          1003bd40 f   MSVCRT:MSVCR80.dll
+ 0001:0003ad48       __SEH_prolog4              1003bd48 f   MSVCRT:sehprolg4.obj
+ 0001:0003ad8d       __SEH_epilog4              1003bd8d f   MSVCRT:sehprolg4.obj
+ 0001:0003ada1       __except_handler4          1003bda1 f   MSVCRT:chandler4gs.obj
+ 0001:0003adc4       __unlock                   1003bdc4 f   MSVCRT:MSVCR80.dll
+ 0001:0003adca       ___dllonexit               1003bdca f   MSVCRT:MSVCR80.dll
+ 0001:0003add0       __lock                     1003bdd0 f   MSVCRT:MSVCR80.dll
+ 0001:0003add6       ___clean_type_info_names   1003bdd6 f   MSVCRT:tncleanup.obj
+ 0001:0003ade2       __RTC_Initialize           1003bde2 f   MSVCRT:initsect.obj
+ 0001:0003ae06       __RTC_Terminate            1003be06 f   MSVCRT:initsect.obj
+ 0001:0003ae30       __ValidateImageBase        1003be30 f   MSVCRT:pesect.obj
+ 0001:0003ae60       __FindPESection            1003be60 f   MSVCRT:pesect.obj
+ 0001:0003aea2       __IsNonwritableInCurrentImage 1003bea2 f   MSVCRT:pesect.obj
+ 0001:0003af0e       __initterm                 1003bf0e f   MSVCRT:MSVCR80.dll
+ 0001:0003af14       __initterm_e               1003bf14 f   MSVCRT:MSVCR80.dll
+ 0001:0003af1a       __amsg_exit                1003bf1a f   MSVCRT:MSVCR80.dll
+ 0001:0003af20       ___CppXcptFilter           1003bf20 f   MSVCRT:MSVCR80.dll
+ 0001:0003af26       ___security_init_cookie    1003bf26 f   MSVCRT:gs_support.obj
+ 0001:0003afba       __crt_debugger_hook        1003bfba f   MSVCRT:MSVCR80.dll
+ 0001:0003afc0       __except_handler4_common   1003bfc0 f   MSVCRT:MSVCR80.dll
+ 0001:0003afc6       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1003bfc6 f   MSVCRT:MSVCR80.dll
+ 0001:0003afc6       ??1type_info@@UAE@XZ       1003bfc6 f   MSVCRT:MSVCR80.dll
+ 0001:0003afcc       ___clean_type_info_names_internal 1003bfcc f   MSVCRT:MSVCR80.dll
+ 0001:0003afd2       _RCfatalerr                1003bfd2 f   jutil:JUtil.dll
+ 0001:0003afd8       _JCoCreateInstance         1003bfd8 f   jutil:JUtil.dll
+ 0002:00000000       __imp__RegQueryValueExA@24 1003d000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegOpenKeyExA@20    1003d004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegCloseKey@4       1003d008     advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1003d00c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp_?FormatStringWithVargs@GUserText@@QAEHQAUHINSTANCE__@@IPAD@Z 1003d010     jutil:JUtil.dll
+ 0002:00000014       __imp__RCfatalerr          1003d014     jutil:JUtil.dll
+ 0002:00000018       __imp_?ConvertUnitToDbu@@YAHINPANPAI@Z 1003d018     jutil:JUtil.dll
+ 0002:0000001c       __imp_??1GUserText@@QAE@XZ 1003d01c     jutil:JUtil.dll
+ 0002:00000020       __imp_??BGUserText@@QBEPB_WXZ 1003d020     jutil:JUtil.dll
+ 0002:00000024       __imp_??0GUserText@@QAE@PBDHI@Z 1003d024     jutil:JUtil.dll
+ 0002:00000028       __imp__WideString          1003d028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??BGUserText@@QBEPBDXZ 1003d02c     jutil:JUtil.dll
+ 0002:00000030       __imp_??YGUserText@@QAEAAV0@PBD@Z 1003d030     jutil:JUtil.dll
+ 0002:00000034       __imp_??4GUserText@@QAEAAV0@PBD@Z 1003d034     jutil:JUtil.dll
+ 0002:00000038       __imp__JGetSolidEdgeCurrentUserApplicationPath 1003d038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??0GUserText@@QAE@XZ 1003d03c     jutil:JUtil.dll
+ 0002:00000040       __imp__JGetSolidEdgeLocalMachineApplicationPath 1003d040     jutil:JUtil.dll
+ 0002:00000044       __imp_?GetNumChars@GUserText@@QBEHXZ 1003d044     jutil:JUtil.dll
+ 0002:00000048       __imp__ConvertStrAtoW      1003d048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 1003d04c     jutil:JUtil.dll
+ 0002:00000050       __imp__JCoCreateInstance   1003d050     jutil:JUtil.dll
+ 0002:00000054       __imp_?FreeDataChain@JPlex@@QAEXXZ 1003d054     jutil:JUtil.dll
+ 0002:00000058       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 1003d058     jutil:JUtil.dll
+ 0002:0000005c       __imp__AnsiString          1003d05c     jutil:JUtil.dll
+ 0002:00000060       __imp__HRerrEx             1003d060     jutil:JUtil.dll
+ 0002:00000064       __imp__JFreeLibrary        1003d064     jutil:JUtil.dll
+ 0002:00000068       \177JUtil_NULL_THUNK_DATA  1003d068     jutil:JUtil.dll
+ 0002:0000006c       __imp__GetTempPathA@8      1003d06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__FreeLibrary@4       1003d070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetProcAddress@8    1003d074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__LoadLibraryExA@12   1003d078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__CopyFileA@12        1003d07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__WideCharToMultiByte@32 1003d080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetModuleFileNameA@12 1003d084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetUserDefaultLangID@0 1003d088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetPrivateProfileIntA@16 1003d08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__SearchPathA@24      1003d090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetPrivateProfileStringA@24 1003d094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetSystemTimeAsFileTime@4 1003d098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__InterlockedExchange@8 1003d09c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__Sleep@4             1003d0a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__InterlockedCompareExchange@12 1003d0a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__TerminateProcess@8  1003d0a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetCurrentProcess@0 1003d0ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__UnhandledExceptionFilter@4 1003d0b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__SetUnhandledExceptionFilter@4 1003d0b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__IsDebuggerPresent@0 1003d0b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__QueryPerformanceCounter@4 1003d0bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetTickCount@0      1003d0c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetCurrentThreadId@0 1003d0c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__GetCurrentProcessId@0 1003d0c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__MultiByteToWideChar@24 1003d0cc     kernel32:KERNEL32.dll
+ 0002:000000d0       \177KERNEL32_NULL_THUNK_DATA 1003d0d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__IGDS_getReadCellDefinitionOffset 1003d0d4     mstnrw:MSTNRW.dll
+ 0002:000000d8       __imp__IGDS_getReadFileType 1003d0d8     mstnrw:MSTNRW.dll
+ 0002:000000dc       __imp__IGDScellIsGroupedHole 1003d0dc     mstnrw:MSTNRW.dll
+ 0002:000000e0       __imp__IGDSclose_igds_file 1003d0e0     mstnrw:MSTNRW.dll
+ 0002:000000e4       __imp__IGDSopen_igds_file  1003d0e4     mstnrw:MSTNRW.dll
+ 0002:000000e8       __imp__IGDSget_igds_filename 1003d0e8     mstnrw:MSTNRW.dll
+ 0002:000000ec       __imp__IGDS_getReadNextAssocId 1003d0ec     mstnrw:MSTNRW.dll
+ 0002:000000f0       __imp__IGDS_getReadElementSymbologyOverrides 1003d0f0     mstnrw:MSTNRW.dll
+ 0002:000000f4       __imp__IGDSparse_text_param 1003d0f4     mstnrw:MSTNRW.dll
+ 0002:000000f8       __imp__IGDS_putLinkage     1003d0f8     mstnrw:MSTNRW.dll
+ 0002:000000fc       __imp__IGDSaccumulate_range 1003d0fc     mstnrw:MSTNRW.dll
+ 0002:00000100       __imp__IGDSpoints_range    1003d100     mstnrw:MSTNRW.dll
+ 0002:00000104       __imp__IGDStransformWorldToWriteDatabasePts 1003d104     mstnrw:MSTNRW.dll
+ 0002:00000108       __imp__IGDSinit_range      1003d108     mstnrw:MSTNRW.dll
+ 0002:0000010c       __imp__IGDS_getWriteNextGroupNum 1003d10c     mstnrw:MSTNRW.dll
+ 0002:00000110       __imp__IGDS_getWriteScaleFactor 1003d110     mstnrw:MSTNRW.dll
+ 0002:00000114       __imp__IGDSget_fontNumber  1003d114     mstnrw:MSTNRW.dll
+ 0002:00000118       __imp__IGDS_getWriteType9  1003d118     mstnrw:MSTNRW.dll
+ 0002:0000011c       __imp__IGDSdimension_matrix_to_quaternion 1003d11c     mstnrw:MSTNRW.dll
+ 0002:00000120       __imp__IGDS_getWriteFileDim 1003d120     mstnrw:MSTNRW.dll
+ 0002:00000124       __imp__IGDSput_dim_text_height 1003d124     mstnrw:MSTNRW.dll
+ 0002:00000128       __imp__IGDS_MapLevelNameToNum 1003d128     mstnrw:MSTNRW.dll
+ 0002:0000012c       __imp__IGDSmatrix_from_angle 1003d12c     mstnrw:MSTNRW.dll
+ 0002:00000130       __imp__IGDSparse_UserDataLinkages 1003d130     mstnrw:MSTNRW.dll
+ 0002:00000134       __imp__IGDSparse_database_linkages 1003d134     mstnrw:MSTNRW.dll
+ 0002:00000138       __imp__IGDS_GetDefLayerName 1003d138     mstnrw:MSTNRW.dll
+ 0002:0000013c       __imp__IGDS_MapLevelNumToName 1003d13c     mstnrw:MSTNRW.dll
+ 0002:00000140       __imp__IGDSat_offset_put_ele 1003d140     mstnrw:MSTNRW.dll
+ 0002:00000144       __imp__IGDS_getWriteReferenceNumber 1003d144     mstnrw:MSTNRW.dll
+ 0002:00000148       __imp__IGDSget_cur_w_file  1003d148     mstnrw:MSTNRW.dll
+ 0002:0000014c       __imp__IGDSisMSTNfile      1003d14c     mstnrw:MSTNRW.dll
+ 0002:00000150       __imp__IGDS_getWriteGlobalData 1003d150     mstnrw:MSTNRW.dll
+ 0002:00000154       __imp__IGDSmatrix_to_quaternion 1003d154     mstnrw:MSTNRW.dll
+ 0002:00000158       __imp__IGDSgetNumWordsInTextString 1003d158     mstnrw:MSTNRW.dll
+ 0002:0000015c       __imp__IGDS_getWriteNextTextNodeNum 1003d15c     mstnrw:MSTNRW.dll
+ 0002:00000160       __imp__IGDS_getWriteColorNumberFromRGB 1003d160     mstnrw:MSTNRW.dll
+ 0002:00000164       __imp__IGDS_getWriteColorTable 1003d164     mstnrw:MSTNRW.dll
+ 0002:00000168       __imp__IGDSparse_assoc_pattern 1003d168     mstnrw:MSTNRW.dll
+ 0002:0000016c       __imp__IGDS_getReadViewFillMode 1003d16c     mstnrw:MSTNRW.dll
+ 0002:00000170       __imp__IGDSgetReadStyleNameFromId 1003d170     mstnrw:MSTNRW.dll
+ 0002:00000174       __imp__IGDSparse_UDLS_info 1003d174     mstnrw:MSTNRW.dll
+ 0002:00000178       __imp__IGDSgetWriteStyleIdFromName 1003d178     mstnrw:MSTNRW.dll
+ 0002:0000017c       __imp__IGDStransformWorldToReadDatabasePts 1003d17c     mstnrw:MSTNRW.dll
+ 0002:00000180       __imp__IGDSfseek_r         1003d180     mstnrw:MSTNRW.dll
+ 0002:00000184       __imp__IGDSat_offset_get_ele 1003d184     mstnrw:MSTNRW.dll
+ 0002:00000188       __imp__IGDSrad50_to_ascii  1003d188     mstnrw:MSTNRW.dll
+ 0002:0000018c       __imp__IGDS_getReadSharedCellOffset 1003d18c     mstnrw:MSTNRW.dll
+ 0002:00000190       __imp__IGDSfrewind_r       1003d190     mstnrw:MSTNRW.dll
+ 0002:00000194       __imp__IGDSgetReadCellNewName 1003d194     mstnrw:MSTNRW.dll
+ 0002:00000198       __imp__IGDSget_ele         1003d198     mstnrw:MSTNRW.dll
+ 0002:0000019c       __imp__IGDSquaternion_to_matrix 1003d19c     mstnrw:MSTNRW.dll
+ 0002:000001a0       __imp__IGDS_analyzeLinkage 1003d1a0     mstnrw:MSTNRW.dll
+ 0002:000001a4       __imp__IGDSget_complex_data 1003d1a4     mstnrw:MSTNRW.dll
+ 0002:000001a8       __imp__IGDSfree_complex_data 1003d1a8     mstnrw:MSTNRW.dll
+ 0002:000001ac       __imp__IGDSget_dim_text_height 1003d1ac     mstnrw:MSTNRW.dll
+ 0002:000001b0       __imp__IGDS_getReadColorTable 1003d1b0     mstnrw:MSTNRW.dll
+ 0002:000001b4       __imp__IGDSgetEntityTypeLiteral 1003d1b4     mstnrw:MSTNRW.dll
+ 0002:000001b8       __imp__IGDS_getReadFileDim 1003d1b8     mstnrw:MSTNRW.dll
+ 0002:000001bc       __imp__IGDSdimension_quaternion_to_matrix 1003d1bc     mstnrw:MSTNRW.dll
+ 0002:000001c0       __imp__IGDSget_fontName    1003d1c0     mstnrw:MSTNRW.dll
+ 0002:000001c4       __imp__IGDS_getReadType9   1003d1c4     mstnrw:MSTNRW.dll
+ 0002:000001c8       __imp__IGDSget_r_byte_offset 1003d1c8     mstnrw:MSTNRW.dll
+ 0002:000001cc       __imp__IGDSget_offset_from_id 1003d1cc     mstnrw:MSTNRW.dll
+ 0002:000001d0       __imp__IGDSget_ele_from_id 1003d1d0     mstnrw:MSTNRW.dll
+ 0002:000001d4       __imp__IGDS_point_at_distance 1003d1d4     mstnrw:MSTNRW.dll
+ 0002:000001d8       __imp__IGDStransformReadDatabasePtsToWorld 1003d1d8     mstnrw:MSTNRW.dll
+ 0002:000001dc       __imp__IGDSgetPointFromAssocInfo 1003d1dc     mstnrw:MSTNRW.dll
+ 0002:000001e0       __imp__IGDS_dist_from_2pts 1003d1e0     mstnrw:MSTNRW.dll
+ 0002:000001e4       __imp__IGDS_getReadScaleFactor 1003d1e4     mstnrw:MSTNRW.dll
+ 0002:000001e8       __imp__IGDS_2upper         1003d1e8     mstnrw:MSTNRW.dll
+ 0002:000001ec       __imp__IGDSstring_strip    1003d1ec     mstnrw:MSTNRW.dll
+ 0002:000001f0       \177MSTNRW_NULL_THUNK_DATA 1003d1f0     mstnrw:MSTNRW.dll
+ 0002:000001f4       __imp_??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 1003d1f4     msvcprt:MSVCP80.dll
+ 0002:000001f8       __imp_??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 1003d1f8     msvcprt:MSVCP80.dll
+ 0002:000001fc       \177MSVCP80_NULL_THUNK_DATA 1003d1fc     msvcprt:MSVCP80.dll
+ 0002:00000200       __imp___onexit             1003d200     MSVCRT:MSVCR80.dll
+ 0002:00000204       __imp___lock               1003d204     MSVCRT:MSVCR80.dll
+ 0002:00000208       __imp____dllonexit         1003d208     MSVCRT:MSVCR80.dll
+ 0002:0000020c       __imp___encode_pointer     1003d20c     MSVCRT:MSVCR80.dll
+ 0002:00000210       __imp___unlock             1003d210     MSVCRT:MSVCR80.dll
+ 0002:00000214       __imp_?terminate@@YAXXZ    1003d214     MSVCRT:MSVCR80.dll
+ 0002:00000218       __imp__calloc              1003d218     MSVCRT:MSVCR80.dll
+ 0002:0000021c       __imp__getenv              1003d21c     MSVCRT:MSVCR80.dll
+ 0002:00000220       __imp__mbstowcs            1003d220     MSVCRT:MSVCR80.dll
+ 0002:00000224       __imp__remove              1003d224     MSVCRT:MSVCR80.dll
+ 0002:00000228       __imp__strncmp             1003d228     MSVCRT:MSVCR80.dll
+ 0002:0000022c       __imp__toupper             1003d22c     MSVCRT:MSVCR80.dll
+ 0002:00000230       __imp__isalnum             1003d230     MSVCRT:MSVCR80.dll
+ 0002:00000234       __imp__atoi                1003d234     MSVCRT:MSVCR80.dll
+ 0002:00000238       __imp__setlocale           1003d238     MSVCRT:MSVCR80.dll
+ 0002:0000023c       __imp___strdup             1003d23c     MSVCRT:MSVCR80.dll
+ 0002:00000240       __imp__atof                1003d240     MSVCRT:MSVCR80.dll
+ 0002:00000244       __imp__vsprintf            1003d244     MSVCRT:MSVCR80.dll
+ 0002:00000248       __imp___gcvt               1003d248     MSVCRT:MSVCR80.dll
+ 0002:0000024c       __imp__free                1003d24c     MSVCRT:MSVCR80.dll
+ 0002:00000250       __imp___ltoa_s             1003d250     MSVCRT:MSVCR80.dll
+ 0002:00000254       __imp__realloc             1003d254     MSVCRT:MSVCR80.dll
+ 0002:00000258       __imp__qsort               1003d258     MSVCRT:MSVCR80.dll
+ 0002:0000025c       __imp___decode_pointer     1003d25c     MSVCRT:MSVCR80.dll
+ 0002:00000260       __imp__strrchr             1003d260     MSVCRT:MSVCR80.dll
+ 0002:00000264       __imp__strcat_s            1003d264     MSVCRT:MSVCR80.dll
+ 0002:00000268       __imp___CItan              1003d268     MSVCRT:MSVCR80.dll
+ 0002:0000026c       __imp__wcscat_s            1003d26c     MSVCRT:MSVCR80.dll
+ 0002:00000270       __imp___CIatan             1003d270     MSVCRT:MSVCR80.dll
+ 0002:00000274       __imp__vsprintf_s          1003d274     MSVCRT:MSVCR80.dll
+ 0002:00000278       __imp__strcpy_s            1003d278     MSVCRT:MSVCR80.dll
+ 0002:0000027c       __imp___itoa_s             1003d27c     MSVCRT:MSVCR80.dll
+ 0002:00000280       __imp__wcscpy_s            1003d280     MSVCRT:MSVCR80.dll
+ 0002:00000284       __imp__strncpy             1003d284     MSVCRT:MSVCR80.dll
+ 0002:00000288       __imp__strchr              1003d288     MSVCRT:MSVCR80.dll
+ 0002:0000028c       __imp___CIsqrt             1003d28c     MSVCRT:MSVCR80.dll
+ 0002:00000290       __imp_??_V@YAXPAX@Z        1003d290     MSVCRT:MSVCR80.dll
+ 0002:00000294       __imp____CxxFrameHandler3  1003d294     MSVCRT:MSVCR80.dll
+ 0002:00000298       __imp__memcpy              1003d298     MSVCRT:MSVCR80.dll
+ 0002:0000029c       __imp_??3@YAXPAX@Z         1003d29c     MSVCRT:MSVCR80.dll
+ 0002:000002a0       __imp__memset              1003d2a0     MSVCRT:MSVCR80.dll
+ 0002:000002a4       __imp___CIatan2            1003d2a4     MSVCRT:MSVCR80.dll
+ 0002:000002a8       __imp___CIcos              1003d2a8     MSVCRT:MSVCR80.dll
+ 0002:000002ac       __imp___CIsin              1003d2ac     MSVCRT:MSVCR80.dll
+ 0002:000002b0       __imp___CIpow              1003d2b0     MSVCRT:MSVCR80.dll
+ 0002:000002b4       __imp___callnewh           1003d2b4     MSVCRT:MSVCR80.dll
+ 0002:000002b8       __imp__malloc              1003d2b8     MSVCRT:MSVCR80.dll
+ 0002:000002bc       __imp___malloc_crt         1003d2bc     MSVCRT:MSVCR80.dll
+ 0002:000002c0       __imp___access             1003d2c0     MSVCRT:MSVCR80.dll
+ 0002:000002c4       __imp___encoded_null       1003d2c4     MSVCRT:MSVCR80.dll
+ 0002:000002c8       __imp___initterm           1003d2c8     MSVCRT:MSVCR80.dll
+ 0002:000002cc       __imp___initterm_e         1003d2cc     MSVCRT:MSVCR80.dll
+ 0002:000002d0       __imp___amsg_exit          1003d2d0     MSVCRT:MSVCR80.dll
+ 0002:000002d4       __imp____CppXcptFilter     1003d2d4     MSVCRT:MSVCR80.dll
+ 0002:000002d8       __imp___crt_debugger_hook  1003d2d8     MSVCRT:MSVCR80.dll
+ 0002:000002dc       __imp___except_handler4_common 1003d2dc     MSVCRT:MSVCR80.dll
+ 0002:000002e0       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1003d2e0     MSVCRT:MSVCR80.dll
+ 0002:000002e4       __imp____clean_type_info_names_internal 1003d2e4     MSVCRT:MSVCR80.dll
+ 0002:000002e8       __imp___stricmp            1003d2e8     MSVCRT:MSVCR80.dll
+ 0002:000002e8       __imp__stricmp             1003d2e8     MSVCRT:MSVCR80.dll
+ 0002:000002e8       __imp__strcmpi             1003d2e8     MSVCRT:MSVCR80.dll
+ 0002:000002ec       __imp__wcsicmp             1003d2ec     MSVCRT:MSVCR80.dll
+ 0002:000002ec       __imp___wcsicmp            1003d2ec     MSVCRT:MSVCR80.dll
+ 0002:000002f0       __imp___adjust_fdiv        1003d2f0     MSVCRT:MSVCR80.dll
+ 0002:000002f4       __imp___write              1003d2f4     MSVCRT:MSVCR80.dll
+ 0002:000002f4       __imp__write               1003d2f4     MSVCRT:MSVCR80.dll
+ 0002:000002f8       \177MSVCR80_NULL_THUNK_DATA 1003d2f8     MSVCRT:MSVCR80.dll
+ 0002:000002fc       __imp_?CFGsortNumericMap@@YAXPAUCFGmap@@H@Z 1003d2fc     config:config.dll
+ 0002:00000300       __imp_?CFGgetReadCellBlockOption@@YAHPAD0PAH@Z 1003d300     config:config.dll
+ 0002:00000304       __imp_?CFGgetStdView@@YAHPADHPAH@Z 1003d304     config:config.dll
+ 0002:00000308       __imp_?CFGgetMap@@YAHPBDHPAUCFGmap@@@Z 1003d308     config:config.dll
+ 0002:0000030c       __imp_?CFGgetEntityMapFunctionAddr@@YAXPAUTREntityMap@@PADPAPAX@Z 1003d30c     config:config.dll
+ 0002:00000310       __imp_?CFGgetUnitType@@YAHPADHPAH@Z 1003d310     config:config.dll
+ 0002:00000314       \177config_NULL_THUNK_DATA 1003d314     config:config.dll
+ 0002:00000318       __imp_?TimerComponentStop@@YAXXZ 1003d318     timeutl:timeutl.dll
+ 0002:0000031c       __imp_?TimerComponentStart@@YAXPBD0@Z 1003d31c     timeutl:timeutl.dll
+ 0002:00000320       \177timeutl_NULL_THUNK_DATA 1003d320     timeutl:timeutl.dll
+ 0002:00000324       __imp__IMGTypedCurveCopy   1003d324     ugeom:ugeom.dll
+ 0002:00000328       __imp__IMGComplexStringFreeMem 1003d328     ugeom:ugeom.dll
+ 0002:0000032c       __imp__IMTypedCurveTransform 1003d32c     ugeom:ugeom.dll
+ 0002:00000330       __imp__IMGArcByStEndRadNorACen 1003d330     ugeom:ugeom.dll
+ 0002:00000334       __imp__IMGComplexStringCopy 1003d334     ugeom:ugeom.dll
+ 0002:00000338       __imp__IMGTypedCurveReverse 1003d338     ugeom:ugeom.dll
+ 0002:0000033c       __imp__IMTypedSurfaceTransform4x4 1003d33c     ugeom:ugeom.dll
+ 0002:00000340       __imp__IMTypedCurve3dToTypedCurve2d 1003d340     ugeom:ugeom.dll
+ 0002:00000344       __imp__IMTypedCurveTransform4x4 1003d344     ugeom:ugeom.dll
+ 0002:00000348       __imp__IMGetGBspCurveEndPts 1003d348     ugeom:ugeom.dll
+ 0002:0000034c       __imp__IMGetGComplexStringEndPts 1003d34c     ugeom:ugeom.dll
+ 0002:00000350       __imp__IMLineStringIsClosed 1003d350     ugeom:ugeom.dll
+ 0002:00000354       __imp__IMSetForm           1003d354     ugeom:ugeom.dll
+ 0002:00000358       __imp__IMGetGLineEndPts    1003d358     ugeom:ugeom.dll
+ 0002:0000035c       __imp__IMGetGArcEndPts     1003d35c     ugeom:ugeom.dll
+ 0002:00000360       __imp__IMBspCurveArrev0    1003d360     ugeom:ugeom.dll
+ 0002:00000364       __imp__IMGBspCurveFreeMem  1003d364     ugeom:ugeom.dll
+ 0002:00000368       __imp__IMFitCurveToGBspCurve 1003d368     ugeom:ugeom.dll
+ 0002:0000036c       __imp__IMGTypedCurveFreeMem 1003d36c     ugeom:ugeom.dll
+ 0002:00000370       __imp__IMTypedSurfaceIsoCv 1003d370     ugeom:ugeom.dll
+ 0002:00000374       __imp__IMTypedCurveActivSplt 1003d374     ugeom:ugeom.dll
+ 0002:00000378       __imp__IMGTypedSurfaceFreeMem 1003d378     ugeom:ugeom.dll
+ 0002:0000037c       __imp__IMGetGTypedCurveEndPts 1003d37c     ugeom:ugeom.dll
+ 0002:00000380       __imp__IMProjGPosGLine     1003d380     ugeom:ugeom.dll
+ 0002:00000384       __imp__IMGBspSurfaceFreeMem 1003d384     ugeom:ugeom.dll
+ 0002:00000388       __imp__IMGLineBy2Pts       1003d388     ugeom:ugeom.dll
+ 0002:0000038c       __imp__IMGBspSurfaceAllocMem 1003d38c     ugeom:ugeom.dll
+ 0002:00000390       __imp__IMLineStringTstPlan 1003d390     ugeom:ugeom.dll
+ 0002:00000394       __imp__IMGEllipseByCtrNorMajRat 1003d394     ugeom:ugeom.dll
+ 0002:00000398       __imp__IMGBspCurveMultEndKnots 1003d398     ugeom:ugeom.dll
+ 0002:0000039c       __imp__IMCreateGBspCurve   1003d39c     ugeom:ugeom.dll
+ 0002:000003a0       __imp__IMComplexStringValid 1003d3a0     ugeom:ugeom.dll
+ 0002:000003a4       __imp__IMGComplexStringSetScope 1003d3a4     ugeom:ugeom.dll
+ 0002:000003a8       __imp__IMGComplexStringSetForm 1003d3a8     ugeom:ugeom.dll
+ 0002:000003ac       __imp__IMGBspSurfacePtsEval 1003d3ac     ugeom:ugeom.dll
+ 0002:000003b0       __imp__IMGBspSurfaceMultEndKnots 1003d3b0     ugeom:ugeom.dll
+ 0002:000003b4       __imp__IMCreateGBspSurface 1003d3b4     ugeom:ugeom.dll
+ 0002:000003b8       __imp__IMGBoundariesFreeMem 1003d3b8     ugeom:ugeom.dll
+ 0002:000003bc       __imp__IMGBspCurveCopyWithAlloc 1003d3bc     ugeom:ugeom.dll
+ 0002:000003c0       \177ugeom_NULL_THUNK_DATA  1003d3c0     ugeom:ugeom.dll
+ 0002:000003c4       __imp__IMGBspCurve2dAllocMem 1003d3c4     ugeom2d:ugeom2d.dll
+ 0002:000003c8       __imp__IMBspCurveCopy2d    1003d3c8     ugeom2d:ugeom2d.dll
+ 0002:000003cc       __imp__IMTypedCurveCopy2d  1003d3cc     ugeom2d:ugeom2d.dll
+ 0002:000003d0       __imp__IMGComplexStringFreeMem2d 1003d3d0     ugeom2d:ugeom2d.dll
+ 0002:000003d4       __imp__IMTypedCurveTransform2d 1003d3d4     ugeom2d:ugeom2d.dll
+ 0002:000003d8       __imp__IMGArcByStEndRadOrtACen2d 1003d3d8     ugeom2d:ugeom2d.dll
+ 0002:000003dc       __imp__IMGComplexStringCopy2d 1003d3dc     ugeom2d:ugeom2d.dll
+ 0002:000003e0       __imp__IMTypedCurveReverse2d 1003d3e0     ugeom2d:ugeom2d.dll
+ 0002:000003e4       __imp__IMGetGTypedCurve2dEndPts 1003d3e4     ugeom2d:ugeom2d.dll
+ 0002:000003e8       __imp__IMGTypedCurveFreeMem2d 1003d3e8     ugeom2d:ugeom2d.dll
+ 0002:000003ec       __imp__IMArcGetEndPoints2d 1003d3ec     ugeom2d:ugeom2d.dll
+ 0002:000003f0       __imp__IMGBspCurveGetEndPoints2d 1003d3f0     ugeom2d:ugeom2d.dll
+ 0002:000003f4       __imp__IMGetGComplexString2dEndPts 1003d3f4     ugeom2d:ugeom2d.dll
+ 0002:000003f8       __imp__IMSetFitTolerance   1003d3f8     ugeom2d:ugeom2d.dll
+ 0002:000003fc       __imp__IMGComplexString2dSetForm 1003d3fc     ugeom2d:ugeom2d.dll
+ 0002:00000400       __imp__IMGComplexString2dSetScope 1003d400     ugeom2d:ugeom2d.dll
+ 0002:00000404       __imp__IMGComplexStringValid2d 1003d404     ugeom2d:ugeom2d.dll
+ 0002:00000408       __imp__IMGBspCurveSplitInTwo2d 1003d408     ugeom2d:ugeom2d.dll
+ 0002:0000040c       __imp__IMTypedCurveLength2d 1003d40c     ugeom2d:ugeom2d.dll
+ 0002:00000410       __imp__IMStrokeTypedCurve2d 1003d410     ugeom2d:ugeom2d.dll
+ 0002:00000414       __imp__IMLineIsPositionOnLine2d 1003d414     ugeom2d:ugeom2d.dll
+ 0002:00000418       __imp__IMArcGetLength2d    1003d418     ugeom2d:ugeom2d.dll
+ 0002:0000041c       __imp__IMFree              1003d41c     ugeom2d:ugeom2d.dll
+ 0002:00000420       __imp__IMArcTransform2d    1003d420     ugeom2d:ugeom2d.dll
+ 0002:00000424       __imp__IMEllipseGetOrientation2d 1003d424     ugeom2d:ugeom2d.dll
+ 0002:00000428       __imp__IMArcRangeBox2d     1003d428     ugeom2d:ugeom2d.dll
+ 0002:0000042c       __imp__IMRectangleTransform2d 1003d42c     ugeom2d:ugeom2d.dll
+ 0002:00000430       __imp__IMRectGetCorners2d  1003d430     ugeom2d:ugeom2d.dll
+ 0002:00000434       __imp__IMBspCurveTransform2d 1003d434     ugeom2d:ugeom2d.dll
+ 0002:00000438       __imp__IMGBspCurveFreeMem2d 1003d438     ugeom2d:ugeom2d.dll
+ 0002:0000043c       __imp__IMEllipseTransform2d 1003d43c     ugeom2d:ugeom2d.dll
+ 0002:00000440       __imp__IMEllipseRangeBox2d 1003d440     ugeom2d:ugeom2d.dll
+ 0002:00000444       __imp__IMLineStringTransform2d 1003d444     ugeom2d:ugeom2d.dll
+ 0002:00000448       __imp__IMLineTransform2d   1003d448     ugeom2d:ugeom2d.dll
+ 0002:0000044c       __imp__IMSetScope2d        1003d44c     ugeom2d:ugeom2d.dll
+ 0002:00000450       __imp__IMLineExtendDistance2d 1003d450     ugeom2d:ugeom2d.dll
+ 0002:00000454       __imp__IMLineGetOffset2d   1003d454     ugeom2d:ugeom2d.dll
+ 0002:00000458       __imp__IMLineGetPositionFromParameter2d 1003d458     ugeom2d:ugeom2d.dll
+ 0002:0000045c       __imp__IMTwoGTypedCurvesTangent2d 1003d45c     ugeom2d:ugeom2d.dll
+ 0002:00000460       __imp__IMTypedCurveBoreLocate2d 1003d460     ugeom2d:ugeom2d.dll
+ 0002:00000464       __imp__IMTypedCurveRangeBox2d 1003d464     ugeom2d:ugeom2d.dll
+ 0002:00000468       __imp__IMTwoLnsParallel2d  1003d468     ugeom2d:ugeom2d.dll
+ 0002:0000046c       __imp__IMLineGetPerp2d     1003d46c     ugeom2d:ugeom2d.dll
+ 0002:00000470       __imp__IMLineHorizontal2d  1003d470     ugeom2d:ugeom2d.dll
+ 0002:00000474       __imp__IMLineVertical2d    1003d474     ugeom2d:ugeom2d.dll
+ 0002:00000478       __imp__IMLineGetEndPoints2d 1003d478     ugeom2d:ugeom2d.dll
+ 0002:0000047c       __imp__IMLineCopy2d        1003d47c     ugeom2d:ugeom2d.dll
+ 0002:00000480       __imp__IMLineSetEndParameter2d 1003d480     ugeom2d:ugeom2d.dll
+ 0002:00000484       __imp__IMLineSetStartParameter2d 1003d484     ugeom2d:ugeom2d.dll
+ 0002:00000488       __imp__IMProjectPointOnLine2d 1003d488     ugeom2d:ugeom2d.dll
+ 0002:0000048c       __imp__IMLineGetParameterFromPosition2d 1003d48c     ugeom2d:ugeom2d.dll
+ 0002:00000490       __imp__IMLineByPtPt2d      1003d490     ugeom2d:ugeom2d.dll
+ 0002:00000494       __imp__IMLineGetAngle2d    1003d494     ugeom2d:ugeom2d.dll
+ 0002:00000498       __imp__IMLineGetLength2d   1003d498     ugeom2d:ugeom2d.dll
+ 0002:0000049c       __imp__IMLineByPtAngLen2d  1003d49c     ugeom2d:ugeom2d.dll
+ 0002:000004a0       __imp__IMLineGetEndPoint2d 1003d4a0     ugeom2d:ugeom2d.dll
+ 0002:000004a4       __imp__IMGBspCurveGetPositionFromParameter2d 1003d4a4     ugeom2d:ugeom2d.dll
+ 0002:000004a8       __imp__IMIntersectTCTC2d   1003d4a8     ugeom2d:ugeom2d.dll
+ 0002:000004ac       __imp__IMArcByCtrStEnd2d   1003d4ac     ugeom2d:ugeom2d.dll
+ 0002:000004b0       \177ugeom2d_NULL_THUNK_DATA 1003d4b0     ugeom2d:ugeom2d.dll
+ 0002:000004b4       __imp_?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 1003d4b4     umath:umath.dll
+ 0002:000004b8       __imp_?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 1003d4b8     umath:umath.dll
+ 0002:000004bc       __imp_?GetFitTolerance@@YA?BNXZ 1003d4bc     umath:umath.dll
+ 0002:000004c0       __imp_??_0tagGVector@@QAEAAU0@N@Z 1003d4c0     umath:umath.dll
+ 0002:000004c4       __imp_??L@YANABUtagGVector@@0@Z 1003d4c4     umath:umath.dll
+ 0002:000004c8       __imp_??XtagGUnitVector@@QAEAAU0@ABUtagGTransf@@@Z 1003d4c8     umath:umath.dll
+ 0002:000004cc       __imp_?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 1003d4cc     umath:umath.dll
+ 0002:000004d0       __imp_?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 1003d4d0     umath:umath.dll
+ 0002:000004d4       __imp_??XtagGVector@@QAEAAU0@ABUtagGMatrix@@@Z 1003d4d4     umath:umath.dll
+ 0002:000004d8       __imp_??XtagGBox2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1003d4d8     umath:umath.dll
+ 0002:000004dc       __imp_?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 1003d4dc     umath:umath.dll
+ 0002:000004e0       __imp_?IsEuclidean@tagGMatrix@@QBEHXZ 1003d4e0     umath:umath.dll
+ 0002:000004e4       __imp_?Transpose@tagGMatrix@@QBE?AU1@XZ 1003d4e4     umath:umath.dll
+ 0002:000004e8       __imp_??D@YA?AUtagGVector@@ABUtagGMatrix@@ABU0@@Z 1003d4e8     umath:umath.dll
+ 0002:000004ec       __imp_?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGVector@@00H@Z 1003d4ec     umath:umath.dll
+ 0002:000004f0       __imp_?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 1003d4f0     umath:umath.dll
+ 0002:000004f4       __imp_?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 1003d4f4     umath:umath.dll
+ 0002:000004f8       __imp_??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1003d4f8     umath:umath.dll
+ 0002:000004fc       __imp_??XtagGBox@@QAEAAU0@ABUtagG4x4@@@Z 1003d4fc     umath:umath.dll
+ 0002:00000500       __imp_?GDistance@@YANABUtagGPosition2d@@0@Z 1003d500     umath:umath.dll
+ 0002:00000504       __imp_??AtagGVector@@QAEAANI@Z 1003d504     umath:umath.dll
+ 0002:00000508       __imp_??AtagGPosition@@QAEAANI@Z 1003d508     umath:umath.dll
+ 0002:0000050c       __imp_??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1003d50c     umath:umath.dll
+ 0002:00000510       __imp_?Convert2d@tagGTransf@@QBE?AUtagGTransf2d@@XZ 1003d510     umath:umath.dll
+ 0002:00000514       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1003d514     umath:umath.dll
+ 0002:00000518       __imp_?IsColinear@tagGVector@@QBEHABU1@@Z 1003d518     umath:umath.dll
+ 0002:0000051c       __imp_??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 1003d51c     umath:umath.dll
+ 0002:00000520       __imp_?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1003d520     umath:umath.dll
+ 0002:00000524       __imp_?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1003d524     umath:umath.dll
+ 0002:00000528       __imp_??5tagGBox2d@@QBEHABUtagGPosition2d@@@Z 1003d528     umath:umath.dll
+ 0002:0000052c       __imp_?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 1003d52c     umath:umath.dll
+ 0002:00000530       __imp_?Inverse@tagG4x4@@QBE?AU1@XZ 1003d530     umath:umath.dll
+ 0002:00000534       __imp_?Translate4x4@@YAXABUtagGVector@@AAUtagG4x4@@PAJ@Z 1003d534     umath:umath.dll
+ 0002:00000538       __imp_??D@YA?AUtagG4x4@@ABU0@0@Z 1003d538     umath:umath.dll
+ 0002:0000053c       __imp_??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1003d53c     umath:umath.dll
+ 0002:00000540       __imp_??5tagGBox2d@@QBEHABU0@@Z 1003d540     umath:umath.dll
+ 0002:00000544       __imp_?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 1003d544     umath:umath.dll
+ 0002:00000548       __imp_??D@YA?AUtagGUnitVector@@ABU0@ABUtagGTransf@@@Z 1003d548     umath:umath.dll
+ 0002:0000054c       __imp_?BuildVector@@YA?AUtagGVector@@ABUtagGPosition@@0@Z 1003d54c     umath:umath.dll
+ 0002:00000550       __imp_?IsEqual@tagGPosition@@QBEHABU1@@Z 1003d550     umath:umath.dll
+ 0002:00000554       __imp_??XtagGVector@@QAEAAU0@ABUtagGTransf@@@Z 1003d554     umath:umath.dll
+ 0002:00000558       __imp_??D@YA?AUtagGMatrix@@ABU0@0@Z 1003d558     umath:umath.dll
+ 0002:0000055c       __imp_??XtagGPosition@@QAEAAU0@ABUtagG4x4@@@Z 1003d55c     umath:umath.dll
+ 0002:00000560       __imp_??XtagGVector@@QAEAAU0@N@Z 1003d560     umath:umath.dll
+ 0002:00000564       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1003d564     umath:umath.dll
+ 0002:00000568       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1003d568     umath:umath.dll
+ 0002:0000056c       __imp_??D@YA?AUtagGVector@@ABUtagG4x4@@ABU0@@Z 1003d56c     umath:umath.dll
+ 0002:00000570       __imp_?GetLength@tagGVector@@QBENXZ 1003d570     umath:umath.dll
+ 0002:00000574       __imp_?GDistance@@YANABUtagGPosition@@0@Z 1003d574     umath:umath.dll
+ 0002:00000578       __imp_??YtagGPosition@@QAEAAU0@ABUtagGVector@@@Z 1003d578     umath:umath.dll
+ 0002:0000057c       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@ABUtagGPosition@@0@Z 1003d57c     umath:umath.dll
+ 0002:00000580       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1003d580     umath:umath.dll
+ 0002:00000584       __imp_??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1003d584     umath:umath.dll
+ 0002:00000588       __imp_?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 1003d588     umath:umath.dll
+ 0002:0000058c       __imp_?GiveAngle@@YANABUtagGVector2d@@0@Z 1003d58c     umath:umath.dll
+ 0002:00000590       __imp_?GetDistanceTolerance@@YA?BNXZ 1003d590     umath:umath.dll
+ 0002:00000594       __imp_?IsEqual@tagGPosition2d@@QBEHABU1@@Z 1003d594     umath:umath.dll
+ 0002:00000598       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1003d598     umath:umath.dll
+ 0002:0000059c       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1003d59c     umath:umath.dll
+ 0002:000005a0       __imp_?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1003d5a0     umath:umath.dll
+ 0002:000005a4       __imp_?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 1003d5a4     umath:umath.dll
+ 0002:000005a8       __imp_?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 1003d5a8     umath:umath.dll
+ 0002:000005ac       __imp_??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 1003d5ac     umath:umath.dll
+ 0002:000005b0       \177umath_NULL_THUNK_DATA  1003d5b0     umath:umath.dll
+ 0002:000005b4       ___xc_a                    1003d5b4     MSVCRT:cinitexe.obj
+ 0002:0000068c       ___xc_z                    1003d68c     MSVCRT:cinitexe.obj
+ 0002:00000690       ___xi_a                    1003d690     MSVCRT:cinitexe.obj
+ 0002:0000069c       ___xi_z                    1003d69c     MSVCRT:cinitexe.obj
+ 0002:000006c0       __real@403f000000000000    1003d6c0     dgnassoc.obj
+ 0002:000006c8       __real@4000000000000000    1003d6c8     dgnassoc.obj
+ 0002:000006d0       __real@3fe0000000000000    1003d6d0     dgnassoc.obj
+ 0002:000006d8       __real@3ff921fb54442d18    1003d6d8     dgnassoc.obj
+ 0002:000006e0       __real@400921fb54442d18    1003d6e0     dgnassoc.obj
+ 0002:000006e8       __real@401921fb54442d18    1003d6e8     dgnassoc.obj
+ 0002:000006f0       __real@0000000000000000    1003d6f0     dgnassoc.obj
+ 0002:000006f8       __real@3ff0000000000000    1003d6f8     dgnassoc.obj
+ 0002:00000700       __real@41f0000000000000    1003d700     dgnassoc.obj
+ 0002:00000710       __real@3fafbe76c8b43958    1003d710     dgndim.obj
+ 0002:00000718       __real@3f847ae147ae147b    1003d718     dgndim.obj
+ 0002:00000720       __real@4024000000000000    1003d720     dgndim.obj
+ 0002:00000728       __real@4008000000000000    1003d728     dgndim.obj
+ 0002:00000730       __real@3f000000            1003d730     dgndim.obj
+ 0002:00000738       __real@3fa1eb851eb851ec    1003d738     dgndim.obj
+ 0002:00000740       ??_C@_02NJPGOMH@?$CFf?$AA@ 1003d740     dgndim.obj
+ 0002:00000744       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1003d744     dgndim.obj
+ 0002:00000748       __real@4076800000000000    1003d748     dgndim.obj
+ 0002:00000750       __real@404ca5dc1a63c1f8    1003d750     dgndim.obj
+ 0002:00000758       ??_C@_02PHMGLJND@YD?$AA@   1003d758     dgndim.obj
+ 0002:0000075c       ??_C@_02DJKGHFIE@KM?$AA@   1003d75c     dgndim.obj
+ 0002:00000760       ??_C@_02DHLFCEDM@CM?$AA@   1003d760     dgndim.obj
+ 0002:00000764       ??_C@_02DNCLAJDG@MM?$AA@   1003d764     dgndim.obj
+ 0002:00000768       ??_C@_01PLPBNMEI@M?$AA@    1003d768     dgndim.obj
+ 0002:0000076c       ??_C@_02CEDADIHH@ML?$AA@   1003d76c     dgndim.obj
+ 0002:00000770       ??_C@_02FJEHMMDC@MI?$AA@   1003d770     dgndim.obj
+ 0002:00000774       ??_C@_02KKHOEPMP@FT?$AA@   1003d774     dgndim.obj
+ 0002:00000778       ??_C@_01BIAFAFID@F?$AA@    1003d778     dgndim.obj
+ 0002:0000077c       ??_C@_01GEODFPGF@?8?$AA@   1003d77c     dgndim.obj
+ 0002:00000780       ??_C@_02OHHJMEON@?8?8?$AA@ 1003d780     dgndim.obj
+ 0002:00000784       ??_C@_01JPJNBJEM@I?$AA@    1003d784     dgndim.obj
+ 0002:00000788       ??_C@_02BBAPPCCJ@IN?$AA@   1003d788     dgndim.obj
+ 0002:0000078c       ??_C@_13BHPHAPDN@?$AAm?$AA?$AA@ 1003d78c     dgndim.obj
+ 0002:00000790       ??_C@_15JBBAMHG@?$AAc?$AAm?$AA?$AA@ 1003d790     dgndim.obj
+ 0002:00000798       ??_C@_15DDBLGNAG@?$AAm?$AAm?$AA?$AA@ 1003d798     dgndim.obj
+ 0002:000007a0       ??_C@_13ODFOLHGE@?$AA?8?$AA?$AA@ 1003d7a0     dgndim.obj
+ 0002:000007a4       ??_C@_02HLHCNIN@ft?$AA@    1003d7a4     dgndim.obj
+ 0002:000007a8       ??_C@_13NEIAEHFG@?$AA?$CC?$AA?$AA@ 1003d7a8     dgndim.obj
+ 0002:000007b0       __real@3fe3333333333333    1003d7b0     dgndim.obj
+ 0002:000007b8       __real@3fb999999999999a    1003d7b8     dgndim.obj
+ 0002:000007c0       __real@3fd3333333333333    1003d7c0     dgndim.obj
+ 0002:000007c8       __real@3fd0000000000000    1003d7c8     dgndim.obj
+ 0002:000007d0       __real@3fc999999999999a    1003d7d0     dgndim.obj
+ 0002:000007d8       ??_C@_1BG@NKOMMFFH@?$AAC?$AAo?$AAn?$AAt?$AAi?$AAn?$AAu?$AAo?$AAu?$AAs?$AA?$AA@ 1003d7d8     dgndim.obj
+ 0002:000007f0       ??_C@_1M@OJKEGGJD@?$AAC?$AAh?$AAa?$AAi?$AAn?$AA?$AA@ 1003d7f0     dgndim.obj
+ 0002:000007fc       ??_C@_1M@KAKMLIHO@?$AAA?$AAr?$AAi?$AAa?$AAl?$AA?$AA@ 1003d7fc     dgndim.obj
+ 0002:00000808       __real@400c000000000000    1003d808     dgndim.obj
+ 0002:00000810       ??_C@_11LOCGONAA@?$AA?$AA@ 1003d810     dgndim.obj
+ 0002:00000818       __real@3fd6666666666666    1003d818     dgndim.obj
+ 0002:00000820       __real@3fe6666666666666    1003d820     dgndim.obj
+ 0002:00000828       __real@3fe999999999999a    1003d828     dgndim.obj
+ 0002:00000830       __real@3fc0000000000000    1003d830     dgndim.obj
+ 0002:00000838       __real@4012000000000000    1003d838     dgndim.obj
+ 0002:00000840       __real@4071800000000000    1003d840     dgndim.obj
+ 0002:00000848       __real@4070400000000000    1003d848     dgndim.obj
+ 0002:00000850       __real@4059000000000000    1003d850     dgndim.obj
+ 0002:00000858       __real@4054000000000000    1003d858     dgndim.obj
+ 0002:00000860       __real@4067c00000000000    1003d860     dgndim.obj
+ 0002:00000868       __real@4065400000000000    1003d868     dgndim.obj
+ 0002:00000870       __real@4075e00000000000    1003d870     dgndim.obj
+ 0002:00000878       __real@3f91df46a2529d39    1003d878     dgndim.obj
+ 0002:00000880       __real@4066800000000000    1003d880     dgndim.obj
+ 0002:00000888       __real@3f50624dd2f1a9fc    1003d888     dgndim.obj
+ 0002:00000890       __real@3a83126f            1003d890     dgndim.obj
+ 0002:00000898       __real@3fc04189374bc6a8    1003d898     dgndim.obj
+ 0002:000008a0       ??_C@_05MPFIAJAP@Arial?$AA@ 1003d8a0     dgndim.obj
+ 0002:000008a8       ??_C@_1CE@HAOKKENG@?$AAA?$AAN?$AAG?$AAU?$AAL?$AAA?$AAR?$AA_?$AAD?$AAI?$AAM?$AAE?$AAN?$AAS?$AAI?$AAO?$AAN?$AA?$AA@ 1003d8a8     dgndim.obj
+ 0002:000008d0       __real@4073b00000000000    1003d8d0     dgndim.obj
+ 0002:000008d8       __real@406c200000000000    1003d8d8     dgndim.obj
+ 0002:000008e0       __real@4060e00000000000    1003d8e0     dgndim.obj
+ 0002:000008e8       __real@4046800000000000    1003d8e8     dgndim.obj
+ 0002:000008f0       __real@bff0000000000000    1003d8f0     dgndim.obj
+ 0002:000008f8       ??_C@_1CC@KKJMCJEL@?$AAR?$AAA?$AAD?$AAI?$AAA?$AAL?$AA_?$AAD?$AAI?$AAM?$AAE?$AAN?$AAS?$AAI?$AAO?$AAN?$AA?$AA@ 1003d8f8     dgndim.obj
+ 0002:0000091c       ??_C@_1CG@COAHJPMI@?$AAO?$AAR?$AAD?$AAI?$AAN?$AAA?$AAT?$AAE?$AA_?$AAD?$AAI?$AAM?$AAE?$AAN?$AAS?$AAI?$AAO?$AAN?$AA?$AA@ 1003d91c     dgndim.obj
+ 0002:00000948       __real@3ff8000000000000    1003d948     dgndim.obj
+ 0002:00000950       ??_C@_1CC@BOMELIKH@?$AAL?$AAI?$AAN?$AAE?$AAA?$AAR?$AA_?$AAD?$AAI?$AAM?$AAE?$AAN?$AAS?$AAI?$AAO?$AAN?$AA?$AA@ 1003d950     dgndim.obj
+ 0002:00000978       __real@408f400000000000    1003d978     dgndim.obj
+ 0002:00000980       ??_C@_09PJADBAI@GDimStyle?$AA@ 1003d980     dgndstyl.obj
+ 0002:0000098c       ??_C@_06OJGDMFIO@Matrix?$AA@ 1003d98c     dgng2cv.obj
+ 0002:00000994       ??_C@_0N@NLJMIHOF@TYP22?5ORIENT?$AA@ 1003d994     dgng2cv.obj
+ 0002:000009a4       ??_C@_0BI@NMMLPLAA@gcmstn_PointStrToPoints?$AA@ 1003d9a4     dgng2cv.obj
+ 0002:000009bc       ??_C@_0CA@MLLPCOKL@GC_IGDS_POINT_STRINGToGPoints2d?$AA@ 1003d9bc     dgng2cv.obj
+ 0002:000009dc       ??_C@_0BF@CDLKJBJP@gcmstn_LineStrToLine?$AA@ 1003d9dc     dgng2cv.obj
+ 0002:000009f4       ??_C@_0BM@JNMOJMAF@GC_IGDS_LINESTRINGToGLine2d?$AA@ 1003d9f4     dgng2cv.obj
+ 0002:00000a10       __real@4115f90000000000    1003da10     dgng2cv.obj
+ 0002:00000a18       ??_C@_0BC@LIHLIKC@gcmstn_EllpToEllp?$AA@ 1003da18     dgng2cv.obj
+ 0002:00000a2c       ??_C@_0BM@HOOMDNKG@GC_IGDS_ELLIPSEToGEllipse2d?$AA@ 1003da2c     dgng2cv.obj
+ 0002:00000a48       __real@41dfffffffc00000    1003da48     dgng2cv.obj
+ 0002:00000a50       ??_C@_0BC@FPEAKCNN@gcmstn_BSCvToBSCv?$AA@ 1003da50     dgng2cv.obj
+ 0002:00000a64       ??_C@_0BP@OALNKAMI@GC_IGDS_BSPCURHDRToGBspCurve2d?$AA@ 1003da64     dgng2cv.obj
+ 0002:00000a84       ??_C@_0BD@IEONKKDD@gcmstn_CurveToBSCv?$AA@ 1003da84     dgng2cv.obj
+ 0002:00000a98       ??_C@_0BL@OECFBIK@GC_IGDS_CURVEToGBspCurve2d?$AA@ 1003da98     dgng2cv.obj
+ 0002:00000ab4       ??_C@_0BG@LONMPJML@gcmstn_CurveToLineStr?$AA@ 1003dab4     dgng2cv.obj
+ 0002:00000acc       ??_C@_0BN@CCLIOCJ@GC_IGDS_CURVEToGLineString2d?$AA@ 1003dacc     dgng2cv.obj
+ 0002:00000ae9       ??_C@_00CNPNBAHC@?$AA@     1003dae9     dgng2cv.obj
+ 0002:00000aec       ??_C@_0BG@LMHFFIEE@gcmstn_CpxStrToCpxStr?$AA@ 1003daec     dgng2cv.obj
+ 0002:00000b04       ??_C@_0CC@JLADBEFI@GC_IGDS_CPLXSTRToGComplexString2@ 1003db04     dgng2cv.obj
+ 0002:00000b28       ??_C@_0BC@ICLBPKJD@gcmstn_LineToLine?$AA@ 1003db28     dgng2cv.obj
+ 0002:00000b3c       ??_C@_0BG@JMIJGKNL@GC_IGDS_LINEToGLine2d?$AA@ 1003db3c     dgng2cv.obj
+ 0002:00000b54       ??_C@_0BI@CCOIGFJD@gcmstn_LineStrToLineStr?$AA@ 1003db54     dgng2cv.obj
+ 0002:00000b6c       ??_C@_0CC@OCEAELKD@GC_IGDS_LINESTRINGToGLineString2@ 1003db6c     dgng2cv.obj
+ 0002:00000b90       ??_C@_1BC@OHJFIGNH@?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AA?4?$AA?5?$AA?$AA@ 1003db90     dgng2cv.obj
+ 0002:00000ba4       ??_C@_0BJ@LMOEFMIA@GC_IGDS_CPLXSTRToGType2d?$AA@ 1003dba4     dgng2cv.obj
+ 0002:00000bc0       __real@4012d97c7f3321d2    1003dbc0     dgng2cv.obj
+ 0002:00000bc8       __real@4049000000000000    1003dbc8     dgng2cv.obj
+ 0002:00000bd0       ??_C@_0BC@POOHODAC@gcmstn_BSSfToLine?$AA@ 1003dbd0     dgng2sf.obj
+ 0002:00000be4       ??_C@_0BL@IMLEPKIA@GC_IGDS_BSPSURHDRToGLine2d?$AA@ 1003dbe4     dgng2sf.obj
+ 0002:00000c00       ??_C@_06LPNOEPMC@wrapup?$AA@ 1003dc00     dgng2sf.obj
+ 0002:00000c08       ??_C@_0O@EFGLGIOG@CnvBndToGType?$AA@ 1003dc08     dgng2sf.obj
+ 0002:00000c18       ??_C@_0O@DGEPHLCH@CnvIsoToGType?$AA@ 1003dc18     dgng2sf.obj
+ 0002:00000c28       ??_C@_0L@FPMBOLBK@vCopyIsoCv?$AA@ 1003dc28     dgng2sf.obj
+ 0002:00000c34       ??_C@_0M@GEFLGCIN@vAllocIsoCv?$AA@ 1003dc34     dgng2sf.obj
+ 0002:00000c40       ??_C@_0M@MLEFNFCG@vSplitIsoCv?$AA@ 1003dc40     dgng2sf.obj
+ 0002:00000c4c       ??_C@_0L@PCBFNLII@vIMTSIsoCv?$AA@ 1003dc4c     dgng2sf.obj
+ 0002:00000c58       ??_C@_0L@MGCDINBL@uCopyIsoCv?$AA@ 1003dc58     dgng2sf.obj
+ 0002:00000c64       ??_C@_0M@BDMFLAHN@uAllocIsoCv?$AA@ 1003dc64     dgng2sf.obj
+ 0002:00000c70       ??_C@_0M@LMNLAHNG@uSplitIsoCv?$AA@ 1003dc70     dgng2sf.obj
+ 0002:00000c7c       ??_C@_0L@GLPHLNIJ@uIMTSIsoCv?$AA@ 1003dc7c     dgng2sf.obj
+ 0002:00000c88       ??_C@_0N@JGFIGGAP@Copy3dBounds?$AA@ 1003dc88     dgng2sf.obj
+ 0002:00000c98       ??_C@_08JJGFCDHI@UpdRange?$AA@ 1003dc98     dgng2sf.obj
+ 0002:00000ca4       ??_C@_0N@IBCDHCEM@Copy2dBounds?$AA@ 1003dca4     dgng2sf.obj
+ 0002:00000cb4       ??_C@_0M@OIHGLELK@AllocBounds?$AA@ 1003dcb4     dgng2sf.obj
+ 0002:00000cc0       ??_C@_0L@GNFNBBHD@InitUVPars?$AA@ 1003dcc0     dgng2sf.obj
+ 0002:00000ccc       ??_C@_0M@CAJDCPHP@AllocUVPars?$AA@ 1003dccc     dgng2sf.obj
+ 0002:00000cd8       ??_C@_0P@CPGHBPNA@GCMSTNcrBsSurf?$AA@ 1003dcd8     dgng2sf.obj
+ 0002:00000ce8       ??_C@_0BC@IPDLNBIH@gcmstn_BSSfToBSCv?$AA@ 1003dce8     dgng2sf.obj
+ 0002:00000cfc       ??_C@_0BP@HLALON@GC_IGDS_BSPSURHDRToGBspCurve2d?$AA@ 1003dcfc     dgng2sf.obj
+ 0002:00000d1c       ??_C@_0BC@BFHLIJOK@gcmstn_ConeToGT2d?$AA@ 1003dd1c     dgng2sf.obj
+ 0002:00000d30       ??_C@_0BG@OCMPPICB@GC_IGDS_CONEToGType2d?$AA@ 1003dd30     dgng2sf.obj
+ 0002:00000d48       ??_C@_0BC@FDOCEIGC@gcmstn_SurfToGGrp?$AA@ 1003dd48     dgng2sf.obj
+ 0002:00000d5c       ??_C@_0BH@NPKBECCG@GC_IGDS_SURFToGGroup2d?$AA@ 1003dd5c     dgng2sf.obj
+ 0002:00000d74       ??_C@_0BF@NPPAHINA@gcmstn_BSSfToLineStr?$AA@ 1003dd74     dgng2sf.obj
+ 0002:00000d8c       ??_C@_0CB@KDCJMFJK@GC_IGDS_BSPSURHDRToGLineString2d@ 1003dd8c     dgng2sf.obj
+ 0002:00000db0       ??_C@_0BE@FFKPFMEC@GSymbolDefinition2d?$AA@ 1003ddb0     dgngtcel.obj
+ 0002:00000dc4       ??_C@_0BJ@MNKENOHE@gcmstn_SCellDefToGSymDef?$AA@ 1003ddc4     dgngtcel.obj
+ 0002:00000de0       ??_C@_0CH@LHGKDGFE@GC_IGDS_SHARCELLDEFToGSymbolDefi@ 1003dde0     dgngtcel.obj
+ 0002:00000e08       ??_C@_0BG@GEOCLCEK@gcmstn_SCellInstToGrp?$AA@ 1003de08     dgngtcel.obj
+ 0002:00000e20       ??_C@_0BN@DBMEPCOH@GC_IGDS_SHARCELLINSTToGGroup?$AA@ 1003de20     dgngtcel.obj
+ 0002:00000e40       ??_C@_0BF@OACPLEDJ@gcmstn_CellToGSymDef?$AA@ 1003de40     dgngtcel.obj
+ 0002:00000e58       ??_C@_0CA@MBLPJJCI@GC_IGDS_CELLToGSymbolDefinition?$AA@ 1003de58     dgngtcel.obj
+ 0002:00000e78       ??_C@_0BC@GHLLMNKM@GSymbolInstance2d?$AA@ 1003de78     dgngtcel.obj
+ 0002:00000e8c       ??_C@_0BL@IJBPIHPI@gcmstn_SCellInstToGSymInst?$AA@ 1003de8c     dgngtcel.obj
+ 0002:00000ea8       ??_C@_0CG@KMJBICGN@GC_IGDS_SHARCELLINSTToGSymbolIns@ 1003dea8     dgngtcel.obj
+ 0002:00000ed0       ??_C@_01KICIPPFI@?2?$AA@   1003ded0     dgngtcel.obj
+ 0002:00000ed4       ??_C@_0BI@IECAJDJL@gcmstn_CellDefToGSymDef?$AA@ 1003ded4     dgngtcel.obj
+ 0002:00000eec       ??_C@_0CE@GOPIPOCA@GC_IGDS_CELL_DEFToGSymbolDefinit@ 1003deec     dgngtcel.obj
+ 0002:00000f10       ??_C@_0CC@GLGJJOPL@GCMSTNprocessReferenceCellAsGrou@ 1003df10     dgngtcel.obj
+ 0002:00000f34       ??_C@_0BF@FHJCGCPI@GC_IGDS_CELLToGGroup?$AA@ 1003df34     dgngtcel.obj
+ 0002:00000f4c       ??_C@_0BB@FHGHNJPJ@gcmstn_CellToGrp?$AA@ 1003df4c     dgngtcel.obj
+ 0002:00000f60       ??_C@_0BP@LJEJLHMP@GCMSTNconvertIGDS_CELLToGGroup?$AA@ 1003df60     dgngtcel.obj
+ 0002:00000f80       ??_C@_0BF@DNFAOCOJ@gcmstn_CellToSvrGTyp?$AA@ 1003df80     dgngtcel.obj
+ 0002:00000f98       ??_C@_0BP@LFPJAJCC@GC_IGDS_CELLToGTypesForServers?$AA@ 1003df98     dgngtcel.obj
+ 0002:00000fb8       ??_C@_0BG@CBMKDJGF@gcmstn_CellToGSymInst?$AA@ 1003dfb8     dgngtcel.obj
+ 0002:00000fd0       ??_C@_0BO@GOMAILPG@GC_IGDS_CELLToGSymbolInstance?$AA@ 1003dfd0     dgngtcel.obj
+ 0002:00000ff0       ??_C@_0CB@CJDFPOKG@Export?5Surface?5Plane?5Angle?5Value@ 1003dff0     dgngtref.obj
+ 0002:00001014       ??_C@_0BD@PNLBHEEG@Output?5File?5Format?$AA@ 1003e014     dgngtref.obj
+ 0002:00001028       ??_C@_0BH@IECCINFA@Export?5Tolerance?5Value?$AA@ 1003e028     dgngtref.obj
+ 0002:00001040       ??_C@_0N@PONGCODM@Export?5Units?$AA@ 1003e040     dgngtref.obj
+ 0002:00001050       ??_C@_0N@PANHANCL@Import?5Units?$AA@ 1003e050     dgngtref.obj
+ 0002:00001060       ??_C@_0BJ@BGOBHFA@Import?5Make?5Base?5Feature?$AA@ 1003e060     dgngtref.obj
+ 0002:0000107c       ??_C@_0BE@FCPGGPBN@Import?5Property?5map?$AA@ 1003e07c     dgngtref.obj
+ 0002:00001090       ??_C@_0L@OBJFLDAK@Time?5Stamp?$AA@ 1003e090     dgngtref.obj
+ 0002:0000109c       ??_C@_0BF@HLJDKAHE@Write?5Export?5Feature?$AA@ 1003e09c     dgngtref.obj
+ 0002:000010b4       ??_C@_0BH@IOEKAGKJ@Write?5Feature?5To?5Color?$AA@ 1003e0b4     dgngtref.obj
+ 0002:000010cc       ??_C@_0BL@IGKFIBPC@Write?5Feature?5To?5Line?5Type?$AA@ 1003e0cc     dgngtref.obj
+ 0002:000010e8       ??_C@_0BJ@EFAHJCME@Arrowhead?5Import?5Mapping?$AA@ 1003e0e8     dgngtref.obj
+ 0002:00001104       ??_C@_0BE@KHPHPGFP@Read?5Polyline?5Width?$AA@ 1003e104     dgngtref.obj
+ 0002:00001118       ??_C@_01GOHFPIOK@m?$AA@    1003e118     dgngtref.obj
+ 0002:0000111c       ??_C@_08CHBOKEDA@JT?5Units?$AA@ 1003e11c     dgngtref.obj
+ 0002:00001128       ??_C@_0BD@JJFEBOEJ@Healing?5and?5Sewing?$AA@ 1003e128     dgngtref.obj
+ 0002:0000113c       ??_C@_08FAGNKDJG@Relative?$AA@ 1003e13c     dgngtref.obj
+ 0002:00001148       ??_C@_0BJ@LPFIMAOP@Chordal?5Tolerance?5Option?$AA@ 1003e148     dgngtref.obj
+ 0002:00001164       ??_C@_05CGKLNCBH@0?4001?$AA@ 1003e164     dgngtref.obj
+ 0002:0000116c       ??_C@_0BI@CBIMJFOD@Chordal?5Tolerance?5Value?$AA@ 1003e16c     dgngtref.obj
+ 0002:00001184       ??_C@_0M@GENAFPDI@Part?5Layers?$AA@ 1003e184     dgngtref.obj
+ 0002:00001190       ??_C@_0BG@GMNFDLGE@Current?5Configuration?$AA@ 1003e190     dgngtref.obj
+ 0002:000011a8       ??_C@_0L@FOPFONEP@Map?5Colors?$AA@ 1003e1a8     dgngtref.obj
+ 0002:000011b4       ??_C@_0BF@KKOLLPHF@Translate?5Background?$AA@ 1003e1b4     dgngtref.obj
+ 0002:000011cc       ??_C@_0BI@MFGGFIDK@Background?5On?5File?5Open?$AA@ 1003e1cc     dgngtref.obj
+ 0002:000011e4       ??_C@_0BC@DJCMOLJP@RecognizeFeatures?$AA@ 1003e1e4     dgngtref.obj
+ 0002:000011f8       ??_C@_0M@LPOJEKPL@ProE?5Flavor?$AA@ 1003e1f8     dgngtref.obj
+ 0002:00001204       ??_C@_0N@HODFCELD@Catia?5Flavor?$AA@ 1003e204     dgngtref.obj
+ 0002:00001214       ??_C@_0BL@JNBEGPMO@Stringently?5Check?5Surfaces?$AA@ 1003e214     dgngtref.obj
+ 0002:00001230       ??_C@_01GBGANLPD@0?$AA@    1003e230     dgngtref.obj
+ 0002:00001234       ??_C@_0BG@KCANDBPI@Sew?5Imported?5Surfaces?$AA@ 1003e234     dgngtref.obj
+ 0002:0000124c       ??_C@_0BG@DBKJODPG@Read?5Bounded?5Surfaces?$AA@ 1003e24c     dgngtref.obj
+ 0002:00001264       ??_C@_0BJ@FEMKLCAN@Include?5Precise?5Geometry?$AA@ 1003e264     dgngtref.obj
+ 0002:00001280       ??_C@_0BN@NOOPPGPK@Trim?5Curve?5Preference?5Export?$AA@ 1003e280     dgngtref.obj
+ 0002:000012a0       ??_C@_0BN@EKFEAPKG@Trim?5Curve?5Preference?5Import?$AA@ 1003e2a0     dgngtref.obj
+ 0002:000012c0       ??_C@_0BA@NNHGKEDJ@Save?5Preference?$AA@ 1003e2c0     dgngtref.obj
+ 0002:000012d0       ??_C@_0O@IDDDOBKM@Import?5Bodies?$AA@ 1003e2d0     dgngtref.obj
+ 0002:000012e0       ??_C@_01EKENIIDA@3?$AA@    1003e2e0     dgngtref.obj
+ 0002:000012e4       ??_C@_09GBPDBPAF@Export?5As?$AA@ 1003e2e4     dgngtref.obj
+ 0002:000012f0       ??_C@_01HIHLOKLC@1?$AA@    1003e2f0     dgngtref.obj
+ 0002:000012f4       ??_C@_05CFLIFMAE@Units?$AA@ 1003e2f4     dgngtref.obj
+ 0002:000012fc       ??_C@_0BE@NMCKNGJH@Write?5Layer?5Locates?$AA@ 1003e2fc     dgngtref.obj
+ 0002:00001310       ??_C@_0BF@GKCDCOKJ@Write?5Layer?5Displays?$AA@ 1003e310     dgngtref.obj
+ 0002:00001328       ??_C@_0BC@FGHJBLN@Write?5Layer?5Names?$AA@ 1003e328     dgngtref.obj
+ 0002:0000133c       ??_C@_0BI@GGCOGNPK@Write?5Linestyle?5Weights?$AA@ 1003e33c     dgngtref.obj
+ 0002:00001354       ??_C@_0BH@IAPEJMBJ@Write?5Linestyle?5Colors?$AA@ 1003e354     dgngtref.obj
+ 0002:0000136c       ??_C@_0BB@OPILLNGD@Break?5Dimensions?$AA@ 1003e36c     dgngtref.obj
+ 0002:00001380       ??_C@_0BG@PHGJIMFO@Write?5Linestyle?5Names?$AA@ 1003e380     dgngtref.obj
+ 0002:00001398       ??_C@_0BC@DCAOBJNM@Write?5Hatchstyles?$AA@ 1003e398     dgngtref.obj
+ 0002:000013ac       ??_C@_0BB@IKJBCALA@Read?5Hatchstyles?$AA@ 1003e3ac     dgngtref.obj
+ 0002:000013c0       ??_C@_0N@FIFLIAKF@Bigfont?5Name?$AA@ 1003e3c0     dgngtref.obj
+ 0002:000013d0       ??_C@_0BG@NPFJHKMO@Application?5Text?5Type?$AA@ 1003e3d0     dgngtref.obj
+ 0002:000013e8       ??_C@_0BO@OOLPFCMN@Process?5Construction?5Elements?$AA@ 1003e3e8     dgngtref.obj
+ 0002:00001408       ??_C@_0CI@OEHJMIL@Process?5Non?9Displayable?5Referenc@ 1003e408     dgngtref.obj
+ 0002:00001430       ??_C@_0BD@BCHIGLJA@Max?4?5Nesting?5Depth?$AA@ 1003e430     dgngtref.obj
+ 0002:00001444       ??_C@_0BG@HCCJKKEI@AutoCAD?5Extended?5Data?$AA@ 1003e444     dgngtref.obj
+ 0002:0000145c       ??_C@_0BC@BKMMCJAL@MS?5resource?5files?$AA@ 1003e45c     dgngtref.obj
+ 0002:00001470       ??_C@_0CF@PMOCJJHO@Foreign?5to?5Neutral?5Server?5Entity@ 1003e470     dgngtref.obj
+ 0002:00001498       ??_C@_0CC@FBBHGIJD@Application?5to?5Neutral?5Entity?5Ma@ 1003e498     dgngtref.obj
+ 0002:000014bc       ??_C@_0CK@LHDLKMKA@Neutral?5to?5Foreign?5Translation?5E@ 1003e4bc     dgngtref.obj
+ 0002:000014e8       ??_C@_0CK@EKDDLMNO@Foreign?5to?5Neutral?5Translation?5E@ 1003e4e8     dgngtref.obj
+ 0002:00001514       ??_C@_0BI@HIIOGLAB@Translate?5Scaled?5Layers?$AA@ 1003e514     dgngtref.obj
+ 0002:0000152c       ??_C@_0BJ@HGICCCH@Override?5Linetype?5Colors?$AA@ 1003e52c     dgngtref.obj
+ 0002:00001548       ??_C@_0BA@HBGHIPKH@Override?5Colors?$AA@ 1003e548     dgngtref.obj
+ 0002:00001558       ??_C@_0BF@CNNJHLCF@Read?5Linetype?5Colors?$AA@ 1003e558     dgngtref.obj
+ 0002:00001570       ??_C@_0M@FDJECDLA@Read?5Colors?$AA@ 1003e570     dgngtref.obj
+ 0002:0000157c       ??_C@_0BN@ONKCLLBK@Processing?5Batch?5Translation?$AA@ 1003e57c     dgngtref.obj
+ 0002:0000159c       ??_C@_0BE@DAGKDAGO@Write?5Default?5Units?$AA@ 1003e59c     dgngtref.obj
+ 0002:000015b0       ??_C@_0CC@EIOMEKFP@Memory?5Needed?5Per?5Foreign?5Elemen@ 1003e5b0     dgngtref.obj
+ 0002:000015d4       ??_C@_0CB@CLNPGHDA@Memory?5Needed?5Per?5Native?5Element@ 1003e5d4     dgngtref.obj
+ 0002:000015f8       ??_C@_0BF@ILGCNOID@Symbol?5Template?5File?$AA@ 1003e5f8     dgngtref.obj
+ 0002:00001610       ??_C@_0BI@OCLBEPOH@Pos?5Units?5Per?5Sub?5Units?$AA@ 1003e610     dgngtref.obj
+ 0002:00001628       ??_C@_0BL@MMJJPDED@Sub?5Units?5Per?5Master?5Units?$AA@ 1003e628     dgngtref.obj
+ 0002:00001644       ??_C@_0M@ICLKLKFA@Active?5View?$AA@ 1003e644     dgngtref.obj
+ 0002:00001650       ??_C@_0BD@KMAMHCHB@Read?5Block?5Options?$AA@ 1003e650     dgngtref.obj
+ 0002:00001664       ??_C@_0O@DCHCMCMB@Shared?5embeds?$AA@ 1003e664     dgngtref.obj
+ 0002:00001674       ??_C@_0BC@ICFCHNJB@Read?5Cell?5Options?$AA@ 1003e674     dgngtref.obj
+ 0002:00001688       ??_C@_0BE@GCLMENOJ@Enable?5DebugLogging?$AA@ 1003e688     dgngtref.obj
+ 0002:0000169c       ??_C@_0N@JMOEGMKL@Write?5Layers?$AA@ 1003e69c     dgngtref.obj
+ 0002:000016ac       ??_C@_0BP@PBJIHBKO@Write?5Polyline?5Width?5Threshold?$AA@ 1003e6ac     dgngtref.obj
+ 0002:000016cc       ??_C@_0BG@FLHOALAM@Read?5Part?5Name?5Prefix?$AA@ 1003e6cc     dgngtref.obj
+ 0002:000016e4       ??_C@_0BE@DOPDOAKO@Read?5Part?5File?5Path?$AA@ 1003e6e4     dgngtref.obj
+ 0002:000016f8       ??_C@_0BI@MACLNPNC@Read?5Part?5Template?5File?$AA@ 1003e6f8     dgngtref.obj
+ 0002:00001710       ??_C@_0BM@KLJLDDKK@Read?5Assembly?5Template?5File?$AA@ 1003e710     dgngtref.obj
+ 0002:0000172c       ??_C@_0BD@CJDEKAO@Read?5Default?5Width?$AA@ 1003e72c     dgngtref.obj
+ 0002:00001740       ??_C@_0O@PFMBKECH@Template?5File?$AA@ 1003e740     dgngtref.obj
+ 0002:00001750       ??_C@_0BH@OFFDFAJO@Write?5Embedded?5Objects?$AA@ 1003e750     dgngtref.obj
+ 0002:00001768       ??_C@_06KMEJCCGM@Ignore?$AA@ 1003e768     dgngtref.obj
+ 0002:00001770       ??_C@_0BF@JLBAABMG@Write?5Linked?5Objects?$AA@ 1003e770     dgngtref.obj
+ 0002:00001788       ??_C@_0N@HEAKGDJN@Write?5Widths?$AA@ 1003e788     dgngtref.obj
+ 0002:00001798       ??_C@_0M@LAIFMFIJ@Read?5Widths?$AA@ 1003e798     dgngtref.obj
+ 0002:000017a4       ??_C@_0BK@BLOBOGFI@Write?5Font?5Resource?5Files?$AA@ 1003e7a4     dgngtref.obj
+ 0002:000017c0       ??_C@_0BJ@GNNJFEGO@Read?5Font?5Resource?5Files?$AA@ 1003e7c0     dgngtref.obj
+ 0002:000017dc       ??_C@_0BP@EKNMPDJB@Write?5Linestyle?5Resource?5Files?$AA@ 1003e7dc     dgngtref.obj
+ 0002:000017fc       ??_C@_0BO@IANLFCPO@Read?5Linestyle?5Resource?5Files?$AA@ 1003e7fc     dgngtref.obj
+ 0002:0000181c       ??_C@_0BA@LEDOLEFK@Ignore?5Warnings?$AA@ 1003e81c     dgngtref.obj
+ 0002:0000182c       ??_C@_0BF@NMEKCCPP@Read?5Reference?5Paths?$AA@ 1003e82c     dgngtref.obj
+ 0002:00001844       ??_C@_09KMILOHFO@Translate?$AA@ 1003e844     dgngtref.obj
+ 0002:00001850       ??_C@_0BH@EDICNJKJ@Read?5Reference?5Options?$AA@ 1003e850     dgngtref.obj
+ 0002:00001868       ??_C@_0O@LEJBMJLO@Write?5Version?$AA@ 1003e868     dgngtref.obj
+ 0002:00001878       ??_C@_0BD@BKNLFPGM@Export?5Entry?5Point?$AA@ 1003e878     dgngtref.obj
+ 0002:0000188c       ??_C@_0BD@DAELHCPE@Import?5Entry?5Point?$AA@ 1003e88c     dgngtref.obj
+ 0002:000018a0       ??_C@_03ECEIPJGG@Dll?$AA@  1003e8a0     dgngtref.obj
+ 0002:000018a4       ??_C@_0N@ODHLKEAA@Option?5Forms?$AA@ 1003e8a4     dgngtref.obj
+ 0002:000018b4       ??_C@_0BB@NFDEABFA@Write?5Text?5Fonts?$AA@ 1003e8b4     dgngtref.obj
+ 0002:000018c8       ??_C@_0BA@PHKIGCGH@Read?5Text?5Fonts?$AA@ 1003e8c8     dgngtref.obj
+ 0002:000018d8       ??_C@_0BD@KGCHCEFC@Read?5Default?5Units?$AA@ 1003e8d8     dgngtref.obj
+ 0002:000018ec       ??_C@_0BC@KIAAFNBC@Projection?5Vector?$AA@ 1003e8ec     dgngtref.obj
+ 0002:00001900       ??_C@_0M@NEBNFABG@0?40?50?40?51?40?$AA@ 1003e900     dgngtref.obj
+ 0002:0000190c       ??_C@_06EFAGIKOH@Normal?$AA@ 1003e90c     dgngtref.obj
+ 0002:00001914       ??_C@_0M@GMKBDHHD@0?40?50?40?50?40?$AA@ 1003e914     dgngtref.obj
+ 0002:00001920       ??_C@_0BA@GJLDONN@Reference?5Point?$AA@ 1003e920     dgngtref.obj
+ 0002:00001930       ??_C@_03PGGAENPN@Top?$AA@  1003e930     dgngtref.obj
+ 0002:00001934       ??_C@_04FABLJDN@Name?$AA@  1003e934     dgngtref.obj
+ 0002:0000193c       ??_C@_0BG@NNEHMMHB@Transformation?5Matrix?$AA@ 1003e93c     dgngtref.obj
+ 0002:00001954       ??_C@_04KOACHJEN@Type?$AA@ 1003e954     dgngtref.obj
+ 0002:0000195c       ??_C@_0BD@OOIDEPKH@Write?5Default?5View?$AA@ 1003e95c     dgngtref.obj
+ 0002:00001970       ??_C@_0EA@DCDFKCHG@1?40?50?40?50?40?50?40?50?40?51?40?50?40?50?40?5@ 1003e970     dgngtref.obj
+ 0002:000019b0       ??_C@_0P@DIBIOLFJ@Transformation?$AA@ 1003e9b0     dgngtref.obj
+ 0002:000019c0       ??_C@_0BC@KKDPPNON@Read?5Default?5View?$AA@ 1003e9c0     dgngtref.obj
+ 0002:000019d4       ??_C@_0BB@LHDEPIHM@Write?5Linestyles?$AA@ 1003e9d4     dgngtref.obj
+ 0002:000019e8       ??_C@_0BA@JFKIJLEL@Read?5Linestyles?$AA@ 1003e9e8     dgngtref.obj
+ 0002:000019f8       ??_C@_0P@HNBPIHLB@Enable?5Logging?$AA@ 1003e9f8     dgngtref.obj
+ 0002:00001a08       ??_C@_09HACGBFPA@Seed?5File?$AA@ 1003ea08     dgngtref.obj
+ 0002:00001a14       ??_C@_0L@GEDNDJAA@Entity?5Map?$AA@ 1003ea14     dgngtref.obj
+ 0002:00001a20       ??_C@_04KAIBKGKB@Dlls?$AA@ 1003ea20     dgngtref.obj
+ 0002:00001a28       ??_C@_07KHIHFBFN@Options?$AA@ 1003ea28     dgngtref.obj
+ 0002:00002160       ??_C@_02PMCEOIEJ@FR?$AA@   1003f160     dgngtref.obj
+ 0002:00002164       ??_C@_02LCNFJAAN@PT?$AA@   1003f164     dgngtref.obj
+ 0002:00002168       ??_C@_02EKMCNAHJ@CH?$AA@   1003f168     dgngtref.obj
+ 0002:0000216c       ??_C@_02GKLDMEIH@LK?$AA@   1003f16c     dgngtref.obj
+ 0002:00002170       ??_C@_02DAMOAIFE@PL?$AA@   1003f170     dgngtref.obj
+ 0002:00002174       ??_C@_02PLJDFGDC@RD?$AA@   1003f174     dgngtref.obj
+ 0002:00002178       ??_C@_02FDKLGFIM@TH?$AA@   1003f178     dgngtref.obj
+ 0002:0000217c       ??_C@_02BAMNJIBO@HN?$AA@   1003f17c     dgngtref.obj
+ 0002:00002180       ??_C@_02OGAFBLMB@TE?$AA@   1003f180     dgngtref.obj
+ 0002:00002184       ??_C@_0BE@JOINMHBA@MicroStationRefPath?$AA@ 1003f184     dgngtref.obj
+ 0002:00002198       ??_C@_0CA@JOFGAPDK@?2PrefSets?2Options?9FileLocations?$AA@ 1003f198     dgngtref.obj
+ 0002:000021b8       ??_C@_04EFIOGCFP@?4dgn?$AA@ 1003f1b8     dgngtref.obj
+ 0002:000021c0       ??_C@_0L@JBMOCEMD@GReference?$AA@ 1003f1c0     dgngtref.obj
+ 0002:000021cc       ??_C@_0BL@EOIOMLCG@gcmstn_RefFileToGReference?$AA@ 1003f1cc     dgngtref.obj
+ 0002:000021e8       ??_C@_0BM@GACBFMJN@GC_IGDS_REFFILEToGReference?$AA@ 1003f1e8     dgngtref.obj
+ 0002:00002204       ??_C@_0O@DABHAPH@?$CFs?2ImageScape?$AA@ 1003f204     dgngtref.obj
+ 0002:00002214       ??_C@_0BK@DDIIBNNE@gcmstn_RasterToGReference?$AA@ 1003f214     dgngtref.obj
+ 0002:00002230       ??_C@_0BL@IMFDBHCB@GC_IGDS_RASTERToGReference?$AA@ 1003f230     dgngtref.obj
+ 0002:0000224c       ??_C@_0BB@FANBKEFH@ZeroOrEndPtsCase?$AA@ 1003f24c     dgngtsup.obj
+ 0002:00002260       ??_C@_0BD@GHELJPI@AllocCopyCurveLast?$AA@ 1003f260     dgngtsup.obj
+ 0002:00002274       ??_C@_0BC@PCCGIGHA@IMTCActivSpltLast?$AA@ 1003f274     dgngtsup.obj
+ 0002:00002288       ??_C@_0BC@OGKHHDKI@AllocCopyCurveInt?$AA@ 1003f288     dgngtsup.obj
+ 0002:0000229c       ??_C@_0BB@GACNKKLO@IMTCActivSpltInt?$AA@ 1003f29c     dgngtsup.obj
+ 0002:000022b0       ??_C@_0BE@NECLKLCC@AllocCopyCurveFirst?$AA@ 1003f2b0     dgngtsup.obj
+ 0002:000022c4       ??_C@_0BD@DHLMPCAP@IMTCActivSpltFirst?$AA@ 1003f2c4     dgngtsup.obj
+ 0002:000022d8       ??_C@_0M@CNBMEGEA@PtInBoxTest?$AA@ 1003f2d8     dgngtsup.obj
+ 0002:000022e4       ??_C@_0P@LENJOIOP@IMTCRangeBox2d?$AA@ 1003f2e4     dgngtsup.obj
+ 0002:000022f4       ??_C@_0M@LODLAHHO@IMTCBoreLoc?$AA@ 1003f2f4     dgngtsup.obj
+ 0002:00002300       ??_C@_0M@FLHGNNMK@AllocOutCvs?$AA@ 1003f300     dgngtsup.obj
+ 0002:0000230c       ??_C@_08IOEPOCGJ@Constr01?$AA@ 1003f30c     dgngtsup.obj
+ 0002:00002318       ??_C@_0N@PLLDNEBB@RemoveDupRBX?$AA@ 1003f318     dgngtsup.obj
+ 0002:00002328       ??_C@_07BGEKELKB@SortRBX?$AA@ 1003f328     dgngtsup.obj
+ 0002:00002330       ??_C@_0M@DMJMAOPE@PopulateRBX?$AA@ 1003f330     dgngtsup.obj
+ 0002:0000233c       ??_C@_08FMAFJGLJ@AllocRBX?$AA@ 1003f33c     dgngtsup.obj
+ 0002:00002348       ??_C@_09OOEFFMPC@IM2TCTang?$AA@ 1003f348     dgngtsup.obj
+ 0002:00002354       ??_C@_0O@KGABLBFH@IMXSectTCTC2d?$AA@ 1003f354     dgngtsup.obj
+ 0002:00002364       ??_C@_09HOPKANBF@cnstDomTC?$AA@ 1003f364     dgngtsup.obj
+ 0002:00002370       ??_C@_0CF@JDIIMJHE@GCMSTNsplitIsoparamCurveByBounda@ 1003f370     dgngtsup.obj
+ 0002:0000239c       ??_7tagJCharStyleDescrList@@6B@ 1003f39c     dgngtxt.obj
+ 0002:000023a0       __real@400d99999999999a    1003f3a0     dgngtxt.obj
+ 0002:000023a8       ??_C@_1DC@GGNLNLFD@?$AAS?$AAo?$AAl?$AAi?$AAd?$AA?5?$AAE?$AAd?$AAg?$AAe?$AA?5?$AAA?$AAN?$AAS?$AAI?$AA3?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$AA@ 1003f3a8     dgngtxt.obj
+ 0002:000023dc       ??_C@_1DC@DLMOABF@?$AAS?$AAo?$AAl?$AAi?$AAd?$AA?5?$AAE?$AAd?$AAg?$AAe?$AA?5?$AAA?$AAN?$AAS?$AAI?$AA2?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$AA@ 1003f3dc     dgngtxt.obj
+ 0002:00002410       ??_C@_1DC@DJFOGNEG@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAg?$AAr?$AAa?$AAp?$AAh?$AA?5?$AAA?$AAN?$AAS?$AAI?$AA2?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$AA@ 1003f410     dgngtxt.obj
+ 0002:00002444       ??_C@_1DC@JGPHCAIM@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAg?$AAr?$AAa?$AAp?$AAh?$AA?5?$AAA?$AAN?$AAS?$AAI?$AA1?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$AA@ 1003f444     dgngtxt.obj
+ 0002:00002478       __real@4018000000000000    1003f478     dgngtxt.obj
+ 0002:00002480       ??_C@_08NFLEDNBH@GTextBox?$AA@ 1003f480     dgngtxt.obj
+ 0002:00002490       __real@bfe0000000000000    1003f490     dgngtxt.obj
+ 0002:00002498       ??_C@_04HGGMHPIM@?$CF?4?$CKf?$AA@ 1003f498     dgnpnote.obj
+ 0002:000024a0       __real@4070e00000000000    1003f4a0     dgnpnote.obj
+ 0002:000024a8       __real@4056800000000000    1003f4a8     dgnpnote.obj
+ 0002:000024b0       __real@404e000000000000    1003f4b0     dgnpnote.obj
+ 0002:000024b8       ??_C@_0L@JHAENFCC@Label?5line?$AA@ 1003f4b8     dgnpnote.obj
+ 0002:000024c4       ??_C@_05HHFOOOHO@?$CFs?0?$CFs?$AA@ 1003f4c4     dgnpnote.obj
+ 0002:000024cc       ??_C@_07FHNPMGFN@?$CFs?9?$CFc?$CFs?$AA@ 1003f4cc     dgnpnote.obj
+ 0002:000024d4       ??_C@_05BHLOHJPM@?$CFc?0?$CFs?$AA@ 1003f4d4     dgnpnote.obj
+ 0002:000024dc       ??_C@_08EKGMFDC@?$CFs?9?$CFc?0?$CFs?$AA@ 1003f4dc     dgnpnote.obj
+ 0002:000024e8       ??_C@_05LNLHLBHH@?$CFc?4?$CFs?$AA@ 1003f4e8     dgnpnote.obj
+ 0002:000024f0       ??_C@_08KOKPANLJ@?$CFs?9?$CFc?4?$CFs?$AA@ 1003f4f0     dgnpnote.obj
+ 0002:000024fc       ??_C@_0M@PIJHEACE@?$CFsmu?9?$CFc?$CFssu?$AA@ 1003f4fc     dgnpnote.obj
+ 0002:00002508       ??_C@_07JFCPCLCN@?$CFc?0?$CFssu?$AA@ 1003f508     dgnpnote.obj
+ 0002:00002510       ??_C@_0N@PKGCOJDD@?$CFsmu?9?$CFc?0?$CFssu?$AA@ 1003f510     dgnpnote.obj
+ 0002:00002520       ??_C@_07NIOHIKCG@?$CFc?4?$CFssu?$AA@ 1003f520     dgnpnote.obj
+ 0002:00002528       ??_C@_0N@LHKKEIDI@?$CFsmu?9?$CFc?4?$CFssu?$AA@ 1003f528     dgnpnote.obj
+ 0002:00002538       ??_C@_0L@CDLHHNBB@Place?5Note?$AA@ 1003f538     dgnpnote.obj
+ 0002:00002c78       ??_C@_04KCPDDLKF@Cell?$AA@ 1003fc78     dgnproc.obj
+ 0002:00002c80       ??_C@_0L@IELKGLI@gcmstn?4drx?$AA@ 1003fc80     dgnproc.obj
+ 0002:00002c8c       ??_C@_01GFHCPBMG@C?$AA@    1003fc8c     dgnproc.obj
+ 0002:00002c90       ??_C@_0BE@DFBIKPEB@gcmstn_ProcessType5?$AA@ 1003fc90     dgntyp5.obj
+ 0002:00002ca4       ??_C@_0BF@LKHEKJIF@GC_IGDS_ProcessType5?$AA@ 1003fca4     dgntyp5.obj
+ 0002:00002cbc       ??_C@_0BF@IKLEEGIF@gcmstn_ProcessType66?$AA@ 1003fcbc     dgntyp66.obj
+ 0002:00002cd4       ??_C@_0BG@BGDCCMCK@GC_IGDS_ProcessType66?$AA@ 1003fcd4     dgntyp66.obj
+ 0002:00002cf0       __real@40055532617c1bda    1003fcf0     g2dgndim.obj
+ 0002:00002cf8       ??_C@_07FKPFGMK@?$CL?$CFs?1?9?$CFs?$AA@ 1003fcf8     g2dgndim.obj
+ 0002:00002d00       ??_C@_01NBENCBCI@?$CK?$AA@ 1003fd00     g2dgndim.obj
+ 0002:00002d08       __real@4014000000000000    1003fd08     g2dgndim.obj
+ 0002:00002d10       ??_C@_07JKEJMMNK@SYM?$CF03d?$AA@ 1003fd10     g2icell.obj
+ 0002:00002d18       ??_C@_04HGGBINEM@?$CFs?$CFd?$AA@ 1003fd18     g2icell.obj
+ 0002:00002d20       ??_C@_0BC@LIPGLJIK@GSymbolDefinition?$AA@ 1003fd20     g2icell.obj
+ 0002:00002d34       ??_C@_07DDCFPFBJ@GDimSty?$AA@ 1003fd34     g2icell.obj
+ 0002:00002d40       __real@c1e0000000000000    1003fd40     g2icell.obj
+ 0002:00002d48       ??_C@_0M@KAJECBME@GBspCurve2d?$AA@ 1003fd48     g2icplx.obj
+ 0002:00002d54       ??_C@_06KLMEMGKA@GArc2d?$AA@ 1003fd54     g2icplx.obj
+ 0002:00002d5c       ??_C@_0O@DMNEDDEI@GLineString2d?$AA@ 1003fd5c     g2icplx.obj
+ 0002:00002d6c       ??_C@_07BJFBPLLN@GLine2d?$AA@ 1003fd6c     g2icplx.obj
+ 0002:00002d74       ??_C@_0BA@BILOGIDH@UserDataLinkage?$AA@ 1003fd74     genlib.obj
+ 0002:00002d84       ??_C@_0L@GDJCBNHH@MSUSERDATA?$AA@ 1003fd84     genlib.obj
+ 0002:00002d90       ??_C@_0L@DIIKEJNK@mslink_key?$AA@ 1003fd90     genlib.obj
+ 0002:00002d9c       ??_C@_0O@NCKACHKD@entity_number?$AA@ 1003fd9c     genlib.obj
+ 0002:00002dac       ??_C@_0P@MBPGEICK@linkage_format?$AA@ 1003fdac     genlib.obj
+ 0002:00002dbc       ??_C@_08NMAJFNC@MSDBLINK?$AA@ 1003fdbc     genlib.obj
+ 0002:00002dc8       __real@410a36e000000000    1003fdc8     genlib.obj
+ 0002:00002dd0       ??_C@_0BI@HKJHFPEG@GC_GGroupToIgdsElements?$AA@ 1003fdd0     gtdgngrp.obj
+ 0002:00002de8       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1003fde8     gtdgnref.obj
+ 0002:00002e00       ??_C@_02DPGNLHGP@NM?$AA@   1003fe00     gtdgnref.obj
+ 0002:00002e04       ??_C@_02PLJDPFIO@00?$AA@   1003fe04     gtdgnref.obj
+ 0002:00002e08       ??_C@_0P@JGMFIHIN@?4?2gtdgnref?4cpp?$AA@ 1003fe08     gtdgnref.obj
+ 0002:00002e18       ??_C@_0BP@MNMBLOFM@GCMSTNStrokeType66ClipBoundary?$AA@ 1003fe18     gtdgnref.obj
+ 0002:00002e38       ??_C@_03PPPAEIOB@cot?$AA@  1003fe38     gtdgnref.obj
+ 0002:00002e3c       ??_C@_03FNOJMHE@rgb?$AA@   1003fe3c     gtdgnref.obj
+ 0002:00002e40       ??_C@_03PEGNKCLE@jpg?$AA@  1003fe40     gtdgnref.obj
+ 0002:00002e44       ??_C@_03MOLNDNH@gif?$AA@   1003fe44     gtdgnref.obj
+ 0002:00002e48       ??_C@_03CAKEDOOO@bmp?$AA@  1003fe48     gtdgnref.obj
+ 0002:00002e4c       ??_C@_03EOEHCLKG@tif?$AA@  1003fe4c     gtdgnref.obj
+ 0002:00002e50       ??_C@_03PLHNDEFD@cit?$AA@  1003fe50     gtdgnref.obj
+ 0002:00002e54       ??_C@_0CB@BOACEMNI@GCMSTNGenerateType66ClipBoundary@ 1003fe54     gtdgnref.obj
+ 0002:00002e78       ??_C@_0M@OHKMKKDH@Description?$AA@ 1003fe78     gtdgnref.obj
+ 0002:00002e84       ??_C@_0BC@COOHEEDI@Raster?5Attachment?$AA@ 1003fe84     gtdgnref.obj
+ 0002:00002e98       ??_C@_0L@PHKLKKHI@Attachment?$AA@ 1003fe98     gtdgnref.obj
+ 0002:00002ea4       ??_C@_0O@FPEBMNMG@RefAttachment?$AA@ 1003fea4     gtdgnref.obj
+ 0002:00002eb8       __real@3f789374bc6a7efa    1003feb8     gtdgntxt.obj
+ 0002:00002ec0       ??_C@_07OMGMJIBO@TextBox?$AA@ 1003fec0     gtdgntxt.obj
+ 0002:00002ec8       ??_C@_0P@DLBEFIII@IGDS_TEXT_NODE?$AA@ 1003fec8     gtdgntxt.obj
+ 0002:00002ed8       ??_C@_09FLDKHGGO@IGDS_TEXT?$AA@ 1003fed8     gtdgntxt.obj
+ 0002:00002ee8       __real@3f689374bc6a7efa    1003fee8     gtdgntxt.obj
+ 0002:00002ef0       _CLSID_JDim                1003fef0     guidgcms.obj
+ 0002:00002f00       _CLSID_JLeader             1003ff00     guidgcms.obj
+ 0002:00002f10       _CLSID_JBalloon            1003ff10     guidgcms.obj
+ 0002:00002f28       _IID_IJDimGeometry         1003ff28     guidgcms.obj
+ 0002:00002f38       _IID_IJDimAttributes       1003ff38     guidgcms.obj
+ 0002:00002f48       _IID_IJAnnotGeometry       1003ff48     guidgcms.obj
+ 0002:00003690       __real@40c3880000000000    10040690     symblgy.obj
+ 0002:00003698       ??_C@_05OICCNCCO@Solid?$AA@ 10040698     symblgy.obj
+ 0002:000036a0       ??_C@_01DHDKHMHF@6?$AA@    100406a0     symblgy.obj
+ 0002:000036a4       ??_C@_01FAMBOPH@4?$AA@     100406a4     symblgy.obj
+ 0002:000036a8       ??_C@_01COCBENDE@7?$AA@    100406a8     symblgy.obj
+ 0002:000036ac       ??_C@_01FDFGLJHB@2?$AA@    100406ac     symblgy.obj
+ 0002:000036c0       ??_C@_02BEIEFPIG@?$CFg?$AA@ 100406c0     trutil:gdimgeom.obj
+ 0002:000036c4       ??_C@_01FKODEDLI@?$LA?$AA@ 100406c4     trutil:gdimgeom.obj
+ 0002:000036c8       ??_C@_03EHIAGHBP@?$CF0g?$AA@ 100406c8     trutil:gdimgeom.obj
+ 0002:000036d0       __real@3f40624dd2f1a9fc    100406d0     trutil:gdimgeom.obj
+ 0002:000036e0       __real@3ce4000000000000    100406e0     trutil:trcreate.obj
+ 0002:000036e8       __real@c059000000000000    100406e8     trutil:trcreate.obj
+ 0002:000036f0       __real@3f70624dd2f1a9fc    100406f0     trutil:trcreate.obj
+ 0002:00003700       ??_C@_0BA@IFCOOEJO@?$CFs?2TRindent?4ini?$AA@ 10040700     trutil:trfunc.obj
+ 0002:00003710       ??_C@_04JKHNIKCB@TEMP?$AA@ 10040710     trutil:trfunc.obj
+ 0002:00003718       ??_C@_06OIKOPCGF@Indent?$AA@ 10040718     trutil:trfunc.obj
+ 0002:00003720       ??_C@_0N@NBHKFPLD@GDrawingView?$AA@ 10040720     trutil:trfunc.obj
+ 0002:00003730       ??_C@_07HFBIMIIG@GWSheet?$AA@ 10040730     trutil:trfunc.obj
+ 0002:00003738       ??_C@_0O@NKKNJOND@GSmartFrame2d?$AA@ 10040738     trutil:trfunc.obj
+ 0002:00003748       ??_C@_0M@LPHJBKPP@GDimStyle2d?$AA@ 10040748     trutil:trfunc.obj
+ 0002:00003754       ??_C@_09MIIANAPG@GLeader2d?$AA@ 10040754     trutil:trfunc.obj
+ 0002:00003760       ??_C@_0O@IKJIEBON@GBoundaries2d?$AA@ 10040760     trutil:trfunc.obj
+ 0002:00003770       ??_C@_0N@PCFEFHJC@GRectangle2d?$AA@ 10040770     trutil:trfunc.obj
+ 0002:00003780       ??_C@_0BB@KDBGGKGA@GComplexString2d?$AA@ 10040780     trutil:trfunc.obj
+ 0002:00003794       ??_C@_0L@KPHDEPFL@GEllipse2d?$AA@ 10040794     trutil:trfunc.obj
+ 0002:000037a0       ??_C@_08EAAHHFHN@GPoint2d?$AA@ 100407a0     trutil:trfunc.obj
+ 0002:000037ac       ??_C@_07CBBEEGJA@GLeader?$AA@ 100407ac     trutil:trfunc.obj
+ 0002:000037b4       ??_C@_09IJLFCOIM@GSatSolid?$AA@ 100407b4     trutil:trfunc.obj
+ 0002:000037c0       ??_C@_0BA@EJIMAADO@GSymbolInstance?$AA@ 100407c0     trutil:trfunc.obj
+ 0002:000037d0       ??_C@_06GMDANGBF@GGroup?$AA@ 100407d0     trutil:trfunc.obj
+ 0002:000037d8       ??_C@_0L@OMKNICPK@GDimension?$AA@ 100407d8     trutil:trfunc.obj
+ 0002:000037e4       ??_C@_05IMLKIPKI@GText?$AA@ 100407e4     trutil:trfunc.obj
+ 0002:000037ec       ??_C@_06KNDGECOG@GRuled?$AA@ 100407ec     trutil:trfunc.obj
+ 0002:000037f4       ??_C@_0M@LIMPEKCH@GRevolution?$AA@ 100407f4     trutil:trfunc.obj
+ 0002:00003800       ??_C@_0M@CNEFDHGM@GProjection?$AA@ 10040800     trutil:trfunc.obj
+ 0002:0000380c       ??_C@_0M@EHMIGFPM@GBspSurface?$AA@ 1004080c     trutil:trfunc.obj
+ 0002:00003818       ??_C@_06PIFMCJJC@GTorus?$AA@ 10040818     trutil:trfunc.obj
+ 0002:00003820       ??_C@_07EKNPANOI@GSphere?$AA@ 10040820     trutil:trfunc.obj
+ 0002:00003828       ??_C@_05HKLFNIIM@GCone?$AA@ 10040828     trutil:trfunc.obj
+ 0002:00003830       ??_C@_06GKCKBAGD@GPlane?$AA@ 10040830     trutil:trfunc.obj
+ 0002:00003838       ??_C@_0M@CCCPDAPO@GBoundaries?$AA@ 10040838     trutil:trfunc.obj
+ 0002:00003844       ??_C@_0P@KIIPGMIK@GComplexString?$AA@ 10040844     trutil:trfunc.obj
+ 0002:00003854       ??_C@_09GPPOBCOD@GBspCurve?$AA@ 10040854     trutil:trfunc.obj
+ 0002:00003860       ??_C@_04OJADDHLJ@GArc?$AA@ 10040860     trutil:trfunc.obj
+ 0002:00003868       ??_C@_08EAHIFMON@GEllipse?$AA@ 10040868     trutil:trfunc.obj
+ 0002:00003874       ??_C@_0M@BCJMJLAF@GLineString?$AA@ 10040874     trutil:trfunc.obj
+ 0002:00003880       ??_C@_05NNIOBAIB@GLine?$AA@ 10040880     trutil:trfunc.obj
+ 0002:00003888       ??_C@_06LLOHGBEM@GPoint?$AA@ 10040888     trutil:trfunc.obj
+ 0002:00003890       ??_C@_0BD@DPCKNFFI@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10040890     trutil:trfunc.obj
+ 0002:000038a4       ??_C@_0BA@FMPIKLLM@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 100408a4     trutil:trfunc.obj
+ 0002:000038b4       ??_C@_0N@ONKJJLFA@?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 100408b4     trutil:trfunc.obj
+ 0002:000038c4       ??_C@_09CMIEKKHO@?5?5?5?5?5?5?5?5?5?$AA@ 100408c4     trutil:trfunc.obj
+ 0002:000038d0       ??_C@_06GGLIPOFD@?5?5?5?5?5?5?$AA@ 100408d0     trutil:trfunc.obj
+ 0002:000038d8       ??_C@_03NDEAONJP@?5?5?5?$AA@ 100408d8     trutil:trfunc.obj
+ 0002:000038f4       ??_C@_02FDNJLAOG@rs?$AA@   100408f4     trutil:Trraster.obj
+ 0002:000038f8       ??_C@_03BIPDAGPI@pcx?$AA@  100408f8     trutil:Trraster.obj
+ 0002:000038fc       ??_C@_03LJIJAGL@tga?$AA@   100408fc     trutil:Trraster.obj
+ 0002:00003900       __real@4052000000000000    10040900     trutil:Trraster.obj
+ 0002:00003908       __real@40d8c92d7b73a7a2    10040908     trutil:Trraster.obj
+ 0002:00003910       ??_C@_09KENPLFHI@cfl_close?$AA@ 10040910     trutil:Trraster.obj
+ 0002:0000391c       ??_C@_0N@ILJDKDKG@cfl_get_stat?$AA@ 1004091c     trutil:Trraster.obj
+ 0002:0000392c       ??_C@_0L@DBPIGCPO@cfl_open_r?$AA@ 1004092c     trutil:Trraster.obj
+ 0002:00003938       ??_C@_0N@KAKOKMMG@i9cflg01?4dll?$AA@ 10040938     trutil:Trraster.obj
+ 0002:00003958       ??_C@_17NGFIKHOE@?$AAA?$AAS?$AAA?$AA?$AA@ 10040958     trutil:jdimgeom.obj
+ 0002:00003960       ??_C@_17NDGPAFFL@?$AAJ?$AAI?$AAS?$AA?$AA@ 10040960     trutil:jdimgeom.obj
+ 0002:00003968       ??_C@_17GEJGJICL@?$AAD?$AAI?$AAN?$AA?$AA@ 10040968     trutil:jdimgeom.obj
+ 0002:00003970       ??_C@_17OFGCMLGC@?$AAI?$AAS?$AAO?$AA?$AA@ 10040970     trutil:jdimgeom.obj
+ 0002:00003978       ??_C@_17JNGDIIOI@?$AAB?$AAS?$AAI?$AA?$AA@ 10040978     trutil:jdimgeom.obj
+ 0002:00003980       ??_C@_0CA@EILBIBI@TRHGetDimGeomFromAssocGTypeInfo?$AA@ 10040980     trutil:jdimgeom.obj
+ 0002:000039a0       ??_C@_0P@BFCNPGCF@?4?2jdimgeom?4cpp?$AA@ 100409a0     trutil:jdimgeom.obj
+ 0002:000039b0       ??_C@_0CB@DOLOJHFA@TRGetAnnotGeomFromAssocGTypeInfo@ 100409b0     trutil:jdimgeom.obj
+ 0002:000039d4       _IID_IUnknown              100409d4     uuid:unknwn_i.obj
+ 0002:000039e8       ??_7type_info@@6B@         100409e8     MSVCRT:ti_inst.obj
+ 0002:000039ec       __pDefaultRawDllMain       100409ec     MSVCRT:crtdll.obj
+ 0002:000039ec       __pRawDllMain              100409ec     MSVCRT:crtdll.obj
+ 0002:000039f8       __load_config_used         100409f8     MSVCRT:loadcfg.obj
+ 0002:00003a70       ??_R4tagJCharStyleDescrList@@6B@ 10040a70     dgngtxt.obj
+ 0002:00003a84       ??_R3tagJCharStyleDescrList@@8 10040a84     dgngtxt.obj
+ 0002:00003a94       ??_R2tagJCharStyleDescrList@@8 10040a94     dgngtxt.obj
+ 0002:00003a9c       ??_R1A@?0A@EA@tagJCharStyleDescrList@@8 10040a9c     dgngtxt.obj
+ 0002:00003ab8       ??_R4type_info@@6B@        10040ab8     MSVCRT:ti_inst.obj
+ 0002:00003acc       ??_R3type_info@@8          10040acc     MSVCRT:ti_inst.obj
+ 0002:00003adc       ??_R2type_info@@8          10040adc     MSVCRT:ti_inst.obj
+ 0002:00003ae4       ??_R1A@?0A@EA@type_info@@8 10040ae4     MSVCRT:ti_inst.obj
+ 0002:00003b00       ___safe_se_handler_table   10040b00     <linker-defined>
+ 0002:00003b64       ___rtc_iaa                 10040b64     MSVCRT:initsect.obj
+ 0002:00003b68       ___rtc_izz                 10040b68     MSVCRT:initsect.obj
+ 0002:00003b6c       ___rtc_taa                 10040b6c     MSVCRT:initsect.obj
+ 0002:00003b70       ___rtc_tzz                 10040b70     MSVCRT:initsect.obj
+ 0002:000040cc       __IMPORT_DESCRIPTOR_config 100410cc     config:config.dll
+ 0002:000040e0       __IMPORT_DESCRIPTOR_JUtil  100410e0     jutil:JUtil.dll
+ 0002:000040f4       __IMPORT_DESCRIPTOR_MSTNRW 100410f4     mstnrw:MSTNRW.dll
+ 0002:00004108       __IMPORT_DESCRIPTOR_ugeom  10041108     ugeom:ugeom.dll
+ 0002:0000411c       __IMPORT_DESCRIPTOR_ugeom2d 1004111c     ugeom2d:ugeom2d.dll
+ 0002:00004130       __IMPORT_DESCRIPTOR_umath  10041130     umath:umath.dll
+ 0002:00004144       __IMPORT_DESCRIPTOR_KERNEL32 10041144     kernel32:KERNEL32.dll
+ 0002:00004158       __IMPORT_DESCRIPTOR_ADVAPI32 10041158     advapi32:ADVAPI32.dll
+ 0002:0000416c       __IMPORT_DESCRIPTOR_MSVCP80 1004116c     msvcprt:MSVCP80.dll
+ 0002:00004180       __IMPORT_DESCRIPTOR_MSVCR80 10041180     MSVCRT:MSVCR80.dll
+ 0002:00004194       __IMPORT_DESCRIPTOR_timeutl 10041194     timeutl:timeutl.dll
+ 0002:000041a8       __NULL_IMPORT_DESCRIPTOR   100411a8     config:config.dll
+ 0003:00000000       __newmode                  10044000     newmode.obj
+ 0003:00000004       ??_R0?AUtagJCharStyleDescrList@@@8 10044004     dgngtxt.obj
+ 0003:000083d0       ___security_cookie         1004c3d0     MSVCRT:gs_cookie.obj
+ 0003:000083d4       ___security_cookie_complement 1004c3d4     MSVCRT:gs_cookie.obj
+ 0003:000083e0       ??_R0?AVtype_info@@@8      1004c3e0     MSVCRT:ti_inst.obj
+ 0003:000083f8       ___native_dllmain_reason   1004c3f8     MSVCRT:natstart.obj
+ 0003:000083fc       ___native_vcclrit_reason   1004c3fc     MSVCRT:natstart.obj
+ 0003:00008508       ?GCprocSymbolsAsRigidGroups@@3HA 1004c508     dgnproc.obj
+ 0003:0000865c       ?GCdebugLoggingEnabled@@3HA 1004c65c     dgnproc.obj
+ 0003:000086b0       ?CDList@@3V?$JList@PAVCellData@@PAV1@@@A 1004c6b0     g2icell.obj
+ 0003:0000a61c       ?__type_info_root_node@@3U__type_info_node@@A 1004e61c     MSVCRT:tncleanup.obj
+ 0003:0000a624       __adjust_fdiv              1004e624     <common>
+ 0003:0000a628       ___native_startup_state    1004e628     <common>
+ 0003:0000a62c       ___native_startup_lock     1004e62c     <common>
+ 0003:0000a630       ___sse2_available          1004e630     <common>
+ 0003:0000a634       ___dyn_tls_init_callback   1004e634     <common>
+ 0003:0000a638       ___onexitend               1004e638     <common>
+ 0003:0000a63c       ___onexitbegin             1004e63c     <common>
+
+ entry point at        0001:0003ab5e
+
+ Static symbols
+
+ 0001:00000660       ?GCMSTNgetGTypesFromIGDS@@YAHKPATIGDS_elements@@PAUtagGTypedCurve2d@@@Z 10001660 f   dgnassoc.obj
+ 0001:00000ec0       ?GCMSTNmapAccuracyFromIGDS@@YAEG@Z 10001ec0 f   dgndim.obj
+ 0001:00000ff0       ?GCMSTNgetRoundOffType@@YAEG@Z 10001ff0 f   dgndim.obj
+ 0001:000010e0       ?GCMSTNmapJDimensionType@@YAEPBUIGDS_dimension@@@Z 100020e0 f   dgndim.obj
+ 0001:00001180       ?GCMSTNConvertGDimToDbu@@YAXQAUtagG4x4@@PAUtagGDimension@@@Z 10002180 f   dgndim.obj
+ 0001:000013a0       ?GCMSTNrotatePoint@@YAXUtagGPosition@@0NPAU1@@Z 100023a0 f   dgndim.obj
+ 0001:00001500       ?GCMSTNassignAssocInfo@@YAHPAUDim_geometry@@PAUtagGDimSrcInfo@@@Z 10002500 f   dgndim.obj
+ 0001:000016b0       ?GCMSTNprocessIGDScenterMarkDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGLine2d@@@Z 100026b0 f   dgndim.obj
+ 0001:00001e40       ?GCMSTNMapGTypeUnitFromIgds@@YAXIPAUtagJDIMPARAMBUNDLE@@@Z 10002e40 f   dgndim.obj
+ 0001:00001ea0       ?GCMSTNcomputeTolPrefixSuffix@@YAXPBUIGDS_dimension@@NHHAAHPAUtagGDimension@@@Z 10002ea0 f   dgndim.obj
+ 0001:00002230       ?GCMSTNTransform3DTo2D@@YAHQAUtagG4x4@@PAUtagGDimension@@AANH@Z 10003230 f   dgndim.obj
+ 0001:000025f0       ?GCMSTNGetSecondaryUnits@@YAHQBUIGDS_dimension@@PAUtagJDIMPARAMBUNDLE@@@Z 100035f0 f   dgndim.obj
+ 0001:00002660       ?GCMSTNGetRoundOffAccuracy@@YAHQBUIGDS_dimension@@PAUtagJDIMPARAMBUNDLE@@@Z 10003660 f   dgndim.obj
+ 0001:00002720       ?GCMSTNGetUnitsForAngularDim@@YAHQBUIGDS_dimension@@EPAUtagJDIMPARAMBUNDLE@@@Z 10003720 f   dgndim.obj
+ 0001:000028e0       ?GCMSTNcomputeDimAttrFromIgds@@YAHPBUIGDS_dimension@@EAAUtagJDIMATTRBUNDLE@@@Z 100038e0 f   dgndim.obj
+ 0001:00002960       ?GCMSTNnCharsInDimString@@YANPBUtagGDimension@@N@Z 10003960 f   dgndim.obj
+ 0001:00002fb0       ?GCMSTNcleanUpMemory@@YAHPAUtagGDimension@@H@Z 10003fb0 f   dgndim.obj
+ 0001:00003020       ?GCMSTNGetUnitTypeFromString@@YAHQBUIGDS_dimension@@QBDPAUtagJDIMPARAMBUNDLE@@@Z 10004020 f   dgndim.obj
+ 0001:000031b0       ?GCMSTNGetLabelsForUnits@@YAHQBUIGDS_dimension@@HPAUtagJDIMPARAMBUNDLE@@@Z 100041b0 f   dgndim.obj
+ 0001:00003cb0       ?GCMSTNSetTermAndTextPos@@YAXPBUIGDS_dimension@@PAUtagGDimension@@@Z 10004cb0 f   dgndim.obj
+ 0001:00004a90       ?GCMSTNComputeUnitsFromMasterUnits@@YAHQBUIGDS_dimension@@PAUtagJDIMPARAMBUNDLE@@@Z 10005a90 f   dgndim.obj
+ 0001:00004b60       ?GCMSTNGetPrimaryAndSecondaryUnits@@YAHQBUIGDS_dimension@@EPAUtagJDIMPARAMBUNDLE@@@Z 10005b60 f   dgndim.obj
+ 0001:00004c10       ?GCMSTNcomputeDimParamsFromIgds@@YAHPBUIGDS_dimension@@EGHNPAUtagJDIMPARAMBUNDLE@@@Z 10005c10 f   dgndim.obj
+ 0001:00005210       ?GCMSTNprocessIGDSangularDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 10006210 f   dgndim.obj
+ 0001:00006090       ?GCMSTNprocessIGDSradialDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 10007090 f   dgndim.obj
+ 0001:00006ac0       ?GCMSTNprocessIGDSOrdinateDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 10007ac0 f   dgndim.obj
+ 0001:000070a0       ?GCMSTNprocessIGDSlinearDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 100080a0 f   dgndim.obj
+ 0001:00008470       ?GCMSTNCreateGDimStyleFromIgds@@YAHQBUIGDS_dim_typ66_1@@GNPAUtagG4x4@@PAUtagJDIMPARAMBUNDLE@@@Z 10009470 f   dgndstyl.obj
+ 0001:000127c0       ?GetReferenceSourceName@@YAHPADPAUIGDS_ref_file_typ66@@PAH02@Z 100137c0 f   dgngtref.obj
+ 0001:00013850       ?GCMSTNGetRasterReferenceSourceName@@YAHPAD00@Z 10014850 f   dgngtref.obj
+ 0001:000143e0       ?RBXcompare@@YAHPBX0@Z     100153e0 f   dgngtsup.obj
+ 0001:00017b80       ?GCMSTNmapTermiFromIGDSPlaceNote@@YAEE@Z 10018b80 f   dgnpnote.obj
+ 0001:00017ba0       ?GCMSTNConvertGLdrToDbu@@YAXPAUtagGLeader@@AAUtagGPosition@@QAUtagG4x4@@@Z 10018ba0 f   dgnpnote.obj
+ 0001:00017ce0       ?GCMSTNConvertGLdr3DTo2D@@YAHPAUtagGLeader@@AAUtagGPosition@@QAUtagG4x4@@N@Z 10018ce0 f   dgnpnote.obj
+ 0001:00017e90       ?GCMSTNcomputeDimParamsIGDSPlaceNote@@YAXPAUIGDS_dimension@@PAUtagJDIMPARAMBUNDLE@@@Z 10018e90 f   dgnpnote.obj
+ 0001:00018290       ?GCMSTNdimlabelaccuracy@@YAHGNHPAUIGDS_dimension@@PAD@Z 10019290 f   dgnpnote.obj
+ 0001:000186f0       ?GCMSTNfillGTextBox@@YAHPAUIGDS_dimension@@UtagGPosition@@UtagGVector2d@@QAUtagG4x4@@PADPAUtagGTextBox@@@Z 100196f0 f   dgnpnote.obj
+ 0001:00018b70       ?GCMSTNprocessIGDSLdrOfNoteDim@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAEPAHPAUtagGPosition@@AAPAUtagGLeader@@@Z 10019b70 f   dgnpnote.obj
+ 0001:00019890       ?GCMSTNComputeGTextTypeFromTextPoint@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAUtagGLeader@@UtagGPosition@@PAUtagGTextBox@@@Z 1001a890 f   dgnpnote.obj
+ 0001:00019aa0       ?GCMSTNLabelLineComputeGTextTypeFromTextPoint@@YAHPAUIGDS_dimension@@QAUtagG4x4@@UtagGPosition@@PAUtagGLine2d@@PAUtagGTextBox@@PAD@Z 1001aaa0 f   dgnpnote.obj
+ 0001:00019ce0       ?GCMSTNdimlabelConvertDdMmSs@@YAHNPAUIGDS_dimension@@PAD@Z 1001ace0 f   dgnpnote.obj
+ 0001:00019f50       ?GCMSTNprocessIGDSTextOfNoteDim@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAEPAHUtagGPosition@@PAUtagGLeader@@AAPAUtagGTextBox@@@Z 1001af50 f   dgnpnote.obj
+ 0001:0001e270       ?GCMSTNJDimTypeTOIGDS@@YAEPAUtagGDimension@@PAUIGDS_dimension@@@Z 1001f270 f   g2dgndim.obj
+ 0001:0001e2f0       ?GCMSTNSetEleHeaderRange@@YAXPAUIGDS_dimension@@PAUtagGDimension@@PAJ2@Z 1001f2f0 f   g2dgndim.obj
+ 0001:0001e660       ?GCMSTNConvertGDimToUnit@@YAXEQAUtagGTransf@@PAUtagGDimension@@@Z 1001f660 f   g2dgndim.obj
+ 0001:0001e7c0       ?GCMSTNConvertUnitToIgds@@YAXEPAUtagGDimension@@@Z 1001f7c0 f   g2dgndim.obj
+ 0001:0001e900       ?GCMSTNmapAccuracyFromGDim@@YAEHE@Z 1001f900 f   g2dgndim.obj
+ 0001:0001e9a0       ?GCMSTNGetArcLength@@YAXAAUtagGPosition@@00AAN@Z 1001f9a0 f   g2dgndim.obj
+ 0001:0001ea10       ?GCMSTNSwapPoints@@YAXAAUtagGPosition@@0@Z 1001fa10 f   g2dgndim.obj
+ 0001:0001ea80       ?GCMSTNCopyGPositionToLongArray@@YAXUtagGPosition@@PAJ@Z 1001fa80 f   g2dgndim.obj
+ 0001:0001eab0       ?GCMSTNSwapLongs@@YAXPAJ0@Z 1001fab0 f   g2dgndim.obj
+ 0001:0001eae0       ?GCMSTNSetWordsToFollow@@YAXPAUIGDS_dimension@@@Z 1001fae0 f   g2dgndim.obj
+ 0001:0001ec20       ?GCMSTNRequireTextPosAdjust@@YAHUtagGLine2d@@E@Z 1001fc20 f   g2dgndim.obj
+ 0001:0001ecd0       ?GCMSTNcomputeDimParamsGDimension@@YAXPAUtagGDimension@@PAUIGDS_dimension@@@Z 1001fcd0 f   g2dgndim.obj
+ 0001:0001f870       ?GCMSTNderiveRotMatrix@@YAHUtagGPosition@@00PAN@Z 10020870 f   g2dgndim.obj
+ 0001:0001faf0       ?GCMSTNSetTextPosition@@YAXPBUtagGDimension@@PAUIGDS_dimension@@@Z 10020af0 f   g2dgndim.obj
+ 0001:00020200       ?GCMSTNSetPrefixSuffix@@YAXPAUtagGDimension@@DPAUDim_geometry@@PAD@Z 10021200 f   g2dgndim.obj
+ 0001:00020760       ?GCMSTNprocessGradialDimension@@YAHPAUtagGDimension@@PAUtagGTransf@@PAHPAUIGDS_dimension@@@Z 10021760 f   g2dgndim.obj
+ 0001:00020b30       ?GCMSTNprocessGangularDimension@@YAHPAUtagGDimension@@PAUtagGTransf@@PAHPAUIGDS_dimension@@@Z 10021b30 f   g2dgndim.obj
+ 0001:00021a80       ?GCMSTNSetQuaternion@@YAXPBUtagGDimension@@QAJ@Z 10022a80 f   g2dgndim.obj
+ 0001:00021b60       ?GCMSTNprocessGlinearDimension@@YAHPAUtagGDimension@@PAUtagGTransf@@PAHPAUIGDS_dimension@@@Z 10022b60 f   g2dgndim.obj
+ 0001:000220d0       ?DestructElements@@YGXPAPAVCellData@@H@Z 100230d0 f   g2icell.obj
+ 0001:000234c0       ?GCMSTNSetEleHeaderRangeLdr@@YAXPAUtagGLeader@@PAUIGDS_dimension@@@Z 100244c0 f   g2ldrdim.obj
+ 0001:000235e0       ?GCMSTNConvertGLdrToIgdsUnit@@YAXPAUtagGLeader@@PAUtagGTransf@@@Z 100245e0 f   g2ldrdim.obj
+ 0001:00023700       ?GCMSTNmapTerminatorFromGLdr@@YAEE@Z 10024700 f   g2ldrdim.obj
+ 0001:00023720       ?GCMSTNcomputeDimParamsGLeader@@YAXPAUtagGLeader@@PAUIGDS_dimension@@@Z 10024720 f   g2ldrdim.obj
+ 0001:00023bf0       ?GCMSTNprocessGleaderToDimension@@YAHPAUtagGLeader@@PAUtagGTransf@@PAHPAUIGDS_dimension@@@Z 10024bf0 f   g2ldrdim.obj
+ 0001:00023ea0       ?ComputeDefaultIGDSStyle@@YAXPAUIGDS_dim_typ66_1@@@Z 10024ea0 f   g2type66.obj
+ 0001:00024090       ?GCMSTNComputeIGDSStyle@@YAHPAUIGDS_dim_typ66_1@@QAUtagJDIMPARAMBUNDLE@@PAUtagGTransf@@@Z 10025090 f   g2type66.obj
+ 0001:000261f0       ?GCMSTNGetCompTypeFromFileExtension@@YAHPADPAI@Z 100271f0 f   gtdgnref.obj
+ 0001:00026700       ?GCMSTNProcessGReferenceToIGDS_RASTER@@YAHPAX0PAHPAPAPAX@Z 10027700 f   gtdgnref.obj
+ 0001:00027ba0       ?SubdivideAndAdd@@YAHPAUtagGBspCurve2d@@PAHPAPAPAU1@@Z 10028ba0 f   gtdgnsup.obj
+ 0001:0002ae00       ?TRFreeGComplexString2d@@YAXPAUtagGComplexString2d@@@Z 1002be00 f   trutil:freedata.obj
+ 0001:0002afc0       ?TRFreeGComplexString@@YAXPAUtagGComplexString@@@Z 1002bfc0 f   trutil:freedata.obj
+ 0001:0002c4f0       ?TRCopyAttributes@@YAXPAUtagGType2d@@0@Z 1002d4f0 f   trutil:gdimgeom.obj
+ 0001:0002c6b0       ?TRFreeDimAnnotGeometryInfo@@YAXPAUtagJANNOTGEOMETRYINFO@@@Z 1002d6b0 f   trutil:gdimgeom.obj
+ 0001:000313a0       ?TRxxx@@YAXXZ              100323a0 f   trutil:trfunc.obj
+ 0001:000313d0       ?TRindent@@YAHXZ           100323d0 f   trutil:trfunc.obj
+ 0001:00038930       ?TRGetFileExtension@@YAHHHPAD@Z 10039930 f   trutil:Trraster.obj
+ 0001:0003a85c       _pre_c_init                1003b85c f   MSVCRT:crtdll.obj
+ 0001:0003aa48       ___DllMainCRTStartup       1003ba48 f   MSVCRT:crtdll.obj
+ 0001:0003ac83       _has_osfxsr_set            1003bc83 f   MSVCRT:cpu_disp.obj
+ 0001:0003afe0       __unwindfunclet$??0tagGDimension@@QAE@XZ$0 1003bfe0 f   dgndim.obj
+ 0001:0003afef       __unwindfunclet$??0tagGDimension@@QAE@XZ$1 1003bfef f   dgndim.obj
+ 0001:0003affe       __ehhandler$??0tagGDimension@@QAE@XZ 1003bffe f   dgndim.obj
+ 0001:0003b020       __unwindfunclet$??1tagGDimension@@QAE@XZ$0 1003c020 f   dgndim.obj
+ 0001:0003b02f       __unwindfunclet$??1tagGDimension@@QAE@XZ$1 1003c02f f   dgndim.obj
+ 0001:0003b03e       __ehhandler$??1tagGDimension@@QAE@XZ 1003c03e f   dgndim.obj
+ 0001:0003b060       __unwindfunclet$?GCMSTNcomputeDimParamsFromIgds@@YAHPBUIGDS_dimension@@EGHNPAUtagJDIMPARAMBUNDLE@@@Z$0 1003c060 f   dgndim.obj
+ 0001:0003b06c       __ehhandler$?GCMSTNcomputeDimParamsFromIgds@@YAHPBUIGDS_dimension@@EGHNPAUtagJDIMPARAMBUNDLE@@@Z 1003c06c f   dgndim.obj
+ 0001:0003b0a0       __unwindfunclet$?GCMSTNprocessIGDSangularDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z$0 1003c0a0 f   dgndim.obj
+ 0001:0003b0ae       __ehhandler$?GCMSTNprocessIGDSangularDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 1003c0ae f   dgndim.obj
+ 0001:0003b0d0       __unwindfunclet$?GCMSTNprocessIGDSradialDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z$0 1003c0d0 f   dgndim.obj
+ 0001:0003b0de       __ehhandler$?GCMSTNprocessIGDSradialDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 1003c0de f   dgndim.obj
+ 0001:0003b110       __unwindfunclet$?GCMSTNprocessIGDSOrdinateDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z$0 1003c110 f   dgndim.obj
+ 0001:0003b11e       __ehhandler$?GCMSTNprocessIGDSOrdinateDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 1003c11e f   dgndim.obj
+ 0001:0003b140       __unwindfunclet$?GCMSTNprocessIGDSlinearDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z$0 1003c140 f   dgndim.obj
+ 0001:0003b14e       __ehhandler$?GCMSTNprocessIGDSlinearDim@@YAHPAUIGDS_dimension@@EQAUtagG4x4@@PAEPAHPAPAUtagGDimension@@@Z 1003c14e f   dgndim.obj
+ 0001:0003b170       __unwindfunclet$?GC_IGDS_DIMENSIONToGDimension@@YAHPAX0PAHPAPAPAX@Z$0 1003c170 f   dgndim.obj
+ 0001:0003b17b       __ehhandler$?GC_IGDS_DIMENSIONToGDimension@@YAHPAX0PAHPAPAPAX@Z 1003c17b f   dgndim.obj
+ 0001:0003b1b0       __unwindfunclet$?GC_IGDS_REFFILEsetReferenceOptions@@YAXPAD@Z$0 1003c1b0 f   dgngtref.obj
+ 0001:0003b1bc       __ehhandler$?GC_IGDS_REFFILEsetReferenceOptions@@YAXPAD@Z 1003c1bc f   dgngtref.obj
+ 0001:0003b1f0       __unwindfunclet$?GCMSTNigdsTextToGTextBox@@YAHUIGDScommon_header_info@@JJEJJJTIGDS_rotation@@GGGPADHPAUtagG4x4@@UIGDS_text_param@@PAUtagGTextBox@@@Z$0 1003c1f0 f   dgngtxt.obj
+ 0001:0003b1fc       __unwindfunclet$?GCMSTNigdsTextToGTextBox@@YAHUIGDScommon_header_info@@JJEJJJTIGDS_rotation@@GGGPADHPAUtagG4x4@@UIGDS_text_param@@PAUtagGTextBox@@@Z$1 1003c1fc f   dgngtxt.obj
+ 0001:0003b208       __ehhandler$?GCMSTNigdsTextToGTextBox@@YAHUIGDScommon_header_info@@JJEJJJTIGDS_rotation@@GGGPADHPAUtagG4x4@@UIGDS_text_param@@PAUtagGTextBox@@@Z 1003c208 f   dgngtxt.obj
+ 0001:0003b240       __unwindfunclet$??0tagGTextBox@@QAE@XZ$0 1003c240 f   dgngtxt.obj
+ 0001:0003b24b       __ehhandler$??0tagGTextBox@@QAE@XZ 1003c24b f   dgngtxt.obj
+ 0001:0003b270       __unwindfunclet$??1tagGTextBox@@QAE@XZ$0 1003c270 f   dgngtxt.obj
+ 0001:0003b27b       __ehhandler$??1tagGTextBox@@QAE@XZ 1003c27b f   dgngtxt.obj
+ 0001:0003b2a0       __unwindfunclet$?GC_IGDS_TEXT_NODEToGTextBox@@YAHPAX0PAHPAPAPAX@Z$5 1003c2a0 f   dgngtxt.obj
+ 0001:0003b2ae       __ehhandler$?GC_IGDS_TEXT_NODEToGTextBox@@YAHPAX0PAHPAPAPAX@Z 1003c2ae f   dgngtxt.obj
+ 0001:0003b2e0       __unwindfunclet$?GC_IGDS_ATTRIBUTEToGTextBox@@YAHPAX0PAHPAPAPAX@Z$3 1003c2e0 f   dgngtxt.obj
+ 0001:0003b2ee       __ehhandler$?GC_IGDS_ATTRIBUTEToGTextBox@@YAHPAX0PAHPAPAPAX@Z 1003c2ee f   dgngtxt.obj
+ 0001:0003b320       __unwindfunclet$?GC_IGDS_TEXTToGTextBox@@YAHPAX0PAHPAPAPAX@Z$4 1003c320 f   dgngtxt.obj
+ 0001:0003b32c       __unwindfunclet$?GC_IGDS_TEXTToGTextBox@@YAHPAX0PAHPAPAPAX@Z$5 1003c32c f   dgngtxt.obj
+ 0001:0003b33a       __ehhandler$?GC_IGDS_TEXTToGTextBox@@YAHPAX0PAHPAPAPAX@Z 1003c33a f   dgngtxt.obj
+ 0001:0003b370       __unwindfunclet$?GCMSTNfillGTextBox@@YAHPAUIGDS_dimension@@UtagGPosition@@UtagGVector2d@@QAUtagG4x4@@PADPAUtagGTextBox@@@Z$0 1003c370 f   dgnpnote.obj
+ 0001:0003b37c       __ehhandler$?GCMSTNfillGTextBox@@YAHPAUIGDS_dimension@@UtagGPosition@@UtagGVector2d@@QAUtagG4x4@@PADPAUtagGTextBox@@@Z 1003c37c f   dgnpnote.obj
+ 0001:0003b3b0       __unwindfunclet$?GCMSTNprocessIGDSTextOfNoteDim@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAEPAHUtagGPosition@@PAUtagGLeader@@AAPAUtagGTextBox@@@Z$0 1003c3b0 f   dgnpnote.obj
+ 0001:0003b3bb       __unwindfunclet$?GCMSTNprocessIGDSTextOfNoteDim@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAEPAHUtagGPosition@@PAUtagGLeader@@AAPAUtagGTextBox@@@Z$1 1003c3bb f   dgnpnote.obj
+ 0001:0003b3c6       __ehhandler$?GCMSTNprocessIGDSTextOfNoteDim@@YAHPAUIGDS_dimension@@QAUtagG4x4@@PAEPAHUtagGPosition@@PAUtagGLeader@@AAPAUtagGTextBox@@@Z 1003c3c6 f   dgnpnote.obj
+ 0001:0003b3f0       __unwindfunclet$?GCMSTNprocessLabelLineDimension@@YAHPATIGDS_elements@@QAUtagG4x4@@PAEPAHPAPAUtagGGroup@@@Z$0 1003c3f0 f   dgnpnote.obj
+ 0001:0003b3fe       __unwindfunclet$?GCMSTNprocessLabelLineDimension@@YAHPATIGDS_elements@@QAUtagG4x4@@PAEPAHPAPAUtagGGroup@@@Z$1 1003c3fe f   dgnpnote.obj
+ 0001:0003b40c       __ehhandler$?GCMSTNprocessLabelLineDimension@@YAHPATIGDS_elements@@QAUtagG4x4@@PAEPAHPAPAUtagGGroup@@@Z 1003c40c f   dgnpnote.obj
+ 0001:0003b440       __unwindfunclet$?GC_GSymbolDefinition2dToIGDS_SHARCELLDEF@@YAHPAX0PAHPAPAPAX@Z$0 1003c440 f   g2icell.obj
+ 0001:0003b44e       __ehhandler$?GC_GSymbolDefinition2dToIGDS_SHARCELLDEF@@YAHPAX0PAHPAPAPAX@Z 1003c44e f   g2icell.obj
+ 0001:0003b480       __unwindfunclet$?TRGDimension2GType2d@@YAXPAXPAHPAPAPAX@Z$0 1003c480 f   trutil:gdimgeom.obj
+ 0001:0003b48b       __unwindfunclet$?TRGDimension2GType2d@@YAXPAXPAHPAPAPAX@Z$1 1003c48b f   trutil:gdimgeom.obj
+ 0001:0003b496       __ehhandler$?TRGDimension2GType2d@@YAXPAXPAHPAPAPAX@Z 1003c496 f   trutil:gdimgeom.obj
+ 0001:0003b4c0       __unwindfunclet$?TRGLeader2AnnotGeometry@@YAXPAUtagGLeader@@PAUtagJANNOTGEOMETRYINFO@@@Z$0 1003c4c0 f   trutil:gdimgeom.obj
+ 0001:0003b4cb       __ehhandler$?TRGLeader2AnnotGeometry@@YAXPAUtagGLeader@@PAUtagJANNOTGEOMETRYINFO@@@Z 1003c4cb f   trutil:gdimgeom.obj
+ 0001:0003b4f0       __unwindfunclet$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z$0 1003c4f0 f   trutil:trfunc.obj
+ 0001:0003b4f9       __ehhandler$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 1003c4f9 f   trutil:trfunc.obj
+ 0001:0003b520       __unwindfunclet$?TRHGetDimGeomFromAssocGTypeInfo@@YAJPAUtagJDIMASSOCGTYPEINFO@@PAUtagGPosition@@11PAUtagJDIMGEOMETRYINFO@@@Z$23 1003c520 f   trutil:jdimgeom.obj
+ 0001:0003b52b       __unwindfunclet$?TRHGetDimGeomFromAssocGTypeInfo@@YAJPAUtagJDIMASSOCGTYPEINFO@@PAUtagGPosition@@11PAUtagJDIMGEOMETRYINFO@@@Z$24 1003c52b f   trutil:jdimgeom.obj
+ 0001:0003b536       __unwindfunclet$?TRHGetDimGeomFromAssocGTypeInfo@@YAJPAUtagJDIMASSOCGTYPEINFO@@PAUtagGPosition@@11PAUtagJDIMGEOMETRYINFO@@@Z$25 1003c536 f   trutil:jdimgeom.obj
+ 0001:0003b541       __ehhandler$?TRHGetDimGeomFromAssocGTypeInfo@@YAJPAUtagJDIMASSOCGTYPEINFO@@PAUtagGPosition@@11PAUtagJDIMGEOMETRYINFO@@@Z 1003c541 f   trutil:jdimgeom.obj
+ 0001:0003b570       __unwindfunclet$?TRGetAnnotGeomFromAssocGTypeInfo@@YAJPAUtagJANNOTASSOCGTYPEINFO@@PAUtagJANNOTGEOMETRYINFO@@@Z$8 1003c570 f   trutil:jdimgeom.obj
+ 0001:0003b578       __unwindfunclet$?TRGetAnnotGeomFromAssocGTypeInfo@@YAJPAUtagJANNOTASSOCGTYPEINFO@@PAUtagJANNOTGEOMETRYINFO@@@Z$9 1003c578 f   trutil:jdimgeom.obj
+ 0001:0003b580       __ehhandler$?TRGetAnnotGeomFromAssocGTypeInfo@@YAJPAUtagJANNOTASSOCGTYPEINFO@@PAUtagJANNOTGEOMETRYINFO@@@Z 1003c580 f   trutil:jdimgeom.obj
+ 0001:0003b5a0       ??__ECDList@@YAXXZ         1003c5a0 f   g2icell.obj
+ 0001:0003b5c0       ??__EGNULL_Camera@@YAXXZ   1003c5c0 f   gtdgnref.obj
+ 0001:0003b5e0       ??__EGNULL_CAMERA@@YAXXZ   1003c5e0 f   gtdgnref.obj
+ 0001:0003b600       ??__EGID_Camera@@YAXXZ     1003c600 f   gtdgnref.obj
+ 0001:0003b620       ??__EGID_CAMERA@@YAXXZ     1003c620 f   gtdgnref.obj
+ 0001:0003b640       ??__EGNULL_Camera@@YAXXZ   1003c640 f   guidgcms.obj
+ 0001:0003b660       ??__EGNULL_CAMERA@@YAXXZ   1003c660 f   guidgcms.obj
+ 0001:0003b680       ??__EGID_Camera@@YAXXZ     1003c680 f   guidgcms.obj
+ 0001:0003b6a0       ??__EGID_CAMERA@@YAXXZ     1003c6a0 f   guidgcms.obj
+ 0001:0003b6c0       ??__EGNULL_Camera@@YAXXZ   1003c6c0 f   stdafx.obj
+ 0001:0003b6e0       ??__EGNULL_CAMERA@@YAXXZ   1003c6e0 f   stdafx.obj
+ 0001:0003b700       ??__EGID_Camera@@YAXXZ     1003c700 f   stdafx.obj
+ 0001:0003b720       ??__EGID_CAMERA@@YAXXZ     1003c720 f   stdafx.obj
+ 0001:0003b740       ??__EGNULL_Camera@@YAXXZ   1003c740 f   trutil:freedata.obj
+ 0001:0003b760       ??__EGNULL_CAMERA@@YAXXZ   1003c760 f   trutil:freedata.obj
+ 0001:0003b780       ??__EGID_Camera@@YAXXZ     1003c780 f   trutil:freedata.obj
+ 0001:0003b7a0       ??__EGID_CAMERA@@YAXXZ     1003c7a0 f   trutil:freedata.obj
+ 0001:0003b7c0       ??__EGNULL_Camera@@YAXXZ   1003c7c0 f   trutil:gdimgeom.obj
+ 0001:0003b7e0       ??__EGNULL_CAMERA@@YAXXZ   1003c7e0 f   trutil:gdimgeom.obj
+ 0001:0003b800       ??__EGID_Camera@@YAXXZ     1003c800 f   trutil:gdimgeom.obj
+ 0001:0003b820       ??__EGID_CAMERA@@YAXXZ     1003c820 f   trutil:gdimgeom.obj
+ 0001:0003b840       ??__EGNULL_Camera@@YAXXZ   1003c840 f   trutil:trcreate.obj
+ 0001:0003b860       ??__EGNULL_CAMERA@@YAXXZ   1003c860 f   trutil:trcreate.obj
+ 0001:0003b880       ??__EGID_Camera@@YAXXZ     1003c880 f   trutil:trcreate.obj
+ 0001:0003b8a0       ??__EGID_CAMERA@@YAXXZ     1003c8a0 f   trutil:trcreate.obj
+ 0001:0003b8c0       ??__EGNULL_Camera@@YAXXZ   1003c8c0 f   trutil:trfunc.obj
+ 0001:0003b8e0       ??__EGNULL_CAMERA@@YAXXZ   1003c8e0 f   trutil:trfunc.obj
+ 0001:0003b900       ??__EGID_Camera@@YAXXZ     1003c900 f   trutil:trfunc.obj
+ 0001:0003b920       ??__EGID_CAMERA@@YAXXZ     1003c920 f   trutil:trfunc.obj
+ 0001:0003b940       ??__EGNULL_Camera@@YAXXZ   1003c940 f   trutil:trcvutil.obj
+ 0001:0003b960       ??__EGNULL_CAMERA@@YAXXZ   1003c960 f   trutil:trcvutil.obj
+ 0001:0003b980       ??__EGID_Camera@@YAXXZ     1003c980 f   trutil:trcvutil.obj
+ 0001:0003b9a0       ??__EGID_CAMERA@@YAXXZ     1003c9a0 f   trutil:trcvutil.obj
+ 0001:0003b9c0       ??__EGNULL_Camera@@YAXXZ   1003c9c0 f   trutil:trgeomcp.obj
+ 0001:0003b9e0       ??__EGNULL_CAMERA@@YAXXZ   1003c9e0 f   trutil:trgeomcp.obj
+ 0001:0003ba00       ??__EGID_Camera@@YAXXZ     1003ca00 f   trutil:trgeomcp.obj
+ 0001:0003ba20       ??__EGID_CAMERA@@YAXXZ     1003ca20 f   trutil:trgeomcp.obj
+ 0001:0003ba40       ??__EGNULL_Camera@@YAXXZ   1003ca40 f   trutil:Trraster.obj
+ 0001:0003ba60       ??__EGNULL_CAMERA@@YAXXZ   1003ca60 f   trutil:Trraster.obj
+ 0001:0003ba80       ??__EGID_Camera@@YAXXZ     1003ca80 f   trutil:Trraster.obj
+ 0001:0003baa0       ??__EGID_CAMERA@@YAXXZ     1003caa0 f   trutil:Trraster.obj
+ 0001:0003bac0       ??__EGNULL_Camera@@YAXXZ   1003cac0 f   trutil:gtyputil.obj
+ 0001:0003bae0       ??__EGNULL_CAMERA@@YAXXZ   1003cae0 f   trutil:gtyputil.obj
+ 0001:0003bb00       ??__EGID_Camera@@YAXXZ     1003cb00 f   trutil:gtyputil.obj
+ 0001:0003bb20       ??__EGID_CAMERA@@YAXXZ     1003cb20 f   trutil:gtyputil.obj
+ 0001:0003bb40       ??__EGNULL_Camera@@YAXXZ   1003cb40 f   trutil:trgroup.obj
+ 0001:0003bb60       ??__EGNULL_CAMERA@@YAXXZ   1003cb60 f   trutil:trgroup.obj
+ 0001:0003bb80       ??__EGID_Camera@@YAXXZ     1003cb80 f   trutil:trgroup.obj
+ 0001:0003bba0       ??__EGID_CAMERA@@YAXXZ     1003cba0 f   trutil:trgroup.obj
+ 0001:0003bbc0       ??__EGNULL_Camera@@YAXXZ   1003cbc0 f   trutil:jdimgeom.obj
+ 0001:0003bbe0       ??__EGNULL_CAMERA@@YAXXZ   1003cbe0 f   trutil:jdimgeom.obj
+ 0001:0003bc00       ??__EGID_Camera@@YAXXZ     1003cc00 f   trutil:jdimgeom.obj
+ 0001:0003bc20       ??__EGID_CAMERA@@YAXXZ     1003cc20 f   trutil:jdimgeom.obj
+ 0001:0003bc40       ??__FCDList@@YAXXZ         1003cc40 f   g2icell.obj

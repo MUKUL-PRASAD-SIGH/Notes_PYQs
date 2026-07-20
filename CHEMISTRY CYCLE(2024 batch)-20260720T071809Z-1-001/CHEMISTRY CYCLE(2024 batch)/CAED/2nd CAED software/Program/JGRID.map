@@ -1,0 +1,1960 @@
+ JGRID
+
+ Timestamp is 46b39dd2 (Fri Aug 03 16:27:46 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001c059H .text                   CODE
+ 0001:0001c060 000019eeH .text$x                 CODE
+ 0001:0001da50 00000571H .text$yc                CODE
+ 0001:0001dfd0 0000000aH .text$yd                CODE
+ 0002:00000000 000005e0H .idata$5                DATA
+ 0002:000005e0 00000004H .CRT$XCA                DATA
+ 0002:000005e4 000000b0H .CRT$XCU                DATA
+ 0002:00000694 00000004H .CRT$XCZ                DATA
+ 0002:00000698 00000004H .CRT$XIA                DATA
+ 0002:0000069c 00000004H .CRT$XIAA               DATA
+ 0002:000006a0 00000004H .CRT$XIZ                DATA
+ 0002:000006b0 000023a8H .rdata                  DATA
+ 0002:00002a58 0000002fH .rdata$debug            DATA
+ 0002:00002a88 00000a24H .rdata$r                DATA
+ 0002:000034b0 00000188H .rdata$sxdata           DATA
+ 0002:00003638 00000004H .rtc$IAA                DATA
+ 0002:0000363c 00000004H .rtc$IZZ                DATA
+ 0002:00003640 00000004H .rtc$TAA                DATA
+ 0002:00003644 00000004H .rtc$TZZ                DATA
+ 0002:00003648 000016ecH .xdata$x                DATA
+ 0002:00004d34 00000000H ATL$__a                 DATA
+ 0002:00004d34 00000000H ATL$__z                 DATA
+ 0002:00004d34 000000a0H .idata$2                DATA
+ 0002:00004dd4 00000014H .idata$3                DATA
+ 0002:00004de8 000005e0H .idata$4                DATA
+ 0002:000053c8 00001298H .idata$6                DATA
+ 0002:00006660 00003f83H .edata                  DATA
+ 0003:00000000 00000f7cH .data                   DATA
+ 0003:00000f80 0000066cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000062       ___safe_se_handler_count   00000062     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 10001030 f i droplist.obj
+ 0001:00000030       ?MeasureItem@JGridList@@UAEXPAUtagMEASUREITEMSTRUCT@@@Z 10001030 f i jgridlis.obj
+ 0001:00000030       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10001030 f i button.obj
+ 0001:00000030       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10001030 f i button.obj
+ 0001:00000040       ??3CObject@@SGXPAX@Z       10001040 f i button.obj
+ 0001:00000050       ??1CGdiObject@@UAE@XZ      10001050 f i button.obj
+ 0001:00000060       ??1CRgn@@UAE@XZ            10001060 f i button.obj
+ 0001:000000b0       ?FillRect@CDC@@QAEXPBUtagRECT@@PAVCBrush@@@Z 100010b0 f i button.obj
+ 0001:000000f0       ?FrameRect@CDC@@QAEXPBUtagRECT@@PAVCBrush@@@Z 100010f0 f i button.obj
+ 0001:00000130       ?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z 10001130 f   button.obj
+ 0001:000003b0       ??_GCGdiObject@@UAEPAXI@Z  100013b0 f i button.obj
+ 0001:000003b0       ??_ECGdiObject@@UAEPAXI@Z  100013b0 f i button.obj
+ 0001:000003e0       ??_ECRgn@@UAEPAXI@Z        100013e0 f i button.obj
+ 0001:000003e0       ??_GCRgn@@UAEPAXI@Z        100013e0 f i button.obj
+ 0001:00000400       ?GetDefault@JGridColorPickerColumn@@QAEXPAUJGRIDCOLORSELECTION@@@Z 10001400 f   colorpic.obj
+ 0001:00000420       ?SetDefault@JGridColorPickerColumn@@QAEXPAUJGRIDCOLORSELECTION@@@Z 10001420 f   colorpic.obj
+ 0001:00000440       ?GetJColorPickerObject@JGridColorPickerColumn@@QAEPAVJColorPicker@@XZ 10001440 f   colorpic.obj
+ 0001:00000460       ??0CBrush@@QAE@XZ          10001460 f i colorpic.obj
+ 0001:000004c0       ??1CBrush@@UAE@XZ          100014c0 f i colorpic.obj
+ 0001:00000510       ?CreateSolidBrush@CBrush@@QAEHK@Z 10001510 f i colorpic.obj
+ 0001:00000530       ?GetDC@CWnd@@QAEPAVCDC@@XZ 10001530 f i colorpic.obj
+ 0001:00000550       ?ReleaseDC@CWnd@@QAEHPAVCDC@@@Z 10001550 f i colorpic.obj
+ 0001:00000570       ?GetColorSelection@JGridColorPickerColumn@@QAEHJPAUJGRIDCOLORSELECTION@@@Z 10001570 f   colorpic.obj
+ 0001:000005b0       ?GetColorValue@JGridColorPickerColumn@@QAEKJ@Z 100015b0 f   colorpic.obj
+ 0001:000005d0       ?GetCellCount@JGridColorPickerColumn@@UAEJXZ 100015d0 f   colorpic.obj
+ 0001:000005e0       ?IsEmpty@JGridColorPickerColumn@@UAEHJ@Z 100015e0 f   colorpic.obj
+ 0001:00000610       ??_GCBrush@@UAEPAXI@Z      10001610 f i colorpic.obj
+ 0001:00000610       ??_ECBrush@@UAEPAXI@Z      10001610 f i colorpic.obj
+ 0001:00000630       ?DrawColorCell@JGridColorPickerColumn@@UAEXJPAUtagRECT@@@Z 10001630 f   colorpic.obj
+ 0001:00000750       ??0JGridColorPickerColumn@@QAE@XZ 10001750 f   colorpic.obj
+ 0001:000007d0       ?SetCellString@JGridColorPickerColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i colorpic.obj
+ 0001:000007d0       ?GetCellString@JGridColorPickerColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i colorpic.obj
+ 0001:000007d0       ?GetCellString@JGridLineWeightColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i stdafx.obj
+ 0001:000007d0       ?SetCellString@JGridLineWeightColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i stdafx.obj
+ 0001:000007d0       ?GetCellString@JGridLineStyleColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i stdafx.obj
+ 0001:000007d0       ?SetCellString@JGridLineStyleColumn@@UAEHJAAVGUserText@@@Z 100017d0 f i stdafx.obj
+ 0001:000007d0       ?CustomBeginCellEdit@JGridColumn@@UAEHJPAVCRect@@@Z 100017d0 f i jgridcol.obj
+ 0001:000007e0       ?SetCellString@JGridColorPickerColumn@@UAEHJAAVGUserText@@H@Z 100017e0 f i colorpic.obj
+ 0001:000007e0       ?SetCellString@JGridLineStyleColumn@@UAEHJAAVGUserText@@H@Z 100017e0 f i stdafx.obj
+ 0001:000007e0       ?SetCellString@JGridLineWeightColumn@@UAEHJAAVGUserText@@H@Z 100017e0 f i stdafx.obj
+ 0001:000007f0       ?Cleanup@JGridColorPickerColumn@@IAEXXZ 100017f0 f   colorpic.obj
+ 0001:00000870       ?SetColorSelection@JGridColorPickerColumn@@QAEHJPAUJGRIDCOLORSELECTION@@H@Z 10001870 f   colorpic.obj
+ 0001:00000950       ?SetColorValue@JGridColorPickerColumn@@QAEHJKH@Z 10001950 f   colorpic.obj
+ 0001:000009a0       ?SetColor@JGridColorPickerColumn@@QAEHJKGH@Z 100019a0 f   colorpic.obj
+ 0001:000009e0       ?SetNoColorFlag@JGridColorPickerColumn@@QAEHJGH@Z 100019e0 f   colorpic.obj
+ 0001:00000a30       ?RemoveAll@JGridColorPickerColumn@@UAEXXZ 10001a30 f   colorpic.obj
+ 0001:00000a80       ?DeleteCells@JGridColorPickerColumn@@UAEXJJ@Z 10001a80 f   colorpic.obj
+ 0001:00000b00       ?InsertEmptyCell@JGridColorPickerColumn@@UAEHJJ@Z 10001b00 f   colorpic.obj
+ 0001:00000b90       ?SetEmpty@JGridColorPickerColumn@@UAEHJH@Z 10001b90 f   colorpic.obj
+ 0001:00000ca0       ??1JGridColorPickerColumn@@QAE@XZ 10001ca0 f   colorpic.obj
+ 0001:00000d10       ?GetVisibleRowCount@JGridWindow@@QAEHXZ 10001d10 f   counters.obj
+ 0001:00000d20       ?GetRecordCount@JGridWindow@@QAEJXZ 10001d20 f   counters.obj
+ 0001:00000d30       ??$ConstructElements@PAVJGridWindow@@@@YGXPAPAVJGridWindow@@H@Z 10001d30 f i jgridwnd.obj
+ 0001:00000d30       ??$ConstructElements@PAVJGridTreeItem@@@@YGXPAPAVJGridTreeItem@@H@Z 10001d30 f i treecol.obj
+ 0001:00000d30       ??$ConstructElements@PAUJGRIDWEIGHTSELECTION@@@@YGXPAPAUJGRIDWEIGHTSELECTION@@H@Z 10001d30 f i counters.obj
+ 0001:00000d30       ??$ConstructElements@PAX@@YGXPAPAXH@Z 10001d30 f i counters.obj
+ 0001:00000d30       ??$ConstructElements@PAUJGRIDCOLORSELECTION@@@@YGXPAPAUJGRIDCOLORSELECTION@@H@Z 10001d30 f i colorpic.obj
+ 0001:00000d30       ??$ConstructElements@PAUJGRIDTREEROOTS@@@@YGXPAPAUJGRIDTREEROOTS@@H@Z 10001d30 f i treecol.obj
+ 0001:00000d30       ??$ConstructElements@PAUHBITMAP__@@@@YGXPAPAUHBITMAP__@@H@Z 10001d30 f i stylecol.obj
+ 0001:00000d30       ??$ConstructElements@PAUJGRIDSTYLESELECTION@@@@YGXPAPAUJGRIDSTYLESELECTION@@H@Z 10001d30 f i counters.obj
+ 0001:00000d50       ??$ConstructElements@E@@YGXPAEH@Z 10001d50 f i counters.obj
+ 0001:00000d70       ??$ConstructElements@F@@YGXPAFH@Z 10001d70 f i counters.obj
+ 0001:00000d90       ?GetAt@CByteArray@@QBEEH@Z 10001d90 f i counters.obj
+ 0001:00000db0       ?GetAt@CPtrArray@@QBEPAXH@Z 10001db0 f i counters.obj
+ 0001:00000dd0       ?Add@CPtrArray@@QAEHPAX@Z  10001dd0 f i counters.obj
+ 0001:00000df0       ?SendMessageA@CWnd@@QAEJIIJ@Z 10001df0 f i counters.obj
+ 0001:00000e10       ?GetParent@CWnd@@QBEPAV1@XZ 10001e10 f i counters.obj
+ 0001:00000e30       ?AdjustRows@JGridWindow@@IAEXXZ 10001e30 f   counters.obj
+ 0001:00001040       ?GetColumnCount@JGridWindow@@QAEHXZ 10002040 f   counters.obj
+ 0001:00001050       ?GetColCount@JGridWindow@@QAEHXZ 10002050 f   counters.obj
+ 0001:00001060       ?AdjustColumnPositions@JGridWindow@@IAEXH@Z 10002060 f   counters.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAXPAX@@QAEXHH@Z 100021a0 f i counters.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAUHBITMAP__@@PAU1@@@QAEXHH@Z 100021a0 f i stylecol.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAUJGRIDWEIGHTSELECTION@@PAU1@@@QAEXHH@Z 100021a0 f i counters.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAEXHH@Z 100021a0 f i treecol.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAUJGRIDSTYLESELECTION@@PAU1@@@QAEXHH@Z 100021a0 f i counters.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAVJGridTreeItem@@PAV1@@@QAEXHH@Z 100021a0 f i treecol.obj
+ 0001:000011a0       ?SetSize@?$JArray@PAUJGRIDCOLORSELECTION@@PAU1@@@QAEXHH@Z 100021a0 f i colorpic.obj
+ 0001:000012c0       ?SetSize@?$JArray@EE@@QAEXHH@Z 100022c0 f i counters.obj
+ 0001:000013d0       ?SetSize@?$JArray@FF@@QAEXHH@Z 100023d0 f i counters.obj
+ 0001:000014e0       ?UpdateRecordCounters@JGridWindow@@QAEXXZ 100024e0 f   counters.obj
+ 0001:00001b70       ?CountRecords@JGridWindow@@QAEXXZ 10002b70 f   counters.obj
+ 0001:00001b80       ?UpdateColumnCounters@JGridWindow@@IAEXXZ 10002b80 f   counters.obj
+ 0001:00001c10       ??ACPtrArray@@QAEAAPAXH@Z  10002c10 f i cutpaste.obj
+ 0001:00001c30       ?MyCopy@JGridEditCell@@IAEXXZ 10002c30 f i jgridedt.obj
+ 0001:00001c30       ?Copy@CEdit@@QAEXXZ        10002c30 f i cutpaste.obj
+ 0001:00001c50       ?MyCut@JGridEditCell@@IAEXXZ 10002c50 f i jgridedt.obj
+ 0001:00001c50       ?Cut@CEdit@@QAEXXZ         10002c50 f i cutpaste.obj
+ 0001:00001c70       ?OnCut@JGridWindow@@IAEXXZ 10002c70 f   cutpaste.obj
+ 0001:00001ce0       ?OnPaste@JGridWindow@@IAEXXZ 10002ce0 f   cutpaste.obj
+ 0001:00001d50       ?OnCopy@JGridWindow@@IAEXXZ 10002d50 f   cutpaste.obj
+ 0001:00001f50       ?DeleteColumns@JGridWindow@@QAEHHH@Z 10002f50 f   delete.obj
+ 0001:00002270       ?DeleteRecords@JGridWindow@@QAEHJJ@Z 10003270 f   delete.obj
+ 0001:00002380       ?OnLineWidthChange@JGridWindow@@IAEJIJ@Z 10003380 f   dropdown.obj
+ 0001:00002440       ?OnLineStyleChange@JGridWindow@@IAEJIJ@Z 10003440 f   dropdown.obj
+ 0001:000024b0       ?DisplayDropDown@JGridWindow@@IAEXJH@Z 100034b0 f   dropdown.obj
+ 0001:00002620       ?ChangeBitmapColorDC@@YGXPAUHDC__@@PAUtagBITMAP@@KK@Z 10003620 f   droplist.obj
+ 0001:000027d0       ?ChangeBitmapColor@JGridWindow@@QAEXPAUHBITMAP__@@KKPAUHPALETTE__@@@Z 100037d0 f   droplist.obj
+ 0001:000027f0       ??0JGridBitmapListBox@@QAE@XZ 100037f0 f   droplist.obj
+ 0001:00002850       ??1JGridBitmapListBox@@UAE@XZ 10003850 f i droplist.obj
+ 0001:000028a0       ??0JGridWeightListBox@@QAE@XZ 100038a0 f   droplist.obj
+ 0001:00002900       ??1JGridWeightListBox@@UAE@XZ 10003900 f i droplist.obj
+ 0001:00002950       ?BeginModalState@CWnd@@UAEXXZ 10003950 f i droplist.obj
+ 0001:00002960       ?EndModalState@CWnd@@UAEXXZ 10003960 f i droplist.obj
+ 0001:00002970       ??_EJGridBitmapListBox@@UAEPAXI@Z 10003970 f i droplist.obj
+ 0001:00002970       ??_GJGridBitmapListBox@@UAEPAXI@Z 10003970 f i droplist.obj
+ 0001:000029d0       ?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 100039d0 f   droplist.obj
+ 0001:00002d60       ??_GJGridWeightListBox@@UAEPAXI@Z 10003d60 f i droplist.obj
+ 0001:00002d60       ??_EJGridWeightListBox@@UAEPAXI@Z 10003d60 f i droplist.obj
+ 0001:00002dc0       ?DrawItem@JGridWeightListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 10003dc0 f   droplist.obj
+ 0001:000030c0       ?SetCellAltFontUse@JGridColumn@@QAEXJH@Z 100040c0 f   fonts.obj
+ 0001:00003140       ?IsCellAlternateFont@JGridColumn@@QAEHJ@Z 10004140 f   fonts.obj
+ 0001:00003180       ?SetAlternateFont@JGridColumn@@QAEHPAUtagLOGFONTA@@@Z 10004180 f   fonts.obj
+ 0001:00003240       ?CellDrawBitmap@JGridColumn@@IAEXPAUHBITMAP__@@PAUHDC__@@PAUtagRECT@@@Z 10004240 f   jgridcel.obj
+ 0001:00003530       ?SetRectRgn@CRgn@@QAEXPBUtagRECT@@@Z 10004530 f i jgridcel.obj
+ 0001:00003550       ?Cell_Draw@JGridColumn@@MAEXHH@Z 10004550 f   jgridcel.obj
+ 0001:00003c20       ??1tagColDef@@QAE@XZ       10004c20 f i jgridcol.obj
+ 0001:00003c70       ?SetPad@JGridColumn@@IAEXHH@Z 10004c70 f   jgridcol.obj
+ 0001:00003c90       ?GetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z 10004c90 f   jgridcol.obj
+ 0001:00003cf0       ?GetColumnDefinition@JGridColumn@@QAEXPAUtagColDef@@@Z 10004cf0 f   jgridcol.obj
+ 0001:00003d70       ?InStretchZone@JGridColumn@@IAEHVCPoint@@@Z 10004d70 f   jgridcol.obj
+ 0001:00003db0       ?IsDeletedFromGrid@JGridColumn@@QAEHXZ 10004db0 f   jgridcol.obj
+ 0001:00003dc0       ?IsSelected@JGridColumn@@QAEHXZ 10004dc0 f   jgridcol.obj
+ 0001:00003dd0       ?SetCheckboxBitmaps@JGridColumn@@QAEHPAUHBITMAP__@@000@Z 10004dd0 f   jgridcol.obj
+ 0001:00003ed0       ?SetColumnDefinition@JGridColumn@@QAEXPAUtagColDef@@@Z 10004ed0 f   jgridcol.obj
+ 0001:000040b0       ?SetCellJustify@JGridColumn@@QAEXH@Z 100050b0 f   jgridcol.obj
+ 0001:000040d0       ?SetHeaderJustify@JGridColumn@@QAEXH@Z 100050d0 f   jgridcol.obj
+ 0001:000040f0       ?SetTitle@JGridColumn@@QAEXPAD@Z 100050f0 f   jgridcol.obj
+ 0001:00004100       ?InitByGrid@JGridTreeColumn@@UAEHXZ 10005100 f   treecol.obj
+ 0001:00004100       ?SetUnits@JGridColumn@@QAEHXZ 10005100 f   jgridcol.obj
+ 0001:00004110       ?Within@JGridColumn@@IAEHVCPoint@@@Z 10005110 f   jgridcol.obj
+ 0001:00004140       ?UpdateCell@JGridColumn@@QAEXJ@Z 10005140 f   jgridcol.obj
+ 0001:00004160       ?UpdateColumn@JGridColumn@@QAEXXZ 10005160 f   jgridcol.obj
+ 0001:00004180       ?GetColumnIndex@JGridColumn@@QAEHXZ 10005180 f   jgridcol.obj
+ 0001:000041a0       ??0?$JArray@PAUJGRIDWEIGHTSELECTION@@PAU1@@@QAE@XZ 100051a0 f i wtcol.obj
+ 0001:000041a0       ??0?$JArray@PAXPAX@@QAE@XZ 100051a0 f i jgridcol.obj
+ 0001:000041a0       ??0?$JArray@PAUHBITMAP__@@PAU1@@@QAE@XZ 100051a0 f i jgridcol.obj
+ 0001:000041a0       ??0?$JArray@PAVJGridTreeItem@@PAV1@@@QAE@XZ 100051a0 f i treeitem.obj
+ 0001:000041a0       ??0?$JArray@UJGRIDCOORDINATE@@U1@@@QAE@XZ 100051a0 f i jgridlis.obj
+ 0001:000041a0       ??0?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAE@XZ 100051a0 f i treecol.obj
+ 0001:000041a0       ??0?$JArray@PAUJGRIDSTYLESELECTION@@PAU1@@@QAE@XZ 100051a0 f i stylecol.obj
+ 0001:000041a0       ??0?$JArray@FF@@QAE@XZ     100051a0 f i jgridcol.obj
+ 0001:000041a0       ??0?$JArray@PAVGUserText@@PAV1@@@QAE@XZ 100051a0 f i jgridcol.obj
+ 0001:000041a0       ??0?$JArray@EE@@QAE@XZ     100051a0 f i jgridcol.obj
+ 0001:000041a0       ??0?$JArray@PAUJGRIDCOLORSELECTION@@PAU1@@@QAE@XZ 100051a0 f i colorpic.obj
+ 0001:000041b0       ??0CPen@@QAE@XZ            100051b0 f i jgridcol.obj
+ 0001:00004210       ??1CPen@@UAE@XZ            10005210 f i jgridcol.obj
+ 0001:00004260       ??0CFont@@QAE@XZ           10005260 f i jgridcol.obj
+ 0001:000042c0       ??1CFont@@UAE@XZ           100052c0 f i jgridcol.obj
+ 0001:00004310       ?PostMessageA@CWnd@@QAEHIIJ@Z 10005310 f i jgridcol.obj
+ 0001:00004330       ?SetFont@CWnd@@QAEXPAVCFont@@H@Z 10005330 f i jgridcol.obj
+ 0001:00004370       ?MoveWindow@CWnd@@QAEXPBUtagRECT@@H@Z 10005370 f i jgridcol.obj
+ 0001:000043a0       ?GetRect@CEdit@@QBEXPAUtagRECT@@@Z 100053a0 f i jgridcol.obj
+ 0001:000043c0       ?SetRect@CEdit@@QAEXPBUtagRECT@@@Z 100053c0 f i jgridcol.obj
+ 0001:000043e0       ??0tagColDef@@QAE@XZ       100053e0 f i jgridcol.obj
+ 0001:00004480       ?BeginEdit@JGridColumn@@IAEHJ@Z 10005480 f   jgridcol.obj
+ 0001:000047e0       ?DrawHdr@JGridColumn@@IAEXXZ 100057e0 f   jgridcol.obj
+ 0001:000049e0       ?DropDown@JGridColumn@@IAEHXZ 100059e0 f   jgridcol.obj
+ 0001:00004c70       ?DropList@JGridColumn@@IAEHXZ 10005c70 f   jgridcol.obj
+ 0001:00004eb0       ?EndEdit@JGridColumn@@IAEXXZ 10005eb0 f   jgridcol.obj
+ 0001:000051b0       ?GetCellCount@JGridColumn@@UAEJXZ 100061b0 f   jgridcol.obj
+ 0001:00005230       ?GetCellDataPtr@JGridColumn@@QAEPAXJ@Z 10006230 f   jgridcol.obj
+ 0001:00005260       ?GetCellHyper@JGridColumn@@QAEHJ@Z 10006260 f   jgridcol.obj
+ 0001:00005290       ?GetCellReadOnly@JGridColumn@@QAEHJ@Z 10006290 f   jgridcol.obj
+ 0001:000052c0       ?GetCellComboIndex@JGridColumn@@QAEHJPAF@Z 100062c0 f   jgridcol.obj
+ 0001:00005300       ?GetCheck@JGridColumn@@QAEHJ@Z 10006300 f   jgridcol.obj
+ 0001:00005320       ?GetMinHeight@JGridColumn@@UAEHH@Z 10006320 f   jgridcol.obj
+ 0001:000056d0       ?GetMinWidth@JGridColumn@@UAEHH@Z 100066d0 f   jgridcol.obj
+ 0001:00005a90       ?HideList@JGridColumn@@IAEXXZ 10006a90 f   jgridcol.obj
+ 0001:00005ae0       ?InitByGrid@JGridColumn@@MAEHXZ 10006ae0 f   jgridcol.obj
+ 0001:00005e70       ?IsEmpty@JGridColumn@@UAEHJ@Z 10006e70 f   jgridcol.obj
+ 0001:00005f50       ?SetCellString@JGridColumn@@UAEHJAAVGUserText@@H@Z 10006f50 f   jgridcol.obj
+ 0001:00005fc0       ?SetColPos@JGridColumn@@IAEXAAUtagRECT@@@Z 10006fc0 f   jgridcol.obj
+ 0001:00005ff0       ?SetAtGrow@?$JArray@EE@@QAEXHE@Z 10006ff0 f i jgridcol.obj
+ 0001:00006030       ?InsertAt@?$JArray@EE@@QAEXHEH@Z 10007030 f i jgridcol.obj
+ 0001:000060b0       ?RemoveAt@?$JArray@EE@@QAEXHH@Z 100070b0 f i jgridcol.obj
+ 0001:000060e0       ?SetAtGrow@?$JArray@FF@@QAEXHF@Z 100070e0 f i jgridcol.obj
+ 0001:00006120       ?Add@?$JArray@FF@@QAEHF@Z  10007120 f i jgridcol.obj
+ 0001:00006140       ?InsertAt@?$JArray@FF@@QAEXHFH@Z 10007140 f i jgridcol.obj
+ 0001:000061d0       ?RemoveAt@?$JArray@FF@@QAEXHH@Z 100071d0 f i jgridcol.obj
+ 0001:00006210       ??1?$JArray@PAVJGridTreeItem@@PAV1@@@QAE@XZ 10007210 f i treeitem.obj
+ 0001:00006210       ??1?$JArray@PAUJGRIDWEIGHTSELECTION@@PAU1@@@QAE@XZ 10007210 f i wtcol.obj
+ 0001:00006210       ??1?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAE@XZ 10007210 f i treecol.obj
+ 0001:00006210       ??1?$JArray@EE@@QAE@XZ     10007210 f i jgridcol.obj
+ 0001:00006210       ??1?$JArray@PAXPAX@@QAE@XZ 10007210 f i jgridcol.obj
+ 0001:00006210       ??1?$JArray@PAUJGRIDSTYLESELECTION@@PAU1@@@QAE@XZ 10007210 f i stylecol.obj
+ 0001:00006210       ??1?$JArray@PAUJGRIDCOLORSELECTION@@PAU1@@@QAE@XZ 10007210 f i colorpic.obj
+ 0001:00006210       ??1?$JArray@PAVGUserText@@PAV1@@@QAE@XZ 10007210 f i jgridcol.obj
+ 0001:00006210       ??1?$JArray@FF@@QAE@XZ     10007210 f i jgridcol.obj
+ 0001:00006210       ??1?$JArray@UJGRIDCOORDINATE@@U1@@@QAE@XZ 10007210 f i jgridlis.obj
+ 0001:00006210       ??1?$JArray@PAUHBITMAP__@@PAU1@@@QAE@XZ 10007210 f i jgridcol.obj
+ 0001:00006220       ??_GCPen@@UAEPAXI@Z        10007220 f i jgridcol.obj
+ 0001:00006220       ??_ECPen@@UAEPAXI@Z        10007220 f i jgridcol.obj
+ 0001:00006240       ??_GCFont@@UAEPAXI@Z       10007240 f i jgridcol.obj
+ 0001:00006240       ??_ECFont@@UAEPAXI@Z       10007240 f i jgridcol.obj
+ 0001:00006260       ??0ColMbr@@QAE@XZ          10007260 f i jgridcol.obj
+ 0001:00006370       ??1ColMbr@@QAE@XZ          10007370 f i jgridcol.obj
+ 0001:00006460       ?Column_Draw@JGridColumn@@IAEXH@Z 10007460 f   jgridcol.obj
+ 0001:00006620       ?DeleteCells@JGridColumn@@UAEXJJ@Z 10007620 f   jgridcol.obj
+ 0001:00006850       ?RemoveAll@JGridColumn@@UAEXXZ 10007850 f   jgridcol.obj
+ 0001:00006990       ?Select@JGridColumn@@QAEXH@Z 10007990 f   jgridcol.obj
+ 0001:00006ac0       ?SetCellComboIndex@JGridColumn@@QAEHJF@Z 10007ac0 f   jgridcol.obj
+ 0001:00006ba0       ?SetCellDataPtr@JGridColumn@@QAEHJPAX@Z 10007ba0 f   jgridcol.obj
+ 0001:00006cd0       ?SetCellHyper@JGridColumn@@QAEXJH@Z 10007cd0 f   jgridcol.obj
+ 0001:00006d40       ?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z 10007d40 f   jgridcol.obj
+ 0001:00006fb0       ?SetCheck@JGridColumn@@QAEHJH@Z 10007fb0 f   jgridcol.obj
+ 0001:00006ff0       ?SetEmpty@JGridColumn@@UAEHJH@Z 10007ff0 f   jgridcol.obj
+ 0001:00007270       ?InsertEmptyCell@JGridColumn@@UAEHJJ@Z 10008270 f   jgridcol.obj
+ 0001:00007440       ?SetCellReadOnly@JGridColumn@@QAEXJH@Z 10008440 f   jgridcol.obj
+ 0001:000074b0       ?UpdateCellSelection@JGridColumn@@IAEXH@Z 100084b0 f   jgridcol.obj
+ 0001:00007520       ??0JGridColumn@@QAE@XZ     10008520 f   jgridcol.obj
+ 0001:000076f0       ??1JGridColumn@@QAE@XZ     100086f0 f   jgridcol.obj
+ 0001:000079c0       ?_GetBaseClass@JGridEditRecord@@KGPAUCRuntimeClass@@XZ 100089c0 f   jgridedt.obj
+ 0001:000079c0       ?_GetBaseClass@JGridEditCell@@KGPAUCRuntimeClass@@XZ 100089c0 f   jgridedt.obj
+ 0001:000079d0       ?GetRuntimeClass@JGridEditCell@@UBEPAUCRuntimeClass@@XZ 100089d0 f   jgridedt.obj
+ 0001:000079e0       ?OnNcPaint@JGridEditCell@@IAEXXZ 100089e0 f   jgridedt.obj
+ 0001:000079e0       ?OnClickedCombo@JGridEditCell@@IAEXXZ 100089e0 f   jgridedt.obj
+ 0001:000079e0       ?CustomEndCellEdit@JGridColumn@@UAEXXZ 100089e0 f   jgridcol.obj
+ 0001:000079e0       ?AssertValid@CObject@@UBEXXZ 100089e0 f   button.obj
+ 0001:000079e0       ?OnEscape@JGridWindow@@IAEXXZ 100089e0 f   keyboard.obj
+ 0001:000079f0       ?Reset@JGridEditCell@@QAEXHH@Z 100089f0 f   jgridedt.obj
+ 0001:00007a20       ?OnSetFocus@JGridEditCell@@IAEXPAVCWnd@@@Z 10008a20 f   jgridedt.obj
+ 0001:00007a60       ?GetRuntimeClass@JGridEditRecord@@UBEPAUCRuntimeClass@@XZ 10008a60 f   jgridedt.obj
+ 0001:00007a70       ?OnPaint@JGridEditCell@@IAEXXZ 10008a70 f   jgridedt.obj
+ 0001:00007a80       ??$sprintf@$0CA@@@YAHAAY0CA@DPBDZZ 10008a80 f i jgridedt.obj
+ 0001:00007aa0       ??1CBitmap@@UAE@XZ         10008aa0 f i jgridedt.obj
+ 0001:00007af0       ??0CButton@@QAE@XZ         10008af0 f i jgridedt.obj
+ 0001:00007b50       ??_GCButton@@UAEPAXI@Z     10008b50 f i jgridedt.obj
+ 0001:00007b50       ??_ECButton@@UAEPAXI@Z     10008b50 f i jgridedt.obj
+ 0001:00007b70       ??0CListBox@@QAE@XZ        10008b70 f i jgridedt.obj
+ 0001:00007bd0       ??_ECListBox@@UAEPAXI@Z    10008bd0 f i jgridedt.obj
+ 0001:00007bd0       ??_GCListBox@@UAEPAXI@Z    10008bd0 f i jgridedt.obj
+ 0001:00007bf0       ??0CEdit@@QAE@XZ           10008bf0 f i jgridedt.obj
+ 0001:00007c50       ??_GCEdit@@UAEPAXI@Z       10008c50 f i jgridedt.obj
+ 0001:00007c50       ??_ECEdit@@UAEPAXI@Z       10008c50 f i jgridedt.obj
+ 0001:00007c70       ??0CBitmapButton@@QAE@XZ   10008c70 f i jgridedt.obj
+ 0001:00007d50       ??1CBitmapButton@@UAE@XZ   10008d50 f i jgridedt.obj
+ 0001:00007dd0       ?MyPaste@JGridEditCell@@IAEXXZ 10008dd0 f   jgridedt.obj
+ 0001:00007df0       ??0JGridEditCell@@QAE@XZ   10008df0 f   jgridedt.obj
+ 0001:00007e90       ??1JGridEditCell@@UAE@XZ   10008e90 f   jgridedt.obj
+ 0001:00007f00       ?OnCreate@JGridEditCell@@IAEHPAUtagCREATESTRUCTA@@@Z 10008f00 f   jgridedt.obj
+ 0001:00008020       ?OnKillFocus@JGridEditCell@@IAEXPAVCWnd@@@Z 10009020 f   jgridedt.obj
+ 0001:00008050       ?OnLButtonDown@JGridEditCell@@IAEXIVCPoint@@@Z 10009050 f   jgridedt.obj
+ 0001:000080f0       ?OnKeyDown@JGridEditCell@@IAEXIII@Z 100090f0 f   jgridedt.obj
+ 0001:000083b0       ?OnKeyUp@JGridEditCell@@IAEXIII@Z 100093b0 f   jgridedt.obj
+ 0001:000084c0       ?OnChar@JGridEditCell@@IAEXIII@Z 100094c0 f   jgridedt.obj
+ 0001:00008640       ??0JGridEditRecord@@QAE@XZ 10009640 f i jgridedt.obj
+ 0001:000086a0       ??1JGridEditRecord@@UAE@XZ 100096a0 f i jgridedt.obj
+ 0001:000086f0       ??_EJGridEditRecord@@UAEPAXI@Z 100096f0 f i jgridedt.obj
+ 0001:000086f0       ??_GJGridEditRecord@@UAEPAXI@Z 100096f0 f i jgridedt.obj
+ 0001:00008750       ?OnChar@JGridEditRecord@@IAEXIII@Z 10009750 f   jgridedt.obj
+ 0001:000088c0       ?OnSize@JGridEditCell@@IAEXIHH@Z 100098c0 f   jgridedt.obj
+ 0001:000088d0       ?WindowProc@JGridEditCell@@UAEJIIJ@Z 100098d0 f   jgridedt.obj
+ 0001:000089f0       ??_GCBitmap@@UAEPAXI@Z     100099f0 f i jgridedt.obj
+ 0001:000089f0       ??_ECBitmap@@UAEPAXI@Z     100099f0 f i jgridedt.obj
+ 0001:00008a10       ??_ECBitmapButton@@UAEPAXI@Z 10009a10 f i jgridedt.obj
+ 0001:00008a10       ??_GCBitmapButton@@UAEPAXI@Z 10009a10 f i jgridedt.obj
+ 0001:00008a30       ?CreateObject@JGridEditCell@@SGPAVCObject@@XZ 10009a30 f   jgridedt.obj
+ 0001:00008aa0       ?GetThisMessageMap@JGridEditCell@@KGPBUAFX_MSGMAP@@XZ 10009aa0 f   jgridedt.obj
+ 0001:00008ab0       ??_GJGridEditCell@@UAEPAXI@Z 10009ab0 f i jgridedt.obj
+ 0001:00008ab0       ??_EJGridEditCell@@UAEPAXI@Z 10009ab0 f i jgridedt.obj
+ 0001:00008ad0       ?CreateObject@JGridEditRecord@@SGPAVCObject@@XZ 10009ad0 f   jgridedt.obj
+ 0001:00008b30       ?GetThisMessageMap@JGridEditRecord@@KGPBUAFX_MSGMAP@@XZ 10009b30 f   jgridedt.obj
+ 0001:00008b40       ?GetMessageMap@JGridEditCell@@MBEPBUAFX_MSGMAP@@XZ 10009b40 f   jgridedt.obj
+ 0001:00008b50       ?GetMessageMap@JGridEditRecord@@MBEPBUAFX_MSGMAP@@XZ 10009b50 f   jgridedt.obj
+ 0001:00008b60       ??1JGridList@@UAE@XZ       10009b60 f   jgridlis.obj
+ 0001:00008bb0       ?GetCurSel@CListBox@@QBEHXZ 10009bb0 f i jgridlis.obj
+ 0001:00008bd0       ??0JGridList@@QAE@XZ       10009bd0 f   jgridlis.obj
+ 0001:00008c30       ??_GJGridList@@UAEPAXI@Z   10009c30 f i jgridlis.obj
+ 0001:00008c30       ??_EJGridList@@UAEPAXI@Z   10009c30 f i jgridlis.obj
+ 0001:00008c50       ?OnLButtonUp@JGridList@@IAEXIVCPoint@@@Z 10009c50 f   jgridlis.obj
+ 0001:00008c50       ?OnLButtonDblClk@JGridList@@IAEXIVCPoint@@@Z 10009c50 f   jgridlis.obj
+ 0001:00008c90       ?GetThisMessageMap@JGridList@@KGPBUAFX_MSGMAP@@XZ 10009c90 f   jgridlis.obj
+ 0001:00008ca0       ?DrawItem@JGridList@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 10009ca0 f   jgridlis.obj
+ 0001:00008da0       ?GetMessageMap@JGridList@@MBEPBUAFX_MSGMAP@@XZ 10009da0 f   jgridlis.obj
+ 0001:00008db0       ??1JGridPushButton@@UAE@XZ 10009db0 f   jgridpus.obj
+ 0001:00008e00       ?DrawItem@JGridPushButton@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 10009e00 f   jgridpus.obj
+ 0001:00008e80       ?OnDestroy@JGridPushButton@@IAEXXZ 10009e80 f   jgridpus.obj
+ 0001:00008ec0       ??0JGridPushButton@@QAE@XZ 10009ec0 f   jgridpus.obj
+ 0001:00008f30       ??_GJGridPushButton@@UAEPAXI@Z 10009f30 f i jgridpus.obj
+ 0001:00008f30       ??_EJGridPushButton@@UAEPAXI@Z 10009f30 f i jgridpus.obj
+ 0001:00008f50       ?GetThisMessageMap@JGridPushButton@@KGPBUAFX_MSGMAP@@XZ 10009f50 f   jgridpus.obj
+ 0001:00008f60       ?GetMessageMap@JGridPushButton@@MBEPBUAFX_MSGMAP@@XZ 10009f60 f   jgridpus.obj
+ 0001:00008f70       ?SetAt@CByteArray@@QAEXHE@Z 10009f70 f i jgridrec.obj
+ 0001:00008f90       ?SetRecordReadOnly@JGridWindow@@QAEHJH@Z 10009f90 f   jgridrec.obj
+ 0001:00008ff0       ?IsRecordHidden@JGridWindow@@QAEHJ@Z 10009ff0 f   jgridrec.obj
+ 0001:00009020       ?IsRecordReadOnly@JGridWindow@@QAEHJ@Z 1000a020 f   jgridrec.obj
+ 0001:00009060       ?InsertEmptyRecord@JGridWindow@@QAEHJJH@Z 1000a060 f   jgridrec.obj
+ 0001:00009270       ?InsertEmptyHiddenRecord@JGridWindow@@QAEHJJ@Z 1000a270 f   jgridrec.obj
+ 0001:00009460       ?CheckLastRecord@JGridWindow@@IAEHXZ 1000a460 f   jgridrec.obj
+ 0001:00009520       ?CreateEmptyRecord@JGridWindow@@QAEXXZ 1000a520 f   jgridrec.obj
+ 0001:000095c0       ?Stretch@JGridRow@@QAEXHH@Z 1000a5c0 f   jgridrow.obj
+ 0001:000095e0       ?InStretchZone@JGridRow@@QAEHVCPoint@@@Z 1000a5e0 f   jgridrow.obj
+ 0001:00009610       ??0JGridRow@@QAE@HHPAVJGridWindow@@@Z 1000a610 f   jgridrow.obj
+ 0001:00009670       ?CheckHeight@JGridRow@@QAEXXZ 1000a670 f   jgridrow.obj
+ 0001:000099b0       ?Draw@JGridRow@@QAEXXZ     1000a9b0 f   jgridrow.obj
+ 0001:00009ca0       ?Select@JGridRow@@QAEXHH@Z 1000aca0 f   jgridrow.obj
+ 0001:00009e10       ?UpdateFrameCounters@JGridWindow@@IAEXXZ 1000ae10 f   jgridutl.obj
+ 0001:00009e90       ?GetColumnRect@JGridWindow@@QAEHJPAUtagRECT@@@Z 1000ae90 f   jgridutl.obj
+ 0001:00009f20       ?UpdateColumn@JGridWindow@@QAEHJ@Z 1000af20 f   jgridutl.obj
+ 0001:00009f90       ?RecordToRow@JGridWindow@@QAEJJ@Z 1000af90 f   jgridutl.obj
+ 0001:0000a060       ?RowToRecord@JGridWindow@@QAEJJ@Z 1000b060 f   jgridutl.obj
+ 0001:0000a0f0       ?Recount@JGridWindow@@IAEXJJH@Z 1000b0f0 f   jgridutl.obj
+ 0001:0000a200       ?GetCellRect@JGridWindow@@QAEHJJPAUtagRECT@@@Z 1000b200 f   jgridutl.obj
+ 0001:0000a2b0       ?GetRecordRect@JGridWindow@@QAEHJPAUtagRECT@@@Z 1000b2b0 f   jgridutl.obj
+ 0001:0000a330       ?UpdateCell@JGridWindow@@QAEXJJ@Z 1000b330 f   jgridutl.obj
+ 0001:0000a3d0       ?UpdateRecord@JGridWindow@@QAEHJ@Z 1000b3d0 f   jgridutl.obj
+ 0001:0000a430       ?_GetBaseClass@JGridWindow@@KGPAUCRuntimeClass@@XZ 1000b430 f   jgridwnd.obj
+ 0001:0000a440       ?GetRuntimeClass@JGridWindow@@UBEPAUCRuntimeClass@@XZ 1000b440 f   jgridwnd.obj
+ 0001:0000a440       ?GetThisClass@JGridWindow@@SGPAUCRuntimeClass@@XZ 1000b440 f   jgridwnd.obj
+ 0001:0000a450       ?PreTranslateMessage@JGridWindow@@MAEHPAUtagMSG@@@Z 1000b450 f   jgridwnd.obj
+ 0001:0000a4a0       ?Setup_DrEnd@JGridWindow@@IAEXXZ 1000b4a0 f   jgridwnd.obj
+ 0001:0000a4e0       ?DrawStretch@JGridWindow@@IAEXXZ 1000b4e0 f   jgridwnd.obj
+ 0001:0000a560       ?GetRecordPtr@JGridWindow@@QAEJXZ 1000b560 f   jgridwnd.obj
+ 0001:0000a570       ?GetTopRecord@JGridWindow@@QAEJXZ 1000b570 f   jgridwnd.obj
+ 0001:0000a580       ?ValidateStyle@JGridWindow@@IAEXXZ 1000b580 f   jgridwnd.obj
+ 0001:0000a5f0       ?Select_HdrFont@JGridWindow@@IAEXXZ 1000b5f0 f   jgridwnd.obj
+ 0001:0000a650       ?Select_TblFont@JGridWindow@@IAEXXZ 1000b650 f   jgridwnd.obj
+ 0001:0000a6b0       ?Select_HypFont@JGridWindow@@IAEXXZ 1000b6b0 f   jgridwnd.obj
+ 0001:0000a710       ?Select_ColumnFont@JGridWindow@@IAEXPAVJGridColumn@@@Z 1000b710 f   jgridwnd.obj
+ 0001:0000a780       ?RestoreFont@JGridWindow@@IAEXXZ 1000b780 f   jgridwnd.obj
+ 0001:0000a7b0       ?SetRecReadonly@JGridWindow@@QAEXJH@Z 1000b7b0 f   jgridwnd.obj
+ 0001:0000a7c0       ?GetRecReadonly@JGridWindow@@QAEHJ@Z 1000b7c0 f   jgridwnd.obj
+ 0001:0000a7d0       ?OnSetFocus@JGridWindow@@IAEXPAVCWnd@@@Z 1000b7d0 f   jgridwnd.obj
+ 0001:0000a830       ?OnPostCreate@JGridWindow@@IAEJIJ@Z 1000b830 f   jgridwnd.obj
+ 0001:0000a840       ?OnGetDlgCode@JGridWindow@@IAEIXZ 1000b840 f   jgridwnd.obj
+ 0001:0000a850       ??1tagGridDef@@QAE@XZ      1000b850 f i jgridwnd.obj
+ 0001:0000a8a0       ?SendNotifications@JGridWindow@@QAEXH@Z 1000b8a0 f   jgridwnd.obj
+ 0001:0000a8b0       ?GetRowHeight@JGridWindow@@QAEHXZ 1000b8b0 f   jgridwnd.obj
+ 0001:0000a8d0       ?SetRowHeight@JGridWindow@@QAEXH@Z 1000b8d0 f   jgridwnd.obj
+ 0001:0000a8f0       ?SetColumnWidth@JGridWindow@@QAEXHH@Z 1000b8f0 f   jgridwnd.obj
+ 0001:0000a910       ?GetColumnSpaceWidth@JGridWindow@@QAEHXZ 1000b910 f   jgridwnd.obj
+ 0001:0000a930       ?GetCellTextHeight@JGridWindow@@QAEHXZ 1000b930 f   jgridwnd.obj
+ 0001:0000a930       ?GetCellFontHeight@JGridWindow@@QAEHXZ 1000b930 f   jgridwnd.obj
+ 0001:0000a940       ??0?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAE@H@Z 1000b940 f i jgridwnd.obj
+ 0001:0000a960       ?InitHashTable@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAEXIH@Z 1000b960 f i jgridwnd.obj
+ 0001:0000a9d0       ??$CompareElements@PAUHWND__@@PAU1@@@YGHPBQAUHWND__@@0@Z 1000b9d0 f i jgridwnd.obj
+ 0001:0000aa00       ?CreatePen@CPen@@QAEHHHK@Z 1000ba00 f i jgridwnd.obj
+ 0001:0000aa30       ?CreatePatternBrush@CBrush@@QAEHPAVCBitmap@@@Z 1000ba30 f i jgridwnd.obj
+ 0001:0000aa70       ?SetRectRgn@CRgn@@QAEXHHHH@Z 1000ba70 f i jgridwnd.obj
+ 0001:0000aaa0       ??0CScrollBar@@QAE@XZ      1000baa0 f i jgridwnd.obj
+ 0001:0000ab00       ??_ECScrollBar@@UAEPAXI@Z  1000bb00 f i jgridwnd.obj
+ 0001:0000ab00       ??_GCScrollBar@@UAEPAXI@Z  1000bb00 f i jgridwnd.obj
+ 0001:0000ab20       ??0tagGridDef@@QAE@XZ      1000bb20 f i jgridwnd.obj
+ 0001:0000ab90       ??1GridMbr@@QAE@XZ         1000bb90 f i jgridwnd.obj
+ 0001:0000adf0       ?Setup_Draw@JGridWindow@@IAEXXZ 1000bdf0 f   jgridwnd.obj
+ 0001:0000ae50       ?OnClickedDrop@JGridWindow@@IAEXXZ 1000be50 f   jgridwnd.obj
+ 0001:0000aee0       ?DrawGrid@JGridWindow@@IAEXXZ 1000bee0 f   jgridwnd.obj
+ 0001:0000b120       ?GetCellString@JGridWindow@@QAEHJHAAVGUserText@@@Z 1000c120 f   jgridwnd.obj
+ 0001:0000b160       ?DrawFrame@JGridWindow@@IAEXXZ 1000c160 f   jgridwnd.obj
+ 0001:0000b680       ?EndCellEdit@JGridWindow@@QAEXXZ 1000c680 f   jgridwnd.obj
+ 0001:0000b7c0       ?RemoveAll@JGridWindow@@QAEXXZ 1000c7c0 f   jgridwnd.obj
+ 0001:0000b850       ?SetGPos@JGridWindow@@IAEXXZ 1000c850 f   jgridwnd.obj
+ 0001:0000bba0       ?SetColumnCellJustify@JGridWindow@@QAEXHH@Z 1000cba0 f   jgridwnd.obj
+ 0001:0000bbd0       ?SetColumnHeaderJustify@JGridWindow@@QAEXHH@Z 1000cbd0 f   jgridwnd.obj
+ 0001:0000bc00       ?SetColumnTitle@JGridWindow@@QAEXHPAD@Z 1000cc00 f   jgridwnd.obj
+ 0001:0000bc30       ?HypertextLaunch@JGridWindow@@IAEXJH@Z 1000cc30 f   jgridwnd.obj
+ 0001:0000bc70       ?SetCellString@JGridWindow@@QAEHJHAAVGUserText@@@Z 1000cc70 f   jgridwnd.obj
+ 0001:0000bcd0       ?SetCellString@JGridWindow@@QAEHJHAAVGUserText@@H@Z 1000ccd0 f   jgridwnd.obj
+ 0001:0000bd40       ?GetRecAttribute@JGridWindow@@QAEHJPAK@Z 1000cd40 f   jgridwnd.obj
+ 0001:0000bd80       ?SetRecAttribute@JGridWindow@@QAEHJK@Z 1000cd80 f   jgridwnd.obj
+ 0001:0000bdc0       ?GetRecDataPtr@JGridWindow@@QAEHJPAPAX@Z 1000cdc0 f   jgridwnd.obj
+ 0001:0000be00       ?SetRecDataPtr@JGridWindow@@QAEHJPAX@Z 1000ce00 f   jgridwnd.obj
+ 0001:0000be40       ?GetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z 1000ce40 f   jgridwnd.obj
+ 0001:0000bf00       ?OnKillFocus@JGridEditRecord@@IAEXPAVCWnd@@@Z 1000cf00 f   jgridedt.obj
+ 0001:0000bf00       ?OnEraseBkgnd@JGridWindow@@IAEHPAVCDC@@@Z 1000cf00 f   jgridwnd.obj
+ 0001:0000bf10       ?OnChangeColor@JGridWindow@@IAEXXZ 1000cf10 f   jgridwnd.obj
+ 0001:0000bfd0       ?OnSetCursor@JGridWindow@@IAEHPAVCWnd@@II@Z 1000cfd0 f   jgridwnd.obj
+ 0001:0000bfe0       ?IsCellReadOnly@JGridWindow@@QAEHJH@Z 1000cfe0 f   jgridwnd.obj
+ 0001:0000c040       ?GetColumn@JGridWindow@@QAEPAVJGridColumn@@H@Z 1000d040 f   jgridwnd.obj
+ 0001:0000c070       ?GetColumnWidth@JGridWindow@@QAEHH@Z 1000d070 f   jgridwnd.obj
+ 0001:0000c0b0       ?StringToWidth@JGridWindow@@QAEHAAVGUserText@@@Z 1000d0b0 f   jgridwnd.obj
+ 0001:0000c190       ?CharsToWidth@JGridWindow@@QAEHH@Z 1000d190 f   jgridwnd.obj
+ 0001:0000c240       ?RemoveAll@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAEXXZ 1000d240 f i jgridwnd.obj
+ 0001:0000c2a0       ?NewAssoc@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@IAEPAUCAssoc@1@XZ 1000d2a0 f i jgridwnd.obj
+ 0001:0000c310       ?FreeAssoc@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@IAEXPAUCAssoc@1@@Z 1000d310 f i jgridwnd.obj
+ 0001:0000c330       ?GetAssocAt@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@IBEPAUCAssoc@1@PAUHWND__@@AAI@Z 1000d330 f i jgridwnd.obj
+ 0001:0000c380       ??0GridMbr@@QAE@XZ         1000d380 f i jgridwnd.obj
+ 0001:0000c740       ?OnPaint@JGridWindow@@IAEXXZ 1000d740 f   jgridwnd.obj
+ 0001:0000cc20       ?OnClickedGrid@JGridWindow@@IAEXXZ 1000dc20 f   jgridwnd.obj
+ 0001:0000cc90       ?EndAction@JGridWindow@@IAEXXZ 1000dc90 f   jgridwnd.obj
+ 0001:0000cda0       ?ResizeObjects@JGridWindow@@IAEXXZ 1000dda0 f   jgridwnd.obj
+ 0001:0000cf80       ?OnKillFocus@JGridWindow@@IAEXPAVCWnd@@@Z 1000df80 f   jgridwnd.obj
+ 0001:0000d0a0       ??A?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAEAAPAVJGridWindow@@PAUHWND__@@@Z 1000e0a0 f i jgridwnd.obj
+ 0001:0000d0f0       ?RemoveKey@?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAEHPAUHWND__@@@Z 1000e0f0 f i jgridwnd.obj
+ 0001:0000d150       ??1?$JMap@PAUHWND__@@PAU1@PAVJGridWindow@@PAV2@@@QAE@XZ 1000e150 f i jgridwnd.obj
+ 0001:0000d160       ??0JGridWindow@@QAE@XZ     1000e160 f   jgridwnd.obj
+ 0001:0000d400       ??1JGridWindow@@UAE@XZ     1000e400 f   jgridwnd.obj
+ 0001:0000d5c0       ?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z 1000e5c0 f   jgridwnd.obj
+ 0001:0000e8a0       ??_EJColorPicker@@UAEPAXI@Z 1000f8a0 f i jgridwnd.obj
+ 0001:0000e8a0       ??_GJColorPicker@@UAEPAXI@Z 1000f8a0 f i jgridwnd.obj
+ 0001:0000e8c0       ?OnSize@JGridWindow@@IAEXIHH@Z 1000f8c0 f   jgridwnd.obj
+ 0001:0000ed90       ??_EJGridWindow@@UAEPAXI@Z 1000fd90 f i jgridwnd.obj
+ 0001:0000edf0       ?CreateObject@JGridWindow@@SGPAVCObject@@XZ 1000fdf0 f   jgridwnd.obj
+ 0001:0000ee50       ?GetThisMessageMap@JGridWindow@@KGPBUAFX_MSGMAP@@XZ 1000fe50 f   jgridwnd.obj
+ 0001:0000ee60       ?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z 1000fe60 f   jgridwnd.obj
+ 0001:000101c0       ?GetMessageMap@JGridWindow@@MBEPBUAFX_MSGMAP@@XZ 100111c0 f   jgridwnd.obj
+ 0001:00010200       ?GetJGResourceHandle@@YAPAUHINSTANCE__@@XZ 10011200 f   jgridx.obj
+ 0001:00010210       _DllMain@12                10011210 f   jgridx.obj
+ 0001:00010300       _ExtRawDllMain@12          10011300 f   jgridx.obj
+ 0001:00010330       ??1JGridStyleDropdown@@UAE@XZ 10011330 f   jstddown.obj
+ 0001:000103b0       ?Cleanup@JGridStyleDropdown@@IAEXXZ 100113b0 f   jstddown.obj
+ 0001:000103c0       ?PtInRect@CRect@@QBEHUtagPOINT@@@Z 100113c0 f i jstddown.obj
+ 0001:000103e0       ?GetItemRect@CListBox@@QBEHHPAUtagRECT@@@Z 100113e0 f i jstddown.obj
+ 0001:00010400       ??0JGridStyleDropdown@@QAE@XZ 10011400 f   jstddown.obj
+ 0001:00010480       ??_GJGridStyleDropdown@@UAEPAXI@Z 10011480 f i jstddown.obj
+ 0001:00010480       ??_EJGridStyleDropdown@@UAEPAXI@Z 10011480 f i jstddown.obj
+ 0001:000104a0       ?SetCurSel@JGridStyleDropdown@@IAEXH@Z 100114a0 f   jstddown.obj
+ 0001:000104f0       ?OnCreate@JGridStyleDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z 100114f0 f   jstddown.obj
+ 0001:00010920       ?OnLButtonUp@JGridStyleDropdown@@IAEXIVCPoint@@@Z 10011920 f   jstddown.obj
+ 0001:00010960       ?OnPaint@JGridStyleDropdown@@IAEXXZ 10011960 f   jstddown.obj
+ 0001:00010b50       ?ShowDropDown@JGridStyleDropdown@@QAEHPAVJButton@@@Z 10011b50 f   jstddown.obj
+ 0001:00010f60       ?SetIndex@JGridStyleDropdown@@QAEXH@Z 10011f60 f   jstddown.obj
+ 0001:00010f80       ?GetThisMessageMap@JGridStyleDropdown@@KGPBUAFX_MSGMAP@@XZ 10011f80 f   jstddown.obj
+ 0001:00010ff0       ?GetMessageMap@JGridStyleDropdown@@MBEPBUAFX_MSGMAP@@XZ 10011ff0 f   jstddown.obj
+ 0001:00011000       ??1JGridWeightDropdown@@UAE@XZ 10012000 f   jwtddown.obj
+ 0001:000110a0       ?OnFloatStatus@JGridWeightDropdown@@IAEJIJ@Z 100120a0 f   jwtddown.obj
+ 0001:000110b0       ?OnLButtonUp@JGridWeightDropdown@@IAEXIVCPoint@@@Z 100120b0 f   jwtddown.obj
+ 0001:000110c0       ?GetWeight@JGridWeightDropdown@@QAENXZ 100120c0 f   jwtddown.obj
+ 0001:000110d0       ?GetIndexFromWeight@JGridWeightDropdown@@QAEFN@Z 100120d0 f   jwtddown.obj
+ 0001:00011100       ?GetLogicalFont@@YA?AUtagLOGFONTA@@PAUHINSTANCE__@@QAVCDC@@HH@Z 10012100 f   jwtddown.obj
+ 0001:00011240       ??0JGridWeightDropdown@@QAE@XZ 10012240 f   jwtddown.obj
+ 0001:000112d0       ??_GJGridWeightDropdown@@UAEPAXI@Z 100122d0 f i jwtddown.obj
+ 0001:000112d0       ??_EJGridWeightDropdown@@UAEPAXI@Z 100122d0 f i jwtddown.obj
+ 0001:000112f0       ?OnCreate@JGridWeightDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z 100122f0 f   jwtddown.obj
+ 0001:00011770       ?OnPaint@JGridWeightDropdown@@IAEXXZ 10012770 f   jwtddown.obj
+ 0001:00011950       ?SetCurSel@JGridWeightDropdown@@IAEXH@Z 10012950 f   jwtddown.obj
+ 0001:00011a70       ?Cleanup@JGridWeightDropdown@@IAEXXZ 10012a70 f   jwtddown.obj
+ 0001:00011b10       ?ShowDropDown@JGridWeightDropdown@@QAEHPAVJButton@@@Z 10012b10 f   jwtddown.obj
+ 0001:00011f70       ?SetWeight@JGridWeightDropdown@@QAEXN@Z 10012f70 f   jwtddown.obj
+ 0001:00011fc0       ?GetThisMessageMap@JGridWeightDropdown@@KGPBUAFX_MSGMAP@@XZ 10012fc0 f   jwtddown.obj
+ 0001:00012030       ?GetMessageMap@JGridWeightDropdown@@MBEPBUAFX_MSGMAP@@XZ 10013030 f   jwtddown.obj
+ 0001:00012040       ?OnDel@JGridWindow@@IAEXXZ 10013040 f   keyboard.obj
+ 0001:000120e0       ?OnChar@JGridWindow@@IAEXIII@Z 100130e0 f   keyboard.obj
+ 0001:00012100       ?OnKeyDown@JGridWindow@@IAEXIII@Z 10013100 f   keyboard.obj
+ 0001:000125d0       ?OnKeyUp@JGridWindow@@IAEXIII@Z 100135d0 f   keyboard.obj
+ 0001:000126b0       ?OnLButtonDown@JGridWindow@@IAEXIVCPoint@@@Z 100136b0 f   mouse.obj
+ 0001:00012ff0       ?OnMouseMove@JGridWindow@@IAEXIVCPoint@@@Z 10013ff0 f   mouse.obj
+ 0001:00013bc0       ?OnLButtonDblClk@JGridWindow@@IAEXIVCPoint@@@Z 10014bc0 f   mouse.obj
+ 0001:00013f40       ?OnTimer@JGridWindow@@IAEXI@Z 10014f40 f   mouse.obj
+ 0001:000140b0       ?StretchRows@JGridWindow@@IAEXH@Z 100150b0 f   mouse.obj
+ 0001:000142e0       ?StretchRow@JGridWindow@@IAEXHH@Z 100152e0 f   mouse.obj
+ 0001:00014600       ?StretchColumn@JGridWindow@@IAEXHH@Z 10015600 f   mouse.obj
+ 0001:00014820       ?OnLButtonUp@JGridWindow@@IAEXIVCPoint@@@Z 10015820 f   mouse.obj
+ 0001:000149b0       ?ViewCell@JGridWindow@@QAEXJH@Z 100159b0 f   moving.obj
+ 0001:00014d90       ?ViewRecord@JGridWindow@@QAEXJH@Z 10015d90 f   moving.obj
+ 0001:00014ff0       ?FocusOnCell@JGridWindow@@QAEXJH@Z 10015ff0 f   moving.obj
+ 0001:00015390       ?OnClickedTOF@JGridWindow@@IAEXXZ 10016390 f   moving.obj
+ 0001:00015480       ?OnClickedEOF@JGridWindow@@IAEXXZ 10016480 f   moving.obj
+ 0001:00015580       ?NextCell@JGridWindow@@QAEXH@Z 10016580 f   moving.obj
+ 0001:00015980       ?PageCell@JGridWindow@@QAEXH@Z 10016980 f   moving.obj
+ 0001:00015cc0       ?OnClickedPrev@JGridWindow@@IAEXXZ 10016cc0 f   moving.obj
+ 0001:00015dc0       ?OnClickedNext@JGridWindow@@IAEXXZ 10016dc0 f   moving.obj
+ 0001:00015e90       ?DrawRecordPtr@JGridWindow@@IAEXH@Z 10016e90 f   recptr.obj
+ 0001:000162a0       ?DisplayRecordPtr@JGridWindow@@QAEXH@Z 100172a0 f   recptr.obj
+ 0001:00016310       ?SetRecordPtr@JGridWindow@@QAEHJ@Z 10017310 f   recptr.obj
+ 0001:00016520       ?MoveRecordPtr@JGridWindow@@QAEHJ@Z 10017520 f   recptr.obj
+ 0001:00016590       ?SetScrPos@JGridWindow@@IAEXXZ 10017590 f   scroll.obj
+ 0001:000165e0       ?ScrollDown@JGridWindow@@IAEXXZ 100175e0 f   scroll.obj
+ 0001:00016960       ?ScrollUp@JGridWindow@@IAEXXZ 10017960 f   scroll.obj
+ 0001:00016c40       ?ScrollLeft@JGridWindow@@IAEXXZ 10017c40 f   scroll.obj
+ 0001:00016e10       ?ScrollRight@JGridWindow@@IAEXXZ 10017e10 f   scroll.obj
+ 0001:00017100       ?OnVScroll@JGridWindow@@IAEXIIPAVCScrollBar@@@Z 10018100 f   scroll.obj
+ 0001:00017340       ?OnHScroll@JGridWindow@@IAEXIIPAVCScrollBar@@@Z 10018340 f   scroll.obj
+ 0001:00017550       ?GetSelectedRecordCnt@JGridWindow@@QAEJXZ 10018550 f   select.obj
+ 0001:00017560       ?GetSelectedColumnCnt@JGridWindow@@QAEHXZ 10018560 f   select.obj
+ 0001:00017570       ??$ConstructElements@UJGRIDCOORDINATE@@@@YGXPAUJGRIDCOORDINATE@@H@Z 10018570 f i select.obj
+ 0001:00017590       ?GetSelectedRecords@JGridWindow@@QAEXPAVCDWordArray@@@Z 10018590 f   select.obj
+ 0001:00017610       ?GetSelectedColumns@JGridWindow@@QAEXPAVCDWordArray@@@Z 10018610 f   select.obj
+ 0001:000176a0       ?SelectRecord@JGridWindow@@QAEXJH@Z 100186a0 f   select.obj
+ 0001:00017810       ?IsRecordSelected@JGridWindow@@QAEHJ@Z 10018810 f   select.obj
+ 0001:00017850       ?SelectOff@JGridWindow@@QAEXHH@Z 10018850 f   select.obj
+ 0001:00017a70       ?SelectCell@JGridWindow@@IAEXHH@Z 10018a70 f   select.obj
+ 0001:00017c90       ?GetSelCount@JGridWindow@@QAEJXZ 10018c90 f   select.obj
+ 0001:00017cd0       ?DeleteSelectedColumns@JGridWindow@@QAEXXZ 10018cd0 f   select.obj
+ 0001:00017d60       ?DeleteSelectedRecords@JGridWindow@@QAEXXZ 10018d60 f   select.obj
+ 0001:00017e50       ?SetSize@?$JArray@UJGRIDCOORDINATE@@U1@@@QAEXHH@Z 10018e50 f i select.obj
+ 0001:00017f70       ?SetAtGrow@?$JArray@UJGRIDCOORDINATE@@U1@@@QAEXHUJGRIDCOORDINATE@@@Z 10018f70 f i select.obj
+ 0001:00017fa0       ?GetSelectedCell@JGridWindow@@QAEXAAV?$JArray@UJGRIDCOORDINATE@@U1@@@@Z 10018fa0 f   select.obj
+ 0001:00017ff0       ?isHidden@JGridTreeItem@@QAEHXZ 10018ff0 f i stdafx.obj
+ 0001:00018000       ?isExpanded@JGridTreeItem@@QAEHXZ 10019000 f i stdafx.obj
+ 0001:00018010       ?GetDefault@JGridLineStyleColumn@@QAEXPAUJGRIDSTYLESELECTION@@@Z 10019010 f   stylecol.obj
+ 0001:00018030       ?SetDefault@JGridLineStyleColumn@@QAEXPAUJGRIDSTYLESELECTION@@@Z 10019030 f   stylecol.obj
+ 0001:00018050       ?GetJStyleDropdownObject@JGridLineStyleColumn@@QAEPAVJStyleDropdown@@XZ 10019050 f   stylecol.obj
+ 0001:00018070       ?GetStyleSelection@JGridLineStyleColumn@@QAEHJPAUJGRIDSTYLESELECTION@@@Z 10019070 f   stylecol.obj
+ 0001:000180b0       ?GetStyleIndex@JGridLineStyleColumn@@QAEHJ@Z 100190b0 f   stylecol.obj
+ 0001:000180d0       ?GetCellCount@JGridLineStyleColumn@@UAEJXZ 100190d0 f   stylecol.obj
+ 0001:000180e0       ?IsEmpty@JGridLineStyleColumn@@UAEHJ@Z 100190e0 f   stylecol.obj
+ 0001:00018110       ?DrawStyleCell@JGridLineStyleColumn@@UAEXJPAUtagRECT@@@Z 10019110 f   stylecol.obj
+ 0001:000181f0       ?SetStyleSelection@JGridLineStyleColumn@@QAEHJPAUJGRIDSTYLESELECTION@@H@Z 100191f0 f   stylecol.obj
+ 0001:000182d0       ?SetStyleIndex@JGridLineStyleColumn@@QAEHJFH@Z 100192d0 f   stylecol.obj
+ 0001:00018320       ?SetNoStyleFlag@JGridLineStyleColumn@@QAEHJGH@Z 10019320 f   stylecol.obj
+ 0001:00018370       ?RemoveAll@JGridLineStyleColumn@@UAEXXZ 10019370 f   stylecol.obj
+ 0001:000183c0       ?DeleteCells@JGridLineStyleColumn@@UAEXJJ@Z 100193c0 f   stylecol.obj
+ 0001:00018440       ?InsertEmptyCell@JGridLineStyleColumn@@UAEHJJ@Z 10019440 f   stylecol.obj
+ 0001:000184d0       ?SetEmpty@JGridLineStyleColumn@@UAEHJH@Z 100194d0 f   stylecol.obj
+ 0001:000185f0       ?SetStyle@JGridLineStyleColumn@@QAEHJFGH@Z 100195f0 f   stylecol.obj
+ 0001:00018630       ??0JGridLineStyleColumn@@QAE@XZ 10019630 f   stylecol.obj
+ 0001:000187b0       ?Cleanup@JGridLineStyleColumn@@IAEXXZ 100197b0 f   stylecol.obj
+ 0001:00018860       ??1JGridLineStyleColumn@@QAE@XZ 10019860 f   stylecol.obj
+ 0001:000188d0       ?SetDefaultCellHeight@JGridTreeColumn@@QAEXH@Z 100198d0 f   treecol.obj
+ 0001:000188f0       ?GetDefaultCellHeight@JGridTreeColumn@@QAEHXZ 100198f0 f   treecol.obj
+ 0001:00018900       ?SetCellString@JGridTreeColumn@@UAEHJAAVGUserText@@@Z 10019900 f   treecol.obj
+ 0001:000189d0       ?GetMinHeight@JGridTreeColumn@@UAEHH@Z 100199d0 f   treecol.obj
+ 0001:000189f0       ?GetMinWidth@JGridTreeColumn@@UAEHH@Z 100199f0 f   treecol.obj
+ 0001:00018a10       ?SetEmpty@JGridTreeColumn@@QAEHJ@Z 10019a10 f   treecol.obj
+ 0001:00018a60       ?RecordToItem@JGridTreeColumn@@QAEPAVJGridTreeItem@@J@Z 10019a60 f   treecol.obj
+ 0001:00018af0       ?DeleteItemInTree@JGridTreeColumn@@QAEXPAVJGridTreeItem@@H@Z 10019af0 f   treecol.obj
+ 0001:00018b30       ?GetBitmap@JGridTreeColumn@@QAEPAUHBITMAP__@@H@Z 10019b30 f   treecol.obj
+ 0001:00018b60       ?ExpandRecord@JGridTreeColumn@@QAEXJH@Z 10019b60 f   treecol.obj
+ 0001:00018b80       ?ToggleItem@JGridTreeColumn@@QAEXPAVJGridTreeItem@@@Z 10019b80 f   treecol.obj
+ 0001:00018cc0       ?Cell_Draw@JGridTreeColumn@@UAEXHH@Z 10019cc0 f   treecol.obj
+ 0001:00019590       ?RemoveAll@JGridTreeColumn@@UAEXXZ 1001a590 f   treecol.obj
+ 0001:000195d0       ?SetAtGrow@?$JArray@PAVJGridTreeItem@@PAV1@@@QAEXHPAVJGridTreeItem@@@Z 1001a5d0 f i treecol.obj
+ 0001:000195d0       ?SetAtGrow@?$JArray@PAUHBITMAP__@@PAU1@@@QAEXHPAUHBITMAP__@@@Z 1001a5d0 f i stylecol.obj
+ 0001:000195d0       ?SetAtGrow@?$JArray@PAXPAX@@QAEXHPAX@Z 1001a5d0 f i jgridcol.obj
+ 0001:000195d0       ?SetAtGrow@?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAEXHPAUJGRIDTREEROOTS@@@Z 1001a5d0 f i treecol.obj
+ 0001:00019610       ??0JGridTreeColumn@@QAE@XZ 1001a610 f   treecol.obj
+ 0001:00019740       ?Cleanup@JGridTreeColumn@@IAEXXZ 1001a740 f   treecol.obj
+ 0001:00019810       ?AddBitmap@JGridTreeColumn@@QAEHPAUHBITMAP__@@@Z 1001a810 f   treecol.obj
+ 0001:00019840       ?SetBitmap@JGridTreeColumn@@QAEHHPAUHBITMAP__@@@Z 1001a840 f   treecol.obj
+ 0001:00019870       ?Add@?$JArray@PAVJGridTreeItem@@PAV1@@@QAEHPAVJGridTreeItem@@@Z 1001a870 f i treecol.obj
+ 0001:00019870       ?Add@?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAEHPAUJGRIDTREEROOTS@@@Z 1001a870 f i treecol.obj
+ 0001:00019890       ??1JGridTreeColumn@@QAE@XZ 1001a890 f   treecol.obj
+ 0001:00019900       ?AddRootToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJH@Z 1001a900 f   treecol.obj
+ 0001:00019ae0       ?AddChildToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJPAV2@HH@Z 1001aae0 f   treecol.obj
+ 0001:00019ce0       ?GetCellNumber@JGridTreeItem@@QAEJXZ 1001ace0 f   treeitem.obj
+ 0001:00019d40       ?LocateItemByRecord@JGridTreeItem@@QAEPAV1@J@Z 1001ad40 f   treeitem.obj
+ 0001:00019da0       ?UpdateChildCount@JGridTreeItem@@AAEXH@Z 1001ada0 f   treeitem.obj
+ 0001:00019de0       ?LoadRack@JGridTreeItem@@AAEHPAH0PAV1@@Z 1001ade0 f   treeitem.obj
+ 0001:00019f60       ?HideItemAndChildren@JGridTreeItem@@AAEXXZ 1001af60 f   treeitem.obj
+ 0001:00019fc0       ?SetLabelText@JGridTreeItem@@QAEHAAVGUserText@@@Z 1001afc0 f   treeitem.obj
+ 0001:0001a000       ?GetLabelText@JGridTreeItem@@QAEHAAVGUserText@@@Z 1001b000 f   treeitem.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAUJGRIDTREEROOTS@@PAU1@@@QAEXHH@Z 1001b040 f i treeitem.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAXPAX@@QAEXHH@Z 1001b040 f i jgridcol.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAVJGridTreeItem@@PAV1@@@QAEXHH@Z 1001b040 f i treeitem.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAUJGRIDSTYLESELECTION@@PAU1@@@QAEXHH@Z 1001b040 f i stylecol.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAUJGRIDWEIGHTSELECTION@@PAU1@@@QAEXHH@Z 1001b040 f i wtcol.obj
+ 0001:0001a040       ?RemoveAt@?$JArray@PAUJGRIDCOLORSELECTION@@PAU1@@@QAEXHH@Z 1001b040 f i colorpic.obj
+ 0001:0001a080       ??0JGridTreeItem@@QAE@XZ   1001b080 f   treeitem.obj
+ 0001:0001a0f0       ??1JGridTreeItem@@QAE@XZ   1001b0f0 f   treeitem.obj
+ 0001:0001a180       ?GetBox@JGridTreeItem@@QAEHPAUtagRECT@@@Z 1001b180 f   treeitem.obj
+ 0001:0001a200       ?ExpandItem@JGridTreeItem@@QAEXH@Z 1001b200 f   treeitem.obj
+ 0001:0001a290       ?DeleteItemAndRecord@JGridTreeItem@@QAEXXZ 1001b290 f   treeitem.obj
+ 0001:0001a3f0       ?GetNextVisibleRecord@JGridWindow@@QAEJJ@Z 1001b3f0 f   visibler.obj
+ 0001:0001a490       ?GetPreviousVisibleRecord@JGridWindow@@QAEJJ@Z 1001b490 f   visibler.obj
+ 0001:0001a530       ?HideRecord@JGridWindow@@QAEXJH@Z 1001b530 f   visibler.obj
+ 0001:0001a700       ?GetDefault@JGridLineWeightColumn@@QAEXPAUJGRIDWEIGHTSELECTION@@@Z 1001b700 f   wtcol.obj
+ 0001:0001a720       ?SetDefault@JGridLineWeightColumn@@QAEXPAUJGRIDWEIGHTSELECTION@@@Z 1001b720 f   wtcol.obj
+ 0001:0001a780       ?GetJWeightDropdownObject@JGridLineWeightColumn@@QAEPAVJWeightDropdown@@XZ 1001b780 f   wtcol.obj
+ 0001:0001a7a0       ?GetWeightSelection@JGridLineWeightColumn@@QAEHJPAUJGRIDWEIGHTSELECTION@@@Z 1001b7a0 f   wtcol.obj
+ 0001:0001a7e0       ?GetWeightValue@JGridLineWeightColumn@@QAENJ@Z 1001b7e0 f   wtcol.obj
+ 0001:0001a810       ?GetCellCount@JGridLineWeightColumn@@UAEJXZ 1001b810 f   wtcol.obj
+ 0001:0001a820       ?IsEmpty@JGridLineWeightColumn@@UAEHJ@Z 1001b820 f   wtcol.obj
+ 0001:0001a850       ?InsertAt@?$JArray@PAUJGRIDSTYLESELECTION@@PAU1@@@QAEXHPAUJGRIDSTYLESELECTION@@H@Z 1001b850 f i stylecol.obj
+ 0001:0001a850       ?InsertAt@?$JArray@PAUJGRIDCOLORSELECTION@@PAU1@@@QAEXHPAUJGRIDCOLORSELECTION@@H@Z 1001b850 f i colorpic.obj
+ 0001:0001a850       ?InsertAt@?$JArray@PAXPAX@@QAEXHPAXH@Z 1001b850 f i jgridcol.obj
+ 0001:0001a850       ?InsertAt@?$JArray@PAUJGRIDWEIGHTSELECTION@@PAU1@@@QAEXHPAUJGRIDWEIGHTSELECTION@@H@Z 1001b850 f i wtcol.obj
+ 0001:0001a8e0       ?DrawWeightCell@JGridLineWeightColumn@@UAEXJPAUtagRECT@@@Z 1001b8e0 f   wtcol.obj
+ 0001:0001aa60       ?SetWeightSelection@JGridLineWeightColumn@@QAEHJPAUJGRIDWEIGHTSELECTION@@H@Z 1001ba60 f   wtcol.obj
+ 0001:0001ab70       ?SetWeightValue@JGridLineWeightColumn@@QAEHJNH@Z 1001bb70 f   wtcol.obj
+ 0001:0001abf0       ?SetNoWeightFlag@JGridLineWeightColumn@@QAEHJGH@Z 1001bbf0 f   wtcol.obj
+ 0001:0001ac40       ?RemoveAll@JGridLineWeightColumn@@UAEXXZ 1001bc40 f   wtcol.obj
+ 0001:0001ac90       ?DeleteCells@JGridLineWeightColumn@@UAEXJJ@Z 1001bc90 f   wtcol.obj
+ 0001:0001ad10       ?InsertEmptyCell@JGridLineWeightColumn@@UAEHJJ@Z 1001bd10 f   wtcol.obj
+ 0001:0001ada0       ?SetEmpty@JGridLineWeightColumn@@UAEHJH@Z 1001bda0 f   wtcol.obj
+ 0001:0001aee0       ?SetWeight@JGridLineWeightColumn@@QAEHJNGH@Z 1001bee0 f   wtcol.obj
+ 0001:0001af50       ??0JGridLineWeightColumn@@QAE@XZ 1001bf50 f   wtcol.obj
+ 0001:0001b0c0       ?Cleanup@JGridLineWeightColumn@@IAEXXZ 1001c0c0 f   wtcol.obj
+ 0001:0001b170       ??1JGridLineWeightColumn@@QAE@XZ 1001c170 f   wtcol.obj
+ 0001:0001b1d8       ?GetMessageMap@JBitmapListBox@@MBEPBUAFX_MSGMAP@@XZ 1001c1d8 f   control:control.dll
+ 0001:0001b1de       ?MeasureItem@JBitmapListBox@@MAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001c1de f   control:control.dll
+ 0001:0001b1e4       ?GetMessageMap@JWeightListBox@@MBEPBUAFX_MSGMAP@@XZ 1001c1e4 f   control:control.dll
+ 0001:0001b1ea       ?MeasureItem@JWeightListBox@@MAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001c1ea f   control:control.dll
+ 0001:0001b1f0       ?GetRuntimeClass@JColorPicker@@UBEPAUCRuntimeClass@@XZ 1001c1f0 f   control:control.dll
+ 0001:0001b1f6       ?GetMessageMap@JColorPicker@@MBEPBUAFX_MSGMAP@@XZ 1001c1f6 f   control:control.dll
+ 0001:0001b1fc       ?LoadColors@JColorPicker@@UAEHPBD@Z 1001c1fc f   control:control.dll
+ 0001:0001b202       ?CalcFixedLayout@JColorPicker@@UBE?AVCSize@@XZ 1001c202 f   control:control.dll
+ 0001:0001b208       _JIsNewShell               1001c208 f   jutil:JUtil.dll
+ 0001:0001b20e       _JFreeLibrary              1001c20e f   jutil:JUtil.dll
+ 0001:0001b214       _JGlobalUnlock@4           1001c214 f   sealloc:sealloc.dll
+ 0001:0001b21a       _JGlobalLock@4             1001c21a f   sealloc:sealloc.dll
+ 0001:0001b220       _JGlobalAlloc@8            1001c220 f   sealloc:sealloc.dll
+ 0001:0001b226       ??3@YAXPAX@Z               1001c226 f   mfc80:MFC80.DLL
+ 0001:0001b22c       ?GetRuntimeClass@CGdiObject@@UBEPAUCRuntimeClass@@XZ 1001c22c f   mfc80:MFC80.DLL
+ 0001:0001b232       ?DeleteObject@CGdiObject@@QAEHXZ 1001c232 f   mfc80:MFC80.DLL
+ 0001:0001b238       ?GetRuntimeClass@CRgn@@UBEPAUCRuntimeClass@@XZ 1001c238 f   mfc80:MFC80.DLL
+ 0001:0001b23e       ?Attach@CGdiObject@@QAEHPAX@Z 1001c23e f   mfc80:MFC80.DLL
+ 0001:0001b244       ?GetRuntimeClass@CBrush@@UBEPAUCRuntimeClass@@XZ 1001c244 f   mfc80:MFC80.DLL
+ 0001:0001b24a       ?FromHandle@CDC@@SGPAV1@PAUHDC__@@@Z 1001c24a f   mfc80:MFC80.DLL
+ 0001:0001b250       ??_V@YAXPAX@Z              1001c250 f   mfc80:MFC80.DLL
+ 0001:0001b256       ?AfxThrowInvalidArgException@@YGXXZ 1001c256 f   mfc80:MFC80.DLL
+ 0001:0001b25c       ?SetAtGrow@CPtrArray@@QAEXHPAX@Z 1001c25c f   mfc80:MFC80.DLL
+ 0001:0001b262       ?FromHandle@CWnd@@SGPAV1@PAUHWND__@@@Z 1001c262 f   mfc80:MFC80.DLL
+ 0001:0001b268       ?SetSize@CPtrArray@@QAEXHH@Z 1001c268 f   mfc80:MFC80.DLL
+ 0001:0001b26e       ?RemoveAt@CPtrArray@@QAEXHH@Z 1001c26e f   mfc80:MFC80.DLL
+ 0001:0001b274       ?SetSize@CDWordArray@@QAEXHH@Z 1001c274 f   mfc80:MFC80.DLL
+ 0001:0001b27a       ?SetSize@CByteArray@@QAEXHH@Z 1001c27a f   mfc80:MFC80.DLL
+ 0001:0001b280       ?RemoveAt@CByteArray@@QAEXHH@Z 1001c280 f   mfc80:MFC80.DLL
+ 0001:0001b286       ?RemoveAt@CDWordArray@@QAEXHH@Z 1001c286 f   mfc80:MFC80.DLL
+ 0001:0001b28c       ?SetFocus@CWnd@@QAEPAV1@XZ 1001c28c f   mfc80:MFC80.DLL
+ 0001:0001b292       ?SetBkMode@CDC@@QAEHH@Z    1001c292 f   mfc80:MFC80.DLL
+ 0001:0001b298       ?GetRuntimeClass@CListBox@@UBEPAUCRuntimeClass@@XZ 1001c298 f   mfc80:MFC80.DLL
+ 0001:0001b29e       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1001c29e f   mfc80:MFC80.DLL
+ 0001:0001b2a4       ?OnFinalRelease@CWnd@@UAEXXZ 1001c2a4 f   mfc80:MFC80.DLL
+ 0001:0001b2aa       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1001c2aa f   mfc80:MFC80.DLL
+ 0001:0001b2b0       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1001c2b0 f   mfc80:MFC80.DLL
+ 0001:0001b2b6       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1001c2b6 f   mfc80:MFC80.DLL
+ 0001:0001b2bc       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1001c2bc f   mfc80:MFC80.DLL
+ 0001:0001b2c2       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1001c2c2 f   mfc80:MFC80.DLL
+ 0001:0001b2c8       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1001c2c8 f   mfc80:MFC80.DLL
+ 0001:0001b2ce       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1001c2ce f   mfc80:MFC80.DLL
+ 0001:0001b2d4       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1001c2d4 f   mfc80:MFC80.DLL
+ 0001:0001b2da       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 1001c2da f   mfc80:MFC80.DLL
+ 0001:0001b2e0       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1001c2e0 f   mfc80:MFC80.DLL
+ 0001:0001b2e6       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 1001c2e6 f   mfc80:MFC80.DLL
+ 0001:0001b2ec       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1001c2ec f   mfc80:MFC80.DLL
+ 0001:0001b2f2       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1001c2f2 f   mfc80:MFC80.DLL
+ 0001:0001b2f8       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1001c2f8 f   mfc80:MFC80.DLL
+ 0001:0001b2fe       ?PreSubclassWindow@CWnd@@UAEXXZ 1001c2fe f   mfc80:MFC80.DLL
+ 0001:0001b304       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 1001c304 f   mfc80:MFC80.DLL
+ 0001:0001b30a       ?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 1001c30a f   mfc80:MFC80.DLL
+ 0001:0001b310       ?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 1001c310 f   mfc80:MFC80.DLL
+ 0001:0001b316       ?DestroyWindow@CWnd@@UAEHXZ 1001c316 f   mfc80:MFC80.DLL
+ 0001:0001b31c       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 1001c31c f   mfc80:MFC80.DLL
+ 0001:0001b322       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 1001c322 f   mfc80:MFC80.DLL
+ 0001:0001b328       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 1001c328 f   mfc80:MFC80.DLL
+ 0001:0001b32e       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 1001c32e f   mfc80:MFC80.DLL
+ 0001:0001b334       ?WinHelpA@CWnd@@UAEXKI@Z   1001c334 f   mfc80:MFC80.DLL
+ 0001:0001b33a       ?HtmlHelpA@CWnd@@UAEXKI@Z  1001c33a f   mfc80:MFC80.DLL
+ 0001:0001b340       ?WinHelpInternal@CWnd@@UAEXKI@Z 1001c340 f   mfc80:MFC80.DLL
+ 0001:0001b346       ?ContinueModal@CWnd@@UAEHXZ 1001c346 f   mfc80:MFC80.DLL
+ 0001:0001b34c       ?EndModalLoop@CWnd@@UAEXH@Z 1001c34c f   mfc80:MFC80.DLL
+ 0001:0001b352       ?EnsureStdObj@CWnd@@UAEJXZ 1001c352 f   mfc80:MFC80.DLL
+ 0001:0001b358       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 1001c358 f   mfc80:MFC80.DLL
+ 0001:0001b35e       ?get_accChildCount@CWnd@@UAEJPAJ@Z 1001c35e f   mfc80:MFC80.DLL
+ 0001:0001b364       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 1001c364 f   mfc80:MFC80.DLL
+ 0001:0001b36a       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c36a f   mfc80:MFC80.DLL
+ 0001:0001b370       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c370 f   mfc80:MFC80.DLL
+ 0001:0001b376       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c376 f   mfc80:MFC80.DLL
+ 0001:0001b37c       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1001c37c f   mfc80:MFC80.DLL
+ 0001:0001b382       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1001c382 f   mfc80:MFC80.DLL
+ 0001:0001b388       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c388 f   mfc80:MFC80.DLL
+ 0001:0001b38e       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 1001c38e f   mfc80:MFC80.DLL
+ 0001:0001b394       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c394 f   mfc80:MFC80.DLL
+ 0001:0001b39a       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 1001c39a f   mfc80:MFC80.DLL
+ 0001:0001b3a0       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 1001c3a0 f   mfc80:MFC80.DLL
+ 0001:0001b3a6       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001c3a6 f   mfc80:MFC80.DLL
+ 0001:0001b3ac       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 1001c3ac f   mfc80:MFC80.DLL
+ 0001:0001b3b2       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 1001c3b2 f   mfc80:MFC80.DLL
+ 0001:0001b3b8       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 1001c3b8 f   mfc80:MFC80.DLL
+ 0001:0001b3be       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 1001c3be f   mfc80:MFC80.DLL
+ 0001:0001b3c4       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 1001c3c4 f   mfc80:MFC80.DLL
+ 0001:0001b3ca       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1001c3ca f   mfc80:MFC80.DLL
+ 0001:0001b3d0       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1001c3d0 f   mfc80:MFC80.DLL
+ 0001:0001b3d6       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 1001c3d6 f   mfc80:MFC80.DLL
+ 0001:0001b3dc       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 1001c3dc f   mfc80:MFC80.DLL
+ 0001:0001b3e2       ?OnCommand@CWnd@@MAEHIJ@Z  1001c3e2 f   mfc80:MFC80.DLL
+ 0001:0001b3e8       ?OnNotify@CWnd@@MAEHIJPAJ@Z 1001c3e8 f   mfc80:MFC80.DLL
+ 0001:0001b3ee       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 1001c3ee f   mfc80:MFC80.DLL
+ 0001:0001b3f4       ?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 1001c3f4 f   mfc80:MFC80.DLL
+ 0001:0001b3fa       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 1001c3fa f   mfc80:MFC80.DLL
+ 0001:0001b400       ?WindowProc@CWnd@@MAEJIIJ@Z 1001c400 f   mfc80:MFC80.DLL
+ 0001:0001b406       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 1001c406 f   mfc80:MFC80.DLL
+ 0001:0001b40c       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 1001c40c f   mfc80:MFC80.DLL
+ 0001:0001b412       ?PostNcDestroy@CWnd@@MAEXXZ 1001c412 f   mfc80:MFC80.DLL
+ 0001:0001b418       ?OnChildNotify@CListBox@@MAEHIIJPAJ@Z 1001c418 f   mfc80:MFC80.DLL
+ 0001:0001b41e       ?CheckAutoCenter@CWnd@@UAEHXZ 1001c41e f   mfc80:MFC80.DLL
+ 0001:0001b424       ?IsFrameWnd@CWnd@@UBEHXZ   1001c424 f   mfc80:MFC80.DLL
+ 0001:0001b42a       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 1001c42a f   mfc80:MFC80.DLL
+ 0001:0001b430       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 1001c430 f   mfc80:MFC80.DLL
+ 0001:0001b436       ?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 1001c436 f   mfc80:MFC80.DLL
+ 0001:0001b43c       ?GetOccDialogInfo@CWnd@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 1001c43c f   mfc80:MFC80.DLL
+ 0001:0001b442       ?Create@CListBox@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 1001c442 f   mfc80:MFC80.DLL
+ 0001:0001b448       ?CompareItem@CListBox@@UAEHPAUtagCOMPAREITEMSTRUCT@@@Z 1001c448 f   mfc80:MFC80.DLL
+ 0001:0001b44e       ?DeleteItem@CListBox@@UAEXPAUtagDELETEITEMSTRUCT@@@Z 1001c44e f   mfc80:MFC80.DLL
+ 0001:0001b454       ?VKeyToItem@CListBox@@UAEHII@Z 1001c454 f   mfc80:MFC80.DLL
+ 0001:0001b45a       ?CharToItem@CListBox@@UAEHII@Z 1001c45a f   mfc80:MFC80.DLL
+ 0001:0001b460       ?FillSolidRect@CDC@@QAEXPBUtagRECT@@K@Z 1001c460 f   mfc80:MFC80.DLL
+ 0001:0001b466       ?SelectClipRgn@CDC@@QAEHPAVCRgn@@@Z 1001c466 f   mfc80:MFC80.DLL
+ 0001:0001b46c       ?GetRuntimeClass@CPen@@UBEPAUCRuntimeClass@@XZ 1001c46c f   mfc80:MFC80.DLL
+ 0001:0001b472       ?GetRuntimeClass@CFont@@UBEPAUCRuntimeClass@@XZ 1001c472 f   mfc80:MFC80.DLL
+ 0001:0001b478       ?MoveWindow@CWnd@@QAEXHHHHH@Z 1001c478 f   mfc80:MFC80.DLL
+ 0001:0001b47e       ?SetWindowTextA@CWnd@@QAEXPBD@Z 1001c47e f   mfc80:MFC80.DLL
+ 0001:0001b484       ?GetWindowTextA@CWnd@@QBEXAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 1001c484 f   mfc80:MFC80.DLL
+ 0001:0001b48a       ?Create@CEdit@@QAEHKABUtagRECT@@PAVCWnd@@I@Z 1001c48a f   mfc80:MFC80.DLL
+ 0001:0001b490       ?GetThisClass@CEdit@@SGPAUCRuntimeClass@@XZ 1001c490 f   mfc80:MFC80.DLL
+ 0001:0001b496       ?OnSetFocus@CWnd@@IAEXPAV1@@Z 1001c496 f   mfc80:MFC80.DLL
+ 0001:0001b49c       ?OnPaint@CWnd@@IAEXXZ      1001c49c f   mfc80:MFC80.DLL
+ 0001:0001b4a2       ?GetRuntimeClass@CBitmap@@UBEPAUCRuntimeClass@@XZ 1001c4a2 f   mfc80:MFC80.DLL
+ 0001:0001b4a8       ?Default@CWnd@@IAEJXZ      1001c4a8 f   mfc80:MFC80.DLL
+ 0001:0001b4ae       ??1CWnd@@UAE@XZ            1001c4ae f   mfc80:MFC80.DLL
+ 0001:0001b4b4       ??0CWnd@@QAE@XZ            1001c4b4 f   mfc80:MFC80.DLL
+ 0001:0001b4ba       ?GetRuntimeClass@CButton@@UBEPAUCRuntimeClass@@XZ 1001c4ba f   mfc80:MFC80.DLL
+ 0001:0001b4c0       ?GetMessageMap@CWnd@@MBEPBUAFX_MSGMAP@@XZ 1001c4c0 f   mfc80:MFC80.DLL
+ 0001:0001b4c6       ?OnChildNotify@CButton@@MAEHIIJPAJ@Z 1001c4c6 f   mfc80:MFC80.DLL
+ 0001:0001b4cc       ?Create@CButton@@UAEHPBDKABUtagRECT@@PAVCWnd@@I@Z 1001c4cc f   mfc80:MFC80.DLL
+ 0001:0001b4d2       ?DrawItem@CButton@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001c4d2 f   mfc80:MFC80.DLL
+ 0001:0001b4d8       ??1CButton@@UAE@XZ         1001c4d8 f   mfc80:MFC80.DLL
+ 0001:0001b4de       ?DrawItem@CListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001c4de f   mfc80:MFC80.DLL
+ 0001:0001b4e4       ?MeasureItem@CListBox@@UAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001c4e4 f   mfc80:MFC80.DLL
+ 0001:0001b4ea       ??1CListBox@@UAE@XZ        1001c4ea f   mfc80:MFC80.DLL
+ 0001:0001b4f0       ?GetRuntimeClass@CEdit@@UBEPAUCRuntimeClass@@XZ 1001c4f0 f   mfc80:MFC80.DLL
+ 0001:0001b4f6       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 1001c4f6 f   mfc80:MFC80.DLL
+ 0001:0001b4fc       ??1CEdit@@UAE@XZ           1001c4fc f   mfc80:MFC80.DLL
+ 0001:0001b502       ?GetRuntimeClass@CBitmapButton@@UBEPAUCRuntimeClass@@XZ 1001c502 f   mfc80:MFC80.DLL
+ 0001:0001b508       ?DrawItem@CBitmapButton@@MAEXPAUtagDRAWITEMSTRUCT@@@Z 1001c508 f   mfc80:MFC80.DLL
+ 0001:0001b50e       ?LoadBitmaps@CBitmapButton@@QAEHPBD000@Z 1001c50e f   mfc80:MFC80.DLL
+ 0001:0001b514       ?ScreenToClient@CWnd@@QBEXPAUtagRECT@@@Z 1001c514 f   mfc80:MFC80.DLL
+ 0001:0001b51a       ?GetWindowTextA@CWnd@@QBEHPADH@Z 1001c51a f   mfc80:MFC80.DLL
+ 0001:0001b520       ?GetThisMessageMap@CWnd@@KGPBUAFX_MSGMAP@@XZ 1001c520 f   mfc80:MFC80.DLL
+ 0001:0001b526       ?OnDestroy@CWnd@@IAEXXZ    1001c526 f   mfc80:MFC80.DLL
+ 0001:0001b52c       ?InsertAt@CByteArray@@QAEXHEH@Z 1001c52c f   mfc80:MFC80.DLL
+ 0001:0001b532       ?InsertAt@CPtrArray@@QAEXHPAXH@Z 1001c532 f   mfc80:MFC80.DLL
+ 0001:0001b538       ?InsertAt@CDWordArray@@QAEXHKH@Z 1001c538 f   mfc80:MFC80.DLL
+ 0001:0001b53e       ?GetThisClass@CWnd@@SGPAUCRuntimeClass@@XZ 1001c53e f   mfc80:MFC80.DLL
+ 0001:0001b544       ?LineTo@CDC@@QAEHHH@Z      1001c544 f   mfc80:MFC80.DLL
+ 0001:0001b54a       ?MoveTo@CDC@@QAE?AVCPoint@@HH@Z 1001c54a f   mfc80:MFC80.DLL
+ 0001:0001b550       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001c550 f   mfc80:MFC80.DLL
+ 0001:0001b556       ?GetRuntimeClass@CScrollBar@@UBEPAUCRuntimeClass@@XZ 1001c556 f   mfc80:MFC80.DLL
+ 0001:0001b55c       ?Create@CScrollBar@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 1001c55c f   mfc80:MFC80.DLL
+ 0001:0001b562       ??1CScrollBar@@UAE@XZ      1001c562 f   mfc80:MFC80.DLL
+ 0001:0001b568       ??1CDWordArray@@UAE@XZ     1001c568 f   mfc80:MFC80.DLL
+ 0001:0001b56e       ??1CByteArray@@UAE@XZ      1001c56e f   mfc80:MFC80.DLL
+ 0001:0001b574       ??1CPtrArray@@UAE@XZ       1001c574 f   mfc80:MFC80.DLL
+ 0001:0001b57a       ?SelectObject@CDC@@QAEPAVCPen@@PAV2@@Z 1001c57a f   mfc80:MFC80.DLL
+ 0001:0001b580       ?SelectObject@CDC@@QAEPAVCBrush@@PAV2@@Z 1001c580 f   mfc80:MFC80.DLL
+ 0001:0001b586       ?SetWindowPos@CWnd@@QAEHPBV1@HHHHI@Z 1001c586 f   mfc80:MFC80.DLL
+ 0001:0001b58c       ??0CByteArray@@QAE@XZ      1001c58c f   mfc80:MFC80.DLL
+ 0001:0001b592       ??0CPtrArray@@QAE@XZ       1001c592 f   mfc80:MFC80.DLL
+ 0001:0001b598       ??0CDWordArray@@QAE@XZ     1001c598 f   mfc80:MFC80.DLL
+ 0001:0001b59e       ??1CPaintDC@@UAE@XZ        1001c59e f   mfc80:MFC80.DLL
+ 0001:0001b5a4       ??0CPaintDC@@QAE@PAVCWnd@@@Z 1001c5a4 f   mfc80:MFC80.DLL
+ 0001:0001b5aa       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1001c5aa f   mfc80:MFC80.DLL
+ 0001:0001b5b0       ?RegisterAll@COleObjectFactory@@SGHXZ 1001c5b0 f   mfc80:MFC80.DLL
+ 0001:0001b5b6       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1001c5b6 f   mfc80:MFC80.DLL
+ 0001:0001b5bc       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1001c5bc f   mfc80:MFC80.DLL
+ 0001:0001b5c2       ?GetRuntimeClass@CWnd@@UBEPAUCRuntimeClass@@XZ 1001c5c2 f   mfc80:MFC80.DLL
+ 0001:0001b5c8       ?ShowWindow@CWnd@@QAEHH@Z  1001c5c8 f   mfc80:MFC80.DLL
+ 0001:0001b5ce       ?SetTextColor@CDC@@UAEKK@Z 1001c5ce f   mfc80:MFC80.DLL
+ 0001:0001b5d4       ?Draw3dRect@CDC@@QAEXPBUtagRECT@@KK@Z 1001c5d4 f   mfc80:MFC80.DLL
+ 0001:0001b5da       ?SelectObject@CDC@@UAEPAVCFont@@PAV2@@Z 1001c5da f   mfc80:MFC80.DLL
+ 0001:0001b5e0       ?GetDlgItem@CWnd@@QBEPAV1@H@Z 1001c5e0 f   mfc80:MFC80.DLL
+ 0001:0001b5e6       ?SetROP2@CDC@@QAEHH@Z      1001c5e6 f   mfc80:MFC80.DLL
+ 0001:0001b5ec       _malloc                    1001c5ec f   msvcrt:MSVCR80.dll
+ 0001:0001b5f2       __callnewh                 1001c5f2 f   msvcrt:MSVCR80.dll
+ 0001:0001b5f8       ??_Etype_info@@UAEPAXI@Z   1001c5f8 f i msvcrt:ti_inst.obj
+ 0001:0001b642       ___CxxFrameHandler3        1001c642 f   msvcrt:MSVCR80.dll
+ 0001:0001b648       @__security_check_cookie@4 1001c648 f   msvcrt:secchk.obj
+ 0001:0001b658       _memset                    1001c658 f   msvcrt:MSVCR80.dll
+ 0001:0001b65e       _memcpy                    1001c65e f   msvcrt:MSVCR80.dll
+ 0001:0001b670       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1001c670 f   msvcrt:ehvecdtr.obj
+ 0001:0001b6ce       ??_M@YGXPAXIHP6EX0@Z@Z     1001c6ce f   msvcrt:ehvecdtr.obj
+ 0001:0001b731       __onexit                   1001c731 f   msvcrt:atonexit.obj
+ 0001:0001b7d0       _atexit                    1001c7d0 f   msvcrt:atonexit.obj
+ 0001:0001b7e2       __except_handler4          1001c7e2 f   msvcrt:chandler4gs.obj
+ 0001:0001b810       __alloca_probe_16          1001c810 f   msvcrt:alloca16.obj
+ 0001:0001b826       __alloca_probe_8           1001c826     msvcrt:alloca16.obj
+ 0001:0001b840       __allmul                   1001c840 f   msvcrt:llmul.obj
+ 0001:0001b8c1       __CRT_INIT@12              1001c8c1 f   msvcrt:crtdll.obj
+ 0001:0001bb76       __DllMainCRTStartup@12     1001cb76 f   msvcrt:crtdll.obj
+ 0001:0001bb98       __SEH_prolog4_GS           1001cb98 f   msvcrt:sehprolg4gs.obj
+ 0001:0001bbe0       __SEH_epilog4_GS           1001cbe0 f   msvcrt:sehprolg4gs.obj
+ 0001:0001bbef       ___report_gsfailure        1001cbef f   msvcrt:gs_report.obj
+ 0001:0001bcf4       ?terminate@@YAXXZ          1001ccf4 f   msvcrt:MSVCR80.dll
+ 0001:0001bcfc       __SEH_prolog4              1001ccfc f   msvcrt:sehprolg4.obj
+ 0001:0001bd41       __SEH_epilog4              1001cd41 f   msvcrt:sehprolg4.obj
+ 0001:0001bd56       __unlock                   1001cd56 f   msvcrt:MSVCR80.dll
+ 0001:0001bd5c       ___dllonexit               1001cd5c f   msvcrt:MSVCR80.dll
+ 0001:0001bd62       __lock                     1001cd62 f   msvcrt:MSVCR80.dll
+ 0001:0001bd68       __except_handler4_common   1001cd68 f   msvcrt:MSVCR80.dll
+ 0001:0001bd70       __chkstk                   1001cd70 f   msvcrt:chkstk.obj
+ 0001:0001bd70       __alloca_probe             1001cd70     msvcrt:chkstk.obj
+ 0001:0001bd9b       ___clean_type_info_names   1001cd9b f   msvcrt:tncleanup.obj
+ 0001:0001bda7       __RTC_Initialize           1001cda7 f   msvcrt:initsect.obj
+ 0001:0001bdcb       __RTC_Terminate            1001cdcb f   msvcrt:initsect.obj
+ 0001:0001bdf0       __ValidateImageBase        1001cdf0 f   msvcrt:pesect.obj
+ 0001:0001be20       __FindPESection            1001ce20 f   msvcrt:pesect.obj
+ 0001:0001be62       __IsNonwritableInCurrentImage 1001ce62 f   msvcrt:pesect.obj
+ 0001:0001bece       __initterm                 1001cece f   msvcrt:MSVCR80.dll
+ 0001:0001bed4       __initterm_e               1001ced4 f   msvcrt:MSVCR80.dll
+ 0001:0001beda       __amsg_exit                1001ceda f   msvcrt:MSVCR80.dll
+ 0001:0001bee0       ___CppXcptFilter           1001cee0 f   msvcrt:MSVCR80.dll
+ 0001:0001bee6       ___security_init_cookie    1001cee6 f   msvcrt:gs_support.obj
+ 0001:0001bf7a       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1001cf7a f   msvcrt:MSVCR80.dll
+ 0001:0001bf7a       ??1type_info@@UAE@XZ       1001cf7a f   msvcrt:MSVCR80.dll
+ 0001:0001bf80       __crt_debugger_hook        1001cf80 f   msvcrt:MSVCR80.dll
+ 0001:0001bf86       ___clean_type_info_names_internal 1001cf86 f   msvcrt:MSVCR80.dll
+ 0001:0001bf8c       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1001cf8c f i atls:atltrace.obj
+ 0001:0001bff1       ?_AtlGetThreadACPReal@ATL@@YGIXZ 1001cff1 f i atls:atltrace.obj
+ 0001:0001bff5       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 1001cff5 f i atls:atltrace.obj
+ 0002:00000000       __imp__GetDeviceCaps@8     1001f000     gdi32:GDI32.dll
+ 0002:00000004       __imp__FillRgn@12          1001f004     gdi32:GDI32.dll
+ 0002:00000008       __imp__CreateSolidBrush@4  1001f008     gdi32:GDI32.dll
+ 0002:0000000c       __imp__DeleteDC@4          1001f00c     gdi32:GDI32.dll
+ 0002:00000010       __imp__Polygon@12          1001f010     gdi32:GDI32.dll
+ 0002:00000014       __imp__GetTextExtentPoint32A@16 1001f014     gdi32:GDI32.dll
+ 0002:00000018       __imp__GetTextMetricsA@8   1001f018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__CreateRectRgn@16    1001f01c     gdi32:GDI32.dll
+ 0002:00000020       __imp__CreateFontA@56      1001f020     gdi32:GDI32.dll
+ 0002:00000024       __imp__CreatePatternBrush@4 1001f024     gdi32:GDI32.dll
+ 0002:00000028       __imp__CreatePen@12        1001f028     gdi32:GDI32.dll
+ 0002:0000002c       __imp__StretchBlt@44       1001f02c     gdi32:GDI32.dll
+ 0002:00000030       __imp__SetRectRgn@20       1001f030     gdi32:GDI32.dll
+ 0002:00000034       __imp__GetPixel@12         1001f034     gdi32:GDI32.dll
+ 0002:00000038       __imp__CreatePolygonRgn@12 1001f038     gdi32:GDI32.dll
+ 0002:0000003c       __imp__CreateFontIndirectA@4 1001f03c     gdi32:GDI32.dll
+ 0002:00000040       __imp__GetObjectA@12       1001f040     gdi32:GDI32.dll
+ 0002:00000044       __imp__SelectPalette@12    1001f044     gdi32:GDI32.dll
+ 0002:00000048       __imp__RealizePalette@4    1001f048     gdi32:GDI32.dll
+ 0002:0000004c       __imp__CreateBitmap@20     1001f04c     gdi32:GDI32.dll
+ 0002:00000050       __imp__CreateCompatibleDC@4 1001f050     gdi32:GDI32.dll
+ 0002:00000054       __imp__SelectObject@8      1001f054     gdi32:GDI32.dll
+ 0002:00000058       __imp__SetBkColor@8        1001f058     gdi32:GDI32.dll
+ 0002:0000005c       __imp__BitBlt@36           1001f05c     gdi32:GDI32.dll
+ 0002:00000060       __imp__SetTextColor@8      1001f060     gdi32:GDI32.dll
+ 0002:00000064       __imp__DeleteObject@4      1001f064     gdi32:GDI32.dll
+ 0002:00000068       \177GDI32_NULL_THUNK_DATA  1001f068     gdi32:GDI32.dll
+ 0002:0000006c       __imp_?LangIDToFontCharSet@@YAHG@Z 1001f06c     jutil:JUtil.dll
+ 0002:00000070       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 1001f070     jutil:JUtil.dll
+ 0002:00000074       __imp__JIsNewShell         1001f074     jutil:JUtil.dll
+ 0002:00000078       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 1001f078     jutil:JUtil.dll
+ 0002:0000007c       __imp_?FreeDataChain@JPlex@@QAEXXZ 1001f07c     jutil:JUtil.dll
+ 0002:00000080       __imp_?InsertAt@JPtrArray@@QAEXHPAXH@Z 1001f080     jutil:JUtil.dll
+ 0002:00000084       __imp__JFreeLibrary        1001f084     jutil:JUtil.dll
+ 0002:00000088       __imp_?Left@GUserText@@QBE?AV1@H@Z 1001f088     jutil:JUtil.dll
+ 0002:0000008c       __imp_?Add@JPtrArray@@QAEHPAX@Z 1001f08c     jutil:JUtil.dll
+ 0002:00000090       __imp_?SetAtGrow@JPtrArray@@QAEXHPAX@Z 1001f090     jutil:JUtil.dll
+ 0002:00000094       __imp_?RemoveAll@JPtrArray@@QAEXXZ 1001f094     jutil:JUtil.dll
+ 0002:00000098       __imp_?RemoveAt@JPtrArray@@QAEXHH@Z 1001f098     jutil:JUtil.dll
+ 0002:0000009c       __imp_??0JPtrArray@@QAE@XZ 1001f09c     jutil:JUtil.dll
+ 0002:000000a0       __imp_?SetAt@JPtrArray@@QAEXHPAX@Z 1001f0a0     jutil:JUtil.dll
+ 0002:000000a4       __imp_?Empty@GUserText@@QAEAAV1@XZ 1001f0a4     jutil:JUtil.dll
+ 0002:000000a8       __imp_??0GUserText@@QAE@XZ 1001f0a8     jutil:JUtil.dll
+ 0002:000000ac       __imp_?SetSize@JPtrArray@@QAEXHH@Z 1001f0ac     jutil:JUtil.dll
+ 0002:000000b0       __imp_?GetSize@JPtrArray@@QBEHXZ 1001f0b0     jutil:JUtil.dll
+ 0002:000000b4       __imp_??1GUserText@@QAE@XZ 1001f0b4     jutil:JUtil.dll
+ 0002:000000b8       __imp_??BGUserText@@QBEPBDXZ 1001f0b8     jutil:JUtil.dll
+ 0002:000000bc       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 1001f0bc     jutil:JUtil.dll
+ 0002:000000c0       __imp_?GetAt@JPtrArray@@QBEPAXH@Z 1001f0c0     jutil:JUtil.dll
+ 0002:000000c4       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 1001f0c4     jutil:JUtil.dll
+ 0002:000000c8       __imp_?IsEmpty@GUserText@@QBEHXZ 1001f0c8     jutil:JUtil.dll
+ 0002:000000cc       __imp_??4GUserText@@QAEAAV0@PBD@Z 1001f0cc     jutil:JUtil.dll
+ 0002:000000d0       __imp_?GetNumChars@GUserText@@QBEHXZ 1001f0d0     jutil:JUtil.dll
+ 0002:000000d4       __imp_?GetBytesNeededForCodePage@GUserText@@QBEHI@Z 1001f0d4     jutil:JUtil.dll
+ 0002:000000d8       __imp_??1JPtrArray@@QAE@XZ 1001f0d8     jutil:JUtil.dll
+ 0002:000000dc       \177JUtil_NULL_THUNK_DATA  1001f0dc     jutil:JUtil.dll
+ 0002:000000e0       __imp__TerminateProcess@8  1001f0e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__GetCurrentProcess@0 1001f0e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__UnhandledExceptionFilter@4 1001f0e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__SetUnhandledExceptionFilter@4 1001f0ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__IsDebuggerPresent@0 1001f0f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__QueryPerformanceCounter@4 1001f0f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__GetCurrentThreadId@0 1001f0f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__GetCurrentProcessId@0 1001f0fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GetSystemTimeAsFileTime@4 1001f100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp__GetACP@0            1001f104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp__GetLocaleInfoA@16   1001f108     kernel32:KERNEL32.dll
+ 0002:0000010c       __imp__GetThreadLocale@0   1001f10c     kernel32:KERNEL32.dll
+ 0002:00000110       __imp__GetTickCount@0      1001f110     kernel32:KERNEL32.dll
+ 0002:00000114       __imp__GetVersionExA@4     1001f114     kernel32:KERNEL32.dll
+ 0002:00000118       __imp__InterlockedCompareExchange@12 1001f118     kernel32:KERNEL32.dll
+ 0002:0000011c       __imp__Sleep@4             1001f11c     kernel32:KERNEL32.dll
+ 0002:00000120       __imp__lstrcpyA@8          1001f120     kernel32:KERNEL32.dll
+ 0002:00000124       __imp__MulDiv@12           1001f124     kernel32:KERNEL32.dll
+ 0002:00000128       __imp__InterlockedExchange@8 1001f128     kernel32:KERNEL32.dll
+ 0002:0000012c       __imp__GetUserDefaultLangID@0 1001f12c     kernel32:KERNEL32.dll
+ 0002:00000130       \177KERNEL32_NULL_THUNK_DATA 1001f130     kernel32:KERNEL32.dll
+ 0002:00000134       __imp_?SetSize@CByteArray@@QAEXHH@Z 1001f134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 1001f138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetLength@?$CSimpleStringT@D$00@ATL@@QBEHXZ 1001f13c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 1001f140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?RemoveAt@CByteArray@@QAEXHH@Z 1001f144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?RemoveAt@CDWordArray@@QAEXHH@Z 1001f148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?SetFocus@CWnd@@QAEPAV1@XZ 1001f14c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?SetBkMode@CDC@@QAEHH@Z 1001f150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?GetRuntimeClass@CListBox@@UBEPAUCRuntimeClass@@XZ 1001f154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1001f158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?OnFinalRelease@CWnd@@UAEXXZ 1001f15c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1001f160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1001f164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1001f168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1001f16c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1001f170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1001f174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1001f178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1001f17c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 1001f180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1001f184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 1001f188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1001f18c     mfc80:MFC80.DLL
+ 0002:00000190       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1001f190     mfc80:MFC80.DLL
+ 0002:00000194       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1001f194     mfc80:MFC80.DLL
+ 0002:00000198       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 1001f198     mfc80:MFC80.DLL
+ 0002:0000019c       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 1001f19c     mfc80:MFC80.DLL
+ 0002:000001a0       __imp_?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 1001f1a0     mfc80:MFC80.DLL
+ 0002:000001a4       __imp_?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 1001f1a4     mfc80:MFC80.DLL
+ 0002:000001a8       __imp_?DestroyWindow@CWnd@@UAEHXZ 1001f1a8     mfc80:MFC80.DLL
+ 0002:000001ac       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 1001f1ac     mfc80:MFC80.DLL
+ 0002:000001b0       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 1001f1b0     mfc80:MFC80.DLL
+ 0002:000001b4       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 1001f1b4     mfc80:MFC80.DLL
+ 0002:000001b8       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 1001f1b8     mfc80:MFC80.DLL
+ 0002:000001bc       __imp_?WinHelpA@CWnd@@UAEXKI@Z 1001f1bc     mfc80:MFC80.DLL
+ 0002:000001c0       __imp_?HtmlHelpA@CWnd@@UAEXKI@Z 1001f1c0     mfc80:MFC80.DLL
+ 0002:000001c4       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 1001f1c4     mfc80:MFC80.DLL
+ 0002:000001c8       __imp_?ContinueModal@CWnd@@UAEHXZ 1001f1c8     mfc80:MFC80.DLL
+ 0002:000001cc       __imp_?EndModalLoop@CWnd@@UAEXH@Z 1001f1cc     mfc80:MFC80.DLL
+ 0002:000001d0       __imp_?SetSize@CDWordArray@@QAEXHH@Z 1001f1d0     mfc80:MFC80.DLL
+ 0002:000001d4       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 1001f1d4     mfc80:MFC80.DLL
+ 0002:000001d8       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 1001f1d8     mfc80:MFC80.DLL
+ 0002:000001dc       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 1001f1dc     mfc80:MFC80.DLL
+ 0002:000001e0       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f1e0     mfc80:MFC80.DLL
+ 0002:000001e4       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f1e4     mfc80:MFC80.DLL
+ 0002:000001e8       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f1e8     mfc80:MFC80.DLL
+ 0002:000001ec       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1001f1ec     mfc80:MFC80.DLL
+ 0002:000001f0       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 1001f1f0     mfc80:MFC80.DLL
+ 0002:000001f4       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f1f4     mfc80:MFC80.DLL
+ 0002:000001f8       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 1001f1f8     mfc80:MFC80.DLL
+ 0002:000001fc       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f1fc     mfc80:MFC80.DLL
+ 0002:00000200       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 1001f200     mfc80:MFC80.DLL
+ 0002:00000204       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 1001f204     mfc80:MFC80.DLL
+ 0002:00000208       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 1001f208     mfc80:MFC80.DLL
+ 0002:0000020c       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 1001f20c     mfc80:MFC80.DLL
+ 0002:00000210       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 1001f210     mfc80:MFC80.DLL
+ 0002:00000214       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 1001f214     mfc80:MFC80.DLL
+ 0002:00000218       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 1001f218     mfc80:MFC80.DLL
+ 0002:0000021c       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 1001f21c     mfc80:MFC80.DLL
+ 0002:00000220       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1001f220     mfc80:MFC80.DLL
+ 0002:00000224       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 1001f224     mfc80:MFC80.DLL
+ 0002:00000228       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 1001f228     mfc80:MFC80.DLL
+ 0002:0000022c       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 1001f22c     mfc80:MFC80.DLL
+ 0002:00000230       __imp_?OnCommand@CWnd@@MAEHIJ@Z 1001f230     mfc80:MFC80.DLL
+ 0002:00000234       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 1001f234     mfc80:MFC80.DLL
+ 0002:00000238       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 1001f238     mfc80:MFC80.DLL
+ 0002:0000023c       __imp_?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 1001f23c     mfc80:MFC80.DLL
+ 0002:00000240       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 1001f240     mfc80:MFC80.DLL
+ 0002:00000244       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 1001f244     mfc80:MFC80.DLL
+ 0002:00000248       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 1001f248     mfc80:MFC80.DLL
+ 0002:0000024c       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 1001f24c     mfc80:MFC80.DLL
+ 0002:00000250       __imp_?PostNcDestroy@CWnd@@MAEXXZ 1001f250     mfc80:MFC80.DLL
+ 0002:00000254       __imp_?OnChildNotify@CListBox@@MAEHIIJPAJ@Z 1001f254     mfc80:MFC80.DLL
+ 0002:00000258       __imp_?CheckAutoCenter@CWnd@@UAEHXZ 1001f258     mfc80:MFC80.DLL
+ 0002:0000025c       __imp_?IsFrameWnd@CWnd@@UBEHXZ 1001f25c     mfc80:MFC80.DLL
+ 0002:00000260       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 1001f260     mfc80:MFC80.DLL
+ 0002:00000264       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 1001f264     mfc80:MFC80.DLL
+ 0002:00000268       __imp_?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 1001f268     mfc80:MFC80.DLL
+ 0002:0000026c       __imp_?GetOccDialogInfo@CWnd@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 1001f26c     mfc80:MFC80.DLL
+ 0002:00000270       __imp_?Create@CListBox@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 1001f270     mfc80:MFC80.DLL
+ 0002:00000274       __imp_?CompareItem@CListBox@@UAEHPAUtagCOMPAREITEMSTRUCT@@@Z 1001f274     mfc80:MFC80.DLL
+ 0002:00000278       __imp_?DeleteItem@CListBox@@UAEXPAUtagDELETEITEMSTRUCT@@@Z 1001f278     mfc80:MFC80.DLL
+ 0002:0000027c       __imp_?VKeyToItem@CListBox@@UAEHII@Z 1001f27c     mfc80:MFC80.DLL
+ 0002:00000280       __imp_?CharToItem@CListBox@@UAEHII@Z 1001f280     mfc80:MFC80.DLL
+ 0002:00000284       __imp_?FillSolidRect@CDC@@QAEXPBUtagRECT@@K@Z 1001f284     mfc80:MFC80.DLL
+ 0002:00000288       __imp_?SelectClipRgn@CDC@@QAEHPAVCRgn@@@Z 1001f288     mfc80:MFC80.DLL
+ 0002:0000028c       __imp_?GetRuntimeClass@CPen@@UBEPAUCRuntimeClass@@XZ 1001f28c     mfc80:MFC80.DLL
+ 0002:00000290       __imp_?GetRuntimeClass@CFont@@UBEPAUCRuntimeClass@@XZ 1001f290     mfc80:MFC80.DLL
+ 0002:00000294       __imp_?MoveWindow@CWnd@@QAEXHHHHH@Z 1001f294     mfc80:MFC80.DLL
+ 0002:00000298       __imp_?SetWindowTextA@CWnd@@QAEXPBD@Z 1001f298     mfc80:MFC80.DLL
+ 0002:0000029c       __imp_?GetWindowTextA@CWnd@@QBEXAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 1001f29c     mfc80:MFC80.DLL
+ 0002:000002a0       __imp_?Create@CEdit@@QAEHKABUtagRECT@@PAVCWnd@@I@Z 1001f2a0     mfc80:MFC80.DLL
+ 0002:000002a4       __imp_?GetThisClass@CEdit@@SGPAUCRuntimeClass@@XZ 1001f2a4     mfc80:MFC80.DLL
+ 0002:000002a8       __imp_?OnSetFocus@CWnd@@IAEXPAV1@@Z 1001f2a8     mfc80:MFC80.DLL
+ 0002:000002ac       __imp_?OnPaint@CWnd@@IAEXXZ 1001f2ac     mfc80:MFC80.DLL
+ 0002:000002b0       __imp_?GetRuntimeClass@CBitmap@@UBEPAUCRuntimeClass@@XZ 1001f2b0     mfc80:MFC80.DLL
+ 0002:000002b4       __imp_?Default@CWnd@@IAEJXZ 1001f2b4     mfc80:MFC80.DLL
+ 0002:000002b8       __imp_??1CWnd@@UAE@XZ      1001f2b8     mfc80:MFC80.DLL
+ 0002:000002bc       __imp_??0CWnd@@QAE@XZ      1001f2bc     mfc80:MFC80.DLL
+ 0002:000002c0       __imp_?GetRuntimeClass@CButton@@UBEPAUCRuntimeClass@@XZ 1001f2c0     mfc80:MFC80.DLL
+ 0002:000002c4       __imp_?GetMessageMap@CWnd@@MBEPBUAFX_MSGMAP@@XZ 1001f2c4     mfc80:MFC80.DLL
+ 0002:000002c8       __imp_?OnChildNotify@CButton@@MAEHIIJPAJ@Z 1001f2c8     mfc80:MFC80.DLL
+ 0002:000002cc       __imp_?Create@CButton@@UAEHPBDKABUtagRECT@@PAVCWnd@@I@Z 1001f2cc     mfc80:MFC80.DLL
+ 0002:000002d0       __imp_?DrawItem@CButton@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001f2d0     mfc80:MFC80.DLL
+ 0002:000002d4       __imp_??1CButton@@UAE@XZ   1001f2d4     mfc80:MFC80.DLL
+ 0002:000002d8       __imp_?DrawItem@CListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001f2d8     mfc80:MFC80.DLL
+ 0002:000002dc       __imp_?MeasureItem@CListBox@@UAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001f2dc     mfc80:MFC80.DLL
+ 0002:000002e0       __imp_??1CListBox@@UAE@XZ  1001f2e0     mfc80:MFC80.DLL
+ 0002:000002e4       __imp_?GetRuntimeClass@CEdit@@UBEPAUCRuntimeClass@@XZ 1001f2e4     mfc80:MFC80.DLL
+ 0002:000002e8       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 1001f2e8     mfc80:MFC80.DLL
+ 0002:000002ec       __imp_??1CEdit@@UAE@XZ     1001f2ec     mfc80:MFC80.DLL
+ 0002:000002f0       __imp_?GetRuntimeClass@CBitmapButton@@UBEPAUCRuntimeClass@@XZ 1001f2f0     mfc80:MFC80.DLL
+ 0002:000002f4       __imp_?DrawItem@CBitmapButton@@MAEXPAUtagDRAWITEMSTRUCT@@@Z 1001f2f4     mfc80:MFC80.DLL
+ 0002:000002f8       __imp_?LoadBitmaps@CBitmapButton@@QAEHPBD000@Z 1001f2f8     mfc80:MFC80.DLL
+ 0002:000002fc       __imp_?ScreenToClient@CWnd@@QBEXPAUtagRECT@@@Z 1001f2fc     mfc80:MFC80.DLL
+ 0002:00000300       __imp_?GetWindowTextA@CWnd@@QBEHPADH@Z 1001f300     mfc80:MFC80.DLL
+ 0002:00000304       __imp_?GetThisMessageMap@CWnd@@KGPBUAFX_MSGMAP@@XZ 1001f304     mfc80:MFC80.DLL
+ 0002:00000308       __imp_?OnDestroy@CWnd@@IAEXXZ 1001f308     mfc80:MFC80.DLL
+ 0002:0000030c       __imp_?InsertAt@CByteArray@@QAEXHEH@Z 1001f30c     mfc80:MFC80.DLL
+ 0002:00000310       __imp_?InsertAt@CPtrArray@@QAEXHPAXH@Z 1001f310     mfc80:MFC80.DLL
+ 0002:00000314       __imp_?InsertAt@CDWordArray@@QAEXHKH@Z 1001f314     mfc80:MFC80.DLL
+ 0002:00000318       __imp_?GetThisClass@CWnd@@SGPAUCRuntimeClass@@XZ 1001f318     mfc80:MFC80.DLL
+ 0002:0000031c       __imp_?LineTo@CDC@@QAEHHH@Z 1001f31c     mfc80:MFC80.DLL
+ 0002:00000320       __imp_?MoveTo@CDC@@QAE?AVCPoint@@HH@Z 1001f320     mfc80:MFC80.DLL
+ 0002:00000324       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1001f324     mfc80:MFC80.DLL
+ 0002:00000328       __imp_?GetRuntimeClass@CScrollBar@@UBEPAUCRuntimeClass@@XZ 1001f328     mfc80:MFC80.DLL
+ 0002:0000032c       __imp_?Create@CScrollBar@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 1001f32c     mfc80:MFC80.DLL
+ 0002:00000330       __imp_??1CScrollBar@@UAE@XZ 1001f330     mfc80:MFC80.DLL
+ 0002:00000334       __imp_??1CDWordArray@@UAE@XZ 1001f334     mfc80:MFC80.DLL
+ 0002:00000338       __imp_??1CByteArray@@UAE@XZ 1001f338     mfc80:MFC80.DLL
+ 0002:0000033c       __imp_??1CPtrArray@@UAE@XZ 1001f33c     mfc80:MFC80.DLL
+ 0002:00000340       __imp_?SelectObject@CDC@@QAEPAVCPen@@PAV2@@Z 1001f340     mfc80:MFC80.DLL
+ 0002:00000344       __imp_?SelectObject@CDC@@QAEPAVCBrush@@PAV2@@Z 1001f344     mfc80:MFC80.DLL
+ 0002:00000348       __imp_?SetWindowPos@CWnd@@QAEHPBV1@HHHHI@Z 1001f348     mfc80:MFC80.DLL
+ 0002:0000034c       __imp_?wndTop@CWnd@@2V1@B  1001f34c     mfc80:MFC80.DLL
+ 0002:00000350       __imp_??0CByteArray@@QAE@XZ 1001f350     mfc80:MFC80.DLL
+ 0002:00000354       __imp_??0CPtrArray@@QAE@XZ 1001f354     mfc80:MFC80.DLL
+ 0002:00000358       __imp_??0CDWordArray@@QAE@XZ 1001f358     mfc80:MFC80.DLL
+ 0002:0000035c       __imp_??1CPaintDC@@UAE@XZ  1001f35c     mfc80:MFC80.DLL
+ 0002:00000360       __imp_??0CPaintDC@@QAE@PAVCWnd@@@Z 1001f360     mfc80:MFC80.DLL
+ 0002:00000364       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1001f364     mfc80:MFC80.DLL
+ 0002:00000368       __imp_?RegisterAll@COleObjectFactory@@SGHXZ 1001f368     mfc80:MFC80.DLL
+ 0002:0000036c       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1001f36c     mfc80:MFC80.DLL
+ 0002:00000370       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1001f370     mfc80:MFC80.DLL
+ 0002:00000374       __imp_?GetRuntimeClass@CWnd@@UBEPAUCRuntimeClass@@XZ 1001f374     mfc80:MFC80.DLL
+ 0002:00000378       __imp_?ShowWindow@CWnd@@QAEHH@Z 1001f378     mfc80:MFC80.DLL
+ 0002:0000037c       __imp_?SetTextColor@CDC@@UAEKK@Z 1001f37c     mfc80:MFC80.DLL
+ 0002:00000380       __imp_?Draw3dRect@CDC@@QAEXPBUtagRECT@@KK@Z 1001f380     mfc80:MFC80.DLL
+ 0002:00000384       __imp_?SelectObject@CDC@@UAEPAVCFont@@PAV2@@Z 1001f384     mfc80:MFC80.DLL
+ 0002:00000388       __imp_?GetDlgItem@CWnd@@QBEPAV1@H@Z 1001f388     mfc80:MFC80.DLL
+ 0002:0000038c       __imp_?SetROP2@CDC@@QAEHH@Z 1001f38c     mfc80:MFC80.DLL
+ 0002:00000390       __imp_?RemoveAt@CPtrArray@@QAEXHH@Z 1001f390     mfc80:MFC80.DLL
+ 0002:00000394       __imp_?SetSize@CPtrArray@@QAEXHH@Z 1001f394     mfc80:MFC80.DLL
+ 0002:00000398       __imp_?FromHandle@CWnd@@SGPAV1@PAUHWND__@@@Z 1001f398     mfc80:MFC80.DLL
+ 0002:0000039c       __imp_?SetAtGrow@CPtrArray@@QAEXHPAX@Z 1001f39c     mfc80:MFC80.DLL
+ 0002:000003a0       __imp_?AfxThrowInvalidArgException@@YGXXZ 1001f3a0     mfc80:MFC80.DLL
+ 0002:000003a4       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1001f3a4     mfc80:MFC80.DLL
+ 0002:000003a8       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 1001f3a8     mfc80:MFC80.DLL
+ 0002:000003ac       __imp_??_V@YAXPAX@Z        1001f3ac     mfc80:MFC80.DLL
+ 0002:000003b0       __imp_?FromHandle@CDC@@SGPAV1@PAUHDC__@@@Z 1001f3b0     mfc80:MFC80.DLL
+ 0002:000003b4       __imp_?GetRuntimeClass@CBrush@@UBEPAUCRuntimeClass@@XZ 1001f3b4     mfc80:MFC80.DLL
+ 0002:000003b8       __imp_?Attach@CGdiObject@@QAEHPAX@Z 1001f3b8     mfc80:MFC80.DLL
+ 0002:000003bc       __imp_?GetRuntimeClass@CRgn@@UBEPAUCRuntimeClass@@XZ 1001f3bc     mfc80:MFC80.DLL
+ 0002:000003c0       __imp_?DeleteObject@CGdiObject@@QAEHXZ 1001f3c0     mfc80:MFC80.DLL
+ 0002:000003c4       __imp_?GetRuntimeClass@CGdiObject@@UBEPAUCRuntimeClass@@XZ 1001f3c4     mfc80:MFC80.DLL
+ 0002:000003c8       __imp_??3@YAXPAX@Z         1001f3c8     mfc80:MFC80.DLL
+ 0002:000003cc       __imp_?EnsureStdObj@CWnd@@UAEJXZ 1001f3cc     mfc80:MFC80.DLL
+ 0002:000003d0       \177MFC80_NULL_THUNK_DATA  1001f3d0     mfc80:MFC80.DLL
+ 0002:000003d4       __imp_?terminate@@YAXXZ    1001f3d4     msvcrt:MSVCR80.dll
+ 0002:000003d8       __imp___unlock             1001f3d8     msvcrt:MSVCR80.dll
+ 0002:000003dc       __imp___encode_pointer     1001f3dc     msvcrt:MSVCR80.dll
+ 0002:000003e0       __imp____dllonexit         1001f3e0     msvcrt:MSVCR80.dll
+ 0002:000003e4       __imp___lock               1001f3e4     msvcrt:MSVCR80.dll
+ 0002:000003e8       __imp___onexit             1001f3e8     msvcrt:MSVCR80.dll
+ 0002:000003ec       __imp___decode_pointer     1001f3ec     msvcrt:MSVCR80.dll
+ 0002:000003f0       __imp___except_handler4_common 1001f3f0     msvcrt:MSVCR80.dll
+ 0002:000003f4       __imp___malloc_crt         1001f3f4     msvcrt:MSVCR80.dll
+ 0002:000003f8       __imp___encoded_null       1001f3f8     msvcrt:MSVCR80.dll
+ 0002:000003fc       __imp___initterm           1001f3fc     msvcrt:MSVCR80.dll
+ 0002:00000400       __imp___initterm_e         1001f400     msvcrt:MSVCR80.dll
+ 0002:00000404       __imp___amsg_exit          1001f404     msvcrt:MSVCR80.dll
+ 0002:00000408       __imp___adjust_fdiv        1001f408     msvcrt:MSVCR80.dll
+ 0002:0000040c       __imp____CppXcptFilter     1001f40c     msvcrt:MSVCR80.dll
+ 0002:00000410       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1001f410     msvcrt:MSVCR80.dll
+ 0002:00000414       __imp___crt_debugger_hook  1001f414     msvcrt:MSVCR80.dll
+ 0002:00000418       __imp____clean_type_info_names_internal 1001f418     msvcrt:MSVCR80.dll
+ 0002:0000041c       __imp__realloc             1001f41c     msvcrt:MSVCR80.dll
+ 0002:00000420       __imp__free                1001f420     msvcrt:MSVCR80.dll
+ 0002:00000424       __imp__strtol              1001f424     msvcrt:MSVCR80.dll
+ 0002:00000428       __imp__atoi                1001f428     msvcrt:MSVCR80.dll
+ 0002:0000042c       __imp__vsprintf_s          1001f42c     msvcrt:MSVCR80.dll
+ 0002:00000430       __imp__memmove             1001f430     msvcrt:MSVCR80.dll
+ 0002:00000434       __imp__memcpy              1001f434     msvcrt:MSVCR80.dll
+ 0002:00000438       __imp__memset              1001f438     msvcrt:MSVCR80.dll
+ 0002:0000043c       __imp____CxxFrameHandler3  1001f43c     msvcrt:MSVCR80.dll
+ 0002:00000440       __imp___callnewh           1001f440     msvcrt:MSVCR80.dll
+ 0002:00000444       __imp__malloc              1001f444     msvcrt:MSVCR80.dll
+ 0002:00000448       \177MSVCR80_NULL_THUNK_DATA 1001f448     msvcrt:MSVCR80.dll
+ 0002:0000044c       __imp__GetScrollRange@16   1001f44c     user32:USER32.dll
+ 0002:00000450       __imp__SetScrollPos@16     1001f450     user32:USER32.dll
+ 0002:00000454       __imp__PeekMessageA@20     1001f454     user32:USER32.dll
+ 0002:00000458       __imp__SetCursor@4         1001f458     user32:USER32.dll
+ 0002:0000045c       __imp__KillTimer@8         1001f45c     user32:USER32.dll
+ 0002:00000460       __imp__SetTimer@16         1001f460     user32:USER32.dll
+ 0002:00000464       __imp__TranslateMessage@4  1001f464     user32:USER32.dll
+ 0002:00000468       __imp__GetMessageA@16      1001f468     user32:USER32.dll
+ 0002:0000046c       __imp__FillRect@12         1001f46c     user32:USER32.dll
+ 0002:00000470       __imp__FrameRect@12        1001f470     user32:USER32.dll
+ 0002:00000474       __imp__GetDC@4             1001f474     user32:USER32.dll
+ 0002:00000478       __imp__ReleaseDC@8         1001f478     user32:USER32.dll
+ 0002:0000047c       __imp__CopyRect@8          1001f47c     user32:USER32.dll
+ 0002:00000480       __imp__SendMessageA@16     1001f480     user32:USER32.dll
+ 0002:00000484       __imp__InvalidateRect@12   1001f484     user32:USER32.dll
+ 0002:00000488       __imp__GetParent@4         1001f488     user32:USER32.dll
+ 0002:0000048c       __imp__SetScrollRange@20   1001f48c     user32:USER32.dll
+ 0002:00000490       __imp__RegisterWindowMessageA@4 1001f490     user32:USER32.dll
+ 0002:00000494       __imp__OpenClipboard@4     1001f494     user32:USER32.dll
+ 0002:00000498       __imp__MessageBeep@4       1001f498     user32:USER32.dll
+ 0002:0000049c       __imp__CloseClipboard@0    1001f49c     user32:USER32.dll
+ 0002:000004a0       __imp__SetClipboardData@8  1001f4a0     user32:USER32.dll
+ 0002:000004a4       __imp__EmptyClipboard@0    1001f4a4     user32:USER32.dll
+ 0002:000004a8       __imp__PostMessageA@16     1001f4a8     user32:USER32.dll
+ 0002:000004ac       __imp__SetRect@20          1001f4ac     user32:USER32.dll
+ 0002:000004b0       __imp__EnableWindow@8      1001f4b0     user32:USER32.dll
+ 0002:000004b4       __imp__GetSysColor@4       1001f4b4     user32:USER32.dll
+ 0002:000004b8       __imp__LoadBitmapA@8       1001f4b8     user32:USER32.dll
+ 0002:000004bc       __imp__LoadStringA@16      1001f4bc     user32:USER32.dll
+ 0002:000004c0       __imp__IntersectRect@12    1001f4c0     user32:USER32.dll
+ 0002:000004c4       __imp__SetRectEmpty@4      1001f4c4     user32:USER32.dll
+ 0002:000004c8       __imp__GetClientRect@8     1001f4c8     user32:USER32.dll
+ 0002:000004cc       __imp__GetKeyState@4       1001f4cc     user32:USER32.dll
+ 0002:000004d0       __imp__GetWindowRect@8     1001f4d0     user32:USER32.dll
+ 0002:000004d4       __imp__ClientToScreen@8    1001f4d4     user32:USER32.dll
+ 0002:000004d8       __imp__ScreenToClient@8    1001f4d8     user32:USER32.dll
+ 0002:000004dc       __imp__TranslateAcceleratorA@12 1001f4dc     user32:USER32.dll
+ 0002:000004e0       __imp__OffsetRect@12       1001f4e0     user32:USER32.dll
+ 0002:000004e4       __imp__UpdateWindow@4      1001f4e4     user32:USER32.dll
+ 0002:000004e8       __imp__LoadCursorA@8       1001f4e8     user32:USER32.dll
+ 0002:000004ec       __imp__DestroyAcceleratorTable@4 1001f4ec     user32:USER32.dll
+ 0002:000004f0       __imp__DefWindowProcA@16   1001f4f0     user32:USER32.dll
+ 0002:000004f4       __imp__GetSystemMetrics@4  1001f4f4     user32:USER32.dll
+ 0002:000004f8       __imp__LoadAcceleratorsA@8 1001f4f8     user32:USER32.dll
+ 0002:000004fc       __imp__RegisterClassA@4    1001f4fc     user32:USER32.dll
+ 0002:00000500       __imp__LoadIconA@8         1001f500     user32:USER32.dll
+ 0002:00000504       __imp__ReleaseCapture@0    1001f504     user32:USER32.dll
+ 0002:00000508       __imp__PtInRect@12         1001f508     user32:USER32.dll
+ 0002:0000050c       __imp__InflateRect@12      1001f50c     user32:USER32.dll
+ 0002:00000510       __imp__DrawTextA@20        1001f510     user32:USER32.dll
+ 0002:00000514       __imp__GetCapture@0        1001f514     user32:USER32.dll
+ 0002:00000518       __imp__SetCapture@4        1001f518     user32:USER32.dll
+ 0002:0000051c       __imp__PostQuitMessage@4   1001f51c     user32:USER32.dll
+ 0002:00000520       __imp__DispatchMessageA@4  1001f520     user32:USER32.dll
+ 0002:00000524       \177USER32_NULL_THUNK_DATA 1001f524     user32:USER32.dll
+ 0002:00000528       __imp_?GetThisMessageMap@JDropdown@@KGPBUAFX_MSGMAP@@XZ 1001f528     control:control.dll
+ 0002:0000052c       __imp_??1JDistanceEdit@@UAE@XZ 1001f52c     control:control.dll
+ 0002:00000530       __imp_??1JUnitEdit@@UAE@XZ 1001f530     control:control.dll
+ 0002:00000534       __imp_??0JDistanceEdit@@QAE@XZ 1001f534     control:control.dll
+ 0002:00000538       __imp_?SetLocalFormat@JUnitEdit@@QAEXAAUtagUomFormat@@@Z 1001f538     control:control.dll
+ 0002:0000053c       __imp_?GetLocalFormat@JUnitEdit@@QAE?AUtagUomFormat@@XZ 1001f53c     control:control.dll
+ 0002:00000540       __imp_?SetLocalUnits@JUnitEdit@@QAEXPAI00@Z 1001f540     control:control.dll
+ 0002:00000544       __imp_?AddBitmap@JWeightListBox@@QAEHH@Z 1001f544     control:control.dll
+ 0002:00000548       __imp_?SetValue@JUnitEdit@@QAEXN@Z 1001f548     control:control.dll
+ 0002:0000054c       __imp_?GetValue@JUnitEdit@@QAENH@Z 1001f54c     control:control.dll
+ 0002:00000550       __imp_??0JBitmapListBox@@QAE@XZ 1001f550     control:control.dll
+ 0002:00000554       __imp_?GetMessageMap@JBitmapListBox@@MBEPBUAFX_MSGMAP@@XZ 1001f554     control:control.dll
+ 0002:00000558       __imp_?HitTest@JDropdown@@IAEHABVCListBox@@VCPoint@@@Z 1001f558     control:control.dll
+ 0002:0000055c       __imp_?AddBitmap@JBitmapListBox@@QAEHH@Z 1001f55c     control:control.dll
+ 0002:00000560       __imp_??0JDropdown@@QAE@XZ 1001f560     control:control.dll
+ 0002:00000564       __imp_??1JDropdown@@UAE@XZ 1001f564     control:control.dll
+ 0002:00000568       __imp_??1JColorPicker@@UAE@XZ 1001f568     control:control.dll
+ 0002:0000056c       __imp_?CalcFixedLayout@JColorPicker@@UBE?AVCSize@@XZ 1001f56c     control:control.dll
+ 0002:00000570       __imp_?LoadColors@JColorPicker@@UAEHPBD@Z 1001f570     control:control.dll
+ 0002:00000574       __imp_?GetMessageMap@JColorPicker@@MBEPBUAFX_MSGMAP@@XZ 1001f574     control:control.dll
+ 0002:00000578       __imp_?GetRuntimeClass@JColorPicker@@UBEPAUCRuntimeClass@@XZ 1001f578     control:control.dll
+ 0002:0000057c       __imp_?Create@JDropdown@@QAEHPAVCWnd@@@Z 1001f57c     control:control.dll
+ 0002:00000580       __imp_??0JColorPicker@@QAE@XZ 1001f580     control:control.dll
+ 0002:00000584       __imp_?Create@JColorPicker@@QAEHPAVCWnd@@HHKI@Z 1001f584     control:control.dll
+ 0002:00000588       __imp_?GetCurrentColor@JColorPicker@@QAEKPAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 1001f588     control:control.dll
+ 0002:0000058c       __imp_??0JButton@@QAE@XZ   1001f58c     control:control.dll
+ 0002:00000590       __imp_?Create@JButton@@QAEHPAVCWnd@@VCRect@@KI@Z 1001f590     control:control.dll
+ 0002:00000594       __imp_?SetCurrentColor@JColorPicker@@QAEXK@Z 1001f594     control:control.dll
+ 0002:00000598       __imp_?ShowDropDown@JColorPicker@@QAEHPAVJButton@@@Z 1001f598     control:control.dll
+ 0002:0000059c       __imp_??1JButton@@UAE@XZ   1001f59c     control:control.dll
+ 0002:000005a0       __imp_??0CTransBitmap@@QAE@XZ 1001f5a0     control:control.dll
+ 0002:000005a4       __imp_?GetWidth@CTransBitmap@@QAEHXZ 1001f5a4     control:control.dll
+ 0002:000005a8       __imp_?GetHeight@CTransBitmap@@QAEHXZ 1001f5a8     control:control.dll
+ 0002:000005ac       __imp_?Draw@CTransBitmap@@QAEXPAVCDC@@HHH@Z 1001f5ac     control:control.dll
+ 0002:000005b0       __imp_??1CTransBitmap@@UAE@XZ 1001f5b0     control:control.dll
+ 0002:000005b4       __imp_?MeasureItem@JWeightListBox@@MAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001f5b4     control:control.dll
+ 0002:000005b8       __imp_?GetMessageMap@JWeightListBox@@MBEPBUAFX_MSGMAP@@XZ 1001f5b8     control:control.dll
+ 0002:000005bc       __imp_??0JWeightListBox@@QAE@XZ 1001f5bc     control:control.dll
+ 0002:000005c0       __imp_??1JWeightListBox@@UAE@XZ 1001f5c0     control:control.dll
+ 0002:000005c4       __imp_?MeasureItem@JBitmapListBox@@MAEXPAUtagMEASUREITEMSTRUCT@@@Z 1001f5c4     control:control.dll
+ 0002:000005c8       __imp_??1JBitmapListBox@@UAE@XZ 1001f5c8     control:control.dll
+ 0002:000005cc       \177control_NULL_THUNK_DATA 1001f5cc     control:control.dll
+ 0002:000005d0       __imp__JGlobalLock@4       1001f5d0     sealloc:sealloc.dll
+ 0002:000005d4       __imp__JGlobalUnlock@4     1001f5d4     sealloc:sealloc.dll
+ 0002:000005d8       __imp__JGlobalAlloc@8      1001f5d8     sealloc:sealloc.dll
+ 0002:000005dc       \177sealloc_NULL_THUNK_DATA 1001f5dc     sealloc:sealloc.dll
+ 0002:000005e0       ___xc_a                    1001f5e0     msvcrt:cinitexe.obj
+ 0002:00000694       ___xc_z                    1001f694     msvcrt:cinitexe.obj
+ 0002:00000698       ___xi_a                    1001f698     msvcrt:cinitexe.obj
+ 0002:000006a0       ___xi_z                    1001f6a0     msvcrt:cinitexe.obj
+ 0002:000006d0       ??_7CGdiObject@@6B@        1001f6d0     button.obj
+ 0002:000006e8       ??_7CRgn@@6B@              1001f6e8     button.obj
+ 0002:00000700       ??_7CBrush@@6B@            1001f700     colorpic.obj
+ 0002:0000071c       ??_7JGridColorPickerColumn@@6B@ 1001f71c     colorpic.obj
+ 0002:0000075c       ??_C@_0BJ@KJNIFDEL@JGRIDMSG_SETVSCROLLRANGE?$AA@ 1001f75c     counters.obj
+ 0002:00000778       ??_C@_0BJ@OHDJPJCB@JGRIDMSG_SETHSCROLLRANGE?$AA@ 1001f778     counters.obj
+ 0002:00000794       ??_C@_0BH@DKJAAMEE@JGRIDMSG_DELETERECORDS?$AA@ 1001f794     delete.obj
+ 0002:000007ac       ??_C@_0BH@PABKJNFG@JGRIDMSG_DELETECOLUMNS?$AA@ 1001f7ac     delete.obj
+ 0002:000007c4       ??_C@_0BE@OJFEGFDJ@JGRIDMSG_UPDATECELL?$AA@ 1001f7c4     dropdown.obj
+ 0002:000007dc       ??_7JGridBitmapListBox@@6B@ 1001f7dc     droplist.obj
+ 0002:0000093c       ??_7JGridWeightListBox@@6B@ 1001f93c     droplist.obj
+ 0002:00000a98       ??_7CPen@@6B@              1001fa98     jgridcol.obj
+ 0002:00000ab0       ??_7CFont@@6B@             1001fab0     jgridcol.obj
+ 0002:00000ac8       __real@409f2c0a57a786c2    1001fac8     jgridcol.obj
+ 0002:00000ad4       ??_7JGridColumn@@6B@       1001fad4     jgridcol.obj
+ 0002:00000b10       ??_C@_0BG@FGKIKMFB@JGRIDMSG_SELECTCOLUMN?$AA@ 1001fb10     jgridcol.obj
+ 0002:00000b28       ??_C@_0BA@JBMJFLCC@JGridEditRecord?$AA@ 1001fb28     jgridedt.obj
+ 0002:00000b38       ??_C@_0O@JDMHLCNC@JGridEditCell?$AA@ 1001fb38     jgridedt.obj
+ 0002:00000b48       ?classJGridEditCell@JGridEditCell@@2UCRuntimeClass@@B 1001fb48     jgridedt.obj
+ 0002:00000b64       ?classJGridEditRecord@JGridEditRecord@@2UCRuntimeClass@@B 1001fb64     jgridedt.obj
+ 0002:00000b84       ??_7CBitmap@@6B@           1001fb84     jgridedt.obj
+ 0002:00000b9c       ??_7CButton@@6B@           1001fb9c     jgridedt.obj
+ 0002:00000ce4       ??_7CListBox@@6B@          1001fce4     jgridedt.obj
+ 0002:00000e44       ??_7CEdit@@6B@             1001fe44     jgridedt.obj
+ 0002:00000f84       ??_7CBitmapButton@@6B@     1001ff84     jgridedt.obj
+ 0002:000010cc       ??_7JGridEditCell@@6B@     100200cc     jgridedt.obj
+ 0002:00001208       ??_C@_0P@NNFHCDBA@IDB_COMBOBTN_U?$AA@ 10020208     jgridedt.obj
+ 0002:00001218       ??_C@_0P@IOIOAAAA@IDB_COMBOBTN_D?$AA@ 10020218     jgridedt.obj
+ 0002:0000122c       ??_7JGridEditRecord@@6B@   1002022c     jgridedt.obj
+ 0002:00001368       ??_C@_02DPKJAMEF@?$CFd?$AA@ 10020368     jgridedt.obj
+ 0002:00001534       ??_7JGridList@@6B@         10020534     jgridlis.obj
+ 0002:000016e4       ??_7JGridPushButton@@6B@   100206e4     jgridpus.obj
+ 0002:00001860       ??_C@_0BH@KCIKJHEE@JGRIDMSG_INSERTRECORDS?$AA@ 10020860     jgridrec.obj
+ 0002:00001878       ??_C@_0BG@GGPLDEKA@JGRIDMSG_SELECTRECORD?$AA@ 10020878     jgridrow.obj
+ 0002:00001890       ??_C@_0M@IPOKOFIJ@JGridWindow?$AA@ 10020890     jgridwnd.obj
+ 0002:0000189c       ?classJGridWindow@JGridWindow@@2UCRuntimeClass@@B 1002089c     jgridwnd.obj
+ 0002:000018bc       ??_7CScrollBar@@6B@        100208bc     jgridwnd.obj
+ 0002:000019fc       ??_C@_04HGGBINEM@?$CFs?$CFd?$AA@ 100209fc     jgridwnd.obj
+ 0002:00001a0c       ??_7JGridWindow@@6B@       10020a0c     jgridwnd.obj
+ 0002:00001b48       ??_C@_0BB@MCMBFEIE@IDB_BUTTON_EOF_D?$AA@ 10020b48     jgridwnd.obj
+ 0002:00001b5c       ??_C@_0BB@JBBIHHJE@IDB_BUTTON_EOF_U?$AA@ 10020b5c     jgridwnd.obj
+ 0002:00001b70       ??_C@_0BC@MFDMJJID@IDB_BUTTON_NEXT_D?$AA@ 10020b70     jgridwnd.obj
+ 0002:00001b84       ??_C@_0BC@JGOFLKJD@IDB_BUTTON_NEXT_U?$AA@ 10020b84     jgridwnd.obj
+ 0002:00001b98       ??_C@_0BC@NOHHNHIL@IDB_BUTTON_PREV_D?$AA@ 10020b98     jgridwnd.obj
+ 0002:00001bac       ??_C@_0BC@INKOPEJL@IDB_BUTTON_PREV_U?$AA@ 10020bac     jgridwnd.obj
+ 0002:00001bc0       ??_C@_0BB@KELIFLK@IDB_BUTTON_TOF_D?$AA@ 10020bc0     jgridwnd.obj
+ 0002:00001bd4       ??_C@_0BB@FJJCKGKK@IDB_BUTTON_TOF_U?$AA@ 10020bd4     jgridwnd.obj
+ 0002:00001bec       ??_SJColorPicker@@6B@      10020bec     jgridwnd.obj
+ 0002:00002080       ??_C@_0BA@KCIPBJNI@IDR_JGRID_ACCEL?$AA@ 10021080     jgridwnd.obj
+ 0002:00002090       ??_C@_0O@LNKJMIKM@column_select?$AA@ 10021090     jgridwnd.obj
+ 0002:000020a0       ??_C@_0L@NOFPLFAD@row_select?$AA@ 100210a0     jgridwnd.obj
+ 0002:000020ac       ??_C@_0L@JAGALKLD@row_resize?$AA@ 100210ac     jgridwnd.obj
+ 0002:000020b8       ??_C@_0O@PDJGMHBM@column_resize?$AA@ 100210b8     jgridwnd.obj
+ 0002:000020c8       ??_C@_0M@DFKIKLOK@hyperfinger?$AA@ 100210c8     jgridwnd.obj
+ 0002:000020d4       ??_C@_0BE@IOCLCINL@JGRIDMSG_LOCATECELL?$AA@ 100210d4     jgridwnd.obj
+ 0002:000020e8       ??_C@_0BE@MNCDLIPM@JGRIDMSG_POSTCREATE?$AA@ 100210e8     jgridwnd.obj
+ 0002:000020fc       ??_C@_0BJ@BILCKALK@JGRIDMSG_HYPERTEXTLAUNCH?$AA@ 100210fc     jgridwnd.obj
+ 0002:00002118       __pRawDllMain              10021118     jgridx.obj
+ 0002:0000211c       ??_C@_0M@IEKKHLPO@JGRIDRC?4drx?$AA@ 1002111c     jgridx.obj
+ 0002:0000216c       ??_7JGridStyleDropdown@@6B@ 1002116c     jstddown.obj
+ 0002:0000230c       ??_7JGridWeightDropdown@@6B@ 1002130c     jwtddown.obj
+ 0002:000024c0       ??_C@_0BJ@CMCBEOGG@JGRIDMSG_LDBLCLICKRECORD?$AA@ 100214c0     mouse.obj
+ 0002:000024dc       ??_C@_0BC@JPOMDLC@JGRIDMSG_EDITCELL?$AA@ 100214dc     moving.obj
+ 0002:000024f0       ??_C@_0BG@IENFHJG@JGRIDMSG_SETRECORDPTR?$AA@ 100214f0     recptr.obj
+ 0002:00002508       ??_C@_0BE@JFAHDKEK@JGRIDMSG_SELECTCELL?$AA@ 10021508     select.obj
+ 0002:0000251c       ??_C@_0CM@GOIAMPIP@General?2SESEInsightTarget?2Manage@ 1002151c     stdafx.obj
+ 0002:00002548       ??_C@_0CM@CFLLONED@General?2SESEInsightSource?2Manage@ 10021548     stdafx.obj
+ 0002:00002574       ??_C@_0BC@PMPKKPPO@SESEInsightTarget?$AA@ 10021574     stdafx.obj
+ 0002:00002588       ??_C@_0BC@IBOENEBP@SESEInsightSource?$AA@ 10021588     stdafx.obj
+ 0002:0000259c       ??_C@_0DA@EEEMJNPA@General?2StructureEditorTarget?2Ma@ 1002159c     stdafx.obj
+ 0002:000025cc       ??_C@_0DA@PHHLPDM@General?2StructureEditorSource?2Ma@ 100215cc     stdafx.obj
+ 0002:000025fc       ??_C@_0BG@GLPNBFBI@StructureEditorTarget?$AA@ 100215fc     stdafx.obj
+ 0002:00002614       ??_C@_0BG@BGODGOPJ@StructureEditorSource?$AA@ 10021614     stdafx.obj
+ 0002:0000262c       ??_C@_0L@MNMJNOKC@?2UnManaged?$AA@ 1002162c     stdafx.obj
+ 0002:00002638       ??_C@_08GNBJJBFL@?2Managed?$AA@ 10021638     stdafx.obj
+ 0002:00002644       ??_C@_0N@DCACADCL@IfFontItalic?$AA@ 10021644     stdafx.obj
+ 0002:00002654       ??_C@_0L@HABBFGEE@FontScript?$AA@ 10021654     stdafx.obj
+ 0002:00002660       ??_C@_08IOPOCEFC@FontSize?$AA@ 10021660     stdafx.obj
+ 0002:0000266c       ??_C@_09BIHFJGEM@FontStyle?$AA@ 1002166c     stdafx.obj
+ 0002:00002678       ??_C@_08MKFDOKHL@FontName?$AA@ 10021678     stdafx.obj
+ 0002:00002684       ??_C@_09PPPLNFCP@Revisions?$AA@ 10021684     stdafx.obj
+ 0002:00002690       ??_C@_0L@IKFKNMIK@LCA?2Step?93?$AA@ 10021690     stdafx.obj
+ 0002:0000269c       ??_C@_0L@JDEBONML@LCA?2Step?92?$AA@ 1002169c     stdafx.obj
+ 0002:000026a8       ??_C@_0L@LIGMLOAI@LCA?2Step?91?$AA@ 100216a8     stdafx.obj
+ 0002:000026b4       ??_C@_0BC@PJLOJMLB@?2ColumnAllignment?$AA@ 100216b4     stdafx.obj
+ 0002:000026c8       ??_C@_0N@MJNDLMLL@?2ColumnWidth?$AA@ 100216c8     stdafx.obj
+ 0002:000026d8       ??_C@_0M@GILJBBJK@?2ColumnName?$AA@ 100216d8     stdafx.obj
+ 0002:000026e4       ??_C@_0BN@JDKHKMCP@General?2EditProfile?2Position?$AA@ 100216e4     stdafx.obj
+ 0002:00002704       ??_C@_0CG@MMFLBBHB@General?2EditProfile?2ManagedPrope@ 10021704     stdafx.obj
+ 0002:0000272c       ??_C@_0M@JCDCLJCA@EditProfile?$AA@ 1002172c     stdafx.obj
+ 0002:00002738       ??_C@_08OPPFIBME@General?2?$AA@ 10021738     stdafx.obj
+ 0002:00002744       ??_C@_0CI@NHNILGNF@General?2SearchResults?2ManagedPro@ 10021744     stdafx.obj
+ 0002:0000276c       ??_C@_0CK@GNOEILGH@General?2SearchResults?2UnManagedP@ 1002176c     stdafx.obj
+ 0002:00002798       ??_C@_0O@PKDDHDIC@SearchResults?$AA@ 10021798     stdafx.obj
+ 0002:000027a8       ??_C@_0CE@CNFCLGND@General?2WhereUsed?2ManagedPropert@ 100217a8     stdafx.obj
+ 0002:000027cc       ??_C@_0CG@DLLONGGL@General?2WhereUsed?2UnManagedPrope@ 100217cc     stdafx.obj
+ 0002:000027f4       ??_C@_09NNDHDAJB@WhereUsed?$AA@ 100217f4     stdafx.obj
+ 0002:00002800       ??_C@_0BA@FMHGINFB@PropertyManager?$AA@ 10021800     stdafx.obj
+ 0002:00002810       ??_C@_05CDEHLADN@?$CFs?$CFlu?$AA@ 10021810     stdafx.obj
+ 0002:00002818       ??_C@_06GDCBNBFJ@?$CFlu?$CFls?$AA@ 10021818     stdafx.obj
+ 0002:00002820       ??_C@_0N@NLFOEMPN@PropValue?$CFlu?$AA@ 10021820     stdafx.obj
+ 0002:00002830       ??_C@_09FJMCAKIG@PropCount?$AA@ 10021830     stdafx.obj
+ 0002:0000283c       ??_C@_0CK@MBCJNOIL@General?2PropertyManager?2ManagedP@ 1002183c     stdafx.obj
+ 0002:00002868       ??_C@_0CM@KLFAECG@General?2PropertyManager?2UnManage@ 10021868     stdafx.obj
+ 0002:00002894       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 10021894     stdafx.obj
+ 0002:000028a4       ??_C@_0BE@GMLGEGCM@JGRIDMSG_EXPANDTREE?$AA@ 100218a4     stdafx.obj
+ 0002:000028b8       ??_C@_0BC@LPECFLI@JGRIDMSG_HIDETREE?$AA@ 100218b8     stdafx.obj
+ 0002:000028d4       ??_7JGridLineStyleColumn@@6B@ 100218d4     stylecol.obj
+ 0002:0000291c       ??_7JGridTreeColumn@@6B@   1002191c     treecol.obj
+ 0002:00002958       __real@3fe0000000000000    10021958     wtcol.obj
+ 0002:00002964       ??_7JGridLineWeightColumn@@6B@ 10021964     wtcol.obj
+ 0002:000029a4       ??_C@_06JBKGCNBB@Delete?$AA@ 100219a4     mfcs80:stdafx.obj
+ 0002:000029ac       ??_C@_08KAAPDIAN@NoRemove?$AA@ 100219ac     mfcs80:stdafx.obj
+ 0002:000029b8       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 100219b8     mfcs80:stdafx.obj
+ 0002:000029c4       ??_C@_03LAIAPFCB@Val?$AA@  100219c4     mfcs80:stdafx.obj
+ 0002:000029c8       ??_C@_01HMGJMAIH@B?$AA@    100219c8     mfcs80:stdafx.obj
+ 0002:000029cc       ??_C@_01CKDDGHAB@D?$AA@    100219cc     mfcs80:stdafx.obj
+ 0002:000029d0       ??_C@_01PLPBNMEI@M?$AA@    100219d0     mfcs80:stdafx.obj
+ 0002:000029d4       ??_C@_01CPLAODJH@S?$AA@    100219d4     mfcs80:stdafx.obj
+ 0002:000029fc       ??_7type_info@@6B@         100219fc     msvcrt:ti_inst.obj
+ 0002:00002a00       __pDefaultRawDllMain       10021a00     msvcrt:crtdll.obj
+ 0002:00002a10       __load_config_used         10021a10     msvcrt:loadcfg.obj
+ 0002:00002a88       ??_R4CGdiObject@@6B@       10021a88     button.obj
+ 0002:00002a9c       ??_R3CGdiObject@@8         10021a9c     button.obj
+ 0002:00002aac       ??_R2CGdiObject@@8         10021aac     button.obj
+ 0002:00002ab8       ??_R1A@?0A@EA@CGdiObject@@8 10021ab8     button.obj
+ 0002:00002ad4       ??_R1A@?0A@EA@CObject@@8   10021ad4     button.obj
+ 0002:00002af0       ??_R3CObject@@8            10021af0     button.obj
+ 0002:00002b00       ??_R2CObject@@8            10021b00     button.obj
+ 0002:00002b08       ??_R4CRgn@@6B@             10021b08     button.obj
+ 0002:00002b1c       ??_R3CRgn@@8               10021b1c     button.obj
+ 0002:00002b2c       ??_R2CRgn@@8               10021b2c     button.obj
+ 0002:00002b3c       ??_R1A@?0A@EA@CRgn@@8      10021b3c     button.obj
+ 0002:00002b58       ??_R4CBrush@@6B@           10021b58     colorpic.obj
+ 0002:00002b6c       ??_R3CBrush@@8             10021b6c     colorpic.obj
+ 0002:00002b7c       ??_R2CBrush@@8             10021b7c     colorpic.obj
+ 0002:00002b8c       ??_R1A@?0A@EA@CBrush@@8    10021b8c     colorpic.obj
+ 0002:00002ba8       ??_R4JGridColorPickerColumn@@6B@ 10021ba8     colorpic.obj
+ 0002:00002bbc       ??_R3JGridColorPickerColumn@@8 10021bbc     colorpic.obj
+ 0002:00002bcc       ??_R2JGridColorPickerColumn@@8 10021bcc     colorpic.obj
+ 0002:00002bd8       ??_R1A@?0A@EA@JGridColorPickerColumn@@8 10021bd8     colorpic.obj
+ 0002:00002bf4       ??_R1A@?0A@EA@JGridColumn@@8 10021bf4     colorpic.obj
+ 0002:00002c10       ??_R3JGridColumn@@8        10021c10     colorpic.obj
+ 0002:00002c20       ??_R2JGridColumn@@8        10021c20     colorpic.obj
+ 0002:00002c28       ??_R4JGridBitmapListBox@@6B@ 10021c28     droplist.obj
+ 0002:00002c3c       ??_R3JGridBitmapListBox@@8 10021c3c     droplist.obj
+ 0002:00002c4c       ??_R2JGridBitmapListBox@@8 10021c4c     droplist.obj
+ 0002:00002c68       ??_R1A@?0A@EA@JGridBitmapListBox@@8 10021c68     droplist.obj
+ 0002:00002c84       ??_R1A@?0A@EA@JBitmapListBox@@8 10021c84     droplist.obj
+ 0002:00002ca0       ??_R3JBitmapListBox@@8     10021ca0     droplist.obj
+ 0002:00002cb0       ??_R2JBitmapListBox@@8     10021cb0     droplist.obj
+ 0002:00002cc8       ??_R1A@?0A@EA@CListBox@@8  10021cc8     droplist.obj
+ 0002:00002ce4       ??_R3CListBox@@8           10021ce4     droplist.obj
+ 0002:00002cf4       ??_R2CListBox@@8           10021cf4     droplist.obj
+ 0002:00002d08       ??_R1A@?0A@EA@CWnd@@8      10021d08     droplist.obj
+ 0002:00002d24       ??_R3CWnd@@8               10021d24     droplist.obj
+ 0002:00002d34       ??_R2CWnd@@8               10021d34     droplist.obj
+ 0002:00002d44       ??_R1A@?0A@EA@CCmdTarget@@8 10021d44     droplist.obj
+ 0002:00002d60       ??_R3CCmdTarget@@8         10021d60     droplist.obj
+ 0002:00002d70       ??_R2CCmdTarget@@8         10021d70     droplist.obj
+ 0002:00002d7c       ??_R4JGridWeightListBox@@6B@ 10021d7c     droplist.obj
+ 0002:00002d90       ??_R3JGridWeightListBox@@8 10021d90     droplist.obj
+ 0002:00002da0       ??_R2JGridWeightListBox@@8 10021da0     droplist.obj
+ 0002:00002dbc       ??_R1A@?0A@EA@JGridWeightListBox@@8 10021dbc     droplist.obj
+ 0002:00002dd8       ??_R1A@?0A@EA@JWeightListBox@@8 10021dd8     droplist.obj
+ 0002:00002df4       ??_R3JWeightListBox@@8     10021df4     droplist.obj
+ 0002:00002e04       ??_R2JWeightListBox@@8     10021e04     droplist.obj
+ 0002:00002e1c       ??_R4CPen@@6B@             10021e1c     jgridcol.obj
+ 0002:00002e30       ??_R3CPen@@8               10021e30     jgridcol.obj
+ 0002:00002e40       ??_R2CPen@@8               10021e40     jgridcol.obj
+ 0002:00002e50       ??_R1A@?0A@EA@CPen@@8      10021e50     jgridcol.obj
+ 0002:00002e6c       ??_R4CFont@@6B@            10021e6c     jgridcol.obj
+ 0002:00002e80       ??_R3CFont@@8              10021e80     jgridcol.obj
+ 0002:00002e90       ??_R2CFont@@8              10021e90     jgridcol.obj
+ 0002:00002ea0       ??_R1A@?0A@EA@CFont@@8     10021ea0     jgridcol.obj
+ 0002:00002ebc       ??_R4JGridColumn@@6B@      10021ebc     jgridcol.obj
+ 0002:00002ed0       ??_R4CBitmap@@6B@          10021ed0     jgridedt.obj
+ 0002:00002ee4       ??_R3CBitmap@@8            10021ee4     jgridedt.obj
+ 0002:00002ef4       ??_R2CBitmap@@8            10021ef4     jgridedt.obj
+ 0002:00002f04       ??_R1A@?0A@EA@CBitmap@@8   10021f04     jgridedt.obj
+ 0002:00002f20       ??_R4CButton@@6B@          10021f20     jgridedt.obj
+ 0002:00002f34       ??_R3CButton@@8            10021f34     jgridedt.obj
+ 0002:00002f44       ??_R2CButton@@8            10021f44     jgridedt.obj
+ 0002:00002f58       ??_R1A@?0A@EA@CButton@@8   10021f58     jgridedt.obj
+ 0002:00002f74       ??_R4CListBox@@6B@         10021f74     jgridedt.obj
+ 0002:00002f88       ??_R4CEdit@@6B@            10021f88     jgridedt.obj
+ 0002:00002f9c       ??_R3CEdit@@8              10021f9c     jgridedt.obj
+ 0002:00002fac       ??_R2CEdit@@8              10021fac     jgridedt.obj
+ 0002:00002fc0       ??_R1A@?0A@EA@CEdit@@8     10021fc0     jgridedt.obj
+ 0002:00002fdc       ??_R4CBitmapButton@@6B@    10021fdc     jgridedt.obj
+ 0002:00002ff0       ??_R3CBitmapButton@@8      10021ff0     jgridedt.obj
+ 0002:00003000       ??_R2CBitmapButton@@8      10022000     jgridedt.obj
+ 0002:00003018       ??_R1A@?0A@EA@CBitmapButton@@8 10022018     jgridedt.obj
+ 0002:00003034       ??_R4JGridEditCell@@6B@    10022034     jgridedt.obj
+ 0002:00003048       ??_R3JGridEditCell@@8      10022048     jgridedt.obj
+ 0002:00003058       ??_R2JGridEditCell@@8      10022058     jgridedt.obj
+ 0002:00003070       ??_R1A@?0A@EA@JGridEditCell@@8 10022070     jgridedt.obj
+ 0002:0000308c       ??_R4JGridEditRecord@@6B@  1002208c     jgridedt.obj
+ 0002:000030a0       ??_R3JGridEditRecord@@8    100220a0     jgridedt.obj
+ 0002:000030b0       ??_R2JGridEditRecord@@8    100220b0     jgridedt.obj
+ 0002:000030c8       ??_R1A@?0A@EA@JGridEditRecord@@8 100220c8     jgridedt.obj
+ 0002:000030e4       ??_R4JGridList@@6B@        100220e4     jgridlis.obj
+ 0002:000030f8       ??_R3JGridList@@8          100220f8     jgridlis.obj
+ 0002:00003108       ??_R2JGridList@@8          10022108     jgridlis.obj
+ 0002:00003120       ??_R1A@?0A@EA@JGridList@@8 10022120     jgridlis.obj
+ 0002:0000313c       ??_R4JGridPushButton@@6B@  1002213c     jgridpus.obj
+ 0002:00003150       ??_R3JGridPushButton@@8    10022150     jgridpus.obj
+ 0002:00003160       ??_R2JGridPushButton@@8    10022160     jgridpus.obj
+ 0002:00003178       ??_R1A@?0A@EA@JGridPushButton@@8 10022178     jgridpus.obj
+ 0002:00003194       ??_R4CScrollBar@@6B@       10022194     jgridwnd.obj
+ 0002:000031a8       ??_R3CScrollBar@@8         100221a8     jgridwnd.obj
+ 0002:000031b8       ??_R2CScrollBar@@8         100221b8     jgridwnd.obj
+ 0002:000031cc       ??_R1A@?0A@EA@CScrollBar@@8 100221cc     jgridwnd.obj
+ 0002:000031e8       ??_R4JGridWindow@@6B@      100221e8     jgridwnd.obj
+ 0002:000031fc       ??_R3JGridWindow@@8        100221fc     jgridwnd.obj
+ 0002:0000320c       ??_R2JGridWindow@@8        1002220c     jgridwnd.obj
+ 0002:00003220       ??_R1A@?0A@EA@JGridWindow@@8 10022220     jgridwnd.obj
+ 0002:0000323c       ??_R4JColorPicker@@6B@     1002223c     jgridwnd.obj
+ 0002:00003250       ??_R3JColorPicker@@8       10022250     jgridwnd.obj
+ 0002:00003260       ??_R2JColorPicker@@8       10022260     jgridwnd.obj
+ 0002:00003274       ??_R1A@?0A@EA@JColorPicker@@8 10022274     jgridwnd.obj
+ 0002:00003290       ??_R4JGridStyleDropdown@@6B@ 10022290     jstddown.obj
+ 0002:000032a4       ??_R3JGridStyleDropdown@@8 100222a4     jstddown.obj
+ 0002:000032b4       ??_R2JGridStyleDropdown@@8 100222b4     jstddown.obj
+ 0002:000032cc       ??_R1A@?0A@EA@JGridStyleDropdown@@8 100222cc     jstddown.obj
+ 0002:000032e8       ??_R1A@?0A@EA@JDropdown@@8 100222e8     jstddown.obj
+ 0002:00003304       ??_R3JDropdown@@8          10022304     jstddown.obj
+ 0002:00003314       ??_R2JDropdown@@8          10022314     jstddown.obj
+ 0002:00003328       ??_R4JGridWeightDropdown@@6B@ 10022328     jwtddown.obj
+ 0002:0000333c       ??_R3JGridWeightDropdown@@8 1002233c     jwtddown.obj
+ 0002:0000334c       ??_R2JGridWeightDropdown@@8 1002234c     jwtddown.obj
+ 0002:00003364       ??_R1A@?0A@EA@JGridWeightDropdown@@8 10022364     jwtddown.obj
+ 0002:00003380       ??_R4JGridLineStyleColumn@@6B@ 10022380     stylecol.obj
+ 0002:00003394       ??_R3JGridLineStyleColumn@@8 10022394     stylecol.obj
+ 0002:000033a4       ??_R2JGridLineStyleColumn@@8 100223a4     stylecol.obj
+ 0002:000033b0       ??_R1A@?0A@EA@JGridLineStyleColumn@@8 100223b0     stylecol.obj
+ 0002:000033cc       ??_R4JGridTreeColumn@@6B@  100223cc     treecol.obj
+ 0002:000033e0       ??_R3JGridTreeColumn@@8    100223e0     treecol.obj
+ 0002:000033f0       ??_R2JGridTreeColumn@@8    100223f0     treecol.obj
+ 0002:000033fc       ??_R1A@?0A@EA@JGridTreeColumn@@8 100223fc     treecol.obj
+ 0002:00003418       ??_R4JGridLineWeightColumn@@6B@ 10022418     wtcol.obj
+ 0002:0000342c       ??_R3JGridLineWeightColumn@@8 1002242c     wtcol.obj
+ 0002:0000343c       ??_R2JGridLineWeightColumn@@8 1002243c     wtcol.obj
+ 0002:00003448       ??_R1A@?0A@EA@JGridLineWeightColumn@@8 10022448     wtcol.obj
+ 0002:00003464       ??_R4type_info@@6B@        10022464     msvcrt:ti_inst.obj
+ 0002:00003478       ??_R3type_info@@8          10022478     msvcrt:ti_inst.obj
+ 0002:00003488       ??_R2type_info@@8          10022488     msvcrt:ti_inst.obj
+ 0002:00003490       ??_R1A@?0A@EA@type_info@@8 10022490     msvcrt:ti_inst.obj
+ 0002:000034b0       ___safe_se_handler_table   100224b0     <linker-defined>
+ 0002:00003638       ___rtc_iaa                 10022638     msvcrt:initsect.obj
+ 0002:0000363c       ___rtc_izz                 1002263c     msvcrt:initsect.obj
+ 0002:00003640       ___rtc_taa                 10022640     msvcrt:initsect.obj
+ 0002:00003644       ___rtc_tzz                 10022644     msvcrt:initsect.obj
+ 0002:00004d34       __IMPORT_DESCRIPTOR_control 10023d34     control:control.dll
+ 0002:00004d48       __IMPORT_DESCRIPTOR_JUtil  10023d48     jutil:JUtil.dll
+ 0002:00004d5c       __IMPORT_DESCRIPTOR_sealloc 10023d5c     sealloc:sealloc.dll
+ 0002:00004d70       __IMPORT_DESCRIPTOR_MFC80  10023d70     mfc80:MFC80.DLL
+ 0002:00004d84       __IMPORT_DESCRIPTOR_MSVCR80 10023d84     msvcrt:MSVCR80.dll
+ 0002:00004d98       __IMPORT_DESCRIPTOR_KERNEL32 10023d98     kernel32:KERNEL32.dll
+ 0002:00004dac       __IMPORT_DESCRIPTOR_USER32 10023dac     user32:USER32.dll
+ 0002:00004dc0       __IMPORT_DESCRIPTOR_GDI32  10023dc0     gdi32:GDI32.dll
+ 0002:00004dd4       __NULL_IMPORT_DESCRIPTOR   10023dd4     control:control.dll
+ 0003:00000000       __newmode                  1002a000     newmode.obj
+ 0003:00000004       ??_R0?AVCGdiObject@@@8     1002a004     button.obj
+ 0003:00000020       ??_R0?AVCObject@@@8        1002a020     button.obj
+ 0003:00000038       ??_R0?AVCRgn@@@8           1002a038     button.obj
+ 0003:0000004c       ??_R0?AVCBrush@@@8         1002a04c     colorpic.obj
+ 0003:00000064       ??_R0?AVJGridColorPickerColumn@@@8 1002a064     colorpic.obj
+ 0003:0000008c       ??_R0?AVJGridColumn@@@8    1002a08c     colorpic.obj
+ 0003:000000f8       ??_R0?AVJGridBitmapListBox@@@8 1002a0f8     droplist.obj
+ 0003:0000011c       ??_R0?AVJBitmapListBox@@@8 1002a11c     droplist.obj
+ 0003:0000013c       ??_R0?AVCListBox@@@8       1002a13c     droplist.obj
+ 0003:00000154       ??_R0?AVCWnd@@@8           1002a154     droplist.obj
+ 0003:00000168       ??_R0?AVCCmdTarget@@@8     1002a168     droplist.obj
+ 0003:00000184       ??_R0?AVJGridWeightListBox@@@8 1002a184     droplist.obj
+ 0003:000001a8       ??_R0?AVJWeightListBox@@@8 1002a1a8     droplist.obj
+ 0003:000001c8       ??_R0?AVCPen@@@8           1002a1c8     jgridcol.obj
+ 0003:000001dc       ??_R0?AVCFont@@@8          1002a1dc     jgridcol.obj
+ 0003:000001f0       ??_R0?AVCBitmap@@@8        1002a1f0     jgridedt.obj
+ 0003:00000208       ??_R0?AVCButton@@@8        1002a208     jgridedt.obj
+ 0003:00000220       ??_R0?AVCEdit@@@8          1002a220     jgridedt.obj
+ 0003:00000234       ??_R0?AVCBitmapButton@@@8  1002a234     jgridedt.obj
+ 0003:00000250       ??_R0?AVJGridEditCell@@@8  1002a250     jgridedt.obj
+ 0003:0000026c       ??_R0?AVJGridEditRecord@@@8 1002a26c     jgridedt.obj
+ 0003:0000028c       ??_R0?AVJGridList@@@8      1002a28c     jgridlis.obj
+ 0003:000002a4       ??_R0?AVJGridPushButton@@@8 1002a2a4     jgridpus.obj
+ 0003:000002c4       ??_R0?AVCScrollBar@@@8     1002a2c4     jgridwnd.obj
+ 0003:000002e0       ??_R0?AVJGridWindow@@@8    1002a2e0     jgridwnd.obj
+ 0003:000002fc       ??_R0?AVJColorPicker@@@8   1002a2fc     jgridwnd.obj
+ 0003:00000318       ??_R0?AVJGridStyleDropdown@@@8 1002a318     jstddown.obj
+ 0003:0000033c       ??_R0?AVJDropdown@@@8      1002a33c     jstddown.obj
+ 0003:000003a8       ??_R0?AVJGridWeightDropdown@@@8 1002a3a8     jwtddown.obj
+ 0003:00000e88       ??_R0?AVJGridLineStyleColumn@@@8 1002ae88     stylecol.obj
+ 0003:00000eac       ??_R0?AVJGridTreeColumn@@@8 1002aeac     treecol.obj
+ 0003:00000f20       ??_R0?AVJGridLineWeightColumn@@@8 1002af20     wtcol.obj
+ 0003:00000f44       ??_R0?AVtype_info@@@8      1002af44     msvcrt:ti_inst.obj
+ 0003:00000f5c       ___security_cookie         1002af5c     msvcrt:gs_cookie.obj
+ 0003:00000f60       ___security_cookie_complement 1002af60     msvcrt:gs_cookie.obj
+ 0003:00000f70       ___native_dllmain_reason   1002af70     msvcrt:natstart.obj
+ 0003:00000f74       ___native_vcclrit_reason   1002af74     msvcrt:natstart.obj
+ 0003:00000f78       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1002af78     atls:atltrace.obj
+ 0003:00000fcc       __afxForceEXTDLL           1002afcc     jgridx.obj
+ 0003:00001028       ___@@_PchSym_@00@UfgrohUhixUqtirwUwveUdrmDCUivovzhvUhgwzucOlyq@ 1002b028     stdafx.obj
+ 0003:00001298       __afxForceEXCLUDE          1002b298     mfcs80:nolib.obj
+ 0003:0000129c       __afxForceSTDAFX           1002b29c     mfcs80:stdafx.obj
+ 0003:000015cc       ?__type_info_root_node@@3U__type_info_node@@A 1002b5cc     msvcrt:tncleanup.obj
+ 0003:000015d4       __adjust_fdiv              1002b5d4     <common>
+ 0003:000015d8       ___native_startup_state    1002b5d8     <common>
+ 0003:000015dc       ___native_startup_lock     1002b5dc     <common>
+ 0003:000015e0       ___dyn_tls_init_callback   1002b5e0     <common>
+ 0003:000015e4       ___onexitend               1002b5e4     <common>
+ 0003:000015e8       ___onexitbegin             1002b5e8     <common>
+
+ entry point at        0001:0001bb76
+
+ Static symbols
+
+ 0001:000025e0       ?DrawTextA@@YAXPAVCDC@@PAUHFONT__@@PBDVCRect@@K@Z 100035e0 f   droplist.obj
+ 0001:00002740       ?l_ChangeBitmapColor@@YAXPAUHBITMAP__@@KKPAUHPALETTE__@@@Z 10003740 f   droplist.obj
+ 0001:0000eb70       ?JGridWindowProc@@YGJPAUHWND__@@IIJ@Z 1000fb70 f   jgridwnd.obj
+ 0001:000101d0       ?GetResourceModuleHandle@@YAPAUHINSTANCE__@@XZ 100111d0 f   jgridx.obj
+ 0001:0001b874       _pre_c_init                1001c874 f   msvcrt:crtdll.obj
+ 0001:0001ba60       ___DllMainCRTStartup       1001ca60 f   msvcrt:crtdll.obj
+ 0001:0001c060       __unwindfunclet$??1CRgn@@UAE@XZ$0 1001d060 f   button.obj
+ 0001:0001c068       __ehhandler$??1CRgn@@UAE@XZ 1001d068 f   button.obj
+ 0001:0001c090       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$2 1001d090 f   button.obj
+ 0001:0001c098       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$0 1001d098 f   button.obj
+ 0001:0001c0a0       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$3 1001d0a0 f   button.obj
+ 0001:0001c0a8       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$1 1001d0a8 f   button.obj
+ 0001:0001c0b0       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$4 1001d0b0 f   button.obj
+ 0001:0001c0b8       __unwindfunclet$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z$5 1001d0b8 f   button.obj
+ 0001:0001c0c0       __ehhandler$?Draw@JGridBtn@@QAEXHAAUtagRECT@@@Z 1001d0c0 f   button.obj
+ 0001:0001c0e0       __unwindfunclet$??0CBrush@@QAE@XZ$0 1001d0e0 f   colorpic.obj
+ 0001:0001c0e8       __ehhandler$??0CBrush@@QAE@XZ 1001d0e8 f   colorpic.obj
+ 0001:0001c110       __unwindfunclet$??1CBrush@@UAE@XZ$0 1001d110 f   colorpic.obj
+ 0001:0001c118       __ehhandler$??1CBrush@@UAE@XZ 1001d118 f   colorpic.obj
+ 0001:0001c140       __unwindfunclet$?DrawColorCell@JGridColorPickerColumn@@UAEXJPAUtagRECT@@@Z$0 1001d140 f   colorpic.obj
+ 0001:0001c148       __ehhandler$?DrawColorCell@JGridColorPickerColumn@@UAEXJPAUtagRECT@@@Z 1001d148 f   colorpic.obj
+ 0001:0001c170       __unwindfunclet$??0JGridColorPickerColumn@@QAE@XZ$0 1001d170 f   colorpic.obj
+ 0001:0001c178       __unwindfunclet$??0JGridColorPickerColumn@@QAE@XZ$1 1001d178 f   colorpic.obj
+ 0001:0001c183       __ehhandler$??0JGridColorPickerColumn@@QAE@XZ 1001d183 f   colorpic.obj
+ 0001:0001c1a0       __unwindfunclet$?SetEmpty@JGridColorPickerColumn@@UAEHJH@Z$0 1001d1a0 f   colorpic.obj
+ 0001:0001c1a9       __ehhandler$?SetEmpty@JGridColorPickerColumn@@UAEHJH@Z 1001d1a9 f   colorpic.obj
+ 0001:0001c1d0       __unwindfunclet$??1JGridColorPickerColumn@@QAE@XZ$0 1001d1d0 f   colorpic.obj
+ 0001:0001c1d8       __unwindfunclet$??1JGridColorPickerColumn@@QAE@XZ$1 1001d1d8 f   colorpic.obj
+ 0001:0001c1e3       __ehhandler$??1JGridColorPickerColumn@@QAE@XZ 1001d1e3 f   colorpic.obj
+ 0001:0001c200       __unwindfunclet$?AdjustRows@JGridWindow@@IAEXXZ$0 1001d200 f   counters.obj
+ 0001:0001c20b       __ehhandler$?AdjustRows@JGridWindow@@IAEXXZ 1001d20b f   counters.obj
+ 0001:0001c230       __unwindfunclet$?UpdateRecordCounters@JGridWindow@@QAEXXZ$0 1001d230 f   counters.obj
+ 0001:0001c23b       __ehhandler$?UpdateRecordCounters@JGridWindow@@QAEXXZ 1001d23b f   counters.obj
+ 0001:0001c260       __unwindfunclet$?OnCopy@JGridWindow@@IAEXXZ$0 1001d260 f   cutpaste.obj
+ 0001:0001c269       __unwindfunclet$?OnCopy@JGridWindow@@IAEXXZ$1 1001d269 f   cutpaste.obj
+ 0001:0001c272       __ehhandler$?OnCopy@JGridWindow@@IAEXXZ 1001d272 f   cutpaste.obj
+ 0001:0001c290       __unwindfunclet$??0JGridBitmapListBox@@QAE@XZ$0 1001d290 f   droplist.obj
+ 0001:0001c299       __ehhandler$??0JGridBitmapListBox@@QAE@XZ 1001d299 f   droplist.obj
+ 0001:0001c2c0       __unwindfunclet$??1JGridBitmapListBox@@UAE@XZ$0 1001d2c0 f   droplist.obj
+ 0001:0001c2c9       __ehhandler$??1JGridBitmapListBox@@UAE@XZ 1001d2c9 f   droplist.obj
+ 0001:0001c2f0       __unwindfunclet$??0JGridWeightListBox@@QAE@XZ$0 1001d2f0 f   droplist.obj
+ 0001:0001c2f9       __ehhandler$??0JGridWeightListBox@@QAE@XZ 1001d2f9 f   droplist.obj
+ 0001:0001c320       __unwindfunclet$??1JGridWeightListBox@@UAE@XZ$0 1001d320 f   droplist.obj
+ 0001:0001c329       __ehhandler$??1JGridWeightListBox@@UAE@XZ 1001d329 f   droplist.obj
+ 0001:0001c350       __unwindfunclet$??_GJGridBitmapListBox@@UAEPAXI@Z$0 1001d350 f   droplist.obj
+ 0001:0001c359       __ehhandler$??_GJGridBitmapListBox@@UAEPAXI@Z 1001d359 f   droplist.obj
+ 0001:0001c380       __unwindfunclet$?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$0 1001d380 f   droplist.obj
+ 0001:0001c389       __unwindfunclet$?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$1 1001d389 f   droplist.obj
+ 0001:0001c392       __unwindfunclet$?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$2 1001d392 f   droplist.obj
+ 0001:0001c39b       __unwindfunclet$?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$3 1001d39b f   droplist.obj
+ 0001:0001c3a4       __ehhandler$?DrawItem@JGridBitmapListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001d3a4 f   droplist.obj
+ 0001:0001c3c0       __unwindfunclet$??_GJGridWeightListBox@@UAEPAXI@Z$0 1001d3c0 f   droplist.obj
+ 0001:0001c3c9       __ehhandler$??_GJGridWeightListBox@@UAEPAXI@Z 1001d3c9 f   droplist.obj
+ 0001:0001c3f0       __unwindfunclet$?DrawItem@JGridWeightListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$0 1001d3f0 f   droplist.obj
+ 0001:0001c3fc       __unwindfunclet$?DrawItem@JGridWeightListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$1 1001d3fc f   droplist.obj
+ 0001:0001c408       __ehhandler$?DrawItem@JGridWeightListBox@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001d408 f   droplist.obj
+ 0001:0001c440       __unwindfunclet$??1tagColDef@@QAE@XZ$0 1001d440 f   jgridcol.obj
+ 0001:0001c44c       __ehhandler$??1tagColDef@@QAE@XZ 1001d44c f   jgridcol.obj
+ 0001:0001c470       __unwindfunclet$??0CPen@@QAE@XZ$0 1001d470 f   jgridcol.obj
+ 0001:0001c478       __ehhandler$??0CPen@@QAE@XZ 1001d478 f   jgridcol.obj
+ 0001:0001c4a0       __unwindfunclet$??1CPen@@UAE@XZ$0 1001d4a0 f   jgridcol.obj
+ 0001:0001c4a8       __ehhandler$??1CPen@@UAE@XZ 1001d4a8 f   jgridcol.obj
+ 0001:0001c4d0       __unwindfunclet$??0CFont@@QAE@XZ$0 1001d4d0 f   jgridcol.obj
+ 0001:0001c4d8       __ehhandler$??0CFont@@QAE@XZ 1001d4d8 f   jgridcol.obj
+ 0001:0001c500       __unwindfunclet$??1CFont@@UAE@XZ$0 1001d500 f   jgridcol.obj
+ 0001:0001c508       __ehhandler$??1CFont@@UAE@XZ 1001d508 f   jgridcol.obj
+ 0001:0001c530       __unwindfunclet$??0tagColDef@@QAE@XZ$0 1001d530 f   jgridcol.obj
+ 0001:0001c53c       __ehhandler$??0tagColDef@@QAE@XZ 1001d53c f   jgridcol.obj
+ 0001:0001c560       __unwindfunclet$?DropDown@JGridColumn@@IAEHXZ$0 1001d560 f   jgridcol.obj
+ 0001:0001c56c       __ehhandler$?DropDown@JGridColumn@@IAEHXZ 1001d56c f   jgridcol.obj
+ 0001:0001c590       __unwindfunclet$?DropList@JGridColumn@@IAEHXZ$0 1001d590 f   jgridcol.obj
+ 0001:0001c599       __ehhandler$?DropList@JGridColumn@@IAEHXZ 1001d599 f   jgridcol.obj
+ 0001:0001c5c0       __unwindfunclet$?EndEdit@JGridColumn@@IAEXXZ$0 1001d5c0 f   jgridcol.obj
+ 0001:0001c5c9       __ehhandler$?EndEdit@JGridColumn@@IAEXXZ 1001d5c9 f   jgridcol.obj
+ 0001:0001c5f0       __unwindfunclet$?InitByGrid@JGridColumn@@MAEHXZ$0 1001d5f0 f   jgridcol.obj
+ 0001:0001c5fa       __unwindfunclet$?InitByGrid@JGridColumn@@MAEHXZ$1 1001d5fa f   jgridcol.obj
+ 0001:0001c604       __unwindfunclet$?InitByGrid@JGridColumn@@MAEHXZ$2 1001d604 f   jgridcol.obj
+ 0001:0001c60e       __ehhandler$?InitByGrid@JGridColumn@@MAEHXZ 1001d60e f   jgridcol.obj
+ 0001:0001c630       __unwindfunclet$??0ColMbr@@QAE@XZ$0 1001d630 f   jgridcol.obj
+ 0001:0001c639       __unwindfunclet$??0ColMbr@@QAE@XZ$1 1001d639 f   jgridcol.obj
+ 0001:0001c644       __unwindfunclet$??0ColMbr@@QAE@XZ$2 1001d644 f   jgridcol.obj
+ 0001:0001c64f       __unwindfunclet$??0ColMbr@@QAE@XZ$3 1001d64f f   jgridcol.obj
+ 0001:0001c65e       __unwindfunclet$??0ColMbr@@QAE@XZ$10 1001d65e f   jgridcol.obj
+ 0001:0001c666       __unwindfunclet$??0ColMbr@@QAE@XZ$4 1001d666 f   jgridcol.obj
+ 0001:0001c674       __unwindfunclet$??0ColMbr@@QAE@XZ$5 1001d674 f   jgridcol.obj
+ 0001:0001c682       __unwindfunclet$??0ColMbr@@QAE@XZ$6 1001d682 f   jgridcol.obj
+ 0001:0001c690       __unwindfunclet$??0ColMbr@@QAE@XZ$7 1001d690 f   jgridcol.obj
+ 0001:0001c69e       __unwindfunclet$??0ColMbr@@QAE@XZ$8 1001d69e f   jgridcol.obj
+ 0001:0001c6ac       __unwindfunclet$??0ColMbr@@QAE@XZ$11 1001d6ac f   jgridcol.obj
+ 0001:0001c6b4       __unwindfunclet$??0ColMbr@@QAE@XZ$9 1001d6b4 f   jgridcol.obj
+ 0001:0001c6c2       __ehhandler$??0ColMbr@@QAE@XZ 1001d6c2 f   jgridcol.obj
+ 0001:0001c6e0       __unwindfunclet$??1ColMbr@@QAE@XZ$0 1001d6e0 f   jgridcol.obj
+ 0001:0001c6e9       __unwindfunclet$??1ColMbr@@QAE@XZ$1 1001d6e9 f   jgridcol.obj
+ 0001:0001c6f4       __unwindfunclet$??1ColMbr@@QAE@XZ$2 1001d6f4 f   jgridcol.obj
+ 0001:0001c6ff       __unwindfunclet$??1ColMbr@@QAE@XZ$3 1001d6ff f   jgridcol.obj
+ 0001:0001c70e       __unwindfunclet$??1ColMbr@@QAE@XZ$4 1001d70e f   jgridcol.obj
+ 0001:0001c71c       __unwindfunclet$??1ColMbr@@QAE@XZ$5 1001d71c f   jgridcol.obj
+ 0001:0001c72a       __unwindfunclet$??1ColMbr@@QAE@XZ$6 1001d72a f   jgridcol.obj
+ 0001:0001c738       __unwindfunclet$??1ColMbr@@QAE@XZ$7 1001d738 f   jgridcol.obj
+ 0001:0001c746       __unwindfunclet$??1ColMbr@@QAE@XZ$8 1001d746 f   jgridcol.obj
+ 0001:0001c754       __unwindfunclet$??1ColMbr@@QAE@XZ$9 1001d754 f   jgridcol.obj
+ 0001:0001c762       __unwindfunclet$??1ColMbr@@QAE@XZ$10 1001d762 f   jgridcol.obj
+ 0001:0001c76e       __ehhandler$??1ColMbr@@QAE@XZ 1001d76e f   jgridcol.obj
+ 0001:0001c790       __unwindfunclet$?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z$0 1001d790 f   jgridcol.obj
+ 0001:0001c799       __unwindfunclet$?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z$1 1001d799 f   jgridcol.obj
+ 0001:0001c7a4       __unwindfunclet$?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z$2 1001d7a4 f   jgridcol.obj
+ 0001:0001c7af       __unwindfunclet$?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z$3 1001d7af f   jgridcol.obj
+ 0001:0001c7ba       __ehhandler$?SetCellString@JGridColumn@@UAEHJAAVGUserText@@@Z 1001d7ba f   jgridcol.obj
+ 0001:0001c7e0       __unwindfunclet$?SetEmpty@JGridColumn@@UAEHJH@Z$0 1001d7e0 f   jgridcol.obj
+ 0001:0001c7e9       __unwindfunclet$?SetEmpty@JGridColumn@@UAEHJH@Z$1 1001d7e9 f   jgridcol.obj
+ 0001:0001c7f4       __ehhandler$?SetEmpty@JGridColumn@@UAEHJH@Z 1001d7f4 f   jgridcol.obj
+ 0001:0001c810       __unwindfunclet$?InsertEmptyCell@JGridColumn@@UAEHJJ@Z$0 1001d810 f   jgridcol.obj
+ 0001:0001c81b       __ehhandler$?InsertEmptyCell@JGridColumn@@UAEHJJ@Z 1001d81b f   jgridcol.obj
+ 0001:0001c840       __unwindfunclet$??0JGridColumn@@QAE@XZ$0 1001d840 f   jgridcol.obj
+ 0001:0001c84b       __unwindfunclet$??0JGridColumn@@QAE@XZ$1 1001d84b f   jgridcol.obj
+ 0001:0001c856       __unwindfunclet$??0JGridColumn@@QAE@XZ$2 1001d856 f   jgridcol.obj
+ 0001:0001c861       __ehhandler$??0JGridColumn@@QAE@XZ 1001d861 f   jgridcol.obj
+ 0001:0001c880       __unwindfunclet$??1JGridColumn@@QAE@XZ$0 1001d880 f   jgridcol.obj
+ 0001:0001c88b       __unwindfunclet$??1JGridColumn@@QAE@XZ$1 1001d88b f   jgridcol.obj
+ 0001:0001c896       __ehhandler$??1JGridColumn@@QAE@XZ 1001d896 f   jgridcol.obj
+ 0001:0001c8c0       __unwindfunclet$??1CBitmap@@UAE@XZ$0 1001d8c0 f   jgridedt.obj
+ 0001:0001c8c8       __ehhandler$??1CBitmap@@UAE@XZ 1001d8c8 f   jgridedt.obj
+ 0001:0001c8f0       __unwindfunclet$??0CButton@@QAE@XZ$0 1001d8f0 f   jgridedt.obj
+ 0001:0001c8f8       __ehhandler$??0CButton@@QAE@XZ 1001d8f8 f   jgridedt.obj
+ 0001:0001c920       __unwindfunclet$??0CListBox@@QAE@XZ$0 1001d920 f   jgridedt.obj
+ 0001:0001c928       __ehhandler$??0CListBox@@QAE@XZ 1001d928 f   jgridedt.obj
+ 0001:0001c950       __unwindfunclet$??0CEdit@@QAE@XZ$0 1001d950 f   jgridedt.obj
+ 0001:0001c958       __ehhandler$??0CEdit@@QAE@XZ 1001d958 f   jgridedt.obj
+ 0001:0001c980       __unwindfunclet$??0CBitmapButton@@QAE@XZ$0 1001d980 f   jgridedt.obj
+ 0001:0001c988       __unwindfunclet$??0CBitmapButton@@QAE@XZ$5 1001d988 f   jgridedt.obj
+ 0001:0001c990       __unwindfunclet$??0CBitmapButton@@QAE@XZ$1 1001d990 f   jgridedt.obj
+ 0001:0001c99b       __unwindfunclet$??0CBitmapButton@@QAE@XZ$6 1001d99b f   jgridedt.obj
+ 0001:0001c9a3       __unwindfunclet$??0CBitmapButton@@QAE@XZ$2 1001d9a3 f   jgridedt.obj
+ 0001:0001c9ae       __unwindfunclet$??0CBitmapButton@@QAE@XZ$7 1001d9ae f   jgridedt.obj
+ 0001:0001c9b6       __unwindfunclet$??0CBitmapButton@@QAE@XZ$3 1001d9b6 f   jgridedt.obj
+ 0001:0001c9c1       __unwindfunclet$??0CBitmapButton@@QAE@XZ$8 1001d9c1 f   jgridedt.obj
+ 0001:0001c9c9       __unwindfunclet$??0CBitmapButton@@QAE@XZ$4 1001d9c9 f   jgridedt.obj
+ 0001:0001c9d4       __ehhandler$??0CBitmapButton@@QAE@XZ 1001d9d4 f   jgridedt.obj
+ 0001:0001c9f0       __unwindfunclet$??1CBitmapButton@@UAE@XZ$0 1001d9f0 f   jgridedt.obj
+ 0001:0001c9f8       __unwindfunclet$??1CBitmapButton@@UAE@XZ$1 1001d9f8 f   jgridedt.obj
+ 0001:0001ca03       __unwindfunclet$??1CBitmapButton@@UAE@XZ$2 1001da03 f   jgridedt.obj
+ 0001:0001ca0e       __unwindfunclet$??1CBitmapButton@@UAE@XZ$3 1001da0e f   jgridedt.obj
+ 0001:0001ca19       __unwindfunclet$??1CBitmapButton@@UAE@XZ$4 1001da19 f   jgridedt.obj
+ 0001:0001ca24       __ehhandler$??1CBitmapButton@@UAE@XZ 1001da24 f   jgridedt.obj
+ 0001:0001ca40       __unwindfunclet$??0JGridEditCell@@QAE@XZ$0 1001da40 f   jgridedt.obj
+ 0001:0001ca48       __unwindfunclet$??0JGridEditCell@@QAE@XZ$1 1001da48 f   jgridedt.obj
+ 0001:0001ca53       __unwindfunclet$??0JGridEditCell@@QAE@XZ$2 1001da53 f   jgridedt.obj
+ 0001:0001ca61       __ehhandler$??0JGridEditCell@@QAE@XZ 1001da61 f   jgridedt.obj
+ 0001:0001ca80       __unwindfunclet$??1JGridEditCell@@UAE@XZ$0 1001da80 f   jgridedt.obj
+ 0001:0001ca88       __unwindfunclet$??1JGridEditCell@@UAE@XZ$1 1001da88 f   jgridedt.obj
+ 0001:0001ca93       __unwindfunclet$??1JGridEditCell@@UAE@XZ$2 1001da93 f   jgridedt.obj
+ 0001:0001caa1       __ehhandler$??1JGridEditCell@@UAE@XZ 1001daa1 f   jgridedt.obj
+ 0001:0001cac0       __unwindfunclet$??0JGridEditRecord@@QAE@XZ$0 1001dac0 f   jgridedt.obj
+ 0001:0001cac8       __ehhandler$??0JGridEditRecord@@QAE@XZ 1001dac8 f   jgridedt.obj
+ 0001:0001caf0       __unwindfunclet$??1JGridEditRecord@@UAE@XZ$0 1001daf0 f   jgridedt.obj
+ 0001:0001caf8       __ehhandler$??1JGridEditRecord@@UAE@XZ 1001daf8 f   jgridedt.obj
+ 0001:0001cb20       __unwindfunclet$??_GJGridEditRecord@@UAEPAXI@Z$0 1001db20 f   jgridedt.obj
+ 0001:0001cb28       __ehhandler$??_GJGridEditRecord@@UAEPAXI@Z 1001db28 f   jgridedt.obj
+ 0001:0001cb50       __unwindfunclet$?CreateObject@JGridEditCell@@SGPAVCObject@@XZ$0 1001db50 f   jgridedt.obj
+ 0001:0001cb5a       __ehhandler$?CreateObject@JGridEditCell@@SGPAVCObject@@XZ 1001db5a f   jgridedt.obj
+ 0001:0001cb80       __unwindfunclet$?CreateObject@JGridEditRecord@@SGPAVCObject@@XZ$0 1001db80 f   jgridedt.obj
+ 0001:0001cb8a       __ehhandler$?CreateObject@JGridEditRecord@@SGPAVCObject@@XZ 1001db8a f   jgridedt.obj
+ 0001:0001cbb0       __unwindfunclet$??1JGridList@@UAE@XZ$0 1001dbb0 f   jgridlis.obj
+ 0001:0001cbb8       __ehhandler$??1JGridList@@UAE@XZ 1001dbb8 f   jgridlis.obj
+ 0001:0001cbe0       __unwindfunclet$??0JGridList@@QAE@XZ$0 1001dbe0 f   jgridlis.obj
+ 0001:0001cbe8       __ehhandler$??0JGridList@@QAE@XZ 1001dbe8 f   jgridlis.obj
+ 0001:0001cc10       __unwindfunclet$?DrawItem@JGridList@@UAEXPAUtagDRAWITEMSTRUCT@@@Z$0 1001dc10 f   jgridlis.obj
+ 0001:0001cc18       __ehhandler$?DrawItem@JGridList@@UAEXPAUtagDRAWITEMSTRUCT@@@Z 1001dc18 f   jgridlis.obj
+ 0001:0001cc40       __unwindfunclet$??1JGridPushButton@@UAE@XZ$0 1001dc40 f   jgridpus.obj
+ 0001:0001cc48       __ehhandler$??1JGridPushButton@@UAE@XZ 1001dc48 f   jgridpus.obj
+ 0001:0001cc70       __unwindfunclet$??0JGridPushButton@@QAE@XZ$0 1001dc70 f   jgridpus.obj
+ 0001:0001cc78       __ehhandler$??0JGridPushButton@@QAE@XZ 1001dc78 f   jgridpus.obj
+ 0001:0001cca0       __unwindfunclet$??1tagGridDef@@QAE@XZ$0 1001dca0 f   jgridwnd.obj
+ 0001:0001ccac       __ehhandler$??1tagGridDef@@QAE@XZ 1001dcac f   jgridwnd.obj
+ 0001:0001ccd0       __unwindfunclet$??0CScrollBar@@QAE@XZ$0 1001dcd0 f   jgridwnd.obj
+ 0001:0001ccd8       __ehhandler$??0CScrollBar@@QAE@XZ 1001dcd8 f   jgridwnd.obj
+ 0001:0001cd00       __unwindfunclet$??0tagGridDef@@QAE@XZ$0 1001dd00 f   jgridwnd.obj
+ 0001:0001cd0c       __ehhandler$??0tagGridDef@@QAE@XZ 1001dd0c f   jgridwnd.obj
+ 0001:0001cd30       __unwindfunclet$??1GridMbr@@QAE@XZ$0 1001dd30 f   jgridwnd.obj
+ 0001:0001cd3b       __unwindfunclet$??1GridMbr@@QAE@XZ$1 1001dd3b f   jgridwnd.obj
+ 0001:0001cd46       __unwindfunclet$??1GridMbr@@QAE@XZ$2 1001dd46 f   jgridwnd.obj
+ 0001:0001cd51       __unwindfunclet$??1GridMbr@@QAE@XZ$3 1001dd51 f   jgridwnd.obj
+ 0001:0001cd5c       __unwindfunclet$??1GridMbr@@QAE@XZ$4 1001dd5c f   jgridwnd.obj
+ 0001:0001cd6b       __unwindfunclet$??1GridMbr@@QAE@XZ$5 1001dd6b f   jgridwnd.obj
+ 0001:0001cd79       __unwindfunclet$??1GridMbr@@QAE@XZ$6 1001dd79 f   jgridwnd.obj
+ 0001:0001cd87       __unwindfunclet$??1GridMbr@@QAE@XZ$7 1001dd87 f   jgridwnd.obj
+ 0001:0001cd95       __unwindfunclet$??1GridMbr@@QAE@XZ$8 1001dd95 f   jgridwnd.obj
+ 0001:0001cda3       __unwindfunclet$??1GridMbr@@QAE@XZ$9 1001dda3 f   jgridwnd.obj
+ 0001:0001cdb1       __unwindfunclet$??1GridMbr@@QAE@XZ$10 1001ddb1 f   jgridwnd.obj
+ 0001:0001cdbf       __unwindfunclet$??1GridMbr@@QAE@XZ$11 1001ddbf f   jgridwnd.obj
+ 0001:0001cdcd       __unwindfunclet$??1GridMbr@@QAE@XZ$12 1001ddcd f   jgridwnd.obj
+ 0001:0001cddb       __unwindfunclet$??1GridMbr@@QAE@XZ$13 1001dddb f   jgridwnd.obj
+ 0001:0001cde9       __unwindfunclet$??1GridMbr@@QAE@XZ$14 1001dde9 f   jgridwnd.obj
+ 0001:0001cdf7       __unwindfunclet$??1GridMbr@@QAE@XZ$15 1001ddf7 f   jgridwnd.obj
+ 0001:0001ce05       __unwindfunclet$??1GridMbr@@QAE@XZ$16 1001de05 f   jgridwnd.obj
+ 0001:0001ce13       __unwindfunclet$??1GridMbr@@QAE@XZ$17 1001de13 f   jgridwnd.obj
+ 0001:0001ce21       __unwindfunclet$??1GridMbr@@QAE@XZ$18 1001de21 f   jgridwnd.obj
+ 0001:0001ce2f       __unwindfunclet$??1GridMbr@@QAE@XZ$19 1001de2f f   jgridwnd.obj
+ 0001:0001ce3d       __unwindfunclet$??1GridMbr@@QAE@XZ$20 1001de3d f   jgridwnd.obj
+ 0001:0001ce4b       __unwindfunclet$??1GridMbr@@QAE@XZ$21 1001de4b f   jgridwnd.obj
+ 0001:0001ce59       __unwindfunclet$??1GridMbr@@QAE@XZ$22 1001de59 f   jgridwnd.obj
+ 0001:0001ce67       __unwindfunclet$??1GridMbr@@QAE@XZ$23 1001de67 f   jgridwnd.obj
+ 0001:0001ce75       __unwindfunclet$??1GridMbr@@QAE@XZ$24 1001de75 f   jgridwnd.obj
+ 0001:0001ce83       __unwindfunclet$??1GridMbr@@QAE@XZ$25 1001de83 f   jgridwnd.obj
+ 0001:0001ce92       __unwindfunclet$??1GridMbr@@QAE@XZ$26 1001de92 f   jgridwnd.obj
+ 0001:0001cea0       __unwindfunclet$??1GridMbr@@QAE@XZ$27 1001dea0 f   jgridwnd.obj
+ 0001:0001ceae       __unwindfunclet$??1GridMbr@@QAE@XZ$28 1001deae f   jgridwnd.obj
+ 0001:0001cebc       __unwindfunclet$??1GridMbr@@QAE@XZ$29 1001debc f   jgridwnd.obj
+ 0001:0001ceca       __unwindfunclet$??1GridMbr@@QAE@XZ$30 1001deca f   jgridwnd.obj
+ 0001:0001ced8       __unwindfunclet$??1GridMbr@@QAE@XZ$31 1001ded8 f   jgridwnd.obj
+ 0001:0001cee6       __unwindfunclet$??1GridMbr@@QAE@XZ$32 1001dee6 f   jgridwnd.obj
+ 0001:0001cef4       __unwindfunclet$??1GridMbr@@QAE@XZ$33 1001def4 f   jgridwnd.obj
+ 0001:0001cf02       __unwindfunclet$??1GridMbr@@QAE@XZ$34 1001df02 f   jgridwnd.obj
+ 0001:0001cf0a       __ehhandler$??1GridMbr@@QAE@XZ 1001df0a f   jgridwnd.obj
+ 0001:0001cf30       __unwindfunclet$?DrawGrid@JGridWindow@@IAEXXZ$0 1001df30 f   jgridwnd.obj
+ 0001:0001cf38       __ehhandler$?DrawGrid@JGridWindow@@IAEXXZ 1001df38 f   jgridwnd.obj
+ 0001:0001cf60       __unwindfunclet$?DrawFrame@JGridWindow@@IAEXXZ$3 1001df60 f   jgridwnd.obj
+ 0001:0001cf6b       __unwindfunclet$?DrawFrame@JGridWindow@@IAEXXZ$0 1001df6b f   jgridwnd.obj
+ 0001:0001cf76       __unwindfunclet$?DrawFrame@JGridWindow@@IAEXXZ$1 1001df76 f   jgridwnd.obj
+ 0001:0001cf7f       __unwindfunclet$?DrawFrame@JGridWindow@@IAEXXZ$2 1001df7f f   jgridwnd.obj
+ 0001:0001cf88       __unwindfunclet$?DrawFrame@JGridWindow@@IAEXXZ$4 1001df88 f   jgridwnd.obj
+ 0001:0001cf93       __ehhandler$?DrawFrame@JGridWindow@@IAEXXZ 1001df93 f   jgridwnd.obj
+ 0001:0001cfd0       __unwindfunclet$?SetGPos@JGridWindow@@IAEXXZ$0 1001dfd0 f   jgridwnd.obj
+ 0001:0001cfd9       __ehhandler$?SetGPos@JGridWindow@@IAEXXZ 1001dfd9 f   jgridwnd.obj
+ 0001:0001d000       __unwindfunclet$??0GridMbr@@QAE@XZ$34 1001e000 f   jgridwnd.obj
+ 0001:0001d008       __unwindfunclet$??0GridMbr@@QAE@XZ$0 1001e008 f   jgridwnd.obj
+ 0001:0001d013       __unwindfunclet$??0GridMbr@@QAE@XZ$1 1001e013 f   jgridwnd.obj
+ 0001:0001d01e       __unwindfunclet$??0GridMbr@@QAE@XZ$2 1001e01e f   jgridwnd.obj
+ 0001:0001d029       __unwindfunclet$??0GridMbr@@QAE@XZ$3 1001e029 f   jgridwnd.obj
+ 0001:0001d034       __unwindfunclet$??0GridMbr@@QAE@XZ$4 1001e034 f   jgridwnd.obj
+ 0001:0001d043       __unwindfunclet$??0GridMbr@@QAE@XZ$5 1001e043 f   jgridwnd.obj
+ 0001:0001d051       __unwindfunclet$??0GridMbr@@QAE@XZ$6 1001e051 f   jgridwnd.obj
+ 0001:0001d05f       __unwindfunclet$??0GridMbr@@QAE@XZ$35 1001e05f f   jgridwnd.obj
+ 0001:0001d067       __unwindfunclet$??0GridMbr@@QAE@XZ$7 1001e067 f   jgridwnd.obj
+ 0001:0001d075       __unwindfunclet$??0GridMbr@@QAE@XZ$8 1001e075 f   jgridwnd.obj
+ 0001:0001d083       __unwindfunclet$??0GridMbr@@QAE@XZ$9 1001e083 f   jgridwnd.obj
+ 0001:0001d091       __unwindfunclet$??0GridMbr@@QAE@XZ$10 1001e091 f   jgridwnd.obj
+ 0001:0001d09f       __unwindfunclet$??0GridMbr@@QAE@XZ$11 1001e09f f   jgridwnd.obj
+ 0001:0001d0ad       __unwindfunclet$??0GridMbr@@QAE@XZ$12 1001e0ad f   jgridwnd.obj
+ 0001:0001d0bb       __unwindfunclet$??0GridMbr@@QAE@XZ$13 1001e0bb f   jgridwnd.obj
+ 0001:0001d0c9       __unwindfunclet$??0GridMbr@@QAE@XZ$14 1001e0c9 f   jgridwnd.obj
+ 0001:0001d0d7       __unwindfunclet$??0GridMbr@@QAE@XZ$15 1001e0d7 f   jgridwnd.obj
+ 0001:0001d0e5       __unwindfunclet$??0GridMbr@@QAE@XZ$16 1001e0e5 f   jgridwnd.obj
+ 0001:0001d0f3       __unwindfunclet$??0GridMbr@@QAE@XZ$36 1001e0f3 f   jgridwnd.obj
+ 0001:0001d0fb       __unwindfunclet$??0GridMbr@@QAE@XZ$17 1001e0fb f   jgridwnd.obj
+ 0001:0001d109       __unwindfunclet$??0GridMbr@@QAE@XZ$37 1001e109 f   jgridwnd.obj
+ 0001:0001d111       __unwindfunclet$??0GridMbr@@QAE@XZ$18 1001e111 f   jgridwnd.obj
+ 0001:0001d11f       __unwindfunclet$??0GridMbr@@QAE@XZ$38 1001e11f f   jgridwnd.obj
+ 0001:0001d127       __unwindfunclet$??0GridMbr@@QAE@XZ$19 1001e127 f   jgridwnd.obj
+ 0001:0001d135       __unwindfunclet$??0GridMbr@@QAE@XZ$39 1001e135 f   jgridwnd.obj
+ 0001:0001d13d       __unwindfunclet$??0GridMbr@@QAE@XZ$20 1001e13d f   jgridwnd.obj
+ 0001:0001d14b       __unwindfunclet$??0GridMbr@@QAE@XZ$40 1001e14b f   jgridwnd.obj
+ 0001:0001d153       __unwindfunclet$??0GridMbr@@QAE@XZ$21 1001e153 f   jgridwnd.obj
+ 0001:0001d161       __unwindfunclet$??0GridMbr@@QAE@XZ$41 1001e161 f   jgridwnd.obj
+ 0001:0001d169       __unwindfunclet$??0GridMbr@@QAE@XZ$22 1001e169 f   jgridwnd.obj
+ 0001:0001d177       __unwindfunclet$??0GridMbr@@QAE@XZ$42 1001e177 f   jgridwnd.obj
+ 0001:0001d17f       __unwindfunclet$??0GridMbr@@QAE@XZ$23 1001e17f f   jgridwnd.obj
+ 0001:0001d18d       __unwindfunclet$??0GridMbr@@QAE@XZ$43 1001e18d f   jgridwnd.obj
+ 0001:0001d195       __unwindfunclet$??0GridMbr@@QAE@XZ$24 1001e195 f   jgridwnd.obj
+ 0001:0001d1a3       __unwindfunclet$??0GridMbr@@QAE@XZ$25 1001e1a3 f   jgridwnd.obj
+ 0001:0001d1b2       __unwindfunclet$??0GridMbr@@QAE@XZ$44 1001e1b2 f   jgridwnd.obj
+ 0001:0001d1ba       __unwindfunclet$??0GridMbr@@QAE@XZ$26 1001e1ba f   jgridwnd.obj
+ 0001:0001d1c8       __unwindfunclet$??0GridMbr@@QAE@XZ$45 1001e1c8 f   jgridwnd.obj
+ 0001:0001d1d0       __unwindfunclet$??0GridMbr@@QAE@XZ$27 1001e1d0 f   jgridwnd.obj
+ 0001:0001d1de       __unwindfunclet$??0GridMbr@@QAE@XZ$46 1001e1de f   jgridwnd.obj
+ 0001:0001d1e6       __unwindfunclet$??0GridMbr@@QAE@XZ$28 1001e1e6 f   jgridwnd.obj
+ 0001:0001d1f4       __unwindfunclet$??0GridMbr@@QAE@XZ$47 1001e1f4 f   jgridwnd.obj
+ 0001:0001d1fc       __unwindfunclet$??0GridMbr@@QAE@XZ$29 1001e1fc f   jgridwnd.obj
+ 0001:0001d20a       __unwindfunclet$??0GridMbr@@QAE@XZ$48 1001e20a f   jgridwnd.obj
+ 0001:0001d212       __unwindfunclet$??0GridMbr@@QAE@XZ$30 1001e212 f   jgridwnd.obj
+ 0001:0001d220       __unwindfunclet$??0GridMbr@@QAE@XZ$49 1001e220 f   jgridwnd.obj
+ 0001:0001d228       __unwindfunclet$??0GridMbr@@QAE@XZ$31 1001e228 f   jgridwnd.obj
+ 0001:0001d236       __unwindfunclet$??0GridMbr@@QAE@XZ$50 1001e236 f   jgridwnd.obj
+ 0001:0001d23e       __unwindfunclet$??0GridMbr@@QAE@XZ$32 1001e23e f   jgridwnd.obj
+ 0001:0001d24c       __unwindfunclet$??0GridMbr@@QAE@XZ$51 1001e24c f   jgridwnd.obj
+ 0001:0001d254       __unwindfunclet$??0GridMbr@@QAE@XZ$33 1001e254 f   jgridwnd.obj
+ 0001:0001d262       __ehhandler$??0GridMbr@@QAE@XZ 1001e262 f   jgridwnd.obj
+ 0001:0001d280       __unwindfunclet$?OnPaint@JGridWindow@@IAEXXZ$0 1001e280 f   jgridwnd.obj
+ 0001:0001d288       __unwindfunclet$?OnPaint@JGridWindow@@IAEXXZ$1 1001e288 f   jgridwnd.obj
+ 0001:0001d293       __ehhandler$?OnPaint@JGridWindow@@IAEXXZ 1001e293 f   jgridwnd.obj
+ 0001:0001d2c0       __unwindfunclet$??0JGridWindow@@QAE@XZ$0 1001e2c0 f   jgridwnd.obj
+ 0001:0001d2c8       __unwindfunclet$??0JGridWindow@@QAE@XZ$1 1001e2c8 f   jgridwnd.obj
+ 0001:0001d2d3       __ehhandler$??0JGridWindow@@QAE@XZ 1001e2d3 f   jgridwnd.obj
+ 0001:0001d2f0       __unwindfunclet$??1JGridWindow@@UAE@XZ$0 1001e2f0 f   jgridwnd.obj
+ 0001:0001d2f8       __ehhandler$??1JGridWindow@@UAE@XZ 1001e2f8 f   jgridwnd.obj
+ 0001:0001d320       __unwindfunclet$?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z$0 1001e320 f   jgridwnd.obj
+ 0001:0001d32a       __unwindfunclet$?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z$1 1001e32a f   jgridwnd.obj
+ 0001:0001d334       __unwindfunclet$?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z$2 1001e334 f   jgridwnd.obj
+ 0001:0001d33e       __unwindfunclet$?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z$3 1001e33e f   jgridwnd.obj
+ 0001:0001d347       __ehhandler$?ResetGridDefinition@JGridWindow@@QAEHPAUtagGridDef@@@Z 1001e347 f   jgridwnd.obj
+ 0001:0001d370       __unwindfunclet$?JGridWindowProc@@YGJPAUHWND__@@IIJ@Z$0 1001e370 f   jgridwnd.obj
+ 0001:0001d378       __ehhandler$?JGridWindowProc@@YGJPAUHWND__@@IIJ@Z 1001e378 f   jgridwnd.obj
+ 0001:0001d3a0       __unwindfunclet$?CreateObject@JGridWindow@@SGPAVCObject@@XZ$0 1001e3a0 f   jgridwnd.obj
+ 0001:0001d3aa       __ehhandler$?CreateObject@JGridWindow@@SGPAVCObject@@XZ 1001e3aa f   jgridwnd.obj
+ 0001:0001d3d0       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$0 1001e3d0 f   jgridwnd.obj
+ 0001:0001d3d9       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$1 1001e3d9 f   jgridwnd.obj
+ 0001:0001d3e5       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$2 1001e3e5 f   jgridwnd.obj
+ 0001:0001d3f2       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$3 1001e3f2 f   jgridwnd.obj
+ 0001:0001d3ff       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$4 1001e3ff f   jgridwnd.obj
+ 0001:0001d409       __unwindfunclet$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z$5 1001e409 f   jgridwnd.obj
+ 0001:0001d412       __ehhandler$?Create@JGridWindow@@QAEHPAUtagGridDef@@PAVCWnd@@@Z 1001e412 f   jgridwnd.obj
+ 0001:0001d440       __unwindfunclet$_DllMain@12$0 1001e440 f   jgridx.obj
+ 0001:0001d44a       __ehhandler$_DllMain@12    1001e44a f   jgridx.obj
+ 0001:0001d470       __unwindfunclet$??1JGridStyleDropdown@@UAE@XZ$0 1001e470 f   jstddown.obj
+ 0001:0001d479       __unwindfunclet$??1JGridStyleDropdown@@UAE@XZ$1 1001e479 f   jstddown.obj
+ 0001:0001d484       __unwindfunclet$??1JGridStyleDropdown@@UAE@XZ$2 1001e484 f   jstddown.obj
+ 0001:0001d48d       __ehhandler$??1JGridStyleDropdown@@UAE@XZ 1001e48d f   jstddown.obj
+ 0001:0001d4b0       __unwindfunclet$??0JGridStyleDropdown@@QAE@XZ$0 1001e4b0 f   jstddown.obj
+ 0001:0001d4b9       __unwindfunclet$??0JGridStyleDropdown@@QAE@XZ$1 1001e4b9 f   jstddown.obj
+ 0001:0001d4c4       __ehhandler$??0JGridStyleDropdown@@QAE@XZ 1001e4c4 f   jstddown.obj
+ 0001:0001d4e0       __unwindfunclet$?OnCreate@JGridStyleDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z$0 1001e4e0 f   jstddown.obj
+ 0001:0001d4ec       __unwindfunclet$?OnCreate@JGridStyleDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z$1 1001e4ec f   jstddown.obj
+ 0001:0001d4f8       __ehhandler$?OnCreate@JGridStyleDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z 1001e4f8 f   jstddown.obj
+ 0001:0001d530       __unwindfunclet$?OnPaint@JGridStyleDropdown@@IAEXXZ$0 1001e530 f   jstddown.obj
+ 0001:0001d538       __unwindfunclet$?OnPaint@JGridStyleDropdown@@IAEXXZ$1 1001e538 f   jstddown.obj
+ 0001:0001d541       __ehhandler$?OnPaint@JGridStyleDropdown@@IAEXXZ 1001e541 f   jstddown.obj
+ 0001:0001d570       __unwindfunclet$?GetThisMessageMap@JGridStyleDropdown@@KGPBUAFX_MSGMAP@@XZ$0 1001e570 f   jstddown.obj
+ 0001:0001d57e       __ehhandler$?GetThisMessageMap@JGridStyleDropdown@@KGPBUAFX_MSGMAP@@XZ 1001e57e f   jstddown.obj
+ 0001:0001d5a0       __unwindfunclet$??1JGridWeightDropdown@@UAE@XZ$0 1001e5a0 f   jwtddown.obj
+ 0001:0001d5a9       __unwindfunclet$??1JGridWeightDropdown@@UAE@XZ$1 1001e5a9 f   jwtddown.obj
+ 0001:0001d5b4       __unwindfunclet$??1JGridWeightDropdown@@UAE@XZ$2 1001e5b4 f   jwtddown.obj
+ 0001:0001d5c3       __unwindfunclet$??1JGridWeightDropdown@@UAE@XZ$3 1001e5c3 f   jwtddown.obj
+ 0001:0001d5cc       __unwindfunclet$??1JGridWeightDropdown@@UAE@XZ$4 1001e5cc f   jwtddown.obj
+ 0001:0001d5d5       __ehhandler$??1JGridWeightDropdown@@UAE@XZ 1001e5d5 f   jwtddown.obj
+ 0001:0001d5f0       __unwindfunclet$?GetLogicalFont@@YA?AUtagLOGFONTA@@PAUHINSTANCE__@@QAVCDC@@HH@Z$0 1001e5f0 f   jwtddown.obj
+ 0001:0001d5f9       __ehhandler$?GetLogicalFont@@YA?AUtagLOGFONTA@@PAUHINSTANCE__@@QAVCDC@@HH@Z 1001e5f9 f   jwtddown.obj
+ 0001:0001d630       __unwindfunclet$??0JGridWeightDropdown@@QAE@XZ$0 1001e630 f   jwtddown.obj
+ 0001:0001d639       __unwindfunclet$??0JGridWeightDropdown@@QAE@XZ$1 1001e639 f   jwtddown.obj
+ 0001:0001d644       __unwindfunclet$??0JGridWeightDropdown@@QAE@XZ$2 1001e644 f   jwtddown.obj
+ 0001:0001d653       __ehhandler$??0JGridWeightDropdown@@QAE@XZ 1001e653 f   jwtddown.obj
+ 0001:0001d670       __unwindfunclet$?OnCreate@JGridWeightDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z$0 1001e670 f   jwtddown.obj
+ 0001:0001d679       __unwindfunclet$?OnCreate@JGridWeightDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z$1 1001e679 f   jwtddown.obj
+ 0001:0001d685       __ehhandler$?OnCreate@JGridWeightDropdown@@IAEHPAUtagCREATESTRUCTA@@@Z 1001e685 f   jwtddown.obj
+ 0001:0001d6c0       __unwindfunclet$?OnPaint@JGridWeightDropdown@@IAEXXZ$0 1001e6c0 f   jwtddown.obj
+ 0001:0001d6cb       __unwindfunclet$?OnPaint@JGridWeightDropdown@@IAEXXZ$1 1001e6cb f   jwtddown.obj
+ 0001:0001d6d6       __unwindfunclet$?OnPaint@JGridWeightDropdown@@IAEXXZ$2 1001e6d6 f   jwtddown.obj
+ 0001:0001d6e2       __ehhandler$?OnPaint@JGridWeightDropdown@@IAEXXZ 1001e6e2 f   jwtddown.obj
+ 0001:0001d710       __unwindfunclet$?SetCurSel@JGridWeightDropdown@@IAEXH@Z$0 1001e710 f   jwtddown.obj
+ 0001:0001d71c       __ehhandler$?SetCurSel@JGridWeightDropdown@@IAEXH@Z 1001e71c f   jwtddown.obj
+ 0001:0001d750       __unwindfunclet$?GetThisMessageMap@JGridWeightDropdown@@KGPBUAFX_MSGMAP@@XZ$0 1001e750 f   jwtddown.obj
+ 0001:0001d75e       __ehhandler$?GetThisMessageMap@JGridWeightDropdown@@KGPBUAFX_MSGMAP@@XZ 1001e75e f   jwtddown.obj
+ 0001:0001d780       __unwindfunclet$?StretchRows@JGridWindow@@IAEXH@Z$0 1001e780 f   mouse.obj
+ 0001:0001d78b       __ehhandler$?StretchRows@JGridWindow@@IAEXH@Z 1001e78b f   mouse.obj
+ 0001:0001d7b0       __unwindfunclet$?StretchRow@JGridWindow@@IAEXHH@Z$0 1001e7b0 f   mouse.obj
+ 0001:0001d7bb       __ehhandler$?StretchRow@JGridWindow@@IAEXHH@Z 1001e7bb f   mouse.obj
+ 0001:0001d7e0       __unwindfunclet$?SetEmpty@JGridLineStyleColumn@@UAEHJH@Z$0 1001e7e0 f   stylecol.obj
+ 0001:0001d7e9       __ehhandler$?SetEmpty@JGridLineStyleColumn@@UAEHJH@Z 1001e7e9 f   stylecol.obj
+ 0001:0001d810       __unwindfunclet$??0JGridLineStyleColumn@@QAE@XZ$0 1001e810 f   stylecol.obj
+ 0001:0001d818       __unwindfunclet$??0JGridLineStyleColumn@@QAE@XZ$1 1001e818 f   stylecol.obj
+ 0001:0001d823       __ehhandler$??0JGridLineStyleColumn@@QAE@XZ 1001e823 f   stylecol.obj
+ 0001:0001d840       __unwindfunclet$??1JGridLineStyleColumn@@QAE@XZ$0 1001e840 f   stylecol.obj
+ 0001:0001d848       __unwindfunclet$??1JGridLineStyleColumn@@QAE@XZ$1 1001e848 f   stylecol.obj
+ 0001:0001d853       __ehhandler$??1JGridLineStyleColumn@@QAE@XZ 1001e853 f   stylecol.obj
+ 0001:0001d870       __unwindfunclet$?SetCellString@JGridTreeColumn@@UAEHJAAVGUserText@@@Z$0 1001e870 f   treecol.obj
+ 0001:0001d879       __ehhandler$?SetCellString@JGridTreeColumn@@UAEHJAAVGUserText@@@Z 1001e879 f   treecol.obj
+ 0001:0001d8a0       __unwindfunclet$??0JGridTreeColumn@@QAE@XZ$0 1001e8a0 f   treecol.obj
+ 0001:0001d8a8       __unwindfunclet$??0JGridTreeColumn@@QAE@XZ$1 1001e8a8 f   treecol.obj
+ 0001:0001d8b3       __ehhandler$??0JGridTreeColumn@@QAE@XZ 1001e8b3 f   treecol.obj
+ 0001:0001d8d0       __unwindfunclet$??1JGridTreeColumn@@QAE@XZ$0 1001e8d0 f   treecol.obj
+ 0001:0001d8d8       __unwindfunclet$??1JGridTreeColumn@@QAE@XZ$1 1001e8d8 f   treecol.obj
+ 0001:0001d8e3       __ehhandler$??1JGridTreeColumn@@QAE@XZ 1001e8e3 f   treecol.obj
+ 0001:0001d900       __unwindfunclet$?AddRootToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJH@Z$0 1001e900 f   treecol.obj
+ 0001:0001d909       __unwindfunclet$?AddRootToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJH@Z$1 1001e909 f   treecol.obj
+ 0001:0001d914       __ehhandler$?AddRootToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJH@Z 1001e914 f   treecol.obj
+ 0001:0001d930       __unwindfunclet$?AddChildToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJPAV2@HH@Z$0 1001e930 f   treecol.obj
+ 0001:0001d939       __unwindfunclet$?AddChildToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJPAV2@HH@Z$1 1001e939 f   treecol.obj
+ 0001:0001d944       __ehhandler$?AddChildToTree@JGridTreeColumn@@QAEPAVJGridTreeItem@@VGUserText@@JJPAV2@HH@Z 1001e944 f   treecol.obj
+ 0001:0001d960       __unwindfunclet$??0JGridTreeItem@@QAE@XZ$0 1001e960 f   treeitem.obj
+ 0001:0001d96b       __ehhandler$??0JGridTreeItem@@QAE@XZ 1001e96b f   treeitem.obj
+ 0001:0001d990       __unwindfunclet$??1JGridTreeItem@@QAE@XZ$0 1001e990 f   treeitem.obj
+ 0001:0001d99b       __ehhandler$??1JGridTreeItem@@QAE@XZ 1001e99b f   treeitem.obj
+ 0001:0001d9c0       __unwindfunclet$?SetEmpty@JGridLineWeightColumn@@UAEHJH@Z$0 1001e9c0 f   wtcol.obj
+ 0001:0001d9c9       __ehhandler$?SetEmpty@JGridLineWeightColumn@@UAEHJH@Z 1001e9c9 f   wtcol.obj
+ 0001:0001d9f0       __unwindfunclet$??0JGridLineWeightColumn@@QAE@XZ$0 1001e9f0 f   wtcol.obj
+ 0001:0001d9f8       __unwindfunclet$??0JGridLineWeightColumn@@QAE@XZ$1 1001e9f8 f   wtcol.obj
+ 0001:0001da03       __ehhandler$??0JGridLineWeightColumn@@QAE@XZ 1001ea03 f   wtcol.obj
+ 0001:0001da20       __unwindfunclet$??1JGridLineWeightColumn@@QAE@XZ$0 1001ea20 f   wtcol.obj
+ 0001:0001da28       __unwindfunclet$??1JGridLineWeightColumn@@QAE@XZ$1 1001ea28 f   wtcol.obj
+ 0001:0001da33       __ehhandler$??1JGridLineWeightColumn@@QAE@XZ 1001ea33 f   wtcol.obj
+ 0001:0001da50       ??__EWM_SETVSCROLLRANGE@@YAXXZ 1001ea50 f   counters.obj
+ 0001:0001da70       ??__EWM_SETHSCROLLRANGE@@YAXXZ 1001ea70 f   counters.obj
+ 0001:0001da90       ??__EWM_DELETERECORDS@@YAXXZ 1001ea90 f   delete.obj
+ 0001:0001dab0       ??__EWM_DELETECOLUMNS@@YAXXZ 1001eab0 f   delete.obj
+ 0001:0001dad0       ??__EWM_UPDATECELL@@YAXXZ  1001ead0 f   dropdown.obj
+ 0001:0001daf0       ??__EWM_SELECTCOLUMN@@YAXXZ 1001eaf0 f   jgridcol.obj
+ 0001:0001db10       ??__EWM_UPDATECELL@@YAXXZ  1001eb10 f   jgridcol.obj
+ 0001:0001db30       ??__EWM_INSERTRECORDS@@YAXXZ 1001eb30 f   jgridrec.obj
+ 0001:0001db50       ??__EWM_SELECTRECORD@@YAXXZ 1001eb50 f   jgridrow.obj
+ 0001:0001db70       ??__EWM_LOCATECELL@@YAXXZ  1001eb70 f   jgridwnd.obj
+ 0001:0001db90       ??__EWM_POSTCREATE@@YAXXZ  1001eb90 f   jgridwnd.obj
+ 0001:0001dbb0       ??__EWM_HYPERTEXTLAUNCH@@YAXXZ 1001ebb0 f   jgridwnd.obj
+ 0001:0001dbd0       ??__EAll_JGrids@@YAXXZ     1001ebd0 f   jgridwnd.obj
+ 0001:0001dbf0       ??__EWM_SELECTRECORD@@YAXXZ 1001ebf0 f   mouse.obj
+ 0001:0001dc10       ??__EWM_LOCATECELL@@YAXXZ  1001ec10 f   mouse.obj
+ 0001:0001dc30       ??__EWM_LDBLCLICKRECORD@@YAXXZ 1001ec30 f   mouse.obj
+ 0001:0001dc50       ??__EWM_EDITCELL@@YAXXZ    1001ec50 f   moving.obj
+ 0001:0001dc70       ??__EWM_UPDATECELL@@YAXXZ  1001ec70 f   moving.obj
+ 0001:0001dc90       ??__EWM_SETRECORDPOINTER@@YAXXZ 1001ec90 f   recptr.obj
+ 0001:0001dcb0       ??__EWM_SELECTRECORD@@YAXXZ 1001ecb0 f   select.obj
+ 0001:0001dcd0       ??__EWM_SELECTCELL@@YAXXZ  1001ecd0 f   select.obj
+ 0001:0001dcf0       ??__EGNULL_Camera@@YAXXZ   1001ecf0 f   stdafx.obj
+ 0001:0001dd10       ??__EGNULL_CAMERA@@YAXXZ   1001ed10 f   stdafx.obj
+ 0001:0001dd30       ??__EGID_Camera@@YAXXZ     1001ed30 f   stdafx.obj
+ 0001:0001dd50       ??__EGID_CAMERA@@YAXXZ     1001ed50 f   stdafx.obj
+ 0001:0001dd70       ??__EWM_EDITCELL@@YAXXZ    1001ed70 f   stdafx.obj
+ 0001:0001dd90       ??__EWM_SELECTCOLUMN@@YAXXZ 1001ed90 f   stdafx.obj
+ 0001:0001ddb0       ??__EWM_SELECTRECORD@@YAXXZ 1001edb0 f   stdafx.obj
+ 0001:0001ddd0       ??__EWM_INSERTRECORDS@@YAXXZ 1001edd0 f   stdafx.obj
+ 0001:0001ddf0       ??__EWM_DELETERECORDS@@YAXXZ 1001edf0 f   stdafx.obj
+ 0001:0001de10       ??__EWM_UPDATECELL@@YAXXZ  1001ee10 f   stdafx.obj
+ 0001:0001de30       ??__EWM_LOCATECELL@@YAXXZ  1001ee30 f   stdafx.obj
+ 0001:0001de50       ??__EWM_LDBLCLICKRECORD@@YAXXZ 1001ee50 f   stdafx.obj
+ 0001:0001de70       ??__EWM_SETRECORDPOINTER@@YAXXZ 1001ee70 f   stdafx.obj
+ 0001:0001de90       ??__EWM_POSTCREATE@@YAXXZ  1001ee90 f   stdafx.obj
+ 0001:0001deb0       ??__EWM_SELECTCELL@@YAXXZ  1001eeb0 f   stdafx.obj
+ 0001:0001ded0       ??__EWM_HYPERTEXTLAUNCH@@YAXXZ 1001eed0 f   stdafx.obj
+ 0001:0001def0       ??__EWM_EXPANDTREE@@YAXXZ  1001eef0 f   stdafx.obj
+ 0001:0001df10       ??__EWM_HIDETREE@@YAXXZ    1001ef10 f   stdafx.obj
+ 0001:0001df30       ??__EWM_DELETECOLUMNS@@YAXXZ 1001ef30 f   stdafx.obj
+ 0001:0001df50       ??__EWM_SETVSCROLLRANGE@@YAXXZ 1001ef50 f   stdafx.obj
+ 0001:0001df70       ??__EWM_SETHSCROLLRANGE@@YAXXZ 1001ef70 f   stdafx.obj
+ 0001:0001df90       ??__EWM_EXPANDTREE@@YAXXZ  1001ef90 f   treecol.obj
+ 0001:0001dfb0       ??__EWM_HIDETREE@@YAXXZ    1001efb0 f   treecol.obj
+ 0001:0001dfd0       ??__FAll_JGrids@@YAXXZ     1001efd0 f   jgridwnd.obj

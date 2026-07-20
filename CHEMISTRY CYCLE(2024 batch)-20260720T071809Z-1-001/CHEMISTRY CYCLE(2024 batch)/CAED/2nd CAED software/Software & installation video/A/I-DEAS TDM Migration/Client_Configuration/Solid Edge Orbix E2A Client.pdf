@@ -1,0 +1,22 @@
+[PDF]
+Version = 2.0
+
+[Package Definition]
+Name = Solid Edge Orbix E2A Client
+Version = 15.00.0104
+Publisher = EDS
+Language = English
+Programs = Setup
+MifFileName = Solid Edge Orbix E2A Client.mif
+MifName = Solid Edge Orbix E2A Client
+MifVersion = 15.00.0104
+MifPublisher = EDS
+
+[Setup]
+Name = Automated Minimum Installation
+CommandLine = msiexec /m "Solid Edge Orbix E2A Client.mif" /qn /I "Solid Edge Orbix E2A Client.msi"
+SupportedClients = Win 9x, Win NT (i386)
+UserInputRequired = False
+RemoveProgram = True
+UnInstallKey = {44E54AD8-3E73-4470-B889-6BD16F7F6A33}
+

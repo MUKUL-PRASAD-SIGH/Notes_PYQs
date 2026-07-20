@@ -1,0 +1,291 @@
+#
+# $File: //lw/QABUILD/75/lads/smdata/english_uk/messages $
+# $Revision: #12 $
+# $Change: 20759 $
+# $Author: tomek $
+# $DateTime: 2005/05/25 11:37:45 $
+#
+# Description:
+#
+#    Session manager master message file for "english_uk".
+#    Optionally includes messages for GUI-FW and applications.
+#
+
+version 0x07050000
+
+0000 Unknown message id: %d
+0001 Open messages file\c
+0002 Debug: %s
+0003 %s
+0004 Warning: %s
+0005 Error: %s
+0006 Enter yes or no (y/n) \c
+0007 Enter yes, no or cancel (y/n/c) \c
+0008 Enter filename \c
+0009 "%s:%d": Assertion failed: %s
+0010 Enter point \c
+0011 Enter vector \c
+0012 Enter string \c
+0013 Interrupt [%u] (y/n) \c
+0014 Progress: "%s" is %.2f%% complete
+0015 Journal: (%u:%u) "%s"
+0016 LADS(status[0x%x], module[%u], code[%u]):\n   %s
+
+0050 Session Manager Initialised
+0050 \tVersion: "%s", Locale: "%s", Uid: %d, Gid: %d
+0050 \tString-type: "%s", Flavour: "%s"
+0051 SHADER TABLE Ident: "%s", Version: "%s", Entries: %d
+0052 Could not load some (or all) of the pre-defined entity class images
+0053 Loaded messages "%s"
+0054 %s
+0055 Message file syntax error at "%s:%u":\n   "%s"
+0056 Failed to load message file "%s"
+0057 SHADER TABLE: Modified prototype 0x%p (%s) with id = %u to id = %u
+
+#
+# Entity notification.
+#
+0100 Access (%u) denied for "%s" (0x%p)
+0101 Override mode %d for "%s" (0x%p)
+0102 Deleted "%s" (0x%p)
+0103 Archive "%s" is corrupt
+0104 Could not create archive "%s"
+0105 Removed "%s" (0x%p) from "%s" (0x%p)
+0106 Added "%s" (0x%p) to "%s" (0x%p) and [after = 0x%x] "%s" (0x%p)
+0107 Restore of "%s" failed
+0108 Cyclic reference for "%s" (0x%p) at "%s" (0x%p) de-referencing "%s" (0x%p)
+0109 Open archive\c
+0110 Open file\c
+0111 Invalid use of header-entity "%s" (0x%p) in "%s"
+0112 Replace archive "%s" with "%s"? \c
+0113 Cyclic shade-tree shader "%s" (0x%p)
+0114 Modified variable 0x%08x for entity "%s" (0x%p)
+0115 Reference "%s" (0x%p) modified by change to "%s" (0x%p) by %u
+0116 Entity 0x%p renamed from "%s" to "%s"
+0117 Entity "%s" (0x%p) has been updated
+0118 Saved "%s" to "%s"
+0119 Save of "%s" to "%s" failed
+0120 Save read-only archive?\c
+0121 Entity "%s" (0x%p) has been modified (how = 0x%x)
+0122 Indirect reference "%s" (0x%p) modified by change to "%s" (0x%p) by %u
+0123 The path of entity "%s" (0x%p) has been modified
+0124 Licence validation failed.
+0124 A licence may be obtained by browsing the following URL
+0124 http://www.lightworks-user.com/authorization/index.php?ID=%s&DATA=%s
+0125 Licence validated: ID="%s", Data="%s", Key="%s"
+0126 Notice for licence: ID="%s", Licence = 0x%p
+0127 Reordered "%s" (0x%p) in "%s" (0x%p) to [after = 0x%x] "%s" (0x%p)
+0128 Assigned entity "%s" (0x%p)
+0129 I/O of entity of class "%s" not supported using 0x%x version of LWA format
+0130 Do you want to install the "%s" plugin shader?
+0131 Archive contains unknown shader "%s"
+0131 For more information on this shader see:
+0131 %s
+0132 Receiver = 0x%p Exchangee = 0x%p Exchanger = 0x%p Reference = 0x%p Mode = 0x%08x
+0133 Entity "%s" (0x%p) enabled = 0x%x
+
+#
+# Plugins.
+#
+0134 Plug-in DLL: %s is the wrong flavour.
+0134 Plug-in flavour is \"%s\",
+0134 Required flavour is \"%s\"
+0135 Failed to load plug-in \"%s\"
+0136 Error reading LWA plugins archive: \"%s\". Possibly contains data readable only by LWA enabled applications.
+0137 Attempt to set plug-in handler of class %d failed
+0138 Warning: failed to remove plug-in handler for class %d
+0139 LiPlugInClassEnable: no plug-in handler registered for class %d
+0140 Failed to save plug-in \"%s\" as \"%s\". Plug-in will not be loaded at next initialisation.
+0141 Warning: nothing written, the plug-in %s already exists.
+0142 Plug-in \"%s\" not installed: version %x is older than the current %x.
+0143 Failed to install plug-in \"%s\"
+0144 Failed to load plug-in handler \"%s\"
+0145 Failed to load plug-in module \"%s\"
+
+# Plugin state - reason why not loaded.
+0146 Reason unspecified
+0147 Load not performed
+0148 File not found
+0149 Error during loading
+0150 Error on initialisation
+0151 Disabled by user
+0152 Disabled by application
+0153 Archived
+0154 Archivisation pending
+0155 Removal pending
+0156 Load deferred
+0157 Earlier version loaded
+0158 Later version loaded
+0159 Invalid (e.g. requires greater LWA-enabled level)
+0160 Possibly causes errors
+
+0161 Plugins not loaded\c
+
+#
+# Session notification.
+#
+0200 Could not find archive for "%s".\nWould you like to create a default one?
+0201 Open archive\c
+0202 Open Image File\c
+0203 Archive for "%s" is invalid
+0204 Converting old archive for "%s" from "%s"
+0205 Variable 0x%08x for session 0x%p has changed from 0x%p to 0x%p
+0206 Must set a filename before saving
+0207 Save of converted archive "%s" to "%s" failed
+0208 Default repository for "%s" is not empty.
+0208 Do you wish to transfer the contents to the new repository?
+0209 Failed to open archive for "%s"
+0210 Session changed from 0x%p to 0x%p
+0211 Session (0x%p) model (units) scale changed from %g to %g
+0212 Archive "%s" is already merged
+0213 Cannot generate thumbnails for Real-time render-styles.
+0213 Another render-style will be used.
+0214 Invalid archive (%s).
+0214 Only Pre-defined archives may be imported.
+0215 Session (0x%p) display (units) scale changed from %g to %g
+
+#
+# Shaders
+#
+0300 Shader %u: Value for argument %u is out-of-range
+0301 Shader %u: Enter value for argument %u\c
+0302 Modified shader entity (0x%p) argument %u
+0303 Modified shader entity (0x%p) type from %u to %u
+0304 Open Photometric File\c
+0305 Open RPC File\c
+0306 The "%s" has been defined for the "%s" shader.
+0306 Would you like to remove the "%s"?\c
+
+#
+# Strings
+#
+nonewline
+0400 Archive Label:
+0401 Bitmap Files
+0402 JPEG Files
+0403 Targa Files
+0404 TIFF Files
+0405 LWI Files
+0406 PostScript Files
+0407 All Files (*.*)|*.*||
+0408 QTVR Movie Files
+0409 QTVR Panoramic Movie Files
+0410 QTVR Object Movie Files
+0411 LightWork Archive Files (*.lwa)|*.lwa|
+0412 EPix Files
+0413 All Image Files
+0414 Photometric Files (*.cib,*.cie,*.ies,*.ldt) |*.cib;*.cie;*.ies;*.ldt|
+0415 RPC Files (*.rpc) |*.rpc|
+0416 HDR High Dynamic Range Image Files
+0417 OpenEXR High Dynamic Range Image Files
+0418 %s Files
+
+0420 New Entity
+0421 New Directory
+0422 New Reference
+0423 New Material
+0424 New Shader
+0425 New Archive
+0426 New Light Studio
+0427 New Light
+0428 New Scene
+0429 New Scenery
+0430 New Primitive
+0431 New Session-View
+0432 New Session
+0433 New Texture Space
+0434 New Environment
+0435 New Decal
+0436 New Radiosity Refinement
+0437 New Render Style
+0438 New Foreground
+0439 New Background
+0440 New Radiosity Control
+0441 New Scheme
+0442 New RPC Object
+0443 New View
+0444 New PlugIn
+0445 New Geometry Shader
+0446 New Post-process shader
+0447 New Tone shader
+0448 New Control
+
+#
+# Session-view messages
+#
+newline
+0500 No lights enabled\nUsing default light
+0501 Interrupt update of session view 0x%p (method = 0x%08x)
+0502 Reset interrupt for 0x%p (method = 0x%08x)
+0503 Session-view update for 0x%p: Execution (method = 0x%08x) memory limit
+0504 Session-view update for 0x%p: Memory limit (%u) exceeded
+0505 Session-view 0x%p view has changed
+0506 Session-view update begin for 0x%p: Driver 0x%p, Device 0x%p, Mode %u
+0507 Session-view update end for 0x%p: Driver 0x%p, Device 0x%p, Status %u
+0508 Session-view 0x%p pick at (%u, %u) using 0x%08x, picked 0x%p
+0509 Session-view 0x%p: Selected entity is 0x%p
+
+#
+# Progress
+#
+0600 Progress Begin: ID=0x%x, Level=%u, Style=0x%x
+0601 Progress End: ID=0x%x, Level=%u
+0602 Progress: ID=0x%x, %.2f%% complete
+0603 Progress: ID=0x%x, Count=%u
+0604 Progress: ID=0x%x, Working...
+0605 %s
+0606 Initialising\c
+0607 Writing: "%s"\c
+0608 Reading: "%s"\c
+0609 Radiosity\c
+0610 Initial meshing\c
+0611 Removing direct lighting\c
+0612 Replacing direct lighting\c
+0613 Direct Lighting\c
+0614 Phase 1\c
+0615 Phase 2\c
+0616 Phase 3\c
+0617 Rendering\c
+0618 Tone Mapping\c
+0619 Shadows\c
+0620 View\c
+
+#
+# Other entity notifications
+#
+0800 Shadow-map creation failed for "%s".\nWould you like to continue?
+
+#
+# Plugins management
+#
+0900 Embedded plugins found in an archive
+0901 Begin plugins notice
+0902 End plugins notice
+0903 Plugin load failed
+
+#
+# Shader type and argument names
+#
+include "shaders.mesg"
+
+#
+# GUI FrameWork messages
+#
+include opt "framework.mesg"
+include opt "widgets.mesg"
+
+#
+# Entity names
+#
+include "names.mesg"
+
+#
+# Messages specific to LightWork Design applications.
+#
+include opt "lwappl.mesg"
+
+#
+# User specific messages
+#
+include opt "user.mesg"
+

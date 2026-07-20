@@ -1,0 +1,760 @@
+ WebClientConsumer
+
+ Timestamp is 46b39e53 (Fri Aug 03 16:29:55 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000090c0H .text                   CODE
+ 0001:000090c0 000009b3H .text$x                 CODE
+ 0001:00009a80 00000072H .text$yc                CODE
+ 0001:00009b00 000000acH .text$yd                CODE
+ 0002:00000000 000001fcH .idata$5                DATA
+ 0002:000001fc 00000004H .CRT$XCA                DATA
+ 0002:00000200 00000004H .CRT$XCL                DATA
+ 0002:00000204 00000010H .CRT$XCU                DATA
+ 0002:00000214 00000004H .CRT$XCZ                DATA
+ 0002:00000218 00000004H .CRT$XIA                DATA
+ 0002:0000021c 00000004H .CRT$XIAA               DATA
+ 0002:00000220 00000004H .CRT$XIZ                DATA
+ 0002:00000230 00000890H .rdata                  DATA
+ 0002:00000ac0 0000003bH .rdata$debug            DATA
+ 0002:00000afc 0000028cH .rdata$r                DATA
+ 0002:00000d90 000000d4H .rdata$sxdata           DATA
+ 0002:00000e64 00000004H .rtc$IAA                DATA
+ 0002:00000e68 00000004H .rtc$IZZ                DATA
+ 0002:00000e6c 00000004H .rtc$TAA                DATA
+ 0002:00000e70 00000004H .rtc$TZZ                DATA
+ 0002:00000e78 00001674H .xdata$x                DATA
+ 0002:000024ec 00000000H ATL$__a                 DATA
+ 0002:000024ec 00000000H ATL$__z                 DATA
+ 0002:000024ec 00000064H .idata$2                DATA
+ 0002:00002550 00000014H .idata$3                DATA
+ 0002:00002564 000001fcH .idata$4                DATA
+ 0002:00002760 0000045eH .idata$6                DATA
+ 0002:00002bc0 000006fbH .edata                  DATA
+ 0003:00000000 00000170H .data                   DATA
+ 0003:00000170 000004c4H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000035       ___safe_se_handler_count   00000035     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??1BusyState@@QAE@XZ       10001030 f i ConsumerFuncs.obj
+ 0001:00000060       ?IsConfigFile@@YAHVGUserText@@@Z 10001060 f   ConsumerFuncs.obj
+ 0001:00000130       ??C?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@QBEPAUIWebServiceClient@WebServiceClientOnServer@@XZ 10001130 f i ConsumerFuncs.obj
+ 0001:00000130       ??C?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@QBEPAUIWebServiceClient@WebServiceClient@@XZ 10001130 f i ConsumerFuncs.obj
+ 0001:00000150       ??$?8V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@YA_NHAAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z 10001150 f i ConsumerFuncs.obj
+ 0001:00000150       ??$?8V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@YA_NHAAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z 10001150 f i ConsumerFuncs.obj
+ 0001:00000170       ?JSPV2_CheckoutDocument@@YAJPA_W@Z 10001170 f   ConsumerFuncs.obj
+ 0001:00000410       ?JSPV2_UndoCheckoutDocument@@YAJPA_W@Z 10001410 f   ConsumerFuncs.obj
+ 0001:000006b0       ?JSPV2_CheckinDocument@@YAJPA_W0@Z 100016b0 f   ConsumerFuncs.obj
+ 0001:00000960       ?JSPV2_MoveFileWithinSite@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z 10001960 f   ConsumerFuncs.obj
+ 0001:00000c40       ?JSPV2_MoveFileAcrossSites@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z 10001c40 f   ConsumerFuncs.obj
+ 0001:00000f20       ?JSPV2_GetAllSites@@YAJPA_WPAPAUtagSAFEARRAY@@H@Z 10001f20 f   ConsumerFuncs.obj
+ 0001:000011e0       ?JSPV2_CreateSEPropertiesInTheDocLib@@YAJPA_WPAUtagSAFEARRAY@@1FPAPAU1@@Z 100021e0 f   ConsumerFuncs.obj
+ 0001:000014c0       ?JSPV2_GetSiteUrlFormInputUrl@@YAJPA_WPAPA_W@Z 100024c0 f   ConsumerFuncs.obj
+ 0001:00001770       ?JSPV2_QueryDavServer@@YAJPA_W0F0FPAUtagSAFEARRAY@@PAPAU1@PAJ@Z 10002770 f   ConsumerFuncs.obj
+ 0001:00001a80       ?JSPV2_DoPropertySync@@YAJPA_WPAUtagSAFEARRAY@@1PAUtagVARIANT@@@Z 10002a80 f   ConsumerFuncs.obj
+ 0001:00001d40       ?JSPV2_SetSEStatusForFiles@@YAJPAUtagSAFEARRAY@@PA_W0@Z 10002d40 f   ConsumerFuncs.obj
+ 0001:00001ff0       ?JSPV2_GetPropertiesInformation@@YAJPA_WPAPAUtagSAFEARRAY@@@Z 10002ff0 f   ConsumerFuncs.obj
+ 0001:000022a0       ?JSPV2_GetDocumentLibraryPathFromUrl@@YAJPA_WPAPA_W1@Z 100032a0 f   ConsumerFuncs.obj
+ 0001:00002550       ?JSPV2_CreateEmptyFile@@YAJPA_WF@Z 10003550 f   ConsumerFuncs.obj
+ 0001:00002810       ?JSPV2_UploadUsingWebDAV@@YAJPA_W0@Z 10003810 f   ConsumerFuncs.obj
+ 0001:00002ac0       ?JSPV2_CreateFoldersInThisURL@@YAJPAPA_W@Z 10003ac0 f   ConsumerFuncs.obj
+ 0001:00002d60       ?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z 10003d60 f   ConsumerFuncs.obj
+ 0001:00003090       ?JSPV2_GetDocumentLibrariesFromTheSite@@YAJPA_WPAPAUtagSAFEARRAY@@PAPA_W2@Z 10004090 f   ConsumerFuncs.obj
+ 0001:00003350       ?JSPV2_GetDocumentLibrariesFromTheSiteUrl@@YAJPA_WPAPAUtagSAFEARRAY@@@Z 10004350 f   ConsumerFuncs.obj
+ 0001:00003600       ?JSPV2_SetSiteAttributes@@YAJPA_W_N@Z 10004600 f   ConsumerFuncs.obj
+ 0001:000038b0       ?JSPV2_DeleteFilesOrFolders@@YAJFPAUtagSAFEARRAY@@PAPAU1@11@Z 100048b0 f   ConsumerFuncs.obj
+ 0001:00003b90       ?JSPV2_DeleteFilesOrFoldersFromThisFolder@@YAJFPA_WPAUtagSAFEARRAY@@PAPAU1@22@Z 10004b90 f   ConsumerFuncs.obj
+ 0001:00003e80       ?JSPV2_GetUniqueFoldersAndCorrespondingFilesOrFoldersList@@YAJPAUtagSAFEARRAY@@PAPAU1@@Z 10004e80 f   ConsumerFuncs.obj
+ 0001:00004130       ?JSPV2_GetUserRole@@YAJPA_W0PAJ@Z 10005130 f   ConsumerFuncs.obj
+ 0001:000043f0       ?JSPV2_GetWebServiceVersion@@YAJPA_WFPAPA_W1@Z 100053f0 f   ConsumerFuncs.obj
+ 0001:000046c0       ?JSPV2_GetWebServiceClientVersion@@YAJFPAPA_W0@Z 100056c0 f   ConsumerFuncs.obj
+ 0001:00004980       ?JSPV2_SearchServerForText@@YAJPA_W0PAPAUtagSAFEARRAY@@PAJ@Z 10005980 f   ConsumerFuncs.obj
+ 0001:00004c50       _JSPV2_GetUserRights@8     10005c50 f   ConsumerFuncs.obj
+ 0001:00004f00       ?JSPV2_CreateDocLib@@YAJPA_W00IPAPA_W@Z 10005f00 f   ConsumerFuncs.obj
+ 0001:000051d0       ?JSPV2_SetEventSinkForDocLib@@YAJPA_W@Z 100061d0 f   ConsumerFuncs.obj
+ 0001:00005470       ?JSPV2_GetConfigDataBase@@YAJPAPA_W@Z 10006470 f   ConsumerFuncs.obj
+ 0001:000056f0       ?JSPV2_CreateWebPartPageAndAddSEWebParts@@YAJPA_W0@Z 100066f0 f   ConsumerFuncs.obj
+ 0001:00005970       ?JSPV2_CreateSiteUnderSiteCollection@@YAJPA_W00H000000@Z 10006970 f   ConsumerFuncs.obj
+ 0001:00005c30       ?JSPV2_AddWebPartPageEntryToJSFile@@YAJPA_W0@Z 10006c30 f   ConsumerFuncs.obj
+ 0001:00005eb0       _JSPV2_GetEventSinkAssembly@8 10006eb0 f   ConsumerFuncs.obj
+ 0001:00006160       _JSPV2_WriteContentDatabasesToXML@16 10007160 f   ConsumerFuncs.obj
+ 0001:00006390       _JSPV2_GetDocLibMetadataXMLString@12 10007390 f   ConsumerFuncs.obj
+ 0001:00006650       _JSPV2_QueryUsingSQL@24    10007650 f   ConsumerFuncs.obj
+ 0001:00006930       _JSPV2_GetRevisionAccess@12 10007930 f   ConsumerFuncs.obj
+ 0001:00006c20       _JSPV2_GetSPSDBUserInfo@12 10007c20 f   ConsumerFuncs.obj
+ 0001:00006ee0       _JSPV2_GetMappedColNameForStdSPProperty@12 10007ee0 f   ConsumerFuncs.obj
+ 0001:00007170       _JSPV2_GetAllSubSitesFromTheSite@8 10008170 f   ConsumerFuncs.obj
+ 0001:00007430       _JSPV2_GetPropertiesInformationForDocLibs@12 10008430 f   ConsumerFuncs.obj
+ 0001:000076f0       _JSPV2_GetDocumentLibrariesFromTheURLs@20 100086f0 f   ConsumerFuncs.obj
+ 0001:000079c0       ?JGetFlagToUseClientOnServer@@YAJAAH@Z 100089c0 f   ConsumerUtils.obj
+ 0001:00007a60       ??1?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@QAE@XZ 10008a60 f i ConsumerUtils.obj
+ 0001:00007a60       ??1?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@QAE@XZ 10008a60 f i ConsumerUtils.obj
+ 0001:00007a70       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@QAEJABU_GUID@@PAUIUnknown@@K@Z 10008a70 f i ConsumerUtils.obj
+ 0001:00007b10       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@QAEJABU_GUID@@PAUIUnknown@@K@Z 10008b10 f i ConsumerUtils.obj
+ 0001:00007bb0       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@QAEJPB_WPAUIUnknown@@K@Z 10008bb0 f i ConsumerUtils.obj
+ 0001:00007c30       ?CreateInstance@?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@QAEJPB_WPAUIUnknown@@K@Z 10008c30 f i ConsumerUtils.obj
+ 0001:00007cb0       ?JGetWebServiceClientSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z 10008cb0 f   ConsumerUtils.obj
+ 0001:00007d70       ?JGetWebServiceClientOnServerSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z 10008d70 f   ConsumerUtils.obj
+ 0001:00007e30       ?_AfxInitManaged@@YAHXZ    10008e30 f i StdAfx.obj
+ 0001:00007e40       ?GetThisMessageMap@CWebClientConsumerApp@@KGPBUAFX_MSGMAP@@XZ 10008e40 f   WebClientConsumer.obj
+ 0001:00007e50       ??0CWebClientConsumerApp@@QAE@XZ 10008e50 f   WebClientConsumer.obj
+ 0001:00007eb0       ?InitInstance@CWebClientConsumerApp@@UAEHXZ 10008eb0 f   WebClientConsumer.obj
+ 0001:00007ed0       ?ExitInstance@CWebClientConsumerApp@@UAEHXZ 10008ed0 f   WebClientConsumer.obj
+ 0001:00007ee0       ??3CObject@@SGXPAX@Z       10008ee0 f i WebClientConsumer.obj
+ 0001:00007ef0       ?AssertValid@CObject@@UBEXXZ 10008ef0 f i WebClientConsumer.obj
+ 0001:00007f00       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10008f00 f i WebClientConsumer.obj
+ 0001:00007f00       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10008f00 f i WebClientConsumer.obj
+ 0001:00007f10       ?GetMessageMap@CWebClientConsumerApp@@MBEPBUAFX_MSGMAP@@XZ 10008f10 f   WebClientConsumer.obj
+ 0001:00007f20       ??_GCWebClientConsumerApp@@UAEPAXI@Z 10008f20 f i WebClientConsumer.obj
+ 0001:00007f20       ??_ECWebClientConsumerApp@@UAEPAXI@Z 10008f20 f i WebClientConsumer.obj
+ 0001:00007f7a       _JLoadLibrary              10008f7a f   jutil:JUtil.dll
+ 0001:00007f80       _JFreeLibrary              10008f80 f   jutil:JUtil.dll
+ 0001:00007f86       _HRerrEx                   10008f86 f   jutil:JUtil.dll
+ 0001:00007f8c       _GetCurrentContext@4       10008f8c f   jutil:JUtil.dll
+ 0001:00007f92       ??3@YAXPAX@Z               10008f92 f   mfc80:MFC80.DLL
+ 0001:00007f98       ?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 10008f98 f   mfc80:MFC80.DLL
+ 0001:00007f9e       ??1CWinApp@@UAE@XZ         10008f9e f   mfc80:MFC80.DLL
+ 0001:00007fa4       ??0CWinApp@@QAE@PBD@Z      10008fa4 f   mfc80:MFC80.DLL
+ 0001:00007faa       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 10008faa f   mfc80:MFC80.DLL
+ 0001:00007fb0       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10008fb0 f   mfc80:MFC80.DLL
+ 0001:00007fb6       ?OnFinalRelease@CCmdTarget@@UAEXXZ 10008fb6 f   mfc80:MFC80.DLL
+ 0001:00007fbc       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10008fbc f   mfc80:MFC80.DLL
+ 0001:00007fc2       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10008fc2 f   mfc80:MFC80.DLL
+ 0001:00007fc8       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10008fc8 f   mfc80:MFC80.DLL
+ 0001:00007fce       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10008fce f   mfc80:MFC80.DLL
+ 0001:00007fd4       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10008fd4 f   mfc80:MFC80.DLL
+ 0001:00007fda       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10008fda f   mfc80:MFC80.DLL
+ 0001:00007fe0       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10008fe0 f   mfc80:MFC80.DLL
+ 0001:00007fe6       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10008fe6 f   mfc80:MFC80.DLL
+ 0001:00007fec       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 10008fec f   mfc80:MFC80.DLL
+ 0001:00007ff2       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10008ff2 f   mfc80:MFC80.DLL
+ 0001:00007ff8       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10008ff8 f   mfc80:MFC80.DLL
+ 0001:00007ffe       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10008ffe f   mfc80:MFC80.DLL
+ 0001:00008004       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10009004 f   mfc80:MFC80.DLL
+ 0001:0000800a       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000900a f   mfc80:MFC80.DLL
+ 0001:00008010       ?Run@CWinApp@@UAEHXZ       10009010 f   mfc80:MFC80.DLL
+ 0001:00008016       ?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 10009016 f   mfc80:MFC80.DLL
+ 0001:0000801c       ?PumpMessage@CWinThread@@UAEHXZ 1000901c f   mfc80:MFC80.DLL
+ 0001:00008022       ?OnIdle@CWinApp@@UAEHJ@Z   10009022 f   mfc80:MFC80.DLL
+ 0001:00008028       ?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 10009028 f   mfc80:MFC80.DLL
+ 0001:0000802e       ?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 1000902e f   mfc80:MFC80.DLL
+ 0001:00008034       ?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 10009034 f   mfc80:MFC80.DLL
+ 0001:0000803a       ?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 1000903a f   mfc80:MFC80.DLL
+ 0001:00008040       ?Delete@CWinThread@@UAEXXZ 10009040 f   mfc80:MFC80.DLL
+ 0001:00008046       ?InitLibId@CWinApp@@UAEXXZ 10009046 f   mfc80:MFC80.DLL
+ 0001:0000804c       ?Register@CWinApp@@UAEHXZ  1000904c f   mfc80:MFC80.DLL
+ 0001:00008052       ?Unregister@CWinApp@@UAEHXZ 10009052 f   mfc80:MFC80.DLL
+ 0001:00008058       ?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 10009058 f   mfc80:MFC80.DLL
+ 0001:0000805e       ?AddToRecentFileList@CWinApp@@UAEXPBD@Z 1000905e f   mfc80:MFC80.DLL
+ 0001:00008064       ?InitApplication@CWinApp@@UAEHXZ 10009064 f   mfc80:MFC80.DLL
+ 0001:0000806a       ?SaveAllModified@CWinApp@@UAEHXZ 1000906a f   mfc80:MFC80.DLL
+ 0001:00008070       ?DoMessageBox@CWinApp@@UAEHPBDII@Z 10009070 f   mfc80:MFC80.DLL
+ 0001:00008076       ?DoWaitCursor@CWinApp@@UAEXH@Z 10009076 f   mfc80:MFC80.DLL
+ 0001:0000807c       ?OnDDECommand@CWinApp@@UAEHPAD@Z 1000907c f   mfc80:MFC80.DLL
+ 0001:00008082       ?WinHelpA@CWinApp@@UAEXKI@Z 10009082 f   mfc80:MFC80.DLL
+ 0001:00008088       ?HtmlHelpA@CWinApp@@UAEXKI@Z 10009088 f   mfc80:MFC80.DLL
+ 0001:0000808e       ?WinHelpInternal@CWinApp@@UAEXKI@Z 1000908e f   mfc80:MFC80.DLL
+ 0001:00008094       ?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 10009094 f   mfc80:MFC80.DLL
+ 0001:0000809a       ?LoadSysPolicies@CWinApp@@UAEHXZ 1000909a f   mfc80:MFC80.DLL
+ 0001:000080a0       ?InitInstance@CWinApp@@UAEHXZ 100090a0 f   mfc80:MFC80.DLL
+ 0001:000080a6       ?ExitInstance@CWinApp@@UAEHXZ 100090a6 f   mfc80:MFC80.DLL
+ 0001:000080ac       ?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 100090ac f   mfcs80:dllmodul.obj
+ 0001:000080f7       _InternalDllMain@12        100090f7 f   mfcs80:dllmodul.obj
+ 0001:0000826e       _RawDllMain@12             1000926e f   mfcs80:dllmodul.obj
+ 0001:000082c8       _DllMain@12                100092c8 f   mfcs80:dllmodul.obj
+ 0001:00008305       ??0_AFX_DLL_MODULE_STATE@@QAE@XZ 10009305 f i mfcs80:dllmodul.obj
+ 0001:00008325       ??_E_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10009325 f i mfcs80:dllmodul.obj
+ 0001:00008325       ??_G_AFX_DLL_MODULE_STATE@@UAEPAXI@Z 10009325 f i mfcs80:dllmodul.obj
+ 0001:00008340       ??2CObject@@SGPAXI@Z       10009340 f i mfcs80:dllmodulX.obj
+ 0001:0000834d       ?AfxGetApp@@YGPAVCWinApp@@XZ 1000934d f i mfcs80:dllmodulX.obj
+ 0001:00008356       ??1AFX_MAINTAIN_STATE2@@QAE@XZ 10009356 f i mfcs80:dllmodulX.obj
+ 0001:00008374       _malloc                    10009374 f   msvcrt:MSVCR80.dll
+ 0001:0000837a       __callnewh                 1000937a f   msvcrt:MSVCR80.dll
+ 0001:00008380       ___CxxFrameHandler3        10009380 f   msvcrt:MSVCR80.dll
+ 0001:00008386       @__security_check_cookie@4 10009386 f   msvcrt:secchk.obj
+ 0001:00008395       ??_Etype_info@@UAEPAXI@Z   10009395 f i msvcrt:ti_inst.obj
+ 0001:000083de       __onexit                   100093de f   msvcrt:atonexit.obj
+ 0001:0000847d       _atexit                    1000947d f   msvcrt:atonexit.obj
+ 0001:0000848f       __except_handler4          1000948f f   msvcrt:chandler4gs.obj
+ 0001:000084c0       __alloca_probe_16          100094c0 f   msvcrt:alloca16.obj
+ 0001:000084d6       __alloca_probe_8           100094d6     msvcrt:alloca16.obj
+ 0001:000084f0       __allmul                   100094f0 f   msvcrt:llmul.obj
+ 0001:00008571       __CRT_INIT@12              10009571 f   msvcrt:crtdll.obj
+ 0001:00008826       __DllMainCRTStartup@12     10009826 f   msvcrt:crtdll.obj
+ 0001:00008847       __EH_prolog3               10009847 f   msvcrt:ehprolg3.obj
+ 0001:0000887a       __EH_prolog3_catch         1000987a f   msvcrt:ehprolg3.obj
+ 0001:000088b0       __EH_epilog3               100098b0 f   msvcrt:ehprolg3.obj
+ 0001:000088c4       __SEH_prolog4_GS           100098c4 f   msvcrt:sehprolg4gs.obj
+ 0001:0000890c       __SEH_epilog4_GS           1000990c f   msvcrt:sehprolg4gs.obj
+ 0001:0000891b       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000991b f   msvcrt:ehvecdtr.obj
+ 0001:00008979       ??_M@YGXPAXIHP6EX0@Z@Z     10009979 f   msvcrt:ehvecdtr.obj
+ 0001:000089dc       ___report_gsfailure        100099dc f   msvcrt:gs_report.obj
+ 0001:00008ae0       __unlock                   10009ae0 f   msvcrt:MSVCR80.dll
+ 0001:00008ae6       ___dllonexit               10009ae6 f   msvcrt:MSVCR80.dll
+ 0001:00008aec       __lock                     10009aec f   msvcrt:MSVCR80.dll
+ 0001:00008af4       __SEH_prolog4              10009af4 f   msvcrt:sehprolg4.obj
+ 0001:00008b39       __SEH_epilog4              10009b39 f   msvcrt:sehprolg4.obj
+ 0001:00008b4e       __except_handler4_common   10009b4e f   msvcrt:MSVCR80.dll
+ 0001:00008b60       __chkstk                   10009b60 f   msvcrt:chkstk.obj
+ 0001:00008b60       __alloca_probe             10009b60     msvcrt:chkstk.obj
+ 0001:00008b8b       ___clean_type_info_names   10009b8b f   msvcrt:tncleanup.obj
+ 0001:00008b97       __RTC_Initialize           10009b97 f   msvcrt:initsect.obj
+ 0001:00008bbb       __RTC_Terminate            10009bbb f   msvcrt:initsect.obj
+ 0001:00008be0       __ValidateImageBase        10009be0 f   msvcrt:pesect.obj
+ 0001:00008c10       __FindPESection            10009c10 f   msvcrt:pesect.obj
+ 0001:00008c52       __IsNonwritableInCurrentImage 10009c52 f   msvcrt:pesect.obj
+ 0001:00008cbe       __initterm                 10009cbe f   msvcrt:MSVCR80.dll
+ 0001:00008cc4       __initterm_e               10009cc4 f   msvcrt:MSVCR80.dll
+ 0001:00008cca       __amsg_exit                10009cca f   msvcrt:MSVCR80.dll
+ 0001:00008cd0       ___CppXcptFilter           10009cd0 f   msvcrt:MSVCR80.dll
+ 0001:00008cd6       ___security_init_cookie    10009cd6 f   msvcrt:gs_support.obj
+ 0001:00008d6a       ?terminate@@YAXXZ          10009d6a f   msvcrt:MSVCR80.dll
+ 0001:00008d70       __crt_debugger_hook        10009d70 f   msvcrt:MSVCR80.dll
+ 0001:00008d76       ??1type_info@@UAE@XZ       10009d76 f   msvcrt:MSVCR80.dll
+ 0001:00008d76       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10009d76 f   msvcrt:MSVCR80.dll
+ 0001:00008d7c       ___clean_type_info_names_internal 10009d7c f   msvcrt:MSVCR80.dll
+ 0001:00008d90       ?_com_issue_error@@YGXJ@Z  10009d90 f   comsuppw:comsupp.obj
+ 0001:00008da0       ??1_com_error@@UAE@XZ      10009da0 f i comsuppw:comraise.obj
+ 0001:00008dd0       ?_com_raise_error@@YGXJPAUIErrorInfo@@@Z 10009dd0 f   comsuppw:comraise.obj
+ 0001:00008e10       ??0_com_error@@QAE@ABV0@@Z 10009e10 f i comsuppw:comraise.obj
+ 0001:00008e50       ??_G_com_error@@UAEPAXI@Z  10009e50 f i comsuppw:comraise.obj
+ 0001:00008e50       ??_E_com_error@@UAEPAXI@Z  10009e50 f i comsuppw:comraise.obj
+ 0001:00008e8c       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10009e8c f i atls:atltrace.obj
+ 0001:00008ef1       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10009ef1 f i atls:atltrace.obj
+ 0001:00008ef5       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10009ef5 f i atls:atltrace.obj
+ 0001:00008f5a       ??1AFX_MODULE_STATE@@UAE@XZ 10009f5a f   mfc80:MFC80.DLL
+ 0001:00008f60       ?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 10009f60 f   mfc80:MFC80.DLL
+ 0001:00008f66       ??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 10009f66 f   mfc80:MFC80.DLL
+ 0001:00008f6c       ?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 10009f6c f   mfc80:MFC80.DLL
+ 0001:00008f72       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10009f72 f   mfc80:MFC80.DLL
+ 0001:00008f78       ?AfxUnlockTempMaps@@YGHH@Z 10009f78 f   mfc80:MFC80.DLL
+ 0001:00008f7e       ?AfxLockTempMaps@@YGXXZ    10009f7e f   mfc80:MFC80.DLL
+ 0001:00008f84       ?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 10009f84 f   mfc80:MFC80.DLL
+ 0001:00008f8a       ?Delete@CException@@QAEXXZ 10009f8a f   mfc80:MFC80.DLL
+ 0001:00008f90       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10009f90 f   mfc80:MFC80.DLL
+ 0001:00008f96       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10009f96 f   mfc80:MFC80.DLL
+ 0001:00008f9c       ?AfxWinTerm@@YGXXZ         10009f9c f   mfc80:MFC80.DLL
+ 0001:00008fa2       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 10009fa2 f   mfc80:MFC80.DLL
+ 0001:00008fa8       ?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 10009fa8 f   mfc80:MFC80.DLL
+ 0001:00008fae       ?AfxCoreInitModule@@YGXXZ  10009fae f   mfc80:MFC80.DLL
+ 0001:00008fb4       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10009fb4 f   mfc80:MFC80.DLL
+ 0001:00008fba       ??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 10009fba f   mfc80:MFC80.DLL
+ 0001:00008fc0       ??3CNoTrackObject@@SGXPAX@Z 10009fc0 f   mfc80:MFC80.DLL
+ 0001:00008fc6       ?AfxDeactivateActCtx@@YGHKK@Z 10009fc6 f   mfc80:MFC80.DLL
+ 0001:00009088       __RawDllMainProxy@12       1000a088 f   mfcs80:rawdllmainproxy.obj
+ 0001:000090ac       __CxxThrowException@8      1000a0ac f   msvcrt:MSVCR80.dll
+ 0002:00000000       __imp__JLoadLibrary        1000b000     jutil:JUtil.dll
+ 0002:00000004       __imp__JFreeLibrary        1000b004     jutil:JUtil.dll
+ 0002:00000008       __imp_??1GUserText@@QAE@XZ 1000b008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??BGUserText@@QBEPB_WXZ 1000b00c     jutil:JUtil.dll
+ 0002:00000010       __imp_?Right@GUserText@@QBE?AV1@H@Z 1000b010     jutil:JUtil.dll
+ 0002:00000014       __imp__HRerrEx             1000b014     jutil:JUtil.dll
+ 0002:00000018       __imp_??0GUserText@@QAE@PB_WHH@Z 1000b018     jutil:JUtil.dll
+ 0002:0000001c       __imp__GetCurrentContext@4 1000b01c     jutil:JUtil.dll
+ 0002:00000020       \177JUtil_NULL_THUNK_DATA  1000b020     jutil:JUtil.dll
+ 0002:00000024       __imp__IsDebuggerPresent@0 1000b024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__SetUnhandledExceptionFilter@4 1000b028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__UnhandledExceptionFilter@4 1000b02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetCurrentProcess@0 1000b030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__TerminateProcess@8  1000b034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__InterlockedCompareExchange@12 1000b038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__Sleep@4             1000b03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__LocalAlloc@8        1000b040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__LocalFree@4         1000b044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__InterlockedExchange@8 1000b048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetProcAddress@8    1000b04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetTickCount@0      1000b050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentThreadId@0 1000b054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetCurrentProcessId@0 1000b058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetSystemTimeAsFileTime@4 1000b05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetVersionExA@4     1000b060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetThreadLocale@0   1000b064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetLocaleInfoA@16   1000b068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetACP@0            1000b06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__QueryPerformanceCounter@4 1000b070     kernel32:KERNEL32.dll
+ 0002:00000074       \177KERNEL32_NULL_THUNK_DATA 1000b074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_?Unregister@CWinApp@@UAEHXZ 1000b078     mfc80:MFC80.DLL
+ 0002:0000007c       __imp_?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 1000b07c     mfc80:MFC80.DLL
+ 0002:00000080       __imp_?AddToRecentFileList@CWinApp@@UAEXPBD@Z 1000b080     mfc80:MFC80.DLL
+ 0002:00000084       __imp_?InitApplication@CWinApp@@UAEHXZ 1000b084     mfc80:MFC80.DLL
+ 0002:00000088       __imp_?SaveAllModified@CWinApp@@UAEHXZ 1000b088     mfc80:MFC80.DLL
+ 0002:0000008c       __imp_?DoMessageBox@CWinApp@@UAEHPBDII@Z 1000b08c     mfc80:MFC80.DLL
+ 0002:00000090       __imp_?DoWaitCursor@CWinApp@@UAEXH@Z 1000b090     mfc80:MFC80.DLL
+ 0002:00000094       __imp_?OnDDECommand@CWinApp@@UAEHPAD@Z 1000b094     mfc80:MFC80.DLL
+ 0002:00000098       __imp_?WinHelpA@CWinApp@@UAEXKI@Z 1000b098     mfc80:MFC80.DLL
+ 0002:0000009c       __imp_?HtmlHelpA@CWinApp@@UAEXKI@Z 1000b09c     mfc80:MFC80.DLL
+ 0002:000000a0       __imp_?WinHelpInternal@CWinApp@@UAEXKI@Z 1000b0a0     mfc80:MFC80.DLL
+ 0002:000000a4       __imp_?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 1000b0a4     mfc80:MFC80.DLL
+ 0002:000000a8       __imp_?LoadSysPolicies@CWinApp@@UAEHXZ 1000b0a8     mfc80:MFC80.DLL
+ 0002:000000ac       __imp_?Register@CWinApp@@UAEHXZ 1000b0ac     mfc80:MFC80.DLL
+ 0002:000000b0       __imp_?ExitInstance@CWinApp@@UAEHXZ 1000b0b0     mfc80:MFC80.DLL
+ 0002:000000b4       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 1000b0b4     mfc80:MFC80.DLL
+ 0002:000000b8       __imp_?AfxWinTerm@@YGXXZ   1000b0b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000b0bc     mfc80:MFC80.DLL
+ 0002:000000c0       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000b0c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_?Delete@CException@@QAEXXZ 1000b0c4     mfc80:MFC80.DLL
+ 0002:000000c8       __imp_?AfxSetModuleState@@YGPAVAFX_MODULE_STATE@@PAV1@@Z 1000b0c8     mfc80:MFC80.DLL
+ 0002:000000cc       __imp_?AfxLockTempMaps@@YGXXZ 1000b0cc     mfc80:MFC80.DLL
+ 0002:000000d0       __imp_?AfxUnlockTempMaps@@YGHH@Z 1000b0d0     mfc80:MFC80.DLL
+ 0002:000000d4       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000b0d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 1000b0d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1000b0dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?AfxWndProc@@YGJPAUHWND__@@IIJ@Z 1000b0e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_??1AFX_MODULE_STATE@@UAE@XZ 1000b0e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?AfxGetThreadState@@YGPAV_AFX_THREAD_STATE@@XZ 1000b0e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?AfxCoreInitModule@@YGXXZ 1000b0ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000b0f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_??0AFX_MODULE_STATE@@QAE@HP6GJPAUHWND__@@IIJ@ZKH@Z 1000b0f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_??3CNoTrackObject@@SGXPAX@Z 1000b0f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?AfxDeactivateActCtx@@YGHKK@Z 1000b0fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?InitLibId@CWinApp@@UAEXXZ 1000b100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_?Delete@CWinThread@@UAEXXZ 1000b104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 1000b108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 1000b10c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 1000b110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 1000b114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?OnIdle@CWinApp@@UAEHJ@Z 1000b118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?PumpMessage@CWinThread@@UAEHXZ 1000b11c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 1000b120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?Run@CWinApp@@UAEHXZ 1000b124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000b128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000b12c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000b130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 1000b134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000b138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 1000b13c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000b140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1000b144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1000b148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000b14c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000b150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1000b154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000b158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000b15c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 1000b160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1000b164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 1000b168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_??0CWinApp@@QAE@PBD@Z 1000b16c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_??1CWinApp@@UAE@XZ   1000b170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 1000b174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_??3@YAXPAX@Z         1000b178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?InitInstance@CWinApp@@UAEHXZ 1000b17c     mfc80:MFC80.DLL
+ 0002:00000180       \177MFC80_NULL_THUNK_DATA  1000b180     mfc80:MFC80.DLL
+ 0002:00000184       __imp____clean_type_info_names_internal 1000b184     msvcrt:MSVCR80.dll
+ 0002:00000188       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000b188     msvcrt:MSVCR80.dll
+ 0002:0000018c       __imp___crt_debugger_hook  1000b18c     msvcrt:MSVCR80.dll
+ 0002:00000190       __imp_?terminate@@YAXXZ    1000b190     msvcrt:MSVCR80.dll
+ 0002:00000194       __imp____CppXcptFilter     1000b194     msvcrt:MSVCR80.dll
+ 0002:00000198       __imp___adjust_fdiv        1000b198     msvcrt:MSVCR80.dll
+ 0002:0000019c       __imp___amsg_exit          1000b19c     msvcrt:MSVCR80.dll
+ 0002:000001a0       __imp___initterm_e         1000b1a0     msvcrt:MSVCR80.dll
+ 0002:000001a4       __imp___CxxThrowException@8 1000b1a4     msvcrt:MSVCR80.dll
+ 0002:000001a8       __imp___initterm           1000b1a8     msvcrt:MSVCR80.dll
+ 0002:000001ac       __imp___encoded_null       1000b1ac     msvcrt:MSVCR80.dll
+ 0002:000001b0       __imp___malloc_crt         1000b1b0     msvcrt:MSVCR80.dll
+ 0002:000001b4       __imp___except_handler4_common 1000b1b4     msvcrt:MSVCR80.dll
+ 0002:000001b8       __imp___decode_pointer     1000b1b8     msvcrt:MSVCR80.dll
+ 0002:000001bc       __imp___onexit             1000b1bc     msvcrt:MSVCR80.dll
+ 0002:000001c0       __imp____dllonexit         1000b1c0     msvcrt:MSVCR80.dll
+ 0002:000001c4       __imp___encode_pointer     1000b1c4     msvcrt:MSVCR80.dll
+ 0002:000001c8       __imp___unlock             1000b1c8     msvcrt:MSVCR80.dll
+ 0002:000001cc       __imp__free                1000b1cc     msvcrt:MSVCR80.dll
+ 0002:000001d0       __imp____CxxFrameHandler3  1000b1d0     msvcrt:MSVCR80.dll
+ 0002:000001d4       __imp___wcsicmp            1000b1d4     msvcrt:MSVCR80.dll
+ 0002:000001d8       __imp___callnewh           1000b1d8     msvcrt:MSVCR80.dll
+ 0002:000001dc       __imp__malloc              1000b1dc     msvcrt:MSVCR80.dll
+ 0002:000001e0       __imp___lock               1000b1e0     msvcrt:MSVCR80.dll
+ 0002:000001e4       \177MSVCR80_NULL_THUNK_DATA 1000b1e4     msvcrt:MSVCR80.dll
+ 0002:000001e8       __imp__CLSIDFromProgID@8   1000b1e8     ole32:ole32.dll
+ 0002:000001ec       __imp__CLSIDFromString@8   1000b1ec     ole32:ole32.dll
+ 0002:000001f0       __imp__CoCreateInstance@20 1000b1f0     ole32:ole32.dll
+ 0002:000001f4       __imp__OleRun@4            1000b1f4     ole32:ole32.dll
+ 0002:000001f8       \177ole32_NULL_THUNK_DATA  1000b1f8     ole32:ole32.dll
+ 0002:000001fc       ___xc_a                    1000b1fc     msvcrt:cinitexe.obj
+ 0002:00000214       ___xc_z                    1000b214     msvcrt:cinitexe.obj
+ 0002:00000218       ___xi_a                    1000b218     msvcrt:cinitexe.obj
+ 0002:00000220       ___xi_z                    1000b220     msvcrt:cinitexe.obj
+ 0002:0000024c       ??_C@_0M@NBJLFGIJ@RFMSSvs?4dll?$AA@ 1000b24c     ConsumerFuncs.obj
+ 0002:00000258       ??_C@_0O@MCHEGLFG@JSetBusyState?$AA@ 1000b258     ConsumerFuncs.obj
+ 0002:00000268       ??_C@_19GLNJCAEP@?$AA?4?$AAc?$AAf?$AAg?$AA?$AA@ 1000b268     ConsumerFuncs.obj
+ 0002:00000274       ??_C@_0BE@GADKJPJE@?4?2ConsumerFuncs?4cpp?$AA@ 1000b274     ConsumerFuncs.obj
+ 0002:00000288       ??_C@_0BH@PLKEGIHA@JSPV2_CheckoutDocument?$AA@ 1000b288     ConsumerFuncs.obj
+ 0002:000002a0       ??_C@_0BL@BJPBIBE@JSPV2_UndoCheckoutDocument?$AA@ 1000b2a0     ConsumerFuncs.obj
+ 0002:000002bc       ??_C@_0BG@KBOJMEJA@JSPV2_CheckinDocument?$AA@ 1000b2bc     ConsumerFuncs.obj
+ 0002:000002d4       ??_C@_0BJ@BNFEHHFG@JSPV2_MoveFileWithinSite?$AA@ 1000b2d4     ConsumerFuncs.obj
+ 0002:000002f0       ??_C@_0BK@FIAFHHI@JSPV2_MoveFileAcrossSites?$AA@ 1000b2f0     ConsumerFuncs.obj
+ 0002:0000030c       ??_C@_0BC@BBDAGDP@JSPV2_GetAllSites?$AA@ 1000b30c     ConsumerFuncs.obj
+ 0002:00000320       ??_C@_0CE@LNCCCIK@JSPV2_CreateSEPropertiesInTheDoc@ 1000b320     ConsumerFuncs.obj
+ 0002:00000344       ??_C@_0BN@CKOHBBJH@JSPV2_GetSiteUrlFormInputUrl?$AA@ 1000b344     ConsumerFuncs.obj
+ 0002:00000364       ??_C@_0BF@PLJDILKN@JSPV2_QueryDavServer?$AA@ 1000b364     ConsumerFuncs.obj
+ 0002:0000037c       ??_C@_0BF@FJBIHOHP@JSPV2_DoPropertySync?$AA@ 1000b37c     ConsumerFuncs.obj
+ 0002:00000394       ??_C@_0BK@ENAHCIGJ@JSPV2_SetSEStatusForFiles?$AA@ 1000b394     ConsumerFuncs.obj
+ 0002:000003b0       ??_C@_0BP@BLMPCGG@JSPV2_GetPropertiesInformation?$AA@ 1000b3b0     ConsumerFuncs.obj
+ 0002:000003d0       ??_C@_0CE@FPNLMOGL@JSPV2_GetDocumentLibraryPathFrom@ 1000b3d0     ConsumerFuncs.obj
+ 0002:000003f4       ??_C@_0BG@NDBLKIHI@JSPV2_CreateEmptyFile?$AA@ 1000b3f4     ConsumerFuncs.obj
+ 0002:0000040c       ??_C@_0BI@DDBHJJLB@JSPV2_UploadUsingWebDAV?$AA@ 1000b40c     ConsumerFuncs.obj
+ 0002:00000424       ??_C@_0BN@NDHHCPCD@JSPV2_CreateFoldersInThisURL?$AA@ 1000b424     ConsumerFuncs.obj
+ 0002:00000444       ??_C@_0BK@CEEPOJJL@JSPV2_DownloadUsingWebDAV?$AA@ 1000b444     ConsumerFuncs.obj
+ 0002:00000460       ??_C@_0CG@DPALPLKA@JSPV2_GetDocumentLibrariesFromTh@ 1000b460     ConsumerFuncs.obj
+ 0002:00000488       ??_C@_0CJ@NLAMNLKE@JSPV2_GetDocumentLibrariesFromTh@ 1000b488     ConsumerFuncs.obj
+ 0002:000004b4       ??_C@_0BI@OOGDBLLD@JSPV2_SetSiteAttributes?$AA@ 1000b4b4     ConsumerFuncs.obj
+ 0002:000004cc       ??_C@_0BL@EHLGNLOI@JSPV2_DeleteFilesOrFolders?$AA@ 1000b4cc     ConsumerFuncs.obj
+ 0002:000004e8       ??_C@_0CJ@NHKCMHHP@JSPV2_DeleteFilesOrFoldersFromTh@ 1000b4e8     ConsumerFuncs.obj
+ 0002:00000514       ??_C@_0DJ@CPFGEPAL@JSPV2_GetUniqueFoldersAndCorresp@ 1000b514     ConsumerFuncs.obj
+ 0002:00000550       ??_C@_0BC@EOGMHCNE@JSPV2_GetUserRole?$AA@ 1000b550     ConsumerFuncs.obj
+ 0002:00000564       ??_C@_0BL@BGAJIKNJ@JSPV2_GetWebServiceVersion?$AA@ 1000b564     ConsumerFuncs.obj
+ 0002:00000580       ??_C@_0CB@LACFMCDI@JSPV2_GetWebServiceClientVersion@ 1000b580     ConsumerFuncs.obj
+ 0002:000005a4       ??_C@_0BK@DPNJLGBG@JSPV2_SearchServerForText?$AA@ 1000b5a4     ConsumerFuncs.obj
+ 0002:000005c0       ??_C@_0BE@FPFGLOAP@JSPV2_GetUserRights?$AA@ 1000b5c0     ConsumerFuncs.obj
+ 0002:000005d4       ??_C@_0BD@BLIMHGLP@JSPV2_CreateDocLib?$AA@ 1000b5d4     ConsumerFuncs.obj
+ 0002:000005e8       ??_C@_0BM@MEBAHING@JSPV2_SetEventSinkForDocLib?$AA@ 1000b5e8     ConsumerFuncs.obj
+ 0002:00000604       ??_C@_0BI@FCKFNCLF@JSPV2_GetConfigDataBase?$AA@ 1000b604     ConsumerFuncs.obj
+ 0002:0000061c       ??_C@_0CI@JKGKOMIE@JSPV2_CreateWebPartPageAndAddSEW@ 1000b61c     ConsumerFuncs.obj
+ 0002:00000644       ??_C@_0CE@NDEOOMOP@JSPV2_CreateSiteUnderSiteCollect@ 1000b644     ConsumerFuncs.obj
+ 0002:00000668       ??_C@_0CC@ECKMFEAL@JSPV2_AddWebPartPageEntryToJSFil@ 1000b668     ConsumerFuncs.obj
+ 0002:0000068c       ??_C@_0BL@BOJCIMOE@JSPV2_GetEventSinkAssembly?$AA@ 1000b68c     ConsumerFuncs.obj
+ 0002:000006a8       ??_C@_0CB@NCFNEECD@JSPV2_WriteContentDatabasesToXML@ 1000b6a8     ConsumerFuncs.obj
+ 0002:000006cc       ??_C@_0CB@BHDPCIMG@JSPV2_GetDocLibMetadataXMLString@ 1000b6cc     ConsumerFuncs.obj
+ 0002:000006f0       ??_C@_0BE@EOJBBEMK@JSPV2_QueryUsingSQL?$AA@ 1000b6f0     ConsumerFuncs.obj
+ 0002:00000704       ??_C@_0BI@LCEHALKL@JSPV2_GetRevisionAccess?$AA@ 1000b704     ConsumerFuncs.obj
+ 0002:0000071c       ??_C@_0BH@CMKBGM@JSPV2_GetSPSDBUserInfo?$AA@ 1000b71c     ConsumerFuncs.obj
+ 0002:00000734       ??_C@_0CH@JMFKLING@JSPV2_GetMappedColNameForStdSPPr@ 1000b734     ConsumerFuncs.obj
+ 0002:0000075c       ??_C@_0CA@IMPKCBNI@JSPV2_GetAllSubSitesFromTheSite?$AA@ 1000b75c     ConsumerFuncs.obj
+ 0002:0000077c       ??_C@_0CJ@EJLGIFCA@JSPV2_GetPropertiesInformationFo@ 1000b77c     ConsumerFuncs.obj
+ 0002:000007a8       ??_C@_0CG@KBIBHAFP@JSPV2_GetDocumentLibrariesFromTh@ 1000b7a8     ConsumerFuncs.obj
+ 0002:000007d0       ??_C@_0BE@EHFFMIMM@?4?2ConsumerUtils?4cpp?$AA@ 1000b7d0     ConsumerUtils.obj
+ 0002:000007e4       ??_C@_0BM@JCHHHOOO@JGetFlagToUseClientOnServer?$AA@ 1000b7e4     ConsumerUtils.obj
+ 0002:00000800       __GUID_ca91970c_b38c_38b3_92fc_589efc573960 1000b800     ConsumerUtils.obj
+ 0002:00000810       __GUID_2d12502d_67f1_360e_96e2_b7573667764f 1000b810     ConsumerUtils.obj
+ 0002:00000820       __GUID_00000000_0000_0000_c000_000000000046 1000b820     ConsumerUtils.obj
+ 0002:00000830       ??_C@_1EO@MBJBFCBN@?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AA?4?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAC?$AAl?$AAi?$AAe?$AAn@ 1000b830     ConsumerUtils.obj
+ 0002:00000880       ??_C@_1FO@ICJNKDEK@?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv?$AAi?$AAc?$AAe?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AAO?$AAn?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA?4?$AAW?$AAe?$AAb?$AAS?$AAe?$AAr?$AAv@ 1000b880     ConsumerUtils.obj
+ 0002:000008e0       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000b8e0     StdAfx.obj
+ 0002:00000914       ??_7CWebClientConsumerApp@@6B@ 1000b914     WebClientConsumer.obj
+ 0002:000009d4       ??_C@_06JBKGCNBB@Delete?$AA@ 1000b9d4     mfcs80:dllmodul.obj
+ 0002:000009dc       ??_C@_08KAAPDIAN@NoRemove?$AA@ 1000b9dc     mfcs80:dllmodul.obj
+ 0002:000009e8       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 1000b9e8     mfcs80:dllmodul.obj
+ 0002:000009f4       ??_C@_03LAIAPFCB@Val?$AA@  1000b9f4     mfcs80:dllmodul.obj
+ 0002:000009f8       ??_C@_01HMGJMAIH@B?$AA@    1000b9f8     mfcs80:dllmodul.obj
+ 0002:000009fc       ??_C@_01CKDDGHAB@D?$AA@    1000b9fc     mfcs80:dllmodul.obj
+ 0002:00000a00       ??_C@_01PLPBNMEI@M?$AA@    1000ba00     mfcs80:dllmodul.obj
+ 0002:00000a04       ??_C@_01CPLAODJH@S?$AA@    1000ba04     mfcs80:dllmodul.obj
+ 0002:00000a28       __pActualRawDllMain        1000ba28     mfcs80:dllmodul.obj
+ 0002:00000a2c       ??_C@_00CNPNBAHC@?$AA@     1000ba2c     mfcs80:dllmodul.obj
+ 0002:00000a34       ??_7_AFX_DLL_MODULE_STATE@@6B@ 1000ba34     mfcs80:dllmodul.obj
+ 0002:00000a5c       ??_7type_info@@6B@         1000ba5c     msvcrt:ti_inst.obj
+ 0002:00000a60       __pDefaultRawDllMain       1000ba60     msvcrt:crtdll.obj
+ 0002:00000a70       ??_7_com_error@@6B@        1000ba70     comsuppw:comraise.obj
+ 0002:00000a74       __pRawDllMain              1000ba74     mfcs80:rawdllmainproxy.obj
+ 0002:00000a78       __load_config_used         1000ba78     msvcrt:loadcfg.obj
+ 0002:00000afc       ??_R4CWebClientConsumerApp@@6B@ 1000bafc     WebClientConsumer.obj
+ 0002:00000b10       ??_R3CWebClientConsumerApp@@8 1000bb10     WebClientConsumer.obj
+ 0002:00000b20       ??_R2CWebClientConsumerApp@@8 1000bb20     WebClientConsumer.obj
+ 0002:00000b38       ??_R1A@?0A@EA@CWebClientConsumerApp@@8 1000bb38     WebClientConsumer.obj
+ 0002:00000b54       ??_R1A@?0A@EA@CWinApp@@8   1000bb54     WebClientConsumer.obj
+ 0002:00000b70       ??_R3CWinApp@@8            1000bb70     WebClientConsumer.obj
+ 0002:00000b80       ??_R2CWinApp@@8            1000bb80     WebClientConsumer.obj
+ 0002:00000b94       ??_R1A@?0A@EA@CWinThread@@8 1000bb94     WebClientConsumer.obj
+ 0002:00000bb0       ??_R3CWinThread@@8         1000bbb0     WebClientConsumer.obj
+ 0002:00000bc0       ??_R2CWinThread@@8         1000bbc0     WebClientConsumer.obj
+ 0002:00000bd0       ??_R1A@?0A@EA@CCmdTarget@@8 1000bbd0     WebClientConsumer.obj
+ 0002:00000bec       ??_R3CCmdTarget@@8         1000bbec     WebClientConsumer.obj
+ 0002:00000bfc       ??_R2CCmdTarget@@8         1000bbfc     WebClientConsumer.obj
+ 0002:00000c08       ??_R1A@?0A@EA@CObject@@8   1000bc08     WebClientConsumer.obj
+ 0002:00000c24       ??_R3CObject@@8            1000bc24     WebClientConsumer.obj
+ 0002:00000c34       ??_R2CObject@@8            1000bc34     WebClientConsumer.obj
+ 0002:00000c3c       ??_R4_AFX_DLL_MODULE_STATE@@6B@ 1000bc3c     mfcs80:dllmodul.obj
+ 0002:00000c50       ??_R3_AFX_DLL_MODULE_STATE@@8 1000bc50     mfcs80:dllmodul.obj
+ 0002:00000c60       ??_R2_AFX_DLL_MODULE_STATE@@8 1000bc60     mfcs80:dllmodul.obj
+ 0002:00000c70       ??_R1A@?0A@EA@_AFX_DLL_MODULE_STATE@@8 1000bc70     mfcs80:dllmodul.obj
+ 0002:00000c8c       ??_R1A@?0A@EA@AFX_MODULE_STATE@@8 1000bc8c     mfcs80:dllmodul.obj
+ 0002:00000ca8       ??_R3AFX_MODULE_STATE@@8   1000bca8     mfcs80:dllmodul.obj
+ 0002:00000cb8       ??_R2AFX_MODULE_STATE@@8   1000bcb8     mfcs80:dllmodul.obj
+ 0002:00000cc4       ??_R1A@?0A@EA@CNoTrackObject@@8 1000bcc4     mfcs80:dllmodul.obj
+ 0002:00000ce0       ??_R3CNoTrackObject@@8     1000bce0     mfcs80:dllmodul.obj
+ 0002:00000cf0       ??_R2CNoTrackObject@@8     1000bcf0     mfcs80:dllmodul.obj
+ 0002:00000cf8       ??_R4type_info@@6B@        1000bcf8     msvcrt:ti_inst.obj
+ 0002:00000d0c       ??_R3type_info@@8          1000bd0c     msvcrt:ti_inst.obj
+ 0002:00000d1c       ??_R2type_info@@8          1000bd1c     msvcrt:ti_inst.obj
+ 0002:00000d24       ??_R1A@?0A@EA@type_info@@8 1000bd24     msvcrt:ti_inst.obj
+ 0002:00000d40       ??_R4_com_error@@6B@       1000bd40     comsuppw:comraise.obj
+ 0002:00000d54       ??_R3_com_error@@8         1000bd54     comsuppw:comraise.obj
+ 0002:00000d64       ??_R2_com_error@@8         1000bd64     comsuppw:comraise.obj
+ 0002:00000d6c       ??_R1A@?0A@EA@_com_error@@8 1000bd6c     comsuppw:comraise.obj
+ 0002:00000d90       ___safe_se_handler_table   1000bd90     <linker-defined>
+ 0002:00000e64       ___rtc_iaa                 1000be64     msvcrt:initsect.obj
+ 0002:00000e68       ___rtc_izz                 1000be68     msvcrt:initsect.obj
+ 0002:00000e6c       ___rtc_taa                 1000be6c     msvcrt:initsect.obj
+ 0002:00000e70       ___rtc_tzz                 1000be70     msvcrt:initsect.obj
+ 0002:0000249c       __TI1?AV_com_error@@       1000d49c     comsuppw:comraise.obj
+ 0002:000024ac       __CTA1?AV_com_error@@      1000d4ac     comsuppw:comraise.obj
+ 0002:000024b4       __CT??_R0?AV_com_error@@@8??0_com_error@@QAE@ABV0@@Z16 1000d4b4     comsuppw:comraise.obj
+ 0002:000024ec       __IMPORT_DESCRIPTOR_JUtil  1000d4ec     jutil:JUtil.dll
+ 0002:00002500       __IMPORT_DESCRIPTOR_MFC80  1000d500     mfc80:MFC80.DLL
+ 0002:00002514       __IMPORT_DESCRIPTOR_MSVCR80 1000d514     msvcrt:MSVCR80.dll
+ 0002:00002528       __IMPORT_DESCRIPTOR_KERNEL32 1000d528     kernel32:KERNEL32.dll
+ 0002:0000253c       __IMPORT_DESCRIPTOR_ole32  1000d53c     ole32:ole32.dll
+ 0002:00002550       __NULL_IMPORT_DESCRIPTOR   1000d550     jutil:JUtil.dll
+ 0003:00000000       __newmode                  1000f000     newmode.obj
+ 0003:00000004       ??_R0?AV_com_error@@@8     1000f004     ConsumerFuncs.obj
+ 0003:00000024       ??_R0?AVCWebClientConsumerApp@@@8 1000f024     WebClientConsumer.obj
+ 0003:00000048       ??_R0?AVCWinApp@@@8        1000f048     WebClientConsumer.obj
+ 0003:00000060       ??_R0?AVCWinThread@@@8     1000f060     WebClientConsumer.obj
+ 0003:0000007c       ??_R0?AVCCmdTarget@@@8     1000f07c     WebClientConsumer.obj
+ 0003:00000098       ??_R0?AVCObject@@@8        1000f098     WebClientConsumer.obj
+ 0003:000000b0       ??_R0PAVCMemoryException@@@8 1000f0b0     mfcs80:dllmodul.obj
+ 0003:000000d0       ??_R0?AV_AFX_DLL_MODULE_STATE@@@8 1000f0d0     mfcs80:dllmodul.obj
+ 0003:000000f4       ??_R0?AVAFX_MODULE_STATE@@@8 1000f0f4     mfcs80:dllmodul.obj
+ 0003:00000114       ??_R0?AVCNoTrackObject@@@8 1000f114     mfcs80:dllmodul.obj
+ 0003:00000134       ___security_cookie         1000f134     msvcrt:gs_cookie.obj
+ 0003:00000138       ___security_cookie_complement 1000f138     msvcrt:gs_cookie.obj
+ 0003:0000013c       ??_R0?AVtype_info@@@8      1000f13c     msvcrt:ti_inst.obj
+ 0003:00000160       ___native_dllmain_reason   1000f160     msvcrt:natstart.obj
+ 0003:00000164       ___native_vcclrit_reason   1000f164     msvcrt:natstart.obj
+ 0003:00000168       ?__errorPfn@@3P6GXJPAUIErrorInfo@@@ZA 1000f168     comsuppw:comsupp.obj
+ 0003:0000016c       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1000f16c     atls:atltrace.obj
+ 0003:00000178       ?g_bUseWebClientOnServer@@3HA 1000f178     WebClientConsumer.obj
+ 0003:0000017c       ?g_pClient@@3V?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@A 1000f17c     WebClientConsumer.obj
+ 0003:00000180       ?theApp@@3VCWebClientConsumerApp@@A 1000f180     WebClientConsumer.obj
+ 0003:00000224       ?g_pClientOnServer@@3V?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@A 1000f224     WebClientConsumer.obj
+ 0003:00000228       __afxForceEXCLUDE          1000f228     mfcs80:nolib.obj
+ 0003:0000022c       ?__mixedModuleStartup@@3HA 1000f22c     mfcs80:dllmodul.obj
+ 0003:00000230       __afxForceUSRDLL           1000f230     mfcs80:dllmodul.obj
+ 0003:000002e8       __afxForceSTDAFX           1000f2e8     mfcs80:stdafx.obj
+ 0003:00000614       ?__type_info_root_node@@3U__type_info_node@@A 1000f614     msvcrt:tncleanup.obj
+ 0003:0000061c       __adjust_fdiv              1000f61c     <common>
+ 0003:00000620       ___native_startup_state    1000f620     <common>
+ 0003:00000624       ___native_startup_lock     1000f624     <common>
+ 0003:00000628       ___dyn_tls_init_callback   1000f628     <common>
+ 0003:0000062c       ___onexitend               1000f62c     <common>
+ 0003:00000630       ___onexitbegin             1000f630     <common>
+
+ entry point at        0001:00008826
+
+ Static symbols
+
+ 0001:000003a0       __catch$?JSPV2_CheckoutDocument@@YAJPA_W@Z$7 100013a0 f   ConsumerFuncs.obj
+ 0001:000003af       __catch$?JSPV2_CheckoutDocument@@YAJPA_W@Z$9 100013af f   ConsumerFuncs.obj
+ 0001:00000646       __catch$?JSPV2_UndoCheckoutDocument@@YAJPA_W@Z$7 10001646 f   ConsumerFuncs.obj
+ 0001:00000655       __catch$?JSPV2_UndoCheckoutDocument@@YAJPA_W@Z$9 10001655 f   ConsumerFuncs.obj
+ 0001:000008cf       __catch$?JSPV2_CheckinDocument@@YAJPA_W0@Z$7 100018cf f   ConsumerFuncs.obj
+ 0001:000008e2       __catch$?JSPV2_CheckinDocument@@YAJPA_W0@Z$9 100018e2 f   ConsumerFuncs.obj
+ 0001:00000b9e       __catch$?JSPV2_MoveFileWithinSite@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$7 10001b9e f   ConsumerFuncs.obj
+ 0001:00000baf       __catch$?JSPV2_MoveFileWithinSite@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$9 10001baf f   ConsumerFuncs.obj
+ 0001:00000e7e       __catch$?JSPV2_MoveFileAcrossSites@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$7 10001e7e f   ConsumerFuncs.obj
+ 0001:00000e8f       __catch$?JSPV2_MoveFileAcrossSites@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$9 10001e8f f   ConsumerFuncs.obj
+ 0001:00001147       __catch$?JSPV2_GetAllSites@@YAJPA_WPAPAUtagSAFEARRAY@@H@Z$7 10002147 f   ConsumerFuncs.obj
+ 0001:0000115a       __catch$?JSPV2_GetAllSites@@YAJPA_WPAPAUtagSAFEARRAY@@H@Z$9 1000215a f   ConsumerFuncs.obj
+ 0001:0000141e       __catch$?JSPV2_CreateSEPropertiesInTheDocLib@@YAJPA_WPAUtagSAFEARRAY@@1FPAPAU1@@Z$7 1000241e f   ConsumerFuncs.obj
+ 0001:0000142f       __catch$?JSPV2_CreateSEPropertiesInTheDocLib@@YAJPA_WPAUtagSAFEARRAY@@1FPAPAU1@@Z$9 1000242f f   ConsumerFuncs.obj
+ 0001:000016fe       __catch$?JSPV2_GetSiteUrlFormInputUrl@@YAJPA_WPAPA_W@Z$7 100026fe f   ConsumerFuncs.obj
+ 0001:0000170d       __catch$?JSPV2_GetSiteUrlFormInputUrl@@YAJPA_WPAPA_W@Z$9 1000270d f   ConsumerFuncs.obj
+ 0001:000019ea       __catch$?JSPV2_QueryDavServer@@YAJPA_W0F0FPAUtagSAFEARRAY@@PAPAU1@PAJ@Z$7 100029ea f   ConsumerFuncs.obj
+ 0001:000019fb       __catch$?JSPV2_QueryDavServer@@YAJPA_W0F0FPAUtagSAFEARRAY@@PAPAU1@PAJ@Z$9 100029fb f   ConsumerFuncs.obj
+ 0001:00001c9d       __catch$?JSPV2_DoPropertySync@@YAJPA_WPAUtagSAFEARRAY@@1PAUtagVARIANT@@@Z$7 10002c9d f   ConsumerFuncs.obj
+ 0001:00001cae       __catch$?JSPV2_DoPropertySync@@YAJPA_WPAUtagSAFEARRAY@@1PAUtagVARIANT@@@Z$9 10002cae f   ConsumerFuncs.obj
+ 0001:00001f55       __catch$?JSPV2_SetSEStatusForFiles@@YAJPAUtagSAFEARRAY@@PA_W0@Z$7 10002f55 f   ConsumerFuncs.obj
+ 0001:00001f66       __catch$?JSPV2_SetSEStatusForFiles@@YAJPAUtagSAFEARRAY@@PA_W0@Z$9 10002f66 f   ConsumerFuncs.obj
+ 0001:0000220f       __catch$?JSPV2_GetPropertiesInformation@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$7 1000320f f   ConsumerFuncs.obj
+ 0001:00002222       __catch$?JSPV2_GetPropertiesInformation@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$9 10003222 f   ConsumerFuncs.obj
+ 0001:000024b5       __catch$?JSPV2_GetDocumentLibraryPathFromUrl@@YAJPA_WPAPA_W1@Z$7 100034b5 f   ConsumerFuncs.obj
+ 0001:000024c6       __catch$?JSPV2_GetDocumentLibraryPathFromUrl@@YAJPA_WPAPA_W1@Z$9 100034c6 f   ConsumerFuncs.obj
+ 0001:00002776       __catch$?JSPV2_CreateEmptyFile@@YAJPA_WF@Z$7 10003776 f   ConsumerFuncs.obj
+ 0001:00002789       __catch$?JSPV2_CreateEmptyFile@@YAJPA_WF@Z$9 10003789 f   ConsumerFuncs.obj
+ 0001:00002a2f       __catch$?JSPV2_UploadUsingWebDAV@@YAJPA_W0@Z$7 10003a2f f   ConsumerFuncs.obj
+ 0001:00002a42       __catch$?JSPV2_UploadUsingWebDAV@@YAJPA_W0@Z$9 10003a42 f   ConsumerFuncs.obj
+ 0001:00002cf6       __catch$?JSPV2_CreateFoldersInThisURL@@YAJPAPA_W@Z$7 10003cf6 f   ConsumerFuncs.obj
+ 0001:00002d05       __catch$?JSPV2_CreateFoldersInThisURL@@YAJPAPA_W@Z$9 10003d05 f   ConsumerFuncs.obj
+ 0001:00002ffd       __catch$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z$9 10003ffd f   ConsumerFuncs.obj
+ 0001:00003010       __catch$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z$11 10004010 f   ConsumerFuncs.obj
+ 0001:000032b6       __catch$?JSPV2_GetDocumentLibrariesFromTheSite@@YAJPA_WPAPAUtagSAFEARRAY@@PAPA_W2@Z$7 100042b6 f   ConsumerFuncs.obj
+ 0001:000032c7       __catch$?JSPV2_GetDocumentLibrariesFromTheSite@@YAJPA_WPAPAUtagSAFEARRAY@@PAPA_W2@Z$9 100042c7 f   ConsumerFuncs.obj
+ 0001:0000356f       __catch$?JSPV2_GetDocumentLibrariesFromTheSiteUrl@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$7 1000456f f   ConsumerFuncs.obj
+ 0001:00003582       __catch$?JSPV2_GetDocumentLibrariesFromTheSiteUrl@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$9 10004582 f   ConsumerFuncs.obj
+ 0001:00003842       __catch$?JSPV2_SetSiteAttributes@@YAJPA_W_N@Z$7 10004842 f   ConsumerFuncs.obj
+ 0001:00003851       __catch$?JSPV2_SetSiteAttributes@@YAJPA_W_N@Z$9 10004851 f   ConsumerFuncs.obj
+ 0001:00003af0       __catch$?JSPV2_DeleteFilesOrFolders@@YAJFPAUtagSAFEARRAY@@PAPAU1@11@Z$7 10004af0 f   ConsumerFuncs.obj
+ 0001:00003b01       __catch$?JSPV2_DeleteFilesOrFolders@@YAJFPAUtagSAFEARRAY@@PAPAU1@11@Z$9 10004b01 f   ConsumerFuncs.obj
+ 0001:00003de1       __catch$?JSPV2_DeleteFilesOrFoldersFromThisFolder@@YAJFPA_WPAUtagSAFEARRAY@@PAPAU1@22@Z$7 10004de1 f   ConsumerFuncs.obj
+ 0001:00003df2       __catch$?JSPV2_DeleteFilesOrFoldersFromThisFolder@@YAJFPA_WPAUtagSAFEARRAY@@PAPAU1@22@Z$9 10004df2 f   ConsumerFuncs.obj
+ 0001:0000409f       __catch$?JSPV2_GetUniqueFoldersAndCorrespondingFilesOrFoldersList@@YAJPAUtagSAFEARRAY@@PAPAU1@@Z$7 1000509f f   ConsumerFuncs.obj
+ 0001:000040b2       __catch$?JSPV2_GetUniqueFoldersAndCorrespondingFilesOrFoldersList@@YAJPAUtagSAFEARRAY@@PAPAU1@@Z$9 100050b2 f   ConsumerFuncs.obj
+ 0001:0000435d       __catch$?JSPV2_GetUserRole@@YAJPA_W0PAJ@Z$7 1000535d f   ConsumerFuncs.obj
+ 0001:00004370       __catch$?JSPV2_GetUserRole@@YAJPA_W0PAJ@Z$9 10005370 f   ConsumerFuncs.obj
+ 0001:00004623       __catch$?JSPV2_GetWebServiceVersion@@YAJPA_WFPAPA_W1@Z$7 10005623 f   ConsumerFuncs.obj
+ 0001:00004634       __catch$?JSPV2_GetWebServiceVersion@@YAJPA_WFPAPA_W1@Z$9 10005634 f   ConsumerFuncs.obj
+ 0001:000048e2       __catch$?JSPV2_GetWebServiceClientVersion@@YAJFPAPA_W0@Z$7 100058e2 f   ConsumerFuncs.obj
+ 0001:000048f3       __catch$?JSPV2_GetWebServiceClientVersion@@YAJFPAPA_W0@Z$9 100058f3 f   ConsumerFuncs.obj
+ 0001:00004bac       __catch$?JSPV2_SearchServerForText@@YAJPA_W0PAPAUtagSAFEARRAY@@PAJ@Z$7 10005bac f   ConsumerFuncs.obj
+ 0001:00004bbd       __catch$?JSPV2_SearchServerForText@@YAJPA_W0PAPAUtagSAFEARRAY@@PAJ@Z$9 10005bbd f   ConsumerFuncs.obj
+ 0001:00004e94       __catch$_JSPV2_GetUserRights@8$7 10005e94 f   ConsumerFuncs.obj
+ 0001:00004ea3       __catch$_JSPV2_GetUserRights@8$9 10005ea3 f   ConsumerFuncs.obj
+ 0001:00005137       __catch$?JSPV2_CreateDocLib@@YAJPA_W00IPAPA_W@Z$7 10006137 f   ConsumerFuncs.obj
+ 0001:0000514a       __catch$?JSPV2_CreateDocLib@@YAJPA_W00IPAPA_W@Z$9 1000614a f   ConsumerFuncs.obj
+ 0001:00005406       __catch$?JSPV2_SetEventSinkForDocLib@@YAJPA_W@Z$7 10006406 f   ConsumerFuncs.obj
+ 0001:00005415       __catch$?JSPV2_SetEventSinkForDocLib@@YAJPA_W@Z$9 10006415 f   ConsumerFuncs.obj
+ 0001:0000567a       __catch$?JSPV2_GetConfigDataBase@@YAJPAPA_W@Z$6 1000667a f   ConsumerFuncs.obj
+ 0001:00005689       __catch$?JSPV2_GetConfigDataBase@@YAJPAPA_W@Z$8 10006689 f   ConsumerFuncs.obj
+ 0001:00005902       __catch$?JSPV2_CreateWebPartPageAndAddSEWebParts@@YAJPA_W0@Z$6 10006902 f   ConsumerFuncs.obj
+ 0001:00005911       __catch$?JSPV2_CreateWebPartPageAndAddSEWebParts@@YAJPA_W0@Z$8 10006911 f   ConsumerFuncs.obj
+ 0001:00005bc5       __catch$?JSPV2_CreateSiteUnderSiteCollection@@YAJPA_W00H000000@Z$6 10006bc5 f   ConsumerFuncs.obj
+ 0001:00005bd4       __catch$?JSPV2_CreateSiteUnderSiteCollection@@YAJPA_W00H000000@Z$8 10006bd4 f   ConsumerFuncs.obj
+ 0001:00005e42       __catch$?JSPV2_AddWebPartPageEntryToJSFile@@YAJPA_W0@Z$6 10006e42 f   ConsumerFuncs.obj
+ 0001:00005e51       __catch$?JSPV2_AddWebPartPageEntryToJSFile@@YAJPA_W0@Z$8 10006e51 f   ConsumerFuncs.obj
+ 0001:000060f4       __catch$_JSPV2_GetEventSinkAssembly@8$7 100070f4 f   ConsumerFuncs.obj
+ 0001:00006103       __catch$_JSPV2_GetEventSinkAssembly@8$9 10007103 f   ConsumerFuncs.obj
+ 0001:000062f5       __catch$_JSPV2_WriteContentDatabasesToXML@16$4 100072f5 f   ConsumerFuncs.obj
+ 0001:00006308       __catch$_JSPV2_WriteContentDatabasesToXML@16$6 10007308 f   ConsumerFuncs.obj
+ 0001:000065bd       __catch$_JSPV2_GetDocLibMetadataXMLString@12$7 100075bd f   ConsumerFuncs.obj
+ 0001:000065d0       __catch$_JSPV2_GetDocLibMetadataXMLString@12$9 100075d0 f   ConsumerFuncs.obj
+ 0001:0000688c       __catch$_JSPV2_QueryUsingSQL@24$6 1000788c f   ConsumerFuncs.obj
+ 0001:0000689d       __catch$_JSPV2_QueryUsingSQL@24$8 1000789d f   ConsumerFuncs.obj
+ 0001:00006bad       __catch$_JSPV2_GetRevisionAccess@12$9 10007bad f   ConsumerFuncs.obj
+ 0001:00006bbe       __catch$_JSPV2_GetRevisionAccess@12$11 10007bbe f   ConsumerFuncs.obj
+ 0001:00006e6c       __catch$_JSPV2_GetSPSDBUserInfo@12$7 10007e6c f   ConsumerFuncs.obj
+ 0001:00006e7b       __catch$_JSPV2_GetSPSDBUserInfo@12$9 10007e7b f   ConsumerFuncs.obj
+ 0001:00007100       __catch$_JSPV2_GetMappedColNameForStdSPProperty@12$6 10008100 f   ConsumerFuncs.obj
+ 0001:0000710f       __catch$_JSPV2_GetMappedColNameForStdSPProperty@12$8 1000810f f   ConsumerFuncs.obj
+ 0001:00007395       __catch$_JSPV2_GetAllSubSitesFromTheSite@8$7 10008395 f   ConsumerFuncs.obj
+ 0001:000073a8       __catch$_JSPV2_GetAllSubSitesFromTheSite@8$9 100083a8 f   ConsumerFuncs.obj
+ 0001:0000764b       __catch$_JSPV2_GetPropertiesInformationForDocLibs@12$7 1000864b f   ConsumerFuncs.obj
+ 0001:0000765c       __catch$_JSPV2_GetPropertiesInformationForDocLibs@12$9 1000865c f   ConsumerFuncs.obj
+ 0001:0000794f       __catch$_JSPV2_GetDocumentLibrariesFromTheURLs@20$7 1000894f f   ConsumerFuncs.obj
+ 0001:0000795e       __catch$_JSPV2_GetDocumentLibrariesFromTheURLs@20$9 1000895e f   ConsumerFuncs.obj
+ 0001:00007d22       __catch$?JGetWebServiceClientSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z$0 10008d22 f   ConsumerUtils.obj
+ 0001:00007d31       __catch$?JGetWebServiceClientSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z$2 10008d31 f   ConsumerUtils.obj
+ 0001:00007de2       __catch$?JGetWebServiceClientOnServerSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z$0 10008de2 f   ConsumerUtils.obj
+ 0001:00007df1       __catch$?JGetWebServiceClientOnServerSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z$2 10008df1 f   ConsumerUtils.obj
+ 0001:000081a4       __catch$_InternalDllMain@12$2 100091a4 f   mfcs80:dllmodul.obj
+ 0001:00008524       _pre_c_init                10009524 f   msvcrt:crtdll.obj
+ 0001:00008710       ___DllMainCRTStartup       10009710 f   msvcrt:crtdll.obj
+ 0001:00008fcc       __FindPESection            10009fcc f   mfcs80:rawdllmainproxy.obj
+ 0001:00009006       __IsNonwritableInCurrentImage 1000a006 f   mfcs80:rawdllmainproxy.obj
+ 0001:000090c0       __unwindfunclet$?IsConfigFile@@YAHVGUserText@@@Z$0 1000a0c0 f   ConsumerFuncs.obj
+ 0001:000090c9       __unwindfunclet$?IsConfigFile@@YAHVGUserText@@@Z$1 1000a0c9 f   ConsumerFuncs.obj
+ 0001:000090d2       __ehhandler$?IsConfigFile@@YAHVGUserText@@@Z 1000a0d2 f   ConsumerFuncs.obj
+ 0001:000090f0       __unwindfunclet$?JSPV2_CheckoutDocument@@YAJPA_W@Z$12 1000a0f0 f   ConsumerFuncs.obj
+ 0001:000090f8       __ehhandler$?JSPV2_CheckoutDocument@@YAJPA_W@Z 1000a0f8 f   ConsumerFuncs.obj
+ 0001:00009120       __unwindfunclet$?JSPV2_UndoCheckoutDocument@@YAJPA_W@Z$12 1000a120 f   ConsumerFuncs.obj
+ 0001:00009128       __ehhandler$?JSPV2_UndoCheckoutDocument@@YAJPA_W@Z 1000a128 f   ConsumerFuncs.obj
+ 0001:00009150       __unwindfunclet$?JSPV2_CheckinDocument@@YAJPA_W0@Z$12 1000a150 f   ConsumerFuncs.obj
+ 0001:00009158       __ehhandler$?JSPV2_CheckinDocument@@YAJPA_W0@Z 1000a158 f   ConsumerFuncs.obj
+ 0001:00009180       __unwindfunclet$?JSPV2_MoveFileWithinSite@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$12 1000a180 f   ConsumerFuncs.obj
+ 0001:00009188       __ehhandler$?JSPV2_MoveFileWithinSite@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z 1000a188 f   ConsumerFuncs.obj
+ 0001:000091b0       __unwindfunclet$?JSPV2_MoveFileAcrossSites@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z$12 1000a1b0 f   ConsumerFuncs.obj
+ 0001:000091b8       __ehhandler$?JSPV2_MoveFileAcrossSites@@YAJPA_W0PAUtagSAFEARRAY@@1H00@Z 1000a1b8 f   ConsumerFuncs.obj
+ 0001:000091e0       __unwindfunclet$?JSPV2_GetAllSites@@YAJPA_WPAPAUtagSAFEARRAY@@H@Z$12 1000a1e0 f   ConsumerFuncs.obj
+ 0001:000091e8       __ehhandler$?JSPV2_GetAllSites@@YAJPA_WPAPAUtagSAFEARRAY@@H@Z 1000a1e8 f   ConsumerFuncs.obj
+ 0001:00009210       __unwindfunclet$?JSPV2_CreateSEPropertiesInTheDocLib@@YAJPA_WPAUtagSAFEARRAY@@1FPAPAU1@@Z$12 1000a210 f   ConsumerFuncs.obj
+ 0001:00009218       __ehhandler$?JSPV2_CreateSEPropertiesInTheDocLib@@YAJPA_WPAUtagSAFEARRAY@@1FPAPAU1@@Z 1000a218 f   ConsumerFuncs.obj
+ 0001:00009240       __unwindfunclet$?JSPV2_GetSiteUrlFormInputUrl@@YAJPA_WPAPA_W@Z$12 1000a240 f   ConsumerFuncs.obj
+ 0001:00009248       __ehhandler$?JSPV2_GetSiteUrlFormInputUrl@@YAJPA_WPAPA_W@Z 1000a248 f   ConsumerFuncs.obj
+ 0001:00009270       __unwindfunclet$?JSPV2_QueryDavServer@@YAJPA_W0F0FPAUtagSAFEARRAY@@PAPAU1@PAJ@Z$12 1000a270 f   ConsumerFuncs.obj
+ 0001:00009278       __ehhandler$?JSPV2_QueryDavServer@@YAJPA_W0F0FPAUtagSAFEARRAY@@PAPAU1@PAJ@Z 1000a278 f   ConsumerFuncs.obj
+ 0001:000092a0       __unwindfunclet$?JSPV2_DoPropertySync@@YAJPA_WPAUtagSAFEARRAY@@1PAUtagVARIANT@@@Z$12 1000a2a0 f   ConsumerFuncs.obj
+ 0001:000092a8       __ehhandler$?JSPV2_DoPropertySync@@YAJPA_WPAUtagSAFEARRAY@@1PAUtagVARIANT@@@Z 1000a2a8 f   ConsumerFuncs.obj
+ 0001:000092d0       __unwindfunclet$?JSPV2_SetSEStatusForFiles@@YAJPAUtagSAFEARRAY@@PA_W0@Z$12 1000a2d0 f   ConsumerFuncs.obj
+ 0001:000092d8       __ehhandler$?JSPV2_SetSEStatusForFiles@@YAJPAUtagSAFEARRAY@@PA_W0@Z 1000a2d8 f   ConsumerFuncs.obj
+ 0001:00009300       __unwindfunclet$?JSPV2_GetPropertiesInformation@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$12 1000a300 f   ConsumerFuncs.obj
+ 0001:00009308       __ehhandler$?JSPV2_GetPropertiesInformation@@YAJPA_WPAPAUtagSAFEARRAY@@@Z 1000a308 f   ConsumerFuncs.obj
+ 0001:00009330       __unwindfunclet$?JSPV2_GetDocumentLibraryPathFromUrl@@YAJPA_WPAPA_W1@Z$12 1000a330 f   ConsumerFuncs.obj
+ 0001:00009338       __ehhandler$?JSPV2_GetDocumentLibraryPathFromUrl@@YAJPA_WPAPA_W1@Z 1000a338 f   ConsumerFuncs.obj
+ 0001:00009360       __unwindfunclet$?JSPV2_CreateEmptyFile@@YAJPA_WF@Z$12 1000a360 f   ConsumerFuncs.obj
+ 0001:00009368       __ehhandler$?JSPV2_CreateEmptyFile@@YAJPA_WF@Z 1000a368 f   ConsumerFuncs.obj
+ 0001:00009390       __unwindfunclet$?JSPV2_UploadUsingWebDAV@@YAJPA_W0@Z$12 1000a390 f   ConsumerFuncs.obj
+ 0001:00009398       __ehhandler$?JSPV2_UploadUsingWebDAV@@YAJPA_W0@Z 1000a398 f   ConsumerFuncs.obj
+ 0001:000093c0       __unwindfunclet$?JSPV2_CreateFoldersInThisURL@@YAJPAPA_W@Z$12 1000a3c0 f   ConsumerFuncs.obj
+ 0001:000093c8       __ehhandler$?JSPV2_CreateFoldersInThisURL@@YAJPAPA_W@Z 1000a3c8 f   ConsumerFuncs.obj
+ 0001:000093f0       __unwindfunclet$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z$14 1000a3f0 f   ConsumerFuncs.obj
+ 0001:000093f8       __unwindfunclet$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z$15 1000a3f8 f   ConsumerFuncs.obj
+ 0001:00009401       __unwindfunclet$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z$16 1000a401 f   ConsumerFuncs.obj
+ 0001:0000940a       __ehhandler$?JSPV2_DownloadUsingWebDAV@@YAJPA_W0@Z 1000a40a f   ConsumerFuncs.obj
+ 0001:00009430       __unwindfunclet$?JSPV2_GetDocumentLibrariesFromTheSite@@YAJPA_WPAPAUtagSAFEARRAY@@PAPA_W2@Z$12 1000a430 f   ConsumerFuncs.obj
+ 0001:00009438       __ehhandler$?JSPV2_GetDocumentLibrariesFromTheSite@@YAJPA_WPAPAUtagSAFEARRAY@@PAPA_W2@Z 1000a438 f   ConsumerFuncs.obj
+ 0001:00009460       __unwindfunclet$?JSPV2_GetDocumentLibrariesFromTheSiteUrl@@YAJPA_WPAPAUtagSAFEARRAY@@@Z$12 1000a460 f   ConsumerFuncs.obj
+ 0001:00009468       __ehhandler$?JSPV2_GetDocumentLibrariesFromTheSiteUrl@@YAJPA_WPAPAUtagSAFEARRAY@@@Z 1000a468 f   ConsumerFuncs.obj
+ 0001:00009490       __unwindfunclet$?JSPV2_SetSiteAttributes@@YAJPA_W_N@Z$12 1000a490 f   ConsumerFuncs.obj
+ 0001:00009498       __ehhandler$?JSPV2_SetSiteAttributes@@YAJPA_W_N@Z 1000a498 f   ConsumerFuncs.obj
+ 0001:000094c0       __unwindfunclet$?JSPV2_DeleteFilesOrFolders@@YAJFPAUtagSAFEARRAY@@PAPAU1@11@Z$12 1000a4c0 f   ConsumerFuncs.obj
+ 0001:000094c8       __ehhandler$?JSPV2_DeleteFilesOrFolders@@YAJFPAUtagSAFEARRAY@@PAPAU1@11@Z 1000a4c8 f   ConsumerFuncs.obj
+ 0001:000094f0       __unwindfunclet$?JSPV2_DeleteFilesOrFoldersFromThisFolder@@YAJFPA_WPAUtagSAFEARRAY@@PAPAU1@22@Z$12 1000a4f0 f   ConsumerFuncs.obj
+ 0001:000094f8       __ehhandler$?JSPV2_DeleteFilesOrFoldersFromThisFolder@@YAJFPA_WPAUtagSAFEARRAY@@PAPAU1@22@Z 1000a4f8 f   ConsumerFuncs.obj
+ 0001:00009520       __unwindfunclet$?JSPV2_GetUniqueFoldersAndCorrespondingFilesOrFoldersList@@YAJPAUtagSAFEARRAY@@PAPAU1@@Z$12 1000a520 f   ConsumerFuncs.obj
+ 0001:00009528       __ehhandler$?JSPV2_GetUniqueFoldersAndCorrespondingFilesOrFoldersList@@YAJPAUtagSAFEARRAY@@PAPAU1@@Z 1000a528 f   ConsumerFuncs.obj
+ 0001:00009550       __unwindfunclet$?JSPV2_GetUserRole@@YAJPA_W0PAJ@Z$12 1000a550 f   ConsumerFuncs.obj
+ 0001:00009558       __ehhandler$?JSPV2_GetUserRole@@YAJPA_W0PAJ@Z 1000a558 f   ConsumerFuncs.obj
+ 0001:00009580       __unwindfunclet$?JSPV2_GetWebServiceVersion@@YAJPA_WFPAPA_W1@Z$12 1000a580 f   ConsumerFuncs.obj
+ 0001:00009588       __ehhandler$?JSPV2_GetWebServiceVersion@@YAJPA_WFPAPA_W1@Z 1000a588 f   ConsumerFuncs.obj
+ 0001:000095b0       __unwindfunclet$?JSPV2_GetWebServiceClientVersion@@YAJFPAPA_W0@Z$12 1000a5b0 f   ConsumerFuncs.obj
+ 0001:000095b8       __ehhandler$?JSPV2_GetWebServiceClientVersion@@YAJFPAPA_W0@Z 1000a5b8 f   ConsumerFuncs.obj
+ 0001:000095e0       __unwindfunclet$?JSPV2_SearchServerForText@@YAJPA_W0PAPAUtagSAFEARRAY@@PAJ@Z$12 1000a5e0 f   ConsumerFuncs.obj
+ 0001:000095e8       __ehhandler$?JSPV2_SearchServerForText@@YAJPA_W0PAPAUtagSAFEARRAY@@PAJ@Z 1000a5e8 f   ConsumerFuncs.obj
+ 0001:00009610       __unwindfunclet$_JSPV2_GetUserRights@8$12 1000a610 f   ConsumerFuncs.obj
+ 0001:00009618       __ehhandler$_JSPV2_GetUserRights@8 1000a618 f   ConsumerFuncs.obj
+ 0001:00009640       __unwindfunclet$?JSPV2_CreateDocLib@@YAJPA_W00IPAPA_W@Z$12 1000a640 f   ConsumerFuncs.obj
+ 0001:00009648       __ehhandler$?JSPV2_CreateDocLib@@YAJPA_W00IPAPA_W@Z 1000a648 f   ConsumerFuncs.obj
+ 0001:00009670       __unwindfunclet$?JSPV2_SetEventSinkForDocLib@@YAJPA_W@Z$12 1000a670 f   ConsumerFuncs.obj
+ 0001:00009678       __ehhandler$?JSPV2_SetEventSinkForDocLib@@YAJPA_W@Z 1000a678 f   ConsumerFuncs.obj
+ 0001:000096a0       __unwindfunclet$?JSPV2_GetConfigDataBase@@YAJPAPA_W@Z$11 1000a6a0 f   ConsumerFuncs.obj
+ 0001:000096a8       __ehhandler$?JSPV2_GetConfigDataBase@@YAJPAPA_W@Z 1000a6a8 f   ConsumerFuncs.obj
+ 0001:000096d0       __unwindfunclet$?JSPV2_CreateWebPartPageAndAddSEWebParts@@YAJPA_W0@Z$11 1000a6d0 f   ConsumerFuncs.obj
+ 0001:000096d8       __ehhandler$?JSPV2_CreateWebPartPageAndAddSEWebParts@@YAJPA_W0@Z 1000a6d8 f   ConsumerFuncs.obj
+ 0001:00009700       __unwindfunclet$?JSPV2_CreateSiteUnderSiteCollection@@YAJPA_W00H000000@Z$11 1000a700 f   ConsumerFuncs.obj
+ 0001:00009708       __ehhandler$?JSPV2_CreateSiteUnderSiteCollection@@YAJPA_W00H000000@Z 1000a708 f   ConsumerFuncs.obj
+ 0001:00009730       __unwindfunclet$?JSPV2_AddWebPartPageEntryToJSFile@@YAJPA_W0@Z$11 1000a730 f   ConsumerFuncs.obj
+ 0001:00009738       __ehhandler$?JSPV2_AddWebPartPageEntryToJSFile@@YAJPA_W0@Z 1000a738 f   ConsumerFuncs.obj
+ 0001:00009760       __unwindfunclet$_JSPV2_GetEventSinkAssembly@8$12 1000a760 f   ConsumerFuncs.obj
+ 0001:00009768       __ehhandler$_JSPV2_GetEventSinkAssembly@8 1000a768 f   ConsumerFuncs.obj
+ 0001:00009790       __unwindfunclet$_JSPV2_WriteContentDatabasesToXML@16$9 1000a790 f   ConsumerFuncs.obj
+ 0001:00009798       __ehhandler$_JSPV2_WriteContentDatabasesToXML@16 1000a798 f   ConsumerFuncs.obj
+ 0001:000097c0       __unwindfunclet$_JSPV2_GetDocLibMetadataXMLString@12$12 1000a7c0 f   ConsumerFuncs.obj
+ 0001:000097c8       __ehhandler$_JSPV2_GetDocLibMetadataXMLString@12 1000a7c8 f   ConsumerFuncs.obj
+ 0001:000097f0       __unwindfunclet$_JSPV2_QueryUsingSQL@24$11 1000a7f0 f   ConsumerFuncs.obj
+ 0001:000097f8       __ehhandler$_JSPV2_QueryUsingSQL@24 1000a7f8 f   ConsumerFuncs.obj
+ 0001:00009820       __unwindfunclet$_JSPV2_GetRevisionAccess@12$14 1000a820 f   ConsumerFuncs.obj
+ 0001:00009828       __ehhandler$_JSPV2_GetRevisionAccess@12 1000a828 f   ConsumerFuncs.obj
+ 0001:00009850       __unwindfunclet$_JSPV2_GetSPSDBUserInfo@12$12 1000a850 f   ConsumerFuncs.obj
+ 0001:00009858       __ehhandler$_JSPV2_GetSPSDBUserInfo@12 1000a858 f   ConsumerFuncs.obj
+ 0001:00009880       __unwindfunclet$_JSPV2_GetMappedColNameForStdSPProperty@12$11 1000a880 f   ConsumerFuncs.obj
+ 0001:00009888       __ehhandler$_JSPV2_GetMappedColNameForStdSPProperty@12 1000a888 f   ConsumerFuncs.obj
+ 0001:000098b0       __unwindfunclet$_JSPV2_GetAllSubSitesFromTheSite@8$12 1000a8b0 f   ConsumerFuncs.obj
+ 0001:000098b8       __ehhandler$_JSPV2_GetAllSubSitesFromTheSite@8 1000a8b8 f   ConsumerFuncs.obj
+ 0001:000098e0       __unwindfunclet$_JSPV2_GetPropertiesInformationForDocLibs@12$12 1000a8e0 f   ConsumerFuncs.obj
+ 0001:000098e8       __ehhandler$_JSPV2_GetPropertiesInformationForDocLibs@12 1000a8e8 f   ConsumerFuncs.obj
+ 0001:00009910       __unwindfunclet$_JSPV2_GetDocumentLibrariesFromTheURLs@20$12 1000a910 f   ConsumerFuncs.obj
+ 0001:00009918       __ehhandler$_JSPV2_GetDocumentLibrariesFromTheURLs@20 1000a918 f   ConsumerFuncs.obj
+ 0001:00009940       __unwindfunclet$?JGetWebServiceClientSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z$5 1000a940 f   ConsumerUtils.obj
+ 0001:00009948       __ehhandler$?JGetWebServiceClientSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClient@@$1?_GUID_ca91970c_b38c_38b3_92fc_589efc573960@@3U__s_GUID@@B@@@@@Z 1000a948 f   ConsumerUtils.obj
+ 0001:00009970       __unwindfunclet$?JGetWebServiceClientOnServerSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z$5 1000a970 f   ConsumerUtils.obj
+ 0001:00009978       __ehhandler$?JGetWebServiceClientOnServerSmartPointer@@YAJPAV?$_com_ptr_t@V?$_com_IIID@UIWebServiceClient@WebServiceClientOnServer@@$1?_GUID_2d12502d_67f1_360e_96e2_b7573667764f@@3U__s_GUID@@B@@@@@Z 1000a978 f   ConsumerUtils.obj
+ 0001:000099a0       __unwindfunclet$??0CWebClientConsumerApp@@QAE@XZ$0 1000a9a0 f   WebClientConsumer.obj
+ 0001:000099a8       __ehhandler$??0CWebClientConsumerApp@@QAE@XZ 1000a9a8 f   WebClientConsumer.obj
+ 0001:000099d0       __unwindfunclet$??_GCWebClientConsumerApp@@UAEPAXI@Z$0 1000a9d0 f   WebClientConsumer.obj
+ 0001:000099d8       __ehhandler$??_GCWebClientConsumerApp@@UAEPAXI@Z 1000a9d8 f   WebClientConsumer.obj
+ 0001:00009a00       __unwindfunclet$??__FtheApp@@YAXXZ$0 1000aa00 f   WebClientConsumer.obj
+ 0001:00009a0a       __ehhandler$??__FtheApp@@YAXXZ 1000aa0a f   WebClientConsumer.obj
+ 0001:00009a24       __unwindfunclet$?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z$0 1000aa24 f   mfcs80:dllmodul.obj
+ 0001:00009a2c       __ehhandler$?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z 1000aa2c f   mfcs80:dllmodul.obj
+ 0001:00009a47       __unwindfunclet$_InternalDllMain@12$5 1000aa47 f   mfcs80:dllmodul.obj
+ 0001:00009a50       __unwindfunclet$_InternalDllMain@12$6 1000aa50 f   mfcs80:dllmodul.obj
+ 0001:00009a58       __ehhandler$_InternalDllMain@12 1000aa58 f   mfcs80:dllmodul.obj
+ 0001:00009a80       ??__EServicesInitializerObj@@YAXXZ 1000aa80 f   ConsumerFuncs.obj
+ 0001:00009aa0       ??__EtheApp@@YAXXZ         1000aaa0 f   WebClientConsumer.obj
+ 0001:00009ac0       ??__Eg_pClient@@YAXXZ      1000aac0 f   WebClientConsumer.obj
+ 0001:00009ad0       ??__Eg_pClientOnServer@@YAXXZ 1000aad0 f   WebClientConsumer.obj
+ 0001:00009adc       ??__EafxModuleState@@YAXXZ 1000aadc f   mfcs80:dllmodul.obj
+ 0001:00009b00       ??__FServicesInitializerObj@@YAXXZ 1000ab00 f   ConsumerFuncs.obj
+ 0001:00009b20       ??__FtheApp@@YAXXZ         1000ab20 f   WebClientConsumer.obj
+ 0001:00009b70       ??__Fg_pClient@@YAXXZ      1000ab70 f   WebClientConsumer.obj
+ 0001:00009b90       ??__Fg_pClientOnServer@@YAXXZ 1000ab90 f   WebClientConsumer.obj
+ 0001:00009ba2       ??__FafxModuleState@@YAXXZ 1000aba2 f   mfcs80:dllmodul.obj

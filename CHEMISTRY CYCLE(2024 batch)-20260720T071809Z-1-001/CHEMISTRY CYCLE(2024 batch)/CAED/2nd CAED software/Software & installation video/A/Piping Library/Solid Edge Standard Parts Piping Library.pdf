@@ -1,0 +1,22 @@
+[PDF]
+Version = 2.0
+
+[Package Definition]
+Name = Solid Edge Standard Parts Piping Library
+Version = 20.00.0096
+Publisher = UGS
+Language = English
+Programs = Setup
+MifFileName = Solid Edge Standard Parts Piping Library.mif
+MifName = Solid Edge Standard Parts Piping Library
+MifVersion = 20.00.0096
+MifPublisher = UGS
+
+[Setup]
+Name = Automated Minimum Installation
+CommandLine = msiexec /m "Solid Edge Standard Parts Piping Library.mif" /qn /I "Solid Edge Standard Parts Piping Library.msi"
+SupportedClients = Win 9x, Win NT (i386)
+UserInputRequired = False
+RemoveProgram = True
+UnInstallKey = {EB264B4C-66CB-4D83-9A7C-187A277F3EB0}
+

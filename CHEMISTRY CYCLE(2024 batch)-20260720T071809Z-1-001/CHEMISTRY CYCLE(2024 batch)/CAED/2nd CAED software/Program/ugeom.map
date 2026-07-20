@@ -1,0 +1,2051 @@
+ ugeom
+
+ Timestamp is 46b39ced (Fri Aug 03 16:23:57 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00077e48H .text                   CODE
+ 0001:00077e50 00000953H .text$x                 CODE
+ 0002:00000000 0000058cH .idata$5                DATA
+ 0002:0000058c 00000004H .CRT$XCA                DATA
+ 0002:00000590 00000004H .CRT$XCZ                DATA
+ 0002:00000594 00000004H .CRT$XIA                DATA
+ 0002:00000598 00000004H .CRT$XIAA               DATA
+ 0002:0000059c 00000004H .CRT$XIC                DATA
+ 0002:000005a0 00000004H .CRT$XIZ                DATA
+ 0002:000005b0 00000e18H .rdata                  DATA
+ 0002:000013c8 0000002fH .rdata$debug            DATA
+ 0002:000013f8 00000090H .rdata$r                DATA
+ 0002:00001490 000000ccH .rdata$sxdata           DATA
+ 0002:0000155c 00000004H .rtc$IAA                DATA
+ 0002:00001560 00000004H .rtc$IZZ                DATA
+ 0002:00001564 00000004H .rtc$TAA                DATA
+ 0002:00001568 00000004H .rtc$TZZ                DATA
+ 0002:00001570 0000095cH .xdata$x                DATA
+ 0002:00001ecc 00000078H .idata$2                DATA
+ 0002:00001f44 00000014H .idata$3                DATA
+ 0002:00001f58 0000058cH .idata$4                DATA
+ 0002:000024e4 0000143aH .idata$6                DATA
+ 0002:00003920 000052ceH .edata                  DATA
+ 0003:00000000 00000060H .data                   DATA
+ 0003:00000060 00000360H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000033       ___safe_se_handler_count   00000033     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??D@YA?AUtagGVector@@NABU0@@Z 10001000 f i IMAdjCntPoles.obj
+ 0001:00000040       _IMAdjustCoincidentPoles   10001040 f   IMAdjCntPoles.obj
+ 0001:00000710       _IMArcLengthGBspline       10001710 f   IMALenGBsp.obj
+ 0001:000007b0       ?IMGComplexStringToGBspCurveWithHeal@@YAXABUtagGComplexString@@AAUtagGBspCurve@@PAH@Z 100017b0 f   IMAngleOffCv.obj
+ 0001:00000f30       ??G@YA?AUtagGVector@@ABU0@0@Z 10001f30 f i IMFitToPtsLines.obj
+ 0001:00000f30       ??G@YA?AUtagGVector@@ABUtagGPosition@@0@Z 10001f30 f i IMAngleOffCv.obj
+ 0001:00000f70       ?Normalize@@YA?AUtagGUnitVector@@ABUtagGVector@@@Z 10001f70 f i IMAngleOffCv.obj
+ 0001:00000fa0       _GetGID_TRANSF             10001fa0 f i IMAngleOffCv.obj
+ 0001:00002d10       _IMGetAngledOffsetCurve    10003d10 f   IMAngleOffCv.obj
+ 0001:000032c0       ??D@YA?AUtagGVector@@ABU0@N@Z 100042c0 f i IMAr2dAr3d.obj
+ 0001:00003300       _IMArc2dToArc3d            10004300 f   IMAr2dAr3d.obj
+ 0001:00003620       _IMArc3dToArc2d            10004620 f   IMAr3dAr2d.obj
+ 0001:000037b0       _IMGArc3dToGBspCurve3d     100047b0 f   IMAr3dCv3d.obj
+ 0001:000039d0       _IMGArcCopy                100049d0 f   IMArCopy.obj
+ 0001:00003b10       _IMGArcProjectToPlane      10004b10 f   IMArcPjPl.obj
+ 0001:000042c0       _IMApproxGBspCurveByArcLine 100052c0 f   IMArcSpline.obj
+ 0001:000042f0       _IMArcExtrema              100052f0 f   IMArExtr.obj
+ 0001:00004500       _IMArcGetAngles            10005500 f   IMArGtAng.obj
+ 0001:00004530       _IMArcGetPositionFromParameter 10005530 f   IMArGtPsPr.obj
+ 0001:000046a0       _IMArcGetSweepAngle        100056a0 f   IMArGtSwAng.obj
+ 0001:00004750       _IMArcIsParValid           10005750 f   IMArIPV.obj
+ 0001:000047d0       ?GDistanceSq@@YANABUtagGPosition@@0@Z 100057d0 f i IMArOff.obj
+ 0001:00004800       _IMArcOffset               10005800 f   IMArOff.obj
+ 0001:00004b80       _IMArcGetParameterFromRatio 10005b80 f   IMArPrFRt.obj
+ 0001:00004c10       _IMGArcReverse             10005c10 f   IMArRev.obj
+ 0001:00004e50       _IMArcRangeBox             10005e50 f   IMArRgBx.obj
+ 0001:00004f10       _IMArrGPosIsSelfInt        10005f10 f   IMArrGPoISfX.obj
+ 0001:00005270       _IMGArcByStEndRadNorACen   10006270 f   IMArSERN.obj
+ 0001:000052d0       _IMArcSetSweepAngle        100062d0 f   IMArStSwAng.obj
+ 0001:00005360       ??G@YA?AUtagGVector@@ABU0@@Z 10006360 f i IMArTrn.obj
+ 0001:000053a0       _IMArcTransform            100063a0 f   IMArTrn.obj
+ 0001:000057a0       _IMArcValid                100067a0 f   IMArVal.obj
+ 0001:000058c0       _IMBoundariesAllocFrmComplexStrings 100068c0 f   IMBAllocFCS.obj
+ 0001:00005940       _IMBoundedConeByArcVec     10006940 f   IMBCnArVc.obj
+ 0001:00005fd0       _IMBoundedGConeBy2GArcs    10006fd0 f   IMBCnBy2Ar.obj
+ 0001:00006710       _IMBoundedGConeBy2GEllipses 10007710 f   IMBCnBy2El.obj
+ 0001:00006c10       _IMBoundedGConeByAxisGLine 10007c10 f   IMBCnByAxLn.obj
+ 0001:00007e50       _IMBoundedGConeByPointGArc 10008e50 f   IMBCnByPtAr.obj
+ 0001:000083f0       _IMBoundedGConeByPointGEllipse 100093f0 f   IMBCnByPtEl.obj
+ 0001:000087f0       _IMBoundedConeByEllipseVec 100097f0 f   IMBCnElVc.obj
+ 0001:00008e30       _IMBoundedGPlaneBy2TypedCurves 10009e30 f   IMBPlBy2Cvs.obj
+ 0001:00009650       _IMBoundedGPlaneByAxisGLine 1000a650 f   IMBPlByAxLn.obj
+ 0001:0000a3b0       _IMBoundedPlaneByLineVec   1000b3b0 f   IMBPlLnVc.obj
+ 0001:0000a770       _IMBoreConeToClipVolume    1000b770 f   IMBrCnTCV.obj
+ 0001:0000b450       _IMGBspSurfaceByBoundary   1000c450 f   IMBSfByBdry.obj
+ 0001:0000b610       _IMGBspSurfDataReduction   1000c610 f   IMBSfDtRdc.obj
+ 0001:0000b760       _IMGBspSurfaceIsoCurve     1000c760 f   IMBSfIsoCv.obj
+ 0001:0000be10       _IMBoundedGSphereByAxisGArc 1000ce10 f   IMBSpByAxAr.obj
+ 0001:0000d890       _IMBoundedGTorusByAxisGArc 1000e890 f   IMBToByAxAr.obj
+ 0001:0000ea40       _IMBoundedGTorusByAxisGEllipse 1000fa40 f   IMBToByAxEl.obj
+ 0001:0000f050       _IMBoundariesTransform     10010050 f   IMBTrn.obj
+ 0001:0000f130       _IMBoundariesValid         10010130 f   IMBVal.obj
+ 0001:0000f200       _IMGBoxPtFenceLocate       10010200 f   IMBxPtFcLo.obj
+ 0001:0000f850       _GetGORIGIN                10010850 f i IMBxPtFrLo.obj
+ 0001:000109d0       _IMGBoxPtFrustumLocate     100119d0 f   IMBxPtFrLo.obj
+ 0001:000112e0       _IMGConeByBaseEllipseApex  100122e0 f   IMCnByElApx.obj
+ 0001:00011460       _IMConeExtrema             10012460 f   IMCnExtr.obj
+ 0001:00011660       _IMConeFindApex            10012660 f   IMCnFA.obj
+ 0001:00011770       _IMConeParFromPosition     10012770 f   IMCnPfPo.obj
+ 0001:00011800       ??H@YA?AUtagGVector@@ABU0@0@Z 10012800 f i IMCnPtOutNr.obj
+ 0001:00011840       _IMConePointOutwardNorm    10012840 f   IMCnPtOutNr.obj
+ 0001:00011be0       _IMConeRangeBox            10012be0 f   IMCnRgBx.obj
+ 0001:00011f70       _IMConeTransform           10012f70 f   IMCnTrn.obj
+ 0001:00012080       _IMConeValid               10013080 f   IMCnVal.obj
+ 0001:00012590       _IMCreateGBspCurve         10013590 f   IMCrGCv.obj
+ 0001:000126e0       _IMCreateGBspSurface       100136e0 f   IMCrGSf.obj
+ 0001:00012eb0       _IMCreateGBspSurfaceOpt    10013eb0 f   IMCrGSfOp.obj
+ 0001:000136a0       _IMComplexString3dToComplexString2d 100146a0 f   IMCS3dCS2d.obj
+ 0001:00013740       _IMGComplexStringToGBspCurve 10014740 f   IMCS3dCv3d.obj
+ 0001:000137a0       _IMComplexStringAlloc      100147a0 f   IMCSAlloc.obj
+ 0001:000138f0       _IMComplexStringAllocFrmGTypedCurve 100148f0 f   IMCSAlloFTC.obj
+ 0001:00013a30       _IMComplexStringCheckScope 10014a30 f   IMCSChkSc.obj
+ 0001:00013e10       _IMComplexStringMaxDisjointDist 10014e10 f   IMCSDisjntDist.obj
+ 0001:00013f00       _IMComplexStringExtrema    10014f00 f   IMCSExtr.obj
+ 0001:00014190       _IMComplexStringFlatten    10015190 f   IMCSFlat.obj
+ 0001:00014250       _IMComplexStringGetPositionFromParameter 10015250 f   IMCSGPsPr.obj
+ 0001:00014320       _IMComplexStringLineStringToLines 10015320 f   IMCSLSTLns.obj
+ 0001:000144a0       _IMComplexStringOffset     100154a0 f   IMCSOff.obj
+ 0001:00014d70       _IMComplexStringOrient     10015d70 f   IMCSOrient.obj
+ 0001:00014e90       _IMComplexStringOrientNorm 10015e90 f   IMCSOrNor.obj
+ 0001:00015470       _IMComplexStringRangeBox   10016470 f   IMCSRgBx.obj
+ 0001:000155f0       _IMComplexStringTransform  100165f0 f   IMCSTrn.obj
+ 0001:000156d0       _IMComplexStringTransformNoAlloc 100166d0 f   IMCSTrnNA.obj
+ 0001:00015740       _IMComplexStringValid      10016740 f   IMCSVal.obj
+ 0001:00015930       _IMBspCurve2dToBspCurve3d  10016930 f   IMCv2dCv3d.obj
+ 0001:000159f0       _IMGBspCurveToGArc         100169f0 f   IMCv3dAr3d.obj
+ 0001:00015a80       _IMBspCurve3dToBspCurve2d  10016a80 f   IMCv3dCv2d.obj
+ 0001:00015b40       _IMGBspCurve3dToGEllipse3d 10016b40 f   IMCv3dEl3d.obj
+ 0001:00015bb0       _IMGBspCurveToGLine        10016bb0 f   IMCv3dLn3d.obj
+ 0001:00015bf0       _IMGBspCurveToGLineString  10016bf0 f   IMCv3dLS3d.obj
+ 0001:00015c90       _IMBspCurveAddKnot         10016c90 f   IMCvAdKt.obj
+ 0001:000169a0       _IMBspCurveArrev0          100179a0 f   IMCvArrev0.obj
+ 0001:00016ee0       _IMGBspCurveCoolEdit       10017ee0 f   IMCvCoolEdit.obj
+ 0001:00016ff0       _IMCurveDataReduction      10017ff0 f   IMCvDtRd.obj
+ 0001:00017e10       _IMBspCurveExtendByLine    10018e10 f   IMCvExtLn.obj
+ 0001:00018760       _IMBspCurvePolyExtend      10019760 f   IMCvExtPly.obj
+ 0001:000192b0       _IMBspCurveExtrema         1001a2b0 f   IMCvExtr.obj
+ 0001:00019840       _IMGBspCurveGetNodes       1001a840 f   IMCvGtNodes.obj
+ 0001:00019960       _IMBspCurveGetPositionFromParameter 1001a960 f   IMCvGtPsPr.obj
+ 0001:00019a40       _IMBspCurveHeightParameters 1001aa40 f   IMCvHtPar.obj
+ 0001:00019e70       _IMBspCurveIncOrder        1001ae70 f   IMCvIncOrd.obj
+ 0001:0001a130       _IMBspCurveGetKnotTolerance 1001b130 f   IMCvKtTl.obj
+ 0001:0001a3d0       _IMBspCurveLeftRightDerivatives 1001b3d0 f   IMCvLRDerv.obj
+ 0001:0001a7d0       _IMCurveLeastSquaresFit    1001b7d0 f   IMCvLsqFit.obj
+ 0001:0001a870       _IMGBspCurveMerge          1001b870 f   IMCvMerge.obj
+ 0001:0001b100       _IMGBspCurveNormal         1001c100 f   IMCvNormal.obj
+ 0001:0001b220       _IMBspCurveOffset          1001c220 f   IMCvOff.obj
+ 0001:0001b340       _IMBspCurveOrientNorm      1001c340 f   IMCvOrNor.obj
+ 0001:0001b750       _IMBspCurveProjectToPlane  1001c750 f   IMCvPjPl.obj
+ 0001:0001bd30       _IMBspCurvePtDrvs          1001cd30 f   IMCvPtDrvs.obj
+ 0001:0001be30       _IMGBspCurveReverse        1001ce30 f   IMCvRev.obj
+ 0001:0001c1a0       _IMBspCurveRangeBox        1001d1a0 f   IMCvRgBx.obj
+ 0001:0001c1e0       _IMBspCurveRemKnotsNoChange 1001d1e0 f   IMCvRKtNC.obj
+ 0001:0001c280       _IMBspCurveRemoveOneKnot   1001d280 f   IMCvRm1Kt.obj
+ 0001:0001e950       _IMGBspCurveConvertToGArc  1001f950 f   IMCvToAr.obj
+ 0001:0001ea30       _IMBspCurveTransform       1001fa30 f   IMCvTrn.obj
+ 0001:0001ec10       _IMBspCurveTstPlan         1001fc10 f   IMCvTstPln.obj
+ 0001:0001ecd0       _IMBspCurveValid           1001fcd0 f   IMCvVal.obj
+ 0001:0001f4a0       _IMSubDivideBspSurface     100204a0 f   IMDivSf.obj
+ 0001:0001f600       _IMEllipse2dToEllipse3d    10020600 f   IMEl2dEl3d.obj
+ 0001:0001f650       _IMGEllipse3dToGBspCurve3d 10020650 f   IMEl3dCv3d.obj
+ 0001:0001f750       _IMEllipse3dToEllipse2d    10020750 f   IMEl3dEl2d.obj
+ 0001:0001fc10       _IMEllipseBy3Pt3d          10020c10 f   IMEl3Pt3d.obj
+ 0001:0001fc70       _IMGEllipseCopy            10020c70 f   IMElCopy.obj
+ 0001:0001fcc0       _IMEllipseByCenterNormalRadius 10020cc0 f   IMElCtrNorRd.obj
+ 0001:0001fdc0       _IMEllipseExtrema          10020dc0 f   IMElExtr.obj
+ 0001:0001ff10       _IMEllipseGetMajorRadius   10020f10 f   IMElGtMRd.obj
+ 0001:0001ff30       _IMEllipseIsCircle         10020f30 f   IMElIsCir.obj
+ 0001:0001ff90       _IMEllipseOffset           10020f90 f   IMElOff.obj
+ 0001:000201f0       _IMGEllipseReverse         100211f0 f   IMElRev.obj
+ 0001:00020250       _IMEllipseRangeBox         10021250 f   IMElRgBx.obj
+ 0001:00020460       _IMEllipseTransform        10021460 f   IMElTrn.obj
+ 0001:00020630       _IMEllipseValid            10021630 f   IMElVal.obj
+ 0001:000207f0       _IMEllipseVecPtPar         100217f0 f   IMElVPP.obj
+ 0001:00020d60       _IMEvaluateBspSurf         10021d60 f   IMEvalBspSf.obj
+ 0001:00020ea0       _IMEvaluateComplexString   10021ea0 f   IMEvalComStr.obj
+ 0001:00020f20       _IMEvaluateCone            10021f20 f   IMEvalCone.obj
+ 0001:000211b0       _IMEvaluateEllipse         100221b0 f   IMEvalEllipse.obj
+ 0001:00021320       _IMEvaluateProjectionSurf  10022320 f   IMEvalPjSf.obj
+ 0001:00021460       _IMEvaluatePlane           10022460 f   IMEvalPlane.obj
+ 0001:000217d0       _IMEvaluateRuleSurf        100227d0 f   IMEvalRuSf.obj
+ 0001:00021a40       _IMEvaluateRevolutionSurf  10022a40 f   IMEvalRvSf.obj
+ 0001:000221e0       _IMEvaluateSphere          100231e0 f   IMEvalSphere.obj
+ 0001:00022d20       _IMEvaluateTypedCurve      10023d20 f   IMEvalTcv.obj
+ 0001:00022f10       _IMEvaluateTorus           10023f10 f   IMEvalTorus.obj
+ 0001:000233f0       _IMEvaluateTypeSurf        100243f0 f   IMEvalTypeSf.obj
+ 0001:00023550       _IMExtractLineString       10024550 f   IMExtrLS.obj
+ 0001:00023990       _IMFilletBetweenLines      10024990 f   imfil2lns.obj
+ 0001:00023f90       _IMFilletBetweenTypedCvsTrim 10024f90 f   imfilcvstr.obj
+ 0001:000258a0       _IMCurveFitToPointsLines   100268a0 f   IMFitToPtsLines.obj
+ 0001:00025f00       _IMFindCuspOnGBspSurface   10026f00 f   IMFndCusp.obj
+ 0001:00025fd0       _IMFindCuspOnGBspCurve     10026fd0 f   IMFndCvCusp.obj
+ 0001:000266f0       _IMFormG1GBspCurve         100276f0 f   IMFrmG1Cv.obj
+ 0001:000273f0       _IMFitGBspCurve            100283f0 f   IMFtGCv.obj
+ 0001:000274e0       _IMFitCurveToGBspCurve     100284e0 f   IMFtIGCv.obj
+ 0001:00027960       ??1JIOStreamContext@@UAE@XZ 10028960 f i IMG4RFS.obj
+ 0001:00027990       ??_EJIOStreamContext@@UAEPAXI@Z 10028990 f i IMG4RFS.obj
+ 0001:00027990       ??_GJIOStreamContext@@UAEPAXI@Z 10028990 f i IMG4RFS.obj
+ 0001:000279d0       ??$IMGSerialize@UtagG4x4@@@@YAXABVJIOStreamContext@@PAUtagG4x4@@PAH@Z 100289d0 f i IMG4RFS.obj
+ 0001:00027a10       ??$IMGReadFromStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z 10028a10 f i IMG4RFS.obj
+ 0001:00027ac0       _IMG4x4ReadFromStream      10028ac0 f   IMG4RFS.obj
+ 0001:00027ad0       ??$IMGWriteToStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z 10028ad0 f i IMG4WTS.obj
+ 0001:00027b80       _IMG4x4WriteToStream       10028b80 f   IMG4WTS.obj
+ 0001:00027b90       _IMGEllipseFreeAll         10028b90 f   IMGElFA.obj
+ 0001:00027b90       _IMGLineFreeAll            10028b90 f   IMGLnFA.obj
+ 0001:00027b90       _IMGArcFreeAll             10028b90 f   IMGArFA.obj
+ 0001:00027bb0       _IMGArcToIGRbsp_curve      10028bb0 f   IMGArIcv.obj
+ 0001:00027c30       _IMGArcPtTan               10028c30 f   IMGArPtTan.obj
+ 0001:00027c30       _IMGEllipsePtTan           10028c30 f   IMGElPtTan.obj
+ 0001:00027e40       ??$IMGSerialize@UtagGArc@@@@YAXABVJIOStreamContext@@PAUtagGArc@@PAH@Z 10028e40 f i IMGArRFS.obj
+ 0001:00027e80       ??$IMGReadFromStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z 10028e80 f i IMGArRFS.obj
+ 0001:00027f30       _IMGArcReadFromStream      10028f30 f   IMGArRFS.obj
+ 0001:00027f40       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10028f40 f i IMGArWTS.obj
+ 0001:00027fc0       ?Serialize@tagGArc@@QAEJABVJIOStreamContext@@@Z 10028fc0 f   IMGArWTS.obj
+ 0001:00028000       ??$IMGWriteToStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z 10029000 f i IMGArWTS.obj
+ 0001:000280b0       _IMGArcWriteToStream       100290b0 f   IMGArWTS.obj
+ 0001:000280c0       _IMGBoundariesCopy         100290c0 f   IMGBCopy.obj
+ 0001:00028140       _IMGBoundariesCopyNoAlloc  10029140 f   IMGBCopyNA.obj
+ 0001:000281b0       _IMGBoreConeReadFromStream 100291b0 f   IMGBCRFS.obj
+ 0001:00028200       ??$IMGSerialize@UtagGBspCurve@@@@YAXABVJIOStreamContext@@PAUtagGBspCurve@@PAH@Z 10029200 f i IMGBCvRFS.obj
+ 0001:00028240       ??$IMGReadFromStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z 10029240 f i IMGBCvRFS.obj
+ 0001:000282f0       _IMGBspCurveReadFromStream 100292f0 f   IMGBCvRFS.obj
+ 0001:00028300       ?Serialize@tagGBspCurve@@QAEJABVJIOStreamContext@@@Z 10029300 f   IMGBCvWTS.obj
+ 0001:00028650       ??$IMGWriteToStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z 10029650 f i IMGBCvWTS.obj
+ 0001:00028700       _IMGBspCurveWriteToStream  10029700 f   IMGBCvWTS.obj
+ 0001:00028710       _IMGBoreConeWriteToStream  10029710 f   IMGBCWTS.obj
+ 0001:00028760       _IMGBoundariesFromNGPositions 10029760 f   IMGBFNGPos.obj
+ 0001:00028850       _IMGBoundariesFreeMem      10029850 f   IMGBFree.obj
+ 0001:000288c0       _IMGBoreLineReadFromStream 100298c0 f   IMGBLRFS.obj
+ 0001:00028980       _IMGBoreLineWriteToStream  10029980 f   IMGBLWTS.obj
+ 0001:00028a40       ??$IMGSerialize@UtagGBoundaries@@@@YAXABVJIOStreamContext@@PAUtagGBoundaries@@PAH@Z 10029a40 f i IMGBRFS.obj
+ 0001:00028a80       ??$IMGReadFromStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z 10029a80 f i IMGBRFS.obj
+ 0001:00028b30       _IMGBoundariesReadFromStream 10029b30 f   IMGBRFS.obj
+ 0001:00029dd0       _IMGBspSurfaceExtension    1002add0 f   IMGBSfExt.obj
+ 0001:0002a0e0       ?DoIOPaddingBytes@JIOStreamContext@@QBEJK@Z 1002b0e0 f i IMGBWTS.obj
+ 0001:0002a160       ?Serialize@tagGBoundaries@@QAEJABVJIOStreamContext@@_N@Z 1002b160 f   IMGBWTS.obj
+ 0001:0002a290       ??$IMGWriteToStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z 1002b290 f i IMGBWTS.obj
+ 0001:0002a340       _IMGBoundariesWriteToStream 1002b340 f   IMGBWTS.obj
+ 0001:0002a350       ??$IMGSerialize@UtagGBox@@@@YAXABVJIOStreamContext@@PAUtagGBox@@PAH@Z 1002b350 f i IMGBxRFS.obj
+ 0001:0002a390       ??$IMGReadFromStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z 1002b390 f i IMGBxRFS.obj
+ 0001:0002a440       _IMGBoxReadFromStream      1002b440 f   IMGBxRFS.obj
+ 0001:0002a450       ??$IMGWriteToStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z 1002b450 f i IMGBxWTS.obj
+ 0001:0002a500       _IMGBoxWriteToStream       1002b500 f   IMGBxWTS.obj
+ 0001:0002a510       _IMGConeCopy               1002b510 f   IMGCnCopy.obj
+ 0001:0002a620       _IMGConeCopyWithAlloc      1002b620 f   IMGCnCopyWA.obj
+ 0001:0002a730       _IMGConeFreeAll            1002b730 f   IMGCnFA.obj
+ 0001:0002a760       _IMGConeFreeMem            1002b760 f   IMGCnFree.obj
+ 0001:0002a780       _IMGConeToGBspSurface      1002b780 f   IMGCnGSf.obj
+ 0001:0002ae00       _IMGConeToIGRbsp_surface   1002be00 f   IMGCnIsf.obj
+ 0001:0002b420       ??$IMGSerialize@UtagGCone@@@@YAXABVJIOStreamContext@@PAUtagGCone@@PAH@Z 1002c420 f i IMGCnRFS.obj
+ 0001:0002b460       ??$IMGReadFromStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z 1002c460 f i IMGCnRFS.obj
+ 0001:0002b510       _IMGConeReadFromStream     1002c510 f   IMGCnRFS.obj
+ 0001:0002b520       ?Serialize@tagGCone@@QAEJABVJIOStreamContext@@@Z 1002c520 f   IMGCnWTS.obj
+ 0001:0002b610       ??$IMGWriteToStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z 1002c610 f i IMGCnWTS.obj
+ 0001:0002b6c0       _IMGConeWriteToStream      1002c6c0 f   IMGCnWTS.obj
+ 0001:0002b6d0       _IMGComplexStringCopy      1002c6d0 f   IMGCSCopy.obj
+ 0001:0002b790       _IMGComplexStringCopyNoAlloc 1002c790 f   IMGCSCopyNA.obj
+ 0001:0002b800       _IMGComplexStringChkPar    1002c800 f   IMGCSCP.obj
+ 0001:0002ba70       _IMGComplexStringFreeAll   1002ca70 f   IMGCSFA.obj
+ 0001:0002baa0       _IMGComplexStringFreeMem   1002caa0 f   IMGCSFree.obj
+ 0001:0002bb10       _IMGComplexStringToIGRbsp_curve 1002cb10 f   IMGCSIcv.obj
+ 0001:0002bc80       _IMGComplexStringPtTan     1002cc80 f   IMGCSPtTan.obj
+ 0001:0002bdf0       _IMGComplexStringReverse   1002cdf0 f   IMGCSRev.obj
+ 0001:0002bef0       ??$IMGSerialize@UtagGComplexString@@@@YAXABVJIOStreamContext@@PAUtagGComplexString@@PAH@Z 1002cef0 f i IMGCSRFS.obj
+ 0001:0002bf30       ??$IMGReadFromStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z 1002cf30 f i IMGCSRFS.obj
+ 0001:0002bfe0       _IMGComplexStringReadFromStream 1002cfe0 f   IMGCSRFS.obj
+ 0001:0002bff0       _IMGComplexStringSetForm   1002cff0 f   IMGCSStFrm.obj
+ 0001:0002c2e0       _IMGComplexStringSetScope  1002d2e0 f   IMGCSStSc.obj
+ 0001:0002c320       ?Serialize@tagGComplexString@@QAEJABVJIOStreamContext@@@Z 1002d320 f   IMGCSWTS.obj
+ 0001:0002c400       ??$IMGWriteToStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z 1002d400 f i IMGCSWTS.obj
+ 0001:0002c4b0       _IMGComplexStringWriteToStream 1002d4b0 f   IMGCSWTS.obj
+ 0001:0002c4c0       _IMGBspCurveAllocMem       1002d4c0 f   IMGCvAlloc.obj
+ 0001:0002c640       _IMGBspCurveChtPts         1002d640 f   IMGCvChtP.obj
+ 0001:0002cb90       _IMGBspCurveCopy           1002db90 f   IMGCvCopy.obj
+ 0001:0002cca0       _IMGBspCurveCopyWithAlloc  1002dca0 f   IMGCvCopyWA.obj
+ 0001:0002cce0       _IMGBspCurveFreeAll        1002dce0 f   IMGCvFA.obj
+ 0001:0002cd10       _IMGBspCurveFreeMem        1002dd10 f   IMGCvFree.obj
+ 0001:0002cd50       _IMGBspCurveToIGRbsp_curve 1002dd50 f   IMGCvIcv.obj
+ 0001:0002d080       _IMGBspCurveToIGRbsp_curveAllocOpt 1002e080 f   IMGCvICvOp.obj
+ 0001:0002d5c0       _IMGBspCurveMultEndKnots   1002e5c0 f   IMGCvMEKts.obj
+ 0001:0002dc30       _IMGBspCurveGetParameterFromRatio 1002ec30 f   IMGCvPrRa.obj
+ 0001:0002dc60       _IMGBspCurvePtTan          1002ec60 f   IMGCvPtTan.obj
+ 0001:0002dda0       _IMGBspCurveRadCenCrv      1002eda0 f   IMGCvRCCv.obj
+ 0001:0002de40       _IMGClipVolumeReadFromStream 1002ee40 f   IMGCVRFS.obj
+ 0001:0002dee0       _IMGBspCurveSplitInTwo     1002eee0 f   IMGCvSpt2.obj
+ 0001:0002e360       _IMGBspCurveSplitAct       1002f360 f   IMGCvSptA.obj
+ 0001:0002e520       _IMGClipVolumeWriteToStream 1002f520 f   IMGCVWTS.obj
+ 0001:0002e5c0       _IMGEllipseByCtrNorMajRat  1002f5c0 f   IMGElCtNrMjRt.obj
+ 0001:0002e650       _IMGEllipseToIGRbsp_curve  1002f650 f   IMGElIcv.obj
+ 0001:0002e970       ??$IMGSerialize@UtagGEllipse@@@@YAXABVJIOStreamContext@@PAUtagGEllipse@@PAH@Z 1002f970 f i IMGElRFS.obj
+ 0001:0002e9b0       ??$IMGReadFromStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z 1002f9b0 f i IMGElRFS.obj
+ 0001:0002ea60       _IMGEllipseReadFromStream  1002fa60 f   IMGElRFS.obj
+ 0001:0002ea70       ?Serialize@tagGEllipse@@QAEJABVJIOStreamContext@@@Z 1002fa70 f   IMGElWTS.obj
+ 0001:0002eab0       ??$IMGWriteToStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z 1002fab0 f i IMGElWTS.obj
+ 0001:0002eb60       _IMGEllipseWriteToStream   1002fb60 f   IMGElWTS.obj
+ 0001:0002eb70       _IMTypedCurveGetMinCurvatureRanges 1002fb70 f   IMGetTCMinRadi.obj
+ 0001:000305e0       _IMGetWrapPlane            100315e0 f   IMGetWrapPlane.obj
+ 0001:000306e0       _IMGetGArcEndPts           100316e0 f   IMGGArEPts.obj
+ 0001:00030750       _IMGetGArcParFromGPosition 10031750 f   IMGGArPFGPo.obj
+ 0001:00030860       _IMGetGComplexStringEndPts 10031860 f   IMGGCSEPts.obj
+ 0001:000308c0       _IMGetGComplexStringParFromGPosition 100318c0 f   IMGGCSPFGPo.obj
+ 0001:000309f0       _IMGetGBspCurveEndPts      100319f0 f   IMGGCvEPts.obj
+ 0001:00030a50       _IMGetGBspCurveParFromGPosition 10031a50 f   IMGGCvPFGPo.obj
+ 0001:00030aa0       _IMGetGEllipseGPositionFromPar 10031aa0 f   IMGGElGPoFP.obj
+ 0001:00030bb0       _IMGetGEllipseMinorAxis    10031bb0 f   IMGGElMiA.obj
+ 0001:00030c50       _IMGetGEllipseParFromGPosition 10031c50 f   IMGGElPFGPo.obj
+ 0001:00030e60       _IMGetGLineEndPts          10031e60 f   IMGGLnEPts.obj
+ 0001:00030f70       _IMGetGLineLength          10031f70 f   IMGGLnL.obj
+ 0001:00030fc0       _IMGetGLineParFromGPosition 10031fc0 f   IMGGLnPFGPo.obj
+ 0001:00031010       _IMGetGLineStringEndPts    10032010 f   IMGGLSEPts.obj
+ 0001:00031080       _IMGetGLineStringGPositionFromPar 10032080 f   IMGGLSGPoFP.obj
+ 0001:00031280       _IMGetGLineStringParFromGPosition 10032280 f   IMGGLSPFGPo.obj
+ 0001:00031480       _IMGetGTypedCurveEndPts    10032480 f   IMGGTCEPts.obj
+ 0001:000315b0       _IMGetGTypedCurveParFromGPosition 100325b0 f   IMGGTCPFGPo.obj
+ 0001:00031640       _IMGiveAngleBetweenVectors 10032640 f   IMGiveAng.obj
+ 0001:00031760       _IMGLineBy2Pts             10032760 f   IMGLn2Pts.obj
+ 0001:00031900       _IMGLineToIGRbsp_curve     10032900 f   IMGLnIcv.obj
+ 0001:00031930       _IMGLineToIGRbsp_curveOpt  10032930 f   IMGLnICvOp.obj
+ 0001:00031a00       _IMGLinePtTan              10032a00 f   IMGLnPtTan.obj
+ 0001:00031a60       ??$IMGSerialize@UtagGLine@@@@YAXABVJIOStreamContext@@PAUtagGLine@@PAH@Z 10032a60 f i IMGLnRFS.obj
+ 0001:00031aa0       ??$IMGReadFromStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z 10032aa0 f i IMGLnRFS.obj
+ 0001:00031b50       _IMGLineReadFromStream     10032b50 f   IMGLnRFS.obj
+ 0001:00031b60       ?Serialize@tagGLine@@QAEJABVJIOStreamContext@@@Z 10032b60 f   IMGLnWTS.obj
+ 0001:00031bb0       ??$IMGWriteToStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z 10032bb0 f i IMGLnWTS.obj
+ 0001:00031c60       _IMGLineWriteToStream      10032c60 f   IMGLnWTS.obj
+ 0001:00031c70       _IMGLineStringAllocMem     10032c70 f   IMGLSAlloc.obj
+ 0001:00031cb0       _IMGLineStringCopyWithAlloc 10032cb0 f   IMGLSCopyWA.obj
+ 0001:00031d20       _IMGLineStringFreeAll      10032d20 f   IMGLSFA.obj
+ 0001:00031d50       _IMGLineStringFreeMem      10032d50 f   IMGLSFree.obj
+ 0001:00031d80       _IMGLineStringToIGRbsp_curve 10032d80 f   IMGLSIcv.obj
+ 0001:00032180       _IMGLineStringMinDistToGPos 10033180 f   IMGLSMDGPo.obj
+ 0001:00032380       _IMGLineStringPtTan        10033380 f   IMGLSPtTan.obj
+ 0001:00032630       ??$IMGSerialize@UtagGLineString@@@@YAXABVJIOStreamContext@@PAUtagGLineString@@PAH@Z 10033630 f i IMGLSRFS.obj
+ 0001:00032670       ??$IMGReadFromStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z 10033670 f i IMGLSRFS.obj
+ 0001:00032720       _IMGLineStringReadFromStream 10033720 f   IMGLSRFS.obj
+ 0001:00032730       ?Serialize@tagGLineString@@QAEJABVJIOStreamContext@@@Z 10033730 f   IMGLSWTS.obj
+ 0001:00032800       ??$IMGWriteToStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z 10033800 f i IMGLSWTS.obj
+ 0001:000328b0       _IMGLineStringWriteToStream 100338b0 f   IMGLSWTS.obj
+ 0001:000328c0       ??$IMGSerialize@UtagGMatrix@@@@YAXABVJIOStreamContext@@PAUtagGMatrix@@PAH@Z 100338c0 f i IMGMRFS.obj
+ 0001:00032900       ??$IMGReadFromStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z 10033900 f i IMGMRFS.obj
+ 0001:000329b0       _IMGMatrixReadFromStream   100339b0 f   IMGMRFS.obj
+ 0001:000329c0       ??$IMGWriteToStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z 100339c0 f i IMGMWTS.obj
+ 0001:00032a70       _IMGMatrixWriteToStream    10033a70 f   IMGMWTS.obj
+ 0001:00032a80       _IMGPtFenceReadFromStream  10033a80 f   IMGPFRFS.obj
+ 0001:00032bb0       _IMGPtFrustumReadFromStream 10033bb0 f   IMGPFrRFS.obj
+ 0001:00032c00       _IMGPtFrustumWriteToStream 10033c00 f   IMGPFrWTS.obj
+ 0001:00032c50       _IMGPtFenceWriteToStream   10033c50 f   IMGPFWTS.obj
+ 0001:00032d40       _IMGProjectionCopy         10033d40 f   IMGPjCopy.obj
+ 0001:00032da0       _IMGProjectionCopyWithAlloc 10033da0 f   IMGPjCopyWA.obj
+ 0001:00032e20       _IMGProjectionFreeAll      10033e20 f   IMGPjFA.obj
+ 0001:00032e50       _IMGProjectionFreeMem      10033e50 f   IMGPjFree.obj
+ 0001:00032e90       _IMGProjectionToIGRbsp_surface 10033e90 f   IMGPjIsf.obj
+ 0001:00032fc0       ??$IMGSerialize@UtagGProjection@@@@YAXABVJIOStreamContext@@PAUtagGProjection@@PAH@Z 10033fc0 f i IMGPjRFS.obj
+ 0001:00033000       ??$IMGReadFromStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z 10034000 f i IMGPjRFS.obj
+ 0001:000330b0       _IMGProjectionReadFromStream 100340b0 f   IMGPjRFS.obj
+ 0001:000330c0       ?Serialize@tagGProjection@@QAEJABVJIOStreamContext@@@Z 100340c0 f   IMGPjWTS.obj
+ 0001:00033140       ??$IMGWriteToStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z 10034140 f i IMGPjWTS.obj
+ 0001:000331f0       _IMGProjectionWriteToStream 100341f0 f   IMGPjWTS.obj
+ 0001:00033200       _IMGPlaneCopy              10034200 f   IMGPlCopy.obj
+ 0001:000332e0       _IMGPlaneCopyWithAlloc     100342e0 f   IMGPlCopyWA.obj
+ 0001:000333c0       _IMGPlaneFreeAll           100343c0 f   IMGPlFA.obj
+ 0001:000333f0       _IMGPlaneFreeMem           100343f0 f   IMGPlFree.obj
+ 0001:00033410       _IMGPlaneToGBspSurface     10034410 f   IMGPlGSf.obj
+ 0001:00033660       _IMGPlaneToIGRbsp_surface  10034660 f   IMGPlIsf.obj
+ 0001:000338c0       ??$IMGSerialize@UtagGPlane@@@@YAXABVJIOStreamContext@@PAUtagGPlane@@PAH@Z 100348c0 f i IMGPlRFS.obj
+ 0001:00033900       ??$IMGReadFromStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z 10034900 f i IMGPlRFS.obj
+ 0001:000339b0       _IMGPlaneReadFromStream    100349b0 f   IMGPlRFS.obj
+ 0001:000339c0       ?Serialize@tagGPlane@@QAEJABVJIOStreamContext@@_N@Z 100349c0 f   IMGPlWTS.obj
+ 0001:00033b20       ??$IMGWriteToStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z 10034b20 f i IMGPlWTS.obj
+ 0001:00033bd0       _IMGPlaneWriteToStream     10034bd0 f   IMGPlWTS.obj
+ 0001:00033be0       _IMGPolyMeshCopy           10034be0 f   IMGPMCopy.obj
+ 0001:00033d40       _IMGPolyMeshCopyWithAlloc  10034d40 f   IMGPMCopyWA.obj
+ 0001:00033ef0       _IMGPolyMeshFreeAll        10034ef0 f   IMGPMFA.obj
+ 0001:00033f20       ??$IMGSerialize@UtagGPolyMesh@@@@YAXABVJIOStreamContext@@PAUtagGPolyMesh@@PAH@Z 10034f20 f i IMGPMRFS.obj
+ 0001:00033f60       ??$IMGReadFromStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z 10034f60 f i IMGPMRFS.obj
+ 0001:00034010       _IMGPolyMeshReadFromStream 10035010 f   IMGPMRFS.obj
+ 0001:00034020       ?Serialize@tagGFacetInfo@@QAEJABVJIOStreamContext@@@Z 10035020 f   IMGPMWTS.obj
+ 0001:00034070       ?Serialize@tagGPolyMesh@@QAEJABVJIOStreamContext@@@Z 10035070 f   IMGPMWTS.obj
+ 0001:00034350       ??$IMGWriteToStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z 10035350 f i IMGPMWTS.obj
+ 0001:00034400       _IMGPolyMeshWriteToStream  10035400 f   IMGPMWTS.obj
+ 0001:00034410       _IMGPositionOnGLine        10035410 f   IMGPoGLn.obj
+ 0001:00034450       ??$IMGSerialize@UtagGPosition@@@@YAXABVJIOStreamContext@@PAUtagGPosition@@PAH@Z 10035450 f i IMGPRFS.obj
+ 0001:00034490       ??$IMGReadFromStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z 10035490 f i IMGPRFS.obj
+ 0001:00034540       _IMGPositionReadFromStream 10035540 f   IMGPRFS.obj
+ 0001:00034550       _IMGPointToIGRbsp_curve    10035550 f   IMGPtIcv.obj
+ 0001:000345e0       ??$IMGWriteToStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z 100355e0 f i IMGPWTS.obj
+ 0001:00034690       _IMGPositionWriteToStream  10035690 f   IMGPWTS.obj
+ 0001:000346a0       ??$IMGSerialize@UtagGRuled@@@@YAXABVJIOStreamContext@@PAUtagGRuled@@PAH@Z 100356a0 f i IMGRlRFS.obj
+ 0001:000346e0       ??$IMGReadFromStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z 100356e0 f i IMGRlRFS.obj
+ 0001:00034790       _IMGRuledReadFromStream    10035790 f   IMGRlRFS.obj
+ 0001:000347a0       ?Serialize@tagGRuled@@QAEJABVJIOStreamContext@@@Z 100357a0 f   IMGRlWTS.obj
+ 0001:00034890       ??$IMGWriteToStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z 10035890 f i IMGRlWTS.obj
+ 0001:00034940       _IMGRuledWriteToStream     10035940 f   IMGRlWTS.obj
+ 0001:00034950       _IMGRtPrismReadFromStream  10035950 f   IMGRPRFS.obj
+ 0001:00034a50       _IMGRtPrismWriteToStream   10035a50 f   IMGRPWTS.obj
+ 0001:00034b20       _IMGRuledCopy              10035b20 f   IMGRuCopy.obj
+ 0001:00034b90       _IMGRuledCopyWithAlloc     10035b90 f   IMGRuCopyWA.obj
+ 0001:00034c40       _IMGRuledFreeAll           10035c40 f   IMGRuFA.obj
+ 0001:00034c70       _IMGRuledFreeMem           10035c70 f   IMGRuFree.obj
+ 0001:00034d10       _IMGRuledToIGRbsp_surface  10035d10 f   IMGRuIsf.obj
+ 0001:00034e70       _IMGRevolutionCopy         10035e70 f   IMGRvCopy.obj
+ 0001:00034f00       _IMGRevolutionCopyWithAlloc 10035f00 f   IMGRvCopyWA.obj
+ 0001:00034fa0       _IMGRevolutionFreeAll      10035fa0 f   IMGRvFA.obj
+ 0001:00034fd0       _IMGRevolutionFreeMem      10035fd0 f   IMGRvFree.obj
+ 0001:00035010       _IMGRevolutionToIGRbsp_surface 10036010 f   IMGRvIsf.obj
+ 0001:00035130       ??$IMGSerialize@UtagGRevolution@@@@YAXABVJIOStreamContext@@PAUtagGRevolution@@PAH@Z 10036130 f i IMGRvRFS.obj
+ 0001:00035170       ??$IMGReadFromStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z 10036170 f i IMGRvRFS.obj
+ 0001:00035220       _IMGRevolutionReadFromStream 10036220 f   IMGRvRFS.obj
+ 0001:00035230       ?Serialize@tagGRevolution@@QAEJABVJIOStreamContext@@@Z 10036230 f   IMGRvWTS.obj
+ 0001:000352d0       ??$IMGWriteToStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z 100362d0 f i IMGRvWTS.obj
+ 0001:00035380       _IMGRevolutionWriteToStream 10036380 f   IMGRvWTS.obj
+ 0001:00035390       _IMGBspSurfaceAllocMem     10036390 f   IMGSfAlloc.obj
+ 0001:00035490       _IMGBspSurfaceArrEv        10036490 f   IMGSfArEv.obj
+ 0001:00035520       _IMGBspSurfaceChtPts       10036520 f   IMGSfChtP.obj
+ 0001:00035720       _IMGBspSurfaceCopy         10036720 f   IMGSfCopy.obj
+ 0001:000358f0       _IMGBspSurfaceCopyWithAlloc 100368f0 f   IMGSfCopyWA.obj
+ 0001:00035ab0       _IMGBspSurfaceFreeAll      10036ab0 f   IMGSfFA.obj
+ 0001:00035ae0       _IMGBspSurfaceFreeMem      10036ae0 f   IMGSfFree.obj
+ 0001:00035ba0       _IMGBspSurfaceToIGRbsp_surface 10036ba0 f   IMGSfIsf.obj
+ 0001:000360f0       _IMGBspSurfaceMultEndKnots 100370f0 f   IMGSfMEKts.obj
+ 0001:00036190       _IMGBspSurfacePtsEval      10037190 f   IMGSfPtsEv.obj
+ 0001:00036230       ??$IMGSerialize@UtagGBspSurface@@@@YAXABVJIOStreamContext@@PAUtagGBspSurface@@PAH@Z 10037230 f i IMGSfRFS.obj
+ 0001:00036270       ??$IMGReadFromStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z 10037270 f i IMGSfRFS.obj
+ 0001:00036320       _IMGBspSurfaceReadFromStream 10037320 f   IMGSfRFS.obj
+ 0001:00036330       _IMGBspSurfaceTstPln       10037330 f   IMGSfTP.obj
+ 0001:000363c0       ?Serialize@tagGBspSurface@@QAEJABVJIOStreamContext@@@Z 100373c0 f   IMGSfWTS.obj
+ 0001:00036720       ??$IMGWriteToStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z 10037720 f i IMGSfWTS.obj
+ 0001:000367d0       _IMGBspSurfaceWriteToStream 100377d0 f   IMGSfWTS.obj
+ 0001:000367e0       _IMGSphereCopy             100377e0 f   IMGSpCopy.obj
+ 0001:000368d0       _IMGSphereCopyWithAlloc    100378d0 f   IMGSpCopyWA.obj
+ 0001:000369d0       _IMGSphereFreeAll          100379d0 f   IMGSpFA.obj
+ 0001:00036a00       _IMGSphereFreeMem          10037a00 f   IMGSpFree.obj
+ 0001:00036a20       _IMGSphereToGBspSurface    10037a20 f   IMGSphGSf.obj
+ 0001:00036a80       _IMGSphereToIGRbsp_surface 10037a80 f   IMGSphIsf.obj
+ 0001:00036c90       ??$IMGSerialize@UtagGSphere@@@@YAXABVJIOStreamContext@@PAUtagGSphere@@PAH@Z 10037c90 f i IMGSpRFS.obj
+ 0001:00036cd0       ??$IMGReadFromStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z 10037cd0 f i IMGSpRFS.obj
+ 0001:00036d80       _IMGSphereReadFromStream   10037d80 f   IMGSpRFS.obj
+ 0001:00036d90       ?Serialize@tagGSphere@@QAEJABVJIOStreamContext@@@Z 10037d90 f   IMGSpWTS.obj
+ 0001:00036e80       ??$IMGWriteToStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z 10037e80 f i IMGSpWTS.obj
+ 0001:00036f30       _IMGSphereWriteToStream    10037f30 f   IMGSpWTS.obj
+ 0001:00036f40       _IMGTypedCurveAllocInt     10037f40 f   IMGTCAllIn.obj
+ 0001:00036fb0       _IMGTypedCurveAllocMem     10037fb0 f   IMGTCAlloc.obj
+ 0001:00037020       _IMGTypedCurveFreeAll      10038020 f   IMGTCFA.obj
+ 0001:00037050       _IMGTypedCurveFreeMem      10038050 f   IMGTCFree.obj
+ 0001:000370b0       _IMGTypedCurveFreeIntMem   100380b0 f   IMGTCFrIn.obj
+ 0001:00037110       _IMGTypedCurveToIGRbsp_curve 10038110 f   IMGTCIcv.obj
+ 0001:000371b0       _IMGTypedCurvePtTan        100381b0 f   IMGTCPtTan.obj
+ 0001:000372b0       ??$IMGSerialize@UtagGTypedCurve@@@@YAXABVJIOStreamContext@@PAUtagGTypedCurve@@PAH@Z 100382b0 f i IMGTCRFS.obj
+ 0001:000372f0       ??$IMGReadFromStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z 100382f0 f i IMGTCRFS.obj
+ 0001:000373a0       _IMGTypedCurveReadFromStream 100383a0 f   IMGTCRFS.obj
+ 0001:000373b0       ?Serialize@tagGTypedCurve@@QAEJABVJIOStreamContext@@@Z 100383b0 f   IMGTCWTS.obj
+ 0001:00037480       ??$IMGWriteToStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z 10038480 f i IMGTCWTS.obj
+ 0001:00037530       _IMGTypedCurveWriteToStream 10038530 f   IMGTCWTS.obj
+ 0001:00037540       _IMGTypedGeometryFreeAll   10038540 f   IMGTGFA.obj
+ 0001:00037570       _IMGTypedGeometryFreeMem   10038570 f   IMGTGFree.obj
+ 0001:00037660       _IMGTypedGeometryFreeInternalMem 10038660 f   IMGTGFreeInt.obj
+ 0001:00037760       _IMGTorusCopy              10038760 f   IMGToCopy.obj
+ 0001:00037860       _IMGTorusCopyWithAlloc     10038860 f   IMGToCopyWA.obj
+ 0001:00037960       _IMGTorusFreeAll           10038960 f   IMGToFA.obj
+ 0001:00037990       _IMGTorusFreeMem           10038990 f   IMGToFree.obj
+ 0001:000379b0       ??$IMGSerialize@UtagGTorus@@@@YAXABVJIOStreamContext@@PAUtagGTorus@@PAH@Z 100389b0 f i IMGToRFS.obj
+ 0001:000379f0       ??$IMGReadFromStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z 100389f0 f i IMGToRFS.obj
+ 0001:00037aa0       _IMGTorusReadFromStream    10038aa0 f   IMGToRFS.obj
+ 0001:00037ab0       _IMGTorusToGBspSurface     10038ab0 f   IMGTorGSf.obj
+ 0001:00038370       ?Serialize@tagGTorus@@QAEJABVJIOStreamContext@@@Z 10039370 f   IMGToWTS.obj
+ 0001:00038480       ??$IMGWriteToStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z 10039480 f i IMGToWTS.obj
+ 0001:00038530       _IMGTorusWriteToStream     10039530 f   IMGToWTS.obj
+ 0001:00038540       _IMGTransArrGPos           10039540 f   IMGTrArGPo.obj
+ 0001:000385b0       ??$IMGSerialize@UtagGTransf@@@@YAXABVJIOStreamContext@@PAUtagGTransf@@PAH@Z 100395b0 f i IMGTRFS.obj
+ 0001:000385f0       ??$IMGReadFromStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z 100395f0 f i IMGTRFS.obj
+ 0001:000386a0       _IMGTransfReadFromStream   100396a0 f   IMGTRFS.obj
+ 0001:000386b0       _IMGTorusToIGRbsp_surface  100396b0 f   IMGTrIsf.obj
+ 0001:00038f10       _IMGTypedSurfaceAllocMem   10039f10 f   IMGTSAlloc.obj
+ 0001:00038fd0       _IMGTypedSurfaceCopy       10039fd0 f   IMGTSCopy.obj
+ 0001:000390c0       _IMGTypedSurfaceCopyWithAlloc 1003a0c0 f   IMGTSCopyWA.obj
+ 0001:000391d0       _IMGTypedSurfaceFreeAll    1003a1d0 f   IMGTSFA.obj
+ 0001:00039200       _IMGTypedSurfaceFreeInternalMem 1003a200 f   IMGTSFree.obj
+ 0001:000393f0       _IMGTypedSurfaceFreeMem    1003a3f0 f   IMGTSFree.obj
+ 0001:00039420       _IMGTypedSurfaceToIGRbsp_surface 1003a420 f   IMGTSIsf.obj
+ 0001:00039580       ??$IMGSerialize@UtagGTypedSurface@@@@YAXABVJIOStreamContext@@PAUtagGTypedSurface@@PAH@Z 1003a580 f i IMGTSRFS.obj
+ 0001:000395c0       ??$IMGReadFromStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z 1003a5c0 f i IMGTSRFS.obj
+ 0001:00039670       _IMGTypedSurfaceReadFromStream 1003a670 f   IMGTSRFS.obj
+ 0001:00039680       ?Serialize@tagGTypedSurface@@QAEJABVJIOStreamContext@@@Z 1003a680 f   IMGTSWTS.obj
+ 0001:00039920       ??$IMGWriteToStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z 1003a920 f i IMGTSWTS.obj
+ 0001:000399d0       _IMGTypedSurfaceWriteToStream 1003a9d0 f   IMGTSWTS.obj
+ 0001:000399e0       ??$IMGWriteToStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z 1003a9e0 f i IMGTWTS.obj
+ 0001:00039a90       _IMGTransfWriteToStream    1003aa90 f   IMGTWTS.obj
+ 0001:00039aa0       ??$IMGSerialize@UtagGUnitVector@@@@YAXABVJIOStreamContext@@PAUtagGUnitVector@@PAH@Z 1003aaa0 f i IMGUVRFS.obj
+ 0001:00039ae0       ??$IMGReadFromStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z 1003aae0 f i IMGUVRFS.obj
+ 0001:00039b90       _IMGUnitVectorReadFromStream 1003ab90 f   IMGUVRFS.obj
+ 0001:00039ba0       ??$IMGWriteToStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z 1003aba0 f i IMGUVWTS.obj
+ 0001:00039c50       _IMGUnitVectorWriteToStream 1003ac50 f   IMGUVWTS.obj
+ 0001:00039c60       ??$IMGSerialize@UtagGVector@@@@YAXABVJIOStreamContext@@PAUtagGVector@@PAH@Z 1003ac60 f i IMGVRFS.obj
+ 0001:00039ca0       ??$IMGReadFromStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z 1003aca0 f i IMGVRFS.obj
+ 0001:00039d50       _IMGVectorReadFromStream   1003ad50 f   IMGVRFS.obj
+ 0001:00039d60       ??$IMGWriteToStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z 1003ad60 f i IMGVWTS.obj
+ 0001:00039e10       _IMGVectorWriteToStream    1003ae10 f   IMGVWTS.obj
+ 0001:00039e20       _IMIGRbsp_curveToGArc      1003ae20 f   IMIcvGAr.obj
+ 0001:0003a570       _IMIGRbsp_curveToGBspCurve 1003b570 f   IMIcvGCv.obj
+ 0001:0003a5e0       _IMIGRbsp_curveToGBspCurveAllocOpt 1003b5e0 f   IMIcvGCvOp.obj
+ 0001:0003a740       _IMIGRbsp_curveToGEllipse  1003b740 f   IMIcvGEl.obj
+ 0001:0003aac0       _IMIGRbsp_curveToGLine     1003bac0 f   IMIcvGLn.obj
+ 0001:0003ac30       _IMIGRbsp_curveToGLineString 1003bc30 f   IMIcvGLS.obj
+ 0001:0003ae00       _IMIGRbsp_curveToGPoint    1003be00 f   IMIcvGPt.obj
+ 0001:0003ae90       _IMIGRbsp_curveToGTypedCurve 1003be90 f   IMIcvGTC.obj
+ 0001:0003af30       _IMIsGPositionOnGLine      1003bf30 f   IMIGPoGLn.obj
+ 0001:0003b0a0       _IMIGRbsp_surfaceToGCone   1003c0a0 f   IMIsfGCn.obj
+ 0001:0003b470       _IMIGRbsp_surfaceToGProjection 1003c470 f   IMIsfGPj.obj
+ 0001:0003b8a0       _IMIGRbsp_surfaceToGPlane  1003c8a0 f   IMIsfGPl.obj
+ 0001:0003c180       _IMIGRbsp_surfaceToGRuled  1003d180 f   IMIsfGRu.obj
+ 0001:0003c360       _IMIGRbsp_surfaceToGRevolution 1003d360 f   IMIsfGRv.obj
+ 0001:0003c840       _IMIGRbsp_surfaceToGBspSurface 1003d840 f   IMIsfGSf.obj
+ 0001:0003cc10       _IMIGRbsp_surfaceToGSphere 1003dc10 f   IMIsfGSph.obj
+ 0001:0003d0a0       _IMIGRbsp_surfaceToGTorus  1003e0a0 f   IMIsfGTor.obj
+ 0001:0003d3f0       _IMIGRbsp_surfaceToGTypedSurface 1003e3f0 f   IMIsfGTSf.obj
+ 0001:0003d940       _IMIsGBspSurfRevolved      1003e940 f   IMIsRevolved.obj
+ 0001:0003d9e0       _IMIsTypedGeomEqual        1003e9e0 f   IMIsTGMEql.obj
+ 0001:0003dfd0       _IMIsTypedGeomExactlyEqual 1003efd0 f   IMIsTGMEql.obj
+ 0001:0003e130       _IMLine2dToLine3d          1003f130 f   IMLn2dLn3d.obj
+ 0001:0003e170       _IMLine2dInLineStringFence 1003f170 f   IMLn2dLSFnc.obj
+ 0001:0003e3d0       _IMGLineToGBspCurve        1003f3d0 f   IMLn3dCv3d.obj
+ 0001:0003e4b0       _IMLine3dToLine2d          1003f4b0 f   IMLn3dLn2d.obj
+ 0001:0003e630       _IMGLineCopy               1003f630 f   IMLnCopy.obj
+ 0001:0003e680       _IMLineExtrema             1003f680 f   IMLnExtr.obj
+ 0001:0003e7b0       _IMLinkTypedCurves         1003f7b0 f   IMLnkTCs.obj
+ 0001:0003ecc0       _IMLineOffset              1003fcc0 f   IMLnOff.obj
+ 0001:0003ef10       _IMGLineReverse            1003ff10 f   IMLnRev.obj
+ 0001:0003ef60       _IMLineRangeBox            1003ff60 f   IMLnRgBx.obj
+ 0001:0003efc0       _IMLineStringTransform     1003ffc0 f   IMLnSTrn.obj
+ 0001:0003f330       _IMLineThroughRangeBox     10040330 f   IMLnThRgBx.obj
+ 0001:0003f610       _IMLineTransform           10040610 f   IMLnTrn.obj
+ 0001:0003f770       _IMLineValid               10040770 f   IMLnVal.obj
+ 0001:0003f900       _IMLineString2dToLineString3d 10040900 f   IMLS2dLS3d.obj
+ 0001:0003f970       _IMGLineStringToGBspCurve  10040970 f   IMLS3dCv3d.obj
+ 0001:0003f9d0       _IMLineString3dToLineString2d 100409d0 f   IMLS3dLS2d.obj
+ 0001:0003fa30       _IMLineStringIsClosed      10040a30 f   IMLSClsd.obj
+ 0001:0003fbc0       _IMGLineStringCopy         10040bc0 f   IMLSCopy.obj
+ 0001:0003fc10       _IMLineStringExtrema       10040c10 f   IMLSExtr.obj
+ 0001:0003fd30       _IMLineStringGetLength     10040d30 f   IMLSGtLen.obj
+ 0001:0003fd90       _IMLineStringOffset        10040d90 f   IMLSOff.obj
+ 0001:0003fed0       _IMLineStringOrientNorm    10040ed0 f   IMLSOrNor.obj
+ 0001:00040160       _IMLsqPtLnPl               10041160 f   IMLsqPtLnPl.obj
+ 0001:00040320       _IMGLineStringReverse      10041320 f   IMLSRev.obj
+ 0001:000404d0       _IMLineStringRangeBox      100414d0 f   IMLSRgBx.obj
+ 0001:00040510       _IMLineStringSetProperties 10041510 f   IMLSStPrp.obj
+ 0001:000406b0       _IMLineStringTstPlan       100416b0 f   IMLSTstPln.obj
+ 0001:00040890       _IMLineStringValid         10041890 f   IMLSVal.obj
+ 0001:00040a10       _IMMatrixEigValVec         10041a10 f   IMMaEVV.obj
+ 0001:00040c10       _IMMakeC1GBspCurve         10041c10 f   IMMakeC1Cv.obj
+ 0001:00041440       _IMMakeC1GBspSurface       10042440 f   IMMakeC1Sf.obj
+ 0001:00041980       _IMMinDistBet2TypedCurves  10042980 f   IMMD2TC.obj
+ 0001:00041bf0       _IMMinDistLineLine         10042bf0 f   IMMDLnLn.obj
+ 0001:00042230       _IMMinDistPointArc         10043230 f   IMMDPtAr.obj
+ 0001:00042670       _IMMinDistPtBspCv          10043670 f   IMMDPtCv.obj
+ 0001:000427f0       _IMMinDistPtTCv            100437f0 f   IMMDPtTC.obj
+ 0001:00042a80       _IMMinDistPtToLine         10043a80 f   IMMinDistPtLn.obj
+ 0001:00042ba0       _IMMinDistPointBspSurface  10043ba0 f   IMMinDistPtSf.obj
+ 0001:00042e60       _IMProjectionBreak         10043e60 f   IMPjBrk.obj
+ 0001:00043350       _IMProjectionParFromPosition 10044350 f   IMPjPFPo.obj
+ 0001:000434f0       _IMProjectionPointOutwardNorm 100444f0 f   IMPjPtOutNr.obj
+ 0001:000437a0       _IMProjectionRangeBox      100447a0 f   IMPjRgBx.obj
+ 0001:000438c0       ?CreateLineByManyPoints@@YAXHPAUtagGPosition@@AAU1@AAUtagGLine@@@Z 100448c0 f i IMPjTCToPl.obj
+ 0001:00043a70       _IMProjectTypedCurveToPlane 10044a70 f   IMPjTCToPl.obj
+ 0001:00043f70       _IMProjectionTransform     10044f70 f   IMPjTrn.obj
+ 0001:00044810       _IMPlaneTangentGTypedSurface 10045810 f   IMPlaneTanBsf.obj
+ 0001:00044d80       _IMPlaneParFromPosition    10045d80 f   IMPlPFPo.obj
+ 0001:00044f30       _IMPlanePointOutwardNorm   10045f30 f   IMPlPtOutNr.obj
+ 0001:00045130       _IMPlaneRangeBox           10046130 f   IMPlRgBx.obj
+ 0001:00045560       _IMPlaneRotateByAngles     10046560 f   IMPlRtAgs.obj
+ 0001:00045810       _IMPlaneTransform          10046810 f   IMPlTrn.obj
+ 0001:00045980       _IMPlaneValid              10046980 f   IMPlVal.obj
+ 0001:00045cb0       _IMPolyMeshAllocMem        10046cb0 f   IMPMAlloc.obj
+ 0001:00045db0       _IMPolyMeshBoreLocate      10046db0 f   IMPMBrLo.obj
+ 0001:00045f40       _IMPolyMeshFreeMem         10046f40 f   IMPMFree.obj
+ 0001:00045fc0       _IMPolyMeshRangeBox        10046fc0 f   IMPMRgBx.obj
+ 0001:00046000       _IMPolyMeshTransform       10047000 f   IMPMTrn.obj
+ 0001:00046270       _IMPolyMeshValid           10047270 f   IMPMVal.obj
+ 0001:00046340       _IMProjGPosGCurve          10047340 f   IMPrGPoGCv.obj
+ 0001:00046630       _IMProjGPosGLine           10047630 f   IMPrGPoGLn.obj
+ 0001:00046720       _IMPrintObject3d           10047720 f   IMPrintObject3d.obj
+ 0001:000469c0       _IMProjectionValid         100479c0 f   IMPrjVal.obj
+ 0001:00046ba0       _IMPrint_GArc              10047ba0 f   IMPrtGAr.obj
+ 0001:00046cb0       _IMPrint_GBoundaries       10047cb0 f   IMPrtGBdry.obj
+ 0001:00046d50       _IMPrint_GCone             10047d50 f   IMPrtGCn.obj
+ 0001:00046f40       _IMPrint_GComplexString    10047f40 f   IMPrtGCS.obj
+ 0001:00046ff0       _IMPrint_GBspCurve         10047ff0 f   IMPrtGCv.obj
+ 0001:00047280       _IMPrint_GEllipse          10048280 f   IMPrtGEl.obj
+ 0001:00047420       _IMPrint_GLine             10048420 f   IMPrtGLn.obj
+ 0001:000475a0       _IMPrint_GLineString       100485a0 f   IMPrtGLS.obj
+ 0001:00047730       _IMPrint_GProjection       10048730 f   IMPrtGPj.obj
+ 0001:00047880       _IMPrint_GPlane            10048880 f   IMPrtGPl.obj
+ 0001:00047ac0       _IMPrint_GPolyMesh         10048ac0 f   IMPrtGPM.obj
+ 0001:00047d60       _IMPrint_GPoint            10048d60 f   IMPrtGPt.obj
+ 0001:00047e60       _IMPrint_GRuled            10048e60 f   IMPrtGRu.obj
+ 0001:00047fc0       _IMPrint_GRevolution       10048fc0 f   IMPrtGRv.obj
+ 0001:00048170       _IMPrint_GBspSurface       10049170 f   IMPrtGSf.obj
+ 0001:00048580       _IMPrint_GSphere           10049580 f   IMPrtGSph.obj
+ 0001:000487e0       _IMPrint_GTypedCurve       100497e0 f   IMPrtGTC.obj
+ 0001:00048900       _IMPrint_GTypedGeometry    10049900 f   IMPrtGTGm.obj
+ 0001:00048b20       _IMPrint_GTorus            10049b20 f   IMPrtGTor.obj
+ 0001:00048da0       _IMPrint_GTypedSurface     10049da0 f   IMPrtGTS.obj
+ 0001:00048f10       _IMGPointToGLine           10049f10 f   IMPt3dLn3d.obj
+ 0001:00048f30       _IMPtAtDistanceAlongBspCurve 10049f30 f   IMPtADAlCv.obj
+ 0001:00049030       _IMPtFrustumToClipVolume   1004a030 f   IMPtFrTCV.obj
+ 0001:00049890       _IMPointInPolygon          1004a890 f   IMPtInPlg.obj
+ 0001:0004a1a0       _IMPointInPlanes           1004b1a0 f   IMPtInPls.obj
+ 0001:0004a2d0       _IMPointInTypedCurve       1004b2d0 f   IMPtInTC.obj
+ 0001:0004a740       _IMPointsProjectToPlane    1004b740 f   IMPtsPjPl.obj
+ 0001:0004a920       _IMPointsSortOnLine        1004b920 f   IMPtsSrtLn.obj
+ 0001:0004ac50       _IMReadArc                 1004bc50 f   IMRdAr.obj
+ 0001:0004b120       _IMReadBoundaryOpt         1004c120 f   IMRdBdryOp.obj
+ 0001:0004b6d0       _IMReadCone                1004c6d0 f   IMRdCn.obj
+ 0001:0004bd30       _IMReadComplexStringOpt    1004cd30 f   IMRdCSOp.obj
+ 0001:0004c4f0       _IMReadGBspCurveOpt        1004d4f0 f   IMRdCvOp.obj
+ 0001:0004c940       _IMReadEllipse             1004d940 f   IMRdEl.obj
+ 0001:0004cb50       _IMRead_GProjection        1004db50 f   IMRdGPj.obj
+ 0001:0004ce70       _IMRead_GPolyMesh          1004de70 f   IMRdGPM.obj
+ 0001:0004d580       _IMRead_GPoint             1004e580 f   IMRdGPt.obj
+ 0001:0004d700       _IMRead_GRuled             1004e700 f   IMRdGRu.obj
+ 0001:0004dac0       _IMRead_GRevolution        1004eac0 f   IMRdGRv.obj
+ 0001:0004df00       _IMRead_GSphere            1004ef00 f   IMRdGSph.obj
+ 0001:0004e540       _IMRead_GTorus             1004f540 f   IMRdGTor.obj
+ 0001:0004ebe0       _IMRead_GTypedSurface      1004fbe0 f   IMRdGTS.obj
+ 0001:0004f260       _IMReadLine                10050260 f   IMRdLn.obj
+ 0001:0004f730       _IMReadLineString          10050730 f   IMRdLS.obj
+ 0001:0004f8e0       _IMReadProjection          100508e0 f   IMRdPj.obj
+ 0001:00050060       _IMReadPlane               10051060 f   IMRdPl.obj
+ 0001:00050340       _IMReadPolyMesh            10051340 f   IMRdPM.obj
+ 0001:00050680       _IMReadPolyMeshOpt         10051680 f   IMRdPMOp.obj
+ 0001:00050a60       _IMReadRuled               10051a60 f   IMRdRu.obj
+ 0001:00050c90       _IMReadRevolution          10051c90 f   IMRdRv.obj
+ 0001:00050f00       _IMRead_GBspSurface        10051f00 f   IMRdSfOp.obj
+ 0001:00051bd0       _IMReadGBspSurfaceOpt      10052bd0 f   IMRdSfOp.obj
+ 0001:00051d30       _IMReadSphere              10052d30 f   IMRdSph.obj
+ 0001:000522e0       _IMReadTypedCurve          100532e0 f   IMRdTC.obj
+ 0001:00052c10       _IMReadTypedGeometry       10053c10 f   IMRdTGm.obj
+ 0001:00052f30       _IMReadTorus               10053f30 f   IMRdTor.obj
+ 0001:00053250       _IMReadTypedSurface        10054250 f   IMRdTS.obj
+ 0001:00053a50       _IMRuledBreak              10054a50 f   IMRuBrk.obj
+ 0001:00054040       _IMRuledPointOutwardNorm   10055040 f   IMRuPtOutNr.obj
+ 0001:000541f0       _IMRuledRangeBox           100551f0 f   IMRuRgBx.obj
+ 0001:00054270       _IMRuledTransform          10055270 f   IMRuTrn.obj
+ 0001:000543b0       ?Vectorize@@YA?AUtagGVector@@ABUtagGPosition@@@Z 100553b0 f i IMRuVal.obj
+ 0001:000543e0       _IMRuledValid              100553e0 f   IMRuVal.obj
+ 0001:000556b0       _IMRevolutionBreak         100566b0 f   IMRvBrk.obj
+ 0001:00056060       _IMRevolutionParFromPosition 10057060 f   IMRvPFPo.obj
+ 0001:00056580       _IMRevolutionPointOutwardNorm 10057580 f   IMRvPtOutNr.obj
+ 0001:00056d60       _IMRevolutionRangeBox      10057d60 f   IMRvRgBx.obj
+ 0001:00057db0       _IMRevolutionTransform     10058db0 f   IMRvTrn.obj
+ 0001:00057eb0       _IMRevolutionValid         10058eb0 f   IMRvVal.obj
+ 0001:00058ad0       _IMSetCurveForm            10059ad0 f   IMSetCvFrm.obj
+ 0001:000593b0       _IMGBspSurfaceByBoundaryTan 1005a3b0 f   IMSfBdryTan.obj
+ 0001:00059d80       _IMBspSurfaceCheckEdges    1005ad80 f   IMSfChkEdg.obj
+ 0001:0005a080       _IMBspSurfaceCheckForm     1005b080 f   IMSfChkFrm.obj
+ 0001:0005a120       _IMBspSurfaceDirectFit     1005b120 f   IMSfDirFit.obj
+ 0001:0005a1d0       _IMBspSurfaceGetKnotTolerance 1005b1d0 f   IMSfKtTl.obj
+ 0001:0005a980       _IMGBspSurfaceByNumBoundary 1005b980 f   IMSfNBdry.obj
+ 0001:0005b430       _IMBspSurfaceParFromPosition 1005c430 f   IMSfPFPo.obj
+ 0001:0005b4f0       _IMBspSurfacePointOutwardNorm 1005c4f0 f   IMSfPtOutNr.obj
+ 0001:0005b650       _IMBspSurfaceRangeBox      1005c650 f   IMSfRgBx.obj
+ 0001:0005b690       _IMBspSurfaceTransform     1005c690 f   IMSfTrn.obj
+ 0001:0005b950       _IMBspSurfaceValid         1005c950 f   IMSfVal.obj
+ 0001:0005bcb0       _IMSphereParFromPosition   1005ccb0 f   IMSpPFPo.obj
+ 0001:0005bfb0       _IMSpherePointOutwardNorm  1005cfb0 f   IMSpPtOutNr.obj
+ 0001:0005c290       _IMSphereRangeBox          1005d290 f   IMSpRgBx.obj
+ 0001:0005c310       _IMSphereTransform         1005d310 f   IMSpTrn.obj
+ 0001:0005c480       _IMSphereValid             1005d480 f   IMSpVal.obj
+ 0001:0005c7e0       _IMSetForm                 1005d7e0 f   IMStFrm.obj
+ 0001:0005c870       _IMSetScopeReturnNormal    1005d870 f   IMStScRN.obj
+ 0001:0005c910       _IMSwapUVPoles             1005d910 f   IMSwapPoles.obj
+ 0001:0005cc60       _IMTypedCurve2dToTypedCurve3d 1005dc60 f   IMTC2dTC3d.obj
+ 0001:0005cea0       _IMTypedCurve3dToTypedCurve2d 1005dea0 f   IMTC3dTC2d.obj
+ 0001:0005cfd0       _IMTypedCurveActivSplt     1005dfd0 f   IMTCAcSpl.obj
+ 0001:0005d2b0       _IMTypedCurveAllocWithCurve 1005e2b0 f   IMTCAllocWC.obj
+ 0001:0005d340       _IMTypedCurveArcLengthMidPtPar 1005e340 f   IMTCALMPtPr.obj
+ 0001:0005d550       _IMTypedCurveBoreConeLocate 1005e550 f   IMTCBrCnLo.obj
+ 0001:0005db50       _IMTypedCurveBoreLocate    1005eb50 f   IMTCBrLo.obj
+ 0001:0005de10       _IMTypedCurveCheckDegen    1005ee10 f   IMTCCkDeg.obj
+ 0001:0005e3f0       _IMTypedCurveIsClosedNoMod 1005f3f0 f   IMTCClNMd.obj
+ 0001:0005e4c0       _IMTypedCurveIsClosed      1005f4c0 f   IMTCClsd.obj
+ 0001:0005e620       _IMGTypedCurveCopy         1005f620 f   IMTCCopy.obj
+ 0001:0005e700       _IMGTypedCurveCopyWithAlloc 1005f700 f   IMTCCopyWA.obj
+ 0001:0005e810       _IMTypedCurveEndParameters 1005f810 f   IMTCEpar.obj
+ 0001:0005e8e0       _IMTypedCurveExtrema       1005f8e0 f   IMTCExtr.obj
+ 0001:0005eba0       _IMTypedCurveExtremaPtsPars 1005fba0 f   IMTCExtrPP.obj
+ 0001:0005fbe0       _IMTypedCurveFenceLocate   10060be0 f   IMTCFcLo.obj
+ 0001:0005ff60       _IMTypedCurveGetNumCurvature 10060f60 f   IMTCGetKs.obj
+ 0001:00060470       _IMTypedCurveGetRatioFromParameter 10061470 f   IMTCGetRatio.obj
+ 0001:00060610       _IMTypedCurveGetParameterFromRatio 10061610 f   IMTCGPrRt.obj
+ 0001:000607b0       _IMTypedCurveGetCenter     100617b0 f   IMTCGtCtr.obj
+ 0001:00060b40       _IMTypedCurveGetKnotTolerance 10061b40 f   IMTCGtKtTol.obj
+ 0001:00060bf0       _IMTypedCurveGetParameterRange 10061bf0 f   IMTCGtPrRg.obj
+ 0001:00060d00       _IMTypedCurveGetPositionFromParameter 10061d00 f   IMTCGtPsPr.obj
+ 0001:00060de0       _IMTypedCurveHeightParameters 10061de0 f   IMTCHtPar.obj
+ 0001:00061000       _IMTypedCurveLength        10062000 f   IMTCLen.obj
+ 0001:00061400       _IMGTypedCurveMerge        10062400 f   IMTCMerge.obj
+ 0001:00061620       _IMTypedCurveOffset        10062620 f   IMTCOff.obj
+ 0001:00061660       _IMTypedCurveOffsetInd     10062660 f   IMTCOffI.obj
+ 0001:00061810       _IMTypedCurveOffSetPoint   10062810 f   IMTCOfStPt.obj
+ 0001:00061950       _IMTypedCurveParameterInRange 10062950 f   IMTCParInRg.obj
+ 0001:00061aa0       _IMTypedCurvePartOfCurve   10062aa0 f   IMTCPartOf.obj
+ 0001:00061dd0       _IMTypedCurveProjectToPlane 10062dd0 f   IMTCPjPl.obj
+ 0001:00062530       _IMTypedCurvePointFenceLocate 10063530 f   IMTCPtFcLo.obj
+ 0001:00062c20       _IMTypedCurvePtFrustumLocate 10063c20 f   IMTCPtFrLo.obj
+ 0001:000638f0       _IMTypedCurvePtGivenTangent 100648f0 f   IMTCPtTan.obj
+ 0001:00063b00       _IMGTypedCurveRadiusCenter 10064b00 f   IMTCRdCtr.obj
+ 0001:00063dd0       _IMGTypedCurveReverse      10064dd0 f   IMTCRev.obj
+ 0001:00063e70       _IMTypedCurveRangeBox      10064e70 f   IMTCRgBx.obj
+ 0001:000649f0       _IMTypedCurveGetSilhouette 100659f0 f   IMTCSilhouet.obj
+ 0001:00064d20       _IMTypedCurveSelfIntersect 10065d20 f   IMTCSlfInt.obj
+ 0001:000651b0       _IMTypedCurveSplit         100661b0 f   IMTCSplit.obj
+ 0001:00065ba0       _IMGTypedCurveToGComplexString 10066ba0 f   IMTCsToCSs.obj
+ 0001:00065d60       _IMGTypedCurveToGBspCurve  10066d60 f   IMTCToBCv.obj
+ 0001:00066470       _IMTypedCurveTransform4x4  10067470 f   IMTCTr4x4.obj
+ 0001:000669a0       _IMTypedCurveTransform     100679a0 f   IMTCTrn.obj
+ 0001:00066bc0       _IMTypedCurveTstPlan       10067bc0 f   IMTCTstPln.obj
+ 0001:00066d50       _IMTypedCurveValid         10067d50 f   IMTCVal.obj
+ 0001:00066e60       _IMTypedGeometryAllocWithGeom 10067e60 f   IMTGAllocWG.obj
+ 0001:00067180       _IMGTypedGeometryCopy      10068180 f   IMTGCopy.obj
+ 0001:00067350       _IMGTypedGeometryCopyWithAlloc 10068350 f   IMTGCopyWA.obj
+ 0001:00067540       _IMTypedGeomToPos          10068540 f   IMTGmTPs.obj
+ 0001:00067580       _IMTypedGeomToTypedCurve   10068580 f   IMTGmTTC.obj
+ 0001:000675d0       _IMTypedGeomToTypedSurface 100685d0 f   IMTGmTTS.obj
+ 0001:00067630       _IMTypedGeometryTransform  10068630 f   IMTGTrn.obj
+ 0001:000678b0       _IMTorusParFromPosition    100688b0 f   IMToPFPo.obj
+ 0001:00068180       _IMTorusRangeBox           10069180 f   IMToRgBx.obj
+ 0001:000685a0       _IMTorusTransform          100695a0 f   IMToTrn.obj
+ 0001:00068850       _IMTorusValid              10069850 f   IMToVal.obj
+ 0001:00068ee0       _IMTransform2dTo3d         10069ee0 f   IMTrn2d3d.obj
+ 0001:00069050       _IMTransform3dTo2d         1006a050 f   IMTrn3d2d.obj
+ 0001:00069100       _IMTransformPlaneXy        1006a100 f   IMTrnPlXy.obj
+ 0001:000692c0       _IMTorusPointOutwardNorm   1006a2c0 f   IMTrPtOutNr.obj
+ 0001:00069aa0       _IMTypedSurfaceAllocWithSurface 1006aaa0 f   IMTSAllocWS.obj
+ 0001:00069d70       _IMTypedSurfaceBoreConeLocate 1006ad70 f   IMTSBrCnLo.obj
+ 0001:00069da0       _IMTypedSurfaceBoreConeLocateDistance 1006ada0 f   IMTSBrCnLoDst.obj
+ 0001:0006b0f0       _IMTypedSurfaceBoreLocate  1006c0f0 f   IMTSBrLo.obj
+ 0001:0006b780       _IMTypedSurfaceFindMajorDirection 1006c780 f   IMTSFdMjDr.obj
+ 0001:0006bfa0       _IMTypedSurfGetBdryPointer 1006cfa0 f   IMTSGetBdry.obj
+ 0001:0006c030       _IMTypedSurfacePositionFromRatio 1006d030 f   IMTSGPFRT.obj
+ 0001:0006c0b0       _IMTypedSurfaceRatioFromPosition 1006d0b0 f   IMTSGRFPo.obj
+ 0001:0006c140       _IMTypedSurfaceIsoCv       1006d140 f   IMTSIsoCv.obj
+ 0001:0006d0f0       _IMTypedSurfaceParameterRange 1006e0f0 f   IMTSParRng.obj
+ 0001:0006d560       _IMTypedSurfaceParFromPosition 1006e560 f   IMTSPFPo.obj
+ 0001:0006d5e0       _IMTypedSurfacePtFenceLocate 1006e5e0 f   IMTSPtFcLo.obj
+ 0001:0006d820       _IMTypedSurfacePtFrustumLocate 1006e820 f   IMTSPtFrLo.obj
+ 0001:0006da90       _IMTypedSurfacePointOutwardNorm 1006ea90 f   IMTSPtOutNr.obj
+ 0001:0006dc10       _IMTypedSurfaceRangeBox    1006ec10 f   IMTSRgBx.obj
+ 0001:0006dcb0       _IMGTypedSurfaceToGBspSurface 1006ecb0 f   IMTSToGBS.obj
+ 0001:0006e050       _IMTypedSurfaceTransform4x4 1006f050 f   IMTSTr4x4.obj
+ 0001:0006e630       _IMTypedSurfaceTransform   1006f630 f   IMTSTrn.obj
+ 0001:0006e7d0       _IMTypedSurfaceValid       1006f7d0 f   IMTSVal.obj
+ 0001:0006ee10       _IMTwoGTypedCurvesEqual    1006fe10 f   IMTwoTCsEql.obj
+ 0001:0006f340       _UtilGTypeLocate           10070340 f   IMugtyloc.obj
+ 0001:0006f980       _IMGetValidationFlag       10070980 f   IMValFlag.obj
+ 0001:0006f990       _IMSetValidationFlag       10070990 f   IMValFlag.obj
+ 0001:00070630       _IMWrapGTypedCurveToBSurf  10071630 f   IMWrapToBSurf.obj
+ 0001:00071270       _IMWrapGTypedCurveToCone   10072270 f   IMWrapToCone.obj
+ 0001:00071a40       _IMIntersectArAr           10072a40 f   IMXArAr.obj
+ 0001:00071e80       _IMXGBspSurface            10072e80 f   IMXBSfBSf.obj
+ 0001:000721a0       _IMIntersectCvCv           100731a0 f   IMXCvCv.obj
+ 0001:000724a0       _IMXGLineGCone             100734a0 f   IMXGLnGCn.obj
+ 0001:00072e20       _IMXGLineGProjection       10073e20 f   IMXGLnGPj.obj
+ 0001:00073160       _IMXGLineGPlane            10074160 f   IMXGLnGPl.obj
+ 0001:00073280       _IMXGLineGRuled            10074280 f   IMXGLnGRu.obj
+ 0001:000735c0       _IMXGLineGRevolution       100745c0 f   IMXGLnGRv.obj
+ 0001:00073900       _IMXGLineGBspSurface       10074900 f   IMXGLnGSf.obj
+ 0001:00073c40       _IMXGLineGSphere           10074c40 f   IMXGLnGSp.obj
+ 0001:00074030       _IMXGLineGTorus            10075030 f   IMXGLnGTo.obj
+ 0001:00074580       _IMXGLineTypedSurface      10075580 f   IMXGLnTS.obj
+ 0001:00074780       _IMXGPlaneGPlane           10075780 f   IMXGPlGPl.obj
+ 0001:00074d30       _IMIntersectLnAr           10075d30 f   IMXLnAr.obj
+ 0001:00075100       _IMIntersectLnLn           10076100 f   IMXLnLn.obj
+ 0001:000754c0       _IMIntersectLineTypedCurve 100764c0 f   IMXLnTC.obj
+ 0001:00075a10       _IMXPlaneBspSurface        10076a10 f   IMXPlBSurf.obj
+ 0001:00075fa0       _IMIntersectRectanglePolygon 10076fa0 f   IMXRcPoly.obj
+ 0001:00076690       _IMIntersectTCTC           10077690 f   IMXTCTC.obj
+ 0001:00076c80       _BSfreecv                  10077c80 f   ubspm2d:ubspm2d.dll
+ 0001:00076c86       _BSarclg3ds                10077c86 f   ubspm2d:ubspm2d.dll
+ 0001:00076c8c       _BSarclg4ds                10077c8c f   ubspm2d:ubspm2d.dll
+ 0001:00076c92       _BSnorkts                  10077c92 f   ubspm2d:ubspm2d.dll
+ 0001:00076c98       _BStstcvfln                10077c98 f   ubspm2d:ubspm2d.dll
+ 0001:00076c9e       _BSprj_cv_pl               10077c9e f   ubspm2d:ubspm2d.dll
+ 0001:00076ca4       _BSalloccv                 10077ca4 f   ubspm2d:ubspm2d.dll
+ 0001:00076caa       _BSdbgfree                 10077caa f   ubspm2d:ubspm2d.dll
+ 0001:00076cb0       _BSchangepar               10077cb0 f   ubspm2d:ubspm2d.dll
+ 0001:00076cb6       _BScvoffset                10077cb6 f   ubspm2d:ubspm2d.dll
+ 0001:00076cbc       _BSls_slfint               10077cbc f   ubspm2d:ubspm2d.dll
+ 0001:00076cc2       _BSdistptpts               10077cc2 f   ubspm2d:ubspm2d.dll
+ 0001:00076cc8       _BSxarcarc                 10077cc8 f   ubspm2d:ubspm2d.dll
+ 0001:00076cce       _BSroto                    10077cce f   ubspm2d:ubspm2d.dll
+ 0001:00076cd4       _BSproj0                   10077cd4 f   ubspm2d:ubspm2d.dll
+ 0001:00076cda       _BSlldist                  10077cda f   ubspm2d:ubspm2d.dll
+ 0001:00076ce0       _BSrelplnln                10077ce0 f   ubspm2d:ubspm2d.dll
+ 0001:00076ce6       _BSmansf0                  10077ce6 f   ubspm2d:ubspm2d.dll
+ 0001:00076cec       _BSfindspn                 10077cec f   ubspm2d:ubspm2d.dll
+ 0001:00076cf2       _BSxlnarc                  10077cf2 f   ubspm2d:ubspm2d.dll
+ 0001:00076cf8       _BSnorvec                  10077cf8 f   ubspm2d:ubspm2d.dll
+ 0001:00076cfe       _BSlsqptlnpl               10077cfe f   ubspm2d:ubspm2d.dll
+ 0001:00076d04       _BSfndstrort               10077d04 f   ubspm2d:ubspm2d.dll
+ 0001:00076d0a       _BStstcvdegn               10077d0a f   ubspm2d:ubspm2d.dll
+ 0001:00076d10       _BScmpcvoffl               10077d10 f   ubspm2d:ubspm2d.dll
+ 0001:00076d16       _BSdotp                    10077d16 f   ubspm2d:ubspm2d.dll
+ 0001:00076d1c       _BScrossp                  10077d1c f   ubspm2d:ubspm2d.dll
+ 0001:00076d22       _BScveval                  10077d22 f   ubspm2d:ubspm2d.dll
+ 0001:00076d28       _BSmdstptcv                10077d28 f   ubspm2d:ubspm2d.dll
+ 0001:00076d2e       _BScvarrev0                10077d2e f   ubspm2d:ubspm2d.dll
+ 0001:00076d34       _BSdta_rducv               10077d34 f   ubspm2d:ubspm2d.dll
+ 0001:00076d3a       _BSupthedegr               10077d3a f   ubspm2d:ubspm2d.dll
+ 0001:00076d40       _BScveval_b                10077d40 f   ubspm2d:ubspm2d.dll
+ 0001:00076d46       _BScvlsqfit                10077d46 f   ubspm2d:ubspm2d.dll
+ 0001:00076d4c       _BScvoffsetd               10077d4c f   ubspm2d:ubspm2d.dll
+ 0001:00076d52       _BSrmnknots                10077d52 f   ubspm2d:ubspm2d.dll
+ 0001:00076d58       _BSrm1knot                 10077d58 f   ubspm2d:ubspm2d.dll
+ 0001:00076d5e       _BSmdptsbscv               10077d5e f   ubspm2d:ubspm2d.dll
+ 0001:00076d64       _BSevalbsp                 10077d64 f   ubspm2d:ubspm2d.dll
+ 0001:00076d6a       _BSvectnuv                 10077d6a f   ubspm2d:ubspm2d.dll
+ 0001:00076d70       _BSactivsplt               10077d70 f   ubspm2d:ubspm2d.dll
+ 0001:00076d76       _BSprep_trim               10077d76 f   ubspm2d:ubspm2d.dll
+ 0001:00076d7c       _BSfillet                  10077d7c f   ubspm2d:ubspm2d.dll
+ 0001:00076d82       _BSdirfitcv                10077d82 f   ubspm2d:ubspm2d.dll
+ 0001:00076d88       _BSarclnparc               10077d88 f   ubspm2d:ubspm2d.dll
+ 0001:00076d8e       _BScomb2cvs                10077d8e f   ubspm2d:ubspm2d.dll
+ 0001:00076d94       _BSdbgrc                   10077d94 f   ubspm2d:ubspm2d.dll
+ 0001:00076d9a       _BSiarcln2                 10077d9a f   ubspm2d:ubspm2d.dll
+ 0001:00076da0       _BSarclength               10077da0 f   ubspm2d:ubspm2d.dll
+ 0001:00076da6       _BSmergarrcv               10077da6 f   ubspm2d:ubspm2d.dll
+ 0001:00076dac       _BShlfcvdep                10077dac f   ubspm2d:ubspm2d.dll
+ 0001:00076db2       _BSstrkbez                 10077db2 f   ubspm2d:ubspm2d.dll
+ 0001:00076db8       _BSbstobez                 10077db8 f   ubspm2d:ubspm2d.dll
+ 0001:00076dbe       _BSlenvec                  10077dbe f   ubspm2d:ubspm2d.dll
+ 0001:00076dc4       _BScvarrevc                10077dc4 f   ubspm2d:ubspm2d.dll
+ 0001:00076dca       _BSelarptang               10077dca f   ubspm2d:ubspm2d.dll
+ 0001:00076dd0       _BSlngen                   10077dd0 f   ubspm2d:ubspm2d.dll
+ 0001:00076dd6       _BSdbgsfree                10077dd6 f   ubspm2d:ubspm2d.dll
+ 0001:00076ddc       _BSlininter                10077ddc f   ubspm2d:ubspm2d.dll
+ 0001:00076de2       _BSptcvgen                 10077de2 f   ubspm2d:ubspm2d.dll
+ 0001:00076de8       _BSdbgsalloc               10077de8 f   ubspm2d:ubspm2d.dll
+ 0001:00076dee       _BStst_plan                10077dee f   ubspm2d:ubspm2d.dll
+ 0001:00076df4       _BSarc3pts                 10077df4 f   ubspm2d:ubspm2d.dll
+ 0001:00076dfa       _BSprepcircp               10077dfa f   ubspm2d:ubspm2d.dll
+ 0001:00076e00       _BSconicprp                10077e00 f   ubspm2d:ubspm2d.dll
+ 0001:00076e06       _BSplanar2                 10077e06 f   ubspm2d:ubspm2d.dll
+ 0001:00076e0c       _BSrev_cv                  10077e0c f   ubspm2d:ubspm2d.dll
+ 0001:00076e12       _BSproj1                   10077e12 f   ubspm2d:ubspm2d.dll
+ 0001:00076e18       _BScv_in_fnc               10077e18 f   ubspm2d:ubspm2d.dll
+ 0001:00076e1e       _BStagsort                 10077e1e f   ubspm2d:ubspm2d.dll
+ 0001:00076e24       _BSeig3x3                  10077e24 f   ubspm2d:ubspm2d.dll
+ 0001:00076e2a       _BScvincktm                10077e2a f   ubspm2d:ubspm2d.dll
+ 0001:00076e30       _BSmdistcvcv               10077e30 f   ubspm2d:ubspm2d.dll
+ 0001:00076e36       _BSnodvalrg                10077e36 f   ubspm2d:ubspm2d.dll
+ 0001:00076e3c       _BSprintbspc               10077e3c f   ubspm2d:ubspm2d.dll
+ 0001:00076e42       _BSprintbsps               10077e42 f   ubspm2d:ubspm2d.dll
+ 0001:00076e48       _BSiarcln                  10077e48 f   ubspm2d:ubspm2d.dll
+ 0001:00076e4e       _BSlftorrght               10077e4e f   ubspm2d:ubspm2d.dll
+ 0001:00076e54       _BSdistptpl                10077e54 f   ubspm2d:ubspm2d.dll
+ 0001:00076e5a       _BSreadcv                  10077e5a f   ubspm2d:ubspm2d.dll
+ 0001:00076e60       _BSdistptpt                10077e60 f   ubspm2d:ubspm2d.dll
+ 0001:00076e66       _BSangqdofpt               10077e66 f   ubspm2d:ubspm2d.dll
+ 0001:00076e6c       _BSgroupcv                 10077e6c f   ubspm2d:ubspm2d.dll
+ 0001:00076e72       _BScvmidpt                 10077e72 f   ubspm2d:ubspm2d.dll
+ 0001:00076e78       _BSfndcvcsp                10077e78 f   ubspm2d:ubspm2d.dll
+ 0001:00076e7e       _BSpl_cv_int               10077e7e f   ubspm2d:ubspm2d.dll
+ 0001:00076e84       _BScvnrpervc               10077e84 f   ubspm2d:ubspm2d.dll
+ 0001:00076e8a       _BScv_slfint               10077e8a f   ubspm2d:ubspm2d.dll
+ 0001:00076e90       _BScvcvint                 10077e90 f   ubspm2d:ubspm2d.dll
+ 0001:00076e96       _BSx2gmcarcs               10077e96 f   ubspm2d:ubspm2d.dll
+ 0001:00076e9c       _BScvcv_int                10077e9c f   ubspm2d:ubspm2d.dll
+ 0001:00076ea2       _BSxlnln                   10077ea2 f   ubspm2d:ubspm2d.dll
+ 0001:00076ea8       _BSfreesf                  10077ea8 f   ubspm3d:ubspm3d.dll
+ 0001:00076eae       _BSsfb4cvs                 10077eae f   ubspm3d:ubspm3d.dll
+ 0001:00076eb4       _BSdta_rdusf               10077eb4 f   ubspm3d:ubspm3d.dll
+ 0001:00076eba       _BStstsfcusp               10077eba f   ubspm3d:ubspm3d.dll
+ 0001:00076ec0       _BStstsfdegn               10077ec0 f   ubspm3d:ubspm3d.dll
+ 0001:00076ec6       _BSsftstclsd               10077ec6 f   ubspm3d:ubspm3d.dll
+ 0001:00076ecc       _BSchkfxsf                 10077ecc f   ubspm3d:ubspm3d.dll
+ 0001:00076ed2       _BSchrdlskts               10077ed2 f   ubspm3d:ubspm3d.dll
+ 0001:00076ed8       _BSsf_copy                 10077ed8 f   ubspm3d:ubspm3d.dll
+ 0001:00076ede       _BScirc3pts                10077ede f   ubspm3d:ubspm3d.dll
+ 0001:00076ee4       _BSsfeval                  10077ee4 f   ubspm3d:ubspm3d.dll
+ 0001:00076eea       _BSmdstptssf               10077eea f   ubspm3d:ubspm3d.dll
+ 0001:00076ef0       _MAbccopy                  10077ef0 f   ubspm3d:ubspm3d.dll
+ 0001:00076ef6       _MAcsupdhist               10077ef6 f   ubspm3d:ubspm3d.dll
+ 0001:00076efc       _MAcstobez                 10077efc f   ubspm3d:ubspm3d.dll
+ 0001:00076f02       _MAcspoly                  10077f02 f   ubspm3d:ubspm3d.dll
+ 0001:00076f08       _MAcsgenhist               10077f08 f   ubspm3d:ubspm3d.dll
+ 0001:00076f0e       _BSactusplsf               10077f0e f   ubspm3d:ubspm3d.dll
+ 0001:00076f14       _BSextpolsf0               10077f14 f   ubspm3d:ubspm3d.dll
+ 0001:00076f1a       _BSexch_u_v                10077f1a f   ubspm3d:ubspm3d.dll
+ 0001:00076f20       _BSallocsf                 10077f20 f   ubspm3d:ubspm3d.dll
+ 0001:00076f26       _BSconstprcv               10077f26 f   ubspm3d:ubspm3d.dll
+ 0001:00076f2c       _BSmdistptsf               10077f2c f   ubspm3d:ubspm3d.dll
+ 0001:00076f32       _BSsf_proj                 10077f32 f   ubspm3d:ubspm3d.dll
+ 0001:00076f38       _BSruled_sf1               10077f38 f   ubspm3d:ubspm3d.dll
+ 0001:00076f3e       _BSmkcvscp                 10077f3e f   ubspm3d:ubspm3d.dll
+ 0001:00076f44       _BSsf_rev                  10077f44 f   ubspm3d:ubspm3d.dll
+ 0001:00076f4a       _BSsfarrev0                10077f4a f   ubspm3d:ubspm3d.dll
+ 0001:00076f50       _BSchtptstsf               10077f50 f   ubspm3d:ubspm3d.dll
+ 0001:00076f56       _BSscnvtomkt               10077f56 f   ubspm3d:ubspm3d.dll
+ 0001:00076f5c       _BSsfptseval               10077f5c f   ubspm3d:ubspm3d.dll
+ 0001:00076f62       _BSsftgeomsf               10077f62 f   ubspm3d:ubspm3d.dll
+ 0001:00076f68       _BSsfprjprop               10077f68 f   ubspm3d:ubspm3d.dll
+ 0001:00076f6e       _BSsfrevprop               10077f6e f   ubspm3d:ubspm3d.dll
+ 0001:00076f74       _BSsfevaln                 10077f74 f   ubspm3d:ubspm3d.dll
+ 0001:00076f7a       _BSreadsf                  10077f7a f   ubspm3d:ubspm3d.dll
+ 0001:00076f80       _BSrot_cv_pl               10077f80 f   ubspm3d:ubspm3d.dll
+ 0001:00076f86       _BScombsfs                 10077f86 f   ubspm3d:ubspm3d.dll
+ 0001:00076f8c       _BSrevsf_u                 10077f8c f   ubspm3d:ubspm3d.dll
+ 0001:00076f92       _BSrevsf_v                 10077f92 f   ubspm3d:ubspm3d.dll
+ 0001:00076f98       _BSblendsfs                10077f98 f   ubspm3d:ubspm3d.dll
+ 0001:00076f9e       _BSdirfitsf                10077f9e f   ubspm3d:ubspm3d.dll
+ 0001:00076fa4       _BSsfpldstuv               10077fa4 f   ubspm3d:ubspm3d.dll
+ 0001:00076faa       _BScvextrema               10077faa f   ubspm3d:ubspm3d.dll
+ 0001:00076fb0       _BSfndcent                 10077fb0 f   ubspm3d:ubspm3d.dll
+ 0001:00076fb6       _BSsur_sur                 10077fb6 f   ubspm3d:ubspm3d.dll
+ 0001:00076fbc       _BSxlncone                 10077fbc f   ubspm3d:ubspm3d.dll
+ 0001:00076fc2       _BSxcylln                  10077fc2 f   ubspm3d:ubspm3d.dll
+ 0001:00076fc8       _BSxlngmsf                 10077fc8 f   ubspm3d:ubspm3d.dll
+ 0001:00076fce       _BSxlnpl                   10077fce f   ubspm3d:ubspm3d.dll
+ 0001:00076fd4       _BSxlntorus                10077fd4 f   ubspm3d:ubspm3d.dll
+ 0001:00076fda       _BSsf_pl_int               10077fda f   ubspm3d:ubspm3d.dll
+ 0001:00076fe0       _IMFree                    10077fe0 f   ugeom2d:ugeom2d.dll
+ 0001:00076fe6       _IMAlloc                   10077fe6 f   ugeom2d:ugeom2d.dll
+ 0001:00076fec       _IMGBspCurveMergenn2d      10077fec f   ugeom2d:ugeom2d.dll
+ 0001:00076ff2       _IMGTypedCurveFreeMem2d    10077ff2 f   ugeom2d:ugeom2d.dll
+ 0001:00076ff8       _IMLineByPtPt2d            10077ff8 f   ugeom2d:ugeom2d.dll
+ 0001:00076ffe       _IMLineGetEndPoints2d      10077ffe f   ugeom2d:ugeom2d.dll
+ 0001:00077004       _IMGComplexString2dSetForm 10078004 f   ugeom2d:ugeom2d.dll
+ 0001:0007700a       _IMGComplexStringFreeMem2d 1007800a f   ugeom2d:ugeom2d.dll
+ 0001:00077010       _IMGTypedCurveCopyWithAlloc2d 10078010 f   ugeom2d:ugeom2d.dll
+ 0001:00077016       _IMGetGTypedCurve2dEndPts  10078016 f   ugeom2d:ugeom2d.dll
+ 0001:0007701c       _IMGBspCurveFreeMem2d      1007801c f   ugeom2d:ugeom2d.dll
+ 0001:00077022       _IMGArcToPolyBspCurve2d    10078022 f   ugeom2d:ugeom2d.dll
+ 0001:00077028       _IMAnalyticComplexStringOffset2d 10078028 f   ugeom2d:ugeom2d.dll
+ 0001:0007702e       _IMTypedCurveEvaluation2d  1007802e f   ugeom2d:ugeom2d.dll
+ 0001:00077034       _IMTypedCurveGetParameterFromRatio2d 10078034 f   ugeom2d:ugeom2d.dll
+ 0001:0007703a       _IMArcGetEndPoints2d       1007803a f   ugeom2d:ugeom2d.dll
+ 0001:00077040       _IMArcSetEndPoints2d       10078040 f   ugeom2d:ugeom2d.dll
+ 0001:00077046       _IMGArc2dToGBspCurve2d     10078046 f   ugeom2d:ugeom2d.dll
+ 0001:0007704c       _IMApproxGBspCurveByArcLine2d 1007804c f   ugeom2d:ugeom2d.dll
+ 0001:00077052       _IMSetScope                10078052 f   ugeom2d:ugeom2d.dll
+ 0001:00077058       _IMPointInsideLineString2d 10078058 f   ugeom2d:ugeom2d.dll
+ 0001:0007705e       _IMCheckKnots              1007805e f   ugeom2d:ugeom2d.dll
+ 0001:00077064       _IMGetLineStringOrientation2d 10078064 f   ugeom2d:ugeom2d.dll
+ 0001:0007706a       _IMGBspCurveSetProperties2d 1007806a f   ugeom2d:ugeom2d.dll
+ 0001:00077070       _IMGetBspCurveOrientation2d 10078070 f   ugeom2d:ugeom2d.dll
+ 0001:00077076       _IMStrokeCircle2d          10078076 f   ugeom2d:ugeom2d.dll
+ 0001:0007707c       _IMProjectPointOnEllipse2d 1007807c f   ugeom2d:ugeom2d.dll
+ 0001:00077082       _IMFitByCircle2d           10078082 f   ugeom2d:ugeom2d.dll
+ 0001:00077088       _IMSetDistanceTolerance    10078088 f   ugeom2d:ugeom2d.dll
+ 0001:0007708e       _IMSetRelativeTolerance    1007808e f   ugeom2d:ugeom2d.dll
+ 0001:00077094       _IMAdjustKnots2d           10078094 f   ugeom2d:ugeom2d.dll
+ 0001:0007709a       _IMDuplicatePoints         1007809a f   ugeom2d:ugeom2d.dll
+ 0001:000770a0       _IMGBoundariesCopyNoAlloc2d 100780a0 f   ugeom2d:ugeom2d.dll
+ 0001:000770a6       _IMGBoundariesCopy2d       100780a6 f   ugeom2d:ugeom2d.dll
+ 0001:000770ac       _IMGBoundariesFreeMem2d    100780ac f   ugeom2d:ugeom2d.dll
+ 0001:000770b2       ?Serialize@tagGBoundaries2d@@QAEJABVJIOStreamContext@@@Z 100780b2 f   ugeom2d:ugeom2d.dll
+ 0001:000770b8       _IMSetFormCurve            100780b8 f   ugeom2d:ugeom2d.dll
+ 0001:000770be       _IMGLine2dToIGRbsp_curve   100780be f   ugeom2d:ugeom2d.dll
+ 0001:000770c4       _IMLineStringSetProperties2d 100780c4 f   ugeom2d:ugeom2d.dll
+ 0001:000770ca       _IMMinDistInfArPt2d        100780ca f   ugeom2d:ugeom2d.dll
+ 0001:000770d0       _IMPrint_GBoundaries2d     100780d0 f   ugeom2d:ugeom2d.dll
+ 0001:000770d6       _IMGTypedCurveBorelineLocate2d 100780d6 f   ugeom2d:ugeom2d.dll
+ 0001:000770dc       _IMRead_GBoundaries2d      100780dc f   ugeom2d:ugeom2d.dll
+ 0001:000770e2       _IMReadBoundary2d          100780e2 f   ugeom2d:ugeom2d.dll
+ 0001:000770e8       _IMGBoundariesValid2d      100780e8 f   ugeom2d:ugeom2d.dll
+ 0001:000770ee       _IMLineString2dAllocMem    100780ee f   ugeom2d:ugeom2d.dll
+ 0001:000770f4       _IMGBspCurve2dAllocMem     100780f4 f   ugeom2d:ugeom2d.dll
+ 0001:000770fa       _IMGComplexString2dSetScope 100780fa f   ugeom2d:ugeom2d.dll
+ 0001:00077100       _IMTypedCurvesCenterArea2d 10078100 f   ugeom2d:ugeom2d.dll
+ 0001:00077106       _IMArcGetLength2d          10078106 f   ugeom2d:ugeom2d.dll
+ 0001:0007710c       _IMArcLengthOfEllipseParameter2d 1007810c f   ugeom2d:ugeom2d.dll
+ 0001:00077112       _IMTypedCurveGetSilhouette2d 10078112 f   ugeom2d:ugeom2d.dll
+ 0001:00077118       _IMBoundariesAllocFrmComplexStrings2d 10078118 f   ugeom2d:ugeom2d.dll
+ 0001:0007711e       _IMTypedCurvesIsPointInside2d 1007811e f   ugeom2d:ugeom2d.dll
+ 0001:00077124       _IMLineStringFreePoints2d  10078124 f   ugeom2d:ugeom2d.dll
+ 0001:0007712a       _IMTypedCurveFenceLocate2d 1007812a f   ugeom2d:ugeom2d.dll
+ 0001:00077130       _IMTypedCurveBoreLocate2d  10078130 f   ugeom2d:ugeom2d.dll
+ 0001:00077136       _IMTypedCurveIsClosed2d    10078136 f   ugeom2d:ugeom2d.dll
+ 0001:0007713c       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1007813c f   umath:umath.dll
+ 0001:00077142       ??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10078142 f   umath:umath.dll
+ 0001:00077148       ??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10078148 f   umath:umath.dll
+ 0001:0007714e       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1007814e f   umath:umath.dll
+ 0001:00077154       ?BuildUnitVector@@YA?AUtagGUnitVector@@ABUtagGPosition@@0@Z 10078154 f   umath:umath.dll
+ 0001:0007715a       ?GDistance@@YANABUtagGPosition@@0@Z 1007815a f   umath:umath.dll
+ 0001:00077160       ?GetFitTolerance@@YA?BNXZ  10078160 f   umath:umath.dll
+ 0001:00077166       ?GDistance@@YANABUtagGPosition2d@@0@Z 10078166 f   umath:umath.dll
+ 0001:0007716c       ?IsColinear@tagGUnitVector2d@@QBEHABU1@@Z 1007816c f   umath:umath.dll
+ 0001:00077172       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10078172 f   umath:umath.dll
+ 0001:00077178       ?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 10078178 f   umath:umath.dll
+ 0001:0007717e       ?GetLength@tagGVector@@QBENXZ 1007817e f   umath:umath.dll
+ 0001:00077184       ?GiveAngle@@YANABUtagGVector@@0@Z 10078184 f   umath:umath.dll
+ 0001:0007718a       ??YtagGPosition@@QAEAAU0@ABUtagGVector@@@Z 1007818a f   umath:umath.dll
+ 0001:00077190       ??L@YANABUtagGVector@@0@Z  10078190 f   umath:umath.dll
+ 0001:00077196       ?IsOrthogonal@tagGUnitVector@@QBEHABUtagGVector@@@Z 10078196 f   umath:umath.dll
+ 0001:0007719c       ?IsColinear@tagGUnitVector@@QBEHABUtagGVector@@@Z 1007819c f   umath:umath.dll
+ 0001:000771a2       ?GetDistanceTolerance@@YA?BNXZ 100781a2 f   umath:umath.dll
+ 0001:000771a8       ??D@YA?AUtagGVector@@ABU0@0@Z 100781a8 f   umath:umath.dll
+ 0001:000771ae       ?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 100781ae f   umath:umath.dll
+ 0001:000771b4       ?Inverse@tagGTransf@@QBE?AU1@XZ 100781b4 f   umath:umath.dll
+ 0001:000771ba       ??AtagGPosition@@QBENI@Z   100781ba f   umath:umath.dll
+ 0001:000771c0       ?BuildBox@@YA?AUtagGBox@@KPAUtagGPosition@@@Z 100781c0 f   umath:umath.dll
+ 0001:000771c6       ?GetPosDblAlgn@@YA?BHXZ    100781c6 f   umath:umath.dll
+ 0001:000771cc       ?GetDeterminant@@YANABUtagGMatrix@@@Z 100781cc f   umath:umath.dll
+ 0001:000771d2       ?GetRelativeTolerance@@YA?BNXZ 100781d2 f   umath:umath.dll
+ 0001:000771d8       ?IsEqual@tagGPosition@@QBEHABU1@@Z 100781d8 f   umath:umath.dll
+ 0001:000771de       ?IsEqual@tagGUnitVector@@QBEHABUtagGVector@@@Z 100781de f   umath:umath.dll
+ 0001:000771e4       ??AtagGPosition@@QAEAANI@Z 100781e4 f   umath:umath.dll
+ 0001:000771ea       ??AtagGUnitVector@@QBENI@Z 100781ea f   umath:umath.dll
+ 0001:000771f0       ??AtagGUnitVector@@QAEAANI@Z 100781f0 f   umath:umath.dll
+ 0001:000771f6       ??AtagGVector@@QAEAANI@Z   100781f6 f   umath:umath.dll
+ 0001:000771fc       ??5tagGBox@@QBEHABUtagGPosition@@@Z 100781fc f   umath:umath.dll
+ 0001:00077202       ?GiveCorners@tagGBox@@QBEXQAUtagGPosition@@@Z 10078202 f   umath:umath.dll
+ 0001:00077208       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10078208 f   umath:umath.dll
+ 0001:0007720e       ??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 1007820e f   umath:umath.dll
+ 0001:00077214       ?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@@Z 10078214 f   umath:umath.dll
+ 0001:0007721a       ?IsNull@tagGBox@@QBEHXZ    1007821a f   umath:umath.dll
+ 0001:00077220       ??I@YA?AUtagGBox@@ABU0@0@Z 10078220 f   umath:umath.dll
+ 0001:00077226       ?PtFrustumRange@@YA?AUtagGBox@@ABUtagGPtFrustum@@@Z 10078226 f   umath:umath.dll
+ 0001:0007722c       ??U@YA?AUtagGBox@@ABU0@0@Z 1007822c f   umath:umath.dll
+ 0001:00077232       ?IsEqual@tagGVector@@QBEHABU1@@Z 10078232 f   umath:umath.dll
+ 0001:00077238       ?BuildBox@@YA?AUtagGBox@@ABUtagGPosition@@0@Z 10078238 f   umath:umath.dll
+ 0001:0007723e       ?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1007823e f   umath:umath.dll
+ 0001:00077244       ??K@YA?AUtagGVector@@ABU0@N@Z 10078244 f   umath:umath.dll
+ 0001:0007724a       ??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 1007824a f   umath:umath.dll
+ 0001:00077250       ??G@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 10078250 f   umath:umath.dll
+ 0001:00077256       ??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 10078256 f   umath:umath.dll
+ 0001:0007725c       ?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 1007825c f   umath:umath.dll
+ 0001:00077262       ?GetLength@tagGVector2d@@QBENXZ 10078262 f   umath:umath.dll
+ 0001:00077268       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 10078268 f   umath:umath.dll
+ 0001:0007726e       ?IsOrthogonal@tagGVector@@QBEHABU1@@Z 1007826e f   umath:umath.dll
+ 0001:00077274       ?IsNull@tagGUnitVector@@QBEHXZ 10078274 f   umath:umath.dll
+ 0001:0007727a       ?IsColinear@tagGVector@@QBEHABU1@@Z 1007827a f   umath:umath.dll
+ 0001:00077280       ?Serialize@tagG4x4@@QAEJABVJIOStreamContext@@@Z 10078280 f   umath:umath.dll
+ 0001:00077286       ?Serialize@tagGPosition@@QAEJABVJIOStreamContext@@@Z 10078286 f   umath:umath.dll
+ 0001:0007728c       ?Serialize@tagGBox@@QAEJABVJIOStreamContext@@@Z 1007828c f   umath:umath.dll
+ 0001:00077292       ?Serialize@tagGUnitVector@@QAEJABVJIOStreamContext@@@Z 10078292 f   umath:umath.dll
+ 0001:00077298       ?Serialize@tagGVector@@QAEJABVJIOStreamContext@@@Z 10078298 f   umath:umath.dll
+ 0001:0007729e       ?BuildVector@@YA?AUtagGVector@@ABUtagGPosition@@0@Z 1007829e f   umath:umath.dll
+ 0001:000772a4       ?Serialize@tagGMatrix@@QAEJABVJIOStreamContext@@@Z 100782a4 f   umath:umath.dll
+ 0001:000772aa       ??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 100782aa f   umath:umath.dll
+ 0001:000772b0       ??T@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 100782b0 f   umath:umath.dll
+ 0001:000772b6       ?Serialize@tagGTransf@@QAEJABVJIOStreamContext@@_N@Z 100782b6 f   umath:umath.dll
+ 0001:000772bc       ?IsNull@tagGPosition@@QBEHXZ 100782bc f   umath:umath.dll
+ 0001:000772c2       ??_0tagGVector@@QAEAAU0@N@Z 100782c2 f   umath:umath.dll
+ 0001:000772c8       ??D@YA?AUtagGVector@@ABU0@ABUtagGTransf@@@Z 100782c8 f   umath:umath.dll
+ 0001:000772ce       ??_5tagGBox@@QAEAAU0@ABU0@@Z 100782ce f   umath:umath.dll
+ 0001:000772d4       ??D@YA?AUtagGUnitVector@@ABU0@ABUtagGTransf@@@Z 100782d4 f   umath:umath.dll
+ 0001:000772da       ??D@YA?AUtagGTransf@@ABU0@0@Z 100782da f   umath:umath.dll
+ 0001:000772e0       ?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@ABUtagGPosition@@@Z 100782e0 f   umath:umath.dll
+ 0001:000772e6       ??XtagGVector@@QAEAAU0@N@Z 100782e6 f   umath:umath.dll
+ 0001:000772ec       ??VtagGBoreLine@@QBEHABUtagGBox@@@Z 100782ec f   umath:umath.dll
+ 0001:000772f2       ?BuildClipVolume@@YA?AUtagGClipVolume@@IQBUtagGPosition@@QBUtagGUnitVector@@@Z 100782f2 f   umath:umath.dll
+ 0001:000772f8       ?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@1@Z 100782f8 f   umath:umath.dll
+ 0001:000772fe       ?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 100782fe f   umath:umath.dll
+ 0001:00077304       ??AtagGPosition2d@@QAEAANI@Z 10078304 f   umath:umath.dll
+ 0001:0007730a       ?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 1007830a f   umath:umath.dll
+ 0001:00077310       ?BoreConeRange@@YA?AUtagGBox@@ABUtagGBoreCone@@@Z 10078310 f   umath:umath.dll
+ 0001:00077316       ??AtagGMatrix@@QBE?AUtagGVector@@I@Z 10078316 f   umath:umath.dll
+ 0001:0007731c       ?BuildRtPrism@@YAXQBUtagGPosition@@KUtagGUnitVector@@NNAAUtagGRtPrism@@PAJ@Z 1007831c f   umath:umath.dll
+ 0001:00077322       ??AtagGVector@@QBENI@Z     10078322 f   umath:umath.dll
+ 0001:00077328       ??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 10078328 f   umath:umath.dll
+ 0001:0007732e       ?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 1007832e f   umath:umath.dll
+ 0001:00077334       ?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 10078334 f   umath:umath.dll
+ 0001:0007733a       ??6@YAHABUtagGPosition@@ABUtagGBox@@@Z 1007833a f   umath:umath.dll
+ 0001:00077340       ??YtagGVector@@QAEAAU0@ABU0@@Z 10078340 f   umath:umath.dll
+ 0001:00077346       ??XtagGPtFence@@QAEAAU0@ABUtagGTransf@@@Z 10078346 f   umath:umath.dll
+ 0001:0007734c       ?BuildPtFence@@YAXKQBUtagGPosition@@UtagGUnitVector@@NNAAUtagGPtFence@@PAJ@Z 1007834c f   umath:umath.dll
+ 0001:00077352       ??XtagGPtFrustum@@QAEAAU0@ABUtagGTransf@@@Z 10078352 f   umath:umath.dll
+ 0001:00077358       ??D@YA?AUtagGVector@@ABUtagG4x4@@ABU0@@Z 10078358 f   umath:umath.dll
+ 0001:0007735e       ?PtFenceRange@@YA?AUtagGBox@@ABUtagGPtFence@@@Z 1007835e f   umath:umath.dll
+ 0001:00077364       ??5tagGBoreLine@@QBEHABUtagGPosition@@@Z 10078364 f   umath:umath.dll
+ 0001:00077370       _memset                    10078370 f   MSVCRT:MSVCR80.dll
+ 0001:00077376       __CIsin                    10078376 f   MSVCRT:MSVCR80.dll
+ 0001:0007737c       __CIcos                    1007837c f   MSVCRT:MSVCR80.dll
+ 0001:00077382       __CIacos                   10078382 f   MSVCRT:MSVCR80.dll
+ 0001:00077390       __chkstk                   10078390 f   MSVCRT:chkstk.obj
+ 0001:00077390       __alloca_probe             10078390     MSVCRT:chkstk.obj
+ 0001:000773bc       __CIsqrt                   100783bc f   MSVCRT:MSVCR80.dll
+ 0001:000773d0       __ftol2_sse                100783d0 f   MSVCRT:ftol2.obj
+ 0001:000773d9       __ftol2_pentium4           100783d9 f   MSVCRT:ftol2.obj
+ 0001:000773ec       __ftol2_sse_excpt          100783ec f   MSVCRT:ftol2.obj
+ 0001:00077406       __ftol2                    10078406 f   MSVCRT:ftol2.obj
+ 0001:0007747b       @__security_check_cookie@4 1007847b f   MSVCRT:secchk.obj
+ 0001:00077490       __alloca_probe_16          10078490 f   MSVCRT:alloca16.obj
+ 0001:000774a6       __alloca_probe_8           100784a6     MSVCRT:alloca16.obj
+ 0001:000774bc       __CIexp                    100784bc f   MSVCRT:MSVCR80.dll
+ 0001:000774c2       __CIlog                    100784c2 f   MSVCRT:MSVCR80.dll
+ 0001:000774c8       __CIatan                   100784c8 f   MSVCRT:MSVCR80.dll
+ 0001:000774ce       __CItan                    100784ce f   MSVCRT:MSVCR80.dll
+ 0001:000774d4       ??_Etype_info@@UAEPAXI@Z   100784d4 f i MSVCRT:ti_inst.obj
+ 0001:0007751e       ??3@YAXPAX@Z               1007851e f   MSVCRT:MSVCR80.dll
+ 0001:00077524       ___CxxFrameHandler3        10078524 f   MSVCRT:MSVCR80.dll
+ 0001:0007752a       __CIpow                    1007852a f   MSVCRT:MSVCR80.dll
+ 0001:00077530       __CIatan2                  10078530 f   MSVCRT:MSVCR80.dll
+ 0001:00077536       __CIasin                   10078536 f   MSVCRT:MSVCR80.dll
+ 0001:00077589       __CRT_INIT@12              10078589 f   MSVCRT:crtdll.obj
+ 0001:0007783e       __DllMainCRTStartup@12     1007883e f   MSVCRT:crtdll.obj
+ 0001:000778af       __get_sse2_info            100788af f   MSVCRT:cpu_disp.obj
+ 0001:0007790f       ___sse2_available_init     1007890f f   MSVCRT:cpu_disp.obj
+ 0001:0007791c       ___report_gsfailure        1007891c f   MSVCRT:gs_report.obj
+ 0001:00077a20       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10078a20 f   MSVCRT:ehvecdtr.obj
+ 0001:00077a7e       ??_M@YGXPAXIHP6EX0@Z@Z     10078a7e f   MSVCRT:ehvecdtr.obj
+ 0001:00077ae1       ___clean_type_info_names   10078ae1 f   MSVCRT:tncleanup.obj
+ 0001:00077aed       __onexit                   10078aed f   MSVCRT:atonexit.obj
+ 0001:00077b8c       _atexit                    10078b8c f   MSVCRT:atonexit.obj
+ 0001:00077b9e       __RTC_Initialize           10078b9e f   MSVCRT:initsect.obj
+ 0001:00077bc2       __RTC_Terminate            10078bc2 f   MSVCRT:initsect.obj
+ 0001:00077bf0       __ValidateImageBase        10078bf0 f   MSVCRT:pesect.obj
+ 0001:00077c20       __FindPESection            10078c20 f   MSVCRT:pesect.obj
+ 0001:00077c62       __IsNonwritableInCurrentImage 10078c62 f   MSVCRT:pesect.obj
+ 0001:00077cce       __initterm                 10078cce f   MSVCRT:MSVCR80.dll
+ 0001:00077cd4       __initterm_e               10078cd4 f   MSVCRT:MSVCR80.dll
+ 0001:00077cda       __amsg_exit                10078cda f   MSVCRT:MSVCR80.dll
+ 0001:00077ce0       ___CppXcptFilter           10078ce0 f   MSVCRT:MSVCR80.dll
+ 0001:00077ce6       _DllMain@12                10078ce6 f   MSVCRT:dllmain.obj
+ 0001:00077d08       __SEH_prolog4              10078d08 f   MSVCRT:sehprolg4.obj
+ 0001:00077d4d       __SEH_epilog4              10078d4d f   MSVCRT:sehprolg4.obj
+ 0001:00077d61       __except_handler4          10078d61 f   MSVCRT:chandler4gs.obj
+ 0001:00077d84       ___security_init_cookie    10078d84 f   MSVCRT:gs_support.obj
+ 0001:00077e18       __crt_debugger_hook        10078e18 f   MSVCRT:MSVCR80.dll
+ 0001:00077e1e       ?terminate@@YAXXZ          10078e1e f   MSVCRT:MSVCR80.dll
+ 0001:00077e24       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10078e24 f   MSVCRT:MSVCR80.dll
+ 0001:00077e24       ??1type_info@@UAE@XZ       10078e24 f   MSVCRT:MSVCR80.dll
+ 0001:00077e2a       ___clean_type_info_names_internal 10078e2a f   MSVCRT:MSVCR80.dll
+ 0001:00077e30       __unlock                   10078e30 f   MSVCRT:MSVCR80.dll
+ 0001:00077e36       ___dllonexit               10078e36 f   MSVCRT:MSVCR80.dll
+ 0001:00077e3c       __lock                     10078e3c f   MSVCRT:MSVCR80.dll
+ 0001:00077e42       __except_handler4_common   10078e42 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 1007a000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 1007a004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      1007a008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1007a00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 1007a010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsDebuggerPresent@0 1007a014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__SetUnhandledExceptionFilter@4 1007a018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 1007a01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcess@0 1007a020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  1007a024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 1007a028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             1007a02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 1007a030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetSystemTimeAsFileTime@4 1007a034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 1007a038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp___CIpow              1007a03c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp___CIatan2            1007a040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp__fclose              1007a044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp__fopen               1007a048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp__fprintf             1007a04c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp__fscanf              1007a050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___CIasin             1007a054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___encode_pointer     1007a058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp___malloc_crt         1007a05c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___encoded_null       1007a060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp__free                1007a064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp___decode_pointer     1007a068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp___initterm           1007a06c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp____CxxFrameHandler3  1007a070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp___amsg_exit          1007a074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___adjust_fdiv        1007a078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp____CppXcptFilter     1007a07c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp___crt_debugger_hook  1007a080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp_?terminate@@YAXXZ    1007a084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1007a088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp____clean_type_info_names_internal 1007a08c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___unlock             1007a090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp____dllonexit         1007a094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___lock               1007a098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___onexit             1007a09c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___except_handler4_common 1007a0a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp_??3@YAXPAX@Z         1007a0a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___CItan              1007a0a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___CIatan             1007a0ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___CIlog              1007a0b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___CIexp              1007a0b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___CIsqrt             1007a0b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___CIacos             1007a0bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___isnan              1007a0c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___CIcos              1007a0c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___CIsin              1007a0c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__memmove             1007a0cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__memset              1007a0d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___initterm_e         1007a0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       \177MSVCR80_NULL_THUNK_DATA 1007a0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__BSlngen             1007a0dc     ubspm2d:ubspm2d.dll
+ 0002:000000e0       __imp__BSdbgsfree          1007a0e0     ubspm2d:ubspm2d.dll
+ 0002:000000e4       __imp__BSlininter          1007a0e4     ubspm2d:ubspm2d.dll
+ 0002:000000e8       __imp__BSptcvgen           1007a0e8     ubspm2d:ubspm2d.dll
+ 0002:000000ec       __imp__BSdbgsalloc         1007a0ec     ubspm2d:ubspm2d.dll
+ 0002:000000f0       __imp__BStst_plan          1007a0f0     ubspm2d:ubspm2d.dll
+ 0002:000000f4       __imp__BSarc3pts           1007a0f4     ubspm2d:ubspm2d.dll
+ 0002:000000f8       __imp__BSprepcircp         1007a0f8     ubspm2d:ubspm2d.dll
+ 0002:000000fc       __imp__BSconicprp          1007a0fc     ubspm2d:ubspm2d.dll
+ 0002:00000100       __imp__BSplanar2           1007a100     ubspm2d:ubspm2d.dll
+ 0002:00000104       __imp__BSrev_cv            1007a104     ubspm2d:ubspm2d.dll
+ 0002:00000108       __imp__BSproj1             1007a108     ubspm2d:ubspm2d.dll
+ 0002:0000010c       __imp__BScv_in_fnc         1007a10c     ubspm2d:ubspm2d.dll
+ 0002:00000110       __imp__BStagsort           1007a110     ubspm2d:ubspm2d.dll
+ 0002:00000114       __imp__BSeig3x3            1007a114     ubspm2d:ubspm2d.dll
+ 0002:00000118       __imp__BScvincktm          1007a118     ubspm2d:ubspm2d.dll
+ 0002:0000011c       __imp__BSmdistcvcv         1007a11c     ubspm2d:ubspm2d.dll
+ 0002:00000120       __imp__BSnodvalrg          1007a120     ubspm2d:ubspm2d.dll
+ 0002:00000124       __imp__BSelarptang         1007a124     ubspm2d:ubspm2d.dll
+ 0002:00000128       __imp__BSprintbsps         1007a128     ubspm2d:ubspm2d.dll
+ 0002:0000012c       __imp__BSiarcln            1007a12c     ubspm2d:ubspm2d.dll
+ 0002:00000130       __imp__BSlftorrght         1007a130     ubspm2d:ubspm2d.dll
+ 0002:00000134       __imp__BSdistptpl          1007a134     ubspm2d:ubspm2d.dll
+ 0002:00000138       __imp__BSreadcv            1007a138     ubspm2d:ubspm2d.dll
+ 0002:0000013c       __imp__BSdistptpt          1007a13c     ubspm2d:ubspm2d.dll
+ 0002:00000140       __imp__BSangqdofpt         1007a140     ubspm2d:ubspm2d.dll
+ 0002:00000144       __imp__BSgroupcv           1007a144     ubspm2d:ubspm2d.dll
+ 0002:00000148       __imp__BScvmidpt           1007a148     ubspm2d:ubspm2d.dll
+ 0002:0000014c       __imp__BSfndcvcsp          1007a14c     ubspm2d:ubspm2d.dll
+ 0002:00000150       __imp__BSpl_cv_int         1007a150     ubspm2d:ubspm2d.dll
+ 0002:00000154       __imp__BScvnrpervc         1007a154     ubspm2d:ubspm2d.dll
+ 0002:00000158       __imp__BScv_slfint         1007a158     ubspm2d:ubspm2d.dll
+ 0002:0000015c       __imp__BScvcvint           1007a15c     ubspm2d:ubspm2d.dll
+ 0002:00000160       __imp__BSx2gmcarcs         1007a160     ubspm2d:ubspm2d.dll
+ 0002:00000164       __imp__BScvcv_int          1007a164     ubspm2d:ubspm2d.dll
+ 0002:00000168       __imp__BSxlnln             1007a168     ubspm2d:ubspm2d.dll
+ 0002:0000016c       __imp__BScvarrevc          1007a16c     ubspm2d:ubspm2d.dll
+ 0002:00000170       __imp__BSlenvec            1007a170     ubspm2d:ubspm2d.dll
+ 0002:00000174       __imp__BSbstobez           1007a174     ubspm2d:ubspm2d.dll
+ 0002:00000178       __imp__BSstrkbez           1007a178     ubspm2d:ubspm2d.dll
+ 0002:0000017c       __imp__BShlfcvdep          1007a17c     ubspm2d:ubspm2d.dll
+ 0002:00000180       __imp__BSmergarrcv         1007a180     ubspm2d:ubspm2d.dll
+ 0002:00000184       __imp__BSarclength         1007a184     ubspm2d:ubspm2d.dll
+ 0002:00000188       __imp__BSiarcln2           1007a188     ubspm2d:ubspm2d.dll
+ 0002:0000018c       __imp__BSdbgrc             1007a18c     ubspm2d:ubspm2d.dll
+ 0002:00000190       __imp__BScomb2cvs          1007a190     ubspm2d:ubspm2d.dll
+ 0002:00000194       __imp__BSarclnparc         1007a194     ubspm2d:ubspm2d.dll
+ 0002:00000198       __imp__BSdirfitcv          1007a198     ubspm2d:ubspm2d.dll
+ 0002:0000019c       __imp__BSfillet            1007a19c     ubspm2d:ubspm2d.dll
+ 0002:000001a0       __imp__BSprep_trim         1007a1a0     ubspm2d:ubspm2d.dll
+ 0002:000001a4       __imp__BSactivsplt         1007a1a4     ubspm2d:ubspm2d.dll
+ 0002:000001a8       __imp__BSvectnuv           1007a1a8     ubspm2d:ubspm2d.dll
+ 0002:000001ac       __imp__BSevalbsp           1007a1ac     ubspm2d:ubspm2d.dll
+ 0002:000001b0       __imp__BSmdptsbscv         1007a1b0     ubspm2d:ubspm2d.dll
+ 0002:000001b4       __imp__BSrm1knot           1007a1b4     ubspm2d:ubspm2d.dll
+ 0002:000001b8       __imp__BSrmnknots          1007a1b8     ubspm2d:ubspm2d.dll
+ 0002:000001bc       __imp__BScvoffsetd         1007a1bc     ubspm2d:ubspm2d.dll
+ 0002:000001c0       __imp__BScvlsqfit          1007a1c0     ubspm2d:ubspm2d.dll
+ 0002:000001c4       __imp__BScveval_b          1007a1c4     ubspm2d:ubspm2d.dll
+ 0002:000001c8       __imp__BSupthedegr         1007a1c8     ubspm2d:ubspm2d.dll
+ 0002:000001cc       __imp__BSdta_rducv         1007a1cc     ubspm2d:ubspm2d.dll
+ 0002:000001d0       __imp__BScvarrev0          1007a1d0     ubspm2d:ubspm2d.dll
+ 0002:000001d4       __imp__BSmdstptcv          1007a1d4     ubspm2d:ubspm2d.dll
+ 0002:000001d8       __imp__BScveval            1007a1d8     ubspm2d:ubspm2d.dll
+ 0002:000001dc       __imp__BScrossp            1007a1dc     ubspm2d:ubspm2d.dll
+ 0002:000001e0       __imp__BSdotp              1007a1e0     ubspm2d:ubspm2d.dll
+ 0002:000001e4       __imp__BScmpcvoffl         1007a1e4     ubspm2d:ubspm2d.dll
+ 0002:000001e8       __imp__BStstcvdegn         1007a1e8     ubspm2d:ubspm2d.dll
+ 0002:000001ec       __imp__BSfndstrort         1007a1ec     ubspm2d:ubspm2d.dll
+ 0002:000001f0       __imp__BSlsqptlnpl         1007a1f0     ubspm2d:ubspm2d.dll
+ 0002:000001f4       __imp__BSnorvec            1007a1f4     ubspm2d:ubspm2d.dll
+ 0002:000001f8       __imp__BSxlnarc            1007a1f8     ubspm2d:ubspm2d.dll
+ 0002:000001fc       __imp__BSfindspn           1007a1fc     ubspm2d:ubspm2d.dll
+ 0002:00000200       __imp__BSmansf0            1007a200     ubspm2d:ubspm2d.dll
+ 0002:00000204       __imp__BSrelplnln          1007a204     ubspm2d:ubspm2d.dll
+ 0002:00000208       __imp__BSlldist            1007a208     ubspm2d:ubspm2d.dll
+ 0002:0000020c       __imp__BSproj0             1007a20c     ubspm2d:ubspm2d.dll
+ 0002:00000210       __imp__BSroto              1007a210     ubspm2d:ubspm2d.dll
+ 0002:00000214       __imp__BSxarcarc           1007a214     ubspm2d:ubspm2d.dll
+ 0002:00000218       __imp__BSdistptpts         1007a218     ubspm2d:ubspm2d.dll
+ 0002:0000021c       __imp__BSls_slfint         1007a21c     ubspm2d:ubspm2d.dll
+ 0002:00000220       __imp__BScvoffset          1007a220     ubspm2d:ubspm2d.dll
+ 0002:00000224       __imp__BSchangepar         1007a224     ubspm2d:ubspm2d.dll
+ 0002:00000228       __imp__BSdbgfree           1007a228     ubspm2d:ubspm2d.dll
+ 0002:0000022c       __imp__BSalloccv           1007a22c     ubspm2d:ubspm2d.dll
+ 0002:00000230       __imp__BSprj_cv_pl         1007a230     ubspm2d:ubspm2d.dll
+ 0002:00000234       __imp__BStstcvfln          1007a234     ubspm2d:ubspm2d.dll
+ 0002:00000238       __imp__BSnorkts            1007a238     ubspm2d:ubspm2d.dll
+ 0002:0000023c       __imp__BSparameters        1007a23c     ubspm2d:ubspm2d.dll
+ 0002:00000240       __imp__BSarclg4ds          1007a240     ubspm2d:ubspm2d.dll
+ 0002:00000244       __imp__BSarclg3ds          1007a244     ubspm2d:ubspm2d.dll
+ 0002:00000248       __imp__BSprintbspc         1007a248     ubspm2d:ubspm2d.dll
+ 0002:0000024c       __imp__BSfreecv            1007a24c     ubspm2d:ubspm2d.dll
+ 0002:00000250       \177ubspm2d_NULL_THUNK_DATA 1007a250     ubspm2d:ubspm2d.dll
+ 0002:00000254       __imp__BSxlntorus          1007a254     ubspm3d:ubspm3d.dll
+ 0002:00000258       __imp__BSxlnpl             1007a258     ubspm3d:ubspm3d.dll
+ 0002:0000025c       __imp__BSxlngmsf           1007a25c     ubspm3d:ubspm3d.dll
+ 0002:00000260       __imp__BSxcylln            1007a260     ubspm3d:ubspm3d.dll
+ 0002:00000264       __imp__BSxlncone           1007a264     ubspm3d:ubspm3d.dll
+ 0002:00000268       __imp__BSsur_sur           1007a268     ubspm3d:ubspm3d.dll
+ 0002:0000026c       __imp__BSfndcent           1007a26c     ubspm3d:ubspm3d.dll
+ 0002:00000270       __imp__BScvextrema         1007a270     ubspm3d:ubspm3d.dll
+ 0002:00000274       __imp__BSsfpldstuv         1007a274     ubspm3d:ubspm3d.dll
+ 0002:00000278       __imp__BSdirfitsf          1007a278     ubspm3d:ubspm3d.dll
+ 0002:0000027c       __imp__BSblendsfs          1007a27c     ubspm3d:ubspm3d.dll
+ 0002:00000280       __imp__BSrevsf_v           1007a280     ubspm3d:ubspm3d.dll
+ 0002:00000284       __imp__BSrevsf_u           1007a284     ubspm3d:ubspm3d.dll
+ 0002:00000288       __imp__BScombsfs           1007a288     ubspm3d:ubspm3d.dll
+ 0002:0000028c       __imp__BSrot_cv_pl         1007a28c     ubspm3d:ubspm3d.dll
+ 0002:00000290       __imp__BSreadsf            1007a290     ubspm3d:ubspm3d.dll
+ 0002:00000294       __imp__BSsfevaln           1007a294     ubspm3d:ubspm3d.dll
+ 0002:00000298       __imp__BSsfrevprop         1007a298     ubspm3d:ubspm3d.dll
+ 0002:0000029c       __imp__BSsfprjprop         1007a29c     ubspm3d:ubspm3d.dll
+ 0002:000002a0       __imp__BSsftgeomsf         1007a2a0     ubspm3d:ubspm3d.dll
+ 0002:000002a4       __imp__BSsfptseval         1007a2a4     ubspm3d:ubspm3d.dll
+ 0002:000002a8       __imp__BSscnvtomkt         1007a2a8     ubspm3d:ubspm3d.dll
+ 0002:000002ac       __imp__BSchtptstsf         1007a2ac     ubspm3d:ubspm3d.dll
+ 0002:000002b0       __imp__BSsfarrev0          1007a2b0     ubspm3d:ubspm3d.dll
+ 0002:000002b4       __imp__BSsf_rev            1007a2b4     ubspm3d:ubspm3d.dll
+ 0002:000002b8       __imp__BSmkcvscp           1007a2b8     ubspm3d:ubspm3d.dll
+ 0002:000002bc       __imp__BSruled_sf1         1007a2bc     ubspm3d:ubspm3d.dll
+ 0002:000002c0       __imp__BSsf_proj           1007a2c0     ubspm3d:ubspm3d.dll
+ 0002:000002c4       __imp__BSmdistptsf         1007a2c4     ubspm3d:ubspm3d.dll
+ 0002:000002c8       __imp__BSconstprcv         1007a2c8     ubspm3d:ubspm3d.dll
+ 0002:000002cc       __imp__BSallocsf           1007a2cc     ubspm3d:ubspm3d.dll
+ 0002:000002d0       __imp__BSexch_u_v          1007a2d0     ubspm3d:ubspm3d.dll
+ 0002:000002d4       __imp__BSextpolsf0         1007a2d4     ubspm3d:ubspm3d.dll
+ 0002:000002d8       __imp__BSactusplsf         1007a2d8     ubspm3d:ubspm3d.dll
+ 0002:000002dc       __imp__MAcsgenhist         1007a2dc     ubspm3d:ubspm3d.dll
+ 0002:000002e0       __imp__MAcspoly            1007a2e0     ubspm3d:ubspm3d.dll
+ 0002:000002e4       __imp__MAcstobez           1007a2e4     ubspm3d:ubspm3d.dll
+ 0002:000002e8       __imp__MAcsupdhist         1007a2e8     ubspm3d:ubspm3d.dll
+ 0002:000002ec       __imp__MAbccopy            1007a2ec     ubspm3d:ubspm3d.dll
+ 0002:000002f0       __imp__BSmdstptssf         1007a2f0     ubspm3d:ubspm3d.dll
+ 0002:000002f4       __imp__BSsfeval            1007a2f4     ubspm3d:ubspm3d.dll
+ 0002:000002f8       __imp__BScirc3pts          1007a2f8     ubspm3d:ubspm3d.dll
+ 0002:000002fc       __imp__BSsf_copy           1007a2fc     ubspm3d:ubspm3d.dll
+ 0002:00000300       __imp__BSchrdlskts         1007a300     ubspm3d:ubspm3d.dll
+ 0002:00000304       __imp__BSchkfxsf           1007a304     ubspm3d:ubspm3d.dll
+ 0002:00000308       __imp__BSsftstclsd         1007a308     ubspm3d:ubspm3d.dll
+ 0002:0000030c       __imp__BStstsfdegn         1007a30c     ubspm3d:ubspm3d.dll
+ 0002:00000310       __imp__BStstsfcusp         1007a310     ubspm3d:ubspm3d.dll
+ 0002:00000314       __imp__BSdta_rdusf         1007a314     ubspm3d:ubspm3d.dll
+ 0002:00000318       __imp__BSsfb4cvs           1007a318     ubspm3d:ubspm3d.dll
+ 0002:0000031c       __imp__BSfreesf            1007a31c     ubspm3d:ubspm3d.dll
+ 0002:00000320       __imp__BSsf_pl_int         1007a320     ubspm3d:ubspm3d.dll
+ 0002:00000324       \177ubspm3d_NULL_THUNK_DATA 1007a324     ubspm3d:ubspm3d.dll
+ 0002:00000328       __imp__IMTypedCurveBoreLocate2d 1007a328     ugeom2d:ugeom2d.dll
+ 0002:0000032c       __imp__IMTypedCurveFenceLocate2d 1007a32c     ugeom2d:ugeom2d.dll
+ 0002:00000330       __imp__IMLineStringFreePoints2d 1007a330     ugeom2d:ugeom2d.dll
+ 0002:00000334       __imp__IMTypedCurvesIsPointInside2d 1007a334     ugeom2d:ugeom2d.dll
+ 0002:00000338       __imp__IMBoundariesAllocFrmComplexStrings2d 1007a338     ugeom2d:ugeom2d.dll
+ 0002:0000033c       __imp__IMTypedCurveGetSilhouette2d 1007a33c     ugeom2d:ugeom2d.dll
+ 0002:00000340       __imp__IMArcLengthOfEllipseParameter2d 1007a340     ugeom2d:ugeom2d.dll
+ 0002:00000344       __imp__IMArcGetLength2d    1007a344     ugeom2d:ugeom2d.dll
+ 0002:00000348       __imp__IMTypedCurvesCenterArea2d 1007a348     ugeom2d:ugeom2d.dll
+ 0002:0000034c       __imp__IMGComplexString2dSetScope 1007a34c     ugeom2d:ugeom2d.dll
+ 0002:00000350       __imp__IMGBspCurve2dAllocMem 1007a350     ugeom2d:ugeom2d.dll
+ 0002:00000354       __imp__IMLineString2dAllocMem 1007a354     ugeom2d:ugeom2d.dll
+ 0002:00000358       __imp__IMGBoundariesValid2d 1007a358     ugeom2d:ugeom2d.dll
+ 0002:0000035c       __imp__IMReadBoundary2d    1007a35c     ugeom2d:ugeom2d.dll
+ 0002:00000360       __imp__IMRead_GBoundaries2d 1007a360     ugeom2d:ugeom2d.dll
+ 0002:00000364       __imp__IMGTypedCurveBorelineLocate2d 1007a364     ugeom2d:ugeom2d.dll
+ 0002:00000368       __imp__IMPrint_GBoundaries2d 1007a368     ugeom2d:ugeom2d.dll
+ 0002:0000036c       __imp__IMMinDistInfArPt2d  1007a36c     ugeom2d:ugeom2d.dll
+ 0002:00000370       __imp__IMLineStringSetProperties2d 1007a370     ugeom2d:ugeom2d.dll
+ 0002:00000374       __imp__IMGLine2dToIGRbsp_curve 1007a374     ugeom2d:ugeom2d.dll
+ 0002:00000378       __imp__IMSetFormCurve      1007a378     ugeom2d:ugeom2d.dll
+ 0002:0000037c       __imp_?Serialize@tagGBoundaries2d@@QAEJABVJIOStreamContext@@@Z 1007a37c     ugeom2d:ugeom2d.dll
+ 0002:00000380       __imp__IMGBoundariesFreeMem2d 1007a380     ugeom2d:ugeom2d.dll
+ 0002:00000384       __imp__IMGBoundariesCopy2d 1007a384     ugeom2d:ugeom2d.dll
+ 0002:00000388       __imp__IMGBoundariesCopyNoAlloc2d 1007a388     ugeom2d:ugeom2d.dll
+ 0002:0000038c       __imp__IMDuplicatePoints   1007a38c     ugeom2d:ugeom2d.dll
+ 0002:00000390       __imp__IMGBspCurveMergenn2d 1007a390     ugeom2d:ugeom2d.dll
+ 0002:00000394       __imp__IMSetRelativeTolerance 1007a394     ugeom2d:ugeom2d.dll
+ 0002:00000398       __imp__IMSetDistanceTolerance 1007a398     ugeom2d:ugeom2d.dll
+ 0002:0000039c       __imp__IMFitByCircle2d     1007a39c     ugeom2d:ugeom2d.dll
+ 0002:000003a0       __imp__IMProjectPointOnEllipse2d 1007a3a0     ugeom2d:ugeom2d.dll
+ 0002:000003a4       __imp__IMStrokeCircle2d    1007a3a4     ugeom2d:ugeom2d.dll
+ 0002:000003a8       __imp__IMGetBspCurveOrientation2d 1007a3a8     ugeom2d:ugeom2d.dll
+ 0002:000003ac       __imp__IMGBspCurveSetProperties2d 1007a3ac     ugeom2d:ugeom2d.dll
+ 0002:000003b0       __imp__IMGetLineStringOrientation2d 1007a3b0     ugeom2d:ugeom2d.dll
+ 0002:000003b4       __imp__IMCheckKnots        1007a3b4     ugeom2d:ugeom2d.dll
+ 0002:000003b8       __imp__IMPointInsideLineString2d 1007a3b8     ugeom2d:ugeom2d.dll
+ 0002:000003bc       __imp__IMSetScope          1007a3bc     ugeom2d:ugeom2d.dll
+ 0002:000003c0       __imp__IMApproxGBspCurveByArcLine2d 1007a3c0     ugeom2d:ugeom2d.dll
+ 0002:000003c4       __imp__IMGArc2dToGBspCurve2d 1007a3c4     ugeom2d:ugeom2d.dll
+ 0002:000003c8       __imp__IMArcSetEndPoints2d 1007a3c8     ugeom2d:ugeom2d.dll
+ 0002:000003cc       __imp__IMArcGetEndPoints2d 1007a3cc     ugeom2d:ugeom2d.dll
+ 0002:000003d0       __imp__IMTypedCurveGetParameterFromRatio2d 1007a3d0     ugeom2d:ugeom2d.dll
+ 0002:000003d4       __imp__IMTypedCurveEvaluation2d 1007a3d4     ugeom2d:ugeom2d.dll
+ 0002:000003d8       __imp__IMAnalyticComplexStringOffset2d 1007a3d8     ugeom2d:ugeom2d.dll
+ 0002:000003dc       __imp__IMGArcToPolyBspCurve2d 1007a3dc     ugeom2d:ugeom2d.dll
+ 0002:000003e0       __imp__IMGBspCurveFreeMem2d 1007a3e0     ugeom2d:ugeom2d.dll
+ 0002:000003e4       __imp__IMGetGTypedCurve2dEndPts 1007a3e4     ugeom2d:ugeom2d.dll
+ 0002:000003e8       __imp__IMAdjustKnots2d     1007a3e8     ugeom2d:ugeom2d.dll
+ 0002:000003ec       __imp__IMGTypedCurveCopyWithAlloc2d 1007a3ec     ugeom2d:ugeom2d.dll
+ 0002:000003f0       __imp__IMGComplexStringFreeMem2d 1007a3f0     ugeom2d:ugeom2d.dll
+ 0002:000003f4       __imp__IMGComplexString2dSetForm 1007a3f4     ugeom2d:ugeom2d.dll
+ 0002:000003f8       __imp__IMLineGetEndPoints2d 1007a3f8     ugeom2d:ugeom2d.dll
+ 0002:000003fc       __imp__IMLineByPtPt2d      1007a3fc     ugeom2d:ugeom2d.dll
+ 0002:00000400       __imp__IMTypedCurveIsClosed2d 1007a400     ugeom2d:ugeom2d.dll
+ 0002:00000404       __imp__IMGTypedCurveFreeMem2d 1007a404     ugeom2d:ugeom2d.dll
+ 0002:00000408       __imp__IMFree              1007a408     ugeom2d:ugeom2d.dll
+ 0002:0000040c       __imp__IMAlloc             1007a40c     ugeom2d:ugeom2d.dll
+ 0002:00000410       \177ugeom2d_NULL_THUNK_DATA 1007a410     ugeom2d:ugeom2d.dll
+ 0002:00000414       __imp_?Serialize@tagGUnitVector@@QAEJABVJIOStreamContext@@@Z 1007a414     umath:umath.dll
+ 0002:00000418       __imp_?Serialize@tagGVector@@QAEJABVJIOStreamContext@@@Z 1007a418     umath:umath.dll
+ 0002:0000041c       __imp_?BuildVector@@YA?AUtagGVector@@ABUtagGPosition@@0@Z 1007a41c     umath:umath.dll
+ 0002:00000420       __imp_?Serialize@tagGMatrix@@QAEJABVJIOStreamContext@@@Z 1007a420     umath:umath.dll
+ 0002:00000424       __imp_??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 1007a424     umath:umath.dll
+ 0002:00000428       __imp_??T@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 1007a428     umath:umath.dll
+ 0002:0000042c       __imp_?Serialize@tagGTransf@@QAEJABVJIOStreamContext@@_N@Z 1007a42c     umath:umath.dll
+ 0002:00000430       __imp_?IsNull@tagGPosition@@QBEHXZ 1007a430     umath:umath.dll
+ 0002:00000434       __imp_??_0tagGVector@@QAEAAU0@N@Z 1007a434     umath:umath.dll
+ 0002:00000438       __imp_??D@YA?AUtagGVector@@ABU0@ABUtagGTransf@@@Z 1007a438     umath:umath.dll
+ 0002:0000043c       __imp_??_5tagGBox@@QAEAAU0@ABU0@@Z 1007a43c     umath:umath.dll
+ 0002:00000440       __imp_??D@YA?AUtagGUnitVector@@ABU0@ABUtagGTransf@@@Z 1007a440     umath:umath.dll
+ 0002:00000444       __imp_??D@YA?AUtagGTransf@@ABU0@0@Z 1007a444     umath:umath.dll
+ 0002:00000448       __imp_?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@ABUtagGPosition@@@Z 1007a448     umath:umath.dll
+ 0002:0000044c       __imp_??XtagGVector@@QAEAAU0@N@Z 1007a44c     umath:umath.dll
+ 0002:00000450       __imp_??VtagGBoreLine@@QBEHABUtagGBox@@@Z 1007a450     umath:umath.dll
+ 0002:00000454       __imp_?BuildClipVolume@@YA?AUtagGClipVolume@@IQBUtagGPosition@@QBUtagGUnitVector@@@Z 1007a454     umath:umath.dll
+ 0002:00000458       __imp_?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@1@Z 1007a458     umath:umath.dll
+ 0002:0000045c       __imp_?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 1007a45c     umath:umath.dll
+ 0002:00000460       __imp_??AtagGPosition2d@@QAEAANI@Z 1007a460     umath:umath.dll
+ 0002:00000464       __imp_?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 1007a464     umath:umath.dll
+ 0002:00000468       __imp_?BoreConeRange@@YA?AUtagGBox@@ABUtagGBoreCone@@@Z 1007a468     umath:umath.dll
+ 0002:0000046c       __imp_??AtagGMatrix@@QBE?AUtagGVector@@I@Z 1007a46c     umath:umath.dll
+ 0002:00000470       __imp_?BuildRtPrism@@YAXQBUtagGPosition@@KUtagGUnitVector@@NNAAUtagGRtPrism@@PAJ@Z 1007a470     umath:umath.dll
+ 0002:00000474       __imp_??AtagGVector@@QBENI@Z 1007a474     umath:umath.dll
+ 0002:00000478       __imp_??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 1007a478     umath:umath.dll
+ 0002:0000047c       __imp_?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 1007a47c     umath:umath.dll
+ 0002:00000480       __imp_?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 1007a480     umath:umath.dll
+ 0002:00000484       __imp_??6@YAHABUtagGPosition@@ABUtagGBox@@@Z 1007a484     umath:umath.dll
+ 0002:00000488       __imp_??YtagGVector@@QAEAAU0@ABU0@@Z 1007a488     umath:umath.dll
+ 0002:0000048c       __imp_??XtagGPtFence@@QAEAAU0@ABUtagGTransf@@@Z 1007a48c     umath:umath.dll
+ 0002:00000490       __imp_?BuildPtFence@@YAXKQBUtagGPosition@@UtagGUnitVector@@NNAAUtagGPtFence@@PAJ@Z 1007a490     umath:umath.dll
+ 0002:00000494       __imp_??XtagGPtFrustum@@QAEAAU0@ABUtagGTransf@@@Z 1007a494     umath:umath.dll
+ 0002:00000498       __imp_??D@YA?AUtagGVector@@ABUtagG4x4@@ABU0@@Z 1007a498     umath:umath.dll
+ 0002:0000049c       __imp_?PtFenceRange@@YA?AUtagGBox@@ABUtagGPtFence@@@Z 1007a49c     umath:umath.dll
+ 0002:000004a0       __imp_??5tagGBoreLine@@QBEHABUtagGPosition@@@Z 1007a4a0     umath:umath.dll
+ 0002:000004a4       __imp_?Serialize@tagGBox@@QAEJABVJIOStreamContext@@@Z 1007a4a4     umath:umath.dll
+ 0002:000004a8       __imp_?Serialize@tagGPosition@@QAEJABVJIOStreamContext@@@Z 1007a4a8     umath:umath.dll
+ 0002:000004ac       __imp_?Serialize@tagG4x4@@QAEJABVJIOStreamContext@@@Z 1007a4ac     umath:umath.dll
+ 0002:000004b0       __imp_?IsColinear@tagGVector@@QBEHABU1@@Z 1007a4b0     umath:umath.dll
+ 0002:000004b4       __imp_?IsNull@tagGUnitVector@@QBEHXZ 1007a4b4     umath:umath.dll
+ 0002:000004b8       __imp_?IsOrthogonal@tagGVector@@QBEHABU1@@Z 1007a4b8     umath:umath.dll
+ 0002:000004bc       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1007a4bc     umath:umath.dll
+ 0002:000004c0       __imp_?GetLength@tagGVector2d@@QBENXZ 1007a4c0     umath:umath.dll
+ 0002:000004c4       __imp_?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 1007a4c4     umath:umath.dll
+ 0002:000004c8       __imp_??G@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 1007a4c8     umath:umath.dll
+ 0002:000004cc       __imp_??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 1007a4cc     umath:umath.dll
+ 0002:000004d0       __imp_??K@YA?AUtagGVector@@ABU0@N@Z 1007a4d0     umath:umath.dll
+ 0002:000004d4       __imp_?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1007a4d4     umath:umath.dll
+ 0002:000004d8       __imp_?BuildBox@@YA?AUtagGBox@@ABUtagGPosition@@0@Z 1007a4d8     umath:umath.dll
+ 0002:000004dc       __imp_?IsEqual@tagGVector@@QBEHABU1@@Z 1007a4dc     umath:umath.dll
+ 0002:000004e0       __imp_??U@YA?AUtagGBox@@ABU0@0@Z 1007a4e0     umath:umath.dll
+ 0002:000004e4       __imp_?PtFrustumRange@@YA?AUtagGBox@@ABUtagGPtFrustum@@@Z 1007a4e4     umath:umath.dll
+ 0002:000004e8       __imp_??I@YA?AUtagGBox@@ABU0@0@Z 1007a4e8     umath:umath.dll
+ 0002:000004ec       __imp_?IsNull@tagGBox@@QBEHXZ 1007a4ec     umath:umath.dll
+ 0002:000004f0       __imp_?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@@Z 1007a4f0     umath:umath.dll
+ 0002:000004f4       __imp_??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 1007a4f4     umath:umath.dll
+ 0002:000004f8       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1007a4f8     umath:umath.dll
+ 0002:000004fc       __imp_?GiveCorners@tagGBox@@QBEXQAUtagGPosition@@@Z 1007a4fc     umath:umath.dll
+ 0002:00000500       __imp_??5tagGBox@@QBEHABUtagGPosition@@@Z 1007a500     umath:umath.dll
+ 0002:00000504       __imp_??AtagGVector@@QAEAANI@Z 1007a504     umath:umath.dll
+ 0002:00000508       __imp_??AtagGUnitVector@@QAEAANI@Z 1007a508     umath:umath.dll
+ 0002:0000050c       __imp_??AtagGUnitVector@@QBENI@Z 1007a50c     umath:umath.dll
+ 0002:00000510       __imp_??AtagGPosition@@QAEAANI@Z 1007a510     umath:umath.dll
+ 0002:00000514       __imp_?IsEqual@tagGUnitVector@@QBEHABUtagGVector@@@Z 1007a514     umath:umath.dll
+ 0002:00000518       __imp_?IsEqual@tagGPosition@@QBEHABU1@@Z 1007a518     umath:umath.dll
+ 0002:0000051c       __imp_?GetRelativeTolerance@@YA?BNXZ 1007a51c     umath:umath.dll
+ 0002:00000520       __imp_?GetDeterminant@@YANABUtagGMatrix@@@Z 1007a520     umath:umath.dll
+ 0002:00000524       __imp_?GetPosDblAlgn@@YA?BHXZ 1007a524     umath:umath.dll
+ 0002:00000528       __imp_?BuildBox@@YA?AUtagGBox@@KPAUtagGPosition@@@Z 1007a528     umath:umath.dll
+ 0002:0000052c       __imp_??AtagGPosition@@QBENI@Z 1007a52c     umath:umath.dll
+ 0002:00000530       __imp_?Inverse@tagGTransf@@QBE?AU1@XZ 1007a530     umath:umath.dll
+ 0002:00000534       __imp_?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 1007a534     umath:umath.dll
+ 0002:00000538       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1007a538     umath:umath.dll
+ 0002:0000053c       __imp_?GetDistanceTolerance@@YA?BNXZ 1007a53c     umath:umath.dll
+ 0002:00000540       __imp_?IsColinear@tagGUnitVector@@QBEHABUtagGVector@@@Z 1007a540     umath:umath.dll
+ 0002:00000544       __imp_?IsOrthogonal@tagGUnitVector@@QBEHABUtagGVector@@@Z 1007a544     umath:umath.dll
+ 0002:00000548       __imp_??L@YANABUtagGVector@@0@Z 1007a548     umath:umath.dll
+ 0002:0000054c       __imp_??YtagGPosition@@QAEAAU0@ABUtagGVector@@@Z 1007a54c     umath:umath.dll
+ 0002:00000550       __imp_?GiveAngle@@YANABUtagGVector@@0@Z 1007a550     umath:umath.dll
+ 0002:00000554       __imp_?GetLength@tagGVector@@QBENXZ 1007a554     umath:umath.dll
+ 0002:00000558       __imp_?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 1007a558     umath:umath.dll
+ 0002:0000055c       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1007a55c     umath:umath.dll
+ 0002:00000560       __imp_?IsColinear@tagGUnitVector2d@@QBEHABU1@@Z 1007a560     umath:umath.dll
+ 0002:00000564       __imp_?GDistance@@YANABUtagGPosition2d@@0@Z 1007a564     umath:umath.dll
+ 0002:00000568       __imp_?GetFitTolerance@@YA?BNXZ 1007a568     umath:umath.dll
+ 0002:0000056c       __imp_?GDistance@@YANABUtagGPosition@@0@Z 1007a56c     umath:umath.dll
+ 0002:00000570       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@ABUtagGPosition@@0@Z 1007a570     umath:umath.dll
+ 0002:00000574       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1007a574     umath:umath.dll
+ 0002:00000578       __imp_??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1007a578     umath:umath.dll
+ 0002:0000057c       __imp_??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1007a57c     umath:umath.dll
+ 0002:00000580       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1007a580     umath:umath.dll
+ 0002:00000584       __imp_??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 1007a584     umath:umath.dll
+ 0002:00000588       \177umath_NULL_THUNK_DATA  1007a588     umath:umath.dll
+ 0002:0000058c       ___xc_a                    1007a58c     MSVCRT:cinitexe.obj
+ 0002:00000590       ___xc_z                    1007a590     MSVCRT:cinitexe.obj
+ 0002:00000594       ___xi_a                    1007a594     MSVCRT:cinitexe.obj
+ 0002:000005a0       ___xi_z                    1007a5a0     MSVCRT:cinitexe.obj
+ 0002:000005d0       __real@3fb999999999999a    1007a5d0     IMAdjCntPoles.obj
+ 0002:000005d8       __real@3ff8000000000000    1007a5d8     IMAdjCntPoles.obj
+ 0002:000005e0       __real@0000000000000000    1007a5e0     IMAdjCntPoles.obj
+ 0002:000005e8       __real@3f847ae147ae147b    1007a5e8     IMAngleOffCv.obj
+ 0002:000005f0       __real@3f50624dd2f1a9fc    1007a5f0     IMAngleOffCv.obj
+ 0002:000005f8       __real@3ff0000000000000    1007a5f8     IMAngleOffCv.obj
+ 0002:00000600       __real@4024000000000000    1007a600     IMAngleOffCv.obj
+ 0002:00000608       __real@3fe0000000000000    1007a608     IMAngleOffCv.obj
+ 0002:00000610       __real@3ddb7cdfd9d7bdbb    1007a610     IMAngleOffCv.obj
+ 0002:00000618       __real@3ee4f8b588e368f1    1007a618     IMAngleOffCv.obj
+ 0002:00000620       __real@3f40624dd2f1a9fc    1007a620     IMAngleOffCv.obj
+ 0002:00000628       __real@3f747ae147ae147b    1007a628     IMAngleOffCv.obj
+ 0002:00000630       __real@4014000000000000    1007a630     IMAngleOffCv.obj
+ 0002:00000638       __real@3fa1a7b9611a7b96    1007a638     IMAngleOffCv.obj
+ 0002:00000640       __real@3ff921fb54442d18    1007a640     IMAngleOffCv.obj
+ 0002:00000648       __real@3fe6666666666666    1007a648     IMAngleOffCv.obj
+ 0002:00000650       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1007a650     IMAr2dAr3d.obj
+ 0002:00000660       __real@3cb0000000000000    1007a660     IMAr2dAr3d.obj
+ 0002:00000668       __real@400921fb54442d18    1007a668     IMAr2dAr3d.obj
+ 0002:00000670       __real@401921fb54442d18    1007a670     IMAr2dAr3d.obj
+ 0002:00000678       __real@3ce4000000000000    1007a678     IMAr2dAr3d.obj
+ 0002:00000680       __real@4059000000000000    1007a680     IMArcPjPl.obj
+ 0002:00000688       __real@3faaf286bca1af28    1007a688     IMArRgBx.obj
+ 0002:00000690       __real@bff0000000000000    1007a690     IMBSfIsoCv.obj
+ 0002:00000698       __real@c6293e5939a08cea    1007a698     IMCnExtr.obj
+ 0002:000006a0       __real@46293e5939a08cea    1007a6a0     IMCnExtr.obj
+ 0002:000006a8       __real@3fe999999999999a    1007a6a8     IMCSChkSc.obj
+ 0002:000006b0       __real@3eb0c6f7a0b5ed8d    1007a6b0     IMCSChkSc.obj
+ 0002:000006b8       __real@7fefffffffffffff    1007a6b8     IMCSOff.obj
+ 0002:000006c0       __real@3fe8000000000000    1007a6c0     IMCSOrNor.obj
+ 0002:000006c8       __real@3fd0000000000000    1007a6c8     IMCSOrNor.obj
+ 0002:000006d0       __real@3f1a36e2eb1c432d    1007a6d0     IMCvExtPly.obj
+ 0002:000006d8       __real@4000000000000000    1007a6d8     IMCvExtPly.obj
+ 0002:000006e0       __real@bfe0000000000000    1007a6e0     IMCvExtPly.obj
+ 0002:000006e8       __real@3cd203af9ee75616    1007a6e8     IMCvGtNodes.obj
+ 0002:000006f0       __real@3e45798ee2308c3a    1007a6f0     IMCvNormal.obj
+ 0002:000006f8       __real@4008000000000000    1007a6f8     IMCvToAr.obj
+ 0002:00000700       __real@c00921fb54442d18    1007a700     IMCvToAr.obj
+ 0002:00000708       __real@3fa999999999999a    1007a708     IMCvToAr.obj
+ 0002:00000710       __real@408f400000000000    1007a710     IMCvToAr.obj
+ 0002:00000718       __real@3fd3333333333333    1007a718     IMCvToAr.obj
+ 0002:00000720       __real@41f0000000000000    1007a720     IMCvVal.obj
+ 0002:00000728       __real@4012d97c7f3321d2    1007a728     IMElVPP.obj
+ 0002:00000730       __real@3fd6666666666666    1007a730     IMFitToPtsLines.obj
+ 0002:00000738       __real@3d719799812dea11    1007a738     IMFndCusp.obj
+ 0002:00000740       __real@3fdc28f5c28f5c29    1007a740     IMFrmG1Cv.obj
+ 0002:0000074c       ??_7JIOStreamContext@@6B@  1007a74c     IMG4RFS.obj
+ 0002:00000750       __real@4202a05f20000000    1007a750     IMGBSfExt.obj
+ 0002:00000758       ??_C@_0L@EBGHHMEB@BSsfxtdst0?$AA@ 1007a758     IMGBSfExt.obj
+ 0002:00000768       __real@bfa999999999999a    1007a768     IMGBSfExt.obj
+ 0002:00000770       __real@ffefffffffffffff    1007a770     IMGCvAlloc.obj
+ 0002:00000778       __real@40c3880000000000    1007a778     IMGElIcv.obj
+ 0002:00000780       __real@407f400000000000    1007a780     IMGetWrapPlane.obj
+ 0002:00000788       __real@c07f400000000000    1007a788     IMGetWrapPlane.obj
+ 0002:00000790       __real@3fe3333333333333    1007a790     IMGetWrapPlane.obj
+ 0002:00000798       __real@4066800000000000    1007a798     IMGRvIsf.obj
+ 0002:000007a0       __real@c000000000000000    1007a7a0     IMMD2TC.obj
+ 0002:000007a8       __real@3ff199999999999a    1007a7a8     IMPjPFPo.obj
+ 0002:000007b0       __real@bff199999999999a    1007a7b0     IMPjPFPo.obj
+ 0002:000007b8       __real@3bc79ca10c924223    1007a7b8     IMPlaneTanBsf.obj
+ 0002:000007c0       ??_C@_0BG@JICHJBKA@C?3?2temp?2Math_Geom?4txt?$AA@ 1007a7c0     IMPrintObject3d.obj
+ 0002:000007d8       ??_C@_01MCMALHOG@a?$AA@    1007a7d8     IMPrintObject3d.obj
+ 0002:000007dc       ??_C@_06OJKKCPKD@?$HNGArc?6?$AA@ 1007a7dc     IMPrtGAr.obj
+ 0002:000007e4       ??_C@_0P@NMEIFLBA@?$HNIGRbsp_curve?6?$AA@ 1007a7e4     IMPrtGAr.obj
+ 0002:000007f4       ??_C@_0P@FPPDALCA@IGRbsp_curve?$HL?6?$AA@ 1007a7f4     IMPrtGAr.obj
+ 0002:00000804       ??_C@_09NFCILOIK@endAngle?6?$AA@ 1007a804     IMPrtGAr.obj
+ 0002:00000810       ??_C@_09MMGNOMPB@?$CF20?415le?6?$AA@ 1007a810     IMPrtGAr.obj
+ 0002:0000081c       ??_C@_0M@GPPMECNC@startAngle?6?$AA@ 1007a81c     IMPrtGAr.obj
+ 0002:00000828       ??_C@_06CPPBDGMG@GArc?$HL?6?$AA@ 1007a828     IMPrtGAr.obj
+ 0002:00000830       ??_C@_0O@CDJCOEPK@?$HNGBoundaries?6?$AA@ 1007a830     IMPrtGBdry.obj
+ 0002:00000840       ??_C@_01EEMJAFIK@?6?$AA@   1007a840     IMPrtGBdry.obj
+ 0002:00000844       ??_C@_0BC@HNIGHCNL@numBoundaries?5?$CFu?6?$AA@ 1007a844     IMPrtGBdry.obj
+ 0002:00000858       ??_C@_0O@OKNLBIL@GBoundaries?$HL?6?$AA@ 1007a858     IMPrtGBdry.obj
+ 0002:00000868       ??_C@_07NBIABGAP@?$HNGCone?6?$AA@ 1007a868     IMPrtGCn.obj
+ 0002:00000870       ??_C@_0BB@BODAPJIH@?$HNIGRbsp_surface?6?$AA@ 1007a870     IMPrtGCn.obj
+ 0002:00000884       ??_C@_0BB@EICJKJME@IGRbsp_surface?$HL?6?$AA@ 1007a884     IMPrtGCn.obj
+ 0002:00000898       ??_C@_0BD@BPCHNENA@cappedWPlanes?5?$CFhu?6?$AA@ 1007a898     IMPrtGCn.obj
+ 0002:000008ac       ??_C@_05BALCGNHM@vMax?6?$AA@ 1007a8ac     IMPrtGCn.obj
+ 0002:000008b4       ??_C@_05JGCGBPNC@uMax?6?$AA@ 1007a8b4     IMPrtGCn.obj
+ 0002:000008bc       ??_C@_05MNKNJKFB@vMin?6?$AA@ 1007a8bc     IMPrtGCn.obj
+ 0002:000008c4       ??_C@_05ELDJOIPP@uMin?6?$AA@ 1007a8c4     IMPrtGCn.obj
+ 0002:000008cc       ??_C@_0N@ENBLPBBM@uvRange?5?$CFhu?6?$AA@ 1007a8cc     IMPrtGCn.obj
+ 0002:000008dc       ??_C@_0O@FGNDHMBG@reverseU?5?$CFhu?6?$AA@ 1007a8dc     IMPrtGCn.obj
+ 0002:000008ec       ??_C@_0N@GBHPABHF@cosineAngle?6?$AA@ 1007a8ec     IMPrtGCn.obj
+ 0002:000008fc       ??_C@_0L@OMHDLDPC@sineAngle?6?$AA@ 1007a8fc     IMPrtGCn.obj
+ 0002:00000908       ??_C@_07LNHFJICP@GCone?$HL?6?$AA@ 1007a908     IMPrtGCn.obj
+ 0002:00000910       ??_C@_0BB@KEHENKFB@?$HNGComplexString?6?$AA@ 1007a910     IMPrtGCS.obj
+ 0002:00000924       ??_C@_0L@GHKGEBKK@scope?5?$CFhu?6?$AA@ 1007a924     IMPrtGCS.obj
+ 0002:00000930       ??_C@_09BPIICOJM@form?5?$CFhu?6?$AA@ 1007a930     IMPrtGCS.obj
+ 0002:0000093c       ??_C@_0O@DJEEJCIC@numCurves?5?$CFu?6?$AA@ 1007a93c     IMPrtGCS.obj
+ 0002:0000094c       ??_C@_0BB@CHCDJKAG@GComplexString?$HL?6?$AA@ 1007a94c     IMPrtGCS.obj
+ 0002:00000960       ??_C@_0M@GJDEFCMD@?$HNGBspCurve?6?$AA@ 1007a960     IMPrtGCv.obj
+ 0002:0000096c       ??_C@_0O@PBHOHPDO@curve_flag?50?6?$AA@ 1007a96c     IMPrtGCv.obj
+ 0002:0000097c       ??_C@_0O@PALMBFAJ@curve_flag?51?6?$AA@ 1007a97c     IMPrtGCv.obj
+ 0002:0000098c       ??_C@_0BA@GNJJFBE@properties?5?$CFhu?6?$AA@ 1007a98c     IMPrtGCv.obj
+ 0002:0000099c       ??_C@_07IFINHGIO@length?6?$AA@ 1007a99c     IMPrtGCv.obj
+ 0002:000009a4       ??_C@_07BBBIBHHL@pKnots?6?$AA@ 1007a9a4     IMPrtGCv.obj
+ 0002:000009ac       ??_C@_09IOJMJDGB@pWeights?6?$AA@ 1007a9ac     IMPrtGCv.obj
+ 0002:000009b8       ??_C@_07BAJIEGMA@pPoles?6?$AA@ 1007a9b8     IMPrtGCv.obj
+ 0002:000009c0       ??_C@_0N@NINNBOM@rational?5?$CFd?6?$AA@ 1007a9c0     IMPrtGCv.obj
+ 0002:000009d0       ??_C@_0O@ODILOAOJ@numKnots?5?$CFlu?6?$AA@ 1007a9d0     IMPrtGCv.obj
+ 0002:000009e0       ??_C@_0O@IACMFCI@numPoles?5?$CFlu?6?$AA@ 1007a9e0     IMPrtGCv.obj
+ 0002:000009f0       ??_C@_0L@BPFBPOKC@order?5?$CFhu?6?$AA@ 1007a9f0     IMPrtGCv.obj
+ 0002:000009fc       ??_C@_0M@CEKBNBKC@GBspCurve?$HL?6?$AA@ 1007a9fc     IMPrtGCv.obj
+ 0002:00000a08       ??_C@_0L@JJKPMIHN@?$HNGEllipse?6?$AA@ 1007aa08     IMPrtGEl.obj
+ 0002:00000a14       ??_C@_0BB@MNLNLDG@minorMajorRatio?6?$AA@ 1007aa14     IMPrtGEl.obj
+ 0002:00000a28       ??_C@_0L@GNLMHGIA@majorAxis?6?$AA@ 1007aa28     IMPrtGEl.obj
+ 0002:00000a34       ??_C@_07DNLCPLIN@normal?6?$AA@ 1007aa34     IMPrtGEl.obj
+ 0002:00000a3c       ??_C@_07ICPJJPCM@center?6?$AA@ 1007aa3c     IMPrtGEl.obj
+ 0002:00000a44       ??_C@_0L@CLEGLPDN@GEllipse?$HL?6?$AA@ 1007aa44     IMPrtGEl.obj
+ 0002:00000a50       ??_C@_07KPJGFBHK@?$HNGLine?6?$AA@ 1007aa50     IMPrtGLn.obj
+ 0002:00000a58       ??_C@_04GMHPLJJ@end?6?$AA@ 1007aa58     IMPrtGLn.obj
+ 0002:00000a60       ??_C@_06ODNDLLAM@start?6?$AA@ 1007aa60     IMPrtGLn.obj
+ 0002:00000a68       ??_C@_0L@HKPFCEPJ@direction?6?$AA@ 1007aa68     IMPrtGLn.obj
+ 0002:00000a74       ??_C@_0L@IFKBMCPB@rootPoint?6?$AA@ 1007aa74     IMPrtGLn.obj
+ 0002:00000a80       ??_C@_07JNGEALNL@GLine?$HL?6?$AA@ 1007aa80     IMPrtGLn.obj
+ 0002:00000a88       ??_C@_0O@JMNHMMF@?$HNGLineString?6?$AA@ 1007aa88     IMPrtGLS.obj
+ 0002:00000a98       ??_C@_08IAHBHJLI@pPoints?6?$AA@ 1007aa98     IMPrtGLS.obj
+ 0002:00000aa4       ??_C@_0O@HOLOEACB@numPoints?5?$CFu?6?$AA@ 1007aaa4     IMPrtGLS.obj
+ 0002:00000ab4       ??_C@_0O@LIOBMDCO@GLineString?$HL?6?$AA@ 1007aab4     IMPrtGLS.obj
+ 0002:00000ac4       ??_C@_0O@DNJMHMJF@?$HNGProjection?6?$AA@ 1007aac4     IMPrtGPj.obj
+ 0002:00000ad4       ??_C@_0N@BGEAKPAH@isOrtho?5?$CFhu?6?$AA@ 1007aad4     IMPrtGPj.obj
+ 0002:00000ae4       ??_C@_0BB@KLOOEGKJ@isRevNormal?5?$CFhu?6?$AA@ 1007aae4     IMPrtGPj.obj
+ 0002:00000af8       ??_C@_08NIGEAOPA@projVec?6?$AA@ 1007aaf8     IMPrtGPj.obj
+ 0002:00000b04       ??_C@_0O@NDLOMDNK@GProjection?$HL?6?$AA@ 1007ab04     IMPrtGPj.obj
+ 0002:00000b14       ??_C@_08KMPJBNDN@?$HNGPlane?6?$AA@ 1007ab14     IMPrtGPl.obj
+ 0002:00000b20       ??_C@_0O@GHDLGGIL@reverseV?5?$CFhu?6?$AA@ 1007ab20     IMPrtGPl.obj
+ 0002:00000b30       ??_C@_0M@FANCCKEJ@uDirection?6?$AA@ 1007ab30     IMPrtGPl.obj
+ 0002:00000b3c       ??_C@_08PBCMCNBB@GPlane?$HL?6?$AA@ 1007ab3c     IMPrtGPl.obj
+ 0002:00000b48       ??_C@_0M@CCHDMBDI@?$HNGPolyMesh?6?$AA@ 1007ab48     IMPrtGPM.obj
+ 0002:00000b54       ??_C@_0BB@KBJGJFEH@?$CFld?5?$CFld?5?$CFld?5?$CFld?6?$AA@ 1007ab54     IMPrtGPM.obj
+ 0002:00000b68       ??_C@_08LMNBCIDO@pFacets?6?$AA@ 1007ab68     IMPrtGPM.obj
+ 0002:00000b74       ??_C@_0N@FJGIHMLA@nFacets?5?$CFld?6?$AA@ 1007ab74     IMPrtGPM.obj
+ 0002:00000b84       ??_C@_03CHFKDKPH@pV?6?$AA@ 1007ab84     IMPrtGPM.obj
+ 0002:00000b88       ??_C@_03CFBMIEKO@pU?6?$AA@ 1007ab88     IMPrtGPM.obj
+ 0002:00000b8c       ??_C@_09EDMAINNA@pNormals?6?$AA@ 1007ab8c     IMPrtGPM.obj
+ 0002:00000b98       ??_C@_0M@OIFLNKF@GPolyMesh?$HL?6?$AA@ 1007ab98     IMPrtGPM.obj
+ 0002:00000ba4       ??_C@_08HPJONBF@?$HNGPoint?6?$AA@ 1007aba4     IMPrtGPt.obj
+ 0002:00000bb0       ??_C@_09IKGFHADP@position?6?$AA@ 1007abb0     IMPrtGPt.obj
+ 0002:00000bbc       ??_C@_08MEDCIFBL@GPoint?$HL?6?$AA@ 1007abbc     IMPrtGPt.obj
+ 0002:00000bc8       ??_C@_08DBOMHGMA@?$HNGRuled?6?$AA@ 1007abc8     IMPrtGRu.obj
+ 0002:00000bd4       ??_C@_0BA@FJFMGOOL@surface_flag?50?6?$AA@ 1007abd4     IMPrtGRu.obj
+ 0002:00000be4       ??_C@_0BA@FIJOAENM@surface_flag?51?6?$AA@ 1007abe4     IMPrtGRu.obj
+ 0002:00000bf4       ??_C@_08DCLNLGNL@GRuled?$HL?6?$AA@ 1007abf4     IMPrtGRu.obj
+ 0002:00000c00       ??_C@_0O@NMAHGOPA@?$HNGRevolution?6?$AA@ 1007ac00     IMPrtGRv.obj
+ 0002:00000c10       ??_C@_0BA@BPHILDKM@isCoplanar?5?$CFhu?6?$AA@ 1007ac10     IMPrtGRv.obj
+ 0002:00000c20       ??_C@_0M@LDBOKFOL@sweepAngle?6?$AA@ 1007ac20     IMPrtGRv.obj
+ 0002:00000c2c       ??_C@_05KOEBKPKH@axis?6?$AA@ 1007ac2c     IMPrtGRv.obj
+ 0002:00000c34       ??_C@_0O@OOIHMNBP@GRevolution?$HL?6?$AA@ 1007ac34     IMPrtGRv.obj
+ 0002:00000c44       ??_C@_0O@MNPJGCID@?$HNGBspSurface?6?$AA@ 1007ac44     IMPrtGSf.obj
+ 0002:00000c54       ??_C@_0BA@NAJBDIJO@vParamEdge?5?$CFhu?6?$AA@ 1007ac54     IMPrtGSf.obj
+ 0002:00000c64       ??_C@_0BA@PJFJIMGM@uParamEdge?5?$CFhu?6?$AA@ 1007ac64     IMPrtGSf.obj
+ 0002:00000c74       ??_C@_0L@MOEPGMGG@vForm?5?$CFhu?6?$AA@ 1007ac74     IMPrtGSf.obj
+ 0002:00000c80       ??_C@_0L@FHKNAKGH@uForm?5?$CFhu?6?$AA@ 1007ac80     IMPrtGSf.obj
+ 0002:00000c8c       ??_C@_0P@KJDEFLON@posOrient?5?$CFhu?6?$AA@ 1007ac8c     IMPrtGSf.obj
+ 0002:00000c9c       ??_C@_08FNIJHELI@pVKnots?6?$AA@ 1007ac9c     IMPrtGSf.obj
+ 0002:00000ca8       ??_C@_08NDAGHDFL@pUKnots?6?$AA@ 1007aca8     IMPrtGSf.obj
+ 0002:00000cb4       ??_C@_0P@MCBOMEP@vNumKnots?5?$CFlu?6?$AA@ 1007acb4     IMPrtGSf.obj
+ 0002:00000cc4       ??_C@_0P@BNFMIGDG@uNumKnots?5?$CFlu?6?$AA@ 1007acc4     IMPrtGSf.obj
+ 0002:00000cd4       ??_C@_0P@OHKIMJIO@vNumPoles?5?$CFlu?6?$AA@ 1007acd4     IMPrtGSf.obj
+ 0002:00000ce4       ??_C@_0P@PGNFKDPH@uNumPoles?5?$CFlu?6?$AA@ 1007ace4     IMPrtGSf.obj
+ 0002:00000cf4       ??_C@_0M@ECOICCOC@vOrder?5?$CFhu?6?$AA@ 1007acf4     IMPrtGSf.obj
+ 0002:00000d00       ??_C@_0M@DFHGPABC@uOrder?5?$CFhu?6?$AA@ 1007ad00     IMPrtGSf.obj
+ 0002:00000d0c       ??_C@_0O@CHJKBDJF@GBspSurface?$HL?6?$AA@ 1007ad0c     IMPrtGSf.obj
+ 0002:00000d1c       ??_C@_09FCEACPDN@?$HNGSphere?6?$AA@ 1007ad1c     IMPrtGSph.obj
+ 0002:00000d28       ??_C@_07KOJHMHHH@radius?6?$AA@ 1007ad28     IMPrtGSph.obj
+ 0002:00000d30       ??_C@_08LCHGDAFP@poleDir?6?$AA@ 1007ad30     IMPrtGSph.obj
+ 0002:00000d3c       ??_C@_0L@OFBBJCLN@originDir?6?$AA@ 1007ad3c     IMPrtGSph.obj
+ 0002:00000d48       ??_C@_09EKFNCALN@GSphere?$HL?6?$AA@ 1007ad48     IMPrtGSph.obj
+ 0002:00000d54       ??_C@_0O@OKJIGONK@?$HNGTypedCurve?6?$AA@ 1007ad54     IMPrtGTC.obj
+ 0002:00000d64       ??_C@_09JCMDANKI@type?5?$CFhu?6?$AA@ 1007ad64     IMPrtGTC.obj
+ 0002:00000d70       ??_C@_0O@DFAKJLMJ@GTypedCurve?$HL?6?$AA@ 1007ad70     IMPrtGTC.obj
+ 0002:00000d80       ??_C@_0BB@IEODGOHK@?$HNGTypedGeometry?6?$AA@ 1007ad80     IMPrtGTGm.obj
+ 0002:00000d94       ??_C@_0BB@ILLPPEPC@GTypedGeometry?$HL?6?$AA@ 1007ad94     IMPrtGTGm.obj
+ 0002:00000da8       ??_C@_08GGNBKJIO@?$HNGTorus?6?$AA@ 1007ada8     IMPrtGTor.obj
+ 0002:00000db4       ??_C@_0N@DNIINJOD@minorRadius?6?$AA@ 1007adb4     IMPrtGTor.obj
+ 0002:00000dc4       ??_C@_0N@ILFNNMJP@majorRadius?6?$AA@ 1007adc4     IMPrtGTor.obj
+ 0002:00000dd4       ??_C@_08KDIOOHJD@GTorus?$HL?6?$AA@ 1007add4     IMPrtGTor.obj
+ 0002:00000de0       ??_C@_0BA@HJJGDELA@?$HNGTypedSurface?6?$AA@ 1007ade0     IMPrtGTS.obj
+ 0002:00000df0       ??_C@_0BA@DHJKBINM@GTypedSurface?$HL?6?$AA@ 1007adf0     IMPrtGTS.obj
+ 0002:00000e00       ??_C@_05CJFPHPBI@?$HNGArc?$AA@ 1007ae00     IMRdAr.obj
+ 0002:00000e08       ??_C@_08KICKIHDM@endAngle?$AA@ 1007ae08     IMRdAr.obj
+ 0002:00000e14       ??_C@_03DLDNIBIK@?$CFlf?$AA@ 1007ae14     IMRdAr.obj
+ 0002:00000e18       ??_C@_0L@KMOANKMI@startAngle?$AA@ 1007ae18     IMRdAr.obj
+ 0002:00000e24       ??_C@_05HOJPKICC@GArc?$HL?$AA@ 1007ae24     IMRdAr.obj
+ 0002:00000e2c       ??_C@_02DKCKIIND@?$CFs?$AA@ 1007ae2c     IMRdAr.obj
+ 0002:00000e30       ??_C@_0M@HBEEPJK@?$CFlf?5?$CFlf?5?$CFlf?$AA@ 1007ae30     IMRdAr.obj
+ 0002:00000e3c       ??_C@_0N@IFFJEKLH@?$CFlf?5?$CFlf?5?$CFlf?5?$AA@ 1007ae3c     IMRdAr.obj
+ 0002:00000e4c       ??_C@_0N@KLFGKMOJ@?$HNGBoundaries?$AA@ 1007ae4c     IMRdBdryOp.obj
+ 0002:00000e5c       ??_C@_03FKNCMABI@?$CFlu?$AA@ 1007ae5c     IMRdBdryOp.obj
+ 0002:00000e60       ??_C@_0O@JKNKKJPB@numBoundaries?$AA@ 1007ae60     IMRdBdryOp.obj
+ 0002:00000e70       ??_C@_0N@JGOMFABG@GBoundaries?$HL?$AA@ 1007ae70     IMRdBdryOp.obj
+ 0002:00000e80       ??_C@_06NLKEBHLK@?$HNGCone?$AA@ 1007ae80     IMRdCn.obj
+ 0002:00000e88       ??_C@_0O@NHBBMCPA@cappedWPlanes?$AA@ 1007ae88     IMRdCn.obj
+ 0002:00000e98       ??_C@_04IIMCMPIE@vMax?$AA@ 1007ae98     IMRdCn.obj
+ 0002:00000ea0       ??_C@_04MPGCLFFE@uMax?$AA@ 1007aea0     IMRdCn.obj
+ 0002:00000ea8       ??_C@_04JKEJCLOL@vMin?$AA@ 1007aea8     IMRdCn.obj
+ 0002:00000eb0       ??_C@_04NNOJFBDL@uMin?$AA@ 1007aeb0     IMRdCn.obj
+ 0002:00000eb8       ??_C@_07JKCKGPAF@uvRange?$AA@ 1007aeb8     IMRdCn.obj
+ 0002:00000ec0       ??_C@_03FNNLGIME@?$CFhu?$AA@ 1007aec0     IMRdCn.obj
+ 0002:00000ec4       ??_C@_08PLGBMJCC@reverseU?$AA@ 1007aec4     IMRdCn.obj
+ 0002:00000ed0       ??_C@_0M@PECLEPMA@cosineAngle?$AA@ 1007aed0     IMRdCn.obj
+ 0002:00000edc       ??_C@_09PAJEDNNP@sineAngle?$AA@ 1007aedc     IMRdCn.obj
+ 0002:00000ee8       ??_C@_06CILPNKOO@GCone?$HL?$AA@ 1007aee8     IMRdCn.obj
+ 0002:00000ef0       ??_C@_07JNLHAIBP@?$CFlf?5?$CFlf?$AA@ 1007aef0     IMRdCn.obj
+ 0002:00000ef8       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1007aef8     IMRdCn.obj
+ 0002:00000efc       ??_C@_0BA@EFMLNFHI@?$HNGComplexString?$AA@ 1007aefc     IMRdCSOp.obj
+ 0002:00000f0c       ??_C@_05DCCHDMEJ@scope?$AA@ 1007af0c     IMRdCSOp.obj
+ 0002:00000f14       ??_C@_04MLMMMEIO@form?$AA@ 1007af14     IMRdCSOp.obj
+ 0002:00000f1c       ??_C@_09ILMFAMDN@numCurves?$AA@ 1007af1c     IMRdCSOp.obj
+ 0002:00000f28       ??_C@_0BA@MBAOEFGP@GComplexString?$HL?$AA@ 1007af28     IMRdCSOp.obj
+ 0002:00000f38       ??_C@_0L@NCEFNEIN@?$HNGBspCurve?$AA@ 1007af38     IMRdCvOp.obj
+ 0002:00000f44       ??_C@_0L@NJDJMMPD@curve_flag?$AA@ 1007af44     IMRdCvOp.obj
+ 0002:00000f50       ??_C@_0L@CIHKIEFA@properties?$AA@ 1007af50     IMRdCvOp.obj
+ 0002:00000f5c       ??_C@_06IJDLPEM@length?$AA@ 1007af5c     IMRdCvOp.obj
+ 0002:00000f64       ??_C@_06PJMJMOMF@pKnots?$AA@ 1007af64     IMRdCvOp.obj
+ 0002:00000f6c       ??_C@_08MCKJHBID@pWeights?$AA@ 1007af6c     IMRdCvOp.obj
+ 0002:00000f78       ??_C@_06KCOJHDIE@pPoles?$AA@ 1007af78     IMRdCvOp.obj
+ 0002:00000f80       ??_C@_08KMPIOPJN@rational?$AA@ 1007af80     IMRdCvOp.obj
+ 0002:00000f8c       ??_C@_08PELEDNNJ@numKnots?$AA@ 1007af8c     IMRdCvOp.obj
+ 0002:00000f98       ??_C@_08KPJEIAJI@numPoles?$AA@ 1007af98     IMRdCvOp.obj
+ 0002:00000fa4       ??_C@_05NDNMCCJH@order?$AA@ 1007afa4     IMRdCvOp.obj
+ 0002:00000fac       ??_C@_0L@PFKHONON@GBspCurve?$HL?$AA@ 1007afac     IMRdCvOp.obj
+ 0002:00000fb8       ??_C@_09EGEMCOBN@?$HNGEllipse?$AA@ 1007afb8     IMRdEl.obj
+ 0002:00000fc4       ??_C@_0BA@INBFOHNF@minorMajorRatio?$AA@ 1007afc4     IMRdEl.obj
+ 0002:00000fd4       ??_C@_09IBEHICAL@majorAxis?$AA@ 1007afd4     IMRdEl.obj
+ 0002:00000fe0       ??_C@_06IKLLLDHL@normal?$AA@ 1007afe0     IMRdEl.obj
+ 0002:00000fe8       ??_C@_06BBLOAEEI@center?$AA@ 1007afe8     IMRdEl.obj
+ 0002:00000ff0       ??_C@_09BCDAEGKE@GEllipse?$HL?$AA@ 1007aff0     IMRdEl.obj
+ 0002:00000ffc       ??_C@_0N@KEDMKLHL@?$HNGProjection?$AA@ 1007affc     IMRdGPj.obj
+ 0002:0000100c       ??_C@_07LFBJIAJN@isOrtho?$AA@ 1007b00c     IMRdGPj.obj
+ 0002:00001014       ??_C@_0M@LAKOPLBE@isRevNormal?$AA@ 1007b014     IMRdGPj.obj
+ 0002:00001020       ??_C@_07IJPAMDLG@projVec?$AA@ 1007b020     IMRdGPj.obj
+ 0002:00001028       ??_C@_0N@IIOCMIHJ@GProjection?$HL?$AA@ 1007b028     IMRdGPj.obj
+ 0002:00001038       ??_C@_0L@JBACGIKI@?$HNGPolyMesh?$AA@ 1007b038     IMRdGPM.obj
+ 0002:00001044       ??_C@_03JALODAI@?$CFld?$AA@ 1007b044     IMRdGPM.obj
+ 0002:00001048       ??_C@_07FHHOMNKP@pFacets?$AA@ 1007b048     IMRdGPM.obj
+ 0002:00001050       ??_C@_07DOEPOOLG@nFacets?$AA@ 1007b050     IMRdGPM.obj
+ 0002:00001058       ??_C@_02LIKOLEGP@pV?$AA@   1007b058     IMRdGPM.obj
+ 0002:0000105c       ??_C@_02JDIDOHKM@pU?$AA@   1007b05c     IMRdGPM.obj
+ 0002:00001060       ??_C@_08EJLBFDHG@pNormals?$AA@ 1007b060     IMRdGPM.obj
+ 0002:0000106c       ??_C@_07PEMLJKIL@pPoints?$AA@ 1007b06c     IMRdGPM.obj
+ 0002:00001074       ??_C@_02GMHACPFF@?$CFu?$AA@ 1007b074     IMRdGPM.obj
+ 0002:00001078       ??_C@_09OAMHLLDH@numPoints?$AA@ 1007b078     IMRdGPM.obj
+ 0002:00001084       ??_C@_0L@LOOAHOBG@GPolyMesh?$HL?$AA@ 1007b084     IMRdGPM.obj
+ 0002:00001090       ??_C@_07HEPMOFBK@?$HNGPoint?$AA@ 1007b090     IMRdGPt.obj
+ 0002:00001098       ??_C@_08OAGMDKAF@position?$AA@ 1007b098     IMRdGPt.obj
+ 0002:000010a4       ??_C@_07LDBKEKOH@GPoint?$HL?$AA@ 1007b0a4     IMRdGPt.obj
+ 0002:000010ac       ??_C@_07GCCNMGLA@?$HNGRuled?$AA@ 1007b0ac     IMRdGRu.obj
+ 0002:000010b4       ??_C@_0N@EOKLNCI@surface_flag?$AA@ 1007b0b4     IMRdGRu.obj
+ 0002:000010c4       ??_C@_07IFAPNBDC@GRuled?$HL?$AA@ 1007b0c4     IMRdGRu.obj
+ 0002:000010cc       ??_C@_0N@DBLGNGDA@?$HNGRevolution?$AA@ 1007b0cc     IMRdGRv.obj
+ 0002:000010dc       ??_C@_0L@PEKCCOEE@isCoplanar?$AA@ 1007b0dc     IMRdGRv.obj
+ 0002:000010e8       ??_C@_0L@JIAKCMOG@sweepAngle?$AA@ 1007b0e8     IMRdGRv.obj
+ 0002:000010f4       ??_C@_04HABAAEPG@axis?$AA@ 1007b0f4     IMRdGRv.obj
+ 0002:000010fc       ??_C@_0N@GJHJNKBM@GRevolution?$HL?$AA@ 1007b0fc     IMRdGRv.obj
+ 0002:0000110c       ??_C@_08MIBIOCKN@?$HNGSphere?$AA@ 1007b10c     IMRdGSph.obj
+ 0002:00001118       ??_C@_08NAEMJKOB@reverseV?$AA@ 1007b118     IMRdGSph.obj
+ 0002:00001124       ??_C@_06KGHINEPG@radius?$AA@ 1007b124     IMRdGSph.obj
+ 0002:0000112c       ??_C@_07CLOOJOKH@poleDir?$AA@ 1007b12c     IMRdGSph.obj
+ 0002:00001134       ??_C@_09IJFHOAP@?$CFlf?$CFlf?$CFlf?$AA@ 1007b134     IMRdGSph.obj
+ 0002:00001140       ??_C@_09CEPJFJND@originDir?$AA@ 1007b140     IMRdGSph.obj
+ 0002:0000114c       ??_C@_08GCFABFHK@GSphere?$HL?$AA@ 1007b14c     IMRdGSph.obj
+ 0002:00001158       ??_C@_07DHEHKNME@?$HNGTorus?$AA@ 1007b158     IMRdGTor.obj
+ 0002:00001160       ??_C@_0M@LAJJNNHL@minorRadius?$AA@ 1007b160     IMRdGTor.obj
+ 0002:0000116c       ??_C@_0M@DLBJMEE@majorRadius?$AA@ 1007b16c     IMRdGTor.obj
+ 0002:00001178       ??_C@_07NCDCAOHM@GTorus?$HL?$AA@ 1007b178     IMRdGTor.obj
+ 0002:00001180       ??_C@_0P@KKFJPNBH@?$HNGTypedSurface?$AA@ 1007b180     IMRdGTS.obj
+ 0002:00001190       ??_C@_04GPMDFGEJ@type?$AA@ 1007b190     IMRdGTS.obj
+ 0002:00001198       ??_C@_0P@KCPGMFPF@GTypedSurface?$HL?$AA@ 1007b198     IMRdGTS.obj
+ 0002:000011a8       ??_C@_06HMJPNPLH@?$HNGLine?$AA@ 1007b1a8     IMRdLn.obj
+ 0002:000011b0       ??_C@_03JBJLGPFL@end?$AA@  1007b1b0     IMRdLn.obj
+ 0002:000011b4       ??_C@_05FAGFPHJG@start?$AA@ 1007b1b4     IMRdLn.obj
+ 0002:000011bc       ??_C@_09HPKLLIJF@direction?$AA@ 1007b1bc     IMRdLn.obj
+ 0002:000011c8       ??_C@_09CECHMAEM@rootPoint?$AA@ 1007b1c8     IMRdLn.obj
+ 0002:000011d4       ??_C@_06FGKJJNJL@GLine?$HL?$AA@ 1007b1d4     IMRdLn.obj
+ 0002:000011dc       ??_C@_0N@JLOFAHBC@?$HNGLineString?$AA@ 1007b1dc     IMRdLS.obj
+ 0002:000011ec       ??_C@_0N@LMLDMICJ@GLineString?$HL?$AA@ 1007b1ec     IMRdLS.obj
+ 0002:000011fc       ??_C@_03OACELNE@?$CFhd?$AA@ 1007b1fc     IMRdLS.obj
+ 0002:00001200       ??_C@_07KFDBJEDF@?$HNGPlane?$AA@ 1007b200     IMRdPl.obj
+ 0002:00001208       ??_C@_0L@DHIOJMGO@uDirection?$AA@ 1007b208     IMRdPl.obj
+ 0002:00001214       ??_C@_07BIBKLKMP@GPlane?$HL?$AA@ 1007b214     IMRdPl.obj
+ 0002:0000121c       ??_C@_0BA@KHNDNALP@?$CFld?5?$CFld?5?$CFld?5?$CFld?$AA@ 1007b21c     IMRdPM.obj
+ 0002:0000122c       ??_C@_08OOHKHLPO@?$CFd?5?$CFd?5?$CFd?$AA@ 1007b22c     IMRdRu.obj
+ 0002:00001238       ??_C@_0N@MOLBPJOL@?$HNGBspSurface?$AA@ 1007b238     IMRdSfOp.obj
+ 0002:00001248       ??_C@_0L@HGHIPNBO@vParamEdge?$AA@ 1007b248     IMRdSfOp.obj
+ 0002:00001254       ??_C@_0L@OPJKJLBP@uParamEdge?$AA@ 1007b254     IMRdSfOp.obj
+ 0002:00001260       ??_C@_05KAJGFDOI@vForm?$AA@ 1007b260     IMRdSfOp.obj
+ 0002:00001268       ??_C@_05CGACCBEG@uForm?$AA@ 1007b268     IMRdSfOp.obj
+ 0002:00001270       ??_C@_09COFACLJI@posOrient?$AA@ 1007b270     IMRdSfOp.obj
+ 0002:0000127c       ??_C@_07BLKFDOE@pVKnots?$AA@ 1007b27c     IMRdSfOp.obj
+ 0002:00001284       ??_C@_07DAFCEJHJ@pUKnots?$AA@ 1007b284     IMRdSfOp.obj
+ 0002:0000128c       ??_C@_09IIJBDGHN@vNumKnots?$AA@ 1007b28c     IMRdSfOp.obj
+ 0002:00001298       ??_C@_09GDKGINHO@uNumKnots?$AA@ 1007b298     IMRdSfOp.obj
+ 0002:000012a4       ??_C@_09NDLBILDM@vNumPoles?$AA@ 1007b2a4     IMRdSfOp.obj
+ 0002:000012b0       ??_C@_09DIIGDADP@uNumPoles?$AA@ 1007b2b0     IMRdSfOp.obj
+ 0002:000012bc       ??_C@_06HHGGLMGN@vOrder?$AA@ 1007b2bc     IMRdSfOp.obj
+ 0002:000012c4       ??_C@_06EGIOKGPA@uOrder?$AA@ 1007b2c4     IMRdSfOp.obj
+ 0002:000012cc       ??_C@_0N@HIIHNGGP@GBspSurface?$HL?$AA@ 1007b2cc     IMRdSfOp.obj
+ 0002:000012dc       ??_C@_05OKMLJOMC@?$CFd?5?$CFd?$AA@ 1007b2dc     IMRdSfOp.obj
+ 0002:000012e4       ??_C@_0N@KNPMAKJK@?$HNGTypedCurve?$AA@ 1007b2e4     IMRdTC.obj
+ 0002:000012f4       ??_C@_0N@FPOGNKDG@GTypedCurve?$HL?$AA@ 1007b2f4     IMRdTC.obj
+ 0002:00001304       ??_C@_03LGEJDEPL@?$CFuh?$AA@ 1007b304     IMRdTC.obj
+ 0002:00001308       ??_C@_0BA@LNPKENAN@?$HNGTypedGeometry?$AA@ 1007b308     IMRdTGm.obj
+ 0002:00001318       ??_C@_0BA@OBJJPBEE@GTypedGeometry?$HL?$AA@ 1007b318     IMRdTGm.obj
+ 0002:00001328       __real@4004000000000000    1007b328     IMSfNBdry.obj
+ 0002:00001330       __real@3c9cd2b297d889bc    1007b330     IMTCLen.obj
+ 0002:00001338       __real@3abef2d0f5da7dd9    1007b338     IMTCSilhouet.obj
+ 0002:00001340       __real@3fb47ae147ae147b    1007b340     IMTCSilhouet.obj
+ 0002:00001348       __real@3f0a36e2eb1c432d    1007b348     IMTCSilhouet.obj
+ 0002:00001350       __real@c01921fb54442d18    1007b350     IMToVal.obj
+ 0002:00001358       __real@3feccccccccccccd    1007b358     IMTSFdMjDr.obj
+ 0002:00001360       __real@4010000000000000    1007b360     IMXGLnGSp.obj
+ 0002:0000136c       ??_7type_info@@6B@         1007b36c     MSVCRT:ti_inst.obj
+ 0002:00001370       __pDefaultRawDllMain       1007b370     MSVCRT:crtdll.obj
+ 0002:00001370       __pRawDllMain              1007b370     MSVCRT:crtdll.obj
+ 0002:00001380       __load_config_used         1007b380     MSVCRT:loadcfg.obj
+ 0002:000013f8       ??_R4JIOStreamContext@@6B@ 1007b3f8     IMG4RFS.obj
+ 0002:0000140c       ??_R3JIOStreamContext@@8   1007b40c     IMG4RFS.obj
+ 0002:0000141c       ??_R2JIOStreamContext@@8   1007b41c     IMG4RFS.obj
+ 0002:00001424       ??_R1A@?0A@EA@JIOStreamContext@@8 1007b424     IMG4RFS.obj
+ 0002:00001440       ??_R4type_info@@6B@        1007b440     MSVCRT:ti_inst.obj
+ 0002:00001454       ??_R3type_info@@8          1007b454     MSVCRT:ti_inst.obj
+ 0002:00001464       ??_R2type_info@@8          1007b464     MSVCRT:ti_inst.obj
+ 0002:0000146c       ??_R1A@?0A@EA@type_info@@8 1007b46c     MSVCRT:ti_inst.obj
+ 0002:00001490       ___safe_se_handler_table   1007b490     <linker-defined>
+ 0002:0000155c       ___rtc_iaa                 1007b55c     MSVCRT:initsect.obj
+ 0002:00001560       ___rtc_izz                 1007b560     MSVCRT:initsect.obj
+ 0002:00001564       ___rtc_taa                 1007b564     MSVCRT:initsect.obj
+ 0002:00001568       ___rtc_tzz                 1007b568     MSVCRT:initsect.obj
+ 0002:00001ecc       __IMPORT_DESCRIPTOR_ubspm2d 1007becc     ubspm2d:ubspm2d.dll
+ 0002:00001ee0       __IMPORT_DESCRIPTOR_ubspm3d 1007bee0     ubspm3d:ubspm3d.dll
+ 0002:00001ef4       __IMPORT_DESCRIPTOR_ugeom2d 1007bef4     ugeom2d:ugeom2d.dll
+ 0002:00001f08       __IMPORT_DESCRIPTOR_umath  1007bf08     umath:umath.dll
+ 0002:00001f1c       __IMPORT_DESCRIPTOR_MSVCR80 1007bf1c     MSVCRT:MSVCR80.dll
+ 0002:00001f30       __IMPORT_DESCRIPTOR_KERNEL32 1007bf30     kernel32:KERNEL32.dll
+ 0002:00001f44       __NULL_IMPORT_DESCRIPTOR   1007bf44     ubspm2d:ubspm2d.dll
+ 0003:00000000       __newmode                  10083000     newmode.obj
+ 0003:00000008       ??_R0?AVJIOStreamContext@@@8 10083008     IMG4RFS.obj
+ 0003:00000030       ___security_cookie         10083030     MSVCRT:gs_cookie.obj
+ 0003:00000034       ___security_cookie_complement 10083034     MSVCRT:gs_cookie.obj
+ 0003:00000040       ??_R0?AVtype_info@@@8      10083040     MSVCRT:ti_inst.obj
+ 0003:00000058       ___native_dllmain_reason   10083058     MSVCRT:natstart.obj
+ 0003:0000005c       ___native_vcclrit_reason   1008305c     MSVCRT:natstart.obj
+ 0003:0000039c       ?__type_info_root_node@@3U__type_info_node@@A 1008339c     MSVCRT:tncleanup.obj
+ 0003:000003a4       __adjust_fdiv              100833a4     <common>
+ 0003:000003a8       ___native_startup_state    100833a8     <common>
+ 0003:000003ac       ___native_startup_lock     100833ac     <common>
+ 0003:000003b0       ___onexitend               100833b0     <common>
+ 0003:000003b4       ___onexitbegin             100833b4     <common>
+ 0003:000003b8       ___sse2_available          100833b8     <common>
+ 0003:000003bc       ___dyn_tls_init_callback   100833bc     <common>
+
+ entry point at        0001:0007783e
+
+ Static symbols
+
+ 0001:00000890       ?MergeTC_IMAngleOffCv@@YAXAAUtagGTypedCurve2d@@00PAH@Z 10001890 f   IMAngleOffCv.obj
+ 0001:00000a50       ?AdjustOffset_IMAngleOffCv@@YAXAAUtagGComplexString2d@@PAH01@Z 10001a50 f   IMAngleOffCv.obj
+ 0001:00001010       ?OffsetIMAngleOffCv@@YAXAAUtagGComplexString@@AAUtagGUnitVector@@NHH0PAH2@Z 10002010 f   IMAngleOffCv.obj
+ 0001:00001800       ?auxIMAngleOffCv@@YAXAAUtagGComplexString@@AAUtagGUnitVector@@NHH0PAH2@Z 10002800 f   IMAngleOffCv.obj
+ 0001:00001eb0       ?RaiseEndIMAngleOffCv@@YAXAAUtagGUnitVector@@UtagGPosition@@AAUtagGTypedCurve@@PAH@Z 10002eb0 f   IMAngleOffCv.obj
+ 0001:00002030       ?compatibleIMAngleOffCv@@YAXAAUtagGTypedCurve@@AAUtagGUnitVector@@NNHUtagGPosition@@0PAH@Z 10003030 f   IMAngleOffCv.obj
+ 0001:00003550       ?convertIMAr3dAr2d@@YAXABUtagGArc@@AAUtagGArc2d@@PAH@Z 10004550 f   IMAr3dAr2d.obj
+ 0001:00003a10       ?old_IMArcPjPl@@YAXAAUtagGArc@@ABUtagGPlane@@AAUtagGUnitVector@@AAUtagGLine@@PAH@Z 10004a10 f   IMArcPjPl.obj
+ 0001:00003ed0       ?new_IMArcSpline@@YAXAAUtagGBspCurve@@NPAHPAPAUtagGTypedCurve@@1@Z 10004ed0 f   IMArcSpline.obj
+ 0001:00004fd0       ?IMArSERN_Old@@YAXABUtagGPosition@@0NUtagGUnitVector@@0AAUtagGArc@@PAH@Z 10005fd0 f   IMArSERN.obj
+ 0001:00008af0       ?chkcoplIMBoundedGPlaneBy2TypedCurves@@YAXAAUtagGTypedCurve@@0UtagGPosition@@111HHUtagGUnitVector@@2PAH3@Z 10009af0 f   IMBPlBy2Cvs.obj
+ 0001:0000acb0       ?_sort_IMBSfByBdry@@YAXHPAUtagGBspCurve@@PAH@Z 1000bcb0 f   IMBSfByBdry.obj
+ 0001:0000d550       ?xlnarcIMBoundedGTorusByAxisGArc@@YAXUtagGPosition@@0UtagGArc@@00PAHQAU1@QAN2@Z 1000e550 f   IMBToByAxAr.obj
+ 0001:0000f8a0       ?planesIMGBoxPtFrustumLocate@@YAXABUtagGPtFrustum@@ABUtagGPosition@@PAU2@PAUtagGUnitVector@@PAH@Z 100108a0 f   IMBxPtFrLo.obj
+ 0001:00010050       ?recplanesIMGBoxPtFenceLocate@@YAXQAUtagGPosition@@PAHQAY03U1@QAUtagGUnitVector@@1@Z 10011050 f   IMBxPtFrLo.obj
+ 0001:00012390       ?ComputeKnotsIMCrGCv@@YAXAAUtagGBspCurve@@PAH@Z 10013390 f   IMCrGCv.obj
+ 0001:00014050       ?cv_cpyIMComplexStringFlatten@@YAXABUtagGComplexString@@PAKPAUtagGTypedCurve@@PAH@Z 10015050 f   IMCSFlat.obj
+ 0001:00014130       ?cv_cntIMComplexStringFlatten@@YAXABUtagGComplexString@@PAKPAH@Z 10015130 f   IMCSFlat.obj
+ 0001:000142e0       ?cv_cntIMComplexStringLineStringToLines@@YAXABUtagGComplexString@@PAK@Z 100152e0 f   IMCSLSTLns.obj
+ 0001:00016a20       ?moveMid_IMCvCoolEdit@@YAXABUtagGBspCurve@@AAUtagGPosition@@AAUtagGVector@@AAU1@PAH@Z 10017a20 f   IMCvCoolEdit.obj
+ 0001:00016da0       ?moveLeft_IMCvCoolEdit@@YAXABUtagGBspCurve@@AAUtagGVector@@AAU1@PAH@Z 10017da0 f   IMCvCoolEdit.obj
+ 0001:000171f0       ?rational_IMCvExtLn@@YAXAAUtagGBspCurve@@HN0PAH@Z 100181f0 f   IMCvExtLn.obj
+ 0001:00017860       ?nonRational_IMCvExtLn@@YAXAAUtagGBspCurve@@HN0PAH@Z 10018860 f   IMCvExtLn.obj
+ 0001:000182b0       ?extend_IMCvExtPly@@YAXAAUtagGBspCurve@@NH00PAH@Z 100192b0 f   IMCvExtPly.obj
+ 0001:0001b5b0       ?CreateLineByManyPoints@@YAXHPAUtagGPosition@@AAU1@AAUtagGLine@@@Z 1001c5b0 f   IMCvPjPl.obj
+ 0001:0001c320       ?oldIMCvToAr@@YAXABUtagGBspCurve@@NPAHAAUtagGTypedCurve@@1@Z 1001d320 f   IMCvToAr.obj
+ 0001:0001cd50       ?newIMCvToAr@@YAXABUtagGBspCurve@@AAUtagGUnitVector@@HNPAHAAUtagGTypedCurve@@2@Z 1001dd50 f   IMCvToAr.obj
+ 0001:0001eeb0       ?IMGBspCurveSplitInTwo_IMDivSf@@YAXAAUtagGBspCurve@@NH00PAH@Z 1001feb0 f   IMDivSf.obj
+ 0001:0001f170       ?uDivided_IMDivSf@@YAXAAUtagGBspSurface@@N00PAH@Z 10020170 f   IMDivSf.obj
+ 0001:0001f6d0       ?convertIMEl3dEl2d@@YAXABUtagGEllipse@@AAUtagGEllipse2d@@PAH@Z 100206d0 f   IMEl3dEl2d.obj
+ 0001:0001f8d0       ?centerIMEl3Pt3d@@YAXABUtagGPosition@@00AAU1@AAUtagGUnitVector@@PAH@Z 100208d0 f   IMEl3Pt3d.obj
+ 0001:000247c0       ?adjustDrvt_IMFitToPtsLines@@YAXHHPAUtagGPosition@@AAH1AAUtagGVector@@2PAH@Z 100257c0 f   IMFitToPtsLines.obj
+ 0001:00024d80       ?create_IMFitToPtsLines@@YAXAAUtagGUnitVector@@N0NHPAUtagGPosition@@PAHAAUtagGBspCurve@@2@Z 10025d80 f   IMFitToPtsLines.obj
+ 0001:00025b20       ?uDirIMFindCuspOnGBspSurface@@YAXAAUtagGBspSurface@@HPAHPAPAN1@Z 10026b20 f   IMFndCusp.obj
+ 0001:00026210       ?LinkByFilletIMFrmG1Cv@@YAXAAUtagGBspCurve@@0N000PAH@Z 10027210 f   IMFrmG1Cv.obj
+ 0001:00028b40       ?adjustParIMGBSfExt@@YAXAAUtagGBspCurve@@HNPAH@Z 10029b40 f   IMGBSfExt.obj
+ 0001:00029130       ?LinearExt_IMGBSfExt@@YAXAAUtagGBspSurface@@NH0PAH@Z 1002a130 f   IMGBSfExt.obj
+ 0001:00029630       ?polyExt_IMGBSfExt@@YAXPAUIGRbsp_surface@@NHPAPAU1@PANPAJ@Z 1002a630 f   IMGBSfExt.obj
+ 0001:0002c5b0       ?guessIMGCvChtP@@YAXHHHHPANNPAH@Z 1002d5b0 f   IMGCvChtP.obj
+ 0001:0002d260       ?GetPolesIMGCvMEKts@@YAXHHHPAN0@Z 1002e260 f   IMGCvMEKts.obj
+ 0001:0002eef0       ?cyld_IMGetWrapPlane@@YAXAAUtagGCone@@AAUtagGPlane@@1PAH@Z 1002fef0 f   IMGetWrapPlane.obj
+ 0001:0002f4b0       ?cone_IMGetWrapPlane@@YAXAAUtagGCone@@AAUtagGPlane@@1PAH@Z 100304b0 f   IMGetWrapPlane.obj
+ 0001:0002fb70       ?bsurf_IMGetWrapPlane@@YAXPAUIGRbsp_surface@@AAUtagGPlane@@AAUtagGPosition@@1PAH@Z 10030b70 f   IMGetWrapPlane.obj
+ 0001:00032000       ?ComputIMGLSMDGPo@@YAXABUtagGPosition@@PAU1@NNPANAAU1@@Z 10033000 f   IMGLSMDGPo.obj
+ 0001:0003d590       ?check_IMIsResolved@@YAXABUtagGBspSurface@@NNHPAH1@Z 1003e590 f   IMIsRevolved.obj
+ 0001:0003e450       ?convertIMLn3dLn2d@@YAXABUtagGLine@@AAUtagGLine2d@@@Z 1003f450 f   IMLn3dLn2d.obj
+ 0001:00040b50       ?IMBspCurveMultIsMax@@YAXAAUtagGBspCurve@@PAH1@Z 10041b50 f   IMMakeC1Cv.obj
+ 0001:00042c50       ?colinearIMProjectionBreak@@YAXUtagGUnitVector@@UtagGVector@@NPAH2@Z 10043c50 f   IMPjBrk.obj
+ 0001:00042d50       ?planeIMProjectionBreak@@YAXAAUtagGLine@@AAUtagGVector@@NAAUtagGPlane@@PAH@Z 10043d50 f   IMPjBrk.obj
+ 0001:00042df0       ?prjIMProjectionBreak@@YAXAAUtagGProjection@@AAUtagGTypedCurve@@0PAH@Z 10043df0 f   IMPjBrk.obj
+ 0001:00044040       ?RefineUVParameters@@YAXPAUIGRbsp_surface@@AAUtagGPlane@@AAN2AAUtagGPosition@@PAJ@Z 10045040 f   IMPlaneTanBsf.obj
+ 0001:00044280       ?spline_IMPlaneTanBsf@@YAXAAUtagGPlane@@AAUtagGTypedSurface@@NPAHAAUtagGPosition@@2@Z 10045280 f   IMPlaneTanBsf.obj
+ 0001:0004aa10       ?IMRead_GArc@@YAXPAU_iobuf@@AAUtagGArc@@PAH@Z 1004ba10 f   IMRdAr.obj
+ 0001:0004ae80       ?IMRead_GBoundary@@YAXPAU_iobuf@@AAUtagGBoundaries@@PAH@Z 1004be80 f   IMRdBdryOp.obj
+ 0001:0004b1f0       ?IMRead_GCone@@YAXPAU_iobuf@@AAUtagGCone@@PAH@Z 1004c1f0 f   IMRdCn.obj
+ 0001:0004ba00       ?IMRead_GComplexString@@YAXPAU_iobuf@@AAUtagGComplexString@@PAH@Z 1004ca00 f   IMRdCSOp.obj
+ 0001:0004be70       ?IMRead_GBspCurve@@YAXPAU_iobuf@@AAUtagGBspCurve@@PAH@Z 1004ce70 f   IMRdCvOp.obj
+ 0001:0004c5c0       ?IMRead_GEllipse@@YAXPAU_iobuf@@AAUtagGEllipse@@PAH@Z 1004d5c0 f   IMRdEl.obj
+ 0001:0004eef0       ?IMRead_GLine@@YAXPAU_iobuf@@AAUtagGLine@@PAH@Z 1004fef0 f   IMRdLn.obj
+ 0001:0004f410       ?IMRead_GLineString@@YAXPAU_iobuf@@AAUtagGLineString@@PAH@Z 10050410 f   IMRdLS.obj
+ 0001:0004fac0       ?IMRead_GPlane@@YAXPAU_iobuf@@AAUtagGPlane@@PAH@Z 10050ac0 f   IMRdPl.obj
+ 0001:00052040       ?IMRead_GTypedCurve@@YAXPAU_iobuf@@AAUtagGTypedCurve@@PAH@Z 10053040 f   IMRdTC.obj
+ 0001:00052850       ?IMRead_GTypedGeometry@@YAXPAU_iobuf@@AAUtagGTypedGeometry@@PAH@Z 10053850 f   IMRdTGm.obj
+ 0001:00053400       ?chklinesIMRuledBreak@@YAXABUtagGLine@@0PAH1@Z 10054400 f   IMRuBrk.obj
+ 0001:00053500       ?rulIMRuledBreak@@YAXAAUtagGRuled@@PAUtagGTypedCurve@@10PAH@Z 10054500 f   IMRuBrk.obj
+ 0001:00053570       ?chkcoplIMRuledBreak@@YAXAAUtagGTypedCurve@@0PAH1@Z 10054570 f   IMRuBrk.obj
+ 0001:00054f80       ?revIMRevolutionBreak@@YAXAAUtagGRevolution@@PAUtagGTypedCurve@@0PAH@Z 10055f80 f   IMRvBrk.obj
+ 0001:00055010       ?intIMRevolutionBreak@@YAXQAN0AAUtagGLine@@NPAH2@Z 10056010 f   IMRvBrk.obj
+ 0001:00055160       ?arcchkIMRevolutionBreak@@YAXUtagGPosition@@UtagGUnitVector@@EPATtagGCurve@@00PAH3@Z 10056160 f   IMRvBrk.obj
+ 0001:00058f00       ?mergeIMSfBdryTan@@YAXPAUIGRbsp_surface@@0PAPAU1@PAJ@Z 10059f00 f   IMSfBdryTan.obj
+ 0001:00059f90       ?uCheckIMSfChkFrm@@YAXAAUtagGBspSurface@@PAEPAH@Z 1005af90 f   IMSfChkFrm.obj
+ 0001:0005cb30       ?convertIMTC2dTC3d@@YAXABUtagGTypedCurve2d@@AAUtagGTypedCurve@@PAH@Z 1005db30 f   IMTC2dTC3d.obj
+ 0001:0005cd70       ?convertIMTC3dToTC2d@@YAXABUtagGTypedCurve@@AAUtagGTypedCurve2d@@PAH@Z 1005dd70 f   IMTC3dTC2d.obj
+ 0001:000606e0       ?toq1IMTypedCurveGetCenter@@YAXHPAUtagGPosition@@AAU1@@Z 100616e0 f   IMTCGtCtr.obj
+ 0001:00061270       ?mergeIMTCMerge@@YAXAAUtagGTypedCurve@@00PAH@Z 10062270 f   IMTCMerge.obj
+ 0001:00062630       ?planesIMTypedCurvePtFrustumLocate@@YAXABUtagGPtFrustum@@ABUtagGPosition@@PAU2@PAUtagGUnitVector@@PAH@Z 10063630 f   IMTCPtFrLo.obj
+ 0001:000636f0       ?paronarcIMTypedCurvePtGivenTangent@@YAXAAUtagGArc@@UtagGPosition@@PAH2@Z 100646f0 f   IMTCPtTan.obj
+ 0001:00063ef0       ?Case2d_IMTCSilhouet@@YAXAAUtagGTypedCurve@@AAUtagGUnitVector@@AAUtagGPosition@@1PAHPAPAU3@PAPAN3@Z 10064ef0 f   IMTCSilhouet.obj
+ 0001:00064280       ?refine_IMTCSilhouet@@YAXAAUtagGBspCurve@@AAUtagGUnitVector@@NPAHAAUtagGPosition@@PAN2@Z 10065280 f   IMTCSilhouet.obj
+ 0001:000643b0       ?Case3d_IMTCSilhouet@@YAXAAUtagGTypedCurve@@AAUtagGUnitVector@@PAHPAPAUtagGPosition@@PAPAN2@Z 100653b0 f   IMTCSilhouet.obj
+ 0001:000656d0       ?Auxliary_IMTCsToCSs@@YAXHPAUtagGPosition@@0PAHN1111@Z 100666d0 f   IMTCsToCSs.obj
+ 0001:00065a50       ?HowToLink_IMTCsToCSs@@YAXHPAUtagGTypedCurve@@NPAH1111@Z 10066a50 f   IMTCsToCSs.obj
+ 0001:00065e30       ?LnByPtsSetIMTCTr4x4@@YAXHPAUtagGPosition@@AAU1@UtagGUnitVector@@AAUtagGLine@@PAH@Z 10066e30 f   IMTCTr4x4.obj
+ 0001:00065f50       ?CheckIMTCTr4x4@@YAXAAUtagGTypedCurve@@PAH1AAUtagGPoint@@1@Z 10066f50 f   IMTCTr4x4.obj
+ 0001:000662a0       ?TransBspIMTCTr4x4@@YAXABUtagG4x4@@ABUtagGTypedCurve@@AAUtagGBspCurve@@PAH@Z 100672a0 f   IMTCTr4x4.obj
+ 0001:0006a9e0       ?Plane_IMTSBrLo@@YAXAAUtagGPlane@@NHPAUtagGPosition@@PAH2@Z 1006b9e0 f   IMTSBrLo.obj
+ 0001:0006adb0       ?CheckBdry_IMTSBrLo@@YAXAAUtagGTypedSurface@@AAUtagGPosition@@PAH2@Z 1006bdb0 f   IMTSBrLo.obj
+ 0001:0006b270       ?sfmajdirIMTSFdMjDr@@YAXHHPAUtagGPosition@@AAUtagGUnitVector@@1PAN2PAH3@Z 1006c270 f   IMTSFdMjDr.obj
+ 0001:0006dde0       ?trcvIMTypedSurfaceTransform4x4@@YAXABUtagG4x4@@AAUtagGBspCurve@@PAH@Z 1006ede0 f   IMTSTr4x4.obj
+ 0001:0006e950       ?GeomMatchIMTwoTCsEql@@YAHAAUtagGTypedCurve@@0NPAH@Z 1006f950 f   IMTwoTCsEql.obj
+ 0001:0006ec10       ?ellipseIMTwoTCsEql@@YAHAAUtagGEllipse@@0N@Z 1006fc10 f   IMTwoTCsEql.obj
+ 0001:0006f240       ?ValidType@@YAHHPAH00@Z    10070240 f   IMugtyloc.obj
+ 0001:0006f9a0       ?general_IMWrapToBSurf@@YAXPAUIGRbsp_surface@@AAUtagGPlane@@AAHPAUtagGPosition@@PAH@Z 100709a0 f   IMWrapToBSurf.obj
+ 0001:0006fee0       ?revolve_IMWrapToBSurf@@YAXPAUIGRbsp_surface@@AAUtagGPlane@@AAHPAUtagGPosition@@PAH@Z 10070ee0 f   IMWrapToBSurf.obj
+ 0001:00070560       ?getNumPoints_IMWrapToBSurf@@YAXAAUtagGTypedCurve@@NNAAHPAH@Z 10071560 f   IMWrapToBSurf.obj
+ 0001:00070560       ?getNumPoints_IMWrapToCone@@YAXAAUtagGTypedCurve@@NNAAHPAH@Z 10071560 f   IMWrapToBSurf.obj
+ 0001:00070be0       ?cyld_IMWrapToCone@@YAXAAUtagGCone@@AAUtagGTypedCurve@@AAUtagGPlane@@HPAUtagGPosition@@HPAH@Z 10071be0 f   IMWrapToCone.obj
+ 0001:00070d70       ?cone_IMWrapToCone@@YAXAAUtagGCone@@AAUtagGTypedCurve@@AAUtagGPlane@@HPAUtagGPosition@@HPAH@Z 10071d70 f   IMWrapToCone.obj
+ 0001:000717e0       ?setpropIMXArAr@@YAXPAUtagGArc@@PAUBSgeom_bsp_curve@@PAH@Z 100727e0 f   IMXArAr.obj
+ 0001:00075ce0       ?linelineIMIntersectRectanglePolygon@@YAXUtagGPosition@@000PAH1@Z 10076ce0 f   IMXRcPoly.obj
+ 0001:00075da0       ?lineplIMIntersectRectanglePolygon@@YAXUtagGPosition@@0HPAU1@UtagGUnitVector@@PAH3@Z 10076da0 f   IMXRcPoly.obj
+ 0001:000765f0       ?setup_IMXTCTC@@YAXHQAUtagGPosition@@QAN1PAPAU1@PAPAN3PAH@Z 100775f0 f   IMXTCTC.obj
+ 0001:0007753c       _pre_c_init                1007853c f   MSVCRT:crtdll.obj
+ 0001:00077728       ___DllMainCRTStartup       10078728 f   MSVCRT:crtdll.obj
+ 0001:0007785f       _has_osfxsr_set            1007885f f   MSVCRT:cpu_disp.obj
+ 0001:00077e50       __unwindfunclet$??$IMGReadFromStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z$0 10078e50 f   IMG4RFS.obj
+ 0001:00077e58       __ehhandler$??$IMGReadFromStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z 10078e58 f   IMG4RFS.obj
+ 0001:00077e80       __unwindfunclet$??$IMGWriteToStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z$0 10078e80 f   IMG4WTS.obj
+ 0001:00077e88       __ehhandler$??$IMGWriteToStream@UtagG4x4@@@@YAXPAUIStream@@PAUtagG4x4@@PAH@Z 10078e88 f   IMG4WTS.obj
+ 0001:00077eb0       __unwindfunclet$??$IMGReadFromStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z$0 10078eb0 f   IMGArRFS.obj
+ 0001:00077eb8       __ehhandler$??$IMGReadFromStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z 10078eb8 f   IMGArRFS.obj
+ 0001:00077ee0       __unwindfunclet$??$IMGWriteToStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z$0 10078ee0 f   IMGArWTS.obj
+ 0001:00077ee8       __ehhandler$??$IMGWriteToStream@UtagGArc@@@@YAXPAUIStream@@PAUtagGArc@@PAH@Z 10078ee8 f   IMGArWTS.obj
+ 0001:00077f10       __unwindfunclet$??$IMGReadFromStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z$0 10078f10 f   IMGBCvRFS.obj
+ 0001:00077f18       __ehhandler$??$IMGReadFromStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z 10078f18 f   IMGBCvRFS.obj
+ 0001:00077f40       __unwindfunclet$??$IMGWriteToStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z$0 10078f40 f   IMGBCvWTS.obj
+ 0001:00077f48       __ehhandler$??$IMGWriteToStream@UtagGBspCurve@@@@YAXPAUIStream@@PAUtagGBspCurve@@PAH@Z 10078f48 f   IMGBCvWTS.obj
+ 0001:00077f70       __unwindfunclet$??$IMGReadFromStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z$0 10078f70 f   IMGBRFS.obj
+ 0001:00077f78       __ehhandler$??$IMGReadFromStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z 10078f78 f   IMGBRFS.obj
+ 0001:00077fa0       __unwindfunclet$??$IMGWriteToStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z$0 10078fa0 f   IMGBWTS.obj
+ 0001:00077fa8       __ehhandler$??$IMGWriteToStream@UtagGBoundaries@@@@YAXPAUIStream@@PAUtagGBoundaries@@PAH@Z 10078fa8 f   IMGBWTS.obj
+ 0001:00077fd0       __unwindfunclet$??$IMGReadFromStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z$0 10078fd0 f   IMGBxRFS.obj
+ 0001:00077fd8       __ehhandler$??$IMGReadFromStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z 10078fd8 f   IMGBxRFS.obj
+ 0001:00078000       __unwindfunclet$??$IMGWriteToStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z$0 10079000 f   IMGBxWTS.obj
+ 0001:00078008       __ehhandler$??$IMGWriteToStream@UtagGBox@@@@YAXPAUIStream@@PAUtagGBox@@PAH@Z 10079008 f   IMGBxWTS.obj
+ 0001:00078030       __unwindfunclet$??$IMGReadFromStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z$0 10079030 f   IMGCnRFS.obj
+ 0001:00078038       __ehhandler$??$IMGReadFromStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z 10079038 f   IMGCnRFS.obj
+ 0001:00078060       __unwindfunclet$??$IMGWriteToStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z$0 10079060 f   IMGCnWTS.obj
+ 0001:00078068       __ehhandler$??$IMGWriteToStream@UtagGCone@@@@YAXPAUIStream@@PAUtagGCone@@PAH@Z 10079068 f   IMGCnWTS.obj
+ 0001:00078090       __unwindfunclet$??$IMGReadFromStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z$0 10079090 f   IMGCSRFS.obj
+ 0001:00078098       __ehhandler$??$IMGReadFromStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z 10079098 f   IMGCSRFS.obj
+ 0001:000780c0       __unwindfunclet$??$IMGWriteToStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z$0 100790c0 f   IMGCSWTS.obj
+ 0001:000780c8       __ehhandler$??$IMGWriteToStream@UtagGComplexString@@@@YAXPAUIStream@@PAUtagGComplexString@@PAH@Z 100790c8 f   IMGCSWTS.obj
+ 0001:000780f0       __unwindfunclet$??$IMGReadFromStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z$0 100790f0 f   IMGElRFS.obj
+ 0001:000780f8       __ehhandler$??$IMGReadFromStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z 100790f8 f   IMGElRFS.obj
+ 0001:00078120       __unwindfunclet$??$IMGWriteToStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z$0 10079120 f   IMGElWTS.obj
+ 0001:00078128       __ehhandler$??$IMGWriteToStream@UtagGEllipse@@@@YAXPAUIStream@@PAUtagGEllipse@@PAH@Z 10079128 f   IMGElWTS.obj
+ 0001:00078150       __unwindfunclet$??$IMGReadFromStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z$0 10079150 f   IMGLnRFS.obj
+ 0001:00078158       __ehhandler$??$IMGReadFromStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z 10079158 f   IMGLnRFS.obj
+ 0001:00078180       __unwindfunclet$??$IMGWriteToStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z$0 10079180 f   IMGLnWTS.obj
+ 0001:00078188       __ehhandler$??$IMGWriteToStream@UtagGLine@@@@YAXPAUIStream@@PAUtagGLine@@PAH@Z 10079188 f   IMGLnWTS.obj
+ 0001:000781b0       __unwindfunclet$??$IMGReadFromStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z$0 100791b0 f   IMGLSRFS.obj
+ 0001:000781b8       __ehhandler$??$IMGReadFromStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z 100791b8 f   IMGLSRFS.obj
+ 0001:000781e0       __unwindfunclet$??$IMGWriteToStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z$0 100791e0 f   IMGLSWTS.obj
+ 0001:000781e8       __ehhandler$??$IMGWriteToStream@UtagGLineString@@@@YAXPAUIStream@@PAUtagGLineString@@PAH@Z 100791e8 f   IMGLSWTS.obj
+ 0001:00078210       __unwindfunclet$??$IMGReadFromStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z$0 10079210 f   IMGMRFS.obj
+ 0001:00078218       __ehhandler$??$IMGReadFromStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z 10079218 f   IMGMRFS.obj
+ 0001:00078240       __unwindfunclet$??$IMGWriteToStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z$0 10079240 f   IMGMWTS.obj
+ 0001:00078248       __ehhandler$??$IMGWriteToStream@UtagGMatrix@@@@YAXPAUIStream@@PAUtagGMatrix@@PAH@Z 10079248 f   IMGMWTS.obj
+ 0001:00078270       __unwindfunclet$??$IMGReadFromStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z$0 10079270 f   IMGPjRFS.obj
+ 0001:00078278       __ehhandler$??$IMGReadFromStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z 10079278 f   IMGPjRFS.obj
+ 0001:000782a0       __unwindfunclet$??$IMGWriteToStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z$0 100792a0 f   IMGPjWTS.obj
+ 0001:000782a8       __ehhandler$??$IMGWriteToStream@UtagGProjection@@@@YAXPAUIStream@@PAUtagGProjection@@PAH@Z 100792a8 f   IMGPjWTS.obj
+ 0001:000782d0       __unwindfunclet$??$IMGReadFromStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z$0 100792d0 f   IMGPlRFS.obj
+ 0001:000782d8       __ehhandler$??$IMGReadFromStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z 100792d8 f   IMGPlRFS.obj
+ 0001:00078300       __unwindfunclet$??$IMGWriteToStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z$0 10079300 f   IMGPlWTS.obj
+ 0001:00078308       __ehhandler$??$IMGWriteToStream@UtagGPlane@@@@YAXPAUIStream@@PAUtagGPlane@@PAH@Z 10079308 f   IMGPlWTS.obj
+ 0001:00078330       __unwindfunclet$??$IMGReadFromStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z$0 10079330 f   IMGPMRFS.obj
+ 0001:00078338       __ehhandler$??$IMGReadFromStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z 10079338 f   IMGPMRFS.obj
+ 0001:00078360       __unwindfunclet$??$IMGWriteToStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z$0 10079360 f   IMGPMWTS.obj
+ 0001:00078368       __ehhandler$??$IMGWriteToStream@UtagGPolyMesh@@@@YAXPAUIStream@@PAUtagGPolyMesh@@PAH@Z 10079368 f   IMGPMWTS.obj
+ 0001:00078390       __unwindfunclet$??$IMGReadFromStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z$0 10079390 f   IMGPRFS.obj
+ 0001:00078398       __ehhandler$??$IMGReadFromStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z 10079398 f   IMGPRFS.obj
+ 0001:000783c0       __unwindfunclet$??$IMGWriteToStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z$0 100793c0 f   IMGPWTS.obj
+ 0001:000783c8       __ehhandler$??$IMGWriteToStream@UtagGPosition@@@@YAXPAUIStream@@PAUtagGPosition@@PAH@Z 100793c8 f   IMGPWTS.obj
+ 0001:000783f0       __unwindfunclet$??$IMGReadFromStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z$0 100793f0 f   IMGRlRFS.obj
+ 0001:000783f8       __ehhandler$??$IMGReadFromStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z 100793f8 f   IMGRlRFS.obj
+ 0001:00078420       __unwindfunclet$??$IMGWriteToStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z$0 10079420 f   IMGRlWTS.obj
+ 0001:00078428       __ehhandler$??$IMGWriteToStream@UtagGRuled@@@@YAXPAUIStream@@PAUtagGRuled@@PAH@Z 10079428 f   IMGRlWTS.obj
+ 0001:00078450       __unwindfunclet$??$IMGReadFromStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z$0 10079450 f   IMGRvRFS.obj
+ 0001:00078458       __ehhandler$??$IMGReadFromStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z 10079458 f   IMGRvRFS.obj
+ 0001:00078480       __unwindfunclet$??$IMGWriteToStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z$0 10079480 f   IMGRvWTS.obj
+ 0001:00078488       __ehhandler$??$IMGWriteToStream@UtagGRevolution@@@@YAXPAUIStream@@PAUtagGRevolution@@PAH@Z 10079488 f   IMGRvWTS.obj
+ 0001:000784b0       __unwindfunclet$??$IMGReadFromStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z$0 100794b0 f   IMGSfRFS.obj
+ 0001:000784b8       __ehhandler$??$IMGReadFromStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z 100794b8 f   IMGSfRFS.obj
+ 0001:000784e0       __unwindfunclet$??$IMGWriteToStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z$0 100794e0 f   IMGSfWTS.obj
+ 0001:000784e8       __ehhandler$??$IMGWriteToStream@UtagGBspSurface@@@@YAXPAUIStream@@PAUtagGBspSurface@@PAH@Z 100794e8 f   IMGSfWTS.obj
+ 0001:00078510       __unwindfunclet$??$IMGReadFromStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z$0 10079510 f   IMGSpRFS.obj
+ 0001:00078518       __ehhandler$??$IMGReadFromStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z 10079518 f   IMGSpRFS.obj
+ 0001:00078540       __unwindfunclet$??$IMGWriteToStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z$0 10079540 f   IMGSpWTS.obj
+ 0001:00078548       __ehhandler$??$IMGWriteToStream@UtagGSphere@@@@YAXPAUIStream@@PAUtagGSphere@@PAH@Z 10079548 f   IMGSpWTS.obj
+ 0001:00078570       __unwindfunclet$??$IMGReadFromStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z$0 10079570 f   IMGTCRFS.obj
+ 0001:00078578       __ehhandler$??$IMGReadFromStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z 10079578 f   IMGTCRFS.obj
+ 0001:000785a0       __unwindfunclet$??$IMGWriteToStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z$0 100795a0 f   IMGTCWTS.obj
+ 0001:000785a8       __ehhandler$??$IMGWriteToStream@UtagGTypedCurve@@@@YAXPAUIStream@@PAUtagGTypedCurve@@PAH@Z 100795a8 f   IMGTCWTS.obj
+ 0001:000785d0       __unwindfunclet$??$IMGReadFromStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z$0 100795d0 f   IMGToRFS.obj
+ 0001:000785d8       __ehhandler$??$IMGReadFromStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z 100795d8 f   IMGToRFS.obj
+ 0001:00078600       __unwindfunclet$??$IMGWriteToStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z$0 10079600 f   IMGToWTS.obj
+ 0001:00078608       __ehhandler$??$IMGWriteToStream@UtagGTorus@@@@YAXPAUIStream@@PAUtagGTorus@@PAH@Z 10079608 f   IMGToWTS.obj
+ 0001:00078630       __unwindfunclet$??$IMGReadFromStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z$0 10079630 f   IMGTRFS.obj
+ 0001:00078638       __ehhandler$??$IMGReadFromStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z 10079638 f   IMGTRFS.obj
+ 0001:00078660       __unwindfunclet$??$IMGReadFromStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z$0 10079660 f   IMGTSRFS.obj
+ 0001:00078668       __ehhandler$??$IMGReadFromStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z 10079668 f   IMGTSRFS.obj
+ 0001:00078690       __unwindfunclet$??$IMGWriteToStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z$0 10079690 f   IMGTSWTS.obj
+ 0001:00078698       __ehhandler$??$IMGWriteToStream@UtagGTypedSurface@@@@YAXPAUIStream@@PAUtagGTypedSurface@@PAH@Z 10079698 f   IMGTSWTS.obj
+ 0001:000786c0       __unwindfunclet$??$IMGWriteToStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z$0 100796c0 f   IMGTWTS.obj
+ 0001:000786c8       __ehhandler$??$IMGWriteToStream@UtagGTransf@@@@YAXPAUIStream@@PAUtagGTransf@@PAH@Z 100796c8 f   IMGTWTS.obj
+ 0001:000786f0       __unwindfunclet$??$IMGReadFromStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z$0 100796f0 f   IMGUVRFS.obj
+ 0001:000786f8       __ehhandler$??$IMGReadFromStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z 100796f8 f   IMGUVRFS.obj
+ 0001:00078720       __unwindfunclet$??$IMGWriteToStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z$0 10079720 f   IMGUVWTS.obj
+ 0001:00078728       __ehhandler$??$IMGWriteToStream@UtagGUnitVector@@@@YAXPAUIStream@@PAUtagGUnitVector@@PAH@Z 10079728 f   IMGUVWTS.obj
+ 0001:00078750       __unwindfunclet$??$IMGReadFromStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z$0 10079750 f   IMGVRFS.obj
+ 0001:00078758       __ehhandler$??$IMGReadFromStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z 10079758 f   IMGVRFS.obj
+ 0001:00078780       __unwindfunclet$??$IMGWriteToStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z$0 10079780 f   IMGVWTS.obj
+ 0001:00078788       __ehhandler$??$IMGWriteToStream@UtagGVector@@@@YAXPAUIStream@@PAUtagGVector@@PAH@Z 10079788 f   IMGVWTS.obj

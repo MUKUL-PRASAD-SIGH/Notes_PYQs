@@ -1,0 +1,302 @@
+ WAITER
+
+ Timestamp is 46b3a075 (Fri Aug 03 16:39:01 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000017eeH .text                   CODE
+ 0001:000017f0 00000142H .text$x                 CODE
+ 0001:00001940 00000040H .text$yc                CODE
+ 0001:00001980 0000001bH .text$yd                CODE
+ 0002:00000000 0000019cH .idata$5                DATA
+ 0002:0000019c 00000004H .CRT$XCA                DATA
+ 0002:000001a0 00000004H .CRT$XCAA               DATA
+ 0002:000001a4 00000008H .CRT$XCU                DATA
+ 0002:000001ac 00000004H .CRT$XCZ                DATA
+ 0002:000001b0 00000004H .CRT$XIA                DATA
+ 0002:000001b4 00000004H .CRT$XIAA               DATA
+ 0002:000001b8 00000004H .CRT$XIZ                DATA
+ 0002:000001c0 00000170H .rdata                  DATA
+ 0002:00000330 00000030H .rdata$debug            DATA
+ 0002:00000360 00000048H .rdata$r                DATA
+ 0002:000003b0 00000014H .rdata$sxdata           DATA
+ 0002:000003c4 00000004H .rtc$IAA                DATA
+ 0002:000003c8 00000004H .rtc$IZZ                DATA
+ 0002:000003cc 00000004H .rtc$TAA                DATA
+ 0002:000003d0 00000004H .rtc$TZZ                DATA
+ 0002:000003d8 0000021cH .xdata$x                DATA
+ 0002:000005f4 000000a0H .idata$2                DATA
+ 0002:00000694 00000014H .idata$3                DATA
+ 0002:000006a8 0000019cH .idata$4                DATA
+ 0002:00000844 00000764H .idata$6                DATA
+ 0002:00000fb0 00000097H .edata                  DATA
+ 0003:00000000 00000060H .data                   DATA
+ 0003:00000060 000003b8H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000005       ___safe_se_handler_count   00000005     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??$strcpy@PAD@@YAPADAAPADPBD@Z 00401000 f i waiter.obj
+ 0001:00000020       ??$sprintf@PAD@@YAHAAPADPBDZZ 00401020 f i waiter.obj
+ 0001:00000040       ??0JSolidEdgeContextMenu@@QAE@ABV0@@Z 00401040 f i waiter.obj
+ 0001:00000180       ??4JSolidEdgeContextMenu@@QAEAAV0@ABV0@@Z 00401180 f i waiter.obj
+ 0001:00000280       ?NotifyByMail@@YAJAAVGUserText@@000PAH@Z 00401280 f   waiter.obj
+ 0001:00000470       ??$sprintf@$0BAE@@@YAHAAY0BAE@DPBDZZ 00401470 f i waiter.obj
+ 0001:00000490       ?InitInstance@@YAHPAUHINSTANCE__@@@Z 00401490 f   waiter.obj
+ 0001:00000540       ?Notify@@YAJAAVGUserText@@PAH@Z 00401540 f   waiter.obj
+ 0001:00000670       ?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z 00401670 f   waiter.obj
+ 0001:00000990       _MainWndProc@16            00401990 f   waiter.obj
+ 0001:00000a50       ?InitApplication@@YAHPAUHINSTANCE__@@@Z 00401a50 f   waiter.obj
+ 0001:00000ad0       _WinMain@16                00401ad0 f   waiter.obj
+ 0001:00000efc       ?JMAPILogoff@@YGKKKK@Z     00401efc f   docmgmt:DOCMGMT.DLL
+ 0001:00000f02       ?JMAPISaveMail@@YGKKPAUMapiMessage@@KKPAD@Z 00401f02 f   docmgmt:DOCMGMT.DLL
+ 0001:00000f08       ?JDMValidateAccess@@YAJPAPA_WPAH1111PAW4DocumentStatus@@PAW4tagJDMSUMINFOSECURITY@@PAI0@Z 00401f08 f   docmgmt:DOCMGMT.DLL
+ 0001:00000f0e       _ExitDocMgmt               00401f0e f   docmgmt:DOCMGMT.DLL
+ 0001:00000f14       @InitDocMgmt@12            00401f14 f   docmgmt:DOCMGMT.DLL
+ 0001:00000f1a       ?JSetDmContext@@YAXK@Z     00401f1a f   jdchlp:jdchlp.dll
+ 0001:00000f20       _HRerrEx                   00401f20 f   jutil:JUtil.dll
+ 0001:00000f26       _JFreeLibrary              00401f26 f   jutil:JUtil.dll
+ 0001:00000f2c       ?JRFMS_IsFileCheckedOut@@YAJVGUserText@@AAW4JRFMS_StatusFlag@@AAV1@H@Z 00401f2c f   rfmssvs:RFMSsvs.dll
+ 0001:00000f32       ?JRFMS_GetServerPathFromLWFPathForFile@@YAJVGUserText@@AAV1@@Z 00401f32 f   rfmssvs:RFMSsvs.dll
+ 0001:00000f38       _JRFMS_IsValidLocalWorkingFolderFile@8 00401f38 f   rfmssvs:RFMSsvs.dll
+ 0001:00000f3e       ___CxxFrameHandler3        00401f3e f   MSVCRT:MSVCR80.dll
+ 0001:00000f44       @__security_check_cookie@4 00401f44 f   MSVCRT:secchk.obj
+ 0001:00000f54       _memset                    00401f54 f   MSVCRT:MSVCR80.dll
+ 0001:00000f5a       ??_Etype_info@@UAEPAXI@Z   00401f5a f i MSVCRT:ti_inst.obj
+ 0001:00000fa3       __onexit                   00401fa3 f   MSVCRT:atonexit.obj
+ 0001:00001042       _atexit                    00402042 f   MSVCRT:atonexit.obj
+ 0001:00001360       _WinMainCRTStartup         00402360 f   MSVCRT:crtexew.obj
+ 0001:0000136a       ___report_gsfailure        0040236a f   MSVCRT:gs_report.obj
+ 0001:0000146e       ??3@YAXPAX@Z               0040246e f   MSVCRT:MSVCR80.dll
+ 0001:00001474       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 00402474 f   MSVCRT:ehvecdtr.obj
+ 0001:000014d2       ??_M@YGXPAXIHP6EX0@Z@Z     004024d2 f   MSVCRT:ehvecdtr.obj
+ 0001:00001536       __unlock                   00402536 f   MSVCRT:MSVCR80.dll
+ 0001:0000153c       ___dllonexit               0040253c f   MSVCRT:MSVCR80.dll
+ 0001:00001542       __lock                     00402542 f   MSVCRT:MSVCR80.dll
+ 0001:00001548       __SEH_prolog4              00402548 f   MSVCRT:sehprolg4.obj
+ 0001:0000158d       __SEH_epilog4              0040258d f   MSVCRT:sehprolg4.obj
+ 0001:000015a1       __except_handler4          004025a1 f   MSVCRT:chandler4gs.obj
+ 0001:000015c4       __amsg_exit                004025c4 f   MSVCRT:MSVCR80.dll
+ 0001:000015ca       __RTC_Initialize           004025ca f   MSVCRT:initsect.obj
+ 0001:000015ee       __RTC_Terminate            004025ee f   MSVCRT:initsect.obj
+ 0001:00001612       __XcptFilter               00402612 f   MSVCRT:MSVCR80.dll
+ 0001:00001620       __ValidateImageBase        00402620 f   MSVCRT:pesect.obj
+ 0001:00001650       __FindPESection            00402650 f   MSVCRT:pesect.obj
+ 0001:00001692       __IsNonwritableInCurrentImage 00402692 f   MSVCRT:pesect.obj
+ 0001:000016fe       __initterm                 004026fe f   MSVCRT:MSVCR80.dll
+ 0001:00001704       __initterm_e               00402704 f   MSVCRT:MSVCR80.dll
+ 0001:0000170a       __setdefaultprecision      0040270a f   MSVCRT:fp8.obj
+ 0001:00001733       __setargv                  00402733 f   MSVCRT:dllargv.obj
+ 0001:00001733       __matherr                  00402733 f   MSVCRT:merr.obj
+ 0001:00001736       ___security_init_cookie    00402736 f   MSVCRT:gs_support.obj
+ 0001:000017ca       __crt_debugger_hook        004027ca f   MSVCRT:MSVCR80.dll
+ 0001:000017d0       ?terminate@@YAXXZ          004027d0 f   MSVCRT:MSVCR80.dll
+ 0001:000017d6       ??1type_info@@UAE@XZ       004027d6 f   MSVCRT:MSVCR80.dll
+ 0001:000017d6       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 004027d6 f   MSVCRT:MSVCR80.dll
+ 0001:000017dc       __except_handler4_common   004027dc f   MSVCRT:MSVCR80.dll
+ 0001:000017e2       __invoke_watson            004027e2 f   MSVCRT:MSVCR80.dll
+ 0001:000017e8       __controlfp_s              004027e8 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__ExitDocMgmt         00403000     docmgmt:DOCMGMT.DLL
+ 0002:00000004       __imp_?JDMValidateAccess@@YAJPAPA_WPAH1111PAW4DocumentStatus@@PAW4tagJDMSUMINFOSECURITY@@PAI0@Z 00403004     docmgmt:DOCMGMT.DLL
+ 0002:00000008       __imp_?JMAPISaveMail@@YGKKPAUMapiMessage@@KKPAD@Z 00403008     docmgmt:DOCMGMT.DLL
+ 0002:0000000c       __imp_@InitDocMgmt@12      0040300c     docmgmt:DOCMGMT.DLL
+ 0002:00000010       __imp_?JMAPILogoff@@YGKKKK@Z 00403010     docmgmt:DOCMGMT.DLL
+ 0002:00000014       \177DOCMGMT_NULL_THUNK_DATA 00403014     docmgmt:DOCMGMT.DLL
+ 0002:00000018       __imp_??0GUserText@@QAE@XZ 00403018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 0040301c     jutil:JUtil.dll
+ 0002:00000020       __imp_?FormatString@GUserText@@QAAHQAUHINSTANCE__@@IZZ 00403020     jutil:JUtil.dll
+ 0002:00000024       __imp_?IsEmpty@GUserText@@QBEHXZ 00403024     jutil:JUtil.dll
+ 0002:00000028       __imp__HRerrEx             00403028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??BGUserText@@QBEPB_WXZ 0040302c     jutil:JUtil.dll
+ 0002:00000030       __imp__JFreeLibrary        00403030     jutil:JUtil.dll
+ 0002:00000034       __imp_?Mid@GUserText@@QBE?AV1@HH@Z 00403034     jutil:JUtil.dll
+ 0002:00000038       __imp_?GetNumChars@GUserText@@QBEHXZ 00403038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??0GUserText@@QAE@PBDHI@Z 0040303c     jutil:JUtil.dll
+ 0002:00000040       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 00403040     jutil:JUtil.dll
+ 0002:00000044       __imp_??1GUserText@@QAE@XZ 00403044     jutil:JUtil.dll
+ 0002:00000048       __imp_??0GUserText@@QAE@ABV0@@Z 00403048     jutil:JUtil.dll
+ 0002:0000004c       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 0040304c     jutil:JUtil.dll
+ 0002:00000050       __imp_?FindFirstOf@GUserText@@QBEHABV1@H@Z 00403050     jutil:JUtil.dll
+ 0002:00000054       __imp_??BGUserText@@QBEPBDXZ 00403054     jutil:JUtil.dll
+ 0002:00000058       \177JUtil_NULL_THUNK_DATA  00403058     jutil:JUtil.dll
+ 0002:0000005c       __imp__UnhandledExceptionFilter@4 0040305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetCurrentProcess@0 00403060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__TerminateProcess@8  00403064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetStartupInfoA@4   00403068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__InterlockedCompareExchange@12 0040306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__Sleep@4             00403070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__InterlockedExchange@8 00403074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetSystemTimeAsFileTime@4 00403078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetLastError@0      0040307c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__IsDebuggerPresent@0 00403080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__QueryPerformanceCounter@4 00403084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetTickCount@0      00403088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetCurrentThreadId@0 0040308c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetCurrentProcessId@0 00403090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetUnhandledExceptionFilter@4 00403094     kernel32:KERNEL32.dll
+ 0002:00000098       \177KERNEL32_NULL_THUNK_DATA 00403098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp___XcptFilter         0040309c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___controlfp_s        004030a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___invoke_watson      004030a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___except_handler4_common 004030a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 004030ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp_?terminate@@YAXXZ    004030b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___crt_debugger_hook  004030b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp____set_app_type      004030b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp____p__fmode          004030bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp____p__commode        004030c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp__malloc              004030c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__vsprintf            004030c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp____CxxFrameHandler3  004030cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__free                004030d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__memset              004030d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__strcpy_s            004030d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__vsprintf_s          004030dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp__atol                004030e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__setlocale           004030e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp_??3@YAXPAX@Z         004030e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___unlock             004030ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___encode_pointer     004030f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp____dllonexit         004030f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___lock               004030f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___onexit             004030fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___decode_pointer     00403100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___amsg_exit          00403104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp____getmainargs       00403108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___cexit              0040310c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___exit               00403110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___adjust_fdiv        00403114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___ismbblead          00403118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__exit                0040311c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___acmdln             00403120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___initterm           00403124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___initterm_e         00403128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___configthreadlocale 0040312c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp____setusermatherr    00403130     MSVCRT:MSVCR80.dll
+ 0002:00000134       \177MSVCR80_NULL_THUNK_DATA 00403134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp__JRFMS_IsValidLocalWorkingFolderFile@8 00403138     rfmssvs:RFMSsvs.dll
+ 0002:0000013c       __imp_?JRFMS_GetServerPathFromLWFPathForFile@@YAJVGUserText@@AAV1@@Z 0040313c     rfmssvs:RFMSsvs.dll
+ 0002:00000140       __imp_?JRFMS_IsFileCheckedOut@@YAJVGUserText@@AAW4JRFMS_StatusFlag@@AAV1@H@Z 00403140     rfmssvs:RFMSsvs.dll
+ 0002:00000144       \177RFMSsvs_NULL_THUNK_DATA 00403144     rfmssvs:RFMSsvs.dll
+ 0002:00000148       __imp__PostQuitMessage@4   00403148     user32:USER32.dll
+ 0002:0000014c       __imp__RegisterClassA@4    0040314c     user32:USER32.dll
+ 0002:00000150       __imp__LoadCursorA@8       00403150     user32:USER32.dll
+ 0002:00000154       __imp__LoadIconA@8         00403154     user32:USER32.dll
+ 0002:00000158       __imp__DispatchMessageA@4  00403158     user32:USER32.dll
+ 0002:0000015c       __imp__DefWindowProcA@16   0040315c     user32:USER32.dll
+ 0002:00000160       __imp__GetMessageA@16      00403160     user32:USER32.dll
+ 0002:00000164       __imp__KillTimer@8         00403164     user32:USER32.dll
+ 0002:00000168       __imp__PostMessageA@16     00403168     user32:USER32.dll
+ 0002:0000016c       __imp__SetTimer@16         0040316c     user32:USER32.dll
+ 0002:00000170       __imp__DestroyWindow@4     00403170     user32:USER32.dll
+ 0002:00000174       __imp__CreateWindowExA@48  00403174     user32:USER32.dll
+ 0002:00000178       __imp__ShowWindow@8        00403178     user32:USER32.dll
+ 0002:0000017c       __imp__MessageBoxA@16      0040317c     user32:USER32.dll
+ 0002:00000180       __imp__TranslateMessage@4  00403180     user32:USER32.dll
+ 0002:00000184       \177USER32_NULL_THUNK_DATA 00403184     user32:USER32.dll
+ 0002:00000188       __imp_?JSetDmContext@@YAXK@Z 00403188     jdchlp:jdchlp.dll
+ 0002:0000018c       \177jdchlp_NULL_THUNK_DATA 0040318c     jdchlp:jdchlp.dll
+ 0002:00000190       __imp__CoInitialize@4      00403190     ole32:ole32.dll
+ 0002:00000194       __imp__CoUninitialize@0    00403194     ole32:ole32.dll
+ 0002:00000198       \177ole32_NULL_THUNK_DATA  00403198     ole32:ole32.dll
+ 0002:0000019c       ___xc_a                    0040319c     MSVCRT:cinitexe.obj
+ 0002:000001ac       ___xc_z                    004031ac     MSVCRT:cinitexe.obj
+ 0002:000001b0       ___xi_a                    004031b0     MSVCRT:cinitexe.obj
+ 0002:000001b8       ___xi_z                    004031b8     MSVCRT:cinitexe.obj
+ 0002:000001dc       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 004031dc     precomp.obj
+ 0002:000001ec       ??_C@_0BL@MBOLDIMO@NotifyByMail?5E_OUTOFMEMORY?$AA@ 004031ec     waiter.obj
+ 0002:00000208       ??_C@_06KPLFPMEB@WAITER?$AA@ 00403208     waiter.obj
+ 0002:0000020f       ??_C@_00CNPNBAHC@?$AA@     0040320f     waiter.obj
+ 0002:00000210       ??_C@_0CI@POGFEAPP@InitInstance?0?5CreateWindow?5FAILE@ 00403210     waiter.obj
+ 0002:00000238       ??_C@_0N@PFPAIMKF@MainWndClass?$AA@ 00403238     waiter.obj
+ 0002:00000248       ??_C@_0N@CEMHOLI@?4?2waiter?4cpp?$AA@ 00403248     waiter.obj
+ 0002:00000258       ??_C@_09GPPLHGO@CheckFile?$AA@ 00403258     waiter.obj
+ 0002:00000264       ??_C@_07CEDKMPFP@AppMenu?$AA@ 00403264     waiter.obj
+ 0002:0000026c       ??_C@_01IHBHIGKO@?0?$AA@   0040326c     waiter.obj
+ 0002:00000270       ??_C@_09IMIHGBDL@?$CFs?0?$CFld?0?$CFs?$AA@ 00403270     waiter.obj
+ 0002:0000027c       ??_C@_0BI@PNIFGDOG@E?3?2Drawing?5Files?2P1?42DT?$AA@ 0040327c     waiter.obj
+ 0002:00000294       ??_C@_0DH@NLGPFCBM@z?3?2engine?2src?2docmgmt?2src?2utils?2@ 00403294     waiter.obj
+ 0002:000002cc       ??_C@_0M@EBENAFEO@JDOCRES?4drx?$AA@ 004032cc     waiter.obj
+ 0002:000002dc       ??_7type_info@@6B@         004032dc     MSVCRT:ti_inst.obj
+ 0002:000002e8       __load_config_used         004032e8     MSVCRT:loadcfg.obj
+ 0002:00000360       ??_R4type_info@@6B@        00403360     MSVCRT:ti_inst.obj
+ 0002:00000374       ??_R3type_info@@8          00403374     MSVCRT:ti_inst.obj
+ 0002:00000384       ??_R2type_info@@8          00403384     MSVCRT:ti_inst.obj
+ 0002:0000038c       ??_R1A@?0A@EA@type_info@@8 0040338c     MSVCRT:ti_inst.obj
+ 0002:000003b0       ___safe_se_handler_table   004033b0     <linker-defined>
+ 0002:000003c4       ___rtc_iaa                 004033c4     MSVCRT:initsect.obj
+ 0002:000003c8       ___rtc_izz                 004033c8     MSVCRT:initsect.obj
+ 0002:000003cc       ___rtc_taa                 004033cc     MSVCRT:initsect.obj
+ 0002:000003d0       ___rtc_tzz                 004033d0     MSVCRT:initsect.obj
+ 0002:000005f4       __IMPORT_DESCRIPTOR_DOCMGMT 004035f4     docmgmt:DOCMGMT.DLL
+ 0002:00000608       __IMPORT_DESCRIPTOR_jdchlp 00403608     jdchlp:jdchlp.dll
+ 0002:0000061c       __IMPORT_DESCRIPTOR_JUtil  0040361c     jutil:JUtil.dll
+ 0002:00000630       __IMPORT_DESCRIPTOR_RFMSsvs 00403630     rfmssvs:RFMSsvs.dll
+ 0002:00000644       __IMPORT_DESCRIPTOR_KERNEL32 00403644     kernel32:KERNEL32.dll
+ 0002:00000658       __IMPORT_DESCRIPTOR_USER32 00403658     user32:USER32.dll
+ 0002:0000066c       __IMPORT_DESCRIPTOR_ole32  0040366c     ole32:ole32.dll
+ 0002:00000680       __IMPORT_DESCRIPTOR_MSVCR80 00403680     MSVCRT:MSVCR80.dll
+ 0002:00000694       __NULL_IMPORT_DESCRIPTOR   00403694     docmgmt:DOCMGMT.DLL
+ 0003:00000000       __newmode                  00405000     newmode.obj
+ 0003:0000000c       ?g_dwPollInterval@@3KA     0040500c     waiter.obj
+ 0003:00000010       ??_R0?AUGMemoryException@@@8 00405010     waiter.obj
+ 0003:00000030       ___security_cookie         00405030     MSVCRT:gs_cookie.obj
+ 0003:00000034       ___security_cookie_complement 00405034     MSVCRT:gs_cookie.obj
+ 0003:00000038       ??_R0?AVtype_info@@@8      00405038     MSVCRT:ti_inst.obj
+ 0003:00000050       ___native_dllmain_reason   00405050     MSVCRT:natstart.obj
+ 0003:00000054       ___native_vcclrit_reason   00405054     MSVCRT:natstart.obj
+ 0003:00000058       ___globallocalestatus      00405058     MSVCRT:xthdloc.obj
+ 0003:0000005c       ___defaultmatherr          0040505c     MSVCRT:merr.obj
+ 0003:00000068       ?g_hResource@@3PAUHINSTANCE__@@A 00405068     waiter.obj
+ 0003:0000006c       ?g_dwWaitMode@@3KA         0040506c     waiter.obj
+ 0003:00000070       ?g_hWnd@@3PAUHWND__@@A     00405070     waiter.obj
+ 0003:00000074       ?g_hInstance@@3PAUHINSTANCE__@@A 00405074     waiter.obj
+ 0003:00000078       ?g_gutFileName@@3VGUserText@@A 00405078     waiter.obj
+ 0003:00000094       ?g_gutAppName@@3VGUserText@@A 00405094     waiter.obj
+ 0003:000003f4       __dowildcard               004053f4     MSVCRT:wildcard.obj
+ 0003:000003f8       __commode                  004053f8     MSVCRT:xncommod.obj
+ 0003:000003fc       __fmode                    004053fc     MSVCRT:xtxtmode.obj
+ 0003:00000400       __adjust_fdiv              00405400     <common>
+ 0003:00000404       ___native_startup_state    00405404     <common>
+ 0003:00000408       ___native_startup_lock     00405408     <common>
+ 0003:0000040c       ___dyn_tls_init_callback   0040540c     <common>
+ 0003:00000410       ___onexitend               00405410     <common>
+ 0003:00000414       ___onexitbegin             00405414     <common>
+
+ entry point at        0001:00001360
+
+ Static symbols
+
+ 0001:00000659       __catch$?Notify@@YAJAAVGUserText@@PAH@Z$0 00401659 f   waiter.obj
+ 0001:0000090a       __catch$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$7 0040190a f   waiter.obj
+ 0001:00001054       _pre_cpp_init              00402054 f   MSVCRT:crtexew.obj
+ 0001:0000109f       ___tmainCRTStartup         0040209f f   MSVCRT:crtexew.obj
+ 0001:0000127e       _pre_c_init                0040227e f   MSVCRT:crtexew.obj
+ 0001:000017f0       __unwindfunclet$??0JSolidEdgeContextMenu@@QAE@ABV0@@Z$0 004027f0 f   waiter.obj
+ 0001:000017ff       __ehhandler$??0JSolidEdgeContextMenu@@QAE@ABV0@@Z 004027ff f   waiter.obj
+ 0001:00001820       __unwindfunclet$?Notify@@YAJAAVGUserText@@PAH@Z$2 00402820 f   waiter.obj
+ 0001:00001829       __unwindfunclet$?Notify@@YAJAAVGUserText@@PAH@Z$3 00402829 f   waiter.obj
+ 0001:00001832       __unwindfunclet$?Notify@@YAJAAVGUserText@@PAH@Z$4 00402832 f   waiter.obj
+ 0001:0000183b       __ehhandler$?Notify@@YAJAAVGUserText@@PAH@Z 0040283b f   waiter.obj
+ 0001:00001860       __unwindfunclet$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$9 00402860 f   waiter.obj
+ 0001:00001869       __unwindfunclet$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$10 00402869 f   waiter.obj
+ 0001:00001872       __unwindfunclet$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$11 00402872 f   waiter.obj
+ 0001:0000187b       __unwindfunclet$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$12 0040287b f   waiter.obj
+ 0001:00001884       __unwindfunclet$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z$13 00402884 f   waiter.obj
+ 0001:0000188d       __ehhandler$?CheckFile@@YGJPAVGUserText@@W4NotifyOption@@PAH@Z 0040288d f   waiter.obj
+ 0001:000018b0       __unwindfunclet$_WinMain@16$0 004028b0 f   waiter.obj
+ 0001:000018bc       __unwindfunclet$_WinMain@16$1 004028bc f   waiter.obj
+ 0001:000018c8       __unwindfunclet$_WinMain@16$2 004028c8 f   waiter.obj
+ 0001:000018d4       __unwindfunclet$_WinMain@16$3 004028d4 f   waiter.obj
+ 0001:000018e0       __unwindfunclet$_WinMain@16$4 004028e0 f   waiter.obj
+ 0001:000018ec       __unwindfunclet$_WinMain@16$6 004028ec f   waiter.obj
+ 0001:000018f8       __unwindfunclet$_WinMain@16$5 004028f8 f   waiter.obj
+ 0001:00001904       __ehhandler$_WinMain@16    00402904 f   waiter.obj
+ 0001:00001940       ??__Eg_gutFileName@@YAXXZ  00402940 f   waiter.obj
+ 0001:00001960       ??__Eg_gutAppName@@YAXXZ   00402960 f   waiter.obj
+ 0001:00001980       ??__Fg_gutFileName@@YAXXZ  00402980 f   waiter.obj
+ 0001:00001990       ??__Fg_gutAppName@@YAXXZ   00402990 f   waiter.obj

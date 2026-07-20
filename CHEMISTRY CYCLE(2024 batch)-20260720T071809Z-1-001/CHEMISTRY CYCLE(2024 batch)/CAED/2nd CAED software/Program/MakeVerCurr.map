@@ -1,0 +1,985 @@
+ MakeVerCurr
+
+ Timestamp is 46b39dfe (Fri Aug 03 16:28:30 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000070b3H .text                   CODE
+ 0001:000070c0 00000d1aH .text$x                 CODE
+ 0002:00000000 000003ecH .idata$5                DATA
+ 0002:000003ec 00000004H .CRT$XCA                DATA
+ 0002:000003f0 00000004H .CRT$XCAA               DATA
+ 0002:000003f4 00000004H .CRT$XCZ                DATA
+ 0002:000003f8 00000004H .CRT$XIA                DATA
+ 0002:000003fc 00000004H .CRT$XIAA               DATA
+ 0002:00000400 00000004H .CRT$XIZ                DATA
+ 0002:00000410 00000718H .rdata                  DATA
+ 0002:00000b28 00000035H .rdata$debug            DATA
+ 0002:00000b60 00000348H .rdata$r                DATA
+ 0002:00000eb0 000000d4H .rdata$sxdata           DATA
+ 0002:00000f84 00000004H .rtc$IAA                DATA
+ 0002:00000f88 00000004H .rtc$IZZ                DATA
+ 0002:00000f8c 00000004H .rtc$TAA                DATA
+ 0002:00000f90 00000004H .rtc$TZZ                DATA
+ 0002:00000f98 00000decH .xdata$x                DATA
+ 0002:00001d84 00000000H ATL$__a                 DATA
+ 0002:00001d84 00000000H ATL$__z                 DATA
+ 0002:00001d84 000000a0H .idata$2                DATA
+ 0002:00001e24 00000014H .idata$3                DATA
+ 0002:00001e38 000003ecH .idata$4                DATA
+ 0002:00002224 0000084eH .idata$6                DATA
+ 0002:00002a72 00000000H .edata                  DATA
+ 0003:00000000 000001c4H .data                   DATA
+ 0003:000001c8 00000378H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000418H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000035       ___safe_se_handler_count   00000035     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               00401000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              00401025 f   nothrownew.obj
+ 0001:00000030       ?CreateThisProcess@@YAXPBD@Z 00401030 f   MakeVerCurr.obj
+ 0001:000000b0       ?FindMyFile@@YAHPBD0PAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 004010b0 f   MakeVerCurr.obj
+ 0001:00000290       ?AssertValid@CObject@@UBEXXZ 00401290 f i MakeVerCurr.obj
+ 0001:00000290       ??3@YAXPAX0@Z              00401290 f i MakeVerCurr.obj
+ 0001:000002a0       ?DeleteRegistryValue@@YAXPBD0@Z 004012a0 f   MakeVerCurr.obj
+ 0001:000002f0       ?DeleteAllValuesUnderThisKey@@YAXPAUHKEY__@@@Z 004012f0 f   MakeVerCurr.obj
+ 0001:00000440       ?ParseAndDeleteTypelibTable@@YAXPBD@Z 00401440 f   MakeVerCurr.obj
+ 0001:000006b0       ?CheckAndRemoveInprocServer32@@YAXV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 004016b0 f   MakeVerCurr.obj
+ 0001:00000770       ?ParseAndDeleteClassTable@@YAXPBD@Z 00401770 f   MakeVerCurr.obj
+ 0001:00000a30       ?ParseAndDeleteRegistryTable@@YAXPBD@Z 00401a30 f   MakeVerCurr.obj
+ 0001:00000d70       ?RunningAsAdministrator@@YAHXZ 00401d70 f   MakeVerCurr.obj
+ 0001:00000eb0       ??0CFileTableInfo@@QAE@XZ  00401eb0 f i MakeVerCurr.obj
+ 0001:00000f10       ??1CFileTableInfo@@QAE@XZ  00401f10 f i MakeVerCurr.obj
+ 0001:00000f70       ??4CFileTableInfo@@QAEAAV0@ABV0@@Z 00401f70 f i MakeVerCurr.obj
+ 0001:00000fa0       ??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@XZ 00401fa0 f i MakeVerCurr.obj
+ 0001:00001000       ??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@XZ 00402000 f i MakeVerCurr.obj
+ 0001:00001060       ?AfxCrtErrorCheck@@YAHH@Z  00402060 f i MakeVerCurr.obj
+ 0001:000010f0       ??8const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QBE_NABV012@@Z 004020f0 f i MakeVerCurr.obj
+ 0001:000010f0       ??8const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QBE_NABV012@@Z 004020f0 f i MakeVerCurr.obj
+ 0001:00001120       ??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@0@Z 00402120 f i MakeVerCurr.obj
+ 0001:00001190       ??0CFileTableInfo@@QAE@ABV0@@Z 00402190 f i MakeVerCurr.obj
+ 0001:00001200       ?memcpy_s@Checked@ATL@@YAXPAXIPBXI@Z 00402200 f i MakeVerCurr.obj
+ 0001:00001230       ?_Rrotate@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z 00402230 f i MakeVerCurr.obj
+ 0001:00001290       ?_Rrotate@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z 00402290 f i MakeVerCurr.obj
+ 0001:000012f0       ?_Max@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@@Z 004022f0 f i MakeVerCurr.obj
+ 0001:00001310       ?_Min@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@@Z 00402310 f i MakeVerCurr.obj
+ 0001:00001330       ?_Max@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@@Z 00402330 f i MakeVerCurr.obj
+ 0001:00001350       ?_Min@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@@Z 00402350 f i MakeVerCurr.obj
+ 0001:00001370       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAEXXZ 00402370 f i MakeVerCurr.obj
+ 0001:00001400       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAEXXZ 00402400 f i MakeVerCurr.obj
+ 0001:00001470       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAEXXZ 00402470 f i MakeVerCurr.obj
+ 0001:00001500       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAEXXZ 00402500 f i MakeVerCurr.obj
+ 0001:00001570       ??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABU01@@Z 00402570 f i MakeVerCurr.obj
+ 0001:000015e0       ??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABU01@@Z 004025e0 f i MakeVerCurr.obj
+ 0001:00001650       ??$strcpy@$0BBG@@@YAPADAAY0BBG@DPBD@Z 00402650 f i MakeVerCurr.obj
+ 0001:00001680       ??$strcat@$0BBG@@@YAPADAAY0BBG@DPBD@Z 00402680 f i MakeVerCurr.obj
+ 0001:000016b0       ?SetSize@?$CArray@PADPAD@@QAEXHH@Z 004026b0 f i MakeVerCurr.obj
+ 0001:00001800       ?SetAtGrow@?$CArray@PADPAD@@QAEXHPAD@Z 00402800 f i MakeVerCurr.obj
+ 0001:00001830       ??3CObject@@SGXPAX@Z       00402830 f i MakeVerCurr.obj
+ 0001:00001840       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00402840 f i MakeVerCurr.obj
+ 0001:000018b0       ??1logic_error@std@@UAE@XZ 004028b0 f i MakeVerCurr.obj
+ 0001:00001910       ?what@logic_error@std@@UBEPBDXZ 00402910 f i MakeVerCurr.obj
+ 0001:00001920       ??_Elogic_error@std@@UAEPAXI@Z 00402920 f i MakeVerCurr.obj
+ 0001:00001920       ??_Glogic_error@std@@UAEPAXI@Z 00402920 f i MakeVerCurr.obj
+ 0001:00001940       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00402940 f i MakeVerCurr.obj
+ 0001:000019a0       ??1length_error@std@@UAE@XZ 004029a0 f i MakeVerCurr.obj
+ 0001:000019f0       ??_Glength_error@std@@UAEPAXI@Z 004029f0 f i MakeVerCurr.obj
+ 0001:000019f0       ??_Elength_error@std@@UAEPAXI@Z 004029f0 f i MakeVerCurr.obj
+ 0001:00001a50       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00402a50 f i MakeVerCurr.obj
+ 0001:00001ab0       ??1out_of_range@std@@UAE@XZ 00402ab0 f i MakeVerCurr.obj
+ 0001:00001b00       ??_Eout_of_range@std@@UAEPAXI@Z 00402b00 f i MakeVerCurr.obj
+ 0001:00001b00       ??_Gout_of_range@std@@UAEPAXI@Z 00402b00 f i MakeVerCurr.obj
+ 0001:00001b60       ?StepIt@CProgressCtrl@@QAEHXZ 00402b60 f i MakeVerCurr.obj
+ 0001:00001b80       ?CheckForP4AndUpdate@@YAXXZ 00402b80 f   MakeVerCurr.obj
+ 0001:00001da0       ?GetInstallPath@@YAXPAD@Z  00402da0 f   MakeVerCurr.obj
+ 0001:00001ee0       ?SearchAndRegister@@YAXPAD@Z 00402ee0 f   MakeVerCurr.obj
+ 0001:00002140       ?GetSolidEdgeMSIHandle@@YAJPBDPAK@Z 00403140 f   MakeVerCurr.obj
+ 0001:00002290       ?DeleteRegistryValues@@YAXPBDPAVProgressDialog@@@Z 00403290 f   MakeVerCurr.obj
+ 0001:00002490       ?RegisterServicePackRegistryFiles@@YAXPBD@Z 00403490 f   MakeVerCurr.obj
+ 0001:00002660       ?UnregisterFromRegFile@@YAXPBD@Z 00403660 f   MakeVerCurr.obj
+ 0001:00002830       ?RegisterComponent@@YAJPBD0@Z 00403830 f   MakeVerCurr.obj
+ 0001:00002f40       ??9const_iterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QBE_NABV012@@Z 00403f40 f i MakeVerCurr.obj
+ 0001:00002f70       ??R?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@QBE_NABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@0@Z 00403f70 f i MakeVerCurr.obj
+ 0001:00002fa0       ??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABVCFileTableInfo@@@Z 00403fa0 f i MakeVerCurr.obj
+ 0001:00003010       ?_Lbound@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00404010 f i MakeVerCurr.obj
+ 0001:00003060       ?_Lbound@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00404060 f i MakeVerCurr.obj
+ 0001:000030b0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z 004040b0 f i MakeVerCurr.obj
+ 0001:00003100       ?_Lrotate@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z 00404100 f i MakeVerCurr.obj
+ 0001:00003150       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z 00404150 f i MakeVerCurr.obj
+ 0001:000031d0       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z 004041d0 f i MakeVerCurr.obj
+ 0001:00003250       ??0?$CArray@PADPAD@@QAE@XZ 00404250 f i MakeVerCurr.obj
+ 0001:00003270       ??1?$CArray@PADPAD@@UAE@XZ 00404270 f i MakeVerCurr.obj
+ 0001:00003290       ??_E?$CArray@PADPAD@@UAEPAXI@Z 00404290 f i MakeVerCurr.obj
+ 0001:00003290       ??_G?$CArray@PADPAD@@UAEPAXI@Z 00404290 f i MakeVerCurr.obj
+ 0001:000032b0       ??$SerializeElements@PAD@@YGXAAVCArchive@@PAPADH@Z 004042b0 f i MakeVerCurr.obj
+ 0001:00003360       ?ParseFileToArray@@YAXPBDPAV?$CArray@PADPAD@@@Z 00404360 f   MakeVerCurr.obj
+ 0001:000034d0       ?RegisterSelfRegDlls@@YAXPBD@Z 004044d0 f   MakeVerCurr.obj
+ 0001:000036d0       ??Citerator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QBEPAU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@XZ 004046d0 f i MakeVerCurr.obj
+ 0001:000036d0       ??Citerator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QBEPAU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@XZ 004046d0 f i MakeVerCurr.obj
+ 0001:00003700       ?Serialize@?$CArray@PADPAD@@UAEXAAVCArchive@@@Z 00404700 f i MakeVerCurr.obj
+ 0001:00003760       ?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@XZ 00404760 f i MakeVerCurr.obj
+ 0001:00003810       ?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z 00404810 f i MakeVerCurr.obj
+ 0001:000038b0       ?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@XZ 004048b0 f i MakeVerCurr.obj
+ 0001:00003960       ?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z 00404960 f i MakeVerCurr.obj
+ 0001:00003a00       ?find@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00404a00 f i MakeVerCurr.obj
+ 0001:00003a70       ?find@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00404a70 f i MakeVerCurr.obj
+ 0001:00003ae0       ?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@@Z 00404ae0 f i MakeVerCurr.obj
+ 0001:00003cc0       ??0logic_error@std@@QAE@ABV01@@Z 00404cc0 f i MakeVerCurr.obj
+ 0001:00003d30       ??0length_error@std@@QAE@ABV01@@Z 00404d30 f i MakeVerCurr.obj
+ 0001:00003d90       ?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@@Z 00404d90 f i MakeVerCurr.obj
+ 0001:00003f70       ?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 00404f70 f i MakeVerCurr.obj
+ 0001:00004270       ??0out_of_range@std@@QAE@ABV01@@Z 00405270 f i MakeVerCurr.obj
+ 0001:000042d0       ?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 004052d0 f i MakeVerCurr.obj
+ 0001:000045b0       ?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z 004055b0 f i MakeVerCurr.obj
+ 0001:00004670       ?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z 00405670 f i MakeVerCurr.obj
+ 0001:00004710       ?insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@@Z 00405710 f i MakeVerCurr.obj
+ 0001:00004810       ?insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@@Z 00405810 f i MakeVerCurr.obj
+ 0001:00004910       ?insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@@Z 00405910 f i MakeVerCurr.obj
+ 0001:00004b20       ?insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@@Z 00405b20 f i MakeVerCurr.obj
+ 0001:00004d30       ?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 00405d30 f i MakeVerCurr.obj
+ 0001:00004e00       ?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 00405e00 f i MakeVerCurr.obj
+ 0001:00004ed0       ??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAEAAVCFileTableInfo@@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00405ed0 f i MakeVerCurr.obj
+ 0001:00004fb0       ??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAEAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABV23@@Z 00405fb0 f i MakeVerCurr.obj
+ 0001:00005090       ??1?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE@XZ 00406090 f i MakeVerCurr.obj
+ 0001:000050d0       ??1?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE@XZ 004060d0 f i MakeVerCurr.obj
+ 0001:00005110       ??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ 00406110 f i MakeVerCurr.obj
+ 0001:00005180       ??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ 00406180 f i MakeVerCurr.obj
+ 0001:000051f0       ??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ 004061f0 f i MakeVerCurr.obj
+ 0001:00005260       ??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ 00406260 f i MakeVerCurr.obj
+ 0001:000052d0       ?RegisterISSelfRegTable@@YAXPBD@Z 004062d0 f   MakeVerCurr.obj
+ 0001:00005bc0       _WinMain@16                00406bc0 f   MakeVerCurr.obj
+ 0001:00006070       ?GetThisMessageMap@ProgressDialog@@KGPBUAFX_MSGMAP@@XZ 00407070 f   ProgressDialog.obj
+ 0001:00006080       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 00407080 f i ProgressDialog.obj
+ 0001:00006080       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 00407080 f i MakeVerCurr.obj
+ 0001:00006080       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 00407080 f i MakeVerCurr.obj
+ 0001:00006090       ?Create@CDialog@@UAEHIPAVCWnd@@@Z 00407090 f i ProgressDialog.obj
+ 0001:000060a0       ??0CProgressCtrl@@QAE@XZ   004070a0 f i ProgressDialog.obj
+ 0001:00006100       ?BeginModalState@CWnd@@UAEXXZ 00407100 f i ProgressDialog.obj
+ 0001:00006110       ?EndModalState@CWnd@@UAEXXZ 00407110 f i ProgressDialog.obj
+ 0001:00006120       ??_ECProgressCtrl@@UAEPAXI@Z 00407120 f i ProgressDialog.obj
+ 0001:00006120       ??_GCProgressCtrl@@UAEPAXI@Z 00407120 f i ProgressDialog.obj
+ 0001:00006140       ?GetMessageMap@ProgressDialog@@MBEPBUAFX_MSGMAP@@XZ 00407140 f   ProgressDialog.obj
+ 0001:00006150       ??0ProgressDialog@@QAE@KPAVCWnd@@@Z 00407150 f   ProgressDialog.obj
+ 0001:00006290       ??1ProgressDialog@@UAE@XZ  00407290 f i ProgressDialog.obj
+ 0001:00006300       ??_EProgressDialog@@UAEPAXI@Z 00407300 f i ProgressDialog.obj
+ 0001:00006300       ??_GProgressDialog@@UAEPAXI@Z 00407300 f i ProgressDialog.obj
+ 0001:00006320       ?DoDataExchange@ProgressDialog@@MAEXPAVCDataExchange@@@Z 00407320 f   ProgressDialog.obj
+ 0001:00006336       _MsiOpenDatabaseA@12       00407336 f   msi:msi.dll
+ 0001:0000633c       _MsiGetProductInfoA@16     0040733c f   msi:msi.dll
+ 0001:00006342       _MsiCloseHandle@4          00407342 f   msi:msi.dll
+ 0001:00006348       _MsiDatabaseExportA@16     00407348 f   msi:msi.dll
+ 0001:0000634e       _MsiGetComponentPathA@16   0040734e f   msi:msi.dll
+ 0001:00006354       _MsiQueryFeatureStateA@8   00407354 f   msi:msi.dll
+ 0001:0000635a       _MsiReinstallFeatureA@12   0040735a f   msi:msi.dll
+ 0001:00006360       _MsiSetInternalUI@8        00407360 f   msi:msi.dll
+ 0001:00006366       _HRerrEx                   00407366 f   jutil:JUtil.dll
+ 0001:0000636c       _JFreeLibrary              0040736c f   jutil:JUtil.dll
+ 0001:00006372       ??3@YAXPAX@Z               00407372 f   mfc80:MFC80.DLL
+ 0001:00006378       ??1CStdioFile@@UAE@XZ      00407378 f   mfc80:MFC80.DLL
+ 0001:0000637e       ?ReadString@CStdioFile@@UAEHAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 0040737e f   mfc80:MFC80.DLL
+ 0001:00006384       ??0CStdioFile@@QAE@PBDI@Z  00407384 f   mfc80:MFC80.DLL
+ 0001:0000638a       ?AfxThrowInvalidArgException@@YGXXZ 0040738a f   mfc80:MFC80.DLL
+ 0001:00006390       ?AfxThrowMemoryException@@YGXXZ 00407390 f   mfc80:MFC80.DLL
+ 0001:00006396       ??_V@YAXPAX@Z              00407396 f   mfc80:MFC80.DLL
+ 0001:0000639c       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 0040739c f   mfc80:MFC80.DLL
+ 0001:000063a2       ?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 004073a2 f   mfc80:MFC80.DLL
+ 0001:000063a8       ?AfxThrowArchiveException@@YGXHPBD@Z 004073a8 f   mfc80:MFC80.DLL
+ 0001:000063ae       ?Read@CArchive@@QAEIPAXI@Z 004073ae f   mfc80:MFC80.DLL
+ 0001:000063b4       ?Write@CArchive@@QAEXPBXI@Z 004073b4 f   mfc80:MFC80.DLL
+ 0001:000063ba       ?ReadCount@CArchive@@QAEKXZ 004073ba f   mfc80:MFC80.DLL
+ 0001:000063c0       ?WriteCount@CArchive@@QAEXK@Z 004073c0 f   mfc80:MFC80.DLL
+ 0001:000063c6       ?EndDialog@CDialog@@QAEXH@Z 004073c6 f   mfc80:MFC80.DLL
+ 0001:000063cc       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 004073cc f   mfc80:MFC80.DLL
+ 0001:000063d2       ?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 004073d2 f   mfc80:MFC80.DLL
+ 0001:000063d8       ?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 004073d8 f   mfc80:MFC80.DLL
+ 0001:000063de       ??1CWnd@@UAE@XZ            004073de f   mfc80:MFC80.DLL
+ 0001:000063e4       ??0CWnd@@QAE@XZ            004073e4 f   mfc80:MFC80.DLL
+ 0001:000063ea       ?GetRuntimeClass@CProgressCtrl@@UBEPAUCRuntimeClass@@XZ 004073ea f   mfc80:MFC80.DLL
+ 0001:000063f0       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004073f0 f   mfc80:MFC80.DLL
+ 0001:000063f6       ?OnFinalRelease@CWnd@@UAEXXZ 004073f6 f   mfc80:MFC80.DLL
+ 0001:000063fc       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 004073fc f   mfc80:MFC80.DLL
+ 0001:00006402       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 00407402 f   mfc80:MFC80.DLL
+ 0001:00006408       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00407408 f   mfc80:MFC80.DLL
+ 0001:0000640e       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 0040740e f   mfc80:MFC80.DLL
+ 0001:00006414       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 00407414 f   mfc80:MFC80.DLL
+ 0001:0000641a       ?GetMessageMap@CWnd@@MBEPBUAFX_MSGMAP@@XZ 0040741a f   mfc80:MFC80.DLL
+ 0001:00006420       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 00407420 f   mfc80:MFC80.DLL
+ 0001:00006426       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 00407426 f   mfc80:MFC80.DLL
+ 0001:0000642c       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 0040742c f   mfc80:MFC80.DLL
+ 0001:00006432       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 00407432 f   mfc80:MFC80.DLL
+ 0001:00006438       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 00407438 f   mfc80:MFC80.DLL
+ 0001:0000643e       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 0040743e f   mfc80:MFC80.DLL
+ 0001:00006444       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00407444 f   mfc80:MFC80.DLL
+ 0001:0000644a       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 0040744a f   mfc80:MFC80.DLL
+ 0001:00006450       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 00407450 f   mfc80:MFC80.DLL
+ 0001:00006456       ?PreSubclassWindow@CWnd@@UAEXXZ 00407456 f   mfc80:MFC80.DLL
+ 0001:0000645c       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 0040745c f   mfc80:MFC80.DLL
+ 0001:00006462       ?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 00407462 f   mfc80:MFC80.DLL
+ 0001:00006468       ?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 00407468 f   mfc80:MFC80.DLL
+ 0001:0000646e       ?DestroyWindow@CWnd@@UAEHXZ 0040746e f   mfc80:MFC80.DLL
+ 0001:00006474       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00407474 f   mfc80:MFC80.DLL
+ 0001:0000647a       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 0040747a f   mfc80:MFC80.DLL
+ 0001:00006480       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 00407480 f   mfc80:MFC80.DLL
+ 0001:00006486       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00407486 f   mfc80:MFC80.DLL
+ 0001:0000648c       ?WinHelpA@CWnd@@UAEXKI@Z   0040748c f   mfc80:MFC80.DLL
+ 0001:00006492       ?HtmlHelpA@CWnd@@UAEXKI@Z  00407492 f   mfc80:MFC80.DLL
+ 0001:00006498       ?WinHelpInternal@CWnd@@UAEXKI@Z 00407498 f   mfc80:MFC80.DLL
+ 0001:0000649e       ?ContinueModal@CWnd@@UAEHXZ 0040749e f   mfc80:MFC80.DLL
+ 0001:000064a4       ?EndModalLoop@CWnd@@UAEXH@Z 004074a4 f   mfc80:MFC80.DLL
+ 0001:000064aa       ?EnsureStdObj@CWnd@@UAEJXZ 004074aa f   mfc80:MFC80.DLL
+ 0001:000064b0       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 004074b0 f   mfc80:MFC80.DLL
+ 0001:000064b6       ?get_accChildCount@CWnd@@UAEJPAJ@Z 004074b6 f   mfc80:MFC80.DLL
+ 0001:000064bc       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 004074bc f   mfc80:MFC80.DLL
+ 0001:000064c2       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074c2 f   mfc80:MFC80.DLL
+ 0001:000064c8       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074c8 f   mfc80:MFC80.DLL
+ 0001:000064ce       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074ce f   mfc80:MFC80.DLL
+ 0001:000064d4       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 004074d4 f   mfc80:MFC80.DLL
+ 0001:000064da       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 004074da f   mfc80:MFC80.DLL
+ 0001:000064e0       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074e0 f   mfc80:MFC80.DLL
+ 0001:000064e6       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 004074e6 f   mfc80:MFC80.DLL
+ 0001:000064ec       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074ec f   mfc80:MFC80.DLL
+ 0001:000064f2       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 004074f2 f   mfc80:MFC80.DLL
+ 0001:000064f8       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 004074f8 f   mfc80:MFC80.DLL
+ 0001:000064fe       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 004074fe f   mfc80:MFC80.DLL
+ 0001:00006504       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 00407504 f   mfc80:MFC80.DLL
+ 0001:0000650a       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 0040750a f   mfc80:MFC80.DLL
+ 0001:00006510       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 00407510 f   mfc80:MFC80.DLL
+ 0001:00006516       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 00407516 f   mfc80:MFC80.DLL
+ 0001:0000651c       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 0040751c f   mfc80:MFC80.DLL
+ 0001:00006522       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00407522 f   mfc80:MFC80.DLL
+ 0001:00006528       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00407528 f   mfc80:MFC80.DLL
+ 0001:0000652e       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 0040752e f   mfc80:MFC80.DLL
+ 0001:00006534       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 00407534 f   mfc80:MFC80.DLL
+ 0001:0000653a       ?OnCommand@CWnd@@MAEHIJ@Z  0040753a f   mfc80:MFC80.DLL
+ 0001:00006540       ?OnNotify@CWnd@@MAEHIJPAJ@Z 00407540 f   mfc80:MFC80.DLL
+ 0001:00006546       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 00407546 f   mfc80:MFC80.DLL
+ 0001:0000654c       ?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 0040754c f   mfc80:MFC80.DLL
+ 0001:00006552       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 00407552 f   mfc80:MFC80.DLL
+ 0001:00006558       ?WindowProc@CWnd@@MAEJIIJ@Z 00407558 f   mfc80:MFC80.DLL
+ 0001:0000655e       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 0040755e f   mfc80:MFC80.DLL
+ 0001:00006564       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 00407564 f   mfc80:MFC80.DLL
+ 0001:0000656a       ?PostNcDestroy@CWnd@@MAEXXZ 0040756a f   mfc80:MFC80.DLL
+ 0001:00006570       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 00407570 f   mfc80:MFC80.DLL
+ 0001:00006576       ?CheckAutoCenter@CWnd@@UAEHXZ 00407576 f   mfc80:MFC80.DLL
+ 0001:0000657c       ?IsFrameWnd@CWnd@@UBEHXZ   0040757c f   mfc80:MFC80.DLL
+ 0001:00006582       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 00407582 f   mfc80:MFC80.DLL
+ 0001:00006588       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 00407588 f   mfc80:MFC80.DLL
+ 0001:0000658e       ?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 0040758e f   mfc80:MFC80.DLL
+ 0001:00006594       ?GetOccDialogInfo@CWnd@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 00407594 f   mfc80:MFC80.DLL
+ 0001:0000659a       ?Create@CProgressCtrl@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 0040759a f   mfc80:MFC80.DLL
+ 0001:000065a0       ?CreateEx@CProgressCtrl@@UAEHKKABUtagRECT@@PAVCWnd@@I@Z 004075a0 f   mfc80:MFC80.DLL
+ 0001:000065a6       ??1CProgressCtrl@@UAE@XZ   004075a6 f   mfc80:MFC80.DLL
+ 0001:000065ac       ??1CDialog@@UAE@XZ         004075ac f   mfc80:MFC80.DLL
+ 0001:000065b2       ?ShowWindow@CWnd@@QAEHH@Z  004075b2 f   mfc80:MFC80.DLL
+ 0001:000065b8       ?GetDlgItem@CWnd@@QBEPAV1@H@Z 004075b8 f   mfc80:MFC80.DLL
+ 0001:000065be       ??0CDialog@@QAE@IPAVCWnd@@@Z 004075be f   mfc80:MFC80.DLL
+ 0001:000065c4       ?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 004075c4 f   mfc80:MFC80.DLL
+ 0001:000065ca       ?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004075ca f   mfc80:MFC80.DLL
+ 0001:000065d0       ?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 004075d0 f   mfc80:MFC80.DLL
+ 0001:000065d6       ?CheckAutoCenter@CDialog@@UAEHXZ 004075d6 f   mfc80:MFC80.DLL
+ 0001:000065dc       ?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 004075dc f   mfc80:MFC80.DLL
+ 0001:000065e2       ?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 004075e2 f   mfc80:MFC80.DLL
+ 0001:000065e8       ?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 004075e8 f   mfc80:MFC80.DLL
+ 0001:000065ee       ?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 004075ee f   mfc80:MFC80.DLL
+ 0001:000065f4       ?DoModal@CDialog@@UAEHXZ   004075f4 f   mfc80:MFC80.DLL
+ 0001:000065fa       ?OnInitDialog@CDialog@@UAEHXZ 004075fa f   mfc80:MFC80.DLL
+ 0001:00006600       ?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 00407600 f   mfc80:MFC80.DLL
+ 0001:00006606       ?OnOK@CDialog@@MAEXXZ      00407606 f   mfc80:MFC80.DLL
+ 0001:0000660c       ?OnCancel@CDialog@@MAEXXZ  0040760c f   mfc80:MFC80.DLL
+ 0001:00006612       ?PreInitDialog@CDialog@@MAEXXZ 00407612 f   mfc80:MFC80.DLL
+ 0001:00006618       ?DDX_Control@@YGXPAVCDataExchange@@HAAVCWnd@@@Z 00407618 f   mfc80:MFC80.DLL
+ 0001:0000661e       _malloc                    0040761e f   msvcrt:MSVCR80.dll
+ 0001:00006624       __callnewh                 00407624 f   msvcrt:MSVCR80.dll
+ 0001:0000662a       @__security_check_cookie@4 0040762a f   msvcrt:secchk.obj
+ 0001:0000663a       _memset                    0040763a f   msvcrt:MSVCR80.dll
+ 0001:00006640       ___CxxFrameHandler3        00407640 f   msvcrt:MSVCR80.dll
+ 0001:00006650       __alloca_probe_16          00407650 f   msvcrt:alloca16.obj
+ 0001:00006666       __alloca_probe_8           00407666     msvcrt:alloca16.obj
+ 0001:0000667c       ??_Etype_info@@UAEPAXI@Z   0040767c f i msvcrt:ti_inst.obj
+ 0001:000066c6       __CxxThrowException@8      004076c6 f   msvcrt:MSVCR80.dll
+ 0001:000066cc       ??0exception@std@@QAE@ABV01@@Z 004076cc f   msvcrt:MSVCR80.dll
+ 0001:000066d2       __except_handler4          004076d2 f   msvcrt:chandler4gs.obj
+ 0001:00006700       __allmul                   00407700 f   msvcrt:llmul.obj
+ 0001:00006a40       _WinMainCRTStartup         00407a40 f   msvcrt:crtexew.obj
+ 0001:00006a4c       __SEH_prolog4_GS           00407a4c f   msvcrt:sehprolg4gs.obj
+ 0001:00006a94       __SEH_epilog4_GS           00407a94 f   msvcrt:sehprolg4gs.obj
+ 0001:00006aa3       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 00407aa3 f   msvcrt:ehvecdtr.obj
+ 0001:00006b01       ??_M@YGXPAXIHP6EX0@Z@Z     00407b01 f   msvcrt:ehvecdtr.obj
+ 0001:00006b64       ___report_gsfailure        00407b64 f   msvcrt:gs_report.obj
+ 0001:00006c70       __alloca_probe             00407c70     msvcrt:chkstk.obj
+ 0001:00006c70       __chkstk                   00407c70 f   msvcrt:chkstk.obj
+ 0001:00006c9c       __except_handler4_common   00407c9c f   msvcrt:MSVCR80.dll
+ 0001:00006ca2       __amsg_exit                00407ca2 f   msvcrt:MSVCR80.dll
+ 0001:00006ca8       __onexit                   00407ca8 f   msvcrt:atonexit.obj
+ 0001:00006d47       _atexit                    00407d47 f   msvcrt:atonexit.obj
+ 0001:00006d59       __RTC_Initialize           00407d59 f   msvcrt:initsect.obj
+ 0001:00006d7d       __RTC_Terminate            00407d7d f   msvcrt:initsect.obj
+ 0001:00006da2       __XcptFilter               00407da2 f   msvcrt:MSVCR80.dll
+ 0001:00006db0       __ValidateImageBase        00407db0 f   msvcrt:pesect.obj
+ 0001:00006de0       __FindPESection            00407de0 f   msvcrt:pesect.obj
+ 0001:00006e22       __IsNonwritableInCurrentImage 00407e22 f   msvcrt:pesect.obj
+ 0001:00006e8e       __initterm                 00407e8e f   msvcrt:MSVCR80.dll
+ 0001:00006e94       __initterm_e               00407e94 f   msvcrt:MSVCR80.dll
+ 0001:00006e9c       __SEH_prolog4              00407e9c f   msvcrt:sehprolg4.obj
+ 0001:00006ee1       __SEH_epilog4              00407ee1 f   msvcrt:sehprolg4.obj
+ 0001:00006ef5       __setdefaultprecision      00407ef5 f   msvcrt:fp8.obj
+ 0001:00006f1e       __setargv                  00407f1e f   msvcrt:dllargv.obj
+ 0001:00006f1e       __matherr                  00407f1e f   msvcrt:merr.obj
+ 0001:00006f21       ___security_init_cookie    00407f21 f   msvcrt:gs_support.obj
+ 0001:00006fb6       ?terminate@@YAXXZ          00407fb6 f   msvcrt:MSVCR80.dll
+ 0001:00006fbc       __crt_debugger_hook        00407fbc f   msvcrt:MSVCR80.dll
+ 0001:00006fc2       ??1type_info@@UAE@XZ       00407fc2 f   msvcrt:MSVCR80.dll
+ 0001:00006fc2       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 00407fc2 f   msvcrt:MSVCR80.dll
+ 0001:00006fc8       __unlock                   00407fc8 f   msvcrt:MSVCR80.dll
+ 0001:00006fce       ___dllonexit               00407fce f   msvcrt:MSVCR80.dll
+ 0001:00006fd4       __lock                     00407fd4 f   msvcrt:MSVCR80.dll
+ 0001:00006fda       __invoke_watson            00407fda f   msvcrt:MSVCR80.dll
+ 0001:00006fe0       __controlfp_s              00407fe0 f   msvcrt:MSVCR80.dll
+ 0001:00006fe6       ?_AtlGetThreadACPFake@ATL@@YGIXZ 00407fe6 f i atls:atltrace.obj
+ 0001:0000704b       ?_AtlGetThreadACPReal@ATL@@YGIXZ 0040804b f i atls:atltrace.obj
+ 0001:0000704f       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 0040804f f i atls:atltrace.obj
+ 0002:00000000       __imp__GetTokenInformation@20 00409000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__EqualSid@8          00409004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__FreeSid@4           00409008     advapi32:ADVAPI32.dll
+ 0002:0000000c       __imp__RegCreateKeyExA@36  0040900c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__RegQueryValueExA@24 00409010     advapi32:ADVAPI32.dll
+ 0002:00000014       __imp__RegSetValueExA@24   00409014     advapi32:ADVAPI32.dll
+ 0002:00000018       __imp__OpenThreadToken@16  00409018     advapi32:ADVAPI32.dll
+ 0002:0000001c       __imp__OpenProcessToken@12 0040901c     advapi32:ADVAPI32.dll
+ 0002:00000020       __imp__RegEnumValueA@32    00409020     advapi32:ADVAPI32.dll
+ 0002:00000024       __imp__RegEnumKeyExA@32    00409024     advapi32:ADVAPI32.dll
+ 0002:00000028       __imp__RegOpenKeyExA@20    00409028     advapi32:ADVAPI32.dll
+ 0002:0000002c       __imp__RegDeleteValueA@8   0040902c     advapi32:ADVAPI32.dll
+ 0002:00000030       __imp__RegCloseKey@4       00409030     advapi32:ADVAPI32.dll
+ 0002:00000034       __imp__AllocateAndInitializeSid@44 00409034     advapi32:ADVAPI32.dll
+ 0002:00000038       \177ADVAPI32_NULL_THUNK_DATA 00409038     advapi32:ADVAPI32.dll
+ 0002:0000003c       __imp__HRerrEx             0040903c     jutil:JUtil.dll
+ 0002:00000040       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 00409040     jutil:JUtil.dll
+ 0002:00000044       __imp__JFreeLibrary        00409044     jutil:JUtil.dll
+ 0002:00000048       \177JUtil_NULL_THUNK_DATA  00409048     jutil:JUtil.dll
+ 0002:0000004c       __imp__SetCurrentDirectoryA@4 0040904c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentDirectoryA@8 00409050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentProcess@0 00409054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetLastError@0      00409058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetCurrentThread@0  0040905c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetSystemDirectoryA@8 00409060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__DeleteFileA@4       00409064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetTempPathA@8      00409068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetShortPathNameA@12 0040906c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetVersionExA@4     00409070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__InterlockedExchange@8 00409074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__CloseHandle@4       00409078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__FindFirstFileA@8    0040907c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__Sleep@4             00409080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__InterlockedCompareExchange@12 00409084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetStartupInfoA@4   00409088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__TerminateProcess@8  0040908c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__UnhandledExceptionFilter@4 00409090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetUnhandledExceptionFilter@4 00409094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__IsDebuggerPresent@0 00409098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__QueryPerformanceCounter@4 0040909c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetTickCount@0      004090a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetCurrentThreadId@0 004090a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetCurrentProcessId@0 004090a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetSystemTimeAsFileTime@4 004090ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__WaitForSingleObject@8 004090b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__FindNextFileA@8     004090b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__SearchPathA@24      004090b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__FindClose@4         004090bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetACP@0            004090c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetLocaleInfoA@16   004090c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__GetThreadLocale@0   004090c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__CreateProcessA@40   004090cc     kernel32:KERNEL32.dll
+ 0002:000000d0       \177KERNEL32_NULL_THUNK_DATA 004090d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 004090d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 004090d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 004090dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 004090e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 004090e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 004090e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 004090ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 004090f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 004090f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 004090f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 004090fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?DestroyWindow@CWnd@@UAEHXZ 00409100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00409104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 00409108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 0040910c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00409110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?WinHelpA@CWnd@@UAEXKI@Z 00409114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?HtmlHelpA@CWnd@@UAEXKI@Z 00409118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 0040911c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?ContinueModal@CWnd@@UAEHXZ 00409120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?EndModalLoop@CWnd@@UAEXH@Z 00409124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?EnsureStdObj@CWnd@@UAEJXZ 00409128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 0040912c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 00409130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 00409134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00409138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 0040913c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00409140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 00409144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 00409148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 0040914c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 00409150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00409154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 00409158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 0040915c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00409160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 00409164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 00409168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 0040916c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 00409170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 00409174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00409178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 0040917c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 00409180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 00409184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_?OnCommand@CWnd@@MAEHIJ@Z 00409188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 0040918c     mfc80:MFC80.DLL
+ 0002:00000190       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 00409190     mfc80:MFC80.DLL
+ 0002:00000194       __imp_?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 00409194     mfc80:MFC80.DLL
+ 0002:00000198       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 00409198     mfc80:MFC80.DLL
+ 0002:0000019c       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 0040919c     mfc80:MFC80.DLL
+ 0002:000001a0       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 004091a0     mfc80:MFC80.DLL
+ 0002:000001a4       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 004091a4     mfc80:MFC80.DLL
+ 0002:000001a8       __imp_?PostNcDestroy@CWnd@@MAEXXZ 004091a8     mfc80:MFC80.DLL
+ 0002:000001ac       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 004091ac     mfc80:MFC80.DLL
+ 0002:000001b0       __imp_?CheckAutoCenter@CWnd@@UAEHXZ 004091b0     mfc80:MFC80.DLL
+ 0002:000001b4       __imp_?IsFrameWnd@CWnd@@UBEHXZ 004091b4     mfc80:MFC80.DLL
+ 0002:000001b8       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 004091b8     mfc80:MFC80.DLL
+ 0002:000001bc       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 004091bc     mfc80:MFC80.DLL
+ 0002:000001c0       __imp_?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 004091c0     mfc80:MFC80.DLL
+ 0002:000001c4       __imp_?GetOccDialogInfo@CWnd@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 004091c4     mfc80:MFC80.DLL
+ 0002:000001c8       __imp_?Create@CProgressCtrl@@UAEHKABUtagRECT@@PAVCWnd@@I@Z 004091c8     mfc80:MFC80.DLL
+ 0002:000001cc       __imp_?CreateEx@CProgressCtrl@@UAEHKKABUtagRECT@@PAVCWnd@@I@Z 004091cc     mfc80:MFC80.DLL
+ 0002:000001d0       __imp_??1CProgressCtrl@@UAE@XZ 004091d0     mfc80:MFC80.DLL
+ 0002:000001d4       __imp_??1CDialog@@UAE@XZ   004091d4     mfc80:MFC80.DLL
+ 0002:000001d8       __imp_?ShowWindow@CWnd@@QAEHH@Z 004091d8     mfc80:MFC80.DLL
+ 0002:000001dc       __imp_?GetDlgItem@CWnd@@QBEPAV1@H@Z 004091dc     mfc80:MFC80.DLL
+ 0002:000001e0       __imp_??0CDialog@@QAE@IPAVCWnd@@@Z 004091e0     mfc80:MFC80.DLL
+ 0002:000001e4       __imp_?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 004091e4     mfc80:MFC80.DLL
+ 0002:000001e8       __imp_?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004091e8     mfc80:MFC80.DLL
+ 0002:000001ec       __imp_?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 004091ec     mfc80:MFC80.DLL
+ 0002:000001f0       __imp_?CheckAutoCenter@CDialog@@UAEHXZ 004091f0     mfc80:MFC80.DLL
+ 0002:000001f4       __imp_?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 004091f4     mfc80:MFC80.DLL
+ 0002:000001f8       __imp_?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 004091f8     mfc80:MFC80.DLL
+ 0002:000001fc       __imp_?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 004091fc     mfc80:MFC80.DLL
+ 0002:00000200       __imp_?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 00409200     mfc80:MFC80.DLL
+ 0002:00000204       __imp_?DoModal@CDialog@@UAEHXZ 00409204     mfc80:MFC80.DLL
+ 0002:00000208       __imp_?OnInitDialog@CDialog@@UAEHXZ 00409208     mfc80:MFC80.DLL
+ 0002:0000020c       __imp_?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 0040920c     mfc80:MFC80.DLL
+ 0002:00000210       __imp_?OnOK@CDialog@@MAEXXZ 00409210     mfc80:MFC80.DLL
+ 0002:00000214       __imp_?OnCancel@CDialog@@MAEXXZ 00409214     mfc80:MFC80.DLL
+ 0002:00000218       __imp_?PreInitDialog@CDialog@@MAEXXZ 00409218     mfc80:MFC80.DLL
+ 0002:0000021c       __imp_?DDX_Control@@YGXPAVCDataExchange@@HAAVCWnd@@@Z 0040921c     mfc80:MFC80.DLL
+ 0002:00000220       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 00409220     mfc80:MFC80.DLL
+ 0002:00000224       __imp_?GetMessageMap@CWnd@@MBEPBUAFX_MSGMAP@@XZ 00409224     mfc80:MFC80.DLL
+ 0002:00000228       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 00409228     mfc80:MFC80.DLL
+ 0002:0000022c       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 0040922c     mfc80:MFC80.DLL
+ 0002:00000230       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00409230     mfc80:MFC80.DLL
+ 0002:00000234       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 00409234     mfc80:MFC80.DLL
+ 0002:00000238       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 00409238     mfc80:MFC80.DLL
+ 0002:0000023c       __imp_?OnFinalRelease@CWnd@@UAEXXZ 0040923c     mfc80:MFC80.DLL
+ 0002:00000240       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00409240     mfc80:MFC80.DLL
+ 0002:00000244       __imp_?GetRuntimeClass@CProgressCtrl@@UBEPAUCRuntimeClass@@XZ 00409244     mfc80:MFC80.DLL
+ 0002:00000248       __imp_??0CWnd@@QAE@XZ      00409248     mfc80:MFC80.DLL
+ 0002:0000024c       __imp_??1CWnd@@UAE@XZ      0040924c     mfc80:MFC80.DLL
+ 0002:00000250       __imp_?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 00409250     mfc80:MFC80.DLL
+ 0002:00000254       __imp_?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 00409254     mfc80:MFC80.DLL
+ 0002:00000258       __imp_?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 00409258     mfc80:MFC80.DLL
+ 0002:0000025c       __imp_?Format@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAAXIZZ 0040925c     mfc80:MFC80.DLL
+ 0002:00000260       __imp_?EndDialog@CDialog@@QAEXH@Z 00409260     mfc80:MFC80.DLL
+ 0002:00000264       __imp_?WriteCount@CArchive@@QAEXK@Z 00409264     mfc80:MFC80.DLL
+ 0002:00000268       __imp_?ReadCount@CArchive@@QAEKXZ 00409268     mfc80:MFC80.DLL
+ 0002:0000026c       __imp_?Write@CArchive@@QAEXPBXI@Z 0040926c     mfc80:MFC80.DLL
+ 0002:00000270       __imp_?Read@CArchive@@QAEIPAXI@Z 00409270     mfc80:MFC80.DLL
+ 0002:00000274       __imp_?AfxThrowArchiveException@@YGXHPBD@Z 00409274     mfc80:MFC80.DLL
+ 0002:00000278       __imp_?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 00409278     mfc80:MFC80.DLL
+ 0002:0000027c       __imp_?Left@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBE?AV12@H@Z 0040927c     mfc80:MFC80.DLL
+ 0002:00000280       __imp_?Insert@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEHHPBD@Z 00409280     mfc80:MFC80.DLL
+ 0002:00000284       __imp_?Delete@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEHHH@Z 00409284     mfc80:MFC80.DLL
+ 0002:00000288       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 00409288     mfc80:MFC80.DLL
+ 0002:0000028c       __imp_??_V@YAXPAX@Z        0040928c     mfc80:MFC80.DLL
+ 0002:00000290       __imp_?Compare@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHPBD@Z 00409290     mfc80:MFC80.DLL
+ 0002:00000294       __imp_?AfxThrowMemoryException@@YGXXZ 00409294     mfc80:MFC80.DLL
+ 0002:00000298       __imp_?AfxThrowInvalidArgException@@YGXXZ 00409298     mfc80:MFC80.DLL
+ 0002:0000029c       __imp_?CompareNoCase@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHPBD@Z 0040929c     mfc80:MFC80.DLL
+ 0002:000002a0       __imp_?ReverseFind@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHD@Z 004092a0     mfc80:MFC80.DLL
+ 0002:000002a4       __imp_?GetLength@?$CSimpleStringT@D$00@ATL@@QBEHXZ 004092a4     mfc80:MFC80.DLL
+ 0002:000002a8       __imp_?Right@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBE?AV12@H@Z 004092a8     mfc80:MFC80.DLL
+ 0002:000002ac       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 004092ac     mfc80:MFC80.DLL
+ 0002:000002b0       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@ABV01@@Z 004092b0     mfc80:MFC80.DLL
+ 0002:000002b4       __imp_??0CStdioFile@@QAE@PBDI@Z 004092b4     mfc80:MFC80.DLL
+ 0002:000002b8       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 004092b8     mfc80:MFC80.DLL
+ 0002:000002bc       __imp_?ReadString@CStdioFile@@UAEHAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 004092bc     mfc80:MFC80.DLL
+ 0002:000002c0       __imp_?IsEmpty@?$CSimpleStringT@D$00@ATL@@QBE_NXZ 004092c0     mfc80:MFC80.DLL
+ 0002:000002c4       __imp_?GetAt@?$CSimpleStringT@D$00@ATL@@QBEDH@Z 004092c4     mfc80:MFC80.DLL
+ 0002:000002c8       __imp_?Find@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHPBDH@Z 004092c8     mfc80:MFC80.DLL
+ 0002:000002cc       __imp_?Mid@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBE?AV12@HH@Z 004092cc     mfc80:MFC80.DLL
+ 0002:000002d0       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@ABV01@@Z 004092d0     mfc80:MFC80.DLL
+ 0002:000002d4       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 004092d4     mfc80:MFC80.DLL
+ 0002:000002d8       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@ABV?$CSimpleStringT@D$00@1@@Z 004092d8     mfc80:MFC80.DLL
+ 0002:000002dc       __imp_?MakeLower@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV12@XZ 004092dc     mfc80:MFC80.DLL
+ 0002:000002e0       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 004092e0     mfc80:MFC80.DLL
+ 0002:000002e4       __imp_??1CStdioFile@@UAE@XZ 004092e4     mfc80:MFC80.DLL
+ 0002:000002e8       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 004092e8     mfc80:MFC80.DLL
+ 0002:000002ec       __imp_??3@YAXPAX@Z         004092ec     mfc80:MFC80.DLL
+ 0002:000002f0       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 004092f0     mfc80:MFC80.DLL
+ 0002:000002f4       \177MFC80_NULL_THUNK_DATA  004092f4     mfc80:MFC80.DLL
+ 0002:000002f8       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 004092f8     msvcprt:MSVCP80.dll
+ 0002:000002fc       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 004092fc     msvcprt:MSVCP80.dll
+ 0002:00000300       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 00409300     msvcprt:MSVCP80.dll
+ 0002:00000304       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00409304     msvcprt:MSVCP80.dll
+ 0002:00000308       \177MSVCP80_NULL_THUNK_DATA 00409308     msvcprt:MSVCP80.dll
+ 0002:0000030c       __imp____dllonexit         0040930c     msvcrt:MSVCR80.dll
+ 0002:00000310       __imp___unlock             00409310     msvcrt:MSVCR80.dll
+ 0002:00000314       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 00409314     msvcrt:MSVCR80.dll
+ 0002:00000318       __imp___crt_debugger_hook  00409318     msvcrt:MSVCR80.dll
+ 0002:0000031c       __imp_?terminate@@YAXXZ    0040931c     msvcrt:MSVCR80.dll
+ 0002:00000320       __imp____set_app_type      00409320     msvcrt:MSVCR80.dll
+ 0002:00000324       __imp___encode_pointer     00409324     msvcrt:MSVCR80.dll
+ 0002:00000328       __imp____p__fmode          00409328     msvcrt:MSVCR80.dll
+ 0002:0000032c       __imp____p__commode        0040932c     msvcrt:MSVCR80.dll
+ 0002:00000330       __imp___adjust_fdiv        00409330     msvcrt:MSVCR80.dll
+ 0002:00000334       __imp____setusermatherr    00409334     msvcrt:MSVCR80.dll
+ 0002:00000338       __imp___configthreadlocale 00409338     msvcrt:MSVCR80.dll
+ 0002:0000033c       __imp___initterm_e         0040933c     msvcrt:MSVCR80.dll
+ 0002:00000340       __imp___initterm           00409340     msvcrt:MSVCR80.dll
+ 0002:00000344       __imp___acmdln             00409344     msvcrt:MSVCR80.dll
+ 0002:00000348       __imp__exit                00409348     msvcrt:MSVCR80.dll
+ 0002:0000034c       __imp___lock               0040934c     msvcrt:MSVCR80.dll
+ 0002:00000350       __imp___XcptFilter         00409350     msvcrt:MSVCR80.dll
+ 0002:00000354       __imp___exit               00409354     msvcrt:MSVCR80.dll
+ 0002:00000358       __imp___cexit              00409358     msvcrt:MSVCR80.dll
+ 0002:0000035c       __imp____getmainargs       0040935c     msvcrt:MSVCR80.dll
+ 0002:00000360       __imp___amsg_exit          00409360     msvcrt:MSVCR80.dll
+ 0002:00000364       __imp___except_handler4_common 00409364     msvcrt:MSVCR80.dll
+ 0002:00000368       __imp_??0exception@std@@QAE@ABV01@@Z 00409368     msvcrt:MSVCR80.dll
+ 0002:0000036c       __imp___CxxThrowException@8 0040936c     msvcrt:MSVCR80.dll
+ 0002:00000370       __imp__atol                00409370     msvcrt:MSVCR80.dll
+ 0002:00000374       __imp_??0exception@std@@QAE@XZ 00409374     msvcrt:MSVCR80.dll
+ 0002:00000378       __imp___onexit             00409378     msvcrt:MSVCR80.dll
+ 0002:0000037c       __imp___decode_pointer     0040937c     msvcrt:MSVCR80.dll
+ 0002:00000380       __imp___invoke_watson      00409380     msvcrt:MSVCR80.dll
+ 0002:00000384       __imp___ismbblead          00409384     msvcrt:MSVCR80.dll
+ 0002:00000388       __imp___controlfp_s        00409388     msvcrt:MSVCR80.dll
+ 0002:0000038c       __imp__malloc              0040938c     msvcrt:MSVCR80.dll
+ 0002:00000390       __imp___callnewh           00409390     msvcrt:MSVCR80.dll
+ 0002:00000394       __imp__memset              00409394     msvcrt:MSVCR80.dll
+ 0002:00000398       __imp____CxxFrameHandler3  00409398     msvcrt:MSVCR80.dll
+ 0002:0000039c       __imp_??1exception@std@@UAE@XZ 0040939c     msvcrt:MSVCR80.dll
+ 0002:000003a0       __imp__strcat_s            004093a0     msvcrt:MSVCR80.dll
+ 0002:000003a4       __imp__strcpy_s            004093a4     msvcrt:MSVCR80.dll
+ 0002:000003a8       __imp__memcpy_s            004093a8     msvcrt:MSVCR80.dll
+ 0002:000003ac       __imp___invalid_parameter_noinfo 004093ac     msvcrt:MSVCR80.dll
+ 0002:000003b0       \177MSVCR80_NULL_THUNK_DATA 004093b0     msvcrt:MSVCR80.dll
+ 0002:000003b4       __imp__SendMessageA@16     004093b4     user32:USER32.dll
+ 0002:000003b8       __imp__MessageBoxA@16      004093b8     user32:USER32.dll
+ 0002:000003bc       __imp__EnableWindow@8      004093bc     user32:USER32.dll
+ 0002:000003c0       __imp__SetFocus@4          004093c0     user32:USER32.dll
+ 0002:000003c4       \177USER32_NULL_THUNK_DATA 004093c4     user32:USER32.dll
+ 0002:000003c8       __imp__MsiDatabaseExportA@16 004093c8     msi:msi.dll
+ 0002:000003cc       __imp__MsiGetComponentPathA@16 004093cc     msi:msi.dll
+ 0002:000003d0       __imp__MsiQueryFeatureStateA@8 004093d0     msi:msi.dll
+ 0002:000003d4       __imp__MsiReinstallFeatureA@12 004093d4     msi:msi.dll
+ 0002:000003d8       __imp__MsiSetInternalUI@8  004093d8     msi:msi.dll
+ 0002:000003dc       __imp__MsiCloseHandle@4    004093dc     msi:msi.dll
+ 0002:000003e0       __imp__MsiGetProductInfoA@16 004093e0     msi:msi.dll
+ 0002:000003e4       __imp__MsiOpenDatabaseA@12 004093e4     msi:msi.dll
+ 0002:000003e8       \177msi_NULL_THUNK_DATA    004093e8     msi:msi.dll
+ 0002:000003ec       ___xc_a                    004093ec     msvcrt:cinitexe.obj
+ 0002:000003f4       ___xc_z                    004093f4     msvcrt:cinitexe.obj
+ 0002:000003f8       ___xi_a                    004093f8     msvcrt:cinitexe.obj
+ 0002:00000400       ___xi_z                    00409400     msvcrt:cinitexe.obj
+ 0002:0000042c       ??_C@_06JKHCKJDA@WEBPUB?$AA@ 0040942c     MakeVerCurr.obj
+ 0002:00000434       ??_C@_08JAHJNBBC@HANDBOOK?$AA@ 00409434     MakeVerCurr.obj
+ 0002:00000440       ??_C@_03BIJNBBP@AFR?$AA@   00409440     MakeVerCurr.obj
+ 0002:00000444       ??_C@_0N@BCGAMBNE@EngReference?$AA@ 00409444     MakeVerCurr.obj
+ 0002:00000454       ??_C@_0O@CABMPMOD@StdParts_DLLS?$AA@ 00409454     MakeVerCurr.obj
+ 0002:00000464       ??_C@_04KNHKGLNN@DLLS?$AA@ 00409464     MakeVerCurr.obj
+ 0002:0000046c       ??_C@_08JJPGJEGI@TYPELIBS?$AA@ 0040946c     MakeVerCurr.obj
+ 0002:00000478       ??_C@_0M@CJCDNCCE@COM_SERVERS?$AA@ 00409478     MakeVerCurr.obj
+ 0002:00000484       ??_C@_0BB@FKIKLIMM@EXECUTABLESNOADV?$AA@ 00409484     MakeVerCurr.obj
+ 0002:00000498       ??_C@_0M@GLHFHCOI@EXECUTABLES?$AA@ 00409498     MakeVerCurr.obj
+ 0002:000004a4       ??_C@_09HCAKGFLF@family?515?$AA@ 004094a4     MakeVerCurr.obj
+ 0002:000004b0       ??_C@_0L@LKLCBOKG@seregr?4exe?$AA@ 004094b0     MakeVerCurr.obj
+ 0002:000004bc       ??_C@_0M@GFAPLDLB@srvpack?4reg?$AA@ 004094bc     MakeVerCurr.obj
+ 0002:000004c8       ??_C@_01KICIPPFI@?2?$AA@   004094c8     MakeVerCurr.obj
+ 0002:000004cc       ??_C@_02DJGKEECL@?4?4?$AA@ 004094cc     MakeVerCurr.obj
+ 0002:000004d0       ??_C@_01LFCBOECM@?4?$AA@   004094d0     MakeVerCurr.obj
+ 0002:000004d4       ??_C@_02DOGDOMPH@?$CK?4?$AA@ 004094d4     MakeVerCurr.obj
+ 0002:000004d8       ??_C@_08LKLCAKLM@threed32?$AA@ 004094d8     MakeVerCurr.obj
+ 0002:000004e4       ??_C@_01GPOEFGEJ@?7?$AA@   004094e4     MakeVerCurr.obj
+ 0002:000004e8       ??_C@_08LHHGDPIF@TypeLib?2?$AA@ 004094e8     MakeVerCurr.obj
+ 0002:000004f4       ??_C@_05GIBEAPNE@CLSID?$AA@ 004094f4     MakeVerCurr.obj
+ 0002:000004fc       ??_C@_0P@HGHLJHOB@InprocServer32?$AA@ 004094fc     MakeVerCurr.obj
+ 0002:0000050c       ??_C@_0BC@BNCPHMBB@?4?2MakeVerCurr?4cpp?$AA@ 0040950c     MakeVerCurr.obj
+ 0002:00000520       ??_C@_0BN@FEABOHFC@CheckAndRemoveInprocServer32?$AA@ 00409520     MakeVerCurr.obj
+ 0002:00000540       ??_C@_07OJMBNFLO@global_?$AA@ 00409540     MakeVerCurr.obj
+ 0002:00000548       ??_C@_06JHNIBAJK@CLSID?2?$AA@ 00409548     MakeVerCurr.obj
+ 0002:00000550       ??_C@_01NBENCBCI@?$CK?$AA@ 00409550     MakeVerCurr.obj
+ 0002:00000554       ??_C@_01GBGANLPD@0?$AA@    00409554     MakeVerCurr.obj
+ 0002:00000558       ??_C@_08EPBENDNC@Registry?$AA@ 00409558     MakeVerCurr.obj
+ 0002:00000568       ??_7logic_error@std@@6B@   00409568     MakeVerCurr.obj
+ 0002:00000574       ??_7length_error@std@@6B@  00409574     MakeVerCurr.obj
+ 0002:00000580       ??_7out_of_range@std@@6B@  00409580     MakeVerCurr.obj
+ 0002:00000588       ??_C@_0L@HMIMJLJK@KernelType?$AA@ 00409588     MakeVerCurr.obj
+ 0002:00000594       ??_C@_0P@IANJKHJL@CurrentVersion?$AA@ 00409594     MakeVerCurr.obj
+ 0002:000005a4       ??_C@_0DF@ONMDHGLP@SOFTWARE?2Unigraphics?5Solutions?2S@ 004095a4     MakeVerCurr.obj
+ 0002:000005dc       ??_C@_02NHCIPLKK@P4?$AA@   004095dc     MakeVerCurr.obj
+ 0002:000005e0       ??_C@_0L@GHBDJGA@Identifier?$AA@ 004095e0     MakeVerCurr.obj
+ 0002:000005ec       ??_C@_0CP@JONMPIIP@HARDWARE?2DESCRIPTION?2System?2Cent@ 004095ec     MakeVerCurr.obj
+ 0002:0000061c       ??_C@_08LHLJMCNC@PathName?$AA@ 0040961c     MakeVerCurr.obj
+ 0002:00000628       ??_C@_01BJJEKLCA@?$CC?$AA@ 00409628     MakeVerCurr.obj
+ 0002:0000062c       ??_C@_0BC@JICNDKHH@regsvr32?4exe?5?1s?5?$CC?$AA@ 0040962c     MakeVerCurr.obj
+ 0002:0000063e       ??_C@_00CNPNBAHC@?$AA@     0040963e     MakeVerCurr.obj
+ 0002:00000640       ??_C@_04GMOILALO@?4msi?$AA@ 00409640     MakeVerCurr.obj
+ 0002:00000648       ??_C@_02PIBHCBOA@20?$AA@   00409648     MakeVerCurr.obj
+ 0002:0000064c       ??_C@_0N@OHNIIPMM@Solid?5Edge?5V?$AA@ 0040964c     MakeVerCurr.obj
+ 0002:0000065c       ??_C@_0O@GCCHCBIO@InstallSource?$AA@ 0040965c     MakeVerCurr.obj
+ 0002:0000066c       ??_C@_0N@ONDNCIN@LocalPackage?$AA@ 0040966c     MakeVerCurr.obj
+ 0002:0000067c       ??_C@_07KJLOKDKB@TypeLib?$AA@ 0040967c     MakeVerCurr.obj
+ 0002:00000684       ??_C@_05EKAMNAII@Class?$AA@ 00409684     MakeVerCurr.obj
+ 0002:0000068c       ??_C@_0M@KKLDIGB@SEMSIDB?4TXT?$AA@ 0040968c     MakeVerCurr.obj
+ 0002:00000698       ??_C@_07GGEIHFPN@?5?1q?5?1v?5?$AA@ 00409698     MakeVerCurr.obj
+ 0002:000006a0       ??_C@_0BB@LCBBJNFK@?5?9u?5?9p?5?9q?5?9r?5?9v?5?$AA@ 004096a0     MakeVerCurr.obj
+ 0002:000006b4       ??_C@_0N@HPOFIEIG@?$FLINSTALLDIR?$FN?$AA@ 004096b4     MakeVerCurr.obj
+ 0002:000006c4       ??_C@_01IPJKGB@?$CD?$AA@   004096c4     MakeVerCurr.obj
+ 0002:000006c8       ??_C@_01FDFGLJHB@2?$AA@    004096c8     MakeVerCurr.obj
+ 0002:000006d0       ??_7?$CArray@PADPAD@@6B@   004096d0     MakeVerCurr.obj
+ 0002:000006e4       ??_C@_01IDAFKMJL@_?$AA@    004096e4     MakeVerCurr.obj
+ 0002:000006e8       ??_C@_07PEBKMJLP@SelfReg?$AA@ 004096e8     MakeVerCurr.obj
+ 0002:000006f0       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 004096f0     MakeVerCurr.obj
+ 0002:00000704       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 00409704     MakeVerCurr.obj
+ 0002:00000720       ??_C@_09FLMCCPHJ@ISSelfReg?$AA@ 00409720     MakeVerCurr.obj
+ 0002:0000072c       ??_C@_09JHOGCJFE@Component?$AA@ 0040972c     MakeVerCurr.obj
+ 0002:00000738       ??_C@_01DNKMNLPK@?$HM?$AA@ 00409738     MakeVerCurr.obj
+ 0002:0000073c       ??_C@_04PBAHLACE@File?$AA@ 0040973c     MakeVerCurr.obj
+ 0002:00000744       ??_C@_0M@IKPJPEHC@UnregSE?4reg?$AA@ 00409744     MakeVerCurr.obj
+ 0002:00000750       ??_C@_0N@PPIHKLDF@BaseView?4exe?$AA@ 00409750     MakeVerCurr.obj
+ 0002:00000760       ??_C@_0BA@FLGBKALH@MakeVerCurr?4drx?$AA@ 00409760     MakeVerCurr.obj
+ 0002:00000770       ??_C@_0CH@MKAECNKE@?$HL886F91D5?94B45?945DC?9938E?96B0276C@ 00409770     MakeVerCurr.obj
+ 0002:000007bc       ??_7CProgressCtrl@@6B@     004097bc     ProgressDialog.obj
+ 0002:00000904       ??_7ProgressDialog@@6B@    00409904     ProgressDialog.obj
+ 0002:00000a68       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 00409a68     StdAfx.obj
+ 0002:00000a78       ??_C@_06JBKGCNBB@Delete?$AA@ 00409a78     mfcs80:stdafx.obj
+ 0002:00000a80       ??_C@_08KAAPDIAN@NoRemove?$AA@ 00409a80     mfcs80:stdafx.obj
+ 0002:00000a8c       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 00409a8c     mfcs80:stdafx.obj
+ 0002:00000a98       ??_C@_03LAIAPFCB@Val?$AA@  00409a98     mfcs80:stdafx.obj
+ 0002:00000a9c       ??_C@_01HMGJMAIH@B?$AA@    00409a9c     mfcs80:stdafx.obj
+ 0002:00000aa0       ??_C@_01CKDDGHAB@D?$AA@    00409aa0     mfcs80:stdafx.obj
+ 0002:00000aa4       ??_C@_01PLPBNMEI@M?$AA@    00409aa4     mfcs80:stdafx.obj
+ 0002:00000aa8       ??_C@_01CPLAODJH@S?$AA@    00409aa8     mfcs80:stdafx.obj
+ 0002:00000ad0       ??_7type_info@@6B@         00409ad0     msvcrt:ti_inst.obj
+ 0002:00000ae0       __load_config_used         00409ae0     msvcrt:loadcfg.obj
+ 0002:00000b60       ??_R1A@?0A@EA@exception@std@@8 00409b60     MakeVerCurr.obj
+ 0002:00000b7c       ??_R3exception@std@@8      00409b7c     MakeVerCurr.obj
+ 0002:00000b8c       ??_R2exception@std@@8      00409b8c     MakeVerCurr.obj
+ 0002:00000b94       ??_R4logic_error@std@@6B@  00409b94     MakeVerCurr.obj
+ 0002:00000ba8       ??_R3logic_error@std@@8    00409ba8     MakeVerCurr.obj
+ 0002:00000bb8       ??_R2logic_error@std@@8    00409bb8     MakeVerCurr.obj
+ 0002:00000bc4       ??_R1A@?0A@EA@logic_error@std@@8 00409bc4     MakeVerCurr.obj
+ 0002:00000be0       ??_R4length_error@std@@6B@ 00409be0     MakeVerCurr.obj
+ 0002:00000bf4       ??_R3length_error@std@@8   00409bf4     MakeVerCurr.obj
+ 0002:00000c04       ??_R2length_error@std@@8   00409c04     MakeVerCurr.obj
+ 0002:00000c14       ??_R1A@?0A@EA@length_error@std@@8 00409c14     MakeVerCurr.obj
+ 0002:00000c30       ??_R4out_of_range@std@@6B@ 00409c30     MakeVerCurr.obj
+ 0002:00000c44       ??_R3out_of_range@std@@8   00409c44     MakeVerCurr.obj
+ 0002:00000c54       ??_R2out_of_range@std@@8   00409c54     MakeVerCurr.obj
+ 0002:00000c64       ??_R1A@?0A@EA@out_of_range@std@@8 00409c64     MakeVerCurr.obj
+ 0002:00000c80       ??_R4?$CArray@PADPAD@@6B@  00409c80     MakeVerCurr.obj
+ 0002:00000c94       ??_R3?$CArray@PADPAD@@8    00409c94     MakeVerCurr.obj
+ 0002:00000ca4       ??_R2?$CArray@PADPAD@@8    00409ca4     MakeVerCurr.obj
+ 0002:00000cb0       ??_R1A@?0A@EA@?$CArray@PADPAD@@8 00409cb0     MakeVerCurr.obj
+ 0002:00000ccc       ??_R1A@?0A@EA@CObject@@8   00409ccc     MakeVerCurr.obj
+ 0002:00000ce8       ??_R3CObject@@8            00409ce8     MakeVerCurr.obj
+ 0002:00000cf8       ??_R2CObject@@8            00409cf8     MakeVerCurr.obj
+ 0002:00000d00       ??_R4CProgressCtrl@@6B@    00409d00     ProgressDialog.obj
+ 0002:00000d14       ??_R3CProgressCtrl@@8      00409d14     ProgressDialog.obj
+ 0002:00000d24       ??_R2CProgressCtrl@@8      00409d24     ProgressDialog.obj
+ 0002:00000d38       ??_R1A@?0A@EA@CProgressCtrl@@8 00409d38     ProgressDialog.obj
+ 0002:00000d54       ??_R1A@?0A@EA@CWnd@@8      00409d54     ProgressDialog.obj
+ 0002:00000d70       ??_R3CWnd@@8               00409d70     ProgressDialog.obj
+ 0002:00000d80       ??_R2CWnd@@8               00409d80     ProgressDialog.obj
+ 0002:00000d90       ??_R1A@?0A@EA@CCmdTarget@@8 00409d90     ProgressDialog.obj
+ 0002:00000dac       ??_R3CCmdTarget@@8         00409dac     ProgressDialog.obj
+ 0002:00000dbc       ??_R2CCmdTarget@@8         00409dbc     ProgressDialog.obj
+ 0002:00000dc8       ??_R4ProgressDialog@@6B@   00409dc8     ProgressDialog.obj
+ 0002:00000ddc       ??_R3ProgressDialog@@8     00409ddc     ProgressDialog.obj
+ 0002:00000dec       ??_R2ProgressDialog@@8     00409dec     ProgressDialog.obj
+ 0002:00000e04       ??_R1A@?0A@EA@ProgressDialog@@8 00409e04     ProgressDialog.obj
+ 0002:00000e20       ??_R1A@?0A@EA@CDialog@@8   00409e20     ProgressDialog.obj
+ 0002:00000e3c       ??_R3CDialog@@8            00409e3c     ProgressDialog.obj
+ 0002:00000e4c       ??_R2CDialog@@8            00409e4c     ProgressDialog.obj
+ 0002:00000e60       ??_R4type_info@@6B@        00409e60     msvcrt:ti_inst.obj
+ 0002:00000e74       ??_R3type_info@@8          00409e74     msvcrt:ti_inst.obj
+ 0002:00000e84       ??_R2type_info@@8          00409e84     msvcrt:ti_inst.obj
+ 0002:00000e8c       ??_R1A@?0A@EA@type_info@@8 00409e8c     msvcrt:ti_inst.obj
+ 0002:00000eb0       ___safe_se_handler_table   00409eb0     <linker-defined>
+ 0002:00000f84       ___rtc_iaa                 00409f84     msvcrt:initsect.obj
+ 0002:00000f88       ___rtc_izz                 00409f88     msvcrt:initsect.obj
+ 0002:00000f8c       ___rtc_taa                 00409f8c     msvcrt:initsect.obj
+ 0002:00000f90       ___rtc_tzz                 00409f90     msvcrt:initsect.obj
+ 0002:00001590       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0040a590     MakeVerCurr.obj
+ 0002:00001784       __TI3?AVlength_error@std@@ 0040a784     MakeVerCurr.obj
+ 0002:000017c0       __CTA3?AVlength_error@std@@ 0040a7c0     MakeVerCurr.obj
+ 0002:000017d0       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 0040a7d0     MakeVerCurr.obj
+ 0002:000017ec       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 0040a7ec     MakeVerCurr.obj
+ 0002:00001894       __TI3?AVout_of_range@std@@ 0040a894     MakeVerCurr.obj
+ 0002:000018f8       __CTA3?AVout_of_range@std@@ 0040a8f8     MakeVerCurr.obj
+ 0002:00001908       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 0040a908     MakeVerCurr.obj
+ 0002:00001d84       __IMPORT_DESCRIPTOR_msi    0040ad84     msi:msi.dll
+ 0002:00001d98       __IMPORT_DESCRIPTOR_JUtil  0040ad98     jutil:JUtil.dll
+ 0002:00001dac       __IMPORT_DESCRIPTOR_MFC80  0040adac     mfc80:MFC80.DLL
+ 0002:00001dc0       __IMPORT_DESCRIPTOR_MSVCR80 0040adc0     msvcrt:MSVCR80.dll
+ 0002:00001dd4       __IMPORT_DESCRIPTOR_KERNEL32 0040add4     kernel32:KERNEL32.dll
+ 0002:00001de8       __IMPORT_DESCRIPTOR_USER32 0040ade8     user32:USER32.dll
+ 0002:00001dfc       __IMPORT_DESCRIPTOR_ADVAPI32 0040adfc     advapi32:ADVAPI32.dll
+ 0002:00001e10       __IMPORT_DESCRIPTOR_MSVCP80 0040ae10     msvcprt:MSVCP80.dll
+ 0002:00001e24       __NULL_IMPORT_DESCRIPTOR   0040ae24     msi:msi.dll
+ 0003:00000000       __newmode                  0040c000     newmode.obj
+ 0003:00000014       ?a_lpszFeatures@@3PAPBDA   0040c014     MakeVerCurr.obj
+ 0003:00000034       ?a_lpszOptionalFeatures@@3PAPBDA 0040c034     MakeVerCurr.obj
+ 0003:00000044       ??_R0?AVexception@std@@@8  0040c044     MakeVerCurr.obj
+ 0003:00000060       ??_R0?AVlogic_error@std@@@8 0040c060     MakeVerCurr.obj
+ 0003:00000080       ??_R0?AVlength_error@std@@@8 0040c080     MakeVerCurr.obj
+ 0003:000000a0       ??_R0?AVout_of_range@std@@@8 0040c0a0     MakeVerCurr.obj
+ 0003:000000c0       ??_R0?AV?$CArray@PADPAD@@@8 0040c0c0     MakeVerCurr.obj
+ 0003:000000e0       ??_R0?AVCObject@@@8        0040c0e0     MakeVerCurr.obj
+ 0003:000000f8       ??_R0?AVCProgressCtrl@@@8  0040c0f8     ProgressDialog.obj
+ 0003:00000114       ??_R0?AVCWnd@@@8           0040c114     ProgressDialog.obj
+ 0003:00000128       ??_R0?AVCCmdTarget@@@8     0040c128     ProgressDialog.obj
+ 0003:00000144       ??_R0?AVProgressDialog@@@8 0040c144     ProgressDialog.obj
+ 0003:00000164       ??_R0?AVCDialog@@@8        0040c164     ProgressDialog.obj
+ 0003:00000180       ___security_cookie         0040c180     msvcrt:gs_cookie.obj
+ 0003:00000184       ___security_cookie_complement 0040c184     msvcrt:gs_cookie.obj
+ 0003:00000190       ??_R0?AVtype_info@@@8      0040c190     msvcrt:ti_inst.obj
+ 0003:000001b0       ___native_dllmain_reason   0040c1b0     msvcrt:natstart.obj
+ 0003:000001b4       ___native_vcclrit_reason   0040c1b4     msvcrt:natstart.obj
+ 0003:000001b8       ___globallocalestatus      0040c1b8     msvcrt:xthdloc.obj
+ 0003:000001bc       ___defaultmatherr          0040c1bc     msvcrt:merr.obj
+ 0003:000001c0       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 0040c1c0     atls:atltrace.obj
+ 0003:000001cc       __afxForceEXCLUDE          0040c1cc     mfcs80:nolib.obj
+ 0003:000001d0       __afxForceSTDAFX           0040c1d0     mfcs80:stdafx.obj
+ 0003:0000051c       __dowildcard               0040c51c     msvcrt:wildcard.obj
+ 0003:00000520       __commode                  0040c520     msvcrt:xncommod.obj
+ 0003:00000524       __fmode                    0040c524     msvcrt:xtxtmode.obj
+ 0003:00000528       __adjust_fdiv              0040c528     <common>
+ 0003:0000052c       ___native_startup_state    0040c52c     <common>
+ 0003:00000530       ___native_startup_lock     0040c530     <common>
+ 0003:00000534       ___onexitend               0040c534     <common>
+ 0003:00000538       ___onexitbegin             0040c538     <common>
+ 0003:0000053c       ___dyn_tls_init_callback   0040c53c     <common>
+
+ entry point at        0001:00006a40
+
+ Static symbols
+
+ 0001:000037f2       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@XZ$0 004047f2 f i MakeVerCurr.obj
+ 0001:00003898       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z$0 00404898 f i MakeVerCurr.obj
+ 0001:00003942       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@XZ$0 00404942 f i MakeVerCurr.obj
+ 0001:000039e8       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z$0 004049e8 f i MakeVerCurr.obj
+ 0001:00006734       _pre_cpp_init              00407734 f   msvcrt:crtexew.obj
+ 0001:0000677f       ___tmainCRTStartup         0040777f f   msvcrt:crtexew.obj
+ 0001:0000695e       _pre_c_init                0040795e f   msvcrt:crtexew.obj
+ 0001:000070c0       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$0 004080c0 f   MakeVerCurr.obj
+ 0001:000070c8       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$1 004080c8 f   MakeVerCurr.obj
+ 0001:000070d1       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$2 004080d1 f   MakeVerCurr.obj
+ 0001:000070da       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$3 004080da f   MakeVerCurr.obj
+ 0001:000070e3       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$4 004080e3 f   MakeVerCurr.obj
+ 0001:000070ec       __unwindfunclet$?ParseAndDeleteTypelibTable@@YAXPBD@Z$5 004080ec f   MakeVerCurr.obj
+ 0001:000070f5       __ehhandler$?ParseAndDeleteTypelibTable@@YAXPBD@Z 004080f5 f   MakeVerCurr.obj
+ 0001:00007110       __unwindfunclet$?CheckAndRemoveInprocServer32@@YAXV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z$3 00408110 f   MakeVerCurr.obj
+ 0001:00007119       __ehhandler$?CheckAndRemoveInprocServer32@@YAXV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00408119 f   MakeVerCurr.obj
+ 0001:00007140       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$0 00408140 f   MakeVerCurr.obj
+ 0001:00007148       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$1 00408148 f   MakeVerCurr.obj
+ 0001:00007151       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$2 00408151 f   MakeVerCurr.obj
+ 0001:0000715a       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$3 0040815a f   MakeVerCurr.obj
+ 0001:00007163       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$4 00408163 f   MakeVerCurr.obj
+ 0001:0000716c       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$5 0040816c f   MakeVerCurr.obj
+ 0001:00007175       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$6 00408175 f   MakeVerCurr.obj
+ 0001:0000717e       __unwindfunclet$?ParseAndDeleteClassTable@@YAXPBD@Z$7 0040817e f   MakeVerCurr.obj
+ 0001:00007187       __ehhandler$?ParseAndDeleteClassTable@@YAXPBD@Z 00408187 f   MakeVerCurr.obj
+ 0001:000071b0       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$0 004081b0 f   MakeVerCurr.obj
+ 0001:000071b9       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$1 004081b9 f   MakeVerCurr.obj
+ 0001:000071c2       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$2 004081c2 f   MakeVerCurr.obj
+ 0001:000071ca       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$3 004081ca f   MakeVerCurr.obj
+ 0001:000071d3       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$4 004081d3 f   MakeVerCurr.obj
+ 0001:000071dc       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$5 004081dc f   MakeVerCurr.obj
+ 0001:000071e5       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$6 004081e5 f   MakeVerCurr.obj
+ 0001:000071ee       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$7 004081ee f   MakeVerCurr.obj
+ 0001:000071f7       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$8 004081f7 f   MakeVerCurr.obj
+ 0001:00007200       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$9 00408200 f   MakeVerCurr.obj
+ 0001:00007209       __unwindfunclet$?ParseAndDeleteRegistryTable@@YAXPBD@Z$10 00408209 f   MakeVerCurr.obj
+ 0001:00007212       __ehhandler$?ParseAndDeleteRegistryTable@@YAXPBD@Z 00408212 f   MakeVerCurr.obj
+ 0001:00007230       __unwindfunclet$??0CFileTableInfo@@QAE@XZ$0 00408230 f   MakeVerCurr.obj
+ 0001:00007239       __unwindfunclet$??0CFileTableInfo@@QAE@XZ$1 00408239 f   MakeVerCurr.obj
+ 0001:00007245       __ehhandler$??0CFileTableInfo@@QAE@XZ 00408245 f   MakeVerCurr.obj
+ 0001:00007260       __unwindfunclet$??1CFileTableInfo@@QAE@XZ$0 00408260 f   MakeVerCurr.obj
+ 0001:00007269       __unwindfunclet$??1CFileTableInfo@@QAE@XZ$1 00408269 f   MakeVerCurr.obj
+ 0001:00007275       __ehhandler$??1CFileTableInfo@@QAE@XZ 00408275 f   MakeVerCurr.obj
+ 0001:00007290       __unwindfunclet$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@XZ$0 00408290 f   MakeVerCurr.obj
+ 0001:00007299       __unwindfunclet$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@XZ$1 00408299 f   MakeVerCurr.obj
+ 0001:000072a4       __ehhandler$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@XZ 004082a4 f   MakeVerCurr.obj
+ 0001:000072c0       __unwindfunclet$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@XZ$0 004082c0 f   MakeVerCurr.obj
+ 0001:000072c9       __unwindfunclet$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@XZ$1 004082c9 f   MakeVerCurr.obj
+ 0001:000072d5       __ehhandler$??1?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@XZ 004082d5 f   MakeVerCurr.obj
+ 0001:000072f0       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@0@Z$0 004082f0 f   MakeVerCurr.obj
+ 0001:000072f9       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@0@Z$1 004082f9 f   MakeVerCurr.obj
+ 0001:00007305       __ehhandler$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@0@Z 00408305 f   MakeVerCurr.obj
+ 0001:00007320       __unwindfunclet$??0CFileTableInfo@@QAE@ABV0@@Z$0 00408320 f   MakeVerCurr.obj
+ 0001:00007329       __unwindfunclet$??0CFileTableInfo@@QAE@ABV0@@Z$1 00408329 f   MakeVerCurr.obj
+ 0001:00007335       __ehhandler$??0CFileTableInfo@@QAE@ABV0@@Z 00408335 f   MakeVerCurr.obj
+ 0001:00007350       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABU01@@Z$0 00408350 f   MakeVerCurr.obj
+ 0001:00007359       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABU01@@Z$1 00408359 f   MakeVerCurr.obj
+ 0001:00007364       __ehhandler$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABU01@@Z 00408364 f   MakeVerCurr.obj
+ 0001:00007380       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABU01@@Z$0 00408380 f   MakeVerCurr.obj
+ 0001:00007389       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABU01@@Z$1 00408389 f   MakeVerCurr.obj
+ 0001:00007395       __ehhandler$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@QAE@ABU01@@Z 00408395 f   MakeVerCurr.obj
+ 0001:000073b0       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 004083b0 f   MakeVerCurr.obj
+ 0001:000073b9       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 004083b9 f   MakeVerCurr.obj
+ 0001:000073c5       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004083c5 f   MakeVerCurr.obj
+ 0001:000073e0       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 004083e0 f   MakeVerCurr.obj
+ 0001:000073e9       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 004083e9 f   MakeVerCurr.obj
+ 0001:000073f5       __ehhandler$??1logic_error@std@@UAE@XZ 004083f5 f   MakeVerCurr.obj
+ 0001:00007410       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 00408410 f   MakeVerCurr.obj
+ 0001:00007418       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00408418 f   MakeVerCurr.obj
+ 0001:00007440       __unwindfunclet$??1length_error@std@@UAE@XZ$0 00408440 f   MakeVerCurr.obj
+ 0001:00007448       __ehhandler$??1length_error@std@@UAE@XZ 00408448 f   MakeVerCurr.obj
+ 0001:00007470       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 00408470 f   MakeVerCurr.obj
+ 0001:00007478       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 00408478 f   MakeVerCurr.obj
+ 0001:000074a0       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 004084a0 f   MakeVerCurr.obj
+ 0001:000074a8       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004084a8 f   MakeVerCurr.obj
+ 0001:000074d0       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 004084d0 f   MakeVerCurr.obj
+ 0001:000074d8       __ehhandler$??1out_of_range@std@@UAE@XZ 004084d8 f   MakeVerCurr.obj
+ 0001:00007500       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 00408500 f   MakeVerCurr.obj
+ 0001:00007508       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 00408508 f   MakeVerCurr.obj
+ 0001:00007530       __unwindfunclet$?CheckForP4AndUpdate@@YAXXZ$3 00408530 f   MakeVerCurr.obj
+ 0001:0000753c       __ehhandler$?CheckForP4AndUpdate@@YAXXZ 0040853c f   MakeVerCurr.obj
+ 0001:00007570       __unwindfunclet$?SearchAndRegister@@YAXPAD@Z$0 00408570 f   MakeVerCurr.obj
+ 0001:0000757c       __ehhandler$?SearchAndRegister@@YAXPAD@Z 0040857c f   MakeVerCurr.obj
+ 0001:000075b0       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$2 004085b0 f   MakeVerCurr.obj
+ 0001:000075bc       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$3 004085bc f   MakeVerCurr.obj
+ 0001:000075c8       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$4 004085c8 f   MakeVerCurr.obj
+ 0001:000075d3       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$5 004085d3 f   MakeVerCurr.obj
+ 0001:000075df       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$6 004085df f   MakeVerCurr.obj
+ 0001:000075eb       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$7 004085eb f   MakeVerCurr.obj
+ 0001:000075f7       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$8 004085f7 f   MakeVerCurr.obj
+ 0001:00007603       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$9 00408603 f   MakeVerCurr.obj
+ 0001:0000760f       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$10 0040860f f   MakeVerCurr.obj
+ 0001:0000761b       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$11 0040861b f   MakeVerCurr.obj
+ 0001:00007627       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$12 00408627 f   MakeVerCurr.obj
+ 0001:00007633       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$13 00408633 f   MakeVerCurr.obj
+ 0001:0000763f       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$14 0040863f f   MakeVerCurr.obj
+ 0001:0000764b       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$15 0040864b f   MakeVerCurr.obj
+ 0001:00007657       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$16 00408657 f   MakeVerCurr.obj
+ 0001:00007663       __unwindfunclet$?RegisterComponent@@YAJPBD0@Z$17 00408663 f   MakeVerCurr.obj
+ 0001:0000766f       __ehhandler$?RegisterComponent@@YAJPBD0@Z 0040866f f   MakeVerCurr.obj
+ 0001:000076a0       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABVCFileTableInfo@@@Z$0 004086a0 f   MakeVerCurr.obj
+ 0001:000076a9       __unwindfunclet$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABVCFileTableInfo@@@Z$1 004086a9 f   MakeVerCurr.obj
+ 0001:000076b4       __ehhandler$??0?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@QAE@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABVCFileTableInfo@@@Z 004086b4 f   MakeVerCurr.obj
+ 0001:000076d0       __unwindfunclet$??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z$0 004086d0 f   MakeVerCurr.obj
+ 0001:000076db       __ehhandler$??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z 004086db f   MakeVerCurr.obj
+ 0001:00007700       __unwindfunclet$??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z$0 00408700 f   MakeVerCurr.obj
+ 0001:0000770b       __ehhandler$??0_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z 0040870b f   MakeVerCurr.obj
+ 0001:00007730       __unwindfunclet$?ParseFileToArray@@YAXPBDPAV?$CArray@PADPAD@@@Z$0 00408730 f   MakeVerCurr.obj
+ 0001:00007738       __unwindfunclet$?ParseFileToArray@@YAXPBDPAV?$CArray@PADPAD@@@Z$1 00408738 f   MakeVerCurr.obj
+ 0001:00007741       __unwindfunclet$?ParseFileToArray@@YAXPBDPAV?$CArray@PADPAD@@@Z$2 00408741 f   MakeVerCurr.obj
+ 0001:0000774a       __ehhandler$?ParseFileToArray@@YAXPBDPAV?$CArray@PADPAD@@@Z 0040874a f   MakeVerCurr.obj
+ 0001:00007770       __unwindfunclet$?RegisterSelfRegDlls@@YAXPBD@Z$2 00408770 f   MakeVerCurr.obj
+ 0001:0000777b       __ehhandler$?RegisterSelfRegDlls@@YAXPBD@Z 0040877b f   MakeVerCurr.obj
+ 0001:000077b0       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@XZ 004087b0 f   MakeVerCurr.obj
+ 0001:000077d0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z$2 004087d0 f   MakeVerCurr.obj
+ 0001:000077e1       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@D@Z 004087e1 f   MakeVerCurr.obj
+ 0001:00007800       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@XZ 00408800 f   MakeVerCurr.obj
+ 0001:00007820       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z$2 00408820 f   MakeVerCurr.obj
+ 0001:00007831       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@D@Z 00408831 f   MakeVerCurr.obj
+ 0001:00007850       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@@Z$0 00408850 f   MakeVerCurr.obj
+ 0001:00007859       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@2@@Z 00408859 f   MakeVerCurr.obj
+ 0001:00007880       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 00408880 f   MakeVerCurr.obj
+ 0001:00007889       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 00408889 f   MakeVerCurr.obj
+ 0001:00007895       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 00408895 f   MakeVerCurr.obj
+ 0001:000078b0       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 004088b0 f   MakeVerCurr.obj
+ 0001:000078b8       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 004088b8 f   MakeVerCurr.obj
+ 0001:000078e0       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@@Z$0 004088e0 f   MakeVerCurr.obj
+ 0001:000078e9       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@2@@Z 004088e9 f   MakeVerCurr.obj
+ 0001:00007910       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 00408910 f   MakeVerCurr.obj
+ 0001:00007919       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$1 00408919 f   MakeVerCurr.obj
+ 0001:00007924       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$2 00408924 f   MakeVerCurr.obj
+ 0001:0000792d       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$3 0040892d f   MakeVerCurr.obj
+ 0001:00007938       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$4 00408938 f   MakeVerCurr.obj
+ 0001:00007941       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$5 00408941 f   MakeVerCurr.obj
+ 0001:0000794d       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 0040894d f   MakeVerCurr.obj
+ 0001:00007970       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 00408970 f   MakeVerCurr.obj
+ 0001:00007978       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 00408978 f   MakeVerCurr.obj
+ 0001:000079a0       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 004089a0 f   MakeVerCurr.obj
+ 0001:000079a9       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$1 004089a9 f   MakeVerCurr.obj
+ 0001:000079b4       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$2 004089b4 f   MakeVerCurr.obj
+ 0001:000079bd       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$3 004089bd f   MakeVerCurr.obj
+ 0001:000079c9       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 004089c9 f   MakeVerCurr.obj
+ 0001:000079f0       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z$0 004089f0 f   MakeVerCurr.obj
+ 0001:000079fb       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z$1 004089fb f   MakeVerCurr.obj
+ 0001:00007a04       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z$2 00408a04 f   MakeVerCurr.obj
+ 0001:00007a0f       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z$3 00408a0f f   MakeVerCurr.obj
+ 0001:00007a18       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z$4 00408a18 f   MakeVerCurr.obj
+ 0001:00007a24       __ehhandler$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@$0A@@std@@@2@@Z 00408a24 f   MakeVerCurr.obj
+ 0001:00007a40       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z$0 00408a40 f   MakeVerCurr.obj
+ 0001:00007a4b       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z$1 00408a4b f   MakeVerCurr.obj
+ 0001:00007a54       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z$2 00408a54 f   MakeVerCurr.obj
+ 0001:00007a60       __ehhandler$?_Erase@?$_Tree@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@$0A@@std@@@2@@Z 00408a60 f   MakeVerCurr.obj
+ 0001:00007a80       __unwindfunclet$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAEAAVCFileTableInfo@@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z$0 00408a80 f   MakeVerCurr.obj
+ 0001:00007a88       __unwindfunclet$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAEAAVCFileTableInfo@@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z$1 00408a88 f   MakeVerCurr.obj
+ 0001:00007a90       __ehhandler$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAEAAVCFileTableInfo@@ABV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z 00408a90 f   MakeVerCurr.obj
+ 0001:00007ab0       __unwindfunclet$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAEAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABV23@@Z$0 00408ab0 f   MakeVerCurr.obj
+ 0001:00007ab9       __unwindfunclet$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAEAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABV23@@Z$1 00408ab9 f   MakeVerCurr.obj
+ 0001:00007ac1       __ehhandler$??A?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAEAAV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@ABV23@@Z 00408ac1 f   MakeVerCurr.obj
+ 0001:00007ae0       __unwindfunclet$??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ$0 00408ae0 f   MakeVerCurr.obj
+ 0001:00007ae8       __ehhandler$??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ 00408ae8 f   MakeVerCurr.obj
+ 0001:00007b10       __unwindfunclet$??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ$0 00408b10 f   MakeVerCurr.obj
+ 0001:00007b18       __ehhandler$??1?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ 00408b18 f   MakeVerCurr.obj
+ 0001:00007b40       __unwindfunclet$??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ$0 00408b40 f   MakeVerCurr.obj
+ 0001:00007b48       __ehhandler$??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@VCFileTableInfo@@@std@@@5@@std@@QAE@XZ 00408b48 f   MakeVerCurr.obj
+ 0001:00007b70       __unwindfunclet$??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ$0 00408b70 f   MakeVerCurr.obj
+ 0001:00007b78       __ehhandler$??0?$map@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@U?$less@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@std@@V?$allocator@U?$pair@$$CBV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V12@@std@@@4@@std@@QAE@XZ 00408b78 f   MakeVerCurr.obj
+ 0001:00007ba0       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$4 00408ba0 f   MakeVerCurr.obj
+ 0001:00007bab       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$5 00408bab f   MakeVerCurr.obj
+ 0001:00007bb6       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$6 00408bb6 f   MakeVerCurr.obj
+ 0001:00007bc1       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$7 00408bc1 f   MakeVerCurr.obj
+ 0001:00007bcd       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$8 00408bcd f   MakeVerCurr.obj
+ 0001:00007bd9       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$9 00408bd9 f   MakeVerCurr.obj
+ 0001:00007be5       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$10 00408be5 f   MakeVerCurr.obj
+ 0001:00007bf0       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$11 00408bf0 f   MakeVerCurr.obj
+ 0001:00007bfc       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$12 00408bfc f   MakeVerCurr.obj
+ 0001:00007c08       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$13 00408c08 f   MakeVerCurr.obj
+ 0001:00007c14       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$14 00408c14 f   MakeVerCurr.obj
+ 0001:00007c20       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$15 00408c20 f   MakeVerCurr.obj
+ 0001:00007c2c       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$16 00408c2c f   MakeVerCurr.obj
+ 0001:00007c38       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$17 00408c38 f   MakeVerCurr.obj
+ 0001:00007c44       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$18 00408c44 f   MakeVerCurr.obj
+ 0001:00007c4f       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$19 00408c4f f   MakeVerCurr.obj
+ 0001:00007c5b       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$20 00408c5b f   MakeVerCurr.obj
+ 0001:00007c67       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$21 00408c67 f   MakeVerCurr.obj
+ 0001:00007c73       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$22 00408c73 f   MakeVerCurr.obj
+ 0001:00007c7f       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$23 00408c7f f   MakeVerCurr.obj
+ 0001:00007c8a       __unwindfunclet$?RegisterISSelfRegTable@@YAXPBD@Z$24 00408c8a f   MakeVerCurr.obj
+ 0001:00007c96       __ehhandler$?RegisterISSelfRegTable@@YAXPBD@Z 00408c96 f   MakeVerCurr.obj
+ 0001:00007cd0       __unwindfunclet$_WinMain@16$3 00408cd0 f   MakeVerCurr.obj
+ 0001:00007cdc       __unwindfunclet$_WinMain@16$4 00408cdc f   MakeVerCurr.obj
+ 0001:00007ce8       __unwindfunclet$_WinMain@16$5 00408ce8 f   MakeVerCurr.obj
+ 0001:00007cf5       __ehhandler$_WinMain@16    00408cf5 f   MakeVerCurr.obj
+ 0001:00007d30       __unwindfunclet$??0CProgressCtrl@@QAE@XZ$0 00408d30 f   ProgressDialog.obj
+ 0001:00007d38       __ehhandler$??0CProgressCtrl@@QAE@XZ 00408d38 f   ProgressDialog.obj
+ 0001:00007d60       __unwindfunclet$??0ProgressDialog@@QAE@KPAVCWnd@@@Z$0 00408d60 f   ProgressDialog.obj
+ 0001:00007d68       __unwindfunclet$??0ProgressDialog@@QAE@KPAVCWnd@@@Z$1 00408d68 f   ProgressDialog.obj
+ 0001:00007d74       __unwindfunclet$??0ProgressDialog@@QAE@KPAVCWnd@@@Z$2 00408d74 f   ProgressDialog.obj
+ 0001:00007d7f       __ehhandler$??0ProgressDialog@@QAE@KPAVCWnd@@@Z 00408d7f f   ProgressDialog.obj
+ 0001:00007da0       __unwindfunclet$??1ProgressDialog@@UAE@XZ$0 00408da0 f   ProgressDialog.obj
+ 0001:00007da8       __unwindfunclet$??1ProgressDialog@@UAE@XZ$1 00408da8 f   ProgressDialog.obj
+ 0001:00007db4       __unwindfunclet$??1ProgressDialog@@UAE@XZ$2 00408db4 f   ProgressDialog.obj
+ 0001:00007dbf       __ehhandler$??1ProgressDialog@@UAE@XZ 00408dbf f   ProgressDialog.obj

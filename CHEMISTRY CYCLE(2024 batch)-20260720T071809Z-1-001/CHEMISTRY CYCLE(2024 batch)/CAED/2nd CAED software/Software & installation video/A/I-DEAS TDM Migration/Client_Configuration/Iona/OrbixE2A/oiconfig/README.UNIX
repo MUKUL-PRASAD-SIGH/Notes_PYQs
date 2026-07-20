@@ -1,0 +1,98 @@
+This README file contains the steps necesssary to configure
+machines to run the Orbix services and run OpenI-DEAS.
+
+-------------------------------------------------------------------------
+Instructions for Setup:
+-------------------------------------------------------------------------
+
+1) If OrbixE2A is being installed on a machine that also has
+   Orbix3 installed on it, then rename /etc/orbix_profile to
+   /etc/orbix3_profile. Otherwise, you can skip this step.
+
+   mv /etc/orbix_profile /etc/orbix3_profile
+
+2) Edit the the /etc/profile to point to the new orbix profiles.
+   If Orbix3 is installed on the machine then there should
+   already be a section of code similar to the following:
+
+   if [ -r /etc/orbix_profile ]
+   then
+   .  /etc/orbix_profile
+   fi
+
+   If this is the case, then leave these lines in and enter in
+   the following lines directly above:
+
+   if [ -r /etc/orbix3_profile ]
+   then
+   .  /etc/orbix3_profile
+   fi
+
+   This way, both orbix profiles should be run. If Orbix3 is not
+   installed on the machine, then simply add the following lines
+   somewhere in /etc/profile (usually near the end):
+
+   if [ -r /etc/orbix_profile ]
+   then
+   .  /etc/orbix_profile
+   fi
+
+3) Copy the new Orbix E2A orbix_profile into the /etc directory
+
+   cp <path_to_script>/orbix_profile /etc/orbix_profile
+
+
+4) Source the new /etc/orbix_profile
+
+  . /etc/orbix_profile
+
+
+5) Run only one of the scripts mentioned below.
+
+   a) To configure the one machine that will be running the Orbix
+      configuration, location, and naming services:
+
+      <path_to_script>/deployServicesDomain.pl [<network alias>]
+
+      where <network alias> is an optional parameter that represents
+      an alias of the machine that is being configured. This makes
+      it easier to move the machine where the configuration resides.
+      This parameter will probably be "cvgoi10".
+
+   b) To configure the machines that will be connecting to the Orbix
+      configuration, location, and naming services running on
+      the machine above:
+
+      <path_to_script>/deployLinkedDomain.pl <hostname of config machine>
+
+      where <hostname of config machine> will probably be "cvgoi10".
+
+
+6) Verify daemon(s) are running:
+
+   ps -ef | grep it
+
+7) Update the boot scripts:
+
+   On SGI:
+   cp itsvs_openideas10 /etc/init.d/
+   chmod 755 /etc/init.d/itsvs_openideas10
+   cd /etc/rc2.d
+   ln -s ../init.d/itsvs_openideas10 S99openideas10
+
+   On HP:
+   cp itsvs_openideas10 /etc/init.d/
+   chmod 755 /etc/init.d/itsvs_openideas10
+   cd /etc/rc2.d
+   ln -s ../init.d/itsvs_openideas10 S900openideas10
+
+   On IBM:
+   cp itsvs_openideas10 /etc/
+   chmod 755 /etc/itsvs_openideas10
+   Add the call to run /etc/itsvs_openideas10 to the end of /etc/rc.local
+
+   On Sun:
+   cp itsvs_openideas10 /etc/init.d/
+   chmod 755 /etc/init.d/itsvs_openideas10
+   cd /etc/rc2.d
+   ln -s ../init.d/itsvs_openideas10 S99openideas10

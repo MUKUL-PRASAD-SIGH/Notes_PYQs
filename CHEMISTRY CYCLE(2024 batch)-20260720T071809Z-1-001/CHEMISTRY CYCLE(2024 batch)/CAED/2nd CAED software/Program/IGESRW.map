@@ -1,0 +1,439 @@
+ IGESRW
+
+ Timestamp is 46b3a748 (Fri Aug 03 17:08:08 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00007bbcH .text                   CODE
+ 0002:00000000 0000010cH .idata$5                DATA
+ 0002:0000010c 00000004H .CRT$XCA                DATA
+ 0002:00000110 00000004H .CRT$XCZ                DATA
+ 0002:00000114 00000004H .CRT$XIA                DATA
+ 0002:00000118 00000004H .CRT$XIAA               DATA
+ 0002:0000011c 00000004H .CRT$XIC                DATA
+ 0002:00000120 00000004H .CRT$XIZ                DATA
+ 0002:00000130 000008b0H .rdata                  DATA
+ 0002:000009e0 00000030H .rdata$debug            DATA
+ 0002:00000a10 00000004H .rdata$sxdata           DATA
+ 0002:00000a14 00000004H .rtc$IAA                DATA
+ 0002:00000a18 00000004H .rtc$IZZ                DATA
+ 0002:00000a1c 00000004H .rtc$TAA                DATA
+ 0002:00000a20 00000004H .rtc$TZZ                DATA
+ 0002:00000a28 00000084H .xdata$x                DATA
+ 0002:00000aac 00000028H .idata$2                DATA
+ 0002:00000ad4 00000014H .idata$3                DATA
+ 0002:00000ae8 0000010cH .idata$4                DATA
+ 0002:00000bf4 000003b8H .idata$6                DATA
+ 0002:00000fb0 000004d2H .edata                  DATA
+ 0003:00000000 00000468H .data                   DATA
+ 0003:00000480 00001f14H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _IGES_initialize           10001000 f   Init.obj
+ 0001:00000070       _IGESopen_file             10001070 f   Init.obj
+ 0001:00000120       _IGES_getGlobalData        10001120 f   Init.obj
+ 0001:00000140       _IGES_getData              10001140 f   Init.obj
+ 0001:00000160       _IGES_getDesData           10001160 f   Init.obj
+ 0001:000001a0       _IGES_getNumIgesElements   100011a0 f   Init.obj
+ 0001:000001b0       _Set_pTransMat             100011b0 f   Init.obj
+ 0001:000001c0       _Set_pdViewnum             100011c0 f   Init.obj
+ 0001:000001d0       _Get_pTransMat             100011d0 f   Init.obj
+ 0001:000001e0       _Get_pdViewnum             100011e0 f   Init.obj
+ 0001:000001f0       _IGES_get_type_name        100011f0 f   Init.obj
+ 0001:00000220       _IGES_getScaleFactor       10001220 f   Init.obj
+ 0001:00000240       _IGEStransformDatabasePtsToWorld 10001240 f   Init.obj
+ 0001:00000340       _IGESGetLevelIndex         10001340 f   Init.obj
+ 0001:000003d0       _IGESGetLevelByName        100013d0 f   Init.obj
+ 0001:00000460       _IGESSetConvFactor         10001460 f   Init.obj
+ 0001:00000470       _IGESGetConvFactor         10001470 f   Init.obj
+ 0001:00000480       _IGESGetStyleIndex         10001480 f   Init.obj
+ 0001:000004a0       _IGESEntityCounter         100014a0 f   Init.obj
+ 0001:000004b0       _IGESGetEntityCount        100014b0 f   Init.obj
+ 0001:000004c0       _IGESIgnoredCounter        100014c0 f   Init.obj
+ 0001:000004d0       _IGESGetIgnoredCount       100014d0 f   Init.obj
+ 0001:000004e0       _IGES_Reset_data           100014e0 f   Init.obj
+ 0001:000005d0       _IGES_Set_Data             100015d0 f   Init.obj
+ 0001:00000670       _IGES_parametriccurve_to_bc 10001670 f   Init.obj
+ 0001:00000880       _IGES_antol                10001880 f   iread.obj
+ 0001:00000960       _IGES_read_term            10001960 f   iread.obj
+ 0001:00000b70       _IGES_str2long             10001b70 f   iread.obj
+ 0001:00000e20       _IGES_read_alloc_str       10001e20 f   iread.obj
+ 0001:00000f90       _IGES_read_des             10001f90 f   iread.obj
+ 0001:000011a0       _IGES_read_flt             100021a0 f   iread.obj
+ 0001:00001280       _IGES_read_str             10002280 f   iread.obj
+ 0001:00001380       _IGES_read_int             10002380 f   iread.obj
+ 0001:00001440       _IGES_read_assoc_props     10002440 f   iread.obj
+ 0001:00001500       _IGES_seek_fp              10002500 f   iread.obj
+ 0001:00001560       _IGES_read_gds             10002560 f   iread.obj
+ 0001:00001760       _IGES_read_pds             10002760 f   iread.obj
+ 0001:00001b70       _IGES_read_100             10002b70 f   irent.obj
+ 0001:00001c30       _IGES_read_102             10002c30 f   irent.obj
+ 0001:00001ca0       _IGES_read_104             10002ca0 f   irent.obj
+ 0001:00001d70       _IGES_read_106             10002d70 f   irent.obj
+ 0001:00001e20       _IGES_read_108             10002e20 f   irent.obj
+ 0001:00001ee0       _IGES_read_110             10002ee0 f   irent.obj
+ 0001:00001f70       _IGES_read_112             10002f70 f   irent.obj
+ 0001:00002080       _IGES_read_116             10003080 f   irent.obj
+ 0001:000020f0       _IGES_read_124             100030f0 f   irent.obj
+ 0001:00002190       _IGES_read_125             10003190 f   irent.obj
+ 0001:00002240       _IGES_read_126             10003240 f   irent.obj
+ 0001:000023b0       _IGES_read_130             100033b0 f   irent.obj
+ 0001:00002490       _IGES_read_132             10003490 f   irent.obj
+ 0001:00002570       _IGES_read_202             10003570 f   irent.obj
+ 0001:00002610       _IGES_read_204             10003610 f   irent.obj
+ 0001:00002690       _IGES_read_206             10003690 f   irent.obj
+ 0001:00002700       _IGES_read_208             10003700 f   irent.obj
+ 0001:000027e0       _IGES_read_210             100037e0 f   irent.obj
+ 0001:00002860       _IGES_read_212_string      10003860 f   irent.obj
+ 0001:00002930       _IGES_read_214             10003930 f   irent.obj
+ 0001:000029f0       _IGES_read_216             100039f0 f   irent.obj
+ 0001:00002a60       _IGES_read_218             10003a60 f   irent.obj
+ 0001:00002ac0       _IGES_read_220             10003ac0 f   irent.obj
+ 0001:00002b20       _IGES_read_222             10003b20 f   irent.obj
+ 0001:00002bb0       _IGES_read_228             10003bb0 f   irent.obj
+ 0001:00002cb0       _IGES_read_230             10003cb0 f   irent.obj
+ 0001:00002db0       _IGES_read_304_1           10003db0 f   irent.obj
+ 0001:00002e20       _IGES_read_304_2           10003e20 f   irent.obj
+ 0001:00002eb0       _IGES_read_308             10003eb0 f   irent.obj
+ 0001:00002f40       _IGES_read_314             10003f40 f   irent.obj
+ 0001:00002fb0       _IGES_read_320             10003fb0 f   irent.obj
+ 0001:000030c0       _IGES_read_402_color_weight 100040c0 f   irent.obj
+ 0001:00003100       _IGES_read_402_label       10004100 f   irent.obj
+ 0001:00003160       _IGES_read_402_topology    10004160 f   irent.obj
+ 0001:000031e0       _IGES_read_402             100041e0 f   irent.obj
+ 0001:00003850       _IGES_read_404             10004850 f   irent.obj
+ 0001:00003950       _IGES_read_406             10004950 f   irent.obj
+ 0001:000043d0       _IGES_read_408             100053d0 f   irent.obj
+ 0001:00004450       _IGES_read_410_1           10005450 f   irent.obj
+ 0001:000045c0       _IGES_read_412             100055c0 f   irent.obj
+ 0001:000046d0       _IGES_read_414             100056d0 f   irent.obj
+ 0001:000047d0       _IGES_read_416             100057d0 f   irent.obj
+ 0001:00004840       _IGES_read_420             10005840 f   irent.obj
+ 0001:00004940       _IGES_read_212             10005940 f   irent.obj
+ 0001:000049c0       _IGES_read_304             100059c0 f   irent.obj
+ 0001:000049f0       _IGES_read_410             100059f0 f   irent.obj
+ 0001:00004aa0       _IGES_write_212_string     10005aa0 f   iwent.obj
+ 0001:00004b60       _IGES_write_assoc_props    10005b60 f   iwent.obj
+ 0001:00004bc0       _IGES_write_100            10005bc0 f   iwent.obj
+ 0001:00004c70       _IGES_write_102            10005c70 f   iwent.obj
+ 0001:00004cd0       _IGES_write_104            10005cd0 f   iwent.obj
+ 0001:00004df0       _IGES_write_106            10005df0 f   iwent.obj
+ 0001:00004e80       _IGES_write_110            10005e80 f   iwent.obj
+ 0001:00004f00       _IGES_write_116            10005f00 f   iwent.obj
+ 0001:00004f60       _IGES_write_124            10005f60 f   iwent.obj
+ 0001:00005010       _IGES_write_126            10006010 f   iwent.obj
+ 0001:00005160       _IGES_write_212            10006160 f   iwent.obj
+ 0001:000051c0       _IGES_write_214            100061c0 f   iwent.obj
+ 0001:00005280       _IGES_write_230            10006280 f   iwent.obj
+ 0001:00005350       _IGES_write_314            10006350 f   iwent.obj
+ 0001:000053c0       _IGES_write_402            100063c0 f   iwent.obj
+ 0001:00005790       _IGES_write_406            10006790 f   iwent.obj
+ 0001:00005fb0       _IGES_prepare_to_write     10006fb0 f   iwrite.obj
+ 0001:00006090       _IGES_write_field_delim    10007090 f   iwrite.obj
+ 0001:000060b0       _IGES_write_line           100070b0 f   iwrite.obj
+ 0001:000061a0       _IGES_write_pds            100071a0 f   iwrite.obj
+ 0001:000063e0       _IGES_write_start_section  100073e0 f   iwrite.obj
+ 0001:00006530       _IGES_write_term_section   10007530 f   iwrite.obj
+ 0001:000065a0       _IGES_write_field          100075a0 f   iwrite.obj
+ 0001:00006600       _IGES_write_flt            10007600 f   iwrite.obj
+ 0001:00006690       _IGES_write_int            10007690 f   iwrite.obj
+ 0001:000066f0       _IGES_write_one_des        100076f0 f   iwrite.obj
+ 0001:000067b0       _IGES_write_str            100077b0 f   iwrite.obj
+ 0001:000068b0       _IGES_write_all_des        100078b0 f   iwrite.obj
+ 0001:00006930       _IGES_write_gds            10007930 f   iwrite.obj
+ 0001:00006af0       _IGEScreate_igs_file       10007af0 f   wrtinit.obj
+ 0001:00006da0       _IGES_find_des             10007da0 f   wrtinit.obj
+ 0001:00006f50       _IGESset_global_data       10007f50 f   wrtinit.obj
+ 0001:00006f70       _IGES_CloseFile            10007f70 f   wrtinit.obj
+ 0001:00007140       _SetNum_Graphics           10008140 f   wrtinit.obj
+ 0001:00007150       _SetDesNumEleId            10008150 f   wrtinit.obj
+ 0001:000071e0       _GetDesNumFromEleId        100081e0 f   wrtinit.obj
+ 0001:00007240       _GTYPEEntityCounter        10008240 f   wrtinit.obj
+ 0001:00007250       _GTYPEGetEntityCount       10008250 f   wrtinit.obj
+ 0001:00007260       _GTYPEIgnoredCounter       10008260 f   wrtinit.obj
+ 0001:00007270       _GTYPEGetIgnoredCount      10008270 f   wrtinit.obj
+ 0001:00007280       _GTYPE_get_type_name       10008280 f   wrtinit.obj
+ 0001:000072a6       _memset                    100082a6 f   MSVCRT:MSVCR80.dll
+ 0001:000072b0       @__security_check_cookie@4 100082b0 f   MSVCRT:secchk.obj
+ 0001:000072c0       _memcpy                    100082c0 f   MSVCRT:MSVCR80.dll
+ 0001:000072c6       __setjmp3                  100082c6 f   MSVCRT:MSVCR80.dll
+ 0001:000072d0       __ftol2_sse                100082d0 f   MSVCRT:ftol2.obj
+ 0001:000072d9       __ftol2_pentium4           100082d9 f   MSVCRT:ftol2.obj
+ 0001:000072ec       __ftol2_sse_excpt          100082ec f   MSVCRT:ftol2.obj
+ 0001:00007306       __ftol2                    10008306 f   MSVCRT:ftol2.obj
+ 0001:0000737c       __CIlog10                  1000837c f   MSVCRT:MSVCR80.dll
+ 0001:000073cf       __CRT_INIT@12              100083cf f   MSVCRT:crtdll.obj
+ 0001:00007684       __DllMainCRTStartup@12     10008684 f   MSVCRT:crtdll.obj
+ 0001:000076a5       ___report_gsfailure        100086a5 f   MSVCRT:gs_report.obj
+ 0001:000077f9       __get_sse2_info            100087f9 f   MSVCRT:cpu_disp.obj
+ 0001:00007859       ___sse2_available_init     10008859 f   MSVCRT:cpu_disp.obj
+ 0001:00007866       ___clean_type_info_names   10008866 f   MSVCRT:tncleanup.obj
+ 0001:00007872       __onexit                   10008872 f   MSVCRT:atonexit.obj
+ 0001:00007911       _atexit                    10008911 f   MSVCRT:atonexit.obj
+ 0001:00007923       __RTC_Initialize           10008923 f   MSVCRT:initsect.obj
+ 0001:00007947       __RTC_Terminate            10008947 f   MSVCRT:initsect.obj
+ 0001:00007970       __ValidateImageBase        10008970 f   MSVCRT:pesect.obj
+ 0001:000079a0       __FindPESection            100089a0 f   MSVCRT:pesect.obj
+ 0001:000079e2       __IsNonwritableInCurrentImage 100089e2 f   MSVCRT:pesect.obj
+ 0001:00007a4e       __initterm                 10008a4e f   MSVCRT:MSVCR80.dll
+ 0001:00007a54       __initterm_e               10008a54 f   MSVCRT:MSVCR80.dll
+ 0001:00007a5a       __amsg_exit                10008a5a f   MSVCRT:MSVCR80.dll
+ 0001:00007a60       ___CppXcptFilter           10008a60 f   MSVCRT:MSVCR80.dll
+ 0001:00007a66       _DllMain@12                10008a66 f   MSVCRT:dllmain.obj
+ 0001:00007a88       __SEH_prolog4              10008a88 f   MSVCRT:sehprolg4.obj
+ 0001:00007acd       __SEH_epilog4              10008acd f   MSVCRT:sehprolg4.obj
+ 0001:00007ae1       __except_handler4          10008ae1 f   MSVCRT:chandler4gs.obj
+ 0001:00007b04       ___security_init_cookie    10008b04 f   MSVCRT:gs_support.obj
+ 0001:00007b98       __crt_debugger_hook        10008b98 f   MSVCRT:MSVCR80.dll
+ 0001:00007b9e       ___clean_type_info_names_internal 10008b9e f   MSVCRT:MSVCR80.dll
+ 0001:00007ba4       __unlock                   10008ba4 f   MSVCRT:MSVCR80.dll
+ 0001:00007baa       ___dllonexit               10008baa f   MSVCRT:MSVCR80.dll
+ 0001:00007bb0       __lock                     10008bb0 f   MSVCRT:MSVCR80.dll
+ 0001:00007bb6       __except_handler4_common   10008bb6 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 10009000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 10009004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      10009008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1000900c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 10009010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsDebuggerPresent@0 10009014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__SetUnhandledExceptionFilter@4 10009018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 1000901c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcess@0 10009020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  10009024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 10009028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             1000902c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 10009030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetSystemTimeAsFileTime@4 10009034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 10009038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__ftell               1000903c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp__fseek               10009040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp__strncpy             10009044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp___setjmp3            10009048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp__strtod              1000904c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp__realloc             10009050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___CIlog10            10009054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp__fwrite              10009058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp__setbuf              1000905c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp__fgetc               10009060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp__fprintf             10009064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp__sprintf             10009068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp__fflush              1000906c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp___splitpath          10009070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp__remove              10009074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp__fclose              10009078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp__fputs               1000907c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp__sscanf              10009080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__rewind              10009084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp___encode_pointer     10009088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp___malloc_crt         1000908c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___encoded_null       10009090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp___decode_pointer     10009094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___initterm           10009098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___initterm_e         1000909c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___amsg_exit          100090a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___adjust_fdiv        100090a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp____CppXcptFilter     100090a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___crt_debugger_hook  100090ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp____clean_type_info_names_internal 100090b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___unlock             100090b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp____dllonexit         100090b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___lock               100090bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___onexit             100090c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___except_handler4_common 100090c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__fread               100090c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__longjmp             100090cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__strncmp             100090d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__isdigit             100090d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__memcpy              100090d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__free                100090dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp__calloc              100090e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__fopen               100090e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp__perror              100090e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___fileno             100090ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__printf              100090f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp__memset              100090f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp__fgets               100090f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp__malloc              100090fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___setmode            10009100     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp__setmode             10009100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__itoa                10009104     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___itoa               10009104     MSVCRT:MSVCR80.dll
+ 0002:00000108       \177MSVCR80_NULL_THUNK_DATA 10009108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       ___xc_a                    1000910c     MSVCRT:cinitexe.obj
+ 0002:00000110       ___xc_z                    10009110     MSVCRT:cinitexe.obj
+ 0002:00000114       ___xi_a                    10009114     MSVCRT:cinitexe.obj
+ 0002:00000120       ___xi_z                    10009120     MSVCRT:cinitexe.obj
+ 0002:0000014c       ??_C@_0N@PHCDDCGL@Unknown?5Type?$AA@ 1000914c     Init.obj
+ 0002:0000015c       ??_C@_0L@LEDFOLOA@IGES_SHELL?$AA@ 1000915c     Init.obj
+ 0002:00000168       ??_C@_09EBHIEKME@IGES_FACE?$AA@ 10009168     Init.obj
+ 0002:00000174       ??_C@_09NFLIDKCG@IGES_LOOP?$AA@ 10009174     Init.obj
+ 0002:00000180       ??_C@_09DGAPGIPK@IGES_EDGE?$AA@ 10009180     Init.obj
+ 0002:0000018c       ??_C@_0M@HEMGDDNL@IGES_VERTEX?$AA@ 1000918c     Init.obj
+ 0002:00000198       ??_C@_0BA@NNAOAHKN@IGES_SOLID_INST?$AA@ 10009198     Init.obj
+ 0002:000001a8       ??_C@_0BK@DMEMKHMC@IGES_ATTRIBUTE_TABLE_INST?$AA@ 100091a8     Init.obj
+ 0002:000001c4       ??_C@_0BI@PLOCNBKO@IGES_NET_SUBFIGURE_INST?$AA@ 100091c4     Init.obj
+ 0002:000001dc       ??_C@_0BA@MGICPEPB@IGES_NODAL_LOAD?$AA@ 100091dc     Init.obj
+ 0002:000001ec       ??_C@_0BI@LMGBECDO@IGES_EXTERNAL_REFERENCE?$AA@ 100091ec     Init.obj
+ 0002:00000204       ??_C@_0BI@HHAEIPJD@IGES_CIR_SUBFIGURE_INST?$AA@ 10009204     Init.obj
+ 0002:0000021c       ??_C@_0BI@DPKKBPPF@IGES_REC_SUBFIGURE_INST?$AA@ 1000921c     Init.obj
+ 0002:00000234       ??_C@_09JIFFPJMI@IGES_VIEW?$AA@ 10009234     Init.obj
+ 0002:00000240       ??_C@_0BE@IOJJHMCO@IGES_SUBFIGURE_INST?$AA@ 10009240     Init.obj
+ 0002:00000254       ??_C@_0O@CKJBHHLB@IGES_PROPERTY?$AA@ 10009254     Init.obj
+ 0002:00000264       ??_C@_0N@KCDFOKCE@IGES_DRAWING?$AA@ 10009264     Init.obj
+ 0002:00000274       ??_C@_0BI@OPFCGMAF@IGES_ASSOCIATIVITY_INST?$AA@ 10009274     Init.obj
+ 0002:0000028c       ??_C@_0BJ@OKMPFHOB@IGES_ATTRIBUTE_TABLE_DEF?$AA@ 1000928c     Init.obj
+ 0002:000002a8       ??_C@_0BH@JDBBIPJK@IGES_NET_SUBFIGURE_DEF?$AA@ 100092a8     Init.obj
+ 0002:000002c0       ??_C@_0P@DHAGHFPO@IGES_COLOR_DEF?$AA@ 100092c0     Init.obj
+ 0002:000002d0       ??_C@_0BC@KGNGDNPP@IGES_TEXT_DISPLAY?$AA@ 100092d0     Init.obj
+ 0002:000002e4       ??_C@_0BD@PLCEAIFO@IGES_TEXT_FONT_DEF?$AA@ 100092e4     Init.obj
+ 0002:000002f8       ??_C@_0BD@ICBPJDFI@IGES_SUBFIGURE_DEF?$AA@ 100092f8     Init.obj
+ 0002:0000030c       ??_C@_0P@IBGMGADI@IGES_MACRO_DEF?$AA@ 1000930c     Init.obj
+ 0002:0000031c       ??_C@_0BD@LICIMAOI@IGES_LINE_FONT_DEF?$AA@ 1000931c     Init.obj
+ 0002:00000330       ??_C@_0BH@CCPAGLIG@IGES_ASSOCIATIVITY_DEF?$AA@ 10009330     Init.obj
+ 0002:00000348       ??_C@_0BE@DNHENPEK@IGES_SECTIONED_AREA?$AA@ 10009348     Init.obj
+ 0002:0000035c       ??_C@_0BE@CKJIJCIK@IGES_GENERAL_SYMBOL?$AA@ 1000935c     Init.obj
+ 0002:00000370       ??_C@_0BG@NCJDILHH@IGES_RADIUS_DIMENSION?$AA@ 10009370     Init.obj
+ 0002:00000388       ??_C@_0BF@HHKOPHCB@IGES_POINT_DIMENSION?$AA@ 10009388     Init.obj
+ 0002:000003a0       ??_C@_0BI@HNGDNNEM@IGES_ORDINATE_DIMENSION?$AA@ 100093a0     Init.obj
+ 0002:000003b8       ??_C@_0BG@FFBEBJML@IGES_LINEAR_DIMENSION?$AA@ 100093b8     Init.obj
+ 0002:000003d0       ??_C@_0M@DKNOKCBM@IGES_LEADER?$AA@ 100093d0     Init.obj
+ 0002:000003dc       ??_C@_0BC@IMJOKPJB@IGES_GENERAL_NOTE?$AA@ 100093dc     Init.obj
+ 0002:000003f0       ??_C@_0BD@FMMCCKFN@IGES_GENERAL_LABEL?$AA@ 100093f0     Init.obj
+ 0002:00000404       ??_C@_0P@EAJOGJKA@IGES_FLAG_NOTE?$AA@ 10009404     Init.obj
+ 0002:00000414       ??_C@_0BI@JILEGMO@IGES_DIAMETER_DIMENSION?$AA@ 10009414     Init.obj
+ 0002:0000042c       ??_C@_0BF@MLBPEMLB@IGES_CURVE_DIMENSION?$AA@ 1000942c     Init.obj
+ 0002:00000444       ??_C@_0BH@ENDHIJML@IGES_ANGULAR_DIMENSION?$AA@ 10009444     Init.obj
+ 0002:0000045c       ??_C@_0CA@PJLCOHKO@IGES_MANIFOLD_SOLID_BREP_OBJECT?$AA@ 1000945c     Init.obj
+ 0002:0000047c       ??_C@_0BE@MLMEJNJB@IGES_SOLID_ASSEMBLY?$AA@ 1000947c     Init.obj
+ 0002:00000490       ??_C@_0BC@IMOEPHFO@IGES_BOOLEAN_TREE?$AA@ 10009490     Init.obj
+ 0002:000004a4       ??_C@_0P@EFAFMKL@IGES_ELLIPSOID?$AA@ 100094a4     Init.obj
+ 0002:000004b4       ??_C@_0BP@EJCLBPLL@IGES_SOLID_OF_LINEAR_EXTRUSION?$AA@ 100094b4     Init.obj
+ 0002:000004d4       ??_C@_0BJ@MGPCHDMN@IGES_SOLID_OF_REVOLUTION?$AA@ 100094d4     Init.obj
+ 0002:000004f0       ??_C@_0L@IHDPOAP@IGES_TORUS?$AA@ 100094f0     Init.obj
+ 0002:000004fc       ??_C@_0M@FBBFOJGE@IGES_SPHERE?$AA@ 100094fc     Init.obj
+ 0002:00000508       ??_C@_0BJ@NGGAKDKE@IGES_RIGHT_CIRCULAR_CONE?$AA@ 10009508     Init.obj
+ 0002:00000524       ??_C@_0BI@JKCLEEPP@IGES_RIGHT_CIRCULAR_CYL?$AA@ 10009524     Init.obj
+ 0002:0000053c       ??_C@_0BH@HLAHHCCI@IGES_RIGHT_ANGLE_WEDGE?$AA@ 1000953c     Init.obj
+ 0002:00000554       ??_C@_0L@KCJPKNIA@IGES_BLOCK?$AA@ 10009554     Init.obj
+ 0002:00000560       ??_C@_0BF@CAHBJEGF@IGES_ELEMENT_RESULTS?$AA@ 10009560     Init.obj
+ 0002:00000578       ??_C@_0BD@DCFONBBP@IGES_NODAL_RESULTS?$AA@ 10009578     Init.obj
+ 0002:0000058c       ??_C@_0BF@FJKKCHHH@IGES_TRIMMED_SURFACE?$AA@ 1000958c     Init.obj
+ 0002:000005a4       ??_C@_0BF@DIFEGGFA@IGES_BOUNDED_SURFACE?$AA@ 100095a4     Init.obj
+ 0002:000005bc       ??_C@_0BG@MGOIBFA@IGES_CURVE_ON_SURFACE?$AA@ 100095bc     Init.obj
+ 0002:000005d4       ??_C@_0O@MOCKDEKE@IGES_BOUNDARY?$AA@ 100095d4     Init.obj
+ 0002:000005e4       ??_C@_0BE@BAFEAJJD@IGES_OFFSET_SURFACE?$AA@ 100095e4     Init.obj
+ 0002:000005f8       ??_C@_0BI@KEKBECJF@IGES_NODAL_DISPLACEMENT?$AA@ 100095f8     Init.obj
+ 0002:00000610       ??_C@_0BE@NOHIEILA@IGES_FINITE_ELEMENT?$AA@ 10009610     Init.obj
+ 0002:00000624       ??_C@_09JEJIGALD@IGES_NODE?$AA@ 10009624     Init.obj
+ 0002:00000630       ??_C@_0BD@IKKBFAJF@IGES_CONNECT_POINT?$AA@ 10009630     Init.obj
+ 0002:00000644       ??_C@_0BC@FJGPBHBN@IGES_OFFSET_CURVE?$AA@ 10009644     Init.obj
+ 0002:00000658       ??_C@_0BG@GDJMAGKC@IGES_B_SPLINE_SURFACE?$AA@ 10009658     Init.obj
+ 0002:00000670       ??_C@_0P@BMPPJIDJ@IGES_BSP_CURVE?$AA@ 10009670     Init.obj
+ 0002:00000680       ??_C@_0L@OONKGIBG@IGES_FLASH?$AA@ 10009680     Init.obj
+ 0002:0000068c       ??_C@_0M@CJLPOKOB@IGES_MATRIX?$AA@ 1000968c     Init.obj
+ 0002:00000698       ??_C@_0BH@LKKKDFCG@IGES_TABULATED_SURFACE?$AA@ 10009698     Init.obj
+ 0002:000006b0       ??_C@_0BG@NHJHLDIL@IGES_REVOLVED_SURFACE?$AA@ 100096b0     Init.obj
+ 0002:000006c8       ??_C@_0BD@OFLAIDHC@IGES_RULED_SURFACE?$AA@ 100096c8     Init.obj
+ 0002:000006dc       ??_C@_0L@ELMILGNB@IGES_POINT?$AA@ 100096dc     Init.obj
+ 0002:000006e8       ??_C@_0BI@NMFIOCFG@IGES_PARAMETRIC_SURFACE?$AA@ 100096e8     Init.obj
+ 0002:00000700       ??_C@_0BG@MFDPKDBN@IGES_PARAMETRIC_CURVE?$AA@ 10009700     Init.obj
+ 0002:00000718       ??_C@_09MGKEOJNJ@IGES_LINE?$AA@ 10009718     Init.obj
+ 0002:00000724       ??_C@_0L@JKAFMHPO@IGES_PLANE?$AA@ 10009724     Init.obj
+ 0002:00000730       ??_C@_0BC@LKEHPOGD@IGES_COPIOUS_DATA?$AA@ 10009730     Init.obj
+ 0002:00000744       ??_C@_0L@FDJBGMEO@IGES_CONIC?$AA@ 10009744     Init.obj
+ 0002:00000750       ??_C@_0BF@GEGDACHO@IGES_COMPOSITE_CURVE?$AA@ 10009750     Init.obj
+ 0002:00000768       ??_C@_08PJDBDECE@IGES_ARC?$AA@ 10009768     Init.obj
+ 0002:00000774       ??_C@_09HEONDNLJ@IGES_NULL?$AA@ 10009774     Init.obj
+ 0002:00000780       ??_C@_0CN@MPKPLMEK@?8stdin?8?5successfully?5changed?5to?5@ 10009780     Init.obj
+ 0002:000007b0       ??_C@_0BA@BMBJLNEA@Cannot?5set?5mode?$AA@ 100097b0     Init.obj
+ 0002:000007c0       ??_C@_01KDCPPGHE@r?$AA@    100097c0     Init.obj
+ 0002:000007c4       ??_C@_06LPIFMAOE@Level_?$AA@ 100097c4     Init.obj
+ 0002:000007cc       ??_C@_08GGFKNFHG@?5?5?5?5?5?5?5?5?$AA@ 100097cc     iread.obj
+ 0002:000007d8       ??_C@_0BG@IBHMGHCD@IGES_read_line?3?5fread?$AA@ 100097d8     iread.obj
+ 0002:000007f0       ??_C@_0BK@PMGMLACA@S?$CF7dG?$CF7dD?$CF7dP?$CF7d?$CF?$CK40cT?$CF7d?$AA@ 100097f0     iread.obj
+ 0002:0000080a       ??_C@_00CNPNBAHC@?$AA@     1000980a     iread.obj
+ 0002:0000080c       ??_C@_01ICJEACDI@?$DL?$AA@ 1000980c     iread.obj
+ 0002:00000810       ??_C@_01IHBHIGKO@?0?$AA@   10009810     iread.obj
+ 0002:00000818       __real@3ff921fb54524550    10009818     irent.obj
+ 0002:00000820       ??_C@_0BI@HHBCGHLM@IGES_write_line?3?5fwrite?$AA@ 10009820     iwrite.obj
+ 0002:00000838       ??_C@_07KNDNBHFB@?$CFsS?$CF7d?6?$AA@ 10009838     iwrite.obj
+ 0002:00000840       ??_C@_0CB@LKFHNJDI@IGES_write_term_section?3?5fprintf@ 10009840     iwrite.obj
+ 0002:00000864       ??_C@_0BK@NLJOPPGD@S?$CF7dG?$CF7dD?$CF7dP?$CF7d?$CF40sT?$CF7d?6?$AA@ 10009864     iwrite.obj
+ 0002:00000880       ??_C@_05NJKNEIBH@?$CF?$CD?4?$CKf?$AA@ 10009880     iwrite.obj
+ 0002:00000888       ??_C@_0BM@KAKMIJO@IGES_write_one_des?3?5fprintf?$AA@ 10009888     iwrite.obj
+ 0002:000008a8       ??_C@_0EN@GCBHLBKK@?$CF8d?$CF8d?$CF8d?$CF8d?$CF8d?$CF8d?$CF8d?$CF8d?$CF?42d?$CF?42d@ 100098a8     iwrite.obj
+ 0002:000008f8       ??_C@_01IGIGCIAN@H?$AA@    100098f8     iwrite.obj
+ 0002:000008fc       ??_C@_08LBGFLAPH@Leader2d?$AA@ 100098fc     wrtinit.obj
+ 0002:00000908       ??_C@_07HJNPNAHE@Point2d?$AA@ 10009908     wrtinit.obj
+ 0002:00000910       ??_C@_0L@PEDNAIDI@BspCurve2d?$AA@ 10009910     wrtinit.obj
+ 0002:0000091c       ??_C@_04OJAHODMC@Text?$AA@ 1000991c     wrtinit.obj
+ 0002:00000924       ??_C@_05GMGPDIK@Arc2d?$AA@ 10009924     wrtinit.obj
+ 0002:0000092c       ??_C@_09NIANJKKN@Ellipse2d?$AA@ 1000992c     wrtinit.obj
+ 0002:00000938       ??_C@_0BA@PLJGMJDH@ComplexString2d?$AA@ 10009938     wrtinit.obj
+ 0002:00000948       ??_C@_0M@EGALEAIM@Rectangle2d?$AA@ 10009948     wrtinit.obj
+ 0002:00000954       ??_C@_0N@MGGPFBDM@LineString2d?$AA@ 10009954     wrtinit.obj
+ 0002:00000964       ??_C@_06MCEHDAFO@Line2d?$AA@ 10009964     wrtinit.obj
+ 0002:0000096c       ??_C@_0M@LJKLECMH@_TmpPdsFile?$AA@ 1000996c     wrtinit.obj
+ 0002:00000978       ??_C@_02CHHAKFFB@w?$CL?$AA@ 10009978     wrtinit.obj
+ 0002:0000097c       ??_C@_0M@OHCNHGKC@_TmpDesFile?$AA@ 1000997c     wrtinit.obj
+ 0002:00000988       ??_C@_01NOFIACDB@w?$AA@    10009988     wrtinit.obj
+ 0002:0000098c       __pDefaultRawDllMain       1000998c     MSVCRT:crtdll.obj
+ 0002:0000098c       __pRawDllMain              1000998c     MSVCRT:crtdll.obj
+ 0002:00000998       __load_config_used         10009998     MSVCRT:loadcfg.obj
+ 0002:00000a10       ___safe_se_handler_table   10009a10     <linker-defined>
+ 0002:00000a14       ___rtc_iaa                 10009a14     MSVCRT:initsect.obj
+ 0002:00000a18       ___rtc_izz                 10009a18     MSVCRT:initsect.obj
+ 0002:00000a1c       ___rtc_taa                 10009a1c     MSVCRT:initsect.obj
+ 0002:00000a20       ___rtc_tzz                 10009a20     MSVCRT:initsect.obj
+ 0002:00000aac       __IMPORT_DESCRIPTOR_MSVCR80 10009aac     MSVCRT:MSVCR80.dll
+ 0002:00000ac0       __IMPORT_DESCRIPTOR_KERNEL32 10009ac0     kernel32:KERNEL32.dll
+ 0002:00000ad4       __NULL_IMPORT_DESCRIPTOR   10009ad4     MSVCRT:MSVCR80.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000450       ___security_cookie         1000b450     MSVCRT:gs_cookie.obj
+ 0003:00000454       ___security_cookie_complement 1000b454     MSVCRT:gs_cookie.obj
+ 0003:00000460       ___native_dllmain_reason   1000b460     MSVCRT:natstart.obj
+ 0003:00000464       ___native_vcclrit_reason   1000b464     MSVCRT:natstart.obj
+ 0003:000005c4       _dd_hdr                    1000b5c4     wrtinit.obj
+ 0003:000005c8       _subscripts                1000b5c8     wrtinit.obj
+ 0003:000005d0       _pDesNumEleId              1000b5d0     wrtinit.obj
+ 0003:00000904       ?__type_info_root_node@@3U__type_info_node@@A 1000b904     MSVCRT:tncleanup.obj
+ 0003:00000920       _EXPIGNORECNT              1000b920     <common>
+ 0003:00000ce0       _EXPENTITYCNT              1000bce0     <common>
+ 0003:000010a0       _des_num                   1000c0a0     <common>
+ 0003:000010a4       _start_lines               1000c0a4     <common>
+ 0003:000010c0       _IGES_gd                   1000c0c0     <common>
+ 0003:00001140       _ENTITYCNT                 1000c140     <common>
+ 0003:000019d8       _STYLEINDEX                1000c9d8     <common>
+ 0003:000019e0       _IGES_data                 1000c9e0     <common>
+ 0003:00001ad8       _pdViewnum                 1000cad8     <common>
+ 0003:00001adc       _pTransMat                 1000cadc     <common>
+ 0003:00001ae0       _IGNORECNT                 1000cae0     <common>
+ 0003:00002378       __adjust_fdiv              1000d378     <common>
+ 0003:0000237c       ___native_startup_state    1000d37c     <common>
+ 0003:00002380       ___native_startup_lock     1000d380     <common>
+ 0003:00002384       ___onexitend               1000d384     <common>
+ 0003:00002388       ___onexitbegin             1000d388     <common>
+ 0003:0000238c       ___sse2_available          1000d38c     <common>
+ 0003:00002390       ___dyn_tls_init_callback   1000d390     <common>
+
+ entry point at        0001:00007684
+
+ Static symbols
+
+ 0001:00000910       _IGES_read_line            10001910 f   iread.obj
+ 0001:00000b40       _IGES_skip_blanks          10001b40 f   iread.obj
+ 0001:00000c40       _IGES_crack_des            10001c40 f   iread.obj
+ 0001:00000de0       _IGES_get_n_chars          10001de0 f   iread.obj
+ 0001:00005f40       _IGES_itoa                 10006f40 f   iwrite.obj
+ 0001:00007382       _pre_c_init                10008382 f   MSVCRT:crtdll.obj
+ 0001:0000756e       ___DllMainCRTStartup       1000856e f   MSVCRT:crtdll.obj
+ 0001:000077a9       _has_osfxsr_set            100087a9 f   MSVCRT:cpu_disp.obj

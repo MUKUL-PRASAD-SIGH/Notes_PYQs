@@ -1,0 +1,110 @@
+#!/bin/sh
+# orbix_profile
+#
+#  Setup Orbix E2A ASP environment
+#
+case `uname -s` in
+   IRIX64)
+      IT_PRODUCT_DIR=/misc/orbix/sgi/v5.0
+      ;;
+   HP-UX)
+      IT_PRODUCT_DIR=/misc/orbix/hp/v5.0
+      ;;
+   AIX)
+      IT_PRODUCT_DIR=/misc/orbix/ibm/v5.0
+      ;;
+   SunOS)
+      IT_PRODUCT_DIR=/misc/orbix/sun/v5.0
+      ;;
+esac
+
+: ${IT_DOMAIN_NAME:=openideas10}
+: ${IT_CONFIG_DOMAINS_DIR:=/etc/opt/iona/domains}
+: ${IT_LICENSE_FILE:=$IT_PRODUCT_DIR/licenses.txt}
+JAVA_HOME=/usr/java
+export IT_PRODUCT_DIR IT_DOMAIN_NAME IT_CONFIG_DOMAINS_DIR IT_LICENSE_FILE JAVA_HOME
+
+addition="$IT_PRODUCT_DIR/orbix_art/2.0/bin:/etc/opt/iona/bin"
+if [ -n "$PATH" ]
+then
+   if [ `echo $PATH | grep $addition | wc -l` = 0 ]
+   then
+      PATH=$addition:$PATH
+   fi
+else
+   PATH=$addition
+fi
+export PATH
+
+if [ `uname -s` = "IRIX64" -o `uname -s` = "SunOS" ]
+then
+   addition="$IT_PRODUCT_DIR/shlib:$IT_PRODUCT_DIR/shlib/default"
+   if [ -n "$LD_LIBRARY_PATH" ]
+   then
+      if [ `echo $LD_LIBRARY_PATH | grep $addition | wc -l` = 0 ]
+      then
+         LD_LIBRARY_PATH=$addition:$LD_LIBRARY_PATH
+      fi
+   else
+      LD_LIBRARY_PATH=$addition
+   fi      
+   export LD_LIBRARY_PATH
+fi
+   
+if [ `uname -s` = "IRIX64" ]
+then
+   addition="$IT_PRODUCT_DIR/shlib:$IT_PRODUCT_DIR/shlib/default"
+   if [ -n "$LD_LIBRARYN32_PATH" ]
+   then
+      if [ `echo $LD_LIBRARYN32_PATH | grep $addition | wc -l` = 0 ]
+      then
+         LD_LIBRARYN32_PATH=$addition:$LD_LIBRARYN32_PATH
+      fi
+   else
+      LD_LIBRARYN32_PATH=$addition
+   fi
+   export LD_LIBRARYN32_PATH
+fi
+
+if [ `uname -s` = "HP-UX" ]
+then
+   addition="$IT_PRODUCT_DIR/shlib:$IT_PRODUCT_DIR/shlib/default"
+   if [ -n "$SHLIB_PATH" ]
+   then
+      if [ `echo $SHLIB_PATH | grep $addition | wc -l` = 0 ]
+      then
+         SHLIB_PATH=$addition:$SHLIB_PATH
+      fi
+   else
+      SHLIB_PATH=$addition
+   fi
+   export SHLIB_PATH
+fi
+
+if [ `uname -s` = "AIX" ]
+then
+   addition="$IT_PRODUCT_DIR/shlib:$IT_PRODUCT_DIR/shlib/default"
+   if [ -n "$LIBPATH" ]
+   then
+      if [ `echo $LIBPATH | grep $addition | wc -l` = 0 ]
+      then
+         LIBPATH=$addition:$LIBPATH
+      fi
+   else
+      LIBPATH=$addition
+   fi
+   export LIBPATH
+fi
+
+addition="$IT_PRODUCT_DIR/orbix_art/2.0/lib/orbix2000.jar"
+if [ -n "$CLASSPATH" ]
+then
+   if [ `echo $CLASSPATH | grep $addition | wc -l` = 0 ]
+   then
+      CLASSPATH=$addition:$CLASSPATH
+   fi
+else
+   CLASSPATH=$addition
+fi
+export CLASSPATH
+

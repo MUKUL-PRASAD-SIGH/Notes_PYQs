@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectPropertyPolicy xmlns="http://teamcenter.com/Schemas/Soa/ObjectPropertyPolicy" >
+
+    <ObjectType name="ModelObject">
+       <Property name="Uid"/>
+    </ObjectType>
+
+    <ObjectType name="WorkspaceObject">
+        <Property name="object_string"/>
+        <Property name="object_type"/>
+        <Property name="last_mod_date"/>
+        <Property name="object_desc"/>
+        <Property name="object_name"/>
+    </ObjectType>
+    
+
+    <ObjectType name="Item">
+        <Property name="item_id"/>
+    </ObjectType>
+
+    
+    <ObjectType name="ItemRevision">
+        <Property name="items_tag"/>
+        <Property name="item_id"/>
+        <Property name="item_revision_id"/>
+        <Property name="checked_out_user"/>
+        <Property name="checked_out"/>
+        <Property name="release_status_list"/>
+    </ObjectType>
+
+    <ObjectType name="BOMLine">
+        <Property name="bl_revision"/>
+        <Property name="bl_quantity"/>
+        <Property name="bl_sequence_no"/>
+        <Property name="bl_plmxml_occ_xform"/>
+        <Property name="bl_occ_type"/>
+        <Property name="AIE_OCC_NAME"/>
+        <Property name="bl_child_lines"/>
+        <Property name="SE ObjectID"/>
+        <Property name="bl_variant_state"/>
+        <Property name="bl_variant_state_int"/>
+        <Property name="bl_is_precise"/>      
+    </ObjectType>
+
+    <ObjectType name="PSOccurrence">
+        <Property name="occ_thread"/>
+    </ObjectType>
+
+    <ObjectType name="BOMWindow">
+        <Property name="top_line"/>
+        <Property name="revision_rule"/>
+        <Property name="engineering_change"/>
+        <Property name="ec_flag"/>
+        <Property name="appearance_root"/>
+        <Property name="has_occupancy_cache"/>
+        <Property name="show_unconfigured_variants"/>
+        <Property name="icm_flag"/>
+        <Property name="show_unconfigured_changes"/>
+        <Property name="is_packed_by_default"/>
+        <Property name="is_tracking_appearances"/>
+        <Property name="ove_ignore_errors"/>
+        <Property name="ove_message_error_level"/>
+        <Property name="incr_change_rev"/>
+        <Property name="show_out_of_context_lines"/> 
+    </ObjectType>
+
+
+    <ObjectType name="Dataset">
+         <Property name="ref_names"/>
+         <Property name="ref_list" withProperties="true"/>
+         <Property name="checked_out_user"/>
+         <Property name="checked_out"/>
+         <Property name="release_status_list"/>
+         <Property name="revision_number"/>
+         <Property name="revision_limit"/>
+         <Property name="dataset_type" withProperties="true"/>
+    </ObjectType>    
+     
+      
+    <ObjectType name="ImanFile">
+         <Property name="original_file_name"/>
+         <Property name="time_last_modified"/>
+    </ObjectType>
+
+    <ObjectType name="DatasetType">
+         <Property name="named_ref_list"/>
+         <Property name="datasettype_name"/>
+    </ObjectType>
+
+
+    <ObjectType name="ReleaseStatus">
+        <Property name="name"/>
+    </ObjectType>
+
+</ObjectPropertyPolicy>

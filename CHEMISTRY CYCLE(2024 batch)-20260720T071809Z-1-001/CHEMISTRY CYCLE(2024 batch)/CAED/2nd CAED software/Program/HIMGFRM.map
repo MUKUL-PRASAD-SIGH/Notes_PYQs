@@ -1,0 +1,895 @@
+ HIMGFRM
+
+ Timestamp is 46b3a652 (Fri Aug 03 17:04:02 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00006784H .text                   CODE
+ 0001:00006790 00000974H .text$x                 CODE
+ 0001:00007110 00000376H .text$yc                CODE
+ 0002:00000000 00000208H .idata$5                DATA
+ 0002:00000208 00000004H .CRT$XCA                DATA
+ 0002:0000020c 00000070H .CRT$XCU                DATA
+ 0002:0000027c 00000004H .CRT$XCZ                DATA
+ 0002:00000280 00000004H .CRT$XIA                DATA
+ 0002:00000284 00000004H .CRT$XIAA               DATA
+ 0002:00000288 00000004H .CRT$XIC                DATA
+ 0002:0000028c 00000004H .CRT$XIZ                DATA
+ 0002:00000290 00000d90H .rdata                  DATA
+ 0002:00001020 00000031H .rdata$debug            DATA
+ 0002:00001054 00000708H .rdata$r                DATA
+ 0002:00001760 000000b0H .rdata$sxdata           DATA
+ 0002:00001810 00000004H .rtc$IAA                DATA
+ 0002:00001814 00000004H .rtc$IZZ                DATA
+ 0002:00001818 00000004H .rtc$TAA                DATA
+ 0002:0000181c 00000004H .rtc$TZZ                DATA
+ 0002:00001820 0000094cH .xdata$x                DATA
+ 0002:0000216c 00000104H .idata$2                DATA
+ 0002:00002270 00000014H .idata$3                DATA
+ 0002:00002284 00000208H .idata$4                DATA
+ 0002:0000248c 000009b4H .idata$6                DATA
+ 0002:00002e40 0000006aH .edata                  DATA
+ 0003:00000000 00004a78H .data                   DATA
+ 0003:00004a78 00001278H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000002c       ___safe_se_handler_count   0000002c     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i HIMGFRM2D.obj
+ 0001:000000d0       ??1HImageFrame2d@@QAE@XZ   100010d0 f   HIMGFRM2D.obj
+ 0001:000000e0       ?QueryInterface@HImageFrame2d@@UAGJABU_GUID@@PAPAX@Z 100010e0 f   HIMGFRM2D.obj
+ 0001:000001c0       ?AddRef@IHelperImp@HKeyPoint@@UAGKXZ 100011c0 f   keypnt:hkeypnt.obj
+ 0001:000001c0       ?AddRef@IHelperImp@HImageFrame2d@@UAGKXZ 100011c0 f   HIMGFRM2D.obj
+ 0001:000001c0       ?AddRef@IHelperImp@HGraphic2d@@UAGKXZ 100011c0 f   hgraf2d:hgraph2d.obj
+ 0001:000001e0       ?SetParent@IHelperImp@HKeyPoint@@UAGJPAUIUnknown@@@Z 100011e0 f   keypnt:hkeypnt.obj
+ 0001:000001e0       ?SetParent@IHelperImp@HGraphic2d@@UAGJPAUIUnknown@@@Z 100011e0 f   hgraf2d:hgraph2d.obj
+ 0001:000001e0       ?SetParent@IHelperImp@HImageFrame2d@@UAGJPAUIUnknown@@@Z 100011e0 f   HIMGFRM2D.obj
+ 0001:00000200       ?GetClassID@IHelperImp@HImageFrame2d@@UAGJPAU_GUID@@@Z 10001200 f   HIMGFRM2D.obj
+ 0001:00000230       ?AddRef@IHGraphic2dImp@HGraphic2d@@UAGKXZ 10001230 f   hgraf2d:hgraph2d.obj
+ 0001:00000230       ?AddRef@IHKeyPointImp@HKeyPoint@@UAGKXZ 10001230 f   keypnt:hkeypnt.obj
+ 0001:00000230       ?AddRef@IHImageFrame2dImp@HImageFrame2d@@UAGKXZ 10001230 f   HIMGFRM2D.obj
+ 0001:00000250       ?Release@IHKeyPointImp@HKeyPoint@@UAGKXZ 10001250 f   keypnt:hkeypnt.obj
+ 0001:00000250       ?Release@IHGraphic2dImp@HGraphic2d@@UAGKXZ 10001250 f   hgraf2d:hgraph2d.obj
+ 0001:00000250       ?Release@IHImageFrame2dImp@HImageFrame2d@@UAGKXZ 10001250 f   HIMGFRM2D.obj
+ 0001:00000270       ?get_Layer@IHImageFrame2dImp@HImageFrame2d@@UAGJPAPA_W@Z 10001270 f   HIMGFRM2D.obj
+ 0001:00000280       ?put_Layer@IHImageFrame2dImp@HImageFrame2d@@UAGJPA_W@Z 10001280 f   HIMGFRM2D.obj
+ 0001:00000290       ??1?$TIP@PAUIJSite@@@@QAE@XZ 10001290 f i HIMGFRM2D.obj
+ 0001:00000290       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001290 f i HIMGFRM2S.obj
+ 0001:00000290       ??1?$TIP@PAUIEnumUnknown@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAUIJComputeCFunction@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAU_IJApplication@@@@QAE@XZ 10001290 f i HIMGFRM2S.obj
+ 0001:00000290       ??1?$TIP@PAUIJRelation@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAUIJOwner@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAUIJView@@@@QAE@XZ 10001290 f i HIMGFRM2S.obj
+ 0001:00000290       ??1?$TIP@PAUIEnumJRelationSemanticDesc@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAUIOleObject@@@@QAE@XZ 10001290 f i HIMGFRM2D.obj
+ 0001:00000290       ??1?$TIP@PAUIJImageFrame2d@@@@QAE@XZ 10001290 f i HIMGFRM2D.obj
+ 0001:00000290       ??1?$TIP@PAUIJOccurrence@@@@QAE@XZ 10001290 f i HIMGFRM2D.obj
+ 0001:00000290       ??1?$TIP@PAUIJLine2d@@@@QAE@XZ 10001290 f i imgfrm:CREATE.obj
+ 0001:00000290       ??1?$TIP@PAUIJGraphicView@@@@QAE@XZ 10001290 f i HIMGFRM2S.obj
+ 0001:00000290       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 10001290 f i HIMGFRM2S.obj
+ 0001:000002a0       ?Release@HImageFrame2d@@UAGKXZ 100012a0 f   HIMGFRM2D.obj
+ 0001:000002f0       ?get_IsLink@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 100012f0 f   HIMGFRM2D.obj
+ 0001:00000420       ?get_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 10001420 f   HIMGFRM2D.obj
+ 0001:00000530       ?put_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 10001530 f   HIMGFRM2D.obj
+ 0001:00000680       ?get_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 10001680 f   HIMGFRM2D.obj
+ 0001:00000790       ?put_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 10001790 f   HIMGFRM2D.obj
+ 0001:000008e0       ?get_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 100018e0 f   HIMGFRM2D.obj
+ 0001:000009f0       ?put_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 100019f0 f   HIMGFRM2D.obj
+ 0001:00000b50       ?Update@IHImageFrame2dImp@HImageFrame2d@@UAGJXZ 10001b50 f   HIMGFRM2D.obj
+ 0001:00000c40       ?GetVerbIDFromName@@YAJPAUIUnknown@@PA_WPAJ@Z 10001c40 f   HIMGFRM2D.obj
+ 0001:00000e70       ?put_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10001e70 f   HIMGFRM2D.obj
+ 0001:00000f50       ?get_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10001f50 f   HIMGFRM2D.obj
+ 0001:00001070       ?put_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10002070 f   HIMGFRM2D.obj
+ 0001:00001150       ?get_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10002150 f   HIMGFRM2D.obj
+ 0001:00001270       ?put_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10002270 f   HIMGFRM2D.obj
+ 0001:00001350       ?get_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10002350 f   HIMGFRM2D.obj
+ 0001:00001470       ?put_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10002470 f   HIMGFRM2D.obj
+ 0001:00001550       ?get_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10002550 f   HIMGFRM2D.obj
+ 0001:00001670       ?put_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJH@Z 10002670 f   HIMGFRM2D.obj
+ 0001:00001770       ?get_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJPAH@Z 10002770 f   HIMGFRM2D.obj
+ 0001:000018d0       ?SetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJMMM@Z 100028d0 f   HIMGFRM2D.obj
+ 0001:000019c0       ?GetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJPAM00@Z 100029c0 f   HIMGFRM2D.obj
+ 0001:00001ae0       ??0HImageFrame2d@@QAE@PAUIUnknown@@@Z 10002ae0 f   HIMGFRM2D.obj
+ 0001:00001b10       ?DoVerb@IHImageFrame2dImp@HImageFrame2d@@UAGJUtagVARIANT@@@Z 10002b10 f   HIMGFRM2D.obj
+ 0001:00001db0       ?QueryInterface@HImageFrames2d@@UAGJABU_GUID@@PAPAX@Z 10002db0 f   HIMGFRM2S.obj
+ 0001:00001ea0       ?QueryInterface@IHKeyPointImp@HKeyPoint@@UAGJABU_GUID@@PAPAX@Z 10002ea0 f   keypnt:hkeypnt.obj
+ 0001:00001ea0       ?QueryInterface@IHGraphic2dImp@HGraphic2d@@UAGJABU_GUID@@PAPAX@Z 10002ea0 f   hgraf2d:hgraph2d.obj
+ 0001:00001ea0       ?QueryInterface@IHelperImp@HImageFrames2d@@UAGJABU_GUID@@PAPAX@Z 10002ea0 f   HIMGFRM2S.obj
+ 0001:00001ea0       ?QueryInterface@IHImageFrame2dImp@HImageFrame2d@@UAGJABU_GUID@@PAPAX@Z 10002ea0 f   HIMGFRM2D.obj
+ 0001:00001ec0       ?AddRef@IHelperImp@HImageFrames2d@@UAGKXZ 10002ec0 f   HIMGFRM2S.obj
+ 0001:00001ee0       ?Release@IHelperImp@HImageFrames2d@@UAGKXZ 10002ee0 f   HIMGFRM2S.obj
+ 0001:00001f00       ?Bind@IHelperImp@HImageFrames2d@@UAGJPAUIUnknown@@@Z 10002f00 f   HIMGFRM2S.obj
+ 0001:00001f10       ?GetBinding@IHelperImp@HImageFrames2d@@UAGJPAPAUIUnknown@@@Z 10002f10 f   HIMGFRM2S.obj
+ 0001:00001f30       ?SetParent@IHelperImp@HImageFrames2d@@UAGJPAUIUnknown@@@Z 10002f30 f   HIMGFRM2S.obj
+ 0001:00001f50       ?GetClassID@IHelperImp@HImageFrames2d@@UAGJPAU_GUID@@@Z 10002f50 f   HIMGFRM2S.obj
+ 0001:00001f80       ?QueryInterface@IHImageFrames2dImp@HImageFrames2d@@UAGJABU_GUID@@PAPAX@Z 10002f80 f   HIMGFRM2S.obj
+ 0001:00001fa0       ?AddRef@IHImageFrames2dImp@HImageFrames2d@@UAGKXZ 10002fa0 f   HIMGFRM2S.obj
+ 0001:00001fc0       ?Release@IHImageFrames2dImp@HImageFrames2d@@UAGKXZ 10002fc0 f   HIMGFRM2S.obj
+ 0001:00001fe0       ?Item@IHImageFrames2dImp@HImageFrames2d@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10002fe0 f   HIMGFRM2S.obj
+ 0001:00002020       ?_NewEnum@IHImageFrames2dImp@HImageFrames2d@@UAGJPAPAUIUnknown@@@Z 10003020 f   HIMGFRM2S.obj
+ 0001:00002050       ?get_Count@IHImageFrames2dImp@HImageFrames2d@@UAGJPAJ@Z 10003050 f   HIMGFRM2S.obj
+ 0001:00002070       ?get_Parent@IHImageFrames2dImp@HImageFrames2d@@UAGJPAPAUIUnknown@@@Z 10003070 f   HIMGFRM2S.obj
+ 0001:000020c0       ??I?$TIP@PAUIJLine2d@@@@QAEPAPAUIJLine2d@@XZ 100030c0 f i imgfrm:CREATE.obj
+ 0001:000020c0       ??I?$TIP@PAUIJOwner@@@@QAEPAPAUIJOwner@@XZ 100030c0 f i imgfrm:CREATE.obj
+ 0001:000020c0       ??I?$TIP@PAUIEnumJRelationSemanticDesc@@@@QAEPAPAUIEnumJRelationSemanticDesc@@XZ 100030c0 f i imgfrm:CREATE.obj
+ 0001:000020c0       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 100030c0 f i HIMGFRM2S.obj
+ 0001:000020c0       ??I?$TIP@PAUIJGraphicView@@@@QAEPAPAUIJGraphicView@@XZ 100030c0 f i HIMGFRM2S.obj
+ 0001:000020c0       ??I?$TIP@PAUIJView@@@@QAEPAPAUIJView@@XZ 100030c0 f i HIMGFRM2S.obj
+ 0001:000020c0       ??I?$TIP@PAUIEnumUnknown@@@@QAEPAPAUIEnumUnknown@@XZ 100030c0 f i imgfrm:CREATE.obj
+ 0001:000020c0       ??I?$TIP@PAUIJComputeCFunction@@@@QAEPAPAUIJComputeCFunction@@XZ 100030c0 f i imgfrm:CREATE.obj
+ 0001:000020c0       ??I?$TIP@PAUIJImageFrame2d@@@@QAEPAPAUIJImageFrame2d@@XZ 100030c0 f i HIMGFRM2D.obj
+ 0001:000020e0       ??1HImageFrames2d@@QAE@XZ  100030e0 f   HIMGFRM2S.obj
+ 0001:00002120       ?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z 10003120 f   HIMGFRM2S.obj
+ 0001:00002940       ??0HImageFrames2d@@QAE@PAUIUnknown@@@Z 10003940 f   HIMGFRM2S.obj
+ 0001:00002970       ?Release@HImageFrames2d@@UAGKXZ 10003970 f   HIMGFRM2S.obj
+ 0001:000029c0       _DllMain@12                100039c0 f   SERVER.obj
+ 0001:000029f0       ?ServerGetNumberOfObjects@@YAKXZ 100039f0 f   SERVER.obj
+ 0001:00002a00       ?ServerGetNumberOfLocks@@YAKXZ 10003a00 f   SERVER.obj
+ 0001:00002a10       ?ServerIncrementNumberOfObjects@@YAXXZ 10003a10 f   SERVER.obj
+ 0001:00002a20       ?ServerDecrementNumberOfObjects@@YAXXZ 10003a20 f   SERVER.obj
+ 0001:00002a30       ?ServerIncrementNumberOfLocks@@YAXXZ 10003a30 f   SERVER.obj
+ 0001:00002a40       ?ServerDecrementNumberOfLocks@@YAXXZ 10003a40 f   SERVER.obj
+ 0001:00002a50       _DllCanUnloadNow@0         10003a50 f   SERVER.obj
+ 0001:00002a70       ??0?$ClassFactory@VHImageFrames2d@@@@QAE@HHH@Z 10003a70 f i SERVER.obj
+ 0001:00002af0       ?OnCreateInstance@?$ClassFactory@VHImageFrames2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10003af0 f i SERVER.obj
+ 0001:00002c40       ??0?$ClassFactory@VHImageFrame2d@@@@QAE@HHH@Z 10003c40 f i SERVER.obj
+ 0001:00002cc0       ?OnCreateInstance@?$ClassFactory@VHImageFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10003cc0 f i SERVER.obj
+ 0001:00002e10       _DllGetClassObject@12      10003e10 f   SERVER.obj
+ 0001:00002f40       ??_E?$ClassFactory@VHImageFrames2d@@@@UAEPAXI@Z 10003f40 f i SERVER.obj
+ 0001:00002f40       ??_G?$ClassFactory@VHImageFrames2d@@@@UAEPAXI@Z 10003f40 f i SERVER.obj
+ 0001:00002fa0       ??_E?$ClassFactory@VHImageFrame2d@@@@UAEPAXI@Z 10003fa0 f i SERVER.obj
+ 0001:00002fa0       ??_G?$ClassFactory@VHImageFrame2d@@@@UAEPAXI@Z 10003fa0 f i SERVER.obj
+ 0001:00002ffc       _HModifyElement@8          10003ffc f   daxutil:Daxutil.dll
+ 0001:00003002       ?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 10004002 f   daxutil:Daxutil.dll
+ 0001:00003008       ?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 10004008 f   daxutil:Daxutil.dll
+ 0001:0000300e       ?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 1000400e f   daxutil:Daxutil.dll
+ 0001:00003014       ?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 10004014 f   daxutil:Daxutil.dll
+ 0001:0000301a       _HGeomGetLayer@8           1000401a f   geom2d:GEOM2DSVC.dll
+ 0001:00003020       _HGeomPutLayer@8           10004020 f   geom2d:GEOM2DSVC.dll
+ 0001:00003030       ??0?$ClassFactory@VHGraphic2d@@@@QAE@HHH@Z 10004030 f i hgraf2d:server.obj
+ 0001:000030b0       ?OnCreateInstance@?$ClassFactory@VHGraphic2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100040b0 f i hgraf2d:server.obj
+ 0001:00003200       _HGraph2dGetClassObject@12 10004200 f   hgraf2d:server.obj
+ 0001:00003310       ??_E?$ClassFactory@VHGraphic2d@@@@UAEPAXI@Z 10004310 f i hgraf2d:server.obj
+ 0001:00003310       ??_G?$ClassFactory@VHGraphic2d@@@@UAEPAXI@Z 10004310 f i hgraf2d:server.obj
+ 0001:00003370       ??1HGraphic2d@@QAE@XZ      10004370 f   hgraf2d:hgraph2d.obj
+ 0001:00003380       ?AddRef@HKeyPoint@@UAGKXZ  10004380 f   keypnt:hkeypnt.obj
+ 0001:00003380       ?AddRef@HGraphic2d@@UAGKXZ 10004380 f   hgraf2d:hgraph2d.obj
+ 0001:00003380       ?AddRef@HImageFrames2d@@UAGKXZ 10004380 f   HIMGFRM2S.obj
+ 0001:00003380       ?AddRef@HImageFrame2d@@UAGKXZ 10004380 f   HIMGFRM2D.obj
+ 0001:00003390       ?QueryInterface@HGraphic2d@@UAGJABU_GUID@@PAPAX@Z 10004390 f   hgraf2d:hgraph2d.obj
+ 0001:00003420       ?Release@IHelperImp@HImageFrame2d@@UAGKXZ 10004420 f   HIMGFRM2D.obj
+ 0001:00003420       ?Release@IHelperImp@HKeyPoint@@UAGKXZ 10004420 f   keypnt:hkeypnt.obj
+ 0001:00003420       ?Release@IHelperImp@HGraphic2d@@UAGKXZ 10004420 f   hgraf2d:hgraph2d.obj
+ 0001:00003440       ?Bind@IHelperImp@HImageFrame2d@@UAGJPAUIUnknown@@@Z 10004440 f   HIMGFRM2D.obj
+ 0001:00003440       ?Bind@IHelperImp@HGraphic2d@@UAGJPAUIUnknown@@@Z 10004440 f   hgraf2d:hgraph2d.obj
+ 0001:00003440       ?Bind@IHelperImp@HKeyPoint@@UAGJPAUIUnknown@@@Z 10004440 f   keypnt:hkeypnt.obj
+ 0001:00003460       ?GetBinding@IHelperImp@HGraphic2d@@UAGJPAPAUIUnknown@@@Z 10004460 f   hgraf2d:hgraph2d.obj
+ 0001:00003460       ?GetBinding@IHelperImp@HKeyPoint@@UAGJPAPAUIUnknown@@@Z 10004460 f   keypnt:hkeypnt.obj
+ 0001:00003460       ?GetBinding@IHelperImp@HImageFrame2d@@UAGJPAPAUIUnknown@@@Z 10004460 f   HIMGFRM2D.obj
+ 0001:00003480       ?GetClassID@IHelperImp@HGraphic2d@@UAGJPAU_GUID@@@Z 10004480 f   hgraf2d:hgraph2d.obj
+ 0001:000034b0       ?get_Application@IHGraphic2dImp@HGraphic2d@@UAGJPAPAUIUnknown@@@Z 100044b0 f   hgraf2d:hgraph2d.obj
+ 0001:000034b0       ?get_Application@IHImageFrames2dImp@HImageFrames2d@@UAGJPAPAUIUnknown@@@Z 100044b0 f   HIMGFRM2S.obj
+ 0001:000034d0       ?get_Index@IHGraphic2dImp@HGraphic2d@@UAGJPAJ@Z 100044d0 f   hgraf2d:hgraph2d.obj
+ 0001:000034e0       ?get_Key@IHGraphic2dImp@HGraphic2d@@UAGJUtagVARIANT@@PAPA_W@Z 100044e0 f   hgraf2d:hgraph2d.obj
+ 0001:00003520       ?get_Name@IHGraphic2dImp@HGraphic2d@@UAGJUtagVARIANT@@JPAPA_W@Z 10004520 f   hgraf2d:hgraph2d.obj
+ 0001:00003560       ?get_Parent@IHGraphic2dImp@HGraphic2d@@UAGJPAPAUIUnknown@@@Z 10004560 f   hgraf2d:hgraph2d.obj
+ 0001:00003570       ?get_Type@IHGraphic2dImp@HGraphic2d@@UAGJPAJ@Z 10004570 f   hgraf2d:hgraph2d.obj
+ 0001:00003580       ?get_Visible@IHGraphic2dImp@HGraphic2d@@UAGJPAF@Z 10004580 f   hgraf2d:hgraph2d.obj
+ 0001:00003590       ?put_Visible@IHGraphic2dImp@HGraphic2d@@UAGJPAF@Z 10004590 f   hgraf2d:hgraph2d.obj
+ 0001:000035a0       ?get_ZOrder@IHGraphic2dImp@HGraphic2d@@UAGJPAJ@Z 100045a0 f   hgraf2d:hgraph2d.obj
+ 0001:000035b0       ?Copy@IHGraphic2dImp@HGraphic2d@@UAGJXZ 100045b0 f   hgraf2d:hgraph2d.obj
+ 0001:000035d0       ?Cut@IHGraphic2dImp@HGraphic2d@@UAGJXZ 100045d0 f   hgraf2d:hgraph2d.obj
+ 0001:000035f0       ?Move@IHGraphic2dImp@HGraphic2d@@UAGJNNNN@Z 100045f0 f   hgraf2d:hgraph2d.obj
+ 0001:00003630       ?Scale@IHGraphic2dImp@HGraphic2d@@UAGJN@Z 10004630 f   hgraf2d:hgraph2d.obj
+ 0001:00003650       ?Rotate@IHGraphic2dImp@HGraphic2d@@UAGJNNN@Z 10004650 f   hgraf2d:hgraph2d.obj
+ 0001:00003680       ?_Transform@IHGraphic2dImp@HGraphic2d@@UAGJPAUtagGTransf@@@Z 10004680 f   hgraf2d:hgraph2d.obj
+ 0001:00003690       ?Range@IHGraphic2dImp@HGraphic2d@@UAGJPAN000@Z 10004690 f   hgraf2d:hgraph2d.obj
+ 0001:000036a0       ?Duplicate@IHGraphic2dImp@HGraphic2d@@UAGJUtagVARIANT@@0PAPAUIUnknown@@@Z 100046a0 f   hgraf2d:hgraph2d.obj
+ 0001:00003700       ?Mirror@IHGraphic2dImp@HGraphic2d@@UAGJNNNNUtagVARIANT@@PAPAUIUnknown@@@Z 10004700 f   hgraf2d:hgraph2d.obj
+ 0001:00003760       ?BringToFront@IHGraphic2dImp@HGraphic2d@@UAGJXZ 10004760 f   hgraf2d:hgraph2d.obj
+ 0001:00003770       ?BringForward@IHGraphic2dImp@HGraphic2d@@UAGJXZ 10004770 f   hgraf2d:hgraph2d.obj
+ 0001:00003780       ?SendToBack@IHGraphic2dImp@HGraphic2d@@UAGJXZ 10004780 f   hgraf2d:hgraph2d.obj
+ 0001:00003790       ?SendBackward@IHGraphic2dImp@HGraphic2d@@UAGJXZ 10004790 f   hgraf2d:hgraph2d.obj
+ 0001:000037a0       ?Select@IHGraphic2dImp@HGraphic2d@@UAGJXZ 100047a0 f   hgraf2d:hgraph2d.obj
+ 0001:000037b0       ?get_Document@IHGraphic2dImp@HGraphic2d@@UAGJPAPAUIUnknown@@@Z 100047b0 f   hgraf2d:hgraph2d.obj
+ 0001:000037c0       ?Release@HGraphic2d@@UAGKXZ 100047c0 f   hgraf2d:hgraph2d.obj
+ 0001:00003810       ?Delete@IHGraphic2dImp@HGraphic2d@@UAGJH@Z 10004810 f   hgraf2d:hgraph2d.obj
+ 0001:00003940       ??0HGraphic2d@@QAE@PAUIUnknown@@@Z 10004940 f   hgraf2d:hgraph2d.obj
+ 0001:0000396c       _HTransformElement@8       1000496c f   hslvr:hslvr.dll
+ 0001:00003980       ??0tagJIMAGEFRAME2DPROPERTIES@@QAE@ABU0@@Z 10004980 f i imgfrm:CREATE.obj
+ 0001:000039d0       ?HCreateImageFrame2d@@YAJPAPAUIUnknown@@PAPAUIJImageFrame2d@@@Z 100049d0 f   imgfrm:CREATE.obj
+ 0001:00003f30       ?HSetImageFrameParameter@@YAJPAUIUnknown@@KN@Z 10004f30 f   imgfrm:CREATE.obj
+ 0001:000044d0       ?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z 100054d0 f   imgfrm:CREATE.obj
+ 0001:000047e0       ?HAddImageFrameDoubleValuesAndCFunction@@YAJPAUIUnknown@@@Z 100057e0 f   imgfrm:CREATE.obj
+ 0001:000049b0       ?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z 100059b0 f   imgfrm:CREATE.obj
+ 0001:0000530e       _JGetFastDAXObject@16      1000630e f   jengine:jengine.dll
+ 0001:00005314       _HAddRefObject@8           10006314 f   jengine:jengine.dll
+ 0001:0000531a       _HReleaseObject@8          1000631a f   jengine:jengine.dll
+ 0001:00005320       _JBindDAXObject@12         10006320 f   jengine:jengine.dll
+ 0001:00005326       _HGetBinding@12            10006326 f   jengine:jengine.dll
+ 0001:0000532c       _HSetParentObject@12       1000632c f   jengine:jengine.dll
+ 0001:00005332       _BatchFlush@0              10006332 f   jengine:jengine.dll
+ 0001:00005338       _HBindCollection@12        10006338 f   jengine:jengine.dll
+ 0001:0000533e       _JGetApplication           1000633e f   jengine:jengine.dll
+ 0001:00005344       _JGetDocActiveView         10006344 f   jengine:jengine.dll
+ 0001:0000534a       _JQueryApplication         1000634a f   jengine:jengine.dll
+ 0001:00005350       @GetPersistManager@8       10006350 f   jengine:jengine.dll
+ 0001:00005356       _JLogInsert@4              10006356 f   jengine:jengine.dll
+ 0001:0000535c       _ReleaseJCFUNCARGDESC@8    1000635c f   jengine:jengine.dll
+ 0001:00005362       _BatchModify@8             10006362 f   jengine:jengine.dll
+ 0001:00005368       _PlaceStdCFunctionInRelation 10006368 f   jengine:jengine.dll
+ 0001:0000536e       _BatchDelete@4             1000636e f   jengine:jengine.dll
+ 0001:00005374       _HRerrEx                   10006374 f   jutil:JUtil.dll
+ 0001:0000537a       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000637a f   jutil:JUtil.dll
+ 0001:00005380       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10006380 f   jutil:JUtil.dll
+ 0001:00005386       ?AddRef@JClassFactory@@UAGKXZ 10006386 f   jutil:JUtil.dll
+ 0001:0000538c       ?Release@JClassFactory@@UAGKXZ 1000638c f   jutil:JUtil.dll
+ 0001:00005392       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10006392 f   jutil:JUtil.dll
+ 0001:00005398       ?LockServer@JClassFactory@@UAGJH@Z 10006398 f   jutil:JUtil.dll
+ 0001:0000539e       _RCfatalerr                1000639e f   jutil:JUtil.dll
+ 0001:000053a4       _JCoCreateInstance         100063a4 f   jutil:JUtil.dll
+ 0001:000053b0       ??0?$ClassFactory@VHKeyPoint@@@@QAE@HHH@Z 100063b0 f i keypnt:server.obj
+ 0001:00005430       ?OnCreateInstance@?$ClassFactory@VHKeyPoint@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10006430 f i keypnt:server.obj
+ 0001:00005580       _KeyPointGetClassObject@12 10006580 f   keypnt:server.obj
+ 0001:00005690       ??_G?$ClassFactory@VHKeyPoint@@@@UAEPAXI@Z 10006690 f i keypnt:server.obj
+ 0001:00005690       ??_E?$ClassFactory@VHKeyPoint@@@@UAEPAXI@Z 10006690 f i keypnt:server.obj
+ 0001:000056f0       ??1HKeyPoint@@QAE@XZ       100066f0 f   keypnt:hkeypnt.obj
+ 0001:00005700       ?Initialize@HKeyPoint@@QAEJXZ 10006700 f   keypnt:hkeypnt.obj
+ 0001:00005700       ?Initialize@HImageFrames2d@@QAEJXZ 10006700 f   HIMGFRM2S.obj
+ 0001:00005700       ?Initialize@HImageFrame2d@@QAEJXZ 10006700 f   HIMGFRM2D.obj
+ 0001:00005700       ?Initialize@HGraphic2d@@QAEJXZ 10006700 f   hgraf2d:hgraph2d.obj
+ 0001:00005710       ?QueryInterface@HKeyPoint@@UAGJABU_GUID@@PAPAX@Z 10006710 f   keypnt:hkeypnt.obj
+ 0001:000057a0       ?QueryInterface@IHelperImp@HImageFrame2d@@UAGJABU_GUID@@PAPAX@Z 100067a0 f   HIMGFRM2D.obj
+ 0001:000057a0       ?QueryInterface@IHelperImp@HKeyPoint@@UAGJABU_GUID@@PAPAX@Z 100067a0 f   keypnt:hkeypnt.obj
+ 0001:000057a0       ?QueryInterface@IHelperImp@HGraphic2d@@UAGJABU_GUID@@PAPAX@Z 100067a0 f   hgraf2d:hgraph2d.obj
+ 0001:000057c0       ?GetClassID@IHelperImp@HKeyPoint@@UAGJPAU_GUID@@@Z 100067c0 f   keypnt:hkeypnt.obj
+ 0001:000057f0       ?Release@HKeyPoint@@UAGKXZ 100067f0 f   keypnt:hkeypnt.obj
+ 0001:00005840       ?get_KeyPointCount@IHKeyPointImp@HKeyPoint@@UAGJPAJ@Z 10006840 f   keypnt:hkeypnt.obj
+ 0001:000058c0       ?GetKeyPoint@IHKeyPointImp@HKeyPoint@@UAGJJPAN00PAW4KeyPointType@@PAJ@Z 100068c0 f   keypnt:hkeypnt.obj
+ 0001:000059a0       ?SetKeyPoint@IHKeyPointImp@HKeyPoint@@UAGJJNNN@Z 100069a0 f   keypnt:hkeypnt.obj
+ 0001:00005ad0       ?_SetCOMKeyPointHandler@IHKeyPointImp@HKeyPoint@@UAGJPAUIUnknown@@@Z 10006ad0 f   keypnt:hkeypnt.obj
+ 0001:00005b90       ?SetKeyPointHandler@IHKeyPointImp@HKeyPoint@@UAGJPAUIUnknown@@@Z 10006b90 f   keypnt:hkeypnt.obj
+ 0001:00005c70       ??0HKeyPoint@@QAE@PAUIUnknown@@@Z 10006c70 f   keypnt:hkeypnt.obj
+ 0001:00005c9c       _HAddObjectToActiveSheetLayer@8 10006c9c f   shlyhp:shlyhp.dll
+ 0001:00005ca2       _IMRectByPtPt2d            10006ca2 f   ugeom2d:ugeom2d.dll
+ 0001:00005ca8       ?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 10006ca8 f   umath:umath.dll
+ 0001:00005cae       ?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 10006cae f   umath:umath.dll
+ 0001:00005cb4       ?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10006cb4 f   umath:umath.dll
+ 0001:00005cba       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 10006cba f   umath:umath.dll
+ 0001:00005cc0       ?GetDistanceTolerance@@YA?BNXZ 10006cc0 f   umath:umath.dll
+ 0001:00005cc6       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10006cc6 f   umath:umath.dll
+ 0001:00005ccc       _malloc                    10006ccc f   MSVCRT:MSVCR80.dll
+ 0001:00005cd2       __callnewh                 10006cd2 f   MSVCRT:MSVCR80.dll
+ 0001:00005ce0       ??_Etype_info@@UAEPAXI@Z   10006ce0 f i MSVCRT:ti_inst.obj
+ 0001:00005d2a       ??3@YAXPAX@Z               10006d2a f   MSVCRT:MSVCR80.dll
+ 0001:00005d30       ___CxxFrameHandler3        10006d30 f   MSVCRT:MSVCR80.dll
+ 0001:00005d36       @__security_check_cookie@4 10006d36 f   MSVCRT:secchk.obj
+ 0001:00005d50       __ftol2_sse                10006d50 f   MSVCRT:ftol2.obj
+ 0001:00005d59       __ftol2_pentium4           10006d59 f   MSVCRT:ftol2.obj
+ 0001:00005d6c       __ftol2_sse_excpt          10006d6c f   MSVCRT:ftol2.obj
+ 0001:00005d86       __ftol2                    10006d86 f   MSVCRT:ftol2.obj
+ 0001:00005e48       __CRT_INIT@12              10006e48 f   MSVCRT:crtdll.obj
+ 0001:000060fd       __DllMainCRTStartup@12     100070fd f   MSVCRT:crtdll.obj
+ 0001:0000611e       _memset                    1000711e f   MSVCRT:MSVCR80.dll
+ 0001:00006124       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10007124 f   MSVCRT:ehvecdtr.obj
+ 0001:00006182       ??_M@YGXPAXIHP6EX0@Z@Z     10007182 f   MSVCRT:ehvecdtr.obj
+ 0001:000061e5       ___report_gsfailure        100071e5 f   MSVCRT:gs_report.obj
+ 0001:00006339       __get_sse2_info            10007339 f   MSVCRT:cpu_disp.obj
+ 0001:00006399       ___sse2_available_init     10007399 f   MSVCRT:cpu_disp.obj
+ 0001:000063a6       ___clean_type_info_names   100073a6 f   MSVCRT:tncleanup.obj
+ 0001:000063b2       __onexit                   100073b2 f   MSVCRT:atonexit.obj
+ 0001:00006451       _atexit                    10007451 f   MSVCRT:atonexit.obj
+ 0001:00006463       __RTC_Initialize           10007463 f   MSVCRT:initsect.obj
+ 0001:00006487       __RTC_Terminate            10007487 f   MSVCRT:initsect.obj
+ 0001:000064b0       __ValidateImageBase        100074b0 f   MSVCRT:pesect.obj
+ 0001:000064e0       __FindPESection            100074e0 f   MSVCRT:pesect.obj
+ 0001:00006522       __IsNonwritableInCurrentImage 10007522 f   MSVCRT:pesect.obj
+ 0001:0000658e       __initterm                 1000758e f   MSVCRT:MSVCR80.dll
+ 0001:00006594       __initterm_e               10007594 f   MSVCRT:MSVCR80.dll
+ 0001:0000659a       __amsg_exit                1000759a f   MSVCRT:MSVCR80.dll
+ 0001:000065a0       ___CppXcptFilter           100075a0 f   MSVCRT:MSVCR80.dll
+ 0001:000065a8       __SEH_prolog4              100075a8 f   MSVCRT:sehprolg4.obj
+ 0001:000065ed       __SEH_epilog4              100075ed f   MSVCRT:sehprolg4.obj
+ 0001:00006601       __except_handler4          10007601 f   MSVCRT:chandler4gs.obj
+ 0001:00006624       ___security_init_cookie    10007624 f   MSVCRT:gs_support.obj
+ 0001:000066b8       ?terminate@@YAXXZ          100076b8 f   MSVCRT:MSVCR80.dll
+ 0001:000066be       ??1type_info@@UAE@XZ       100076be f   MSVCRT:MSVCR80.dll
+ 0001:000066be       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 100076be f   MSVCRT:MSVCR80.dll
+ 0001:000066c4       __crt_debugger_hook        100076c4 f   MSVCRT:MSVCR80.dll
+ 0001:000066ca       ___clean_type_info_names_internal 100076ca f   MSVCRT:MSVCR80.dll
+ 0001:000066d0       __unlock                   100076d0 f   MSVCRT:MSVCR80.dll
+ 0001:000066d6       ___dllonexit               100076d6 f   MSVCRT:MSVCR80.dll
+ 0001:000066dc       __lock                     100076dc f   MSVCRT:MSVCR80.dll
+ 0001:000066e2       __except_handler4_common   100076e2 f   MSVCRT:MSVCR80.dll
+ 0001:000066e8       _HGraphic2dGetIndex@8      100076e8 f   daxutil:Daxutil.dll
+ 0001:000066ee       _HGraphic2dGetKey@24       100076ee f   daxutil:Daxutil.dll
+ 0001:000066f4       _HGraphic2dGetName@28      100076f4 f   daxutil:Daxutil.dll
+ 0001:000066fa       _HGraphic2dGetParentUnk@8  100076fa f   daxutil:Daxutil.dll
+ 0001:00006700       _HGraphic2dGetType@8       10007700 f   daxutil:Daxutil.dll
+ 0001:00006706       _HGraphic2dGetVisible@8    10007706 f   daxutil:Daxutil.dll
+ 0001:0000670c       _HGraphic2dPutVisible@8    1000770c f   daxutil:Daxutil.dll
+ 0001:00006712       _HGraphic2dGetZOrder@8     10007712 f   daxutil:Daxutil.dll
+ 0001:00006718       _HGraphic2dCopyCutElement@8 10007718 f   daxutil:Daxutil.dll
+ 0001:0000671e       _HGraphic2dMove@40         1000771e f   daxutil:Daxutil.dll
+ 0001:00006724       _HGraphic2dScale@12        10007724 f   daxutil:Daxutil.dll
+ 0001:0000672a       _HGraphic2dRotate@28       1000772a f   daxutil:Daxutil.dll
+ 0001:00006730       _HGraphic2dTransform@8     10007730 f   daxutil:Daxutil.dll
+ 0001:00006736       _HGraphic2dRange@20        10007736 f   daxutil:Daxutil.dll
+ 0001:0000673c       _HGraphic2dDuplicate@44    1000773c f   daxutil:Daxutil.dll
+ 0001:00006742       _HGraphic2dMirror@60       10007742 f   daxutil:Daxutil.dll
+ 0001:00006748       _HGraphic2dBringToFront@4  10007748 f   daxutil:Daxutil.dll
+ 0001:0000674e       _HGraphic2dBringForward@4  1000774e f   daxutil:Daxutil.dll
+ 0001:00006754       _HGraphic2dSendToBack@4    10007754 f   daxutil:Daxutil.dll
+ 0001:0000675a       _HGraphic2dSendBackward@4  1000775a f   daxutil:Daxutil.dll
+ 0001:00006760       _HGraphic2dSelect@4        10007760 f   daxutil:Daxutil.dll
+ 0001:00006766       _HGraphic2dGetDocumentUnk@8 10007766 f   daxutil:Daxutil.dll
+ 0001:0000676c       _HRemoveElement@8          1000776c f   daxutil:Daxutil.dll
+ 0001:00006772       _HMakePersistent@20        10007772 f   daxutil:Daxutil.dll
+ 0001:00006778       _HSetStyle@16              10007778 f   daxutil:Daxutil.dll
+ 0001:0000677e       ?HBatchFlushInProgress@@YAHXZ 1000777e f   daxutil:Daxutil.dll
+ 0002:00000000       __imp__HModifyElement@8    10009000     daxutil:Daxutil.dll
+ 0002:00000004       __imp_?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 10009004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 10009008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp_?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 1000900c     daxutil:Daxutil.dll
+ 0002:00000010       __imp_?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 10009010     daxutil:Daxutil.dll
+ 0002:00000014       __imp__HGraphic2dGetKey@24 10009014     daxutil:Daxutil.dll
+ 0002:00000018       __imp__HGraphic2dGetName@28 10009018     daxutil:Daxutil.dll
+ 0002:0000001c       __imp__HGraphic2dGetParentUnk@8 1000901c     daxutil:Daxutil.dll
+ 0002:00000020       __imp__HGraphic2dGetType@8 10009020     daxutil:Daxutil.dll
+ 0002:00000024       __imp__HGraphic2dGetVisible@8 10009024     daxutil:Daxutil.dll
+ 0002:00000028       __imp__HGraphic2dPutVisible@8 10009028     daxutil:Daxutil.dll
+ 0002:0000002c       __imp__HGraphic2dGetZOrder@8 1000902c     daxutil:Daxutil.dll
+ 0002:00000030       __imp__HGraphic2dCopyCutElement@8 10009030     daxutil:Daxutil.dll
+ 0002:00000034       __imp__HGraphic2dMove@40   10009034     daxutil:Daxutil.dll
+ 0002:00000038       __imp__HGraphic2dScale@12  10009038     daxutil:Daxutil.dll
+ 0002:0000003c       __imp__HGraphic2dRotate@28 1000903c     daxutil:Daxutil.dll
+ 0002:00000040       __imp__HGraphic2dTransform@8 10009040     daxutil:Daxutil.dll
+ 0002:00000044       __imp__HGraphic2dRange@20  10009044     daxutil:Daxutil.dll
+ 0002:00000048       __imp__HGraphic2dDuplicate@44 10009048     daxutil:Daxutil.dll
+ 0002:0000004c       __imp__HGraphic2dMirror@60 1000904c     daxutil:Daxutil.dll
+ 0002:00000050       __imp__HGraphic2dBringToFront@4 10009050     daxutil:Daxutil.dll
+ 0002:00000054       __imp_?HBatchFlushInProgress@@YAHXZ 10009054     daxutil:Daxutil.dll
+ 0002:00000058       __imp__HSetStyle@16        10009058     daxutil:Daxutil.dll
+ 0002:0000005c       __imp__HMakePersistent@20  1000905c     daxutil:Daxutil.dll
+ 0002:00000060       __imp__HRemoveElement@8    10009060     daxutil:Daxutil.dll
+ 0002:00000064       __imp__HGraphic2dGetDocumentUnk@8 10009064     daxutil:Daxutil.dll
+ 0002:00000068       __imp__HGraphic2dSelect@4  10009068     daxutil:Daxutil.dll
+ 0002:0000006c       __imp__HGraphic2dSendBackward@4 1000906c     daxutil:Daxutil.dll
+ 0002:00000070       __imp__HGraphic2dBringForward@4 10009070     daxutil:Daxutil.dll
+ 0002:00000074       __imp__HGraphic2dSendToBack@4 10009074     daxutil:Daxutil.dll
+ 0002:00000078       __imp__HGraphic2dGetIndex@8 10009078     daxutil:Daxutil.dll
+ 0002:0000007c       \177Daxutil_NULL_THUNK_DATA 1000907c     daxutil:Daxutil.dll
+ 0002:00000080       __imp__HGeomGetLayer@8     10009080     geom2d:GEOM2DSVC.dll
+ 0002:00000084       __imp__HGeomPutLayer@8     10009084     geom2d:GEOM2DSVC.dll
+ 0002:00000088       \177GEOM2DSVC_NULL_THUNK_DATA 10009088     geom2d:GEOM2DSVC.dll
+ 0002:0000008c       __imp_??1JClassFactory@@UAE@XZ 1000908c     jutil:JUtil.dll
+ 0002:00000090       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10009090     jutil:JUtil.dll
+ 0002:00000094       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10009094     jutil:JUtil.dll
+ 0002:00000098       __imp_?AddRef@JClassFactory@@UAGKXZ 10009098     jutil:JUtil.dll
+ 0002:0000009c       __imp_?Release@JClassFactory@@UAGKXZ 1000909c     jutil:JUtil.dll
+ 0002:000000a0       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100090a0     jutil:JUtil.dll
+ 0002:000000a4       __imp_??0GUserText@@QAE@XZ 100090a4     jutil:JUtil.dll
+ 0002:000000a8       __imp__RCfatalerr          100090a8     jutil:JUtil.dll
+ 0002:000000ac       __imp__JCoCreateInstance   100090ac     jutil:JUtil.dll
+ 0002:000000b0       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 100090b0     jutil:JUtil.dll
+ 0002:000000b4       __imp__HRerrEx             100090b4     jutil:JUtil.dll
+ 0002:000000b8       __imp_??4GUserText@@QAEAAV0@PB_W@Z 100090b8     jutil:JUtil.dll
+ 0002:000000bc       __imp_??0GUserText@@QAE@ABV0@@Z 100090bc     jutil:JUtil.dll
+ 0002:000000c0       __imp_?LockServer@JClassFactory@@UAGJH@Z 100090c0     jutil:JUtil.dll
+ 0002:000000c4       __imp_??1GUserText@@QAE@XZ 100090c4     jutil:JUtil.dll
+ 0002:000000c8       \177JUtil_NULL_THUNK_DATA  100090c8     jutil:JUtil.dll
+ 0002:000000cc       __imp__GetCurrentProcess@0 100090cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__UnhandledExceptionFilter@4 100090d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__SetUnhandledExceptionFilter@4 100090d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__IsDebuggerPresent@0 100090d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__QueryPerformanceCounter@4 100090dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__GetTickCount@0      100090e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__GetCurrentThreadId@0 100090e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__GetCurrentProcessId@0 100090e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__GetSystemTimeAsFileTime@4 100090ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__TerminateProcess@8  100090f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__InterlockedCompareExchange@12 100090f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__InterlockedExchange@8 100090f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__Sleep@4             100090fc     kernel32:KERNEL32.dll
+ 0002:00000100       \177KERNEL32_NULL_THUNK_DATA 10009100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp___initterm           10009104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___onexit             10009108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___lock               1000910c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp__malloc              10009110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___callnewh           10009114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp_??3@YAXPAX@Z         10009118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp____CxxFrameHandler3  1000911c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp__memset              10009120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___encode_pointer     10009124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___malloc_crt         10009128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___encoded_null       1000912c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp__free                10009130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___decode_pointer     10009134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp___except_handler4_common 10009138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___initterm_e         1000913c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp___amsg_exit          10009140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp___adjust_fdiv        10009144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp____CppXcptFilter     10009148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp_?terminate@@YAXXZ    1000914c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10009150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp___crt_debugger_hook  10009154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp____clean_type_info_names_internal 10009158     MSVCRT:MSVCR80.dll
+ 0002:0000015c       __imp___unlock             1000915c     MSVCRT:MSVCR80.dll
+ 0002:00000160       __imp____dllonexit         10009160     MSVCRT:MSVCR80.dll
+ 0002:00000164       \177MSVCR80_NULL_THUNK_DATA 10009164     MSVCRT:MSVCR80.dll
+ 0002:00000168       __imp__VariantInit@4       10009168     oleaut32:OLEAUT32.dll
+ 0002:0000016c       \177OLEAUT32_NULL_THUNK_DATA 1000916c     oleaut32:OLEAUT32.dll
+ 0002:00000170       __imp__GetClientRect@8     10009170     user32:USER32.dll
+ 0002:00000174       \177USER32_NULL_THUNK_DATA 10009174     user32:USER32.dll
+ 0002:00000178       __imp_?GetImageInfo@GImage@@SAJPB_WPAN11@Z 10009178     visual:Visual.dll
+ 0002:0000017c       __imp_??1GImage@@QAE@XZ    1000917c     visual:Visual.dll
+ 0002:00000180       __imp_?GetSize@GImage@@QAEJPAN0W4GImageSizeType@@@Z 10009180     visual:Visual.dll
+ 0002:00000184       __imp_??0GImage@@QAE@XZ    10009184     visual:Visual.dll
+ 0002:00000188       \177Visual_NULL_THUNK_DATA 10009188     visual:Visual.dll
+ 0002:0000018c       __imp__HTransformElement@8 1000918c     hslvr:hslvr.dll
+ 0002:00000190       \177hslvr_NULL_THUNK_DATA  10009190     hslvr:hslvr.dll
+ 0002:00000194       __imp__JGetFastDAXObject@16 10009194     jengine:jengine.dll
+ 0002:00000198       __imp__HAddRefObject@8     10009198     jengine:jengine.dll
+ 0002:0000019c       __imp__HReleaseObject@8    1000919c     jengine:jengine.dll
+ 0002:000001a0       __imp__JBindDAXObject@12   100091a0     jengine:jengine.dll
+ 0002:000001a4       __imp__HGetBinding@12      100091a4     jengine:jengine.dll
+ 0002:000001a8       __imp__HSetParentObject@12 100091a8     jengine:jengine.dll
+ 0002:000001ac       __imp__BatchFlush@0        100091ac     jengine:jengine.dll
+ 0002:000001b0       __imp__HBindCollection@12  100091b0     jengine:jengine.dll
+ 0002:000001b4       __imp__JGetApplication     100091b4     jengine:jengine.dll
+ 0002:000001b8       __imp__JGetDocActiveView   100091b8     jengine:jengine.dll
+ 0002:000001bc       __imp__BatchDelete@4       100091bc     jengine:jengine.dll
+ 0002:000001c0       __imp__PlaceStdCFunctionInRelation 100091c0     jengine:jengine.dll
+ 0002:000001c4       __imp__BatchModify@8       100091c4     jengine:jengine.dll
+ 0002:000001c8       __imp__ReleaseJCFUNCARGDESC@8 100091c8     jengine:jengine.dll
+ 0002:000001cc       __imp__JLogInsert@4        100091cc     jengine:jengine.dll
+ 0002:000001d0       __imp_@GetPersistManager@8 100091d0     jengine:jengine.dll
+ 0002:000001d4       __imp__JQueryApplication   100091d4     jengine:jengine.dll
+ 0002:000001d8       \177jengine_NULL_THUNK_DATA 100091d8     jengine:jengine.dll
+ 0002:000001dc       __imp__HAddObjectToActiveSheetLayer@8 100091dc     shlyhp:shlyhp.dll
+ 0002:000001e0       \177shlyhp_NULL_THUNK_DATA 100091e0     shlyhp:shlyhp.dll
+ 0002:000001e4       __imp__IMRectByPtPt2d      100091e4     ugeom2d:ugeom2d.dll
+ 0002:000001e8       \177ugeom2d_NULL_THUNK_DATA 100091e8     ugeom2d:ugeom2d.dll
+ 0002:000001ec       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 100091ec     umath:umath.dll
+ 0002:000001f0       __imp_?GetDistanceTolerance@@YA?BNXZ 100091f0     umath:umath.dll
+ 0002:000001f4       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 100091f4     umath:umath.dll
+ 0002:000001f8       __imp_?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 100091f8     umath:umath.dll
+ 0002:000001fc       __imp_?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 100091fc     umath:umath.dll
+ 0002:00000200       __imp_?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10009200     umath:umath.dll
+ 0002:00000204       \177umath_NULL_THUNK_DATA  10009204     umath:umath.dll
+ 0002:00000208       ___xc_a                    10009208     MSVCRT:cinitexe.obj
+ 0002:0000027c       ___xc_z                    1000927c     MSVCRT:cinitexe.obj
+ 0002:00000280       ___xi_a                    10009280     MSVCRT:cinitexe.obj
+ 0002:0000028c       ___xi_z                    1000928c     MSVCRT:cinitexe.obj
+ 0002:000002ac       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100092ac     GUID.obj
+ 0002:000002bc       _IID_IJNoDispatchSupport   100092bc     GUID.obj
+ 0002:000002cc       _IID_IJApplication         100092cc     GUID.obj
+ 0002:000002dc       _IID_IJSelectSetAutomation 100092dc     GUID.obj
+ 0002:000002ec       _CLSID_HGraphic2d          100092ec     GUID.obj
+ 0002:000002fc       _CLSID_HKeyPoint           100092fc     GUID.obj
+ 0002:0000030c       _CLSID_JImageFrame2d       1000930c     GUID.obj
+ 0002:0000031c       _CLSID_HImageFrame2d       1000931c     GUID.obj
+ 0002:0000032c       _CLSID_HImageFrames2d      1000932c     GUID.obj
+ 0002:0000033c       _IID__IHImageFrame2d       1000933c     GUID.obj
+ 0002:0000034c       _IID__IHImageFrames2d      1000934c     GUID.obj
+ 0002:0000035c       _IID_IHelper               1000935c     GUID.obj
+ 0002:0000036c       _IID_IJRelation            1000936c     GUID.obj
+ 0002:0000037c       _IID_IJComputeCFunction    1000937c     GUID.obj
+ 0002:0000038c       _IID_IJOwner               1000938c     GUID.obj
+ 0002:0000039c       _CLSID_JDoubleValue        1000939c     GUID.obj
+ 0002:000003b4       _IID_IJImageFrame2d        100093b4     GUID.obj
+ 0002:000003c4       _IID_IJGraphicView         100093c4     GUID.obj
+ 0002:000003d4       _IID_IJGeometry            100093d4     GUID.obj
+ 0002:000003e4       _IID_IJView                100093e4     GUID.obj
+ 0002:000003f4       _IID_IJSite                100093f4     GUID.obj
+ 0002:00000404       _IID_IJOccurrence          10009404     GUID.obj
+ 0002:00000414       _IID__IHKeyPoint           10009414     GUID.obj
+ 0002:00000424       _IID_IJKeyPoint            10009424     GUID.obj
+ 0002:00000434       _IID_IJLine2d              10009434     GUID.obj
+ 0002:00000444       _IID__IHGraphic2d          10009444     GUID.obj
+ 0002:00000454       _CLSID_CFrameWorkSupportDispatchObjectFactory 10009454     GUID.obj
+ 0002:00000464       _IID_IJDoubleValue         10009464     GUID.obj
+ 0002:00000480       __real@400921fb54442d18    10009480     HIMGFRM2D.obj
+ 0002:0000048c       ??_7HImageFrame2d@@6B@     1000948c     HIMGFRM2D.obj
+ 0002:0000049c       ??_7IHelperImp@HImageFrame2d@@6B@ 1000949c     HIMGFRM2D.obj
+ 0002:000004bc       ??_7IHImageFrame2dImp@HImageFrame2d@@6B@ 100094bc     HIMGFRM2D.obj
+ 0002:00000524       ??_C@_0BA@BCIJMCE@?4?2HIMGFRM2D?4CPP?$AA@ 10009524     HIMGFRM2D.obj
+ 0002:00000534       ??_C@_0CN@ECKFNIBC@HImageFrame2d?3?3IHImageFrame2dImp@ 10009534     HIMGFRM2D.obj
+ 0002:00000564       ??_C@_0CM@PJIODKEF@HImageFrame2d?3?3IHImageFrame2dImp@ 10009564     HIMGFRM2D.obj
+ 0002:00000590       ??_C@_0CM@JADMOCKF@HImageFrame2d?3?3IHImageFrame2dImp@ 10009590     HIMGFRM2D.obj
+ 0002:000005bc       ??_C@_0CN@BBHEJHEL@HImageFrame2d?3?3IHImageFrame2dImp@ 100095bc     HIMGFRM2D.obj
+ 0002:000005ec       ??_C@_0CN@LBBHMHOL@HImageFrame2d?3?3IHImageFrame2dImp@ 100095ec     HIMGFRM2D.obj
+ 0002:00000620       __real@4066800000000000    10009620     HIMGFRM2D.obj
+ 0002:00000628       ??_C@_0CM@CLAPCELI@HImageFrame2d?3?3IHImageFrame2dImp@ 10009628     HIMGFRM2D.obj
+ 0002:00000658       __real@3f76c16c16c16c17    10009658     HIMGFRM2D.obj
+ 0002:00000660       ??_C@_0CM@ECLNPMFI@HImageFrame2d?3?3IHImageFrame2dImp@ 10009660     HIMGFRM2D.obj
+ 0002:0000068c       ??_C@_0CJ@JGLHJKG@HImageFrame2d?3?3IHImageFrame2dImp@ 1000968c     HIMGFRM2D.obj
+ 0002:000006b8       ??_C@_0BC@HJGGBJPB@GetVerbIDFromName?$AA@ 100096b8     HIMGFRM2D.obj
+ 0002:000006cc       ??_C@_0DF@GEEKIEEJ@HImageFrame2d?3?3IHImageFrame2dImp@ 100096cc     HIMGFRM2D.obj
+ 0002:00000704       ??_C@_0DF@BDJFGIBA@HImageFrame2d?3?3IHImageFrame2dImp@ 10009704     HIMGFRM2D.obj
+ 0002:0000073c       ??_C@_0DD@MJDOEHG@HImageFrame2d?3?3IHImageFrame2dImp@ 1000973c     HIMGFRM2D.obj
+ 0002:00000770       ??_C@_0DD@NNHHDPNO@HImageFrame2d?3?3IHImageFrame2dImp@ 10009770     HIMGFRM2D.obj
+ 0002:000007a4       ??_C@_0DH@MDIFLLCI@HImageFrame2d?3?3IHImageFrame2dImp@ 100097a4     HIMGFRM2D.obj
+ 0002:000007dc       ??_C@_0DH@BEAIELJ@HImageFrame2d?3?3IHImageFrame2dImp@ 100097dc     HIMGFRM2D.obj
+ 0002:00000814       ??_C@_0DG@OOCLMAIN@HImageFrame2d?3?3IHImageFrame2dImp@ 10009814     HIMGFRM2D.obj
+ 0002:0000084c       ??_C@_0DG@PMOLPGDB@HImageFrame2d?3?3IHImageFrame2dImp@ 1000984c     HIMGFRM2D.obj
+ 0002:00000888       __real@4059000000000000    10009888     HIMGFRM2D.obj
+ 0002:00000890       ??_C@_0CO@FHNIBHDA@HImageFrame2d?3?3IHImageFrame2dImp@ 10009890     HIMGFRM2D.obj
+ 0002:000008c0       __real@406fe00000000000    100098c0     HIMGFRM2D.obj
+ 0002:000008c8       ??_C@_0CO@IBKONHII@HImageFrame2d?3?3IHImageFrame2dImp@ 100098c8     HIMGFRM2D.obj
+ 0002:000008f8       ??_C@_0DG@GHLBJOIB@HImageFrame2d?3?3IHImageFrame2dImp@ 100098f8     HIMGFRM2D.obj
+ 0002:00000930       ??_C@_0DG@MJJKNOPN@HImageFrame2d?3?3IHImageFrame2dImp@ 10009930     HIMGFRM2D.obj
+ 0002:00000968       ??_C@_0CJ@CFANMIFG@HImageFrame2d?3?3IHImageFrame2dImp@ 10009968     HIMGFRM2D.obj
+ 0002:000009ac       ??_C@_0BA@BPPLKOAH@?4?2HIMGFRM2S?4CPP?$AA@ 100099ac     HIMGFRM2S.obj
+ 0002:000009bc       ??_C@_0CP@FNHLDPAA@HImageFrames2d?3?3IHImageFrames2dI@ 100099bc     HIMGFRM2S.obj
+ 0002:000009f0       ??_7IHelperImp@HImageFrames2d@@6B@ 100099f0     HIMGFRM2S.obj
+ 0002:00000a10       ??_7IHImageFrames2dImp@HImageFrames2d@@6B@ 10009a10     HIMGFRM2S.obj
+ 0002:00000a38       ??_7HImageFrames2d@@6B@    10009a38     HIMGFRM2S.obj
+ 0002:00000a48       __real@3fe0000000000000    10009a48     HIMGFRM2S.obj
+ 0002:00000a50       __real@3f9a027525460aa6    10009a50     HIMGFRM2S.obj
+ 0002:00000a58       __real@4052000000000000    10009a58     HIMGFRM2S.obj
+ 0002:00000a60       __real@c052000000000000    10009a60     HIMGFRM2S.obj
+ 0002:00000a68       ??_C@_0CN@CONMHLGA@HImageFrames2d?3?3IHImageFrames2dI@ 10009a68     HIMGFRM2S.obj
+ 0002:00000aa4       ??_7?$ClassFactory@VHImageFrames2d@@@@6B@ 10009aa4     SERVER.obj
+ 0002:00000ac0       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 10009ac0     SERVER.obj
+ 0002:00000ad8       ??_C@_0DF@GILPKGEF@ClassFactory?$DMclass?5HImageFrames2@ 10009ad8     SERVER.obj
+ 0002:00000b14       ??_7?$ClassFactory@VHImageFrame2d@@@@6B@ 10009b14     SERVER.obj
+ 0002:00000b30       ??_C@_0DE@DEKLEAOI@ClassFactory?$DMclass?5HImageFrame2d@ 10009b30     SERVER.obj
+ 0002:00000b70       ??_7?$ClassFactory@VHGraphic2d@@@@6B@ 10009b70     hgraf2d:server.obj
+ 0002:00000b8c       ??_C@_0DB@CIAHGMHI@ClassFactory?$DMclass?5HGraphic2d?$DO?3?3@ 10009b8c     hgraf2d:server.obj
+ 0002:00000bcc       ??_7HGraphic2d@@6B@        10009bcc     hgraf2d:hgraph2d.obj
+ 0002:00000bdc       ??_7IHelperImp@HGraphic2d@@6B@ 10009bdc     hgraf2d:hgraph2d.obj
+ 0002:00000bfc       ??_7IHGraphic2dImp@HGraphic2d@@6B@ 10009bfc     hgraf2d:hgraph2d.obj
+ 0002:00000c6c       ??_C@_0P@KDKNNBEJ@?4?2hgraph2d?4cpp?$AA@ 10009c6c     hgraf2d:hgraph2d.obj
+ 0002:00000c7c       ??_C@_0CD@KLMMMMON@HGraphic2d?3?3IHGraphic2dImp?3?3Dele@ 10009c7c     hgraf2d:hgraph2d.obj
+ 0002:00000cb8       ??_C@_0N@KHLIMKEA@?4?2CREATE?4cpp?$AA@ 10009cb8     imgfrm:CREATE.obj
+ 0002:00000cc8       ??_C@_0BE@MKCOOHDL@HCreateImageFrame2d?$AA@ 10009cc8     imgfrm:CREATE.obj
+ 0002:00000cdc       ??_C@_0BE@PAOFPBBI@HGetComputeFunction?$AA@ 10009cdc     imgfrm:CREATE.obj
+ 0002:00000cf0       ??_C@_0BH@FBAONMEK@HImgCreateJDoubleValue?$AA@ 10009cf0     imgfrm:CREATE.obj
+ 0002:00000d08       ??_C@_0BI@KEJIKAFF@HSetImageFrameParameter?$AA@ 10009d08     imgfrm:CREATE.obj
+ 0002:00000d20       ??_C@_0BG@JNEMCGDH@JImageFrame2dFunction?$AA@ 10009d20     imgfrm:CREATE.obj
+ 0002:00000d38       ??_C@_0BL@JOEFMDCM@?$CF?$DOr?$CF?$DMr?$CF?$DMr?$CF?$DMr?$CF?$DMr?$CF?$DMr?$CF?$DMr?$CF?$DMr?$CFn?$AA@ 10009d38     imgfrm:CREATE.obj
+ 0002:00000d54       ??_C@_0BP@MCOEFFJ@HCreateImageFrame2dComputeFunc?$AA@ 10009d54     imgfrm:CREATE.obj
+ 0002:00000d78       __real@c1e0000000000000    10009d78     imgfrm:CREATE.obj
+ 0002:00000d80       __real@41dfffffffc00000    10009d80     imgfrm:CREATE.obj
+ 0002:00000d88       ??_C@_0BO@JAONDNOG@HCreateImageFrameDoubleValues?$AA@ 10009d88     imgfrm:CREATE.obj
+ 0002:00000da8       ??_C@_0CH@FELACMLD@HAddImageFrameDoubleValuesAndCFu@ 10009da8     imgfrm:CREATE.obj
+ 0002:00000dd0       ??_C@_0BO@IEHCODIK@HCreateImageFrame2dByFileName?$AA@ 10009dd0     imgfrm:CREATE.obj
+ 0002:00000df4       ??_7?$ClassFactory@VHKeyPoint@@@@6B@ 10009df4     keypnt:server.obj
+ 0002:00000e10       ??_C@_0DA@MOLGGBAJ@ClassFactory?$DMclass?5HKeyPoint?$DO?3?3O@ 10009e10     keypnt:server.obj
+ 0002:00000e44       ??_7HKeyPoint@@6B@         10009e44     keypnt:hkeypnt.obj
+ 0002:00000e54       ??_7IHelperImp@HKeyPoint@@6B@ 10009e54     keypnt:hkeypnt.obj
+ 0002:00000e74       ??_7IHKeyPointImp@HKeyPoint@@6B@ 10009e74     keypnt:hkeypnt.obj
+ 0002:00000e94       ??_C@_0O@EGCIKFAL@?4?2hkeypnt?4cpp?$AA@ 10009e94     keypnt:hkeypnt.obj
+ 0002:00000ea4       ??_C@_0CM@DKFJHGLM@HKeyPoint?3?3IHKeyPointImp?3?3get_Ke@ 10009ea4     keypnt:hkeypnt.obj
+ 0002:00000ed0       ??_C@_0CG@IOEMOODC@HKeyPoint?3?3IHKeyPointImp?3?3GetKey@ 10009ed0     keypnt:hkeypnt.obj
+ 0002:00000ef8       ??_C@_0CG@IBFCDILB@HKeyPoint?3?3IHKeyPointImp?3?3SetKey@ 10009ef8     keypnt:hkeypnt.obj
+ 0002:00000f20       ??_C@_0DB@KKLAEFJB@HKeyPoint?3?3IHKeyPointImp?3?3_SetCO@ 10009f20     keypnt:hkeypnt.obj
+ 0002:00000f54       ??_C@_0CN@NCANPHIL@HKeyPoint?3?3IHKeyPointImp?3?3SetKey@ 10009f54     keypnt:hkeypnt.obj
+ 0002:00000f84       _IID_IClassFactory         10009f84     uuid:unknwn_i.obj
+ 0002:00000f94       _IID_IUnknown              10009f94     uuid:unknwn_i.obj
+ 0002:00000fa4       _IID_IOleObject            10009fa4     uuid:oleidl_i.obj
+ 0002:00000fb4       _IID_IDispatch             10009fb4     uuid:oaidl_i.obj
+ 0002:00000fc8       ??_7type_info@@6B@         10009fc8     MSVCRT:ti_inst.obj
+ 0002:00000fcc       __pDefaultRawDllMain       10009fcc     MSVCRT:crtdll.obj
+ 0002:00000fcc       __pRawDllMain              10009fcc     MSVCRT:crtdll.obj
+ 0002:00000fd8       __load_config_used         10009fd8     MSVCRT:loadcfg.obj
+ 0002:00001054       ??_R4HImageFrame2d@@6B@    1000a054     HIMGFRM2D.obj
+ 0002:00001068       ??_R3HImageFrame2d@@8      1000a068     HIMGFRM2D.obj
+ 0002:00001078       ??_R2HImageFrame2d@@8      1000a078     HIMGFRM2D.obj
+ 0002:00001084       ??_R1A@?0A@EA@HImageFrame2d@@8 1000a084     HIMGFRM2D.obj
+ 0002:000010a0       ??_R1A@?0A@EA@IUnknown@@8  1000a0a0     HIMGFRM2D.obj
+ 0002:000010bc       ??_R3IUnknown@@8           1000a0bc     HIMGFRM2D.obj
+ 0002:000010cc       ??_R2IUnknown@@8           1000a0cc     HIMGFRM2D.obj
+ 0002:000010d4       ??_R4IHelperImp@HImageFrame2d@@6B@ 1000a0d4     HIMGFRM2D.obj
+ 0002:000010e8       ??_R3IHelperImp@HImageFrame2d@@8 1000a0e8     HIMGFRM2D.obj
+ 0002:000010f8       ??_R2IHelperImp@HImageFrame2d@@8 1000a0f8     HIMGFRM2D.obj
+ 0002:00001108       ??_R1A@?0A@EA@IHelperImp@HImageFrame2d@@8 1000a108     HIMGFRM2D.obj
+ 0002:00001124       ??_R1A@?0A@EA@IHelper@@8   1000a124     HIMGFRM2D.obj
+ 0002:00001140       ??_R3IHelper@@8            1000a140     HIMGFRM2D.obj
+ 0002:00001150       ??_R2IHelper@@8            1000a150     HIMGFRM2D.obj
+ 0002:0000115c       ??_R4IHImageFrame2dImp@HImageFrame2d@@6B@ 1000a15c     HIMGFRM2D.obj
+ 0002:00001170       ??_R3IHImageFrame2dImp@HImageFrame2d@@8 1000a170     HIMGFRM2D.obj
+ 0002:00001180       ??_R2IHImageFrame2dImp@HImageFrame2d@@8 1000a180     HIMGFRM2D.obj
+ 0002:00001190       ??_R1A@?0A@EA@IHImageFrame2dImp@HImageFrame2d@@8 1000a190     HIMGFRM2D.obj
+ 0002:000011ac       ??_R1A@?0A@EA@_IHImageFrame2d@@8 1000a1ac     HIMGFRM2D.obj
+ 0002:000011c8       ??_R3_IHImageFrame2d@@8    1000a1c8     HIMGFRM2D.obj
+ 0002:000011d8       ??_R2_IHImageFrame2d@@8    1000a1d8     HIMGFRM2D.obj
+ 0002:000011e4       ??_R4IHelperImp@HImageFrames2d@@6B@ 1000a1e4     HIMGFRM2S.obj
+ 0002:000011f8       ??_R3IHelperImp@HImageFrames2d@@8 1000a1f8     HIMGFRM2S.obj
+ 0002:00001208       ??_R2IHelperImp@HImageFrames2d@@8 1000a208     HIMGFRM2S.obj
+ 0002:00001218       ??_R1A@?0A@EA@IHelperImp@HImageFrames2d@@8 1000a218     HIMGFRM2S.obj
+ 0002:00001234       ??_R4IHImageFrames2dImp@HImageFrames2d@@6B@ 1000a234     HIMGFRM2S.obj
+ 0002:00001248       ??_R3IHImageFrames2dImp@HImageFrames2d@@8 1000a248     HIMGFRM2S.obj
+ 0002:00001258       ??_R2IHImageFrames2dImp@HImageFrames2d@@8 1000a258     HIMGFRM2S.obj
+ 0002:00001268       ??_R1A@?0A@EA@IHImageFrames2dImp@HImageFrames2d@@8 1000a268     HIMGFRM2S.obj
+ 0002:00001284       ??_R1A@?0A@EA@_IHImageFrames2d@@8 1000a284     HIMGFRM2S.obj
+ 0002:000012a0       ??_R3_IHImageFrames2d@@8   1000a2a0     HIMGFRM2S.obj
+ 0002:000012b0       ??_R2_IHImageFrames2d@@8   1000a2b0     HIMGFRM2S.obj
+ 0002:000012bc       ??_R4HImageFrames2d@@6B@   1000a2bc     HIMGFRM2S.obj
+ 0002:000012d0       ??_R3HImageFrames2d@@8     1000a2d0     HIMGFRM2S.obj
+ 0002:000012e0       ??_R2HImageFrames2d@@8     1000a2e0     HIMGFRM2S.obj
+ 0002:000012ec       ??_R1A@?0A@EA@HImageFrames2d@@8 1000a2ec     HIMGFRM2S.obj
+ 0002:00001308       ??_R4?$ClassFactory@VHImageFrames2d@@@@6B@ 1000a308     SERVER.obj
+ 0002:0000131c       ??_R3?$ClassFactory@VHImageFrames2d@@@@8 1000a31c     SERVER.obj
+ 0002:0000132c       ??_R2?$ClassFactory@VHImageFrames2d@@@@8 1000a32c     SERVER.obj
+ 0002:00001340       ??_R1A@?0A@EA@?$ClassFactory@VHImageFrames2d@@@@8 1000a340     SERVER.obj
+ 0002:0000135c       ??_R1A@?0A@EA@JClassFactory@@8 1000a35c     SERVER.obj
+ 0002:00001378       ??_R3JClassFactory@@8      1000a378     SERVER.obj
+ 0002:00001388       ??_R2JClassFactory@@8      1000a388     SERVER.obj
+ 0002:00001398       ??_R1A@?0A@EA@IClassFactory@@8 1000a398     SERVER.obj
+ 0002:000013b4       ??_R3IClassFactory@@8      1000a3b4     SERVER.obj
+ 0002:000013c4       ??_R2IClassFactory@@8      1000a3c4     SERVER.obj
+ 0002:000013d0       ??_R4?$ClassFactory@VHImageFrame2d@@@@6B@ 1000a3d0     SERVER.obj
+ 0002:000013e4       ??_R3?$ClassFactory@VHImageFrame2d@@@@8 1000a3e4     SERVER.obj
+ 0002:000013f4       ??_R2?$ClassFactory@VHImageFrame2d@@@@8 1000a3f4     SERVER.obj
+ 0002:00001408       ??_R1A@?0A@EA@?$ClassFactory@VHImageFrame2d@@@@8 1000a408     SERVER.obj
+ 0002:00001424       ??_R4?$ClassFactory@VHGraphic2d@@@@6B@ 1000a424     hgraf2d:server.obj
+ 0002:00001438       ??_R3?$ClassFactory@VHGraphic2d@@@@8 1000a438     hgraf2d:server.obj
+ 0002:00001448       ??_R2?$ClassFactory@VHGraphic2d@@@@8 1000a448     hgraf2d:server.obj
+ 0002:0000145c       ??_R1A@?0A@EA@?$ClassFactory@VHGraphic2d@@@@8 1000a45c     hgraf2d:server.obj
+ 0002:00001478       ??_R3_IHGraphic2d@@8       1000a478     hgraf2d:hgraph2d.obj
+ 0002:00001488       ??_R2_IHGraphic2d@@8       1000a488     hgraf2d:hgraph2d.obj
+ 0002:00001494       ??_R1A@?0A@EA@_IHGraphic2d@@8 1000a494     hgraf2d:hgraph2d.obj
+ 0002:000014b0       ??_R4HGraphic2d@@6B@       1000a4b0     hgraf2d:hgraph2d.obj
+ 0002:000014c4       ??_R3HGraphic2d@@8         1000a4c4     hgraf2d:hgraph2d.obj
+ 0002:000014d4       ??_R2HGraphic2d@@8         1000a4d4     hgraf2d:hgraph2d.obj
+ 0002:000014e0       ??_R1A@?0A@EA@HGraphic2d@@8 1000a4e0     hgraf2d:hgraph2d.obj
+ 0002:000014fc       ??_R4IHelperImp@HGraphic2d@@6B@ 1000a4fc     hgraf2d:hgraph2d.obj
+ 0002:00001510       ??_R3IHelperImp@HGraphic2d@@8 1000a510     hgraf2d:hgraph2d.obj
+ 0002:00001520       ??_R2IHelperImp@HGraphic2d@@8 1000a520     hgraf2d:hgraph2d.obj
+ 0002:00001530       ??_R1A@?0A@EA@IHelperImp@HGraphic2d@@8 1000a530     hgraf2d:hgraph2d.obj
+ 0002:0000154c       ??_R4IHGraphic2dImp@HGraphic2d@@6B@ 1000a54c     hgraf2d:hgraph2d.obj
+ 0002:00001560       ??_R3IHGraphic2dImp@HGraphic2d@@8 1000a560     hgraf2d:hgraph2d.obj
+ 0002:00001570       ??_R2IHGraphic2dImp@HGraphic2d@@8 1000a570     hgraf2d:hgraph2d.obj
+ 0002:00001580       ??_R1A@?0A@EA@IHGraphic2dImp@HGraphic2d@@8 1000a580     hgraf2d:hgraph2d.obj
+ 0002:0000159c       ??_R4?$ClassFactory@VHKeyPoint@@@@6B@ 1000a59c     keypnt:server.obj
+ 0002:000015b0       ??_R3?$ClassFactory@VHKeyPoint@@@@8 1000a5b0     keypnt:server.obj
+ 0002:000015c0       ??_R2?$ClassFactory@VHKeyPoint@@@@8 1000a5c0     keypnt:server.obj
+ 0002:000015d4       ??_R1A@?0A@EA@?$ClassFactory@VHKeyPoint@@@@8 1000a5d4     keypnt:server.obj
+ 0002:000015f0       ??_R3_IHKeyPoint@@8        1000a5f0     keypnt:hkeypnt.obj
+ 0002:00001600       ??_R2_IHKeyPoint@@8        1000a600     keypnt:hkeypnt.obj
+ 0002:0000160c       ??_R1A@?0A@EA@_IHKeyPoint@@8 1000a60c     keypnt:hkeypnt.obj
+ 0002:00001628       ??_R4HKeyPoint@@6B@        1000a628     keypnt:hkeypnt.obj
+ 0002:0000163c       ??_R3HKeyPoint@@8          1000a63c     keypnt:hkeypnt.obj
+ 0002:0000164c       ??_R2HKeyPoint@@8          1000a64c     keypnt:hkeypnt.obj
+ 0002:00001658       ??_R1A@?0A@EA@HKeyPoint@@8 1000a658     keypnt:hkeypnt.obj
+ 0002:00001674       ??_R4IHelperImp@HKeyPoint@@6B@ 1000a674     keypnt:hkeypnt.obj
+ 0002:00001688       ??_R3IHelperImp@HKeyPoint@@8 1000a688     keypnt:hkeypnt.obj
+ 0002:00001698       ??_R2IHelperImp@HKeyPoint@@8 1000a698     keypnt:hkeypnt.obj
+ 0002:000016a8       ??_R1A@?0A@EA@IHelperImp@HKeyPoint@@8 1000a6a8     keypnt:hkeypnt.obj
+ 0002:000016c4       ??_R4IHKeyPointImp@HKeyPoint@@6B@ 1000a6c4     keypnt:hkeypnt.obj
+ 0002:000016d8       ??_R3IHKeyPointImp@HKeyPoint@@8 1000a6d8     keypnt:hkeypnt.obj
+ 0002:000016e8       ??_R2IHKeyPointImp@HKeyPoint@@8 1000a6e8     keypnt:hkeypnt.obj
+ 0002:000016f8       ??_R1A@?0A@EA@IHKeyPointImp@HKeyPoint@@8 1000a6f8     keypnt:hkeypnt.obj
+ 0002:00001714       ??_R4type_info@@6B@        1000a714     MSVCRT:ti_inst.obj
+ 0002:00001728       ??_R3type_info@@8          1000a728     MSVCRT:ti_inst.obj
+ 0002:00001738       ??_R2type_info@@8          1000a738     MSVCRT:ti_inst.obj
+ 0002:00001740       ??_R1A@?0A@EA@type_info@@8 1000a740     MSVCRT:ti_inst.obj
+ 0002:00001760       ___safe_se_handler_table   1000a760     <linker-defined>
+ 0002:00001810       ___rtc_iaa                 1000a810     MSVCRT:initsect.obj
+ 0002:00001814       ___rtc_izz                 1000a814     MSVCRT:initsect.obj
+ 0002:00001818       ___rtc_taa                 1000a818     MSVCRT:initsect.obj
+ 0002:0000181c       ___rtc_tzz                 1000a81c     MSVCRT:initsect.obj
+ 0002:0000216c       __IMPORT_DESCRIPTOR_Daxutil 1000b16c     daxutil:Daxutil.dll
+ 0002:00002180       __IMPORT_DESCRIPTOR_GEOM2DSVC 1000b180     geom2d:GEOM2DSVC.dll
+ 0002:00002194       __IMPORT_DESCRIPTOR_hslvr  1000b194     hslvr:hslvr.dll
+ 0002:000021a8       __IMPORT_DESCRIPTOR_jengine 1000b1a8     jengine:jengine.dll
+ 0002:000021bc       __IMPORT_DESCRIPTOR_JUtil  1000b1bc     jutil:JUtil.dll
+ 0002:000021d0       __IMPORT_DESCRIPTOR_shlyhp 1000b1d0     shlyhp:shlyhp.dll
+ 0002:000021e4       __IMPORT_DESCRIPTOR_ugeom2d 1000b1e4     ugeom2d:ugeom2d.dll
+ 0002:000021f8       __IMPORT_DESCRIPTOR_umath  1000b1f8     umath:umath.dll
+ 0002:0000220c       __IMPORT_DESCRIPTOR_Visual 1000b20c     visual:Visual.dll
+ 0002:00002220       __IMPORT_DESCRIPTOR_USER32 1000b220     user32:USER32.dll
+ 0002:00002234       __IMPORT_DESCRIPTOR_OLEAUT32 1000b234     oleaut32:OLEAUT32.dll
+ 0002:00002248       __IMPORT_DESCRIPTOR_MSVCR80 1000b248     MSVCRT:MSVCR80.dll
+ 0002:0000225c       __IMPORT_DESCRIPTOR_KERNEL32 1000b25c     kernel32:KERNEL32.dll
+ 0002:00002270       __NULL_IMPORT_DESCRIPTOR   1000b270     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  1000c000     newmode.obj
+ 0003:00001448       ??_R0?AVHImageFrame2d@@@8  1000d448     HIMGFRM2D.obj
+ 0003:00001464       ??_R0?AUIUnknown@@@8       1000d464     HIMGFRM2D.obj
+ 0003:0000147c       ??_R0?AUIHelperImp@HImageFrame2d@@@8 1000d47c     HIMGFRM2D.obj
+ 0003:000014a4       ??_R0?AUIHelper@@@8        1000d4a4     HIMGFRM2D.obj
+ 0003:000014bc       ??_R0?AUIHImageFrame2dImp@HImageFrame2d@@@8 1000d4bc     HIMGFRM2D.obj
+ 0003:000014ec       ??_R0?AU_IHImageFrame2d@@@8 1000d4ec     HIMGFRM2D.obj
+ 0003:00001f30       ??_R0?AUIHelperImp@HImageFrames2d@@@8 1000df30     HIMGFRM2S.obj
+ 0003:00001f58       ??_R0?AUIHImageFrames2dImp@HImageFrames2d@@@8 1000df58     HIMGFRM2S.obj
+ 0003:00001f88       ??_R0?AU_IHImageFrames2d@@@8 1000df88     HIMGFRM2S.obj
+ 0003:00001fa8       ??_R0?AVHImageFrames2d@@@8 1000dfa8     HIMGFRM2S.obj
+ 0003:000029e8       ??_R0?AV?$ClassFactory@VHImageFrames2d@@@@@8 1000e9e8     SERVER.obj
+ 0003:00002a18       ??_R0?AVJClassFactory@@@8  1000ea18     SERVER.obj
+ 0003:00002a34       ??_R0?AUIClassFactory@@@8  1000ea34     SERVER.obj
+ 0003:00002a50       ??_R0?AV?$ClassFactory@VHImageFrame2d@@@@@8 1000ea50     SERVER.obj
+ 0003:000034a0       ??_R0?AV?$ClassFactory@VHGraphic2d@@@@@8 1000f4a0     hgraf2d:server.obj
+ 0003:00003ef0       ??_R0?AU_IHGraphic2d@@@8   1000fef0     hgraf2d:hgraph2d.obj
+ 0003:00003f0c       ??_R0?AVHGraphic2d@@@8     1000ff0c     hgraf2d:hgraph2d.obj
+ 0003:00003f28       ??_R0?AUIHelperImp@HGraphic2d@@@8 1000ff28     hgraf2d:hgraph2d.obj
+ 0003:00003f4c       ??_R0?AUIHGraphic2dImp@HGraphic2d@@@8 1000ff4c     hgraf2d:hgraph2d.obj
+ 0003:0000499c       ??_R0?AV?$ClassFactory@VHKeyPoint@@@@@8 1001099c     keypnt:server.obj
+ 0003:000049d0       ??_R0?AU_IHKeyPoint@@@8    100109d0     keypnt:hkeypnt.obj
+ 0003:000049ec       ??_R0?AVHKeyPoint@@@8      100109ec     keypnt:hkeypnt.obj
+ 0003:00004a04       ??_R0?AUIHelperImp@HKeyPoint@@@8 10010a04     keypnt:hkeypnt.obj
+ 0003:00004a28       ??_R0?AUIHKeyPointImp@HKeyPoint@@@8 10010a28     keypnt:hkeypnt.obj
+ 0003:00004a50       ??_R0?AVtype_info@@@8      10010a50     MSVCRT:ti_inst.obj
+ 0003:00004a68       ___security_cookie         10010a68     MSVCRT:gs_cookie.obj
+ 0003:00004a6c       ___security_cookie_complement 10010a6c     MSVCRT:gs_cookie.obj
+ 0003:00004a70       ___native_dllmain_reason   10010a70     MSVCRT:natstart.obj
+ 0003:00004a74       ___native_vcclrit_reason   10010a74     MSVCRT:natstart.obj
+ 0003:00005ccc       ?__type_info_root_node@@3U__type_info_node@@A 10011ccc     MSVCRT:tncleanup.obj
+ 0003:00005cd4       __adjust_fdiv              10011cd4     <common>
+ 0003:00005cd8       ___native_startup_state    10011cd8     <common>
+ 0003:00005cdc       ___native_startup_lock     10011cdc     <common>
+ 0003:00005ce0       ___onexitend               10011ce0     <common>
+ 0003:00005ce4       ___onexitbegin             10011ce4     <common>
+ 0003:00005ce8       ___sse2_available          10011ce8     <common>
+ 0003:00005cec       ___dyn_tls_init_callback   10011cec     <common>
+
+ entry point at        0001:000060fd
+
+ Static symbols
+
+ 0001:00003b50       ?HGetComputeFunction@@YAJPAUIUnknown@@PAPAUIJComputeCFunction@@@Z 10004b50 f   imgfrm:CREATE.obj
+ 0001:00003d80       ?HImgCreateJDoubleValue@@YAJPAUIUnknown@@NGNENIPAPAU1@@Z 10004d80 f   imgfrm:CREATE.obj
+ 0001:00004110       ?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z 10005110 f   imgfrm:CREATE.obj
+ 0001:00005dfb       _pre_c_init                10006dfb f   MSVCRT:crtdll.obj
+ 0001:00005fe7       ___DllMainCRTStartup       10006fe7 f   MSVCRT:crtdll.obj
+ 0001:000062e9       _has_osfxsr_set            100072e9 f   MSVCRT:cpu_disp.obj
+ 0001:00006790       __unwindfunclet$?get_IsLink@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z$2 10007790 f   HIMGFRM2D.obj
+ 0001:00006798       __ehhandler$?get_IsLink@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10007798 f   HIMGFRM2D.obj
+ 0001:000067c0       __unwindfunclet$?get_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z$2 100077c0 f   HIMGFRM2D.obj
+ 0001:000067c8       __ehhandler$?get_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 100077c8 f   HIMGFRM2D.obj
+ 0001:000067f0       __unwindfunclet$?put_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z$5 100077f0 f   HIMGFRM2D.obj
+ 0001:000067f8       __ehhandler$?put_Width@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 100077f8 f   HIMGFRM2D.obj
+ 0001:00006820       __unwindfunclet$?get_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z$2 10007820 f   HIMGFRM2D.obj
+ 0001:00006828       __ehhandler$?get_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 10007828 f   HIMGFRM2D.obj
+ 0001:00006850       __unwindfunclet$?put_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z$5 10007850 f   HIMGFRM2D.obj
+ 0001:00006858       __ehhandler$?put_Height@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 10007858 f   HIMGFRM2D.obj
+ 0001:00006880       __unwindfunclet$?get_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z$2 10007880 f   HIMGFRM2D.obj
+ 0001:00006888       __ehhandler$?get_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJPAN@Z 10007888 f   HIMGFRM2D.obj
+ 0001:000068b0       __unwindfunclet$?put_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z$5 100078b0 f   HIMGFRM2D.obj
+ 0001:000068b8       __ehhandler$?put_Angle@IHImageFrame2dImp@HImageFrame2d@@UAGJN@Z 100078b8 f   HIMGFRM2D.obj
+ 0001:000068e0       __unwindfunclet$?Update@IHImageFrame2dImp@HImageFrame2d@@UAGJXZ$3 100078e0 f   HIMGFRM2D.obj
+ 0001:000068e8       __ehhandler$?Update@IHImageFrame2dImp@HImageFrame2d@@UAGJXZ 100078e8 f   HIMGFRM2D.obj
+ 0001:00006910       __unwindfunclet$?GetVerbIDFromName@@YAJPAUIUnknown@@PA_WPAJ@Z$4 10007910 f   HIMGFRM2D.obj
+ 0001:00006918       __unwindfunclet$?GetVerbIDFromName@@YAJPAUIUnknown@@PA_WPAJ@Z$5 10007918 f   HIMGFRM2D.obj
+ 0001:00006920       __unwindfunclet$?GetVerbIDFromName@@YAJPAUIUnknown@@PA_WPAJ@Z$6 10007920 f   HIMGFRM2D.obj
+ 0001:00006928       __ehhandler$?GetVerbIDFromName@@YAJPAUIUnknown@@PA_WPAJ@Z 10007928 f   HIMGFRM2D.obj
+ 0001:00006950       __unwindfunclet$?put_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z$2 10007950 f   HIMGFRM2D.obj
+ 0001:00006958       __ehhandler$?put_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10007958 f   HIMGFRM2D.obj
+ 0001:00006980       __unwindfunclet$?get_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z$2 10007980 f   HIMGFRM2D.obj
+ 0001:00006988       __ehhandler$?get_FlipHorizontal@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10007988 f   HIMGFRM2D.obj
+ 0001:000069b0       __unwindfunclet$?put_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z$2 100079b0 f   HIMGFRM2D.obj
+ 0001:000069b8       __ehhandler$?put_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 100079b8 f   HIMGFRM2D.obj
+ 0001:000069e0       __unwindfunclet$?get_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z$2 100079e0 f   HIMGFRM2D.obj
+ 0001:000069e8       __ehhandler$?get_FlipVertical@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 100079e8 f   HIMGFRM2D.obj
+ 0001:00006a10       __unwindfunclet$?put_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z$2 10007a10 f   HIMGFRM2D.obj
+ 0001:00006a18       __ehhandler$?put_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10007a18 f   HIMGFRM2D.obj
+ 0001:00006a40       __unwindfunclet$?get_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z$2 10007a40 f   HIMGFRM2D.obj
+ 0001:00006a48       __ehhandler$?get_ResetAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10007a48 f   HIMGFRM2D.obj
+ 0001:00006a70       __unwindfunclet$?put_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z$2 10007a70 f   HIMGFRM2D.obj
+ 0001:00006a78       __ehhandler$?put_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJF@Z 10007a78 f   HIMGFRM2D.obj
+ 0001:00006aa0       __unwindfunclet$?get_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z$2 10007aa0 f   HIMGFRM2D.obj
+ 0001:00006aa8       __ehhandler$?get_LockAspectRatio@IHImageFrame2dImp@HImageFrame2d@@UAGJPAF@Z 10007aa8 f   HIMGFRM2D.obj
+ 0001:00006ad0       __unwindfunclet$?put_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJH@Z$2 10007ad0 f   HIMGFRM2D.obj
+ 0001:00006ad8       __ehhandler$?put_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJH@Z 10007ad8 f   HIMGFRM2D.obj
+ 0001:00006b00       __unwindfunclet$?get_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJPAH@Z$2 10007b00 f   HIMGFRM2D.obj
+ 0001:00006b08       __ehhandler$?get_Opacity@IHImageFrame2dImp@HImageFrame2d@@UAGJPAH@Z 10007b08 f   HIMGFRM2D.obj
+ 0001:00006b30       __unwindfunclet$?SetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJMMM@Z$2 10007b30 f   HIMGFRM2D.obj
+ 0001:00006b38       __ehhandler$?SetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJMMM@Z 10007b38 f   HIMGFRM2D.obj
+ 0001:00006b60       __unwindfunclet$?GetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJPAM00@Z$2 10007b60 f   HIMGFRM2D.obj
+ 0001:00006b68       __ehhandler$?GetTransparentColor@IHImageFrame2dImp@HImageFrame2d@@UAGJPAM00@Z 10007b68 f   HIMGFRM2D.obj
+ 0001:00006b90       __unwindfunclet$?DoVerb@IHImageFrame2dImp@HImageFrame2d@@UAGJUtagVARIANT@@@Z$10 10007b90 f   HIMGFRM2D.obj
+ 0001:00006b98       __unwindfunclet$?DoVerb@IHImageFrame2dImp@HImageFrame2d@@UAGJUtagVARIANT@@@Z$11 10007b98 f   HIMGFRM2D.obj
+ 0001:00006ba0       __ehhandler$?DoVerb@IHImageFrame2dImp@HImageFrame2d@@UAGJUtagVARIANT@@@Z 10007ba0 f   HIMGFRM2D.obj
+ 0001:00006bc0       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$19 10007bc0 f   HIMGFRM2S.obj
+ 0001:00006bcb       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$20 10007bcb f   HIMGFRM2S.obj
+ 0001:00006bd6       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$21 10007bd6 f   HIMGFRM2S.obj
+ 0001:00006be1       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$22 10007be1 f   HIMGFRM2S.obj
+ 0001:00006bec       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$23 10007bec f   HIMGFRM2S.obj
+ 0001:00006bf7       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$24 10007bf7 f   HIMGFRM2S.obj
+ 0001:00006c03       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$25 10007c03 f   HIMGFRM2S.obj
+ 0001:00006c0e       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$26 10007c0e f   HIMGFRM2S.obj
+ 0001:00006c1a       __unwindfunclet$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z$27 10007c1a f   HIMGFRM2S.obj
+ 0001:00006c26       __ehhandler$?AddImage@IHImageFrames2dImp@HImageFrames2d@@UAGJHPA_WPAPAUIUnknown@@@Z 10007c26 f   HIMGFRM2S.obj
+ 0001:00006c50       __unwindfunclet$??0?$ClassFactory@VHImageFrames2d@@@@QAE@HHH@Z$0 10007c50 f   SERVER.obj
+ 0001:00006c59       __ehhandler$??0?$ClassFactory@VHImageFrames2d@@@@QAE@HHH@Z 10007c59 f   SERVER.obj
+ 0001:00006c80       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHImageFrames2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007c80 f   SERVER.obj
+ 0001:00006c8b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHImageFrames2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10007c8b f   SERVER.obj
+ 0001:00006cb0       __unwindfunclet$??0?$ClassFactory@VHImageFrame2d@@@@QAE@HHH@Z$0 10007cb0 f   SERVER.obj
+ 0001:00006cb9       __ehhandler$??0?$ClassFactory@VHImageFrame2d@@@@QAE@HHH@Z 10007cb9 f   SERVER.obj
+ 0001:00006ce0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHImageFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007ce0 f   SERVER.obj
+ 0001:00006ceb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHImageFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10007ceb f   SERVER.obj
+ 0001:00006d10       __unwindfunclet$_DllGetClassObject@12$0 10007d10 f   SERVER.obj
+ 0001:00006d1b       __unwindfunclet$_DllGetClassObject@12$1 10007d1b f   SERVER.obj
+ 0001:00006d26       __ehhandler$_DllGetClassObject@12 10007d26 f   SERVER.obj
+ 0001:00006d50       __unwindfunclet$??_G?$ClassFactory@VHImageFrames2d@@@@UAEPAXI@Z$0 10007d50 f   SERVER.obj
+ 0001:00006d59       __ehhandler$??_G?$ClassFactory@VHImageFrames2d@@@@UAEPAXI@Z 10007d59 f   SERVER.obj
+ 0001:00006d80       __unwindfunclet$??_G?$ClassFactory@VHImageFrame2d@@@@UAEPAXI@Z$0 10007d80 f   SERVER.obj
+ 0001:00006d89       __ehhandler$??_G?$ClassFactory@VHImageFrame2d@@@@UAEPAXI@Z 10007d89 f   SERVER.obj
+ 0001:00006db0       __unwindfunclet$??0?$ClassFactory@VHGraphic2d@@@@QAE@HHH@Z$0 10007db0 f   hgraf2d:server.obj
+ 0001:00006db9       __ehhandler$??0?$ClassFactory@VHGraphic2d@@@@QAE@HHH@Z 10007db9 f   hgraf2d:server.obj
+ 0001:00006de0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHGraphic2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007de0 f   hgraf2d:server.obj
+ 0001:00006deb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHGraphic2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10007deb f   hgraf2d:server.obj
+ 0001:00006e10       __unwindfunclet$_HGraph2dGetClassObject@12$0 10007e10 f   hgraf2d:server.obj
+ 0001:00006e1b       __ehhandler$_HGraph2dGetClassObject@12 10007e1b f   hgraf2d:server.obj
+ 0001:00006e40       __unwindfunclet$??_G?$ClassFactory@VHGraphic2d@@@@UAEPAXI@Z$0 10007e40 f   hgraf2d:server.obj
+ 0001:00006e49       __ehhandler$??_G?$ClassFactory@VHGraphic2d@@@@UAEPAXI@Z 10007e49 f   hgraf2d:server.obj
+ 0001:00006e70       __unwindfunclet$?HGetComputeFunction@@YAJPAUIUnknown@@PAPAUIJComputeCFunction@@@Z$8 10007e70 f   imgfrm:CREATE.obj
+ 0001:00006e78       __unwindfunclet$?HGetComputeFunction@@YAJPAUIUnknown@@PAPAUIJComputeCFunction@@@Z$9 10007e78 f   imgfrm:CREATE.obj
+ 0001:00006e80       __unwindfunclet$?HGetComputeFunction@@YAJPAUIUnknown@@PAPAUIJComputeCFunction@@@Z$10 10007e80 f   imgfrm:CREATE.obj
+ 0001:00006e88       __ehhandler$?HGetComputeFunction@@YAJPAUIUnknown@@PAPAUIJComputeCFunction@@@Z 10007e88 f   imgfrm:CREATE.obj
+ 0001:00006eb0       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$12 10007eb0 f   imgfrm:CREATE.obj
+ 0001:00006eb8       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$13 10007eb8 f   imgfrm:CREATE.obj
+ 0001:00006ec0       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$14 10007ec0 f   imgfrm:CREATE.obj
+ 0001:00006ec8       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$15 10007ec8 f   imgfrm:CREATE.obj
+ 0001:00006ed0       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$16 10007ed0 f   imgfrm:CREATE.obj
+ 0001:00006ed8       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$17 10007ed8 f   imgfrm:CREATE.obj
+ 0001:00006ee0       __unwindfunclet$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z$18 10007ee0 f   imgfrm:CREATE.obj
+ 0001:00006ee8       __ehhandler$?HCreateImageFrame2dComputeFunc@@YAJPAUIUnknown@@000@Z 10007ee8 f   imgfrm:CREATE.obj
+ 0001:00006f10       __unwindfunclet$?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z$12 10007f10 f   imgfrm:CREATE.obj
+ 0001:00006f18       __unwindfunclet$?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z$13 10007f18 f   imgfrm:CREATE.obj
+ 0001:00006f20       __unwindfunclet$?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z$14 10007f20 f   imgfrm:CREATE.obj
+ 0001:00006f28       __unwindfunclet$?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z$15 10007f28 f   imgfrm:CREATE.obj
+ 0001:00006f30       __ehhandler$?HCreateImageFrameDoubleValues@@YAJPAUIUnknown@@NNNG@Z 10007f30 f   imgfrm:CREATE.obj
+ 0001:00006f50       __unwindfunclet$?HAddImageFrameDoubleValuesAndCFunction@@YAJPAUIUnknown@@@Z$4 10007f50 f   imgfrm:CREATE.obj
+ 0001:00006f5b       __unwindfunclet$?HAddImageFrameDoubleValuesAndCFunction@@YAJPAUIUnknown@@@Z$5 10007f5b f   imgfrm:CREATE.obj
+ 0001:00006f67       __ehhandler$?HAddImageFrameDoubleValuesAndCFunction@@YAJPAUIUnknown@@@Z 10007f67 f   imgfrm:CREATE.obj
+ 0001:00006f90       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$32 10007f90 f   imgfrm:CREATE.obj
+ 0001:00006f99       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$33 10007f99 f   imgfrm:CREATE.obj
+ 0001:00006fa4       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$34 10007fa4 f   imgfrm:CREATE.obj
+ 0001:00006faf       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$35 10007faf f   imgfrm:CREATE.obj
+ 0001:00006fba       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$36 10007fba f   imgfrm:CREATE.obj
+ 0001:00006fc5       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$37 10007fc5 f   imgfrm:CREATE.obj
+ 0001:00006fd0       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$38 10007fd0 f   imgfrm:CREATE.obj
+ 0001:00006fdb       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$39 10007fdb f   imgfrm:CREATE.obj
+ 0001:00006fe7       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$40 10007fe7 f   imgfrm:CREATE.obj
+ 0001:00006ff2       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$41 10007ff2 f   imgfrm:CREATE.obj
+ 0001:00006ffd       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$42 10007ffd f   imgfrm:CREATE.obj
+ 0001:00007008       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$43 10008008 f   imgfrm:CREATE.obj
+ 0001:00007014       __unwindfunclet$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z$44 10008014 f   imgfrm:CREATE.obj
+ 0001:00007020       __ehhandler$?HCreateImageFrame2dByFileName@@YAJPAUIJView@@PAUIJGraphicView@@VGUserText@@HPAPAUIJImageFrame2d@@HPAUtagGPosition@@@Z 10008020 f   imgfrm:CREATE.obj
+ 0001:00007050       __unwindfunclet$??0?$ClassFactory@VHKeyPoint@@@@QAE@HHH@Z$0 10008050 f   keypnt:server.obj
+ 0001:00007059       __ehhandler$??0?$ClassFactory@VHKeyPoint@@@@QAE@HHH@Z 10008059 f   keypnt:server.obj
+ 0001:00007080       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHKeyPoint@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10008080 f   keypnt:server.obj
+ 0001:0000708b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHKeyPoint@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000808b f   keypnt:server.obj
+ 0001:000070b0       __unwindfunclet$_KeyPointGetClassObject@12$0 100080b0 f   keypnt:server.obj
+ 0001:000070bb       __ehhandler$_KeyPointGetClassObject@12 100080bb f   keypnt:server.obj
+ 0001:000070e0       __unwindfunclet$??_G?$ClassFactory@VHKeyPoint@@@@UAEPAXI@Z$0 100080e0 f   keypnt:server.obj
+ 0001:000070e9       __ehhandler$??_G?$ClassFactory@VHKeyPoint@@@@UAEPAXI@Z 100080e9 f   keypnt:server.obj
+ 0001:00007110       ??__EGNULL_Camera@@YAXXZ   10008110 f   GUID.obj
+ 0001:00007130       ??__EGNULL_CAMERA@@YAXXZ   10008130 f   GUID.obj
+ 0001:00007150       ??__EGID_Camera@@YAXXZ     10008150 f   GUID.obj
+ 0001:00007170       ??__EGID_CAMERA@@YAXXZ     10008170 f   GUID.obj
+ 0001:00007190       ??__EGNULL_Camera@@YAXXZ   10008190 f   HIMGFRM2D.obj
+ 0001:000071b0       ??__EGNULL_CAMERA@@YAXXZ   100081b0 f   HIMGFRM2D.obj
+ 0001:000071d0       ??__EGID_Camera@@YAXXZ     100081d0 f   HIMGFRM2D.obj
+ 0001:000071f0       ??__EGID_CAMERA@@YAXXZ     100081f0 f   HIMGFRM2D.obj
+ 0001:00007210       ??__EGNULL_Camera@@YAXXZ   10008210 f   HIMGFRM2S.obj
+ 0001:00007230       ??__EGNULL_CAMERA@@YAXXZ   10008230 f   HIMGFRM2S.obj
+ 0001:00007250       ??__EGID_Camera@@YAXXZ     10008250 f   HIMGFRM2S.obj
+ 0001:00007270       ??__EGID_CAMERA@@YAXXZ     10008270 f   HIMGFRM2S.obj
+ 0001:00007290       ??__EGNULL_Camera@@YAXXZ   10008290 f   SERVER.obj
+ 0001:000072b0       ??__EGNULL_CAMERA@@YAXXZ   100082b0 f   SERVER.obj
+ 0001:000072d0       ??__EGID_Camera@@YAXXZ     100082d0 f   SERVER.obj
+ 0001:000072f0       ??__EGID_CAMERA@@YAXXZ     100082f0 f   SERVER.obj
+ 0001:00007310       ??__EGNULL_Camera@@YAXXZ   10008310 f   hgraf2d:server.obj
+ 0001:00007330       ??__EGNULL_CAMERA@@YAXXZ   10008330 f   hgraf2d:server.obj
+ 0001:00007350       ??__EGID_Camera@@YAXXZ     10008350 f   hgraf2d:server.obj
+ 0001:00007370       ??__EGID_CAMERA@@YAXXZ     10008370 f   hgraf2d:server.obj
+ 0001:00007390       ??__EGNULL_Camera@@YAXXZ   10008390 f   hgraf2d:hgraph2d.obj
+ 0001:000073b0       ??__EGNULL_CAMERA@@YAXXZ   100083b0 f   hgraf2d:hgraph2d.obj
+ 0001:000073d0       ??__EGID_Camera@@YAXXZ     100083d0 f   hgraf2d:hgraph2d.obj
+ 0001:000073f0       ??__EGID_CAMERA@@YAXXZ     100083f0 f   hgraf2d:hgraph2d.obj
+ 0001:00007410       ??__EGNULL_Camera@@YAXXZ   10008410 f   imgfrm:CREATE.obj
+ 0001:00007430       ??__EGNULL_CAMERA@@YAXXZ   10008430 f   imgfrm:CREATE.obj
+ 0001:00007450       ??__EGID_Camera@@YAXXZ     10008450 f   imgfrm:CREATE.obj
+ 0001:00007470       ??__EGID_CAMERA@@YAXXZ     10008470 f   imgfrm:CREATE.obj

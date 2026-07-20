@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>header</title>
+<STYLE type='text/css'>
+@import url("styles.css");
+</STYLE>
+<script LANGUAGE="JavaScript" src="util.js"></script>
+<script LANGUAGE="JavaScript">top_level.header = window;</script>
+</head>
+<body class="header" bottomMargin=0 leftMargin=0 rightMargin=0 scroll=no topMargin=0 
+marginheight="0" marginwidth="0">
+<table width="100%" height="45" cellpadding="0" cellspacing="0" border="0">
+  <tr> 
+    <td width="5" rowspan="3" valign="middle"><span class="titlestyle"> </span></td>
+    <td width="80%" rowspan="3" valign="middle"><span class="titlestyle"> 
+      <!-- uncomment the img below to place a logo 
+     on left side of header 
+-->
+      <!--
+<a href="http://www.immdesign.com"><img src="../icons/logo.gif" border="0"></a>
+-->
+      <script language='javascript'>
+document.write(top_level.print_title())
+</script>
+      </span></td>
+    <td rowspan="3">&nbsp; </td>
+    <td width="200" height=15> 
+      <p align="right"> <span class="authorstyle"> </span> <span class="datestyle"> 
+        <script language='javascript'>
+document.write(top_level.print_date());
+</script>
+        </span> </p>
+    </td>
+    <td rowspan="3" height=45 width="5">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="200" height="15"> 
+      <div align="right"><span class="company"> 
+        <script language='javascript'>
+document.write(top_level.ptv("Company"))
+</script>
+        </span><span class="authorstyle"> </span></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="200" height="15"> 
+      <div align="right"><span class="authorstyle"> 
+        <script language='javascript'>
+document.write(top_level.print_author());
+</script>
+        </span></div>
+    </td>
+  </tr>
+</table>
+</BODY>
+</html>

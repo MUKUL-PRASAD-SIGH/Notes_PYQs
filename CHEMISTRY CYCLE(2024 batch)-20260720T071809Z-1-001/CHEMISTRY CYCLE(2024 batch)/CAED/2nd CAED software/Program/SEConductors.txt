@@ -1,0 +1,318 @@
+// Solid Edge SEConductors.txt file.
+// The contents of this file are used by Solid Edge Wire Harness Design
+// and lists the wires, cables, and bundles the user can choose.
+// The location of this file is set by Tools | Options; File Locations.
+//
+// You can add, modify, or delete entries provided the following format is used:
+//
+// Description: conductor description as listed in the interface
+// WireDia: conductor diameter in meters and with a "." as the decimal separator
+// Gage: name or other to identify the conductor size (Solid Edge will choose by gage over WireDia)
+// PartNumber: user defined field representing raw material or spool number for the conductor
+// OuterDia: outer diameter including insulation in meters and with a "." as the decimal separator
+// NumOfConductors: lists the number of conductors in a cable
+// Type: indicates conductor and can be any value
+// Material: indicates conductor and can be any value
+// MassPerUnitLength: lists the mass/length in kg/m and with a "." as the decimal separator
+// MinBendRadius: lists the minimum bend radius in meters with a "." as the decimal separator.
+// Color: indicates the color in long RGB value
+//
+// Localization requirements are that only comments, gage and description are to be localized.
+//
+// wires must be listed between BeginWires and EndWires
+// cables must be listed between BeginCables and EndCables
+// bundles must be listed between BeginBundles and EndBundles
+//
+// The decimal delimiter must be the "." character.
+// The separator between various fields must be a semi colon ";"
+// All lines starting with "//" are ignored
+//
+// Description; WireDia; Gage; PartNumber; OuterDia; NumOfConductors; Type; Material;
+// MassPerUnitLength; MinBendRadius; Color
+
+
+BeginWires
+10-gage Solid Copper Red; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 255
+10-gage Solid Copper Orange; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 33023
+10-gage Solid Copper Yellow; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 65535
+10-gage Solid Copper Green; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 65280
+10-gage Solid Copper Blue; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 16711680
+10-gage Solid Copper Dk Blue; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 8388608
+10-gage Solid Copper Dk Magenta; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 8388736
+10-gage Solid Copper Black; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 0
+10-gage Solid Copper White; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 16777215
+10-gage Solid Copper Gray; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 9737364
+10-gage Solid Copper Cyan; 0.00259; 10; ; 0.00341; ; Solid; Copper; 0.04713; 0.00259; 16776960
+12-gage Solid Copper Red; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 255
+12-gage Solid Copper Orange; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 33023
+12-gage Solid Copper Yellow; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 65535
+12-gage Solid Copper Green; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 65280
+12-gage Solid Copper Blue; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 16711680
+12-gage Solid Copper Dk Blue; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 8388608
+12-gage Solid Copper Dk Magenta; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 8388736
+12-gage Solid Copper Black; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 0
+12-gage Solid Copper White; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 16777215
+12-gage Solid Copper Gray; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 9737364
+12-gage Solid Copper Cyan; 0.00206; 12; ; 0.00288; ; Solid; Copper; 0.02972; 0.00206; 16776960
+14-gage Solid Copper Red; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 255
+14-gage Solid Copper Orange; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 33023
+14-gage Solid Copper Yellow; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 65535
+14-gage Solid Copper Green; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 65280
+14-gage Solid Copper Blue; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 16711680
+14-gage Solid Copper Dk Blue; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 8388608
+14-gage Solid Copper Dk Magenta; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 8388736
+14-gage Solid Copper Black; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 0
+14-gage Solid Copper White; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 16777215
+14-gage Solid Copper Gray; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 9737364
+14-gage Solid Copper Cyan; 0.00163; 14; ; 0.00245; ; Solid; Copper; 0.01855; 0.00163; 16776960
+16-gage Solid Copper Red; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 255
+16-gage Solid Copper Orange; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 33023
+16-gage Solid Copper Yellow; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 65535
+16-gage Solid Copper Green; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 65280
+16-gage Solid Copper Blue; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 16711680
+16-gage Solid Copper Dk Blue; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 8388608
+16-gage Solid Copper Dk Magenta; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 8388736
+16-gage Solid Copper Black; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 0
+16-gage Solid Copper White; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 16777215
+16-gage Solid Copper Gray; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 9737364
+16-gage Solid Copper Cyan; 0.00130; 16; ; 0.00212; ; Solid; Copper; 0.01178; 0.00130; 16776960
+18-gage Solid Copper Red; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 255
+18-gage Solid Copper Orange; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 33023
+18-gage Solid Copper Yellow; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 65535
+18-gage Solid Copper Green; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 65280
+18-gage Solid Copper Blue; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 16711680
+18-gage Solid Copper Dk Blue; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 8388608
+18-gage Solid Copper Dk Magenta; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 8388736
+18-gage Solid Copper Black; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 0
+18-gage Solid Copper White; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 16777215
+18-gage Solid Copper Gray; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 9737364
+18-gage Solid Copper Cyan; 0.00102; 18; ; 0.00184; ; Solid; Copper; 0.00725; 0.00102; 16776960
+20-gage Solid Copper Red; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 255
+20-gage Solid Copper Orange; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 33023
+20-gage Solid Copper Yellow; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 65535
+20-gage Solid Copper Green; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 65280
+20-gage Solid Copper Blue; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 16711680
+20-gage Solid Copper Dk Blue; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 8388608
+20-gage Solid Copper Dk Magenta; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 8388736
+20-gage Solid Copper Black; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 0
+20-gage Solid Copper White; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 16777215
+20-gage Solid Copper Gray; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 9737364
+20-gage Solid Copper Cyan; 0.00081; 20; ; 0.00163; ; Solid; Copper; 0.00464; 0.00081; 16776960
+22-gage Solid Copper Red; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 255
+22-gage Solid Copper Orange; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 33023
+22-gage Solid Copper Yellow; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 65535
+22-gage Solid Copper Green; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 65280
+22-gage Solid Copper Blue; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 16711680
+22-gage Solid Copper Dk Blue; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 8388608
+22-gage Solid Copper Dk Magenta; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 8388736
+22-gage Solid Copper Black; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 0
+22-gage Solid Copper White; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 16777215
+22-gage Solid Copper Gray; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 9737364
+22-gage Solid Copper Cyan; 0.00064; 22; ; 0.00146; ; Solid; Copper; 0.00290; 0.00064; 16776960
+24-gage Solid Copper Red; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 255
+24-gage Solid Copper Orange; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 33023
+24-gage Solid Copper Yellow; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 65535
+24-gage Solid Copper Green; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 65280
+24-gage Solid Copper Blue; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 16711680
+24-gage Solid Copper Dk Blue; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 8388608
+24-gage Solid Copper Dk Magenta; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 8388736
+24-gage Solid Copper Black; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 0
+24-gage Solid Copper White; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 16777215
+24-gage Solid Copper Gray; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 9737364
+24-gage Solid Copper Cyan; 0.00051; 24; ; 0.00133; ; Solid; Copper; 0.00183; 0.00051; 16776960
+26-gage Solid Copper Red; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 255
+26-gage Solid Copper Orange; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 33023
+26-gage Solid Copper Yellow; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 65535
+26-gage Solid Copper Green; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 65280
+26-gage Solid Copper Blue; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 16711680
+26-gage Solid Copper Dk Blue; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 8388608
+26-gage Solid Copper Dk Magenta; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 8388736
+26-gage Solid Copper Black; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 0
+26-gage Solid Copper White; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 16777215
+26-gage Solid Copper Gray; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 9737364
+26-gage Solid Copper Cyan; 0.00040; 26; ; 0.00122; ; Solid; Copper; 0.00115; 0.00040; 16776960
+10-gage Stranded Copper Red; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 255
+10-gage Stranded Copper Orange; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 33023
+10-gage Stranded Copper Yellow; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 65535
+10-gage Stranded Copper Green; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 65280
+10-gage Stranded Copper Blue; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 16711680
+10-gage Stranded Copper Dk Blue; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 8388608
+10-gage Stranded Copper Dk Magenta; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 8388736
+10-gage Stranded Copper Black; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 0
+10-gage Stranded Copper White; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 16777215
+10-gage Stranded Copper Gray; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 9737364
+10-gage Stranded Copper Cyan; 0.00259; 10; ; 0.00341; ; Stranded; Copper; 0.04713; 0.00259; 16776960
+12-gage Stranded Copper Red; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 255
+12-gage Stranded Copper Orange; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 33023
+12-gage Stranded Copper Yellow; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 65535
+12-gage Stranded Copper Green; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 65280
+12-gage Stranded Copper Blue; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 16711680
+12-gage Stranded Copper Dk Blue; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 8388608
+12-gage Stranded Copper Dk Magenta; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 8388736
+12-gage Stranded Copper Black; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 0
+12-gage Stranded Copper White; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 16777215
+12-gage Stranded Copper Gray; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 9737364
+12-gage Stranded Copper Cyan; 0.00206; 12; ; 0.00288; ; Stranded; Copper; 0.02972; 0.00206; 16776960
+14-gage Stranded Copper Red; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 255
+14-gage Stranded Copper Orange; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 33023
+14-gage Stranded Copper Yellow; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 65535
+14-gage Stranded Copper Green; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 65280
+14-gage Stranded Copper Blue; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 16711680
+14-gage Stranded Copper Dk Blue; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 8388608
+14-gage Stranded Copper Dk Magenta; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 8388736
+14-gage Stranded Copper Black; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 0
+14-gage Stranded Copper White; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 16777215
+14-gage Stranded Copper Gray; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 9737364
+14-gage Stranded Copper Cyan; 0.00163; 14; ; 0.00245; ; Stranded; Copper; 0.01855; 0.00163; 16776960
+16-gage Stranded Copper Red; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 255
+16-gage Stranded Copper Orange; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 33023
+16-gage Stranded Copper Yellow; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 65535
+16-gage Stranded Copper Green; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 65280
+16-gage Stranded Copper Blue; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 16711680
+16-gage Stranded Copper Dk Blue; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 8388608
+16-gage Stranded Copper Dk Magenta; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 8388736
+16-gage Stranded Copper Black; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 0
+16-gage Stranded Copper White; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 16777215
+16-gage Stranded Copper Gray; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 9737364
+16-gage Stranded Copper Cyan; 0.00130; 16; ; 0.00212; ; Stranded; Copper; 0.01178; 0.00130; 16776960
+18-gage Stranded Copper Red; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 255
+18-gage Stranded Copper Orange; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 33023
+18-gage Stranded Copper Yellow; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 65535
+18-gage Stranded Copper Green; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 65280
+18-gage Stranded Copper Blue; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 16711680
+18-gage Stranded Copper Dk Blue; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 8388608
+18-gage Stranded Copper Dk Magenta; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 8388736
+18-gage Stranded Copper Black; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 0
+18-gage Stranded Copper White; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 16777215
+18-gage Stranded Copper Gray; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 9737364
+18-gage Stranded Copper Cyan; 0.00102; 18; ; 0.00184; ; Stranded; Copper; 0.00725; 0.00102; 16776960
+20-gage Stranded Copper Red; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 255
+20-gage Stranded Copper Orange; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 33023
+20-gage Stranded Copper Yellow; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 65535
+20-gage Stranded Copper Green; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 65280
+20-gage Stranded Copper Blue; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 16711680
+20-gage Stranded Copper Dk Blue; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 8388608
+20-gage Stranded Copper Dk Magenta; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 8388736
+20-gage Stranded Copper Black; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 0
+20-gage Stranded Copper White; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 16777215
+20-gage Stranded Copper Gray; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 9737364
+20-gage Stranded Copper Cyan; 0.00081; 20; ; 0.00163; ; Stranded; Copper; 0.00464; 0.00081; 16776960
+22-gage Stranded Copper Red; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 255
+22-gage Stranded Copper Orange; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 33023
+22-gage Stranded Copper Yellow; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 65535
+22-gage Stranded Copper Green; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 65280
+22-gage Stranded Copper Blue; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 16711680
+22-gage Stranded Copper Dk Blue; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 8388608
+22-gage Stranded Copper Dk Magenta; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 8388736
+22-gage Stranded Copper Black; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 0
+22-gage Stranded Copper White; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 16777215
+22-gage Stranded Copper Gray; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 9737364
+22-gage Stranded Copper Cyan; 0.00064; 22; ; 0.00146; ; Stranded; Copper; 0.00290; 0.00064; 16776960
+24-gage Stranded Copper Red; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 255
+24-gage Stranded Copper Orange; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 33023
+24-gage Stranded Copper Yellow; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 65535
+24-gage Stranded Copper Green; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 65280
+24-gage Stranded Copper Blue; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 16711680
+24-gage Stranded Copper Dk Blue; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 8388608
+24-gage Stranded Copper Dk Magenta; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 8388736
+24-gage Stranded Copper Black; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 0
+24-gage Stranded Copper White; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 16777215
+24-gage Stranded Copper Gray; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 9737364
+24-gage Stranded Copper Cyan; 0.00051; 24; ; 0.00133; ; Stranded; Copper; 0.00183; 0.00051; 16776960
+26-gage Stranded Copper Red; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 255
+26-gage Stranded Copper Orange; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 33023
+26-gage Stranded Copper Yellow; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 65535
+26-gage Stranded Copper Green; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 65280
+26-gage Stranded Copper Blue; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 16711680
+26-gage Stranded Copper Dk Blue; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 8388608
+26-gage Stranded Copper Dk Magenta; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 8388736
+26-gage Stranded Copper Black; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 0
+26-gage Stranded Copper White; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 16777215
+26-gage Stranded Copper Gray; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 9737364
+26-gage Stranded Copper Cyan; 0.00040; 26; ; 0.00122; ; Stranded; Copper; 0.00115; 0.00040; 16776960
+10-gage Solid Aluminum  Red; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 255
+10-gage Solid Aluminum  Orange; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 33023
+10-gage Solid Aluminum  Yellow; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 65535
+10-gage Solid Aluminum  Green; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 65280
+10-gage Solid Aluminum  Blue; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 16711680
+10-gage Solid Aluminum  Dk Blue; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 8388608
+10-gage Solid Aluminum  Dk Magenta; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 8388736
+10-gage Solid Aluminum  Black; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 0
+10-gage Solid Aluminum  White; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 16777215
+10-gage Solid Aluminum  Gray; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 9737364
+10-gage Solid Aluminum  Cyan; 0.00259; 10; ; 0.00341; ; Solid; Aluminum ; 0.01430; 0.00259; 16776960
+12-gage Solid Aluminum  Red; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 255
+12-gage Solid Aluminum  Orange; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 33023
+12-gage Solid Aluminum  Yellow; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 65535
+12-gage Solid Aluminum  Green; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 65280
+12-gage Solid Aluminum  Blue; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 16711680
+12-gage Solid Aluminum  Dk Blue; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 8388608
+12-gage Solid Aluminum  Dk Magenta; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 8388736
+12-gage Solid Aluminum  Black; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 0
+12-gage Solid Aluminum  White; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 16777215
+12-gage Solid Aluminum  Gray; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 9737364
+12-gage Solid Aluminum  Cyan; 0.00206; 12; ; 0.00288; ; Solid; Aluminum ; 0.00902; 0.00206; 16776960
+14-gage Solid Aluminum  Red; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 255
+14-gage Solid Aluminum  Orange; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 33023
+14-gage Solid Aluminum  Yellow; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 65535
+14-gage Solid Aluminum  Green; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 65280
+14-gage Solid Aluminum  Blue; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 16711680
+14-gage Solid Aluminum  Dk Blue; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 8388608
+14-gage Solid Aluminum  Dk Magenta; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 8388736
+14-gage Solid Aluminum  Black; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 0
+14-gage Solid Aluminum  White; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 16777215
+14-gage Solid Aluminum  Gray; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 9737364
+14-gage Solid Aluminum  Cyan; 0.00163; 14; ; 0.00245; ; Solid; Aluminum ; 0.00563; 0.00163; 16776960
+EndWires
+
+BeginCables
+10/2-gage Solid Copper White; 0.00259; 10; ; 0.00969; 2; Solid; Copper; 0.09426; 0.00969; 16777215
+10/3-gage Solid Copper White; 0.00259; 10; ; 0.01187; 3; Solid; Copper; 0.14139; 0.01187; 16777215
+12/2-gage Solid Copper White; 0.00206; 12; ; 0.00770; 2; Solid; Copper; 0.05944; 0.00770; 16777215
+12/3-gage Solid Copper White; 0.00206; 12; ; 0.00943; 3; Solid; Copper; 0.08916; 0.00943; 16777215
+14/2-gage Solid Copper White; 0.00163; 14; ; 0.00608; 2; Solid; Copper; 0.03713; 0.00608; 16777215
+14/3-gage Solid Copper White; 0.00163; 14; ; 0.00745; 3; Solid; Copper; 0.05569; 0.00745; 16777215
+22/2-gage Solid Copper White; 0.00064; 22; ; 0.00240; 2; Solid; Copper; 0.00732; 0.00240; 16777215
+22/4-gage Solid Copper White; 0.00064; 22; ; 0.00340; 4; Solid; Copper; 0.00732; 0.00340; 16777215
+22/6-gage Solid Copper White; 0.00064; 22; ; 0.00416; 6; Solid; Copper; 0.01464; 0.00416; 16777215
+22/8-gage Solid Copper White; 0.00064; 22; ; 0.00481; 8; Solid; Copper; 0.01464; 0.00481; 16777215
+22/9-gage Solid Copper White; 0.00064; 22; ; 0.00510; 9; Solid; Copper; 0.01464; 0.00510; 16777215
+22/11-gage Solid Copper White; 0.00064; 22; ; 0.00564; 11; Solid; Copper; 0.01464; 0.00564; 16777215
+22/15-gage Solid Copper White; 0.00064; 22; ; 0.00658; 15; Solid; Copper; 0.02745; 0.00658; 16777215
+24/2-gage Solid Copper White; 0.00051; 24; ; 0.00191; 2; Solid; Copper; 0.00732; 0.00191; 16777216
+24/4-gage Solid Copper White; 0.00051; 24; ; 0.00270; 4; Solid; Copper; 0.00732; 0.00270; 16777217
+24/6-gage Solid Copper White; 0.00051; 24; ; 0.00331; 6; Solid; Copper; 0.01464; 0.00331; 16777218
+24/8-gage Solid Copper White; 0.00051; 24; ; 0.00382; 8; Solid; Copper; 0.01464; 0.00382; 16777219
+24/9-gage Solid Copper White; 0.00051; 24; ; 0.00405; 9; Solid; Copper; 0.01464; 0.00405; 16777220
+24/11-gage Solid Copper White; 0.00051; 24; ; 0.00448; 11; Solid; Copper; 0.01464; 0.00448; 16777221
+24/15-gage Solid Copper White; 0.00051; 24; ; 0.00523; 15; Solid; Copper; 0.02745; 0.00523; 16777222
+10/2-gage Stranded Copper Gray; 0.00259; 10; ; 0.00969; 2; Stranded; Copper; 0.09426; 0.00969; 9737364
+10/3-gage Stranded Copper Gray; 0.00259; 10; ; 0.01187; 3; Stranded; Copper; 0.14139; 0.01187; 9737364
+12/2-gage Stranded Copper Gray; 0.00206; 12; ; 0.00770; 2; Stranded; Copper; 0.05944; 0.00770; 9737364
+12/3-gage Stranded Copper Gray; 0.00206; 12; ; 0.00943; 3; Stranded; Copper; 0.08916; 0.00943; 9737364
+14/2-gage Stranded Copper Gray; 0.00163; 14; ; 0.00608; 2; Stranded; Copper; 0.03713; 0.00608; 9737364
+14/3-gage Stranded Copper Gray; 0.00163; 14; ; 0.00745; 3; Stranded; Copper; 0.05569; 0.00745; 9737364
+22/2-gage Stranded Copper Gray; 0.00064; 22; ; 0.00240; 2; Stranded; Copper; 0.00732; 0.00240; 9737364
+22/4-gage Stranded Copper Gray; 0.00064; 22; ; 0.00340; 4; Stranded; Copper; 0.00732; 0.00340; 9737364
+22/6-gage Stranded Copper Gray; 0.00064; 22; ; 0.00416; 6; Stranded; Copper; 0.02745; 0.00416; 9737364
+22/8-gage Stranded Copper Gray; 0.00064; 22; ; 0.00481; 8; Stranded; Copper; 0.01464; 0.00481; 9737364
+22/9-gage Stranded Copper Gray; 0.00064; 22; ; 0.00510; 9; Stranded; Copper; 0.02745; 0.00510; 8421514
+22/11-gage Stranded Copper Gray; 0.00064; 22; ; 0.00564; 11; Stranded; Copper; 0.01464; 0.00564; 9737364
+22/15-gage Stranded Copper Gray; 0.00064; 22; ; 0.00658; 15; Stranded; Copper; 0.02745; 0.00658; 9737364
+24/2-gage Stranded Copper Gray; 0.00051; 24; ; 0.00191; 2; Stranded; Copper; 0.00732; 0.00191; 9737364
+24/4-gage Stranded Copper Gray; 0.00051; 24; ; 0.00270; 4; Stranded; Copper; 0.00732; 0.00270; 9737364
+24/6-gage Stranded Copper Gray; 0.00051; 24; ; 0.00331; 6; Stranded; Copper; 0.02745; 0.00331; 9737364
+24/8-gage Stranded Copper Gray; 0.00051; 24; ; 0.00382; 8; Stranded; Copper; 0.01464; 0.00382; 9737364
+24/9-gage Stranded Copper Gray; 0.00051; 24; ; 0.00405; 9; Stranded; Copper; 0.01464; 0.00405; 9737364
+24/11-gage Stranded Copper Gray; 0.00051; 24; ; 0.00448; 11; Stranded; Copper; 0.01464; 0.00448; 9737364
+24/15-gage Stranded Copper Gray; 0.00051; 24; ; 0.00523; 15; Stranded; Copper; 0.02745; 0.00523; 9737364
+EndCables
+
+BeginBundles
+None; 0.00000; ; ; 0.00000; ; ; ; 0.00000; 0.00000; 0
+1/2-inch Flexible Steel Shielding Gray; ; ; ; 0.01270; ; ; ; 0.10000; 0.01270; 9737364
+1/4-inch Flexible Steel Shielding Gray; ; ; ; 0.00635; ; ; ; 0.05000; 0.00635; 9737364
+1/2-inch Flexible Plastic Shielding Black; ; ; ; 0.01270; ; ; ; 0.04000; 0.01270; 0
+1/4-inch Flexible Plastic Shielding Black; ; ; ; 0.00635; ; ; ; 0.02000; 0.00635; 0
+EndBundles
+

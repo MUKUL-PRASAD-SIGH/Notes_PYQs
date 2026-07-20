@@ -1,0 +1,507 @@
+ cvwddlg
+
+ Timestamp is 46b3a386 (Fri Aug 03 16:52:06 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001a2aH .text                   CODE
+ 0001:00001a30 00000204H .text$x                 CODE
+ 0002:00000000 000002a4H .idata$5                DATA
+ 0002:000002a4 00000004H .CRT$XCA                DATA
+ 0002:000002a8 00000004H .CRT$XCZ                DATA
+ 0002:000002ac 00000004H .CRT$XIA                DATA
+ 0002:000002b0 00000004H .CRT$XIAA               DATA
+ 0002:000002b4 00000004H .CRT$XIZ                DATA
+ 0002:000002c0 000003a0H .rdata                  DATA
+ 0002:00000660 00000031H .rdata$debug            DATA
+ 0002:00000694 000001d0H .rdata$r                DATA
+ 0002:00000870 00000028H .rdata$sxdata           DATA
+ 0002:00000898 00000004H .rtc$IAA                DATA
+ 0002:0000089c 00000004H .rtc$IZZ                DATA
+ 0002:000008a0 00000004H .rtc$TAA                DATA
+ 0002:000008a4 00000004H .rtc$TZZ                DATA
+ 0002:000008a8 0000027cH .xdata$x                DATA
+ 0002:00000b24 00000000H ATL$__a                 DATA
+ 0002:00000b24 00000000H ATL$__z                 DATA
+ 0002:00000b24 00000078H .idata$2                DATA
+ 0002:00000b9c 00000014H .idata$3                DATA
+ 0002:00000bb0 000002a4H .idata$4                DATA
+ 0002:00000e54 000004b2H .idata$6                DATA
+ 0002:00001310 000003deH .edata                  DATA
+ 0003:00000000 000000dcH .data                   DATA
+ 0003:000000e0 00000378H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:0000000a       ___safe_se_handler_count   0000000a     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ?TermViewDataResourceDll@@YAXXZ 10001030 f   optnserv.obj
+ 0001:00000040       ?GetViewDataResourceHandle@@YAPAUHINSTANCE__@@XZ 10001040 f   optnserv.obj
+ 0001:00000050       ?ServerGetObjectCount@@YAKXZ 10001050 f   optnserv.obj
+ 0001:00000060       ?ServerGetLockCount@@YAKXZ 10001060 f   optnserv.obj
+ 0001:00000070       _DllCanUnloadNow@0         10001070 f   optnserv.obj
+ 0001:00000090       ??3CObject@@SGXPAX@Z       10001090 f i optnserv.obj
+ 0001:000000a0       ?InitViewDataResourceDll@@YAII@Z 100010a0 f   optnserv.obj
+ 0001:00000110       _DllMain@12                10001110 f   optnserv.obj
+ 0001:00000180       ?VWDCheckRegEntry@@YAKPAD0K@Z 10001180 f   uomreg.obj
+ 0001:000002c0       ?getRegUOMDefaults@@YAXPAIPAK@Z 100012c0 f   uomreg.obj
+ 0001:00000430       ?setRegUOMDefaults@@YAXPBDHK@Z 10001430 f   uomreg.obj
+ 0001:00000490       ?GetThisMessageMap@CViewDataOptionsPage@@KGPBUAFX_MSGMAP@@XZ 10001490 f   vwdopt.obj
+ 0001:000004a0       ?_GetBaseClass@CViewDataOptionsPage@@KGPAUCRuntimeClass@@XZ 100014a0 f   vwdopt.obj
+ 0001:000004b0       ?GetThisClass@CViewDataOptionsPage@@SGPAUCRuntimeClass@@XZ 100014b0 f   vwdopt.obj
+ 0001:000004b0       ?GetRuntimeClass@CViewDataOptionsPage@@UBEPAUCRuntimeClass@@XZ 100014b0 f   vwdopt.obj
+ 0001:000004c0       ??0CViewDataOptionsPage@@QAE@XZ 100014c0 f   vwdopt.obj
+ 0001:000005b0       ??1CViewDataOptionsPage@@UAE@XZ 100015b0 f   vwdopt.obj
+ 0001:00000630       ?OnSetActive@CViewDataOptionsPage@@UAEHXZ 10001630 f   vwdopt.obj
+ 0001:00000640       ??$sprintf@$0L@@@YAHAAY0L@DPBDZZ 10001640 f i vwdopt.obj
+ 0001:00000660       ?AssertValid@CObject@@UBEXXZ 10001660 f i vwdopt.obj
+ 0001:00000670       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10001670 f i vwdopt.obj
+ 0001:00000670       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10001670 f i vwdopt.obj
+ 0001:00000680       ?BeginModalState@CWnd@@UAEXXZ 10001680 f i vwdopt.obj
+ 0001:00000690       ?EndModalState@CWnd@@UAEXXZ 10001690 f i vwdopt.obj
+ 0001:000006a0       ?Create@CDialog@@UAEHIPAVCWnd@@@Z 100016a0 f i vwdopt.obj
+ 0001:000006b0       ??_ECViewDataOptionsPage@@UAEPAXI@Z 100016b0 f i vwdopt.obj
+ 0001:00000710       ?DoDataExchange@CViewDataOptionsPage@@MAEXPAVCDataExchange@@@Z 10001710 f   vwdopt.obj
+ 0001:00000730       ?GetMessageMap@CViewDataOptionsPage@@MBEPBUAFX_MSGMAP@@XZ 10001730 f   vwdopt.obj
+ 0001:00000740       ?CreateObject@CViewDataOptionsPage@@SGPAVCObject@@XZ 10001740 f   vwdopt.obj
+ 0001:000007b0       ?setDefaultUnitType@CViewDataOptionsPage@@QAEXIPAVCListBox@@@Z 100017b0 f   vwdopt.obj
+ 0001:000008f0       ?OnOK@CViewDataOptionsPage@@MAEXXZ 100018f0 f   vwdopt.obj
+ 0001:00000a80       ?OnInitDialog@CViewDataOptionsPage@@MAEHXZ 10001a80 f   vwdopt.obj
+ 0001:00000c92       ??3@YAXPAX@Z               10001c92 f   mfc80:MFC80.DLL
+ 0001:00000c98       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10001c98 f   mfc80:MFC80.DLL
+ 0001:00000c9e       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10001c9e f   mfc80:MFC80.DLL
+ 0001:00000ca4       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10001ca4 f   mfc80:MFC80.DLL
+ 0001:00000caa       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10001caa f   mfc80:MFC80.DLL
+ 0001:00000cb0       ?GetThisMessageMap@CPropertyPage@@KGPBUAFX_MSGMAP@@XZ 10001cb0 f   mfc80:MFC80.DLL
+ 0001:00000cb6       ?GetThisClass@CPropertyPage@@SGPAUCRuntimeClass@@XZ 10001cb6 f   mfc80:MFC80.DLL
+ 0001:00000cbc       ??1CPropertyPage@@UAE@XZ   10001cbc f   mfc80:MFC80.DLL
+ 0001:00000cc2       ??0CPropertyPage@@QAE@IIK@Z 10001cc2 f   mfc80:MFC80.DLL
+ 0001:00000cc8       ?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10001cc8 f   mfc80:MFC80.DLL
+ 0001:00000cce       ?OnFinalRelease@CWnd@@UAEXXZ 10001cce f   mfc80:MFC80.DLL
+ 0001:00000cd4       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10001cd4 f   mfc80:MFC80.DLL
+ 0001:00000cda       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10001cda f   mfc80:MFC80.DLL
+ 0001:00000ce0       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10001ce0 f   mfc80:MFC80.DLL
+ 0001:00000ce6       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10001ce6 f   mfc80:MFC80.DLL
+ 0001:00000cec       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10001cec f   mfc80:MFC80.DLL
+ 0001:00000cf2       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10001cf2 f   mfc80:MFC80.DLL
+ 0001:00000cf8       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10001cf8 f   mfc80:MFC80.DLL
+ 0001:00000cfe       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10001cfe f   mfc80:MFC80.DLL
+ 0001:00000d04       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 10001d04 f   mfc80:MFC80.DLL
+ 0001:00000d0a       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10001d0a f   mfc80:MFC80.DLL
+ 0001:00000d10       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10001d10 f   mfc80:MFC80.DLL
+ 0001:00000d16       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10001d16 f   mfc80:MFC80.DLL
+ 0001:00000d1c       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10001d1c f   mfc80:MFC80.DLL
+ 0001:00000d22       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10001d22 f   mfc80:MFC80.DLL
+ 0001:00000d28       ?PreSubclassWindow@CWnd@@UAEXXZ 10001d28 f   mfc80:MFC80.DLL
+ 0001:00000d2e       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 10001d2e f   mfc80:MFC80.DLL
+ 0001:00000d34       ?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 10001d34 f   mfc80:MFC80.DLL
+ 0001:00000d3a       ?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 10001d3a f   mfc80:MFC80.DLL
+ 0001:00000d40       ?DestroyWindow@CWnd@@UAEHXZ 10001d40 f   mfc80:MFC80.DLL
+ 0001:00000d46       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 10001d46 f   mfc80:MFC80.DLL
+ 0001:00000d4c       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 10001d4c f   mfc80:MFC80.DLL
+ 0001:00000d52       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 10001d52 f   mfc80:MFC80.DLL
+ 0001:00000d58       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 10001d58 f   mfc80:MFC80.DLL
+ 0001:00000d5e       ?WinHelpA@CWnd@@UAEXKI@Z   10001d5e f   mfc80:MFC80.DLL
+ 0001:00000d64       ?HtmlHelpA@CWnd@@UAEXKI@Z  10001d64 f   mfc80:MFC80.DLL
+ 0001:00000d6a       ?WinHelpInternal@CWnd@@UAEXKI@Z 10001d6a f   mfc80:MFC80.DLL
+ 0001:00000d70       ?ContinueModal@CWnd@@UAEHXZ 10001d70 f   mfc80:MFC80.DLL
+ 0001:00000d76       ?EndModalLoop@CWnd@@UAEXH@Z 10001d76 f   mfc80:MFC80.DLL
+ 0001:00000d7c       ?EnsureStdObj@CWnd@@UAEJXZ 10001d7c f   mfc80:MFC80.DLL
+ 0001:00000d82       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 10001d82 f   mfc80:MFC80.DLL
+ 0001:00000d88       ?get_accChildCount@CWnd@@UAEJPAJ@Z 10001d88 f   mfc80:MFC80.DLL
+ 0001:00000d8e       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 10001d8e f   mfc80:MFC80.DLL
+ 0001:00000d94       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001d94 f   mfc80:MFC80.DLL
+ 0001:00000d9a       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001d9a f   mfc80:MFC80.DLL
+ 0001:00000da0       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001da0 f   mfc80:MFC80.DLL
+ 0001:00000da6       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 10001da6 f   mfc80:MFC80.DLL
+ 0001:00000dac       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 10001dac f   mfc80:MFC80.DLL
+ 0001:00000db2       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001db2 f   mfc80:MFC80.DLL
+ 0001:00000db8       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 10001db8 f   mfc80:MFC80.DLL
+ 0001:00000dbe       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001dbe f   mfc80:MFC80.DLL
+ 0001:00000dc4       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 10001dc4 f   mfc80:MFC80.DLL
+ 0001:00000dca       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 10001dca f   mfc80:MFC80.DLL
+ 0001:00000dd0       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 10001dd0 f   mfc80:MFC80.DLL
+ 0001:00000dd6       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 10001dd6 f   mfc80:MFC80.DLL
+ 0001:00000ddc       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 10001ddc f   mfc80:MFC80.DLL
+ 0001:00000de2       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 10001de2 f   mfc80:MFC80.DLL
+ 0001:00000de8       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 10001de8 f   mfc80:MFC80.DLL
+ 0001:00000dee       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 10001dee f   mfc80:MFC80.DLL
+ 0001:00000df4       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10001df4 f   mfc80:MFC80.DLL
+ 0001:00000dfa       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10001dfa f   mfc80:MFC80.DLL
+ 0001:00000e00       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 10001e00 f   mfc80:MFC80.DLL
+ 0001:00000e06       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 10001e06 f   mfc80:MFC80.DLL
+ 0001:00000e0c       ?OnCommand@CWnd@@MAEHIJ@Z  10001e0c f   mfc80:MFC80.DLL
+ 0001:00000e12       ?OnNotify@CPropertyPage@@MAEHIJPAJ@Z 10001e12 f   mfc80:MFC80.DLL
+ 0001:00000e18       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 10001e18 f   mfc80:MFC80.DLL
+ 0001:00000e1e       ?PreTranslateMessage@CPropertyPage@@MAEHPAUtagMSG@@@Z 10001e1e f   mfc80:MFC80.DLL
+ 0001:00000e24       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 10001e24 f   mfc80:MFC80.DLL
+ 0001:00000e2a       ?WindowProc@CWnd@@MAEJIIJ@Z 10001e2a f   mfc80:MFC80.DLL
+ 0001:00000e30       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 10001e30 f   mfc80:MFC80.DLL
+ 0001:00000e36       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 10001e36 f   mfc80:MFC80.DLL
+ 0001:00000e3c       ?PostNcDestroy@CWnd@@MAEXXZ 10001e3c f   mfc80:MFC80.DLL
+ 0001:00000e42       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 10001e42 f   mfc80:MFC80.DLL
+ 0001:00000e48       ?CheckAutoCenter@CDialog@@UAEHXZ 10001e48 f   mfc80:MFC80.DLL
+ 0001:00000e4e       ?IsFrameWnd@CWnd@@UBEHXZ   10001e4e f   mfc80:MFC80.DLL
+ 0001:00000e54       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 10001e54 f   mfc80:MFC80.DLL
+ 0001:00000e5a       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 10001e5a f   mfc80:MFC80.DLL
+ 0001:00000e60       ?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 10001e60 f   mfc80:MFC80.DLL
+ 0001:00000e66       ?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 10001e66 f   mfc80:MFC80.DLL
+ 0001:00000e6c       ?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 10001e6c f   mfc80:MFC80.DLL
+ 0001:00000e72       ?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 10001e72 f   mfc80:MFC80.DLL
+ 0001:00000e78       ?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 10001e78 f   mfc80:MFC80.DLL
+ 0001:00000e7e       ?DoModal@CDialog@@UAEHXZ   10001e7e f   mfc80:MFC80.DLL
+ 0001:00000e84       ?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 10001e84 f   mfc80:MFC80.DLL
+ 0001:00000e8a       ?OnCancel@CPropertyPage@@UAEXXZ 10001e8a f   mfc80:MFC80.DLL
+ 0001:00000e90       ?PreInitDialog@CDialog@@MAEXXZ 10001e90 f   mfc80:MFC80.DLL
+ 0001:00000e96       ?OnApply@CPropertyPage@@UAEHXZ 10001e96 f   mfc80:MFC80.DLL
+ 0001:00000e9c       ?OnReset@CPropertyPage@@UAEXXZ 10001e9c f   mfc80:MFC80.DLL
+ 0001:00000ea2       ?OnKillActive@CPropertyPage@@UAEHXZ 10001ea2 f   mfc80:MFC80.DLL
+ 0001:00000ea8       ?OnQueryCancel@CPropertyPage@@UAEHXZ 10001ea8 f   mfc80:MFC80.DLL
+ 0001:00000eae       ?OnWizardBack@CPropertyPage@@UAEJXZ 10001eae f   mfc80:MFC80.DLL
+ 0001:00000eb4       ?OnWizardNext@CPropertyPage@@UAEJXZ 10001eb4 f   mfc80:MFC80.DLL
+ 0001:00000eba       ?OnWizardFinish@CPropertyPage@@UAEHXZ 10001eba f   mfc80:MFC80.DLL
+ 0001:00000ec0       ?OnWizardFinishEx@CPropertyPage@@UAEPAUHWND__@@XZ 10001ec0 f   mfc80:MFC80.DLL
+ 0001:00000ec6       ?OnSetActive@CPropertyPage@@UAEHXZ 10001ec6 f   mfc80:MFC80.DLL
+ 0001:00000ecc       ??_V@YAXPAX@Z              10001ecc f   mfc80:MFC80.DLL
+ 0001:00000ed2       ?DDX_Check@@YGXPAVCDataExchange@@HAAH@Z 10001ed2 f   mfc80:MFC80.DLL
+ 0001:00000ed8       ?GetDlgItem@CWnd@@QBEPAV1@H@Z 10001ed8 f   mfc80:MFC80.DLL
+ 0001:00000ede       ?OnInitDialog@CDialog@@UAEHXZ 10001ede f   mfc80:MFC80.DLL
+ 0001:00000ee4       _malloc                    10001ee4 f   msvcrt:MSVCR80.dll
+ 0001:00000eea       __callnewh                 10001eea f   msvcrt:MSVCR80.dll
+ 0001:00000ef0       ___CxxFrameHandler3        10001ef0 f   msvcrt:MSVCR80.dll
+ 0001:00000ef6       @__security_check_cookie@4 10001ef6 f   msvcrt:secchk.obj
+ 0001:00000f05       ??_Etype_info@@UAEPAXI@Z   10001f05 f i msvcrt:ti_inst.obj
+ 0001:00000f4e       __except_handler4          10001f4e f   msvcrt:chandler4gs.obj
+ 0001:00000f80       __alloca_probe_16          10001f80 f   msvcrt:alloca16.obj
+ 0001:00000f96       __alloca_probe_8           10001f96     msvcrt:alloca16.obj
+ 0001:00000fb0       __allmul                   10001fb0 f   msvcrt:llmul.obj
+ 0001:00000fe4       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10001fe4 f   msvcrt:ehvecdtr.obj
+ 0001:00001042       ??_M@YGXPAXIHP6EX0@Z@Z     10002042 f   msvcrt:ehvecdtr.obj
+ 0001:000010f2       __CRT_INIT@12              100020f2 f   msvcrt:crtdll.obj
+ 0001:000013a7       __DllMainCRTStartup@12     100023a7 f   msvcrt:crtdll.obj
+ 0001:000013c8       __SEH_prolog4_GS           100023c8 f   msvcrt:sehprolg4gs.obj
+ 0001:00001410       __SEH_epilog4_GS           10002410 f   msvcrt:sehprolg4gs.obj
+ 0001:0000141f       ___report_gsfailure        1000241f f   msvcrt:gs_report.obj
+ 0001:00001524       __except_handler4_common   10002524 f   msvcrt:MSVCR80.dll
+ 0001:00001530       __chkstk                   10002530 f   msvcrt:chkstk.obj
+ 0001:00001530       __alloca_probe             10002530     msvcrt:chkstk.obj
+ 0001:0000155c       ?terminate@@YAXXZ          1000255c f   msvcrt:MSVCR80.dll
+ 0001:00001564       __SEH_prolog4              10002564 f   msvcrt:sehprolg4.obj
+ 0001:000015a9       __SEH_epilog4              100025a9 f   msvcrt:sehprolg4.obj
+ 0001:000015bd       ___clean_type_info_names   100025bd f   msvcrt:tncleanup.obj
+ 0001:000015c9       __onexit                   100025c9 f   msvcrt:atonexit.obj
+ 0001:00001668       _atexit                    10002668 f   msvcrt:atonexit.obj
+ 0001:0000167a       __RTC_Initialize           1000267a f   msvcrt:initsect.obj
+ 0001:0000169e       __RTC_Terminate            1000269e f   msvcrt:initsect.obj
+ 0001:000016d0       __ValidateImageBase        100026d0 f   msvcrt:pesect.obj
+ 0001:00001700       __FindPESection            10002700 f   msvcrt:pesect.obj
+ 0001:00001742       __IsNonwritableInCurrentImage 10002742 f   msvcrt:pesect.obj
+ 0001:000017ae       __initterm                 100027ae f   msvcrt:MSVCR80.dll
+ 0001:000017b4       __initterm_e               100027b4 f   msvcrt:MSVCR80.dll
+ 0001:000017ba       __amsg_exit                100027ba f   msvcrt:MSVCR80.dll
+ 0001:000017c0       ___CppXcptFilter           100027c0 f   msvcrt:MSVCR80.dll
+ 0001:000017c6       ___security_init_cookie    100027c6 f   msvcrt:gs_support.obj
+ 0001:0000185a       __crt_debugger_hook        1000285a f   msvcrt:MSVCR80.dll
+ 0001:00001860       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10002860 f   msvcrt:MSVCR80.dll
+ 0001:00001860       ??1type_info@@UAE@XZ       10002860 f   msvcrt:MSVCR80.dll
+ 0001:00001866       ___clean_type_info_names_internal 10002866 f   msvcrt:MSVCR80.dll
+ 0001:0000186c       __unlock                   1000286c f   msvcrt:MSVCR80.dll
+ 0001:00001872       ___dllonexit               10002872 f   msvcrt:MSVCR80.dll
+ 0001:00001878       __lock                     10002878 f   msvcrt:MSVCR80.dll
+ 0001:0000187e       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000287e f i atls:atltrace.obj
+ 0001:000018e3       ?_AtlGetThreadACPReal@ATL@@YGIXZ 100028e3 f i atls:atltrace.obj
+ 0001:000018e7       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 100028e7 f i atls:atltrace.obj
+ 0001:00001a07       __RawDllMainProxy@12       10002a07 f   mfcs80:rawdllmainproxy.obj
+ 0002:00000000       __imp__RegCloseKey@4       10003000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegQueryValueA@16   10003004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegOpenKeyA@12      10003008     advapi32:ADVAPI32.dll
+ 0002:0000000c       __imp__RegQueryValueExA@24 1000300c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__RegSetValueExA@24   10003010     advapi32:ADVAPI32.dll
+ 0002:00000014       __imp__RegCreateKeyExA@36  10003014     advapi32:ADVAPI32.dll
+ 0002:00000018       \177ADVAPI32_NULL_THUNK_DATA 10003018     advapi32:ADVAPI32.dll
+ 0002:0000001c       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 1000301c     jutil:JUtil.dll
+ 0002:00000020       __imp_??0GUserText@@QAE@XZ 10003020     jutil:JUtil.dll
+ 0002:00000024       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 10003024     jutil:JUtil.dll
+ 0002:00000028       __imp_??BGUserText@@QBEPBDXZ 10003028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??1GUserText@@QAE@XZ 1000302c     jutil:JUtil.dll
+ 0002:00000030       __imp_??BGUserText@@QBEPB_WXZ 10003030     jutil:JUtil.dll
+ 0002:00000034       \177JUtil_NULL_THUNK_DATA  10003034     jutil:JUtil.dll
+ 0002:00000038       __imp__GetThreadLocale@0   10003038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetLocaleInfoA@16   1000303c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetACP@0            10003040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetSystemTimeAsFileTime@4 10003044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentProcessId@0 10003048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentThreadId@0 1000304c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetTickCount@0      10003050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__QueryPerformanceCounter@4 10003054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__IsDebuggerPresent@0 10003058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__SetUnhandledExceptionFilter@4 1000305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__UnhandledExceptionFilter@4 10003060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetCurrentProcess@0 10003064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__TerminateProcess@8  10003068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__InterlockedCompareExchange@12 1000306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__Sleep@4             10003070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__InterlockedExchange@8 10003074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__FreeLibrary@4       10003078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetVersionExA@4     1000307c     kernel32:KERNEL32.dll
+ 0002:00000080       \177KERNEL32_NULL_THUNK_DATA 10003080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp_?DestroyWindow@CWnd@@UAEHXZ 10003084     mfc80:MFC80.DLL
+ 0002:00000088       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 10003088     mfc80:MFC80.DLL
+ 0002:0000008c       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 1000308c     mfc80:MFC80.DLL
+ 0002:00000090       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 10003090     mfc80:MFC80.DLL
+ 0002:00000094       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 10003094     mfc80:MFC80.DLL
+ 0002:00000098       __imp_?WinHelpA@CWnd@@UAEXKI@Z 10003098     mfc80:MFC80.DLL
+ 0002:0000009c       __imp_?HtmlHelpA@CWnd@@UAEXKI@Z 1000309c     mfc80:MFC80.DLL
+ 0002:000000a0       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 100030a0     mfc80:MFC80.DLL
+ 0002:000000a4       __imp_?ContinueModal@CWnd@@UAEHXZ 100030a4     mfc80:MFC80.DLL
+ 0002:000000a8       __imp_?EndModalLoop@CWnd@@UAEXH@Z 100030a8     mfc80:MFC80.DLL
+ 0002:000000ac       __imp_?EnsureStdObj@CWnd@@UAEJXZ 100030ac     mfc80:MFC80.DLL
+ 0002:000000b0       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 100030b0     mfc80:MFC80.DLL
+ 0002:000000b4       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 100030b4     mfc80:MFC80.DLL
+ 0002:000000b8       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 100030b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030bc     mfc80:MFC80.DLL
+ 0002:000000c0       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030c4     mfc80:MFC80.DLL
+ 0002:000000c8       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 100030c8     mfc80:MFC80.DLL
+ 0002:000000cc       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 100030cc     mfc80:MFC80.DLL
+ 0002:000000d0       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030d0     mfc80:MFC80.DLL
+ 0002:000000d4       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 100030d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 100030dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 100030e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 100030e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 100030e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 100030ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 100030f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 100030f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 100030f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 100030fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 10003100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 10003104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 10003108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?OnCommand@CWnd@@MAEHIJ@Z 1000310c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?OnNotify@CPropertyPage@@MAEHIJPAJ@Z 10003110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 10003114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?PreTranslateMessage@CPropertyPage@@MAEHPAUtagMSG@@@Z 10003118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 1000311c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 10003120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 10003124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 10003128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?PostNcDestroy@CWnd@@MAEXXZ 1000312c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 10003130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?CheckAutoCenter@CDialog@@UAEHXZ 10003134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?IsFrameWnd@CWnd@@UBEHXZ 10003138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 1000313c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 10003140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 10003144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 10003148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 1000314c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 10003150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 10003154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?DoModal@CDialog@@UAEHXZ 10003158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 1000315c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?OnCancel@CPropertyPage@@UAEXXZ 10003160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?PreInitDialog@CDialog@@MAEXXZ 10003164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?OnApply@CPropertyPage@@UAEHXZ 10003168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?OnReset@CPropertyPage@@UAEXXZ 1000316c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_?OnKillActive@CPropertyPage@@UAEHXZ 10003170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?OnQueryCancel@CPropertyPage@@UAEHXZ 10003174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?OnWizardBack@CPropertyPage@@UAEJXZ 10003178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?OnWizardNext@CPropertyPage@@UAEJXZ 1000317c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_?OnWizardFinish@CPropertyPage@@UAEHXZ 10003180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_?OnWizardFinishEx@CPropertyPage@@UAEPAUHWND__@@XZ 10003184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_?OnSetActive@CPropertyPage@@UAEHXZ 10003188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_??_V@YAXPAX@Z        1000318c     mfc80:MFC80.DLL
+ 0002:00000190       __imp_?DDX_Check@@YGXPAVCDataExchange@@HAAH@Z 10003190     mfc80:MFC80.DLL
+ 0002:00000194       __imp_?GetDlgItem@CWnd@@QBEPAV1@H@Z 10003194     mfc80:MFC80.DLL
+ 0002:00000198       __imp_?OnInitDialog@CDialog@@UAEHXZ 10003198     mfc80:MFC80.DLL
+ 0002:0000019c       __imp_??3@YAXPAX@Z         1000319c     mfc80:MFC80.DLL
+ 0002:000001a0       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 100031a0     mfc80:MFC80.DLL
+ 0002:000001a4       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 100031a4     mfc80:MFC80.DLL
+ 0002:000001a8       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 100031a8     mfc80:MFC80.DLL
+ 0002:000001ac       __imp_?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 100031ac     mfc80:MFC80.DLL
+ 0002:000001b0       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 100031b0     mfc80:MFC80.DLL
+ 0002:000001b4       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 100031b4     mfc80:MFC80.DLL
+ 0002:000001b8       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 100031b8     mfc80:MFC80.DLL
+ 0002:000001bc       __imp_??Y?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 100031bc     mfc80:MFC80.DLL
+ 0002:000001c0       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@PBD@Z 100031c0     mfc80:MFC80.DLL
+ 0002:000001c4       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PBD@Z 100031c4     mfc80:MFC80.DLL
+ 0002:000001c8       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 100031c8     mfc80:MFC80.DLL
+ 0002:000001cc       __imp_?GetThisMessageMap@CPropertyPage@@KGPBUAFX_MSGMAP@@XZ 100031cc     mfc80:MFC80.DLL
+ 0002:000001d0       __imp_?GetThisClass@CPropertyPage@@SGPAUCRuntimeClass@@XZ 100031d0     mfc80:MFC80.DLL
+ 0002:000001d4       __imp_??1CPropertyPage@@UAE@XZ 100031d4     mfc80:MFC80.DLL
+ 0002:000001d8       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@ABV01@@Z 100031d8     mfc80:MFC80.DLL
+ 0002:000001dc       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PB_W@Z 100031dc     mfc80:MFC80.DLL
+ 0002:000001e0       __imp_??0CPropertyPage@@QAE@IIK@Z 100031e0     mfc80:MFC80.DLL
+ 0002:000001e4       __imp_?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 100031e4     mfc80:MFC80.DLL
+ 0002:000001e8       __imp_?OnFinalRelease@CWnd@@UAEXXZ 100031e8     mfc80:MFC80.DLL
+ 0002:000001ec       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 100031ec     mfc80:MFC80.DLL
+ 0002:000001f0       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 100031f0     mfc80:MFC80.DLL
+ 0002:000001f4       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 100031f4     mfc80:MFC80.DLL
+ 0002:000001f8       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 100031f8     mfc80:MFC80.DLL
+ 0002:000001fc       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 100031fc     mfc80:MFC80.DLL
+ 0002:00000200       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10003200     mfc80:MFC80.DLL
+ 0002:00000204       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10003204     mfc80:MFC80.DLL
+ 0002:00000208       __imp_?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 10003208     mfc80:MFC80.DLL
+ 0002:0000020c       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 1000320c     mfc80:MFC80.DLL
+ 0002:00000210       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 10003210     mfc80:MFC80.DLL
+ 0002:00000214       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10003214     mfc80:MFC80.DLL
+ 0002:00000218       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10003218     mfc80:MFC80.DLL
+ 0002:0000021c       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000321c     mfc80:MFC80.DLL
+ 0002:00000220       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 10003220     mfc80:MFC80.DLL
+ 0002:00000224       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10003224     mfc80:MFC80.DLL
+ 0002:00000228       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 10003228     mfc80:MFC80.DLL
+ 0002:0000022c       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000322c     mfc80:MFC80.DLL
+ 0002:00000230       \177MFC80_NULL_THUNK_DATA  10003230     mfc80:MFC80.DLL
+ 0002:00000234       __imp___onexit             10003234     msvcrt:MSVCR80.dll
+ 0002:00000238       __imp___lock               10003238     msvcrt:MSVCR80.dll
+ 0002:0000023c       __imp____dllonexit         1000323c     msvcrt:MSVCR80.dll
+ 0002:00000240       __imp___unlock             10003240     msvcrt:MSVCR80.dll
+ 0002:00000244       __imp____clean_type_info_names_internal 10003244     msvcrt:MSVCR80.dll
+ 0002:00000248       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10003248     msvcrt:MSVCR80.dll
+ 0002:0000024c       __imp___crt_debugger_hook  1000324c     msvcrt:MSVCR80.dll
+ 0002:00000250       __imp____CppXcptFilter     10003250     msvcrt:MSVCR80.dll
+ 0002:00000254       __imp___adjust_fdiv        10003254     msvcrt:MSVCR80.dll
+ 0002:00000258       __imp___amsg_exit          10003258     msvcrt:MSVCR80.dll
+ 0002:0000025c       __imp___initterm_e         1000325c     msvcrt:MSVCR80.dll
+ 0002:00000260       __imp___initterm           10003260     msvcrt:MSVCR80.dll
+ 0002:00000264       __imp___decode_pointer     10003264     msvcrt:MSVCR80.dll
+ 0002:00000268       __imp___encoded_null       10003268     msvcrt:MSVCR80.dll
+ 0002:0000026c       __imp___malloc_crt         1000326c     msvcrt:MSVCR80.dll
+ 0002:00000270       __imp___encode_pointer     10003270     msvcrt:MSVCR80.dll
+ 0002:00000274       __imp_?terminate@@YAXXZ    10003274     msvcrt:MSVCR80.dll
+ 0002:00000278       __imp___except_handler4_common 10003278     msvcrt:MSVCR80.dll
+ 0002:0000027c       __imp__malloc              1000327c     msvcrt:MSVCR80.dll
+ 0002:00000280       __imp___callnewh           10003280     msvcrt:MSVCR80.dll
+ 0002:00000284       __imp____CxxFrameHandler3  10003284     msvcrt:MSVCR80.dll
+ 0002:00000288       __imp__free                10003288     msvcrt:MSVCR80.dll
+ 0002:0000028c       __imp__vsprintf_s          1000328c     msvcrt:MSVCR80.dll
+ 0002:00000290       __imp__sscanf              10003290     msvcrt:MSVCR80.dll
+ 0002:00000294       \177MSVCR80_NULL_THUNK_DATA 10003294     msvcrt:MSVCR80.dll
+ 0002:00000298       __imp__EnableWindow@8      10003298     user32:USER32.dll
+ 0002:0000029c       __imp__SendMessageA@16     1000329c     user32:USER32.dll
+ 0002:000002a0       \177USER32_NULL_THUNK_DATA 100032a0     user32:USER32.dll
+ 0002:000002a4       ___xc_a                    100032a4     msvcrt:cinitexe.obj
+ 0002:000002a8       ___xc_z                    100032a8     msvcrt:cinitexe.obj
+ 0002:000002ac       ___xi_a                    100032ac     msvcrt:cinitexe.obj
+ 0002:000002b4       ___xi_z                    100032b4     msvcrt:cinitexe.obj
+ 0002:000002dc       ??_C@_0N@NGBAAOJN@viewdata?4drx?$AA@ 100032dc     optnserv.obj
+ 0002:000002ec       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100032ec     pre.obj
+ 0002:000002fc       ??_C@_09OFPELGAL@REG_DWORD?$AA@ 100032fc     uomreg.obj
+ 0002:00000308       ??_C@_0CO@MENCNDH@CLSID?2?$HL4B516830?948FB?911ce?9A4C3?90@ 10003308     uomreg.obj
+ 0002:00000338       ??_C@_0L@PJOJMBMG@DefaultUOM?$AA@ 10003338     uomreg.obj
+ 0002:00000344       ??_C@_0P@HHCNCKOI@DISABLE_UOMDLG?$AA@ 10003344     uomreg.obj
+ 0002:00000354       ??_C@_03JALODAI@?$CFld?$AA@ 10003354     uomreg.obj
+ 0002:00000358       ??_C@_0M@NAMKKBMI@?2DefaultUOM?$AA@ 10003358     uomreg.obj
+ 0002:00000364       ??_C@_0CH@HAJCGFKI@?$HL4B516830?948FB?911ce?9A4C3?90800360@ 10003364     uomreg.obj
+ 0002:0000038c       ??_C@_06JHNIBAJK@CLSID?2?$AA@ 1000338c     uomreg.obj
+ 0002:00000394       ??_C@_0DI@OBDIMOCI@CLSID?2?$HL4B516830?948FB?911ce?9A4C3?90@ 10003394     uomreg.obj
+ 0002:000003cc       ??_C@_0BF@LBDFOLFI@CViewDataOptionsPage?$AA@ 100033cc     vwdopt.obj
+ 0002:000003e4       ?classCViewDataOptionsPage@CViewDataOptionsPage@@2UCRuntimeClass@@B 100033e4     vwdopt.obj
+ 0002:00000424       ??_7CViewDataOptionsPage@@6B@ 10003424     vwdopt.obj
+ 0002:000005ac       ??_C@_06JBKGCNBB@Delete?$AA@ 100035ac     mfcs80:stdafx.obj
+ 0002:000005b4       ??_C@_08KAAPDIAN@NoRemove?$AA@ 100035b4     mfcs80:stdafx.obj
+ 0002:000005c0       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 100035c0     mfcs80:stdafx.obj
+ 0002:000005cc       ??_C@_03LAIAPFCB@Val?$AA@  100035cc     mfcs80:stdafx.obj
+ 0002:000005d0       ??_C@_01HMGJMAIH@B?$AA@    100035d0     mfcs80:stdafx.obj
+ 0002:000005d4       ??_C@_01CKDDGHAB@D?$AA@    100035d4     mfcs80:stdafx.obj
+ 0002:000005d8       ??_C@_01PLPBNMEI@M?$AA@    100035d8     mfcs80:stdafx.obj
+ 0002:000005dc       ??_C@_01CPLAODJH@S?$AA@    100035dc     mfcs80:stdafx.obj
+ 0002:00000604       ??_7type_info@@6B@         10003604     msvcrt:ti_inst.obj
+ 0002:00000608       __pDefaultRawDllMain       10003608     msvcrt:crtdll.obj
+ 0002:00000614       __pRawDllMain              10003614     mfcs80:rawdllmainproxy.obj
+ 0002:00000618       __load_config_used         10003618     msvcrt:loadcfg.obj
+ 0002:00000694       ??_R4CViewDataOptionsPage@@6B@ 10003694     vwdopt.obj
+ 0002:000006a8       ??_R3CViewDataOptionsPage@@8 100036a8     vwdopt.obj
+ 0002:000006b8       ??_R2CViewDataOptionsPage@@8 100036b8     vwdopt.obj
+ 0002:000006d4       ??_R1A@?0A@EA@CViewDataOptionsPage@@8 100036d4     vwdopt.obj
+ 0002:000006f0       ??_R1A@?0A@EA@CPropertyPage@@8 100036f0     vwdopt.obj
+ 0002:0000070c       ??_R3CPropertyPage@@8      1000370c     vwdopt.obj
+ 0002:0000071c       ??_R2CPropertyPage@@8      1000371c     vwdopt.obj
+ 0002:00000734       ??_R1A@?0A@EA@CDialog@@8   10003734     vwdopt.obj
+ 0002:00000750       ??_R3CDialog@@8            10003750     vwdopt.obj
+ 0002:00000760       ??_R2CDialog@@8            10003760     vwdopt.obj
+ 0002:00000774       ??_R1A@?0A@EA@CWnd@@8      10003774     vwdopt.obj
+ 0002:00000790       ??_R3CWnd@@8               10003790     vwdopt.obj
+ 0002:000007a0       ??_R2CWnd@@8               100037a0     vwdopt.obj
+ 0002:000007b0       ??_R1A@?0A@EA@CCmdTarget@@8 100037b0     vwdopt.obj
+ 0002:000007cc       ??_R3CCmdTarget@@8         100037cc     vwdopt.obj
+ 0002:000007dc       ??_R2CCmdTarget@@8         100037dc     vwdopt.obj
+ 0002:000007e8       ??_R1A@?0A@EA@CObject@@8   100037e8     vwdopt.obj
+ 0002:00000804       ??_R3CObject@@8            10003804     vwdopt.obj
+ 0002:00000814       ??_R2CObject@@8            10003814     vwdopt.obj
+ 0002:0000081c       ??_R4type_info@@6B@        1000381c     msvcrt:ti_inst.obj
+ 0002:00000830       ??_R3type_info@@8          10003830     msvcrt:ti_inst.obj
+ 0002:00000840       ??_R2type_info@@8          10003840     msvcrt:ti_inst.obj
+ 0002:00000848       ??_R1A@?0A@EA@type_info@@8 10003848     msvcrt:ti_inst.obj
+ 0002:00000870       ___safe_se_handler_table   10003870     <linker-defined>
+ 0002:00000898       ___rtc_iaa                 10003898     msvcrt:initsect.obj
+ 0002:0000089c       ___rtc_izz                 1000389c     msvcrt:initsect.obj
+ 0002:000008a0       ___rtc_taa                 100038a0     msvcrt:initsect.obj
+ 0002:000008a4       ___rtc_tzz                 100038a4     msvcrt:initsect.obj
+ 0002:00000b24       __IMPORT_DESCRIPTOR_JUtil  10003b24     jutil:JUtil.dll
+ 0002:00000b38       __IMPORT_DESCRIPTOR_MFC80  10003b38     mfc80:MFC80.DLL
+ 0002:00000b4c       __IMPORT_DESCRIPTOR_MSVCR80 10003b4c     msvcrt:MSVCR80.dll
+ 0002:00000b60       __IMPORT_DESCRIPTOR_KERNEL32 10003b60     kernel32:KERNEL32.dll
+ 0002:00000b74       __IMPORT_DESCRIPTOR_USER32 10003b74     user32:USER32.dll
+ 0002:00000b88       __IMPORT_DESCRIPTOR_ADVAPI32 10003b88     advapi32:ADVAPI32.dll
+ 0002:00000b9c       __NULL_IMPORT_DESCRIPTOR   10003b9c     jutil:JUtil.dll
+ 0003:00000000       __newmode                  10005000     newmode.obj
+ 0003:00000008       ??_R0?AVCViewDataOptionsPage@@@8 10005008     vwdopt.obj
+ 0003:0000002c       ??_R0?AVCPropertyPage@@@8  1000502c     vwdopt.obj
+ 0003:00000048       ??_R0?AVCDialog@@@8        10005048     vwdopt.obj
+ 0003:00000060       ??_R0?AVCWnd@@@8           10005060     vwdopt.obj
+ 0003:00000074       ??_R0?AVCCmdTarget@@@8     10005074     vwdopt.obj
+ 0003:00000090       ??_R0?AVCObject@@@8        10005090     vwdopt.obj
+ 0003:000000a8       ___security_cookie         100050a8     msvcrt:gs_cookie.obj
+ 0003:000000ac       ___security_cookie_complement 100050ac     msvcrt:gs_cookie.obj
+ 0003:000000b0       ??_R0?AVtype_info@@@8      100050b0     msvcrt:ti_inst.obj
+ 0003:000000d0       ___native_dllmain_reason   100050d0     msvcrt:natstart.obj
+ 0003:000000d4       ___native_vcclrit_reason   100050d4     msvcrt:natstart.obj
+ 0003:000000d8       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 100050d8     atls:atltrace.obj
+ 0003:00000104       __afxForceEXCLUDE          10005104     mfcs80:nolib.obj
+ 0003:00000108       __afxForceSTDAFX           10005108     mfcs80:stdafx.obj
+ 0003:00000434       ?__type_info_root_node@@3U__type_info_node@@A 10005434     msvcrt:tncleanup.obj
+ 0003:0000043c       __pActualRawDllMain        1000543c     <common>
+ 0003:00000440       __adjust_fdiv              10005440     <common>
+ 0003:00000444       ___native_startup_state    10005444     <common>
+ 0003:00000448       ___native_startup_lock     10005448     <common>
+ 0003:0000044c       ___onexitend               1000544c     <common>
+ 0003:00000450       ___onexitbegin             10005450     <common>
+ 0003:00000454       ___dyn_tls_init_callback   10005454     <common>
+
+ entry point at        0001:000013a7
+
+ Static symbols
+
+ 0001:000010a5       _pre_c_init                100020a5 f   msvcrt:crtdll.obj
+ 0001:00001291       ___DllMainCRTStartup       10002291 f   msvcrt:crtdll.obj
+ 0001:0000194b       __FindPESection            1000294b f   mfcs80:rawdllmainproxy.obj
+ 0001:00001985       __IsNonwritableInCurrentImage 10002985 f   mfcs80:rawdllmainproxy.obj
+ 0001:00001a30       __unwindfunclet$?InitViewDataResourceDll@@YAII@Z$0 10002a30 f   optnserv.obj
+ 0001:00001a3a       __ehhandler$?InitViewDataResourceDll@@YAII@Z 10002a3a f   optnserv.obj
+ 0001:00001a60       __unwindfunclet$?VWDCheckRegEntry@@YAKPAD0K@Z$0 10002a60 f   uomreg.obj
+ 0001:00001a69       __ehhandler$?VWDCheckRegEntry@@YAKPAD0K@Z 10002a69 f   uomreg.obj
+ 0001:00001a90       __unwindfunclet$?getRegUOMDefaults@@YAXPAIPAK@Z$0 10002a90 f   uomreg.obj
+ 0001:00001a99       __ehhandler$?getRegUOMDefaults@@YAXPAIPAK@Z 10002a99 f   uomreg.obj
+ 0001:00001ad0       __unwindfunclet$??0CViewDataOptionsPage@@QAE@XZ$0 10002ad0 f   vwdopt.obj
+ 0001:00001ad8       __unwindfunclet$??0CViewDataOptionsPage@@QAE@XZ$1 10002ad8 f   vwdopt.obj
+ 0001:00001ae7       __unwindfunclet$??0CViewDataOptionsPage@@QAE@XZ$2 10002ae7 f   vwdopt.obj
+ 0001:00001af6       __unwindfunclet$??0CViewDataOptionsPage@@QAE@XZ$3 10002af6 f   vwdopt.obj
+ 0001:00001aff       __ehhandler$??0CViewDataOptionsPage@@QAE@XZ 10002aff f   vwdopt.obj
+ 0001:00001b20       __unwindfunclet$??1CViewDataOptionsPage@@UAE@XZ$0 10002b20 f   vwdopt.obj
+ 0001:00001b28       __unwindfunclet$??1CViewDataOptionsPage@@UAE@XZ$1 10002b28 f   vwdopt.obj
+ 0001:00001b37       __unwindfunclet$??1CViewDataOptionsPage@@UAE@XZ$2 10002b37 f   vwdopt.obj
+ 0001:00001b46       __ehhandler$??1CViewDataOptionsPage@@UAE@XZ 10002b46 f   vwdopt.obj
+ 0001:00001b70       __unwindfunclet$?CreateObject@CViewDataOptionsPage@@SGPAVCObject@@XZ$0 10002b70 f   vwdopt.obj
+ 0001:00001b7a       __ehhandler$?CreateObject@CViewDataOptionsPage@@SGPAVCObject@@XZ 10002b7a f   vwdopt.obj
+ 0001:00001ba0       __unwindfunclet$?setDefaultUnitType@CViewDataOptionsPage@@QAEXIPAVCListBox@@@Z$0 10002ba0 f   vwdopt.obj
+ 0001:00001ba9       __ehhandler$?setDefaultUnitType@CViewDataOptionsPage@@QAEXIPAVCListBox@@@Z 10002ba9 f   vwdopt.obj
+ 0001:00001bd0       __unwindfunclet$?OnOK@CViewDataOptionsPage@@MAEXXZ$0 10002bd0 f   vwdopt.obj
+ 0001:00001bd9       __ehhandler$?OnOK@CViewDataOptionsPage@@MAEXXZ 10002bd9 f   vwdopt.obj
+ 0001:00001c10       __unwindfunclet$?OnInitDialog@CViewDataOptionsPage@@MAEHXZ$0 10002c10 f   vwdopt.obj
+ 0001:00001c19       __ehhandler$?OnInitDialog@CViewDataOptionsPage@@MAEHXZ 10002c19 f   vwdopt.obj

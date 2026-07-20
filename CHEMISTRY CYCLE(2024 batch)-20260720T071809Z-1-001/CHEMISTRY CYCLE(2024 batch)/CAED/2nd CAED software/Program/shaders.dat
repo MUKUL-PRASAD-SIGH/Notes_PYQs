@@ -1,0 +1,2735 @@
+################################################################################
+#
+#  File: C:\Temp\LightWorks75ER8_64bit\Install\lads\smdata\shaders.dat
+#  Produced by lishadgen ver. 2.3 - LightWorks shaders customisation utility 
+#  Sun Feb 19 09:40:44 2006
+#  Products: FND, RT, SESMAN, SKETCH, ADVGEOM, ADVOUT, 3DEXP, RTTBX, ADVREND, 
+#            ADVLIGHT, GLOBILL, HIDLIN, MAINTBX, ARCTBX, INDTBX, FX, CUSSHAD, 
+#            GUIFW
+#
+################################################################################
+
+#
+# $Id: //lw/QABUILD/75/lads/smdata/shaders.dat#47 $
+# RCSId at perforce import: sn_api.c,v 2.50 2002/03/08 11:27:00 mark LADS66_16651 $
+#
+# $File: //lw/QABUILD/75/lads/smdata/shaders.dat $
+# $Revision: #47 $
+# $Change: 22764 $
+# $Author: tomek $
+# $DateTime: 2005/10/11 11:36:39 $
+#
+# Description:
+#
+#    Session Manager shader definition file.
+#
+#    This file is compiled into a binary version for use with the Session
+#    Manager.
+#
+# Notes:
+#
+#    The indices are divided as follows:
+#
+#      0001 - 0019     Shader class values
+#      0020 - 1999     Shader prototype/argument values
+#      2000 - 2999     Shader enum/bitfield argument values
+#      3000 - 3899     Application use
+#      3900 - 3999     LightWorks internal use
+#      4000 - MAX      New
+#
+#    From "lisesman.h"
+#
+#       MAX = LI_SESMAN_FRAMEWORK_MESSAGE_OFFSET -
+#             LI_SESMAN_SHADERS_MESSAGE_OFFSET - 1
+#
+# Copyright Notice:
+#
+#    $Copyright: LightWork Design Ltd. 1989-2002, 2003 $
+#    All rights reserved.
+#
+#    This software and its associated documentation contains proprietary,
+#    confidential and trade secret information of LightWork Design Limited
+#    and may not be (a) disclosed to third parties, (b) copied in any form,
+#    or (c) used for any purpose except as specifically permitted in
+#    writing by LightWork Design Ltd.
+#
+
+#
+# Header info.
+#
+IDENT "LADS 7.5 ($Id: //lw/QABUILD/75/lads/smdata/shaders.dat#47 $)"
+
+VERSION 07050300
+
+#
+# ID  PID IDENT                                TYPE OPTIONS
+#
+   1    0 "colour"                            CLASS value=1
+   2    0 "reflectance"                       CLASS value=2
+   3    0 "transparency"                      CLASS value=3
+   4    0 "displacement"                      CLASS value=4
+   5    0 "texture space"                     CLASS value=5
+   6    0 "foreground"                        CLASS value=6
+   7    0 "background"                        CLASS value=7
+   8    0 "light"                             CLASS value=8
+  10    0 "filter"                            CLASS value=10
+  12    0 "tone"                              CLASS value=12
+  13    0 "post process"                      CLASS value=4456449
+  14    0 "interface"                         CLASS value=9175041
+  15    0 "pipeline"                          CLASS value=14
+  16    0 "vertex"                            CLASS value=15
+
+  20    1 "plain"                            SHADER superlite
+  21   20 "colour"                           COLOUR class(0)
+
+  22    1 "wrapped filtered image"           SHADER superlite
+  23   22 "file name"                      FILENAME class(0)
+  24   22 "filter colour"                    COLOUR class(1)
+ 967   22 "image"                           POINTER class(0)
+1450   22 "scale"                             FLOAT class(1)
+1451   22 "aspect ratio"                      FLOAT class(2)
+ 968   22 "softness"                          FLOAT class(2)
+
+  25    1 "wrapped image"                    SHADER superlite
+  26   25 "file name"                      FILENAME class(0)
+ 970   25 "image"                           POINTER class(0)
+1452   25 "scale"                             FLOAT class(1)
+1453   25 "aspect ratio"                      FLOAT class(2)
+ 971   25 "softness"                          FLOAT class(2)
+
+  27    2 "constant"                         SHADER superlite
+
+  28    2 "matte"                            SHADER superlite
+  29   28 "ambient factor"                    FLOAT class(1)
+  30   28 "diffuse factor"                    FLOAT class(0)
+
+  31    2 "metal"                            SHADER superlite
+  32   31 "ambient factor"                    FLOAT class(1)
+  33   31 "specular factor"                   FLOAT class(0)
+  34   31 "roughness"                         FLOAT class(2)
+
+  35    2 "phong"                            SHADER superlite
+  36   35 "ambient factor"                    FLOAT class(1)
+  37   35 "diffuse factor"                    FLOAT class(1)
+  38   35 "specular factor"                   FLOAT class(0)
+  39   35 "exponent"                          FLOAT class(2)
+  40   35 "specular colour"                  COLOUR class(2)
+
+  41    2 "plastic"                          SHADER superlite
+  42   41 "ambient factor"                    FLOAT class(1)
+  43   41 "diffuse factor"                    FLOAT class(0)
+  44   41 "specular factor"                   FLOAT class(0)
+  45   41 "roughness"                         FLOAT class(2)
+  46   41 "specular colour"                  COLOUR class(2)
+
+  47    3 "none"                             SHADER superlite
+
+  48    3 "plain"                            SHADER superlite
+  49   48 "colour"                           COLOUR class(0)
+
+  50    4 "none"                             SHADER superlite
+
+  51    5 "arbitrary plane"                  SHADER superlite
+  52   51 "scale"                             FLOAT class(0)
+  53   51 "aspect ratio"                      FLOAT class(1)
+  54   51 "origin"                            POINT class(2)
+  55   51 "normal vector"                    VECTOR class(2)
+##  56   51 "up vector"                        VECTOR class(2)
+  56   51 "up"                               VECTOR class(2)
+
+  57    5 "auto axis"                        SHADER superlite
+  58   57 "scale"                             FLOAT class(0)
+
+  59    5 "cylindrical"                      SHADER superlite
+  60   59 "scale around axis"                 FLOAT class(0)
+  61   59 "scale along axis"                  FLOAT class(0)
+  62   59 "centre point"                      POINT class(2)
+  63   59 "axis direction"                   VECTOR class(2)
+  64   59 "origin"                            POINT class(2)
+1779   59 "radius"                            FLOAT class(3)
+
+  65    5 "spherical"                        SHADER superlite
+  66   65 "latitude scale"                    FLOAT class(0)
+  67   65 "longitude scale"                   FLOAT class(0)
+  68   65 "centre point"                      POINT class(2)
+  69   65 "origin"                            POINT class(2)
+  70   65 "axis direction"                   VECTOR class(2)
+1780   65 "radius"                            FLOAT class(3)
+
+  71    5 "uv"                               SHADER superlite
+  72   71 "u scale"                           FLOAT class(0)
+  73   71 "v scale"                           FLOAT class(0)
+
+  74    5 "x plane"                          SHADER superlite
+  75   74 "scale"                             FLOAT class(0)
+
+  76    5 "y plane"                          SHADER superlite
+  77   76 "scale"                             FLOAT class(0)
+
+  78    5 "z plane"                          SHADER superlite
+  79   78 "scale"                             FLOAT class(0)
+
+  80    6 "none"                             SHADER superlite
+
+  81    7 "graduated"                        SHADER superlite
+  82   81 "top colour"                       COLOUR class(0)
+  83   81 "bottom colour"                    COLOUR class(0)
+
+  84    7 "image"                            SHADER superlite
+  85   84 "file name"                      FILENAME class(0)
+  86   84 "image"                           POINTER class(0)
+
+  87    7 "none"                             SHADER superlite
+
+  88    7 "plain"                            SHADER superlite
+  89   88 "colour"                           COLOUR class(0)
+
+  90    8 "ambient"                          SHADER superlite
+  91   90 "intensity"                         FLOAT class(0)
+  92   90 "colour"                           COLOUR class(0)
+
+  93    8 "distant"                          SHADER superlite
+  94   93 "intensity"                         FLOAT class(0)
+  95   93 "colour"                           COLOUR class(0)
+  96   93 "location"                          POINT class(1)
+  97   93 "to"                                POINT class(2)
+  98   93 "shadows"                         BOOLEAN class(2)
+  99   93 "shadow resolution"               INTEGER class(2)
+ 100   93 "shadow quality"                  INTEGER class(3)
+ 101   93 "shadow softness"                   FLOAT class(3)
+ 102   93 "intensity units"                    ENUM value=2011,class(2)
+ 103   93 "colour temperature"                FLOAT class(3)
+ 634   93 "shadow type"                        ENUM value=2101,class(2)
+ 635   93 "shadow transparency"            BITFIELD value=2114,class(3)
+ 636   93 "shadow acceleration"            BITFIELD value=2121,class(3)
+ 637   93 "scattering"                      BOOLEAN class(3)
+1051   93 "shadow tolerance"                  FLOAT class(3)
+
+ 104    8 "eye"                              SHADER superlite
+ 105  104 "intensity"                         FLOAT class(0)
+ 106  104 "colour"                           COLOUR class(0)
+
+ 107    8 "point"                            SHADER superlite
+ 108  107 "intensity"                         FLOAT class(0)
+ 109  107 "colour"                           COLOUR class(0)
+ 110  107 "location"                          POINT class(1)
+ 111  107 "fall off"                           ENUM value=2001,class(3)
+ 112  107 "shadows"                         BOOLEAN class(2)
+ 113  107 "shadow resolution"               INTEGER class(2)
+ 114  107 "shadow quality"                  INTEGER class(3)
+ 115  107 "shadow softness"                   FLOAT class(3)
+ 116  107 "colour temperature"                FLOAT class(2)
+ 117  107 "intensity units"                    ENUM value=2011,class(2)
+ 118  107 "scattering"                      BOOLEAN class(3)
+ 119  107 "fall off function"              FUNCTION obsolete,class(3)
+ 120  107 "fall off data"                   POINTER obsolete,class(3)
+ 121  107 "inverse fall off function"      FUNCTION obsolete,class(3)
+ 628  107 "shadow type"                        ENUM value=2101,class(2)
+ 629  107 "shadow transparency"            BITFIELD value=2114,class(3)
+ 630  107 "shadow acceleration"            BITFIELD value=2121,class(3)
+1055  107 "shadow tolerance"                  FLOAT class(3)
+1056  107 "forwards"                        BOOLEAN class(3)
+
+ 122    8 "spot"                             SHADER superlite
+ 123  122 "intensity"                         FLOAT class(0)
+ 124  122 "colour"                           COLOUR class(0)
+ 125  122 "location"                          POINT class(1)
+ 126  122 "to"                                POINT class(1)
+ 127  122 "fall off"                           ENUM value=2001,class(3)
+ 128  122 "cone angle"                        FLOAT class(2)
+ 129  122 "cone delta angle"                  FLOAT class(3)
+ 130  122 "beam distribution"                 FLOAT class(3)
+ 131  122 "shadows"                         BOOLEAN class(2)
+ 132  122 "shadow resolution"               INTEGER class(2)
+ 133  122 "shadow quality"                  INTEGER class(3)
+ 134  122 "shadow softness"                   FLOAT class(3)
+ 135  122 "colour temperature"                FLOAT class(2)
+ 136  122 "intensity units"                    ENUM value=2011,class(2)
+ 137  122 "scattering"                      BOOLEAN class(3)
+ 138  122 "fall off function"              FUNCTION obsolete,class(3)
+ 139  122 "fall off data"                   POINTER obsolete,class(3)
+ 140  122 "inverse fall off function"      FUNCTION obsolete,class(3)
+ 631  122 "shadow type"                        ENUM value=2101,class(2)
+ 632  122 "shadow transparency"            BITFIELD value=2114,class(3)
+ 633  122 "shadow acceleration"            BITFIELD value=2121,class(3)
+1064  122 "shadow tolerance"                  FLOAT class(3)
+1065  122 "forwards"                        BOOLEAN class(3),disabled
+
+ 141   12 "scale"                            SHADER superlite
+ 142  141 "scale factor"                      FLOAT class(1)
+1046  141 "auto setup shader name"           STRING class(2),disabled
+1047  141 "auto setup shader"               SH-POST class(2)
+
+ 143    1 "base"                             SHADER lite,disabled
+
+ 144    1 "blue marble"                      SHADER lite
+ 145  144 "scale"                             FLOAT class(1)
+ 146  144 "detail"                          INTEGER class(2)
+
+ 147    1 "chrome"                           SHADER lite
+ 148  147 "base colour"                      COLOUR class(0)
+ 149  147 "vector"                           VECTOR class(2)
+ 150  147 "mix"                               FLOAT class(2)
+
+ 151    1 "cubes"                            SHADER lite
+## 152  151 "size"                             FLOAT class(1),scale
+ 152  151 "scale"                             FLOAT class(1)
+ 153  151 "odd colour"                       COLOUR class(0)
+ 154  151 "even colour"                      COLOUR class(0)
+
+ 155    1 "marble"                           SHADER lite
+ 156  155 "scale"                             FLOAT class(1)
+ 157  155 "detail"                          INTEGER class(2)
+ 158  155 "ground colour"                    COLOUR class(0)
+ 159  155 "vein colour"                      COLOUR class(0)
+ 160  155 "vein contrast"                     FLOAT class(3)
+ 161  155 "grain"                             FLOAT class(2)
+ 162  155 "grain scale"                       FLOAT class(2)
+
+ 163    1 "simple wood"                      SHADER lite
+ 164  163 "scale"                             FLOAT class(1)
+ 165  163 "light wood colour"                COLOUR class(0)
+ 166  163 "dark wood colour"                 COLOUR class(0)
+ 167  163 "point on axis"                     POINT class(1)
+ 168  163 "axis direction"                   VECTOR class(1)
+ 169  163 "noise"                             FLOAT class(3)
+
+ 170    1 "solid clouds"                     SHADER lite
+ 171  170 "scale"                             FLOAT class(1)
+ 172  170 "background colour"                COLOUR class(0)
+ 173  170 "clouds colour"                    COLOUR class(0)
+ 174  170 "detail"                          INTEGER class(2)
+
+ 175    1 "solid polka"                      SHADER lite
+ 176  175 "scale"                             FLOAT class(1)
+ 177  175 "separation"                        FLOAT class(1)
+ 178  175 "radius"                            FLOAT class(1)
+ 179  175 "edge softness"                     FLOAT class(2)
+ 180  175 "background colour"                COLOUR class(0)
+ 181  175 "spot colour"                      COLOUR class(0)
+
+ 182    1 "wrapped brick"                    SHADER lite
+ 183  182 "scale"                             FLOAT class(1)
+ 184  182 "brick width"                       FLOAT class(1)
+ 185  182 "brick height"                      FLOAT class(1)
+ 186  182 "mortar size"                       FLOAT class(2)
+ 187  182 "brick colour"                     COLOUR class(0)
+ 188  182 "mortar colour"                    COLOUR class(0)
+ 965  182 "fuzz"                              FLOAT class(2)
+
+ 189    1 "wrapped checker"                  SHADER lite
+## 190  189 "size"                              FLOAT class(1)
+ 190  189 "scale"                             FLOAT class(1)
+ 191  189 "odd colour"                       COLOUR class(0)
+ 192  189 "even colour"                      COLOUR class(0)
+ 966  189 "fuzz"                              FLOAT class(2)
+
+ 193    1 "wrapped diagonal"                 SHADER lite
+## 194  193 "size"                              FLOAT class(1)
+ 194  193 "scale"                             FLOAT class(1)
+ 195  193 "width"                             FLOAT class(1)
+ 196  193 "background colour"                COLOUR class(0)
+ 197  193 "stripe colour"                    COLOUR class(0)
+ 198  193 "fuzz"                              FLOAT class(2)
+
+ 199    1 "wrapped grid"                     SHADER lite
+ 200  199 "scale"                             FLOAT class(1)
+ 201  199 "width"                             FLOAT class(1)
+ 202  199 "height"                            FLOAT class(1)
+ 203  199 "grid size"                         FLOAT class(2)
+ 204  199 "grid colour"                      COLOUR class(0)
+ 205  199 "background colour"                COLOUR class(0)
+ 969  199 "fuzz"                              FLOAT class(2)
+
+ 206    1 "wrapped polka"                    SHADER lite
+ 207  206 "scale"                             FLOAT class(1)
+ 208  206 "separation"                        FLOAT class(1)
+ 209  206 "radius"                            FLOAT class(1)
+ 210  206 "edge softness"                     FLOAT class(2)
+ 211  206 "background colour"                COLOUR class(0)
+ 212  206 "spot colour"                      COLOUR class(0)
+
+ 213    1 "wrapped s stripe"                 SHADER lite
+## 214  213 "size"                              FLOAT class(1)
+ 214  213 "scale"                             FLOAT class(1)
+ 215  213 "width"                             FLOAT class(1)
+ 216  213 "background colour"                COLOUR class(0)
+ 217  213 "stripe colour"                    COLOUR class(0)
+ 218  213 "fuzz"                              FLOAT class(2)
+
+ 219    1 "wrapped t stripe"                 SHADER lite
+## 220  219 "size"                              FLOAT class(1)
+ 220  219 "scale"                             FLOAT class(1)
+ 221  219 "width"                             FLOAT class(1)
+ 222  219 "background colour"                COLOUR class(0)
+ 223  219 "stripe colour"                    COLOUR class(0)
+ 224  219 "fuzz"                              FLOAT class(2)
+
+ 225    1 "wrapped textured brick"           SHADER lite
+ 226  225 "scale"                             FLOAT class(1)
+ 227  225 "brick width"                       FLOAT class(1)
+ 228  225 "brick height"                      FLOAT class(1)
+ 229  225 "mortar size"                       FLOAT class(2)
+ 230  225 "brick colour 1"                   COLOUR class(0)
+ 231  225 "brick colour 2"                   COLOUR class(0)
+ 232  225 "mortar colour"                    COLOUR class(0)
+ 233  225 "rough scale"                       FLOAT class(1)
+ 234  225 "rough amplitude"                   FLOAT class(2)
+ 235  225 "offset"                            FLOAT class(2)
+ 972  225 "fuzz"                              FLOAT class(2)
+
+ 236    2 "base"                             SHADER lite,disabled
+
+ 237    2 "chrome 2D"                        SHADER lite
+ 238  237 "ambient factor"                    FLOAT class(1)
+ 239  237 "diffuse factor"                    FLOAT class(1)
+ 240  237 "specular factor"                   FLOAT class(0)
+ 241  237 "chrome factor"                     FLOAT class(2)
+ 242  237 "roughness"                         FLOAT class(2)
+
+ 243    3 "base"                             SHADER lite,disabled
+
+ 244    3 "eroded"                           SHADER lite
+ 245  244 "scale"                             FLOAT class(1)
+ 246  244 "coverage"                          FLOAT class(0)
+ 247  244 "fuzz"                              FLOAT class(2)
+
+ 248    3 "wrapped checker"                  SHADER lite
+## 249  248 "size"                              FLOAT class(1)
+ 249  248 "scale"                             FLOAT class(1)
+ 250  248 "odd coverage"                      FLOAT class(0)
+ 251  248 "even coverage"                     FLOAT class(0)
+ 977  248 "fuzz"                              FLOAT class(2)
+
+ 252    3 "wrapped grid"                     SHADER lite
+ 253  252 "scale"                             FLOAT class(1)
+ 254  252 "width"                             FLOAT class(1)
+ 255  252 "height"                            FLOAT class(1)
+ 256  252 "grid size"                         FLOAT class(2)
+ 257  252 "transparency"                      FLOAT class(2)
+ 978  252 "fuzz"                              FLOAT class(2)
+
+ 258    3 "wrapped image"                    SHADER lite
+ 259  258 "file name"                      FILENAME class(0)
+ 959  258 "image"                           POINTER class(0)
+1456  258 "scale"                             FLOAT class(1)
+1457  258 "aspect ratio"                      FLOAT class(2)
+ 960  258 "softness"                          FLOAT class(2)
+
+ 260    3 "wrapped mask"                     SHADER lite
+ 261  260 "file name"                      FILENAME class(0)
+ 961  260 "image"                           POINTER class(0)
+ 962  260 "softness"                          FLOAT class(1)
+1458  260 "scale"                             FLOAT class(1)
+1459  260 "aspect ratio"                      FLOAT class(2)
+
+ 262    3 "wrapped square"                   SHADER lite
+ 263  262 "s min"                             FLOAT class(1)
+ 264  262 "s max"                             FLOAT class(1)
+ 265  262 "t min"                             FLOAT class(1)
+ 266  262 "t max"                             FLOAT class(1)
+ 267  262 "s fuzz"                            FLOAT class(2)
+ 268  262 "t fuzz"                            FLOAT class(2)
+ 269  262 "inside coverage"                   FLOAT class(2)
+ 270  262 "outside coverage"                  FLOAT class(2)
+1463  262 "scale"                             FLOAT class(2)
+
+ 271    4 "casting"                          SHADER lite
+ 272  271 "scale"                             FLOAT class(1)
+ 273  271 "casting amplitude"                 FLOAT class(1)
+ 274  271 "dented amplitude"                  FLOAT class(1)
+ 275  271 "dented scale"                      FLOAT class(1)
+ 276  271 "dented threshold"                  FLOAT class(2)
+ 277  271 "detail"                          INTEGER class(2)
+
+## 278    4 "flat"                             SHADER lite,disabled
+
+ 279    4 "rough"                            SHADER lite
+ 280  279 "scale"                             FLOAT class(1)
+ 281  279 "amplitude"                         FLOAT class(1)
+ 282  279 "detail"                          INTEGER class(1)
+ 283  279 "sharpness"                       INTEGER class(2)
+
+ 284    4 "wrapped bump map"                 SHADER lite
+ 285  284 "file name"                      FILENAME class(0)
+ 286  284 "amplitude"                         FLOAT class(1)
+ 975  284 "image"                           POINTER class(0)
+ 976  284 "softness"                          FLOAT class(1)
+1460  284 "scale"                             FLOAT class(1)
+1461  284 "aspect ratio"                      FLOAT class(2)
+
+ 287    4 "wrapped dimple"                   SHADER lite
+ 288  287 "scale"                             FLOAT class(1)
+ 289  287 "separation"                        FLOAT class(1)
+ 290  287 "radius"                            FLOAT class(1)
+ 291  287 "centre depth"                      FLOAT class(2)
+ 292  287 "blend"                             FLOAT class(2)
+
+ 293    4 "wrapped knurl"                    SHADER lite
+ 294  293 "scale"                             FLOAT class(1)
+ 295  293 "blend"                             FLOAT class(1)
+ 296  293 "amplitude"                         FLOAT class(1)
+
+## 297    4 "wrapped old bump map"             SHADER obsolete,lite
+## 298  297 "file name"                      FILENAME class(0)
+## 299  297 "scale"                             FLOAT class(1)
+## 300  297 "amplitude"                         FLOAT class(1)
+
+ 301    4 "wrapped rough"                    SHADER lite
+ 302  301 "scale"                             FLOAT class(1)
+ 303  301 "amplitude"                         FLOAT class(1)
+ 304  301 "detail"                          INTEGER class(2)
+ 305  301 "sharpness"                       INTEGER class(2)
+
+ 306    4 "wrapped tread plate"              SHADER lite
+ 307  306 "scale"                             FLOAT class(1)
+ 308  306 "radius"                            FLOAT class(1)
+ 309  306 "amplitude"                         FLOAT class(1)
+ 310  306 "blend"                             FLOAT class(2)
+
+ 311    6 "depth cue"                        SHADER lite
+ 312  311 "near"                              FLOAT class(1)
+ 313  311 "far"                               FLOAT class(1)
+ 314  311 "background colour"                COLOUR class(0)
+
+ 315    6 "fog"                              SHADER lite
+ 316  315 "distance"                          FLOAT class(1)
+ 317  315 "fog colour"                       COLOUR class(0)
+ 318  315 "max density"                       FLOAT class(0)
+ 319  315 "ignore background"               BOOLEAN class(2)
+
+ 320    6 "snow"                             SHADER lite
+ 321  320 "near scale"                        FLOAT class(1)
+ 322  320 "far scale"                         FLOAT class(1)
+ 323  320 "flake size"                        FLOAT class(1)
+ 324  320 "flake density"                     FLOAT class(2)
+ 325  320 "noise amplitude"                   FLOAT class(2)
+ 326  320 "noise scale"                       FLOAT class(1)
+ 327  320 "flake colour"                     COLOUR class(0)
+1070  320 "random seed"                     INTEGER class(3),disabled
+
+ 328    7 "clouds"                           SHADER lite
+ 329  328 "scale"                             FLOAT class(1)
+ 330  328 "background colour"                COLOUR class(0)
+ 331  328 "clouds colour"                    COLOUR class(0)
+ 332  328 "detail"                          INTEGER class(2)
+
+ 333    7 "mixed"                            SHADER lite
+ 334  333 "base shader"                    SH-BACKG class(1)
+ 335  333 "mixed shader"                   SH-BACKG class(1)
+ 336  333 "mixing ratio"                      FLOAT class(1)
+
+ 337    7 "scaled image"                     SHADER lite
+ 338  337 "file name"                      FILENAME class(0)
+ 339  337 "image"                           POINTER class(0)
+## 340  337 "rotation"                          FLOAT class(1)
+ 340  337 "rotation"                           ENUM value=2252,class(1)
+## 341  337 "keep aspect"                     BOOLEAN class(2)
+ 341  337 "aspect mode"                        ENUM value=2420,class(2)
+ 342  337 "keep texture"                    BOOLEAN class(2)
+ 979  337 "softness"                          FLOAT class(1)
+1447  337 "x offset"                          FLOAT class(1)
+1448  337 "y offset"                          FLOAT class(1)
+1449  337 "image brightness"                  FLOAT class(1)
+
+
+ 343    1 "decal"                            SHADER classic,disabled
+ 344  343 "decal texture space"            SH-TEXSP class(1)
+ 345  343 "decal transparency"             SH-TRANS class(1)
+ 346  343 "decal colour"                     SH-COL class(1)
+ 347  343 "base colour"                      SH-COL class(2)
+
+ 348    2 "conductor"                        SHADER classic
+ 349  348 "ambient factor"                    FLOAT class(1)
+ 350  348 "diffuse factor"                    FLOAT class(0)
+ 351  348 "specular factor"                   FLOAT class(1)
+ 352  348 "mirror factor"                     FLOAT class(0)
+ 353  348 "roughness"                         FLOAT class(2)
+ 354  348 "refraction red"                    FLOAT class(2)
+ 355  348 "refraction green"                  FLOAT class(2)
+ 356  348 "refraction blue"                   FLOAT class(2)
+ 357  348 "absorption red"                    FLOAT class(2)
+ 358  348 "absorption green"                  FLOAT class(2)
+ 359  348 "absorption blue"                   FLOAT class(2)
+
+ 360    2 "dielectric"                       SHADER classic
+ 361  360 "ambient factor"                    FLOAT class(1)
+ 362  360 "diffuse factor"                    FLOAT class(0)
+ 363  360 "specular factor"                   FLOAT class(1)
+ 364  360 "transmission factor"               FLOAT class(1)
+ 365  360 "mirror factor"                     FLOAT class(0)
+ 366  360 "roughness"                         FLOAT class(2)
+ 367  360 "refraction"                        FLOAT class(2)
+
+ 368    2 "environment"                      SHADER classic
+ 369  368 "ambient factor"                    FLOAT class(1)
+ 370  368 "diffuse factor"                    FLOAT class(1)
+ 371  368 "specular factor"                   FLOAT class(0)
+ 372  368 "environment factor"                FLOAT class(1)
+ 373  368 "roughness"                         FLOAT class(2)
+ 374  368 "angle scale"                       FLOAT class(1)
+
+ 375    2 "glass"                            SHADER classic
+ 376  375 "specular factor"                   FLOAT class(1)
+ 377  375 "transmission factor"               FLOAT class(0)
+ 378  375 "mirror factor"                     FLOAT class(0)
+ 379  375 "roughness"                         FLOAT class(2)
+ 380  375 "refraction"                        FLOAT class(0)
+
+ 381    2 "mirror"                           SHADER classic
+ 382  381 "ambient factor"                    FLOAT class(1)
+ 383  381 "diffuse factor"                    FLOAT class(0)
+ 384  381 "specular factor"                   FLOAT class(1)
+ 385  381 "mirror factor"                     FLOAT class(0)
+ 386  381 "roughness"                         FLOAT class(2)
+
+ 387    2 "wrapped mirror map"               SHADER classic
+ 388  387 "ambient factor"                    FLOAT class(1)
+ 389  387 "diffuse factor"                    FLOAT class(0)
+ 390  387 "specular factor"                   FLOAT class(1)
+ 391  387 "mirror factor"                     FLOAT class(0)
+1454  387 "scale"                             FLOAT class(1)
+1455  387 "aspect ratio"                      FLOAT class(2)
+ 392  387 "roughness"                         FLOAT class(2)
+ 393  387 "image"                           POINTER class(0)
+ 394  387 "file name"                      FILENAME class(0)
+ 964  387 "softness"                          FLOAT class(2)
+
+ 395    6 "fog light"                        SHADER classic
+ 396  395 "fog density"                       FLOAT class(0)
+
+ 397    6 "ground fog"                       SHADER classic
+ 398  397 "fog distance"                      FLOAT class(1)
+ 399  397 "fog height"                        FLOAT class(0)
+ 400  397 "fog colour"                       COLOUR class(0)
+ 401  397 "ground point"                      POINT class(2)
+ 402  397 "ground normal"                    VECTOR class(2)
+1068  397 "max density"                       FLOAT class(1)
+1069  397 "ignore background"               BOOLEAN class(1)
+
+ 403    7 "environment"                      SHADER classic
+ 404  403 "intensity"                         FLOAT class(1)
+ 405  403 "angle"                             FLOAT class(1)
+1628  403 "use global environment"          BOOLEAN class(1)
+1629  403 "environment"                    IF-ENVMP class(1)
+
+ 406    7 "ray cube"                         SHADER classic
+ 407  406 "primary shader"                 SH-BACKG class(1)
+ 408  406 "secondary shader"               SH-BACKG class(1)
+1066  406 "reflected shader"               SH-BACKG class(1)
+1067  406 "refracted shader"               SH-BACKG class(1)
+
+ 409    7 "two planes"                       SHADER classic
+ 410  409 "back shader"                    SH-BACKG class(1)
+ 411  409 "front shader"                   SH-BACKG class(1)
+ 412  409 "distance"                          FLOAT class(1)
+ 413  409 "back extrapolation"                 ENUM value=2020,class(2)
+ 414  409 "front extrapolation"                ENUM value=2020,class(2)
+
+ 415    8 "projector"                        SHADER classic
+ 416  415 "intensity"                         FLOAT class(0)
+ 417  415 "colour"                           COLOUR class(0)
+ 418  415 "location"                          POINT class(1)
+ 419  415 "to"                                POINT class(1)
+ 420  415 "fall off"                           ENUM value=2001,class(2)
+ 421  415 "fall off function"              FUNCTION obsolete,class(2)
+ 422  415 "fall off data"                   POINTER obsolete,class(2)
+ 423  415 "angle"                             FLOAT class(2)
+ 424  415 "shadows"                         BOOLEAN class(2)
+ 425  415 "shadow resolution"               INTEGER class(2)
+ 426  415 "shadow quality"                  INTEGER class(3)
+ 427  415 "shadow softness"                   FLOAT class(3)
+ 428  415 "file name"                      FILENAME class(0)
+## 429  415 "up vector"                        VECTOR class(2)
+ 429  415 "up"                               VECTOR class(2)
+ 430  415 "scattering"                      BOOLEAN class(3)
+ 431  415 "inverse fall off function"      FUNCTION obsolete,class(2)
+ 432  415 "intensity units"                    ENUM value=2011,class(2)
+ 433  415 "colour temperature"                FLOAT class(2)
+ 949  415 "shadow type"                        ENUM value=2101,class(2)
+ 950  415 "shadow transparency"            BITFIELD value=2114,class(3)
+ 951  415 "shadow acceleration"            BITFIELD value=2121,class(3)
+ 952  415 "image"                           POINTER class(0)
+ 953  415 "softness"                          FLOAT class(2)
+1057  415 "shadow tolerance"                  FLOAT class(3)
+1058  415 "forwards"                        BOOLEAN class(3),disabled
+
+
+ 436    1 "absolute curvature"               SHADER pro
+ 437  436 "min curvature"                     FLOAT class(1)
+ 438  436 "max curvature"                     FLOAT class(1)
+
+ 439    1 "gaussian curvature"               SHADER pro
+ 440  439 "min curvature"                     FLOAT class(1)
+ 441  439 "max curvature"                     FLOAT class(1)
+
+ 442    1 "geometric curvature"              SHADER pro
+ 443  442 "min cut off"                       FLOAT class(1)
+ 444  442 "max cut off"                       FLOAT class(1)
+ 445  442 "min cut off colour"               COLOUR class(1)
+ 446  442 "max cut off colour"               COLOUR class(1)
+ 447  442 "curvature type"                     ENUM value=2030,class(2)
+ 448  442 "curvature division"              INTEGER class(2)
+ 449  442 "colour array"                    POINTER class(2)
+
+ 450    1 "mean curvature"                   SHADER pro
+ 451  450 "min curvature"                     FLOAT class(1)
+ 452  450 "max curvature"                     FLOAT class(1)
+
+ 453    1 "surface evaluation"               SHADER pro
+ 454  453 "base colour"                      COLOUR class(1)
+ 455  453 "band colour"                      COLOUR class(1)
+ 456  453 "centre"                            POINT class(1)
+## 457  453 "axis"                            INTEGER class(2)
+ 457  453 "axis"                               ENUM value=2246,class(2)
+ 458  453 "radius"                            FLOAT class(2)
+ 459  453 "bands"                           INTEGER class(2)
+ 460  453 "coverage"                          FLOAT class(2)
+ 461  453 "fuzz"                              FLOAT class(2)
+ 462  453 "min angle"                         FLOAT class(2)
+1464  453 "scale"                             FLOAT class(2)
+
+
+## 466    2 "radiosity mirror"                 SHADER obsolete,disabled
+## 467  466 "ambient factor"                    FLOAT class(1)
+## 468  466 "diffuse factor"                    FLOAT class(1)
+## 469  466 "specular factor"                   FLOAT class(1)
+## 470  466 "mirror factor"                     FLOAT class(2)
+## 471  466 "roughness"                         FLOAT class(2)
+
+## 472    2 "radiosity plastic"                SHADER obsolete,disabled
+## 473  472 "ambient factor"                    FLOAT class(1)
+## 474  472 "diffuse factor"                    FLOAT class(1)
+## 475  472 "specular factor"                   FLOAT class(1)
+## 476  472 "roughness"                         FLOAT class(2)
+## 477  472 "specular colour"                  COLOUR class(1)
+
+ 478    2 "radiosity stepped false"          SHADER pro
+ 479  478 "ambient"                          COLOUR obsolete,class(1)
+ 480  478 "gain"                              FLOAT obsolete,class(1)
+ 481  478 "steps"                           INTEGER class(1)
+ 482  478 "min"                               FLOAT class(2)
+ 483  478 "max"                               FLOAT class(2)
+ 484  478 "min colour"                       COLOUR class(1)
+ 485  478 "max colour"                       COLOUR class(1)
+ 486  478 "colour 1"                         COLOUR class(1)
+ 487  478 "colour 2"                         COLOUR class(1)
+ 488  478 "colour 3"                         COLOUR class(1)
+ 489  478 "colour 4"                         COLOUR class(1)
+ 490  478 "colour 5"                         COLOUR class(1)
+ 491  478 "colour 6"                         COLOUR class(1)
+ 492  478 "colour 7"                         COLOUR class(1)
+ 493  478 "colour 8"                         COLOUR class(1)
+ 494  478 "colour 9"                         COLOUR class(1)
+ 963  478 "incident"                        BOOLEAN class(1)
+1072  478 "diffuse factor"                    FLOAT class(1)
+1229  478 "logarithmic"                     BOOLEAN class(2)
+
+ 495    2 "translucency"                     SHADER pro
+ 496  495 "ambient factor"                    FLOAT class(1)
+ 497  495 "translucency factor"               FLOAT class(1)
+1073  495 "diffuse factor"                    FLOAT class(1)
+
+ 498    2 "translucent plastic"              SHADER pro
+ 499  498 "ambient factor"                    FLOAT class(1)
+ 500  498 "diffuse factor"                    FLOAT class(1)
+ 501  498 "specular factor"                   FLOAT class(0)
+ 502  498 "roughness"                         FLOAT class(2)
+ 503  498 "specular colour"                  COLOUR class(0)
+ 504  498 "translucency factor"               FLOAT class(2)
+
+ 505    2 "wrapped anisotropic"              SHADER pro
+ 506  505 "ambient factor"                    FLOAT class(1)
+ 507  505 "diffuse factor"                    FLOAT class(1)
+ 508  505 "specular factor"                   FLOAT class(0)
+ 509  505 "roughness"                         FLOAT class(2)
+ 510  505 "specular colour"                  COLOUR class(0)
+ 511  505 "floor height"                      FLOAT class(2)
+ 512  505 "cylinder distance"                 FLOAT class(2)
+
+ 513    2 "wrapped circular anisotropic"     SHADER pro
+ 514  513 "ambient factor"                    FLOAT class(1)
+ 515  513 "diffuse factor"                    FLOAT class(1)
+ 516  513 "specular factor"                   FLOAT class(0)
+ 517  513 "roughness"                         FLOAT class(2)
+ 518  513 "specular colour"                  COLOUR class(0)
+ 519  513 "floor height"                      FLOAT class(2)
+ 520  513 "cylinder distance"                 FLOAT class(2)
+1462  513 "scale"                             FLOAT class(2)
+ 521  513 "width"                             FLOAT class(2)
+ 522  513 "height"                            FLOAT class(2)
+
+ 523    2 "wrapped woven anisotropic"        SHADER pro
+ 524  523 "ambient factor"                    FLOAT class(1)
+ 525  523 "diffuse factor"                    FLOAT class(1)
+ 526  523 "specular factor"                   FLOAT class(0)
+ 527  523 "roughness"                         FLOAT class(2)
+ 528  523 "specular colour"                  COLOUR class(0)
+ 529  523 "floor height"                      FLOAT class(2)
+ 530  523 "cylinder distance"                 FLOAT class(2)
+ 531  523 "bias"                              FLOAT class(1)
+
+ 532    3 "glow"                             SHADER pro
+ 533  532 "centre coverage"                   FLOAT class(0)
+ 534  532 "edge coverage"                     FLOAT class(0)
+ 535  532 "zero angle"                        FLOAT class(1)
+ 536  532 "edge falloff"                      FLOAT class(2)
+ 537  532 "noise density"                     FLOAT class(2)
+ 538  532 "detail"                          INTEGER class(2)
+ 539  532 "scale"                             FLOAT class(1)
+
+ 540    4 "wrapped leather"                  SHADER pro
+ 541  540 "scale"                             FLOAT class(1)
+ 542  540 "cell amplitude"                    FLOAT class(1)
+ 543  540 "irregularity"                      FLOAT class(1)
+ 544  540 "smooth min"                        FLOAT class(2)
+ 545  540 "smooth max"                        FLOAT class(2)
+ 546  540 "rough amplitude"                   FLOAT class(2)
+ 547  540 "rough detail"                    INTEGER class(2)
+ 548  540 "rough frequency"                   FLOAT class(2)
+ 549  540 "curve amplitude"                   FLOAT class(2)
+ 550  540 "curve detail"                    INTEGER class(2)
+ 551  540 "curve frequency"                   FLOAT class(2)
+ 552  540 "fold amplitude"                    FLOAT class(2)
+ 553  540 "fold detail"                     INTEGER class(2)
+ 554  540 "fold frequency"                    FLOAT class(2)
+
+ 555    6 "light scattering"                 SHADER obsolete,pro
+ 556  555 "fog density"                       FLOAT class(1)
+ 557  555 "samples"                         INTEGER class(1)
+ 558  555 "AA threshold"                      FLOAT class(1)
+ 559  555 "AA level"                        INTEGER class(2)
+ 560  555 "max depth"                         FLOAT class(2)
+ 561  555 "falloff threshold"                 FLOAT class(2)
+ 562  555 "source attenuation"                FLOAT class(2)
+ 563  555 "surface attenuation"               FLOAT class(2)
+ 564  555 "volume attenuation"                FLOAT class(2)
+ 565  555 "scattering model"                   ENUM value=2041,class(2)
+ 566  555 "eccentricity"                      FLOAT class(2)
+ 567  555 "noise octaves"                   INTEGER class(2)
+ 568  555 "noise amplitude"                   FLOAT class(2)
+ 569  555 "noise scale"                       FLOAT class(1)
+ 570  555 "noise gain"                        FLOAT class(2)
+ 571  555 "bounds"                          BOOLEAN class(2)
+ 572  555 "bounds volume"                    BOUNDS class(2)
+
+ 573    8 "area"                             SHADER pro
+ 585  573 "intensity"                         FLOAT class(0)
+ 576  573 "colour"                           COLOUR class(0)
+ 574  573 "primitive"                          PRIM class(1)
+ 575  573 "shadows"                         BOOLEAN class(1)
+ 577  573 "colour temperature"                FLOAT class(2)
+ 578  573 "noise factor"                      FLOAT class(2)
+ 579  573 "min lod"                           FLOAT class(2)
+ 580  573 "mid lod"                           FLOAT obsolete,class(2)
+ 581  573 "max lod"                           FLOAT class(2)
+ 582  573 "error bound"                       FLOAT class(2)
+ 583  573 "shadow resolution"               INTEGER class(2)
+ 584  573 "shadow quality"                  INTEGER class(3)
+ 586  573 "intensity units"                    ENUM value=2011,class(2)
+ 954  573 "shadow softness"                   FLOAT class(3)
+ 955  573 "shadow type"                        ENUM value=2101,class(2)
+ 956  573 "shadow transparency"            BITFIELD value=2114,class(3)
+ 957  573 "shadow acceleration"            BITFIELD value=2121,class(3)
+ 958  573 "scattering"                      BOOLEAN class(3)
+1048  573 "shadow tolerance"                  FLOAT class(3)
+1049  573 "forwards"                        BOOLEAN class(3),disabled
+1050  573 "fall off"                           ENUM value=2001,class(2)
+1225  573 "colour filtering"                BOOLEAN class(3)
+
+ 587    8 "goniometric"                      SHADER pro
+ 588  587 "intensity"                         FLOAT class(0)
+ 589  587 "colour"                           COLOUR class(0)
+ 607  587 "location"                          POINT class(1)
+ 592  587 "to"                                POINT class(2)
+ 593  587 "equator zero"                      POINT class(2)
+ 594  587 "fall off"                           ENUM value=2001,class(2)
+ 595  587 "shadows"                         BOOLEAN class(2)
+ 596  587 "shadow resolution"               INTEGER class(2)
+ 597  587 "shadow quality"                  INTEGER class(3)
+ 598  587 "shadow softness"                   FLOAT class(3)
+ 590  587 "colour temperature"                FLOAT class(1)
+ 605  587 "intensity units"                    ENUM value=2011,class(2)
+ 601  587 "scattering"                      BOOLEAN class(3)
+ 591  587 "from"                              POINT obsolete,class(2)
+ 599  587 "file name"                      FILENAME class(1)
+1684  587 "image"                           POINTER class(2)
+ 606  587 "power from file"                   FLOAT class(2)
+ 600  587 "handle"                          POINTER obsolete,class(2)
+ 602  587 "fall off function"              FUNCTION obsolete,class(2)
+ 603  587 "fall off data"                   POINTER obsolete,class(2)
+ 604  587 "inverse fall off function"      FUNCTION obsolete,class(2)
+ 608  587 "shadow type"                        ENUM value=2101,class(2)
+ 609  587 "shadow transparency"            BITFIELD value=2114,class(3)
+ 610  587 "shadow acceleration"            BITFIELD value=2121,class(3)
+1052  587 "shadow tolerance"                  FLOAT class(3)
+ 611  587 "data"                            POINTER class(2)
+ 612  587 "emission"                        POINTER class(2)
+ 613  587 "normalise"                       POINTER class(2)
+ 614  587 "free"                            POINTER class(2)
+1053  587 "forwards"                        BOOLEAN class(3),disabled
+
+ 615    8 "sky"                              SHADER pro
+ 616  615 "filter colour"                    COLOUR obsolete,class(1)
+ 617  615 "shadows"                         BOOLEAN class(2)
+ 618  615 "sun altitude"                      FLOAT class(1)
+ 619  615 "sun azimuth"                       FLOAT class(2)
+ 620  615 "type"                               ENUM value=2051,class(2)
+ 621  615 "north"                            VECTOR class(2)
+ 622  615 "up"                               VECTOR class(2)
+ 623  615 "zenith luminance"                  FLOAT obsolete,class(2)
+ 624  615 "complexity"                        FLOAT obsolete,class(2)
+ 625  615 "colour temperature"                FLOAT class(2)
+ 626  615 "spectral distribution"              ENUM obsolete,value=2061,class(2)
+ 627  615 "handle"                          POINTER obsolete,class(2)
+1059  615 "colour"                           COLOUR class(1)
+1060  615 "intensity"                         FLOAT class(1)
+1061  615 "intensity units"                    ENUM value=2011,class(2)
+1062  615 "min lod"                           FLOAT class(2)
+1063  615 "shadow transparency"            BITFIELD value=2114,class(3)
+1226  615 "max lod"                           FLOAT class(2)
+1227  615 "error bound"                       FLOAT class(3)
+1228  615 "noise factor"                      FLOAT class(2)
+
+#
+# New to LADS 5.0
+#
+# New shader args for LADS 5.0
+#
+#    [628 - 630] point light
+#    [631 - 633] spot light
+#    [634 - 637] area light
+#
+# New shaders
+#
+
+ 638    2 "decal"                            SHADER classic,disabled
+ 639  638 "selector"                       SH-TRANS class(1)
+ 640  638 "decal texture space"            SH-TEXSP class(1)
+ 641  638 "base displacement"              SH-DISPL class(1)
+ 642  638 "decal displacement"             SH-DISPL class(1)
+ 643  638 "base transparency"              SH-TRANS class(1)
+ 644  638 "decal transparency"             SH-TRANS class(1)
+ 645  638 "base colour"                      SH-COL class(1)
+ 646  638 "decal colour"                     SH-COL class(1)
+ 647  638 "base reflectance"                SH-REFL class(1)
+ 648  638 "decal reflectance"               SH-REFL class(1)
+ 649  638 "transmission factor"               FLOAT disabled,class(2)
+1071  638 "keep base texture space"         BOOLEAN class(2)
+1221  638 "transparency mode"                  ENUM value=2227,class(2)
+
+ 650    1 "draft angle evaluation"           SHADER pro
+ 651  650 "pull direction"                   VECTOR class(1)
+ 652  650 "draft angle"                       FLOAT class(1)
+ 653  650 "tolerance angle"                   FLOAT class(1)
+ 654  650 "pass colour"                      COLOUR class(1)
+ 655  650 "warning colour"                   COLOUR class(1)
+ 656  650 "fail colour"                      COLOUR class(1)
+ 657  650 "overhang colour"                  COLOUR class(1)
+
+ 658    2 "multilayer paint"                 SHADER pro
+ 659  658 "lacquer specular factor"           FLOAT class(0)
+ 660  658 "lacquer transmission factor"       FLOAT class(1)
+ 661  658 "lacquer mirror factor"             FLOAT class(0)
+ 662  658 "lacquer roughness"                 FLOAT class(2)
+ 663  658 "lacquer refraction"                FLOAT class(2)
+ 664  658 "metallic layer factor"             FLOAT class(2)
+ 665  658 "metallic roughness"                FLOAT class(2)
+ 666  658 "metallic scale"                    FLOAT class(1)
+ 667  658 "metallic amplitude"                FLOAT class(2)
+ 668  658 "metallic detail"                 INTEGER class(2)
+ 669  658 "metallic sharpness"              INTEGER class(2)
+ 670  658 "base ambient factor"               FLOAT class(2)
+ 671  658 "base diffuse factor"               FLOAT class(2)
+ 973  658 "metallic flakes"                    ENUM value=2131,class(3)
+ 974  658 "metallic shader"                 SH-REFL class(3)
+
+ 672    1 "wood"                             SHADER classic
+ 673  672 "trunk direction"                  VECTOR class(1)
+ 674  672 "trunk centre"                      POINT class(1)
+## 675  672 "pattern scale"                     FLOAT class(1)
+ 675  672 "scale"                             FLOAT class(1)
+ 676  672 "wood colour"                      COLOUR class(0)
+ 677  672 "ring colour"                      COLOUR class(0)
+ 678  672 "ring fuzz in"                      FLOAT class(3)
+ 679  672 "ring fuzz out"                     FLOAT class(3)
+ 680  672 "ring width"                        FLOAT class(2)
+ 681  672 "gnarl"                             FLOAT class(3)
+ 682  672 "grain"                             FLOAT class(2)
+ 683  672 "ring fuzz grain"                   FLOAT class(3)
+ 684  672 "grain colour"                     COLOUR class(2)
+ 685  672 "grain scale"                       FLOAT class(2)
+
+ 686    1 "wrapped wood floor"               SHADER classic
+ 687  686 "replication type"                   ENUM value=2071,class(1)
+ 695  686 "pattern scale"                     FLOAT class(2)
+ 696  686 "scale"                             FLOAT class(1)
+ 697  686 "wood colour"                      COLOUR class(0)
+ 698  686 "ring colour"                      COLOUR class(0)
+ 688  686 "plank length"                      FLOAT class(1)
+ 689  686 "plank width"                       FLOAT class(1)
+ 690  686 "strips"                            NAT32 class(2)
+ 691  686 "offset"                            FLOAT class(2)
+ 692  686 "groove width"                      FLOAT class(1)
+ 693  686 "groove colour"                    COLOUR class(0)
+ 694  686 "plank variation"                   FLOAT class(2)
+ 699  686 "ring fuzz in"                      FLOAT class(4)
+ 700  686 "ring fuzz out"                     FLOAT class(4)
+ 701  686 "ring width"                        FLOAT class(3)
+ 702  686 "gnarl"                             FLOAT class(4)
+ 703  686 "grain"                             FLOAT class(3)
+ 704  686 "ring fuzz grain"                   FLOAT class(4)
+ 705  686 "grain colour"                     COLOUR class(2)
+ 706  686 "grain scale"                       FLOAT class(2)
+
+ 707    1 "oak"                              SHADER pro
+ 708  707 "trunk direction"                  VECTOR class(1)
+ 709  707 "trunk centre"                      POINT class(1)
+## 710  707 "pattern scale"                     FLOAT class(1)
+ 710  707 "scale"                             FLOAT class(1)
+ 711  707 "wood colour"                      COLOUR class(0)
+ 712  707 "ring colour"                      COLOUR class(0)
+ 713  707 "ring fuzz in"                      FLOAT class(3)
+ 714  707 "ring fuzz out"                     FLOAT class(3)
+ 715  707 "ring width"                        FLOAT class(2)
+ 716  707 "gnarl"                             FLOAT class(3)
+ 717  707 "grain"                             FLOAT class(2)
+ 718  707 "ring fuzz grain"                   FLOAT class(3)
+ 719  707 "grain colour"                     COLOUR class(2)
+ 720  707 "grain scale"                       FLOAT class(2)
+
+ 721    1 "cherry"                           SHADER pro
+ 722  721 "trunk direction"                  VECTOR class(1)
+ 723  721 "trunk centre"                      POINT class(1)
+## 724  721 "pattern scale"                     FLOAT class(1)
+ 724  721 "scale"                             FLOAT class(1)
+ 725  721 "wood colour"                      COLOUR class(0)
+ 726  721 "ring colour"                      COLOUR class(0)
+ 727  721 "ring fuzz in"                      FLOAT class(3)
+ 728  721 "ring fuzz out"                     FLOAT class(3)
+ 729  721 "ring width"                        FLOAT class(2)
+ 730  721 "gnarl"                             FLOAT class(3)
+ 731  721 "grain"                             FLOAT class(2)
+ 732  721 "ring fuzz grain"                   FLOAT class(3)
+ 733  721 "grain colour"                     COLOUR class(2)
+ 734  721 "grain scale"                       FLOAT class(2)
+
+ 735    1 "maple"                            SHADER pro
+ 736  735 "trunk direction"                  VECTOR class(1)
+ 737  735 "trunk centre"                      POINT class(1)
+## 738  735 "pattern scale"                     FLOAT class(1)
+ 738  735 "scale"                             FLOAT class(1)
+ 739  735 "wood colour"                      COLOUR class(0)
+ 740  735 "ring colour"                      COLOUR class(0)
+ 741  735 "ring fuzz in"                      FLOAT class(3)
+ 742  735 "ring fuzz out"                     FLOAT class(3)
+ 743  735 "ring width"                        FLOAT class(2)
+ 744  735 "gnarl"                             FLOAT class(3)
+ 745  735 "grain"                             FLOAT class(2)
+ 746  735 "ring fuzz grain"                   FLOAT class(3)
+ 747  735 "grain colour"                     COLOUR class(2)
+ 748  735 "grain scale"                       FLOAT class(2)
+
+ 749    1 "pine"                             SHADER pro
+ 750  749 "trunk direction"                  VECTOR class(1)
+ 751  749 "trunk centre"                      POINT class(1)
+## 752  749 "pattern scale"                     FLOAT class(1)
+ 752  749 "scale"                             FLOAT class(1)
+ 753  749 "wood colour"                      COLOUR class(0)
+ 754  749 "ring colour"                      COLOUR class(0)
+ 755  749 "ring fuzz in"                      FLOAT class(3)
+ 756  749 "ring fuzz out"                     FLOAT class(3)
+ 757  749 "ring width"                        FLOAT class(2)
+ 758  749 "gnarl"                             FLOAT class(3)
+ 759  749 "grain"                             FLOAT class(2)
+ 760  749 "ring fuzz grain"                   FLOAT class(3)
+ 761  749 "grain colour"                     COLOUR class(2)
+ 762  749 "grain scale"                       FLOAT class(2)
+
+ 763    1 "birch"                            SHADER pro
+ 764  763 "trunk direction"                  VECTOR class(1)
+ 765  763 "trunk centre"                      POINT class(1)
+## 766  763 "pattern scale"                     FLOAT class(1)
+ 766  763 "scale"                             FLOAT class(1)
+ 767  763 "wood colour"                      COLOUR class(0)
+ 768  763 "ring colour"                      COLOUR class(0)
+ 769  763 "ring fuzz in"                      FLOAT class(3)
+ 770  763 "ring fuzz out"                     FLOAT class(3)
+ 771  763 "ring width"                        FLOAT class(2)
+ 772  763 "gnarl"                             FLOAT class(3)
+ 773  763 "grain"                             FLOAT class(2)
+ 774  763 "ring fuzz grain"                   FLOAT class(3)
+ 775  763 "grain colour"                     COLOUR class(2)
+ 776  763 "grain scale"                       FLOAT class(2)
+
+ 777    1 "wrapped oak floor"                SHADER pro
+ 778  777 "replication type"                   ENUM value=2071,class(1)
+ 786  777 "pattern scale"                     FLOAT class(2)
+ 787  777 "scale"                             FLOAT class(1)
+ 788  777 "wood colour"                      COLOUR class(0)
+ 789  777 "ring colour"                      COLOUR class(0)
+ 779  777 "plank length"                      FLOAT class(1)
+ 780  777 "plank width"                       FLOAT class(1)
+ 781  777 "strips"                            NAT32 class(2)
+ 782  777 "offset"                            FLOAT class(2)
+ 783  777 "groove width"                      FLOAT class(1)
+ 784  777 "groove colour"                    COLOUR class(0)
+ 785  777 "plank variation"                   FLOAT class(2)
+ 790  777 "ring fuzz in"                      FLOAT class(4)
+ 791  777 "ring fuzz out"                     FLOAT class(4)
+ 792  777 "ring width"                        FLOAT class(3)
+ 793  777 "gnarl"                             FLOAT class(4)
+ 794  777 "grain"                             FLOAT class(3)
+ 795  777 "ring fuzz grain"                   FLOAT class(4)
+ 796  777 "grain colour"                     COLOUR class(2)
+ 797  777 "grain scale"                       FLOAT class(2)
+
+ 798    1 "wrapped cherry floor"             SHADER pro
+ 799  798 "replication type"                   ENUM value=2071,class(1)
+ 807  798 "pattern scale"                     FLOAT class(2)
+ 808  798 "scale"                             FLOAT class(1)
+ 809  798 "wood colour"                      COLOUR class(0)
+ 810  798 "ring colour"                      COLOUR class(0)
+ 800  798 "plank length"                      FLOAT class(1)
+ 801  798 "plank width"                       FLOAT class(1)
+ 802  798 "strips"                            NAT32 class(2)
+ 803  798 "offset"                            FLOAT class(2)
+ 804  798 "groove width"                      FLOAT class(1)
+ 805  798 "groove colour"                    COLOUR class(0)
+ 806  798 "plank variation"                   FLOAT class(2)
+ 811  798 "ring fuzz in"                      FLOAT class(4)
+ 812  798 "ring fuzz out"                     FLOAT class(4)
+ 813  798 "ring width"                        FLOAT class(3)
+ 814  798 "gnarl"                             FLOAT class(4)
+ 815  798 "grain"                             FLOAT class(3)
+ 816  798 "ring fuzz grain"                   FLOAT class(4)
+ 817  798 "grain colour"                     COLOUR class(2)
+ 818  798 "grain scale"                       FLOAT class(2)
+
+ 819    1 "wrapped maple floor"              SHADER pro
+ 820  819 "replication type"                   ENUM value=2073,class(1)
+ 828  819 "pattern scale"                     FLOAT class(2)
+ 829  819 "scale"                             FLOAT class(1)
+ 830  819 "wood colour"                      COLOUR class(0)
+ 831  819 "ring colour"                      COLOUR class(0)
+ 821  819 "plank length"                      FLOAT class(1)
+ 822  819 "plank width"                       FLOAT class(1)
+ 823  819 "strips"                            NAT32 class(2)
+ 824  819 "offset"                            FLOAT class(2)
+ 825  819 "groove width"                      FLOAT class(1)
+ 826  819 "groove colour"                    COLOUR class(0)
+ 827  819 "plank variation"                   FLOAT class(2)
+ 832  819 "ring fuzz in"                      FLOAT class(4)
+ 833  819 "ring fuzz out"                     FLOAT class(4)
+ 834  819 "ring width"                        FLOAT class(3)
+ 835  819 "gnarl"                             FLOAT class(4)
+ 836  819 "grain"                             FLOAT class(3)
+ 837  819 "ring fuzz grain"                   FLOAT class(4)
+ 838  819 "grain colour"                     COLOUR class(2)
+ 839  819 "grain scale"                       FLOAT class(2)
+
+ 840    1 "wrapped pine floor"               SHADER pro
+ 841  840 "replication type"                   ENUM value=2073,class(1)
+ 849  840 "pattern scale"                     FLOAT class(2)
+ 850  840 "scale"                             FLOAT class(1)
+ 851  840 "wood colour"                      COLOUR class(0)
+ 852  840 "ring colour"                      COLOUR class(0)
+ 842  840 "plank length"                      FLOAT class(1)
+ 843  840 "plank width"                       FLOAT class(1)
+ 844  840 "strips"                            NAT32 class(2)
+ 845  840 "offset"                            FLOAT class(2)
+ 846  840 "groove width"                      FLOAT class(1)
+ 847  840 "groove colour"                    COLOUR class(0)
+ 848  840 "plank variation"                   FLOAT class(2)
+ 853  840 "ring fuzz in"                      FLOAT class(4)
+ 854  840 "ring fuzz out"                     FLOAT class(4)
+ 855  840 "ring width"                        FLOAT class(3)
+ 856  840 "gnarl"                             FLOAT class(4)
+ 857  840 "grain"                             FLOAT class(3)
+ 858  840 "ring fuzz grain"                   FLOAT class(4)
+ 859  840 "grain colour"                     COLOUR class(2)
+ 860  840 "grain scale"                       FLOAT class(2)
+
+ 861    1 "wrapped birch floor"              SHADER pro
+ 862  861 "replication type"                   ENUM value=2073,class(1)
+ 870  861 "pattern scale"                     FLOAT class(2)
+ 871  861 "scale"                             FLOAT class(1)
+ 872  861 "wood colour"                      COLOUR class(0)
+ 873  861 "ring colour"                      COLOUR class(0)
+ 863  861 "plank length"                      FLOAT class(1)
+ 864  861 "plank width"                       FLOAT class(1)
+ 865  861 "strips"                            NAT32 class(2)
+ 866  861 "offset"                            FLOAT class(2)
+ 867  861 "groove width"                      FLOAT class(1)
+ 868  861 "groove colour"                    COLOUR class(0)
+ 869  861 "plank variation"                   FLOAT class(2)
+ 874  861 "ring fuzz in"                      FLOAT class(4)
+ 875  861 "ring fuzz out"                     FLOAT class(4)
+ 876  861 "ring width"                        FLOAT class(3)
+ 877  861 "gnarl"                             FLOAT class(4)
+ 878  861 "grain"                             FLOAT class(3)
+ 879  861 "ring fuzz grain"                   FLOAT class(4)
+ 880  861 "grain colour"                     COLOUR class(2)
+ 881  861 "grain scale"                       FLOAT class(2)
+
+ 882    1 "turbulent"                        SHADER pro
+ 883  882 "scale"                             FLOAT class(1)
+ 884  882 "colour"                           COLOUR class(0)
+ 885  882 "detail"                            NAT32 class(2)
+ 886  882 "amplitude"                         FLOAT class(2)
+ 887  882 "contrast"                          FLOAT class(3)
+
+ 888    3 "plain coverage"                   SHADER superlite
+ 889  888 "coverage"                          FLOAT class(0)
+
+ 890    4 "leather"                          SHADER pro
+ 891  890 "scale"                             FLOAT class(1)
+ 892  890 "cell amplitude"                    FLOAT class(1)
+ 893  890 "irregularity"                      FLOAT class(2)
+ 894  890 "smooth min"                        FLOAT class(3)
+ 895  890 "smooth max"                        FLOAT class(3)
+ 896  890 "rough amplitude"                   FLOAT class(2)
+ 897  890 "rough detail"                    INTEGER class(3)
+ 898  890 "rough frequency"                   FLOAT class(4)
+ 899  890 "curve amplitude"                   FLOAT class(3)
+ 900  890 "curve detail"                    INTEGER class(4)
+ 901  890 "curve frequency"                   FLOAT class(4)
+ 902  890 "fold amplitude"                    FLOAT class(3)
+ 903  890 "fold detail"                     INTEGER class(4)
+ 904  890 "fold frequency"                    FLOAT class(4)
+
+ 905    6 "scattering medium"                SHADER pro
+ 906  905 "medium density"                    FLOAT class(1)
+ 907  905 "medium colour"                    COLOUR class(1)
+ 908  905 "medium attenuation"                FLOAT class(2)
+ 909  905 "medium ambient"                    FLOAT class(2)
+ 910  905 "medium shadows"                  BOOLEAN class(1)
+ 911  905 "min lod"                           FLOAT class(2)
+ 912  905 "max lod"                           FLOAT class(2)
+ 913  905 "error bound"                       FLOAT class(3)
+ 914  905 "scattering model"                   ENUM value=2041,class(2)
+ 915  905 "eccentricity"                      FLOAT class(3)
+ 916  905 "max depth"                         FLOAT class(2)
+ 917  905 "bounds on"                       BOOLEAN class(2)
+ 918  905 "bounds volume"                    BOUNDS class(2)
+ 919  905 "density shader"                   SH-COL class(1)
+
+ 920    8 "line goniometric"                 SHADER pro
+ 921  920 "goniometric shader"             SH-LIGHT value=587,class(1)
+ 922  920 "primitive"                          PRIM class(1)
+ 923  920 "min lod"                           FLOAT class(2)
+ 924  920 "max lod"                           FLOAT class(2)
+1219  920 "noise factor"                      FLOAT class(2)
+1220  920 "error bound"                       FLOAT class(3)
+
+ 925    8 "area goniometric"                 SHADER pro
+ 926  925 "area shader"                    SH-LIGHT value=573,class(1)
+ 927  925 "goniometric shader"             SH-LIGHT value=587,class(1)
+
+ 928    8 "area sky"                         SHADER pro
+ 929  928 "area shader"                    SH-LIGHT value=573,class(1)
+ 930  928 "sky shader"                     SH-LIGHT value=607,class(1)
+
+ 931   12 "brighten up"                      SHADER pro
+ 932  931 "brightness"                        FLOAT class(1)
+ 933  931 "shift"                             FLOAT class(1)
+ 934  931 "max world luminance"               FLOAT class(1)
+ 935  931 "min world luminance"               FLOAT class(1)
+1042  931 "auto setup shader name"           STRING class(2),disabled
+1043  931 "auto setup shader"               SH-POST class(2)
+
+ 936   12 "polynomial approximation"         SHADER pro
+ 937  936 "interval count"                    NAT32 class(1)
+ 938  936 "coefficient count"                 NAT32 class(1)
+ 939  936 "polynomial function"             POINTER class(1)
+ 940  936 "logarithm"                       BOOLEAN class(1)
+1044  936 "auto setup shader name"           STRING class(2),disabled
+1045  936 "auto setup shader"               SH-POST class(2)
+
+ 941   10 "generic filter"                   SHADER pro,disabled
+ 942  941 "pulse generator"                    ENUM value=2081,class(1)
+ 943  941 "map"                                ENUM value=2086,class(1)
+ 944  941 "reconstruction filter"              ENUM value=2091,class(1)
+ 945  941 "width"                           INTEGER class(1)
+ 946  941 "height"                          INTEGER class(1)
+ 947  941 "adaptive level"                  INTEGER class(1)
+ 948  941 "adaptive threshold"                FLOAT class(1)
+
+#
+# New shader args for LADS 5.0
+#
+#    [949 - 953] "projector" light
+#    [954 - 958] "area" light
+#    [959 - 960] "wrapped image" transparency
+#    [961 - 962] "wrapped mask" transparency
+#    [963]       "radiosity stepped false" reflectance
+#    [964]       "wrapped mirror map" reflectance
+#    [965]       "wrapped brick" colour
+#    [966]       "wrapped checker" colour
+#    [967 - 968] "wrapped filtered image" colour
+#    [969]       "wrapped grid" colour
+#    [970 - 971] "wrapped image" colour
+#    [972]       "wrapped textured brick" colour
+#    [973 - 974] "multilayer paint"
+#    [975 - 976] "wrapped bump map" displacement
+#    [977]       "wrapped checker" transparency
+#    [978]       "wrapped grid" transparency
+#    [979]       "scaled image" background
+#
+
+
+#
+# New shaders for LADS 5.5
+#
+
+ 989    8 "sun"                              SHADER classic
+ 990  989 "altitude"                          FLOAT class(1)
+ 991  989 "azimuth"                           FLOAT class(1)
+ 992  989 "north"                            VECTOR class(1)
+ 993  989 "up"                               VECTOR class(1)
+ 994  989 "intensity"                         FLOAT class(0)
+ 995  989 "colour"                           COLOUR class(0)
+ 996  989 "colour temperature"                FLOAT class(1)
+ 997  989 "mode"                           BITFIELD value=2140,class(1)
+ 998  989 "latitude"                          FLOAT class(1)
+ 999  989 "longitude"                         FLOAT class(1)
+1000  989 "time"                            POINTER class(1)
+1001  989 "sky type"                        POINTER class(1)
+1002  989 "shadows"                         BOOLEAN class(2)
+1003  989 "shadow type"                        ENUM value=2101,class(2)
+1004  989 "shadow transparency"            BITFIELD value=2114,class(3)
+1005  989 "shadow acceleration"            BITFIELD value=2121,class(3)
+1006  989 "shadow resolution"               INTEGER class(2)
+1007  989 "shadow quality"                  INTEGER class(3)
+1008  989 "shadow softness"                   FLOAT class(3)
+1009  989 "intensity units"                    ENUM value=2011,class(2)
+1010  989 "scattering"                      BOOLEAN class(3)
+1011  989 "shadow tolerance"                  FLOAT class(3)
+
+1012    5 "layout"                           SHADER superlite,disabled
+1013 1012 "rotation"                          FLOAT class(0)
+1014 1012 "s scale"                           FLOAT class(1)
+1015 1012 "t scale"                           FLOAT class(1)
+1016 1012 "s offset"                          FLOAT class(1)
+1017 1012 "t offset"                          FLOAT class(1)
+
+1018    5 "local auto axis"                  SHADER superlite
+1019 1018 "scale"                             FLOAT class(0)
+
+1020    5 "transformation"                   SHADER superlite,disabled
+1021 1020 "transformation"                  POINTER class(1)
+
+1022    2 "shadow catcher"                   SHADER superlite
+1023 1022 "catch"                              ENUM value=2222,class(1)
+1024 1022 "shadow brightness"                 FLOAT class(1)
+1025 1022 "shadow colour"                    COLOUR class(1)
+1026 1022 "reflectance"                     SH-REFL class(1)
+
+1027    1 "wrapped brick bonds"              SHADER lite
+1028 1027 "scale"                             FLOAT class(1)
+1029 1027 "brick width"                       FLOAT class(1)
+1030 1027 "brick height"                      FLOAT class(1)
+1031 1027 "brick depth"                       FLOAT class(1)
+1032 1027 "mortar size"                       FLOAT class(1)
+1033 1027 "brick side colour 1"              COLOUR class(0)
+1034 1027 "brick side colour 2"              COLOUR class(0)
+1035 1027 "brick end colour 1"               COLOUR class(0)
+1036 1027 "brick end colour 2"               COLOUR class(0)
+1037 1027 "mortar colour"                    COLOUR class(0)
+1038 1027 "rough scale"                       FLOAT class(1)
+1039 1027 "rough amplitude"                   FLOAT class(1)
+1040 1027 "bond"                               ENUM value=2151,class(1)
+1041 1027 "fuzz"                              FLOAT class(1)
+
+#
+# New shader arguments for LADS 5.5
+#
+#    [1042 - 1043] "brighten up" tone
+#    [1044 - 1045] "polynomial approximation" tone
+#    [1046 - 1047] "scale" tone
+#    [1048 - 1050] "area" light
+#    [1051] "distant" light
+#    [1052 - 1054] "goniometric" light
+#    [1055 - 1056] "point" light
+#    [1057 - 1058] "projector" light
+#    [1059 - 1063] "sky" light
+#    [1064 - 1065] "spot" light
+#    [1066 - 1067] "ray cube" background
+#    [1068 - 1069] "ground fog" foreground
+#    [1070] "snow" foreground
+#    [1071] "decal" reflectance
+#    [1072] "radiosity stepped false" reflectance
+#    [1073] "translucency" reflectance
+
+#
+# Post-processing shaders (omitted until LADS 5.5)
+#
+
+#1074   13 "archive"                          SHADER pro
+#1075 1074 "drivername"                         ENUM value=2214,class(1)
+#1076 1074 "filename"                       FILENAME class(1)
+
+1077   13 "average frames"                   SHADER pro
+1078 1077 "source buffer"                   POINTER class(1)
+1079 1077 "accumulated"                     INTEGER class(1)
+1080 1077 "dither"                          BOOLEAN class(1)
+1081 1077 "update rgb"                      BOOLEAN class(1)
+1082 1077 "feedback rate"                   INTEGER class(1)
+
+##1083   13 "blur"                             SHADER obsolete,disabled
+##1084 1083 "range"                           INTEGER class(1)
+
+1085   13 "depth of field"                   SHADER pro
+1086 1085 "focal length"                      FLOAT class(1)
+1087 1085 "aperture"                          FLOAT class(1)
+1088 1085 "focus plane"                       FLOAT class(1)
+1089 1085 "near focus"                        FLOAT class(2)
+1090 1085 "far focus"                         FLOAT class(2)
+1091 1085 "near blur"                         FLOAT class(2)
+1092 1085 "far blur"                          FLOAT class(2)
+1093 1085 "ignore background"               BOOLEAN class(1)
+1094 1085 "units"                             FLOAT class(1)
+
+1095   13 "execute"                          SHADER pro
+1096 1095 "method"                             ENUM value=2162,class(1)
+
+1097   13 "ffaa propagator"                  SHADER pro
+1098 1097 "halton samples"                  INTEGER class(1)
+1099 1097 "early out"                       INTEGER class(2)
+1100 1097 "relative sensitivity"              FLOAT class(2)
+1101 1097 "y radix"                         INTEGER class(3)
+1102 1097 "x radix"                         INTEGER class(3)
+1103 1097 "keep seed"                       BOOLEAN class(3)
+1104 1097 "dump each stage"                 BOOLEAN class(3)
+1105 1097 "feedback rate"                   INTEGER class(2)
+
+1106   13 "ffaa seed"                        SHADER pro
+1107 1106 "threshold"                         FLOAT class(1)
+1108 1106 "update rgb"                      BOOLEAN class(1)
+1109 1106 "update stencil"                  BOOLEAN class(1)
+
+1110   13 "flares 3d"                        SHADER pro
+1111 1110 "visible flare"                   SH-POST class(1)
+1112 1110 "hidden flare"                    SH-POST class(1)
+1113 1110 "flare const"                       FLOAT class(1)
+
+##1114   13 "glow"                             SHADER obsolete,disabled
+##1115 1114 "min threshold"                     FLOAT class(1)
+##1116 1114 "max threshold"                     FLOAT class(1)
+##1117 1114 "intensity"                         FLOAT class(1)
+##1118 1114 "range"                             FLOAT class(1)
+
+1119   13 "interlace"                        SHADER pro
+1120 1119 "buffer1"                         POINTER class(1)
+1121 1119 "buffer2"                         POINTER class(1)
+1122 1119 "half resolution"                 BOOLEAN class(1)
+
+1123   13 "lens flares"                      SHADER pro
+1124 1123 "lens"                               ENUM value=2171,class(1)
+1125 1123 "fov"                               FLOAT class(1)
+1126 1123 "size range"                        FLOAT class(1)
+1127 1123 "intensity"                         FLOAT class(1)
+1128 1123 "rotation"                          FLOAT class(1)
+1129 1123 "glow radius"                       FLOAT class(2)
+1130 1123 "glow shape"                         ENUM value=2181,class(2)
+1131 1123 "glow focus"                        FLOAT class(2)
+1132 1123 "glow colour"                      COLOUR class(2)
+1133 1123 "glow factor"                       FLOAT class(2)
+1134 1123 "iris blades"                       NAT32 class(2)
+1135 1123 "iris blade shape"                  FLOAT class(2)
+1136 1123 "halo shape"                         ENUM value=2181,class(2)
+1137 1123 "halo radius"                       FLOAT class(2)
+1138 1123 "halo width"                        FLOAT class(2)
+1139 1123 "halo colour"                      COLOUR class(2)
+1140 1123 "halo factor"                       FLOAT class(2)
+1141 1123 "rays type"                          ENUM value=2192,class(2)
+1142 1123 "rays shape"                         ENUM value=2181,class(2)
+1143 1123 "rays count"                        NAT32 class(2)
+1144 1123 "rays factor"                       FLOAT class(2)
+1145 1123 "rays colour"                      COLOUR class(2)
+1146 1123 "rays contrast"                     FLOAT class(2)
+1147 1123 "rays range"                        FLOAT class(2)
+1148 1123 "rays rotation"                     FLOAT class(2)
+1149 1123 "ghosts"                            NAT32 class(2)
+1150 1123 "ghosts shape"                       ENUM value=2181,class(2)
+1151 1123 "ghosts factor"                     FLOAT class(2)
+1152 1123 "ghosts min radius"                 FLOAT class(2)
+1153 1123 "ghosts max radius"                 FLOAT class(2)
+1154 1123 "min intensity"                     FLOAT class(3)
+1155 1123 "max intensity"                     FLOAT class(3)
+1156 1123 "check depth"                     BOOLEAN class(3)
+1157 1123 "clamp colour"                    BOOLEAN class(3)
+
+1158   13 "linear scale"                     SHADER pro
+1159 1158 "min intensity"                     FLOAT class(1)
+1160 1158 "max intensity"                     FLOAT class(1)
+
+1161   13 "matrix"                           SHADER pro
+1162 1161 "rows"                            INTEGER class(1)
+1163 1161 "columns"                         INTEGER class(1)
+1164 1161 "matrix"                          POINTER class(1)
+
+1165   13 "render depth"                     SHADER pro
+
+1166   13 "render lights"                    SHADER pro
+1167 1166 "flare constant"                    FLOAT class(1)
+1168 1166 "lights select"                      ENUM value=2201,class(1)
+
+1169   13 "tone"                             SHADER pro
+1170 1169 "tone list"                       POINTER class(1)
+
+1171   13 "tone contrast scale"              SHADER pro
+1172 1171 "max display luminance"             FLOAT class(2)
+1173 1171 "scale factor"                      FLOAT class(1)
+
+1174   13 "tone diagnostic"                  SHADER pro
+1175 1174 "max world luminance"               FLOAT class(1)
+1176 1174 "min world luminance"               FLOAT class(1)
+1177 1174 "average luminance"                 FLOAT class(1)
+1178 1174 "median luminance"                  FLOAT class(1)
+1179 1174 "average colour"                   COLOUR class(1)
+1180 1174 "brightest colour"                 COLOUR class(1)
+1181 1174 "darkest colour"                   COLOUR class(1)
+
+1182   13 "tone linear ceiling"              SHADER pro
+1183 1182 "max world luminance"               FLOAT class(1)
+1184 1182 "min world luminance"               FLOAT class(1)
+1185 1182 "max display luminance"             FLOAT class(1)
+1186 1182 "min display luminance"             FLOAT class(1)
+1187 1182 "linear approximation"            POINTER class(1)
+##1188 1182 "interval count"                  INTEGER class(1)
+1188 1182 "interval count"                    NAT32 class(1)
+##1189 1182 "method"                          INTEGER class(1)
+1189 1182 "method"                             ENUM value=2257,class(1)
+1190 1182 "bias"                              FLOAT class(1)
+
+#
+# New shaders for LADS 5.6
+#
+
+1191    1 "granite"                          SHADER pro
+1192 1191 "scale"                             FLOAT class(1)
+1193 1191 "type"                               ENUM value=2231,class(1)
+1194 1191 "mineral 1 colour"                 COLOUR class(0)
+1195 1191 "mineral 2 colour"                 COLOUR class(0)
+1196 1191 "mineral 3 colour"                 COLOUR class(0)
+1197 1191 "mineral 4 colour"                 COLOUR class(0)
+1198 1191 "fragment softness"                 FLOAT class(3)
+1199 1191 "fragment detail"                   FLOAT class(3)
+1200 1191 "fragment size"                     FLOAT class(3)
+1201 1191 "colour variation"                  FLOAT class(3)
+1202 1191 "cracks"                            FLOAT class(3)
+1203 1191 "colour noise"                      FLOAT class(3)
+1204 1191 "colour noise scale"                FLOAT class(3)
+1205 1191 "random seed"                     INTEGER class(3),disabled
+
+
+1209    5 "st layout"                        SHADER layla
+1211 1209 "s scale"                           FLOAT class(1)
+1212 1209 "t scale"                           FLOAT class(1)
+1210 1209 "rotation"                          FLOAT class(0)
+1213 1209 "s offset"                          FLOAT class(1)
+1214 1209 "t offset"                          FLOAT class(1)
+1215 1209 "s reflect"                       BOOLEAN class(2)
+1216 1209 "t reflect"                       BOOLEAN class(2)
+1217 1209 "offset centre"                   BOOLEAN class(2)
+1222 1209 "s origin"                          FLOAT class(3),disabled
+1223 1209 "t origin"                          FLOAT class(3),disabled
+1224 1209 "decal mode"                         ENUM value=2241,class(3)
+
+1218   13 "add grounds"                      SHADER pro,disabled
+
+#
+# New shader arguments for LADS 5.6
+#
+#    [1219 - 1220] "line goniometric" light
+#    [1221] "decal" reflectance
+
+#
+# Shader arguments obsoleted at 5.6
+#
+# "area" (573): Arg = "mid lod" -> Obsolete argument
+# "sky" (615): Arg = "filter colour" -> Obsolete argument
+# "sky" (615): Arg = "zenith luminance" -> Obsolete argument
+# "sky" (615): Arg = "complexity" -> Obsolete argument
+# "sky" (615): Arg = "spectral distribution" -> Obsolete argument
+# "radiosity stepped false" (478): Arg = "ambient" -> Obsolete argument
+# "radiosity stepped false" (478): Arg = "gain" -> Obsolete argument
+
+#
+# New shaders for 6.0
+#
+
+#
+# New shader arguments for 6.0
+#
+#   [1222 - 1224] "st layout" texture-space
+#   [1225] "area" light
+#   [1226 - 1228] "sky" light
+#   [1229] "radiosity stepped false" reflectance
+#
+
+#
+# New shaders for 6.x
+#
+
+1230   14 "hand drawn"                       SHADER misc
+1231 1230 "line colour"                      COLOUR class(0)
+1232 1230 "line width"                        FLOAT class(0)
+1233 1230 "wobbliness"                        FLOAT class(1)
+1234 1230 "curliness"                         FLOAT class(1)
+1235 1230 "tapering"                          FLOAT class(1)
+1345 1230 "anti aliasing"                   BOOLEAN class(1)
+
+1236   14 "hatch"                            SHADER misc
+1237 1236 "line colour"                      COLOUR class(0)
+1238 1236 "line width"                        FLOAT class(0)
+1239 1236 "wobbliness"                        FLOAT class(1)
+1240 1236 "line length"                       FLOAT class(1)
+1241 1236 "line density"                      FLOAT class(1)
+1242 1236 "object colours"                  BOOLEAN class(1)
+1346 1236 "anti aliasing"                   BOOLEAN class(1)
+
+1243   14 "lines and shadow"                 SHADER misc
+1244 1243 "line colour"                      COLOUR class(0)
+1245 1243 "line width"                        FLOAT class(0)
+1246 1243 "shadow colour"                    COLOUR class(1)
+1344 1243 "anti aliasing"                   BOOLEAN class(1)
+
+1247   14 "oil painting"                     SHADER misc
+1248 1247 "mark size"                         FLOAT class(0)
+1249 1247 "mark count"                        FLOAT class(1)
+1250 1247 "mark blend"                        FLOAT class(1)
+1343 1247 "anti aliasing"                   BOOLEAN class(1)
+
+1251   14 "rough pencil"                     SHADER misc
+1252 1251 "line colour"                      COLOUR class(0)
+1253 1251 "line width"                        FLOAT class(0)
+1254 1251 "line count"                        FLOAT class(1)
+1255 1251 "wobbliness"                        FLOAT class(1)
+1256 1251 "curliness"                         FLOAT class(1)
+1341 1251 "anti aliasing"                   BOOLEAN class(1)
+
+1257   14 "stipple"                          SHADER misc
+1258 1257 "dot colour"                       COLOUR class(0)
+1259 1257 "dot count"                         FLOAT class(0)
+1260 1257 "object colours"                  BOOLEAN class(0)
+1342 1257 "anti aliasing"                   BOOLEAN class(1)
+
+1261   14 "cartoon"                          SHADER misc
+1262 1261 "line colour"                      COLOUR class(0)
+1263 1261 "line width"                        FLOAT class(0)
+1334 1261 "anti aliasing"                   BOOLEAN class(1)
+
+1264   14 "colour wash"                      SHADER misc
+1265 1264 "line width"                        FLOAT class(0)
+1266 1264 "line colour"                      COLOUR class(0)
+1267 1264 "mottling"                          FLOAT class(1)
+1268 1264 "wash"                              FLOAT class(1)
+1335 1264 "anti aliasing"                   BOOLEAN class(1)
+
+1269   14 "contour"                          SHADER misc
+1270 1269 "line length"                       FLOAT class(0)
+1271 1269 "line density"                      FLOAT class(1)
+1272 1269 "line colour"                      COLOUR class(0)
+1273 1269 "object colours"                  BOOLEAN class(0)
+1336 1269 "anti aliasing"                   BOOLEAN class(1)
+
+1274   14 "ink print"                        SHADER misc
+1275 1274 "ink colour"                       COLOUR class(0)
+1276 1274 "gap width"                         FLOAT class(1)
+1337 1274 "anti aliasing"                   BOOLEAN class(1)
+
+1277   14 "mosaic"                           SHADER misc
+1278 1277 "gap width"                         FLOAT class(1)
+1279 1277 "gap colour"                       COLOUR class(0)
+1280 1277 "tile size"                         FLOAT class(1)
+1281 1277 "tile shape"                        FLOAT class(1)
+1282 1277 "gap transparency"                  FLOAT class(1)
+1283 1277 "tile background"                 BOOLEAN class(1)
+1338 1277 "anti aliasing"                   BOOLEAN class(1)
+
+1284   14 "soft pencil"                      SHADER misc
+1285 1284 "line width"                        FLOAT class(0)
+1286 1284 "line colour"                      COLOUR class(0)
+1287 1284 "bluriness"                         FLOAT class(1)
+1288 1284 "coverage"                          FLOAT class(1)
+1289 1284 "scale"                             FLOAT class(1)
+1339 1284 "anti aliasing"                   BOOLEAN class(1)
+
+
+1292    1 "wrapped roof tiles"               SHADER lite
+1293 1292 "scale"                             FLOAT class(1)
+1294 1292 "pattern"                            ENUM value=2261,class(1)
+1295 1292 "tile length"                       FLOAT class(1)
+1296 1292 "tile width"                        FLOAT class(1)
+1297 1292 "tile thickness"                    FLOAT class(1)
+1298 1292 "tile colour 1"                    COLOUR class(0)
+1299 1292 "tile colour 2"                    COLOUR class(0)
+1300 1292 "edge colour"                      COLOUR class(0)
+1301 1292 "fuzz"                              FLOAT class(2)
+1302 1292 "colour variation"                  FLOAT class(2)
+1303 1292 "colour variation scale"            FLOAT class(2)
+
+1304   14 "radiosity refinement"             SHADER pro
+1305 1304 "mode"                               ENUM value=2300,class(1),hidden
+1306 1304 "quality"                           NAT32 class(2),hidden
+1307 1304 "accuracy"                          NAT32 class(2),hidden
+1308 1304 "set criteria"                   BITFIELD value=2280,class(3)
+1309 1304 "adaptive meshing"                BOOLEAN class(3)
+1310 1304 "keep edges"                      BOOLEAN class(3)
+1311 1304 "mesh accuracy"                     FLOAT class(3)
+1312 1304 "minimum area"                      FLOAT class(3),hidden
+1317 1304 "maximum element area"              FLOAT class(3),hidden
+1759 1304 "minimum patch area"                FLOAT class(3),hidden
+1313 1304 "maximum area"                      FLOAT class(3),hidden
+1634 1304 "absolute size settings"          BOOLEAN class(3)
+#1638 1304 "area scale factor"                 FLOAT obsolete,class(3)
+1758 1304 "minimum patch size"                FLOAT class(3)
+1667 1304 "maximum patch size"                FLOAT class(3)
+1666 1304 "minimum element size"              FLOAT class(3)
+1668 1304 "maximum element size"              FLOAT class(3)
+1314 1304 "mesh bits"                      BITFIELD value=2275,class(3)
+1315 1304 "initial elements"                  NAT32 class(3)
+1316 1304 "num patches"                       NAT32 class(3)
+1318 1304 "maximum elements"                  NAT32 class(3)
+1319 1304 "minimum samples"                   NAT32 class(3)
+1320 1304 "maximum samples"                   NAT32 class(3)
+1321 1304 "FF accuracy"                        ENUM value=2270,class(3)
+1444 1304 "double sided"                    BOOLEAN class(3)
+1407 1304 "receive radiosity"               BOOLEAN class(3)
+1408 1304 "bounce radiosity"                BOOLEAN class(3)
+1445 1304 "remove area direct"              BOOLEAN class(3)
+
+1322    4 "wrapped height map"               SHADER lite
+1323 1322 "file name"                      FILENAME class(0)
+1324 1322 "amplitude"                         FLOAT class(1)
+1325 1322 "depth scale"                       FLOAT class(0)
+1326 1322 "image"                           POINTER class(0)
+1327 1322 "softness"                          FLOAT class(1)
+1328 1322 "scale"                             FLOAT class(1)
+1329 1322 "shift axis"                        ENUM value=2310,class(1)
+1330 1322 "shift"                             FLOAT class(1)
+1784 1322 "aspect ratio"                      FLOAT class(1)
+
+1331   14 "simple shaded"                    SHADER superlite
+1332 1331 "use smoothing"                   BOOLEAN class(1)
+1333 1331 "smoothing effect"                   ENUM value=2320,class(1)
+
+#
+# Additional anti-aliasing arguments for the sketch shaders
+#
+#    [1334 - 1346]
+#
+
+#
+# New shaders for 7.0
+#
+
+1347   14 "real time shaded"                 SHADER superlite
+1348 1347 "textures"                        BOOLEAN class(1)
+1349 1347 "transparency"                    BOOLEAN class(1)
+1350 1347 "lighting"                        BOOLEAN class(1)
+1351 1347 "shadows"                            ENUM value=2394,class(1)
+1354 1347 "texture quality"                    ENUM value=2330,class(2)
+1355 1347 "transparency quality"               ENUM value=2335,class(2)
+1356 1347 "lighting accuracy"                  ENUM value=2340,class(2)
+1357 1347 "background quality"                 ENUM value=2350,class(2)
+1358 1347 "colour quality"                     ENUM value=2360,class(2)
+1359 1347 "save model memory"               BOOLEAN class(2)
+1360 1347 "precompile geometry"             BOOLEAN class(2)
+1361 1347 "maximum texture size"              NAT32 class(3)
+1362 1347 "maximum background texture size"   NAT32 class(3)
+1363 1347 "colour smoothing"                BOOLEAN class(3)
+1364 1347 "faceting quality"                   ENUM value=2365,class(3)
+1365 1347 "low polygon threshold"             NAT32 class(4)
+1366 1347 "shadow depth"                       ENUM value=2370,class(3)
+1482 1347 "clamp image textures"            BOOLEAN class(3)
+1483 1347 "maximum image texture size"        NAT32 class(3)
+1513 1347 "programmable shading"            BOOLEAN class(1)
+
+1368   14 "vector"                           SHADER superlite
+1369 1368 "show all edges"                  BOOLEAN class(1)
+1370 1368 "line colour"                      COLOUR class(1)
+1371 1368 "visible edges"                  BITFIELD value=2375,class(2)
+1372 1368 "show intersections"              BOOLEAN class(2)
+1373 1368 "ignore edges"                   BITFIELD value=2380,class(3)
+1374 1368 "exclude marked edges"            BOOLEAN class(3)
+1603 1368 "edge rendering flags"           BITFIELD value=2490,class(4)
+
+1376   14 "photorealistic"                   SHADER superlite
+1377 1376 "transparency"                    BOOLEAN class(1)
+1378 1376 "reflections"                     BOOLEAN class(1)
+1379 1376 "anti aliasing"                   BOOLEAN class(1)
+1382 1376 "anti alias edges"                BOOLEAN class(1)
+1383 1376 "texture quality"                    ENUM value=2330,class(1)
+1384 1376 "anti alias reflections"          BOOLEAN class(1)
+1385 1376 "anti alias shadows"              BOOLEAN class(1)
+1380 1376 "max ray bounces"                   NAT32 class(2)
+1381 1376 "min ray contribution"              FLOAT class(2)
+1386 1376 "override global bounces"         BOOLEAN class(3)
+1387 1376 "max reflections"                   NAT32 class(3)
+1388 1376 "max refractions"                   NAT32 class(3)
+1389 1376 "override global contribution"    BOOLEAN class(4)
+1390 1376 "min reflection ray contribution"   FLOAT class(4)
+1391 1376 "min refraction ray contribution"   FLOAT class(4)
+1392 1376 "number of threads"                 NAT32 class(4), disabled
+1393 1376 "contract geometry"               BOOLEAN class(4)
+1394 1376 "oversampling level"                NAT32 class(3)
+
+1395   14 "real time vector"                 SHADER superlite
+1396 1395 "show all edges"                  BOOLEAN class(1)
+1397 1395 "default edge colour"              COLOUR class(1)
+1398 1395 "vary edge colour"                BOOLEAN class(1)
+1399 1395 "background quality"                 ENUM value=2350,class(2)
+1400 1395 "save model memory"               BOOLEAN class(2)
+1401 1395 "precompile geometry"             BOOLEAN class(2)
+1402 1395 "preserve original geometry"      BOOLEAN class(2)
+1403 1395 "maximum background texture size"   NAT32 class(3)
+1404 1395 "faceting quality"                   ENUM value=2365,class(3)
+1405 1395 "low polygon threshold"             NAT32 class(4), ignore
+1406 1395 "show lighting"                   BOOLEAN class(1)
+
+1409   14 "IIR"                              SHADER superlite
+1410 1409 "transparency"                    BOOLEAN class(1)
+1411 1409 "reflections"                     BOOLEAN class(1)
+1412 1409 "regenerate cache"                   ENUM value=2390,class(1)
+1413 1409 "max ray bounces"                   NAT32 class(2)
+1414 1409 "min ray contribution"              FLOAT class(2)
+1415 1409 "IIR ray tracing"                 BOOLEAN class(2)
+1416 1409 "use light groups"                BOOLEAN class(2)
+1417 1409 "use geometry groups"             BOOLEAN class(2)
+1418 1409 "texture quality"                    ENUM value=2330,class(2)
+1419 1409 "IIR memory limit"                  NAT32 class(3)
+1420 1409 "override global bounces"         BOOLEAN class(3)
+1421 1409 "max reflections"                   NAT32 class(3)
+1422 1409 "max refractions"                   NAT32 class(3)
+1423 1409 "override global contribution"    BOOLEAN class(4)
+1424 1409 "min reflection ray contribution"   FLOAT class(4)
+1425 1409 "min refraction ray contribution"   FLOAT class(4)
+1426 1409 "interrupt frequency"               NAT32 class(4)
+1427 1409 "initial interrupt"                 NAT32 class(4)
+1428 1409 "progress frequency"                NAT32 class(4)
+1429 1409 "initial progress"                  NAT32 class(4)
+1430 1409 "contract geometry"               BOOLEAN class(4)
+1446 1409 "regenerate flags"               BITFIELD value=2400,class(3)
+
+1431   14 "radiosity control"                SHADER pro
+1432 1431 "enabled"                         BOOLEAN class(1)
+1433 1431 "continue after interrupt"        BOOLEAN class(1)
+1434 1431 "ambient"                         BOOLEAN class(1)
+1435 1431 "render during primaries"         BOOLEAN class(1)
+1436 1431 "render during secondaries"       BOOLEAN class(1)
+1437 1431 "update interval"                   FLOAT class(1)
+1438 1431 "point hybrid rendering"          BOOLEAN class(3)
+1439 1431 "extended hybrid rendering"       BOOLEAN class(3)
+1440 1431 "first phase convergence"           FLOAT class(3)
+1441 1431 "second phase convergence"          FLOAT class(3)
+1442 1431 "third phase convergence"           FLOAT class(3)
+1774 1431 "time limit"                        FLOAT class(1)
+# 1775 1431 "brightness"                        FLOAT class(2),disabled
+1776 1431 "bounds"                           BOUNDS class(3)
+1777 1431 "highlight flags"                  BITFIELD value=2515, class(3)
+1778 1431 "highlight colour"                 COLOUR class(3)
+1782 1431 "min transfer ratio"               FLOAT class(4)
+1783 1431 "max number of bounces"            NAT32 class(4)
+1781 1431 "overshoot tolerance"               FLOAT class(3)
+
+# "none" post-processing shader
+
+
+#
+# New shader arguments for 7.0
+#
+#    [1407 - 1408,1444] "radiosity refinement"
+#
+
+#
+# New shaders for 7.1
+#
+
+#
+# New shader arguments for 7.1
+#
+#    [1445]        "radiosity refinement"
+#    [1446]        "IIR" render-style
+#    [1447 - 1449] "scaled image" background
+#    [1450 - 1451] "wrapped filtered image" colour
+#    [1452 - 1653] "wrapped image" colour
+#    [1454 - 1455] "wrapped mirror map" reflectance
+#    [1456 - 1457] "wrapped image" transparency
+#    [1458 - 1459] "wrapped mask" transparency
+#    [1460 - 1461] "wrapped bump map" displacement
+#    [1462]        "wrapped circular anisotropic" reflectance
+#    [1463]        "wrapped square" transparency
+#    [1464]        "surface evaluation" colour
+#
+
+#
+# New shaders for 7.2
+#
+
+1465   14 "rpc object"                       SHADER superlite
+1466 1465 "file name"                      FILENAME class(0)
+1467 1465 "rotation"                          FLOAT class(0)
+1468 1465 "scale"                             FLOAT class(0)
+1469 1465 "frame number"                      NAT32 class(0)
+1470 1465 "transparency"                    BOOLEAN class(0)
+1471 1465 "view dependency"                 BOOLEAN class(0)
+1472 1465 "snap to view"                    BOOLEAN class(0)
+1473 1465 "position"                          POINT class(0)
+1474 1465 "up"                               VECTOR class(0)
+1475 1465 "primitive"                          PRIM class(0),disabled
+1476 1465 "rpc object"                      POINTER class(0),disabled
+1481 1465 "brightness"                        FLOAT class(0)
+
+#
+# The following two shaders are in development
+#
+#1477    4 "colour displacement"              SHADER superlite
+#1478 1477 "colour shader"                    SH-COL class(1)
+#1479 1477 "amplitude"                         FLOAT class(1)
+
+#1480    2 "blurred glass"                    SHADER lite
+
+#
+# New shader arguments for 7.1
+#
+#    [1481]        "rpc object"
+#    [1482 - 1483] "real time shaded"
+#
+
+#
+# New shaders for 7.4
+#
+
+1484   14 "pinhole view"                     SHADER superlite
+1485 1484 "from"                              POINT class(1)
+1486 1484 "to"                                POINT class(1)
+1487 1484 "up"                               VECTOR class(1)
+1488 1484 "projection"                         ENUM value=2430,class(1)
+1489 1484 "view dimension"                    DOUBLE class(1)
+
+1490   14 "matrix view"                      SHADER superlite,hidden
+1491 1490 "world to screen"                 POINTER class(1)
+1492 1490 "screen to world"                 POINTER class(1)
+
+1493   14 "opengl view"                      SHADER superlite,hidden
+1494 1493 "model matrix"                    POINTER class(1)
+1495 1493 "projection matrix"               POINTER class(1)
+1496 1493 "left"                             DOUBLE class(1)
+1497 1493 "right"                            DOUBLE class(1)
+1498 1493 "bottom"                           DOUBLE class(1)
+1499 1493 "top"                              DOUBLE class(1)
+1500 1493 "near distance"                    DOUBLE class(1)
+1501 1493 "far distance"                     DOUBLE class(1)
+1502 1493 "projection"                         ENUM value=2430,class(1)
+1604 1493 "flags"                          BITFIELD class(3),ignore
+
+1503   14 "general view"                     SHADER superlite
+1504 1503 "from"                             DPOINT class(1)
+1505 1503 "to"                               DPOINT class(1)
+1506 1503 "up"                              DVECTOR class(1)
+1507 1503 "projection"                         ENUM value=2430,class(1)
+1508 1503 "screen size"                      DOUBLE class(1)
+1509 1503 "vpn"                             DVECTOR class(1)
+1510 1503 "vpr"                             DVECTOR class(1)
+
+1511   14 "unknown view"                     SHADER superlite,obsolete
+
+#
+# New shader arguments for 7.4 "real time shaded" render style
+#
+#    [1512]        "real time shaded" render style
+#    [1513]        "real time shaded" render style - prog shading
+#
+
+1514   14 "fixed cube map"                   SHADER superlite
+1515 1514 "negative x image"                POINTER class(2)
+1516 1514 "negative x file name"           FILENAME class(1)
+1517 1514 "positive x image"                POINTER class(2)
+1518 1514 "positive x file name"           FILENAME class(1)
+1519 1514 "negative y image"                POINTER class(2)
+1520 1514 "negative y file name"           FILENAME class(1)
+1521 1514 "positive y image"                POINTER class(2)
+1522 1514 "positive y file name"           FILENAME class(1)
+1523 1514 "negative z image"                POINTER class(2)
+1524 1514 "negative z file name"           FILENAME class(1)
+1525 1514 "positive z image"                POINTER class(2)
+1526 1514 "positive z file name"           FILENAME class(1)
+1527 1514 "centre"                            POINT class(1)
+1528 1514 "size"                             DOUBLE class(1)
+1760 1514 "up"                               VECTOR class(1)
+1761 1514 "twist"                            DOUBLE class(1)
+
+1529   14 "infinite cube map"                SHADER superlite
+1530 1529 "negative x image"                POINTER class(2)
+1531 1529 "negative x file name"           FILENAME class(1)
+1532 1529 "positive x image"                POINTER class(2)
+1533 1529 "positive x file name"           FILENAME class(1)
+1534 1529 "negative y image"                POINTER class(2)
+1535 1529 "negative y file name"           FILENAME class(1)
+1536 1529 "positive y image"                POINTER class(2)
+1537 1529 "positive y file name"           FILENAME class(1)
+1538 1529 "negative z image"                POINTER class(2)
+1539 1529 "negative z file name"           FILENAME class(1)
+1540 1529 "positive z image"                POINTER class(2)
+1541 1529 "positive z file name"           FILENAME class(1)
+1766 1529 "up"                               VECTOR class(1)
+1767 1529 "twist"                            DOUBLE class(1)
+
+1542   14 "sphere map"                       SHADER superlite
+1543 1542 "image"                           POINTER class(2)
+1544 1542 "file name"                      FILENAME class(1)
+1770 1542 "up"                               VECTOR class(1)
+1771 1542 "twist"                            DOUBLE class(1)
+
+1545   14 "light studio"                  INTERFACE layla
+1546 1545 "shadows"                            ENUM class(0),value=2440
+1547 1545 "shadow type"                        ENUM class(1),value=2445
+1548 1545 "intensity type"                     ENUM class(1),value=2450
+1549 1545 "intensity"                        DOUBLE class(0)
+1550 1545 "override shadow resolution"      BOOLEAN class(1)
+1551 1545 "shadow resolution"                 NAT32 class(1)
+1552 1545 "fixed in world"                  BOOLEAN class(1)
+1553 1545 "show light geometry"                ENUM class(0),value=2455
+1554 1545 "active lights only"              BOOLEAN class(1)
+1555 1545 "orientation"                        ENUM class(3),value=2460
+1556 1545 "scale type"                         ENUM class(3),value=2470
+1557 1545 "scale"                           DVECTOR class(4)
+1558 1545 "rotation"                        DVECTOR class(4)
+1559 1545 "offset"                          DVECTOR class(4)
+1560 1545 "real-time shadows"               BOOLEAN class(0)
+1561 1545 "bounds"                           BOUNDS class(0)
+1562 1545 "override usage"                  BOOLEAN class(3)
+1563 1545 "usage"                          BITFIELD class(3),value=2480
+
+1564   14 "none"                             SHADER superlite
+
+1565    8 "simple sky"                       SHADER pro
+1566 1565 "colour"                           COLOUR class(0)
+1567 1565 "colour temperature"                FLOAT class(2)
+1568 1565 "intensity"                         FLOAT class(0)
+1569 1565 "intensity units"                    ENUM value=2011, class(2)
+1570 1565 "shadows"                         BOOLEAN class(0)
+1571 1565 "shadow type"                        ENUM value=2101,class(2)
+1572 1565 "shadow transparency"            BITFIELD value=2114,class(2)
+1573 1565 "shadow acceleration"            BITFIELD value=2121,class(3)
+1574 1565 "shadow resolution"               INTEGER class(3)
+1575 1565 "shadow quality"                  INTEGER class(3)
+1576 1565 "shadow softness"                   FLOAT class(3)
+1577 1565 "shadow tolerance"                  FLOAT class(3)
+1578 1565 "noise factor"                      FLOAT class(1)
+1579 1565 "up"                               VECTOR class(1)
+1580 1565 "number of samples"                 NAT32 class(0)
+
+1581   14 "fixed cross map"                  SHADER superlite
+1582 1581 "image"                           POINTER class(2)
+1583 1581 "file name"                      FILENAME class(1)
+1584 1581 "centre"                            POINT class(1)
+1585 1581 "size"                             DOUBLE class(1)
+1762 1581 "up"                               VECTOR class(1)
+1763 1581 "twist"                            DOUBLE class(1)
+
+1586   14 "infinite cross map"               SHADER superlite
+1587 1586 "image"                           POINTER class(2)
+1588 1586 "file name"                      FILENAME class(1)
+1764 1586 "up"                               VECTOR class(1)
+1765 1586 "twist"                            DOUBLE class(1)
+
+1589    8 "simple environment"               SHADER pro
+1590 1589 "intensity"                         FLOAT class(0)
+1591 1589 "intensity units"                    ENUM value=2011, class(2)
+1592 1589 "shadows"                         BOOLEAN class(0)
+1593 1589 "shadow type"                        ENUM value=2101,class(2)
+1594 1589 "shadow transparency"            BITFIELD value=2114,class(2)
+1595 1589 "shadow acceleration"            BITFIELD value=2121,class(3)
+1596 1589 "shadow resolution"               INTEGER class(3)
+1597 1589 "shadow quality"                  INTEGER class(3)
+1598 1589 "shadow softness"                   FLOAT class(3)
+1599 1589 "shadow tolerance"                  FLOAT class(3)
+1600 1589 "number of samples"                 NAT32 class(0)
+1601 1589 "noise factor"                      FLOAT class(0)
+1602 1589 "softness"                          FLOAT class(0)
+1630 1589 "use global environment"          BOOLEAN class(1)
+1631 1589 "environment"                    IF-ENVMP class(1)
+1712 1589 "saturation"                        FLOAT class(1)
+
+#
+# New shader argument for 7.4 "vector" render style
+#
+#    [1603]        "vector" render style
+#    [1604]        "opengl view"
+#
+
+1605   14 "latitude longitude map"           SHADER superlite
+1606 1605 "image"                           POINTER class(2)
+1607 1605 "file name"                      FILENAME class(1)
+1768 1605 "up"                               VECTOR class(1)
+1769 1605 "twist"                            DOUBLE class(1)
+
+1608   14 "angular map"                      SHADER superlite
+1609 1608 "image"                           POINTER class(2)
+1610 1608 "file name"                      FILENAME class(1)
+1772 1608 "up"                               VECTOR class(1)
+1773 1608 "twist"                            DOUBLE class(1)
+
+1611    8 "environment"                      SHADER pro
+1612 1611 "intensity"                         FLOAT class(0)
+1613 1611 "intensity units"                    ENUM value=2011, class(2)
+1614 1611 "shadows"                         BOOLEAN class(0)
+1615 1611 "shadow type"                        ENUM value=2101,class(2)
+1616 1611 "shadow transparency"            BITFIELD value=2114,class(2)
+1617 1611 "shadow acceleration"            BITFIELD value=2121,class(3)
+1618 1611 "shadow resolution"               INTEGER class(3)
+1619 1611 "shadow quality"                  INTEGER class(3)
+1620 1611 "shadow softness"                   FLOAT class(3)
+1621 1611 "shadow tolerance"                  FLOAT class(3)
+1622 1611 "number of samples"                 NAT32 class(0)
+1623 1611 "noise factor"                      FLOAT class(0)
+1624 1611 "use global environment"          BOOLEAN class(1)
+1625 1611 "environment"                    IF-ENVMP class(1)
+1713 1611 "saturation"                        FLOAT class(1)
+
+
+1627    5 "none"                             SHADER superlite
+
+#
+# New shader arguments for 7.4
+#
+#    [1628-1629]   "environment" background
+#    [1630-1631]   "simple environment" light
+#
+
+#
+# New shaders for 7.4ER3 - default pipeline and vertex shaders
+#
+
+1632   15 "default"                          SHADER superlite
+
+1633   16 "default"                          SHADER superlite
+
+#
+# New shader arguments for 7.5
+#     [1634]      "radiosity refinement" interface
+#
+
+#
+# New shader for 7.5 "portal" light source
+#
+
+1635    8 "portal"                           SHADER pro
+1636 1635 "primitive"                        PRIM   class(1)
+1637 1635 "light shader"                     SH-LIGHT
+
+#
+# New shader arguments for 7.5
+#     [1638]      "radiosity refinement" interface
+#     [1639-1644] "radiosity control" interface
+#
+
+#
+# New shader for 7.5 "lines and colour fill" sketch style
+#
+
+1645   14 "lines and colour fill"            SHADER misc
+1646 1645 "line colour"                      COLOUR class(1)
+1647 1645 "line width"                        FLOAT class(1)
+1648 1645 "anti aliasing"                   BOOLEAN class(1)
+1649 1645 "solid lines"                     BOOLEAN class(2)
+1650 1645 "line erosion scale"                FLOAT class(2)
+1651 1645 "post process lines"              BOOLEAN class(3)
+1652 1645 "stroke density"                    FLOAT class(1)
+1653 1645 "stroke width"                      FLOAT class(1)
+1654 1645 "stroke variance"                   FLOAT class(2)
+1655 1645 "use object colours"              BOOLEAN class(1)
+1656 1645 "stroke length"                     FLOAT class(1)
+1657 1645 "stroke length variance"            FLOAT class(3)
+1658 1645 "stroke angle"                      FLOAT class(1)
+1659 1645 "stroke angle variance"             FLOAT class(3)
+1660 1645 "stroke transparency"               FLOAT class(2)
+1661 1645 "stroke use intensity"            BOOLEAN class(2)
+1662 1645 "stroke constant colours"         BOOLEAN class(3)
+1663 1645 "stroke curve"                      FLOAT class(4)
+1664 1645 "stroke threshold"                  FLOAT class(4)
+1665 1645 "stroke contrast"                   FLOAT class(4)
+
+#
+# New shader arguments for 7.5
+#     [1666-1668]      "radiosity refinement" interface
+
+#
+# New shader for 7.5: "local leather" displacement.
+#
+
+1669    4 "local leather"                    SHADER pro
+1670 1669 "scale"                             FLOAT class(1)
+1671 1669 "cell amplitude"                    FLOAT class(1)
+1672 1669 "irregularity"                      FLOAT class(1)
+1673 1669 "smooth min"                        FLOAT class(2)
+1674 1669 "smooth max"                        FLOAT class(2)
+1675 1669 "rough amplitude"                   FLOAT class(2)
+1676 1669 "rough detail"                    INTEGER class(2)
+1677 1669 "rough frequency"                   FLOAT class(2)
+1678 1669 "curve amplitude"                   FLOAT class(2)
+1679 1669 "curve detail"                    INTEGER class(2)
+1680 1669 "curve frequency"                   FLOAT class(2)
+1681 1669 "fold amplitude"                    FLOAT class(2)
+1682 1669 "fold detail"                     INTEGER class(2)
+1683 1669 "fold frequency"                    FLOAT class(2)
+
+#
+# New shader argument for 7.5
+# [1684] "goniometric" light shader
+#
+
+1685   14 "auto"                             SHADER superlite
+1686 1685 "layout"                             ENUM value=2496,class(1)
+1687 1685 "image"                           POINTER class(2)
+1688 1685 "file name"                      FILENAME class(1)
+1689 1685 "kind"                               ENUM value=2506,class(1)
+1690 1685 "centre"                            POINT class(1)
+1691 1685 "size"                             DOUBLE class(1)
+1692 1685 "up"                               VECTOR class(1)
+1693 1685 "twist"                            DOUBLE class(1)
+
+1694   14 "cube map"                         SHADER superlite
+1695 1694 "negative x image"                POINTER class(2)
+1696 1694 "negative x file name"           FILENAME class(1)
+1697 1694 "positive x image"                POINTER class(2)
+1698 1694 "positive x file name"           FILENAME class(1)
+1699 1694 "negative y image"                POINTER class(2)
+1700 1694 "negative y file name"           FILENAME class(1)
+1701 1694 "positive y image"                POINTER class(2)
+1702 1694 "positive y file name"           FILENAME class(1)
+1703 1694 "negative z image"                POINTER class(2)
+1704 1694 "negative z file name"           FILENAME class(1)
+1705 1694 "positive z image"                POINTER class(2)
+1706 1694 "positive z file name"           FILENAME class(1)
+1707 1694 "kind"                               ENUM value=2506,class(1)
+1708 1694 "centre"                            POINT class(1)
+1709 1694 "size"                             DOUBLE class(1)
+1710 1694 "up"                               VECTOR class(1)
+1711 1694 "twist"                            DOUBLE class(1)
+
+#
+# New shader arguments for 7.5
+# [1712] "simple environment" light source shader
+# [1713] "environment" light source shader
+#
+
+
+# New shaders for 7.5
+
+1714    1 "wrapped paint splat"              SHADER pro
+1715 1714 "scale"                             FLOAT class(0)
+1716 1714 "density"                           FLOAT class(0)
+1717 1714 "size variance"                     FLOAT class(1)
+1718 1714 "colour 1"                         COLOUR class(0)
+1719 1714 "colour 2"                         COLOUR class(0)
+1720 1714 "shape detail"                      FLOAT class(2)
+
+1721    1 "layered"                          SHADER pro
+1722 1721 "base shader"                      SH-COL class(1)
+1723 1721 "layer 1 shader"                   SH-COL class(1)
+1724 1721 "layer 2 shader"                   SH-COL class(1)
+1725 1721 "layer 3 shader"                   SH-COL class(1)
+1726 1721 "layer 4 shader"                   SH-COL class(1)
+1727 1721 "layer 5 shader"                   SH-COL class(1)
+
+1728    1 "wrapped brick formation"          SHADER pro
+1729 1728 "scale"                             FLOAT class(0)
+1730 1728 "brick width"                       FLOAT class(1)
+1731 1728 "brick height"                      FLOAT class(1)
+1732 1728 "brick depth"                       FLOAT class(1)
+1733 1728 "brick side shader"                SH-COL class(0)
+1734 1728 "brick end shader"                 SH-COL class(0)
+1735 1728 "bond"                               ENUM value=2151, class(2)
+
+1736    1 "wrapped random image"             SHADER pro
+1737 1736 "selector"                          FLOAT class(1), disabled
+1738 1736 "image 1 shader"                   SH-COL class(1)
+1739 1736 "image 2 shader"                   SH-COL class(1)
+1740 1736 "image 3 shader"                   SH-COL class(1)
+1741 1736 "image 4 shader"                   SH-COL class(1)
+1742 1736 "image 5 shader"                   SH-COL class(1)
+1743 1736 "variants count"                    NAT32 class(3), disabled
+
+1744    6 "scaled image"                     SHADER pro
+1745 1744 "file name"                      FILENAME class(0)
+1746 1744 "image"                           POINTER class(1)
+1747 1744 "mask file name"                 FILENAME class(0)
+1748 1744 "mask image"                      POINTER class(1)
+1749 1744 "invert mask"                     BOOLEAN class(0)
+1750 1744 "rotation"                           ENUM value=2252, class(2)
+1751 1744 "aspect mode"                        ENUM value=2511, class(2)
+1752 1744 "keep texture"                    BOOLEAN class(3)
+1753 1744 "softness"                          FLOAT class(2)
+1754 1744 "x offset"                          FLOAT class(1)
+1755 1744 "y offset"                          FLOAT class(1)
+1756 1744 "image brightness"                  FLOAT class(1)
+1757 1744 "coverage"                          FLOAT class(1)
+
+#
+# New shader arguments for 7.5
+# [1758-9] "radiosity refinement" interface
+# [1774-8] "radiosity control" interface
+# [1779]   "cylindrical" texture-space
+# [1780]   "spherical" texture-space
+
+#
+# New shader arguments for 7.6
+# [1782]   "radiosity control" interface
+# [1783]   "radiosity control" interface
+
+# [1784]   "aspect ratio"                      FLOAT class(1)
+
+#
+# Next Argument id: 1785
+#
+
+#########################################################################
+
+#
+# 2000 - 2999 Reserved for enum/bitfield values
+#
+
+#
+# ENUM and STRING values
+#
+2000    0 "fall off"                       ENUM-DEF -
+2001 2000 "constant"                       ENUM-VAL value=1
+2002 2000 "inverse"                        ENUM-VAL value=2
+2003 2000 "inverse square law"             ENUM-VAL value=3
+2004 2000 "unclamped inverse"              ENUM-VAL value=4
+2005 2000 "unclamped ISL"                  ENUM-VAL value=5
+
+2010    0 "intensity units"                ENUM-DEF -
+2011 2010 "empirical"                      ENUM-VAL value=0
+2012 2010 "candela"                        ENUM-VAL value=1
+2013 2010 "kilo-candela"                   ENUM-VAL value=2
+2014 2010 "lumen"                          ENUM-VAL value=3
+2015 2010 "kilo-lumen"                     ENUM-VAL value=4
+2016 2010 "lux"                            ENUM-VAL value=5
+2017 2010 "kilo-lux"                       ENUM-VAL value=6
+2018 2010 "nit"                            ENUM-VAL value=7
+2019 2010 "foot-candle"                    ENUM-VAL value=8
+
+2020    0 "extrapolation"                  ENUM-DEF -
+2021 2020 "tile"                           ENUM-VAL value=0
+2022 2020 "smear"                          ENUM-VAL value=1
+2023 2020 "none"                           ENUM-VAL value=2
+
+2030    0 "curvature type"                 ENUM-DEF -
+2031 2030 "gaussian"                       ENUM-VAL value=0
+2032 2030 "mean"                           ENUM-VAL value=2
+2033 2030 "absolute"                       ENUM-VAL value=1
+
+2040    0 "scattering model"               ENUM-DEF -
+2041 2040 "isotropic"                      ENUM-VAL value=0
+2042 2040 "Rayleigh"                       ENUM-VAL value=1
+2043 2040 "Mie hazy"                       ENUM-VAL value=2
+2044 2040 "Mie murky"                      ENUM-VAL value=3
+2045 2040 "Henyey-Greenstein"              ENUM-VAL value=4
+
+2050    0 "sky type"                       ENUM-DEF -
+2051 2050 "CIE overcast"                   ENUM-VAL value=1
+2052 2050 "CIE clear"                      ENUM-VAL value=3
+2053 2050 "CIE intermediate"               ENUM-VAL value=2
+2054 2050 "IESNA overcast"                 ENUM-VAL value=4
+2055 2050 "IESNA clear"                    ENUM-VAL value=6
+2056 2050 "IESNA intermediate"             ENUM-VAL value=5
+
+2060    0 "spectral distribution"          ENUM-DEF -
+2061 2060 "D65"                            ENUM-VAL -
+2062 2060 "D55"                            ENUM-VAL -
+2063 2060 "D75"                            ENUM-VAL -
+2064 2060 "temperature"                    ENUM-VAL -
+
+2070    0 "replication type"               ENUM-DEF -
+2071 2070 "squares"                        ENUM-VAL value=1
+2072 2070 "herringbone"                    ENUM-VAL value=2
+2073 2070 "floorboards"                    ENUM-VAL value=3
+2074 2070 "ladder"                         ENUM-VAL value=4
+
+2080    0 "pulse generator"                ENUM-DEF -
+2081 2080 "lattice rectangle"              ENUM-VAL value=0
+2082 2080 "Adaptive rectangle"             ENUM-VAL value=1
+
+2085    0 "pulse map"                      ENUM-DEF -
+2086 2085 "screen"                         ENUM-VAL value=1
+2087 2085 "world"                          ENUM-VAL value=2
+2088 2085 "texture"                        ENUM-VAL value=3
+
+2090    0 "reconstructor"                  ENUM-DEF -
+2091 2090 "box"                            ENUM-VAL value=16
+2092 2090 "triangle"                       ENUM-VAL value=17
+2093 2090 "gaussian"                       ENUM-VAL value=18
+
+2100    0 "shadow type"                    ENUM-DEF -
+2101 2100 "soft"                           ENUM-VAL value=1
+2102 2100 "hard"                           ENUM-VAL value=2
+
+2110    0 "shadow transparency"             BIT-DEF -
+2111 2110 "on"                              BIT-VAL value=1
+2112 2110 "interpolate"                     BIT-VAL value=2
+2113 2110 "displacement"                    BIT-VAL value=4
+2114 2110 "global"                          BIT-VAL value=8
+
+2120    0 "shadow acceleration"             BIT-DEF -
+2121 2120 "none"                            BIT-VAL disabled,value=0
+2122 2120 "auto"                            BIT-VAL value=1
+2123 2120 "maps"                            BIT-VAL value=2
+2124 2120 "cache"                           BIT-VAL value=4
+2125 2120 "reverse"                         BIT-VAL value=8
+2126 2120 "estimation"                      BIT-VAL value=16
+
+2130    0 "metallic flakes"                ENUM-DEF -
+2131 2130 "aluminium"                      ENUM-VAL value=0
+2132 2130 "silver"                         ENUM-VAL value=1
+2133 2130 "gold"                           ENUM-VAL value=2
+
+2140    0 "sun auto mode"                   BIT-DEF -
+2141 2140 "none"                            BIT-VAL disabled,value=0
+2142 2140 "position"                        BIT-VAL value=1
+2143 2140 "intensity"                       BIT-VAL value=2
+
+2150    0 "bond"                           ENUM-DEF -
+2151 2150 "stretcher"                      ENUM-VAL value=1
+2152 2150 "common"                         ENUM-VAL value=2
+2153 2150 "flemish"                        ENUM-VAL value=3
+2154 2150 "english"                        ENUM-VAL value=4
+2155 2150 "stack"                          ENUM-VAL value=5
+2156 2150 "rowlock"                        ENUM-VAL value=6
+
+2160    0 "execute method"                 ENUM-DEF -
+2161 2160 "preview"                        ENUM-VAL value=458753 # rtpreview
+2162 2160 "full"                           ENUM-VAL value=458754 # rtfull
+
+2170    0 "lens"                           ENUM-DEF -
+2171 2170 "standard"                       ENUM-VAL -
+2172 2170 "lens35"                         ENUM-VAL -
+2173 2170 "lens50"                         ENUM-VAL -
+2174 2170 "lens105"                        ENUM-VAL -
+2175 2170 "polygon"                        ENUM-VAL -
+2176 2170 "polygon35"                      ENUM-VAL -
+2177 2170 "polygon50"                      ENUM-VAL -
+2178 2170 "spark"                          ENUM-VAL -
+2179 2170 "star"                           ENUM-VAL -
+
+2180    0 "shape"                          ENUM-DEF -
+2181 2180 "circle"                         ENUM-VAL -
+2182 2180 "polygon"                        ENUM-VAL -
+2183 2180 "arc polygon"                    ENUM-VAL -
+
+2190    0 "flares ray type"                ENUM-DEF -
+2191 2190 "none"                           ENUM-VAL -
+2192 2190 "random"                         ENUM-VAL -
+2193 2190 "regular"                        ENUM-VAL -
+2194 2190 "mixed"                          ENUM-VAL -
+
+2200    0 "lights select"                  ENUM-DEF -
+2201 2200 "visible"                        ENUM-VAL -
+2202 2200 "hidden"                         ENUM-VAL -
+2203 2200 "all"                            ENUM-VAL -
+
+2210    0 "archive driver"                 ENUM-DEF -
+2211 2210 "lightworks"                     ENUM-DEF -
+2212 2210 "postscript"                     ENUM-DEF -
+2213 2210 "targa"                          ENUM-DEF -
+2214 2210 "tiff"                           ENUM-DEF -
+2215 2210 "windows bitmap"                 ENUM-DEF -
+
+2220    0 "catch mode"                     ENUM-DEF -
+2221 2220 "none"                           ENUM-VAL value=0
+2222 2220 "all"                            ENUM-VAL value=1
+2223 2220 "shadows only"                   ENUM-VAL value=2
+
+2225    0 "transparency mode"              ENUM-DEF -
+2226 2225 "mix"                            ENUM-VAL value=1
+2227 2225 "attenuate"                      ENUM-VAL value=2
+
+2230    0 "granite type"                   ENUM-DEF -
+2231 2230 "sierra"                         ENUM-VAL value=0
+2232 2230 "bianco"                         ENUM-VAL value=1
+2233 2230 "diamond"                        ENUM-VAL value=2
+2234 2230 "azalea"                         ENUM-VAL value=3
+2235 2230 "auburn"                         ENUM-VAL value=4
+
+2240    0 "decal mode"                     ENUM-DEF -
+2241 2240 "default"                        ENUM-VAL value=0
+2242 2240 "normalised"                     ENUM-VAL value=1
+2243 2240 "user"                           ENUM-VAL disabled,value=2
+
+2245    0 "axis"                           ENUM-DEF -
+2246 2245 "x-axis"                         ENUM-VAL value=0
+2247 2245 "y-axis"                         ENUM-VAL value=1
+2248 2245 "z-axis"                         ENUM-VAL value=2
+
+2250    0 "rotation"                       ENUM-DEF -
+2251 2250 "-90 degrees"                    ENUM-VAL value=270
+2252 2250 "none"                           ENUM-VAL value=0
+2253 2250 "90 degrees"                     ENUM-VAL value=90
+2254 2250 "180 degrees"                    ENUM-VAL value=180
+
+2255    0 "histogram method"               ENUM-DEF -
+2256 2255 "no ceiling"                     ENUM-VAL value=0
+2257 2255 "linear ceiling"                 ENUM-VAL value=1
+2258 2255 "human ceiling"                  ENUM-VAL value=2
+
+2260    0 "roof tile pattern"              ENUM-DEF -
+2261 2260 "flat"                           ENUM-VAL value=0
+2262 2260 "scalloped"                      ENUM-VAL value=1
+2263 2260 "diamond"                        ENUM-VAL value=2
+2264 2260 "hexagonal"                      ENUM-VAL value=3
+2265 2260 "classic"                        ENUM-VAL value=4
+2266 2260 "espana"                         ENUM-VAL value=5
+2267 2260 "spanish"                        ENUM-VAL value=6
+2268 2260 "roma"                           ENUM-VAL value=7
+
+2270    0 "FF accuracy"                    ENUM-DEF -
+2271 2270 "simple"                         ENUM-VAL value=0
+2272 2270 "solid"                          ENUM-VAL value=1
+2273 2270 "exact"                          ENUM-VAL value=2
+
+2275    0 "mesh bits"                       BIT-DEF -
+2276 2275 "mesh area"                       BIT-VAL value=1
+2277 2275 "mesh patches"                    BIT-VAL value=2
+2278 2275 "mesh element area"               BIT-VAL value=4
+2279 2275 "mesh elements"                   BIT-VAL value=8
+
+# bitvals are LI_RP_REF_FLG_* from liradios.h
+2280    0 "set criteria"                    BIT-DEF -
+2281 2280 "adaptive meshing"                BIT-VAL value=1
+2282 2280 "keep edges"                      BIT-VAL value=2
+2283 2280 "mesh accuracy"                   BIT-VAL value=4
+2284 2280 "minimum area"                    BIT-VAL value=8
+2289 2280 "maximum element area"            BIT-VAL value=8192
+2299 2280 "minimum patch area"              BIT-VAL value=2097152
+2285 2280 "maximum area"                    BIT-VAL value=16
+2286 2280 "mesh bits"                       BIT-VAL value=65536
+2287 2280 "initial elements"                BIT-VAL value=64
+2288 2280 "num patches"                     BIT-VAL value=32
+2290 2280 "maximum elements"                BIT-VAL value=128
+2291 2280 "minimum samples"                 BIT-VAL value=256
+2292 2280 "maximum samples"                 BIT-VAL value=512
+2293 2280 "FF accuracy"                     BIT-VAL value=2048
+2294 2280 "receive radiosity"               BIT-VAL value=131072
+2295 2280 "bounce radiosity"                BIT-VAL value=262144
+2296 2280 "double sided"                    BIT-VAL value=524288
+2297 2280 "remove area direct"              BIT-VAL value=32768
+2298 2280 "absolute area settings"          BIT-VAL value=1048576
+
+2300    0 "mode"                           ENUM-DEF -
+2301 2300 "none"                           ENUM-VAL value=0
+2302 2300 "typical"                        ENUM-VAL value=1
+2303 2300 "quality"                        ENUM-VAL value=2
+2304 2300 "virtual world"                  ENUM-VAL value=3
+2305 2300 "lighting design"                ENUM-VAL value=4
+2306 2300 "fast"                           ENUM-VAL value=5
+
+2310    0 "shift axis"                     ENUM-DEF -
+2311 2310 "none"                           ENUM-VAL value=0
+2312 2310 "s"                              ENUM-VAL value=1
+2313 2310 "t"                              ENUM-VAL value=2
+
+2320    0 "smoothing effect"               ENUM-DEF -
+2321 2320 "colour"                         ENUM-VAL value=0
+2322 2320 "colour and surface"             ENUM-VAL value=1
+
+2330    0 "texture quality"                ENUM-DEF -
+2331 2330 "low"                            ENUM-VAL value=0
+2332 2330 "high"                           ENUM-VAL value=1
+
+2335    0 "transparency quality"           ENUM-DEF -
+2336 2335 "low"                            ENUM-VAL value=0
+2337 2335 "medium"                         ENUM-VAL value=1
+2338 2335 "high"                           ENUM-VAL value=2
+
+2340    0 "lighting accuracy"              ENUM-DEF -
+2341 2340 "low"                            ENUM-VAL value=0
+2342 2340 "high"                           ENUM-VAL value=1
+
+2345    0 "lighting quality"               ENUM-DEF -
+2346 2345 "low"                            ENUM-VAL value=0
+2347 2345 "high"                           ENUM-VAL value=1
+
+2350    0 "background quality"             ENUM-DEF -
+2351 2350 "low"                            ENUM-VAL value=0
+2352 2350 "medium"                         ENUM-VAL value=1
+2353 2350 "high"                           ENUM-VAL value=2
+
+2355    0 "rendering method"               ENUM-DEF -
+2356 2355 "edges"                          ENUM-VAL value=0
+2357 2355 "surfaces"                       ENUM-VAL value=1
+
+2360    0 "colour quality"                 ENUM-DEF -
+2361 2360 "low"                            ENUM-VAL value=0
+2362 2360 "medium"                         ENUM-VAL value=1
+2363 2360 "high"                           ENUM-VAL value=2
+2364 2360 "very high"                      ENUM-VAL value=3
+
+2365    0 "faceting quality"               ENUM-DEF -
+2366 2365 "coarse"                         ENUM-VAL value=0
+2367 2365 "fine"                           ENUM-VAL value=1
+2368 2365 "custom"                         ENUM-VAL value=2
+
+2370    0 "shadow depth"                   ENUM-DEF -
+2371 2370 "low"                            ENUM-VAL value=0
+2372 2370 "high"                           ENUM-VAL value=1
+
+2375    0 "visible edges"                  BIT-DEF -
+2376 2375 "visible edges"                  BIT-VAL value=8
+2377 2375 "hidden edges"                   BIT-VAL value=1
+2378 2375 "silhouette edges"               BIT-VAL value=4
+
+2380    0 "ignore edges"                   BIT-DEF -
+2381 2380 "boundary edges"                 BIT-VAL value=2
+2382 2380 "silhouette edges"               BIT-VAL value=4
+2383 2380 "interpenetration edges"         BIT-VAL value=512
+2384 2380 "interior edges"                 BIT-VAL value=16
+2385 2380 "crease edges"                   BIT-VAL value=4096
+2386 2380 "X plane clipped edges"          BIT-VAL value=8192
+2387 2380 "Y plane clipped edges"          BIT-VAL value=16384
+2388 2380 "Z plane clipped edges"          BIT-VAL value=32768
+
+2390    0 "regenerate cache"               ENUM-DEF -
+2391 2390 "auto"                           ENUM-VAL value=0
+2392 2390 "force"                          ENUM-VAL value=1
+2393 2390 "never"                          ENUM-VAL value=2
+
+2394    0 "shadow mode"                    ENUM-DEF -
+2395 2394 "off"                            ENUM-VAL value=0
+2396 2394 "manual"                         ENUM-VAL value=1
+2397 2394 "automatic"                      ENUM-VAL value=2
+
+2400    0 "regenerate flags"               BIT-DEF -
+2401 2400 "fixed geometry"                 BIT-VAL value=1
+2402 2400 "selected material first"        BIT-VAL value=2
+2403 2400 "remaining materials"            BIT-VAL value=4
+
+2410    0 "billboard style"                ENUM-DEF -
+2411 2410 "none"                           ENUM-VAL value=0
+2412 2410 "cylindrical"                    ENUM-VAL value=1
+2413 2410 "spherical"                      ENUM-VAL value=2
+
+2420    0 "aspect mode"                    ENUM-DEF -
+2421 2420 "stretch"                        ENUM-VAL value=0
+2422 2420 "keep ratio"                     ENUM-VAL value=1
+2423 2420 "letterbox"                      ENUM-VAL value=2
+2424 2420 "match view"                     ENUM-VAL value=3
+2425 2420 "centre"                         ENUM-VAL value=4
+
+2430    0 "projection"                     ENUM-DEF -
+2431 2430 "orthographic"                   ENUM-VAL value=1
+2432 2430 "perspective"                    ENUM-VAL value=2
+
+2435    0 "real time plus expansion"       ENUM-DEF -
+2436 2435 "none"                           ENUM-VAL value=0
+2437 2435 "expand to base"                 ENUM-VAL value=1
+
+2440    0 "shadows"                        ENUM-DEF -
+2441 2440 "on"                             ENUM-VAL value=2
+2442 2440 "off"                            ENUM-VAL value=1
+2443 2440 "use child settings"             ENUM-VAL value=0
+
+2445    0 "shadow type"                    ENUM-DEF -
+2446 2445 "soft"                           ENUM-VAL value=64
+2447 2445 "hard"                           ENUM-VAL value=128
+2448 2445 "use child settings"             ENUM-VAL value=0
+
+2450    0 "intensity type"                 ENUM-DEF -
+2451 2450 "intensity factor"               ENUM-VAL value=0
+2452 2450 "total intensity"                ENUM-VAL value=1
+
+2455    0 "show light geometry"            ENUM-DEF -
+2456 2455 "on"                             ENUM-VAL value=32
+2457 2455 "off"                            ENUM-VAL value=262144
+2458 2455 "use child settings"             ENUM-VAL value=0
+
+2460    0 "orientation"                    ENUM-DEF -
+2461 2460 "world"                          ENUM-VAL value=0
+2462 2460 "axis aligned"                   ENUM-VAL value=1
+2463 2460 "up-axis aligned"                ENUM-VAL value=2
+2464 2460 "view-up aligned"                ENUM-VAL value=3
+2465 2460 "view-direction aligned"         ENUM-VAL value=4
+2466 2460 "session aligned"                ENUM-VAL value=5
+
+2470    0 "scale type"                     ENUM-DEF -
+2471 2470 "none"                           ENUM-VAL value=0
+2472 2470 "uniform"                        ENUM-VAL value=1
+2473 2470 "xy-uniform"                     ENUM-VAL value=2
+2474 2470 "non-uniform"                    ENUM-VAL value=3
+
+2480    0 "usage"                           BIT-DEF -
+2481 2480 "none"                            BIT-VAL value=0,disabled
+2482 2480 "global illumination"             BIT-VAL value=bit0
+2483 2480 "active"                          BIT-VAL value=bit1
+2484 2480 "standard"                        BIT-VAL value=bit2
+2485 2480 "auto"                            BIT-VAL value=bit3
+
+2490    0 "edge rendering flags"            BIT-DEF -
+2491 2490 "override edge colours"           BIT-VAL value=1
+
+2495    0 "layout"                         ENUM-DEF -
+2496 2495 "auto"                           ENUM-VAL value=6
+2497 2495 "vcross"                         ENUM-VAL value=5
+2498 2495 "hcross"                         ENUM-VAL value=7
+2499 2495 "angular"                        ENUM-VAL value=4
+2500 2495 "lat long"                       ENUM-VAL value=3
+2501 2495 "vstrip"                         ENUM-VAL value=8
+
+2505    0 "kind"                           ENUM-DEF -
+2506 2505 "infinite"                       ENUM-VAL value=1
+2507 2505 "fixed"                          ENUM-VAL value=0
+
+2510    0 "aspect mode"                    ENUM-DEF -
+2511 2510 "stretch"                        ENUM-VAL value=0
+2512 2510 "keep ratio"                     ENUM-VAL value=1
+2513 2510 "letterbox"                      ENUM-VAL value=2
+2514 2510 "match view"                     ENUM-VAL value=3
+
+2515    0 "highlight patches"              BIT-DEF -
+2516 2515 "patch edges"                    BIT-VAL value=1
+2517 2515 "patch centres"                  BIT-VAL value=2
+2518 2515 "bounce patches"                 BIT-VAL value=4
+2519 2515 "no-bounce patches"              BIT-VAL value=8
+
+# Next = 2520
+
+#
+# 3000 - 3899 Reserved for application use.
+#
+
+#
+# Shaders in development.
+# These should temporarily use codes 3000 - 3899.
+#
+# include opt replace "devel/shdev.dat"
+
+#
+# Shaders internal to lisesman and not available through the API.
+#
+
+3900    1 "unknown"                          SHADER layla,hidden
+3901    2 "unknown"                          SHADER layla,hidden
+3902    3 "unknown"                          SHADER layla,hidden
+3903    4 "unknown"                          SHADER layla,hidden
+3904    5 "unknown"                          SHADER layla,hidden
+3905    6 "unknown"                          SHADER layla,hidden
+3906    7 "unknown"                          SHADER layla,hidden
+3907    8 "unknown"                          SHADER layla,hidden
+3911   12 "unknown"                          SHADER layla,hidden
+3912   13 "unknown"                          SHADER layla,hidden
+3913   14 "unknown"                          SHADER layla,hidden
+
+#
+# Internal shaders in linpr use by lisketch and not available through the API.
+#
+
+
+#
+# Other internal shaders
+#
+3951    1 "gl wrapped image"                 SHADER misc,ignore
+3952   15 "shadow map"                       SHADER superlite,ignore

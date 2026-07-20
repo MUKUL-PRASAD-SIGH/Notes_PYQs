@@ -1,0 +1,2505 @@
+#
+# $File$
+# $Revision$
+# $Change$
+# $Author$
+# $DateTime$
+#
+
+#
+# Shader Name and argument Name strings
+#
+
+offset shader
+nonewline
+
+0001 Colour
+0002 Reflectance
+0003 Transparency
+0004 Displacement
+0005 Texture Space
+0006 Foreground
+0007 Background
+0008 Light
+0009 Reflectance Use
+0010 Filter
+0011 All
+0012 Tone
+0013 Postprocess
+
+0020 Plain
+0021 Colour
+
+0022 Wrapped Filtered Image
+0023 File Name
+0024 Filter Colour
+0967 Image
+0968 Softness
+
+0025 Wrapped Image
+0026 File Name
+0970 Image
+0971 Softness
+
+0027 Constant
+
+0028 Matte
+0029 Ambient Factor
+0030 Diffuse Factor
+
+0031 Metal
+0032 Ambient Factor
+0033 Specular Factor
+0034 Roughness
+
+0035 Phong
+0036 Ambient Factor
+0037 Diffuse Factor
+0038 Specular Factor
+0039 Exponent
+0040 Specular Colour
+
+0041 Plastic
+0042 Ambient Factor
+0043 Diffuse Factor
+0044 Specular Factor
+0045 Roughness
+0046 Specular Colour
+
+0047 (None)
+
+0048 Plain
+0049 Colour
+
+0050 (None)
+
+0051 Arbitrary Plane
+0052 Scale
+0053 Aspect Ratio
+0054 Origin
+0055 Normal
+0056 Up
+
+0057 Auto Axis
+0058 Scale
+
+0059 Cylindrical
+0060 Scale Around Axis
+0061 Scale Along Axis
+0062 Centre Point
+0063 Axis Direction
+0064 Origin
+
+0065 Spherical
+0066 Latitude Scale
+0067 Longitude Scale
+0068 Centre Point
+0069 Origin
+0070 Axis Direction
+
+0071 UV
+0072 U Scale
+0073 V Scale
+
+0074 X Plane
+0075 Scale
+
+0076 Y Plane
+0077 Scale
+
+0078 Z Plane
+0079 Scale
+
+0080 (None)
+
+0081 Graduated
+0082 Top Colour
+0083 Bottom Colour
+
+0084 Image
+0085 File Name
+0086 Image
+
+0087 (None)
+
+0088 Plain
+0089 Colour
+
+0090 Ambient
+0091 Intensity
+0092 Colour
+
+0093 Distant
+0094 Intensity
+0095 Colour
+0096 Location
+0097 To
+0098 Shadows
+0099 Shadow Resolution
+0100 Shadow Quality
+0101 Shadow Softness
+0102 Intensity Units
+0103 Colour Temperature
+0634 Shadow Type
+0635 Shadow Transparency
+0636 Shadow Acceleration
+0637 Scattering
+1051 Shadow Tolerance
+
+0104 Eye
+0105 Intensity
+0106 Colour
+
+0107 Point
+0108 Intensity
+0109 Colour
+0110 Location
+0111 Fall Off
+0112 Shadows
+0113 Shadow Resolution
+0114 Shadow Quality
+0115 Shadow Softness
+0116 Colour Temperature
+0117 Intensity Units
+0118 Scattering
+0119 Fall Off Function
+0120 Fall Off Data
+0121 Inverse Fall Off Function
+0628 Shadow Type
+0629 Shadow Transparency
+0630 Shadow Acceleration
+1055 Shadow Tolerance
+1056 Forwards
+
+0122 Spot
+0123 Intensity
+0124 Colour
+0125 Location
+0126 To
+0127 Fall Off
+0128 Cone Angle
+0129 Cone Delta Angle
+0130 Beam Distribution
+0131 Shadows
+0132 Shadow Resolution
+0133 Shadow Quality
+0134 Shadow Softness
+0135 Colour Temperature
+0136 Intensity Units
+0137 Scattering
+0138 Fall Off Function
+0139 Fall Off Data
+0140 Inverse Fall Off Function
+0631 Shadow Type
+0632 Shadow Transparency
+0633 Shadow Acceleration
+1064 Shadow Tolerance
+1065 Forwards
+
+0141 Scale
+0142 Scale Factor
+1046 Auto Setup Shader Name
+1047 Auto Setup Shader
+
+0143 Base
+
+0144 Blue Marble
+0145 Scale
+0146 Detail
+
+0147 Chrome
+0148 Base Colour
+0149 Vector
+0150 Mix
+
+0151 Cubes
+0152 Scale
+0153 Odd Colour
+0154 Even Colour
+
+0155 Marble
+0156 Scale
+0157 Detail
+0158 Ground Colour
+0159 Vein Colour
+0160 Vein Contrast
+0161 Grain
+0162 Grain Scale
+
+0163 Simple Wood
+0164 Scale
+0165 Light Wood Colour
+0166 Dark Wood Colour
+0167 Point on Axis
+0168 Axis Direction
+0169 Noise
+
+0170 Solid Clouds
+0171 Scale
+0172 Background Colour
+0173 Clouds Colour
+0174 Detail
+
+0175 Solid Polka
+0176 Scale
+0177 Separation
+0178 Radius
+0179 Edge Softness
+0180 Background Colour
+0181 Spot Colour
+
+0182 Wrapped Brick
+0183 Scale
+0184 Brick Width
+0185 Brick Height
+0186 Mortar Size
+0187 Brick Colour
+0188 Mortar Colour
+0965 Fuzz
+
+0189 Wrapped Checker
+0190 Scale
+0191 Odd Colour
+0192 Even Colour
+0966 Fuzz
+
+0193 Wrapped Diagonal
+0194 Scale
+0195 Width
+0196 Background Colour
+0197 Stripe Colour
+0198 Fuzz
+
+0199 Wrapped Grid
+0200 Scale
+0201 Width
+0202 Height
+0203 Grid Size
+0204 Grid Colour
+0205 Background Colour
+0969 Fuzz
+
+0206 Wrapped Polka
+0207 Scale
+0208 Separation
+0209 Radius
+0210 Edge Softness
+0211 Background Colour
+0212 Spot Colour
+
+0213 Wrapped S Stripe
+0214 Scale
+0215 Width
+0216 Background Colour
+0217 Stripe Colour
+0218 Fuzz
+
+0219 Wrapped T Stripe
+0220 Scale
+0221 Width
+0222 Background Colour
+0223 Stripe Colour
+0224 Fuzz
+
+0225 Wrapped Textured Brick
+0226 Scale
+0227 Brick Width
+0228 Brick Height
+0229 Mortar Size
+0230 Brick Colour 1
+0231 Brick Colour 2
+0232 Mortar Colour
+0233 Rough Scale
+0234 Rough Amplitude
+0235 Offset
+0972 Fuzz
+
+0236 Base
+
+0237 Chrome 2D
+0238 Ambient Factor
+0239 Diffuse Factor
+0240 Specular Factor
+0241 Chrome Factor
+0242 Roughness
+
+0243 Base
+
+0244 Eroded
+0245 Scale
+0246 Coverage
+0247 Fuzz
+
+0248 Wrapped Checker
+0249 Scale
+0250 Odd Coverage
+0251 Even Coverage
+0977 Fuzz
+
+0252 Wrapped Grid
+0253 Scale
+0254 Width
+0255 Height
+0256 Grid Size
+0257 Transparency
+0978 Fuzz
+
+0258 Wrapped Image
+0259 File Name
+0959 Image
+0960 Softness
+
+0260 Wrapped Mask
+0261 File Name
+0961 Image
+0962 Softness
+
+0262 Wrapped Square
+0263 S Min
+0264 S Max
+0265 T Min
+0266 T Max
+0267 S Fuzz
+0268 T Fuzz
+0269 Inside Coverage
+0270 Outside Coverage
+
+0271 Casting
+0272 Scale
+0273 Casting Amplitude
+0274 Dented Amplitude
+0275 Dented Scale
+0276 Dented Threshold
+0277 Detail
+
+0278 Flat
+
+0279 Rough
+0280 Scale
+0281 Amplitude
+0282 Detail
+0283 Sharpness
+
+0284 Wrapped Bump Map
+0285 File Name
+0286 Amplitude
+0975 Image
+0976 Softness
+
+0287 Wrapped Dimple
+0288 Scale
+0289 Separation
+0290 Radius
+0291 Centre Depth
+0292 Blend
+
+0293 Wrapped Knurl
+0294 Scale
+0295 Blend
+0296 Amplitude
+
+0297 Wrapped Old Bump Map
+0298 File Name
+0299 Scale
+0300 Amplitude
+
+0301 Wrapped Rough
+0302 Scale
+0303 Amplitude
+0304 Detail
+0305 Sharpness
+
+0306 Wrapped Tread Plate
+0307 Scale
+0308 Radius
+0309 Amplitude
+0310 Blend
+
+0311 Depth Cue
+0312 Near
+0313 Far
+0314 Background Colour
+
+0315 Fog
+0316 Distance
+0317 Fog Colour
+0318 Max Density
+0319 Ignore Background
+
+0320 Snow
+0321 Near Scale
+0322 Far Scale
+0323 Flake Size
+0324 Flake Density
+0325 Noise Amplitude
+0326 Noise Scale
+0327 Flake Colour
+1070 Random Seed
+
+0328 Clouds
+0329 Scale
+0330 Background Colour
+0331 Clouds Colour
+0332 Detail
+
+0333 Mixed
+0334 Base Shader
+0335 Mixed Shader
+0336 Mixing Ratio
+
+0337 Scaled Image
+0338 File Name
+0339 Image
+0340 Rotation
+0341 Aspect Mode
+0342 Keep Texture
+0979 Softness
+
+0343 Decal
+0344 Decal Texture Space
+0345 Decal Transparency
+0346 Decal Colour
+0347 Base Colour
+
+0348 Conductor
+0349 Ambient Factor
+0350 Diffuse Factor
+0351 Specular Factor
+0352 Mirror Factor
+0353 Roughness
+0354 Refraction Red
+0355 Refraction Green
+0356 Refraction Blue
+0357 Absorption Red
+0358 Absorption Green
+0359 Absorption Blue
+
+0360 Dielectric
+0361 Ambient Factor
+0362 Diffuse Factor
+0363 Specular Factor
+0364 Transmission Factor
+0365 Mirror Factor
+0366 Roughness
+0367 Refraction
+
+0368 Environment
+0369 Ambient Factor
+0370 Diffuse Factor
+0371 Specular Factor
+0372 Environment Factor
+0373 Roughness
+0374 Angle Scale
+
+0375 Glass
+0376 Specular Factor
+0377 Transmission Factor
+0378 Mirror Factor
+0379 Roughness
+0380 Refraction
+
+0381 Mirror
+0382 Ambient Factor
+0383 Diffuse Factor
+0384 Specular Factor
+0385 Mirror Factor
+0386 Roughness
+
+0387 Wrapped Mirror Map
+0388 Ambient Factor
+0389 Diffuse Factor
+0390 Specular Factor
+0391 Mirror Factor
+0392 Roughness
+0393 Image
+0394 File Name
+0964 Softness
+
+0395 Fog Light
+0396 Fog Density
+
+0397 Ground Fog
+0398 Fog Distance
+0399 Fog Height
+0400 Fog Colour
+0401 Ground Point
+0402 Ground Normal
+1068 Max Density
+1069 Ignore Background
+
+0403 Environment
+0404 Intensity
+0405 Angle
+1630 Use Global Environment
+1631 Environment
+
+0406 Ray Cube
+0407 Primary Shader
+0408 Secondary Shader
+1066 Reflected Shader
+1067 Refracted Shader
+
+0409 Two Planes
+0410 Back Shader
+0411 Front Shader
+0412 Distance
+0413 Back Extrapolation
+0414 Front Extrapolation
+
+0415 Projector
+0416 Intensity
+0417 Colour
+0418 Location
+0419 To
+0420 Fall Off
+0421 Fall Off Function
+0422 Fall Off Data
+0423 Angle
+0424 Shadows
+0425 Shadow Resolution
+0426 Shadow Quality
+0427 Shadow Softness
+0428 File Name
+0429 Up
+0430 Scattering
+0431 Inverse Fall Off Function
+0432 Intensity Units
+0433 Colour Temperature
+0949 Shadow Type
+0950 Shadow Transparency
+0951 Shadow Acceleration
+0952 Image
+0953 Softness
+1057 Shadow Tolerance
+1058 Forwards
+
+0434 Treemask
+0435 File Name
+
+0436 Absolute Curvature
+0437 Min Curvature
+0438 Max Curvature
+
+0439 Gaussian Curvature
+0440 Min Curvature
+0441 Max Curvature
+
+0442 Geometric Curvature
+0443 Min Cut Off
+0444 Max Cut Off
+0445 Min Cut Off Colour
+0446 Max Cut Off Colour
+0447 Curvature Type
+0448 Curvature Division
+0449 Colour Array
+
+0450 Mean Curvature
+0451 Min Curvature
+0452 Max Curvature
+
+0453 Surface Evaluation
+0454 Base Colour
+0455 Band Colour
+0456 Centre
+0457 Axis
+0458 Radius
+0459 Bands
+0460 Coverage
+0461 Fuzz
+0462 Min Angle
+
+0463 Radiosity
+0464 Ambient
+0465 Brightness
+
+0466 Radiosity Mirror
+0467 Ambient Factor
+0468 Diffuse Factor
+0469 Specular Factor
+0470 Mirror Factor
+0471 Roughness
+
+0472 Radiosity Plastic
+0473 Ambient Factor
+0474 Diffuse Factor
+0475 Specular Factor
+0476 Roughness
+0477 Specular Colour
+
+0478 Radiosity Stepped False
+0479 Ambient
+0480 Gain
+0481 Steps
+0482 Min
+0483 Max
+0484 Min Colour
+0485 Max Colour
+0486 Colour 1
+0487 Colour 2
+0488 Colour 3
+0489 Colour 4
+0490 Colour 5
+0491 Colour 6
+0492 Colour 7
+0493 Colour 8
+0494 Colour 9
+0963 Incident
+1072 Diffuse Factor
+
+0495 Translucency
+0496 Ambient Factor
+0497 Translucency Factor
+1073 Diffuse Factor
+
+0498 Translucent Plastic
+0499 Ambient Factor
+0500 Diffuse Factor
+0501 Specular Factor
+0502 Roughness
+0503 Specular Colour
+0504 Translucency Factor
+
+0505 Wrapped Anisotropic
+0506 Ambient Factor
+0507 Diffuse Factor
+0508 Specular Factor
+0509 Roughness
+0510 Specular Colour
+0511 Floor Height
+0512 Cylinder Distance
+
+0513 Wrapped Circular Anisotropic
+0514 Ambient Factor
+0515 Diffuse Factor
+0516 Specular Factor
+0517 Roughness
+0518 Specular Colour
+0519 Floor Height
+0520 Cylinder Distance
+0521 Width
+0522 Height
+
+0523 Wrapped Woven Anisotropic
+0524 Ambient Factor
+0525 Diffuse Factor
+0526 Specular Factor
+0527 Roughness
+0528 Specular Colour
+0529 Floor Height
+0530 Cylinder Distance
+0531 Bias
+
+0532 Glow
+0533 Centre Coverage
+0534 Edge Coverage
+0535 Zero Angle
+0536 Edge Fall Off
+0537 Noise Density
+0538 Detail
+0539 Scale
+
+0540 Wrapped Leather
+0541 Scale
+0542 Cell Amplitude
+0543 Irregularity
+0544 Smooth Min
+0545 Smooth Max
+0546 Rough Amplitude
+0547 Rough Detail
+0548 Rough Frequency
+0549 Curve Amplitude
+0550 Curve Detail
+0551 Curve Frequency
+0552 Fold Amplitude
+0553 Fold Detail
+0554 Fold Frequency
+
+0555 Light Scattering
+0556 Fog Density
+0557 Samples
+0558 AA Threshold
+0559 AA Level
+0560 Max Depth
+0561 Fall Off Threshold
+0562 Source Attenuation
+0563 Surface Attenuation
+0564 Volume Attenuation
+0565 Scattering Model
+0566 Eccentricity
+0567 Noise Octaves
+0568 Noise Amplitude
+0569 Noise Scale
+0570 Noise Gain
+0571 Bounds
+0572 Bounds Volume
+
+0573 Area
+0574 Primitive
+0575 Shadows
+0576 Colour
+0577 Colour Temperature
+0578 Noise Factor
+0579 Min LOD
+0580 Mid LOD
+0581 Max LOD
+0582 Error Bound
+0583 Shadow Resolution
+0584 Shadow Quality
+0585 Intensity
+0586 Intensity Units
+0954 Shadow Softness
+0955 Shadow Type
+0956 Shadow Transparency
+0957 Shadow Acceleration
+0958 Scattering
+1048 Shadow Tolerance
+1049 Forwards
+1050 Fall Off
+
+0587 Goniometric
+0588 Intensity
+0589 Colour
+0590 Colour Temperature
+0591 From
+0592 To
+0593 Equator Zero
+0594 Fall Off
+0595 Shadows
+0596 Shadow Resolution
+0597 Shadow Quality
+0598 Shadow Softness
+0599 File Name
+0600 Handle
+0601 Scattering
+0602 Fall Off Function
+0603 Fall Off Data
+0604 Inverse Fall Off Function
+0605 Intensity Units
+0606 Power from File
+0607 Location
+0608 Shadow Type
+0609 Shadow Transparency
+0610 Shadow Acceleration
+0611 Data
+0612 Emission
+0613 Normalise
+0614 Free
+1052 Shadow Tolerance
+1053 Forwards
+
+0615 Sky
+0616 Filter Colour
+0617 Shadows
+0618 Sun Altitude
+0619 Sun Azimuth
+0620 Type
+0621 North
+0622 Up
+0623 Zenith Luminance
+0624 Complexity
+0625 Colour Temperature
+0626 Spectral Distribution
+0627 Handle
+1059 Colour
+1060 Intensity
+1061 Intensity Units
+1062 Min LOD
+1063 Shadow Transparency
+
+#
+# New to LADS50
+#
+# New Shader args for LADS50
+#
+#    [628 - 630] Point light
+#    [631 - 633] spot light
+#    [634 - 637] area light
+#
+# New Shaders
+#
+
+0638 Decal
+0639 Selector
+0640 Decal Texture Space
+0641 Base Displacement
+0642 Decal Displacement
+0643 Base Transparency
+0644 Decal Transparency
+0645 Base Colour
+0646 Decal Colour
+0647 Base Reflectance
+0648 Decal Reflectance
+0649 Transmission Factor
+1071 Keep Base Texture Space
+1221 Transparency Mode
+
+0650 Draft Angle Evaluation
+0651 Pull Direction
+0652 Draft Angle
+0653 Tolerance Angle
+0654 Pass Colour
+0655 Warning Colour
+0656 Fail Colour
+0657 Overhang Colour
+
+0658 Multilayer Paint
+0659 Lacquer Specular Factor
+0660 Lacquer Transmission Factor
+0661 Lacquer Mirror Factor
+0662 Lacquer Roughness
+0663 Lacquer Refraction
+0664 Metallic Layer Factor
+0665 Metallic Roughness
+0666 Metallic Scale
+0667 Metallic Amplitude
+0668 Metallic Detail
+0669 Metallic Sharpness
+0670 Base Ambient Factor
+0671 Base Diffuse Factor
+0973 Metallic Flakes
+0974 Metallic Shader
+
+0672 Wood
+0673 Trunk Direction
+0674 Trunk Centre
+0675 Scale
+0676 Wood Colour
+0677 Ring Colour
+0678 Ring Fuzz In
+0679 Ring Fuzz Out
+0680 Ring Width
+0681 Gnarl
+0682 Grain
+0683 Ring Fuzz Grain
+0684 Grain Colour
+0685 Grain Scale
+
+0686 Wrapped Wood Floor
+0687 Replication Type
+0688 Plank Length
+0689 Plank Width
+0690 Strips
+0691 Offset
+0692 Groove Width
+0693 Groove Colour
+0694 Plank Variation
+0695 Pattern Scale
+0696 Scale
+0697 Wood Colour
+0698 Ring Colour
+0699 Ring Fuzz In
+0700 Ring Fuzz Out
+0701 Ring Width
+0702 Gnarl
+0703 Grain
+0704 Ring Fuzz Grain
+0705 Grain Colour
+0706 Grain Scale
+
+0707 Oak
+0708 Trunk Direction
+0709 Trunk Centre
+0710 Scale
+0711 Wood Colour
+0712 Ring Colour
+0713 Ring Fuzz In
+0714 Ring Fuzz Out
+0715 Ring Width
+0716 Gnarl
+0717 Grain
+0718 Ring Fuzz Grain
+0719 Grain Colour
+0720 Grain Scale
+
+0721 Cherry
+0722 Trunk Direction
+0723 Trunk Centre
+0724 Scale
+0725 Wood Colour
+0726 Ring Colour
+0727 Ring Fuzz In
+0728 Ring Fuzz Out
+0729 Ring Width
+0730 Gnarl
+0731 Grain
+0732 Ring Fuzz Grain
+0733 Grain Colour
+0734 Grain Scale
+
+0735 Maple
+0736 Trunk Direction
+0737 Trunk Centre
+0738 Scale
+0739 Wood Colour
+0740 Ring Colour
+0741 Ring Fuzz In
+0742 Ring Fuzz Out
+0743 Ring Width
+0744 Gnarl
+0745 Grain
+0746 Ring Fuzz Grain
+0747 Grain Colour
+0748 Grain Scale
+
+0749 Pine
+0750 Trunk Direction
+0751 Trunk Centre
+0752 Scale
+0753 Wood Colour
+0754 Ring Colour
+0755 Ring Fuzz In
+0756 Ring Fuzz Out
+0757 Ring Width
+0758 Gnarl
+0759 Grain
+0760 Ring Fuzz Grain
+0761 Grain Colour
+0762 Grain Scale
+
+0763 Birch
+0764 Trunk Direction
+0765 Trunk Centre
+0766 Scale
+0767 Wood Colour
+0768 Ring Colour
+0769 Ring Fuzz In
+0770 Ring Fuzz Out
+0771 Ring Width
+0772 Gnarl
+0773 Grain
+0774 Ring Fuzz Grain
+0775 Grain Colour
+0776 Grain Scale
+
+0777 Wrapped Oak Floor
+0778 Replication Type
+0779 Plank Length
+0780 Plank Width
+0781 Strips
+0782 Offset
+0783 Groove Width
+0784 Groove Colour
+0785 Plank Variation
+0786 Pattern Scale
+0787 Scale
+0788 Wood Colour
+0789 Ring Colour
+0790 Ring Fuzz In
+0791 Ring Fuzz Out
+0792 Ring Width
+0793 Gnarl
+0794 Grain
+0795 Ring Fuzz Grain
+0796 Grain Colour
+0797 Grain Scale
+
+0798 Wrapped Cherry Floor
+0799 Replication Type
+0800 Plank Length
+0801 Plank Width
+0802 Strips
+0803 Offset
+0804 Groove Width
+0805 Groove Colour
+0806 Plank Variation
+0807 Pattern Scale
+0808 Scale
+0809 Wood Colour
+0810 Ring Colour
+0811 Ring Fuzz In
+0812 Ring Fuzz Out
+0813 Ring Width
+0814 Gnarl
+0815 Grain
+0816 Ring Fuzz Grain
+0817 Grain Colour
+0818 Grain Scale
+
+0819 Wrapped Maple Floor
+0820 Replication Type
+0821 Plank Length
+0822 Plank Width
+0823 Strips
+0824 Offset
+0825 Groove Width
+0826 Groove Colour
+0827 Plank Variation
+0828 Pattern Scale
+0829 Scale
+0830 Wood Colour
+0831 Ring Colour
+0832 Ring Fuzz In
+0833 Ring Fuzz Out
+0834 Ring Width
+0835 Gnarl
+0836 Grain
+0837 Ring Fuzz Grain
+0838 Grain Colour
+0839 Grain Scale
+
+0840 Wrapped Pine Floor
+0841 Replication Type
+0842 Plank Length
+0843 Plank Width
+0844 Strips
+0845 Offset
+0846 Groove Width
+0847 Groove Colour
+0848 Plank Variation
+0849 Pattern Scale
+0850 Scale
+0851 Wood Colour
+0852 Ring Colour
+0853 Ring Fuzz In
+0854 Ring Fuzz Out
+0855 Ring Width
+0856 Gnarl
+0857 Grain
+0858 Ring Fuzz Grain
+0859 Grain Colour
+0860 Grain Scale
+
+0861 Wrapped Birch Floor
+0862 Replication Type
+0863 Plank Length
+0864 Plank Width
+0865 Strips
+0866 Offset
+0867 Groove Width
+0868 Groove Colour
+0869 Plank Variation
+0870 Pattern Scale
+0871 Scale
+0872 Wood Colour
+0873 Ring Colour
+0874 Ring Fuzz In
+0875 Ring Fuzz Out
+0876 Ring Width
+0877 Gnarl
+0878 Grain
+0879 Ring Fuzz Grain
+0880 Grain Colour
+0881 Grain Scale
+
+0882 Turbulent
+0883 Scale
+0884 Colour
+0885 Detail
+0886 Amplitude
+0887 Contrast
+
+0888 Plain Coverage
+0889 Coverage
+
+0890 Leather
+0891 Scale
+0892 Cell Amplitude
+0893 Irregularity
+0894 Smooth Min
+0895 Smooth Max
+0896 Rough Amplitude
+0897 Rough Detail
+0898 Rough Frequency
+0899 Curve Amplitude
+0900 Curve Detail
+0901 Curve Frequency
+0902 Fold Amplitude
+0903 Fold Detail
+0904 Fold Frequency
+
+0905 Scattering Medium
+0906 Medium Density
+0907 Medium Colour
+0908 Medium Attenuation
+0909 Medium Ambient
+0910 Medium Shadows
+0911 Min LOD
+0912 Max LOD
+0913 Error Bound
+0914 Scattering Model
+0915 Eccentricity
+0916 Max Depth
+0917 Bounds on
+0918 Bounds Volume
+0919 Density Shader
+
+0920 Line Goniometric
+0921 Goniometric Shader
+0922 Primitive
+0923 Min LOD
+0924 Max LOD
+1219 Noise Factor
+1220 Error Bound
+
+0925 Area Goniometric
+0926 Area Shader
+0927 Goniometric Shader
+
+0928 Area Sky
+0929 Area Shader
+0930 Sky Shader
+
+0931 Brighten Up
+0932 Brightness
+0933 Shift
+0934 Max World Luminance
+0935 Min World Luminance
+1042 Auto Setup Shader Name
+1043 Auto Setup Shader
+
+0936 Polynomial Approximation
+0937 Interval Count
+0938 Coefficient Count
+0939 Polynomial Function
+0940 Logarithm
+1044 Auto Setup Shader Name
+1045 Auto Setup Shader
+
+0941 Generic Filter
+0942 Pulse Generator
+0943 Map
+0944 Reconstruction Filter
+0945 Width
+0946 Height
+0947 Adaptive Level
+0948 Adaptive Threshold
+
+0980 UV Layout
+0981 Angle
+0982 U Scale
+0983 V Scale
+0984 U Offset
+0985 V Offset
+0986 U Reflect
+0987 V Reflect
+0988 Offset Centre
+
+#
+# New Shaders for LADS 5.5
+#
+
+0989 Sun
+0990 Altitude
+0991 Azimuth
+0992 North
+0993 Up
+0994 Intensity
+0995 Colour
+0996 Colour Temperature
+0997 Mode
+0998 Latitude
+0999 Longitude
+1000 Time
+1001 Sky Type
+1002 Shadows
+1003 Shadow Type
+1004 Shadow Transparency
+1005 Shadow Acceleration
+1006 Shadow Resolution
+1007 Shadow Quality
+1008 Shadow Softness
+1009 Intensity Units
+1010 Scattering
+1011 Shadow Tolerance
+
+1012 Layout
+1013 Rotation
+1014 S Scale
+1015 T Scale
+1016 S Offset
+1017 T Offset
+
+1018 Local Auto Axis
+1019 Scale
+
+1020 Transformation
+1021 Transformation
+
+1022 Shadow Catcher
+1023 Catch
+1024 Shadow Brightness
+1025 Shadow Colour
+1026 Reflectance
+
+1027 Wrapped Brick Bonds
+1028 Scale
+1029 Brick Width
+1030 Brick Height
+1031 Brick Depth
+1032 Mortar Size
+1033 Brick Side Colour 1
+1034 Brick Side Colour 2
+1035 Brick End Colour 1
+1036 Brick End Colour 2
+1037 Mortar Colour
+1038 Rough Scale
+1039 Rough Amplitude
+1040 Bond
+1041 Fuzz
+
+#
+# Post-processing Shaders (omitted until LADS 5.5)
+#
+
+1074 Archive
+1075 Drivername
+1076 File Name
+
+1077 Average Frames
+1078 Source Buffer
+1079 Accumulated
+1080 Dither
+1081 Update RGB
+1082 Feedback Rate
+
+1083 Blur
+1084 Range
+
+1085 Depth of Field
+1086 Focal Length
+1087 Aperture
+1088 Focus Plane
+1089 Near Focus
+1090 Far Focus
+1091 Near Blur
+1092 Far Blur
+1093 Ignore Background
+1094 Units
+
+1095 PhotoReal
+1096 Method
+
+1097 FFAA Propagator
+1098 Halton Samples
+1099 Early Cut
+1100 Relative Sensitivity
+1101 Y Radix
+1102 X Radix
+1103 Keep Seed
+1104 Dump each Stage
+1105 Feedback Rate
+
+1106 FFAA Seed
+1107 Threshold
+1108 Update RGB
+1109 Update Stencil
+
+1110 Flares 3d
+1111 Visible Flare
+1112 Hidden Flare
+1113 Flare Constant
+
+1114 Glow
+1115 Min Threshold
+1116 Max Threshold
+1117 Intensity
+1118 Range
+
+1119 Interlace
+1120 Buffer1
+1121 Buffer2
+1122 Half Resolution
+
+1123 Lens Flares
+1124 Lens
+1125 Fov
+1126 Size Range
+1127 Intensity
+1128 Rotation
+1129 Glow Radius
+1130 Glow Shape
+1131 Glow Focus
+1132 Glow Colour
+1133 Glow Factor
+1134 Iris Blades
+1135 Iris Blade Shape
+1136 Halo Shape
+1137 Halo Radius
+1138 Halo Width
+1139 Halo Colour
+1140 Halo Factor
+1141 Rays Type
+1142 Rays Shape
+1143 Rays Count
+1144 Rays Factor
+1145 Rays Colour
+1146 Rays Contrast
+1147 Rays Range
+1148 Rays Rotation
+1149 Ghosts
+1150 Ghosts Shape
+1151 Ghosts Factor
+1152 Ghosts Min Radius
+1153 Ghosts Max Radius
+1154 Min Intensity
+1155 Max Intensity
+1156 Check Depth
+1157 Clamp Colour
+
+1158 Linear Scale
+1159 Min Intensity
+1160 Max Intensity
+
+1161 Matrix
+1162 Rows
+1163 Columns
+1164 Matrix
+
+1165 Render Depth
+
+1166 Render Lights
+1167 Flare Constant
+1168 Lights Select
+
+1169 Tone
+1170 Tone List
+
+1171 Tone Contrast Scale
+1172 Max Display Luminance
+1173 Scale Factor
+
+1174 Tone Diagnostic
+1175 Max World Luminance
+1176 Min World Luminance
+1177 Average Luminance
+1178 Median Luminance
+1179 Average Colour
+1180 Brightest Colour
+1181 Darkest Colour
+
+1182 Tone Linear Ceiling
+1183 Max World Luminance
+1184 Min World Luminance
+1185 Max Display Luminance
+1186 Min Display Luminance
+1187 Linear Approximation
+1188 Interval Count
+1189 Method
+1190 Bias
+
+#
+# New Shaders for LADS 5.6
+#
+
+1191 Granite
+1192 Scale
+1193 Type
+1194 Mineral 1 Colour
+1195 Mineral 2 Colour
+1196 Mineral 3 Colour
+1197 Mineral 4 Colour
+1198 Fragment Softness
+1199 Fragment Detail
+1200 Fragment Size
+1201 Colour Variation
+1202 Cracks
+1203 Colour Noise
+1204 Colour Noise Scale
+1205 Random Seed
+
+1206 Concatenate
+1207 3D to 2D
+1208 2D to 2D
+
+1209 ST Layout
+1210 Rotation
+1211 S Scale
+1212 T Scale
+1213 S Offset
+1214 T Offset
+1215 S Reflect
+1216 T Reflect
+1217 Offset Centre
+1222 S Origin
+1223 T Origin
+1224 Decal Mode
+
+1218 Add Grounds
+
+1225 Colour Filtering
+
+1226 Max LOD
+1227 Error Bound
+1228 Noise Factor
+
+1229 Logarithmic
+
+#
+# New shaders for LADS 6.5
+#
+
+1230 Hand Drawn
+1231 Line Colour
+1232 Line Width
+1233 Wobbliness
+1234 Curliness
+1235 Tapering
+
+1236 Hatch
+1237 Line Colour
+1238 Line Width
+1239 Wobbliness
+1240 Line Length
+1241 Line Density
+1242 Object Colours
+
+1243 Lines and Shadow
+1244 Line Colour
+1245 Line Width
+1246 Shadow Colour
+
+1247 Oil Painting
+1248 Mark Size
+1249 Mark Count
+1250 Mark Blend
+
+1251 Rough Pencil
+1252 Line Colour
+1253 Line Width
+1254 Line Count
+1255 Wobbliness
+1256 Curliness
+
+1257 Stipple
+1258 Dot Colour
+1259 Dot Count
+1260 Object Colours
+
+1261 Cartoon
+1262 Line Colour
+1263 Line Width
+
+1264 Colour Wash
+1265 Line Width
+1266 Line Colour
+1267 Mottling
+1268 Wash
+
+1269 Contour
+1270 Line Length
+1271 Line Density
+1272 Line Colour
+1273 Object Colours
+
+1274 Ink Print
+1275 Ink Colour
+1276 Gap Width
+
+1277 Mosaic
+1278 Gap Width
+1279 Gap Colour
+1280 Tile Size
+1281 Tile Shape
+1282 Gap Transparency
+1283 Tile Background
+
+1284 Soft Pencil
+1285 Line width
+1286 Line Colour
+1287 Bluriness
+1288 Coverage
+1289 Scale
+
+1290 Stereogram
+1291 Show Dots
+
+1292 Wrapped Roof Tiles
+1293 Scale
+1294 Pattern
+1295 Tile Length
+1296 Tile Width
+1297 Tile Thickness
+1298 Tile Colour 1
+1299 Tile Colour 2
+1300 Edge Colour
+1301 Fuzz
+1302 Colour Variation
+1303 Colour Variation Scale
+
+1304 Radiosity Refinement
+1305 Mode
+1306 Quality
+1307 Accuracy
+1308 Set Criteria
+1309 Adaptive Meshing
+1310 Keep Edges
+1311 Mesh Accuracy
+1312 Min Area
+1313 Max Area
+1314 Mesh Bits
+1315 Initial Element Count
+1316 Patch Count
+1317 Max Element Area
+1318 Max Element Count
+1319 Min Sample Count
+1320 Max Sample Count
+1321 Form Factor Accuracy
+
+1322 Wrapped Height Map
+1323 File Name
+1324 Amplitude
+1325 Depth Scale
+1326 Image
+1327 Softness
+1328 Scale
+1329 Shift Axis
+1330 Shift
+
+1331 Simple Shaded
+1332 Use Smoothing
+1333 Smoothing Effect
+
+1334 Anti-aliasing
+1335 Anti-aliasing
+1336 Anti-aliasing
+1337 Anti-aliasing
+1338 Anti-aliasing
+1339 Anti-aliasing
+1340 Anti-aliasing
+1341 Anti-aliasing
+1342 Anti-aliasing
+1343 Anti-aliasing
+1344 Anti-aliasing
+1345 Anti-aliasing
+1346 Anti-aliasing
+
+1347 Real Time Shaded
+1348 Textures
+1349 Transparency
+1350 Lighting
+1351 Shadows
+1352 Guarantee Frame Rate
+1353 Frame Rate
+1354 Texture Quality
+1355 Transparency Quality
+1356 Lighting Accuracy
+1357 Background Quality
+1358 Colour Quality
+1359 Save Model Memory
+1360 Pre-compile Geometry
+1361 Maximum Texture Size
+1362 Maximum Background Texture Size
+1363 Colour Smoothing
+1364 Faceting Quality
+1365 Low Polygon Threshold
+1366 Shadow Depth
+
+1368 Vector
+1369 Show All Edges
+1370 Line Colour
+1371 Visible Edges
+1372 Show Intersections
+1373 Ignore Edges
+1374 Exclude Marked Edges
+
+1376 Photorealistic
+1377 Transparency
+1378 Reflections
+1379 Anti Aliasing
+1380 Max Ray Bounces
+1381 Min Ray Contribution
+1382 Anti Alias Edges
+1383 Texture Quality
+1384 Anti Alias Reflections
+1385 Anti Alias Shadows
+1386 Override Max Ray Bounces
+1387 Max Reflections
+1388 Max Refractions
+1389 Override Global Contribution
+1390 Min Reflection Contribution
+1391 Min Refraction Contribution
+1392 Number Of Threads
+1393 Contract Geometry
+1394 Oversampling Level
+
+1395 Real Time Vector
+1396 Show All Edges
+1397 Default Edge Colour
+1398 Vary Edge Colour
+1399 Background Quality
+1400 Save Model Memory
+1401 Pre-compile Geometry
+1402 Preserve Original Geometry
+1403 Max Background Texture Size
+1404 Faceting Quality
+1405 Low Polygon Threshold
+1406 Show Lighting
+
+1407 Receive Radiosity
+1408 Bounce Radiosity
+
+1409 IIR
+1410 Transparency
+1411 Reflections
+1412 Regenerate Cache
+1413 Max Ray Bounces
+1414 Min Ray Contribution
+1415 IIR Ray Tracing
+1416 Use Light Groups
+1417 Use Geometry Groups
+1418 Texture Quality
+1419 IIR Memory Limit
+1420 Override Max Ray Bounces
+1421 Max Reflections
+1422 Max Refractions
+1423 Override Global Contribution
+1424 Min Reflection Contribution
+1425 Min Refraction Contribution
+1426 Interrupt Frequency
+1427 Initial Interrupt
+1428 Progress Frequency
+1429 Initial Progress
+1430 Contract Geometry
+
+1431 Radiosity Control
+1432 Enable Radiosity
+1433 Continue After Interrupt
+1434 Ambient Lighting
+1435 Render During Primaries
+1436 Render During Secondaries
+1437 Update Interval (sec)
+1438 Hybrid Rendering: Point Lights
+1439 Hybrid Rendering: Extended Lights
+1440 First Phase Convergence
+1441 Second Phase Convergence
+1442 Third Phase Convergence
+
+1443 (None)
+
+1444 Double Sided
+
+# New Shaders/Arguments for LADS7.1
+
+1445 Remove Area Direct
+
+1446 Regenerate Flags
+
+1447 X Offset
+1448 Y Offset
+1449 Image Brightness
+
+1450 Scale
+1451 Aspect Ratio
+
+1452 Scale
+1453 Aspect Ratio
+
+1454 Scale
+1455 Aspect Ratio
+
+1456 Scale
+1457 Aspect Ratio
+
+1458 Scale
+1459 Aspect Ratio
+
+1460 Scale
+1461 Aspect Ratio
+
+1462 Scale
+1463 Scale
+1464 Scale
+
+# LADS 7.2
+
+1465 RPC Object
+1466 File Name
+1467 Rotation
+1468 Scale
+1469 Frame Number
+1470 Transparency
+1471 View Dependent
+1472 Snap to view
+1473 Position
+1474 Up
+1475 Primitive
+1476 RPC Object
+1481 Brightness
+
+1477 Colour Displacement
+1478 Colour Shader
+1479 Amplitude
+
+1480 Blurred Glass
+
+1482 Clamp Image Textures
+1483 Maximum Image Texture Size
+
+# LADS 7.3
+
+1484 Pinhole View
+1485 From
+1486 To
+1487 Up
+1488 Projection
+1489 View Dimension
+
+1490 Matrix View
+1491 World To Screen
+1492 Screen To World
+
+1493 Opengl View
+1494 Model Matrix
+1495 Projection Matrix
+1496 Left
+1497 Right
+1498 Bottom
+1499 Top
+1500 Near Distance
+1501 Far Distance
+1502 Projection
+
+1503 General View
+1504 From
+1505 To
+1506 Up
+1507 Projection
+1508 Screen Size
+1509 View Plane Normal
+1510 View Plane Right
+
+1511 Unknown View
+
+# LADS 7.4
+
+1512 Real-time Plus Expansion
+1513 Programmable Shading
+
+1514 Fixed Cube Map
+1515 Negative X Image
+1516 Negative X File Name
+1517 Positive X Image
+1518 Positive X File Name
+1519 Negative Y Image
+1520 Negative Y File Name
+1521 Positive Y Image
+1522 Positive Y File Name
+1523 Negative Z Image
+1524 Negative Z File Name
+1525 Positive Z Image
+1526 Positive Z File Name
+1527 Centre
+1528 Size
+# new@75: 1760 Up
+# new@75: 1761 Twist
+
+1529 Infinite Cube Map
+1530 Negative X Image
+1531 Negative X File Name
+1532 Positive X Image
+1533 Positive X File Name
+1534 Negative Y Image
+1535 Negative Y File Name
+1536 Positive Y Image
+1537 Positive Y File Name
+1538 Negative Z Image
+1539 Negative Z File Name
+1540 Positive Z Image
+1541 Positive Z File Name
+# new@75: 1766 Up
+# new@75: 1767 Twist
+
+1542 Sphere Map
+1543 Image
+1544 File Name
+# new@75: 1770 Up
+# new@75: 1771 Twist
+
+1545 Light Studio
+1546 Shadows
+1547 Shadow Type
+1548 Intensity Type
+1549 Intensity
+1550 Override Shadow Resolution
+1551 Shadow Resolution
+1552 Fixed In World
+1553 Show Light Geometry
+1554 Active Lights Only
+1555 Orientation
+1556 Scale Type
+1557 Scale
+1558 Rotation
+1559 Offset
+1560 Real-time Shadows
+1561 Bounds
+1562 Override Usage
+1563 Usage
+
+1564 (None)
+
+1565 Simple Sky
+1566 Colour
+1567 Colour Temperature
+1568 Intensity
+1569 Intensity Units
+1570 Shadows
+1571 Shadow Type
+1572 Shadow Transparency
+1573 Shadow Acceleration
+1574 Shadow Resolution
+1575 Shadow Quality
+1576 Shadow Softness
+1577 Shadow Tolerance
+1578 Noise Factor
+1579 Up
+1580 Number of Samples
+
+1581 Fixed Cross Map
+1582 Image
+1583 File Name
+1584 Centre
+1585 Size
+# new@75: 1762 Up
+# new@75: 1763 Twist
+
+1586 Infinite Cross Map
+1587 Image
+1588 File Name
+# new@75: 1764 Up
+# new@75: 1765 Twist
+
+1589 Simple Environment
+1590 Intensity
+1591 Intensity Units
+1592 Shadows
+1593 Shadow Type
+1594 Shadow Transparency
+1595 Shadow Acceleration
+1596 Shadow Resolution
+1597 Shadow Quality
+1598 Shadow Softness
+1599 Shadow Tolerance
+1600 Number of Samples
+1601 Noise Factor
+1602 Softness
+1632 Use Global Environment
+1633 Environment
+
+1603 Edge Rendering Flags
+
+1605 Latitude / Longitude Map (Panorama)
+1606 Image
+1607 File Name
+# new@75: 1768 Up
+# new@75: 1769 Twist
+
+1608 Angular Map (Light Probe)
+1609 Image
+1610 File Name
+# new@75: 1772 Up
+# new@75: 1773 Twist
+
+# LADS 7.5
+
+1611 Environment
+1612 Intensity
+1613 Intensity Units
+1614 Shadows
+1615 Shadow Type
+1616 Shadow Transparency
+1617 Shadow Acceleration
+1618 Shadow Resolution
+1619 Shadow Quality
+1620 Shadow Softness
+1621 Shadow Tolerance
+1622 Number of Samples
+1623 Noise Factor
+1624 Use Global Environment
+1625 Environment
+
+1626 (None)
+
+1627 (None)
+
+#    [1628-1629]   "environment" background
+#    [1630-1631]   "simple environment" light
+1628 Use Global Environment
+1629 Environment
+1630 Use Global Environment
+1631 Environment
+
+1632 Default
+1633 Default
+
+1634 Absolute Size Settings
+
+1635 Portal
+1636 Primitive
+1637 Light Shader
+
+1638 Area Scale Factor
+
+1645 Lines And Colour Fill
+1646 Line Colour
+1647 Line Width
+1648 Anti Aliasing
+1649 Solid Lines
+1650 Line Erosion Scale
+1651 Post Process Lines
+1652 Stroke Density
+1653 Stroke Width
+1654 Stroke Variance
+1655 Use Object Colours
+1656 Stroke Length
+1657 Stroke Length Variance
+1658 Stroke Angle
+1659 Stroke Angle Variance
+1660 Stroke Transparency
+1661 Stroke Use Intensity
+1662 Stroke Constant Colours
+1663 Stroke Curve
+1664 Stroke Threshold
+1665 Stroke Contrast
+
+# Continuation of shaders and args - new for 7.5
+
+1666 Min Element Size
+1667 Max Patch Size
+1668 Max Element Size
+
+1669 Local Leather
+1670 Scale
+1671 Cell Amplitude
+1672 Irregularity
+1673 Smooth Min
+1674 Smooth Max
+1675 Rought Amplitude
+1676 Rough Detail
+1677 Rough Frequency
+1678 Curve Amplitude
+1679 Curve Detail
+1680 Curve Frequency
+1681 Fold Amplitude
+1682 Fold Detail
+1683 Fold Frequency
+
+1684 Image
+
+1685 Auto
+1686 Layout
+1687 Image
+1688 File Name
+1689 Kind
+1690 Centre
+1691 Size
+1692 Up
+1693 Twist
+
+1694 Cube
+1695 Negative X Image
+1696 Negative X File Name
+1697 Positive X Image
+1698 Positive X File Name
+1699 Negative Y Image
+1700 Negative Y File Name
+1701 Positive Y Image
+1702 Positive Y File Name
+1703 Negative Z Image
+1704 Negative Z File Name
+1705 Positive Z Image
+1706 Positive Z File Name
+1707 Kind
+1708 Centre
+1709 Size
+1710 Up
+1711 Twist
+
+# 1 arg each for "simple environment" and "environment" lights
+1712 Saturation
+1713 Saturation
+
+1714 Wrapped Paint Splat
+1715 Scale
+1716 Density
+1717 Size Variance
+1718 Colour 1
+1719 Colour 2
+1720 Shape Detail
+
+1721 Layered
+1722 Base Shader
+1723 Layer 1 Shader
+1724 Layer 2 Shader
+1725 Layer 3 Shader
+1726 Layer 4 Shader
+1727 Layer 5 Shader
+
+1728 Wrapped Brick Formation
+1729 Scale
+1730 Brick Width
+1731 Brick Height
+1732 Brick Depth
+1733 Brick Side Shader
+1734 Brick End Shader
+1735 Bond
+
+1736 Wrapped Random Image
+1737 Selector
+1738 Image 1 Shader
+1739 Image 2 Shader
+1740 Image 3 Shader
+1741 Image 4 Shader
+1742 Image 5 Shader
+1743 Variants Count
+
+1744 Scaled Image
+1745 File Name
+1746 Image
+1747 Mask File Name
+1748 Mask Image
+1749 Invert Mask
+1750 Rotation
+1751 Aspect Mode
+1752 Keep Texture
+1753 Softness
+1754 X Offset
+1755 Y offset
+1756 Image Brightness
+1757 Coverage
+
+# new args for "1304 Radiosity Refinement"
+1758 Min Patch Size
+1759 Min Patch Area
+
+# new args for "fixed cube map"
+1760 Up
+1761 Twist
+
+# new args for "fixed cross map"
+1762 Up
+1763 Twist
+
+# new args for "infinite cross map"
+1764 Up
+1765 Twist
+
+# new args for "infinite cube map"
+1766 Up
+1767 Twist
+
+# new args for "latitude longitude map"
+1768 Up
+1769 Twist
+
+# new args for "sphere map"
+1770 Up
+1771 Twist
+
+# new args for "angular map"
+1772 Up
+1773 Twist
+
+# new args for "radiosity control"
+1774 Time Limit
+1776 Bounds
+1777 Highlight Flags
+1778 Highlight Colour
+
+# Radius args for "cylindrical" and "spherical" texture-spaces
+1779 Radius
+1780 Radius
+
+# new args for "radiosity control"
+1781 Overshoot Tolerance
+1782 Min Transfer Ratio
+1783 Max Number of Bounces
+
+
+#
+# ENUM and STRING values
+#
+2000 Fall Off
+2001 Constant
+2002 Inverse
+2003 Inverse Square Law
+2004 Unclamped Inverse
+2005 Unclamped ISL
+
+2010 Intensity Units
+2011 Empirical
+2012 Candela
+2013 Kilo-candela
+2014 Lumen
+2015 Kilo-lumen
+2016 Lux
+2017 Kilo-lux
+2018 Nit
+2019 Foot-candle
+
+2020 Extrapolation
+2021 Tile
+2022 Smear
+2023 None
+
+2030 Curvature Type
+2031 Gaussian
+2032 Mean
+2033 Absolute
+
+2040 Scattering Model
+2041 Isotropic
+2042 Rayleigh
+2043 Mie Hazy
+2044 Mie Murky
+2045 Henyey-Greenstein
+
+2050 Sky Type
+2051 CIE Overcast
+2052 CIE Clear
+2053 CIE Intermediate
+2054 IESNA Overcast
+2055 IESNA Clear
+2056 IESNA Intermediate
+
+2060 Spectral Distribution
+2061 D65
+2062 D55
+2063 D75
+2064 Temperature
+
+2070 Replication Type
+2071 Squares
+2072 Herringbone
+2073 Floorboards
+2074 Ladder
+
+2080 Pulse Generator
+2081 Lattice Rectangle
+2082 Adaptive Rectangle
+
+2085 Pulse Map
+2086 Screen
+2087 World
+2088 Texture
+
+2090 Reconstructor
+2091 Box
+2092 Triangle
+2093 Gaussian
+
+2100 Shadow Type
+2101 Soft
+2102 Hard
+
+2110 Shadow Transparency
+2111 On
+2112 Interpolate
+2113 Displacement
+2114 Global
+
+2120 Shadow Acceleration
+2121 None
+2122 Auto
+2123 Maps
+2124 Cache
+2125 Reverse
+2126 Estimation
+
+2130 Metallic Flakes
+2131 Aluminium
+2132 Silver
+2133 Gold
+
+2140 Sun Auto Mode
+2141 None
+2142 Position
+2143 Intensity
+
+2150 Bond
+2151 Stretcher
+2152 Common
+2153 Flemish
+2154 English
+2155 Stack
+2156 Rowlock
+
+2160 Execute Method
+2161 Preview
+2162 Full
+
+2170 Lens
+2171 Standard
+2172 Lens35
+2173 Lens50
+2174 Lens105
+2175 Polygon
+2176 Polygon35
+2177 Polygon50
+2178 Spark
+2179 Star
+
+2180 Shape
+2181 Circle
+2182 Polygon
+2183 Arc Polygon
+
+2190 Flares Ray Type
+2191 None
+2192 Random
+2193 Regular
+2194 Mixed
+
+2200 Lights Select
+2201 Visible
+2202 Hidden
+2203 All
+
+2210 Archive Driver
+2211 Lightworks
+2212 Postscript
+2213 Targa
+2214 TIFF
+2215 Windows Bitmap
+
+2220 Catch Mode
+2221 None
+2222 All
+2223 Shadows Only
+
+2225 Transparency Mode
+2226 Mix
+2227 Attenuate
+
+2230 Granite Type
+2231 Sierra
+2232 Bianco
+2233 Diamond
+2234 Azalea
+2235 Auburn
+
+2240 Decal Mode
+2241 Default
+2242 Normalised
+2243 User
+
+2245 Axis
+2246 X-axis
+2247 Y-axis
+2248 Z-axis
+
+2250 Rotation
+2251 -90 Degrees
+2252 None
+2253 90 degrees
+2254 180 degrees
+
+2255 Histogram Method
+2256 No Ceiling
+2257 Linear Ceiling
+2258 Human Ceiling
+
+2260 Roof Tile Pattern
+2261 Flat
+2262 Scalloped
+2263 Diamond
+2264 Hexagonal
+2265 Classic
+2266 Espana
+2267 Spanish
+2268 Roma
+
+2270 Form-factor Accuracy
+2271 Simple
+2272 Solid
+2273 Exact
+
+2275 Mesh Bits
+2276 Mesh Area
+2277 Mesh Patch Count
+2278 Mesh Element Area
+2279 Mesh Element Count
+
+2280 Set Criteria
+2281 Adaptive Meshing
+2282 Keep Edges
+2283 Mesh Accuracy
+2284 Min Patch Size
+2285 Max Patch Size
+2286 Mesh Bits
+2287 Initial Element Count
+2288 Patch Count
+2289 Max Element Size
+2290 Max Element Count
+2291 Min Sample Count
+2292 Max Sample Count
+2293 FF accuracy
+2294 Receive Radiosity
+2295 Bounce Radiosity
+2296 Double Sided
+2297 Remove Area Direct
+2298 Absolute Size Settings
+
+2300 Mode
+2301 None
+2302 Typical
+2303 Quality
+2304 Virtual World
+2305 Lighting Design
+2306 Fast
+
+2310 Shift Axis
+2311 None
+2312 S
+2313 T
+
+2320 Smoothing Effect
+2321 Colour
+2322 Colour and Surface
+
+2330 Texture Quality
+2331 Low
+2332 High
+
+2335 Transparency Quality
+2336 Low
+2337 Medium
+2338 High
+
+2340 Lighting Accuracy
+2341 Low
+2342 High
+
+2345 Lighting Quality
+2346 Low
+2347 High
+
+2350 Background Quality
+2351 Low
+2352 Medium
+2353 High
+
+2355 Rendering Method
+2356 Edges
+2357 Surfaces
+
+2360 Colour Quality
+2361 Low
+2362 Medium
+2363 High
+2364 Very High
+
+2365 Faceting Quality
+2366 Coarse
+2367 Fine
+2368 Custom
+
+2370 Shadow depth
+2371 Low
+2372 High
+
+2375 Visible Edges
+2376 Visible Edges
+2377 Hidden Edges
+2378 Silhouette Edges
+
+2380 Ignore Edges
+2381 Boundary Edges
+2382 Silhouette Edges
+2383 Interpenetration Edges
+2384 Interior Edges
+2385 Crease Edges
+2386 X Plane Clipped Edges
+2387 Y Plane Clipped Edges
+2388 Z Plane Clipped Edges
+
+2390 Regenerate Cache
+2391 Automatically
+2392 Force
+2393 Never
+
+2394 Shadow Mode
+2395 Off
+2396 Manual
+2397 Automatic
+
+2400 Regenerate Flags
+2401 Fixed Geometry
+2402 Selected Material First
+2403 Remaining Materials
+
+2410 Billboard Style
+2411 None
+2412 Cylindrical
+2413 Spherical
+
+2420 Aspect Mode
+2421 Stretch
+2422 Keep Ratio
+2423 Letterbox
+2424 Match View
+2425 Centre
+
+2430 Projection
+2431 Orthographic
+2432 Perspective
+
+2435 Real-time Plus Expansion
+2436 None
+2437 Expand To Base
+
+2440 Shadows
+2441 On
+2442 Off
+2443 Use Child Settings
+
+2445 Shadow Type
+2446 Soft
+2447 Hard
+2448 Use Child Settings
+
+2450 Intensity Type
+2451 Intensity Factor
+2452 Total Intensity
+
+2455 Show Light Geometry
+2456 On
+2457 Off
+2458 Use Child Settings
+
+2460 Orientation
+2461 World
+2462 Axis Aligned
+2463 Up-Axis Aligned
+2464 View-Up Aligned
+2465 View-Direction Aligned
+2466 Session Aligned
+
+2470 Scale Type
+2471 None
+2472 Uniform
+2473 XY-Uniform
+2474 Non-Uniform
+
+2480 Usage
+2481 None
+2482 Global Illumination
+2483 Active
+2484 Standard
+2485 Auto
+
+2490 Edge Rendering Flags
+2491 Override Edge Colours
+
+2495 Layout
+2496 Auto-Detect
+2497 Vertical Cross Map
+2498 Horizontal Cross Map
+2499 Angular Map (Light Probe)
+2500 Latitude / Longitude Map (Panorama)
+2501 Vertical Strip
+
+2505 Kind
+2506 Infinite
+2507 Fixed
+
+2510 Aspect Mode
+2511 Stretch
+2512 Keep Ratio
+2513 Letterbox
+2514 Match View
+
+2515 Highlight Patches
+2516 Patch Edges
+2517 Patch Centres
+2518 Bounce Patches
+2519 No-Bounce Patches

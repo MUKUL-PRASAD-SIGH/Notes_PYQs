@@ -1,0 +1,22 @@
+[PDF]
+Version = 2.0
+
+[Package Definition]
+Name = Solid Edge Machinery Library
+Version = 20.00.0096
+Publisher = UGS
+Language = English
+Programs = Setup
+MifFileName = Solid Edge Machinery Library.mif
+MifName = Solid Edge Machinery Library
+MifVersion = 20.00.0096
+MifPublisher = UGS
+
+[Setup]
+Name = Automated Minimum Installation
+CommandLine = msiexec /m "Solid Edge Machinery Library.mif" /qn /I "Solid Edge Machinery Library.msi"
+SupportedClients = Win 9x, Win NT (i386)
+UserInputRequired = False
+RemoveProgram = True
+UnInstallKey = {21986CAC-04CF-4F0D-96B3-075C83409002}
+

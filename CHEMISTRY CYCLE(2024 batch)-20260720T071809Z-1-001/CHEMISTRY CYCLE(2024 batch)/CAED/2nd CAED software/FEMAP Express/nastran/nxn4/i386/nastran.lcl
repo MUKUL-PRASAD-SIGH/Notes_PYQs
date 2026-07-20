@@ -1,0 +1,32 @@
+NASTRAN SYSTEM(303)=1 $ NX Nastran 4.0
+%system%
+JID='%jid%'
+OUT='%out%'
+MEM=%mem%
+MACH='%s.type%'
+OPER='%s.os%'
+OSV='%s.osv%'
+MODEL='%s.model% (%s.hostname=\([^.]*\)%)'
+NPROC='%s.nproc%'
+CONFIG=%config%
+%nproc:NPROC={}%
+%sysfield%
+%symbol%
+SDIR='%sdir%/%j.base%.%j.unique%'
+DBS='%dbs%'
+SCR=%scr%
+%smem:SMEM={}%
+NEWDEL='%a.sss%'
+%smaster:SMASTER={}%
+%sdball:SDBALL={}%
+%sscr:SSCR={}%
+DEL='%del%'
+AUTH='%auth%'
+%authqueue:AUTHQUE={}%
+%authinfo:AUTHINFO={}%
+%gmconn:GMCONN='{}'%
+MSGCAT='%msgcat%'
+%msgdest:MSGDEST='{}'%
+%prog:PROG={}%
+%j.news:NEWS='{}'%
+%version>=1.0:%%j.params%

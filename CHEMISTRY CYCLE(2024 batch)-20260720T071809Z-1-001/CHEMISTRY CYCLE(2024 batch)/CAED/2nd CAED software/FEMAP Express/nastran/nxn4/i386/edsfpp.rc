@@ -1,0 +1,58 @@
+# edsfpp configuration file
+#      Arch        OS        Prec     FP       End       Implicit       Vector   INTEGER*8  Common_OS  INTEGER*2  64bit ptrs
+arch   _AIX        _UNIX     _DOUBLE  _IEEEFP  _BIG      _IMPLICITNONE           _INTEGER8             _INTEGER2
+arch   _AIX64      _UNIX     _DOUBLE  _IEEEFP  _BIG      _IMPLICITNONE           _INTEGER8  _AIX       _INTEGER2   _PTR64
+arch   _AIX64L     _UNIX     _SINGLE  _IEEEFP  _BIG      _IMPLICITNONE           _INTEGER8  _AIX       _INTEGER2   _PTR64
+arch   _ALPHAOSF   _UNIX     _DOUBLE  _IEEEFP  _LITTLE                           _INTEGER8             _INTEGER2   _PTR64
+arch   _ALPHANT    _NT       _DOUBLE  _IEEEFP  _LITTLE                           _INTEGER8             _INTEGER2
+arch   _CONVEXOS   _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8
+pragma _CONVEXOS    scalar     "C$DIR SCALAR"
+pragma _CONVEXOS    vector     "C$DIR NO_RECURRENCE"
+arch   _DOS        _DOS      _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE
+arch   _HPUX       _UNIX     _DOUBLE  _IEEEFP  _BIG                                                    _INTEGER2
+arch   _HPUX_11    _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8             _INTEGER2   _PTR64
+arch   _HPUX_IA64  _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8  _HPUX_11   _INTEGER2   _PTR64
+arch   _HPUX_IA64L _UNIX     _SINGLE  _IEEEFP  _BIG      _IMPLICITNONE           _INTEGER8  _HPUX_11   _INTEGER2   _PTR64
+arch   _HIOSF      _UNIX     _DOUBLE  _IBMFP   _BIG      _IMPLICITNONE
+arch   _IRIX32     _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8  _IRIX      _INTEGER2
+arch   _IPF64     _UNIX     _SINGLE  _IEEEFP  _LITTLE   _IMPLICITNONE           _INTEGER8  _LINUX     _INTEGER2   _PTR64
+arch   _IRIX64     _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8  _IRIX      _INTEGER2   _PTR64
+arch   _IA32LINUX  _UNIX     _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE           _INTEGER8  _LINUX     _INTEGER2
+arch   _LINUXPPC   _UNIX     _DOUBLE  _IEEEFP  _BIG      _IMPLICITNONE           _INTEGER8  _LINUX     _INTEGER2  _PTR64
+arch   _X86_64LINUX  _UNIX     _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE           _INTEGER8  _LINUX     _INTEGER2 _PTR64
+arch   _IA64LINUX  _UNIX     _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE           _INTEGER8  _LINUX     _INTEGER2   _PTR64
+pragma _IA64LINUX   vector     "!DIR$ IVDEP"
+arch   _MSPEX      _MVS      _DOUBLE  _IBMFP   _BIG      _IMPLICITNONE  _VECTOR  _INTEGER8
+arch   _MVSESA     _MVS      _DOUBLE  _IBMFP   _BIG      _IMPLICITNONE           _INTEGER8
+arch   _OPENVMS    _VMS      _DOUBLE  _IEEEFP  _LITTLE                           _INTEGER8
+arch   _SOLARIS    _UNIX     _DOUBLE  _IEEEFP  _BIG                              _INTEGER8             _INTEGER2
+arch   _SPPUX      _UNIX     _DOUBLE  _IEEEFP  _BIG
+arch   _SUNOS      _UNIX     _DOUBLE  _IEEEFP  _BIG
+arch   _SUPERUX    _UNIX     _DOUBLE  _IEEEFP  _BIG                     _VECTOR  _INTEGER8             _INTEGER2
+pragma _SUPERUX     scalar     "*VDIR NOVECTOR"
+pragma _SUPERUX     vector     "*VDIR NODEP"
+arch   _UNICOSJ90  _UNIX     _SINGLE  _CRAYFP  _BIG                     _VECTOR             _UNICOS
+pragma _UNICOSJ90   scalar     "CDIR$ NEXTSCALAR"
+pragma _UNICOSJ90   stack      "CDIR$ STACK"
+# pragma _UNICOS      taskcommon "CDIR$ TASKCOMMON %1"
+pragma _UNICOSJ90   vector     "CDIR$ IVDEP"
+arch   _UNICOSC90  _UNIX     _SINGLE  _CRAYFP  _BIG                     _VECTOR             _UNICOS
+pragma _UNICOSC90   scalar     "CDIR$ NEXTSCALAR"
+pragma _UNICOSC90   stack      "CDIR$ STACK"
+# pragma _UNICOSC90   taskcommon "CDIR$ TASKCOMMON %1"
+pragma _UNICOSC90   vector     "CDIR$ IVDEP"
+arch   _UNICOSTS   _UNIX     _SINGLE  _IEEEFP  _BIG                     _VECTOR             _UNICOS
+pragma _UNICOSTS    scalar     "CDIR$ NEXTSCALAR"
+pragma _UNICOSTS    stack      "CDIR$ STACK"
+# pragma _UNICOSTS    taskcommon "CDIR$ TASKCOMMON %1"
+pragma _UNICOSTS    vector     "CDIR$ IVDEP"
+arch   _UXPM       _UNIX     _DOUBLE  _IBMFP   _BIG                     _VECTOR
+arch   _UXPV       _UNIX     _DOUBLE  _IEEEFP  _BIG                     _VECTOR  _INTEGER8             _INTEGER2
+arch   _VAXVMS     _VMS      _DOUBLE  _VAXFP   _LITTLE                           _INTEGER8
+arch   _VOS3ES     _MVS      _DOUBLE  _IBMFP   _BIG      _IMPLICITNONE           _INTEGER8
+arch   _WINDOWS31  _WINDOWS  _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE
+arch   _I386NT     _NT       _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE                                 _INTEGER2
+pragma _I386NT      varargs    "*$pragma aux %1 parm caller []"
+arch   _IA64NT     _NT       _DOUBLE  _IEEEFP  _LITTLE   _IMPLICITNONE           _INTEGER8             _INTEGER2   _PTR64
+pragma _UXPV        vector     "!ocl novrec"
+# End of edsfpp configuration file

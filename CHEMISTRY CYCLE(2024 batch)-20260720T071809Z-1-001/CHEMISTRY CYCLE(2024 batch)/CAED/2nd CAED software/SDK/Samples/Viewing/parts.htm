@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<title>New Page</title>
+</head>
+
+<body>
+<script language="VBScript">
+<!--
+Sub window_onParseComplete()
+
+end sub
+Sub window_onLoad()
+	PartList.AddItem "Boxcast"
+	PartList.AddItem "Button"
+	PartList.AddItem "Gear"
+	PartList.AddItem "Screw"
+	PartList.AddItem "Post"
+	PartList.AddItem "Sleeve"
+	PartList.AddItem "Stem"	
+	PartList.AddItem "Tinyscrew"
+	PartList.AddItem "Washer"
+	PartList.ListIndex = 0
+	SEpartX1.PartFile = "button.par"
+
+end sub
+-->
+    </script>
+
+<h1><font size="5">Publishing Using <em>SolidEdge ActiveX</em></font></h1>
+
+<p><font size="3">This is an example web page using the Solid
+Edge ActiveX viewer control, the Microsoft ActiveX ListBox
+control, and several standard HTML controls. All the controls are
+hooked together using VBScript. </font></p>
+<div align="left">
+
+<table border="1" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center" valign="top" rowspan="2" width="366">
+		<object
+        id="SEpartX1"
+        classid="CLSID:E03935A5-FBAD-11D0-8AC7-0800362FB302"
+        align="baseline" border="0" width="509" height="348"><param
+        name="_Version" value="65536">
+			<param name="_ExtentX"
+        value="13467"><param name="_ExtentY" value="9208">
+			<param
+        name="_StockProps" value="33">
+			<param name="BackColor" value="16777215">
+			<param name="BorderStyle" value="1">
+			<param name="PartFile" value>
+			<param name="DisplayMode" value="smooth">
+			<param name="ViewType" value="iso">
+			<param name="MouseAction" value="none">
+			<param name="ViewPerspective" value="0">
+			<param name="AutoFit" value="-1">
+			<param name="ShowToolbar" value="-1">
+			<param name="ShowTreeViewWindow" value="-1">
+			<param name="BackColor2D" value="16777215">
+		</object> </td>
+        <td align="center" valign="top"><font size="4">Local
+        Parts<br>
+        <object id="PartList" name="PartList"
+        classid="CLSID:8BD21D20-EC42-11CE-9E0D-00AA006002F3"
+        align="baseline" border="0" width="119" height="192"><param
+        name="ScrollBars" value="3"><param name="DisplayStyle"
+        value="2"><param name="Size" value="3140;5076"><param
+        name="MatchEntry" value="0"><param name="SpecialEffect"
+        value="0"><param name="FontCharSet" value="0"><param
+        name="FontPitchAndFamily" value="2"></object> </font><br>
+        <input type="button" name="cbDisplayPart" value="Display"
+        language="VBScript"
+        onclick="SEpartX1.PartFile = PartList.Text &amp; &quot;.par&quot;">
+        </td>
+        <td valign="top" rowspan="2" width="310"><font size="4">What Can I
+        Do?</font><ul>
+            <li><font size="3">After selecting a part from the
+                list box, select the </font><font color="#0000FF"
+                size="3"><em>Display</em></font><font size="3">
+                button to load the part</font></li>
+            <li><font size="3">The part viewer has a built in
+                toolbar which can be turned on/off via the</font><font
+                color="#000000" size="3"><em> contol's </em></font><font
+                color="#0000FF" size="3"><em>ShowToolbar</em></font><font
+                size="3"> property. Use the </font><font
+                color="#0000FF" size="3"><em>Toolbar</em></font><font
+                size="3"> checkbox to interactively change this
+                property. </font></li>
+            <li><font size="3">It is also possible to embed a
+                reference to a part directly in a line of text.
+                </font></li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">&nbsp;<font size="4">Toolbar</font>
+        <br>
+        <input type="checkbox" checked name="Toolbar"
+        value="Toolbar" language="VBScript"
+        onclick="If Toolbar.checked =0 Then
+	SEpartX1.ShowToolbar = False
+Else
+	SEpartX1.ShowToolbar = True
+End IF">
+        On/Off </td>
+    </tr>
+</table>
+</div>
+
+<form method="POST">
+    <p><font size="3">The built-in toolbar will not be applicable
+    to some applications. In this case, the ShowToolbar property
+    would be set to False and the WEB application would implement
+    specific commands as desired. There are five commands at the
+    bottom of this page that demonstrate this capability. The </font><font
+    color="#0000FF" size="3"><em>OpenSE </em></font><font
+    size="3">command is of special note as it will open the
+    selected part in Solid Edge provided Solid Edge is loaded on
+    the workstation, or using the standalone Solid Edge server.</font></p>
+    <p><input type="button" name="cbFit" value="  Fit  "
+    language="VBScript" onclick="call SEpartX1.Fit()"> <input
+    type="button" name="cbRotate" value="Rotate"
+    language="VBScript"
+    onclick="SEpartX1.MouseAction = &quot;Rotate&quot;"> <input
+    type="button" name="cbZoom" value="Zoom" language="VBScript"
+    onclick="SEpartX1.MouseAction = &quot;Zoom&quot;"> <input
+    type="button" name="cbPan" value="Pan" language="VBScript"
+    onclick="SEpartX1.MouseAction = &quot;Pan&quot;"> <input
+    type="button" name="cbOpenSE" value="OpenSE"
+    language="VBScript"
+    onclick="location.href = SEpartX1.PartFile"> </p>
+</form>
+</body>
+</html>

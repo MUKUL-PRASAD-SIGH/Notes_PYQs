@@ -1,0 +1,1063 @@
+ IEMSTN
+
+ Timestamp is 46b3a746 (Fri Aug 03 17:08:06 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010f78H .text                   CODE
+ 0001:00010f80 00000324H .text$x                 CODE
+ 0001:000112b0 000004f6H .text$yc                CODE
+ 0002:00000000 000002f8H .idata$5                DATA
+ 0002:000002f8 00000004H .CRT$XCA                DATA
+ 0002:000002fc 000000a0H .CRT$XCU                DATA
+ 0002:0000039c 00000004H .CRT$XCZ                DATA
+ 0002:000003a0 00000004H .CRT$XIA                DATA
+ 0002:000003a4 00000004H .CRT$XIAA               DATA
+ 0002:000003a8 00000004H .CRT$XIZ                DATA
+ 0002:000003b0 00002ae0H .rdata                  DATA
+ 0002:00002e90 00000030H .rdata$debug            DATA
+ 0002:00002ec0 0000044cH .rdata$r                DATA
+ 0002:00003310 0000003cH .rdata$sxdata           DATA
+ 0002:0000334c 00000004H .rtc$IAA                DATA
+ 0002:00003350 00000004H .rtc$IZZ                DATA
+ 0002:00003354 00000004H .rtc$TAA                DATA
+ 0002:00003358 00000004H .rtc$TZZ                DATA
+ 0002:00003360 00000334H .xdata$x                DATA
+ 0002:00003694 00000104H .idata$2                DATA
+ 0002:00003798 00000014H .idata$3                DATA
+ 0002:000037ac 000002f8H .idata$4                DATA
+ 0002:00003aa4 00000c4cH .idata$6                DATA
+ 0002:000046f0 00000069H .edata                  DATA
+ 0003:00000000 00006758H .data                   DATA
+ 0003:00006758 000018dcH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000000f       ___safe_se_handler_count   0000000f     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??$wcscat@PA_W@@YAPA_WAAPA_WPB_W@Z 10001030 f i readmstn.obj
+ 0001:00000080       ??$wcscpy@PA_W@@YAPA_WAAPA_WPB_W@Z 10001080 f i readmstn.obj
+ 0001:00000080       ??$wcscpy@PA_W@@YAPA_WABQA_WPB_W@Z 10001080 f i trutil:trmpcopy.obj
+ 0001:000000b0       _IsEqualGUID               100010b0 f i readmstn.obj
+ 0001:00000150       ?swprintf@@YAHPA_WPB_WZZ   10001150 f i readmstn.obj
+ 0001:00000170       _GetGID_TRANSF             10001170 f i readmstn.obj
+ 0001:000001e0       _GetGID_4x4                100011e0 f i readmstn.obj
+ 0001:00000210       ?Add@CRWExtTable@@QAEXPAXW4eTypeFreeMemory@@@Z 10001210 f i readmstn.obj
+ 0001:00000250       ?Delete@CRWExtTable@@QAEXH@Z 10001250 f i readmstn.obj
+ 0001:00000280       ?Alloc@MSTNDefaultMemPool@@UAEPAXK@Z 10001280 f i readmstn.obj
+ 0001:00000290       ?Delete@MSTNDefaultMemPool@@UAEXPAPAX@Z 10001290 f i readmstn.obj
+ 0001:000002a0       ?GetIMalloc@MSTNDefaultMemPool@@UAEPAUIMalloc@@XZ 100012a0 f i readmstn.obj
+ 0001:000002b0       ?SetSize@MSTNDefaultMemPool@@UAEJK@Z 100012b0 f i readmstn.obj
+ 0001:000002f0       ?DeletePool@MSTNDefaultMemPool@@UAEJXZ 100012f0 f i readmstn.obj
+ 0001:00000300       ?AddRef@JWriteMstnClassFactory@@UAGKXZ 10001300 f   wrtmstn.obj
+ 0001:00000300       ?AddRef@JWriteMstn@@UAGKXZ 10001300 f   wrtmstn.obj
+ 0001:00000300       ?AddRef@JReadMstn@@UAGKXZ  10001300 f   readmstn.obj
+ 0001:00000300       ?AddRef@JReadMstnClassFactory@@UAGKXZ 10001300 f   readmstn.obj
+ 0001:00000310       ??1JReadMstnClassFactory@@QAE@XZ 10001310 f   readmstn.obj
+ 0001:00000320       ?QueryInterface@JReadMstn@@UAGJABU_GUID@@PAPAX@Z 10001320 f   readmstn.obj
+ 0001:00000390       ?CloseFile@ImpIJReadData@JReadMstn@@UAGHXZ 10001390 f   readmstn.obj
+ 0001:000004c0       ?SetTransformation@ImpIJReadData@JReadMstn@@UAGHPAX@Z 100014c0 f   readmstn.obj
+ 0001:00000580       ?GetTransformation@ImpIJReadData@JReadMstn@@UAGHPAPAX@Z 10001580 f   readmstn.obj
+ 0001:00000630       ?SetupView@JReadMstn@@AAEXXZ 10001630 f   readmstn.obj
+ 0001:00000990       ?GetSupportedOutputFormats@ImpIJReadData@JReadMstn@@UAGHPAG@Z 10001990 f   readmstn.obj
+ 0001:00000b80       ?GetNextGraphic@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z 10001b80 f   readmstn.obj
+ 0001:00000b90       ?GetGraphicByID@ImpIJReadData@JReadMstn@@UAGJGPAXPAHPAPAPAX@Z 10001b90 f   readmstn.obj
+ 0001:00000ba0       ?GetSymbolDefinitionByID@ImpIJReadData@JReadMstn@@UAGJGPAXPAPAX@Z 10001ba0 f   readmstn.obj
+ 0001:00000bb0       ?StopLogging@ImpIJReadData@JReadMstn@@UAGJXZ 10001bb0 f   readmstn.obj
+ 0001:00000c60       ?GetFileName@ImpIJReadData@JReadMstn@@UAGJPAPAD@Z 10001c60 f   readmstn.obj
+ 0001:00000c80       ?FreeGraphics@ImpIJReadData@JReadMstn@@UAGHGHPAPAX@Z 10001c80 f   readmstn.obj
+ 0001:00000dc0       ?FreeMemory@ImpIJReadData@JReadMstn@@UAGHPAX@Z 10001dc0 f   readmstn.obj
+ 0001:00000e80       ?WriteToLog@JReadMstn@@QAAHIZZ 10001e80 f   readmstn.obj
+ 0001:00000ec0       ??$strcpy@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10001ec0 f i readmstn.obj
+ 0001:00000ef0       ??$strcpy@$0GE@@@YAPADAAY0GE@DPBD@Z 10001ef0 f i readmstn.obj
+ 0001:00000f10       ??$wcscpy@$0BB@@@YAPA_WAAY0BB@_WPB_W@Z 10001f10 f i readmstn.obj
+ 0001:00000f30       ??$strcpy@$0BAA@@@YAPADAAY0BAA@DPBD@Z 10001f30 f i readmstn.obj
+ 0001:00000f60       ??0MSTNDefaultMemPool@@QAE@XZ 10001f60 f i readmstn.obj
+ 0001:00000fd0       ??0JReadMstnClassFactory@@QAE@XZ 10001fd0 f   readmstn.obj
+ 0001:00000fe0       ?SetConfiguration@ImpIJReadData@JReadMstn@@UAGHPBDGPAX@Z 10001fe0 f   readmstn.obj
+ 0001:000010f0       ?OpenFile@ImpIJReadData@JReadMstn@@UAGJPAX@Z 100020f0 f   readmstn.obj
+ 0001:00001750       ?SetGraphicsFilter@ImpIJReadData@JReadMstn@@UAGJPAX@Z 10002750 f   readmstn.obj
+ 0001:000017a0       ?GetTotalNumberOfElements@ImpIJReadData@JReadMstn@@UAGJPAH@Z 100027a0 f   readmstn.obj
+ 0001:000017f0       ?GetGlobalData@ImpIJReadData@JReadMstn@@UAGJGPAPAX@Z 100027f0 f   readmstn.obj
+ 0001:00002020       ?GetAllGraphics@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z 10003020 f   readmstn.obj
+ 0001:00002dd0       ?GetAllSymbolDefinitions@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z 10003dd0 f   readmstn.obj
+ 0001:00003580       ?GetEstimatedProcessingTimeOfGetAllGraphics@ImpIJReadData@JReadMstn@@UAGJGPBDPAK@Z 10004580 f   readmstn.obj
+ 0001:00003720       ?StartLogging@ImpIJReadData@JReadMstn@@UAGJH@Z 10004720 f   readmstn.obj
+ 0001:00003830       ??1JReadMstn@@QAE@XZ       10004830 f   readmstn.obj
+ 0001:00003900       ?Initialize@JReadMstn@@QAEKXZ 10004900 f   readmstn.obj
+ 0001:000039f0       ?Release@JReadMstnClassFactory@@UAGKXZ 100049f0 f   readmstn.obj
+ 0001:00003a20       ?Release@JReadMstn@@UAGKXZ 10004a20 f   readmstn.obj
+ 0001:00003a60       ??0JReadMstn@@QAE@PAUIUnknown@@@Z 10004a60 f   readmstn.obj
+ 0001:00003ba0       ?CreateInstance@JReadMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10004ba0 f   readmstn.obj
+ 0001:00003c80       ?ServerGetNumberOfObjects@@YAKXZ 10004c80 f   server.obj
+ 0001:00003c90       ?ServerGetNumberOfLocks@@YAKXZ 10004c90 f   server.obj
+ 0001:00003ca0       ?ServerIncrementNumberOfObjects@@YAXXZ 10004ca0 f   server.obj
+ 0001:00003cb0       ?ServerDecrementNumberOfObjects@@YAXXZ 10004cb0 f   server.obj
+ 0001:00003cc0       ?ServerIncrementNumberOfLocks@@YAXXZ 10004cc0 f   server.obj
+ 0001:00003cd0       ?ServerDecrementNumberOfLocks@@YAXXZ 10004cd0 f   server.obj
+ 0001:00003ce0       _DllGetClassObject@12      10004ce0 f   server.obj
+ 0001:00003e20       _DllCanUnloadNow@0         10004e20 f   server.obj
+ 0001:00003e40       ?IEMSTN_GetUnitsTypeFromString@@YAJPADPAI@Z 10004e40 f   utils.obj
+ 0001:00004160       ?IEMSTN_GetStringFromUnitsType@@YAXQADI@Z 10005160 f   utils.obj
+ 0001:00004280       ??$sprintf@$0BE@@@YAHAAY0BE@DPBDZZ 10005280 f i utils.obj
+ 0001:000042a0       ??$strcat@$0KAA@@@YAPADAAY0KAA@DPBD@Z 100052a0 f i utils.obj
+ 0001:000042d0       ?IEMSTN_SetRscFiles@@YAHPADPAUtagConfigData@@@Z 100052d0 f   utils.obj
+ 0001:00004690       ?QueryInterface@JReadMstnClassFactory@@UAGJABU_GUID@@PAPAX@Z 10005690 f   readmstn.obj
+ 0001:00004690       ?QueryInterface@JWriteMstnClassFactory@@UAGJABU_GUID@@PAPAX@Z 10005690 f   wrtmstn.obj
+ 0001:000046e0       ?LockServer@JWriteMstnClassFactory@@UAGJH@Z 100056e0 f   wrtmstn.obj
+ 0001:000046e0       ?LockServer@JReadMstnClassFactory@@UAGJH@Z 100056e0 f   readmstn.obj
+ 0001:00004700       ??1JWriteMstnClassFactory@@QAE@XZ 10005700 f   wrtmstn.obj
+ 0001:00004710       ?QueryInterface@JWriteMstn@@UAGJABU_GUID@@PAPAX@Z 10005710 f   wrtmstn.obj
+ 0001:00004780       ?QueryInterface@ImpIJWriteData@JWriteMstn@@UAGJABU_GUID@@PAPAX@Z 10005780 f   wrtmstn.obj
+ 0001:00004780       ?QueryInterface@ImpIJReadData@JReadMstn@@UAGJABU_GUID@@PAPAX@Z 10005780 f   readmstn.obj
+ 0001:000047a0       ?AddRef@ImpIJWriteData@JWriteMstn@@UAGKXZ 100057a0 f   wrtmstn.obj
+ 0001:000047a0       ?AddRef@ImpIJReadData@JReadMstn@@UAGKXZ 100057a0 f   readmstn.obj
+ 0001:000047c0       ?Release@ImpIJReadData@JReadMstn@@UAGKXZ 100057c0 f   readmstn.obj
+ 0001:000047c0       ?Release@ImpIJWriteData@JWriteMstn@@UAGKXZ 100057c0 f   wrtmstn.obj
+ 0001:000047e0       ?CloseFile@ImpIJWriteData@JWriteMstn@@UAGHXZ 100057e0 f   wrtmstn.obj
+ 0001:00004920       ?SetTransformation@ImpIJWriteData@JWriteMstn@@UAGHPAX@Z 10005920 f   wrtmstn.obj
+ 0001:00004960       ?GetTransformation@ImpIJWriteData@JWriteMstn@@UAGHPAPAX@Z 10005960 f   wrtmstn.obj
+ 0001:00004980       ?GetSupportedInputFormats@ImpIJWriteData@JWriteMstn@@UAGHPAG@Z 10005980 f   wrtmstn.obj
+ 0001:000049a0       ?GetEstimatedProcessingTimeOfPutGraphics@ImpIJWriteData@JWriteMstn@@UAGJGHPAK@Z 100059a0 f   wrtmstn.obj
+ 0001:00004a90       ?StartLogging@ImpIJWriteData@JWriteMstn@@UAGJH@Z 10005a90 f   wrtmstn.obj
+ 0001:00004b10       ?StopLogging@ImpIJWriteData@JWriteMstn@@UAGJXZ 10005b10 f   wrtmstn.obj
+ 0001:00004b60       ??1JWriteMstn@@QAE@XZ      10005b60 f   wrtmstn.obj
+ 0001:00004be0       ?Initialize@JWriteMstn@@QAEKXZ 10005be0 f   wrtmstn.obj
+ 0001:00004c70       ?WriteToLog@JWriteMstn@@QAAHIZZ 10005c70 f   wrtmstn.obj
+ 0001:00004cb0       ??$strcat@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10005cb0 f i wrtmstn.obj
+ 0001:00004ce0       ??0JWriteMstnClassFactory@@QAE@XZ 10005ce0 f   wrtmstn.obj
+ 0001:00004cf0       ?Release@JWriteMstn@@UAGKXZ 10005cf0 f   wrtmstn.obj
+ 0001:00004d30       ?SetConfiguration@ImpIJWriteData@JWriteMstn@@UAGHPBDGPAX@Z 10005d30 f   wrtmstn.obj
+ 0001:00004e20       ?OpenFile@ImpIJWriteData@JWriteMstn@@UAGJPAXHPBD@Z 10005e20 f   wrtmstn.obj
+ 0001:000052b0       ?PutGlobalData@ImpIJWriteData@JWriteMstn@@UAGJGPAXPAUIJReadData@@@Z 100062b0 f   wrtmstn.obj
+ 0001:000065e0       ?PutGraphics@ImpIJWriteData@JWriteMstn@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z 100075e0 f   wrtmstn.obj
+ 0001:00006c90       ?PutSymbolDefinitions@ImpIJWriteData@JWriteMstn@@UAGJGHPAPAXPAUIJReadData@@@Z 10007c90 f   wrtmstn.obj
+ 0001:00007190       ?Release@JWriteMstnClassFactory@@UAGKXZ 10008190 f   wrtmstn.obj
+ 0001:000071c0       ??0JWriteMstn@@QAE@PAUIUnknown@@@Z 100081c0 f   wrtmstn.obj
+ 0001:00007260       ?CreateInstance@JWriteMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10008260 f   wrtmstn.obj
+ 0001:00007340       ?CFGgetReadDefaultView@@YAHPADPAUtagGView@@@Z 10008340 f   config:config.dll
+ 0001:00007346       ?CFGgetPathToCOMobjectDLL@@YAHPAD0@Z 10008346 f   config:config.dll
+ 0001:0000734c       ?CFGgetBatchTranslation@@YAHPADPAH@Z 1000834c f   config:config.dll
+ 0001:00007352       ?CFGgetReadCellBlockOption@@YAHPAD0PAH@Z 10008352 f   config:config.dll
+ 0001:00007358       ?CFGgetDebugLoggingEnabled@@YAHPADPAH@Z 10008358 f   config:config.dll
+ 0001:0000735e       ?CFGgetCOMobjectDLLName@@YAHPAD0@Z 1000835e f   config:config.dll
+ 0001:00007364       ?CFGgetEntityMapFunctionAddr@@YAXPAUTREntityMap@@PADPAPAX@Z 10008364 f   config:config.dll
+ 0001:0000736a       ?CFGgetGTransf@@YAHPADHPAUtagGTransf@@@Z 1000836a f   config:config.dll
+ 0001:00007370       _JFreeLibrary              10008370 f   jutil:JUtil.dll
+ 0001:00007376       _WideString                10008376 f   jutil:JUtil.dll
+ 0001:0000737c       _HRerrEx                   1000837c f   jutil:JUtil.dll
+ 0001:00007382       _JCoCreateInstance         10008382 f   jutil:JUtil.dll
+ 0001:00007388       _JGetSolidEdgeCurrentUserApplicationPath 10008388 f   jutil:JUtil.dll
+ 0001:0000738e       _AnsiString                1000838e f   jutil:JUtil.dll
+ 0001:000073a0       ?memMinimumPool@JMemPool@@QAEXXZ 100083a0 f   mempool:mempool.obj
+ 0001:00007400       ?memDeletePool@JMemPool@@QAEXXZ 10008400 f   mempool:mempool.obj
+ 0001:00007430       ?setClusterSize@JMemPool@@QAEXJJ@Z 10008430 f   mempool:mempool.obj
+ 0001:00007470       ?addRef@JMemPool@@QAEXXZ   10008470 f   mempool:mempool.obj
+ 0001:00007490       ?getAllocationCount@JMemPool@@QBEJXZ 10008490 f   mempool:mempool.obj
+ 0001:000074b0       ?QueryInterface@JMemPool@@UAGJABU_GUID@@PAPAX@Z 100084b0 f   mempool:mempool.obj
+ 0001:00007500       ?AddRef@JMemPool@@UAGKXZ   10008500 f   mempool:mempool.obj
+ 0001:00007510       ?GetSize@JMemPool@@UAGKPAX@Z 10008510 f   mempool:mempool.obj
+ 0001:00007560       ?DidAlloc@JMemPool@@UAGHPAX@Z 10008560 f   mempool:mempool.obj
+ 0001:000075b0       ?HeapMinimize@JMemPool@@UAGXXZ 100085b0 f   mempool:mempool.obj
+ 0001:000075c0       ?newCluster@JMemPool@@AAEPAUMemCluster@@J@Z 100085c0 f i mempool:mempool.obj
+ 0001:00007630       ?getPointer@JMemPool@@IAEPAXJ@Z 10008630 f   mempool:mempool.obj
+ 0001:00007700       ?releasePointer@JMemPool@@IAEXPAX@Z 10008700 f   mempool:mempool.obj
+ 0001:000077b0       ?cppAlloc@JMemPool@@IAEPAXJ@Z 100087b0 f   mempool:mempool.obj
+ 0001:000077c0       ?cppFree@JMemPool@@IAEXPAX@Z 100087c0 f   mempool:mempool.obj
+ 0001:000077d0       ?globalAlloc@JMemPool@@IAEPAXJ@Z 100087d0 f   mempool:mempool.obj
+ 0001:000077e0       ?globalFree@JMemPool@@IAEXPAX@Z 100087e0 f   mempool:mempool.obj
+ 0001:000077f0       ??1JMemPool@@UAE@XZ        100087f0 f   mempool:mempool.obj
+ 0001:00007800       ?memAllocate@JMemPool@@QAEPAXI@Z 10008800 f   mempool:mempool.obj
+ 0001:00007850       ?memAdjustSize@JMemPool@@QAEHPAPAXI@Z 10008850 f   mempool:mempool.obj
+ 0001:00007940       ?memDispose@JMemPool@@QAEXPAPAX@Z 10008940 f   mempool:mempool.obj
+ 0001:00007960       ?release@JMemPool@@QAEJXZ  10008960 f   mempool:mempool.obj
+ 0001:00007990       ?setAllocationMethod@JMemPool@@QAEHW4AllocationMethod@1@@Z 10008990 f   mempool:mempool.obj
+ 0001:000079d0       ?Release@JMemPool@@UAGKXZ  100089d0 f   mempool:mempool.obj
+ 0001:000079e0       ?Alloc@JMemPool@@UAGPAXK@Z 100089e0 f   mempool:mempool.obj
+ 0001:00007a00       ?Realloc@JMemPool@@UAGPAXPAXK@Z 10008a00 f   mempool:mempool.obj
+ 0001:00007a30       ?Free@JMemPool@@UAGXPAX@Z  10008a30 f   mempool:mempool.obj
+ 0001:00007a50       ??0JMemPool@@QAE@XZ        10008a50 f   mempool:mempool.obj
+ 0001:00007a80       ??_GJMemPool@@UAEPAXI@Z    10008a80 f i mempool:mempool.obj
+ 0001:00007a80       ??_EJMemPool@@UAEPAXI@Z    10008a80 f i mempool:mempool.obj
+ 0001:00007a9e       _IGDS_shutdown             10008a9e f   mstnrw:MSTNRW.dll
+ 0001:00007aa4       _IGDSclose_igds_file       10008aa4 f   mstnrw:MSTNRW.dll
+ 0001:00007aaa       _IGDS_getReadFileDim       10008aaa f   mstnrw:MSTNRW.dll
+ 0001:00007ab0       _IGDSlocate_load           10008ab0 f   mstnrw:MSTNRW.dll
+ 0001:00007ab6       _IGDS_getReadGlobalData    10008ab6 f   mstnrw:MSTNRW.dll
+ 0001:00007abc       _IGDSfseek_r               10008abc f   mstnrw:MSTNRW.dll
+ 0001:00007ac2       _IGDSget_ele               10008ac2 f   mstnrw:MSTNRW.dll
+ 0001:00007ac8       _IGDSfrewind_r             10008ac8 f   mstnrw:MSTNRW.dll
+ 0001:00007ace       _IGDSget_r_byte_offset     10008ace f   mstnrw:MSTNRW.dll
+ 0001:00007ad4       _IGDSfree_complex_data     10008ad4 f   mstnrw:MSTNRW.dll
+ 0001:00007ada       _IGDS_2upper               10008ada f   mstnrw:MSTNRW.dll
+ 0001:00007ae0       _IGDS_getReadType9         10008ae0 f   mstnrw:MSTNRW.dll
+ 0001:00007ae6       _IGDS_putReadGlobalData    10008ae6 f   mstnrw:MSTNRW.dll
+ 0001:00007aec       _IGDS_getReadFileType      10008aec f   mstnrw:MSTNRW.dll
+ 0001:00007af2       _IGDSopen_igds_file        10008af2 f   mstnrw:MSTNRW.dll
+ 0001:00007af8       _IGDS_initialize           10008af8 f   mstnrw:MSTNRW.dll
+ 0001:00007afe       _IGDS_getReadNumElements   10008afe f   mstnrw:MSTNRW.dll
+ 0001:00007b04       _IGDStransformReadDatabasePtsToWorld 10008b04 f   mstnrw:MSTNRW.dll
+ 0001:00007b0a       _IGDS_getReadNextAssocId   10008b0a f   mstnrw:MSTNRW.dll
+ 0001:00007b10       _IGDSgetEntityTypeLiteral  10008b10 f   mstnrw:MSTNRW.dll
+ 0001:00007b16       _IGDSgetGroupInfo          10008b16 f   mstnrw:MSTNRW.dll
+ 0001:00007b1c       _IGDSgetNumberOfGroups     10008b1c f   mstnrw:MSTNRW.dll
+ 0001:00007b22       _IGDSat_offset_get_ele     10008b22 f   mstnrw:MSTNRW.dll
+ 0001:00007b28       _IGDSstring_strip          10008b28 f   mstnrw:MSTNRW.dll
+ 0001:00007b2e       _IGDS_initRscFiles         10008b2e f   mstnrw:MSTNRW.dll
+ 0001:00007b34       _IGDSwrtEofClose           10008b34 f   mstnrw:MSTNRW.dll
+ 0001:00007b3a       _IGDS_getWriteGlobalData   10008b3a f   mstnrw:MSTNRW.dll
+ 0001:00007b40       _IGDSinit_range            10008b40 f   mstnrw:MSTNRW.dll
+ 0001:00007b46       _IGDScreate_igds_file      10008b46 f   mstnrw:MSTNRW.dll
+ 0001:00007b4c       _IGDS_GetFirstUnNamedLevel 10008b4c f   mstnrw:MSTNRW.dll
+ 0001:00007b52       _IGDS_PutLevelsIntoGlobalData 10008b52 f   mstnrw:MSTNRW.dll
+ 0001:00007b58       _IGDS_LookForLevelName     10008b58 f   mstnrw:MSTNRW.dll
+ 0001:00007b5e       _IGDSput_ele               10008b5e f   mstnrw:MSTNRW.dll
+ 0001:00007b64       _IGDS_getWriteScaleFactor  10008b64 f   mstnrw:MSTNRW.dll
+ 0001:00007b6a       _IGDStransformWorldToWriteDatabasePts 10008b6a f   mstnrw:MSTNRW.dll
+ 0001:00007b70       _IGDS_putWriteGlobalData   10008b70 f   mstnrw:MSTNRW.dll
+ 0001:00007b76       _IGDSput_complex_data      10008b76 f   mstnrw:MSTNRW.dll
+ 0001:00007b7c       _IGDSaccumulate_range      10008b7c f   mstnrw:MSTNRW.dll
+ 0001:00007b82       _IGDSat_offset_wrt_buf     10008b82 f   mstnrw:MSTNRW.dll
+ 0001:00007b88       _IGDSget_w_byte_offset     10008b88 f   mstnrw:MSTNRW.dll
+ 0001:00007fd0       ?TRStdViewToG4x4@@YAHHAAUtagG4x4@@@Z 10008fd0 f   trutil:viewfunc.obj
+ 0001:00008640       ?TROrthoViewToG4x4@@YAHAAUtagGOrthoView@@AAUtagG4x4@@@Z 10009640 f   trutil:viewfunc.obj
+ 0001:000087f0       ?TRViewToG4x4@@YAHAAUtagGView@@AAUtagG4x4@@@Z 100097f0 f   trutil:viewfunc.obj
+ 0001:000088d0       ?TR_MPFreeGComplexString2d@@YAXPAUIMalloc@@PAUtagGComplexString2d@@@Z 100098d0 f   trutil:trmpfree.obj
+ 0001:00008930       ?TR_MPFreeGComplexString@@YAXPAUIMalloc@@PAUtagGComplexString@@@Z 10009930 f   trutil:trmpfree.obj
+ 0001:00008990       ?TR_MPFreeGFreeFormAttrSet@@YAXPAUIMalloc@@KPAPAUtagGFreeFormAttrSet@@@Z 10009990 f   trutil:trmpfree.obj
+ 0001:00008a80       ?TR_MPFreeGSymbolDefinition@@YAXPAUIMalloc@@PAUtagGSymbolDefinition@@@Z 10009a80 f   trutil:trmpfree.obj
+ 0001:00008b40       ?TR_MPFreeGSymbolInstance@@YAXPAUIMalloc@@PAUtagGSymbolInstance@@@Z 10009b40 f   trutil:trmpfree.obj
+ 0001:00008bc0       ?TR_MPFreeGText@@YAXPAUIMalloc@@PAUtagGText@@@Z 10009bc0 f   trutil:trmpfree.obj
+ 0001:00008cb0       ?TR_MPFreeGDimension@@YAXPAUIMalloc@@PAUtagGDimension@@@Z 10009cb0 f   trutil:trmpfree.obj
+ 0001:00008de0       ?TR_MPFreeGSymbology@@YAXPAUIMalloc@@PAUGSymbology@@@Z 10009de0 f   trutil:trmpfree.obj
+ 0001:00008ee0       ?TR_MPFreeGCurve2d@@YAXPAUIMalloc@@EPAPATtagGCurve2d@@@Z 10009ee0 f   trutil:trmpfree.obj
+ 0001:00009050       ?TR_MPFreeGCurve@@YAXPAUIMalloc@@EPAPATtagGCurve@@@Z 1000a050 f   trutil:trmpfree.obj
+ 0001:00009100       ?TR_MPFreeGBoundaries2d@@YAXPAUIMalloc@@PAUtagGBoundaries2d@@@Z 1000a100 f   trutil:trmpfree.obj
+ 0001:00009150       ?TR_MPFreeGBoundaries@@YAXPAUIMalloc@@PAUtagGBoundaries@@@Z 1000a150 f   trutil:trmpfree.obj
+ 0001:000091a0       ?TR_MPFreeGBspSurface@@YAXPAUIMalloc@@PAUtagGBspSurface@@@Z 1000a1a0 f   trutil:trmpfree.obj
+ 0001:00009250       ?TR_MPFreeGSurface@@YAXPAUIMalloc@@EPAPATtagGSurface@@@Z 1000a250 f   trutil:trmpfree.obj
+ 0001:000094e0       ?TR_MPFreeGReference@@YAXPAUIMalloc@@PAUtagGReference@@@Z 1000a4e0 f   trutil:trmpfree.obj
+ 0001:000095f0       ?TR_MPFreeGGraphic@@YAXPAUIMalloc@@EPATtagGGraphic@@@Z 1000a5f0 f   trutil:trmpfree.obj
+ 0001:000098e0       ?TR_MPFreeGType@@YAXPAUIMalloc@@PAPAUtagGType@@@Z 1000a8e0 f   trutil:trmpfree.obj
+ 0001:000099f0       ?TR_MPFreeGGroup@@YAXPAUIMalloc@@PAUtagGGroup@@@Z 1000a9f0 f   trutil:trmpfree.obj
+ 0001:00009aa0       ?TR_MPFreeGGraphic2d@@YAXPAUIMalloc@@EPATtagGGraphic2d@@@Z 1000aaa0 f   trutil:trmpfree.obj
+ 0001:00009e00       ?TR_MPFreeGType2d@@YAXPAUIMalloc@@PAPAUtagGType2d@@@Z 1000ae00 f   trutil:trmpfree.obj
+ 0001:00009ee0       ?TR_MPFreeGTextBox@@YAXPAUIMalloc@@PAUtagGTextBox@@@Z 1000aee0 f   trutil:trmpfree.obj
+ 0001:00009ff0       ??1tagJCharStyleDescrList@@UAE@XZ 1000aff0 f i trutil:freedata.obj
+ 0001:0000a010       ??_EtagJCharStyleDescrList@@UAEPAXI@Z 1000b010 f i trutil:freedata.obj
+ 0001:0000a010       ??_GtagJCharStyleDescrList@@UAEPAXI@Z 1000b010 f i trutil:freedata.obj
+ 0001:0000a090       ?TRFreeGBoundaries2d@@YAXPAUtagGBoundaries2d@@@Z 1000b090 f   trutil:freedata.obj
+ 0001:0000a0d0       ?TRFreeGCurve2d@@YAXHPAX@Z 1000b0d0 f   trutil:freedata.obj
+ 0001:0000a1f0       ?TRFreeGTypedCurve@@YAXPAUtagGTypedCurve@@@Z 1000b1f0 f   trutil:freedata.obj
+ 0001:0000a250       ?TRFreeGCurve@@YAXHPAX@Z   1000b250 f   trutil:freedata.obj
+ 0001:0000a310       ?TRFreeGBoundaries@@YAXPAUtagGBoundaries@@@Z 1000b310 f   trutil:freedata.obj
+ 0001:0000a350       ?TRFreeGSurface@@YAXHPAX@Z 1000b350 f   trutil:freedata.obj
+ 0001:0000a580       ??1tagGTextBox@@QAE@XZ     1000b580 f i trutil:freedata.obj
+ 0001:0000a5e0       ??1tagGDimension@@QAE@XZ   1000b5e0 f i trutil:freedata.obj
+ 0001:0000a650       ?TRFreeGText@@YAXPAUtagGText@@@Z 1000b650 f   trutil:freedata.obj
+ 0001:0000a750       ?TRFreeGSymbolInstance@@YAXPAX@Z 1000b750 f   trutil:freedata.obj
+ 0001:0000a7c0       ?TRFreeGSatSolid@@YAXPAX@Z 1000b7c0 f   trutil:freedata.obj
+ 0001:0000a810       ?TRfreeGFreeFormAttrSet@@YAXKPAUtagGFreeFormAttrSet@@@Z 1000b810 f   trutil:freedata.obj
+ 0001:0000a8b0       ?TRFreeGSymbology@@YAXPAUGSymbology@@@Z 1000b8b0 f   trutil:freedata.obj
+ 0001:0000a9d0       ?TRFreeGTypedCurve2d@@YAXPAUtagGTypedCurve2d@@@Z 1000b9d0 f   trutil:freedata.obj
+ 0001:0000a9f0       ?TRFreeGTypeNonGraphicData@@YAXPAX@Z 1000b9f0 f   trutil:freedata.obj
+ 0001:0000aa80       ?TRFreeGReference@@YAXPAX@Z 1000ba80 f   trutil:freedata.obj
+ 0001:0000ab50       ?TRfreeGlobalData@@YAXPAUGGlobalData@@@Z 1000bb50 f   trutil:freedata.obj
+ 0001:0000ac30       ?TRFreeGType@@YAXPAX@Z     1000bc30 f   trutil:freedata.obj
+ 0001:0000b070       ?TRFreeGTextBox@@YAXPAUtagGTextBox@@@Z 1000c070 f   trutil:freedata.obj
+ 0001:0000b190       ?TRFreeGType2d@@YAXPAX@Z   1000c190 f   trutil:freedata.obj
+ 0001:0000b5e0       ?TRFreeGSymbolDefinition@@YAXPAX@Z 1000c5e0 f   trutil:freedata.obj
+ 0001:0000b680       ??$strcpy@PAD@@YAPADAAPADPBD@Z 1000c680 f i trutil:trfunc.obj
+ 0001:0000b6a0       ??$sprintf@PAD@@YAHAAPADPBDZZ 1000c6a0 f i trutil:trfunc.obj
+ 0001:0000b720       ?TRProcessFunction@@YAHPAX00PAHPAPAPAX@Z 1000c720 f   trutil:trfunc.obj
+ 0001:0000b750       ?TRGetNeutralFormatEntName@@YAXHPAXPAD@Z 1000c750 f   trutil:trfunc.obj
+ 0001:0000bdd0       ?TRMessageBoxArgs@@YAHPAUHINSTANCE__@@IIIPAD@Z 1000cdd0 f   trutil:trfunc.obj
+ 0001:0000bee0       ?TRwrite@@YAXHPBD@Z        1000cee0 f   trutil:trfunc.obj
+ 0001:0000bf10       ?TRwritedent@@YAXHH@Z      1000cf10 f   trutil:trfunc.obj
+ 0001:0000bfc0       ?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 1000cfc0 f   trutil:trfunc.obj
+ 0001:0000c090       ?TRMessageBox@@YAHPAUHINSTANCE__@@IIIZZ 1000d090 f   trutil:trfunc.obj
+ 0001:0000c110       ?TRorderGType2dArrayParentsFirst@@YAHPAPAXK@Z 1000d110 f   trutil:gtyputil.obj
+ 0001:0000c270       ?TRorderGType3dArrayParentsFirst@@YAHPAPAXK@Z 1000d270 f   trutil:gtyputil.obj
+ 0001:0000c3c0       ?TR_MPCopyGFreeFormAttrSet@@YAHPAUIMalloc@@KPAUtagGFreeFormAttrSet@@PAPAU2@@Z 1000d3c0 f   trutil:trmpcopy.obj
+ 0001:0000c6c0       ?TR_MPCopyGComplexString2d@@YAHPAUIMalloc@@PAUtagGComplexString2d@@1@Z 1000d6c0 f   trutil:trmpcopy.obj
+ 0001:0000c7b0       ?TR_MPCopyGComplexString@@YAHPAUIMalloc@@PAUtagGComplexString@@1@Z 1000d7b0 f   trutil:trmpcopy.obj
+ 0001:0000c8a0       ?TR_MPCopyGSymbolDefinition@@YAHPAUIMalloc@@PAUtagGSymbolDefinition@@PAPAU2@@Z 1000d8a0 f   trutil:trmpcopy.obj
+ 0001:0000caa0       ?TR_MPCopyGSymbolInstance@@YAHPAUIMalloc@@PAUtagGSymbolInstance@@PAPAU2@@Z 1000daa0 f   trutil:trmpcopy.obj
+ 0001:0000cc30       ?TR_MPCopyGSatSolid@@YAHPAUIMalloc@@PAUtagGSatSolid@@PAPAU2@@Z 1000dc30 f   trutil:trmpcopy.obj
+ 0001:0000cd50       ?TR_MPCopyGDimension@@YAHPAUIMalloc@@PAUtagGDimension@@PAPAU2@@Z 1000dd50 f   trutil:trmpcopy.obj
+ 0001:0000d1e0       ?TR_MPCopyGSymbology@@YAHPAUIMalloc@@PAUGSymbology@@1@Z 1000e1e0 f   trutil:trmpcopy.obj
+ 0001:0000d460       ?TR_MPCopyGCurve2d@@YAHPAUIMalloc@@EPATtagGCurve2d@@PAPAT2@@Z 1000e460 f   trutil:trmpcopy.obj
+ 0001:0000d8d0       ?TR_MPCopyGCurve@@YAHPAUIMalloc@@EPATtagGCurve@@PAPAT2@@Z 1000e8d0 f   trutil:trmpcopy.obj
+ 0001:0000dbe0       ?TR_MPCopyGBoundaries2d@@YAHPAUIMalloc@@PAUtagGBoundaries2d@@1@Z 1000ebe0 f   trutil:trmpcopy.obj
+ 0001:0000dcd0       ?TR_MPCopyGBoundaries@@YAHPAUIMalloc@@PAUtagGBoundaries@@1@Z 1000ecd0 f   trutil:trmpcopy.obj
+ 0001:0000ddc0       ?TR_MPCopyGBspSurface@@YAHPAUIMalloc@@PAUtagGBspSurface@@PAPAU2@@Z 1000edc0 f   trutil:trmpcopy.obj
+ 0001:0000df90       ?TR_MPCopyGSurface@@YAHPAUIMalloc@@EPATtagGSurface@@PAPAT2@@Z 1000ef90 f   trutil:trmpcopy.obj
+ 0001:0000e530       ?TR_MPCopyGReference@@YAHPAUIMalloc@@PAUtagGReference@@PAPAU2@@Z 1000f530 f   trutil:trmpcopy.obj
+ 0001:0000e820       ?TR_MPCopyGGraphic@@YAHPAUIMalloc@@EPATtagGGraphic@@1@Z 1000f820 f   trutil:trmpcopy.obj
+ 0001:0000ec30       ?TR_MPCopyGType@@YAHPAUIMalloc@@PAUtagGType@@PAPAU2@@Z 1000fc30 f   trutil:trmpcopy.obj
+ 0001:0000ee80       ?TR_MPCopyGGroup@@YAHPAUIMalloc@@PAUtagGGroup@@PAPAU2@@Z 1000fe80 f   trutil:trmpcopy.obj
+ 0001:0000f090       ?TR_MPCopyGGraphic2d@@YAHPAUIMalloc@@EPATtagGGraphic2d@@1@Z 10010090 f   trutil:trmpcopy.obj
+ 0001:0000f5d0       ?TR_MPCopyGType2d@@YAHPAUIMalloc@@PAUtagGType2d@@PAPAU2@@Z 100105d0 f   trutil:trmpcopy.obj
+ 0001:0000f820       ?TR_MPCopyGTextBox@@YAHPAUIMalloc@@PAUtagGTextBox@@PAPAU2@@Z 10010820 f   trutil:trmpcopy.obj
+ 0001:0000feb0       ?TRallocateGroup@@YAHPA_WHPAPAUtagGGroup@@@Z 10010eb0 f   trutil:trgroup.obj
+ 0001:0000ff20       ?TRallocateGroupGType@@YAHIPA_WHPAPAX@Z 10010f20 f   trutil:trgroup.obj
+ 0001:000100d0       ?TRretrieveGroupGTypeFromListByName@@YAHIHPAPAXPA_W0@Z 100110d0 f   trutil:trgroup.obj
+ 0001:000101f0       ?TRaddNewMembersToGroupGType@@YAHIPAXHPAPAX@Z 100111f0 f   trutil:trgroup.obj
+ 0001:000105ca       _IMGBspCurveFreeMem        100115ca f   ugeom:ugeom.dll
+ 0001:000105d0       _IMGBspSurfaceFreeMem      100115d0 f   ugeom:ugeom.dll
+ 0001:000105d6       _IMGBspCurveCopy           100115d6 f   ugeom:ugeom.dll
+ 0001:000105dc       _IMGBspCurveFreeMem2d      100115dc f   ugeom2d:ugeom2d.dll
+ 0001:000105e2       _IMBspCurveCopy2d          100115e2 f   ugeom2d:ugeom2d.dll
+ 0001:000105e8       ?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 100115e8 f   umath:umath.dll
+ 0001:000105ee       ??D@YA?AUtagG4x4@@ABU0@0@Z 100115ee f   umath:umath.dll
+ 0001:000105f4       ??D@YA?AUtagG4x4@@ABU0@ABUtagGTransf@@@Z 100115f4 f   umath:umath.dll
+ 0001:000105fa       ?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 100115fa f   umath:umath.dll
+ 0001:00010600       ?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 10011600 f   umath:umath.dll
+ 0001:00010606       ??XtagGBox@@QAEAAU0@ABUtagG4x4@@@Z 10011606 f   umath:umath.dll
+ 0001:0001060c       ?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1001160c f   umath:umath.dll
+ 0001:00010612       ??XtagGBox@@QAEAAU0@N@Z    10011612 f   umath:umath.dll
+ 0001:00010618       ?ScaleTransf@@YA?AUtagGTransf@@N@Z 10011618 f   umath:umath.dll
+ 0001:0001061e       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1001161e f   umath:umath.dll
+ 0001:00010624       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10011624 f   umath:umath.dll
+ 0001:0001062a       ??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1001162a f   umath:umath.dll
+ 0001:00010630       ??D@YA?AUtagGTransf@@ABU0@0@Z 10011630 f   umath:umath.dll
+ 0001:00010636       ?IsNull@tagGVector@@QBEHXZ 10011636 f   umath:umath.dll
+ 0001:0001063c       ??D@YA?AUtagGPosition@@ABU0@ABUtagGMatrix@@@Z 1001163c f   umath:umath.dll
+ 0001:00010642       ?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 10011642 f   umath:umath.dll
+ 0001:00010648       ??D@YA?AUtagGVector@@ABU0@0@Z 10011648 f   umath:umath.dll
+ 0001:0001064e       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1001164e f   umath:umath.dll
+ 0001:00010654       ?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 10011654 f   umath:umath.dll
+ 0001:0001065a       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1001165a f   umath:umath.dll
+ 0001:00010660       ??XtagGTransf@@QAEAAU0@ABU0@@Z 10011660 f   umath:umath.dll
+ 0001:00010666       ?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 10011666 f   umath:umath.dll
+ 0001:0001066c       ??XtagG4x4@@QAEAAU0@ABU0@@Z 1001166c f   umath:umath.dll
+ 0001:00010672       _malloc                    10011672 f   MSVCRT:MSVCR80.dll
+ 0001:00010678       __callnewh                 10011678 f   MSVCRT:MSVCR80.dll
+ 0001:00010680       _memset                    10011680 f   MSVCRT:MSVCR80.dll
+ 0001:00010686       ??_Etype_info@@UAEPAXI@Z   10011686 f i MSVCRT:ti_inst.obj
+ 0001:000106d0       ??_V@YAXPAX@Z              100116d0 f   MSVCRT:MSVCR80.dll
+ 0001:000106d6       @__security_check_cookie@4 100116d6 f   MSVCRT:secchk.obj
+ 0001:000106f0       __alloca_probe             100116f0     MSVCRT:chkstk.obj
+ 0001:000106f0       __chkstk                   100116f0 f   MSVCRT:chkstk.obj
+ 0001:0001071c       _memcpy                    1001171c f   MSVCRT:MSVCR80.dll
+ 0001:00010722       ??3@YAXPAX@Z               10011722 f   MSVCRT:MSVCR80.dll
+ 0001:00010728       ___CxxFrameHandler3        10011728 f   MSVCRT:MSVCR80.dll
+ 0001:0001077b       __CRT_INIT@12              1001177b f   MSVCRT:crtdll.obj
+ 0001:00010a30       __DllMainCRTStartup@12     10011a30 f   MSVCRT:crtdll.obj
+ 0001:00010a51       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10011a51 f   MSVCRT:ehvecdtr.obj
+ 0001:00010aaf       ??_M@YGXPAXIHP6EX0@Z@Z     10011aaf f   MSVCRT:ehvecdtr.obj
+ 0001:00010b12       ___report_gsfailure        10011b12 f   MSVCRT:gs_report.obj
+ 0001:00010c16       ___clean_type_info_names   10011c16 f   MSVCRT:tncleanup.obj
+ 0001:00010c22       __onexit                   10011c22 f   MSVCRT:atonexit.obj
+ 0001:00010cc1       _atexit                    10011cc1 f   MSVCRT:atonexit.obj
+ 0001:00010cd3       __RTC_Initialize           10011cd3 f   MSVCRT:initsect.obj
+ 0001:00010cf7       __RTC_Terminate            10011cf7 f   MSVCRT:initsect.obj
+ 0001:00010d20       __ValidateImageBase        10011d20 f   MSVCRT:pesect.obj
+ 0001:00010d50       __FindPESection            10011d50 f   MSVCRT:pesect.obj
+ 0001:00010d92       __IsNonwritableInCurrentImage 10011d92 f   MSVCRT:pesect.obj
+ 0001:00010dfe       __initterm                 10011dfe f   MSVCRT:MSVCR80.dll
+ 0001:00010e04       __initterm_e               10011e04 f   MSVCRT:MSVCR80.dll
+ 0001:00010e0a       __amsg_exit                10011e0a f   MSVCRT:MSVCR80.dll
+ 0001:00010e10       ___CppXcptFilter           10011e10 f   MSVCRT:MSVCR80.dll
+ 0001:00010e16       _DllMain@12                10011e16 f   MSVCRT:dllmain.obj
+ 0001:00010e38       __SEH_prolog4              10011e38 f   MSVCRT:sehprolg4.obj
+ 0001:00010e7d       __SEH_epilog4              10011e7d f   MSVCRT:sehprolg4.obj
+ 0001:00010e91       __except_handler4          10011e91 f   MSVCRT:chandler4gs.obj
+ 0001:00010eb4       ___security_init_cookie    10011eb4 f   MSVCRT:gs_support.obj
+ 0001:00010f48       ?terminate@@YAXXZ          10011f48 f   MSVCRT:MSVCR80.dll
+ 0001:00010f4e       ??1type_info@@UAE@XZ       10011f4e f   MSVCRT:MSVCR80.dll
+ 0001:00010f4e       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10011f4e f   MSVCRT:MSVCR80.dll
+ 0001:00010f54       __crt_debugger_hook        10011f54 f   MSVCRT:MSVCR80.dll
+ 0001:00010f5a       ___clean_type_info_names_internal 10011f5a f   MSVCRT:MSVCR80.dll
+ 0001:00010f60       __unlock                   10011f60 f   MSVCRT:MSVCR80.dll
+ 0001:00010f66       ___dllonexit               10011f66 f   MSVCRT:MSVCR80.dll
+ 0001:00010f6c       __lock                     10011f6c f   MSVCRT:MSVCR80.dll
+ 0001:00010f72       __except_handler4_common   10011f72 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__RegOpenKeyExA@20    10013000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegQueryValueExA@24 10013004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegCloseKey@4       10013008     advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1001300c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp_?GetDefaultUnits@@YAHIPAI00@Z 10013010     jutil:JUtil.dll
+ 0002:00000014       __imp_?ConvertDbuToUnit@@YAHINPANPAI@Z 10013014     jutil:JUtil.dll
+ 0002:00000018       __imp__AnsiString          10013018     jutil:JUtil.dll
+ 0002:0000001c       __imp__JGetSolidEdgeCurrentUserApplicationPath 1001301c     jutil:JUtil.dll
+ 0002:00000020       __imp_??4GUserText@@QAEAAV0@PBD@Z 10013020     jutil:JUtil.dll
+ 0002:00000024       __imp__JFreeLibrary        10013024     jutil:JUtil.dll
+ 0002:00000028       __imp_?ConvertUnitToDbu@@YAHINPANPAI@Z 10013028     jutil:JUtil.dll
+ 0002:0000002c       __imp__WideString          1001302c     jutil:JUtil.dll
+ 0002:00000030       __imp__HRerrEx             10013030     jutil:JUtil.dll
+ 0002:00000034       __imp_??1GUserText@@QAE@XZ 10013034     jutil:JUtil.dll
+ 0002:00000038       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 10013038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??0GUserText@@QAE@XZ 1001303c     jutil:JUtil.dll
+ 0002:00000040       __imp__JCoCreateInstance   10013040     jutil:JUtil.dll
+ 0002:00000044       __imp_??BGUserText@@QBEPBDXZ 10013044     jutil:JUtil.dll
+ 0002:00000048       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PBD0JKH@Z 10013048     jutil:JUtil.dll
+ 0002:0000004c       __imp_??YGUserText@@QAEAAV0@PBD@Z 1001304c     jutil:JUtil.dll
+ 0002:00000050       __imp_?FormatStringWithVargs@GUserText@@QAEHQAUHINSTANCE__@@IPAD@Z 10013050     jutil:JUtil.dll
+ 0002:00000054       \177JUtil_NULL_THUNK_DATA  10013054     jutil:JUtil.dll
+ 0002:00000058       __imp__GetPrivateProfileStringA@24 10013058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__CopyFileA@12        1001305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__FindFirstFileA@8    10013060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__FindClose@4         10013064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetModuleHandleA@4  10013068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__LoadLibraryExA@12   1001306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetCurrentDirectoryA@8 10013070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetPrivateProfileIntA@16 10013074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetModuleFileNameA@12 10013078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetProcAddress@8    1001307c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__FindNextFileA@8     10013080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__InterlockedExchange@8 10013084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__Sleep@4             10013088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__InterlockedCompareExchange@12 1001308c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__TerminateProcess@8  10013090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__UnhandledExceptionFilter@4 10013094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__SetUnhandledExceptionFilter@4 10013098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__IsDebuggerPresent@0 1001309c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__DisableThreadLibraryCalls@4 100130a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__QueryPerformanceCounter@4 100130a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__GetTickCount@0      100130a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetCurrentThreadId@0 100130ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__GetCurrentProcessId@0 100130b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__GetSystemTimeAsFileTime@4 100130b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetCurrentProcess@0 100130b8     kernel32:KERNEL32.dll
+ 0002:000000bc       \177KERNEL32_NULL_THUNK_DATA 100130bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__IGDSstring_strip    100130c0     mstnrw:MSTNRW.dll
+ 0002:000000c4       __imp__IGDS_initRscFiles   100130c4     mstnrw:MSTNRW.dll
+ 0002:000000c8       __imp__IGDSwrtEofClose     100130c8     mstnrw:MSTNRW.dll
+ 0002:000000cc       __imp__IGDS_getWriteGlobalData 100130cc     mstnrw:MSTNRW.dll
+ 0002:000000d0       __imp__IGDSinit_range      100130d0     mstnrw:MSTNRW.dll
+ 0002:000000d4       __imp__IGDScreate_igds_file 100130d4     mstnrw:MSTNRW.dll
+ 0002:000000d8       __imp__IGDS_GetFirstUnNamedLevel 100130d8     mstnrw:MSTNRW.dll
+ 0002:000000dc       __imp__IGDS_PutLevelsIntoGlobalData 100130dc     mstnrw:MSTNRW.dll
+ 0002:000000e0       __imp__IGDS_LookForLevelName 100130e0     mstnrw:MSTNRW.dll
+ 0002:000000e4       __imp__IGDSput_ele         100130e4     mstnrw:MSTNRW.dll
+ 0002:000000e8       __imp__IGDS_getWriteScaleFactor 100130e8     mstnrw:MSTNRW.dll
+ 0002:000000ec       __imp__IGDStransformWorldToWriteDatabasePts 100130ec     mstnrw:MSTNRW.dll
+ 0002:000000f0       __imp__IGDS_putWriteGlobalData 100130f0     mstnrw:MSTNRW.dll
+ 0002:000000f4       __imp__IGDSput_complex_data 100130f4     mstnrw:MSTNRW.dll
+ 0002:000000f8       __imp__IGDSat_offset_get_ele 100130f8     mstnrw:MSTNRW.dll
+ 0002:000000fc       __imp__IGDSat_offset_wrt_buf 100130fc     mstnrw:MSTNRW.dll
+ 0002:00000100       __imp__IGDSget_w_byte_offset 10013100     mstnrw:MSTNRW.dll
+ 0002:00000104       __imp__IGDS_shutdown       10013104     mstnrw:MSTNRW.dll
+ 0002:00000108       __imp__IGDSgetNumberOfGroups 10013108     mstnrw:MSTNRW.dll
+ 0002:0000010c       __imp__IGDSgetGroupInfo    1001310c     mstnrw:MSTNRW.dll
+ 0002:00000110       __imp__IGDSgetEntityTypeLiteral 10013110     mstnrw:MSTNRW.dll
+ 0002:00000114       __imp__IGDS_getReadNextAssocId 10013114     mstnrw:MSTNRW.dll
+ 0002:00000118       __imp__IGDStransformReadDatabasePtsToWorld 10013118     mstnrw:MSTNRW.dll
+ 0002:0000011c       __imp__IGDS_getReadNumElements 1001311c     mstnrw:MSTNRW.dll
+ 0002:00000120       __imp__IGDS_initialize     10013120     mstnrw:MSTNRW.dll
+ 0002:00000124       __imp__IGDSopen_igds_file  10013124     mstnrw:MSTNRW.dll
+ 0002:00000128       __imp__IGDS_getReadFileType 10013128     mstnrw:MSTNRW.dll
+ 0002:0000012c       __imp__IGDSclose_igds_file 1001312c     mstnrw:MSTNRW.dll
+ 0002:00000130       __imp__IGDS_putReadGlobalData 10013130     mstnrw:MSTNRW.dll
+ 0002:00000134       __imp__IGDS_getReadType9   10013134     mstnrw:MSTNRW.dll
+ 0002:00000138       __imp__IGDS_2upper         10013138     mstnrw:MSTNRW.dll
+ 0002:0000013c       __imp__IGDSfree_complex_data 1001313c     mstnrw:MSTNRW.dll
+ 0002:00000140       __imp__IGDSget_r_byte_offset 10013140     mstnrw:MSTNRW.dll
+ 0002:00000144       __imp__IGDS_getReadFileDim 10013144     mstnrw:MSTNRW.dll
+ 0002:00000148       __imp__IGDSlocate_load     10013148     mstnrw:MSTNRW.dll
+ 0002:0000014c       __imp__IGDS_getReadGlobalData 1001314c     mstnrw:MSTNRW.dll
+ 0002:00000150       __imp__IGDSfseek_r         10013150     mstnrw:MSTNRW.dll
+ 0002:00000154       __imp__IGDSget_ele         10013154     mstnrw:MSTNRW.dll
+ 0002:00000158       __imp__IGDSaccumulate_range 10013158     mstnrw:MSTNRW.dll
+ 0002:0000015c       __imp__IGDSfrewind_r       1001315c     mstnrw:MSTNRW.dll
+ 0002:00000160       \177MSTNRW_NULL_THUNK_DATA 10013160     mstnrw:MSTNRW.dll
+ 0002:00000164       __imp_??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 10013164     msvcprt:MSVCP80.dll
+ 0002:00000168       \177MSVCP80_NULL_THUNK_DATA 10013168     msvcprt:MSVCP80.dll
+ 0002:0000016c       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1001316c     MSVCRT:MSVCR80.dll
+ 0002:00000170       __imp_?terminate@@YAXXZ    10013170     MSVCRT:MSVCR80.dll
+ 0002:00000174       __imp____CppXcptFilter     10013174     MSVCRT:MSVCR80.dll
+ 0002:00000178       __imp___adjust_fdiv        10013178     MSVCRT:MSVCR80.dll
+ 0002:0000017c       __imp___amsg_exit          1001317c     MSVCRT:MSVCR80.dll
+ 0002:00000180       __imp___close              10013180     MSVCRT:MSVCR80.dll
+ 0002:00000184       __imp___initterm_e         10013184     MSVCRT:MSVCR80.dll
+ 0002:00000188       __imp___initterm           10013188     MSVCRT:MSVCR80.dll
+ 0002:0000018c       __imp___crt_debugger_hook  1001318c     MSVCRT:MSVCR80.dll
+ 0002:00000190       __imp___encoded_null       10013190     MSVCRT:MSVCR80.dll
+ 0002:00000194       __imp___malloc_crt         10013194     MSVCRT:MSVCR80.dll
+ 0002:00000198       __imp___encode_pointer     10013198     MSVCRT:MSVCR80.dll
+ 0002:0000019c       __imp__getenv              1001319c     MSVCRT:MSVCR80.dll
+ 0002:000001a0       __imp__vsprintf            100131a0     MSVCRT:MSVCR80.dll
+ 0002:000001a4       __imp___unlock             100131a4     MSVCRT:MSVCR80.dll
+ 0002:000001a8       __imp___lock               100131a8     MSVCRT:MSVCR80.dll
+ 0002:000001ac       __imp___onexit             100131ac     MSVCRT:MSVCR80.dll
+ 0002:000001b0       __imp___except_handler4_common 100131b0     MSVCRT:MSVCR80.dll
+ 0002:000001b4       __imp___decode_pointer     100131b4     MSVCRT:MSVCR80.dll
+ 0002:000001b8       __imp____clean_type_info_names_internal 100131b8     MSVCRT:MSVCR80.dll
+ 0002:000001bc       __imp__write               100131bc     MSVCRT:MSVCR80.dll
+ 0002:000001bc       __imp___write              100131bc     MSVCRT:MSVCR80.dll
+ 0002:000001c0       __imp__strcmpi             100131c0     MSVCRT:MSVCR80.dll
+ 0002:000001c0       __imp___stricmp            100131c0     MSVCRT:MSVCR80.dll
+ 0002:000001c4       __imp___filelength         100131c4     MSVCRT:MSVCR80.dll
+ 0002:000001c8       __imp_?_open@@YAHPBDHH@Z   100131c8     MSVCRT:MSVCR80.dll
+ 0002:000001cc       __imp__vsprintf_s          100131cc     MSVCRT:MSVCR80.dll
+ 0002:000001d0       __imp__strcat_s            100131d0     MSVCRT:MSVCR80.dll
+ 0002:000001d4       __imp___splitpath          100131d4     MSVCRT:MSVCR80.dll
+ 0002:000001d8       __imp___strdup             100131d8     MSVCRT:MSVCR80.dll
+ 0002:000001dc       __imp__free                100131dc     MSVCRT:MSVCR80.dll
+ 0002:000001e0       __imp__strncpy             100131e0     MSVCRT:MSVCR80.dll
+ 0002:000001e4       __imp__setlocale           100131e4     MSVCRT:MSVCR80.dll
+ 0002:000001e8       __imp__calloc              100131e8     MSVCRT:MSVCR80.dll
+ 0002:000001ec       __imp__atoi                100131ec     MSVCRT:MSVCR80.dll
+ 0002:000001f0       __imp____dllonexit         100131f0     MSVCRT:MSVCR80.dll
+ 0002:000001f4       __imp__malloc              100131f4     MSVCRT:MSVCR80.dll
+ 0002:000001f8       __imp___callnewh           100131f8     MSVCRT:MSVCR80.dll
+ 0002:000001fc       __imp__strrchr             100131fc     MSVCRT:MSVCR80.dll
+ 0002:00000200       __imp___vswprintf          10013200     MSVCRT:MSVCR80.dll
+ 0002:00000204       __imp__memset              10013204     MSVCRT:MSVCR80.dll
+ 0002:00000208       __imp_??_V@YAXPAX@Z        10013208     MSVCRT:MSVCR80.dll
+ 0002:0000020c       __imp__memcpy              1001320c     MSVCRT:MSVCR80.dll
+ 0002:00000210       __imp_??3@YAXPAX@Z         10013210     MSVCRT:MSVCR80.dll
+ 0002:00000214       __imp__strcpy_s            10013214     MSVCRT:MSVCR80.dll
+ 0002:00000218       __imp__wcscpy_s            10013218     MSVCRT:MSVCR80.dll
+ 0002:0000021c       __imp___itow_s             1001321c     MSVCRT:MSVCR80.dll
+ 0002:00000220       __imp__wcscat_s            10013220     MSVCRT:MSVCR80.dll
+ 0002:00000224       __imp____CxxFrameHandler3  10013224     MSVCRT:MSVCR80.dll
+ 0002:00000228       __imp___access             10013228     MSVCRT:MSVCR80.dll
+ 0002:0000022c       __imp__remove              1001322c     MSVCRT:MSVCR80.dll
+ 0002:00000230       \177MSVCR80_NULL_THUNK_DATA 10013230     MSVCRT:MSVCR80.dll
+ 0002:00000234       __imp__MessageBoxA@16      10013234     user32:USER32.dll
+ 0002:00000238       \177USER32_NULL_THUNK_DATA 10013238     user32:USER32.dll
+ 0002:0000023c       __imp_?CFGgetGTransf@@YAHPADHPAUtagGTransf@@@Z 1001323c     config:config.dll
+ 0002:00000240       __imp_?CFGgetEntityMapFunctionAddr@@YAXPAUTREntityMap@@PADPAPAX@Z 10013240     config:config.dll
+ 0002:00000244       __imp_?CFGgetReadDefaultView@@YAHPADPAUtagGView@@@Z 10013244     config:config.dll
+ 0002:00000248       __imp_?CFGgetDebugLoggingEnabled@@YAHPADPAH@Z 10013248     config:config.dll
+ 0002:0000024c       __imp_?CFGgetReadCellBlockOption@@YAHPAD0PAH@Z 1001324c     config:config.dll
+ 0002:00000250       __imp_?CFGgetBatchTranslation@@YAHPADPAH@Z 10013250     config:config.dll
+ 0002:00000254       __imp_?CFGgetEntityMapData@@YAHPADHPAUTRConfigure@@@Z 10013254     config:config.dll
+ 0002:00000258       __imp_?CFGgetPathToCOMobjectDLL@@YAHPAD0@Z 10013258     config:config.dll
+ 0002:0000025c       __imp_?CFGgetCOMobjectDLLName@@YAHPAD0@Z 1001325c     config:config.dll
+ 0002:00000260       \177config_NULL_THUNK_DATA 10013260     config:config.dll
+ 0002:00000264       __imp__JCoTaskMemFree@4    10013264     sealloc:sealloc.dll
+ 0002:00000268       __imp__JCoTaskMemAlloc@4   10013268     sealloc:sealloc.dll
+ 0002:0000026c       \177sealloc_NULL_THUNK_DATA 1001326c     sealloc:sealloc.dll
+ 0002:00000270       __imp_?TimerComponentStart@@YAXPBD0@Z 10013270     timeutl:timeutl.dll
+ 0002:00000274       __imp_?TimerComponentStop@@YAXXZ 10013274     timeutl:timeutl.dll
+ 0002:00000278       \177timeutl_NULL_THUNK_DATA 10013278     timeutl:timeutl.dll
+ 0002:0000027c       __imp__IMGBspSurfaceFreeMem 1001327c     ugeom:ugeom.dll
+ 0002:00000280       __imp__IMGBspCurveCopy     10013280     ugeom:ugeom.dll
+ 0002:00000284       __imp__IMGBspCurveFreeMem  10013284     ugeom:ugeom.dll
+ 0002:00000288       \177ugeom_NULL_THUNK_DATA  10013288     ugeom:ugeom.dll
+ 0002:0000028c       __imp__IMGBspCurveFreeMem2d 1001328c     ugeom2d:ugeom2d.dll
+ 0002:00000290       __imp__IMBspCurveCopy2d    10013290     ugeom2d:ugeom2d.dll
+ 0002:00000294       \177ugeom2d_NULL_THUNK_DATA 10013294     ugeom2d:ugeom2d.dll
+ 0002:00000298       __imp_?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 10013298     umath:umath.dll
+ 0002:0000029c       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1001329c     umath:umath.dll
+ 0002:000002a0       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 100132a0     umath:umath.dll
+ 0002:000002a4       __imp_?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 100132a4     umath:umath.dll
+ 0002:000002a8       __imp_??D@YA?AUtagGPosition@@ABU0@ABUtagGMatrix@@@Z 100132a8     umath:umath.dll
+ 0002:000002ac       __imp_?IsNull@tagGVector@@QBEHXZ 100132ac     umath:umath.dll
+ 0002:000002b0       __imp_??D@YA?AUtagGTransf@@ABU0@0@Z 100132b0     umath:umath.dll
+ 0002:000002b4       __imp_??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 100132b4     umath:umath.dll
+ 0002:000002b8       __imp_??XtagG4x4@@QAEAAU0@ABU0@@Z 100132b8     umath:umath.dll
+ 0002:000002bc       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 100132bc     umath:umath.dll
+ 0002:000002c0       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 100132c0     umath:umath.dll
+ 0002:000002c4       __imp_?ScaleTransf@@YA?AUtagGTransf@@N@Z 100132c4     umath:umath.dll
+ 0002:000002c8       __imp_??XtagGBox@@QAEAAU0@N@Z 100132c8     umath:umath.dll
+ 0002:000002cc       __imp_?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 100132cc     umath:umath.dll
+ 0002:000002d0       __imp_??XtagGBox@@QAEAAU0@ABUtagG4x4@@@Z 100132d0     umath:umath.dll
+ 0002:000002d4       __imp_?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 100132d4     umath:umath.dll
+ 0002:000002d8       __imp_?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 100132d8     umath:umath.dll
+ 0002:000002dc       __imp_??D@YA?AUtagG4x4@@ABU0@ABUtagGTransf@@@Z 100132dc     umath:umath.dll
+ 0002:000002e0       __imp_??D@YA?AUtagG4x4@@ABU0@0@Z 100132e0     umath:umath.dll
+ 0002:000002e4       __imp_?ConvertG4x4ToGTransf@@YAJABUtagG4x4@@AAUtagGTransf@@@Z 100132e4     umath:umath.dll
+ 0002:000002e8       __imp_??XtagGTransf@@QAEAAU0@ABU0@@Z 100132e8     umath:umath.dll
+ 0002:000002ec       __imp_?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 100132ec     umath:umath.dll
+ 0002:000002f0       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 100132f0     umath:umath.dll
+ 0002:000002f4       \177umath_NULL_THUNK_DATA  100132f4     umath:umath.dll
+ 0002:000002f8       ___xc_a                    100132f8     MSVCRT:cinitexe.obj
+ 0002:0000039c       ___xc_z                    1001339c     MSVCRT:cinitexe.obj
+ 0002:000003a0       ___xi_a                    100133a0     MSVCRT:cinitexe.obj
+ 0002:000003a8       ___xi_z                    100133a8     MSVCRT:cinitexe.obj
+ 0002:000003cc       _IID_IJReadData            100133cc     guid.obj
+ 0002:000003dc       _IID_IJWriteData           100133dc     guid.obj
+ 0002:000003ec       _CLSID_JReadMstn           100133ec     guid.obj
+ 0002:000003fc       _CLSID_JWriteMstn          100133fc     guid.obj
+ 0002:0000040c       _CLSID_JPercent            1001340c     guid.obj
+ 0002:0000041c       _IID_IJPercent             1001341c     guid.obj
+ 0002:0000042c       ??_C@_0CB@CJDFPOKG@Export?5Surface?5Plane?5Angle?5Value@ 1001342c     readmstn.obj
+ 0002:00000450       ??_C@_0BD@PNLBHEEG@Output?5File?5Format?$AA@ 10013450     readmstn.obj
+ 0002:00000464       ??_C@_0BH@IECCINFA@Export?5Tolerance?5Value?$AA@ 10013464     readmstn.obj
+ 0002:0000047c       ??_C@_0N@PONGCODM@Export?5Units?$AA@ 1001347c     readmstn.obj
+ 0002:0000048c       ??_C@_0N@PANHANCL@Import?5Units?$AA@ 1001348c     readmstn.obj
+ 0002:0000049c       ??_C@_0BJ@BGOBHFA@Import?5Make?5Base?5Feature?$AA@ 1001349c     readmstn.obj
+ 0002:000004b8       ??_C@_0BE@FCPGGPBN@Import?5Property?5map?$AA@ 100134b8     readmstn.obj
+ 0002:000004cc       ??_C@_0L@OBJFLDAK@Time?5Stamp?$AA@ 100134cc     readmstn.obj
+ 0002:000004d8       ??_C@_0BF@HLJDKAHE@Write?5Export?5Feature?$AA@ 100134d8     readmstn.obj
+ 0002:000004f0       ??_C@_0BH@IOEKAGKJ@Write?5Feature?5To?5Color?$AA@ 100134f0     readmstn.obj
+ 0002:00000508       ??_C@_0BL@IGKFIBPC@Write?5Feature?5To?5Line?5Type?$AA@ 10013508     readmstn.obj
+ 0002:00000524       ??_C@_0BJ@EFAHJCME@Arrowhead?5Import?5Mapping?$AA@ 10013524     readmstn.obj
+ 0002:00000540       ??_C@_0BE@KHPHPGFP@Read?5Polyline?5Width?$AA@ 10013540     readmstn.obj
+ 0002:00000554       ??_C@_01GOHFPIOK@m?$AA@    10013554     readmstn.obj
+ 0002:00000558       ??_C@_08CHBOKEDA@JT?5Units?$AA@ 10013558     readmstn.obj
+ 0002:00000564       ??_C@_0BD@JJFEBOEJ@Healing?5and?5Sewing?$AA@ 10013564     readmstn.obj
+ 0002:00000578       ??_C@_08FAGNKDJG@Relative?$AA@ 10013578     readmstn.obj
+ 0002:00000584       ??_C@_0BJ@LPFIMAOP@Chordal?5Tolerance?5Option?$AA@ 10013584     readmstn.obj
+ 0002:000005a0       ??_C@_05CGKLNCBH@0?4001?$AA@ 100135a0     readmstn.obj
+ 0002:000005a8       ??_C@_0BI@CBIMJFOD@Chordal?5Tolerance?5Value?$AA@ 100135a8     readmstn.obj
+ 0002:000005c0       ??_C@_0M@GENAFPDI@Part?5Layers?$AA@ 100135c0     readmstn.obj
+ 0002:000005cc       ??_C@_0BG@GMNFDLGE@Current?5Configuration?$AA@ 100135cc     readmstn.obj
+ 0002:000005e4       ??_C@_0L@FOPFONEP@Map?5Colors?$AA@ 100135e4     readmstn.obj
+ 0002:000005f0       ??_C@_0BF@KKOLLPHF@Translate?5Background?$AA@ 100135f0     readmstn.obj
+ 0002:00000608       ??_C@_0BI@MFGGFIDK@Background?5On?5File?5Open?$AA@ 10013608     readmstn.obj
+ 0002:00000620       ??_C@_0BC@DJCMOLJP@RecognizeFeatures?$AA@ 10013620     readmstn.obj
+ 0002:00000634       ??_C@_0M@LPOJEKPL@ProE?5Flavor?$AA@ 10013634     readmstn.obj
+ 0002:00000640       ??_C@_0N@HODFCELD@Catia?5Flavor?$AA@ 10013640     readmstn.obj
+ 0002:00000650       ??_C@_0BL@JNBEGPMO@Stringently?5Check?5Surfaces?$AA@ 10013650     readmstn.obj
+ 0002:0000066c       ??_C@_01GBGANLPD@0?$AA@    1001366c     readmstn.obj
+ 0002:00000670       ??_C@_0BG@KCANDBPI@Sew?5Imported?5Surfaces?$AA@ 10013670     readmstn.obj
+ 0002:00000688       ??_C@_0BG@DBKJODPG@Read?5Bounded?5Surfaces?$AA@ 10013688     readmstn.obj
+ 0002:000006a0       ??_C@_0BJ@FEMKLCAN@Include?5Precise?5Geometry?$AA@ 100136a0     readmstn.obj
+ 0002:000006bc       ??_C@_0BN@NOOPPGPK@Trim?5Curve?5Preference?5Export?$AA@ 100136bc     readmstn.obj
+ 0002:000006dc       ??_C@_0BN@EKFEAPKG@Trim?5Curve?5Preference?5Import?$AA@ 100136dc     readmstn.obj
+ 0002:000006fc       ??_C@_0BA@NNHGKEDJ@Save?5Preference?$AA@ 100136fc     readmstn.obj
+ 0002:0000070c       ??_C@_0O@IDDDOBKM@Import?5Bodies?$AA@ 1001370c     readmstn.obj
+ 0002:0000071c       ??_C@_01EKENIIDA@3?$AA@    1001371c     readmstn.obj
+ 0002:00000720       ??_C@_09GBPDBPAF@Export?5As?$AA@ 10013720     readmstn.obj
+ 0002:0000072c       ??_C@_01HIHLOKLC@1?$AA@    1001372c     readmstn.obj
+ 0002:00000730       ??_C@_05CFLIFMAE@Units?$AA@ 10013730     readmstn.obj
+ 0002:00000738       ??_C@_0BE@NMCKNGJH@Write?5Layer?5Locates?$AA@ 10013738     readmstn.obj
+ 0002:0000074c       ??_C@_0BF@GKCDCOKJ@Write?5Layer?5Displays?$AA@ 1001374c     readmstn.obj
+ 0002:00000764       ??_C@_0BC@FGHJBLN@Write?5Layer?5Names?$AA@ 10013764     readmstn.obj
+ 0002:00000778       ??_C@_0BI@GGCOGNPK@Write?5Linestyle?5Weights?$AA@ 10013778     readmstn.obj
+ 0002:00000790       ??_C@_0BH@IAPEJMBJ@Write?5Linestyle?5Colors?$AA@ 10013790     readmstn.obj
+ 0002:000007a8       ??_C@_0BB@OPILLNGD@Break?5Dimensions?$AA@ 100137a8     readmstn.obj
+ 0002:000007bc       ??_C@_0BG@PHGJIMFO@Write?5Linestyle?5Names?$AA@ 100137bc     readmstn.obj
+ 0002:000007d4       ??_C@_0BC@DCAOBJNM@Write?5Hatchstyles?$AA@ 100137d4     readmstn.obj
+ 0002:000007e8       ??_C@_0BB@IKJBCALA@Read?5Hatchstyles?$AA@ 100137e8     readmstn.obj
+ 0002:000007fc       ??_C@_0N@FIFLIAKF@Bigfont?5Name?$AA@ 100137fc     readmstn.obj
+ 0002:0000080c       ??_C@_0BG@NPFJHKMO@Application?5Text?5Type?$AA@ 1001380c     readmstn.obj
+ 0002:00000824       ??_C@_0BO@OOLPFCMN@Process?5Construction?5Elements?$AA@ 10013824     readmstn.obj
+ 0002:00000844       ??_C@_0CI@OEHJMIL@Process?5Non?9Displayable?5Referenc@ 10013844     readmstn.obj
+ 0002:0000086c       ??_C@_0BD@BCHIGLJA@Max?4?5Nesting?5Depth?$AA@ 1001386c     readmstn.obj
+ 0002:00000880       ??_C@_0BG@HCCJKKEI@AutoCAD?5Extended?5Data?$AA@ 10013880     readmstn.obj
+ 0002:00000898       ??_C@_0BC@BKMMCJAL@MS?5resource?5files?$AA@ 10013898     readmstn.obj
+ 0002:000008ac       ??_C@_0CF@PMOCJJHO@Foreign?5to?5Neutral?5Server?5Entity@ 100138ac     readmstn.obj
+ 0002:000008d4       ??_C@_0CC@FBBHGIJD@Application?5to?5Neutral?5Entity?5Ma@ 100138d4     readmstn.obj
+ 0002:000008f8       ??_C@_0CK@LHDLKMKA@Neutral?5to?5Foreign?5Translation?5E@ 100138f8     readmstn.obj
+ 0002:00000924       ??_C@_0CK@EKDDLMNO@Foreign?5to?5Neutral?5Translation?5E@ 10013924     readmstn.obj
+ 0002:00000950       ??_C@_0BI@HIIOGLAB@Translate?5Scaled?5Layers?$AA@ 10013950     readmstn.obj
+ 0002:00000968       ??_C@_0BJ@HGICCCH@Override?5Linetype?5Colors?$AA@ 10013968     readmstn.obj
+ 0002:00000984       ??_C@_0BA@HBGHIPKH@Override?5Colors?$AA@ 10013984     readmstn.obj
+ 0002:00000994       ??_C@_0BF@CNNJHLCF@Read?5Linetype?5Colors?$AA@ 10013994     readmstn.obj
+ 0002:000009ac       ??_C@_0M@FDJECDLA@Read?5Colors?$AA@ 100139ac     readmstn.obj
+ 0002:000009b8       ??_C@_0BN@ONKCLLBK@Processing?5Batch?5Translation?$AA@ 100139b8     readmstn.obj
+ 0002:000009d8       ??_C@_0BE@DAGKDAGO@Write?5Default?5Units?$AA@ 100139d8     readmstn.obj
+ 0002:000009ec       ??_C@_0CC@EIOMEKFP@Memory?5Needed?5Per?5Foreign?5Elemen@ 100139ec     readmstn.obj
+ 0002:00000a10       ??_C@_0CB@CLNPGHDA@Memory?5Needed?5Per?5Native?5Element@ 10013a10     readmstn.obj
+ 0002:00000a34       ??_C@_0BF@ILGCNOID@Symbol?5Template?5File?$AA@ 10013a34     readmstn.obj
+ 0002:00000a4c       ??_C@_0BI@OCLBEPOH@Pos?5Units?5Per?5Sub?5Units?$AA@ 10013a4c     readmstn.obj
+ 0002:00000a64       ??_C@_0BL@MMJJPDED@Sub?5Units?5Per?5Master?5Units?$AA@ 10013a64     readmstn.obj
+ 0002:00000a80       ??_C@_0M@ICLKLKFA@Active?5View?$AA@ 10013a80     readmstn.obj
+ 0002:00000a8c       ??_C@_0BD@KMAMHCHB@Read?5Block?5Options?$AA@ 10013a8c     readmstn.obj
+ 0002:00000aa0       ??_C@_0O@DCHCMCMB@Shared?5embeds?$AA@ 10013aa0     readmstn.obj
+ 0002:00000ab0       ??_C@_0BC@ICFCHNJB@Read?5Cell?5Options?$AA@ 10013ab0     readmstn.obj
+ 0002:00000ac4       ??_C@_0BE@GCLMENOJ@Enable?5DebugLogging?$AA@ 10013ac4     readmstn.obj
+ 0002:00000ad8       ??_C@_0N@JMOEGMKL@Write?5Layers?$AA@ 10013ad8     readmstn.obj
+ 0002:00000ae8       ??_C@_0BP@PBJIHBKO@Write?5Polyline?5Width?5Threshold?$AA@ 10013ae8     readmstn.obj
+ 0002:00000b08       ??_C@_0BG@FLHOALAM@Read?5Part?5Name?5Prefix?$AA@ 10013b08     readmstn.obj
+ 0002:00000b20       ??_C@_0BE@DOPDOAKO@Read?5Part?5File?5Path?$AA@ 10013b20     readmstn.obj
+ 0002:00000b34       ??_C@_0BI@MACLNPNC@Read?5Part?5Template?5File?$AA@ 10013b34     readmstn.obj
+ 0002:00000b4c       ??_C@_0BM@KLJLDDKK@Read?5Assembly?5Template?5File?$AA@ 10013b4c     readmstn.obj
+ 0002:00000b68       ??_C@_0BD@CJDEKAO@Read?5Default?5Width?$AA@ 10013b68     readmstn.obj
+ 0002:00000b7c       ??_C@_0O@PFMBKECH@Template?5File?$AA@ 10013b7c     readmstn.obj
+ 0002:00000b8c       ??_C@_0BH@OFFDFAJO@Write?5Embedded?5Objects?$AA@ 10013b8c     readmstn.obj
+ 0002:00000ba4       ??_C@_06KMEJCCGM@Ignore?$AA@ 10013ba4     readmstn.obj
+ 0002:00000bac       ??_C@_0BF@JLBAABMG@Write?5Linked?5Objects?$AA@ 10013bac     readmstn.obj
+ 0002:00000bc4       ??_C@_0N@HEAKGDJN@Write?5Widths?$AA@ 10013bc4     readmstn.obj
+ 0002:00000bd4       ??_C@_0M@LAIFMFIJ@Read?5Widths?$AA@ 10013bd4     readmstn.obj
+ 0002:00000be0       ??_C@_0BK@BLOBOGFI@Write?5Font?5Resource?5Files?$AA@ 10013be0     readmstn.obj
+ 0002:00000bfc       ??_C@_0BJ@GNNJFEGO@Read?5Font?5Resource?5Files?$AA@ 10013bfc     readmstn.obj
+ 0002:00000c18       ??_C@_0BP@EKNMPDJB@Write?5Linestyle?5Resource?5Files?$AA@ 10013c18     readmstn.obj
+ 0002:00000c38       ??_C@_0BO@IANLFCPO@Read?5Linestyle?5Resource?5Files?$AA@ 10013c38     readmstn.obj
+ 0002:00000c58       ??_C@_0BA@LEDOLEFK@Ignore?5Warnings?$AA@ 10013c58     readmstn.obj
+ 0002:00000c68       ??_C@_0BF@NMEKCCPP@Read?5Reference?5Paths?$AA@ 10013c68     readmstn.obj
+ 0002:00000c80       ??_C@_09KMILOHFO@Translate?$AA@ 10013c80     readmstn.obj
+ 0002:00000c8c       ??_C@_0BH@EDICNJKJ@Read?5Reference?5Options?$AA@ 10013c8c     readmstn.obj
+ 0002:00000ca4       ??_C@_0O@LEJBMJLO@Write?5Version?$AA@ 10013ca4     readmstn.obj
+ 0002:00000cb4       ??_C@_0BD@BKNLFPGM@Export?5Entry?5Point?$AA@ 10013cb4     readmstn.obj
+ 0002:00000cc8       ??_C@_0BD@DAELHCPE@Import?5Entry?5Point?$AA@ 10013cc8     readmstn.obj
+ 0002:00000cdc       ??_C@_03ECEIPJGG@Dll?$AA@  10013cdc     readmstn.obj
+ 0002:00000ce0       ??_C@_0N@ODHLKEAA@Option?5Forms?$AA@ 10013ce0     readmstn.obj
+ 0002:00000cf0       ??_C@_0BB@NFDEABFA@Write?5Text?5Fonts?$AA@ 10013cf0     readmstn.obj
+ 0002:00000d04       ??_C@_0BA@PHKIGCGH@Read?5Text?5Fonts?$AA@ 10013d04     readmstn.obj
+ 0002:00000d14       ??_C@_0BD@KGCHCEFC@Read?5Default?5Units?$AA@ 10013d14     readmstn.obj
+ 0002:00000d28       ??_C@_0BC@KIAAFNBC@Projection?5Vector?$AA@ 10013d28     readmstn.obj
+ 0002:00000d3c       ??_C@_0M@NEBNFABG@0?40?50?40?51?40?$AA@ 10013d3c     readmstn.obj
+ 0002:00000d48       ??_C@_06EFAGIKOH@Normal?$AA@ 10013d48     readmstn.obj
+ 0002:00000d50       ??_C@_0M@GMKBDHHD@0?40?50?40?50?40?$AA@ 10013d50     readmstn.obj
+ 0002:00000d5c       ??_C@_0BA@GJLDONN@Reference?5Point?$AA@ 10013d5c     readmstn.obj
+ 0002:00000d6c       ??_C@_03PGGAENPN@Top?$AA@  10013d6c     readmstn.obj
+ 0002:00000d70       ??_C@_04FABLJDN@Name?$AA@  10013d70     readmstn.obj
+ 0002:00000d78       ??_C@_0BG@NNEHMMHB@Transformation?5Matrix?$AA@ 10013d78     readmstn.obj
+ 0002:00000d90       ??_C@_04KOACHJEN@Type?$AA@ 10013d90     readmstn.obj
+ 0002:00000d98       ??_C@_0BD@OOIDEPKH@Write?5Default?5View?$AA@ 10013d98     readmstn.obj
+ 0002:00000db0       ??_C@_0EA@DCDFKCHG@1?40?50?40?50?40?50?40?50?40?51?40?50?40?50?40?5@ 10013db0     readmstn.obj
+ 0002:00000df0       ??_C@_0P@DIBIOLFJ@Transformation?$AA@ 10013df0     readmstn.obj
+ 0002:00000e00       ??_C@_0BC@KKDPPNON@Read?5Default?5View?$AA@ 10013e00     readmstn.obj
+ 0002:00000e14       ??_C@_0BB@LHDEPIHM@Write?5Linestyles?$AA@ 10013e14     readmstn.obj
+ 0002:00000e28       ??_C@_0BA@JFKIJLEL@Read?5Linestyles?$AA@ 10013e28     readmstn.obj
+ 0002:00000e38       ??_C@_0P@HNBPIHLB@Enable?5Logging?$AA@ 10013e38     readmstn.obj
+ 0002:00000e48       ??_C@_09HACGBFPA@Seed?5File?$AA@ 10013e48     readmstn.obj
+ 0002:00000e54       ??_C@_0L@GEDNDJAA@Entity?5Map?$AA@ 10013e54     readmstn.obj
+ 0002:00000e5f       ??_C@_00CNPNBAHC@?$AA@     10013e5f     readmstn.obj
+ 0002:00000e60       ??_C@_04KAIBKGKB@Dlls?$AA@ 10013e60     readmstn.obj
+ 0002:00000e68       ??_C@_07KHIHFBFN@Options?$AA@ 10013e68     readmstn.obj
+ 0002:00000e70       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 10013e70     readmstn.obj
+ 0002:000015bc       ??_7MSTNDefaultMemPool@@6B@ 100145bc     readmstn.obj
+ 0002:000015d4       ??_7JReadMstnClassFactory@@6B@ 100145d4     readmstn.obj
+ 0002:000015e8       ??_C@_0BD@MFFJGJEM@GCMSTNResetGlobals?$AA@ 100145e8     readmstn.obj
+ 0002:000015fc       ??_C@_0BL@MCHGMDGP@GCMSTNInitTransWithoutProj?$AA@ 100145fc     readmstn.obj
+ 0002:00001618       ??_C@_0BC@MKCCHOME@GCMSTNStopLogging?$AA@ 10014618     readmstn.obj
+ 0002:0000162c       ??_C@_0BD@BMDFNGMD@GCMSTNStartLogging?$AA@ 1001462c     readmstn.obj
+ 0002:00001640       ??_C@_0CH@KGDHJLBL@?$HL4E40D580?9D011?911CD?9C000?90000000@ 10014640     readmstn.obj
+ 0002:00001668       ??_C@_0BI@CNFCMBFC@GCMSTNInitializeGlobals?$AA@ 10014668     readmstn.obj
+ 0002:00001680       ??_C@_0CD@HLNPHDDF@JReadMstn?3?3ImpIJReadData?3?3OpenFi@ 10014680     readmstn.obj
+ 0002:000016a4       ??_C@_0DD@JLIJMDHM@JReadMstn?3?3ImpIJReadData?3?3GetTot@ 100146a4     readmstn.obj
+ 0002:000016d8       ??_C@_1BC@OHJFIGNH@?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AA?4?$AA?5?$AA?$AA@ 100146d8     readmstn.obj
+ 0002:000016ec       ??_C@_0BF@BHIFPJDA@GCMSTNsetCellDefPath?$AA@ 100146ec     readmstn.obj
+ 0002:00001704       ??_C@_0CI@BOCJBGJM@JReadMstn?3?3ImpIJReadData?3?3GetGlo@ 10014704     readmstn.obj
+ 0002:0000172c       ??_C@_0P@OKONANNK@?4?2readmstn?4cpp?$AA@ 1001472c     readmstn.obj
+ 0002:0000173c       ??_C@_0BH@LNKPOPCB@readmstn_ReAllocMemory?$AA@ 1001473c     readmstn.obj
+ 0002:00001754       ??_C@_0BF@DBIMBNAB@readmstn_AddToGroups?$AA@ 10014754     readmstn.obj
+ 0002:0000176c       ??_C@_0BF@GFPPECOC@readmstn_AllocMemory?$AA@ 1001476c     readmstn.obj
+ 0002:00001784       ??_C@_0N@HEBICCCI@readmstn_Log?$AA@ 10014784     readmstn.obj
+ 0002:00001794       ??_C@_0BE@KBLMACLP@readmstn_ProcYrself?$AA@ 10014794     readmstn.obj
+ 0002:000017a8       ??_C@_0N@KAKOKMMG@i9cflg01?4dll?$AA@ 100147a8     readmstn.obj
+ 0002:000017b8       ??_C@_0BI@MILFNGI@readmstn_IGDSgetTypeLit?$AA@ 100147b8     readmstn.obj
+ 0002:000017d0       ??_C@_0BE@DGJNHB@readmstn_IGDSgetele?$AA@ 100147d0     readmstn.obj
+ 0002:000017e4       ??_C@_0BC@ECJKHNJF@JQueryApplication?$AA@ 100147e4     readmstn.obj
+ 0002:000017f8       ??_C@_0M@JOMEKKDC@jengine?4dll?$AA@ 100147f8     readmstn.obj
+ 0002:00001804       ??_C@_0BA@PPGGNLI@MFC?5Application?$AA@ 10014804     readmstn.obj
+ 0002:00001814       ??_C@_0BG@KADDEHPG@GCMSTNProcessYourself?$AA@ 10014814     readmstn.obj
+ 0002:0000182c       ??_C@_15KNBIKKIN@?$AA?$CF?$AAd?$AA?$AA@ 1001482c     readmstn.obj
+ 0002:00001834       ??_C@_0BD@IPCKAADD@readmstn_AllocGrps?$AA@ 10014834     readmstn.obj
+ 0002:00001848       ??_C@_0BI@GOFLPGHE@readmstn_IGDSgetNumGrps?$AA@ 10014848     readmstn.obj
+ 0002:00001860       ??_C@_0BG@LOPMABGO@readmstn_GetAllGrphcs?$AA@ 10014860     readmstn.obj
+ 0002:00001878       ??_C@_0CJ@JBDGCOKN@JReadMstn?3?3ImpIJReadData?3?3GetAll@ 10014878     readmstn.obj
+ 0002:000018a4       ??_C@_0CD@FMPBGGGP@GCMSTNNamedCellToGSymbolDefiniti@ 100148a4     readmstn.obj
+ 0002:000018c8       ??_C@_0CH@NAJAKBIC@GCMSTNSharedCellDefToGSymbolDefi@ 100148c8     readmstn.obj
+ 0002:000018f0       ??_C@_0CC@HAPBENNJ@GCMSTNsetProcSymbolsAsRigidGroup@ 100148f0     readmstn.obj
+ 0002:00001914       ??_C@_04KCPDDLKF@Cell?$AA@ 10014914     readmstn.obj
+ 0002:0000191c       ??_C@_0BG@GAGJAGD@readmstn_GetAllSymDef?$AA@ 1001491c     readmstn.obj
+ 0002:00001934       ??_C@_0DC@LLCIIOLJ@JReadMstn?3?3ImpIJReadData?3?3GetAll@ 10014934     readmstn.obj
+ 0002:00001968       __real@40f1940000000000    10014968     readmstn.obj
+ 0002:00001970       __real@40f09a0000000000    10014970     readmstn.obj
+ 0002:00001978       __real@3fe0000000000000    10014978     readmstn.obj
+ 0002:00001980       __real@40fd8a8000000000    10014980     readmstn.obj
+ 0002:00001988       ??_C@_0EF@OKGGDOIK@JReadMstn?3?3ImpIJReadData?3?3GetEst@ 10014988     readmstn.obj
+ 0002:000019d4       ??_7ImpIJReadData@JReadMstn@@6B@ 100149d4     readmstn.obj
+ 0002:00001a34       ??_7JReadMstn@@6B@         10014a34     readmstn.obj
+ 0002:00001a40       ??_C@_0L@FHCDPNPJ@iemstn?4drx?$AA@ 10014a40     readmstn.obj
+ 0002:00002180       ??_C@_02DPGNLHGP@NM?$AA@   10015180     utils.obj
+ 0002:00002184       ??_C@_02PLJDPFIO@00?$AA@   10015184     utils.obj
+ 0002:00002188       ??_C@_02PMCEOIEJ@FR?$AA@   10015188     utils.obj
+ 0002:0000218c       ??_C@_02LCNFJAAN@PT?$AA@   1001518c     utils.obj
+ 0002:00002190       ??_C@_02EKMCNAHJ@CH?$AA@   10015190     utils.obj
+ 0002:00002194       ??_C@_02GKLDMEIH@LK?$AA@   10015194     utils.obj
+ 0002:00002198       ??_C@_02DAMOAIFE@PL?$AA@   10015198     utils.obj
+ 0002:0000219c       ??_C@_02PLJDFGDC@RD?$AA@   1001519c     utils.obj
+ 0002:000021a0       ??_C@_02FDKLGFIM@TH?$AA@   100151a0     utils.obj
+ 0002:000021a4       ??_C@_02BAMNJIBO@HN?$AA@   100151a4     utils.obj
+ 0002:000021a8       ??_C@_02OGAFBLMB@TE?$AA@   100151a8     utils.obj
+ 0002:000021ac       ??_C@_02PHMGLJND@YD?$AA@   100151ac     utils.obj
+ 0002:000021b0       ??_C@_02DJKGHFIE@KM?$AA@   100151b0     utils.obj
+ 0002:000021b4       ??_C@_02DHLFCEDM@CM?$AA@   100151b4     utils.obj
+ 0002:000021b8       ??_C@_02DNCLAJDG@MM?$AA@   100151b8     utils.obj
+ 0002:000021bc       ??_C@_01PLPBNMEI@M?$AA@    100151bc     utils.obj
+ 0002:000021c0       ??_C@_02CEDADIHH@ML?$AA@   100151c0     utils.obj
+ 0002:000021c4       ??_C@_02FJEHMMDC@MI?$AA@   100151c4     utils.obj
+ 0002:000021c8       ??_C@_01BIAFAFID@F?$AA@    100151c8     utils.obj
+ 0002:000021cc       ??_C@_01GEODFPGF@?8?$AA@   100151cc     utils.obj
+ 0002:000021d0       ??_C@_02KKHOEPMP@FT?$AA@   100151d0     utils.obj
+ 0002:000021d4       ??_C@_01JPJNBJEM@I?$AA@    100151d4     utils.obj
+ 0002:000021d8       ??_C@_02OHHJMEON@?8?8?$AA@ 100151d8     utils.obj
+ 0002:000021dc       ??_C@_02BBAPPCCJ@IN?$AA@   100151dc     utils.obj
+ 0002:000021e0       ??_C@_01KICIPPFI@?2?$AA@   100151e0     utils.obj
+ 0002:000021e4       ??_C@_01ICJEACDI@?$DL?$AA@ 100151e4     utils.obj
+ 0002:000021e8       ??_C@_06IHHBJCAN@?2?$CK?4rsc?$AA@ 100151e8     utils.obj
+ 0002:000021f0       ??_C@_06EBKCAJAC@Font?$CFd?$AA@ 100151f0     utils.obj
+ 0002:000021f8       ??_C@_0CA@JOFGAPDK@?2PrefSets?2Options?9FileLocations?$AA@ 100151f8     utils.obj
+ 0002:00002954       ??_7JWriteMstnClassFactory@@6B@ 10015954     wrtmstn.obj
+ 0002:00002968       __real@4094500000000000    10015968     wrtmstn.obj
+ 0002:00002970       __real@409c200000000000    10015970     wrtmstn.obj
+ 0002:0000297c       ??_7JWriteMstn@@6B@        1001597c     wrtmstn.obj
+ 0002:00002988       ??_C@_0CH@MANMGEPJ@?$HL720FC350?9D011?911CD?9C000?90000000@ 10015988     wrtmstn.obj
+ 0002:000029b0       ??_C@_0CF@GPACCLBK@JWriteMstn?3?3ImpIJWriteData?3?3Open@ 100159b0     wrtmstn.obj
+ 0002:000029d8       ??_C@_0BB@LEJDLJGA@English_USA?41252?$AA@ 100159d8     wrtmstn.obj
+ 0002:000029ec       ??_C@_0P@GHMJGOOK@GCMSTNGetLevel?$AA@ 100159ec     wrtmstn.obj
+ 0002:000029fc       ??_C@_0BM@GPNCLNDF@GCMSTNgetIGDSStylefromStyle?$AA@ 100159fc     wrtmstn.obj
+ 0002:00002a18       __real@41dfffffffc00000    10015a18     wrtmstn.obj
+ 0002:00002a20       __real@c1e0000000000000    10015a20     wrtmstn.obj
+ 0002:00002a28       ??_C@_0CC@FAILGCKJ@Always?5Shift?5GO?5to?5Center?5Drawin@ 10015a28     wrtmstn.obj
+ 0002:00002a50       __real@41efffffffe00000    10015a50     wrtmstn.obj
+ 0002:00002a58       ??_C@_0CK@EPIGMIEE@JWriteMstn?3?3ImpIJWriteData?3?3PutG@ 10015a58     wrtmstn.obj
+ 0002:00002a84       ??_C@_0CI@NGGLEIBJ@JWriteMstn?3?3ImpIJWriteData?3?3PutG@ 10015a84     wrtmstn.obj
+ 0002:00002aac       ??_C@_0DB@OIHLAELH@JWriteMstn?3?3ImpIJWriteData?3?3PutS@ 10015aac     wrtmstn.obj
+ 0002:00002ae4       ??_7ImpIJWriteData@JWriteMstn@@6B@ 10015ae4     wrtmstn.obj
+ 0002:00002b20       ?kClusterBlock@JMemPool@@1JB 10015b20     mempool:mempool.obj
+ 0002:00002b28       ??_7JMemPool@@6B@          10015b28     mempool:mempool.obj
+ 0002:00002b58       __real@400921fb54442d18    10015b58     trutil:viewfunc.obj
+ 0002:00002b60       __real@4000000000000000    10015b60     trutil:viewfunc.obj
+ 0002:00002b68       __real@bff0000000000000    10015b68     trutil:viewfunc.obj
+ 0002:00002b70       __real@bff921fb54442d18    10015b70     trutil:viewfunc.obj
+ 0002:00002b78       __real@c00921fb54442d18    10015b78     trutil:viewfunc.obj
+ 0002:00002b8c       ??_7tagJCharStyleDescrList@@6B@ 10015b8c     trutil:freedata.obj
+ 0002:00002b98       ??_C@_0BA@IFCOOEJO@?$CFs?2TRindent?4ini?$AA@ 10015b98     trutil:trfunc.obj
+ 0002:00002ba8       ??_C@_04JKHNIKCB@TEMP?$AA@ 10015ba8     trutil:trfunc.obj
+ 0002:00002bb0       ??_C@_06OIKOPCGF@Indent?$AA@ 10015bb0     trutil:trfunc.obj
+ 0002:00002bb8       ??_C@_0N@NBHKFPLD@GDrawingView?$AA@ 10015bb8     trutil:trfunc.obj
+ 0002:00002bc8       ??_C@_07HFBIMIIG@GWSheet?$AA@ 10015bc8     trutil:trfunc.obj
+ 0002:00002bd0       ??_C@_0O@NKKNJOND@GSmartFrame2d?$AA@ 10015bd0     trutil:trfunc.obj
+ 0002:00002be0       ??_C@_0L@JBMOCEMD@GReference?$AA@ 10015be0     trutil:trfunc.obj
+ 0002:00002bec       ??_C@_0M@LPHJBKPP@GDimStyle2d?$AA@ 10015bec     trutil:trfunc.obj
+ 0002:00002bf8       ??_C@_09MIIANAPG@GLeader2d?$AA@ 10015bf8     trutil:trfunc.obj
+ 0002:00002c04       ??_C@_0BC@GHLLMNKM@GSymbolInstance2d?$AA@ 10015c04     trutil:trfunc.obj
+ 0002:00002c18       ??_C@_0BE@FFKPFMEC@GSymbolDefinition2d?$AA@ 10015c18     trutil:trfunc.obj
+ 0002:00002c2c       ??_C@_0O@IKJIEBON@GBoundaries2d?$AA@ 10015c2c     trutil:trfunc.obj
+ 0002:00002c3c       ??_C@_0N@PCFEFHJC@GRectangle2d?$AA@ 10015c3c     trutil:trfunc.obj
+ 0002:00002c4c       ??_C@_0BB@KDBGGKGA@GComplexString2d?$AA@ 10015c4c     trutil:trfunc.obj
+ 0002:00002c60       ??_C@_0M@KAJECBME@GBspCurve2d?$AA@ 10015c60     trutil:trfunc.obj
+ 0002:00002c6c       ??_C@_06KLMEMGKA@GArc2d?$AA@ 10015c6c     trutil:trfunc.obj
+ 0002:00002c74       ??_C@_0L@KPHDEPFL@GEllipse2d?$AA@ 10015c74     trutil:trfunc.obj
+ 0002:00002c80       ??_C@_0O@DMNEDDEI@GLineString2d?$AA@ 10015c80     trutil:trfunc.obj
+ 0002:00002c90       ??_C@_07BJFBPLLN@GLine2d?$AA@ 10015c90     trutil:trfunc.obj
+ 0002:00002c98       ??_C@_08EAAHHFHN@GPoint2d?$AA@ 10015c98     trutil:trfunc.obj
+ 0002:00002ca4       ??_C@_09PJADBAI@GDimStyle?$AA@ 10015ca4     trutil:trfunc.obj
+ 0002:00002cb0       ??_C@_07CBBEEGJA@GLeader?$AA@ 10015cb0     trutil:trfunc.obj
+ 0002:00002cb8       ??_C@_09IJLFCOIM@GSatSolid?$AA@ 10015cb8     trutil:trfunc.obj
+ 0002:00002cc4       ??_C@_0BA@EJIMAADO@GSymbolInstance?$AA@ 10015cc4     trutil:trfunc.obj
+ 0002:00002cd4       ??_C@_0BC@LIPGLJIK@GSymbolDefinition?$AA@ 10015cd4     trutil:trfunc.obj
+ 0002:00002ce8       ??_C@_06GMDANGBF@GGroup?$AA@ 10015ce8     trutil:trfunc.obj
+ 0002:00002cf0       ??_C@_0L@OMKNICPK@GDimension?$AA@ 10015cf0     trutil:trfunc.obj
+ 0002:00002cfc       ??_C@_05IMLKIPKI@GText?$AA@ 10015cfc     trutil:trfunc.obj
+ 0002:00002d04       ??_C@_06KNDGECOG@GRuled?$AA@ 10015d04     trutil:trfunc.obj
+ 0002:00002d0c       ??_C@_0M@LIMPEKCH@GRevolution?$AA@ 10015d0c     trutil:trfunc.obj
+ 0002:00002d18       ??_C@_0M@CNEFDHGM@GProjection?$AA@ 10015d18     trutil:trfunc.obj
+ 0002:00002d24       ??_C@_0M@EHMIGFPM@GBspSurface?$AA@ 10015d24     trutil:trfunc.obj
+ 0002:00002d30       ??_C@_06PIFMCJJC@GTorus?$AA@ 10015d30     trutil:trfunc.obj
+ 0002:00002d38       ??_C@_07EKNPANOI@GSphere?$AA@ 10015d38     trutil:trfunc.obj
+ 0002:00002d40       ??_C@_05HKLFNIIM@GCone?$AA@ 10015d40     trutil:trfunc.obj
+ 0002:00002d48       ??_C@_06GKCKBAGD@GPlane?$AA@ 10015d48     trutil:trfunc.obj
+ 0002:00002d50       ??_C@_0M@CCCPDAPO@GBoundaries?$AA@ 10015d50     trutil:trfunc.obj
+ 0002:00002d5c       ??_C@_0P@KIIPGMIK@GComplexString?$AA@ 10015d5c     trutil:trfunc.obj
+ 0002:00002d6c       ??_C@_09GPPOBCOD@GBspCurve?$AA@ 10015d6c     trutil:trfunc.obj
+ 0002:00002d78       ??_C@_04OJADDHLJ@GArc?$AA@ 10015d78     trutil:trfunc.obj
+ 0002:00002d80       ??_C@_08EAHIFMON@GEllipse?$AA@ 10015d80     trutil:trfunc.obj
+ 0002:00002d8c       ??_C@_0M@BCJMJLAF@GLineString?$AA@ 10015d8c     trutil:trfunc.obj
+ 0002:00002d98       ??_C@_05NNIOBAIB@GLine?$AA@ 10015d98     trutil:trfunc.obj
+ 0002:00002da0       ??_C@_06LLOHGBEM@GPoint?$AA@ 10015da0     trutil:trfunc.obj
+ 0002:00002da8       ??_C@_0BD@DPCKNFFI@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10015da8     trutil:trfunc.obj
+ 0002:00002dbc       ??_C@_0BA@FMPIKLLM@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10015dbc     trutil:trfunc.obj
+ 0002:00002dcc       ??_C@_0N@ONKJJLFA@?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10015dcc     trutil:trfunc.obj
+ 0002:00002ddc       ??_C@_09CMIEKKHO@?5?5?5?5?5?5?5?5?5?$AA@ 10015ddc     trutil:trfunc.obj
+ 0002:00002de8       ??_C@_06GGLIPOFD@?5?5?5?5?5?5?$AA@ 10015de8     trutil:trfunc.obj
+ 0002:00002df0       ??_C@_03NDEAONJP@?5?5?5?$AA@ 10015df0     trutil:trfunc.obj
+ 0002:00002e04       _IID_IClassFactory         10015e04     uuid:unknwn_i.obj
+ 0002:00002e14       _IID_IUnknown              10015e14     uuid:unknwn_i.obj
+ 0002:00002e24       _IID_IMalloc               10015e24     uuid:objidl_i.obj
+ 0002:00002e38       ??_7type_info@@6B@         10015e38     MSVCRT:ti_inst.obj
+ 0002:00002e3c       __pRawDllMain              10015e3c     MSVCRT:crtdll.obj
+ 0002:00002e3c       __pDefaultRawDllMain       10015e3c     MSVCRT:crtdll.obj
+ 0002:00002e48       __load_config_used         10015e48     MSVCRT:loadcfg.obj
+ 0002:00002ec0       ??_R4MSTNDefaultMemPool@@6B@ 10015ec0     readmstn.obj
+ 0002:00002ed4       ??_R3MSTNDefaultMemPool@@8 10015ed4     readmstn.obj
+ 0002:00002ee4       ??_R2MSTNDefaultMemPool@@8 10015ee4     readmstn.obj
+ 0002:00002ef0       ??_R1A@?0A@EA@MSTNDefaultMemPool@@8 10015ef0     readmstn.obj
+ 0002:00002f0c       ??_R1A@?0A@EA@TRMemPool@@8 10015f0c     readmstn.obj
+ 0002:00002f28       ??_R3TRMemPool@@8          10015f28     readmstn.obj
+ 0002:00002f38       ??_R2TRMemPool@@8          10015f38     readmstn.obj
+ 0002:00002f40       ??_R4JReadMstnClassFactory@@6B@ 10015f40     readmstn.obj
+ 0002:00002f54       ??_R3JReadMstnClassFactory@@8 10015f54     readmstn.obj
+ 0002:00002f64       ??_R2JReadMstnClassFactory@@8 10015f64     readmstn.obj
+ 0002:00002f74       ??_R1A@?0A@EA@JReadMstnClassFactory@@8 10015f74     readmstn.obj
+ 0002:00002f90       ??_R1A@?0A@EA@IClassFactory@@8 10015f90     readmstn.obj
+ 0002:00002fac       ??_R3IClassFactory@@8      10015fac     readmstn.obj
+ 0002:00002fbc       ??_R2IClassFactory@@8      10015fbc     readmstn.obj
+ 0002:00002fc8       ??_R1A@?0A@EA@IUnknown@@8  10015fc8     readmstn.obj
+ 0002:00002fe4       ??_R3IUnknown@@8           10015fe4     readmstn.obj
+ 0002:00002ff4       ??_R2IUnknown@@8           10015ff4     readmstn.obj
+ 0002:00002ffc       ??_R4ImpIJReadData@JReadMstn@@6B@ 10015ffc     readmstn.obj
+ 0002:00003010       ??_R3ImpIJReadData@JReadMstn@@8 10016010     readmstn.obj
+ 0002:00003020       ??_R2ImpIJReadData@JReadMstn@@8 10016020     readmstn.obj
+ 0002:00003030       ??_R1A@?0A@EA@ImpIJReadData@JReadMstn@@8 10016030     readmstn.obj
+ 0002:0000304c       ??_R1A@?0A@EA@IJReadData@@8 1001604c     readmstn.obj
+ 0002:00003068       ??_R3IJReadData@@8         10016068     readmstn.obj
+ 0002:00003078       ??_R2IJReadData@@8         10016078     readmstn.obj
+ 0002:00003084       ??_R4JReadMstn@@6B@        10016084     readmstn.obj
+ 0002:00003098       ??_R3JReadMstn@@8          10016098     readmstn.obj
+ 0002:000030a8       ??_R2JReadMstn@@8          100160a8     readmstn.obj
+ 0002:000030b4       ??_R1A@?0A@EA@JReadMstn@@8 100160b4     readmstn.obj
+ 0002:000030d0       ??_R4JWriteMstnClassFactory@@6B@ 100160d0     wrtmstn.obj
+ 0002:000030e4       ??_R3JWriteMstnClassFactory@@8 100160e4     wrtmstn.obj
+ 0002:000030f4       ??_R2JWriteMstnClassFactory@@8 100160f4     wrtmstn.obj
+ 0002:00003104       ??_R1A@?0A@EA@JWriteMstnClassFactory@@8 10016104     wrtmstn.obj
+ 0002:00003120       ??_R4JWriteMstn@@6B@       10016120     wrtmstn.obj
+ 0002:00003134       ??_R3JWriteMstn@@8         10016134     wrtmstn.obj
+ 0002:00003144       ??_R2JWriteMstn@@8         10016144     wrtmstn.obj
+ 0002:00003150       ??_R1A@?0A@EA@JWriteMstn@@8 10016150     wrtmstn.obj
+ 0002:0000316c       ??_R4ImpIJWriteData@JWriteMstn@@6B@ 1001616c     wrtmstn.obj
+ 0002:00003180       ??_R3ImpIJWriteData@JWriteMstn@@8 10016180     wrtmstn.obj
+ 0002:00003190       ??_R2ImpIJWriteData@JWriteMstn@@8 10016190     wrtmstn.obj
+ 0002:000031a0       ??_R1A@?0A@EA@ImpIJWriteData@JWriteMstn@@8 100161a0     wrtmstn.obj
+ 0002:000031bc       ??_R1A@?0A@EA@IJWriteData@@8 100161bc     wrtmstn.obj
+ 0002:000031d8       ??_R3IJWriteData@@8        100161d8     wrtmstn.obj
+ 0002:000031e8       ??_R2IJWriteData@@8        100161e8     wrtmstn.obj
+ 0002:000031f4       ??_R4JMemPool@@6B@         100161f4     mempool:mempool.obj
+ 0002:00003208       ??_R3JMemPool@@8           10016208     mempool:mempool.obj
+ 0002:00003218       ??_R2JMemPool@@8           10016218     mempool:mempool.obj
+ 0002:00003228       ??_R1A@?0A@EA@JMemPool@@8  10016228     mempool:mempool.obj
+ 0002:00003244       ??_R1A@?0A@EA@IMalloc@@8   10016244     mempool:mempool.obj
+ 0002:00003260       ??_R3IMalloc@@8            10016260     mempool:mempool.obj
+ 0002:00003270       ??_R2IMalloc@@8            10016270     mempool:mempool.obj
+ 0002:0000327c       ??_R4tagJCharStyleDescrList@@6B@ 1001627c     trutil:freedata.obj
+ 0002:00003290       ??_R3tagJCharStyleDescrList@@8 10016290     trutil:freedata.obj
+ 0002:000032a0       ??_R2tagJCharStyleDescrList@@8 100162a0     trutil:freedata.obj
+ 0002:000032a8       ??_R1A@?0A@EA@tagJCharStyleDescrList@@8 100162a8     trutil:freedata.obj
+ 0002:000032c4       ??_R4type_info@@6B@        100162c4     MSVCRT:ti_inst.obj
+ 0002:000032d8       ??_R3type_info@@8          100162d8     MSVCRT:ti_inst.obj
+ 0002:000032e8       ??_R2type_info@@8          100162e8     MSVCRT:ti_inst.obj
+ 0002:000032f0       ??_R1A@?0A@EA@type_info@@8 100162f0     MSVCRT:ti_inst.obj
+ 0002:00003310       ___safe_se_handler_table   10016310     <linker-defined>
+ 0002:0000334c       ___rtc_iaa                 1001634c     MSVCRT:initsect.obj
+ 0002:00003350       ___rtc_izz                 10016350     MSVCRT:initsect.obj
+ 0002:00003354       ___rtc_taa                 10016354     MSVCRT:initsect.obj
+ 0002:00003358       ___rtc_tzz                 10016358     MSVCRT:initsect.obj
+ 0002:00003694       __IMPORT_DESCRIPTOR_config 10016694     config:config.dll
+ 0002:000036a8       __IMPORT_DESCRIPTOR_JUtil  100166a8     jutil:JUtil.dll
+ 0002:000036bc       __IMPORT_DESCRIPTOR_MSTNRW 100166bc     mstnrw:MSTNRW.dll
+ 0002:000036d0       __IMPORT_DESCRIPTOR_ugeom  100166d0     ugeom:ugeom.dll
+ 0002:000036e4       __IMPORT_DESCRIPTOR_ugeom2d 100166e4     ugeom2d:ugeom2d.dll
+ 0002:000036f8       __IMPORT_DESCRIPTOR_umath  100166f8     umath:umath.dll
+ 0002:0000370c       __IMPORT_DESCRIPTOR_sealloc 1001670c     sealloc:sealloc.dll
+ 0002:00003720       __IMPORT_DESCRIPTOR_KERNEL32 10016720     kernel32:KERNEL32.dll
+ 0002:00003734       __IMPORT_DESCRIPTOR_USER32 10016734     user32:USER32.dll
+ 0002:00003748       __IMPORT_DESCRIPTOR_ADVAPI32 10016748     advapi32:ADVAPI32.dll
+ 0002:0000375c       __IMPORT_DESCRIPTOR_MSVCR80 1001675c     MSVCRT:MSVCR80.dll
+ 0002:00003770       __IMPORT_DESCRIPTOR_MSVCP80 10016770     msvcprt:MSVCP80.dll
+ 0002:00003784       __IMPORT_DESCRIPTOR_timeutl 10016784     timeutl:timeutl.dll
+ 0002:00003798       __NULL_IMPORT_DESCRIPTOR   10016798     config:config.dll
+ 0003:00000000       __newmode                  10018000     newmode.obj
+ 0003:00000a28       ??_R0?AVMSTNDefaultMemPool@@@8 10018a28     readmstn.obj
+ 0003:00000a4c       ??_R0?AVTRMemPool@@@8      10018a4c     readmstn.obj
+ 0003:00000a64       ??_R0?AVJReadMstnClassFactory@@@8 10018a64     readmstn.obj
+ 0003:00000a88       ??_R0?AUIClassFactory@@@8  10018a88     readmstn.obj
+ 0003:00000aa4       ??_R0?AUIUnknown@@@8       10018aa4     readmstn.obj
+ 0003:00000abc       ??_R0?AUImpIJReadData@JReadMstn@@@8 10018abc     readmstn.obj
+ 0003:00000ae4       ??_R0?AUIJReadData@@@8     10018ae4     readmstn.obj
+ 0003:00000b00       ??_R0?AVJReadMstn@@@8      10018b00     readmstn.obj
+ 0003:00001f60       ??_R0?AVJWriteMstnClassFactory@@@8 10019f60     wrtmstn.obj
+ 0003:00001f88       ??_R0?AVJWriteMstn@@@8     10019f88     wrtmstn.obj
+ 0003:00001fa4       ??_R0?AUImpIJWriteData@JWriteMstn@@@8 10019fa4     wrtmstn.obj
+ 0003:00001fcc       ??_R0?AUIJWriteData@@@8    10019fcc     wrtmstn.obj
+ 0003:00001fec       ??_R0?AVJMemPool@@@8       10019fec     mempool:mempool.obj
+ 0003:00002004       ??_R0?AUIMalloc@@@8        1001a004     mempool:mempool.obj
+ 0003:00003e80       ??_R0?AUtagJCharStyleDescrList@@@8 1001be80     trutil:freedata.obj
+ 0003:00006730       ??_R0?AVtype_info@@@8      1001e730     MSVCRT:ti_inst.obj
+ 0003:00006748       ___security_cookie         1001e748     MSVCRT:gs_cookie.obj
+ 0003:0000674c       ___security_cookie_complement 1001e74c     MSVCRT:gs_cookie.obj
+ 0003:00006750       ___native_dllmain_reason   1001e750     MSVCRT:natstart.obj
+ 0003:00006754       ___native_vcclrit_reason   1001e754     MSVCRT:natstart.obj
+ 0003:00008014       ?__type_info_root_node@@3U__type_info_node@@A 10020014     MSVCRT:tncleanup.obj
+ 0003:0000801c       __adjust_fdiv              1002001c     <common>
+ 0003:00008020       ___native_startup_state    10020020     <common>
+ 0003:00008024       ___native_startup_lock     10020024     <common>
+ 0003:00008028       ___onexitend               10020028     <common>
+ 0003:0000802c       ___onexitbegin             1002002c     <common>
+ 0003:00008030       ___dyn_tls_init_callback   10020030     <common>
+
+ entry point at        0001:00010a30
+
+ Static symbols
+
+ 0001:000009b0       ?JReadMstn_ReallocateGraphicsArray@@YAJPAHHPAPAPAX@Z 100019b0 f   readmstn.obj
+ 0001:00000a30       ?JReadMstn_GetAllNativeGraphics@@YAJGPAHPAPAPAX@Z 10001a30 f   readmstn.obj
+ 0001:00004670       ?ConvertGTypeLayerName@@YAXPA_WPAD@Z 10005670 f   wrtmstn.obj
+ 0001:00007b90       ?TRgetParallelProjectionTransf@@YAHAAUtagGPosition@@AAUtagGVector@@10QANAAUtagGTransf@@@Z 10008b90 f   trutil:viewfunc.obj
+ 0001:0000a050       ?TRFreeGComplexString2d@@YAXPAUtagGComplexString2d@@@Z 1000b050 f   trutil:freedata.obj
+ 0001:0000a210       ?TRFreeGComplexString@@YAXPAUtagGComplexString@@@Z 1000b210 f   trutil:freedata.obj
+ 0001:0000b6c0       ?TRxxx@@YAXXZ              1000c6c0 f   trutil:trfunc.obj
+ 0001:0000b6f0       ?TRindent@@YAHXZ           1000c6f0 f   trutil:trfunc.obj
+ 0001:0001072e       _pre_c_init                1001172e f   MSVCRT:crtdll.obj
+ 0001:0001091a       ___DllMainCRTStartup       1001191a f   MSVCRT:crtdll.obj
+ 0001:00010f80       __unwindfunclet$??0MSTNDefaultMemPool@@QAE@XZ$0 10011f80 f   readmstn.obj
+ 0001:00010f8b       __ehhandler$??0MSTNDefaultMemPool@@QAE@XZ 10011f8b f   readmstn.obj
+ 0001:00010fb0       __unwindfunclet$?GetAllGraphics@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z$5 10011fb0 f   readmstn.obj
+ 0001:00010fbc       __ehhandler$?GetAllGraphics@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z 10011fbc f   readmstn.obj
+ 0001:00010ff0       __unwindfunclet$?GetAllSymbolDefinitions@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z$0 10011ff0 f   readmstn.obj
+ 0001:00010ffc       __unwindfunclet$?GetAllSymbolDefinitions@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z$1 10011ffc f   readmstn.obj
+ 0001:00011008       __unwindfunclet$?GetAllSymbolDefinitions@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z$2 10012008 f   readmstn.obj
+ 0001:00011014       __ehhandler$?GetAllSymbolDefinitions@ImpIJReadData@JReadMstn@@UAGJGPAHPAPAPAX@Z 10012014 f   readmstn.obj
+ 0001:00011050       __unwindfunclet$?Initialize@JReadMstn@@QAEKXZ$0 10012050 f   readmstn.obj
+ 0001:0001105e       __ehhandler$?Initialize@JReadMstn@@QAEKXZ 1001205e f   readmstn.obj
+ 0001:00011090       __unwindfunclet$?CreateInstance@JReadMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$0 10012090 f   readmstn.obj
+ 0001:0001109b       __ehhandler$?CreateInstance@JReadMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1001209b f   readmstn.obj
+ 0001:000110c0       __unwindfunclet$_DllGetClassObject@12$0 100120c0 f   server.obj
+ 0001:000110cb       __unwindfunclet$_DllGetClassObject@12$1 100120cb f   server.obj
+ 0001:000110d6       __ehhandler$_DllGetClassObject@12 100120d6 f   server.obj
+ 0001:00011100       __unwindfunclet$?IEMSTN_SetRscFiles@@YAHPADPAUtagConfigData@@@Z$0 10012100 f   utils.obj
+ 0001:0001110c       __ehhandler$?IEMSTN_SetRscFiles@@YAHPADPAUtagConfigData@@@Z 1001210c f   utils.obj
+ 0001:00011140       __unwindfunclet$?PutGraphics@ImpIJWriteData@JWriteMstn@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z$0 10012140 f   wrtmstn.obj
+ 0001:0001114c       __ehhandler$?PutGraphics@ImpIJWriteData@JWriteMstn@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z 1001214c f   wrtmstn.obj
+ 0001:00011180       __unwindfunclet$?CreateInstance@JWriteMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$0 10012180 f   wrtmstn.obj
+ 0001:0001118b       __ehhandler$?CreateInstance@JWriteMstnClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1001218b f   wrtmstn.obj
+ 0001:000111b0       __unwindfunclet$??1tagGTextBox@@QAE@XZ$0 100121b0 f   trutil:freedata.obj
+ 0001:000111bb       __ehhandler$??1tagGTextBox@@QAE@XZ 100121bb f   trutil:freedata.obj
+ 0001:000111e0       __unwindfunclet$??1tagGDimension@@QAE@XZ$0 100121e0 f   trutil:freedata.obj
+ 0001:000111ef       __unwindfunclet$??1tagGDimension@@QAE@XZ$1 100121ef f   trutil:freedata.obj
+ 0001:000111fe       __ehhandler$??1tagGDimension@@QAE@XZ 100121fe f   trutil:freedata.obj
+ 0001:00011220       __unwindfunclet$?TRMessageBoxArgs@@YAHPAUHINSTANCE__@@IIIPAD@Z$0 10012220 f   trutil:trfunc.obj
+ 0001:00011229       __unwindfunclet$?TRMessageBoxArgs@@YAHPAUHINSTANCE__@@IIIPAD@Z$1 10012229 f   trutil:trfunc.obj
+ 0001:00011232       __ehhandler$?TRMessageBoxArgs@@YAHPAUHINSTANCE__@@IIIPAD@Z 10012232 f   trutil:trfunc.obj
+ 0001:00011250       __unwindfunclet$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z$0 10012250 f   trutil:trfunc.obj
+ 0001:00011259       __ehhandler$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 10012259 f   trutil:trfunc.obj
+ 0001:00011280       __unwindfunclet$?TRMessageBox@@YAHPAUHINSTANCE__@@IIIZZ$0 10012280 f   trutil:trfunc.obj
+ 0001:00011289       __ehhandler$?TRMessageBox@@YAHPAUHINSTANCE__@@IIIZZ 10012289 f   trutil:trfunc.obj
+ 0001:000112b0       ??__EGNULL_Camera@@YAXXZ   100122b0 f   readmstn.obj
+ 0001:000112d0       ??__EGNULL_CAMERA@@YAXXZ   100122d0 f   readmstn.obj
+ 0001:000112f0       ??__EGID_Camera@@YAXXZ     100122f0 f   readmstn.obj
+ 0001:00011310       ??__EGID_CAMERA@@YAXXZ     10012310 f   readmstn.obj
+ 0001:00011330       ??__EGNULL_Camera@@YAXXZ   10012330 f   utils.obj
+ 0001:00011350       ??__EGNULL_CAMERA@@YAXXZ   10012350 f   utils.obj
+ 0001:00011370       ??__EGID_Camera@@YAXXZ     10012370 f   utils.obj
+ 0001:00011390       ??__EGID_CAMERA@@YAXXZ     10012390 f   utils.obj
+ 0001:000113b0       ??__EGNULL_Camera@@YAXXZ   100123b0 f   wrtmstn.obj
+ 0001:000113d0       ??__EGNULL_CAMERA@@YAXXZ   100123d0 f   wrtmstn.obj
+ 0001:000113f0       ??__EGID_Camera@@YAXXZ     100123f0 f   wrtmstn.obj
+ 0001:00011410       ??__EGID_CAMERA@@YAXXZ     10012410 f   wrtmstn.obj
+ 0001:00011430       ??__EGNULL_Camera@@YAXXZ   10012430 f   trutil:viewfunc.obj
+ 0001:00011450       ??__EGNULL_CAMERA@@YAXXZ   10012450 f   trutil:viewfunc.obj
+ 0001:00011470       ??__EGID_Camera@@YAXXZ     10012470 f   trutil:viewfunc.obj
+ 0001:00011490       ??__EGID_CAMERA@@YAXXZ     10012490 f   trutil:viewfunc.obj
+ 0001:000114b0       ??__EGNULL_Camera@@YAXXZ   100124b0 f   trutil:trmpfree.obj
+ 0001:000114d0       ??__EGNULL_CAMERA@@YAXXZ   100124d0 f   trutil:trmpfree.obj
+ 0001:000114f0       ??__EGID_Camera@@YAXXZ     100124f0 f   trutil:trmpfree.obj
+ 0001:00011510       ??__EGID_CAMERA@@YAXXZ     10012510 f   trutil:trmpfree.obj
+ 0001:00011530       ??__EGNULL_Camera@@YAXXZ   10012530 f   trutil:freedata.obj
+ 0001:00011550       ??__EGNULL_CAMERA@@YAXXZ   10012550 f   trutil:freedata.obj
+ 0001:00011570       ??__EGID_Camera@@YAXXZ     10012570 f   trutil:freedata.obj
+ 0001:00011590       ??__EGID_CAMERA@@YAXXZ     10012590 f   trutil:freedata.obj
+ 0001:000115b0       ??__EGNULL_Camera@@YAXXZ   100125b0 f   trutil:trfunc.obj
+ 0001:000115d0       ??__EGNULL_CAMERA@@YAXXZ   100125d0 f   trutil:trfunc.obj
+ 0001:000115f0       ??__EGID_Camera@@YAXXZ     100125f0 f   trutil:trfunc.obj
+ 0001:00011610       ??__EGID_CAMERA@@YAXXZ     10012610 f   trutil:trfunc.obj
+ 0001:00011630       ??__EGNULL_Camera@@YAXXZ   10012630 f   trutil:gtyputil.obj
+ 0001:00011650       ??__EGNULL_CAMERA@@YAXXZ   10012650 f   trutil:gtyputil.obj
+ 0001:00011670       ??__EGID_Camera@@YAXXZ     10012670 f   trutil:gtyputil.obj
+ 0001:00011690       ??__EGID_CAMERA@@YAXXZ     10012690 f   trutil:gtyputil.obj
+ 0001:000116b0       ??__EGNULL_Camera@@YAXXZ   100126b0 f   trutil:trmpcopy.obj
+ 0001:000116d0       ??__EGNULL_CAMERA@@YAXXZ   100126d0 f   trutil:trmpcopy.obj
+ 0001:000116f0       ??__EGID_Camera@@YAXXZ     100126f0 f   trutil:trmpcopy.obj
+ 0001:00011710       ??__EGID_CAMERA@@YAXXZ     10012710 f   trutil:trmpcopy.obj
+ 0001:00011730       ??__EGNULL_Camera@@YAXXZ   10012730 f   trutil:trgroup.obj
+ 0001:00011750       ??__EGNULL_CAMERA@@YAXXZ   10012750 f   trutil:trgroup.obj
+ 0001:00011770       ??__EGID_Camera@@YAXXZ     10012770 f   trutil:trgroup.obj
+ 0001:00011790       ??__EGID_CAMERA@@YAXXZ     10012790 f   trutil:trgroup.obj

@@ -1,0 +1,1 @@
+PostReg.exe modules.txt regstatus.txt /u

@@ -1,0 +1,1830 @@
+ ugeom2d
+
+ Timestamp is 46b39ce4 (Fri Aug 03 16:23:48 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000605c8H .text                   CODE
+ 0001:000605d0 000008d3H .text$x                 CODE
+ 0002:00000000 00000414H .idata$5                DATA
+ 0002:00000414 00000004H .CRT$XCA                DATA
+ 0002:00000418 00000004H .CRT$XCZ                DATA
+ 0002:0000041c 00000004H .CRT$XIA                DATA
+ 0002:00000420 00000004H .CRT$XIAA               DATA
+ 0002:00000424 00000004H .CRT$XIC                DATA
+ 0002:00000428 00000004H .CRT$XIZ                DATA
+ 0002:00000430 00000ba8H .rdata                  DATA
+ 0002:00000fd8 00000031H .rdata$debug            DATA
+ 0002:0000100c 000001acH .rdata$r                DATA
+ 0002:000011c0 000000c4H .rdata$sxdata           DATA
+ 0002:00001284 00000004H .rtc$IAA                DATA
+ 0002:00001288 00000004H .rtc$IZZ                DATA
+ 0002:0000128c 00000004H .rtc$TAA                DATA
+ 0002:00001290 00000004H .rtc$TZZ                DATA
+ 0002:00001298 00000a8cH .xdata$x                DATA
+ 0002:00001d24 00000064H .idata$2                DATA
+ 0002:00001d88 00000014H .idata$3                DATA
+ 0002:00001d9c 00000414H .idata$4                DATA
+ 0002:000021b0 0000145cH .idata$6                DATA
+ 0002:00003610 00005830H .edata                  DATA
+ 0003:00000000 000000d0H .data                   DATA
+ 0003:000000d0 000003c8H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000031       ___safe_se_handler_count   00000031     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       _IMArcEllipseConcentric2d  10001030 f   IMArElCctr2d.obj
+ 0001:00000030       _IMTwoArcsConcentric2d     10001030 f   IM2ArcsCctr2d.obj
+ 0001:00000080       _IMTwoEllipsesConcentric2d 10001080 f   IM2ElsCctr2d.obj
+ 0001:000000d0       _IMTwoLnsColinear2d        100010d0 f   IM2LnsColr2d.obj
+ 0001:000001b0       _IMTwoLnsParallel2d        100011b0 f   IM2LnsPrl2d.obj
+ 0001:00000310       _IMTwoGTypedCurvesEqual2d  10001310 f   IM2TCsEql2d.obj
+ 0001:00000790       _GetGNULL_POSITION_2D      10001790 f i IM2TCsPer2d.obj
+ 0001:000007d0       _IMTwoGTypedCurvesPerpendicular2d 100017d0 f   IM2TCsPer2d.obj
+ 0001:00000dd0       _IMTwoGTypedCurvesTangent2d 10001dd0 f   IM2TCsTan2d.obj
+ 0001:000012a0       ??D@YA?AUtagGVector2d@@NABU0@@Z 100022a0 f i IMACSOff2d.obj
+ 0001:00003160       _IMAnalyticComplexStringOffset2d 10004160 f   IMACSOff2d.obj
+ 0001:00003810       _IMAdjustKnots2d           10004810 f   IMAdjKnots2d.obj
+ 0001:000038a0       _IMArcLengthComplexString2d 100048a0 f   IMALenCStr2d.obj
+ 0001:000039b0       _IMArcLenCurve2d           100049b0 f   IMALenCv2d.obj
+ 0001:00003bb0       _IMArcLenEllipse2d         10004bb0 f   IMALenEl2d.obj
+ 0001:00003d50       _IMArcLengthOfEllipseParameter2d 10004d50 f   IMALenElPr2d.obj
+ 0001:000040b0       _IMArcLengthGBspline2d     100050b0 f   IMALenGBsp2d.obj
+ 0001:00004150       _IMAng2Vec2d               10005150 f   IMAng2Vc2d.obj
+ 0001:000046d0       _IMGArc2dToGBspCurve2d     100056d0 f   IMAr2dCv2d.obj
+ 0001:00004ad0       _IMArcCEOffset2d           10005ad0 f   IMArCEOff2d.obj
+ 0001:00004c30       _IMArcCheckParameter2d     10005c30 f   IMArCkPr2d.obj
+ 0001:00004cd0       _IMArcCopy2d               10005cd0 f   IMArCopy2d.obj
+ 0001:00004d10       _IMArcByCtrStEnd2d         10005d10 f   IMArCSE2d.obj
+ 0001:00004fb0       ?Normalize@@YA?AUtagGUnitVector2d@@ABUtagGVector2d@@@Z 10005fb0 f i IMArcSpline2d.obj
+ 0001:00005b30       _IMApproxGBspCurveByArcLine2d 10006b30 f   IMArcSpline2d.obj
+ 0001:00005d50       _IMArcByEllStEnd2d         10006d50 f   IMArElSE2d.obj
+ 0001:00005e10       _IMArcExtendToPoint2d      10006e10 f   IMArExPt2d.obj
+ 0001:00005ea0       _IMArcGetEndPoints2d       10006ea0 f   IMArGEPts2d.obj
+ 0001:00005f10       _IMArcCrossSeam2d          10006f10 f   IMArGoSeam2d.obj
+ 0001:00006000       _IMArcGetAngles2d          10007000 f   IMArGtAng2d.obj
+ 0001:00006030       _IMArcGetCenter2d          10007030 f   IMArGtCtr2d.obj
+ 0001:00006040       _IMArcGetEndAngle2d        10007040 f   IMArGtEA2d.obj
+ 0001:00006060       _IMArcGetEndPoint2d        10007060 f   IMArGtEPt2d.obj
+ 0001:000060c0       _IMArcGetLength2d          100070c0 f   IMArGtLen2d.obj
+ 0001:00006110       _IMArcGetMajorAxis2d       10007110 f   IMArGtMAx2d.obj
+ 0001:00006130       _IMArcGetMidPoint2d        10007130 f   IMArGtMdPt2d.obj
+ 0001:000062f0       _IMArcGetMinorAxis2d       100072f0 f   IMArGtMiAx2d.obj
+ 0001:00006310       _IMArcGetMinorRadius2d     10007310 f   IMArGtMiRd2d.obj
+ 0001:00006330       _IMArcGetMajorRadius2d     10007330 f   IMArGtMRd2d.obj
+ 0001:00006350       _IMArcGetOrientation2d     10007350 f   IMArGtOrn2d.obj
+ 0001:00006370       _IMArcGetStartAngle2d      10007370 f   IMArGtSA2d.obj
+ 0001:00006390       _IMArcGetSweepAngle2d      10007390 f   IMArGtSwA2d.obj
+ 0001:00006520       _IMArcIsCircular2d         10007520 f   IMArIsCir2d.obj
+ 0001:00006540       _IMArcIsParIntvInRange2d   10007540 f   IMArItvRng2d.obj
+ 0001:000065e0       _IMArcGetOffsetArc2d       100075e0 f   IMArOfAr2d.obj
+ 0001:00006740       _IMArcGetParameterFromPosition2d 10007740 f   IMArPrFPs2d.obj
+ 0001:00006850       _IMArcGetParameterFromRatio2d 10007850 f   IMArPrFRt2d.obj
+ 0001:000068b0       _IMArcIsParameterInRange2d 100078b0 f   IMArPrIn2d.obj
+ 0001:00006a50       ??D@YA?AUtagGVector2d@@ABU0@N@Z 10007a50 f i IMArPsFPr2d.obj
+ 0001:00006a80       _IMArcGetPositionFromParameter2d 10007a80 f   IMArPsFPr2d.obj
+ 0001:00006b60       _IMArcGetPositionFromRatio2d 10007b60 f   IMArPsFRt2d.obj
+ 0001:00006bb0       _IMArcIsPositionOnArc2d    10007bb0 f   IMArPsOn2d.obj
+ 0001:00006d20       _IMArcReverse2d            10007d20 f   IMArRev2d.obj
+ 0001:00006d80       _IMArcRangeBox2d           10007d80 f   IMArRgBx2d.obj
+ 0001:00007180       _IMArcGetRatioFromParameter2d 10008180 f   IMArRtFPr2d.obj
+ 0001:00007300       _IMArcGetRatioFromPosition2d 10008300 f   IMArRtFPs2d.obj
+ 0001:00007350       _IMArcByStEndPtOn2d        10008350 f   IMArSEP2d.obj
+ 0001:00007410       _IMArcSetEndPoints2d       10008410 f   IMArSEPts2d.obj
+ 0001:00007520       _IMArcByStEndRadDir2d      10008520 f   IMArSERD2d.obj
+ 0001:00007610       _IMGArcByStEndRadOrtACen2d 10008610 f   IMArSERO2d.obj
+ 0001:000076b0       _IMArcByStEndRadStAng2d    100086b0 f   IMArSERSt2d.obj
+ 0001:00007860       _IMArcByStEndStAng2d       10008860 f   IMArSESt2d.obj
+ 0001:00007a80       _IMArcByStEndStAngSwAng2d  10008a80 f   IMArSEStSw2d.obj
+ 0001:00007c40       _IMArcByStEndSwAngDir2d    10008c40 f   IMArSESwD2d.obj
+ 0001:00007ff0       _IMArcSetAngles2d          10008ff0 f   IMArStAng2d.obj
+ 0001:000080d0       _IMArcSetCenter2d          100090d0 f   IMArStCtr2d.obj
+ 0001:000080f0       _IMArcSetEndAngle2d        100090f0 f   IMArStEA2d.obj
+ 0001:00008140       _IMArcSetMajorAxis2d       10009140 f   IMArStMAx2d.obj
+ 0001:00008160       _IMArcSetMinorRadius2d     10009160 f   IMArStMiRd2d.obj
+ 0001:00008190       _IMArcSetMajorRadius2d     10009190 f   IMArStMRd2d.obj
+ 0001:000081c0       _IMArcSetOrientation2d     100091c0 f   IMArStOrn2d.obj
+ 0001:000081e0       _IMArcSetStartAngle2d      100091e0 f   IMArStSA2d.obj
+ 0001:00008230       _IMArcSetSweepAngle2d      10009230 f   IMArStSwA2d.obj
+ 0001:000082b0       _IMGArcToPolyBspCurve2d    100092b0 f   IMArToPCv2d.obj
+ 0001:000086e0       _IMArcTransform2d          100096e0 f   IMArTrn2d.obj
+ 0001:000087e0       _IMArcByTanLnTanPtEnd2d    100097e0 f   IMArTTE2d.obj
+ 0001:00008a00       _IMArcValid2d              10009a00 f   IMArVal2d.obj
+ 0001:00008af0       _IMBoundariesAllocFrmComplexStrings2d 10009af0 f   IMBAllocFCS2d.obj
+ 0001:00008d40       _IMBooleanDiffLineString2d 10009d40 f   IMBooDifLS2d.obj
+ 0001:000094c0       _IMBooleanInterBoundary2d  1000a4c0 f   IMBooIntBdry2d.obj
+ 0001:000095d0       _IMBooleanInterEllipse2d   1000a5d0 f   IMBooIntEl2d.obj
+ 0001:00009e00       _IMBooleanInterLineString2d 1000ae00 f   IMBooIntLS2d.obj
+ 0001:0000a490       _IMBooleanInterRectangle2d 1000b490 f   IMBooIntRc2d.obj
+ 0001:0000aad0       _IMBooleanInterRectangleEllipse2d 1000bad0 f   IMBooIntRcEl2d.obj
+ 0001:0000b3d0       _IMBooleanInterTypeCurve2d 1000c3d0 f   IMBooIntTcv2d.obj
+ 0001:0000bea0       _IMBoreLineToClipVolume    1000cea0 f   IMBrLnTCV.obj
+ 0001:0000c470       _IMBspCurveEval2d          1000d470 f   IMBspCvEval2d.obj
+ 0001:0000cce0       _IMBspLamina2d             1000dce0 f   IMBspLamina2d.obj
+ 0001:0000cfc0       _IMBox2dToRectangle2d      1000dfc0 f   IMBx2dRc2d.obj
+ 0001:0000cff0       _IMCenterArcBy2PtsRad2d    1000dff0 f   IMCAr2PtR2d.obj
+ 0001:0000d620       _IMClosedCurvesCenterAreaInertia2d 1000e620 f   IMCCsCnArIn2d.obj
+ 0001:0000d9d0       ??$sprintf@$0PL@@@YAHAAY0PL@DPBDZZ 1000e9d0 f i IMChkDbg20.obj
+ 0001:0000d9f0       _IMCheckDbglev20           1000e9f0 f   IMChkDbg20.obj
+ 0001:0000dbd0       _IMCheckKnots              1000ebd0 f   IMChkKts.obj
+ 0001:0000dd00       _IMCircleCenter2d          1000ed00 f   IMCirCtr2d.obj
+ 0001:0000df40       _IMCalcAngleFromSweep2d    1000ef40 f   IMClAFSw2d.obj
+ 0001:0000dfc0       _IMCalcSweepFromAngle2d    1000efc0 f   IMClSwFA2d.obj
+ 0001:0000e0b0       _IMConicToBspline2d        1000f0b0 f   IMConicBsp2d.obj
+ 0001:0000f090       _IMGBspCurveCoolEditOnePt2d 10010090 f   IMCoolOneEd2d.obj
+ 0001:0000f160       _IMComplexStringAlloc2d    10010160 f   IMCSAlloc2d.obj
+ 0001:0000f390       _IMComplexStringAllocFrmGTypedCurve2d 10010390 f   IMCSAlloFTC2d.obj
+ 0001:0000f460       _IMComplexStringBoxSide2d  10010460 f   IMCSBox2d.obj
+ 0001:0000f780       _IMCentersCircleBy2PtsRad2d 10010780 f   IMCsC2PtR2d.obj
+ 0001:0000faa0       _IMExtendGComplexStringByDist2d 10010aa0 f   IMCSExDst2d.obj
+ 0001:0000fba0       _IMComplexStringFindDegenTypedCurves2d 10010ba0 f   IMCSFDTCs2d.obj
+ 0001:0000fd70       _IMComplexStringFlatten2d  10010d70 f   IMCSFlat2d.obj
+ 0001:0000fe30       _IMComplexStringGetParameterRange2d 10010e30 f   IMCSGPrR2d.obj
+ 0001:0000fe60       _IMComplexStringGetPositionFromParameter2d 10010e60 f   IMCSGPsPr2d.obj
+ 0001:0000ffe0       _IMComplexStringGetOrientation2d 10010fe0 f   IMCSGtOrt2d.obj
+ 0001:00010220       _IMComplexStringGetProjPointNormal2d 10011220 f   IMCSGtPjNor2d.obj
+ 0001:000104a0       _IMComplexStringGetParameterFromPosition2d 100114a0 f   IMCSGtPrPs2d.obj
+ 0001:00010670       _IMComplexStringSelfIntersect2d 10011670 f   IMCSlfInt2d.obj
+ 0001:00010bb0       _IMComplexStringLineStringToLines2d 10011bb0 f   IMCSLSTLns2d.obj
+ 0001:00010d30       _IMComplexStringRangeBox2d 10011d30 f   IMCSRgBx2d.obj
+ 0001:00010e60       _IMComplexStringTransform2d 10011e60 f   IMCSTrn2d.obj
+ 0001:00010ef0       _IMComplexStringTransformNoAlloc2d 10011ef0 f   IMCSTrnNA2d.obj
+ 0001:00010f80       _IMGBspCurve2dToGArc2d     10011f80 f   IMCv2dAr2d.obj
+ 0001:00011000       _IMGBspCurve2dToGEllipse2d 10012000 f   IMCv2dEl2d.obj
+ 0001:00011080       _IMGBspCurve2dToGLine2d    10012080 f   IMCv2dLn2d.obj
+ 0001:000110f0       _IMGBspCurve2dToGLineString2d 100120f0 f   IMCv2dLS2d.obj
+ 0001:00011180       _IMBspCurveAddKnot2d       10012180 f   IMCvAdKt2d.obj
+ 0001:00011ff0       _IMGBspCurveChangeTanPole2d 10012ff0 f   IMCvChTn2d.obj
+ 0001:00012390       _IMCvChtPtsDisp2d          10013390 f   IMCvChtPD2d.obj
+ 0001:000132e0       _IMGBspCurveCoolEdit2d     100142e0 f   IMCvCoolEd2d.obj
+ 0001:00013d20       _IMBspCurveCopyWithOption2d 10014d20 f   IMCvCopyOp2d.obj
+ 0001:00013d70       _IMCurveDataReduction2d    10014d70 f   IMCvDtRd2d.obj
+ 0001:00013fc0       _IMBspCurveExtendTwoEndByDist2d 10014fc0 f   IMCvEx2Dst2d.obj
+ 0001:000140d0       _IMBspCurveExtendByArc2d   100150d0 f   IMCvExAr2d.obj
+ 0001:000144e0       _IMBspCurveExtendByDist2d  100154e0 f   IMCvExDst2d.obj
+ 0001:00014610       _IMBspCurveExtendByLine2d  10015610 f   IMCvExLn2d.obj
+ 0001:00015140       _IMBspCurvePolyExtend2d    10016140 f   IMCvExPly2d.obj
+ 0001:00015f50       _IMBspCurveExtendToPoint2d 10016f50 f   IMCvExPt2d.obj
+ 0001:000164a0       _IMGBspCurveHasZeroDerivative2d 100174a0 f   IMCvHasZeroDev2d.obj
+ 0001:00016560       _IMCvInfoChtPtsDisp2d      10017560 f   IMCvIfChtPD2d.obj
+ 0001:00016690       _IMBspCurveIncKnotMultDeg2d 10017690 f   IMCvIKtM2d.obj
+ 0001:00016c80       _IMBspCurveIncOrder2d      10017c80 f   IMCvIncOr2d.obj
+ 0001:00016f40       _IMBspCurveIncOrderKnotsToDeg2d 10017f40 f   IMCvIOrKts2d.obj
+ 0001:000173f0       _IMBspCurveGetKnotTolerance2d 100183f0 f   IMCvKtTl2d.obj
+ 0001:00017670       _IMBspCurveLeftRightDerivatives2d 10018670 f   IMCvLRDerv2d.obj
+ 0001:000179e0       _IMBspCurveMultIsMax2d     100189e0 f   IMCvMIM2d.obj
+ 0001:00017aa0       _IMBspCurvePtDrvs2d        10018aa0 f   IMCvPtDrvs2d.obj
+ 0001:00017bd0       _IMGBspCurveReduceEditPts2d 10018bd0 f   IMCvRdEdPts2d.obj
+ 0001:000182d0       _IMBspCurveReparametrization2d 100192d0 f   IMCvReparam2d.obj
+ 0001:00018660       _IMBspCurveReverse2d       10019660 f   IMCvRev2d.obj
+ 0001:000189a0       _IMBspCurveRangeBox2d      100199a0 f   IMCvRgBx2d.obj
+ 0001:00018a50       _IMBspCurveRemKnotsNoChange2d 10019a50 f   IMCvRKtNC2d.obj
+ 0001:000190b0       _IMBspCurveRemoveLoop2d    1001a0b0 f   IMCvRmLoop2d.obj
+ 0001:000197d0       _IMBspCurveRemoveOrd1Poles2d 1001a7d0 f   IMCvRmPos2d.obj
+ 0001:00019fd0       _IMBspCurveSelfIntersect2d 1001afd0 f   IMCvSlfInt2d.obj
+ 0001:0001a6a0       _IMBspCurveToFitCurve2d    1001b6a0 f   IMCvTFc2d.obj
+ 0001:0001a9f0       _IMBspCurveTransform2d     1001b9f0 f   IMCvTrn2d.obj
+ 0001:0001ac70       _IMCurveByTanLnTanPtEnd2d  1001bc70 f   IMCvTTE2d.obj
+ 0001:0001afb0       _IMBspCurveValid2d         1001bfb0 f   IMCvVal2d.obj
+ 0001:0001b150       _IMBspCurveGetExtrema2d    1001c150 f   IMCvXtrm2d.obj
+ 0001:0001b490       _IMDuplicatePoints         1001c490 f   IMDblPts.obj
+ 0001:0001b590       _IMGEllipse2dToGBspCurve2d 1001c590 f   IMEl2dCv2d.obj
+ 0001:0001b5e0       _IMEllipseBy3Pt2d          1001c5e0 f   IMEl3Pt2d.obj
+ 0001:0001b8b0       _GetGNULL_VECTOR_2D        1001c8b0 f i IMElArByPts2d.obj
+ 0001:0001b8f0       _GetGID_TRANSF_2D          1001c8f0 f i IMElArByPts2d.obj
+ 0001:0001b9b0       _IMEllipticArcByPointsMajorAxis2d 1001c9b0 f   IMElArByPts2d.obj
+ 0001:0001bc70       _IMEllipseCEOffset2d       1001cc70 f   IMElCEOff2d.obj
+ 0001:0001bdd0       _IMEllipseByCtrMajMin2d    1001cdd0 f   IMElCMM2d.obj
+ 0001:0001be70       _IMEllipseByCtrMajMinRot2d 1001ce70 f   IMElCMMR2d.obj
+ 0001:0001bfb0       _IMEllipseCopy2d           1001cfb0 f   IMElCopy2d.obj
+ 0001:0001bff0       _IMEllipseGetMinorAxis2d   1001cff0 f   IMElGtMiAx2d.obj
+ 0001:0001c020       _IMEllipseGetMinorRadius2d 1001d020 f   IMElGtMiRd2d.obj
+ 0001:0001c050       _IMEllipseGetOrientation2d 1001d050 f   IMElGtOrn2d.obj
+ 0001:0001c070       _IMEllipseGetParameterFromPosition2d 1001d070 f   IMElGtPrPs2d.obj
+ 0001:0001c210       _IMEllipseGetParameterFromRatio2d 1001d210 f   IMElGtPrRt2d.obj
+ 0001:0001c260       _IMEllipseGetPositionFromParameter2d 1001d260 f   IMElGtPsPr2d.obj
+ 0001:0001c2d0       _IMEllipseGetPositionFromRatio2d 1001d2d0 f   IMElGtPsRt2d.obj
+ 0001:0001c320       _IMEllipseGetRatioFromParameter2d 1001d320 f   IMElGtRtPr2d.obj
+ 0001:0001c380       _IMEllipseGetRatioFromPosition2d 1001d380 f   IMElGtRtPs2d.obj
+ 0001:0001c3d0       _IMEllipseIsCircle2d       1001d3d0 f   IMElIsCir2d.obj
+ 0001:0001c440       _IMEllipseByMajMin2d       1001d440 f   IMElMM2d.obj
+ 0001:0001c520       _IMEllipseOffset2d         1001d520 f   IMElOff2d.obj
+ 0001:0001c610       _IMEllipseReverse2d        1001d610 f   IMElRev2d.obj
+ 0001:0001c650       _IMEllipseRangeBox2d       1001d650 f   IMElRgBx2d.obj
+ 0001:0001c740       _IMEllipseSetMajorAxis2d   1001d740 f   IMElStMAx2d.obj
+ 0001:0001c7e0       _IMEllipseSetMinorRadius2d 1001d7e0 f   IMElStMiRd2d.obj
+ 0001:0001c840       _IMEllipseSetMajorRadius2d 1001d840 f   IMElStMRd2d.obj
+ 0001:0001c920       _IMEllipseSetOrientation2d 1001d920 f   IMElStOrn2d.obj
+ 0001:0001c940       _IMEllipseByCtrMajRatOr2d  1001d940 f   IMElStPrp2d.obj
+ 0001:0001ca30       _IMEllipseSetMinorMajorRatio2d 1001da30 f   IMElStRat2d.obj
+ 0001:0001ca90       ??G@YA?AUtagGVector2d@@ABU0@@Z 1001da90 f i IMElToCubCv2d.obj
+ 0001:0001cac0       _IMGEllipseToCubicBspCurve2d 1001dac0 f   IMElToCubCv2d.obj
+ 0001:0001ce90       _IMGEllipseToPolyBspCurve2d 1001de90 f   IMElToPCv2d.obj
+ 0001:0001cf10       _IMEllipseTransform2d      1001df10 f   IMElTrn2d.obj
+ 0001:0001d010       _IMEllipseValid2d          1001e010 f   IMElVal2d.obj
+ 0001:0001d0f0       _IMEllipseVecPtPar2d       1001e0f0 f   IMElVPP2d.obj
+ 0001:0001d530       _IMEvaluateEllipse2d       1001e530 f   IMEvalEl2d.obj
+ 0001:0001d670       _IMExtractLineString2d     1001e670 f   IMExtrLS2d.obj
+ 0001:0001daa0       _IMFitCurveAlloc2d         1001eaa0 f   IMFCAlloc2d.obj
+ 0001:0001db80       _IMFitCurveCopy2d          1001eb80 f   IMFCCopy2d.obj
+ 0001:0001dc20       _IMFitCurveFreeMem2d       1001ec20 f   IMFCFree2d.obj
+ 0001:0001dc70       _IMFitCurveReverse2d       1001ec70 f   IMFCRev2d.obj
+ 0001:0001e140       _IMFitCurveRangeBox2d      1001f140 f   IMFCRgBx2d.obj
+ 0001:0001e180       _IMFitCurveToBspCurve2d    1001f180 f   IMFCTCv2d.obj
+ 0001:0001e4b0       _IMFitCurveTransform2d     1001f4b0 f   IMFCTrn2d.obj
+ 0001:0001e730       _IMFitCurveValid2d         1001f730 f   IMFCVal2d.obj
+ 0001:0001e9a0       _IMFindDistanceOfTwoPointOnArc2d 1001f9a0 f   IMFdDistOnArc2d.obj
+ 0001:0001eb50       _IMFindDistanceOfTwoPointsOnTcv2d 1001fb50 f   IMFdDistOnTcv2d.obj
+ 0001:0001ef90       _IMFindPointAlongArc2d     1001ff90 f   IMFdPtAlArc2d.obj
+ 0001:0001f030       _IMFindPointAlongComplexString2d 10020030 f   IMFdPtAlCS2d.obj
+ 0001:0001f4d0       _IMFindPointAlongEllipse2d 100204d0 f   IMFdPtAlEl2d.obj
+ 0001:0001f730       _IMFindPointAlongLineString2d 10020730 f   IMFdPtAlLS2d.obj
+ 0001:0001f820       _IMFindPointAlongRectangle2d 10020820 f   IMFdPtAlRc2d.obj
+ 0001:0001f8f0       _IMFindPointAlongTypeCurve2d 100208f0 f   IMFdPtAlTcv2d.obj
+ 0001:00020100       _IMFitByCircle2d           10021100 f   IMFitByCir2d.obj
+ 0001:00020460       _IMFilletArAr2d            10021460 f   IMFlArAr2d.obj
+ 0001:00020b60       _IMFilletCvCv2d            10021b60 f   IMFlCvCv2d.obj
+ 0001:00020d50       _IMFilletElEl2d            10021d50 f   IMFlElEl2d.obj
+ 0001:00021420       _IMFilletLnAr2d            10022420 f   IMFlLnAr2d.obj
+ 0001:00021e00       _IMFilletLnLn2d            10022e00 f   IMFlLnLn2d.obj
+ 0001:00022660       ??H@YA?AUtagGVector2d@@ABU0@0@Z 10023660 f i IMFlLnLnTP2d.obj
+ 0001:00022690       ??G@YA?AUtagGVector2d@@ABU0@0@Z 10023690 f i IMFlLnLnTP2d.obj
+ 0001:00022690       ??G@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10023690 f i IMAr2dCv2d.obj
+ 0001:000226c0       _IMFilletLineLineThrPt2d   100236c0 f   IMFlLnLnTP2d.obj
+ 0001:00022fb0       _IMFilletTCTC2d            10023fb0 f   IMFlTCTC2d.obj
+ 0001:00023790       _IMFilletTCTCThrPt2d       10024790 f   IMFlTCTCTP2d.obj
+ 0001:000246f0       _IMFindCuspOnGBspCurve2d   100256f0 f   IMFndCvCusp2d.obj
+ 0001:00024e80       _IMFormG1GBspCurve2d       10025e80 f   IMFrmG1Cv2d.obj
+ 0001:00025a30       _IMGArc2dToIGRbsp_curve    10026a30 f   IMGAr2dIcv.obj
+ 0001:00025a60       _IMGArc2dToIGRbsp_curveOpt 10026a60 f   IMGAr2dIcvOp.obj
+ 0001:00025af0       ??1JIOStreamContext@@UAE@XZ 10026af0 f i IMGArRFS2d.obj
+ 0001:00025b20       ??_EJIOStreamContext@@UAEPAXI@Z 10026b20 f i IMGArRFS2d.obj
+ 0001:00025b20       ??_GJIOStreamContext@@UAEPAXI@Z 10026b20 f i IMGArRFS2d.obj
+ 0001:00025b60       ??$IMGSerialize@UtagGArc2d@@@@YAXABVJIOStreamContext@@PAUtagGArc2d@@PAH@Z 10026b60 f i IMGArRFS2d.obj
+ 0001:00025ba0       ??$IMGReadFromStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z 10026ba0 f i IMGArRFS2d.obj
+ 0001:00025c50       _IMGArcReadFromStream2d    10026c50 f   IMGArRFS2d.obj
+ 0001:00025c60       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10026c60 f i IMGArWTS2d.obj
+ 0001:00025ce0       ?Serialize@tagGArc2d@@QAEJABVJIOStreamContext@@@Z 10026ce0 f   IMGArWTS2d.obj
+ 0001:00025d20       ??$IMGWriteToStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z 10026d20 f i IMGArWTS2d.obj
+ 0001:00025dd0       _IMGArcWriteToStream2d     10026dd0 f   IMGArWTS2d.obj
+ 0001:00025de0       _IMGBoundaries2dFromNGPosition2ds 10026de0 f   IMGB2dFNGPos2d.obj
+ 0001:00025ec0       _IMGBoundariesCopy2d       10026ec0 f   IMGBCopy2d.obj
+ 0001:00025f40       _IMGBoundariesCopyNoAlloc2d 10026f40 f   IMGBCopyNA2d.obj
+ 0001:00025fb0       ??$IMGSerialize@UtagGBspCurve2d@@@@YAXABVJIOStreamContext@@PAUtagGBspCurve2d@@PAH@Z 10026fb0 f i IMGBCvRFS2d.obj
+ 0001:00025ff0       ??$IMGReadFromStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z 10026ff0 f i IMGBCvRFS2d.obj
+ 0001:000260a0       _IMGBspCurveReadFromStream2d 100270a0 f   IMGBCvRFS2d.obj
+ 0001:000260b0       ?Serialize@tagGBspCurve2d@@QAEJABVJIOStreamContext@@@Z 100270b0 f   IMGBCvWTS2d.obj
+ 0001:00026380       ??$IMGWriteToStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z 10027380 f i IMGBCvWTS2d.obj
+ 0001:00026430       _IMGBspCurveWriteToStream2d 10027430 f   IMGBCvWTS2d.obj
+ 0001:00026440       _IMGBoundariesFreeMem2d    10027440 f   IMGBFree2d.obj
+ 0001:000264b0       ??$IMGSerialize@UtagGBoundaries2d@@@@YAXABVJIOStreamContext@@PAUtagGBoundaries2d@@PAH@Z 100274b0 f i IMGBRFS2d.obj
+ 0001:000264f0       ??$IMGReadFromStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z 100274f0 f i IMGBRFS2d.obj
+ 0001:000265a0       _IMGBoundariesReadFromStream2d 100275a0 f   IMGBRFS2d.obj
+ 0001:000265b0       _IMGBoundariesValid2d      100275b0 f   IMGBVal2d.obj
+ 0001:00026630       ?Serialize@tagGBoundaries2d@@QAEJABVJIOStreamContext@@@Z 10027630 f   IMGBWTS2d.obj
+ 0001:000266d0       ??$IMGWriteToStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z 100276d0 f i IMGBWTS2d.obj
+ 0001:00026780       _IMGBoundariesWriteToStream2d 10027780 f   IMGBWTS2d.obj
+ 0001:00026790       ??$IMGSerialize@UtagGBox2d@@@@YAXABVJIOStreamContext@@PAUtagGBox2d@@PAH@Z 10027790 f i IMGBxRFS2d.obj
+ 0001:000267d0       ??$IMGReadFromStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z 100277d0 f i IMGBxRFS2d.obj
+ 0001:00026880       _IMGBoxReadFromStream2d    10027880 f   IMGBxRFS2d.obj
+ 0001:00026890       ??$IMGWriteToStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z 10027890 f i IMGBxWTS2d.obj
+ 0001:00026940       _IMGBoxWriteToStream2d     10027940 f   IMGBxWTS2d.obj
+ 0001:00026950       _IMGComplexString2dChkPar  10027950 f   IMGCS2dCP.obj
+ 0001:00026b80       _IMGComplexString2dToIGRbsp_curve 10027b80 f   IMGCS2dIcv.obj
+ 0001:00026e10       _IMGComplexString2dReverse 10027e10 f   IMGCS2dRev.obj
+ 0001:00026ef0       _IMGComplexString2dSetForm 10027ef0 f   IMGCS2dStFrm.obj
+ 0001:000270c0       _IMGComplexString2dSetScope 100280c0 f   IMGCS2dStSc.obj
+ 0001:00027260       _IMGComplexStringCopy2d    10028260 f   IMGCSCopy2d.obj
+ 0001:00027370       _IMGComplexStringCopyNoAlloc2d 10028370 f   IMGCSCopyNA2d.obj
+ 0001:000273e0       _IMGComplexStringFreeMem2d 100283e0 f   IMGCSFree2d.obj
+ 0001:00027cb0       _IMGComplexStringOffset2d  10028cb0 f   IMGCSOff2d.obj
+ 0001:00027d00       ??$IMGSerialize@UtagGComplexString2d@@@@YAXABVJIOStreamContext@@PAUtagGComplexString2d@@PAH@Z 10028d00 f i IMGCSRFS2d.obj
+ 0001:00027d40       ??$IMGReadFromStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z 10028d40 f i IMGCSRFS2d.obj
+ 0001:00027df0       _IMGComplexStringReadFromStream2d 10028df0 f   IMGCSRFS2d.obj
+ 0001:00027e00       _IMGComplexStringValid2d   10028e00 f   IMGCSVal2d.obj
+ 0001:00027fd0       ?Serialize@tagGComplexString2d@@QAEJABVJIOStreamContext@@@Z 10028fd0 f   IMGCSWTS2d.obj
+ 0001:00028090       ??$IMGWriteToStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z 10029090 f i IMGCSWTS2d.obj
+ 0001:00028140       _IMGComplexStringWriteToStream2d 10029140 f   IMGCSWTS2d.obj
+ 0001:00028150       _IMGBspCurve2dAllocMem     10029150 f   IMGCv2dAlloc.obj
+ 0001:00028240       _IMGBspCurve2dToIGRbsp_curve 10029240 f   IMGCv2dIcv.obj
+ 0001:00028270       _IMGBspCurve2dToIGRbsp_curveAllocOpt 10029270 f   IMGCv2dICvOp.obj
+ 0001:000287e0       _IMGBspCurve2dMultEndKnots 100297e0 f   IMGCv2dMEKts.obj
+ 0001:00028e50       _IMGBspCurve2dRadCenCrv    10029e50 f   IMGCv2dRCCv.obj
+ 0001:00028fc0       _IMBspCurveAlloc2d         10029fc0 f   IMGCvAllo2d.obj
+ 0001:00029060       _IMGBspCurveGetApproxLength2d 1002a060 f   IMGCvApLn2d.obj
+ 0001:000290e0       _IMGBspCurveToGBezier2d    1002a0e0 f   IMGCvBzCv2d.obj
+ 0001:00029420       _IMGBspCurveToBezierPoles2d 1002a420 f   IMGCvBzPo2d.obj
+ 0001:00029790       _IMGBspCurveChtPts2d       1002a790 f   IMGCvChtP2d.obj
+ 0001:00029d30       _IMBspCurveCopy2d          1002ad30 f   IMGCvCopy2d.obj
+ 0001:00029e30       _IMGBspCurveFit2d          1002ae30 f   IMGCvDFt2d.obj
+ 0001:0002a200       _IMGBspCurveGetEndPoints2d 1002b200 f   IMGCvEPts2d.obj
+ 0001:0002a260       _IMGBspCurveExtend2d       1002b260 f   IMGCvExt2d.obj
+ 0001:0002a360       _IMGBspCurveFreeBezierPoles2d 1002b360 f   IMGCvFBPo2d.obj
+ 0001:0002a390       _IMBspCurveFree2d          1002b390 f   IMGCvFree2d.obj
+ 0001:0002a3c0       _IMGBspCurveFreeMem2d      1002b3c0 f   IMGCvFrEl2d.obj
+ 0001:0002a400       _IMGBspCurveGetBspCurveRange2d 1002b400 f   IMGCvGCvR2d.obj
+ 0001:0002a660       _IMGBspCurveGetParameterRange2d 1002b660 f   IMGCvGPrR2d.obj
+ 0001:0002a690       _IMGBspCurveIsClosed2d     1002b690 f   IMGCvGtCl2d.obj
+ 0001:0002a700       _IMGBspCurveGetDegree2d    1002b700 f   IMGCvGtDe2d.obj
+ 0001:0002a730       _IMGBspCurveGetForm2d      1002b730 f   IMGCvGtFm2d.obj
+ 0001:0002a750       _IMGBspCurveGetNodes2d     1002b750 f   IMGCvGtNd2d.obj
+ 0001:0002a880       _IMGBspCurveGetNumKnots2d  1002b880 f   IMGCvGtNK2d.obj
+ 0001:0002a8a0       _IMGBspCurveGetNumPoles2d  1002b8a0 f   IMGCvGtNP2d.obj
+ 0001:0002a8c0       _IMGBspCurveGetOrder2d     1002b8c0 f   IMGCvGtOr2d.obj
+ 0001:0002a8f0       _IMGBspCurveGetPole2d      1002b8f0 f   IMGCvGtPo2d.obj
+ 0001:0002a930       _IMGBspCurveIsPeriodic2d   1002b930 f   IMGCvGtPr2d.obj
+ 0001:0002a950       _IMGBspCurveGetPoles2d     1002b950 f   IMGCvGtPs2d.obj
+ 0001:0002a990       _IMGBspCurveIsRational2d   1002b990 f   IMGCvGtRa2d.obj
+ 0001:0002a9b0       _IMGBspCurveGetScope2d     1002b9b0 f   IMGCvGtSc2d.obj
+ 0001:0002a9d0       _IMGBspCurveGetWeights2d   1002b9d0 f   IMGCvGtWt2d.obj
+ 0001:0002aa20       _IMGBspCurveMerge2d        1002ba20 f   IMGCvMACv2d.obj
+ 0001:0002ac10       _IMGBspCurveMerge22d       1002bc10 f   IMGCvMg22d.obj
+ 0001:0002ad30       _IMGBspCurveMergenn2d      1002bd30 f   IMGCvMgnn2d.obj
+ 0001:0002b540       _IMGBspCurveModify2d       1002c540 f   IMGCvMSCv2d.obj
+ 0001:0002b640       _IMGBspCurveOffset2d       1002c640 f   IMGCvOff2d.obj
+ 0001:0002b7b0       ?ComputeUniformKnots@@YAXAAUtagGBspCurve2d@@PAH@Z 1002c7b0 f i IMGCvOPKW2d.obj
+ 0001:0002b8b0       _IMGBspCurveByOrPoKnWeMem2d 1002c8b0 f   IMGCvOPKW2d.obj
+ 0001:0002b9f0       _IMGBspCurveGetParameterFromPosition2d 1002c9f0 f   IMGCvPrPs2d.obj
+ 0001:0002ba30       _IMGBspCurveGetParameterFromRatio2d 1002ca30 f   IMGCvPrRa2d.obj
+ 0001:0002ba80       _IMGBspCurveGPosition2dToBezierPnts2d 1002ca80 f   IMGCvPsBPt2d.obj
+ 0001:0002bb70       _IMGBspCurveGetPositionFromParameter2d 1002cb70 f   IMGCvPsPr2d.obj
+ 0001:0002bbb0       _IMGBspCurveGetPositionFromRatio2d 1002cbb0 f   IMGCvPsRa2d.obj
+ 0001:0002bcb0       _IMGBspCurveGetRatioFromParameter2d 1002ccb0 f   IMGCvRaPr2d.obj
+ 0001:0002bda0       _IMGBspCurveGetRatioFromPosition2d 1002cda0 f   IMGCvRaPs2d.obj
+ 0001:0002bdf0       _IMGBspCurveSetProperties2d 1002cdf0 f   IMGCvSPrp2d.obj
+ 0001:0002be40       _IMGBspCurveSplitInTwo2d   1002ce40 f   IMGCvSpt22d.obj
+ 0001:0002c2a0       _IMGBspCurveSplitAct2d     1002d2a0 f   IMGCvSptA2d.obj
+ 0001:0002c460       _IMGBspCurveByNull2d       1002d460 f   IMGCvStNl2d.obj
+ 0001:0002c490       _IMGBspCurveSetPole2d      1002d490 f   IMGCvStPo2d.obj
+ 0001:0002c5e0       _IMGEllipse2dToIGRbsp_curve 1002d5e0 f   IMGEl2dIcv.obj
+ 0001:0002c660       ??$IMGSerialize@UtagGEllipse2d@@@@YAXABVJIOStreamContext@@PAUtagGEllipse2d@@PAH@Z 1002d660 f i IMGElRFS2d.obj
+ 0001:0002c6a0       ??$IMGReadFromStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z 1002d6a0 f i IMGElRFS2d.obj
+ 0001:0002c750       _IMGEllipseReadFromStream2d 1002d750 f   IMGElRFS2d.obj
+ 0001:0002c760       ?Serialize@tagGEllipse2d@@QAEJABVJIOStreamContext@@@Z 1002d760 f   IMGElWTS2d.obj
+ 0001:0002c7b0       ??$IMGWriteToStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z 1002d7b0 f i IMGElWTS2d.obj
+ 0001:0002c860       _IMGEllipseWriteToStream2d 1002d860 f   IMGElWTS2d.obj
+ 0001:0002c870       _IMGetBspCurveDiscontinuity2d 1002d870 f   IMGetCvDCT2d.obj
+ 0001:0002d0e0       ?size@?$vector@HV?$allocator@H@std@@@std@@QBEIXZ 1002e0e0 f i IMGetHatchBdry2d.obj
+ 0001:0002d100       ??A?$vector@HV?$allocator@H@std@@@std@@QAEAAHI@Z 1002e100 f i IMGetHatchBdry2d.obj
+ 0001:0002d130       ??0bad_alloc@std@@QAE@PBD@Z 1002e130 f i IMGetHatchBdry2d.obj
+ 0001:0002d190       ??1bad_alloc@std@@UAE@XZ   1002e190 f i IMGetHatchBdry2d.obj
+ 0001:0002d1e0       ??_Ebad_alloc@std@@UAEPAXI@Z 1002e1e0 f i IMGetHatchBdry2d.obj
+ 0001:0002d1e0       ??_Gbad_alloc@std@@UAEPAXI@Z 1002e1e0 f i IMGetHatchBdry2d.obj
+ 0001:0002d250       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1002e250 f i IMGetHatchBdry2d.obj
+ 0001:0002d2c0       ??1logic_error@std@@UAE@XZ 1002e2c0 f i IMGetHatchBdry2d.obj
+ 0001:0002d320       ?what@logic_error@std@@UBEPBDXZ 1002e320 f i IMGetHatchBdry2d.obj
+ 0001:0002d330       ??_Elogic_error@std@@UAEPAXI@Z 1002e330 f i IMGetHatchBdry2d.obj
+ 0001:0002d330       ??_Glogic_error@std@@UAEPAXI@Z 1002e330 f i IMGetHatchBdry2d.obj
+ 0001:0002d350       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1002e350 f i IMGetHatchBdry2d.obj
+ 0001:0002d3b0       ??1length_error@std@@UAE@XZ 1002e3b0 f i IMGetHatchBdry2d.obj
+ 0001:0002d400       ??_Elength_error@std@@UAEPAXI@Z 1002e400 f i IMGetHatchBdry2d.obj
+ 0001:0002d400       ??_Glength_error@std@@UAEPAXI@Z 1002e400 f i IMGetHatchBdry2d.obj
+ 0001:0002d460       ??$_Push_heap@PANHN@std@@YAXPANHHN@Z 1002e460 f i IMGetHatchBdry2d.obj
+ 0001:0002d4c0       ??0bad_alloc@std@@QAE@ABV01@@Z 1002e4c0 f i IMGetHatchBdry2d.obj
+ 0001:0002d520       ?_Xlen@?$vector@HV?$allocator@H@std@@@std@@KAXXZ 1002e520 f i IMGetHatchBdry2d.obj
+ 0001:0002d580       ??0logic_error@std@@QAE@ABV01@@Z 1002e580 f i IMGetHatchBdry2d.obj
+ 0001:0002d5f0       ??0length_error@std@@QAE@ABV01@@Z 1002e5f0 f i IMGetHatchBdry2d.obj
+ 0001:0002d650       ?allocate@?$allocator@H@std@@QAEPAHI@Z 1002e650 f i IMGetHatchBdry2d.obj
+ 0001:0002d6a0       ?_Xlen@?$vector@NV?$allocator@N@std@@@std@@KAXXZ 1002e6a0 f i IMGetHatchBdry2d.obj
+ 0001:0002d700       ?allocate@?$allocator@N@std@@QAEPANI@Z 1002e700 f i IMGetHatchBdry2d.obj
+ 0001:0002d750       ??$_Med3@PAN@std@@YAXPAN00@Z 1002e750 f i IMGetHatchBdry2d.obj
+ 0001:0002d7a0       ??$_Adjust_heap@PANHN@std@@YAXPANHHN@Z 1002e7a0 f i IMGetHatchBdry2d.obj
+ 0001:0002d810       ??$fill@PANN@std@@YAXPAN0ABN@Z 1002e810 f i IMGetHatchBdry2d.obj
+ 0001:0002d830       ??$_Unchecked_move_backward@PANPAN@stdext@@YAPANPAN00@Z 1002e830 f i IMGetHatchBdry2d.obj
+ 0001:0002d860       ??$fill@PAHH@std@@YAXPAH0ABH@Z 1002e860 f i IMGetHatchBdry2d.obj
+ 0001:0002d880       ??$_Unchecked_move_backward@PAHPAH@stdext@@YAPAHPAH00@Z 1002e880 f i IMGetHatchBdry2d.obj
+ 0001:0002d8b0       ??$_Median@PAN@std@@YAXPAN00@Z 1002e8b0 f i IMGetHatchBdry2d.obj
+ 0001:0002d940       ??$_Make_heap@PANHN@std@@YAXPAN0PAH0@Z 1002e940 f i IMGetHatchBdry2d.obj
+ 0001:0002d980       ??$_Insertion_sort1@PANN@std@@YAXPAN00@Z 1002e980 f i IMGetHatchBdry2d.obj
+ 0001:0002da30       ??1?$vector@HV?$allocator@H@std@@@std@@QAE@XZ 1002ea30 f i IMGetHatchBdry2d.obj
+ 0001:0002da60       ??$_Unguarded_partition@PAN@std@@YA?AU?$pair@PANPAN@0@PAN0@Z 1002ea60 f i IMGetHatchBdry2d.obj
+ 0001:0002dd20       ??$_Umove@PAN@?$vector@NV?$allocator@N@std@@@std@@IAEPANPAN00@Z 1002ed20 f i IMGetHatchBdry2d.obj
+ 0001:0002dd60       ??$_Umove@PAH@?$vector@HV?$allocator@H@std@@@std@@IAEPAHPAH00@Z 1002ed60 f i IMGetHatchBdry2d.obj
+ 0001:0002dda0       ??$_Sort_heap@PAN@std@@YAXPAN0@Z 1002eda0 f i IMGetHatchBdry2d.obj
+ 0001:0002ddf0       ?_Ufill@?$vector@NV?$allocator@N@std@@@std@@IAEPANPANIABN@Z 1002edf0 f i IMGetHatchBdry2d.obj
+ 0001:0002de20       ?_Ufill@?$vector@HV?$allocator@H@std@@@std@@IAEPAHPAHIABH@Z 1002ee20 f i IMGetHatchBdry2d.obj
+ 0001:0002de50       ?_Insert_n@?$vector@NV?$allocator@N@std@@@std@@IAEXV?$_Vector_iterator@NV?$allocator@N@std@@@2@IABN@Z 1002ee50 f i IMGetHatchBdry2d.obj
+ 0001:0002e0a0       ?_Insert_n@?$vector@HV?$allocator@H@std@@@std@@IAEXV?$_Vector_iterator@HV?$allocator@H@std@@@2@IABH@Z 1002f0a0 f i IMGetHatchBdry2d.obj
+ 0001:0002e2f0       ?insert@?$vector@NV?$allocator@N@std@@@std@@QAE?AV?$_Vector_iterator@NV?$allocator@N@std@@@2@V32@ABN@Z 1002f2f0 f i IMGetHatchBdry2d.obj
+ 0001:0002e380       ?insert@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@HV?$allocator@H@std@@@2@V32@ABH@Z 1002f380 f i IMGetHatchBdry2d.obj
+ 0001:0002e410       ??$_Sort@PANH@std@@YAXPAN0H@Z 1002f410 f i IMGetHatchBdry2d.obj
+ 0001:0002e4e0       ?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEXABN@Z 1002f4e0 f i IMGetHatchBdry2d.obj
+ 0001:0002e550       ?push_back@?$vector@HV?$allocator@H@std@@@std@@QAEXABH@Z 1002f550 f i IMGetHatchBdry2d.obj
+ 0001:0002f8c0       _IMGetHatchingBoundary2d   100308c0 f   IMGetHatchBdry2d.obj
+ 0001:00030920       _IMGetTypedCurveOrientation2d 10031920 f   IMGetTCOrnt2d.obj
+ 0001:00030a10       ??$IMGSerialize@UtagGFitCurve2d@@@@YAXABVJIOStreamContext@@PAUtagGFitCurve2d@@PAH@Z 10031a10 f i IMGFCRFS2d.obj
+ 0001:00030a50       ??$IMGReadFromStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z 10031a50 f i IMGFCRFS2d.obj
+ 0001:00030b00       _IMGFitCurveReadFromStream2d 10031b00 f   IMGFCRFS2d.obj
+ 0001:00030b10       ?Serialize@tagGFitCurve2d@@QAEJABVJIOStreamContext@@@Z 10031b10 f   IMGFCWTS2d.obj
+ 0001:00030d10       ??$IMGWriteToStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z 10031d10 f i IMGFCWTS2d.obj
+ 0001:00030dc0       _IMGFitCurveWriteToStream2d 10031dc0 f   IMGFCWTS2d.obj
+ 0001:00030dd0       _IMGetGComplexString2dEndPts 10031dd0 f   IMGGCS2dEPts.obj
+ 0001:00030e30       _IMGetGTypedCurve2dEndPts  10031e30 f   IMGGTC2dEPts.obj
+ 0001:00030ff0       _IMGLine2dToIGRbsp_curve   10031ff0 f   IMGLn2dIcv.obj
+ 0001:00031010       _IMGLine2dToIGRbsp_curveOpt 10032010 f   IMGLn2dIcvOp.obj
+ 0001:000310d0       ??$IMGSerialize@UtagGLine2d@@@@YAXABVJIOStreamContext@@PAUtagGLine2d@@PAH@Z 100320d0 f i IMGLnRFS2d.obj
+ 0001:00031110       ??$IMGReadFromStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z 10032110 f i IMGLnRFS2d.obj
+ 0001:000311c0       _IMGLineReadFromStream2d   100321c0 f   IMGLnRFS2d.obj
+ 0001:000311d0       ?Serialize@tagGLine2d@@QAEJABVJIOStreamContext@@@Z 100321d0 f   IMGLnWTS2d.obj
+ 0001:00031220       ??$IMGWriteToStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z 10032220 f i IMGLnWTS2d.obj
+ 0001:000312d0       _IMGLineWriteToStream2d    100322d0 f   IMGLnWTS2d.obj
+ 0001:000312e0       _IMLineString2dAllocMem    100322e0 f   IMGLS2dAlloc.obj
+ 0001:00031320       _IMGLineString2dToIGRbsp_curve 10032320 f   IMGLS2dIcv.obj
+ 0001:00031fe0       _IMLineStringOffset2d      10032fe0 f   IMGLSOff2d.obj
+ 0001:00032b60       ??$IMGSerialize@UtagGLineString2d@@@@YAXABVJIOStreamContext@@PAUtagGLineString2d@@PAH@Z 10033b60 f i IMGLSRFS2d.obj
+ 0001:00032ba0       ??$IMGReadFromStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z 10033ba0 f i IMGLSRFS2d.obj
+ 0001:00032c50       _IMGLineStringReadFromStream2d 10033c50 f   IMGLSRFS2d.obj
+ 0001:00032c60       ?Serialize@tagGLineString2d@@QAEJABVJIOStreamContext@@@Z 10033c60 f   IMGLSWTS2d.obj
+ 0001:00032d10       ??$IMGWriteToStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z 10033d10 f i IMGLSWTS2d.obj
+ 0001:00032dc0       _IMGLineStringWriteToStream2d 10033dc0 f   IMGLSWTS2d.obj
+ 0001:00032dd0       ??$IMGSerialize@UtagGMatrix2d@@@@YAXABVJIOStreamContext@@PAUtagGMatrix2d@@PAH@Z 10033dd0 f i IMGMRFS2d.obj
+ 0001:00032e10       ??$IMGReadFromStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z 10033e10 f i IMGMRFS2d.obj
+ 0001:00032ec0       _IMGMatrixReadFromStream2d 10033ec0 f   IMGMRFS2d.obj
+ 0001:00032ed0       ??$IMGWriteToStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z 10033ed0 f i IMGMWTS2d.obj
+ 0001:00032f80       _IMGMatrixWriteToStream2d  10033f80 f   IMGMWTS2d.obj
+ 0001:00032f90       ??$IMGSerialize@UtagGPosition2d@@@@YAXABVJIOStreamContext@@PAUtagGPosition2d@@PAH@Z 10033f90 f i IMGPRFS2d.obj
+ 0001:00032fd0       ??$IMGReadFromStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z 10033fd0 f i IMGPRFS2d.obj
+ 0001:00033080       _IMGPositionReadFromStream2d 10034080 f   IMGPRFS2d.obj
+ 0001:00033090       _IMGPoint2dToIGRbsp_curve  10034090 f   IMGPt2dIcv.obj
+ 0001:00033110       ??$IMGWriteToStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z 10034110 f i IMGPWTS2d.obj
+ 0001:000331c0       _IMGPositionWriteToStream2d 100341c0 f   IMGPWTS2d.obj
+ 0001:000331d0       _IMGraham2d                100341d0 f   IMGraham2d.obj
+ 0001:000337d0       _IMGRectangle2dToIGRbsp_curve 100347d0 f   IMGRc2dIcv.obj
+ 0001:00033990       ??$IMGSerialize@UtagGRectangle2d@@@@YAXABVJIOStreamContext@@PAUtagGRectangle2d@@PAH@Z 10034990 f i IMGRtRFS2d.obj
+ 0001:000339d0       ??$IMGReadFromStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z 100349d0 f i IMGRtRFS2d.obj
+ 0001:00033a80       _IMGRectangleReadFromStream2d 10034a80 f   IMGRtRFS2d.obj
+ 0001:00033a90       ?Serialize@tagGRectangle2d@@QAEJABVJIOStreamContext@@@Z 10034a90 f   IMGRtWTS2d.obj
+ 0001:00033ad0       ??$IMGWriteToStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z 10034ad0 f i IMGRtWTS2d.obj
+ 0001:00033b80       _IMGRectangleWriteToStream2d 10034b80 f   IMGRtWTS2d.obj
+ 0001:00033b90       _IMGTypedCurve2dAllocMem   10034b90 f   IMGTC2dAlloc.obj
+ 0001:00033c00       _IMGTypedCurve2dToIGRbsp_curve 10034c00 f   IMGTC2dIcv.obj
+ 0001:00033c80       _IMGTypedCurveFreeAll2d    10034c80 f   IMGTCFA2d.obj
+ 0001:00033cb0       _IMGTypedCurveFreeMem2d    10034cb0 f   IMGTCFree2d.obj
+ 0001:00033d20       ??$IMGSerialize@UtagGTypedCurve2d@@@@YAXABVJIOStreamContext@@PAUtagGTypedCurve2d@@PAH@Z 10034d20 f i IMGTCRFS2d.obj
+ 0001:00033d60       ??$IMGReadFromStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z 10034d60 f i IMGTCRFS2d.obj
+ 0001:00033e10       _IMGTypedCurveReadFromStream2d 10034e10 f   IMGTCRFS2d.obj
+ 0001:00033e20       _IMGTypedCurveValid2d      10034e20 f   IMGTCVal2d.obj
+ 0001:00034200       _IMGTypedCurvesLink2d      10035200 f   IMGTCvLnk2d.obj
+ 0001:00034360       _IMGetBspCurveOrientation2d 10035360 f   IMGtCvOrt2d.obj
+ 0001:000344f0       ?Serialize@tagGTypedCurve2d@@QAEJABVJIOStreamContext@@@Z 100354f0 f   IMGTCWTS2d.obj
+ 0001:000346a0       ??$IMGWriteToStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z 100356a0 f i IMGTCWTS2d.obj
+ 0001:00034750       _IMGTypedCurveWriteToStream2d 10035750 f   IMGTCWTS2d.obj
+ 0001:00034760       _IMGTypedGeometryFreeAll2d 10035760 f   IMGTGFA2d.obj
+ 0001:00034790       _IMGTypedGeometryFreeMem2d 10035790 f   IMGTGFree2d.obj
+ 0001:00034810       _IMGTypedGeometryFreeInternalMem2d 10035810 f   IMGTGFreeInt2d.obj
+ 0001:00034880       _IMGetLineStringOrientation2d 10035880 f   IMGtLSOrt2d.obj
+ 0001:00034960       ??$IMGSerialize@UtagGTransf2d@@@@YAXABVJIOStreamContext@@PAUtagGTransf2d@@PAH@Z 10035960 f i IMGTRFS2d.obj
+ 0001:000349a0       ??$IMGReadFromStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z 100359a0 f i IMGTRFS2d.obj
+ 0001:00034a50       _IMGTransfReadFromStream2d 10035a50 f   IMGTRFS2d.obj
+ 0001:00034a60       ??$IMGWriteToStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z 10035a60 f i IMGTWTS2d.obj
+ 0001:00034b10       _IMGTransfWriteToStream2d  10035b10 f   IMGTWTS2d.obj
+ 0001:00034b20       ??$IMGSerialize@UtagGUnitVector2d@@@@YAXABVJIOStreamContext@@PAUtagGUnitVector2d@@PAH@Z 10035b20 f i IMGUVRFS2d.obj
+ 0001:00034b60       ??$IMGReadFromStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z 10035b60 f i IMGUVRFS2d.obj
+ 0001:00034c10       _IMGUnitVectorReadFromStream2d 10035c10 f   IMGUVRFS2d.obj
+ 0001:00034c20       ??$IMGWriteToStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z 10035c20 f i IMGUVWTS2d.obj
+ 0001:00034cd0       _IMGUnitVectorWriteToStream2d 10035cd0 f   IMGUVWTS2d.obj
+ 0001:00034ce0       ??$IMGSerialize@UtagGVector2d@@@@YAXABVJIOStreamContext@@PAUtagGVector2d@@PAH@Z 10035ce0 f i IMGVRFS2d.obj
+ 0001:00034d20       ??$IMGReadFromStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z 10035d20 f i IMGVRFS2d.obj
+ 0001:00034dd0       _IMGVectorReadFromStream2d 10035dd0 f   IMGVRFS2d.obj
+ 0001:00034de0       ??$IMGWriteToStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z 10035de0 f i IMGVWTS2d.obj
+ 0001:00034e90       _IMGVectorWriteToStream2d  10035e90 f   IMGVWTS2d.obj
+ 0001:00034ea0       _IMIGRarcToGArc2d          10035ea0 f   IMIarGAr2d.obj
+ 0001:000350c0       _IMIGRbsp_curveToGArc2d    100360c0 f   IMIcvGAr2d.obj
+ 0001:000355d0       _IMIGRbsp_curveToGBspCurve2d 100365d0 f   IMIcvGCv2d.obj
+ 0001:00035600       _IMIGRbsp_curveToGBspCurveAllocOpt2d 10036600 f   IMICvGCvOp2d.obj
+ 0001:00035730       _IMIGRbsp_curveToGEllipse2d 10036730 f   IMIcvGEl2d.obj
+ 0001:00035ac0       _IMIGRbsp_curveToGLine2d   10036ac0 f   IMIcvGLn2d.obj
+ 0001:00035bc0       _IMIGRbsp_curveToGLineString2d 10036bc0 f   IMIcvGLS2d.obj
+ 0001:00035be0       _IMIGRbsp_curveToGLineStringOpt2d 10036be0 f   IMIcvGLSOp2d.obj
+ 0001:00035cb0       _IMIGRbsp_curveToGPoint2d  10036cb0 f   IMIcvGPt2d.obj
+ 0001:00035d20       _IMIGRbsp_curveToGRectangle2d 10036d20 f   IMIcvGRc2d.obj
+ 0001:00036280       _IMIGRbsp_curveToGTypedCurve2d 10037280 f   IMIcvGTC2d.obj
+ 0001:00036360       _IMIGRellipseToGEllipse2d  10037360 f   IMIelGEl2d.obj
+ 0001:00036420       _IMInitializeDbglev20      10037420 f   IMIntDbg20.obj
+ 0001:00036870       _IMIsTwoInfTypedCurvesTangent2d 10037870 f   IMIsTCsTan2d.obj
+ 0001:00037360       _IMKnotsNormalize2d        10038360 f   IMKnotsNor2d.obj
+ 0001:000373f0       _IMGLine2dToGBspCurve2d    100383f0 f   IMLn2dCv2d.obj
+ 0001:00037500       _IMLnTwoPtsHorizontal2d    10038500 f   IMLn2PtsHori2d.obj
+ 0001:00037580       _IMLnTwoPtsVertical2d      10038580 f   IMLn2PtsVer2d.obj
+ 0001:00037600       _IMLineCopy2d              10038600 f   IMLnCopy2d.obj
+ 0001:00037640       _IMLineExtendDistance2d    10038640 f   IMLnExDst2d.obj
+ 0001:000376c0       _IMLineExtendToPoint2d     100386c0 f   IMLnExPt2d.obj
+ 0001:00037750       _IMLineGetDistancePtToLine2d 10038750 f   IMLnGDPLn2d.obj
+ 0001:000378b0       _IMLineGetEndPoints2d      100388b0 f   IMLnGEPts2d.obj
+ 0001:00037990       _IMLineGetParameterFromPosition2d 10038990 f   IMLnGPrPs2d.obj
+ 0001:000379e0       _IMLineGetPositionFromParameter2d 100389e0 f   IMLnGPsPr2d.obj
+ 0001:00037a60       _IMLineGetPositionFromRatio2d 10038a60 f   IMLnGPsRt2d.obj
+ 0001:00037b60       _IMLineGetRatioFromPosition2d 10038b60 f   IMLnGRtPs2d.obj
+ 0001:00037c60       _IMLineGetAngle2d          10038c60 f   IMLnGtAng2d.obj
+ 0001:00037cb0       _IMEllipseGetMajorAxis2d   10038cb0 f   IMElGtMAx2d.obj
+ 0001:00037cb0       _IMRectGetWidthVector2d    10038cb0 f   IMRcGtWV2d.obj
+ 0001:00037cb0       _IMLineGetDirectionVector2d 10038cb0 f   IMLnGtDVc2d.obj
+ 0001:00037ce0       _IMLineGetEndParameter2d   10038ce0 f   IMLnGtEPr2d.obj
+ 0001:00037d00       _IMLineGetEndPoint2d       10038d00 f   IMLnGtEPt2d.obj
+ 0001:00037d80       _IMLineGetLength2d         10038d80 f   IMLnGtLen2d.obj
+ 0001:00037dd0       _IMLineGetApproxMidPoint2d 10038dd0 f   IMLnGtMPt2d.obj
+ 0001:00037e00       _IMLineGetOffset2d         10038e00 f   IMLnGtOff2d.obj
+ 0001:00037f60       _IMLineGetPerp2d           10038f60 f   IMLnGtPrp2d.obj
+ 0001:00038010       _IMLineGetParameterRange2d 10039010 f   IMLnGtPrR2d.obj
+ 0001:00038040       _IMEllipseGetMinorMajorRatio2d 10039040 f   IMElGtRat2d.obj
+ 0001:00038040       _IMLineGetStartParameter2d 10039040 f   IMLnGtSPr2d.obj
+ 0001:00038060       _IMLineHorizontal2d        10039060 f   IMLnHori2d.obj
+ 0001:000380d0       _IMLinkTypedCurves2d       100390d0 f   IMLnkTCvs2d.obj
+ 0001:00038250       _IMLnLnExtendToInt2d       10039250 f   IMLnLnExX2d.obj
+ 0001:00038390       _IMLineByPtDirStEnd2d      10039390 f   IMLnPDSE2d.obj
+ 0001:00038400       _IMLineIsPositionOnLine2d  10039400 f   IMLnPsOn2d.obj
+ 0001:00038500       _IMLnPtColinear2d          10039500 f   IMLnPtColr2d.obj
+ 0001:00038570       _IMLineIsPointOn2d         10039570 f   IMLnPtOn2d.obj
+ 0001:000385d0       _IMGLineReverse2d          100395d0 f   IMLnRev2d.obj
+ 0001:00038620       _IMLineRangeBox2d          10039620 f   IMLnRgBx2d.obj
+ 0001:00038680       _IMLineByPtAngLen2d        10039680 f   IMLnSALLn2d.obj
+ 0001:000386f0       _IMLineByPtPtAng2d         100396f0 f   IMLnSEALn2d.obj
+ 0001:00038790       _IMLineByPtPtLen2d         10039790 f   IMLnSELLn2d.obj
+ 0001:00038840       _IMLineByPtPt2d            10039840 f   IMLnSELn2d.obj
+ 0001:00038860       _IMLineSetEndPoints2d      10039860 f   IMLnSEPts2d.obj
+ 0001:00038910       _IMLineSetDirectionVector2d 10039910 f   IMLnStDVc2d.obj
+ 0001:00038940       _IMLineSetEndParameter2d   10039940 f   IMLnStEPr2d.obj
+ 0001:00038970       _IMLineStringTransform2d   10039970 f   IMLnSTrn2d.obj
+ 0001:00038a20       _IMLineSetRootPoint2d      10039a20 f   IMLnStRPt2d.obj
+ 0001:00038a20       _IMEllipseSetCenter2d      10039a20 f   IMElStCen2d.obj
+ 0001:00038a20       _IMRectSetOrigin2d         10039a20 f   IMRcStOr2d.obj
+ 0001:00038a50       _IMLineSetStartParameter2d 10039a50 f   IMLnStSPr2d.obj
+ 0001:00038a80       _IMLineThroughRangeBox2d   10039a80 f   IMLnThRgBx2d.obj
+ 0001:00038bb0       _IMLineTransform2d         10039bb0 f   IMLnTrn2d.obj
+ 0001:00038c70       _IMLineValid2d             10039c70 f   IMLnVal2d.obj
+ 0001:00038cf0       _IMLineVertical2d          10039cf0 f   IMLnVer2d.obj
+ 0001:00038d60       _IMGLineString2dToGBspCurve2d 10039d60 f   IMLS2dCv2d.obj
+ 0001:00038f00       _IMLineStringAlloc2d       10039f00 f   IMLSAlloc2d.obj
+ 0001:00038fa0       _IMLineStringCheckSelfIntersect2d 10039fa0 f   IMLSChkSelf2d.obj
+ 0001:000390a0       _IMLineStringIsClosed2d    1003a0a0 f   IMLSClsd2d.obj
+ 0001:000390f0       _IMLineStringCopy2d        1003a0f0 f   IMLSCopy2d.obj
+ 0001:00039160       _IMLineStringExtrema2d     1003a160 f   IMLSExtr2d.obj
+ 0001:00039270       _IMLineStringFree2d        1003a270 f   IMLSFree2d.obj
+ 0001:000392a0       _IMLineStringFreePoints2d  1003a2a0 f   IMLSFrPts2d.obj
+ 0001:000392d0       _IMLineStringGetEndPoints2d 1003a2d0 f   IMLSGEPts2d.obj
+ 0001:00039330       ?MinDistance@@YANABUtagGPosition2d@@AAU1@1NN@Z 1003a330 f i IMLSGPrPs2d.obj
+ 0001:00039490       _IMLineStringGetParameterFromPosition2d 1003a490 f   IMLSGPrPs2d.obj
+ 0001:00039670       _IMLineStringGetParameterRange2d 1003a670 f   IMLSGPrR2d.obj
+ 0001:000396c0       _IMLineStringGetPositionFromParameter2d 1003a6c0 f   IMLSGPsPr2d.obj
+ 0001:000397f0       _GetGORIGIN_2D             1003a7f0 f i IMLSGPsRt2d.obj
+ 0001:00039830       _IMLineStringGetPositionFromRatio2d 1003a830 f   IMLSGPsRt2d.obj
+ 0001:000399a0       _IMLineStringGetRatioFromPosition2d 1003a9a0 f   IMLSGRtPs2d.obj
+ 0001:00039b80       _IMLineStringGetLength2d   1003ab80 f   IMLSGtLen2d.obj
+ 0001:00039be0       _IMLineStringGetLine2d     1003abe0 f   IMLSGtLn2d.obj
+ 0001:00039c20       _IMLineStringGetNumPoints2d 1003ac20 f   IMLSGtNPt2d.obj
+ 0001:00039c40       _IMLineStringGetPoint2d    1003ac40 f   IMLSGtPt2d.obj
+ 0001:00039c80       _IMLineStringGetPoints2d   1003ac80 f   IMLSGtPts2d.obj
+ 0001:00039ca0       _IMLineStringGetScope2d    1003aca0 f   IMLSGtSc2d.obj
+ 0001:00039cc0       ?MinDistanceSquare@@YANABUtagGPosition2d@@AAU1@1NN@Z 1003acc0 f i IMLSMD2Pt2d.obj
+ 0001:00039dc0       _IMLineStringMinDist2Pt2d  1003adc0 f   IMLSMD2Pt2d.obj
+ 0001:0003a160       _IMLeastSquareLineFit2d    1003b160 f   IMLsqLnFit2d.obj
+ 0001:0003a6c0       _IMLeastSqPointLinePlane2d 1003b6c0 f   IMLSqPtLnPl2d.obj
+ 0001:0003aaa0       _IMLineStringReverse2d     1003baa0 f   IMLSRev2d.obj
+ 0001:0003ab60       _IMLineStringRangeBox2d    1003bb60 f   IMLSRgBx2d.obj
+ 0001:0003aba0       _IMLineStringByNumPtsPts2d 1003bba0 f   IMLSStNPt2d.obj
+ 0001:0003ac30       _IMLineStringSetProperties2d 1003bc30 f   IMLSStPrp2d.obj
+ 0001:0003ae60       _IMLineStringSetPoint2d    1003be60 f   IMLSStPt2d.obj
+ 0001:0003aeb0       _IMLineStringValid2d       1003beb0 f   IMLSVal2d.obj
+ 0001:0003af40       _IMLineStringVaringOffset2d 1003bf40 f   IMLSVarOff2d.obj
+ 0001:0003b520       ?outputIMMDArTC2d@@YAXAAUtagGLine2d@@AAUtagGArc2d@@AAUtagGTypedCurve2d@@AAUtagGPosition2d@@3PAN44PAH@Z 1003c520 f i IMMDArTC2d.obj
+ 0001:0003b590       _IMMinDistArcTypedCurve2d  1003c590 f   IMMDArTC2d.obj
+ 0001:0003b790       _IMMinDistInfArAr2d        1003c790 f   IMMDIArAr2d.obj
+ 0001:0003ba10       _IMMinDistInfArCv2d        1003ca10 f   IMMDIArCv2d.obj
+ 0001:0003bd00       _IMMinDistInfArPt2d        1003cd00 f   IMMDIArPt2d.obj
+ 0001:0003bec0       _IMMinDistInfLnLn2d        1003cec0 f   IMMDILnLn2d.obj
+ 0001:0003c4f0       _IMMinDistInfLnPt2d        1003d4f0 f   IMMDILnPt2d.obj
+ 0001:0003c7d0       _IMMinDistInfTCTC2d        1003d7d0 f   IMMDITCTC2d.obj
+ 0001:0003caf0       ?outputIMMDLnTC2d@@YAXAAUtagGLine2d@@0AAUtagGTypedCurve2d@@AAUtagGPosition2d@@2PAN33PAH@Z 1003daf0 f i IMMDLnTC2d.obj
+ 0001:0003cb60       _IMMinDistLineTypedCurve2d 1003db60 f   IMMDLnTC2d.obj
+ 0001:0003cd80       _IMMinDistPtBspCv2d        1003dd80 f   IMMDPtCv2d.obj
+ 0001:0003cee0       _IMMinDistPtTCv2d          1003dee0 f   IMMDPtTC2d.obj
+ 0001:0003d110       _IMMinDistPtTCvWithProjPoint2d 1003e110 f   IMMDPtTCPj2d.obj
+ 0001:0003d3a0       _IMGetMemoryFunctionFlag   1003e3a0 f   IMMemory.obj
+ 0001:0003d3b0       _IMSetMemoryFunctionFlag   1003e3b0 f   IMMemory.obj
+ 0001:0003d3e0       _IMAlloc                   1003e3e0 f   IMMemory.obj
+ 0001:0003d3f0       _IMFree                    1003e3f0 f   IMMemory.obj
+ 0001:0003d400       _IMRealloc                 1003e400 f   IMMemory.obj
+ 0001:0003d410       _IMMakeC1GBspCurve2d       1003e410 f   IMMkC1Cv2d.obj
+ 0001:0003d990       _IMMinDistLnArEl2d         1003e990 f   IMMLArEl2d.obj
+ 0001:0003db10       _IMMinDistLnArPt2d         1003eb10 f   IMMLArPt2d.obj
+ 0001:0003dbf0       _IMMinDistLnCvCv2d         1003ebf0 f   IMMLCvCv2d.obj
+ 0001:0003dd50       _IMMinDistLnElEl2d         1003ed50 f   IMMLElEl2d.obj
+ 0001:0003ded0       _IMMinDistLnElPt2d         1003eed0 f   IMMLElPt2d.obj
+ 0001:0003e550       _IMMinDistLnILnAr2d        1003f550 f   IMMLILnAr2d.obj
+ 0001:0003e9f0       _IMMinDistLnILnEl2d        1003f9f0 f   IMMLILnEl2d.obj
+ 0001:0003ea50       _IMMinDistLnILnPt2d        1003fa50 f   IMMLILnPt2d.obj
+ 0001:0003ebb0       _IMMinDistLnLnCv2d         1003fbb0 f   IMMLLnCv2d.obj
+ 0001:0003f090       _IMMinDistLnLnPt2d         10040090 f   IMMLLnPt2d.obj
+ 0001:0003f160       _IMMinDistLnPtTCv2d        10040160 f   IMMLPtTC2d.obj
+ 0001:0003f260       _IMMinMaxDist2TypedCurvesWithParTangents 10040260 f   IMMnMx2TCPT2d.obj
+ 0001:00040540       _IMNumFilletLnLn2d         10041540 f   IMNFlLnLn2d.obj
+ 0001:00040c00       _IMNumFilletTCTC2d         10041c00 f   IMNFlTCTC2d.obj
+ 0001:00041260       _IMPhysicalAngleToParamAngle 10042260 f   IMPhyParAng.obj
+ 0001:00041360       _IMProjectPointOnArc2d     10042360 f   IMPjPtAr2d.obj
+ 0001:00041420       _IMProjectPointOnCurve2d   10042420 f   IMPjPtCv2d.obj
+ 0001:00041460       _IMProjectPointOnExtArc2d  10042460 f   IMPjPtEAr2d.obj
+ 0001:000417d0       _IMProjectPointOntoEllipEllipse2d 100427d0 f   IMPjPtEEl2d.obj
+ 0001:00041cb0       _IMProjectPointOnEllipse2d 10042cb0 f   IMPjPtEl2d.obj
+ 0001:00041da0       _IMProjectPointOnLine2d    10042da0 f   IMPjPtLn2d.obj
+ 0001:00041e10       _IMProjectPointOnTypeCurve2d 10042e10 f   IMPjPtTcv2d.obj
+ 0001:000420f0       _IMPolarSortPoints2d       100430f0 f   IMPolrSrtPts2d.obj
+ 0001:000425d0       _IMParAdjustByPeriod       100435d0 f   IMPrAdjPer.obj
+ 0001:00042660       _IMPrintCurve2d            10043660 f   IMPrintCurve2d.obj
+ 0001:00042800       _IMPrint_GArc2d            10043800 f   IMPrtGAr2d.obj
+ 0001:00042910       _IMPrint_GBoundaries2d     10043910 f   IMPrtGBdry2d.obj
+ 0001:000429b0       _IMPrint_GComplexString2d  100439b0 f   IMPrtGCS2d.obj
+ 0001:00042a60       _IMPrint_GBspCurve2d       10043a60 f   IMPrtGCv2d.obj
+ 0001:00042ce0       _IMPrint_GEllipse2d        10043ce0 f   IMPrtGEl2d.obj
+ 0001:00042e30       _IMPrint_GFitCurve2d       10043e30 f   IMPrtGFC2d.obj
+ 0001:00043070       _IMPrint_GLine2d           10044070 f   IMPrtGLn2d.obj
+ 0001:000431c0       _IMPrint_GLineString2d     100441c0 f   IMPrtGLS2d.obj
+ 0001:00043330       _IMPrint_GPoint2d          10044330 f   IMPrtGPt2d.obj
+ 0001:00043420       _IMPrint_GRectangle2d      10044420 f   IMPrtGRc2d.obj
+ 0001:00043560       _IMPrint_GTypedCurve2d     10044560 f   IMPrtGTC2d.obj
+ 0001:000436b0       _IMPrint_GTypedGeometry2d  100446b0 f   IMPrtGTGm2d.obj
+ 0001:00043820       _IMPtAtDistanceAlongBspCurve2d 10044820 f   IMPtADAlCv2d.obj
+ 0001:00043920       _IMPointAlongLine2d        10044920 f   IMPtAlLn2d.obj
+ 0001:000439c0       _IMGPtFenceCopyWithAlloc   100449c0 f   IMPtFcCopyWA.obj
+ 0001:00043a50       _GetGID_TRANSF             10044a50 f i IMPtFcTCV.obj
+ 0001:00043ac0       _IMPtFenceToClipVolume     10044ac0 f   IMPtFcTCV.obj
+ 0001:00044190       _IMGPtFrustumCopyWithAlloc 10045190 f   IMPtFrCopyWA.obj
+ 0001:000441f0       _IMGPtFenceFree            100451f0 f   IMPtFcFree.obj
+ 0001:000441f0       _IMGPtFrustumFree          100451f0 f   IMPtFrFree.obj
+ 0001:00044220       _IMPointInsideBspCurve2d   10045220 f   IMPtInCv2d.obj
+ 0001:000447e0       _IMIsPtInsideEllipse2d     100457e0 f   IMPtInEl2d.obj
+ 0001:00044990       ?Intersect@@YAXAAUtagGPosition2d@@00NPAJ@Z 10045990 f i IMPtInLS2d.obj
+ 0001:00044ac0       _IMPointInsideLineString2d 10045ac0 f   IMPtInLS2d.obj
+ 0001:00044d20       _IMIsPtInsideRectangle2d   10045d20 f   IMPtInRc2d.obj
+ 0001:00044e00       _IMPointsSortOnLine2d      10045e00 f   IMPtsSrtLn2d.obj
+ 0001:00044ee0       _IMqnwt2                   10045ee0 f   IMQNwt2.obj
+ 0001:00045890       ?ascendingSort@@YAXHHPAN@Z 10046890 f i IMQsort.obj
+ 0001:00045990       ?descendingSort@@YAXHHPAN@Z 10046990 f i IMQsort.obj
+ 0001:00045a90       _IMQsort                   10046a90 f   IMQsort.obj
+ 0001:00045ac0       _IMRectBy3Pts2d            10046ac0 f   IMRc3Pts2d.obj
+ 0001:00045c00       _IMRectangleCopy2d         10046c00 f   IMRcCopy2d.obj
+ 0001:00045c50       _IMRectangleGetParameterFromPosition2d 10046c50 f   IMRcGPrPs2d.obj
+ 0001:00045f10       _IMRectangleGetParameterRange2d 10046f10 f   IMRcGPrR2d.obj
+ 0001:00045f60       _IMRectangleGetPositionFromParameter2d 10046f60 f   IMRcGPsPr2d.obj
+ 0001:000461d0       _IMRectGetCorners2d        100471d0 f   IMRcGtCrs2d.obj
+ 0001:000462f0       _IMRectGetHeight2d         100472f0 f   IMRcGtH2d.obj
+ 0001:00046340       _IMRectGetHeightVector2d   10047340 f   IMRcGtHV2d.obj
+ 0001:000463c0       _IMLineGetRootPoint2d      100473c0 f   IMLnGtRPt2d.obj
+ 0001:000463c0       _IMRectGetOrigin2d         100473c0 f   IMRcGtOr2d.obj
+ 0001:000463c0       _IMEllipseGetCenter2d      100473c0 f   IMElGtCen2d.obj
+ 0001:000463f0       _IMRectGetOrientation2d    100473f0 f   IMRcGtOrt2d.obj
+ 0001:00046440       _IMRectGetRotAngle2d       10047440 f   IMRcGtRA2d.obj
+ 0001:00046460       _IMEllipseGetMajorRadius2d 10047460 f   IMElGtMRd2d.obj
+ 0001:00046460       _IMRectGetWidth2d          10047460 f   IMRcGtW2d.obj
+ 0001:00046480       _IMLineStringGetParameterTolerance2d 10047480 f   IMLSPrTl2d.obj
+ 0001:00046480       _IMRectangleGetKnotTolerance2d 10047480 f   IMRcKtTl2d.obj
+ 0001:000464a0       _IMRectangleOffset2d       100474a0 f   IMRcOff2d.obj
+ 0001:000468b0       _IMRectByPtPt2d            100478b0 f   IMRcPtPt2d.obj
+ 0001:000468f0       _IMRectByPtPtAngle2d       100478f0 f   IMRcPtPtA2d.obj
+ 0001:00046aa0       _IMRectangleReverse2d      10047aa0 f   IMRcRev2d.obj
+ 0001:00046b20       _IMRectangleRangeBox2d     10047b20 f   IMRcRgBx2d.obj
+ 0001:00046b70       _IMRectSetHeight2d         10047b70 f   IMRcStH2d.obj
+ 0001:00046b90       _IMRectSetOrientation2d    10047b90 f   IMRcStOrt2d.obj
+ 0001:00046c00       _IMRectSetRotAngle2d       10047c00 f   IMRcStRA2d.obj
+ 0001:00046ca0       _IMRectSetWidth2d          10047ca0 f   IMRcStW2d.obj
+ 0001:00046d40       _IMRectSetWidthVector2d    10047d40 f   IMRcStWV2d.obj
+ 0001:00046df0       _IMRectangleTransform2d    10047df0 f   IMRcTrn2d.obj
+ 0001:00046e70       _IMRectangleValid2d        10047e70 f   IMRcVal2d.obj
+ 0001:00046ed0       _IMRectByPtWidthHeightAngle2d 10047ed0 f   IMRcWHA2d.obj
+ 0001:00046fb0       _IMReadArc2d               10047fb0 f   IMRdAr2d.obj
+ 0001:000470a0       _IMReadArcOpt2d            100480a0 f   IMRdArOp2d.obj
+ 0001:00047230       _IMReadBoundary2d          10048230 f   IMRdBdry2d.obj
+ 0001:000472c0       _IMReadBoundaryOpt2d       100482c0 f   IMRdBdryOp2d.obj
+ 0001:00047390       _IMReadComplexString2d     10048390 f   IMRdCS2d.obj
+ 0001:00047450       _IMReadComplexStringOpt2d  10048450 f   IMRdCSOp2d.obj
+ 0001:00047550       _IMReadGBspCurve2d         10048550 f   IMRdCv2d.obj
+ 0001:000476a0       _IMReadGBspCurveOpt2d      100486a0 f   IMRdCvOp2d.obj
+ 0001:00047750       _IMReadEllipse2d           10048750 f   IMRdEl2d.obj
+ 0001:000478c0       _IMReadFitCurve2d          100488c0 f   IMRdFC2d.obj
+ 0001:00047af0       _IMReadFitCurveOpt2d       10048af0 f   IMRdFCOp2d.obj
+ 0001:00047d50       _IMRead_GArc2d             10048d50 f   IMRdGAr2d.obj
+ 0001:00047f30       _IMRead_GBoundaries2d      10048f30 f   IMRdGBdry2d.obj
+ 0001:000481d0       _IMRead_GComplexString2d   100491d0 f   IMRdGCS2d.obj
+ 0001:00048500       _IMRead_GBspCurve2d        10049500 f   IMRdGCv2d.obj
+ 0001:00048b90       _IMRead_GEllipse2d         10049b90 f   IMRdGEl2d.obj
+ 0001:00048e20       _IMRead_GFitCurve2d        10049e20 f   IMRdGFC2d.obj
+ 0001:000495a0       _IMRead_GLine2d            1004a5a0 f   IMRdGLn2d.obj
+ 0001:00049860       _IMRead_GLineString2d      1004a860 f   IMRdGLS2d.obj
+ 0001:00049b60       _IMRead_GPoint2d           1004ab60 f   IMRdGPt2d.obj
+ 0001:00049cd0       _IMRead_GRectangle2d       1004acd0 f   IMRdGRc2d.obj
+ 0001:00049f00       _IMRead_GTypedCurve2d      1004af00 f   IMRdGTC2d.obj
+ 0001:0004a1a0       _IMRead_GTypedGeometry2d   1004b1a0 f   IMRdGTGm2d.obj
+ 0001:0004a480       _IMReadLine2d              1004b480 f   IMRdLn2d.obj
+ 0001:0004a5f0       _IMReadLineString2d        1004b5f0 f   IMRdLS2d.obj
+ 0001:0004a770       _IMReadRectangle2d         1004b770 f   IMRdRc2d.obj
+ 0001:0004a860       _IMReadTypedCurveOpt2d     1004b860 f   IMRdTCOp2d.obj
+ 0001:0004a9c0       _IMReadGTypedCurve2d       1004b9c0 f   IMRdTCv2d.obj
+ 0001:0004adb0       _IMReadTypedGeometry2d     1004bdb0 f   IMRdTGm2d.obj
+ 0001:0004afc0       _IMStAngEndAngMaj2d        1004bfc0 f   IMSaEaMj2d.obj
+ 0001:0004b2f0       _IMSmoothBspCurveOffset2d  1004c2f0 f   IMSCvOff2d.obj
+ 0001:0004c050       _IMSetDistanceTolerance    1004d050 f   IMSDstTol.obj
+ 0001:0004c0c0       _IMSetFitTolerance         1004d0c0 f   IMSFitTol.obj
+ 0001:0004c130       _IMSetRelativeTolerance    1004d130 f   IMSRelTol.obj
+ 0001:0004c170       _IMSetBspTol               1004d170 f   IMStBspTol.obj
+ 0001:0004c220       _IMSetForm2d               1004d220 f   IMStForm2d.obj
+ 0001:0004c5c0       _IMSetFormCurve            1004d5c0 f   IMStFrmCv.obj
+ 0001:0004c9b0       _IMStrokeBspCv2d           1004d9b0 f   IMStrkBsp2d.obj
+ 0001:0004ca70       _IMStrokeCircle2d          1004da70 f   IMStrkCir2d.obj
+ 0001:0004cc70       _IMStrokeEllipse2d         1004dc70 f   IMStrkElp2d.obj
+ 0001:0004cf60       _IMStrokeTypedCurve2d      1004df60 f   IMStrkTC2d.obj
+ 0001:0004d370       _IMStrokeTypedCurveTolerance2d 1004e370 f   IMStrkTCTol2d.obj
+ 0001:0004d880       _IMSetScope                1004e880 f   IMStScope.obj
+ 0001:0004d930       _IMSetScope2d              1004e930 f   IMStScope2d.obj
+ 0001:0004dce0       _IMTypedCurve2dAllocWithCurve 1004ece0 f   IMTC2dAllocWC.obj
+ 0001:0004dd90       _IMTypedCurveAllocTypedCurve2d 1004ed90 f   IMTCAllocTC2d.obj
+ 0001:0004de30       _IMTypedCurveArcLengthMidPtPar2d 1004ee30 f   IMTCALMdPtPr2d.obj
+ 0001:0004dfb0       _IMTypedCurveApproxLength2d 1004efb0 f   IMTCApLen2d.obj
+ 0001:0004e290       _IMGTypedCurveBorelineLocate2d 1004f290 f   IMTCBorLo2d.obj
+ 0001:0004e370       _IMTypedCurveBoreLocate2d  1004f370 f   IMTCBrLo2d.obj
+ 0001:0004e3e0       _IMTypedCurveToBspCurve2d  1004f3e0 f   IMTCBspCv2d.obj
+ 0001:0004e6b0       _IMTypedCurveIsClosed2d    1004f6b0 f   IMTCClsd2d.obj
+ 0001:0004e790       _IMTypedCurveCopy2d        1004f790 f   IMTCCopy2d.obj
+ 0001:0004e860       _IMTypedCurveEvaluation2d  1004f860 f   IMTCEval2d.obj
+ 0001:0004ec80       _IMTypedCurveExtendByDist2d 1004fc80 f   IMTCExDst2d.obj
+ 0001:0004f030       _IMTypedCurveExtendByInfOrDist2d 10050030 f   IMTCExID2d.obj
+ 0001:0004f210       _IMTypedCurveExtendToPoint2d 10050210 f   IMTCExPt2d.obj
+ 0001:0004f430       _IMTypedCurveExtendToPointOnElement2d 10050430 f   IMTCExPtOn2d.obj
+ 0001:0004f670       _IMTypedCurveFenceLocate2d 10050670 f   IMTCFcLo2d.obj
+ 0001:0004f9b0       _IMTypedCurveFreeFields2d  100509b0 f   IMTCFreeFld2d.obj
+ 0001:0004fa10       _IMTypedCurveGetNumCurvature2d 10050a10 f   IMTCGetKs2d.obj
+ 0001:0004fd20       _IMTypedCurveCrossSeam2d   10050d20 f   IMTCGoSeam2d.obj
+ 0001:0004ff70       _IMGTypedCurveGetParameterFromPosition2d 10050f70 f   IMTCGPrPs2d.obj
+ 0001:00050020       _IMTypedCurveGetParameterRange2d 10051020 f   IMTCGPrR2d.obj
+ 0001:00050130       _IMTypedCurveGetParameterFromRatio2d 10051130 f   IMTCGPrRt2d.obj
+ 0001:000501d0       _IMGTypedCurveGetPositionFromParameter2d 100511d0 f   IMTCGPsPr2d.obj
+ 0001:000502d0       _IMTypedCurveGetRatioFromPosition2d 100512d0 f   IMTCGRtPs2d.obj
+ 0001:000503f0       _IMGTypedCurveInFence2d    100513f0 f   IMTCInFnc2d.obj
+ 0001:00050860       _IMTypedCurveGetKnotTolerance2d 10051860 f   IMTCKtTl2d.obj
+ 0001:00050a30       _IMTypedCurveLength2d      10051a30 f   IMTCLen2d.obj
+ 0001:00050b70       _IMTCvNorVec2d             10051b70 f   IMTCNor2d.obj
+ 0001:00050ce0       _IMTCNorVecEx2d            10051ce0 f   IMTCNorEx2d.obj
+ 0001:00050d90       _IMTypedCurveOffset2d      10051d90 f   IMTCOff2d.obj
+ 0001:00051140       _IMTypedCurvePartialDelete2d 10052140 f   IMTCParDel2d.obj
+ 0001:000518d0       _IMTypedCurvePartOfCurve2d 100528d0 f   IMTCPartOf2d.obj
+ 0001:00051e50       _IMTypedCurveParInRange2d  10052e50 f   IMTCPrInRg2d.obj
+ 0001:00052040       _IMTypedCurvePtGivenTangent2d 10053040 f   IMTCPtTan2d.obj
+ 0001:000525e0       _IMGTypedCurveRadiusCenter2d 100535e0 f   IMTCRdCtr2d.obj
+ 0001:00052760       _IMTypedCurveReverse2d     10053760 f   IMTCRev2d.obj
+ 0001:00052810       _IMTypedCurveRangeBox2d    10053810 f   IMTCRgBx2d.obj
+ 0001:000530a0       _IMTypedCurvesCenterArea2d 100540a0 f   IMTCsCenAr2d.obj
+ 0001:00053390       _IMGTypedCurvesGeometricallyEqual2d 10054390 f   IMTCsGeomEq2d.obj
+ 0001:000539f0       _IMTypedCurveGetSilhouette2d 100549f0 f   IMTCSilhouet2d.obj
+ 0001:00054180       _IMTypedCurveSelfIntersect2d 10055180 f   IMTCSlfInt2d.obj
+ 0001:00054820       _IMTypedCurveSplit2d       10055820 f   IMTCSplit2d.obj
+ 0001:00054e20       _IMTypedCurveSplitAct2d    10055e20 f   IMTCSptA2d.obj
+ 0001:00055240       _IMTypedCurvesIsPointInside2d 10056240 f   IMTCsPtIn2d.obj
+ 0001:000553e0       _IMGTypedCurveToGComplexString2d 100563e0 f   IMTCsToCSs2d.obj
+ 0001:000555a0       _IMTCvTanVec2d             100565a0 f   IMTCTan2d.obj
+ 0001:00055960       _IMTCTanVecEx2d            10056960 f   IMTCTanEx2d.obj
+ 0001:00055ce0       _IMTCTCExtendToInt2d       10056ce0 f   IMTCTCExX2d.obj
+ 0001:00056160       _IMTCTCRangeBox2d          10057160 f   IMTCTCRgBx2d.obj
+ 0001:00056220       ?LnByTwoPtsIMTCTr4x42d@@YAXAAUtagGPosition2d@@0AAUtagGTypedCurve2d@@PAH@Z 10057220 f i IMTCTr4x42d.obj
+ 0001:000566a0       _IMTypedCurveTransform4x42d 100576a0 f   IMTCTr4x42d.obj
+ 0001:00056ec0       _IMTypedCurveTrimToInside2d 10057ec0 f   IMTCTrIn2d.obj
+ 0001:00057500       _IMTypedCurveTransform2d   10058500 f   IMTCTrn2d.obj
+ 0001:00057690       _IMTypedCurveToTypedGeom2d 10058690 f   IMTCTTGm2d.obj
+ 0001:00057820       _IMGTypedCurveCopyWithAlloc2d 10058820 f   IMTCvCopyWA2d.obj
+ 0001:00057950       _IMTypedGeometry2dAllocWithGeom 10058950 f   IMTG2dAllocWG.obj
+ 0001:00057a00       _IMTypedGeometryCopy2d     10058a00 f   IMTGCopy2d.obj
+ 0001:00057b20       _IMGTypedGeometryCopyWithAlloc2d 10058b20 f   IMTGCopyWA2d.obj
+ 0001:00057c70       _IMTypedGeomToPos2d        10058c70 f   IMTGmTPs2d.obj
+ 0001:00057ca0       _IMTypedGeomToTypedCurve2d 10058ca0 f   IMTGmTTC2d.obj
+ 0001:00057cf0       _IMTypedGeometryTransform2d 10058cf0 f   IMTGTrn2d.obj
+ 0001:00058280       _IMTrimTCTCFill2d          10059280 f   IMTrTCTCF2d.obj
+ 0001:00058360       _IMTrimTypedCurveWithTypedCurves2d 10059360 f   IMTrTCWTCs2d.obj
+ 0001:000589a0       _IMIntersectArAr2d         100599a0 f   IMXArAr2d.obj
+ 0001:00058c80       _IMIntersectCvCv2d         10059c80 f   IMXCvCv2d.obj
+ 0001:00059950       _IMIntersectElEl2d         1005a950 f   IMXElEl2d.obj
+ 0001:0005af10       _IMIntersectInfArEl2d      1005bf10 f   IMXIArEl2d.obj
+ 0001:0005b7b0       _IMIntersectInfLnAr2d      1005c7b0 f   IMXILnAr2d.obj
+ 0001:0005c3b0       _IMIntersectInfLnLn2d      1005d3b0 f   IMXILnLn2d.obj
+ 0001:0005c6c0       _IMExtForIMXITCTC2d        1005d6c0 f   IMXITCTC2d.obj
+ 0001:0005c870       _IMIntersectInfTCTC2d      1005d870 f   IMXITCTC2d.obj
+ 0001:0005c980       _IMIntersectLnAr2d         1005d980 f   IMXLnAr2d.obj
+ 0001:0005cac0       _IMIntersectLnLn2d         1005dac0 f   IMXLnLn2d.obj
+ 0001:0005cfc0       ?IsIntersect@@YAHAAUtagGBox2d@@AAUtagGPosition2d@@U2@@Z 1005dfc0 f i IMXLnLnStr2d.obj
+ 0001:0005d040       _IMIntersectLnLineString2d 1005e040 f   IMXLnLnStr2d.obj
+ 0001:0005d350       _IMIntersectLnTypedCurve2d 1005e350 f   IMXLnTcv2d.obj
+ 0001:0005d870       ?swapIntersection@@YAXHHPAUtagGPosition2d@@PAN1@Z 1005e870 f i IMXLsLs2d.obj
+ 0001:0005da80       _IMIntersectLineString2d   1005ea80 f   IMXLsLs2d.obj
+ 0001:0005df80       _IMXLineStringTypedCurve2d 1005ef80 f   IMXLsTC2d.obj
+ 0001:0005e260       _IMIntersectRectEllipse2d  1005f260 f   IMXRcEl2d.obj
+ 0001:0005e4d0       _IMIntersectRectRect2d     1005f4d0 f   IMXRcRc2d.obj
+ 0001:0005e830       _IMIntersectTCTC2d         1005f830 f   IMXTCTC2d.obj
+ 0001:0005f230       _IMIntersectTCTCExtend2d   10060230 f   IMXTCTCExt2d.obj
+ 0001:0005f6b0       _BSfreecv                  100606b0 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6b6       _BSarclg3ds                100606b6 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6bc       _BSarclg4ds                100606bc f   ubspm2d:ubspm2d.dll
+ 0001:0005f6c2       _BSpartofcv                100606c2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6c8       _BSalloccv                 100606c8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6ce       _BSintegval                100606ce f   ubspm2d:ubspm2d.dll
+ 0001:0005f6d4       _BSextrtlgd                100606d4 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6da       _BSangqdofpt               100606da f   ubspm2d:ubspm2d.dll
+ 0001:0005f6e0       _BScrossp                  100606e0 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6e6       _BSnorvec                  100606e6 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6ec       _BScvmidpt                 100606ec f   ubspm2d:ubspm2d.dll
+ 0001:0005f6f2       _BSxln                     100606f2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6f8       _BSxarcarc                 100606f8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f6fe       _BSdbgfree                 100606fe f   ubspm2d:ubspm2d.dll
+ 0001:0005f704       _BSrmnknots                10060704 f   ubspm2d:ubspm2d.dll
+ 0001:0005f70a       _BSlgdtbzsp                1006070a f   ubspm2d:ubspm2d.dll
+ 0001:0005f710       _BStruncmlgd               10060710 f   ubspm2d:ubspm2d.dll
+ 0001:0005f716       _BShifit                   10060716 f   ubspm2d:ubspm2d.dll
+ 0001:0005f71c       _BSquicksort               1006071c f   ubspm2d:ubspm2d.dll
+ 0001:0005f722       _BSmansf0                  10060722 f   ubspm2d:ubspm2d.dll
+ 0001:0005f728       _BSsetder_cv               10060728 f   ubspm2d:ubspm2d.dll
+ 0001:0005f72e       _BScveval_h                1006072e f   ubspm2d:ubspm2d.dll
+ 0001:0005f734       _BSfindspn                 10060734 f   ubspm2d:ubspm2d.dll
+ 0001:0005f73a       _BShorn_pd                 1006073a f   ubspm2d:ubspm2d.dll
+ 0001:0005f740       _BSspantocan               10060740 f   ubspm2d:ubspm2d.dll
+ 0001:0005f746       _BSdbgsalloc               10060746 f   ubspm2d:ubspm2d.dll
+ 0001:0005f74c       _BSimptprcnc               1006074c f   ubspm2d:ubspm2d.dll
+ 0001:0005f752       _BSdirfit_2                10060752 f   ubspm2d:ubspm2d.dll
+ 0001:0005f758       _BScvevaln                 10060758 f   ubspm2d:ubspm2d.dll
+ 0001:0005f75e       _BSnodevals                1006075e f   ubspm2d:ubspm2d.dll
+ 0001:0005f764       _BSdblptind                10060764 f   ubspm2d:ubspm2d.dll
+ 0001:0005f76a       _BScvarrev0                1006076a f   ubspm2d:ubspm2d.dll
+ 0001:0005f770       _BSchangepar               10060770 f   ubspm2d:ubspm2d.dll
+ 0001:0005f776       _BStagsorti                10060776 f   ubspm2d:ubspm2d.dll
+ 0001:0005f77c       _BSdirfit_1                1006077c f   ubspm2d:ubspm2d.dll
+ 0001:0005f782       _BStagsort                 10060782 f   ubspm2d:ubspm2d.dll
+ 0001:0005f788       _BSdta_rducv               10060788 f   ubspm2d:ubspm2d.dll
+ 0001:0005f78e       _BSspnnumins               1006078e f   ubspm2d:ubspm2d.dll
+ 0001:0005f794       _BSbstobez                 10060794 f   ubspm2d:ubspm2d.dll
+ 0001:0005f79a       _BSupthedegr               1006079a f   ubspm2d:ubspm2d.dll
+ 0001:0005f7a0       _BScvincktm                100607a0 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7a6       _BScveval_b                100607a6 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7ac       _BSnorkts                  100607ac f   ubspm2d:ubspm2d.dll
+ 0001:0005f7b2       _BSclcvshffl               100607b2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7b8       _BSdistptpt                100607b8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7be       _BScv_slfint               100607be f   ubspm2d:ubspm2d.dll
+ 0001:0005f7c4       _BSroto                    100607c4 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7ca       _BSfitratcv                100607ca f   ubspm2d:ubspm2d.dll
+ 0001:0005f7d0       _BStanffit                 100607d0 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7d6       _BSfillet                  100607d6 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7dc       _BScv_copy                 100607dc f   ubspm2d:ubspm2d.dll
+ 0001:0005f7e2       _BSmergarrcv               100607e2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7e8       _BStstcvdegn               100607e8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7ee       _BScmpcvoffl               100607ee f   ubspm2d:ubspm2d.dll
+ 0001:0005f7f4       _BScvtobz                  100607f4 f   ubspm2d:ubspm2d.dll
+ 0001:0005f7fa       _BShlfcvdep                100607fa f   ubspm2d:ubspm2d.dll
+ 0001:0005f800       _BSstrkbez                 10060800 f   ubspm2d:ubspm2d.dll
+ 0001:0005f806       _BSdirfitcv                10060806 f   ubspm2d:ubspm2d.dll
+ 0001:0005f80c       _BSextpolcv0               1006080c f   ubspm2d:ubspm2d.dll
+ 0001:0005f812       _BSmodshpcvg               10060812 f   ubspm2d:ubspm2d.dll
+ 0001:0005f818       _BScvoffset                10060818 f   ubspm2d:ubspm2d.dll
+ 0001:0005f81e       _BSlngen                   1006081e f   ubspm2d:ubspm2d.dll
+ 0001:0005f824       _BSdbgsfree                10060824 f   ubspm2d:ubspm2d.dll
+ 0001:0005f82a       _BSlininter                1006082a f   ubspm2d:ubspm2d.dll
+ 0001:0005f830       _BSptcvgen                 10060830 f   ubspm2d:ubspm2d.dll
+ 0001:0005f836       _BSlftorrght               10060836 f   ubspm2d:ubspm2d.dll
+ 0001:0005f83c       _BScveval                  1006083c f   ubspm2d:ubspm2d.dll
+ 0001:0005f842       _BSconicprp                10060842 f   ubspm2d:ubspm2d.dll
+ 0001:0005f848       _BSdistptpts               10060848 f   ubspm2d:ubspm2d.dll
+ 0001:0005f84e       _BSpoisonstk               1006084e f   ubspm2d:ubspm2d.dll
+ 0001:0005f854       _BSpoisonmem               10060854 f   ubspm2d:ubspm2d.dll
+ 0001:0005f85a       _BSvarcvoff                1006085a f   ubspm2d:ubspm2d.dll
+ 0001:0005f860       _BSmdptsbscv               10060860 f   ubspm2d:ubspm2d.dll
+ 0001:0005f866       _BSdbgalloc                10060866 f   ubspm2d:ubspm2d.dll
+ 0001:0005f86c       _BSdbgralloc               1006086c f   ubspm2d:ubspm2d.dll
+ 0001:0005f872       _BSmdistcvcv               10060872 f   ubspm2d:ubspm2d.dll
+ 0001:0005f878       _BSdotp                    10060878 f   ubspm2d:ubspm2d.dll
+ 0001:0005f87e       _BSprncp_nor               1006087e f   ubspm2d:ubspm2d.dll
+ 0001:0005f884       _BSlnn2cvs                 10060884 f   ubspm2d:ubspm2d.dll
+ 0001:0005f88a       _BScvnodpts                1006088a f   ubspm2d:ubspm2d.dll
+ 0001:0005f890       _BSprintbspc               10060890 f   ubspm2d:ubspm2d.dll
+ 0001:0005f896       _BSiarcln                  10060896 f   ubspm2d:ubspm2d.dll
+ 0001:0005f89c       _BSsolve                   1006089c f   ubspm2d:ubspm2d.dll
+ 0001:0005f8a2       _BSdecomp                  100608a2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8a8       _BSadjust                  100608a8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8ae       _BScvoffsetd               100608ae f   ubspm2d:ubspm2d.dll
+ 0001:0005f8b4       _BSreadcv                  100608b4 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8ba       _BSoffcvxy                 100608ba f   ubspm2d:ubspm2d.dll
+ 0001:0005f8c0       _BSchgdeppar               100608c0 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8c6       _BSlsqptlnpl               100608c6 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8cc       _BSpolyxttpt               100608cc f   ubspm2d:ubspm2d.dll
+ 0001:0005f8d2       _BScvnrpervc               100608d2 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8d8       _BScvsilhouet              100608d8 f   ubspm2d:ubspm2d.dll
+ 0001:0005f8de       _BScvcv_int                100608de f   ubspm2d:ubspm2d.dll
+ 0001:0005f8e4       ?GDistance@@YANABUtagGPosition2d@@0@Z 100608e4 f   umath:umath.dll
+ 0001:0005f8ea       ?GetDistanceTolerance@@YA?BNXZ 100608ea f   umath:umath.dll
+ 0001:0005f8f0       ?IsColinear@tagGVector2d@@QBEHABU1@@Z 100608f0 f   umath:umath.dll
+ 0001:0005f8f6       ??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 100608f6 f   umath:umath.dll
+ 0001:0005f8fc       ??D@YANABUtagGVector2d@@0@Z 100608fc f   umath:umath.dll
+ 0001:0005f902       ?GetLength@tagGVector2d@@QBENXZ 10060902 f   umath:umath.dll
+ 0001:0005f908       ??L@YANABUtagGVector2d@@0@Z 10060908 f   umath:umath.dll
+ 0001:0005f90e       ?GetFitTolerance@@YA?BNXZ  1006090e f   umath:umath.dll
+ 0001:0005f914       ?IsEqual@tagGPosition2d@@QBEHABU1@@Z 10060914 f   umath:umath.dll
+ 0001:0005f91a       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1006091a f   umath:umath.dll
+ 0001:0005f920       ?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 10060920 f   umath:umath.dll
+ 0001:0005f926       ??G@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 10060926 f   umath:umath.dll
+ 0001:0005f92c       ?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 1006092c f   umath:umath.dll
+ 0001:0005f932       ??YtagGPosition2d@@QAEAAU0@ABUtagGVector2d@@@Z 10060932 f   umath:umath.dll
+ 0001:0005f938       ??AtagGVector2d@@QBENI@Z   10060938 f   umath:umath.dll
+ 0001:0005f93e       ?GetRelativeTolerance@@YA?BNXZ 1006093e f   umath:umath.dll
+ 0001:0005f944       ?Inverse@tagGTransf2d@@QBE?AU1@XZ 10060944 f   umath:umath.dll
+ 0001:0005f94a       ??D@YA?AUtagGUnitVector2d@@ABU0@ABUtagGTransf2d@@@Z 1006094a f   umath:umath.dll
+ 0001:0005f950       ??XtagGTransf2d@@QAEAAU0@ABU0@@Z 10060950 f   umath:umath.dll
+ 0001:0005f956       ?RotateTransf2d@@YA?AUtagGTransf2d@@N@Z 10060956 f   umath:umath.dll
+ 0001:0005f95c       ?GiveAngle@@YANABUtagGVector2d@@0@Z 1006095c f   umath:umath.dll
+ 0001:0005f962       ?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 10060962 f   umath:umath.dll
+ 0001:0005f968       ??AtagGVector2d@@QAEAANI@Z 10060968 f   umath:umath.dll
+ 0001:0005f96e       ??AtagGPosition2d@@QBENI@Z 1006096e f   umath:umath.dll
+ 0001:0005f974       ??AtagGPosition2d@@QAEAANI@Z 10060974 f   umath:umath.dll
+ 0001:0005f97a       ?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@ABUtagGPosition2d@@0@Z 1006097a f   umath:umath.dll
+ 0001:0005f980       ??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 10060980 f   umath:umath.dll
+ 0001:0005f986       ?BuildBox2d@@YA?AUtagGBox2d@@KPAUtagGPosition2d@@@Z 10060986 f   umath:umath.dll
+ 0001:0005f98c       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1006098c f   umath:umath.dll
+ 0001:0005f992       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10060992 f   umath:umath.dll
+ 0001:0005f998       ??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10060998 f   umath:umath.dll
+ 0001:0005f99e       ??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 1006099e f   umath:umath.dll
+ 0001:0005f9a4       ??XtagGVector@@QAEAAU0@N@Z 100609a4 f   umath:umath.dll
+ 0001:0005f9aa       ??D@YA?AUtagGVector@@ABU0@0@Z 100609aa f   umath:umath.dll
+ 0001:0005f9b0       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 100609b0 f   umath:umath.dll
+ 0001:0005f9b6       ?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 100609b6 f   umath:umath.dll
+ 0001:0005f9bc       ??ZtagGPosition2d@@QAEAAU0@ABUtagGVector2d@@@Z 100609bc f   umath:umath.dll
+ 0001:0005f9c2       ?IsEqual@tagGBox2d@@QBEHABU1@@Z 100609c2 f   umath:umath.dll
+ 0001:0005f9c8       ?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 100609c8 f   umath:umath.dll
+ 0001:0005f9ce       ??I@YA?AUtagGBox2d@@ABU0@0@Z 100609ce f   umath:umath.dll
+ 0001:0005f9d4       ?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 100609d4 f   umath:umath.dll
+ 0001:0005f9da       ?BuildBox2d@@YA?AUtagGBox2d@@ABUtagGPosition2d@@0@Z 100609da f   umath:umath.dll
+ 0001:0005f9e0       ??AtagGUnitVector2d@@QAEAANI@Z 100609e0 f   umath:umath.dll
+ 0001:0005f9e6       ?BuildMatrix2d@@YA?AUtagGMatrix2d@@ABUtagGUnitVector2d@@0H@Z 100609e6 f   umath:umath.dll
+ 0001:0005f9ec       ?BuildTransf2d@@YA?AUtagGTransf2d@@ABUtagGMatrix2d@@ABUtagGVector2d@@NHHH@Z 100609ec f   umath:umath.dll
+ 0001:0005f9f2       ??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 100609f2 f   umath:umath.dll
+ 0001:0005f9f8       ??D@YA?AUtagGVector2d@@ABU0@ABUtagGTransf2d@@@Z 100609f8 f   umath:umath.dll
+ 0001:0005f9fe       ??D@YA?AUtagGPosition2d@@ABU0@ABUtagGTransf2d@@@Z 100609fe f   umath:umath.dll
+ 0001:0005fa04       ?IsOrthogonal@tagGVector2d@@QBEHABU1@@Z 10060a04 f   umath:umath.dll
+ 0001:0005fa0a       ?IsNull@tagGVector2d@@QBEHXZ 10060a0a f   umath:umath.dll
+ 0001:0005fa10       ?GetPosDblAlgn@@YA?BHXZ    10060a10 f   umath:umath.dll
+ 0001:0005fa16       ??AtagGUnitVector2d@@QBENI@Z 10060a16 f   umath:umath.dll
+ 0001:0005fa1c       ?IsEqual@tagGVector2d@@QBEHABU1@@Z 10060a1c f   umath:umath.dll
+ 0001:0005fa22       ?Serialize@tagGPosition2d@@QAEJABVJIOStreamContext@@@Z 10060a22 f   umath:umath.dll
+ 0001:0005fa28       ?Serialize@tagGBox2d@@QAEJABVJIOStreamContext@@@Z 10060a28 f   umath:umath.dll
+ 0001:0005fa2e       ?BuildBox2d@@YA?AUtagGBox2d@@NNNN@Z 10060a2e f   umath:umath.dll
+ 0001:0005fa34       ?Serialize@tagGVector2d@@QAEJABVJIOStreamContext@@@Z 10060a34 f   umath:umath.dll
+ 0001:0005fa3a       ??5tagGBox2d@@QBEHABUtagGPosition2d@@@Z 10060a3a f   umath:umath.dll
+ 0001:0005fa40       ?IsNull@tagGBox2d@@QBEHXZ  10060a40 f   umath:umath.dll
+ 0001:0005fa46       ?SetDistanceTolerance@@YAXNPAJ@Z 10060a46 f   umath:umath.dll
+ 0001:0005fa4c       ?SetFitTolerance@@YAXNPAJ@Z 10060a4c f   umath:umath.dll
+ 0001:0005fa52       ?Serialize@tagGUnitVector2d@@QAEJABVJIOStreamContext@@@Z 10060a52 f   umath:umath.dll
+ 0001:0005fa58       ?Serialize@tagGMatrix2d@@QAEJABVJIOStreamContext@@@Z 10060a58 f   umath:umath.dll
+ 0001:0005fa5e       ?Serialize@tagGTransf2d@@QAEJABVJIOStreamContext@@_N@Z 10060a5e f   umath:umath.dll
+ 0001:0005fa64       ??D@YA?AUtagGPosition2d@@ABU0@ABUtagGMatrix2d@@@Z 10060a64 f   umath:umath.dll
+ 0001:0005fa6a       ?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10060a6a f   umath:umath.dll
+ 0001:0005fa70       ?BuildClipVolume@@YA?AUtagGClipVolume@@IQBUtagGPosition@@QBUtagGUnitVector@@@Z 10060a70 f   umath:umath.dll
+ 0001:0005fa76       ?GetLength@tagGVector@@QBENXZ 10060a76 f   umath:umath.dll
+ 0001:0005fa7c       ??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 10060a7c f   umath:umath.dll
+ 0001:0005fa82       ?Inverse@tagGTransf@@QBE?AU1@XZ 10060a82 f   umath:umath.dll
+ 0001:0005fa88       ?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@@Z 10060a88 f   umath:umath.dll
+ 0001:0005fa8e       ?SetRelativeTolerance@@YAXNPAJ@Z 10060a8e f   umath:umath.dll
+ 0001:0005fa94       ??L@YANABUtagGVector@@0@Z  10060a94 f   umath:umath.dll
+ 0001:0005fa9a       ?IsColinear@tagGVector@@QBEHABU1@@Z 10060a9a f   umath:umath.dll
+ 0001:0005faa0       ??L@YANABUtagGPosition2d@@ABUtagGVector2d@@@Z 10060aa0 f   umath:umath.dll
+ 0001:0005faa6       ??K@YA?AUtagGVector2d@@ABU0@N@Z 10060aa6 f   umath:umath.dll
+ 0001:0005faac       ??_5tagGBox2d@@QAEAAU0@ABU0@@Z 10060aac f   umath:umath.dll
+ 0001:0005fab2       ??U@YA?AUtagGBox2d@@ABU0@0@Z 10060ab2 f   umath:umath.dll
+ 0001:0005fab8       ??D@YA?AUtagGPosition2d@@ABUtagG4x4@@ABU0@@Z 10060ab8 f   umath:umath.dll
+ 0001:0005fabe       ?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 10060abe f   umath:umath.dll
+ 0001:0005fac4       ?GetPerpVector2d@@YA?AUtagGVector2d@@ABUtagGUnitVector2d@@@Z 10060ac4 f   umath:umath.dll
+ 0001:0005faca       ?RotateTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 10060aca f   umath:umath.dll
+ 0001:0005fad0       _malloc                    10060ad0 f   MSVCRT:MSVCR80.dll
+ 0001:0005fad6       __callnewh                 10060ad6 f   MSVCRT:MSVCR80.dll
+ 0001:0005fae0       _memset                    10060ae0 f   MSVCRT:MSVCR80.dll
+ 0001:0005faf0       __ftol2_sse                10060af0 f   MSVCRT:ftol2.obj
+ 0001:0005faf9       __ftol2_pentium4           10060af9 f   MSVCRT:ftol2.obj
+ 0001:0005fb0c       __ftol2_sse_excpt          10060b0c f   MSVCRT:ftol2.obj
+ 0001:0005fb26       __ftol2                    10060b26 f   MSVCRT:ftol2.obj
+ 0001:0005fb9c       __CIsqrt                   10060b9c f   MSVCRT:MSVCR80.dll
+ 0001:0005fba2       __CIcos                    10060ba2 f   MSVCRT:MSVCR80.dll
+ 0001:0005fba8       __CIsin                    10060ba8 f   MSVCRT:MSVCR80.dll
+ 0001:0005fbb0       __chkstk                   10060bb0 f   MSVCRT:chkstk.obj
+ 0001:0005fbb0       __alloca_probe             10060bb0     MSVCRT:chkstk.obj
+ 0001:0005fbdc       __CIatan2                  10060bdc f   MSVCRT:MSVCR80.dll
+ 0001:0005fbe2       @__security_check_cookie@4 10060be2 f   MSVCRT:secchk.obj
+ 0001:0005fc00       __alloca_probe_16          10060c00 f   MSVCRT:alloca16.obj
+ 0001:0005fc16       __alloca_probe_8           10060c16     MSVCRT:alloca16.obj
+ 0001:0005fc2c       __CIexp                    10060c2c f   MSVCRT:MSVCR80.dll
+ 0001:0005fc32       __CIlog                    10060c32 f   MSVCRT:MSVCR80.dll
+ 0001:0005fc38       __CIacos                   10060c38 f   MSVCRT:MSVCR80.dll
+ 0001:0005fc3e       __CIatan                   10060c3e f   MSVCRT:MSVCR80.dll
+ 0001:0005fc44       ??_Etype_info@@UAEPAXI@Z   10060c44 f i MSVCRT:ti_inst.obj
+ 0001:0005fc8e       ??3@YAXPAX@Z               10060c8e f   MSVCRT:MSVCR80.dll
+ 0001:0005fc94       ___CxxFrameHandler3        10060c94 f   MSVCRT:MSVCR80.dll
+ 0001:0005fc9a       __CIpow                    10060c9a f   MSVCRT:MSVCR80.dll
+ 0001:0005fca0       ?what@exception@std@@UBEPBDXZ 10060ca0 f   MSVCRT:MSVCR80.dll
+ 0001:0005fca6       __CxxThrowException@8      10060ca6 f   MSVCRT:MSVCR80.dll
+ 0001:0005fcac       ??0exception@std@@QAE@ABV01@@Z 10060cac f   MSVCRT:MSVCR80.dll
+ 0001:0005fcb2       __CItan                    10060cb2 f   MSVCRT:MSVCR80.dll
+ 0001:0005fd05       __CRT_INIT@12              10060d05 f   MSVCRT:crtdll.obj
+ 0001:0005ffba       __DllMainCRTStartup@12     10060fba f   MSVCRT:crtdll.obj
+ 0001:0006002b       __get_sse2_info            1006102b f   MSVCRT:cpu_disp.obj
+ 0001:0006008b       ___sse2_available_init     1006108b f   MSVCRT:cpu_disp.obj
+ 0001:00060098       ___report_gsfailure        10061098 f   MSVCRT:gs_report.obj
+ 0001:0006019c       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1006119c f   MSVCRT:ehvecdtr.obj
+ 0001:000601fa       ??_M@YGXPAXIHP6EX0@Z@Z     100611fa f   MSVCRT:ehvecdtr.obj
+ 0001:0006025d       ___clean_type_info_names   1006125d f   MSVCRT:tncleanup.obj
+ 0001:00060269       __onexit                   10061269 f   MSVCRT:atonexit.obj
+ 0001:00060308       _atexit                    10061308 f   MSVCRT:atonexit.obj
+ 0001:0006031a       __RTC_Initialize           1006131a f   MSVCRT:initsect.obj
+ 0001:0006033e       __RTC_Terminate            1006133e f   MSVCRT:initsect.obj
+ 0001:00060370       __ValidateImageBase        10061370 f   MSVCRT:pesect.obj
+ 0001:000603a0       __FindPESection            100613a0 f   MSVCRT:pesect.obj
+ 0001:000603e2       __IsNonwritableInCurrentImage 100613e2 f   MSVCRT:pesect.obj
+ 0001:0006044e       __initterm                 1006144e f   MSVCRT:MSVCR80.dll
+ 0001:00060454       __initterm_e               10061454 f   MSVCRT:MSVCR80.dll
+ 0001:0006045a       __amsg_exit                1006145a f   MSVCRT:MSVCR80.dll
+ 0001:00060460       ___CppXcptFilter           10061460 f   MSVCRT:MSVCR80.dll
+ 0001:00060466       _DllMain@12                10061466 f   MSVCRT:dllmain.obj
+ 0001:00060488       __SEH_prolog4              10061488 f   MSVCRT:sehprolg4.obj
+ 0001:000604cd       __SEH_epilog4              100614cd f   MSVCRT:sehprolg4.obj
+ 0001:000604e1       __except_handler4          100614e1 f   MSVCRT:chandler4gs.obj
+ 0001:00060504       ___security_init_cookie    10061504 f   MSVCRT:gs_support.obj
+ 0001:00060598       __crt_debugger_hook        10061598 f   MSVCRT:MSVCR80.dll
+ 0001:0006059e       ?terminate@@YAXXZ          1006159e f   MSVCRT:MSVCR80.dll
+ 0001:000605a4       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 100615a4 f   MSVCRT:MSVCR80.dll
+ 0001:000605a4       ??1type_info@@UAE@XZ       100615a4 f   MSVCRT:MSVCR80.dll
+ 0001:000605aa       ___clean_type_info_names_internal 100615aa f   MSVCRT:MSVCR80.dll
+ 0001:000605b0       __unlock                   100615b0 f   MSVCRT:MSVCR80.dll
+ 0001:000605b6       ___dllonexit               100615b6 f   MSVCRT:MSVCR80.dll
+ 0001:000605bc       __lock                     100615bc f   MSVCRT:MSVCR80.dll
+ 0001:000605c2       __except_handler4_common   100615c2 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__OutputDebugStringA@4 10062000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcessId@0 10062004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 10062008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetTickCount@0      1006200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__QueryPerformanceCounter@4 10062010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__DisableThreadLibraryCalls@4 10062014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsDebuggerPresent@0 10062018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__SetUnhandledExceptionFilter@4 1006201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__UnhandledExceptionFilter@4 10062020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcess@0 10062024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__TerminateProcess@8  10062028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedCompareExchange@12 1006202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__Sleep@4             10062030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedExchange@8 10062034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetSystemTimeAsFileTime@4 10062038     kernel32:KERNEL32.dll
+ 0002:0000003c       \177KERNEL32_NULL_THUNK_DATA 1006203c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10062040     msvcprt:MSVCP80.dll
+ 0002:00000044       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 10062044     msvcprt:MSVCP80.dll
+ 0002:00000048       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 10062048     msvcprt:MSVCP80.dll
+ 0002:0000004c       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1006204c     msvcprt:MSVCP80.dll
+ 0002:00000050       \177MSVCP80_NULL_THUNK_DATA 10062050     msvcprt:MSVCP80.dll
+ 0002:00000054       __imp___CIacos             10062054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___CIatan             10062058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp_??3@YAXPAX@Z         1006205c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp____CxxFrameHandler3  10062060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp___CIpow              10062064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp___invalid_parameter_noinfo 10062068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp_??1exception@std@@UAE@XZ 1006206c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp_??0exception@std@@QAE@ABQBD@Z 10062070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp_?what@exception@std@@UBEPBDXZ 10062074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp_??0exception@std@@QAE@XZ 10062078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___CxxThrowException@8 1006207c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp_??0exception@std@@QAE@ABV01@@Z 10062080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__memmove_s           10062084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp__qsort               10062088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp___CItan              1006208c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp__fclose              10062090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp__strcpy_s            10062094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp__fprintf             10062098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp__fscanf              1006209c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__fseek               100620a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___encode_pointer     100620a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___malloc_crt         100620a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___encoded_null       100620ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___CIlog              100620b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___decode_pointer     100620b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___initterm           100620b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___initterm_e         100620bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___amsg_exit          100620c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___adjust_fdiv        100620c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp____CppXcptFilter     100620c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___crt_debugger_hook  100620cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp_?terminate@@YAXXZ    100620d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100620d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp____clean_type_info_names_internal 100620d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___unlock             100620dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp____dllonexit         100620e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___lock               100620e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___onexit             100620e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___except_handler4_common 100620ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___CIatan2            100620f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___CIsin              100620f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___CIcos              100620f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___CIsqrt             100620fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp__memmove             10062100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__memset              10062104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___callnewh           10062108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp__malloc              1006210c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___CIexp              10062110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp__printf              10062114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp__vsprintf_s          10062118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__free                1006211c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp__strcat_s            10062120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp__fopen               10062124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___itoa               10062128     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp__itoa                10062128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       \177MSVCR80_NULL_THUNK_DATA 1006212c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp__BSlmemptr           10062130     ubspm2d:ubspm2d.dll
+ 0002:00000134       __imp__BSlmemnumb          10062134     ubspm2d:ubspm2d.dll
+ 0002:00000138       __imp__BSvarcvoff          10062138     ubspm2d:ubspm2d.dll
+ 0002:0000013c       __imp__BSmdptsbscv         1006213c     ubspm2d:ubspm2d.dll
+ 0002:00000140       __imp__BSdbgalloc          10062140     ubspm2d:ubspm2d.dll
+ 0002:00000144       __imp__BSdbgralloc         10062144     ubspm2d:ubspm2d.dll
+ 0002:00000148       __imp__BSmdistcvcv         10062148     ubspm2d:ubspm2d.dll
+ 0002:0000014c       __imp__BSdotp              1006214c     ubspm2d:ubspm2d.dll
+ 0002:00000150       __imp__BSprncp_nor         10062150     ubspm2d:ubspm2d.dll
+ 0002:00000154       __imp__BSlnn2cvs           10062154     ubspm2d:ubspm2d.dll
+ 0002:00000158       __imp__BScvnodpts          10062158     ubspm2d:ubspm2d.dll
+ 0002:0000015c       __imp__BSprintbspc         1006215c     ubspm2d:ubspm2d.dll
+ 0002:00000160       __imp__BSiarcln            10062160     ubspm2d:ubspm2d.dll
+ 0002:00000164       __imp__BSdbglev            10062164     ubspm2d:ubspm2d.dll
+ 0002:00000168       __imp__BSdecomp            10062168     ubspm2d:ubspm2d.dll
+ 0002:0000016c       __imp__BSadjust            1006216c     ubspm2d:ubspm2d.dll
+ 0002:00000170       __imp__BScvoffsetd         10062170     ubspm2d:ubspm2d.dll
+ 0002:00000174       __imp__BSreadcv            10062174     ubspm2d:ubspm2d.dll
+ 0002:00000178       __imp__BSoffcvxy           10062178     ubspm2d:ubspm2d.dll
+ 0002:0000017c       __imp__BSchgdeppar         1006217c     ubspm2d:ubspm2d.dll
+ 0002:00000180       __imp__BSlsqptlnpl         10062180     ubspm2d:ubspm2d.dll
+ 0002:00000184       __imp__BSpolyxttpt         10062184     ubspm2d:ubspm2d.dll
+ 0002:00000188       __imp__BScvnrpervc         10062188     ubspm2d:ubspm2d.dll
+ 0002:0000018c       __imp__BScvsilhouet        1006218c     ubspm2d:ubspm2d.dll
+ 0002:00000190       __imp__BScvcv_int          10062190     ubspm2d:ubspm2d.dll
+ 0002:00000194       __imp__BSpoisonmem         10062194     ubspm2d:ubspm2d.dll
+ 0002:00000198       __imp__BSpoisonstk         10062198     ubspm2d:ubspm2d.dll
+ 0002:0000019c       __imp__BSdistptpts         1006219c     ubspm2d:ubspm2d.dll
+ 0002:000001a0       __imp__BSconicprp          100621a0     ubspm2d:ubspm2d.dll
+ 0002:000001a4       __imp__BScveval            100621a4     ubspm2d:ubspm2d.dll
+ 0002:000001a8       __imp__BSlftorrght         100621a8     ubspm2d:ubspm2d.dll
+ 0002:000001ac       __imp__BSptcvgen           100621ac     ubspm2d:ubspm2d.dll
+ 0002:000001b0       __imp__BSlininter          100621b0     ubspm2d:ubspm2d.dll
+ 0002:000001b4       __imp__BSdbgsfree          100621b4     ubspm2d:ubspm2d.dll
+ 0002:000001b8       __imp__BSlngen             100621b8     ubspm2d:ubspm2d.dll
+ 0002:000001bc       __imp__BScvoffset          100621bc     ubspm2d:ubspm2d.dll
+ 0002:000001c0       __imp__BSmodshpcvg         100621c0     ubspm2d:ubspm2d.dll
+ 0002:000001c4       __imp__BSextpolcv0         100621c4     ubspm2d:ubspm2d.dll
+ 0002:000001c8       __imp__BSdirfitcv          100621c8     ubspm2d:ubspm2d.dll
+ 0002:000001cc       __imp__BSstrkbez           100621cc     ubspm2d:ubspm2d.dll
+ 0002:000001d0       __imp__BShlfcvdep          100621d0     ubspm2d:ubspm2d.dll
+ 0002:000001d4       __imp__BScvtobz            100621d4     ubspm2d:ubspm2d.dll
+ 0002:000001d8       __imp__BScmpcvoffl         100621d8     ubspm2d:ubspm2d.dll
+ 0002:000001dc       __imp__BStstcvdegn         100621dc     ubspm2d:ubspm2d.dll
+ 0002:000001e0       __imp__BSmergarrcv         100621e0     ubspm2d:ubspm2d.dll
+ 0002:000001e4       __imp__BScv_copy           100621e4     ubspm2d:ubspm2d.dll
+ 0002:000001e8       __imp__BSfillet            100621e8     ubspm2d:ubspm2d.dll
+ 0002:000001ec       __imp__BStanffit           100621ec     ubspm2d:ubspm2d.dll
+ 0002:000001f0       __imp__BSfitratcv          100621f0     ubspm2d:ubspm2d.dll
+ 0002:000001f4       __imp__BSroto              100621f4     ubspm2d:ubspm2d.dll
+ 0002:000001f8       __imp__BScv_slfint         100621f8     ubspm2d:ubspm2d.dll
+ 0002:000001fc       __imp__BSdistptpt          100621fc     ubspm2d:ubspm2d.dll
+ 0002:00000200       __imp__BSclcvshffl         10062200     ubspm2d:ubspm2d.dll
+ 0002:00000204       __imp__BSfreecv            10062204     ubspm2d:ubspm2d.dll
+ 0002:00000208       __imp__BSnorkts            10062208     ubspm2d:ubspm2d.dll
+ 0002:0000020c       __imp__BScveval_b          1006220c     ubspm2d:ubspm2d.dll
+ 0002:00000210       __imp__BScvincktm          10062210     ubspm2d:ubspm2d.dll
+ 0002:00000214       __imp__BSupthedegr         10062214     ubspm2d:ubspm2d.dll
+ 0002:00000218       __imp__BSbstobez           10062218     ubspm2d:ubspm2d.dll
+ 0002:0000021c       __imp__BSspnnumins         1006221c     ubspm2d:ubspm2d.dll
+ 0002:00000220       __imp__BSdta_rducv         10062220     ubspm2d:ubspm2d.dll
+ 0002:00000224       __imp__BStagsort           10062224     ubspm2d:ubspm2d.dll
+ 0002:00000228       __imp__BSdirfit_1          10062228     ubspm2d:ubspm2d.dll
+ 0002:0000022c       __imp__BStagsorti          1006222c     ubspm2d:ubspm2d.dll
+ 0002:00000230       __imp__BSchangepar         10062230     ubspm2d:ubspm2d.dll
+ 0002:00000234       __imp__BScvarrev0          10062234     ubspm2d:ubspm2d.dll
+ 0002:00000238       __imp__BSdblptind          10062238     ubspm2d:ubspm2d.dll
+ 0002:0000023c       __imp__BSnodevals          1006223c     ubspm2d:ubspm2d.dll
+ 0002:00000240       __imp__BScvevaln           10062240     ubspm2d:ubspm2d.dll
+ 0002:00000244       __imp__BSdirfit_2          10062244     ubspm2d:ubspm2d.dll
+ 0002:00000248       __imp__BSimptprcnc         10062248     ubspm2d:ubspm2d.dll
+ 0002:0000024c       __imp__BSalloczero         1006224c     ubspm2d:ubspm2d.dll
+ 0002:00000250       __imp__BSfreezero          10062250     ubspm2d:ubspm2d.dll
+ 0002:00000254       __imp__BSlist_al           10062254     ubspm2d:ubspm2d.dll
+ 0002:00000258       __imp__BSdbgsalloc         10062258     ubspm2d:ubspm2d.dll
+ 0002:0000025c       __imp__BSspantocan         1006225c     ubspm2d:ubspm2d.dll
+ 0002:00000260       __imp__BShorn_pd           10062260     ubspm2d:ubspm2d.dll
+ 0002:00000264       __imp__BSfindspn           10062264     ubspm2d:ubspm2d.dll
+ 0002:00000268       __imp__BScveval_h          10062268     ubspm2d:ubspm2d.dll
+ 0002:0000026c       __imp__BSsetder_cv         1006226c     ubspm2d:ubspm2d.dll
+ 0002:00000270       __imp__BSmansf0            10062270     ubspm2d:ubspm2d.dll
+ 0002:00000274       __imp__BSquicksort         10062274     ubspm2d:ubspm2d.dll
+ 0002:00000278       __imp__BShifit             10062278     ubspm2d:ubspm2d.dll
+ 0002:0000027c       __imp__BStruncmlgd         1006227c     ubspm2d:ubspm2d.dll
+ 0002:00000280       __imp__BSlgdtbzsp          10062280     ubspm2d:ubspm2d.dll
+ 0002:00000284       __imp__BSrmnknots          10062284     ubspm2d:ubspm2d.dll
+ 0002:00000288       __imp__BSdbgfree           10062288     ubspm2d:ubspm2d.dll
+ 0002:0000028c       __imp__BSxarcarc           1006228c     ubspm2d:ubspm2d.dll
+ 0002:00000290       __imp__BSxln               10062290     ubspm2d:ubspm2d.dll
+ 0002:00000294       __imp__BScvmidpt           10062294     ubspm2d:ubspm2d.dll
+ 0002:00000298       __imp__BSnorvec            10062298     ubspm2d:ubspm2d.dll
+ 0002:0000029c       __imp__BScrossp            1006229c     ubspm2d:ubspm2d.dll
+ 0002:000002a0       __imp__BSangqdofpt         100622a0     ubspm2d:ubspm2d.dll
+ 0002:000002a4       __imp__BSextrtlgd          100622a4     ubspm2d:ubspm2d.dll
+ 0002:000002a8       __imp__BSintegval          100622a8     ubspm2d:ubspm2d.dll
+ 0002:000002ac       __imp__BSalloccv           100622ac     ubspm2d:ubspm2d.dll
+ 0002:000002b0       __imp__BSpartofcv          100622b0     ubspm2d:ubspm2d.dll
+ 0002:000002b4       __imp__BSparameters        100622b4     ubspm2d:ubspm2d.dll
+ 0002:000002b8       __imp__BSarclg4ds          100622b8     ubspm2d:ubspm2d.dll
+ 0002:000002bc       __imp__BSarclg3ds          100622bc     ubspm2d:ubspm2d.dll
+ 0002:000002c0       __imp__BSsolve             100622c0     ubspm2d:ubspm2d.dll
+ 0002:000002c4       \177ubspm2d_NULL_THUNK_DATA 100622c4     ubspm2d:ubspm2d.dll
+ 0002:000002c8       __imp_??_5tagGBox2d@@QAEAAU0@ABU0@@Z 100622c8     umath:umath.dll
+ 0002:000002cc       __imp_??U@YA?AUtagGBox2d@@ABU0@0@Z 100622cc     umath:umath.dll
+ 0002:000002d0       __imp_??D@YA?AUtagGPosition2d@@ABUtagG4x4@@ABU0@@Z 100622d0     umath:umath.dll
+ 0002:000002d4       __imp_?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 100622d4     umath:umath.dll
+ 0002:000002d8       __imp_?GetPerpVector2d@@YA?AUtagGVector2d@@ABUtagGUnitVector2d@@@Z 100622d8     umath:umath.dll
+ 0002:000002dc       __imp_?RotateTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 100622dc     umath:umath.dll
+ 0002:000002e0       __imp_??K@YA?AUtagGVector2d@@ABU0@N@Z 100622e0     umath:umath.dll
+ 0002:000002e4       __imp_??L@YANABUtagGPosition2d@@ABUtagGVector2d@@@Z 100622e4     umath:umath.dll
+ 0002:000002e8       __imp_?IsColinear@tagGVector@@QBEHABU1@@Z 100622e8     umath:umath.dll
+ 0002:000002ec       __imp_??L@YANABUtagGVector@@0@Z 100622ec     umath:umath.dll
+ 0002:000002f0       __imp_?SetRelativeTolerance@@YAXNPAJ@Z 100622f0     umath:umath.dll
+ 0002:000002f4       __imp_?CoordinateTransf@@YA?AUtagGTransf@@ABUtagGPosition@@ABUtagGUnitVector@@@Z 100622f4     umath:umath.dll
+ 0002:000002f8       __imp_?Inverse@tagGTransf@@QBE?AU1@XZ 100622f8     umath:umath.dll
+ 0002:000002fc       __imp_??D@YA?AUtagGPosition@@ABU0@ABUtagGTransf@@@Z 100622fc     umath:umath.dll
+ 0002:00000300       __imp_?GetLength@tagGVector@@QBENXZ 10062300     umath:umath.dll
+ 0002:00000304       __imp_?BuildClipVolume@@YA?AUtagGClipVolume@@IQBUtagGPosition@@QBUtagGUnitVector@@@Z 10062304     umath:umath.dll
+ 0002:00000308       __imp_?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10062308     umath:umath.dll
+ 0002:0000030c       __imp_??D@YA?AUtagGPosition2d@@ABU0@ABUtagGMatrix2d@@@Z 1006230c     umath:umath.dll
+ 0002:00000310       __imp_?Serialize@tagGTransf2d@@QAEJABVJIOStreamContext@@_N@Z 10062310     umath:umath.dll
+ 0002:00000314       __imp_?Serialize@tagGMatrix2d@@QAEJABVJIOStreamContext@@@Z 10062314     umath:umath.dll
+ 0002:00000318       __imp_?Serialize@tagGUnitVector2d@@QAEJABVJIOStreamContext@@@Z 10062318     umath:umath.dll
+ 0002:0000031c       __imp_?SetFitTolerance@@YAXNPAJ@Z 1006231c     umath:umath.dll
+ 0002:00000320       __imp_?SetDistanceTolerance@@YAXNPAJ@Z 10062320     umath:umath.dll
+ 0002:00000324       __imp_?IsNull@tagGBox2d@@QBEHXZ 10062324     umath:umath.dll
+ 0002:00000328       __imp_??5tagGBox2d@@QBEHABUtagGPosition2d@@@Z 10062328     umath:umath.dll
+ 0002:0000032c       __imp_?Serialize@tagGVector2d@@QAEJABVJIOStreamContext@@@Z 1006232c     umath:umath.dll
+ 0002:00000330       __imp_?BuildBox2d@@YA?AUtagGBox2d@@NNNN@Z 10062330     umath:umath.dll
+ 0002:00000334       __imp_?Serialize@tagGBox2d@@QAEJABVJIOStreamContext@@@Z 10062334     umath:umath.dll
+ 0002:00000338       __imp_?Serialize@tagGPosition2d@@QAEJABVJIOStreamContext@@@Z 10062338     umath:umath.dll
+ 0002:0000033c       __imp_?IsEqual@tagGVector2d@@QBEHABU1@@Z 1006233c     umath:umath.dll
+ 0002:00000340       __imp_??AtagGUnitVector2d@@QBENI@Z 10062340     umath:umath.dll
+ 0002:00000344       __imp_?GetPosDblAlgn@@YA?BHXZ 10062344     umath:umath.dll
+ 0002:00000348       __imp_?IsNull@tagGVector2d@@QBEHXZ 10062348     umath:umath.dll
+ 0002:0000034c       __imp_?IsOrthogonal@tagGVector2d@@QBEHABU1@@Z 1006234c     umath:umath.dll
+ 0002:00000350       __imp_??D@YA?AUtagGPosition2d@@ABU0@ABUtagGTransf2d@@@Z 10062350     umath:umath.dll
+ 0002:00000354       __imp_??D@YA?AUtagGVector2d@@ABU0@ABUtagGTransf2d@@@Z 10062354     umath:umath.dll
+ 0002:00000358       __imp_??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 10062358     umath:umath.dll
+ 0002:0000035c       __imp_?BuildTransf2d@@YA?AUtagGTransf2d@@ABUtagGMatrix2d@@ABUtagGVector2d@@NHHH@Z 1006235c     umath:umath.dll
+ 0002:00000360       __imp_?BuildMatrix2d@@YA?AUtagGMatrix2d@@ABUtagGUnitVector2d@@0H@Z 10062360     umath:umath.dll
+ 0002:00000364       __imp_??AtagGUnitVector2d@@QAEAANI@Z 10062364     umath:umath.dll
+ 0002:00000368       __imp_?BuildBox2d@@YA?AUtagGBox2d@@ABUtagGPosition2d@@0@Z 10062368     umath:umath.dll
+ 0002:0000036c       __imp_?GiveCorners@tagGBox2d@@QBEXQAUtagGPosition2d@@@Z 1006236c     umath:umath.dll
+ 0002:00000370       __imp_??I@YA?AUtagGBox2d@@ABU0@0@Z 10062370     umath:umath.dll
+ 0002:00000374       __imp_?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 10062374     umath:umath.dll
+ 0002:00000378       __imp_?IsEqual@tagGBox2d@@QBEHABU1@@Z 10062378     umath:umath.dll
+ 0002:0000037c       __imp_??ZtagGPosition2d@@QAEAAU0@ABUtagGVector2d@@@Z 1006237c     umath:umath.dll
+ 0002:00000380       __imp_?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 10062380     umath:umath.dll
+ 0002:00000384       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 10062384     umath:umath.dll
+ 0002:00000388       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 10062388     umath:umath.dll
+ 0002:0000038c       __imp_??XtagGVector@@QAEAAU0@N@Z 1006238c     umath:umath.dll
+ 0002:00000390       __imp_??H@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10062390     umath:umath.dll
+ 0002:00000394       __imp_??G@YA?AUtagGPosition@@ABU0@ABUtagGVector@@@Z 10062394     umath:umath.dll
+ 0002:00000398       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10062398     umath:umath.dll
+ 0002:0000039c       __imp_?BuildBox2d@@YA?AUtagGBox2d@@KPAUtagGPosition2d@@@Z 1006239c     umath:umath.dll
+ 0002:000003a0       __imp_??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 100623a0     umath:umath.dll
+ 0002:000003a4       __imp_?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@ABUtagGPosition2d@@0@Z 100623a4     umath:umath.dll
+ 0002:000003a8       __imp_??AtagGPosition2d@@QAEAANI@Z 100623a8     umath:umath.dll
+ 0002:000003ac       __imp_??AtagGPosition2d@@QBENI@Z 100623ac     umath:umath.dll
+ 0002:000003b0       __imp_??AtagGVector2d@@QAEAANI@Z 100623b0     umath:umath.dll
+ 0002:000003b4       __imp_?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 100623b4     umath:umath.dll
+ 0002:000003b8       __imp_?GiveAngle@@YANABUtagGVector2d@@0@Z 100623b8     umath:umath.dll
+ 0002:000003bc       __imp_?RotateTransf2d@@YA?AUtagGTransf2d@@N@Z 100623bc     umath:umath.dll
+ 0002:000003c0       __imp_??XtagGTransf2d@@QAEAAU0@ABU0@@Z 100623c0     umath:umath.dll
+ 0002:000003c4       __imp_??D@YA?AUtagGUnitVector2d@@ABU0@ABUtagGTransf2d@@@Z 100623c4     umath:umath.dll
+ 0002:000003c8       __imp_?Inverse@tagGTransf2d@@QBE?AU1@XZ 100623c8     umath:umath.dll
+ 0002:000003cc       __imp_?GetRelativeTolerance@@YA?BNXZ 100623cc     umath:umath.dll
+ 0002:000003d0       __imp_??AtagGVector2d@@QBENI@Z 100623d0     umath:umath.dll
+ 0002:000003d4       __imp_??YtagGPosition2d@@QAEAAU0@ABUtagGVector2d@@@Z 100623d4     umath:umath.dll
+ 0002:000003d8       __imp_?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 100623d8     umath:umath.dll
+ 0002:000003dc       __imp_??G@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 100623dc     umath:umath.dll
+ 0002:000003e0       __imp_?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 100623e0     umath:umath.dll
+ 0002:000003e4       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 100623e4     umath:umath.dll
+ 0002:000003e8       __imp_?IsEqual@tagGPosition2d@@QBEHABU1@@Z 100623e8     umath:umath.dll
+ 0002:000003ec       __imp_?GetFitTolerance@@YA?BNXZ 100623ec     umath:umath.dll
+ 0002:000003f0       __imp_??L@YANABUtagGVector2d@@0@Z 100623f0     umath:umath.dll
+ 0002:000003f4       __imp_?GetLength@tagGVector2d@@QBENXZ 100623f4     umath:umath.dll
+ 0002:000003f8       __imp_??D@YANABUtagGVector2d@@0@Z 100623f8     umath:umath.dll
+ 0002:000003fc       __imp_??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 100623fc     umath:umath.dll
+ 0002:00000400       __imp_?IsColinear@tagGVector2d@@QBEHABU1@@Z 10062400     umath:umath.dll
+ 0002:00000404       __imp_?GetDistanceTolerance@@YA?BNXZ 10062404     umath:umath.dll
+ 0002:00000408       __imp_?GDistance@@YANABUtagGPosition2d@@0@Z 10062408     umath:umath.dll
+ 0002:0000040c       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1006240c     umath:umath.dll
+ 0002:00000410       \177umath_NULL_THUNK_DATA  10062410     umath:umath.dll
+ 0002:00000414       ___xc_a                    10062414     MSVCRT:cinitexe.obj
+ 0002:00000418       ___xc_z                    10062418     MSVCRT:cinitexe.obj
+ 0002:0000041c       ___xi_a                    1006241c     MSVCRT:cinitexe.obj
+ 0002:00000428       ___xi_z                    10062428     MSVCRT:cinitexe.obj
+ 0002:0000044c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1006244c     IM2ArcsCctr2d.obj
+ 0002:00000460       __real@0000000000000000    10062460     IM2LnsColr2d.obj
+ 0002:00000468       __real@46293e5939a08cea    10062468     IM2TCsPer2d.obj
+ 0002:00000470       __real@408f400000000000    10062470     IM2TCsPer2d.obj
+ 0002:00000478       __real@c08f400000000000    10062478     IM2TCsTan2d.obj
+ 0002:00000480       __real@4034000000000000    10062480     IMACSOff2d.obj
+ 0002:00000488       __real@3fe0000000000000    10062488     IMACSOff2d.obj
+ 0002:00000490       __real@3feccccccccccccd    10062490     IMACSOff2d.obj
+ 0002:00000498       __real@3fb999999999999a    10062498     IMACSOff2d.obj
+ 0002:000004a0       __real@3d719799812dea11    100624a0     IMACSOff2d.obj
+ 0002:000004a8       __real@41f0000000000000    100624a8     IMACSOff2d.obj
+ 0002:000004b0       __real@7fefffffffffffff    100624b0     IMACSOff2d.obj
+ 0002:000004b8       __real@3ed4f8b588e368f1    100624b8     IMACSOff2d.obj
+ 0002:000004c0       __real@4059000000000000    100624c0     IMACSOff2d.obj
+ 0002:000004c8       __real@4024000000000000    100624c8     IMACSOff2d.obj
+ 0002:000004d0       __real@c024000000000000    100624d0     IMACSOff2d.obj
+ 0002:000004d8       __real@401921fb54442d18    100624d8     IMALenCStr2d.obj
+ 0002:000004e0       __real@3ff0000000000000    100624e0     IMALenElPr2d.obj
+ 0002:000004e8       __real@3f847ae147ae147b    100624e8     IMAr2dCv2d.obj
+ 0002:000004f0       __real@bff0000000000000    100624f0     IMAr2dCv2d.obj
+ 0002:000004f8       __real@4000c152382d7365    100624f8     IMAr2dCv2d.obj
+ 0002:00000500       __real@4010c152382d7365    10062500     IMAr2dCv2d.obj
+ 0002:00000508       __real@3ddb7cdfd9d7bdbb    10062508     IMArCkPr2d.obj
+ 0002:00000510       __real@3fc999999999999a    10062510     IMArcSpline2d.obj
+ 0002:00000518       __real@401921fb544428b2    10062518     IMArGoSeam2d.obj
+ 0002:00000520       __real@4012d97c7f3321d2    10062520     IMArRgBx2d.obj
+ 0002:00000528       __real@400921fb54442d18    10062528     IMArRgBx2d.obj
+ 0002:00000530       __real@3ff921fb54442d18    10062530     IMArRgBx2d.obj
+ 0002:00000538       __real@3cb0000000000000    10062538     IMArSEStSw2d.obj
+ 0002:00000540       __real@3ce4000000000000    10062540     IMArSEStSw2d.obj
+ 0002:00000548       __real@4014000000000000    10062548     IMArToPCv2d.obj
+ 0002:00000550       __real@3eb0c6f7a0b5ed8d    10062550     IMBooIntRc2d.obj
+ 0002:00000558       __real@3f50624dd2f1a9fc    10062558     IMBooIntTcv2d.obj
+ 0002:00000560       __real@4008000000000000    10062560     IMBspLamina2d.obj
+ 0002:00000568       __real@3fe921fb54442d18    10062568     IMCCsCnArIn2d.obj
+ 0002:00000570       __real@c00921fb54442d18    10062570     IMCCsCnArIn2d.obj
+ 0002:00000578       __real@4028000000000000    10062578     IMCCsCnArIn2d.obj
+ 0002:00000580       __real@4018000000000000    10062580     IMCCsCnArIn2d.obj
+ 0002:00000588       __real@3fd0000000000000    10062588     IMCCsCnArIn2d.obj
+ 0002:00000590       ??_C@_0BP@GFMIDBMM@There?5are?5no?5unfreed?5pointers?6?$AA@ 10062590     IMChkDbg20.obj
+ 0002:000005b0       ??_C@_01EEMJAFIK@?6?$AA@   100625b0     IMChkDbg20.obj
+ 0002:000005b4       ??_C@_0BC@JPNLMAIP@?50x?$CFp?5?$CI?$CFd?5bytes?$CJ?6?$AA@ 100625b4     IMChkDbg20.obj
+ 0002:000005c8       ??_C@_0BE@JLALDCBM@?50x?$CF?48p?5?$CI?$CFd?5bytes?$CJ?6?$AA@ 100625c8     IMChkDbg20.obj
+ 0002:000005dc       ??_C@_0BH@LBFPDFF@Unfreed?5pointers?5are?3?6?$AA@ 100625dc     IMChkDbg20.obj
+ 0002:000005f4       ??_C@_0CK@MPADIPKJ@Warning?3?5there?5are?5?$CFd?5unfreed?5po@ 100625f4     IMChkDbg20.obj
+ 0002:00000620       ??_C@_0BF@JPLHDLFE@?5unfreed?5pointers?4?6?6?$AA@ 10062620     IMChkDbg20.obj
+ 0002:00000638       ??_C@_0BF@MEHDPDFE@Warning?3?5?5there?5are?5?$AA@ 10062638     IMChkDbg20.obj
+ 0002:00000650       ??_C@_0DN@PIKPJPAH@Warning?3?5there?5has?5been?5an?5attem@ 10062650     IMChkDbg20.obj
+ 0002:00000690       ??_C@_0EE@BAMNOENK@Warning?3?5there?5has?5been?5an?5attem@ 10062690     IMChkDbg20.obj
+ 0002:000006d8       __real@3c9cd2b297d889bc    100626d8     IMCoolOneEd2d.obj
+ 0002:000006e0       __real@3e45798ee2308c3a    100626e0     IMCSlfInt2d.obj
+ 0002:000006e8       __real@3fa999999999999a    100626e8     IMCvCoolEd2d.obj
+ 0002:000006f0       __real@3f1a36e2eb1c432d    100626f0     IMCvExPly2d.obj
+ 0002:000006f8       __real@4000000000000000    100626f8     IMCvExPly2d.obj
+ 0002:00000700       __real@bfe0000000000000    10062700     IMCvExPly2d.obj
+ 0002:00000708       __real@3cd203af9ee75616    10062708     IMCvExPt2d.obj
+ 0002:00000710       __real@3fe999999999999a    10062710     IMCvRdEdPts2d.obj
+ 0002:00000718       __real@3f2a36e2eb1c432d    10062718     IMCvRmLoop2d.obj
+ 0002:00000720       __real@3fd999999999999a    10062720     IMCvTTE2d.obj
+ 0002:00000728       __real@3ff8000000000000    10062728     IMCvXtrm2d.obj
+ 0002:00000730       __real@4044000000000000    10062730     IMCvXtrm2d.obj
+ 0002:00000738       __real@3fd3333333333333    10062738     IMCvXtrm2d.obj
+ 0002:00000740       __real@3ee4f8b588e368f1    10062740     IMElArByPts2d.obj
+ 0002:00000748       __real@3abef2d0f5da7dd9    10062748     IMElArByPts2d.obj
+ 0002:00000750       __real@c000000000000000    10062750     IMElArByPts2d.obj
+ 0002:00000758       __real@3da5fd7fe1796495    10062758     IMElArByPts2d.obj
+ 0002:00000760       __real@4010000000000000    10062760     IMFlLnLnTP2d.obj
+ 0002:00000768       __real@3fdc28f5c28f5c29    10062768     IMFrmG1Cv2d.obj
+ 0002:00000774       ??_7JIOStreamContext@@6B@  10062774     IMGArRFS2d.obj
+ 0002:00000778       __real@ffefffffffffffff    10062778     IMGCv2dAlloc.obj
+ 0002:00000784       ??_7bad_alloc@std@@6B@     10062784     IMGetHatchBdry2d.obj
+ 0002:00000790       ??_7logic_error@std@@6B@   10062790     IMGetHatchBdry2d.obj
+ 0002:0000079c       ??_7length_error@std@@6B@  1006279c     IMGetHatchBdry2d.obj
+ 0002:000007a4       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 100627a4     IMGetHatchBdry2d.obj
+ 0002:000007b8       __real@4202a05f20000000    100627b8     IMGetHatchBdry2d.obj
+ 0002:000007c0       __real@3ff028f5c28f5c29    100627c0     IMGLSOff2d.obj
+ 0002:000007c8       __real@4022000000000000    100627c8     IMGtCvOrt2d.obj
+ 0002:000007d0       __real@c6293e5939a08cea    100627d0     IMLnThRgBx2d.obj
+ 0002:000007d8       __real@3fefffffffffdcd1    100627d8     IMPjPtEEl2d.obj
+ 0002:000007e0       ??_C@_0BG@JICHJBKA@C?3?2temp?2Math_Geom?4txt?$AA@ 100627e0     IMPrintCurve2d.obj
+ 0002:000007f8       ??_C@_01MCMALHOG@a?$AA@    100627f8     IMPrintCurve2d.obj
+ 0002:000007fc       ??_C@_08KOFFGAOB@?$HNGArc2d?6?$AA@ 100627fc     IMPrtGAr2d.obj
+ 0002:00000808       ??_C@_0P@NMEIFLBA@?$HNIGRbsp_curve?6?$AA@ 10062808     IMPrtGAr2d.obj
+ 0002:00000818       ??_C@_0P@FPPDALCA@IGRbsp_curve?$HL?6?$AA@ 10062818     IMPrtGAr2d.obj
+ 0002:00000828       ??_C@_09NFCILOIK@endAngle?6?$AA@ 10062828     IMPrtGAr2d.obj
+ 0002:00000834       ??_C@_09MMGNOMPB@?$CF20?415le?6?$AA@ 10062834     IMPrtGAr2d.obj
+ 0002:00000840       ??_C@_0M@GPPMECNC@startAngle?6?$AA@ 10062840     IMPrtGAr2d.obj
+ 0002:0000084c       ??_C@_08HOELBPJD@GArc2d?$HL?6?$AA@ 1006284c     IMPrtGAr2d.obj
+ 0002:00000858       ??_C@_0BA@MJJKFHPM@?$HNGBoundaries2d?6?$AA@ 10062858     IMPrtGBdry2d.obj
+ 0002:00000868       ??_C@_0BC@HNIGHCNL@numBoundaries?5?$CFu?6?$AA@ 10062868     IMPrtGBdry2d.obj
+ 0002:0000087c       ??_C@_0BA@EIEABJAE@GBoundaries2d?$HL?6?$AA@ 1006287c     IMPrtGBdry2d.obj
+ 0002:0000088c       ??_C@_0BD@EFAIKIJD@?$HNGComplexString2d?6?$AA@ 1006288c     IMPrtGCS2d.obj
+ 0002:000008a0       ??_C@_0L@GHKGEBKK@scope?5?$CFhu?6?$AA@ 100628a0     IMPrtGCS2d.obj
+ 0002:000008ac       ??_C@_09BPIICOJM@form?5?$CFhu?6?$AA@ 100628ac     IMPrtGCS2d.obj
+ 0002:000008b8       ??_C@_0P@ILNMHJGM@numCurves?5?$CFlu?6?$AA@ 100628b8     IMPrtGCS2d.obj
+ 0002:000008c8       ??_C@_0BD@GKNBCPMM@GComplexString2d?$HL?6?$AA@ 100628c8     IMPrtGCS2d.obj
+ 0002:000008dc       ??_C@_0O@OFBMIGFJ@?$HNGBspCurve2d?6?$AA@ 100628dc     IMPrtGCv2d.obj
+ 0002:000008ec       ??_C@_0O@PBHOHPDO@curve_flag?50?6?$AA@ 100628ec     IMPrtGCv2d.obj
+ 0002:000008fc       ??_C@_0O@PALMBFAJ@curve_flag?51?6?$AA@ 100628fc     IMPrtGCv2d.obj
+ 0002:0000090c       ??_C@_0BA@GNJJFBE@properties?5?$CFhu?6?$AA@ 1006290c     IMPrtGCv2d.obj
+ 0002:0000091c       ??_C@_07IFINHGIO@length?6?$AA@ 1006291c     IMPrtGCv2d.obj
+ 0002:00000924       ??_C@_07BBBIBHHL@pKnots?6?$AA@ 10062924     IMPrtGCv2d.obj
+ 0002:0000092c       ??_C@_09IOJMJDGB@pWeights?6?$AA@ 1006292c     IMPrtGCv2d.obj
+ 0002:00000938       ??_C@_07BAJIEGMA@pPoles?6?$AA@ 10062938     IMPrtGCv2d.obj
+ 0002:00000940       ??_C@_0N@NINNBOM@rational?5?$CFd?6?$AA@ 10062940     IMPrtGCv2d.obj
+ 0002:00000950       ??_C@_0O@ODILOAOJ@numKnots?5?$CFlu?6?$AA@ 10062950     IMPrtGCv2d.obj
+ 0002:00000960       ??_C@_0O@IACMFCI@numPoles?5?$CFlu?6?$AA@ 10062960     IMPrtGCv2d.obj
+ 0002:00000970       ??_C@_0L@BPFBPOKC@order?5?$CFhu?6?$AA@ 10062970     IMPrtGCv2d.obj
+ 0002:0000097c       ??_C@_0O@EBLEMNLL@GBspCurve2d?$HL?6?$AA@ 1006297c     IMPrtGCv2d.obj
+ 0002:0000098c       ??_C@_0N@IPIAIPKO@?$HNGEllipse2d?6?$AA@ 1006298c     IMPrtGEl2d.obj
+ 0002:0000099c       ??_C@_0BB@CAGKMFJL@orientation?5?$CFhu?6?$AA@ 1006299c     IMPrtGEl2d.obj
+ 0002:000009b0       ??_C@_0BB@MNLNLDG@minorMajorRatio?6?$AA@ 100629b0     IMPrtGEl2d.obj
+ 0002:000009c4       ??_C@_0L@GNLMHGIA@majorAxis?6?$AA@ 100629c4     IMPrtGEl2d.obj
+ 0002:000009d0       ??_C@_07ICPJJPCM@center?6?$AA@ 100629d0     IMPrtGEl2d.obj
+ 0002:000009d8       ??_C@_0N@BNGHBING@GEllipse2d?$HL?6?$AA@ 100629d8     IMPrtGEl2d.obj
+ 0002:000009e8       ??_C@_0O@KDKIIBBD@?$HNGFitCurve2d?6?$AA@ 100629e8     IMPrtGFC2d.obj
+ 0002:000009f8       ??_C@_0N@KOIKCGBH@numKnots?5?$CFd?6?$AA@ 100629f8     IMPrtGFC2d.obj
+ 0002:00000a08       ??_C@_05IMCDFLPE@pars?6?$AA@ 10062a08     IMPrtGFC2d.obj
+ 0002:00000a10       ??_C@_07LMJFADHA@endTan?6?$AA@ 10062a10     IMPrtGFC2d.obj
+ 0002:00000a18       ??_C@_0O@JIGBNPLE@inpEndTan?5?$CFd?6?$AA@ 10062a18     IMPrtGFC2d.obj
+ 0002:00000a28       ??_C@_09KNOOOCPG@startTan?6?$AA@ 10062a28     IMPrtGFC2d.obj
+ 0002:00000a34       ??_C@_0N@JEIPAEIF@inpStTan?5?$CFd?6?$AA@ 10062a34     IMPrtGFC2d.obj
+ 0002:00000a44       ??_C@_0BA@MFCNAOCK@closedForm?5?$CFhu?6?$AA@ 10062a44     IMPrtGFC2d.obj
+ 0002:00000a54       ??_C@_07BHDAJLNL@fitTol?6?$AA@ 10062a54     IMPrtGFC2d.obj
+ 0002:00000a5c       ??_C@_0N@GEHGFCOH@fitType?5?$CFhu?6?$AA@ 10062a5c     IMPrtGFC2d.obj
+ 0002:00000a6c       ??_C@_08IAHBHJLI@pPoints?6?$AA@ 10062a6c     IMPrtGFC2d.obj
+ 0002:00000a78       ??_C@_0P@MEEEHBOM@numPoints?5?$CFlu?6?$AA@ 10062a78     IMPrtGFC2d.obj
+ 0002:00000a88       ??_C@_0O@NHPLNBDC@GFitCurve2d?$HL?6?$AA@ 10062a88     IMPrtGFC2d.obj
+ 0002:00000a98       ??_C@_09EJBCAELA@?$HNGLine2d?6?$AA@ 10062a98     IMPrtGLn2d.obj
+ 0002:00000aa4       ??_C@_04GMHPLJJ@end?6?$AA@ 10062aa4     IMPrtGLn2d.obj
+ 0002:00000aac       ??_C@_06ODNDLLAM@start?6?$AA@ 10062aac     IMPrtGLn2d.obj
+ 0002:00000ab4       ??_C@_0L@HKPFCEPJ@direction?6?$AA@ 10062ab4     IMPrtGLn2d.obj
+ 0002:00000ac0       ??_C@_0L@IFKBMCPB@rootPoint?6?$AA@ 10062ac0     IMPrtGLn2d.obj
+ 0002:00000acc       ??_C@_09NJEPINAL@GLine2d?$HL?6?$AA@ 10062acc     IMPrtGLn2d.obj
+ 0002:00000ad8       ??_C@_0BA@GPJAEMOJ@?$HNGLineString2d?6?$AA@ 10062ad8     IMPrtGLS2d.obj
+ 0002:00000ae8       ??_C@_0O@HOLOEACB@numPoints?5?$CFu?6?$AA@ 10062ae8     IMPrtGLS2d.obj
+ 0002:00000af8       ??_C@_0BA@CFDLPHPE@GLineString2d?$HL?6?$AA@ 10062af8     IMPrtGLS2d.obj
+ 0002:00000b08       ??_C@_0L@GJKACEBA@?$HNGPoint2d?6?$AA@ 10062b08     IMPrtGPt2d.obj
+ 0002:00000b14       ??_C@_09IKGFHADP@position?6?$AA@ 10062b14     IMPrtGPt2d.obj
+ 0002:00000b20       ??_C@_0L@BILFKNDE@GPoint2d?$HL?6?$AA@ 10062b20     IMPrtGPt2d.obj
+ 0002:00000b2c       ??_C@_0P@BICGJMDF@?$HNGRectangle2d?6?$AA@ 10062b2c     IMPrtGRc2d.obj
+ 0002:00000b3c       ??_C@_0BC@IGDEILFC@heightWidthRatio?6?$AA@ 10062b3c     IMPrtGRc2d.obj
+ 0002:00000b50       ??_C@_0N@HMMJGHMF@widthVector?6?$AA@ 10062b50     IMPrtGRc2d.obj
+ 0002:00000b60       ??_C@_0N@LIJPIAKH@anchorPoint?6?$AA@ 10062b60     IMPrtGRc2d.obj
+ 0002:00000b70       ??_C@_0P@BEDDLBKA@GRectangle2d?$HL?6?$AA@ 10062b70     IMPrtGRc2d.obj
+ 0002:00000b80       ??_C@_0BA@FBHDNAGK@?$HNGTypedCurve2d?6?$AA@ 10062b80     IMPrtGTC2d.obj
+ 0002:00000b90       ??_C@_09JCMDANKI@type?5?$CFhu?6?$AA@ 10062b90     IMPrtGTC2d.obj
+ 0002:00000b9c       ??_C@_0BA@FBLEMGPC@GTypedCurve2d?$HL?6?$AA@ 10062b9c     IMPrtGTC2d.obj
+ 0002:00000bac       ??_C@_0BD@PPHEACPI@?$HNGTypedGeometry2d?6?$AA@ 10062bac     IMPrtGTGm2d.obj
+ 0002:00000bc0       ??_C@_0BD@LAALOLLG@GTypedGeometry2d?$HL?6?$AA@ 10062bc0     IMPrtGTGm2d.obj
+ 0002:00000bd8       __real@3fe8000000000000    10062bd8     IMQNwt2.obj
+ 0002:00000be0       __real@4693b8b5b5056e17    10062be0     IMRcGPrPs2d.obj
+ 0002:00000be8       ??_C@_03FNNLGIME@?$CFhu?$AA@ 10062be8     IMRdAr2d.obj
+ 0002:00000bec       ??_C@_03DLDNIBIK@?$CFlf?$AA@ 10062bec     IMRdAr2d.obj
+ 0002:00000bf0       ??_C@_07JNLHAIBP@?$CFlf?5?$CFlf?$AA@ 10062bf0     IMRdAr2d.obj
+ 0002:00000bf8       ??_C@_03FKNCMABI@?$CFlu?$AA@ 10062bf8     IMRdBdry2d.obj
+ 0002:00000bfc       ??_C@_02DPKJAMEF@?$CFd?$AA@ 10062bfc     IMRdCS2d.obj
+ 0002:00000c00       ??_C@_07NFMKOHHA@BScurve?$AA@ 10062c00     IMRdCv2d.obj
+ 0002:00000c08       ??_C@_0N@FAGCDCLF@GBspCurve2d?$HL?$AA@ 10062c08     IMRdCv2d.obj
+ 0002:00000c18       ??_C@_02DKCKIIND@?$CFs?$AA@ 10062c18     IMRdCv2d.obj
+ 0002:00000c1c       ??_C@_07GENPECPG@?$HNGArc2d?$AA@ 10062c1c     IMRdGAr2d.obj
+ 0002:00000c24       ??_C@_08KICKIHDM@endAngle?$AA@ 10062c24     IMRdGAr2d.obj
+ 0002:00000c30       ??_C@_0L@KMOANKMI@startAngle?$AA@ 10062c30     IMRdGAr2d.obj
+ 0002:00000c3c       ??_C@_07BKLGMHBD@GArc2d?$HL?$AA@ 10062c3c     IMRdGAr2d.obj
+ 0002:00000c44       ??_C@_0P@HGKCJDGN@?$HNGBoundaries2d?$AA@ 10062c44     IMRdGBdry2d.obj
+ 0002:00000c54       ??_C@_0O@JKNKKJPB@numBoundaries?$AA@ 10062c54     IMRdGBdry2d.obj
+ 0002:00000c64       ??_C@_0P@BCPKKGLJ@GBoundaries2d?$HL?$AA@ 10062c64     IMRdGBdry2d.obj
+ 0002:00000c74       ??_C@_0BC@DHCBAPDD@?$HNGComplexString2d?$AA@ 10062c74     IMRdGCS2d.obj
+ 0002:00000c88       ??_C@_05DCCHDMEJ@scope?$AA@ 10062c88     IMRdGCS2d.obj
+ 0002:00000c90       ??_C@_04MLMMMEIO@form?$AA@ 10062c90     IMRdGCS2d.obj
+ 0002:00000c98       ??_C@_09ILMFAMDN@numCurves?$AA@ 10062c98     IMRdGCS2d.obj
+ 0002:00000ca4       ??_C@_0BC@IBNKNHAP@GComplexString2d?$HL?$AA@ 10062ca4     IMRdGCS2d.obj
+ 0002:00000cb8       ??_C@_0N@CJONLNND@?$HNGBspCurve2d?$AA@ 10062cb8     IMRdGCv2d.obj
+ 0002:00000cc8       ??_C@_0L@NJDJMMPD@curve_flag?$AA@ 10062cc8     IMRdGCv2d.obj
+ 0002:00000cd4       ??_C@_0L@CIHKIEFA@properties?$AA@ 10062cd4     IMRdGCv2d.obj
+ 0002:00000ce0       ??_C@_06IJDLPEM@length?$AA@ 10062ce0     IMRdGCv2d.obj
+ 0002:00000ce8       ??_C@_06PJMJMOMF@pKnots?$AA@ 10062ce8     IMRdGCv2d.obj
+ 0002:00000cf0       ??_C@_08MCKJHBID@pWeights?$AA@ 10062cf0     IMRdGCv2d.obj
+ 0002:00000cfc       ??_C@_08JNFJGLMN@?$CFlf?5?5?$CFlf?$AA@ 10062cfc     IMRdGCv2d.obj
+ 0002:00000d08       ??_C@_06KCOJHDIE@pPoles?$AA@ 10062d08     IMRdGCv2d.obj
+ 0002:00000d10       ??_C@_08KMPIOPJN@rational?$AA@ 10062d10     IMRdGCv2d.obj
+ 0002:00000d1c       ??_C@_08PELEDNNJ@numKnots?$AA@ 10062d1c     IMRdGCv2d.obj
+ 0002:00000d28       ??_C@_08KPJEIAJI@numPoles?$AA@ 10062d28     IMRdGCv2d.obj
+ 0002:00000d34       ??_C@_05NDNMCCJH@order?$AA@ 10062d34     IMRdGCv2d.obj
+ 0002:00000d3c       ??_C@_0M@FMELIMC@?$HNGEllipse2d?$AA@ 10062d3c     IMRdGEl2d.obj
+ 0002:00000d48       ??_C@_0M@KPMDGEHG@orientation?$AA@ 10062d48     IMRdGEl2d.obj
+ 0002:00000d54       ??_C@_0BA@INBFOHNF@minorMajorRatio?$AA@ 10062d54     IMRdGEl2d.obj
+ 0002:00000d64       ??_C@_09IBEHICAL@majorAxis?$AA@ 10062d64     IMRdGEl2d.obj
+ 0002:00000d70       ??_C@_06BBLOAEEI@center?$AA@ 10062d70     IMRdGEl2d.obj
+ 0002:00000d78       ??_C@_0M@DANNFLAO@GEllipse2d?$HL?$AA@ 10062d78     IMRdGEl2d.obj
+ 0002:00000d84       ??_C@_0N@PEFEIOHM@?$HNGFitCurve2d?$AA@ 10062d84     IMRdGFC2d.obj
+ 0002:00000d94       ??_C@_04BAPCOOEA@pars?$AA@ 10062d94     IMRdGFC2d.obj
+ 0002:00000d9c       ??_C@_06BDFFIDKP@endTan?$AA@ 10062d9c     IMRdGFC2d.obj
+ 0002:00000da4       ??_C@_09LHANOJCH@inpEndTan?$AA@ 10062da4     IMRdGFC2d.obj
+ 0002:00000db0       ??_C@_08GJLPFJHE@startTan?$AA@ 10062db0     IMRdGFC2d.obj
+ 0002:00000dbc       ??_C@_08LAHDPNJB@inpStTan?$AA@ 10062dbc     IMRdGFC2d.obj
+ 0002:00000dc8       ??_C@_0L@EOKLEPLE@closedForm?$AA@ 10062dc8     IMRdGFC2d.obj
+ 0002:00000dd4       ??_C@_06GHPAHBIA@fitTol?$AA@ 10062dd4     IMRdGFC2d.obj
+ 0002:00000ddc       ??_C@_07JFBLLOOE@fitType?$AA@ 10062ddc     IMRdGFC2d.obj
+ 0002:00000de4       ??_C@_07PEMLJKIL@pPoints?$AA@ 10062de4     IMRdGFC2d.obj
+ 0002:00000dec       ??_C@_09OAMHLLDH@numPoints?$AA@ 10062dec     IMRdGFC2d.obj
+ 0002:00000df8       ??_C@_0N@BGNGDFPP@GFitCurve2d?$HL?$AA@ 10062df8     IMRdGFC2d.obj
+ 0002:00000e08       ??_C@_08JLJGBEPI@?$HNGLine2d?$AA@ 10062e08     IMRdGLn2d.obj
+ 0002:00000e14       ??_C@_03JBJLGPFL@end?$AA@  10062e14     IMRdGLn2d.obj
+ 0002:00000e18       ??_C@_05FAGFPHJG@start?$AA@ 10062e18     IMRdGLn2d.obj
+ 0002:00000e20       ??_C@_09HPKLLIJF@direction?$AA@ 10062e20     IMRdGLn2d.obj
+ 0002:00000e2c       ??_C@_09CECHMAEM@rootPoint?$AA@ 10062e2c     IMRdGLn2d.obj
+ 0002:00000e38       ??_C@_08HJACDOPH@GLine2d?$HL?$AA@ 10062e38     IMRdGLn2d.obj
+ 0002:00000e44       ??_C@_0P@MAOOOBMI@?$HNGLineString2d?$AA@ 10062e44     IMRdGLS2d.obj
+ 0002:00000e54       ??_C@_02GMHACPFF@?$CFu?$AA@ 10062e54     IMRdGLS2d.obj
+ 0002:00000e58       ??_C@_0P@LEPALNKM@GLineString2d?$HL?$AA@ 10062e58     IMRdGLS2d.obj
+ 0002:00000e68       ??_C@_09EGDDAHIN@?$HNGPoint2d?$AA@ 10062e68     IMRdGPt2d.obj
+ 0002:00000e74       ??_C@_08OAGMDKAF@position?$AA@ 10062e74     IMRdGPt2d.obj
+ 0002:00000e80       ??_C@_09OCDPKKMJ@GPoint2d?$HL?$AA@ 10062e80     IMRdGPt2d.obj
+ 0002:00000e8c       ??_C@_0O@HBAOKLMJ@?$HNGRectangle2d?$AA@ 10062e8c     IMRdGRc2d.obj
+ 0002:00000e9c       ??_C@_0BB@HIMGPMO@heightWidthRatio?$AA@ 10062e9c     IMRdGRc2d.obj
+ 0002:00000eb0       ??_C@_0M@PFFNJLNA@widthVector?$AA@ 10062eb0     IMRdGRc2d.obj
+ 0002:00000ebc       ??_C@_0M@MCPAEBCJ@anchorPoint?$AA@ 10062ebc     IMRdGRc2d.obj
+ 0002:00000ec8       ??_C@_0O@NCDIAGAC@GRectangle2d?$HL?$AA@ 10062ec8     IMRdGRc2d.obj
+ 0002:00000ed8       ??_C@_0P@ENAFLJCP@?$HNGTypedCurve2d?$AA@ 10062ed8     IMRdGTC2d.obj
+ 0002:00000ee8       ??_C@_04GPMDFGEJ@type?$AA@ 10062ee8     IMRdGTC2d.obj
+ 0002:00000ef0       ??_C@_0BC@JLLNGBMH@?$HNGTypedGeometry2d?$AA@ 10062ef0     IMRdGTGm2d.obj
+ 0002:00000f04       ??_C@_0BC@DLKGHNGE@GTypedGeometry2d?$HL?$AA@ 10062f04     IMRdGTGm2d.obj
+ 0002:00000f18       ??_C@_03OACELNE@?$CFhd?$AA@ 10062f18     IMRdLS2d.obj
+ 0002:00000f1c       ??_C@_04PHLJLPDF@?$CFlf?6?$AA@ 10062f1c     IMRdRc2d.obj
+ 0002:00000f24       ??_C@_08HHHKFCHH@?$CFlf?5?$CFlf?6?$AA@ 10062f24     IMRdRc2d.obj
+ 0002:00000f30       __real@4066800000000000    10062f30     IMRdTCv2d.obj
+ 0002:00000f38       __real@3f40624dd2f1a9fc    10062f38     IMSCvOff2d.obj
+ 0002:00000f40       __real@4049000000000000    10062f40     IMSCvOff2d.obj
+ 0002:00000f48       __real@3fe947ae147ae148    10062f48     IMTCApLen2d.obj
+ 0002:00000f50       __real@4030000000000000    10062f50     IMTCApLen2d.obj
+ 0002:00000f58       __real@4050000000000000    10062f58     IMTCApLen2d.obj
+ 0002:00000f60       __real@40c3880000000000    10062f60     IMTCsPtIn2d.obj
+ 0002:00000f68       __real@4197d78400000000    10062f68     IMXTCTCExt2d.obj
+ 0002:00000f70       __real@c197d78400000000    10062f70     IMXTCTCExt2d.obj
+ 0002:00000f7c       ??_7type_info@@6B@         10062f7c     MSVCRT:ti_inst.obj
+ 0002:00000f80       __pDefaultRawDllMain       10062f80     MSVCRT:crtdll.obj
+ 0002:00000f80       __pRawDllMain              10062f80     MSVCRT:crtdll.obj
+ 0002:00000f90       __load_config_used         10062f90     MSVCRT:loadcfg.obj
+ 0002:0000100c       ??_R4JIOStreamContext@@6B@ 1006300c     IMGArRFS2d.obj
+ 0002:00001020       ??_R3JIOStreamContext@@8   10063020     IMGArRFS2d.obj
+ 0002:00001030       ??_R2JIOStreamContext@@8   10063030     IMGArRFS2d.obj
+ 0002:00001038       ??_R1A@?0A@EA@JIOStreamContext@@8 10063038     IMGArRFS2d.obj
+ 0002:00001054       ??_R4bad_alloc@std@@6B@    10063054     IMGetHatchBdry2d.obj
+ 0002:00001068       ??_R3bad_alloc@std@@8      10063068     IMGetHatchBdry2d.obj
+ 0002:00001078       ??_R2bad_alloc@std@@8      10063078     IMGetHatchBdry2d.obj
+ 0002:00001084       ??_R1A@?0A@EA@bad_alloc@std@@8 10063084     IMGetHatchBdry2d.obj
+ 0002:000010a0       ??_R1A@?0A@EA@exception@std@@8 100630a0     IMGetHatchBdry2d.obj
+ 0002:000010bc       ??_R3exception@std@@8      100630bc     IMGetHatchBdry2d.obj
+ 0002:000010cc       ??_R2exception@std@@8      100630cc     IMGetHatchBdry2d.obj
+ 0002:000010d4       ??_R4logic_error@std@@6B@  100630d4     IMGetHatchBdry2d.obj
+ 0002:000010e8       ??_R3logic_error@std@@8    100630e8     IMGetHatchBdry2d.obj
+ 0002:000010f8       ??_R2logic_error@std@@8    100630f8     IMGetHatchBdry2d.obj
+ 0002:00001104       ??_R1A@?0A@EA@logic_error@std@@8 10063104     IMGetHatchBdry2d.obj
+ 0002:00001120       ??_R4length_error@std@@6B@ 10063120     IMGetHatchBdry2d.obj
+ 0002:00001134       ??_R3length_error@std@@8   10063134     IMGetHatchBdry2d.obj
+ 0002:00001144       ??_R2length_error@std@@8   10063144     IMGetHatchBdry2d.obj
+ 0002:00001154       ??_R1A@?0A@EA@length_error@std@@8 10063154     IMGetHatchBdry2d.obj
+ 0002:00001170       ??_R4type_info@@6B@        10063170     MSVCRT:ti_inst.obj
+ 0002:00001184       ??_R3type_info@@8          10063184     MSVCRT:ti_inst.obj
+ 0002:00001194       ??_R2type_info@@8          10063194     MSVCRT:ti_inst.obj
+ 0002:0000119c       ??_R1A@?0A@EA@type_info@@8 1006319c     MSVCRT:ti_inst.obj
+ 0002:000011c0       ___safe_se_handler_table   100631c0     <linker-defined>
+ 0002:00001284       ___rtc_iaa                 10063284     MSVCRT:initsect.obj
+ 0002:00001288       ___rtc_izz                 10063288     MSVCRT:initsect.obj
+ 0002:0000128c       ___rtc_taa                 1006328c     MSVCRT:initsect.obj
+ 0002:00001290       ___rtc_tzz                 10063290     MSVCRT:initsect.obj
+ 0002:00001618       __TI2?AVbad_alloc@std@@    10063618     IMGetHatchBdry2d.obj
+ 0002:00001628       __CTA2?AVbad_alloc@std@@   10063628     IMGetHatchBdry2d.obj
+ 0002:00001634       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10063634     IMGetHatchBdry2d.obj
+ 0002:00001650       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 10063650     IMGetHatchBdry2d.obj
+ 0002:00001698       __TI3?AVlength_error@std@@ 10063698     IMGetHatchBdry2d.obj
+ 0002:000016d4       __CTA3?AVlength_error@std@@ 100636d4     IMGetHatchBdry2d.obj
+ 0002:000016e4       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 100636e4     IMGetHatchBdry2d.obj
+ 0002:00001700       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 10063700     IMGetHatchBdry2d.obj
+ 0002:00001d24       __IMPORT_DESCRIPTOR_ubspm2d 10063d24     ubspm2d:ubspm2d.dll
+ 0002:00001d38       __IMPORT_DESCRIPTOR_umath  10063d38     umath:umath.dll
+ 0002:00001d4c       __IMPORT_DESCRIPTOR_KERNEL32 10063d4c     kernel32:KERNEL32.dll
+ 0002:00001d60       __IMPORT_DESCRIPTOR_MSVCP80 10063d60     msvcprt:MSVCP80.dll
+ 0002:00001d74       __IMPORT_DESCRIPTOR_MSVCR80 10063d74     MSVCRT:MSVCR80.dll
+ 0002:00001d88       __NULL_IMPORT_DESCRIPTOR   10063d88     ubspm2d:ubspm2d.dll
+ 0003:00000000       __newmode                  1006b000     newmode.obj
+ 0003:00000008       ??_R0?AVJIOStreamContext@@@8 1006b008     IMGArRFS2d.obj
+ 0003:00000028       ??_R0?AVbad_alloc@std@@@8  1006b028     IMGetHatchBdry2d.obj
+ 0003:00000044       ??_R0?AVexception@std@@@8  1006b044     IMGetHatchBdry2d.obj
+ 0003:00000060       ??_R0?AVlogic_error@std@@@8 1006b060     IMGetHatchBdry2d.obj
+ 0003:00000080       ??_R0?AVlength_error@std@@@8 1006b080     IMGetHatchBdry2d.obj
+ 0003:000000a0       ___security_cookie         1006b0a0     MSVCRT:gs_cookie.obj
+ 0003:000000a4       ___security_cookie_complement 1006b0a4     MSVCRT:gs_cookie.obj
+ 0003:000000b0       ??_R0?AVtype_info@@@8      1006b0b0     MSVCRT:ti_inst.obj
+ 0003:000000c8       ___native_dllmain_reason   1006b0c8     MSVCRT:natstart.obj
+ 0003:000000cc       ___native_vcclrit_reason   1006b0cc     MSVCRT:natstart.obj
+ 0003:00000474       ?__type_info_root_node@@3U__type_info_node@@A 1006b474     MSVCRT:tncleanup.obj
+ 0003:0000047c       __adjust_fdiv              1006b47c     <common>
+ 0003:00000480       ___native_startup_state    1006b480     <common>
+ 0003:00000484       ___native_startup_lock     1006b484     <common>
+ 0003:00000488       ___onexitend               1006b488     <common>
+ 0003:0000048c       ___onexitbegin             1006b48c     <common>
+ 0003:00000490       ___sse2_available          1006b490     <common>
+ 0003:00000494       ___dyn_tls_init_callback   1006b494     <common>
+
+ entry point at        0001:0005ffba
+
+ Static symbols
+
+ 0001:00000240       ?ellipseIM2TCsEql2d@@YAHAAUtagGEllipse2d@@0N@Z 10001240 f   IM2TCsEql2d.obj
+ 0001:00000f10       ?InfXsection_IMACSOff2d@@YAXAAUtagGTypedCurve2d@@0NPAHPAPAUtagGPosition2d@@PAPAN311@Z 10001f10 f   IMACSOff2d.obj
+ 0001:00001040       ?RmvGenerateIMACSOff2d@@YAXNPAHAAUtagGComplexString2d@@0@Z 10002040 f   IMACSOff2d.obj
+ 0001:000012d0       ?RmvLoopIMACSOff2d@@YAXABUtagGComplexString2d@@NNHPAPAUtagGTypedCurve2d@@PAHAAU1@2@Z 100022d0 f   IMACSOff2d.obj
+ 0001:00001c60       ?BridgeGapIMACSOff2d@@YAXABUtagGComplexString2d@@NNPAUtagGTypedCurve2d@@PAH2@Z 10002c60 f   IMACSOff2d.obj
+ 0001:00002200       ?ExtToIntIMACSOff2d@@YAXHHPAUtagGPosition2d@@PAPAUtagGTypedCurve2d@@PAU2@AAH2PAH@Z 10003200 f   IMACSOff2d.obj
+ 0001:00002630       ?FormIntIMACSOff2d@@YAXNPAUtagGTypedCurve2d@@PAPAU1@PAHAAH02@Z 10003630 f   IMACSOff2d.obj
+ 0001:00002ab0       ?LinkCurveIMACSOff2d@@YAXABUtagGComplexString2d@@NHPAUtagGTypedCurve2d@@PAH212@Z 10003ab0 f   IMACSOff2d.obj
+ 0001:00004270       ?SubArcToBspCurve@@YAXAAUtagGEllipse2d@@NNNPAUtagGPosition2d@@AANPAH@Z 10005270 f   IMAr2dCv2d.obj
+ 0001:00004da0       ?Validate_IMArcSpline2d@@YAXAAUtagGBspCurve2d@@NNNHPAUtagGTypedCurve2d@@PAH2@Z 10005da0 f   IMArcSpline2d.obj
+ 0001:00004fe0       ?CreateArc_IMArcSpline2d@@YAXAAUtagGBspCurve2d@@NNNPAHPAUtagGTypedCurve2d@@1@Z 10005fe0 f   IMArcSpline2d.obj
+ 0001:00008b70       ?extractIMBooleanDiffLineString2d@@YAXHHPANUtagGLineString2d@@1PAHPAU1@2@Z 10009b70 f   IMBooDifLS2d.obj
+ 0001:00008c90       ?FndLinkIMBooleanDiffLineString2d@@YAXUtagGLineString2d@@HPAU1@PAH22@Z 10009c90 f   IMBooDifLS2d.obj
+ 0001:00009be0       ?extract_IMBooIntLS2d@@YAXHPANUtagGLineString2d@@1PAHPAU1@2@Z 1000abe0 f   IMBooIntLS2d.obj
+ 0001:00009cf0       ?FndLink_IMBooIntLS2d@@YAXUtagGLineString2d@@HPAU1@PAH22@Z 1000acf0 f   IMBooIntLS2d.obj
+ 0001:0000b0a0       ?extractIMBooleanInterTypeCurve2d@@YAXHPANAAUtagGTypedCurve2d@@1PAHPAU1@2@Z 1000c0a0 f   IMBooIntTcv2d.obj
+ 0001:0000b320       ?FndLinkIMBooleanInterTypeCurve2d@@YAXAAUtagGTypedCurve2d@@HPAU1@PAH22@Z 1000c320 f   IMBooIntTcv2d.obj
+ 0001:0000c230       _eval0IMBspCurveEval2d     1000d230 f   IMBspCvEval2d.obj
+ 0001:0000c860       ?polyIMBspLamina2d@@YAXHPANH0000@Z 1000d860 f   IMBspLamina2d.obj
+ 0001:0000c980       ?ratlIMBspLamina2d@@YAXHPANH0000@Z 1000d980 f   IMBspLamina2d.obj
+ 0001:0000cad0       ?gaussIMBspLamina2d@@YAXHHPANN000PAH@Z 1000dad0 f   IMBspLamina2d.obj
+ 0001:0000d2b0       ?ellipIMCCsCnArIn2d@@YAXAAUtagGEllipse2d@@PAN11@Z 1000e2b0 f   IMCCsCnArIn2d.obj
+ 0001:0000d3b0       ?LnStrIMCCsCnArIn2d@@YAXAAUtagGTypedCurve2d@@PAN11PAH@Z 1000e3b0 f   IMCCsCnArIn2d.obj
+ 0001:0000e1d0       ?AuxIMCoolOneEd2d@@YAXAAUtagGBspCurve2d@@HAAUtagGVector2d@@@Z 1000f1d0 f   IMCoolOneEd2d.obj
+ 0001:0000e420       ?scaling_IMCoolOneEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGPosition2d@@AAUtagGVector2d@@0PAH@Z 1000f420 f   IMCoolOneEd2d.obj
+ 0001:0000e9d0       ?moveMid_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGPosition2d@@AAUtagGVector2d@@0PAH@Z 1000f9d0 f   IMCoolOneEd2d.obj
+ 0001:0000ec80       ?moveLeft_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGVector2d@@0PAH@Z 1000fc80 f   IMCoolOneEd2d.obj
+ 0001:0000ed80       ?distribute_IMCoolOneEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGPosition2d@@AAUtagGVector2d@@0PAH@Z 1000fd80 f   IMCoolOneEd2d.obj
+ 0001:0000f320       ?allocIMCSAlloFTC2d@@YAXAAUtagGTypedCurve2d@@0PAH@Z 10010320 f   IMCSAlloFTC2d.obj
+ 0001:0000f9d0       ?extend_IMCSExDst2d@@YAXAAUtagGTypedCurve2d@@HN0PAH@Z 100109d0 f   IMCSExDst2d.obj
+ 0001:0000fc30       ?cv_cpyIMComplexStringFlatten2d@@YAXABUtagGComplexString2d@@PAKPAUtagGTypedCurve2d@@PAH@Z 10010c30 f   IMCSFlat2d.obj
+ 0001:0000fd10       ?cv_cntIMComplexStringFlatten2d@@YAXABUtagGComplexString2d@@PAKPAH@Z 10010d10 f   IMCSFlat2d.obj
+ 0001:0000ff40       ?areaIMCSGtOrt2d@@YAXHPAUtagGPosition2d@@PAE@Z 10010f40 f   IMCSGtOrt2d.obj
+ 0001:00010b70       ?cv_cntIMComplexStringLineStringToLines2d@@YAXABUtagGComplexString2d@@PAK@Z 10011b70 f   IMCSLSTLns2d.obj
+ 0001:00012720       ?moveMid_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGVector2d@@HH0PAH@Z 10013720 f   IMCvCoolEd2d.obj
+ 0001:00012bd0       ?moveLeft_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGVector2d@@0PAH@Z 10013bd0 f   IMCvCoolEd2d.obj
+ 0001:00012d00       ?moveOne_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@AAUtagGVector2d@@HH0PAH@Z 10013d00 f   IMCvCoolEd2d.obj
+ 0001:00012e40       ?moveMult_IMCvCoolEd2d@@YAXAAUtagGBspCurve2d@@HPAUtagGPosition2d@@10PAH@Z 10013e40 f   IMCvCoolEd2d.obj
+ 0001:00014d60       ?extend_IMCvExPly2d@@YAXAAUtagGBspCurve2d@@NH00PAH@Z 10015d60 f   IMCvExPly2d.obj
+ 0001:00015b70       ?ExtBezCurve2d@@YAXAAUtagGBspCurve2d@@NH00PAH@Z 10016b70 f   IMCvExPt2d.obj
+ 0001:00018b00       ?IMGetTrimParameter@@YAXAAUtagGBspCurve2d@@0AAUtagGEllipse2d@@1HNPANPAH@Z 10019b00 f   IMCvRmLoop2d.obj
+ 0001:00018ec0       ?IMTrimCurve@@YAXAAUtagGBspCurve2d@@0NHNPAH01@Z 10019ec0 f   IMCvRmLoop2d.obj
+ 0001:000196c0       ?allocIMCvRmPos2d@@YAXKEHPANPAH111PAUIGRbsp_curve@@1@Z 1001a6c0 f   IMCvRmPos2d.obj
+ 0001:00019d60       ?FindIndexIMCvSlfInt2d@@YAHHPAUtagGPosition2d@@@Z 1001ad60 f   IMCvSlfInt2d.obj
+ 0001:0001b430       ?setptsIMDuplicatePoints@@YAXHPAN0@Z 1001c430 f   IMDblPts.obj
+ 0001:0001b450       ?distIMDuplicatePoints@@YAXPAN0H0@Z 1001c450 f   IMDblPts.obj
+ 0001:0001b630       ?center_ElArByPts2d@@YAXAAUtagGPosition2d@@0NN00PAH@Z 1001c630 f   IMElArByPts2d.obj
+ 0001:0001fb10       ?GaussPartialPivot@@YAXHHPANPAH@Z 10020b10 f   IMFitByCir2d.obj
+ 0001:00022d80       ?combIMFilletTCTC2d@@YAXAAUtagGTypedCurve2d@@0NUtagGPosition2d@@AAUtagGArc2d@@PAH@Z 10023d80 f   IMFlTCTC2d.obj
+ 0001:00023510       _qnwtIMFlTCTCTP2d          10024510 f   IMFlTCTCTP2d.obj
+ 0001:000248e0       ?LinkByFilletIMFrmG1Cv2d@@YAXAAUtagGBspCurve2d@@0N000PAH@Z 100258e0 f   IMFrmG1Cv2d.obj
+ 0001:00027450       ?OldMethodIMGCSOff2d@@YAXABUtagGComplexString2d@@AAUtagGPosition2d@@AANAAHAAU1@PAH5@Z 10028450 f   IMGCSOff2d.obj
+ 0001:00028480       ?GetPolesIMGCv2dMEKts@@YAXHHHPAN0@Z 10029480 f   IMGCv2dMEKts.obj
+ 0001:00029700       ?getNumIMGCvChtP2d@@YAXHHHHPANNPAH@Z 1002a700 f   IMGCvChtP2d.obj
+ 0001:0002ced0       ?IMHatchCompare@@YAHPBX0@Z 1002ded0 f   IMGetHatchBdry2d.obj
+ 0001:0002cf00       ?IMIsLastHatchCurveSelfInt@@YAHAAUtagGComplexString2d@@N@Z 1002df00 f   IMGetHatchBdry2d.obj
+ 0001:0002cfd0       ?IMIsHatchCurveInside@@YAXAAUSavedBdryInfo@@AAUtagGTypedCurve2d@@NPAH2@Z 1002dfd0 f   IMGetHatchBdry2d.obj
+ 0001:0002dfb1       __catch$?_Insert_n@?$vector@NV?$allocator@N@std@@@std@@IAEXV?$_Vector_iterator@NV?$allocator@N@std@@@2@IABN@Z$0 1002efb1 f i IMGetHatchBdry2d.obj
+ 0001:0002dfbd       __catch$?_Insert_n@?$vector@NV?$allocator@N@std@@@std@@IAEXV?$_Vector_iterator@NV?$allocator@N@std@@@2@IABN@Z$2 1002efbd f i IMGetHatchBdry2d.obj
+ 0001:0002e1ff       __catch$?_Insert_n@?$vector@HV?$allocator@H@std@@@std@@IAEXV?$_Vector_iterator@HV?$allocator@H@std@@@2@IABH@Z$0 1002f1ff f i IMGetHatchBdry2d.obj
+ 0001:0002e20b       __catch$?_Insert_n@?$vector@HV?$allocator@H@std@@@std@@IAEXV?$_Vector_iterator@HV?$allocator@H@std@@@2@IABH@Z$2 1002f20b f i IMGetHatchBdry2d.obj
+ 0001:0002e5c0       ?IMGetHatchCurvesAtNode2d@@YAXHPAUSplitCurveData@@NAAUtagGComplexString2d@@AAV?$vector@HV?$allocator@H@std@@@std@@PAH@Z 1002f5c0 f   IMGetHatchBdry2d.obj
+ 0001:0002ec30       ?IMSortHatchCurveParams@@YAXAAUtagGTypedCurve2d@@AAUSplitParamInfo@@PAH@Z 1002fc30 f   IMGetHatchBdry2d.obj
+ 0001:0002f0b0       ?IMTranverseTree@@YAXHAAHAAUtagGPosition2d@@HPAUSplitCurveData@@NAAUtagGComplexString2d@@PAHHPAUSavedBdryInfo@@H4@Z 100300b0 f   IMGetHatchBdry2d.obj
+ 0001:00031560       ?TrimLoopIMGLSOff2d@@YAXUtagGLineString2d@@NHPAUtagGPosition2d@@PAHPAU1@2@Z 10032560 f   IMGLSOff2d.obj
+ 0001:00031a30       ?TrimIMGLSOff2d@@YAXUtagGLineString2d@@NHPAUtagGPosition2d@@PAHPAU1@2@Z 10032a30 f   IMGLSOff2d.obj
+ 0001:00033f50       ?aux_IMGTCvLnk2d@@YAXHPAUtagGPosition2d@@0PAH111AAH1@Z 10034f50 f   IMGTCvLnk2d.obj
+ 0001:00036490       ?RefineRoots@@YAXAAUtagGTypedCurve2d@@0HPAN1PAH@Z 10037490 f   IMIsTCsTan2d.obj
+ 0001:00039f30       ?FndLineIMLsqLnFit2d@@YAXHPAUtagGPosition2d@@AAU1@AAUtagGLine2d@@PAH@Z 1003af30 f   IMLsqLnFit2d.obj
+ 0001:0003dff0       ?_byEndPtsIMMLILnAr2d@@YAXABUtagGLine2d@@ABUtagGArc2d@@AAU1@PAH@Z 1003eff0 f   IMMLILnAr2d.obj
+ 0001:0003e180       ?_nonCirIMMLILnAr2d@@YAXABUtagGLine2d@@ABUtagGArc2d@@HAAU1@PAH@Z 1003f180 f   IMMLILnAr2d.obj
+ 0001:00040b30       ?freeIMNFlTCTC2d@@YAXPAPAUtagGPosition2d@@PAPAN1@Z 10041b30 f   IMNFlTCTC2d.obj
+ 0001:00040b70       ?setoutIMNFlTCTC2d@@YAXHPAHPAPAUtagGPosition2d@@01PAPAN20@Z 10041b70 f   IMNFlTCTC2d.obj
+ 0001:000415b0       ?NewtonIMPjPtEEl2d@@YAXUtagGEllipse2d@@UtagGPosition2d@@NPAHPANAAU2@2@Z 100425b0 f   IMPjPtEEl2d.obj
+ 0001:00041f90       ?swap_IMSortParPts2d@@YAXHHPANPAUtagGPosition2d@@@Z 10042f90 f   IMPolrSrtPts2d.obj
+ 0001:00041fc0       ?_IMSortParPts2d@@YAXHHPANPAUtagGPosition2d@@@Z 10042fc0 f   IMPolrSrtPts2d.obj
+ 0001:000516d0       ?mergeIMTCPartOf2d@@YAXAAUtagGTypedCurve2d@@00PAH@Z 100526d0 f   IMTCPartOf2d.obj
+ 0001:00051f50       ?LineIMTCPtTan2d@@YAXAAUtagGLine2d@@ABUtagGPosition2d@@ABUtagGVector2d@@PAHAAU2@3@Z 10052f50 f   IMTCPtTan2d.obj
+ 0001:000528f0       ?polyBspGetAreaMoments@@YAXHHPANH000@Z 100538f0 f   IMTCsCenAr2d.obj
+ 0001:00052a90       ?gaussBspGetAreaMoments@@YAXHHPANN00PAH@Z 10053a90 f   IMTCsCenAr2d.obj
+ 0001:00052c00       ?BspGetAreaMoments@@YAXAAUtagGBspCurve2d@@NPAN1PAH@Z 10053c00 f   IMTCsCenAr2d.obj
+ 0001:00052ea0       ?LnStrGetAreaMeomets@@YAXHPAUtagGPosition2d@@PAN1@Z 10053ea0 f   IMTCsCenAr2d.obj
+ 0001:00053e80       ?GetCmplxStrParam_IMTCSlfInt2d@@YAXPAUtagGComplexString2d@@AAUtagGPosition2d@@1PAN2PAH@Z 10054e80 f   IMTCSlfInt2d.obj
+ 0001:00055190       ?IMPointInsideGComplexString2d@@YAXABUtagGComplexString2d@@AAUtagGPosition2d@@PAH2@Z 10056190 f   IMTCsPtIn2d.obj
+ 0001:000559d0       ?trimIMTCTCExtendToInt2d@@YAXHPANPAUtagGPosition2d@@AAUtagGTypedCurve2d@@22PAH@Z 100569d0 f   IMTCTCExX2d.obj
+ 0001:00056260       ?LnByPtsSetIMTCTr4x42d@@YAXHPAUtagGPosition2d@@AAU1@UtagGUnitVector2d@@AAUtagGLine2d@@@Z 10057260 f   IMTCTr4x42d.obj
+ 0001:00056320       ?CheckIMTCTr4x42d@@YAXAAUtagGTypedCurve2d@@PAH1AAUtagGPoint2d@@1@Z 10057320 f   IMTCTr4x42d.obj
+ 0001:00056520       ?TransBspIMTCTr4x42d@@YAXAAUtagG4x4@@AAUtagGTypedCurve2d@@AAUtagGBspCurve2d@@PAH@Z 10057520 f   IMTCTr4x42d.obj
+ 0001:00057e70       ?trim_IMTrimTCTCFill2d@@YAXAAUtagGTypedCurve2d@@000PAH@Z 10058e70 f   IMTrTCTCF2d.obj
+ 0001:00059010       ?refineIMXIArEl2d@@YAXAAUtagGEllipse2d@@AAUtagGPosition2d@@NNPAH12@Z 1005a010 f   IMXElEl2d.obj
+ 0001:00059270       ?comptIMXIArEl2d@@YAXAAUtagGEllipse2d@@0PAHPAUtagGPosition2d@@1@Z 1005a270 f   IMXElEl2d.obj
+ 0001:00059f40       ?SolveOverlapIMXElEl2d@@YAXABUtagGTypedCurve2d@@0HPAH1PAUtagGPosition2d@@PAN31@Z 1005af40 f   IMXIArEl2d.obj
+ 0001:0005d8e0       ?sortIntersection@@YAXHHPAUtagGPosition2d@@PAN1@Z 1005e8e0 f   IMXLsLs2d.obj
+ 0001:0005df10       ?isIntersect@@YAHAAUtagGBox2d@@AAUtagGPosition2d@@U2@@Z 1005ef10 f   IMXLsTC2d.obj
+ 0001:0005e740       ?CopyOutput@@YAXABUtagGTypedCurve2d@@0HPAUtagGPosition2d@@PAPAU2@PAPAN3PAH@Z 1005f740 f   IMXTCTC2d.obj
+ 0001:0005f020       ?InterIMXTCTCExt2d@@YAXAAUtagGTypedCurve2d@@0HPAHPAPAUtagGPosition2d@@PAPAN311@Z 10060020 f   IMXTCTCExt2d.obj
+ 0001:0005fcb8       _pre_c_init                10060cb8 f   MSVCRT:crtdll.obj
+ 0001:0005fea4       ___DllMainCRTStartup       10060ea4 f   MSVCRT:crtdll.obj
+ 0001:0005ffdb       _has_osfxsr_set            10060fdb f   MSVCRT:cpu_disp.obj
+ 0001:000605d0       __unwindfunclet$??$IMGReadFromStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z$0 100615d0 f   IMGArRFS2d.obj
+ 0001:000605d8       __ehhandler$??$IMGReadFromStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z 100615d8 f   IMGArRFS2d.obj
+ 0001:00060600       __unwindfunclet$??$IMGWriteToStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z$0 10061600 f   IMGArWTS2d.obj
+ 0001:00060608       __ehhandler$??$IMGWriteToStream@UtagGArc2d@@@@YAXPAUIStream@@PAUtagGArc2d@@PAH@Z 10061608 f   IMGArWTS2d.obj
+ 0001:00060630       __unwindfunclet$??$IMGReadFromStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z$0 10061630 f   IMGBCvRFS2d.obj
+ 0001:00060638       __ehhandler$??$IMGReadFromStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z 10061638 f   IMGBCvRFS2d.obj
+ 0001:00060660       __unwindfunclet$??$IMGWriteToStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z$0 10061660 f   IMGBCvWTS2d.obj
+ 0001:00060668       __ehhandler$??$IMGWriteToStream@UtagGBspCurve2d@@@@YAXPAUIStream@@PAUtagGBspCurve2d@@PAH@Z 10061668 f   IMGBCvWTS2d.obj
+ 0001:00060690       __unwindfunclet$??$IMGReadFromStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z$0 10061690 f   IMGBRFS2d.obj
+ 0001:00060698       __ehhandler$??$IMGReadFromStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z 10061698 f   IMGBRFS2d.obj
+ 0001:000606c0       __unwindfunclet$??$IMGWriteToStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z$0 100616c0 f   IMGBWTS2d.obj
+ 0001:000606c8       __ehhandler$??$IMGWriteToStream@UtagGBoundaries2d@@@@YAXPAUIStream@@PAUtagGBoundaries2d@@PAH@Z 100616c8 f   IMGBWTS2d.obj
+ 0001:000606f0       __unwindfunclet$??$IMGReadFromStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z$0 100616f0 f   IMGBxRFS2d.obj
+ 0001:000606f8       __ehhandler$??$IMGReadFromStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z 100616f8 f   IMGBxRFS2d.obj
+ 0001:00060720       __unwindfunclet$??$IMGWriteToStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z$0 10061720 f   IMGBxWTS2d.obj
+ 0001:00060728       __ehhandler$??$IMGWriteToStream@UtagGBox2d@@@@YAXPAUIStream@@PAUtagGBox2d@@PAH@Z 10061728 f   IMGBxWTS2d.obj
+ 0001:00060750       __unwindfunclet$??$IMGReadFromStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z$0 10061750 f   IMGCSRFS2d.obj
+ 0001:00060758       __ehhandler$??$IMGReadFromStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z 10061758 f   IMGCSRFS2d.obj
+ 0001:00060780       __unwindfunclet$??$IMGWriteToStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z$0 10061780 f   IMGCSWTS2d.obj
+ 0001:00060788       __ehhandler$??$IMGWriteToStream@UtagGComplexString2d@@@@YAXPAUIStream@@PAUtagGComplexString2d@@PAH@Z 10061788 f   IMGCSWTS2d.obj
+ 0001:000607b0       __unwindfunclet$??$IMGReadFromStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z$0 100617b0 f   IMGElRFS2d.obj
+ 0001:000607b8       __ehhandler$??$IMGReadFromStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z 100617b8 f   IMGElRFS2d.obj
+ 0001:000607e0       __unwindfunclet$??$IMGWriteToStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z$0 100617e0 f   IMGElWTS2d.obj
+ 0001:000607e8       __ehhandler$??$IMGWriteToStream@UtagGEllipse2d@@@@YAXPAUIStream@@PAUtagGEllipse2d@@PAH@Z 100617e8 f   IMGElWTS2d.obj
+ 0001:00060810       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 10061810 f   IMGetHatchBdry2d.obj
+ 0001:00060819       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 10061819 f   IMGetHatchBdry2d.obj
+ 0001:00060840       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 10061840 f   IMGetHatchBdry2d.obj
+ 0001:00060849       __ehhandler$??1bad_alloc@std@@UAE@XZ 10061849 f   IMGetHatchBdry2d.obj
+ 0001:00060870       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 10061870 f   IMGetHatchBdry2d.obj
+ 0001:00060879       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 10061879 f   IMGetHatchBdry2d.obj
+ 0001:000608a0       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 100618a0 f   IMGetHatchBdry2d.obj
+ 0001:000608a9       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 100618a9 f   IMGetHatchBdry2d.obj
+ 0001:000608b5       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100618b5 f   IMGetHatchBdry2d.obj
+ 0001:000608d0       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 100618d0 f   IMGetHatchBdry2d.obj
+ 0001:000608d9       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 100618d9 f   IMGetHatchBdry2d.obj
+ 0001:000608e5       __ehhandler$??1logic_error@std@@UAE@XZ 100618e5 f   IMGetHatchBdry2d.obj
+ 0001:00060900       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10061900 f   IMGetHatchBdry2d.obj
+ 0001:00060908       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10061908 f   IMGetHatchBdry2d.obj
+ 0001:00060930       __unwindfunclet$??1length_error@std@@UAE@XZ$0 10061930 f   IMGetHatchBdry2d.obj
+ 0001:00060938       __ehhandler$??1length_error@std@@UAE@XZ 10061938 f   IMGetHatchBdry2d.obj
+ 0001:00060960       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 10061960 f   IMGetHatchBdry2d.obj
+ 0001:00060968       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 10061968 f   IMGetHatchBdry2d.obj
+ 0001:00060990       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 10061990 f   IMGetHatchBdry2d.obj
+ 0001:00060999       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 10061999 f   IMGetHatchBdry2d.obj
+ 0001:000609c0       __unwindfunclet$?_Xlen@?$vector@HV?$allocator@H@std@@@std@@KAXXZ$0 100619c0 f   IMGetHatchBdry2d.obj
+ 0001:000609c9       __ehhandler$?_Xlen@?$vector@HV?$allocator@H@std@@@std@@KAXXZ 100619c9 f   IMGetHatchBdry2d.obj
+ 0001:000609f0       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 100619f0 f   IMGetHatchBdry2d.obj
+ 0001:000609f9       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 100619f9 f   IMGetHatchBdry2d.obj
+ 0001:00060a05       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 10061a05 f   IMGetHatchBdry2d.obj
+ 0001:00060a20       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 10061a20 f   IMGetHatchBdry2d.obj
+ 0001:00060a28       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 10061a28 f   IMGetHatchBdry2d.obj
+ 0001:00060a50       __unwindfunclet$?_Xlen@?$vector@NV?$allocator@N@std@@@std@@KAXXZ$0 10061a50 f   IMGetHatchBdry2d.obj
+ 0001:00060a59       __ehhandler$?_Xlen@?$vector@NV?$allocator@N@std@@@std@@KAXXZ 10061a59 f   IMGetHatchBdry2d.obj
+ 0001:00060a80       __ehhandler$?_Insert_n@?$vector@NV?$allocator@N@std@@@std@@IAEXV?$_Vector_iterator@NV?$allocator@N@std@@@2@IABN@Z 10061a80 f   IMGetHatchBdry2d.obj
+ 0001:00060aa0       __ehhandler$?_Insert_n@?$vector@HV?$allocator@H@std@@@std@@IAEXV?$_Vector_iterator@HV?$allocator@H@std@@@2@IABH@Z 10061aa0 f   IMGetHatchBdry2d.obj
+ 0001:00060ac0       __unwindfunclet$?IMTranverseTree@@YAXHAAHAAUtagGPosition2d@@HPAUSplitCurveData@@NAAUtagGComplexString2d@@PAHHPAUSavedBdryInfo@@H4@Z$25 10061ac0 f   IMGetHatchBdry2d.obj
+ 0001:00060acb       __ehhandler$?IMTranverseTree@@YAXHAAHAAUtagGPosition2d@@HPAUSplitCurveData@@NAAUtagGComplexString2d@@PAHHPAUSavedBdryInfo@@H4@Z 10061acb f   IMGetHatchBdry2d.obj
+ 0001:00060af0       __unwindfunclet$??$IMGReadFromStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z$0 10061af0 f   IMGFCRFS2d.obj
+ 0001:00060af8       __ehhandler$??$IMGReadFromStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z 10061af8 f   IMGFCRFS2d.obj
+ 0001:00060b20       __unwindfunclet$??$IMGWriteToStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z$0 10061b20 f   IMGFCWTS2d.obj
+ 0001:00060b28       __ehhandler$??$IMGWriteToStream@UtagGFitCurve2d@@@@YAXPAUIStream@@PAUtagGFitCurve2d@@PAH@Z 10061b28 f   IMGFCWTS2d.obj
+ 0001:00060b50       __unwindfunclet$??$IMGReadFromStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z$0 10061b50 f   IMGLnRFS2d.obj
+ 0001:00060b58       __ehhandler$??$IMGReadFromStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z 10061b58 f   IMGLnRFS2d.obj
+ 0001:00060b80       __unwindfunclet$??$IMGWriteToStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z$0 10061b80 f   IMGLnWTS2d.obj
+ 0001:00060b88       __ehhandler$??$IMGWriteToStream@UtagGLine2d@@@@YAXPAUIStream@@PAUtagGLine2d@@PAH@Z 10061b88 f   IMGLnWTS2d.obj
+ 0001:00060bb0       __unwindfunclet$??$IMGReadFromStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z$0 10061bb0 f   IMGLSRFS2d.obj
+ 0001:00060bb8       __ehhandler$??$IMGReadFromStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z 10061bb8 f   IMGLSRFS2d.obj
+ 0001:00060be0       __unwindfunclet$??$IMGWriteToStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z$0 10061be0 f   IMGLSWTS2d.obj
+ 0001:00060be8       __ehhandler$??$IMGWriteToStream@UtagGLineString2d@@@@YAXPAUIStream@@PAUtagGLineString2d@@PAH@Z 10061be8 f   IMGLSWTS2d.obj
+ 0001:00060c10       __unwindfunclet$??$IMGReadFromStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z$0 10061c10 f   IMGMRFS2d.obj
+ 0001:00060c18       __ehhandler$??$IMGReadFromStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z 10061c18 f   IMGMRFS2d.obj
+ 0001:00060c40       __unwindfunclet$??$IMGWriteToStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z$0 10061c40 f   IMGMWTS2d.obj
+ 0001:00060c48       __ehhandler$??$IMGWriteToStream@UtagGMatrix2d@@@@YAXPAUIStream@@PAUtagGMatrix2d@@PAH@Z 10061c48 f   IMGMWTS2d.obj
+ 0001:00060c70       __unwindfunclet$??$IMGReadFromStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z$0 10061c70 f   IMGPRFS2d.obj
+ 0001:00060c78       __ehhandler$??$IMGReadFromStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z 10061c78 f   IMGPRFS2d.obj
+ 0001:00060ca0       __unwindfunclet$??$IMGWriteToStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z$0 10061ca0 f   IMGPWTS2d.obj
+ 0001:00060ca8       __ehhandler$??$IMGWriteToStream@UtagGPosition2d@@@@YAXPAUIStream@@PAUtagGPosition2d@@PAH@Z 10061ca8 f   IMGPWTS2d.obj
+ 0001:00060cd0       __unwindfunclet$??$IMGReadFromStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z$0 10061cd0 f   IMGRtRFS2d.obj
+ 0001:00060cd8       __ehhandler$??$IMGReadFromStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z 10061cd8 f   IMGRtRFS2d.obj
+ 0001:00060d00       __unwindfunclet$??$IMGWriteToStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z$0 10061d00 f   IMGRtWTS2d.obj
+ 0001:00060d08       __ehhandler$??$IMGWriteToStream@UtagGRectangle2d@@@@YAXPAUIStream@@PAUtagGRectangle2d@@PAH@Z 10061d08 f   IMGRtWTS2d.obj
+ 0001:00060d30       __unwindfunclet$??$IMGReadFromStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z$0 10061d30 f   IMGTCRFS2d.obj
+ 0001:00060d38       __ehhandler$??$IMGReadFromStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z 10061d38 f   IMGTCRFS2d.obj
+ 0001:00060d60       __unwindfunclet$??$IMGWriteToStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z$0 10061d60 f   IMGTCWTS2d.obj
+ 0001:00060d68       __ehhandler$??$IMGWriteToStream@UtagGTypedCurve2d@@@@YAXPAUIStream@@PAUtagGTypedCurve2d@@PAH@Z 10061d68 f   IMGTCWTS2d.obj
+ 0001:00060d90       __unwindfunclet$??$IMGReadFromStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z$0 10061d90 f   IMGTRFS2d.obj
+ 0001:00060d98       __ehhandler$??$IMGReadFromStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z 10061d98 f   IMGTRFS2d.obj
+ 0001:00060dc0       __unwindfunclet$??$IMGWriteToStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z$0 10061dc0 f   IMGTWTS2d.obj
+ 0001:00060dc8       __ehhandler$??$IMGWriteToStream@UtagGTransf2d@@@@YAXPAUIStream@@PAUtagGTransf2d@@PAH@Z 10061dc8 f   IMGTWTS2d.obj
+ 0001:00060df0       __unwindfunclet$??$IMGReadFromStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z$0 10061df0 f   IMGUVRFS2d.obj
+ 0001:00060df8       __ehhandler$??$IMGReadFromStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z 10061df8 f   IMGUVRFS2d.obj
+ 0001:00060e20       __unwindfunclet$??$IMGWriteToStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z$0 10061e20 f   IMGUVWTS2d.obj
+ 0001:00060e28       __ehhandler$??$IMGWriteToStream@UtagGUnitVector2d@@@@YAXPAUIStream@@PAUtagGUnitVector2d@@PAH@Z 10061e28 f   IMGUVWTS2d.obj
+ 0001:00060e50       __unwindfunclet$??$IMGReadFromStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z$0 10061e50 f   IMGVRFS2d.obj
+ 0001:00060e58       __ehhandler$??$IMGReadFromStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z 10061e58 f   IMGVRFS2d.obj
+ 0001:00060e80       __unwindfunclet$??$IMGWriteToStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z$0 10061e80 f   IMGVWTS2d.obj
+ 0001:00060e88       __ehhandler$??$IMGWriteToStream@UtagGVector2d@@@@YAXPAUIStream@@PAUtagGVector2d@@PAH@Z 10061e88 f   IMGVWTS2d.obj

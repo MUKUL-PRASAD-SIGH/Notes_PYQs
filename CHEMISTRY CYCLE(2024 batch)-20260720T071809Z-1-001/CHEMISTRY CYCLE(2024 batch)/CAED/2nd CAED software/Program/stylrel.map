@@ -1,0 +1,532 @@
+ stylrel
+
+ Timestamp is 46b3a3c7 (Fri Aug 03 16:53:11 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005428H .text                   CODE
+ 0001:00005430 000002a4H .text$x                 CODE
+ 0001:000056e0 00000076H .text$yc                CODE
+ 0002:00000000 00000114H .idata$5                DATA
+ 0002:00000114 00000004H .CRT$XCA                DATA
+ 0002:00000118 00000010H .CRT$XCU                DATA
+ 0002:00000128 00000004H .CRT$XCZ                DATA
+ 0002:0000012c 00000004H .CRT$XIA                DATA
+ 0002:00000130 00000004H .CRT$XIAA               DATA
+ 0002:00000134 00000004H .CRT$XIZ                DATA
+ 0002:00000140 000009c8H .rdata                  DATA
+ 0002:00000b08 00000031H .rdata$debug            DATA
+ 0002:00000b3c 000005d0H .rdata$r                DATA
+ 0002:00001110 00000038H .rdata$sxdata           DATA
+ 0002:00001148 00000004H .rtc$IAA                DATA
+ 0002:0000114c 00000004H .rtc$IZZ                DATA
+ 0002:00001150 00000004H .rtc$TAA                DATA
+ 0002:00001154 00000004H .rtc$TZZ                DATA
+ 0002:00001158 00000324H .xdata$x                DATA
+ 0002:0000147c 00000064H .idata$2                DATA
+ 0002:000014e0 00000014H .idata$3                DATA
+ 0002:000014f4 00000114H .idata$4                DATA
+ 0002:00001608 000005b8H .idata$6                DATA
+ 0002:00001bc0 0000006aH .edata                  DATA
+ 0003:00000000 00000d88H .data                   DATA
+ 0003:00000d88 0000057cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000408H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000000e       ___safe_se_handler_count   0000000e     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i server.obj
+ 0001:000000d0       ?ServerGetNumberOfObjects@@YAKXZ 100010d0 f   server.obj
+ 0001:000000e0       ?ServerGetNumberOfLocks@@YAKXZ 100010e0 f   server.obj
+ 0001:000000f0       ?ServerIncrementNumberOfObjects@@YAXXZ 100010f0 f   server.obj
+ 0001:00000100       ?ServerDecrementNumberOfObjects@@YAXXZ 10001100 f   server.obj
+ 0001:00000110       ?ServerIncrementNumberOfLocks@@YAXXZ 10001110 f   server.obj
+ 0001:00000120       ?ServerDecrementNumberOfLocks@@YAXXZ 10001120 f   server.obj
+ 0001:00000130       _DllCanUnloadNow@0         10001130 f   server.obj
+ 0001:00000150       ??0?$ClassFactory@VJStyleRelations@@@@QAE@HHH@Z 10001150 f i server.obj
+ 0001:000001d0       ?OnCreateInstance@?$ClassFactory@VJStyleRelations@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100011d0 f i server.obj
+ 0001:00000320       _DllGetClassObject@12      10001320 f   server.obj
+ 0001:00000430       ??_G?$ClassFactory@VJStyleRelations@@@@UAEPAXI@Z 10001430 f i server.obj
+ 0001:00000430       ??_E?$ClassFactory@VJStyleRelations@@@@UAEPAXI@Z 10001430 f i server.obj
+ 0001:00000500       ?QueryInterface@IJPersistImp@JStyleRelations@@EAGJABU_GUID@@PAPAX@Z 10001500 f   stylerel.obj
+ 0001:00000530       ?AddRef@IJPersistImp@JStyleRelations@@EAGKXZ 10001530 f   stylerel.obj
+ 0001:00000550       ?Release@IJPersistImp@JStyleRelations@@EAGKXZ 10001550 f   stylerel.obj
+ 0001:00000570       ?GetClassID@IJPersistImp@JStyleRelations@@EAGJPAU_GUID@@@Z 10001570 f   stylerel.obj
+ 0001:000005d0       ?GetThis@IJPersistImp@JStyleRelations@@EAGPAXXZ 100015d0 f   stylerel.obj
+ 0001:00000650       ?QueryInterface@IJRelationImp@JStyleRelations@@EAGJABU_GUID@@PAPAX@Z 10001650 f   stylerel.obj
+ 0001:00000680       ?AddRef@IJRelationImp@JStyleRelations@@EAGKXZ 10001680 f   stylerel.obj
+ 0001:000006a0       ?Release@IJRelationImp@JStyleRelations@@EAGKXZ 100016a0 f   stylerel.obj
+ 0001:000006c0       ?EnumSemanticsByIID@IJRelationImp@JStyleRelations@@EAGJABU_GUID@@PAPAUIEnumJRelationSemanticDesc@@PAPAUIUnknown@@PAK@Z 100016c0 f   stylerel.obj
+ 0001:00000710       ?GetSemantic@IJRelationImp@JStyleRelations@@EAGJKPAPAUIUnknown@@@Z 10001710 f   stylerel.obj
+ 0001:00000730       ?GetType@IJRelationImp@JStyleRelations@@EAGJPAU_GUID@@@Z 10001730 f   stylerel.obj
+ 0001:00000760       ?RemoveSemantic@IJRelationImp@JStyleRelations@@EAGJK@Z 10001760 f   stylerel.obj
+ 0001:00000760       ?SetType@IJRelationImp@JStyleRelations@@EAGJPAU_GUID@@@Z 10001760 f   stylerel.obj
+ 0001:00000770       ?QueryInterface@IJDeleteImp@JStyleRelations@@EAGJABU_GUID@@PAPAX@Z 10001770 f   stylerel.obj
+ 0001:000007a0       ?AddRef@IJDeleteImp@JStyleRelations@@EAGKXZ 100017a0 f   stylerel.obj
+ 0001:000007c0       ?Release@IJDeleteImp@JStyleRelations@@EAGKXZ 100017c0 f   stylerel.obj
+ 0001:000007e0       ?AddSemantic@IJRelationImp@JStyleRelations@@EAGJPAUIUnknown@@PAK@Z 100017e0 f   stylerel.obj
+ 0001:000007e0       ?PreValueDelete@IJDeleteImp@JStyleRelations@@EAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100017e0 f   stylerel.obj
+ 0001:000007f0       ?QueryInterface@IJStyleRelationsImp@JStyleRelations@@EAGJABU_GUID@@PAPAX@Z 100017f0 f   stylerel.obj
+ 0001:00000820       ?AddRef@IJStyleRelationsImp@JStyleRelations@@EAGKXZ 10001820 f   stylerel.obj
+ 0001:00000840       ?Release@IJStyleRelationsImp@JStyleRelations@@EAGKXZ 10001840 f   stylerel.obj
+ 0001:000008a0       ?GetMaxGraphicElements@JStyleRelations@@MAEKXZ 100018a0 f   stylerel.obj
+ 0001:000008b0       ?FindInternalInterface@JStyleRelations@@MAEPAUIUnknown@@ABU_GUID@@@Z 100018b0 f   stylerel.obj
+ 0001:00000940       ?FindAggregatedInterface@JStyleRelations@@MAEPAUIUnknown@@ABU_GUID@@@Z 10001940 f   stylerel.obj
+ 0001:00000950       ?AllocateStorage@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@QAEJK@Z 10001950 f i stylerel.obj
+ 0001:000009b0       ??0?$JArray@KK@@QAE@XZ     100019b0 f i stylerel.obj
+ 0001:000009b0       ??0?$JArray@UtagGStyleRelFlags@@U1@@@QAE@XZ 100019b0 f i stylerel.obj
+ 0001:000009c0       ??$ConstructElements@K@@YGXPAKH@Z 100019c0 f i stylerel.obj
+ 0001:000009e0       ??$ConstructElements@UtagGStyleRelFlags@@@@YGXPAUtagGStyleRelFlags@@H@Z 100019e0 f i stylerel.obj
+ 0001:00000a00       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10001a00 f i stylerel.obj
+ 0001:00000aa0       ?EnumValues@IJDeleteImp@JStyleRelations@@EAGJPAPAUIEnumJIDREF@@@Z 10001aa0 f   stylerel.obj
+ 0001:00000d20       ?IsBeingUsed@IJStyleRelationsImp@JStyleRelations@@EAGJPAK00@Z 10001d20 f   stylerel.obj
+ 0001:00000d60       ?FindGraphicElements@JStyleRelations@@MAEJP6AJPAUIUnknown@@PAX1@Z11@Z 10001d60 f   stylerel.obj
+ 0001:00000fd0       ??0?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@QAE@ABU_GUID@@P6AJPAUtagJRELATIONSEMANTICDESC@@PBU2@KAAK@ZP6AJ12@ZP6AX1@ZPAUIUnknown@@@Z 10001fd0 f i stylerel.obj
+ 0001:00001040       ?Next@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJKPAUtagJRELATIONSEMANTICDESC@@PAK@Z 10002040 f i stylerel.obj
+ 0001:000010b0       ?Skip@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJK@Z 100020b0 f i stylerel.obj
+ 0001:000010f0       ?Reset@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJXZ 100020f0 f i stylerel.obj
+ 0001:000010f0       ?Reset@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJXZ 100020f0 f i stylerel.obj
+ 0001:00001100       ??0?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@QAE@ABU_GUID@@P6AJPAPAUIUnknown@@PAXAAKPAU2@@Z42P6AJAAPAX3AAPAU2@@ZP6AX24@ZPAV?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@$04@@@Z 10002100 f i stylerel.obj
+ 0001:00001170       ?QueryInterface@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJABU_GUID@@PAPAX@Z 10002170 f i stylerel.obj
+ 0001:00001170       ?QueryInterface@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJABU_GUID@@PAPAX@Z 10002170 f i stylerel.obj
+ 0001:000011d0       ?AddRef@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGKXZ 100021d0 f i stylerel.obj
+ 0001:000011d0       ?AddRef@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGKXZ 100021d0 f i stylerel.obj
+ 0001:000011e0       ?Next@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJKPAPAUIUnknown@@PAK@Z 100021e0 f i stylerel.obj
+ 0001:00001250       ?Skip@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJK@Z 10002250 f i stylerel.obj
+ 0001:00001290       ?AddToCache@?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@$04@@QAEJPAV?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@PAUIUnknown@@@Z 10002290 f i stylerel.obj
+ 0001:000012d0       ??1?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@QAE@XZ 100022d0 f i stylerel.obj
+ 0001:00001330       ?SetSize@?$JArray@KK@@QAEXHH@Z 10002330 f i stylerel.obj
+ 0001:00001450       ?RemoveAt@?$JArray@KK@@QAEXHH@Z 10002450 f i stylerel.obj
+ 0001:00001490       ??1?$JArray@KK@@QAE@XZ     10002490 f i stylerel.obj
+ 0001:00001490       ??1?$JArray@UtagGStyleRelFlags@@U1@@@QAE@XZ 10002490 f i stylerel.obj
+ 0001:000014a0       ?SetSize@?$JArray@UtagGStyleRelFlags@@U1@@@QAEXHH@Z 100024a0 f i stylerel.obj
+ 0001:000015c0       ?RemoveAt@?$JArray@UtagGStyleRelFlags@@U1@@@QAEXHH@Z 100025c0 f i stylerel.obj
+ 0001:00001600       ?SetAtGrow@?$JArray@KK@@QAEXHK@Z 10002600 f i stylerel.obj
+ 0001:00001640       ?SetAtGrow@?$JArray@UtagGStyleRelFlags@@U1@@@QAEXHUtagGStyleRelFlags@@@Z 10002640 f i stylerel.obj
+ 0001:00001670       ??1JStyleRelations@@UAE@XZ 10002670 f   stylerel.obj
+ 0001:00001700       ?SerializeVersion1@JStyleRelations@@IAEJPAVIOContext@@@Z 10002700 f   stylerel.obj
+ 0001:00001a00       ?SerializeVersion2@JStyleRelations@@IAEJPAVIOContext@@@Z 10002a00 f   stylerel.obj
+ 0001:00001e90       ?Convert@IJPersistImp@JStyleRelations@@EAGJPAVCvtContext@@@Z 10002e90 f   stylerel.obj
+ 0001:00001f10       ?InitNew@IJPersistImp@JStyleRelations@@EAGJXZ 10002f10 f   stylerel.obj
+ 0001:00001f50       ?EnumSemantics@IJRelationImp@JStyleRelations@@EAGJPAPAUIEnumJRelationSemanticDesc@@@Z 10002f50 f   stylerel.obj
+ 0001:00002100       ?Disconnect@IJDeleteImp@JStyleRelations@@EAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10003100 f   stylerel.obj
+ 0001:00002a70       ?GetEnumGraphicElements@IJStyleRelationsImp@JStyleRelations@@EAGJPAXPAPAUIEnumUnknown@@@Z 10003a70 f   stylerel.obj
+ 0001:00002ce0       ?RemoveDependentStyle@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@@Z 10003ce0 f   stylerel.obj
+ 0001:00002e90       ?nextDepUnk@@YAJPAPAUIUnknown@@PAXAAKPAU1@@Z 10003e90 f   stylerel.obj
+ 0001:00002f00       ?GetEnumDependentStyles@IJStyleRelationsImp@JStyleRelations@@EAGJPAXPAPAUIEnumUnknown@@@Z 10003f00 f   stylerel.obj
+ 0001:00003030       ?IsStyleDependent@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@PAH@Z 10004030 f   stylerel.obj
+ 0001:00003160       ?GetStyleRelationFlag@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@PAD@Z 10004160 f   stylerel.obj
+ 0001:00003280       ?RemoveStyleRelation@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@@Z 10004280 f   stylerel.obj
+ 0001:00003400       ?DisconnectChildRelationKludge@JStyleRelations@@IAEJPAUIJPersistManager@@K@Z 10004400 f   stylerel.obj
+ 0001:00003570       ?RemoveChildStyles@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@@Z 10004570 f   stylerel.obj
+ 0001:00003890       ?RemoveGraphicRelations@IJStyleRelationsImp@JStyleRelations@@EAGJK@Z 10004890 f   stylerel.obj
+ 0001:00003a50       ?GraphicRelationRemoved@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIJPersistManager@@PAUIUnknown@@@Z 10004a50 f   stylerel.obj
+ 0001:00003b60       ?CleanupOidArrays@JStyleRelations@@MAEJPAUIJPersistManager@@@Z 10004b60 f   stylerel.obj
+ 0001:00003be0       ?Clone@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJPAPAUIEnumJRelationSemanticDesc@@@Z 10004be0 f i stylerel.obj
+ 0001:00003d10       ?Release@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGKXZ 10004d10 f i stylerel.obj
+ 0001:00003db0       ?Clone@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJPAPAUIEnumUnknown@@@Z 10004db0 f i stylerel.obj
+ 0001:00003ec0       ?Add@?$JArray@KK@@QAEHK@Z  10004ec0 f i stylerel.obj
+ 0001:00003ee0       ?Add@?$JArray@UtagGStyleRelFlags@@U1@@@QAEHUtagGStyleRelFlags@@@Z 10004ee0 f i stylerel.obj
+ 0001:00003f00       ??_GJStyleRelations@@UAEPAXI@Z 10004f00 f i stylerel.obj
+ 0001:00003f00       ??_EJStyleRelations@@UAEPAXI@Z 10004f00 f i stylerel.obj
+ 0001:00003f20       ?IsValueNecessary@IJRelation@@UAGJPAUIUnknown@@@Z 10004f20 f i stylerel.obj
+ 0001:00003f20       ?SpacemapLeaking@IJPersist@@UAGJPAUIJPersistManager@@@Z 10004f20 f i stylerel.obj
+ 0001:00003f30       ??0JStyleRelations@@QAE@PAUIUnknown@@@Z 10004f30 f   stylerel.obj
+ 0001:00004000       ?Serialize@IJPersistImp@JStyleRelations@@EAGJPAVIOContext@@@Z 10005000 f   stylerel.obj
+ 0001:000040a0       ?Clone@IJPersistImp@JStyleRelations@@EAGJPAUIUnknown@@PAPAU3@@Z 100050a0 f   stylerel.obj
+ 0001:00004200       ?RemoveGraphicElement@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@@Z 10005200 f   stylerel.obj
+ 0001:000044a0       ?AddDependentStyle@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@@Z 100054a0 f   stylerel.obj
+ 0001:00004700       ?AddStyleRelation@IJStyleRelationsImp@JStyleRelations@@EAGJPAUIUnknown@@D@Z 10005700 f   stylerel.obj
+ 0001:00004840       ?Release@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGKXZ 10005840 f i stylerel.obj
+ 0001:00004866       _JCreateJIDREFDataHolder@12 10005866 f   jengine:jengine.dll
+ 0001:0000486c       _JLogModify@4              1000586c f   jengine:jengine.dll
+ 0001:00004872       @GetPersistManager@8       10005872 f   jengine:jengine.dll
+ 0001:00004878       _JCreateUnknownDataHolder@12 10005878 f   jengine:jengine.dll
+ 0001:0000487e       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000587e f   jutil:JUtil.dll
+ 0001:00004884       ?AddRef@JClassFactory@@UAGKXZ 10005884 f   jutil:JUtil.dll
+ 0001:0000488a       ?Release@JClassFactory@@UAGKXZ 1000588a f   jutil:JUtil.dll
+ 0001:00004890       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10005890 f   jutil:JUtil.dll
+ 0001:00004896       ?LockServer@JClassFactory@@UAGJH@Z 10005896 f   jutil:JUtil.dll
+ 0001:0000489c       _HRerrEx                   1000589c f   jutil:JUtil.dll
+ 0001:000048a2       ?SetLongConvertOn@@YAXPAUIJPersistManager@@@Z 100058a2 f   stylmgr:stylmgr.dex
+ 0001:000048b0       ??0JPersistUnknown@@QAE@PAUIUnknown@@@Z 100058b0 f   unknown:persistunknown.obj
+ 0001:00004910       ??1JPersistUnknown@@UAE@XZ 10005910 f   unknown:persistunknown.obj
+ 0001:00004960       ?QueryInterface@JPersistUnknown@@UAGJABU_GUID@@PAPAX@Z 10005960 f   unknown:persistunknown.obj
+ 0001:00004980       ?AddRef@JPersistUnknown@@UAGKXZ 10005980 f   unknown:persistunknown.obj
+ 0001:000049a0       ?Release@JPersistUnknown@@UAGKXZ 100059a0 f   unknown:persistunknown.obj
+ 0001:000049c0       ?Initialize@JPersistUnknown@@UAEJXZ 100059c0 f   unknown:persistunknown.obj
+ 0001:000049d0       ?FinalRelease@JPersistUnknown@@MAEXXZ 100059d0 f   unknown:persistunknown.obj
+ 0001:000049e0       ?FindAggregatedInterface@JPersistUnknown@@MAEPAUIUnknown@@ABU_GUID@@@Z 100059e0 f   unknown:persistunknown.obj
+ 0001:000049f0       ?InternalAddRef@JPersistUnknown@@MAEKPAD@Z 100059f0 f   unknown:persistunknown.obj
+ 0001:00004a00       ?InternalRelease@JPersistUnknown@@MAEKPAD@Z 10005a00 f   unknown:persistunknown.obj
+ 0001:00004a10       ?InternalQueryInterface@JPersistUnknown@@MAEJABU_GUID@@PAPAXPAD@Z 10005a10 f   unknown:persistunknown.obj
+ 0001:00004a90       ?ExternalAddRef@JPersistUnknown@@MAEKPAD@Z 10005a90 f   unknown:persistunknown.obj
+ 0001:00004ab0       ?ExternalRelease@JPersistUnknown@@MAEKPAD@Z 10005ab0 f   unknown:persistunknown.obj
+ 0001:00004ad0       ?ExternalQueryInterface@JPersistUnknown@@MAEJABU_GUID@@PAPAXPAD@Z 10005ad0 f   unknown:persistunknown.obj
+ 0001:00004b00       ?UUnknownGetClass@JPersistUnknown@@MBEPADXZ 10005b00 f   unknown:persistunknown.obj
+ 0001:00004b10       ??_EJPersistUnknown@@UAEPAXI@Z 10005b10 f i unknown:persistunknown.obj
+ 0001:00004b10       ??_GJPersistUnknown@@UAEPAXI@Z 10005b10 f i unknown:persistunknown.obj
+ 0001:00004b30       ?FindInternalInterface@JPersistUnknown@@MAEPAUIUnknown@@ABU_GUID@@@Z 10005b30 f   unknown:persistunknown.obj
+ 0001:00004b50       _malloc                    10005b50 f   MSVCRT:MSVCR80.dll
+ 0001:00004b56       __callnewh                 10005b56 f   MSVCRT:MSVCR80.dll
+ 0001:00004b5c       ___CxxFrameHandler3        10005b5c f   MSVCRT:MSVCR80.dll
+ 0001:00004b62       @__security_check_cookie@4 10005b62 f   MSVCRT:secchk.obj
+ 0001:00004b71       ??_Etype_info@@UAEPAXI@Z   10005b71 f i MSVCRT:ti_inst.obj
+ 0001:00004bba       ??3@YAXPAX@Z               10005bba f   MSVCRT:MSVCR80.dll
+ 0001:00004bc0       _memset                    10005bc0 f   MSVCRT:MSVCR80.dll
+ 0001:00004bc6       ??_V@YAXPAX@Z              10005bc6 f   MSVCRT:MSVCR80.dll
+ 0001:00004bcc       _memcpy                    10005bcc f   MSVCRT:MSVCR80.dll
+ 0001:00004c2d       __CRT_INIT@12              10005c2d f   MSVCRT:crtdll.obj
+ 0001:00004ee2       __DllMainCRTStartup@12     10005ee2 f   MSVCRT:crtdll.obj
+ 0001:00004f03       ___report_gsfailure        10005f03 f   MSVCRT:gs_report.obj
+ 0001:00005007       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006007 f   MSVCRT:ehvecdtr.obj
+ 0001:00005065       ??_M@YGXPAXIHP6EX0@Z@Z     10006065 f   MSVCRT:ehvecdtr.obj
+ 0001:000050c8       ___clean_type_info_names   100060c8 f   MSVCRT:tncleanup.obj
+ 0001:000050d4       __onexit                   100060d4 f   MSVCRT:atonexit.obj
+ 0001:00005173       _atexit                    10006173 f   MSVCRT:atonexit.obj
+ 0001:00005185       __RTC_Initialize           10006185 f   MSVCRT:initsect.obj
+ 0001:000051a9       __RTC_Terminate            100061a9 f   MSVCRT:initsect.obj
+ 0001:000051d0       __ValidateImageBase        100061d0 f   MSVCRT:pesect.obj
+ 0001:00005200       __FindPESection            10006200 f   MSVCRT:pesect.obj
+ 0001:00005242       __IsNonwritableInCurrentImage 10006242 f   MSVCRT:pesect.obj
+ 0001:000052ae       __initterm                 100062ae f   MSVCRT:MSVCR80.dll
+ 0001:000052b4       __initterm_e               100062b4 f   MSVCRT:MSVCR80.dll
+ 0001:000052ba       __amsg_exit                100062ba f   MSVCRT:MSVCR80.dll
+ 0001:000052c0       ___CppXcptFilter           100062c0 f   MSVCRT:MSVCR80.dll
+ 0001:000052c6       _DllMain@12                100062c6 f   MSVCRT:dllmain.obj
+ 0001:000052e8       __SEH_prolog4              100062e8 f   MSVCRT:sehprolg4.obj
+ 0001:0000532d       __SEH_epilog4              1000632d f   MSVCRT:sehprolg4.obj
+ 0001:00005341       __except_handler4          10006341 f   MSVCRT:chandler4gs.obj
+ 0001:00005364       ___security_init_cookie    10006364 f   MSVCRT:gs_support.obj
+ 0001:000053f8       __crt_debugger_hook        100063f8 f   MSVCRT:MSVCR80.dll
+ 0001:000053fe       ?terminate@@YAXXZ          100063fe f   MSVCRT:MSVCR80.dll
+ 0001:00005404       ??1type_info@@UAE@XZ       10006404 f   MSVCRT:MSVCR80.dll
+ 0001:00005404       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006404 f   MSVCRT:MSVCR80.dll
+ 0001:0000540a       ___clean_type_info_names_internal 1000640a f   MSVCRT:MSVCR80.dll
+ 0001:00005410       __unlock                   10006410 f   MSVCRT:MSVCR80.dll
+ 0001:00005416       ___dllonexit               10006416 f   MSVCRT:MSVCR80.dll
+ 0001:0000541c       __lock                     1000641c f   MSVCRT:MSVCR80.dll
+ 0001:00005422       __except_handler4_common   10006422 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10007000     jutil:JUtil.dll
+ 0002:00000004       __imp_??0JPtrList@@QAE@H@Z 10007004     jutil:JUtil.dll
+ 0002:00000008       __imp_?RemoveAll@JPtrList@@QAEXXZ 10007008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??1JPtrList@@QAE@XZ  1000700c     jutil:JUtil.dll
+ 0002:00000010       __imp__HRerrEx             10007010     jutil:JUtil.dll
+ 0002:00000014       __imp_?LockServer@JClassFactory@@UAGJH@Z 10007014     jutil:JUtil.dll
+ 0002:00000018       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10007018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?Release@JClassFactory@@UAGKXZ 1000701c     jutil:JUtil.dll
+ 0002:00000020       __imp_??1JClassFactory@@UAE@XZ 10007020     jutil:JUtil.dll
+ 0002:00000024       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10007024     jutil:JUtil.dll
+ 0002:00000028       __imp_?AddRef@JClassFactory@@UAGKXZ 10007028     jutil:JUtil.dll
+ 0002:0000002c       \177JUtil_NULL_THUNK_DATA  1000702c     jutil:JUtil.dll
+ 0002:00000030       __imp__DisableThreadLibraryCalls@4 10007030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__QueryPerformanceCounter@4 10007034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetTickCount@0      10007038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetCurrentThreadId@0 1000703c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetCurrentProcessId@0 10007040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetSystemTimeAsFileTime@4 10007044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__IsDebuggerPresent@0 10007048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__SetUnhandledExceptionFilter@4 1000704c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__UnhandledExceptionFilter@4 10007050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__Sleep@4             10007054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__InterlockedCompareExchange@12 10007058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__TerminateProcess@8  1000705c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetCurrentProcess@0 10007060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__InterlockedExchange@8 10007064     kernel32:KERNEL32.dll
+ 0002:00000068       \177KERNEL32_NULL_THUNK_DATA 10007068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__memset              1000706c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp__memcpy              10007070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp__memmove             10007074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___encode_pointer     10007078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___malloc_crt         1000707c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp___encoded_null       10007080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__free                10007084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp___decode_pointer     10007088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp___initterm           1000708c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___initterm_e         10007090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp___amsg_exit          10007094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___adjust_fdiv        10007098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp____CppXcptFilter     1000709c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___crt_debugger_hook  100070a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp_?terminate@@YAXXZ    100070a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100070a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp____clean_type_info_names_internal 100070ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___unlock             100070b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp____dllonexit         100070b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___lock               100070b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___onexit             100070bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___except_handler4_common 100070c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp_??3@YAXPAX@Z         100070c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp____CxxFrameHandler3  100070c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___callnewh           100070cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__malloc              100070d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp_??_V@YAXPAX@Z        100070d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       \177MSVCR80_NULL_THUNK_DATA 100070d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp_?Release@CPersistObject@@UAGKXZ 100070dc     jengine:jengine.dll
+ 0002:000000e0       __imp_?AddRef@CPersistObject@@UAGKXZ 100070e0     jengine:jengine.dll
+ 0002:000000e4       __imp_??0CPersistObject@@QAE@PAUIUnknown@@@Z 100070e4     jengine:jengine.dll
+ 0002:000000e8       __imp_??1CPersistObject@@UAE@XZ 100070e8     jengine:jengine.dll
+ 0002:000000ec       __imp_??2CPersistObject@@SAPAXI@Z 100070ec     jengine:jengine.dll
+ 0002:000000f0       __imp__JCreateJIDREFDataHolder@12 100070f0     jengine:jengine.dll
+ 0002:000000f4       __imp__JCreateUnknownDataHolder@12 100070f4     jengine:jengine.dll
+ 0002:000000f8       __imp_?GetObjectVersions@CvtContext@@QBEJPBU_GUID@@PAG1@Z 100070f8     jengine:jengine.dll
+ 0002:000000fc       __imp_@GetPersistManager@8 100070fc     jengine:jengine.dll
+ 0002:00000100       __imp__JLogModify@4        10007100     jengine:jengine.dll
+ 0002:00000104       __imp_??3CPersistObject@@SAXPAX@Z 10007104     jengine:jengine.dll
+ 0002:00000108       \177jengine_NULL_THUNK_DATA 10007108     jengine:jengine.dll
+ 0002:0000010c       __imp_?SetLongConvertOn@@YAXPAUIJPersistManager@@@Z 1000710c     stylmgr:stylmgr.dex
+ 0002:00000110       \177stylmgr_NULL_THUNK_DATA 10007110     stylmgr:stylmgr.dex
+ 0002:00000114       ___xc_a                    10007114     MSVCRT:cinitexe.obj
+ 0002:00000128       ___xc_z                    10007128     MSVCRT:cinitexe.obj
+ 0002:0000012c       ___xi_a                    1000712c     MSVCRT:cinitexe.obj
+ 0002:00000134       ___xi_z                    10007134     MSVCRT:cinitexe.obj
+ 0002:0000015c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000715c     guid.obj
+ 0002:0000016c       _CLSID_JStyleOverride      1000716c     guid.obj
+ 0002:0000017c       _CLSID_JStyleRelations     1000717c     guid.obj
+ 0002:0000018c       _IID_IJPersist             1000718c     guid.obj
+ 0002:0000019c       _IID_IJRelationValue       1000719c     guid.obj
+ 0002:000001ac       _IID_IJRelation            100071ac     guid.obj
+ 0002:000001bc       _IID_IJDelete              100071bc     guid.obj
+ 0002:000001cc       _IID_IEnumJRelationSemanticDesc 100071cc     guid.obj
+ 0002:000001dc       _IID_IJSymbology           100071dc     guid.obj
+ 0002:000001ec       _IID_IJStyleRelations      100071ec     guid.obj
+ 0002:000001fc       _GUID_JSTYLE_RELATIONS     100071fc     guid.obj
+ 0002:0000020c       _IID_IJStyleManager2       1000720c     guid.obj
+ 0002:0000021c       _IID_IJStyleUser           1000721c     guid.obj
+ 0002:0000022c       _IID_IJManageStyle         1000722c     guid.obj
+ 0002:0000023c       _IID_IJConvertStyle        1000723c     guid.obj
+ 0002:00000250       ??_7?$ClassFactory@VJStyleRelations@@@@6B@ 10007250     server.obj
+ 0002:0000026c       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 1000726c     server.obj
+ 0002:00000284       ??_C@_0DG@FOJCIDFL@ClassFactory?$DMclass?5JStyleRelatio@ 10007284     server.obj
+ 0002:000002bc       ??_C@_0BO@IGNGKJH@JStyleRelations?3?3IJPersistImp?$AA@ 100072bc     stylerel.obj
+ 0002:000002dc       ??_C@_0P@FMDHIEEB@?4?2stylerel?4cpp?$AA@ 100072dc     stylerel.obj
+ 0002:000002ec       ??_C@_0CK@JHDNBKFJ@JStyleRelations?3?3IJPersistImp?3?3G@ 100072ec     stylerel.obj
+ 0002:00000318       ??_C@_0BP@BDHILJDE@JStyleRelations?3?3IJRelationImp?$AA@ 10007318     stylerel.obj
+ 0002:00000338       ??_C@_0BN@IBKJLBDF@JStyleRelations?3?3IJDeleteImp?$AA@ 10007338     stylerel.obj
+ 0002:00000358       ??_C@_0CF@MDBHHCOM@JStyleRelations?3?3IJStyleRelation@ 10007358     stylerel.obj
+ 0002:00000380       ??_C@_0CJ@KFLPNLNM@JStyleRelations?3?3IJDeleteImp?3?3En@ 10007380     stylerel.obj
+ 0002:000003ac       ??_C@_0BE@HEJILFK@DisconnectFromStyle?$AA@ 100073ac     stylerel.obj
+ 0002:000003c0       ??_C@_0CF@ENJMLBAE@JStyleRelations?3?3FindGraphicElem@ 100073c0     stylerel.obj
+ 0002:000003ec       ??_7?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@6B@ 100073ec     stylerel.obj
+ 0002:0000040c       ??_7?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@6B@ 1000740c     stylerel.obj
+ 0002:0000042c       ??_7IJRelationImp@JStyleRelations@@6B@ 1000742c     stylerel.obj
+ 0002:0000045c       ??_7IJDeleteImp@JStyleRelations@@6B@ 1000745c     stylerel.obj
+ 0002:0000047c       ??_7IJStyleRelationsImp@JStyleRelations@@6B@ 1000747c     stylerel.obj
+ 0002:000004c4       ??_7JStyleRelations@@6B@   100074c4     stylerel.obj
+ 0002:0000050c       ??_C@_0CD@ENEFAEPH@JStyleRelations?3?3SerializeVersio@ 1000750c     stylerel.obj
+ 0002:00000530       ??_C@_0CD@GGGIFHDE@JStyleRelations?3?3SerializeVersio@ 10007530     stylerel.obj
+ 0002:00000554       ??_C@_0CH@KDHNOBML@JStyleRelations?3?3IJPersistImp?3?3C@ 10007554     stylerel.obj
+ 0002:0000057c       ??_C@_0CO@PHAFIFJL@JStyleRelations?3?3IJRelationImp?3?3@ 1000757c     stylerel.obj
+ 0002:000005ac       ??_C@_0CJ@ENMFMIAD@JStyleRelations?3?3IJDeleteImp?3?3Di@ 100075ac     stylerel.obj
+ 0002:000005d8       ??_C@_0DN@MNJDLIPM@JStyleRelations?3?3IJStyleRelation@ 100075d8     stylerel.obj
+ 0002:00000618       ??_C@_0DL@BMFOAPA@JStyleRelations?3?3IJStyleRelation@ 10007618     stylerel.obj
+ 0002:00000654       ??_C@_0L@OLEJEGCE@nextDepUnk?$AA@ 10007654     stylerel.obj
+ 0002:00000660       ??_C@_0DN@BCHHECLM@JStyleRelations?3?3IJStyleRelation@ 10007660     stylerel.obj
+ 0002:000006a0       ??_C@_0DH@HKKLBDBD@JStyleRelations?3?3IJStyleRelation@ 100076a0     stylerel.obj
+ 0002:000006d8       ??_C@_0DL@DAIGHDIJ@JStyleRelations?3?3IJStyleRelation@ 100076d8     stylerel.obj
+ 0002:00000714       ??_C@_0DK@DFADIPMJ@JStyleRelations?3?3IJStyleRelation@ 10007714     stylerel.obj
+ 0002:00000750       ??_C@_0CP@HGKLFMHJ@JStyleRelations?3?3DisconnectChild@ 10007750     stylerel.obj
+ 0002:00000780       ??_C@_0DI@EGLNHKCH@JStyleRelations?3?3IJStyleRelation@ 10007780     stylerel.obj
+ 0002:000007b8       ??_C@_0DN@MIGCOLFA@JStyleRelations?3?3IJStyleRelation@ 100077b8     stylerel.obj
+ 0002:000007f8       ??_C@_0DN@CBKJOPIJ@JStyleRelations?3?3IJStyleRelation@ 100077f8     stylerel.obj
+ 0002:00000838       ??_C@_0BD@CGMEBIIF@z?3?2include?2uenum?4h?$AA@ 10007838     stylerel.obj
+ 0002:00000850       ??_C@_0HK@DIIBHHEP@JEnumDataHolder?$DMstruct?5IEnumJRel@ 10007850     stylerel.obj
+ 0002:000008d0       ??_7IJPersistImp@JStyleRelations@@6B@ 100078d0     stylerel.obj
+ 0002:000008f8       ??_C@_0CJ@FANPCKPA@JStyleRelations?3?3IJPersistImp?3?3S@ 100078f8     stylerel.obj
+ 0002:00000924       ??_C@_0CF@NDIADGCH@JStyleRelations?3?3IJPersistImp?3?3C@ 10007924     stylerel.obj
+ 0002:0000094c       ??_C@_0BJ@DJFHLHFE@AddGraphicElementToArray?$AA@ 1000794c     stylerel.obj
+ 0002:00000968       __real@3fe8000000000000    10007968     stylerel.obj
+ 0002:00000970       __real@41f0000000000000    10007970     stylerel.obj
+ 0002:00000978       ??_C@_0DL@IFNAGDFM@JStyleRelations?3?3IJStyleRelation@ 10007978     stylerel.obj
+ 0002:000009b4       ??_C@_0DI@HGAGOAHO@JStyleRelations?3?3IJStyleRelation@ 100079b4     stylerel.obj
+ 0002:000009ec       ??_C@_0DH@PBDDJHMI@JStyleRelations?3?3IJStyleRelation@ 100079ec     stylerel.obj
+ 0002:00000a2c       ??_7JPersistUnknown@@6B@   10007a2c     unknown:persistunknown.obj
+ 0002:00000a68       _IID_IClassFactory         10007a68     uuid:unknwn_i.obj
+ 0002:00000a78       _IID_IUnknown              10007a78     uuid:unknwn_i.obj
+ 0002:00000a88       _IID_IPersist              10007a88     uuid:objidl_i.obj
+ 0002:00000a98       _IID_IEnumUnknown          10007a98     uuid:objidl_i.obj
+ 0002:00000aac       ??_7type_info@@6B@         10007aac     MSVCRT:ti_inst.obj
+ 0002:00000ab0       __pDefaultRawDllMain       10007ab0     MSVCRT:crtdll.obj
+ 0002:00000ab0       __pRawDllMain              10007ab0     MSVCRT:crtdll.obj
+ 0002:00000ac0       __load_config_used         10007ac0     MSVCRT:loadcfg.obj
+ 0002:00000b3c       ??_R4?$ClassFactory@VJStyleRelations@@@@6B@ 10007b3c     server.obj
+ 0002:00000b50       ??_R3?$ClassFactory@VJStyleRelations@@@@8 10007b50     server.obj
+ 0002:00000b60       ??_R2?$ClassFactory@VJStyleRelations@@@@8 10007b60     server.obj
+ 0002:00000b74       ??_R1A@?0A@EA@?$ClassFactory@VJStyleRelations@@@@8 10007b74     server.obj
+ 0002:00000b90       ??_R1A@?0A@EA@JClassFactory@@8 10007b90     server.obj
+ 0002:00000bac       ??_R3JClassFactory@@8      10007bac     server.obj
+ 0002:00000bbc       ??_R2JClassFactory@@8      10007bbc     server.obj
+ 0002:00000bcc       ??_R1A@?0A@EA@IClassFactory@@8 10007bcc     server.obj
+ 0002:00000be8       ??_R3IClassFactory@@8      10007be8     server.obj
+ 0002:00000bf8       ??_R2IClassFactory@@8      10007bf8     server.obj
+ 0002:00000c04       ??_R1A@?0A@EA@IUnknown@@8  10007c04     server.obj
+ 0002:00000c20       ??_R3IUnknown@@8           10007c20     server.obj
+ 0002:00000c30       ??_R2IUnknown@@8           10007c30     server.obj
+ 0002:00000c38       ??_R4?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@6B@ 10007c38     stylerel.obj
+ 0002:00000c4c       ??_R3?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@8 10007c4c     stylerel.obj
+ 0002:00000c5c       ??_R2?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@8 10007c5c     stylerel.obj
+ 0002:00000c6c       ??_R1A@?0A@EA@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@8 10007c6c     stylerel.obj
+ 0002:00000c88       ??_R1A@?0A@EA@IEnumJRelationSemanticDesc@@8 10007c88     stylerel.obj
+ 0002:00000ca4       ??_R3IEnumJRelationSemanticDesc@@8 10007ca4     stylerel.obj
+ 0002:00000cb4       ??_R2IEnumJRelationSemanticDesc@@8 10007cb4     stylerel.obj
+ 0002:00000cc0       ??_R4?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@6B@ 10007cc0     stylerel.obj
+ 0002:00000cd4       ??_R3?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@8 10007cd4     stylerel.obj
+ 0002:00000ce4       ??_R2?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@8 10007ce4     stylerel.obj
+ 0002:00000cf4       ??_R1A@?0A@EA@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@8 10007cf4     stylerel.obj
+ 0002:00000d10       ??_R1A@?0A@EA@IEnumUnknown@@8 10007d10     stylerel.obj
+ 0002:00000d2c       ??_R3IEnumUnknown@@8       10007d2c     stylerel.obj
+ 0002:00000d3c       ??_R2IEnumUnknown@@8       10007d3c     stylerel.obj
+ 0002:00000d48       ??_R4IJRelationImp@JStyleRelations@@6B@ 10007d48     stylerel.obj
+ 0002:00000d5c       ??_R3IJRelationImp@JStyleRelations@@8 10007d5c     stylerel.obj
+ 0002:00000d6c       ??_R2IJRelationImp@JStyleRelations@@8 10007d6c     stylerel.obj
+ 0002:00000d7c       ??_R1A@?0A@EA@IJRelationImp@JStyleRelations@@8 10007d7c     stylerel.obj
+ 0002:00000d98       ??_R1A@?0A@EA@IJRelation@@8 10007d98     stylerel.obj
+ 0002:00000db4       ??_R3IJRelation@@8         10007db4     stylerel.obj
+ 0002:00000dc4       ??_R2IJRelation@@8         10007dc4     stylerel.obj
+ 0002:00000dd0       ??_R4IJDeleteImp@JStyleRelations@@6B@ 10007dd0     stylerel.obj
+ 0002:00000de4       ??_R3IJDeleteImp@JStyleRelations@@8 10007de4     stylerel.obj
+ 0002:00000df4       ??_R2IJDeleteImp@JStyleRelations@@8 10007df4     stylerel.obj
+ 0002:00000e08       ??_R1A@?0A@EA@IJDeleteImp@JStyleRelations@@8 10007e08     stylerel.obj
+ 0002:00000e24       ??_R1A@?0A@EA@IJDelete@@8  10007e24     stylerel.obj
+ 0002:00000e40       ??_R3IJDelete@@8           10007e40     stylerel.obj
+ 0002:00000e50       ??_R2IJDelete@@8           10007e50     stylerel.obj
+ 0002:00000e60       ??_R1A@?0A@EA@IJSemantic@@8 10007e60     stylerel.obj
+ 0002:00000e7c       ??_R3IJSemantic@@8         10007e7c     stylerel.obj
+ 0002:00000e8c       ??_R2IJSemantic@@8         10007e8c     stylerel.obj
+ 0002:00000e98       ??_R4IJStyleRelationsImp@JStyleRelations@@6B@ 10007e98     stylerel.obj
+ 0002:00000eac       ??_R3IJStyleRelationsImp@JStyleRelations@@8 10007eac     stylerel.obj
+ 0002:00000ebc       ??_R2IJStyleRelationsImp@JStyleRelations@@8 10007ebc     stylerel.obj
+ 0002:00000ecc       ??_R1A@?0A@EA@IJStyleRelationsImp@JStyleRelations@@8 10007ecc     stylerel.obj
+ 0002:00000ee8       ??_R1A@?0A@EA@IJStyleRelations@@8 10007ee8     stylerel.obj
+ 0002:00000f04       ??_R3IJStyleRelations@@8   10007f04     stylerel.obj
+ 0002:00000f14       ??_R2IJStyleRelations@@8   10007f14     stylerel.obj
+ 0002:00000f20       ??_R4JStyleRelations@@6B@  10007f20     stylerel.obj
+ 0002:00000f34       ??_R3JStyleRelations@@8    10007f34     stylerel.obj
+ 0002:00000f44       ??_R2JStyleRelations@@8    10007f44     stylerel.obj
+ 0002:00000f58       ??_R1A@?0A@EA@JStyleRelations@@8 10007f58     stylerel.obj
+ 0002:00000f74       ??_R1A@?0A@EA@JPersistUnknown@@8 10007f74     stylerel.obj
+ 0002:00000f90       ??_R3JPersistUnknown@@8    10007f90     stylerel.obj
+ 0002:00000fa0       ??_R2JPersistUnknown@@8    10007fa0     stylerel.obj
+ 0002:00000fb0       ??_R1A@?0A@EA@CPersistObject@@8 10007fb0     stylerel.obj
+ 0002:00000fcc       ??_R3CPersistObject@@8     10007fcc     stylerel.obj
+ 0002:00000fdc       ??_R2CPersistObject@@8     10007fdc     stylerel.obj
+ 0002:00000fe8       ??_R4IJPersistImp@JStyleRelations@@6B@ 10007fe8     stylerel.obj
+ 0002:00000ffc       ??_R3IJPersistImp@JStyleRelations@@8 10007ffc     stylerel.obj
+ 0002:0000100c       ??_R2IJPersistImp@JStyleRelations@@8 1000800c     stylerel.obj
+ 0002:00001020       ??_R1A@?0A@EA@IJPersistImp@JStyleRelations@@8 10008020     stylerel.obj
+ 0002:0000103c       ??_R1A@?0A@EA@IJPersist@@8 1000803c     stylerel.obj
+ 0002:00001058       ??_R3IJPersist@@8          10008058     stylerel.obj
+ 0002:00001068       ??_R2IJPersist@@8          10008068     stylerel.obj
+ 0002:00001078       ??_R1A@?0A@EA@IPersist@@8  10008078     stylerel.obj
+ 0002:00001094       ??_R3IPersist@@8           10008094     stylerel.obj
+ 0002:000010a4       ??_R2IPersist@@8           100080a4     stylerel.obj
+ 0002:000010b0       ??_R4JPersistUnknown@@6B@  100080b0     unknown:persistunknown.obj
+ 0002:000010c4       ??_R4type_info@@6B@        100080c4     MSVCRT:ti_inst.obj
+ 0002:000010d8       ??_R3type_info@@8          100080d8     MSVCRT:ti_inst.obj
+ 0002:000010e8       ??_R2type_info@@8          100080e8     MSVCRT:ti_inst.obj
+ 0002:000010f0       ??_R1A@?0A@EA@type_info@@8 100080f0     MSVCRT:ti_inst.obj
+ 0002:00001110       ___safe_se_handler_table   10008110     <linker-defined>
+ 0002:00001148       ___rtc_iaa                 10008148     MSVCRT:initsect.obj
+ 0002:0000114c       ___rtc_izz                 1000814c     MSVCRT:initsect.obj
+ 0002:00001150       ___rtc_taa                 10008150     MSVCRT:initsect.obj
+ 0002:00001154       ___rtc_tzz                 10008154     MSVCRT:initsect.obj
+ 0002:0000147c       __IMPORT_DESCRIPTOR_jengine 1000847c     jengine:jengine.dll
+ 0002:00001490       __IMPORT_DESCRIPTOR_JUtil  10008490     jutil:JUtil.dll
+ 0002:000014a4       __IMPORT_DESCRIPTOR_stylmgr 100084a4     stylmgr:stylmgr.dex
+ 0002:000014b8       __IMPORT_DESCRIPTOR_MSVCR80 100084b8     MSVCRT:MSVCR80.dll
+ 0002:000014cc       __IMPORT_DESCRIPTOR_KERNEL32 100084cc     kernel32:KERNEL32.dll
+ 0002:000014e0       __NULL_IMPORT_DESCRIPTOR   100084e0     jengine:jengine.dll
+ 0003:00000000       __newmode                  10009000     newmode.obj
+ 0003:0000000c       ??_R0?AV?$ClassFactory@VJStyleRelations@@@@@8 1000900c     server.obj
+ 0003:0000003c       ??_R0?AVJClassFactory@@@8  1000903c     server.obj
+ 0003:00000058       ??_R0?AUIClassFactory@@@8  10009058     server.obj
+ 0003:00000074       ??_R0?AUIUnknown@@@8       10009074     server.obj
+ 0003:00000ab0       ??_R0?AV?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@@8 10009ab0     stylerel.obj
+ 0003:00000b0c       ??_R0?AUIEnumJRelationSemanticDesc@@@8 10009b0c     stylerel.obj
+ 0003:00000b38       ??_R0?AV?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@@8 10009b38     stylerel.obj
+ 0003:00000b78       ??_R0?AUIEnumUnknown@@@8   10009b78     stylerel.obj
+ 0003:00000b94       ??_R0?AVIJRelationImp@JStyleRelations@@@8 10009b94     stylerel.obj
+ 0003:00000bc0       ??_R0?AUIJRelation@@@8     10009bc0     stylerel.obj
+ 0003:00000bdc       ??_R0?AVIJDeleteImp@JStyleRelations@@@8 10009bdc     stylerel.obj
+ 0003:00000c08       ??_R0?AUIJDelete@@@8       10009c08     stylerel.obj
+ 0003:00000c20       ??_R0?AUIJSemantic@@@8     10009c20     stylerel.obj
+ 0003:00000c3c       ??_R0?AVIJStyleRelationsImp@JStyleRelations@@@8 10009c3c     stylerel.obj
+ 0003:00000c70       ??_R0?AUIJStyleRelations@@@8 10009c70     stylerel.obj
+ 0003:00000c90       ??_R0?AVJStyleRelations@@@8 10009c90     stylerel.obj
+ 0003:00000cb0       ??_R0?AVJPersistUnknown@@@8 10009cb0     stylerel.obj
+ 0003:00000cd0       ??_R0?AVCPersistObject@@@8 10009cd0     stylerel.obj
+ 0003:00000cf0       ??_R0?AVIJPersistImp@JStyleRelations@@@8 10009cf0     stylerel.obj
+ 0003:00000d1c       ??_R0?AUIJPersist@@@8      10009d1c     stylerel.obj
+ 0003:00000d34       ??_R0?AUIPersist@@@8       10009d34     stylerel.obj
+ 0003:00000d58       ___security_cookie         10009d58     MSVCRT:gs_cookie.obj
+ 0003:00000d5c       ___security_cookie_complement 10009d5c     MSVCRT:gs_cookie.obj
+ 0003:00000d60       ??_R0?AVtype_info@@@8      10009d60     MSVCRT:ti_inst.obj
+ 0003:00000d80       ___native_dllmain_reason   10009d80     MSVCRT:natstart.obj
+ 0003:00000d84       ___native_vcclrit_reason   10009d84     MSVCRT:natstart.obj
+ 0003:000012e4       ?__type_info_root_node@@3U__type_info_node@@A 1000a2e4     MSVCRT:tncleanup.obj
+ 0003:000012ec       __adjust_fdiv              1000a2ec     <common>
+ 0003:000012f0       ___native_startup_state    1000a2f0     <common>
+ 0003:000012f4       ___native_startup_lock     1000a2f4     <common>
+ 0003:000012f8       ___onexitend               1000a2f8     <common>
+ 0003:000012fc       ___onexitbegin             1000a2fc     <common>
+ 0003:00001300       ___dyn_tls_init_callback   1000a300     <common>
+
+ entry point at        0001:00004ee2
+
+ Static symbols
+
+ 0001:00000490       ?LocalReleasePersistID@@YAXPAUIJPersistManager@@PAUIUnknown@@@Z 10001490 f   stylerel.obj
+ 0001:000005e0       ?copyRSD@@YAJPAUtagJRELATIONSEMANTICDESC@@PBU1@@Z 100015e0 f   stylerel.obj
+ 0001:00000610       ?nextRSD@@YAJPAUtagJRELATIONSEMANTICDESC@@PBU1@KAAK@Z 10001610 f   stylerel.obj
+ 0001:00000860       ?AddToUnknownEnumerator@@YAJPAUIUnknown@@PAX1@Z 10001860 f   stylerel.obj
+ 0001:00000a80       ?deleteRSD@@YAXPAUtagJRELATIONSEMANTICDESC@@@Z 10001a80 f   stylerel.obj
+ 0001:00000bf0       ?DisconnectFromStyle@@YAJPAUIUnknown@@PAX1@Z 10001bf0 f   stylerel.obj
+ 0001:00004190       ?AddGraphicElementToArray@@YAJPAUIUnknown@@PAX1@Z 10005190 f   stylerel.obj
+ 0001:00004be0       _pre_c_init                10005be0 f   MSVCRT:crtdll.obj
+ 0001:00004dcc       ___DllMainCRTStartup       10005dcc f   MSVCRT:crtdll.obj
+ 0001:00005430       __unwindfunclet$??0?$ClassFactory@VJStyleRelations@@@@QAE@HHH@Z$0 10006430 f   server.obj
+ 0001:00005439       __ehhandler$??0?$ClassFactory@VJStyleRelations@@@@QAE@HHH@Z 10006439 f   server.obj
+ 0001:00005460       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJStyleRelations@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10006460 f   server.obj
+ 0001:0000546c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJStyleRelations@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000646c f   server.obj
+ 0001:00005490       __unwindfunclet$_DllGetClassObject@12$0 10006490 f   server.obj
+ 0001:0000549b       __ehhandler$_DllGetClassObject@12 1000649b f   server.obj
+ 0001:000054c0       __unwindfunclet$??_G?$ClassFactory@VJStyleRelations@@@@UAEPAXI@Z$0 100064c0 f   server.obj
+ 0001:000054c9       __ehhandler$??_G?$ClassFactory@VJStyleRelations@@@@UAEPAXI@Z 100064c9 f   server.obj
+ 0001:000054f0       __unwindfunclet$??1JStyleRelations@@UAE@XZ$0 100064f0 f   stylerel.obj
+ 0001:000054f8       __unwindfunclet$??1JStyleRelations@@UAE@XZ$1 100064f8 f   stylerel.obj
+ 0001:00005504       __unwindfunclet$??1JStyleRelations@@UAE@XZ$2 10006504 f   stylerel.obj
+ 0001:0000550f       __unwindfunclet$??1JStyleRelations@@UAE@XZ$3 1000650f f   stylerel.obj
+ 0001:0000551a       __unwindfunclet$??1JStyleRelations@@UAE@XZ$4 1000651a f   stylerel.obj
+ 0001:00005525       __ehhandler$??1JStyleRelations@@UAE@XZ 10006525 f   stylerel.obj
+ 0001:00005540       __unwindfunclet$?EnumSemantics@IJRelationImp@JStyleRelations@@EAGJPAPAUIEnumJRelationSemanticDesc@@@Z$3 10006540 f   stylerel.obj
+ 0001:0000554b       __ehhandler$?EnumSemantics@IJRelationImp@JStyleRelations@@EAGJPAPAUIEnumJRelationSemanticDesc@@@Z 1000654b f   stylerel.obj
+ 0001:00005570       __unwindfunclet$?GetEnumDependentStyles@IJStyleRelationsImp@JStyleRelations@@EAGJPAXPAPAUIEnumUnknown@@@Z$2 10006570 f   stylerel.obj
+ 0001:0000557b       __ehhandler$?GetEnumDependentStyles@IJStyleRelationsImp@JStyleRelations@@EAGJPAXPAPAUIEnumUnknown@@@Z 1000657b f   stylerel.obj
+ 0001:000055a0       __unwindfunclet$?Clone@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJPAPAUIEnumJRelationSemanticDesc@@@Z$2 100065a0 f   stylerel.obj
+ 0001:000055ab       __ehhandler$?Clone@?$JEnumDataHolder@UIEnumJRelationSemanticDesc@@UtagJRELATIONSEMANTICDESC@@U2@@@UAGJPAPAUIEnumJRelationSemanticDesc@@@Z 100065ab f   stylerel.obj
+ 0001:000055d0       __unwindfunclet$?Clone@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJPAPAUIEnumUnknown@@@Z$0 100065d0 f   stylerel.obj
+ 0001:000055db       __ehhandler$?Clone@?$JEnumDataPointer@UIEnumUnknown@@PAUIUnknown@@@@UAGJPAPAUIEnumUnknown@@@Z 100065db f   stylerel.obj
+ 0001:00005600       __unwindfunclet$??0JStyleRelations@@QAE@PAUIUnknown@@@Z$0 10006600 f   stylerel.obj
+ 0001:00005608       __unwindfunclet$??0JStyleRelations@@QAE@PAUIUnknown@@@Z$1 10006608 f   stylerel.obj
+ 0001:00005614       __unwindfunclet$??0JStyleRelations@@QAE@PAUIUnknown@@@Z$2 10006614 f   stylerel.obj
+ 0001:0000561f       __unwindfunclet$??0JStyleRelations@@QAE@PAUIUnknown@@@Z$3 1000661f f   stylerel.obj
+ 0001:0000562a       __unwindfunclet$??0JStyleRelations@@QAE@PAUIUnknown@@@Z$4 1000662a f   stylerel.obj
+ 0001:00005635       __ehhandler$??0JStyleRelations@@QAE@PAUIUnknown@@@Z 10006635 f   stylerel.obj
+ 0001:00005650       __unwindfunclet$?Clone@IJPersistImp@JStyleRelations@@EAGJPAUIUnknown@@PAPAU3@@Z$2 10006650 f   stylerel.obj
+ 0001:0000565c       __ehhandler$?Clone@IJPersistImp@JStyleRelations@@EAGJPAUIUnknown@@PAPAU3@@Z 1000665c f   stylerel.obj
+ 0001:00005680       __unwindfunclet$??0JPersistUnknown@@QAE@PAUIUnknown@@@Z$0 10006680 f   unknown:persistunknown.obj
+ 0001:00005689       __ehhandler$??0JPersistUnknown@@QAE@PAUIUnknown@@@Z 10006689 f   unknown:persistunknown.obj
+ 0001:000056b0       __unwindfunclet$??1JPersistUnknown@@UAE@XZ$0 100066b0 f   unknown:persistunknown.obj
+ 0001:000056b9       __ehhandler$??1JPersistUnknown@@UAE@XZ 100066b9 f   unknown:persistunknown.obj
+ 0001:000056e0       ??__EGNULL_Camera@@YAXXZ   100066e0 f   stylerel.obj
+ 0001:00005700       ??__EGNULL_CAMERA@@YAXXZ   10006700 f   stylerel.obj
+ 0001:00005720       ??__EGID_Camera@@YAXXZ     10006720 f   stylerel.obj
+ 0001:00005740       ??__EGID_CAMERA@@YAXXZ     10006740 f   stylerel.obj

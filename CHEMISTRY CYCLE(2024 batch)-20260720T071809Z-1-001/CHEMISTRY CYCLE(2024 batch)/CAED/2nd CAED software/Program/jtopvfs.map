@@ -1,0 +1,456 @@
+ jtopvfs
+
+ Timestamp is 46b3a5f1 (Fri Aug 03 17:02:25 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000033b8H .text                   CODE
+ 0001:000033c0 00000224H .text$x                 CODE
+ 0001:000035f0 00000176H .text$yc                CODE
+ 0002:00000000 00000134H .idata$5                DATA
+ 0002:00000134 00000004H .CRT$XCA                DATA
+ 0002:00000138 00000030H .CRT$XCU                DATA
+ 0002:00000168 00000004H .CRT$XCZ                DATA
+ 0002:0000016c 00000004H .CRT$XIA                DATA
+ 0002:00000170 00000004H .CRT$XIAA               DATA
+ 0002:00000174 00000004H .CRT$XIZ                DATA
+ 0002:00000180 00000510H .rdata                  DATA
+ 0002:00000690 00000031H .rdata$debug            DATA
+ 0002:000006c4 0000046cH .rdata$r                DATA
+ 0002:00000b30 0000002cH .rdata$sxdata           DATA
+ 0002:00000b5c 00000004H .rtc$IAA                DATA
+ 0002:00000b60 00000004H .rtc$IZZ                DATA
+ 0002:00000b64 00000004H .rtc$TAA                DATA
+ 0002:00000b68 00000004H .rtc$TZZ                DATA
+ 0002:00000b70 00000294H .xdata$x                DATA
+ 0002:00000e04 000000a0H .idata$2                DATA
+ 0002:00000ea4 00000014H .idata$3                DATA
+ 0002:00000eb8 00000134H .idata$4                DATA
+ 0002:00000fec 0000062aH .idata$6                DATA
+ 0002:00001620 0000006aH .edata                  DATA
+ 0003:00000000 00002078H .data                   DATA
+ 0003:00002078 00000a24H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000308H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000000b       ___safe_se_handler_count   0000000b     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i jtopvfs.obj
+ 0001:000000d0       ?SerializeClassStm@JIOStreamContext@@QAEJPAU_GUID@@@Z 100010d0 f i jtopvfs.obj
+ 0001:00000100       ??0tagStyleOverride@@QAE@XZ 10001100 f i jtopvfs.obj
+ 0001:00000130       ?Delegate@IOContext@@QAEJPAUIUnknown@@@Z 10001130 f i jtopvfs.obj
+ 0001:000001a0       ?QueryInterface@ImpIManageVFS@JTopVFS@@EAGJABU_GUID@@PAPAX@Z 100011a0 f   jtopvfs.obj
+ 0001:000001c0       ?AddRef@ImpIManageVFS@JTopVFS@@EAGKXZ 100011c0 f   jtopvfs.obj
+ 0001:000001e0       ?Release@ImpIManageVFS@JTopVFS@@EAGKXZ 100011e0 f   jtopvfs.obj
+ 0001:00000200       ?QueryInterface@ImpIJViewFilterSet@JTopVFS@@EAGJABU_GUID@@PAPAX@Z 10001200 f   jtopvfs.obj
+ 0001:00000220       ?AddRef@ImpIJViewFilterSet@JTopVFS@@EAGKXZ 10001220 f   jtopvfs.obj
+ 0001:00000240       ?Release@ImpIJViewFilterSet@JTopVFS@@EAGKXZ 10001240 f   jtopvfs.obj
+ 0001:00000260       ?GetCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@GPAH1GPAUtagStyleOverride@@PAPA_W@Z 10001260 f   jtopvfs.obj
+ 0001:000003b0       ?SetAll@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@PAH1PAUtagStyleOverride@@PB_WK@Z 100013b0 f   jtopvfs.obj
+ 0001:000003c0       ?ResetAll@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@@Z 100013c0 f   jtopvfs.obj
+ 0001:000003c0       ?DisconnectAllCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@@Z 100013c0 f   jtopvfs.obj
+ 0001:000003c0       ?GetVFSNode@ImpIJViewFilterSet@JTopVFS@@EAGJPAPAUIUnknown@@@Z 100013c0 f   jtopvfs.obj
+ 0001:000003c0       ?SetActiveLayerFlag@ImpIJViewFilterSet@JTopVFS@@EAGJH@Z 100013c0 f   jtopvfs.obj
+ 0001:000003c0       ?GetActiveLayerFlag@ImpIJViewFilterSet@JTopVFS@@EAGJPAH@Z 100013c0 f   jtopvfs.obj
+ 0001:000003d0       ?Init@ImpIJViewFilterSet@JTopVFS@@EAGJPAUIUnknown@@@Z 100013d0 f   jtopvfs.obj
+ 0001:000003d0       ?SpacemapLeaking@IJPersist@@UAGJPAUIJPersistManager@@@Z 100013d0 f   jtopvfs.obj
+ 0001:000003e0       ?Evaluate@ImpIJViewFilterSet@JTopVFS@@EAGJKPAH0PAUtagRenderStyleOverride@@PAPAU3@@Z 100013e0 f   jtopvfs.obj
+ 0001:000004f0       ?QueryInterface@IJPersistImp@JTopVFS@@UAGJABU_GUID@@PAPAX@Z 100014f0 f   jtopvfs.obj
+ 0001:00000510       ?AddRef@IJPersistImp@JTopVFS@@UAGKXZ 10001510 f   jtopvfs.obj
+ 0001:00000530       ?Release@IJPersistImp@JTopVFS@@UAGKXZ 10001530 f   jtopvfs.obj
+ 0001:00000550       ?GetClassID@IJPersistImp@JTopVFS@@UAGJPAU_GUID@@@Z 10001550 f   jtopvfs.obj
+ 0001:00000590       ?GetThis@IJPersistImp@JTopVFS@@UAGPAXXZ 10001590 f   jtopvfs.obj
+ 0001:000005a0       ?Convert@IJPersistImp@JTopVFS@@UAGJPAVCvtContext@@@Z 100015a0 f   jtopvfs.obj
+ 0001:00000630       ?Clone@IJPersistImp@JTopVFS@@UAGJPAUIUnknown@@PAPAU3@@Z 10001630 f   jtopvfs.obj
+ 0001:00000640       ?InitNew@IJPersistImp@JTopVFS@@UAGJXZ 10001640 f   jtopvfs.obj
+ 0001:00000650       ?QueryInterface@IJDeleteImp@JTopVFS@@EAGJABU_GUID@@PAPAX@Z 10001650 f   jtopvfs.obj
+ 0001:00000670       ?AddRef@IJDeleteImp@JTopVFS@@EAGKXZ 10001670 f   jtopvfs.obj
+ 0001:00000690       ?Release@IJDeleteImp@JTopVFS@@EAGKXZ 10001690 f   jtopvfs.obj
+ 0001:000006b0       ?Initialize@JTopVFS@@QAEKXZ 100016b0 f   jtopvfs.obj
+ 0001:00000720       ??I?$TIP@PAUIJPersistManager@@@@QAEPAPAUIJPersistManager@@XZ 10001720 f i jtopvfs.obj
+ 0001:00000740       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 10001740 f i jtopvfs.obj
+ 0001:00000740       ??1?$TIP@PAUIJViewFilterSet@@@@QAE@XZ 10001740 f i jtopvfs.obj
+ 0001:00000740       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001740 f i jtopvfs.obj
+ 0001:00000750       ??0?$JList@UtagOverrideEntry@@U1@@@QAE@H@Z 10001750 f i jtopvfs.obj
+ 0001:00000750       ??0?$JList@PAUIJViewFilterSet@@PAU1@@@QAE@H@Z 10001750 f i jtopvfs.obj
+ 0001:00000770       ??$ConstructElements@PAUIJViewFilterSet@@@@YGXPAPAUIJViewFilterSet@@H@Z 10001770 f i jtopvfs.obj
+ 0001:00000790       ??$ConstructElements@UtagOverrideEntry@@@@YGXPAUtagOverrideEntry@@H@Z 10001790 f i jtopvfs.obj
+ 0001:000007b0       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 100017b0 f i jtopvfs.obj
+ 0001:00000830       ?QueryInterface@JTopVFS@@UAGJABU_GUID@@PAPAX@Z 10001830 f   jtopvfs.obj
+ 0001:00000ae0       ?Evaluate@ImpIManageVFS@JTopVFS@@EAGJKPAH0PAPAUIUnknown@@@Z 10001ae0 f   jtopvfs.obj
+ 0001:00000c50       ?AddNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z 10001c50 f   jtopvfs.obj
+ 0001:00000d00       ?RemoveNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z 10001d00 f   jtopvfs.obj
+ 0001:00000ef0       ?SetCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@GPAH1GPAUtagStyleOverride@@PB_WK@Z 10001ef0 f   jtopvfs.obj
+ 0001:000011f0       ?CheckForDefault@ImpIJViewFilterSet@JTopVFS@@EAGJXZ 100021f0 f   jtopvfs.obj
+ 0001:00001340       ?EnumValues@IJDeleteImp@JTopVFS@@EAGJPAPAUIEnumJIDREF@@@Z 10002340 f   jtopvfs.obj
+ 0001:00001450       ?PreValueDelete@IJDeleteImp@JTopVFS@@EAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 10002450 f   jtopvfs.obj
+ 0001:000014e0       ?Disconnect@IJDeleteImp@JTopVFS@@EAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100024e0 f   jtopvfs.obj
+ 0001:000019a0       ?RemoveAll@?$JList@PAUIJViewFilterSet@@PAU1@@@QAEXXZ 100029a0 f i jtopvfs.obj
+ 0001:000019a0       ?RemoveAll@?$JList@UtagOverrideEntry@@U1@@@QAEXXZ 100029a0 f i jtopvfs.obj
+ 0001:000019d0       ?NewNode@?$JList@PAUIJViewFilterSet@@PAU1@@@IAEPAUCNode@1@PAU21@0@Z 100029d0 f i jtopvfs.obj
+ 0001:00001a50       ?NewNode@?$JList@UtagOverrideEntry@@U1@@@IAEPAUCNode@1@PAU21@0@Z 10002a50 f i jtopvfs.obj
+ 0001:00001ad0       ?FreeNode@?$JList@PAUIJViewFilterSet@@PAU1@@@IAEXPAUCNode@1@@Z 10002ad0 f i jtopvfs.obj
+ 0001:00001ad0       ?FreeNode@?$JList@UtagOverrideEntry@@U1@@@IAEXPAUCNode@1@@Z 10002ad0 f i jtopvfs.obj
+ 0001:00001af0       ?Serialize@IJPersistImp@JTopVFS@@UAGJPAVIOContext@@@Z 10002af0 f   jtopvfs.obj
+ 0001:00002080       ?RemoveHead@?$JList@PAUIJViewFilterSet@@PAU1@@@QAEPAUIJViewFilterSet@@XZ 10003080 f i jtopvfs.obj
+ 0001:000020b0       ?AddHead@?$JList@PAUIJViewFilterSet@@PAU1@@@QAEPAU__POSITION@@PAUIJViewFilterSet@@@Z 100030b0 f i jtopvfs.obj
+ 0001:000020e0       ??1?$JList@UtagOverrideEntry@@U1@@@QAE@XZ 100030e0 f i jtopvfs.obj
+ 0001:000020e0       ??1?$JList@PAUIJViewFilterSet@@PAU1@@@QAE@XZ 100030e0 f i jtopvfs.obj
+ 0001:000020f0       ?RemoveHead@?$JList@UtagOverrideEntry@@U1@@@QAE?AUtagOverrideEntry@@XZ 100030f0 f i jtopvfs.obj
+ 0001:00002140       ?AddHead@?$JList@UtagOverrideEntry@@U1@@@QAEPAU__POSITION@@UtagOverrideEntry@@@Z 10003140 f i jtopvfs.obj
+ 0001:00002180       ?ApplyViewFilterSet@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z 10003180 f   jtopvfs.obj
+ 0001:00002490       ?ReleaseViewFilterSet@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z 10003490 f   jtopvfs.obj
+ 0001:00002520       ??0JTopVFS@@QAE@PAUIUnknown@@@Z 10003520 f   jtopvfs.obj
+ 0001:000025e0       ??1JTopVFS@@UAE@XZ         100035e0 f   jtopvfs.obj
+ 0001:000026c0       ??_EJTopVFS@@UAEPAXI@Z     100036c0 f i jtopvfs.obj
+ 0001:000026c0       ??_GJTopVFS@@UAEPAXI@Z     100036c0 f i jtopvfs.obj
+ 0001:000026e0       _DllMain@12                100036e0 f   server.obj
+ 0001:000026f0       ?ServerGetNumberOfObjects@@YAKXZ 100036f0 f   server.obj
+ 0001:00002700       ?ServerGetNumberOfLocks@@YAKXZ 10003700 f   server.obj
+ 0001:00002710       ?ServerIncrementNumberOfObjects@@YAXXZ 10003710 f   server.obj
+ 0001:00002720       ?ServerDecrementNumberOfObjects@@YAXXZ 10003720 f   server.obj
+ 0001:00002730       ?ServerIncrementNumberOfLocks@@YAXXZ 10003730 f   server.obj
+ 0001:00002740       ?ServerDecrementNumberOfLocks@@YAXXZ 10003740 f   server.obj
+ 0001:00002750       _DllCanUnloadNow@0         10003750 f   server.obj
+ 0001:00002770       ??0?$ClassFactory@VJTopVFS@@@@QAE@HHH@Z 10003770 f i server.obj
+ 0001:000027f0       ?OnCreateInstance@?$ClassFactory@VJTopVFS@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100037f0 f i server.obj
+ 0001:00002940       _DllGetClassObject@12      10003940 f   server.obj
+ 0001:00002a50       ??_G?$ClassFactory@VJTopVFS@@@@UAEPAXI@Z 10003a50 f i server.obj
+ 0001:00002a50       ??_E?$ClassFactory@VJTopVFS@@@@UAEPAXI@Z 10003a50 f i server.obj
+ 0001:00002aac       _CreateStdRelation@8       10003aac f   jengine:jengine.dll
+ 0001:00002ab2       _CreateStdRelationValue@12 10003ab2 f   jengine:jengine.dll
+ 0001:00002ab8       _JLogModify@4              10003ab8 f   jengine:jengine.dll
+ 0001:00002abe       @GetPersistManager@8       10003abe f   jengine:jengine.dll
+ 0001:00002ac4       _JCreateJIDREFDataHolder@12 10003ac4 f   jengine:jengine.dll
+ 0001:00002aca       _JLogDeleteRoot@8          10003aca f   jengine:jengine.dll
+ 0001:00002ad0       _JGetApplication           10003ad0 f   jengine:jengine.dll
+ 0001:00002ad6       _JLogDelete@4              10003ad6 f   jengine:jengine.dll
+ 0001:00002adc       ?AddRef@CPersistObject@@UAGKXZ 10003adc f   jengine:jengine.dll
+ 0001:00002ae2       ?Release@CPersistObject@@UAGKXZ 10003ae2 f   jengine:jengine.dll
+ 0001:00002ae8       _HRerrEx                   10003ae8 f   jutil:JUtil.dll
+ 0001:00002aee       _JCoCreateInstance         10003aee f   jutil:JUtil.dll
+ 0001:00002af4       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10003af4 f   jutil:JUtil.dll
+ 0001:00002afa       ?AddRef@JClassFactory@@UAGKXZ 10003afa f   jutil:JUtil.dll
+ 0001:00002b00       ?Release@JClassFactory@@UAGKXZ 10003b00 f   jutil:JUtil.dll
+ 0001:00002b06       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10003b06 f   jutil:JUtil.dll
+ 0001:00002b0c       ?LockServer@JClassFactory@@UAGJH@Z 10003b0c f   jutil:JUtil.dll
+ 0001:00002b12       _malloc                    10003b12 f   MSVCRT:MSVCR80.dll
+ 0001:00002b18       __callnewh                 10003b18 f   MSVCRT:MSVCR80.dll
+ 0001:00002b20       ___CxxFrameHandler3        10003b20 f   MSVCRT:MSVCR80.dll
+ 0001:00002b26       @__security_check_cookie@4 10003b26 f   MSVCRT:secchk.obj
+ 0001:00002b36       _memset                    10003b36 f   MSVCRT:MSVCR80.dll
+ 0001:00002b3c       ??3@YAXPAX@Z               10003b3c f   MSVCRT:MSVCR80.dll
+ 0001:00002b42       ??_Etype_info@@UAEPAXI@Z   10003b42 f i MSVCRT:ti_inst.obj
+ 0001:00002bd8       __CRT_INIT@12              10003bd8 f   MSVCRT:crtdll.obj
+ 0001:00002e8d       __DllMainCRTStartup@12     10003e8d f   MSVCRT:crtdll.obj
+ 0001:00002eae       ___report_gsfailure        10003eae f   MSVCRT:gs_report.obj
+ 0001:00002fb2       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10003fb2 f   MSVCRT:ehvecdtr.obj
+ 0001:00003010       ??_M@YGXPAXIHP6EX0@Z@Z     10004010 f   MSVCRT:ehvecdtr.obj
+ 0001:00003073       ___clean_type_info_names   10004073 f   MSVCRT:tncleanup.obj
+ 0001:0000307f       __onexit                   1000407f f   MSVCRT:atonexit.obj
+ 0001:0000311e       _atexit                    1000411e f   MSVCRT:atonexit.obj
+ 0001:00003130       __RTC_Initialize           10004130 f   MSVCRT:initsect.obj
+ 0001:00003154       __RTC_Terminate            10004154 f   MSVCRT:initsect.obj
+ 0001:00003180       __ValidateImageBase        10004180 f   MSVCRT:pesect.obj
+ 0001:000031b0       __FindPESection            100041b0 f   MSVCRT:pesect.obj
+ 0001:000031f2       __IsNonwritableInCurrentImage 100041f2 f   MSVCRT:pesect.obj
+ 0001:0000325e       __initterm                 1000425e f   MSVCRT:MSVCR80.dll
+ 0001:00003264       __initterm_e               10004264 f   MSVCRT:MSVCR80.dll
+ 0001:0000326a       __amsg_exit                1000426a f   MSVCRT:MSVCR80.dll
+ 0001:00003270       ___CppXcptFilter           10004270 f   MSVCRT:MSVCR80.dll
+ 0001:00003278       __SEH_prolog4              10004278 f   MSVCRT:sehprolg4.obj
+ 0001:000032bd       __SEH_epilog4              100042bd f   MSVCRT:sehprolg4.obj
+ 0001:000032d1       __except_handler4          100042d1 f   MSVCRT:chandler4gs.obj
+ 0001:000032f4       ___security_init_cookie    100042f4 f   MSVCRT:gs_support.obj
+ 0001:00003388       __crt_debugger_hook        10004388 f   MSVCRT:MSVCR80.dll
+ 0001:0000338e       ?terminate@@YAXXZ          1000438e f   MSVCRT:MSVCR80.dll
+ 0001:00003394       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10004394 f   MSVCRT:MSVCR80.dll
+ 0001:00003394       ??1type_info@@UAE@XZ       10004394 f   MSVCRT:MSVCR80.dll
+ 0001:0000339a       ___clean_type_info_names_internal 1000439a f   MSVCRT:MSVCR80.dll
+ 0001:000033a0       __unlock                   100043a0 f   MSVCRT:MSVCR80.dll
+ 0001:000033a6       ___dllonexit               100043a6 f   MSVCRT:MSVCR80.dll
+ 0001:000033ac       __lock                     100043ac f   MSVCRT:MSVCR80.dll
+ 0001:000033b2       __except_handler4_common   100043b2 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?Release@JClassFactory@@UAGKXZ 10005000     jutil:JUtil.dll
+ 0002:00000004       __imp_?AddRef@JClassFactory@@UAGKXZ 10005004     jutil:JUtil.dll
+ 0002:00000008       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10005008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000500c     jutil:JUtil.dll
+ 0002:00000010       __imp_??1JClassFactory@@UAE@XZ 10005010     jutil:JUtil.dll
+ 0002:00000014       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 10005014     jutil:JUtil.dll
+ 0002:00000018       __imp_?FreeDataChain@JPlex@@QAEXXZ 10005018     jutil:JUtil.dll
+ 0002:0000001c       __imp__JCoCreateInstance   1000501c     jutil:JUtil.dll
+ 0002:00000020       __imp__HRerrEx             10005020     jutil:JUtil.dll
+ 0002:00000024       __imp_?LockServer@JClassFactory@@UAGJH@Z 10005024     jutil:JUtil.dll
+ 0002:00000028       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10005028     jutil:JUtil.dll
+ 0002:0000002c       \177JUtil_NULL_THUNK_DATA  1000502c     jutil:JUtil.dll
+ 0002:00000030       __imp__Sleep@4             10005030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedCompareExchange@12 10005034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__TerminateProcess@8  10005038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetCurrentProcess@0 1000503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__UnhandledExceptionFilter@4 10005040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__SetUnhandledExceptionFilter@4 10005044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__IsDebuggerPresent@0 10005048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__QueryPerformanceCounter@4 1000504c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetTickCount@0      10005050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentThreadId@0 10005054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetCurrentProcessId@0 10005058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetSystemTimeAsFileTime@4 1000505c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__InterlockedExchange@8 10005060     kernel32:KERNEL32.dll
+ 0002:00000064       \177KERNEL32_NULL_THUNK_DATA 10005064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp___except_handler4_common 10005068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp___onexit             1000506c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp___lock               10005070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp____dllonexit         10005074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___unlock             10005078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp____clean_type_info_names_internal 1000507c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10005080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp_?terminate@@YAXXZ    10005084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp___crt_debugger_hook  10005088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp____CppXcptFilter     1000508c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___adjust_fdiv        10005090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp__malloc              10005094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___callnewh           10005098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp____CxxFrameHandler3  1000509c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__memset              100050a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp_??3@YAXPAX@Z         100050a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___encode_pointer     100050a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___malloc_crt         100050ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___encoded_null       100050b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp__free                100050b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___decode_pointer     100050b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___initterm           100050bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___initterm_e         100050c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___amsg_exit          100050c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       \177MSVCR80_NULL_THUNK_DATA 100050c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__VariantInit@4       100050cc     oleaut32:OLEAUT32.dll
+ 0002:000000d0       \177OLEAUT32_NULL_THUNK_DATA 100050d0     oleaut32:OLEAUT32.dll
+ 0002:000000d4       __imp__CreateStdRelation@8 100050d4     jengine:jengine.dll
+ 0002:000000d8       __imp__CreateStdRelationValue@12 100050d8     jengine:jengine.dll
+ 0002:000000dc       __imp__JLogModify@4        100050dc     jengine:jengine.dll
+ 0002:000000e0       __imp_@GetPersistManager@8 100050e0     jengine:jengine.dll
+ 0002:000000e4       __imp__JCreateJIDREFDataHolder@12 100050e4     jengine:jengine.dll
+ 0002:000000e8       __imp__JLogDeleteRoot@8    100050e8     jengine:jengine.dll
+ 0002:000000ec       __imp__JGetApplication     100050ec     jengine:jengine.dll
+ 0002:000000f0       __imp__JLogDelete@4        100050f0     jengine:jengine.dll
+ 0002:000000f4       __imp_??2CPersistObject@@SAPAXI@Z 100050f4     jengine:jengine.dll
+ 0002:000000f8       __imp_??3CPersistObject@@SAXPAX@Z 100050f8     jengine:jengine.dll
+ 0002:000000fc       __imp_?Release@CPersistObject@@UAGKXZ 100050fc     jengine:jengine.dll
+ 0002:00000100       __imp_?AddRef@CPersistObject@@UAGKXZ 10005100     jengine:jengine.dll
+ 0002:00000104       __imp_??0CPersistObject@@QAE@PAUIUnknown@@@Z 10005104     jengine:jengine.dll
+ 0002:00000108       __imp_??1CPersistObject@@UAE@XZ 10005108     jengine:jengine.dll
+ 0002:0000010c       __imp_?GetObjectVersions@CvtContext@@QBEJPBU_GUID@@PAG1@Z 1000510c     jengine:jengine.dll
+ 0002:00000110       \177jengine_NULL_THUNK_DATA 10005110     jengine:jengine.dll
+ 0002:00000114       __imp__ReadClassStm@8      10005114     ole32:ole32.dll
+ 0002:00000118       __imp__WriteClassStm@8     10005118     ole32:ole32.dll
+ 0002:0000011c       \177ole32_NULL_THUNK_DATA  1000511c     ole32:ole32.dll
+ 0002:00000120       __imp__JSESysAllocStringLen@8 10005120     sealloc:sealloc.dll
+ 0002:00000124       \177sealloc_NULL_THUNK_DATA 10005124     sealloc:sealloc.dll
+ 0002:00000128       __imp_?HGetDashStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10005128     stylspt:stylspt.dll
+ 0002:0000012c       __imp_?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 1000512c     stylspt:stylspt.dll
+ 0002:00000130       \177stylspt_NULL_THUNK_DATA 10005130     stylspt:stylspt.dll
+ 0002:00000134       ___xc_a                    10005134     MSVCRT:cinitexe.obj
+ 0002:00000168       ___xc_z                    10005168     MSVCRT:cinitexe.obj
+ 0002:0000016c       ___xi_a                    1000516c     MSVCRT:cinitexe.obj
+ 0002:00000174       ___xi_z                    10005174     MSVCRT:cinitexe.obj
+ 0002:0000019c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000519c     guid.obj
+ 0002:000001ac       _IID_IJPersist             100051ac     guid.obj
+ 0002:000001bc       _IID_IJRelationValue       100051bc     guid.obj
+ 0002:000001cc       _IID_IJRelation            100051cc     guid.obj
+ 0002:000001dc       _IID_IJDelete              100051dc     guid.obj
+ 0002:000001ec       _IID_IJManageVFS           100051ec     guid.obj
+ 0002:000001fc       _CLSID_JTopVFS             100051fc     guid.obj
+ 0002:00000214       _CLSID_JFilterStyleOverride 10005214     guid.obj
+ 0002:00000224       _GUID_DisplayFilterRelation 10005224     guid.obj
+ 0002:00000234       _IID_IJStyleSimpleDashType 10005234     guid.obj
+ 0002:00000244       _IID_IJViewFilterSet       10005244     guid.obj
+ 0002:00000254       _IID_IJFilterSupport       10005254     guid.obj
+ 0002:00000264       _IID_IJApplication         10005264     guid.obj
+ 0002:00000274       _IID_IJDocument            10005274     guid.obj
+ 0002:00000284       _IID_IJWindows             10005284     guid.obj
+ 0002:00000294       _IID_IJFilterStyleOverride 10005294     guid.obj
+ 0002:000002ac       ??_C@_0O@MEBJFKFD@?4?2jtopvfs?4cpp?$AA@ 100052ac     jtopvfs.obj
+ 0002:000002bc       ??_C@_0CJ@CHCPJABD@JTopVFS?3?3ImpIJViewFilterSet?3?3Get@ 100052bc     jtopvfs.obj
+ 0002:000002e8       ??_C@_0BP@MNHNMDLE@JTopVFS?3?3IJPersistImp?3?3Convert?$AA@ 100052e8     jtopvfs.obj
+ 0002:00000308       ??_C@_0BE@IHAJJHKA@JTopVFS?3?3Initialize?$AA@ 10005308     jtopvfs.obj
+ 0002:0000031c       ??_C@_0BI@LDENPPGP@JTopVFS?3?3QueryInterface?$AA@ 1000531c     jtopvfs.obj
+ 0002:00000334       ??_C@_0CB@EALMPDIP@JTopVFS?3?3ImpIManageVFS?3?3Evaluate@ 10005334     jtopvfs.obj
+ 0002:00000358       ??_C@_0CD@DDBFCBAG@JTopVFS?3?3ImpIManageVFS?3?3AddNodeV@ 10005358     jtopvfs.obj
+ 0002:0000037c       ??_C@_0CG@MCPEEBFN@JTopVFS?3?3ImpIManageVFS?3?3RemoveNo@ 1000537c     jtopvfs.obj
+ 0002:000003a4       ??_C@_0CJ@CIDBEGJA@JTopVFS?3?3ImpIJViewFilterSet?3?3Set@ 100053a4     jtopvfs.obj
+ 0002:000003d0       ??_C@_0CN@JAEFBMOL@JTopVFS?3?3ImpIJViewFilterSet?3?3Che@ 100053d0     jtopvfs.obj
+ 0002:00000400       ??_C@_0CB@NIHIJBAB@JTopVFS?3?3IJDeleteImp?3?3EnumValues@ 10005400     jtopvfs.obj
+ 0002:00000424       ??_C@_0CF@OOOHKFHM@JTopVFS?3?3IJDeleteImp?3?3PreValueDe@ 10005424     jtopvfs.obj
+ 0002:0000044c       ??_C@_1BC@HNIJEHDI@?$AAT?$AAo?$AAp?$AAV?$AAF?$AAS?$AAe?$AAt?$AA?$AA@ 1000544c     jtopvfs.obj
+ 0002:00000460       ??_C@_0CB@DAACICNO@JTopVFS?3?3IJDeleteImp?3?3Disconnect@ 10005460     jtopvfs.obj
+ 0002:00000488       ??_7ImpIManageVFS@JTopVFS@@6B@ 10005488     jtopvfs.obj
+ 0002:000004ac       ??_7ImpIJViewFilterSet@JTopVFS@@6B@ 100054ac     jtopvfs.obj
+ 0002:000004e4       ??_C@_0CB@CNBIGACN@JTopVFS?3?3IJPersistImp?3?3Serialize@ 100054e4     jtopvfs.obj
+ 0002:0000050c       ??_7IJPersistImp@JTopVFS@@6B@ 1000550c     jtopvfs.obj
+ 0002:00000538       ??_7IJDeleteImp@JTopVFS@@6B@ 10005538     jtopvfs.obj
+ 0002:00000550       ??_C@_0CL@FOMDAHLI@JTopVFS?3?3ImpIManageVFS?3?3ApplyVie@ 10005550     jtopvfs.obj
+ 0002:00000580       ??_7JTopVFS@@6B@           10005580     jtopvfs.obj
+ 0002:0000059c       ??_7?$ClassFactory@VJTopVFS@@@@6B@ 1000559c     server.obj
+ 0002:000005b8       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 100055b8     server.obj
+ 0002:000005d0       ??_C@_0CO@PKCNOJNK@ClassFactory?$DMclass?5JTopVFS?$DO?3?3OnC@ 100055d0     server.obj
+ 0002:00000600       _IID_IPersist              10005600     uuid:objidl_i.obj
+ 0002:00000610       _IID_IClassFactory         10005610     uuid:unknwn_i.obj
+ 0002:00000620       _IID_IUnknown              10005620     uuid:unknwn_i.obj
+ 0002:00000634       ??_7type_info@@6B@         10005634     MSVCRT:ti_inst.obj
+ 0002:00000638       __pRawDllMain              10005638     MSVCRT:crtdll.obj
+ 0002:00000638       __pDefaultRawDllMain       10005638     MSVCRT:crtdll.obj
+ 0002:00000648       __load_config_used         10005648     MSVCRT:loadcfg.obj
+ 0002:000006c4       ??_R4ImpIManageVFS@JTopVFS@@6B@ 100056c4     jtopvfs.obj
+ 0002:000006d8       ??_R3ImpIManageVFS@JTopVFS@@8 100056d8     jtopvfs.obj
+ 0002:000006e8       ??_R2ImpIManageVFS@JTopVFS@@8 100056e8     jtopvfs.obj
+ 0002:000006f8       ??_R1A@?0A@EA@ImpIManageVFS@JTopVFS@@8 100056f8     jtopvfs.obj
+ 0002:00000714       ??_R1A@?0A@EA@IJManageVFS@@8 10005714     jtopvfs.obj
+ 0002:00000730       ??_R3IJManageVFS@@8        10005730     jtopvfs.obj
+ 0002:00000740       ??_R2IJManageVFS@@8        10005740     jtopvfs.obj
+ 0002:0000074c       ??_R1A@?0A@EA@IUnknown@@8  1000574c     jtopvfs.obj
+ 0002:00000768       ??_R3IUnknown@@8           10005768     jtopvfs.obj
+ 0002:00000778       ??_R2IUnknown@@8           10005778     jtopvfs.obj
+ 0002:00000780       ??_R4ImpIJViewFilterSet@JTopVFS@@6B@ 10005780     jtopvfs.obj
+ 0002:00000794       ??_R3ImpIJViewFilterSet@JTopVFS@@8 10005794     jtopvfs.obj
+ 0002:000007a4       ??_R2ImpIJViewFilterSet@JTopVFS@@8 100057a4     jtopvfs.obj
+ 0002:000007b4       ??_R1A@?0A@EA@ImpIJViewFilterSet@JTopVFS@@8 100057b4     jtopvfs.obj
+ 0002:000007d0       ??_R1A@?0A@EA@IJViewFilterSet@@8 100057d0     jtopvfs.obj
+ 0002:000007ec       ??_R3IJViewFilterSet@@8    100057ec     jtopvfs.obj
+ 0002:000007fc       ??_R2IJViewFilterSet@@8    100057fc     jtopvfs.obj
+ 0002:00000808       ??_R4IJPersistImp@JTopVFS@@6B@ 10005808     jtopvfs.obj
+ 0002:0000081c       ??_R3IJPersistImp@JTopVFS@@8 1000581c     jtopvfs.obj
+ 0002:0000082c       ??_R2IJPersistImp@JTopVFS@@8 1000582c     jtopvfs.obj
+ 0002:00000840       ??_R1A@?0A@EA@IJPersistImp@JTopVFS@@8 10005840     jtopvfs.obj
+ 0002:0000085c       ??_R1A@?0A@EA@IJPersist@@8 1000585c     jtopvfs.obj
+ 0002:00000878       ??_R3IJPersist@@8          10005878     jtopvfs.obj
+ 0002:00000888       ??_R2IJPersist@@8          10005888     jtopvfs.obj
+ 0002:00000898       ??_R1A@?0A@EA@IPersist@@8  10005898     jtopvfs.obj
+ 0002:000008b4       ??_R3IPersist@@8           100058b4     jtopvfs.obj
+ 0002:000008c4       ??_R2IPersist@@8           100058c4     jtopvfs.obj
+ 0002:000008d0       ??_R4IJDeleteImp@JTopVFS@@6B@ 100058d0     jtopvfs.obj
+ 0002:000008e4       ??_R3IJDeleteImp@JTopVFS@@8 100058e4     jtopvfs.obj
+ 0002:000008f4       ??_R2IJDeleteImp@JTopVFS@@8 100058f4     jtopvfs.obj
+ 0002:00000908       ??_R1A@?0A@EA@IJDeleteImp@JTopVFS@@8 10005908     jtopvfs.obj
+ 0002:00000924       ??_R1A@?0A@EA@IJDelete@@8  10005924     jtopvfs.obj
+ 0002:00000940       ??_R3IJDelete@@8           10005940     jtopvfs.obj
+ 0002:00000950       ??_R2IJDelete@@8           10005950     jtopvfs.obj
+ 0002:00000960       ??_R1A@?0A@EA@IJSemantic@@8 10005960     jtopvfs.obj
+ 0002:0000097c       ??_R3IJSemantic@@8         1000597c     jtopvfs.obj
+ 0002:0000098c       ??_R2IJSemantic@@8         1000598c     jtopvfs.obj
+ 0002:00000998       ??_R4JTopVFS@@6B@          10005998     jtopvfs.obj
+ 0002:000009ac       ??_R3JTopVFS@@8            100059ac     jtopvfs.obj
+ 0002:000009bc       ??_R2JTopVFS@@8            100059bc     jtopvfs.obj
+ 0002:000009cc       ??_R1A@?0A@EA@JTopVFS@@8   100059cc     jtopvfs.obj
+ 0002:000009e8       ??_R1A@?0A@EA@CPersistObject@@8 100059e8     jtopvfs.obj
+ 0002:00000a04       ??_R3CPersistObject@@8     10005a04     jtopvfs.obj
+ 0002:00000a14       ??_R2CPersistObject@@8     10005a14     jtopvfs.obj
+ 0002:00000a20       ??_R4?$ClassFactory@VJTopVFS@@@@6B@ 10005a20     server.obj
+ 0002:00000a34       ??_R3?$ClassFactory@VJTopVFS@@@@8 10005a34     server.obj
+ 0002:00000a44       ??_R2?$ClassFactory@VJTopVFS@@@@8 10005a44     server.obj
+ 0002:00000a58       ??_R1A@?0A@EA@?$ClassFactory@VJTopVFS@@@@8 10005a58     server.obj
+ 0002:00000a74       ??_R1A@?0A@EA@JClassFactory@@8 10005a74     server.obj
+ 0002:00000a90       ??_R3JClassFactory@@8      10005a90     server.obj
+ 0002:00000aa0       ??_R2JClassFactory@@8      10005aa0     server.obj
+ 0002:00000ab0       ??_R1A@?0A@EA@IClassFactory@@8 10005ab0     server.obj
+ 0002:00000acc       ??_R3IClassFactory@@8      10005acc     server.obj
+ 0002:00000adc       ??_R2IClassFactory@@8      10005adc     server.obj
+ 0002:00000ae8       ??_R4type_info@@6B@        10005ae8     MSVCRT:ti_inst.obj
+ 0002:00000afc       ??_R3type_info@@8          10005afc     MSVCRT:ti_inst.obj
+ 0002:00000b0c       ??_R2type_info@@8          10005b0c     MSVCRT:ti_inst.obj
+ 0002:00000b14       ??_R1A@?0A@EA@type_info@@8 10005b14     MSVCRT:ti_inst.obj
+ 0002:00000b30       ___safe_se_handler_table   10005b30     <linker-defined>
+ 0002:00000b5c       ___rtc_iaa                 10005b5c     MSVCRT:initsect.obj
+ 0002:00000b60       ___rtc_izz                 10005b60     MSVCRT:initsect.obj
+ 0002:00000b64       ___rtc_taa                 10005b64     MSVCRT:initsect.obj
+ 0002:00000b68       ___rtc_tzz                 10005b68     MSVCRT:initsect.obj
+ 0002:00000e04       __IMPORT_DESCRIPTOR_jengine 10005e04     jengine:jengine.dll
+ 0002:00000e18       __IMPORT_DESCRIPTOR_JUtil  10005e18     jutil:JUtil.dll
+ 0002:00000e2c       __IMPORT_DESCRIPTOR_stylspt 10005e2c     stylspt:stylspt.dll
+ 0002:00000e40       __IMPORT_DESCRIPTOR_sealloc 10005e40     sealloc:sealloc.dll
+ 0002:00000e54       __IMPORT_DESCRIPTOR_ole32  10005e54     ole32:ole32.dll
+ 0002:00000e68       __IMPORT_DESCRIPTOR_OLEAUT32 10005e68     oleaut32:OLEAUT32.dll
+ 0002:00000e7c       __IMPORT_DESCRIPTOR_MSVCR80 10005e7c     MSVCRT:MSVCR80.dll
+ 0002:00000e90       __IMPORT_DESCRIPTOR_KERNEL32 10005e90     kernel32:KERNEL32.dll
+ 0002:00000ea4       __NULL_IMPORT_DESCRIPTOR   10005ea4     jengine:jengine.dll
+ 0003:00000000       __newmode                  10007000     newmode.obj
+ 0003:00001448       ??_R0?AVImpIManageVFS@JTopVFS@@@8 10008448     jtopvfs.obj
+ 0003:0000146c       ??_R0?AUIJManageVFS@@@8    1000846c     jtopvfs.obj
+ 0003:00001488       ??_R0?AUIUnknown@@@8       10008488     jtopvfs.obj
+ 0003:000014a0       ??_R0?AVImpIJViewFilterSet@JTopVFS@@@8 100084a0     jtopvfs.obj
+ 0003:000014cc       ??_R0?AUIJViewFilterSet@@@8 100084cc     jtopvfs.obj
+ 0003:000014ec       ??_R0?AUIJPersistImp@JTopVFS@@@8 100084ec     jtopvfs.obj
+ 0003:00001510       ??_R0?AUIJPersist@@@8      10008510     jtopvfs.obj
+ 0003:00001528       ??_R0?AUIPersist@@@8       10008528     jtopvfs.obj
+ 0003:00001540       ??_R0?AVIJDeleteImp@JTopVFS@@@8 10008540     jtopvfs.obj
+ 0003:00001564       ??_R0?AUIJDelete@@@8       10008564     jtopvfs.obj
+ 0003:0000157c       ??_R0?AUIJSemantic@@@8     1000857c     jtopvfs.obj
+ 0003:00001598       ??_R0?AVJTopVFS@@@8        10008598     jtopvfs.obj
+ 0003:000015b0       ??_R0?AVCPersistObject@@@8 100085b0     jtopvfs.obj
+ 0003:00001ff0       ??_R0?AV?$ClassFactory@VJTopVFS@@@@@8 10008ff0     server.obj
+ 0003:00002018       ??_R0?AVJClassFactory@@@8  10009018     server.obj
+ 0003:00002034       ??_R0?AUIClassFactory@@@8  10009034     server.obj
+ 0003:00002050       ___security_cookie         10009050     MSVCRT:gs_cookie.obj
+ 0003:00002054       ___security_cookie_complement 10009054     MSVCRT:gs_cookie.obj
+ 0003:00002058       ??_R0?AVtype_info@@@8      10009058     MSVCRT:ti_inst.obj
+ 0003:00002070       ___native_dllmain_reason   10009070     MSVCRT:natstart.obj
+ 0003:00002074       ___native_vcclrit_reason   10009074     MSVCRT:natstart.obj
+ 0003:00002a7c       ?__type_info_root_node@@3U__type_info_node@@A 10009a7c     MSVCRT:tncleanup.obj
+ 0003:00002a84       __adjust_fdiv              10009a84     <common>
+ 0003:00002a88       ___native_startup_state    10009a88     <common>
+ 0003:00002a8c       ___native_startup_lock     10009a8c     <common>
+ 0003:00002a90       ___onexitend               10009a90     <common>
+ 0003:00002a94       ___onexitbegin             10009a94     <common>
+ 0003:00002a98       ___dyn_tls_init_callback   10009a98     <common>
+
+ entry point at        0001:00002e8d
+
+ Static symbols
+
+ 0001:00002b8b       _pre_c_init                10003b8b f   MSVCRT:crtdll.obj
+ 0001:00002d77       ___DllMainCRTStartup       10003d77 f   MSVCRT:crtdll.obj
+ 0001:000033c0       __unwindfunclet$?Evaluate@ImpIJViewFilterSet@JTopVFS@@EAGJKPAH0PAUtagRenderStyleOverride@@PAPAU3@@Z$0 100043c0 f   jtopvfs.obj
+ 0001:000033ce       __ehhandler$?Evaluate@ImpIJViewFilterSet@JTopVFS@@EAGJKPAH0PAUtagRenderStyleOverride@@PAPAU3@@Z 100043ce f   jtopvfs.obj
+ 0001:000033f0       __unwindfunclet$?RemoveNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z$3 100043f0 f   jtopvfs.obj
+ 0001:000033f8       __unwindfunclet$?RemoveNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z$4 100043f8 f   jtopvfs.obj
+ 0001:00003400       __unwindfunclet$?RemoveNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z$5 10004400 f   jtopvfs.obj
+ 0001:00003408       __ehhandler$?RemoveNodeVFS@ImpIManageVFS@JTopVFS@@EAGJPAUIUnknown@@@Z 10004408 f   jtopvfs.obj
+ 0001:00003430       __unwindfunclet$?SetCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@GPAH1GPAUtagStyleOverride@@PB_WK@Z$3 10004430 f   jtopvfs.obj
+ 0001:0000343b       __unwindfunclet$?SetCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@GPAH1GPAUtagStyleOverride@@PB_WK@Z$4 1000443b f   jtopvfs.obj
+ 0001:00003446       __ehhandler$?SetCriteria@ImpIJViewFilterSet@JTopVFS@@EAGJW4tagCRITERIA@@GPAH1GPAUtagStyleOverride@@PB_WK@Z 10004446 f   jtopvfs.obj
+ 0001:00003470       __unwindfunclet$?Serialize@IJPersistImp@JTopVFS@@UAGJPAVIOContext@@@Z$24 10004470 f   jtopvfs.obj
+ 0001:0000347b       __ehhandler$?Serialize@IJPersistImp@JTopVFS@@UAGJPAVIOContext@@@Z 1000447b f   jtopvfs.obj
+ 0001:000034b0       __unwindfunclet$??0JTopVFS@@QAE@PAUIUnknown@@@Z$0 100044b0 f   jtopvfs.obj
+ 0001:000034b9       __unwindfunclet$??0JTopVFS@@QAE@PAUIUnknown@@@Z$1 100044b9 f   jtopvfs.obj
+ 0001:000034c4       __unwindfunclet$??0JTopVFS@@QAE@PAUIUnknown@@@Z$2 100044c4 f   jtopvfs.obj
+ 0001:000034cf       __ehhandler$??0JTopVFS@@QAE@PAUIUnknown@@@Z 100044cf f   jtopvfs.obj
+ 0001:000034f0       __unwindfunclet$??1JTopVFS@@UAE@XZ$0 100044f0 f   jtopvfs.obj
+ 0001:000034f9       __unwindfunclet$??1JTopVFS@@UAE@XZ$1 100044f9 f   jtopvfs.obj
+ 0001:00003504       __unwindfunclet$??1JTopVFS@@UAE@XZ$2 10004504 f   jtopvfs.obj
+ 0001:0000350f       __ehhandler$??1JTopVFS@@UAE@XZ 1000450f f   jtopvfs.obj
+ 0001:00003530       __unwindfunclet$??0?$ClassFactory@VJTopVFS@@@@QAE@HHH@Z$0 10004530 f   server.obj
+ 0001:00003539       __ehhandler$??0?$ClassFactory@VJTopVFS@@@@QAE@HHH@Z 10004539 f   server.obj
+ 0001:00003560       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJTopVFS@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10004560 f   server.obj
+ 0001:0000356c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJTopVFS@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000456c f   server.obj
+ 0001:00003590       __unwindfunclet$_DllGetClassObject@12$0 10004590 f   server.obj
+ 0001:0000359b       __ehhandler$_DllGetClassObject@12 1000459b f   server.obj
+ 0001:000035c0       __unwindfunclet$??_G?$ClassFactory@VJTopVFS@@@@UAEPAXI@Z$0 100045c0 f   server.obj
+ 0001:000035c9       __ehhandler$??_G?$ClassFactory@VJTopVFS@@@@UAEPAXI@Z 100045c9 f   server.obj
+ 0001:000035f0       ??__EGNULL_Camera@@YAXXZ   100045f0 f   guid.obj
+ 0001:00003610       ??__EGNULL_CAMERA@@YAXXZ   10004610 f   guid.obj
+ 0001:00003630       ??__EGID_Camera@@YAXXZ     10004630 f   guid.obj
+ 0001:00003650       ??__EGID_CAMERA@@YAXXZ     10004650 f   guid.obj
+ 0001:00003670       ??__EGNULL_Camera@@YAXXZ   10004670 f   jtopvfs.obj
+ 0001:00003690       ??__EGNULL_CAMERA@@YAXXZ   10004690 f   jtopvfs.obj
+ 0001:000036b0       ??__EGID_Camera@@YAXXZ     100046b0 f   jtopvfs.obj
+ 0001:000036d0       ??__EGID_CAMERA@@YAXXZ     100046d0 f   jtopvfs.obj
+ 0001:000036f0       ??__EGNULL_Camera@@YAXXZ   100046f0 f   server.obj
+ 0001:00003710       ??__EGNULL_CAMERA@@YAXXZ   10004710 f   server.obj
+ 0001:00003730       ??__EGID_Camera@@YAXXZ     10004730 f   server.obj
+ 0001:00003750       ??__EGID_CAMERA@@YAXXZ     10004750 f   server.obj

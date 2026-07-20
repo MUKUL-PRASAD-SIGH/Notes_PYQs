@@ -1,0 +1,110 @@
+ PrinterInstaller
+
+ Timestamp is 46b3a68a (Fri Aug 03 17:04:58 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000072cH .text                   CODE
+ 0002:00000000 00000080H .idata$5                DATA
+ 0002:00000080 0000030cH .rdata                  DATA
+ 0002:0000038c 00000050H .idata$2                DATA
+ 0002:000003dc 00000014H .idata$3                DATA
+ 0002:000003f0 00000080H .idata$4                DATA
+ 0002:00000470 0000021eH .idata$6                DATA
+ 0002:0000068e 00000000H .edata                  DATA
+ 0002:00000690 0000003aH .rdata$debug            DATA
+ 0003:00000000 00000010H .data                   DATA
+ 0003:00000010 00000324H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       ?ReportError@@YAXPAU_iobuf@@PADPAK@Z 00401000 f   PrinterInstaller.obj
+ 0001:00000080       _main                      00401080 f   PrinterInstaller.obj
+ 0001:000005e8       _AddPrinterA@12            004015e8 f   winspool:WINSPOOL.DRV
+ 0001:000005ee       _EnumPrinterDriversA@28    004015ee f   winspool:WINSPOOL.DRV
+ 0001:000005f4       _ClosePrinter@4            004015f4 f   winspool:WINSPOOL.DRV
+ 0001:000005fa       _GetPrinterDriverDirectoryA@24 004015fa f   winspool:WINSPOOL.DRV
+ 0001:00000600       _AddPrinterDriverA@12      00401600 f   winspool:WINSPOOL.DRV
+ 0001:00000606       _EnumPrintersA@28          00401606 f   winspool:WINSPOOL.DRV
+ 0001:0000060c       @__security_check_cookie@4 0040160c f   MSVCRT:secchk.obj
+ 0001:0000061b       ___report_gsfailure        0040161b f   MSVCRT:gs_report.obj
+ 0001:00000720       __crt_debugger_hook        00401720 f   MSVCRT:MSVCR80.dll
+ 0001:00000726       _memset                    00401726 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetCurrentProcess@0 00402000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__IsDebuggerPresent@0 00402004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__SetUnhandledExceptionFilter@4 00402008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__UnhandledExceptionFilter@4 0040200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetProcessHeap@0    00402010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__FormatMessageA@28   00402014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetWindowsDirectoryA@8 00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetSystemDirectoryA@8 0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLastError@0      00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetTempPathA@8      00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__TerminateProcess@8  00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       \177KERNEL32_NULL_THUNK_DATA 0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp___crt_debugger_hook  00402030     MSVCRT:MSVCR80.dll
+ 0002:00000034       __imp___mbscmp             00402034     MSVCRT:MSVCR80.dll
+ 0002:00000038       __imp__memset              00402038     MSVCRT:MSVCR80.dll
+ 0002:0000003c       __imp__fclose              0040203c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp__fprintf_s           00402040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp___mbsnbcat_s         00402044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp__fopen_s             00402048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp__printf_s            0040204c     MSVCRT:MSVCR80.dll
+ 0002:00000050       \177MSVCR80_NULL_THUNK_DATA 00402050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp__EnumPrintersA@28    00402054     winspool:WINSPOOL.DRV
+ 0002:00000058       __imp__GetPrinterDriverDirectoryA@24 00402058     winspool:WINSPOOL.DRV
+ 0002:0000005c       __imp__ClosePrinter@4      0040205c     winspool:WINSPOOL.DRV
+ 0002:00000060       __imp__EnumPrinterDriversA@28 00402060     winspool:WINSPOOL.DRV
+ 0002:00000064       __imp__AddPrinterA@12      00402064     winspool:WINSPOOL.DRV
+ 0002:00000068       __imp__AddPrinterDriverA@12 00402068     winspool:WINSPOOL.DRV
+ 0002:0000006c       \177WINSPOOL_NULL_THUNK_DATA 0040206c     winspool:WINSPOOL.DRV
+ 0002:00000070       __imp__JHEAPFREE@12        00402070     sealloc:sealloc.dll
+ 0002:00000074       __imp__JLOCALFREE@4        00402074     sealloc:sealloc.dll
+ 0002:00000078       __imp__JHEAPALLOC@12       00402078     sealloc:sealloc.dll
+ 0002:0000007c       \177sealloc_NULL_THUNK_DATA 0040207c     sealloc:sealloc.dll
+ 0002:000000a4       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 004020a4     PrinterInstaller.obj
+ 0002:000000b4       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 004020b4     PrinterInstaller.obj
+ 0002:000000b8       ??_C@_06IINFAHFO@?$CFs?5?$CFs?6?$AA@ 004020b8     PrinterInstaller.obj
+ 0002:000000c0       ??_C@_0DA@BECEOBAK@message?5buffer?5for?5error?5message@ 004020c0     PrinterInstaller.obj
+ 0002:000000f0       ??_C@_0CD@PDCDHDKO@Solid?5Edge?5Velocity?5PS?5Printer?52@ 004020f0     PrinterInstaller.obj
+ 0002:00000114       ??_C@_0BC@NLJFFGNK@UGS?5SE?5PDF?5Driver?$AA@ 00402114     PrinterInstaller.obj
+ 0002:00000128       ??_C@_0BI@LKPHHOHK@?2SEPrinterInstaller?4log?$AA@ 00402128     PrinterInstaller.obj
+ 0002:00000140       ??_C@_01NOFIACDB@w?$AA@    00402140     PrinterInstaller.obj
+ 0002:00000144       ??_C@_0DB@BMNDOGEB@Error?3?5failed?5to?5get?5open?5the?5Pr@ 00402144     PrinterInstaller.obj
+ 0002:00000178       ??_C@_0CA@GBPCMBGE@First?5EnumPrinters?5call?5failed?$CB?$AA@ 00402178     PrinterInstaller.obj
+ 0002:00000198       ??_C@_0BN@JJKODOCN@First?5HeapAlloc?5call?5failed?$CB?$AA@ 00402198     PrinterInstaller.obj
+ 0002:000001b8       ??_C@_0CB@EKJADDEH@Second?5EnumPrinters?5call?5failed?$CB@ 004021b8     PrinterInstaller.obj
+ 0002:000001dc       ??_C@_0BJ@PEJGCEKH@Required?5Printer?5Exists?$CB?$AA@ 004021dc     PrinterInstaller.obj
+ 0002:000001f8       ??_C@_0CG@BAGHIPAC@First?5EnumPrinterDrivers?5call?5fa@ 004021f8     PrinterInstaller.obj
+ 0002:00000220       ??_C@_0CH@GJMGNCO@Second?5EnumPrinterDrivers?5call?5f@ 00402220     PrinterInstaller.obj
+ 0002:00000248       ??_C@_0CA@DMNLIJPM@Required?5Printer?5Driver?5Exists?$CB?$AA@ 00402248     PrinterInstaller.obj
+ 0002:00000268       ??_C@_0CB@BBFEHFHA@GetWindowsDirectory?5call?5failed?$CB@ 00402268     PrinterInstaller.obj
+ 0002:0000028c       ??_C@_0CA@BHKMKAPB@GetSystemDirectory?5call?5failed?$CB?$AA@ 0040228c     PrinterInstaller.obj
+ 0002:000002ac       ??_C@_0CH@CHNLPJOJ@GetPrinterDriverDirectory?5call?5f@ 004022ac     PrinterInstaller.obj
+ 0002:000002d4       ??_C@_0N@KLFOBIOJ@PSCRIPT5?4DLL?$AA@ 004022d4     PrinterInstaller.obj
+ 0002:000002e4       ??_C@_0N@PGJJNCON@UGSSEPDF?4PPD?$AA@ 004022e4     PrinterInstaller.obj
+ 0002:000002f4       ??_C@_09DFOCIGHN@PS5UI?4DLL?$AA@ 004022f4     PrinterInstaller.obj
+ 0002:00000300       ??_C@_0M@GGPKCCBJ@Pscript?4hlp?$AA@ 00402300     PrinterInstaller.obj
+ 0002:0000030c       ??_C@_0N@NFDFEMAF@pscript?4ntf?$AA?$AA@ 0040230c     PrinterInstaller.obj
+ 0002:0000031c       ??_C@_0BO@JNDFFJFD@AddPrinterDriver?5call?5failed?$CB?$AA@ 0040231c     PrinterInstaller.obj
+ 0002:0000033c       ??_C@_05EAOFPLMC@FILE?3?$AA@ 0040233c     PrinterInstaller.obj
+ 0002:00000344       ??_C@_08NLEABCMP@WinPrint?$AA@ 00402344     PrinterInstaller.obj
+ 0002:00000350       ??_C@_03DLBNMLKO@RAW?$AA@  00402350     PrinterInstaller.obj
+ 0002:00000354       ??_C@_0BI@LABBJGOD@AddPrinter?5call?5failed?$CB?$AA@ 00402354     PrinterInstaller.obj
+ 0002:0000036c       ??_C@_0CA@GHBDKDCN@Printer?5installed?5successfully?$CB?$AA@ 0040236c     PrinterInstaller.obj
+ 0002:0000038c       __IMPORT_DESCRIPTOR_sealloc 0040238c     sealloc:sealloc.dll
+ 0002:000003a0       __IMPORT_DESCRIPTOR_KERNEL32 004023a0     kernel32:KERNEL32.dll
+ 0002:000003b4       __IMPORT_DESCRIPTOR_WINSPOOL 004023b4     winspool:WINSPOOL.DRV
+ 0002:000003c8       __IMPORT_DESCRIPTOR_MSVCR80 004023c8     MSVCRT:MSVCR80.dll
+ 0002:000003dc       __NULL_IMPORT_DESCRIPTOR   004023dc     sealloc:sealloc.dll
+ 0003:00000000       __newmode                  00403000     newmode.obj
+ 0003:00000004       ___security_cookie         00403004     MSVCRT:gs_cookie.obj
+ 0003:00000008       ___security_cookie_complement 00403008     MSVCRT:gs_cookie.obj
+
+ entry point at        0001:00000080
+
+ Static symbols
+

@@ -1,0 +1,910 @@
+ vhlsupp
+
+ Timestamp is 46b3a5b2 (Fri Aug 03 17:01:22 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000bc32H .text                   CODE
+ 0001:0000bc40 00000970H .text$x                 CODE
+ 0001:0000c5b0 0000014cH .text$yc                CODE
+ 0001:0000c700 0000004aH .text$yd                CODE
+ 0002:00000000 000002f4H .idata$5                DATA
+ 0002:000002f4 00000004H .CRT$XCA                DATA
+ 0002:000002f8 00000028H .CRT$XCU                DATA
+ 0002:00000320 00000004H .CRT$XCZ                DATA
+ 0002:00000324 00000004H .CRT$XIA                DATA
+ 0002:00000328 00000004H .CRT$XIAA               DATA
+ 0002:0000032c 00000004H .CRT$XIC                DATA
+ 0002:00000330 00000004H .CRT$XIZ                DATA
+ 0002:00000340 00000710H .rdata                  DATA
+ 0002:00000a50 00000031H .rdata$debug            DATA
+ 0002:00000a84 00000168H .rdata$r                DATA
+ 0002:00000bf0 000000b8H .rdata$sxdata           DATA
+ 0002:00000ca8 00000004H .rtc$IAA                DATA
+ 0002:00000cac 00000004H .rtc$IZZ                DATA
+ 0002:00000cb0 00000004H .rtc$TAA                DATA
+ 0002:00000cb4 00000004H .rtc$TZZ                DATA
+ 0002:00000cb8 00000b7cH .xdata$x                DATA
+ 0002:00001834 00000118H .idata$2                DATA
+ 0002:0000194c 00000014H .idata$3                DATA
+ 0002:00001960 000002f4H .idata$4                DATA
+ 0002:00001c54 00000d50H .idata$6                DATA
+ 0002:000029b0 00001162H .edata                  DATA
+ 0003:00000000 00000af8H .data                   DATA
+ 0003:00000af8 00000618H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000408H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000002e       ___safe_se_handler_count   0000002e     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?JDV_GetSEVersionNumber@@YAJQAD@Z 10001030 f   pstimer.obj
+ 0001:000001c0       ?JVWPART_Get_PS_Options@@YAJPAHPAN1@Z 100011c0 f   pstimer.obj
+ 0001:000001f0       ?JVWPART_Set_PS_Options@@YAJHNN@Z 100011f0 f   pstimer.obj
+ 0001:00000210       ??0?$JArray@W4LUComponentClassification@@W41@@@QAE@XZ 10001210 f i vhlscene.obj
+ 0001:00000210       ??0?$JArray@PAVCVHLBody@@AAPAV1@@@QAE@XZ 10001210 f i vhlscene.obj
+ 0001:00000210       ??0?$JArray@HH@@QAE@XZ     10001210 f i pstimer.obj
+ 0001:00000210       ??0?$JArray@PAVCVHLSegment@@AAPAV1@@@QAE@XZ 10001210 f i vhlscene.obj
+ 0001:00000210       ??0?$JArray@KK@@QAE@XZ     10001210 f i pstimer.obj
+ 0001:00000210       ??0?$JArray@II@@QAE@XZ     10001210 f i pstimer.obj
+ 0001:00000220       ?JVWPART_Get_PS_Timer_Info@@YAJHPAK0PAH11PAI@Z 10001220 f   pstimer.obj
+ 0001:00000290       ?SetSize@?$JArray@PAVCVHLSegment@@AAPAV1@@@QAEXHH@Z 10001290 f i vhlscene.obj
+ 0001:00000290       ?SetSize@?$JArray@II@@QAEXHH@Z 10001290 f i pstimer.obj
+ 0001:00000290       ?SetSize@?$JArray@W4LUComponentClassification@@W41@@@QAEXHH@Z 10001290 f i vhlscene.obj
+ 0001:00000290       ?SetSize@?$JArray@KK@@QAEXHH@Z 10001290 f i pstimer.obj
+ 0001:00000290       ?SetSize@?$JArray@HH@@QAEXHH@Z 10001290 f i pstimer.obj
+ 0001:00000290       ?SetSize@?$JArray@PAVCVHLBody@@AAPAV1@@@QAEXHH@Z 10001290 f i vhlscene.obj
+ 0001:000003b0       ?SetAtGrow@?$JArray@KK@@QAEXHK@Z 100013b0 f i pstimer.obj
+ 0001:000003b0       ?SetAtGrow@?$JArray@HH@@QAEXHH@Z 100013b0 f i pstimer.obj
+ 0001:000003b0       ?SetAtGrow@?$JArray@W4LUComponentClassification@@W41@@@QAEXHW4LUComponentClassification@@@Z 100013b0 f i vhlscene.obj
+ 0001:000003b0       ?SetAtGrow@?$JArray@II@@QAEXHI@Z 100013b0 f i pstimer.obj
+ 0001:000003f0       ?JVWPART_Reset_PS_Timers@@YAJXZ 100013f0 f   pstimer.obj
+ 0001:00000460       ?JVWPART_Set_PS_Timer_Info@@YAJKKHHHI@Z 10001460 f   pstimer.obj
+ 0001:000004f0       ??1CVHLSegment@@QAE@XZ     100014f0 f i vhlscene.obj
+ 0001:000004f0       ??3@YAXPAX0@Z              100014f0 f i vhlscene.obj
+ 0001:000004f0       ??1JDVEdgeTag@@QAE@XZ      100014f0 f i vhlscene.obj
+ 0001:00000500       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001500 f i vhlscene.obj
+ 0001:00000570       ??1logic_error@std@@UAE@XZ 10001570 f i vhlscene.obj
+ 0001:000005d0       ?what@logic_error@std@@UBEPBDXZ 100015d0 f i vhlscene.obj
+ 0001:000005e0       ??_Glogic_error@std@@UAEPAXI@Z 100015e0 f i vhlscene.obj
+ 0001:000005e0       ??_Elogic_error@std@@UAEPAXI@Z 100015e0 f i vhlscene.obj
+ 0001:00000600       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001600 f i vhlscene.obj
+ 0001:00000660       ??1length_error@std@@UAE@XZ 10001660 f i vhlscene.obj
+ 0001:000006b0       ??_Elength_error@std@@UAEPAXI@Z 100016b0 f i vhlscene.obj
+ 0001:000006b0       ??_Glength_error@std@@UAEPAXI@Z 100016b0 f i vhlscene.obj
+ 0001:00000710       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10001710 f i vhlscene.obj
+ 0001:00000770       ??1out_of_range@std@@UAE@XZ 10001770 f i vhlscene.obj
+ 0001:000007c0       ??_Eout_of_range@std@@UAEPAXI@Z 100017c0 f i vhlscene.obj
+ 0001:000007c0       ??_Gout_of_range@std@@UAEPAXI@Z 100017c0 f i vhlscene.obj
+ 0001:00000820       ??G@YA?AUtagGVector@@ABUtagGPosition@@0@Z 10001820 f i vhlscene.obj
+ 0001:00000860       ??D@YA?AUtagGVector@@NABU0@@Z 10001860 f i vhlscene.obj
+ 0001:000008a0       ?Normalize@@YA?AUtagGUnitVector@@ABUtagGVector@@@Z 100018a0 f i vhlscene.obj
+ 0001:000008d0       _GetGID_TRANSF             100018d0 f i vhlscene.obj
+ 0001:00000940       ?GetPSTag@JDVEdgeTag@@QBEHXZ 10001940 f i vhlscene.obj
+ 0001:00000950       ?SetPSTag@JDVEdgeTag@@QAEXH@Z 10001950 f i vhlscene.obj
+ 0001:00000960       ?GetSilIndex@JDVEdgeTag@@QBEGXZ 10001960 f i vhlscene.obj
+ 0001:00000970       ?SetSilIndex@JDVEdgeTag@@QAEXG@Z 10001970 f i vhlscene.obj
+ 0001:00000990       ?GetEdgeProps@JDVEdgeTag@@QBEGXZ 10001990 f i vhlscene.obj
+ 0001:000009a0       ?SetEdgeProps@JDVEdgeTag@@QAEXG@Z 100019a0 f i vhlscene.obj
+ 0001:000009c0       ?BitAndEqualsEdgeProps@JDVEdgeTag@@QAEXG@Z 100019c0 f i vhlscene.obj
+ 0001:000009e0       ?BitOrEqualsEdgeProps@JDVEdgeTag@@QAEXG@Z 100019e0 f i vhlscene.obj
+ 0001:00000a00       ?GetMemoryTarget@CVHLScene@@QAEIXZ 10001a00 f i vhlscene.obj
+ 0001:00000a10       ??4VHLTimer@@QAEAAV0@ABV0@@Z 10001a10 f i vhlscene.obj
+ 0001:00000a30       ?ToParasolidTransf@@YAXAAUtagGTransf@@AAUPK_TRANSF_sf_s@@@Z 10001a30 f i vhlscene.obj
+ 0001:00000a90       ?ToJupiterTransf@@YAXAAUPK_TRANSF_sf_s@@AAUtagGTransf@@@Z 10001a90 f i vhlscene.obj
+ 0001:00001030       ?VHLProject3DTypedCurveto2D@@YAJPAUtagGTypedCurve@@PAUtagGPlane@@PAUtagGTypedCurve2d@@PAHW4VHL_3DBSplineTo2DArcFittingStrategy@@@Z 10002030 f   vhlscene.obj
+ 0001:000012b0       ?End@CHighResTimer@@QAEXXZ 100022b0 f i vhlscene.obj
+ 0001:000012e0       ?SetPaperThinSection@CVHLScene@@QAEJXZ 100022e0 f   vhlscene.obj
+ 0001:000012f0       ?Open@CVHLEdge@@QAEXPBH000PBN00PAH@Z 100022f0 f   vhlscene.obj
+ 0001:00001db0       ?ProjectCurve2D@CVHLEdge@@QBEJABUtagGPlane@@PAUtagGTypedCurve2d@@PAHW4VHL_3DBSplineTo2DArcFittingStrategy@@@Z 10002db0 f   vhlscene.obj
+ 0001:00001e10       ?GetTypedCurve@CVHLEdge@@QAEJPAUtagGTypedCurve@@@Z 10002e10 f   vhlscene.obj
+ 0001:00001eb0       ??0CVHLSegment@@QAE@XZ     10002eb0 f   vhlscene.obj
+ 0001:00001f60       ??0CVHLSegment@@QAE@ABV0@@Z 10002f60 f   vhlscene.obj
+ 0001:00001f70       ??4CVHLSegment@@QAEAAV0@ABV0@@Z 10002f70 f   vhlscene.obj
+ 0001:00001fd0       ?Output@CVHLSegment@@QAEXAAHPAXPBH222PBN22PAHK@Z 10002fd0 f   vhlscene.obj
+ 0001:000020f0       ?ProjectParams2D@CVHLSegment@@QAEJABUtagGPlane@@ABUtagGTypedCurve2d@@HPAN2@Z 100030f0 f   vhlscene.obj
+ 0001:00002390       ??8const_iterator@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QBE_NABV012@@Z 10003390 f i vhlscene.obj
+ 0001:000023c0       ?_Max@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@@Z 100033c0 f i vhlscene.obj
+ 0001:000023e0       ?_Min@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@@Z 100033e0 f i vhlscene.obj
+ 0001:00002400       ?_Rrotate@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@@Z 10003400 f i vhlscene.obj
+ 0001:00002460       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAEXXZ 10003460 f i vhlscene.obj
+ 0001:000024d0       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBHH@2@D@Z 100034d0 f i vhlscene.obj
+ 0001:00002510       ?_Max@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@@Z 10003510 f i vhlscene.obj
+ 0001:00002530       ?_Min@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@@Z 10003530 f i vhlscene.obj
+ 0001:00002550       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAEXXZ 10003550 f i vhlscene.obj
+ 0001:000025e0       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAEXXZ 100035e0 f i vhlscene.obj
+ 0001:00002650       ??0?$JMap@HHPAVCVHLBody@@AAPAV1@@@QAE@H@Z 10003650 f i vhlscene.obj
+ 0001:00002670       ?InitHashTable@?$JMap@HHPAVCVHLBody@@AAPAV1@@@QAEXIH@Z 10003670 f i vhlscene.obj
+ 0001:000026e0       ??$ConstructElements@I@@YGXPAIH@Z 100036e0 f i pstimer.obj
+ 0001:000026e0       ??$ConstructElements@H@@YGXPAHH@Z 100036e0 f i pstimer.obj
+ 0001:000026e0       ??$ConstructElements@W4LUComponentClassification@@@@YGXPAW4LUComponentClassification@@H@Z 100036e0 f i vhlscene.obj
+ 0001:000026e0       ??$ConstructElements@K@@YGXPAKH@Z 100036e0 f i pstimer.obj
+ 0001:000026e0       ??$ConstructElements@PAVCVHLSegment@@@@YGXPAPAVCVHLSegment@@H@Z 100036e0 f i vhlscene.obj
+ 0001:000026e0       ??$ConstructElements@PAVCVHLBody@@@@YGXPAPAVCVHLBody@@H@Z 100036e0 f i vhlscene.obj
+ 0001:00002700       ?NewAssoc@?$JMap@HHPAVCVHLBody@@AAPAV1@@@IAEPAUCAssoc@1@XZ 10003700 f i vhlscene.obj
+ 0001:00002770       ??$HashKey@H@@YGIH@Z       10003770 f i vhlscene.obj
+ 0001:00002780       ??$CompareElements@HH@@YGHPBH0@Z 10003780 f i vhlscene.obj
+ 0001:000027a0       ??0JDVEdgeTag@@QAE@HG@Z    100037a0 f i vhlscene.obj
+ 0001:000027c0       ??0JDVEdgeTag@@QAE@ABV0@@Z 100037c0 f i vhlscene.obj
+ 0001:000027f0       ??4JDVEdgeTag@@QAEAAV0@ABV0@@Z 100037f0 f i vhlscene.obj
+ 0001:00002820       ??MJDVEdgeTag@@QBE_NABV0@@Z 10003820 f i vhlscene.obj
+ 0001:00002850       ??8JDVEdgeTag@@QBE_NABV0@@Z 10003850 f i vhlscene.obj
+ 0001:00002870       ?IsNullEdgeTag@JDVEdgeTag@@QBEHXZ 10003870 f i vhlscene.obj
+ 0001:00002890       ?Clear@JDVEdgeTag@@QAEXXZ  10003890 f i vhlscene.obj
+ 0001:000028a0       ?GetNextEntityIndex@CVHLScene@@QAEHXZ 100038a0 f i vhlscene.obj
+ 0001:00002db0       ?GetNumberOfBodies@CVHLScene@@QAEKXZ 10003db0 f   vhlscene.obj
+ 0001:00002dc0       ?SetClippingPlane@CVHLScene@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@1@Z 10003dc0 f   vhlscene.obj
+ 0001:00003170       ?IsTheEdgeHidden@CVHLEdge@@QAE_NXZ 10004170 f   vhlscene.obj
+ 0001:000031a0       ?CreateEdgeGeom@CVHLEdge@@QAEJPBH000PBNHPAUtagGTypedCurve@@UtagGPlane@@N@Z 100041a0 f   vhlscene.obj
+ 0001:00003330       ?Comp2DTranParamsBspline@CVHLEdge@@AAEJPAUtagGPlane@@PAUtagGTypedCurve2d@@PAUtagSegmentedStyleEntry@@@Z 10004330 f   vhlscene.obj
+ 0001:00003540       ?Comp2DTranParamsArc@CVHLEdge@@AAEJPAUtagGPlane@@PAUtagGTypedCurve2d@@PAUtagSegmentedStyleEntry@@@Z 10004540 f   vhlscene.obj
+ 0001:00003c60       ?Comp2DTranParamsLine@CVHLEdge@@AAEJPAUtagGPlane@@PAUtagGTypedCurve2d@@PAUtagSegmentedStyleEntry@@W4VHL_3DBSplineTo2DArcFittingStrategy@@@Z 10004c60 f   vhlscene.obj
+ 0001:00003fa0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@@Z 10004fa0 f i vhlscene.obj
+ 0001:00003ff0       ??R?$less@VJDVEdgeTag@@@std@@QBE_NABVJDVEdgeTag@@0@Z 10004ff0 f i vhlscene.obj
+ 0001:00004030       ?_Lbound@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@ABVJDVEdgeTag@@@Z 10005030 f i vhlscene.obj
+ 0001:00004080       ?_Lrotate@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 10005080 f i vhlscene.obj
+ 0001:000040d0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 100050d0 f i vhlscene.obj
+ 0001:00004130       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAEXXZ 10005130 f i vhlscene.obj
+ 0001:000041c0       ??1?$JArray@PAVCVHLSegment@@AAPAV1@@@QAE@XZ 100051c0 f i vhlscene.obj
+ 0001:000041c0       ??1?$JArray@PAVCVHLBody@@AAPAV1@@@QAE@XZ 100051c0 f i vhlscene.obj
+ 0001:000041c0       ??1?$JArray@II@@QAE@XZ     100051c0 f i pstimer.obj
+ 0001:000041c0       ??1?$JArray@KK@@QAE@XZ     100051c0 f i pstimer.obj
+ 0001:000041c0       ??1?$JArray@HH@@QAE@XZ     100051c0 f i pstimer.obj
+ 0001:000041c0       ??1?$JArray@W4LUComponentClassification@@W41@@@QAE@XZ 100051c0 f i vhlscene.obj
+ 0001:000041d0       ?RemoveAt@?$JArray@HH@@QAEXHH@Z 100051d0 f i vhlscene.obj
+ 0001:000041d0       ?RemoveAt@?$JArray@PAVCVHLSegment@@AAPAV1@@@QAEXHH@Z 100051d0 f i vhlscene.obj
+ 0001:00004210       ?RemoveAll@?$JMap@HHPAVCVHLBody@@AAPAV1@@@QAEXXZ 10005210 f i vhlscene.obj
+ 0001:00004270       ??1?$JMap@HHPAVCVHLBody@@AAPAV1@@@QAE@XZ 10005270 f i vhlscene.obj
+ 0001:00004280       ?SetAtGrow@?$JArray@PAVCVHLBody@@AAPAV1@@@QAEXHAAPAVCVHLBody@@@Z 10005280 f i vhlscene.obj
+ 0001:00004280       ?SetAtGrow@?$JArray@PAVCVHLSegment@@AAPAV1@@@QAEXHAAPAVCVHLSegment@@@Z 10005280 f i vhlscene.obj
+ 0001:000042b0       ?GetAssocAt@?$JMap@HHPAVCVHLBody@@AAPAV1@@@IBEPAUCAssoc@1@HAAI@Z 100052b0 f i vhlscene.obj
+ 0001:00004300       ??0JDVEdgeTag@@QAE@XZ      10005300 f i vhlscene.obj
+ 0001:00004310       ?Initialize@CVHLScene@@QAEJH@Z 10005310 f   vhlscene.obj
+ 0001:000043d0       ?GetNumberOfRenderedEdges@CVHLScene@@QAEKXZ 100053d0 f   vhlscene.obj
+ 0001:000043f0       ?GetClassificationByIndex@CVHLScene@@QAE?AW4LUComponentClassification@@H@Z 100053f0 f   vhlscene.obj
+ 0001:00004430       ?GetVHLBodyByIndex@CVHLScene@@QAEPAVCVHLBody@@H@Z 10005430 f   vhlscene.obj
+ 0001:000044b0       ??0CVHLEdge@@QAE@XZ        100054b0 f   vhlscene.obj
+ 0001:00004530       ??0CVHLEdge@@QAE@VJDVEdgeTag@@@Z 10005530 f   vhlscene.obj
+ 0001:000045d0       ?Comp2DTranParamsCircle@CVHLEdge@@AAEJPAUtagGPlane@@PAUtagGTypedCurve2d@@PAUtagSegmentedStyleEntry@@@Z 100055d0 f   vhlscene.obj
+ 0001:00004e80       ?Comp2DTranParamsTC@CVHLEdge@@QAEJPAUtagGPlane@@PAUtagGTypedCurve2d@@PAUtagSegmentedStyleEntry@@W4VHL_3DBSplineTo2DArcFittingStrategy@@@Z 10005e80 f   vhlscene.obj
+ 0001:00005280       ?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@XZ 10006280 f i vhlscene.obj
+ 0001:00005330       ?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHH@2@D@Z 10006330 f i vhlscene.obj
+ 0001:000053d0       ?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@XZ 100063d0 f i vhlscene.obj
+ 0001:00005480       ?_Erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@@Z 10006480 f i vhlscene.obj
+ 0001:000054c0       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@D@Z 100064c0 f i vhlscene.obj
+ 0001:00005510       ?Lookup@?$JMap@HHPAVCVHLBody@@AAPAV1@@@QBEHHAAPAVCVHLBody@@@Z 10006510 f i vhlscene.obj
+ 0001:00005540       ??A?$JMap@HHPAVCVHLBody@@AAPAV1@@@QAEAAPAVCVHLBody@@H@Z 10006540 f i vhlscene.obj
+ 0001:00005590       ?LookupVHLBodyByTag@CVHLScene@@AAEPAVCVHLBody@@H@Z 10006590 f   vhlscene.obj
+ 0001:000055c0       ?Clear@CVHLEdge@@QAEXXZ    100065c0 f   vhlscene.obj
+ 0001:00005620       ??1CVHLEdge@@QAE@XZ        10006620 f   vhlscene.obj
+ 0001:00005680       ?Output@CVHLEdge@@QAEXPBH000PBN00PAHKUtagGPlane@@HN@Z 10006680 f   vhlscene.obj
+ 0001:00005910       ?PopulateFromTubeGeometry@CVHLEdge@@QAEJABUtagGTypedCurve@@H@Z 10006910 f   vhlscene.obj
+ 0001:00005a90       ?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z 10006a90 f   vhlscene.obj
+ 0001:00007100       ?find@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@ABVJDVEdgeTag@@@Z 10008100 f i vhlscene.obj
+ 0001:00007180       ?find@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@ABH@Z 10008180 f i vhlscene.obj
+ 0001:000071f0       ?_Insert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHH@2@@Z 100081f0 f i vhlscene.obj
+ 0001:000073d0       ??0logic_error@std@@QAE@ABV01@@Z 100083d0 f i vhlscene.obj
+ 0001:00007440       ??0length_error@std@@QAE@ABV01@@Z 10008440 f i vhlscene.obj
+ 0001:000074a0       ?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@D@Z 100084a0 f i vhlscene.obj
+ 0001:00007540       ?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10008540 f i vhlscene.obj
+ 0001:000077f0       ??0out_of_range@std@@QAE@ABV01@@Z 100087f0 f i vhlscene.obj
+ 0001:00007850       ?erase@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10008850 f i vhlscene.obj
+ 0001:00007b00       ?insert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBHH@2@@Z 10008b00 f i vhlscene.obj
+ 0001:00007bc0       ?_Erase@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@@Z 10008bc0 f i vhlscene.obj
+ 0001:00007c00       ?_Copy@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@0@Z 10008c00 f i vhlscene.obj
+ 0001:00007cc0       ?_Insert@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@@Z 10008cc0 f i vhlscene.obj
+ 0001:00007ea0       ?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10008ea0 f i vhlscene.obj
+ 0001:00007f70       ?Close@CVHLBody@@QAEXPBH000PBN00PAHAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z 10008f70 f   vhlscene.obj
+ 0001:00008050       ?erase@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10009050 f i vhlscene.obj
+ 0001:00008120       ?_Copy@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEXABV12@@Z 10009120 f i vhlscene.obj
+ 0001:000081a0       ?insert@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@@Z 100091a0 f i vhlscene.obj
+ 0001:000082a0       ?GO_CloseSegment@CVHLScene@@QAEXPBH000PBN00PAH@Z 100092a0 f   vhlscene.obj
+ 0001:00008310       ?Clear@CVHLBody@@QAEHXZ    10009310 f   vhlscene.obj
+ 0001:000083e0       ??0?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE@ABV01@@Z 100093e0 f i vhlscene.obj
+ 0001:00008480       ??1?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE@XZ 10009480 f i vhlscene.obj
+ 0001:00008480       ?_Tidy@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEXXZ 10009480 f i vhlscene.obj
+ 0001:000084c0       ??1?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE@XZ 100094c0 f i vhlscene.obj
+ 0001:00008500       ?insert@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@@Z 10009500 f i vhlscene.obj
+ 0001:00008700       ??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@ABV01@@Z 10009700 f i vhlscene.obj
+ 0001:00008750       ??1?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ 10009750 f i vhlscene.obj
+ 0001:00008890       ?Reset@CVHLScene@@QAEJXZ   10009890 f   vhlscene.obj
+ 0001:00008950       ??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 10009950 f i vhlscene.obj
+ 0001:000089c0       ??1CVHLBody@@QAE@XZ        100099c0 f   vhlscene.obj
+ 0001:00008a20       ??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ 10009a20 f i vhlscene.obj
+ 0001:00008a90       ??A?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAEAAPAVCVHLEdge@@ABVJDVEdgeTag@@@Z 10009a90 f i vhlscene.obj
+ 0001:00008b30       ??0?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 10009b30 f i vhlscene.obj
+ 0001:00008ba0       ??0CVHLBody@@QAE@ABV0@@Z   10009ba0 f i vhlscene.obj
+ 0001:00008c20       ??4CVHLBody@@QAEAAV0@ABV0@@Z 10009c20 f i vhlscene.obj
+ 0001:00008f20       ?Render@CVHLScene@@QAEJW4JDVIntersectionVHLProcessing@@HHHPAKHQBUPK_NABOX_sf_s@@_NNN@Z 10009f20 f   vhlscene.obj
+ 0001:00009b70       ??0CVHLBody@@QAE@XZ        1000ab70 f   vhlscene.obj
+ 0001:00009bd0       ??0CVHLBody@@QAE@H@Z       1000abd0 f   vhlscene.obj
+ 0001:00009c30       ?Open@CVHLBody@@QAEXPBH000PBN00PAH@Z 1000ac30 f   vhlscene.obj
+ 0001:00009de0       ?Output@CVHLBody@@QAEXPBH000PBN00PAHKUtagGPlane@@N@Z 1000ade0 f   vhlscene.obj
+ 0001:00009f90       ?Clear@CVHLScene@@QAEJXZ   1000af90 f   vhlscene.obj
+ 0001:0000a0b0       ??1CVHLScene@@QAE@XZ       1000b0b0 f   vhlscene.obj
+ 0001:0000a1a0       ?AddBody@CVHLScene@@QAEHHW4LUComponentClassification@@PBUtagGTransf@@PAVTAG_LIST@@HHHH@Z 1000b1a0 f   vhlscene.obj
+ 0001:0000a470       ?GO_OpenSegment@CVHLScene@@QAEXPBH000PBN00PAH@Z 1000b470 f   vhlscene.obj
+ 0001:0000a570       ?GO_OutputSegment@CVHLScene@@QAEXPBH000PBN00PAH@Z 1000b570 f   vhlscene.obj
+ 0001:0000a780       ??0CVHLScene@@QAE@XZ       1000b780 f   vhlscene.obj
+ 0001:0000a9d0       _DllMain@12                1000b9d0 f   vhlsupp.obj
+ 0001:0000a9e0       ??$strcpy@QAD@@YAPADAAPADPBD@Z 1000b9e0 f i vhltimer.obj
+ 0001:0000aa00       ??$sprintf@QAD@@YAHAAPADPBDZZ 1000ba00 f i vhltimer.obj
+ 0001:0000aba0       ??0VHLTimer@@QAE@PAD00@Z   1000bba0 f   vhltimer.obj
+ 0001:0000aca0       ??1VHLTimer@@QAE@XZ        1000bca0 f   vhltimer.obj
+ 0001:0000ad70       ?CheckPoint@VHLTimer@@QAEXPADH@Z 1000bd70 f   vhltimer.obj
+ 0001:0000ae68       _PK_TRANSF_ask             1000be68 f   pskernel:PSKERNEL.dll
+ 0001:0000ae6e       _PK_BODY_ask_first_face    1000be6e f   pskernel:PSKERNEL.dll
+ 0001:0000ae74       _PK_TOPOL_find_box         1000be74 f   pskernel:PSKERNEL.dll
+ 0001:0000ae7a       _PK_SURF_make_sheet_body   1000be7a f   pskernel:PSKERNEL.dll
+ 0001:0000ae80       _PK_SURF_ask_uvbox         1000be80 f   pskernel:PSKERNEL.dll
+ 0001:0000ae86       _PK_PLANE_create           1000be86 f   pskernel:PSKERNEL.dll
+ 0001:0000ae8c       _PK_ENTITY_delete          1000be8c f   pskernel:PSKERNEL.dll
+ 0001:0000ae92       _PK_TOPOL_range_vector     1000be92 f   pskernel:PSKERNEL.dll
+ 0001:0000ae98       _PK_FACE_contains_vectors  1000be98 f   pskernel:PSKERNEL.dll
+ 0001:0000ae9e       _PK_CURVE_eval             1000be9e f   pskernel:PSKERNEL.dll
+ 0001:0000aea4       _PK_FACE_intersect_curve   1000bea4 f   pskernel:PSKERNEL.dll
+ 0001:0000aeaa       _PK_CURVE_ask_param        1000beaa f   pskernel:PSKERNEL.dll
+ 0001:0000aeb0       _PK_MEMORY_free            1000beb0 f   pskernel:PSKERNEL.dll
+ 0001:0000aeb6       _PK_GEOM_range_local_vector 1000beb6 f   pskernel:PSKERNEL.dll
+ 0001:0000aebc       _PK_CURVE_find_vector_interval 1000bebc f   pskernel:PSKERNEL.dll
+ 0001:0000aec2       _PK_EDGE_ask_precision     1000bec2 f   pskernel:PSKERNEL.dll
+ 0001:0000aec8       _PK_ENTITY_ask_class       1000bec8 f   pskernel:PSKERNEL.dll
+ 0001:0000aece       _PK_SESSION_abort          1000bece f   pskernel:PSKERNEL.dll
+ 0001:0000aed4       _PK_INSTANCE_create        1000bed4 f   pskernel:PSKERNEL.dll
+ 0001:0000aeda       _PK_ENTITY_copy            1000beda f   pskernel:PSKERNEL.dll
+ 0001:0000aee0       _PK_ASSEMBLY_create_empty  1000bee0 f   pskernel:PSKERNEL.dll
+ 0001:0000aee6       _PK_PARTITION_set_current  1000bee6 f   pskernel:PSKERNEL.dll
+ 0001:0000aeec       _PK_ERROR_ask_last         1000beec f   pskernel:PSKERNEL.dll
+ 0001:0000aef2       _PK_DEBUG_report_stop      1000bef2 f   pskernel:PSKERNEL.dll
+ 0001:0000aef8       _PK_TOPOL_render_line      1000bef8 f   pskernel:PSKERNEL.dll
+ 0001:0000aefe       _PK_DEBUG_report_start     1000befe f   pskernel:PSKERNEL.dll
+ 0001:0000af04       _PK_VECTOR_make_view_transf 1000bf04 f   pskernel:PSKERNEL.dll
+ 0001:0000af0a       _PK_FACE_ask_body          1000bf0a f   pskernel:PSKERNEL.dll
+ 0001:0000af10       _PK_SESSION_register_frustrum 1000bf10 f   pskernel:PSKERNEL.dll
+ 0001:0000af16       _PK_TRANSF_create          1000bf16 f   pskernel:PSKERNEL.dll
+ 0001:0000af1c       _PK_SESSION_ask_frustrum   1000bf1c f   pskernel:PSKERNEL.dll
+ 0001:0000af22       ?JGetInitialPartition@@YAHXZ 1000bf22 f   frustrm:Frustrm.dll
+ 0001:0000af28       _GetCurrentVersionProductInfoString@8 1000bf28 f   jutil:JUtil.dll
+ 0001:0000af2e       ?JCheckRegDebugEntryDWORD@@YAKPBDK0HH@Z 1000bf2e f   jutil:JUtil.dll
+ 0001:0000af34       _JGetSolidEdgeDebugPath    1000bf34 f   jutil:JUtil.dll
+ 0001:0000af3a       _HRerrEx                   1000bf3a f   jutil:JUtil.dll
+ 0001:0000af40       _JGetSolidEdgeCurrentUserApplicationPath 1000bf40 f   jutil:JUtil.dll
+ 0001:0000af46       ?SE_SetIsParasolidException@@YAJH@Z 1000bf46 f   jutil:JUtil.dll
+ 0001:0000af4c       ?SE_FrustrumExceptionFilter@@YAJPAU_EXCEPTION_POINTERS@@@Z 1000bf4c f   jutil:JUtil.dll
+ 0001:0000af52       ??ATAG_LIST@@QBEHH@Z       1000bf52 f   taglist:taglist.dll
+ 0001:0000af58       ?count@TAG_LIST@@QBEHXZ    1000bf58 f   taglist:taglist.dll
+ 0001:0000af5e       _BSlsqptlnpl               1000bf5e f   ubspm2d:ubspm2d.dll
+ 0001:0000af64       _BSnorkts                  1000bf64 f   ubspm2d:ubspm2d.dll
+ 0001:0000af6a       _IMGTypedCurveFreeMem      1000bf6a f   ugeom:ugeom.dll
+ 0001:0000af70       _IMTransform3dTo2d         1000bf70 f   ugeom:ugeom.dll
+ 0001:0000af76       _IMTypedCurveProjectToPlane 1000bf76 f   ugeom:ugeom.dll
+ 0001:0000af7c       _IMBspCurveProjectToPlane  1000bf7c f   ugeom:ugeom.dll
+ 0001:0000af82       _IMGLineBy2Pts             1000bf82 f   ugeom:ugeom.dll
+ 0001:0000af88       _IMGetGEllipseParFromGPosition 1000bf88 f   ugeom:ugeom.dll
+ 0001:0000af8e       _IMFitGBspCurve            1000bf8e f   ugeom:ugeom.dll
+ 0001:0000af94       _IMCurveLeastSquaresFit    1000bf94 f   ugeom:ugeom.dll
+ 0001:0000af9a       _IMLineStringGetLength     1000bf9a f   ugeom:ugeom.dll
+ 0001:0000afa0       _IMTypedCurveTransform     1000bfa0 f   ugeom:ugeom.dll
+ 0001:0000afa6       _IMCreateGBspCurve         1000bfa6 f   ugeom:ugeom.dll
+ 0001:0000afac       _IMGTypedCurveCopyWithAlloc 1000bfac f   ugeom:ugeom.dll
+ 0001:0000afb2       _IMGetGTypedCurveEndPts    1000bfb2 f   ugeom:ugeom.dll
+ 0001:0000afb8       _IMPointsProjectToPlane    1000bfb8 f   ugeom:ugeom.dll
+ 0001:0000afbe       _IMTransformPlaneXy        1000bfbe f   ugeom:ugeom.dll
+ 0001:0000afc4       _IMMinDistPtBspCv          1000bfc4 f   ugeom:ugeom.dll
+ 0001:0000afca       _IMGetGBspCurveParFromGPosition 1000bfca f   ugeom:ugeom.dll
+ 0001:0000afd0       _IMTypedCurveActivSplt     1000bfd0 f   ugeom:ugeom.dll
+ 0001:0000afd6       _IMTypedCurvePartOfCurve   1000bfd6 f   ugeom:ugeom.dll
+ 0001:0000afdc       _IMTypedCurveGetParameterRange 1000bfdc f   ugeom:ugeom.dll
+ 0001:0000afe2       _IMTypedCurveIsClosed      1000bfe2 f   ugeom:ugeom.dll
+ 0001:0000afe8       _IMGetGTypedCurveParFromGPosition 1000bfe8 f   ugeom:ugeom.dll
+ 0001:0000afee       _IMTypedCurveGetKnotTolerance 1000bfee f   ugeom:ugeom.dll
+ 0001:0000aff4       _IMBspCurveGetPositionFromParameter 1000bff4 f   ugeom:ugeom.dll
+ 0001:0000affa       _IMTypedCurveRangeBox      1000bffa f   ugeom:ugeom.dll
+ 0001:0000b000       _IMAlloc                   1000c000 f   ugeom2d:ugeom2d.dll
+ 0001:0000b006       _IMGTypedCurveGetParameterFromPosition2d 1000c006 f   ugeom2d:ugeom2d.dll
+ 0001:0000b00c       _IMTypedCurveGetParameterRange2d 1000c00c f   ugeom2d:ugeom2d.dll
+ 0001:0000b012       _IMFree                    1000c012 f   ugeom2d:ugeom2d.dll
+ 0001:0000b018       _IMArcIsParIntvInRange2d   1000c018 f   ugeom2d:ugeom2d.dll
+ 0001:0000b01e       _IMArcIsParameterInRange2d 1000c01e f   ugeom2d:ugeom2d.dll
+ 0001:0000b024       _IMEllipseGetParameterFromPosition2d 1000c024 f   ugeom2d:ugeom2d.dll
+ 0001:0000b02a       _IMBspCurveGetExtrema2d    1000c02a f   ugeom2d:ugeom2d.dll
+ 0001:0000b030       _IMGetGTypedCurve2dEndPts  1000c030 f   ugeom2d:ugeom2d.dll
+ 0001:0000b036       _IMGTypedCurveFreeMem2d    1000c036 f   ugeom2d:ugeom2d.dll
+ 0001:0000b03c       _IMArcGetAngles2d          1000c03c f   ugeom2d:ugeom2d.dll
+ 0001:0000b042       _IMTypedCurveGetKnotTolerance2d 1000c042 f   ugeom2d:ugeom2d.dll
+ 0001:0000b048       ?IsEqual@tagGPosition@@QBEHABU1@@Z 1000c048 f   umath:umath.dll
+ 0001:0000b04e       ?BuildVector@@YA?AUtagGVector@@NNN@Z 1000c04e f   umath:umath.dll
+ 0001:0000b054       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000c054 f   umath:umath.dll
+ 0001:0000b05a       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1000c05a f   umath:umath.dll
+ 0001:0000b060       ?BuildBox@@YA?AUtagGBox@@NNN@Z 1000c060 f   umath:umath.dll
+ 0001:0000b066       ??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1000c066 f   umath:umath.dll
+ 0001:0000b06c       ??4tagGTransf@@QAEAAU0@ABUtagG4x4@@@Z 1000c06c f   umath:umath.dll
+ 0001:0000b072       ?GetDistanceTolerance@@YA?BNXZ 1000c072 f   umath:umath.dll
+ 0001:0000b078       ?IsColinear@tagGUnitVector@@QBEHABUtagGVector@@@Z 1000c078 f   umath:umath.dll
+ 0001:0000b07e       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1000c07e f   umath:umath.dll
+ 0001:0000b084       ??D@YA?AUtagGVector@@ABU0@0@Z 1000c084 f   umath:umath.dll
+ 0001:0000b08a       ?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 1000c08a f   umath:umath.dll
+ 0001:0000b090       ?GetFitTolerance@@YA?BNXZ  1000c090 f   umath:umath.dll
+ 0001:0000b096       ??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 1000c096 f   umath:umath.dll
+ 0001:0000b09c       ?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1000c09c f   umath:umath.dll
+ 0001:0000b0a2       ?GetLength@tagGVector2d@@QBENXZ 1000c0a2 f   umath:umath.dll
+ 0001:0000b0a8       ?GDistance@@YANABUtagGPosition@@0@Z 1000c0a8 f   umath:umath.dll
+ 0001:0000b0ae       ??L@YANABUtagGVector@@0@Z  1000c0ae f   umath:umath.dll
+ 0001:0000b0b4       ?IsNull@tagGBox@@QBEHXZ    1000c0b4 f   umath:umath.dll
+ 0001:0000b0ba       ??I@YA?AUtagGBox@@ABU0@0@Z 1000c0ba f   umath:umath.dll
+ 0001:0000b0c0       ??AtagGVector@@QAEAANI@Z   1000c0c0 f   umath:umath.dll
+ 0001:0000b0c6       ??AtagGMatrix@@QBE?AUtagGVector@@I@Z 1000c0c6 f   umath:umath.dll
+ 0001:0000b0cc       ?SEOrthogonalizeMatrix@@YAXAAUtagGTransf@@@Z 1000c0cc f   umath:umath.dll
+ 0001:0000b0d2       ?IsIdentity@tagGTransf@@QBEHXZ 1000c0d2 f   umath:umath.dll
+ 0001:0000b0d8       _CMPSOLIDEdgeToGTypedCurve 1000c0d8 f   upstgt:upstgt.dll
+ 0001:0000b0de       _CMGTypedCurveToPSOLIDCurve 1000c0de f   upstgt:upstgt.dll
+ 0001:0000b0e4       _GenerateParasolidFile     1000c0e4 f   upstgt:upstgt.dll
+ 0001:0000b0ea       ?JMemoryReserveStatus@@YA_NAAHAAIPAH@Z 1000c0ea f   sealloc:sealloc.dll
+ 0001:0000b0f0       _malloc                    1000c0f0 f   MSVCRT:MSVCR80.dll
+ 0001:0000b0f6       __callnewh                 1000c0f6 f   MSVCRT:MSVCR80.dll
+ 0001:0000b0fc       @__security_check_cookie@4 1000c0fc f   MSVCRT:secchk.obj
+ 0001:0000b110       _memset                    1000c110 f   MSVCRT:MSVCR80.dll
+ 0001:0000b116       ??_V@YAXPAX@Z              1000c116 f   MSVCRT:MSVCR80.dll
+ 0001:0000b11c       _memcpy                    1000c11c f   MSVCRT:MSVCR80.dll
+ 0001:0000b122       __onexit                   1000c122 f   MSVCRT:atonexit.obj
+ 0001:0000b1c1       _atexit                    1000c1c1 f   MSVCRT:atonexit.obj
+ 0001:0000b1d4       ___CxxFrameHandler3        1000c1d4 f   MSVCRT:MSVCR80.dll
+ 0001:0000b1da       ??_Etype_info@@UAEPAXI@Z   1000c1da f i MSVCRT:ti_inst.obj
+ 0001:0000b224       ??3@YAXPAX@Z               1000c224 f   MSVCRT:MSVCR80.dll
+ 0001:0000b230       __alldiv                   1000c230 f   MSVCRT:lldiv.obj
+ 0001:0000b2e0       __allmul                   1000c2e0 f   MSVCRT:llmul.obj
+ 0001:0000b314       __CxxThrowException@8      1000c314 f   MSVCRT:MSVCR80.dll
+ 0001:0000b31a       ??0exception@std@@QAE@ABV01@@Z 1000c31a f   MSVCRT:MSVCR80.dll
+ 0001:0000b320       __alloca_probe             1000c320     MSVCRT:chkstk.obj
+ 0001:0000b320       __chkstk                   1000c320 f   MSVCRT:chkstk.obj
+ 0001:0000b34b       __except_handler4          1000c34b f   MSVCRT:chandler4gs.obj
+ 0001:0000b370       __ftol2_sse                1000c370 f   MSVCRT:ftol2.obj
+ 0001:0000b379       __ftol2_pentium4           1000c379 f   MSVCRT:ftol2.obj
+ 0001:0000b38c       __ftol2_sse_excpt          1000c38c f   MSVCRT:ftol2.obj
+ 0001:0000b3a6       __ftol2                    1000c3a6 f   MSVCRT:ftol2.obj
+ 0001:0000b468       __CRT_INIT@12              1000c468 f   MSVCRT:crtdll.obj
+ 0001:0000b71d       __DllMainCRTStartup@12     1000c71d f   MSVCRT:crtdll.obj
+ 0001:0000b73e       ___report_gsfailure        1000c73e f   MSVCRT:gs_report.obj
+ 0001:0000b842       __unlock                   1000c842 f   MSVCRT:MSVCR80.dll
+ 0001:0000b848       ___dllonexit               1000c848 f   MSVCRT:MSVCR80.dll
+ 0001:0000b84e       __lock                     1000c84e f   MSVCRT:MSVCR80.dll
+ 0001:0000b854       __SEH_prolog4              1000c854 f   MSVCRT:sehprolg4.obj
+ 0001:0000b899       __SEH_epilog4              1000c899 f   MSVCRT:sehprolg4.obj
+ 0001:0000b8ad       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000c8ad f   MSVCRT:ehvecdtr.obj
+ 0001:0000b90b       ??_M@YGXPAXIHP6EX0@Z@Z     1000c90b f   MSVCRT:ehvecdtr.obj
+ 0001:0000b96e       __except_handler4_common   1000c96e f   MSVCRT:MSVCR80.dll
+ 0001:0000b9c4       __get_sse2_info            1000c9c4 f   MSVCRT:cpu_disp.obj
+ 0001:0000ba24       ___sse2_available_init     1000ca24 f   MSVCRT:cpu_disp.obj
+ 0001:0000ba31       ___clean_type_info_names   1000ca31 f   MSVCRT:tncleanup.obj
+ 0001:0000ba3d       __RTC_Initialize           1000ca3d f   MSVCRT:initsect.obj
+ 0001:0000ba61       __RTC_Terminate            1000ca61 f   MSVCRT:initsect.obj
+ 0001:0000ba90       __ValidateImageBase        1000ca90 f   MSVCRT:pesect.obj
+ 0001:0000bac0       __FindPESection            1000cac0 f   MSVCRT:pesect.obj
+ 0001:0000bb02       __IsNonwritableInCurrentImage 1000cb02 f   MSVCRT:pesect.obj
+ 0001:0000bb6e       __initterm                 1000cb6e f   MSVCRT:MSVCR80.dll
+ 0001:0000bb74       __initterm_e               1000cb74 f   MSVCRT:MSVCR80.dll
+ 0001:0000bb7a       __amsg_exit                1000cb7a f   MSVCRT:MSVCR80.dll
+ 0001:0000bb80       ___CppXcptFilter           1000cb80 f   MSVCRT:MSVCR80.dll
+ 0001:0000bb86       ___security_init_cookie    1000cb86 f   MSVCRT:gs_support.obj
+ 0001:0000bc1a       __crt_debugger_hook        1000cc1a f   MSVCRT:MSVCR80.dll
+ 0001:0000bc20       ?terminate@@YAXXZ          1000cc20 f   MSVCRT:MSVCR80.dll
+ 0001:0000bc26       ??1type_info@@UAE@XZ       1000cc26 f   MSVCRT:MSVCR80.dll
+ 0001:0000bc26       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000cc26 f   MSVCRT:MSVCR80.dll
+ 0001:0000bc2c       ___clean_type_info_names_internal 1000cc2c f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__RegQueryValueExA@24 1000e000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegOpenKeyExA@20    1000e004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegCloseKey@4       1000e008     advapi32:ADVAPI32.dll
+ 0002:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1000e00c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp_?JGetInitialPartition@@YAHXZ 1000e010     frustrm:Frustrm.dll
+ 0002:00000014       \177Frustrm_NULL_THUNK_DATA 1000e014     frustrm:Frustrm.dll
+ 0002:00000018       __imp__GetCurrentVersionProductInfoString@8 1000e018     jutil:JUtil.dll
+ 0002:0000001c       __imp__JGetSolidEdgeDebugPath 1000e01c     jutil:JUtil.dll
+ 0002:00000020       __imp__HRerrEx             1000e020     jutil:JUtil.dll
+ 0002:00000024       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 1000e024     jutil:JUtil.dll
+ 0002:00000028       __imp__JGetSolidEdgeCurrentUserApplicationPath 1000e028     jutil:JUtil.dll
+ 0002:0000002c       __imp_?FreeDataChain@JPlex@@QAEXXZ 1000e02c     jutil:JUtil.dll
+ 0002:00000030       __imp_?SE_SetIsParasolidException@@YAJH@Z 1000e030     jutil:JUtil.dll
+ 0002:00000034       __imp_?SE_FrustrumExceptionFilter@@YAJPAU_EXCEPTION_POINTERS@@@Z 1000e034     jutil:JUtil.dll
+ 0002:00000038       __imp_?JCheckRegDebugEntryDWORD@@YAKPBDK0HH@Z 1000e038     jutil:JUtil.dll
+ 0002:0000003c       \177JUtil_NULL_THUNK_DATA  1000e03c     jutil:JUtil.dll
+ 0002:00000040       __imp__SetUnhandledExceptionFilter@4 1000e040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__QueryPerformanceFrequency@4 1000e044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentThreadId@0 1000e048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentProcessId@0 1000e04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcess@0 1000e050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__TerminateProcess@8  1000e054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__InterlockedCompareExchange@12 1000e058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__Sleep@4             1000e05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__InterlockedExchange@8 1000e060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__QueryPerformanceCounter@4 1000e064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GlobalMemoryStatusEx@4 1000e068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetTickCount@0      1000e06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__IsDebuggerPresent@0 1000e070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__UnhandledExceptionFilter@4 1000e074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetSystemTimeAsFileTime@4 1000e078     kernel32:KERNEL32.dll
+ 0002:0000007c       \177KERNEL32_NULL_THUNK_DATA 1000e07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000e080     msvcprt:MSVCP80.dll
+ 0002:00000084       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000e084     msvcprt:MSVCP80.dll
+ 0002:00000088       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 1000e088     msvcprt:MSVCP80.dll
+ 0002:0000008c       \177MSVCP80_NULL_THUNK_DATA 1000e08c     msvcprt:MSVCP80.dll
+ 0002:00000090       __imp__fprintf             1000e090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp__malloc              1000e094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___callnewh           1000e098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp__fclose              1000e09c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__isdigit             1000e0a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp__fscanf              1000e0a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp__fopen               1000e0a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp__memset              1000e0ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp_??_V@YAXPAX@Z        1000e0b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp__memcpy              1000e0b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp_??1exception@std@@UAE@XZ 1000e0b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp____CxxFrameHandler3  1000e0bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp_??3@YAXPAX@Z         1000e0c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp_??0exception@std@@QAE@XZ 1000e0c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__atoi                1000e0c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___invalid_parameter_noinfo 1000e0cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp____clean_type_info_names_internal 1000e0d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000e0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp_?terminate@@YAXXZ    1000e0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__strcpy_s            1000e0dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp____CppXcptFilter     1000e0e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___adjust_fdiv        1000e0e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___amsg_exit          1000e0e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___initterm_e         1000e0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___initterm           1000e0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___encoded_null       1000e0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___malloc_crt         1000e0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___except_handler4_common 1000e0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___decode_pointer     1000e100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___onexit             1000e104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___lock               1000e108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp____dllonexit         1000e10c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___encode_pointer     1000e110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___unlock             1000e114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___crt_debugger_hook  1000e118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__getenv              1000e11c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp__vsprintf            1000e120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp__memmove             1000e124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp__free                1000e128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp__calloc              1000e12c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp__atof                1000e130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp_??0exception@std@@QAE@ABV01@@Z 1000e134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp___CxxThrowException@8 1000e138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp__strcat_s            1000e13c     MSVCRT:MSVCR80.dll
+ 0002:00000140       \177MSVCR80_NULL_THUNK_DATA 1000e140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp__PK_CURVE_eval       1000e144     pskernel:PSKERNEL.dll
+ 0002:00000148       __imp__PK_FACE_intersect_curve 1000e148     pskernel:PSKERNEL.dll
+ 0002:0000014c       __imp__PK_CURVE_ask_param  1000e14c     pskernel:PSKERNEL.dll
+ 0002:00000150       __imp__PK_MEMORY_free      1000e150     pskernel:PSKERNEL.dll
+ 0002:00000154       __imp__PK_GEOM_range_local_vector 1000e154     pskernel:PSKERNEL.dll
+ 0002:00000158       __imp__PK_CURVE_find_vector_interval 1000e158     pskernel:PSKERNEL.dll
+ 0002:0000015c       __imp__PK_EDGE_ask_precision 1000e15c     pskernel:PSKERNEL.dll
+ 0002:00000160       __imp__PK_ENTITY_ask_class 1000e160     pskernel:PSKERNEL.dll
+ 0002:00000164       __imp__PK_SESSION_abort    1000e164     pskernel:PSKERNEL.dll
+ 0002:00000168       __imp__PK_INSTANCE_create  1000e168     pskernel:PSKERNEL.dll
+ 0002:0000016c       __imp__PK_ENTITY_copy      1000e16c     pskernel:PSKERNEL.dll
+ 0002:00000170       __imp__PK_ASSEMBLY_create_empty 1000e170     pskernel:PSKERNEL.dll
+ 0002:00000174       __imp__PK_TRANSF_ask       1000e174     pskernel:PSKERNEL.dll
+ 0002:00000178       __imp__PK_PARTITION_set_current 1000e178     pskernel:PSKERNEL.dll
+ 0002:0000017c       __imp__PK_ERROR_ask_last   1000e17c     pskernel:PSKERNEL.dll
+ 0002:00000180       __imp__PK_DEBUG_report_stop 1000e180     pskernel:PSKERNEL.dll
+ 0002:00000184       __imp__PK_TOPOL_render_line 1000e184     pskernel:PSKERNEL.dll
+ 0002:00000188       __imp__PK_DEBUG_report_start 1000e188     pskernel:PSKERNEL.dll
+ 0002:0000018c       __imp__PK_VECTOR_make_view_transf 1000e18c     pskernel:PSKERNEL.dll
+ 0002:00000190       __imp__PK_FACE_ask_body    1000e190     pskernel:PSKERNEL.dll
+ 0002:00000194       __imp__PK_SESSION_register_frustrum 1000e194     pskernel:PSKERNEL.dll
+ 0002:00000198       __imp__PK_TRANSF_create    1000e198     pskernel:PSKERNEL.dll
+ 0002:0000019c       __imp__PK_SESSION_ask_frustrum 1000e19c     pskernel:PSKERNEL.dll
+ 0002:000001a0       __imp__PK_FACE_contains_vectors 1000e1a0     pskernel:PSKERNEL.dll
+ 0002:000001a4       __imp__PK_TOPOL_range_vector 1000e1a4     pskernel:PSKERNEL.dll
+ 0002:000001a8       __imp__PK_ENTITY_delete    1000e1a8     pskernel:PSKERNEL.dll
+ 0002:000001ac       __imp__PK_PLANE_create     1000e1ac     pskernel:PSKERNEL.dll
+ 0002:000001b0       __imp__PK_SURF_ask_uvbox   1000e1b0     pskernel:PSKERNEL.dll
+ 0002:000001b4       __imp__PK_SURF_make_sheet_body 1000e1b4     pskernel:PSKERNEL.dll
+ 0002:000001b8       __imp__PK_TOPOL_find_box   1000e1b8     pskernel:PSKERNEL.dll
+ 0002:000001bc       __imp__PK_BODY_ask_first_face 1000e1bc     pskernel:PSKERNEL.dll
+ 0002:000001c0       \177PSKERNEL_NULL_THUNK_DATA 1000e1c0     pskernel:PSKERNEL.dll
+ 0002:000001c4       __imp_?JMemoryReserveStatus@@YA_NAAHAAIPAH@Z 1000e1c4     sealloc:sealloc.dll
+ 0002:000001c8       \177sealloc_NULL_THUNK_DATA 1000e1c8     sealloc:sealloc.dll
+ 0002:000001cc       __imp_?count@TAG_LIST@@QBEHXZ 1000e1cc     taglist:taglist.dll
+ 0002:000001d0       __imp_??ATAG_LIST@@QBEHH@Z 1000e1d0     taglist:taglist.dll
+ 0002:000001d4       \177taglist_NULL_THUNK_DATA 1000e1d4     taglist:taglist.dll
+ 0002:000001d8       __imp__BSnorkts            1000e1d8     ubspm2d:ubspm2d.dll
+ 0002:000001dc       __imp__BSlsqptlnpl         1000e1dc     ubspm2d:ubspm2d.dll
+ 0002:000001e0       \177ubspm2d_NULL_THUNK_DATA 1000e1e0     ubspm2d:ubspm2d.dll
+ 0002:000001e4       __imp__IMGTypedCurveFreeMem 1000e1e4     ugeom:ugeom.dll
+ 0002:000001e8       __imp__IMTransform3dTo2d   1000e1e8     ugeom:ugeom.dll
+ 0002:000001ec       __imp__IMTypedCurveProjectToPlane 1000e1ec     ugeom:ugeom.dll
+ 0002:000001f0       __imp__IMBspCurveProjectToPlane 1000e1f0     ugeom:ugeom.dll
+ 0002:000001f4       __imp__IMGLineBy2Pts       1000e1f4     ugeom:ugeom.dll
+ 0002:000001f8       __imp__IMGetGEllipseParFromGPosition 1000e1f8     ugeom:ugeom.dll
+ 0002:000001fc       __imp__IMFitGBspCurve      1000e1fc     ugeom:ugeom.dll
+ 0002:00000200       __imp__IMCurveLeastSquaresFit 1000e200     ugeom:ugeom.dll
+ 0002:00000204       __imp__IMLineStringGetLength 1000e204     ugeom:ugeom.dll
+ 0002:00000208       __imp__IMTypedCurveTransform 1000e208     ugeom:ugeom.dll
+ 0002:0000020c       __imp__IMCreateGBspCurve   1000e20c     ugeom:ugeom.dll
+ 0002:00000210       __imp__IMGTypedCurveCopyWithAlloc 1000e210     ugeom:ugeom.dll
+ 0002:00000214       __imp__IMGetGTypedCurveEndPts 1000e214     ugeom:ugeom.dll
+ 0002:00000218       __imp__IMPointsProjectToPlane 1000e218     ugeom:ugeom.dll
+ 0002:0000021c       __imp__IMTransformPlaneXy  1000e21c     ugeom:ugeom.dll
+ 0002:00000220       __imp__IMMinDistPtBspCv    1000e220     ugeom:ugeom.dll
+ 0002:00000224       __imp__IMGetGBspCurveParFromGPosition 1000e224     ugeom:ugeom.dll
+ 0002:00000228       __imp__IMTypedCurveActivSplt 1000e228     ugeom:ugeom.dll
+ 0002:0000022c       __imp__IMTypedCurvePartOfCurve 1000e22c     ugeom:ugeom.dll
+ 0002:00000230       __imp__IMTypedCurveGetParameterRange 1000e230     ugeom:ugeom.dll
+ 0002:00000234       __imp__IMTypedCurveIsClosed 1000e234     ugeom:ugeom.dll
+ 0002:00000238       __imp__IMGetGTypedCurveParFromGPosition 1000e238     ugeom:ugeom.dll
+ 0002:0000023c       __imp__IMTypedCurveRangeBox 1000e23c     ugeom:ugeom.dll
+ 0002:00000240       __imp__IMTypedCurveGetKnotTolerance 1000e240     ugeom:ugeom.dll
+ 0002:00000244       __imp__IMBspCurveGetPositionFromParameter 1000e244     ugeom:ugeom.dll
+ 0002:00000248       \177ugeom_NULL_THUNK_DATA  1000e248     ugeom:ugeom.dll
+ 0002:0000024c       __imp__IMGetGTypedCurve2dEndPts 1000e24c     ugeom2d:ugeom2d.dll
+ 0002:00000250       __imp__IMBspCurveGetExtrema2d 1000e250     ugeom2d:ugeom2d.dll
+ 0002:00000254       __imp__IMEllipseGetParameterFromPosition2d 1000e254     ugeom2d:ugeom2d.dll
+ 0002:00000258       __imp__IMArcIsParameterInRange2d 1000e258     ugeom2d:ugeom2d.dll
+ 0002:0000025c       __imp__IMArcGetAngles2d    1000e25c     ugeom2d:ugeom2d.dll
+ 0002:00000260       __imp__IMFree              1000e260     ugeom2d:ugeom2d.dll
+ 0002:00000264       __imp__IMTypedCurveGetParameterRange2d 1000e264     ugeom2d:ugeom2d.dll
+ 0002:00000268       __imp__IMGTypedCurveGetParameterFromPosition2d 1000e268     ugeom2d:ugeom2d.dll
+ 0002:0000026c       __imp__IMAlloc             1000e26c     ugeom2d:ugeom2d.dll
+ 0002:00000270       __imp__IMTypedCurveGetKnotTolerance2d 1000e270     ugeom2d:ugeom2d.dll
+ 0002:00000274       __imp__IMGTypedCurveFreeMem2d 1000e274     ugeom2d:ugeom2d.dll
+ 0002:00000278       __imp__IMArcIsParIntvInRange2d 1000e278     ugeom2d:ugeom2d.dll
+ 0002:0000027c       \177ugeom2d_NULL_THUNK_DATA 1000e27c     ugeom2d:ugeom2d.dll
+ 0002:00000280       __imp_?IsEqual@tagGPosition@@QBEHABU1@@Z 1000e280     umath:umath.dll
+ 0002:00000284       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1000e284     umath:umath.dll
+ 0002:00000288       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000e288     umath:umath.dll
+ 0002:0000028c       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1000e28c     umath:umath.dll
+ 0002:00000290       __imp_?BuildBox@@YA?AUtagGBox@@NNN@Z 1000e290     umath:umath.dll
+ 0002:00000294       __imp_??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1000e294     umath:umath.dll
+ 0002:00000298       __imp_?GetDistanceTolerance@@YA?BNXZ 1000e298     umath:umath.dll
+ 0002:0000029c       __imp_?IsColinear@tagGUnitVector@@QBEHABUtagGVector@@@Z 1000e29c     umath:umath.dll
+ 0002:000002a0       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1000e2a0     umath:umath.dll
+ 0002:000002a4       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1000e2a4     umath:umath.dll
+ 0002:000002a8       __imp_?GetPerpVector@@YA?AUtagGVector@@ABUtagGUnitVector@@@Z 1000e2a8     umath:umath.dll
+ 0002:000002ac       __imp_?GetFitTolerance@@YA?BNXZ 1000e2ac     umath:umath.dll
+ 0002:000002b0       __imp_??XtagGPosition@@QAEAAU0@ABUtagGTransf@@@Z 1000e2b0     umath:umath.dll
+ 0002:000002b4       __imp_?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1000e2b4     umath:umath.dll
+ 0002:000002b8       __imp_?GetLength@tagGVector2d@@QBENXZ 1000e2b8     umath:umath.dll
+ 0002:000002bc       __imp_?GDistance@@YANABUtagGPosition@@0@Z 1000e2bc     umath:umath.dll
+ 0002:000002c0       __imp_??L@YANABUtagGVector@@0@Z 1000e2c0     umath:umath.dll
+ 0002:000002c4       __imp_?IsNull@tagGBox@@QBEHXZ 1000e2c4     umath:umath.dll
+ 0002:000002c8       __imp_??I@YA?AUtagGBox@@ABU0@0@Z 1000e2c8     umath:umath.dll
+ 0002:000002cc       __imp_??AtagGVector@@QAEAANI@Z 1000e2cc     umath:umath.dll
+ 0002:000002d0       __imp_??AtagGMatrix@@QBE?AUtagGVector@@I@Z 1000e2d0     umath:umath.dll
+ 0002:000002d4       __imp_?SEOrthogonalizeMatrix@@YAXAAUtagGTransf@@@Z 1000e2d4     umath:umath.dll
+ 0002:000002d8       __imp_?IsIdentity@tagGTransf@@QBEHXZ 1000e2d8     umath:umath.dll
+ 0002:000002dc       __imp_??4tagGTransf@@QAEAAU0@ABUtagG4x4@@@Z 1000e2dc     umath:umath.dll
+ 0002:000002e0       \177umath_NULL_THUNK_DATA  1000e2e0     umath:umath.dll
+ 0002:000002e4       __imp__GenerateParasolidFile 1000e2e4     upstgt:upstgt.dll
+ 0002:000002e8       __imp__CMGTypedCurveToPSOLIDCurve 1000e2e8     upstgt:upstgt.dll
+ 0002:000002ec       __imp__CMPSOLIDEdgeToGTypedCurve 1000e2ec     upstgt:upstgt.dll
+ 0002:000002f0       \177upstgt_NULL_THUNK_DATA 1000e2f0     upstgt:upstgt.dll
+ 0002:000002f4       ___xc_a                    1000e2f4     MSVCRT:cinitexe.obj
+ 0002:00000320       ___xc_z                    1000e320     MSVCRT:cinitexe.obj
+ 0002:00000324       ___xi_a                    1000e324     MSVCRT:cinitexe.obj
+ 0002:00000330       ___xi_z                    1000e330     MSVCRT:cinitexe.obj
+ 0002:0000035c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000e35c     pstimer.obj
+ 0002:0000036c       ??_C@_02DKCKIIND@?$CFs?$AA@ 1000e36c     pstimer.obj
+ 0002:00000370       ??_C@_02HAOIJKIC@?$CFc?$AA@ 1000e370     pstimer.obj
+ 0002:00000374       ??_C@_0N@BLOCLNHA@P?3?2partr?4ver?$AA@ 1000e374     pstimer.obj
+ 0002:00000384       ??_C@_01KDCPPGHE@r?$AA@    1000e384     pstimer.obj
+ 0002:00000388       ??_C@_05DLONLOOK@Build?$AA@ 1000e388     pstimer.obj
+ 0002:000003b4       ??_7logic_error@std@@6B@   1000e3b4     vhlscene.obj
+ 0002:000003c0       ??_7length_error@std@@6B@  1000e3c0     vhlscene.obj
+ 0002:000003cc       ??_7out_of_range@std@@6B@  1000e3cc     vhlscene.obj
+ 0002:000003d8       __real@46293e5939a08cea    1000e3d8     vhlscene.obj
+ 0002:000003e0       ??_C@_0BG@PAOKIKBA@BOTTOM?1RIGHT?5Iso?5View?$AA@ 1000e3e0     vhlscene.obj
+ 0002:000003f8       ??_C@_0BF@MJIJBNPP@BOTTOM?1LEFT?5Iso?5View?$AA@ 1000e3f8     vhlscene.obj
+ 0002:00000410       ??_C@_0BD@EABNAAAC@TOP?1RIGHT?5Iso?5View?$AA@ 1000e410     vhlscene.obj
+ 0002:00000424       ??_C@_0BC@OOJLCNIF@TOP?1LEFT?5Iso?5View?$AA@ 1000e424     vhlscene.obj
+ 0002:00000438       __real@3fe279a7459030cc    1000e438     vhlscene.obj
+ 0002:00000440       __real@3fe279a745903451    1000e440     vhlscene.obj
+ 0002:00000448       ??_C@_0M@IPFBGOEI@BOTTOM?5View?$AA@ 1000e448     vhlscene.obj
+ 0002:00000454       ??_C@_08DNJDKDPD@TOP?5View?$AA@ 1000e454     vhlscene.obj
+ 0002:00000460       ??_C@_09OMCNFBAP@LEFT?5View?$AA@ 1000e460     vhlscene.obj
+ 0002:0000046c       ??_C@_0L@JJKHBNIA@RIGHT?5View?$AA@ 1000e46c     vhlscene.obj
+ 0002:00000478       __real@bff0000000000000    1000e478     vhlscene.obj
+ 0002:00000480       ??_C@_09HGHONCPD@BACK?5View?$AA@ 1000e480     vhlscene.obj
+ 0002:0000048c       ??_C@_0L@CFHBHLEJ@FRONT?5View?$AA@ 1000e48c     vhlscene.obj
+ 0002:00000498       ??_C@_0BC@GEBGLCDD@Non?9standard?5View?$AA@ 1000e498     vhlscene.obj
+ 0002:000004ac       ??_C@_0CJ@INBCIDND@DRAFT_VHL_REFERENCE_PARTS_DISPLA@ 1000e4ac     vhlscene.obj
+ 0002:000004d8       ??_C@_0CI@NBNOAKAB@DRAFT_VHL_OUTPUT_PARASOLID_XT_LS@ 1000e4d8     vhlscene.obj
+ 0002:00000500       __real@3f33a92a30553261    1000e500     vhlscene.obj
+ 0002:00000508       ??_C@_0P@GBGCGBEJ@?4?2vhlscene?4cpp?$AA@ 1000e508     vhlscene.obj
+ 0002:00000518       ??_C@_0BL@MIIMEDFO@VHLProject3DTypedCurveto2D?$AA@ 1000e518     vhlscene.obj
+ 0002:00000538       __real@408f400000000000    1000e538     vhlscene.obj
+ 0002:00000540       __real@3fb999999999999a    1000e540     vhlscene.obj
+ 0002:00000548       ??_C@_0BI@FHHOGPLH@PSPolylineToGTypedCurve?$AA@ 1000e548     vhlscene.obj
+ 0002:00000560       ??_C@_0BJ@CBCCBFHD@CVHLEdge?3?3ProjectCurve2D?$AA@ 1000e560     vhlscene.obj
+ 0002:0000057c       ??_C@_0BI@DMOCAMED@CVHLEdge?3?3GetTypedCurve?$AA@ 1000e57c     vhlscene.obj
+ 0002:00000594       ??_C@_0CK@MJLAKLNO@IMGTypedCurveGetParemeterFromPos@ 1000e594     vhlscene.obj
+ 0002:000005c0       ??_C@_0BJ@BGBALGIE@IMPointsProjectToPlane?$CI?$CJ?$AA@ 1000e5c0     vhlscene.obj
+ 0002:000005dc       ??_C@_0BF@MPHDIOK@IMTransformPlaneXy?$CI?$CJ?$AA@ 1000e5dc     vhlscene.obj
+ 0002:000005f4       ??_C@_0CC@EDEGBGPD@IMTypedCurveGetParameterRange2d?$CI@ 1000e5f4     vhlscene.obj
+ 0002:00000618       ??_C@_0BN@PIMIPCOK@CVHLSegment?3?3ProjectParams2D?$AA@ 1000e618     vhlscene.obj
+ 0002:00000638       ??_C@_0BM@FMBHIJBA@DRAFT_VHL_TIMER_OUTPUT_FLAG?$AA@ 1000e638     vhlscene.obj
+ 0002:00000654       ??_C@_0CG@NLKAJNPH@DRAFT_VHL_TIMER_OUTPUT_PATH_FILE@ 1000e654     vhlscene.obj
+ 0002:0000067c       ??_C@_0BK@POFODEMH@DRAFT_VHL_CURVE_CHORD_TOL?$AA@ 1000e67c     vhlscene.obj
+ 0002:00000698       ??_C@_0BN@CLIIIFOP@DRAFT_VHL_IS_CURVE_CHORD_TOL?$AA@ 1000e698     vhlscene.obj
+ 0002:000006b8       ??_C@_0BD@BEPGMCMB@?2Draft?2Options?9VHL?$AA@ 1000e6b8     vhlscene.obj
+ 0002:000006cc       ??_C@_0CF@GFEBIELL@DRAFT_VHL_OVERRIDE_TANGENT_TOL_V@ 1000e6cc     vhlscene.obj
+ 0002:000006f4       ??_C@_0CE@BFENGEJI@DRAFT_VHL_OVERRIDE_TANGENT_TOL_F@ 1000e6f4     vhlscene.obj
+ 0002:00000718       ??_C@_0CG@HJGNOKGA@DRAFT_VHL_MAX_PS_MEMORY_LIMIT_PE@ 1000e718     vhlscene.obj
+ 0002:00000740       ??_C@_0CC@ILJGCDDN@DRAFT_VHL_SET_MAX_PS_MEMORY_LIMI@ 1000e740     vhlscene.obj
+ 0002:00000764       ??_C@_0CD@EMLJBKGJ@_SetupThreadingOverlapArrayOptio@ 1000e764     vhlscene.obj
+ 0002:00000788       __real@3fe0000000000000    1000e788     vhlscene.obj
+ 0002:00000790       __real@4024000000000000    1000e790     vhlscene.obj
+ 0002:00000798       __real@3f847ae147ae147b    1000e798     vhlscene.obj
+ 0002:000007a0       __real@3f50624dd2f1a9fc    1000e7a0     vhlscene.obj
+ 0002:000007a8       ??_C@_0BP@JFPBNGCB@CVHLEdge?3?3Comp2DTranParamsLine?$AA@ 1000e7a8     vhlscene.obj
+ 0002:000007c8       __real@3ff3333333333333    1000e7c8     vhlscene.obj
+ 0002:000007d0       __real@401921fb54442d18    1000e7d0     vhlscene.obj
+ 0002:000007d8       __real@4014000000000000    1000e7d8     vhlscene.obj
+ 0002:000007e0       ??_C@_0CB@MMFLAPOD@CVHLEdge?3?3Comp2DTranParamsCircle@ 1000e7e0     vhlscene.obj
+ 0002:00000804       ??_C@_0BN@EPHEOODI@CVHLEdge?3?3Comp2DTranParamsTC?$AA@ 1000e804     vhlscene.obj
+ 0002:00000824       ??_C@_0BB@DAFHBFBF@CVHLEdge?3?3Output?$AA@ 1000e824     vhlscene.obj
+ 0002:00000838       ??_C@_0CD@MPJAIJJH@CVHLEdge?3?3PopulateFromTubeGeomet@ 1000e838     vhlscene.obj
+ 0002:0000085c       ??_C@_0BH@IBIDIIMM@CVHLEdge?3?3ClipSegments?$AA@ 1000e85c     vhlscene.obj
+ 0002:00000874       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 1000e874     vhlscene.obj
+ 0002:00000888       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 1000e888     vhlscene.obj
+ 0002:000008a4       ??_C@_0BM@PGCDNLPC@hConvertToParasolidAssembly?$AA@ 1000e8a4     vhlscene.obj
+ 0002:000008c0       ??_C@_0BN@OAMDGBPO@after?5PK_TOPOL_render_line?$CI?$CJ?$AA@ 1000e8c0     vhlscene.obj
+ 0002:000008e0       ??_C@_0BD@JJJMMINC@c?3?2temp?2VHL_REPORT?$AA@ 1000e8e0     vhlscene.obj
+ 0002:000008f4       ??_C@_0BN@NFHFKJHC@up?5to?5PK_TOPOL_render_line?$CI?$CJ?$AA@ 1000e8f4     vhlscene.obj
+ 0002:00000918       __real@3f60624dd2f1a9fc    1000e918     vhlscene.obj
+ 0002:00000920       ??_C@_0BH@CALDNBNP@after?5handling?5options?$AA@ 1000e920     vhlscene.obj
+ 0002:00000938       __real@c76812f9cf7920e3    1000e938     vhlscene.obj
+ 0002:00000940       ??_C@_0BC@BIFDIEJA@CVHLScene?3?3Render?$AA@ 1000e940     vhlscene.obj
+ 0002:00000958       __real@3fe999999999999a    1000e958     vhlscene.obj
+ 0002:00000960       ??_C@_0BD@MCKFPJGH@CVHLScene?3?3AddBody?$AA@ 1000e960     vhlscene.obj
+ 0002:00000974       ??_C@_05BMGBEOOC@?$CFs?2?$CFs?$AA@ 1000e974     vhltimer.obj
+ 0002:0000097c       ??_C@_0N@MOPPEPGG@vhltimer?4txt?$AA@ 1000e97c     vhltimer.obj
+ 0002:0000098c       ??_C@_03MINKAKBA@c?3?2?$AA@ 1000e98c     vhltimer.obj
+ 0002:00000990       ??_C@_04JKHNIKCB@TEMP?$AA@ 1000e990     vhltimer.obj
+ 0002:00000998       ??_C@_0BO@GBNGPBIC@DRAFT_VHL_TIMER_OUTPUT_ENABLE?$AA@ 1000e998     vhltimer.obj
+ 0002:000009b8       ??_C@_09ICJHAIBF@?$CFs?$CL?$CL?$CL?5?$CFs?6?$AA@ 1000e9b8     vhltimer.obj
+ 0002:000009c4       ??_C@_02MINBJDHL@?$HM?5?$AA@ 1000e9c4     vhltimer.obj
+ 0002:000009c8       ??_C@_01MCMALHOG@a?$AA@    1000e9c8     vhltimer.obj
+ 0002:000009cc       ??_C@_0BD@GGOLBPIH@?$CFs?9?9?9?5?$CFs?3?5?5?$CFd?5ms?4?6?$AA@ 1000e9cc     vhltimer.obj
+ 0002:000009e0       ??_C@_0BD@NMEJKII@?$CFs?4?4?4?5?$CFs?3?5?5?$CFd?5ms?4?6?$AA@ 1000e9e0     vhltimer.obj
+ 0002:000009f8       ??_7type_info@@6B@         1000e9f8     MSVCRT:ti_inst.obj
+ 0002:000009fc       __pDefaultRawDllMain       1000e9fc     MSVCRT:crtdll.obj
+ 0002:000009fc       __pRawDllMain              1000e9fc     MSVCRT:crtdll.obj
+ 0002:00000a08       __load_config_used         1000ea08     MSVCRT:loadcfg.obj
+ 0002:00000a84       ??_R1A@?0A@EA@exception@std@@8 1000ea84     vhlscene.obj
+ 0002:00000aa0       ??_R3exception@std@@8      1000eaa0     vhlscene.obj
+ 0002:00000ab0       ??_R2exception@std@@8      1000eab0     vhlscene.obj
+ 0002:00000ab8       ??_R4logic_error@std@@6B@  1000eab8     vhlscene.obj
+ 0002:00000acc       ??_R3logic_error@std@@8    1000eacc     vhlscene.obj
+ 0002:00000adc       ??_R2logic_error@std@@8    1000eadc     vhlscene.obj
+ 0002:00000ae8       ??_R1A@?0A@EA@logic_error@std@@8 1000eae8     vhlscene.obj
+ 0002:00000b04       ??_R4length_error@std@@6B@ 1000eb04     vhlscene.obj
+ 0002:00000b18       ??_R3length_error@std@@8   1000eb18     vhlscene.obj
+ 0002:00000b28       ??_R2length_error@std@@8   1000eb28     vhlscene.obj
+ 0002:00000b38       ??_R1A@?0A@EA@length_error@std@@8 1000eb38     vhlscene.obj
+ 0002:00000b54       ??_R4out_of_range@std@@6B@ 1000eb54     vhlscene.obj
+ 0002:00000b68       ??_R3out_of_range@std@@8   1000eb68     vhlscene.obj
+ 0002:00000b78       ??_R2out_of_range@std@@8   1000eb78     vhlscene.obj
+ 0002:00000b88       ??_R1A@?0A@EA@out_of_range@std@@8 1000eb88     vhlscene.obj
+ 0002:00000ba4       ??_R4type_info@@6B@        1000eba4     MSVCRT:ti_inst.obj
+ 0002:00000bb8       ??_R3type_info@@8          1000ebb8     MSVCRT:ti_inst.obj
+ 0002:00000bc8       ??_R2type_info@@8          1000ebc8     MSVCRT:ti_inst.obj
+ 0002:00000bd0       ??_R1A@?0A@EA@type_info@@8 1000ebd0     MSVCRT:ti_inst.obj
+ 0002:00000bf0       ___safe_se_handler_table   1000ebf0     <linker-defined>
+ 0002:00000ca8       ___rtc_iaa                 1000eca8     MSVCRT:initsect.obj
+ 0002:00000cac       ___rtc_izz                 1000ecac     MSVCRT:initsect.obj
+ 0002:00000cb0       ___rtc_taa                 1000ecb0     MSVCRT:initsect.obj
+ 0002:00000cb4       ___rtc_tzz                 1000ecb4     MSVCRT:initsect.obj
+ 0002:00000e54       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1000ee54     vhlscene.obj
+ 0002:000010d4       __TI3?AVlength_error@std@@ 1000f0d4     vhlscene.obj
+ 0002:00001110       __CTA3?AVlength_error@std@@ 1000f110     vhlscene.obj
+ 0002:00001120       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 1000f120     vhlscene.obj
+ 0002:0000113c       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 1000f13c     vhlscene.obj
+ 0002:00001218       __TI3?AVout_of_range@std@@ 1000f218     vhlscene.obj
+ 0002:00001254       __CTA3?AVout_of_range@std@@ 1000f254     vhlscene.obj
+ 0002:00001264       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 1000f264     vhlscene.obj
+ 0002:00001834       __IMPORT_DESCRIPTOR_PSKERNEL 1000f834     pskernel:PSKERNEL.dll
+ 0002:00001848       __IMPORT_DESCRIPTOR_Frustrm 1000f848     frustrm:Frustrm.dll
+ 0002:0000185c       __IMPORT_DESCRIPTOR_JUtil  1000f85c     jutil:JUtil.dll
+ 0002:00001870       __IMPORT_DESCRIPTOR_taglist 1000f870     taglist:taglist.dll
+ 0002:00001884       __IMPORT_DESCRIPTOR_ubspm2d 1000f884     ubspm2d:ubspm2d.dll
+ 0002:00001898       __IMPORT_DESCRIPTOR_ugeom  1000f898     ugeom:ugeom.dll
+ 0002:000018ac       __IMPORT_DESCRIPTOR_ugeom2d 1000f8ac     ugeom2d:ugeom2d.dll
+ 0002:000018c0       __IMPORT_DESCRIPTOR_umath  1000f8c0     umath:umath.dll
+ 0002:000018d4       __IMPORT_DESCRIPTOR_upstgt 1000f8d4     upstgt:upstgt.dll
+ 0002:000018e8       __IMPORT_DESCRIPTOR_sealloc 1000f8e8     sealloc:sealloc.dll
+ 0002:000018fc       __IMPORT_DESCRIPTOR_KERNEL32 1000f8fc     kernel32:KERNEL32.dll
+ 0002:00001910       __IMPORT_DESCRIPTOR_ADVAPI32 1000f910     advapi32:ADVAPI32.dll
+ 0002:00001924       __IMPORT_DESCRIPTOR_MSVCP80 1000f924     msvcprt:MSVCP80.dll
+ 0002:00001938       __IMPORT_DESCRIPTOR_MSVCR80 1000f938     MSVCRT:MSVCR80.dll
+ 0002:0000194c       __NULL_IMPORT_DESCRIPTOR   1000f94c     pskernel:PSKERNEL.dll
+ 0003:00000000       __newmode                  10012000     newmode.obj
+ 0003:00000a40       ??_R0?AVexception@std@@@8  10012a40     vhlscene.obj
+ 0003:00000a5c       ??_R0?AVlogic_error@std@@@8 10012a5c     vhlscene.obj
+ 0003:00000a7c       ??_R0?AVlength_error@std@@@8 10012a7c     vhlscene.obj
+ 0003:00000a9c       ??_R0?AVout_of_range@std@@@8 10012a9c     vhlscene.obj
+ 0003:00000ac4       ___security_cookie         10012ac4     MSVCRT:gs_cookie.obj
+ 0003:00000ac8       ___security_cookie_complement 10012ac8     MSVCRT:gs_cookie.obj
+ 0003:00000ad0       ??_R0?AVtype_info@@@8      10012ad0     MSVCRT:ti_inst.obj
+ 0003:00000af0       ___native_dllmain_reason   10012af0     MSVCRT:natstart.obj
+ 0003:00000af4       ___native_vcclrit_reason   10012af4     MSVCRT:natstart.obj
+ 0003:00000d98       ?GOTimer@@3VCHighResTimer@@A 10012d98     vhlscene.obj
+ 0003:000010ec       ?__type_info_root_node@@3U__type_info_node@@A 100130ec     MSVCRT:tncleanup.obj
+ 0003:000010f4       __adjust_fdiv              100130f4     <common>
+ 0003:000010f8       ___native_startup_state    100130f8     <common>
+ 0003:000010fc       ___native_startup_lock     100130fc     <common>
+ 0003:00001100       ___sse2_available          10013100     <common>
+ 0003:00001104       ___dyn_tls_init_callback   10013104     <common>
+ 0003:00001108       ___onexitend               10013108     <common>
+ 0003:0000110c       ___onexitbegin             1001310c     <common>
+
+ entry point at        0001:0000b71d
+
+ Static symbols
+
+ 0001:00000af0       ?_output_view_name@@YAPADPAN@Z 10001af0 f   vhlscene.obj
+ 0001:00000ed0       ?_CheckRegistryForReferencePartsDisplayMethod@@YAHXZ 10001ed0 f   vhlscene.obj
+ 0001:00000f80       ?_ShouldOutput_XT_LSP_file@@YAHXZ 10001f80 f   vhlscene.obj
+ 0001:00001270       ?RegisterScene@@YAHPAVCVHLScene@@@Z 10002270 f   vhlscene.obj
+ 0001:00001290       ?UnRegisterScene@@YAHPAVCVHLScene@@@Z 10002290 f   vhlscene.obj
+ 0001:00001300       ?PSLineToGTypedCurve@@YAJPBHPBNPAUtagGTypedCurve@@@Z 10002300 f   vhlscene.obj
+ 0001:00001360       ?PSCircEllipseToGTypedCurve@@YAJHPBHPBNPAUtagGTypedCurve@@@Z 10002360 f   vhlscene.obj
+ 0001:00001860       ?PSPolylineToGTypedCurve@@YAJPBH0PBN00PAUtagGTypedCurve@@VJDVEdgeTag@@HUtagGPlane@@N@Z 10002860 f   vhlscene.obj
+ 0001:00001b50       ?PSBSplineToGTypedCurve@@YAJAAHPBHPBN11PAUtagGTypedCurve@@@Z 10002b50 f   vhlscene.obj
+ 0001:000028b0       ?_override_chord_tol_from_registry@@YAHPAEPAN@Z 100038b0 f   vhlscene.obj
+ 0001:00002a50       ?_override_tangent_tol_from_registry@@YAHPAEPAN@Z 10003a50 f   vhlscene.obj
+ 0001:00002bf0       ?_override_max_ps_mem_limit_from_registry@@YAHPAHPAN@Z 10003bf0 f   vhlscene.obj
+ 0001:00002d90       ?SE_BODY_save_to_file_ex@@YAHHQAD@Z 10003d90 f   vhlscene.obj
+ 0001:00003050       ?_SetupThreadingOverlapArrayOptions@@YAXAAV?$JArray@HH@@0AAH11PAPAH2@Z 10004050 f   vhlscene.obj
+ 0001:00004470       ?_RemoveOrShiftIndices@@YAXAAV?$JArray@HH@@H@Z 10005470 f   vhlscene.obj
+ 0001:00005312       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@XZ$0 10006312 f i vhlscene.obj
+ 0001:000053b8       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHH@2@D@Z$0 100063b8 f i vhlscene.obj
+ 0001:00005462       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@XZ$0 10006462 f i vhlscene.obj
+ 0001:00007528       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@D@Z$0 10008528 f i vhlscene.obj
+ 0001:00007ca4       __catch$?_Copy@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@0@Z$0 10008ca4 f i vhlscene.obj
+ 0001:00008463       __catch$??0?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE@ABV01@@Z$0 10009463 f i vhlscene.obj
+ 0001:000087c0       ?SEDRAFT_GOCLSG@@YAXPBH000PBN00PAH@Z 100097c0 f   vhlscene.obj
+ 0001:00008c80       ?hConvertToParasolidAssembly@@YAJHPBH0PAH@Z 10009c80 f   vhlscene.obj
+ 0001:00008ed0       ?_GenerateParasolidFile@@YAXHPBH0PANH@Z 10009ed0 f   vhlscene.obj
+ 0001:0000a5f0       ?SEDRAFT_GOOPSG@@YAXPBH000PBN00PAH@Z 1000b5f0 f   vhlscene.obj
+ 0001:0000a6b0       ?SEDRAFT_GOSGMT@@YAXPBH000PBN00PAH@Z 1000b6b0 f   vhlscene.obj
+ 0001:0000aa20       ?_CheckRegistryForPerformanceOutputFlag@@YAHPAD0QAD@Z 1000ba20 f   vhltimer.obj
+ 0001:0000b41b       _pre_c_init                1000c41b f   MSVCRT:crtdll.obj
+ 0001:0000b607       ___DllMainCRTStartup       1000c607 f   MSVCRT:crtdll.obj
+ 0001:0000b974       _has_osfxsr_set            1000c974 f   MSVCRT:cpu_disp.obj
+ 0001:0000bc40       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000cc40 f   vhlscene.obj
+ 0001:0000bc49       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 1000cc49 f   vhlscene.obj
+ 0001:0000bc55       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000cc55 f   vhlscene.obj
+ 0001:0000bc70       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 1000cc70 f   vhlscene.obj
+ 0001:0000bc79       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 1000cc79 f   vhlscene.obj
+ 0001:0000bc85       __ehhandler$??1logic_error@std@@UAE@XZ 1000cc85 f   vhlscene.obj
+ 0001:0000bca0       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000cca0 f   vhlscene.obj
+ 0001:0000bca8       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000cca8 f   vhlscene.obj
+ 0001:0000bcd0       __unwindfunclet$??1length_error@std@@UAE@XZ$0 1000ccd0 f   vhlscene.obj
+ 0001:0000bcd8       __ehhandler$??1length_error@std@@UAE@XZ 1000ccd8 f   vhlscene.obj
+ 0001:0000bd00       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 1000cd00 f   vhlscene.obj
+ 0001:0000bd08       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 1000cd08 f   vhlscene.obj
+ 0001:0000bd30       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 1000cd30 f   vhlscene.obj
+ 0001:0000bd38       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 1000cd38 f   vhlscene.obj
+ 0001:0000bd60       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 1000cd60 f   vhlscene.obj
+ 0001:0000bd68       __ehhandler$??1out_of_range@std@@UAE@XZ 1000cd68 f   vhlscene.obj
+ 0001:0000bd90       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 1000cd90 f   vhlscene.obj
+ 0001:0000bd98       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 1000cd98 f   vhlscene.obj
+ 0001:0000bdc0       __unwindfunclet$?ProjectParams2D@CVHLSegment@@QAEJABUtagGPlane@@ABUtagGTypedCurve2d@@HPAN2@Z$3 1000cdc0 f   vhlscene.obj
+ 0001:0000bdcb       __ehhandler$?ProjectParams2D@CVHLSegment@@QAEJABUtagGPlane@@ABUtagGTypedCurve2d@@HPAN2@Z 1000cdcb f   vhlscene.obj
+ 0001:0000be00       __unwindfunclet$?CreateEdgeGeom@CVHLEdge@@QAEJPBH000PBNHPAUtagGTypedCurve@@UtagGPlane@@N@Z$0 1000ce00 f   vhlscene.obj
+ 0001:0000be08       __ehhandler$?CreateEdgeGeom@CVHLEdge@@QAEJPBH000PBNHPAUtagGTypedCurve@@UtagGPlane@@N@Z 1000ce08 f   vhlscene.obj
+ 0001:0000be30       __unwindfunclet$??0CVHLEdge@@QAE@XZ$0 1000ce30 f   vhlscene.obj
+ 0001:0000be3b       __ehhandler$??0CVHLEdge@@QAE@XZ 1000ce3b f   vhlscene.obj
+ 0001:0000be60       __unwindfunclet$??0CVHLEdge@@QAE@VJDVEdgeTag@@@Z$0 1000ce60 f   vhlscene.obj
+ 0001:0000be6b       __ehhandler$??0CVHLEdge@@QAE@VJDVEdgeTag@@@Z 1000ce6b f   vhlscene.obj
+ 0001:0000be90       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@XZ 1000ce90 f   vhlscene.obj
+ 0001:0000beb0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHH@2@D@Z$2 1000ceb0 f   vhlscene.obj
+ 0001:0000bec1       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBHH@2@D@Z 1000cec1 f   vhlscene.obj
+ 0001:0000bee0       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@XZ 1000cee0 f   vhlscene.obj
+ 0001:0000bf00       __unwindfunclet$??1CVHLEdge@@QAE@XZ$0 1000cf00 f   vhlscene.obj
+ 0001:0000bf0b       __ehhandler$??1CVHLEdge@@QAE@XZ 1000cf0b f   vhlscene.obj
+ 0001:0000bf30       __unwindfunclet$?Output@CVHLEdge@@QAEXPBH000PBN00PAHKUtagGPlane@@HN@Z$3 1000cf30 f   vhlscene.obj
+ 0001:0000bf3b       __unwindfunclet$?Output@CVHLEdge@@QAEXPBH000PBN00PAHKUtagGPlane@@HN@Z$4 1000cf3b f   vhlscene.obj
+ 0001:0000bf46       __ehhandler$?Output@CVHLEdge@@QAEXPBH000PBN00PAHKUtagGPlane@@HN@Z 1000cf46 f   vhlscene.obj
+ 0001:0000bf70       __unwindfunclet$?PopulateFromTubeGeometry@CVHLEdge@@QAEJABUtagGTypedCurve@@H@Z$4 1000cf70 f   vhlscene.obj
+ 0001:0000bf7b       __ehhandler$?PopulateFromTubeGeometry@CVHLEdge@@QAEJABUtagGTypedCurve@@H@Z 1000cf7b f   vhlscene.obj
+ 0001:0000bfa0       __unwindfunclet$?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z$19 1000cfa0 f   vhlscene.obj
+ 0001:0000bfab       __unwindfunclet$?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z$21 1000cfab f   vhlscene.obj
+ 0001:0000bfb9       __unwindfunclet$?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z$22 1000cfb9 f   vhlscene.obj
+ 0001:0000bfc7       __unwindfunclet$?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z$20 1000cfc7 f   vhlscene.obj
+ 0001:0000bfd5       __ehhandler$?ClipSegments@CVHLEdge@@QAEJAAUtagGPosition@@AAUtagGUnitVector@@AAHAAUtagGBox@@@Z 1000cfd5 f   vhlscene.obj
+ 0001:0000c000       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHH@2@@Z$0 1000d000 f   vhlscene.obj
+ 0001:0000c009       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBHH@2@@Z 1000d009 f   vhlscene.obj
+ 0001:0000c030       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 1000d030 f   vhlscene.obj
+ 0001:0000c039       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 1000d039 f   vhlscene.obj
+ 0001:0000c045       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 1000d045 f   vhlscene.obj
+ 0001:0000c060       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 1000d060 f   vhlscene.obj
+ 0001:0000c068       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 1000d068 f   vhlscene.obj
+ 0001:0000c090       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@D@Z$2 1000d090 f   vhlscene.obj
+ 0001:0000c0a1       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@D@Z 1000d0a1 f   vhlscene.obj
+ 0001:0000c0c0       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 1000d0c0 f   vhlscene.obj
+ 0001:0000c0c9       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000d0c9 f   vhlscene.obj
+ 0001:0000c0f0       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 1000d0f0 f   vhlscene.obj
+ 0001:0000c0f8       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 1000d0f8 f   vhlscene.obj
+ 0001:0000c120       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 1000d120 f   vhlscene.obj
+ 0001:0000c129       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000d129 f   vhlscene.obj
+ 0001:0000c150       __ehhandler$?_Copy@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@PAU342@0@Z 1000d150 f   vhlscene.obj
+ 0001:0000c170       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@@Z$0 1000d170 f   vhlscene.obj
+ 0001:0000c179       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@2@ABU?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@2@@Z 1000d179 f   vhlscene.obj
+ 0001:0000c1a0       __ehhandler$??0?$_Tree@V?$_Tmap_traits@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@$0A@@std@@@std@@QAE@ABV01@@Z 1000d1a0 f   vhlscene.obj
+ 0001:0000c1c0       __unwindfunclet$??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@ABV01@@Z$0 1000d1c0 f   vhlscene.obj
+ 0001:0000c1c8       __ehhandler$??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@ABV01@@Z 1000d1c8 f   vhlscene.obj
+ 0001:0000c1f0       __unwindfunclet$??1?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ$0 1000d1f0 f   vhlscene.obj
+ 0001:0000c1f8       __ehhandler$??1?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ 1000d1f8 f   vhlscene.obj
+ 0001:0000c220       __unwindfunclet$??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ$0 1000d220 f   vhlscene.obj
+ 0001:0000c228       __ehhandler$??1?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 1000d228 f   vhlscene.obj
+ 0001:0000c250       __unwindfunclet$??1CVHLBody@@QAE@XZ$0 1000d250 f   vhlscene.obj
+ 0001:0000c25b       __ehhandler$??1CVHLBody@@QAE@XZ 1000d25b f   vhlscene.obj
+ 0001:0000c280       __unwindfunclet$??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ$0 1000d280 f   vhlscene.obj
+ 0001:0000c288       __ehhandler$??0?$map@VJDVEdgeTag@@PAVCVHLEdge@@U?$less@VJDVEdgeTag@@@std@@V?$allocator@U?$pair@$$CBVJDVEdgeTag@@PAVCVHLEdge@@@std@@@4@@std@@QAE@XZ 1000d288 f   vhlscene.obj
+ 0001:0000c2b0       __unwindfunclet$??0?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ$0 1000d2b0 f   vhlscene.obj
+ 0001:0000c2b8       __ehhandler$??0?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@QAE@XZ 1000d2b8 f   vhlscene.obj
+ 0001:0000c2e0       __unwindfunclet$??0CVHLBody@@QAE@ABV0@@Z$0 1000d2e0 f   vhlscene.obj
+ 0001:0000c2eb       __ehhandler$??0CVHLBody@@QAE@ABV0@@Z 1000d2eb f   vhlscene.obj
+ 0001:0000c310       __unwindfunclet$?hConvertToParasolidAssembly@@YAJHPBH0PAH@Z$5 1000d310 f   vhlscene.obj
+ 0001:0000c318       __ehhandler$?hConvertToParasolidAssembly@@YAJHPBH0PAH@Z 1000d318 f   vhlscene.obj
+ 0001:0000c340       __unwindfunclet$?Render@CVHLScene@@QAEJW4JDVIntersectionVHLProcessing@@HHHPAKHQBUPK_NABOX_sf_s@@_NNN@Z$2 1000d340 f   vhlscene.obj
+ 0001:0000c34b       __ehhandler$?Render@CVHLScene@@QAEJW4JDVIntersectionVHLProcessing@@HHHPAKHQBUPK_NABOX_sf_s@@_NNN@Z 1000d34b f   vhlscene.obj
+ 0001:0000c380       __unwindfunclet$??0CVHLBody@@QAE@XZ$0 1000d380 f   vhlscene.obj
+ 0001:0000c38b       __ehhandler$??0CVHLBody@@QAE@XZ 1000d38b f   vhlscene.obj
+ 0001:0000c3b0       __unwindfunclet$??0CVHLBody@@QAE@H@Z$0 1000d3b0 f   vhlscene.obj
+ 0001:0000c3bb       __ehhandler$??0CVHLBody@@QAE@H@Z 1000d3bb f   vhlscene.obj
+ 0001:0000c3e0       __unwindfunclet$?Open@CVHLBody@@QAEXPBH000PBN00PAH@Z$1 1000d3e0 f   vhlscene.obj
+ 0001:0000c3eb       __unwindfunclet$?Open@CVHLBody@@QAEXPBH000PBN00PAH@Z$2 1000d3eb f   vhlscene.obj
+ 0001:0000c3f3       __ehhandler$?Open@CVHLBody@@QAEXPBH000PBN00PAH@Z 1000d3f3 f   vhlscene.obj
+ 0001:0000c410       __unwindfunclet$?Output@CVHLBody@@QAEXPBH000PBN00PAHKUtagGPlane@@N@Z$1 1000d410 f   vhlscene.obj
+ 0001:0000c41b       __unwindfunclet$?Output@CVHLBody@@QAEXPBH000PBN00PAHKUtagGPlane@@N@Z$2 1000d41b f   vhlscene.obj
+ 0001:0000c423       __ehhandler$?Output@CVHLBody@@QAEXPBH000PBN00PAHKUtagGPlane@@N@Z 1000d423 f   vhlscene.obj
+ 0001:0000c440       __unwindfunclet$??1CVHLScene@@QAE@XZ$0 1000d440 f   vhlscene.obj
+ 0001:0000c448       __unwindfunclet$??1CVHLScene@@QAE@XZ$1 1000d448 f   vhlscene.obj
+ 0001:0000c453       __unwindfunclet$??1CVHLScene@@QAE@XZ$2 1000d453 f   vhlscene.obj
+ 0001:0000c45e       __unwindfunclet$??1CVHLScene@@QAE@XZ$3 1000d45e f   vhlscene.obj
+ 0001:0000c469       __unwindfunclet$??1CVHLScene@@QAE@XZ$4 1000d469 f   vhlscene.obj
+ 0001:0000c474       __unwindfunclet$??1CVHLScene@@QAE@XZ$5 1000d474 f   vhlscene.obj
+ 0001:0000c47f       __unwindfunclet$??1CVHLScene@@QAE@XZ$6 1000d47f f   vhlscene.obj
+ 0001:0000c48a       __unwindfunclet$??1CVHLScene@@QAE@XZ$7 1000d48a f   vhlscene.obj
+ 0001:0000c495       __unwindfunclet$??1CVHLScene@@QAE@XZ$8 1000d495 f   vhlscene.obj
+ 0001:0000c4a3       __unwindfunclet$??1CVHLScene@@QAE@XZ$9 1000d4a3 f   vhlscene.obj
+ 0001:0000c4b1       __ehhandler$??1CVHLScene@@QAE@XZ 1000d4b1 f   vhlscene.obj
+ 0001:0000c4d0       __unwindfunclet$?AddBody@CVHLScene@@QAEHHW4LUComponentClassification@@PBUtagGTransf@@PAVTAG_LIST@@HHHH@Z$3 1000d4d0 f   vhlscene.obj
+ 0001:0000c4de       __ehhandler$?AddBody@CVHLScene@@QAEHHW4LUComponentClassification@@PBUtagGTransf@@PAVTAG_LIST@@HHHH@Z 1000d4de f   vhlscene.obj
+ 0001:0000c500       __unwindfunclet$??0CVHLScene@@QAE@XZ$0 1000d500 f   vhlscene.obj
+ 0001:0000c50b       __unwindfunclet$??0CVHLScene@@QAE@XZ$1 1000d50b f   vhlscene.obj
+ 0001:0000c519       __unwindfunclet$??0CVHLScene@@QAE@XZ$2 1000d519 f   vhlscene.obj
+ 0001:0000c527       __unwindfunclet$??0CVHLScene@@QAE@XZ$3 1000d527 f   vhlscene.obj
+ 0001:0000c535       __unwindfunclet$??0CVHLScene@@QAE@XZ$4 1000d535 f   vhlscene.obj
+ 0001:0000c543       __unwindfunclet$??0CVHLScene@@QAE@XZ$5 1000d543 f   vhlscene.obj
+ 0001:0000c551       __unwindfunclet$??0CVHLScene@@QAE@XZ$6 1000d551 f   vhlscene.obj
+ 0001:0000c55f       __unwindfunclet$??0CVHLScene@@QAE@XZ$7 1000d55f f   vhlscene.obj
+ 0001:0000c56d       __unwindfunclet$??0CVHLScene@@QAE@XZ$8 1000d56d f   vhlscene.obj
+ 0001:0000c57e       __unwindfunclet$??0CVHLScene@@QAE@XZ$9 1000d57e f   vhlscene.obj
+ 0001:0000c58f       __ehhandler$??0CVHLScene@@QAE@XZ 1000d58f f   vhlscene.obj
+ 0001:0000c5b0       ??__E_dwJArray_PrePSTickCount@@YAXXZ 1000d5b0 f   pstimer.obj
+ 0001:0000c5d0       ??__E_dwJArray_PSMilliSeconds@@YAXXZ 1000d5d0 f   pstimer.obj
+ 0001:0000c5f0       ??__E_nJArray_NumPSEdges@@YAXXZ 1000d5f0 f   pstimer.obj
+ 0001:0000c610       ??__E_dwJArray_PSComputeLines@@YAXXZ 1000d610 f   pstimer.obj
+ 0001:0000c630       ??__E_nJArray_MemoryTarget@@YAXXZ 1000d630 f   pstimer.obj
+ 0001:0000c650       ??__EGNULL_Camera@@YAXXZ   1000d650 f   vhlscene.obj
+ 0001:0000c670       ??__EGNULL_CAMERA@@YAXXZ   1000d670 f   vhlscene.obj
+ 0001:0000c690       ??__EGID_Camera@@YAXXZ     1000d690 f   vhlscene.obj
+ 0001:0000c6b0       ??__EGID_CAMERA@@YAXXZ     1000d6b0 f   vhlscene.obj
+ 0001:0000c6d0       ??__EGOTimer@@YAXXZ        1000d6d0 f   vhlscene.obj
+ 0001:0000c700       ??__F_dwJArray_PrePSTickCount@@YAXXZ 1000d700 f   pstimer.obj
+ 0001:0000c710       ??__F_dwJArray_PSMilliSeconds@@YAXXZ 1000d710 f   pstimer.obj
+ 0001:0000c720       ??__F_nJArray_NumPSEdges@@YAXXZ 1000d720 f   pstimer.obj
+ 0001:0000c730       ??__F_dwJArray_PSComputeLines@@YAXXZ 1000d730 f   pstimer.obj
+ 0001:0000c740       ??__F_nJArray_MemoryTarget@@YAXXZ 1000d740 f   pstimer.obj

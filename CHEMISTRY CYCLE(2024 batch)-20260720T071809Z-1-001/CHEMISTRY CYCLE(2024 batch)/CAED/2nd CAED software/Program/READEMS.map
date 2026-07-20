@@ -1,0 +1,819 @@
+ READEMS
+
+ Timestamp is 46b3a744 (Fri Aug 03 17:08:04 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00009548H .text                   CODE
+ 0001:00009550 000000c9H .text$x                 CODE
+ 0001:00009620 00000376H .text$yc                CODE
+ 0002:00000000 000002d0H .idata$5                DATA
+ 0002:000002d0 00000004H .CRT$XCA                DATA
+ 0002:000002d4 00000070H .CRT$XCU                DATA
+ 0002:00000344 00000004H .CRT$XCZ                DATA
+ 0002:00000348 00000004H .CRT$XIA                DATA
+ 0002:0000034c 00000004H .CRT$XIAA               DATA
+ 0002:00000350 00000004H .CRT$XIZ                DATA
+ 0002:00000360 000015f0H .rdata                  DATA
+ 0002:00001950 00000031H .rdata$debug            DATA
+ 0002:00001984 00000220H .rdata$r                DATA
+ 0002:00001bb0 00000014H .rdata$sxdata           DATA
+ 0002:00001bc4 00000004H .rtc$IAA                DATA
+ 0002:00001bc8 00000004H .rtc$IZZ                DATA
+ 0002:00001bcc 00000004H .rtc$TAA                DATA
+ 0002:00001bd0 00000004H .rtc$TZZ                DATA
+ 0002:00001bd8 0000015cH .xdata$x                DATA
+ 0002:00001d34 000000dcH .idata$2                DATA
+ 0002:00001e10 00000014H .idata$3                DATA
+ 0002:00001e24 000002d0H .idata$4                DATA
+ 0002:000020f4 000008d6H .idata$6                DATA
+ 0002:000029d0 0000006aH .edata                  DATA
+ 0003:00000000 00004818H .data                   DATA
+ 0003:00004818 00001274H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000005       ___safe_se_handler_count   00000005     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?LockServer@JReadEmsClassFactory@@UAGJH@Z 10001030 f   readems.obj
+ 0001:00000050       ??1JReadEmsClassFactory@@QAE@XZ 10001050 f   readems.obj
+ 0001:00000060       ?AddRef@JReadEmsClassFactory@@UAGKXZ 10001060 f   readems.obj
+ 0001:00000060       ?AddRef@JReadEms@@UAGKXZ   10001060 f   readems.obj
+ 0001:00000070       ?QueryInterface@ImpIJReadData@JReadEms@@UAGJABU_GUID@@PAPAX@Z 10001070 f   readems.obj
+ 0001:00000090       ?AddRef@ImpIJReadData@JReadEms@@UAGKXZ 10001090 f   readems.obj
+ 0001:000000b0       ?Release@ImpIJReadData@JReadEms@@UAGKXZ 100010b0 f   readems.obj
+ 0001:000000d0       ?CloseFile@ImpIJReadData@JReadEms@@UAGHXZ 100010d0 f   readems.obj
+ 0001:00000160       ?SetGraphicsFilter@ImpIJReadData@JReadEms@@UAGJPAX@Z 10001160 f   readems.obj
+ 0001:00000170       ?GetSupportedOutputFormats@ImpIJReadData@JReadEms@@UAGHPAG@Z 10001170 f   readems.obj
+ 0001:00000540       _IsEqualGUID               10001540 f i readems.obj
+ 0001:000005e0       ?GetGType2dSurfaceRuleData@@YAJAAUPWsfattrdata@@HPAPAUtagGTypedCurve@@PAUIGEvlt@@PAUtagG4x4@@PAHPAPAPAUtagGType2d@@@Z 100015e0 f   readems.obj
+ 0001:000007b0       ?GetGraphicByID@ImpIJReadData@JReadEms@@UAGJGPAXPAHPAPAPAX@Z 100017b0 f   readems.obj
+ 0001:000007c0       ?GetAllSymbolDefinitions@ImpIJReadData@JReadEms@@UAGJGPAHPAPAPAX@Z 100017c0 f   readems.obj
+ 0001:000007c0       ?GetNextGraphic@ImpIJReadData@JReadEms@@UAGJGPAHPAPAPAX@Z 100017c0 f   readems.obj
+ 0001:000007d0       ?GetSymbolDefinitionByID@ImpIJReadData@JReadEms@@UAGJGPAXPAPAX@Z 100017d0 f   readems.obj
+ 0001:000007e0       ?GetEstimatedProcessingTimeOfGetAllGraphics@ImpIJReadData@JReadEms@@UAGJGPBDPAK@Z 100017e0 f   readems.obj
+ 0001:000007f0       ?StartLogging@ImpIJReadData@JReadEms@@UAGJH@Z 100017f0 f   readems.obj
+ 0001:00000830       ?StopLogging@ImpIJReadData@JReadEms@@UAGJXZ 10001830 f   readems.obj
+ 0001:00000850       ?GetFileName@ImpIJReadData@JReadEms@@UAGJPAPAD@Z 10001850 f   readems.obj
+ 0001:00000870       ?FreeMemory@ImpIJReadData@JReadEms@@UAGHPAX@Z 10001870 f   readems.obj
+ 0001:00000890       ??1JReadEms@@QAE@XZ        10001890 f   readems.obj
+ 0001:000008c0       ?Initialize@JReadEms@@QAEKXZ 100018c0 f   readems.obj
+ 0001:00000950       ?WriteToLog@JReadEms@@QAAHIZZ 10001950 f   readems.obj
+ 0001:00000960       _GetGID_4x4                10001960 f i readems.obj
+ 0001:00000990       ?QueryInterface@JReadEmsClassFactory@@UAGJABU_GUID@@PAPAX@Z 10001990 f   readems.obj
+ 0001:000009e0       ?Release@JReadEms@@UAGKXZ  100019e0 f   readems.obj
+ 0001:00000a20       ?QueryInterface@JReadEms@@UAGJABU_GUID@@PAPAX@Z 10001a20 f   readems.obj
+ 0001:00000a90       ?SetConfiguration@ImpIJReadData@JReadEms@@UAGHPBDGPAX@Z 10001a90 f   readems.obj
+ 0001:00000b30       ?SetupView@JReadEms@@AAEXAAUtagG4x4@@@Z 10001b30 f   readems.obj
+ 0001:00000c20       ?SetTransformation@ImpIJReadData@JReadEms@@UAGHPAX@Z 10001c20 f   readems.obj
+ 0001:00000ca0       ?GetTransformation@ImpIJReadData@JReadEms@@UAGHPAPAX@Z 10001ca0 f   readems.obj
+ 0001:00000d00       ?GetTotalNumberOfElements@ImpIJReadData@JReadEms@@UAGJPAH@Z 10001d00 f   readems.obj
+ 0001:00000d40       ?GetGlobalData@ImpIJReadData@JReadEms@@UAGJGPAPAX@Z 10001d40 f   readems.obj
+ 0001:000013e0       ?GetAllGraphics@ImpIJReadData@JReadEms@@UAGJGPAHPAPAPAX@Z 100023e0 f   readems.obj
+ 0001:00001ba0       ?FreeGraphics@ImpIJReadData@JReadEms@@UAGHGHPAPAX@Z 10002ba0 f   readems.obj
+ 0001:00001d00       ?Release@JReadEmsClassFactory@@UAGKXZ 10002d00 f   readems.obj
+ 0001:00001d30       ??0JReadEmsClassFactory@@QAE@XZ 10002d30 f   readems.obj
+ 0001:00001d40       ?OpenFile@ImpIJReadData@JReadEms@@UAGJPAX@Z 10002d40 f   readems.obj
+ 0001:00002140       ??0JReadEms@@QAE@PAUIUnknown@@@Z 10003140 f   readems.obj
+ 0001:000021d0       ?CreateInstance@JReadEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100031d0 f   readems.obj
+ 0001:000022b0       ?ServerGetNumberOfObjects@@YAKXZ 100032b0 f   server.obj
+ 0001:000022c0       ?ServerGetNumberOfLocks@@YAKXZ 100032c0 f   server.obj
+ 0001:000022d0       ?ServerIncrementNumberOfObjects@@YAXXZ 100032d0 f   server.obj
+ 0001:000022e0       ?ServerDecrementNumberOfObjects@@YAXXZ 100032e0 f   server.obj
+ 0001:000022f0       ?ServerIncrementNumberOfLocks@@YAXXZ 100032f0 f   server.obj
+ 0001:00002300       ?ServerDecrementNumberOfLocks@@YAXXZ 10003300 f   server.obj
+ 0001:00002310       _DllCanUnloadNow@0         10003310 f   server.obj
+ 0001:00002330       _DllGetClassObject@12      10003330 f   server.obj
+ 0001:00002440       ?EMS_GetUnitsTypeFromString@@YAJPADPAI@Z 10003440 f   utils.obj
+ 0001:00002954       ?CFGgetCOMobjectDLLName@@YAHPAD0@Z 10003954 f   config:config.dll
+ 0001:0000295a       ?CFGgetReadDefaultView@@YAHPADPAUtagGView@@@Z 1000395a f   config:config.dll
+ 0001:00002960       ?trInit@@YAHG@Z            10003960 f   ems2gtp:sfemsgtp.obj
+ 0001:000029d0       ?trIMGB3dCurvesToGBspCurves3d@@YAHAAUtagGBoundaries@@@Z 100039d0 f   ems2gtp:sfemsgtp.obj
+ 0001:00002b50       ?trIMGB2dCurvesToGBspCurves2d@@YAHAAUtagGBoundaries2d@@@Z 10003b50 f   ems2gtp:sfemsgtp.obj
+ 0001:00002cd0       ?trDeallocateSfDpData@@YAXAAUPWsfdispdata@@@Z 10003cd0 f   ems2gtp:sfemsgtp.obj
+ 0001:00002d20       ?trUvToXyzGeomLoop@@YAHPAUPWgeomloop@@PAUIGRbsp_surface@@NPAPAU1@@Z 10003d20 f   ems2gtp:sfemsgtp.obj
+ 0001:00002e40       ?pwModifyEndPtCvdata@@YAXPAUPWcvdata@@FPAN@Z 10003e40 f   ems2gtp:sfemsgtp.obj
+ 0001:00002fd0       ?trRepairUvCvsOfFaces@@YAHPAUIGRbsp_surface@@NHPAHPAPAHPAUPWgeomloop@@@Z 10003fd0 f   ems2gtp:sfemsgtp.obj
+ 0001:00003630       ?trIMGBoundaries2dFromPWCvdata@@YAXHPAHPAUPWgeomloop@@AAUtagGBoundaries2d@@0@Z 10004630 f   ems2gtp:sfemsgtp.obj
+ 0001:000039b0       ?trGetGtypeCvsFromIGRbspCvs@@YAHHPAPAUIGRbsp_curve@@PAHPAPAPAUtagGTypedCurve@@@Z 100049b0 f   ems2gtp:sfemsgtp.obj
+ 0001:00003b60       ?trGetSfRuleLineGtypeCurves@@YAHKGFQANPAHPAPAPAUtagGTypedCurve@@@Z 10004b60 f   ems2gtp:sfemsgtp.obj
+ 0001:00003c90       ?trGetSfWireGtypeCurves@@YAHKGFQANPAHPAPAPAUtagGTypedCurve@@@Z 10004c90 f   ems2gtp:sfemsgtp.obj
+ 0001:00003dc0       ?trIMGBoundariesFromPWCvdata@@YAXHPAHPAUPWgeomloop@@AAUtagGBoundaries@@0@Z 10004dc0 f   ems2gtp:sfemsgtp.obj
+ 0001:000041a0       ?trValidateGeomLoop@@YAHNHPAHPAPAHPAUPWgeomloop@@@Z 100051a0 f   ems2gtp:sfemsgtp.obj
+ 0001:00004360       ?trSfEmsToGtype@@YAHKGFQANAAUPWsfdispdata@@@Z 10005360 f   ems2gtp:sfemsgtp.obj
+ 0001:00005182       _JFreeLibrary              10006182 f   jutil:JUtil.dll
+ 0001:00005188       _omDeleteOS                10006188 f   miniems:MINIEMS.DLL
+ 0001:0000518e       _pwGetSubbsRtreeRangeFromGRrtree 1000618e f   miniems:MINIEMS.DLL
+ 0001:00005194       _pwIdMx                    10006194 f   miniems:MINIEMS.DLL
+ 0001:0000519a       _omObjOfClass              1000619a f   miniems:MINIEMS.DLL
+ 0001:000051a0       _omClassidFromName         100061a0 f   miniems:MINIEMS.DLL
+ 0001:000051a6       _pwGetSfAttrData           100061a6 f   miniems:MINIEMS.DLL
+ 0001:000051ac       _pwGetColorMap             100061ac f   miniems:MINIEMS.DLL
+ 0001:000051b2       _pwGetColorMapSize         100061b2 f   miniems:MINIEMS.DLL
+ 0001:000051b8       _pwFree                    100061b8 f   miniems:MINIEMS.DLL
+ 0001:000051be       _pwIsSurfaceDisplayable    100061be f   miniems:MINIEMS.DLL
+ 0001:000051c4       _pwIsSurfaceActive         100061c4 f   miniems:MINIEMS.DLL
+ 0001:000051ca       _omGetRtreeObjsOfClass     100061ca f   miniems:MINIEMS.DLL
+ 0001:000051d0       _uomGetUnits               100061d0 f   miniems:MINIEMS.DLL
+ 0001:000051d6       _omConstructOS             100061d6 f   miniems:MINIEMS.DLL
+ 0001:000051dc       _pwGetDpbInfo              100061dc f   miniems:MINIEMS.DLL
+ 0001:000051e2       _pwFreeGeomloop            100061e2 f   miniems:MINIEMS.DLL
+ 0001:000051e8       _pwPrintFileLine           100061e8 f   miniems:MINIEMS.DLL
+ 0001:000051ee       _pwMapUvCvToXyzOfSf        100061ee f   miniems:MINIEMS.DLL
+ 0001:000051f4       _pwCreateGeomloop          100061f4 f   miniems:MINIEMS.DLL
+ 0001:000051fa       _pwIsUvPtsIso              100061fa f   miniems:MINIEMS.DLL
+ 0001:00005200       _pwIsSamePt                10006200 f   miniems:MINIEMS.DLL
+ 0001:00005206       _pwGetEndPtsCvdata         10006206 f   miniems:MINIEMS.DLL
+ 0001:0000520c       _pwGetParTolSf             1000620c f   miniems:MINIEMS.DLL
+ 0001:00005212       _pwRemoveDegenSpans2d      10006212 f   miniems:MINIEMS.DLL
+ 0001:00005218       _pwNumDegenSpans2d         10006218 f   miniems:MINIEMS.DLL
+ 0001:0000521e       _pwGetSfRuleLineCvs        1000621e f   miniems:MINIEMS.DLL
+ 0001:00005224       _pwGetSfEdCvs              10006224 f   miniems:MINIEMS.DLL
+ 0001:0000522a       _pwRemoveDegenSpans        1000622a f   miniems:MINIEMS.DLL
+ 0001:00005230       _pwNumDegenSpans           10006230 f   miniems:MINIEMS.DLL
+ 0001:00005236       _pwSwapNodesGeomloop       10006236 f   miniems:MINIEMS.DLL
+ 0001:0000523c       _pwRevCvdata               1000623c f   miniems:MINIEMS.DLL
+ 0001:00005242       _pwGetSfFaceLoopsUv        10006242 f   miniems:MINIEMS.DLL
+ 0001:00005248       _pwGetUvCvsOfSfFaceLoopsXyz 10006248 f   miniems:MINIEMS.DLL
+ 0001:0000524e       _pwGetSfAsBspline          1000624e f   miniems:MINIEMS.DLL
+ 0001:00005254       _pwGetSfSize               10006254 f   miniems:MINIEMS.DLL
+ 0001:00005260       ?TRTransformGTypedCurve@@YAHPAUtagGTypedCurve@@AAUtagG4x4@@PAHPAUtagGPoint@@0@Z 10006260 f   trutil:trcvutil.obj
+ 0001:00005330       ?TR3dTo2d@@YAHHPAUtagGPoint@@PAUtagGTypedCurve@@PAPAUtagGPoint2d@@PAUtagGTypedCurve2d@@@Z 10006330 f   trutil:trcvutil.obj
+ 0001:000053d0       ?TRTransformAndConvertGeometry@@YAHEPADPAUtagG4x4@@HPAEPAPAD@Z 100063d0 f   trutil:trcvutil.obj
+ 0001:000056e0       _GetGID_TRANSF             100066e0 f i trutil:viewfunc.obj
+ 0001:00005b90       ?TRStdViewToG4x4@@YAHHAAUtagG4x4@@@Z 10006b90 f   trutil:viewfunc.obj
+ 0001:00006200       ?TROrthoViewToG4x4@@YAHAAUtagGOrthoView@@AAUtagG4x4@@@Z 10007200 f   trutil:viewfunc.obj
+ 0001:000063b0       ?TRViewToG4x4@@YAHAAUtagGView@@AAUtagG4x4@@@Z 100073b0 f   trutil:viewfunc.obj
+ 0001:00006490       ??1tagJCharStyleDescrList@@UAE@XZ 10007490 f i trutil:freedata.obj
+ 0001:000064b0       ??_GtagJCharStyleDescrList@@UAEPAXI@Z 100074b0 f i trutil:freedata.obj
+ 0001:000064b0       ??_EtagJCharStyleDescrList@@UAEPAXI@Z 100074b0 f i trutil:freedata.obj
+ 0001:00006530       ?TRFreeGBoundaries2d@@YAXPAUtagGBoundaries2d@@@Z 10007530 f   trutil:freedata.obj
+ 0001:00006570       ?TRFreeGCurve2d@@YAXHPAX@Z 10007570 f   trutil:freedata.obj
+ 0001:00006690       ?TRFreeGTypedCurve@@YAXPAUtagGTypedCurve@@@Z 10007690 f   trutil:freedata.obj
+ 0001:000066f0       ?TRFreeGCurve@@YAXHPAX@Z   100076f0 f   trutil:freedata.obj
+ 0001:000067b0       ?TRFreeGBoundaries@@YAXPAUtagGBoundaries@@@Z 100077b0 f   trutil:freedata.obj
+ 0001:000067f0       ?TRFreeGSurface@@YAXHPAX@Z 100077f0 f   trutil:freedata.obj
+ 0001:00006a20       ??1tagGTextBox@@QAE@XZ     10007a20 f i trutil:freedata.obj
+ 0001:00006a80       ??1tagGDimension@@QAE@XZ   10007a80 f i trutil:freedata.obj
+ 0001:00006af0       ?TRFreeGText@@YAXPAUtagGText@@@Z 10007af0 f   trutil:freedata.obj
+ 0001:00006bf0       ?TRFreeGSymbolInstance@@YAXPAX@Z 10007bf0 f   trutil:freedata.obj
+ 0001:00006c60       ?TRFreeGSatSolid@@YAXPAX@Z 10007c60 f   trutil:freedata.obj
+ 0001:00006cb0       ?TRfreeGFreeFormAttrSet@@YAXKPAUtagGFreeFormAttrSet@@@Z 10007cb0 f   trutil:freedata.obj
+ 0001:00006d50       ?TRFreeGSymbology@@YAXPAUGSymbology@@@Z 10007d50 f   trutil:freedata.obj
+ 0001:00006e70       ?TRFreeGTypedCurve2d@@YAXPAUtagGTypedCurve2d@@@Z 10007e70 f   trutil:freedata.obj
+ 0001:00006e90       ?TRFreeGTypeNonGraphicData@@YAXPAX@Z 10007e90 f   trutil:freedata.obj
+ 0001:00006f20       ?TRFreeGReference@@YAXPAX@Z 10007f20 f   trutil:freedata.obj
+ 0001:00006ff0       ?TRFreeGType@@YAXPAX@Z     10007ff0 f   trutil:freedata.obj
+ 0001:00007430       ?TRFreeGTextBox@@YAXPAUtagGTextBox@@@Z 10008430 f   trutil:freedata.obj
+ 0001:00007550       ?TRFreeGType2d@@YAXPAX@Z   10008550 f   trutil:freedata.obj
+ 0001:000079a0       ?TRFreeGSymbolDefinition@@YAXPAX@Z 100089a0 f   trutil:freedata.obj
+ 0001:00007a40       ?CopyGComplexString@@YAHPAUtagGComplexString@@0@Z 10008a40 f   trutil:trgeomcp.obj
+ 0001:00007ad0       ?CopyGCurve@@YAHHPAXPAPAX@Z 10008ad0 f   trutil:trgeomcp.obj
+ 0001:00007cb0       ?CopyGCurve2d@@YAHHPAXPAPAX@Z 10008cb0 f   trutil:trgeomcp.obj
+ 0001:000080f0       ?CopyGBoundaries@@YAHPAUtagGBoundaries@@0@Z 100090f0 f   trutil:trgeomcp.obj
+ 0001:00008180       ?CopyGComplexString2d@@YAHPAUtagGComplexString2d@@0@Z 10009180 f   trutil:trgeomcp.obj
+ 0001:00008210       ?CopyGBoundaries2d@@YAHPAUtagGBoundaries2d@@0@Z 10009210 f   trutil:trgeomcp.obj
+ 0001:000082a0       ?CopyGBspSurface@@YAHPAUtagGBspSurface@@PAPAU1@@Z 100092a0 f   trutil:trgeomcp.obj
+ 0001:00008480       ?CopyGSurface@@YAHHPAXPAPAX@Z 10009480 f   trutil:trgeomcp.obj
+ 0001:00008a2e       _BSfreecv                  10009a2e f   ubspm2d:ubspm2d.dll
+ 0001:00008a34       _BSsfptseval               10009a34 f   ubspm3d:ubspm3d.dll
+ 0001:00008a3a       _BSsftgeomsf               10009a3a f   ubspm3d:ubspm3d.dll
+ 0001:00008a40       _IMGBspSurfaceCopyWithAlloc 10009a40 f   ugeom:ugeom.dll
+ 0001:00008a46       _IMGTorusCopyWithAlloc     10009a46 f   ugeom:ugeom.dll
+ 0001:00008a4c       _IMGConeCopyWithAlloc      10009a4c f   ugeom:ugeom.dll
+ 0001:00008a52       _IMGPlaneCopyWithAlloc     10009a52 f   ugeom:ugeom.dll
+ 0001:00008a58       _IMTypedSurfaceTransform   10009a58 f   ugeom:ugeom.dll
+ 0001:00008a5e       _IMGBspSurfaceFreeMem      10009a5e f   ugeom:ugeom.dll
+ 0001:00008a64       _IMGTorusFreeMem           10009a64 f   ugeom:ugeom.dll
+ 0001:00008a6a       _IMGConeFreeMem            10009a6a f   ugeom:ugeom.dll
+ 0001:00008a70       _IMGPlaneFreeMem           10009a70 f   ugeom:ugeom.dll
+ 0001:00008a76       _IMGComplexStringSetScope  10009a76 f   ugeom:ugeom.dll
+ 0001:00008a7c       _IMGComplexStringSetForm   10009a7c f   ugeom:ugeom.dll
+ 0001:00008a82       _IMGTypedCurveFreeMem      10009a82 f   ugeom:ugeom.dll
+ 0001:00008a88       _IMGArc3dToGBspCurve3d     10009a88 f   ugeom:ugeom.dll
+ 0001:00008a8e       _IMGEllipse3dToGBspCurve3d 10009a8e f   ugeom:ugeom.dll
+ 0001:00008a94       _IMGLineStringToGBspCurve  10009a94 f   ugeom:ugeom.dll
+ 0001:00008a9a       _IMGLineToGBspCurve        10009a9a f   ugeom:ugeom.dll
+ 0001:00008aa0       _IMGTypedSurfaceFreeMem    10009aa0 f   ugeom:ugeom.dll
+ 0001:00008aa6       _IMIGRbsp_curveToGTypedCurve 10009aa6 f   ugeom:ugeom.dll
+ 0001:00008aac       _IMGTypedCurveAllocMem     10009aac f   ugeom:ugeom.dll
+ 0001:00008ab2       _IMGLineBy2Pts             10009ab2 f   ugeom:ugeom.dll
+ 0001:00008ab8       _IMGLineStringToIGRbsp_curve 10009ab8 f   ugeom:ugeom.dll
+ 0001:00008abe       _IMGTypedSurfaceCopy       10009abe f   ugeom:ugeom.dll
+ 0001:00008ac4       _IMIGRbsp_surfaceToGBspSurface 10009ac4 f   ugeom:ugeom.dll
+ 0001:00008aca       _IMIGRbsp_surfaceToGTorus  10009aca f   ugeom:ugeom.dll
+ 0001:00008ad0       _IMIGRbsp_surfaceToGSphere 10009ad0 f   ugeom:ugeom.dll
+ 0001:00008ad6       _IMIGRbsp_surfaceToGCone   10009ad6 f   ugeom:ugeom.dll
+ 0001:00008adc       _IMIGRbsp_surfaceToGPlane  10009adc f   ugeom:ugeom.dll
+ 0001:00008ae2       _IMGTypedSurfaceAllocMem   10009ae2 f   ugeom:ugeom.dll
+ 0001:00008ae8       _IMTypedCurveTransform4x4  10009ae8 f   ugeom:ugeom.dll
+ 0001:00008aee       _IMTypedCurve3dToTypedCurve2d 10009aee f   ugeom:ugeom.dll
+ 0001:00008af4       _IMTypedSurfaceTransform4x4 10009af4 f   ugeom:ugeom.dll
+ 0001:00008afa       _IMGBspCurveFreeMem        10009afa f   ugeom:ugeom.dll
+ 0001:00008b00       _IMGBspCurveCopyWithAlloc  10009b00 f   ugeom:ugeom.dll
+ 0001:00008b06       _IMGBspSurfaceAllocMem     10009b06 f   ugeom:ugeom.dll
+ 0001:00008b0c       _IMAlloc                   10009b0c f   ugeom2d:ugeom2d.dll
+ 0001:00008b12       _IMFree                    10009b12 f   ugeom2d:ugeom2d.dll
+ 0001:00008b18       _IMGComplexString2dSetScope 10009b18 f   ugeom2d:ugeom2d.dll
+ 0001:00008b1e       _IMGComplexString2dSetForm 10009b1e f   ugeom2d:ugeom2d.dll
+ 0001:00008b24       _IMGTypedCurveFreeMem2d    10009b24 f   ugeom2d:ugeom2d.dll
+ 0001:00008b2a       _IMGArc2dToGBspCurve2d     10009b2a f   ugeom2d:ugeom2d.dll
+ 0001:00008b30       _IMGEllipse2dToGBspCurve2d 10009b30 f   ugeom2d:ugeom2d.dll
+ 0001:00008b36       _IMGLineString2dToGBspCurve2d 10009b36 f   ugeom2d:ugeom2d.dll
+ 0001:00008b3c       _IMGLine2dToGBspCurve2d    10009b3c f   ugeom2d:ugeom2d.dll
+ 0001:00008b42       _IMSetFormCurve            10009b42 f   ugeom2d:ugeom2d.dll
+ 0001:00008b48       _IMGLineString2dToIGRbsp_curve 10009b48 f   ugeom2d:ugeom2d.dll
+ 0001:00008b4e       _IMGTypedCurve2dAllocMem   10009b4e f   ugeom2d:ugeom2d.dll
+ 0001:00008b54       _IMLineByPtPt2d            10009b54 f   ugeom2d:ugeom2d.dll
+ 0001:00008b5a       _IMIGRbsp_curveToGTypedCurve2d 10009b5a f   ugeom2d:ugeom2d.dll
+ 0001:00008b60       _IMGBspCurveFreeMem2d      10009b60 f   ugeom2d:ugeom2d.dll
+ 0001:00008b66       _IMBspCurveCopy2d          10009b66 f   ugeom2d:ugeom2d.dll
+ 0001:00008b6c       _IMGBspCurve2dAllocMem     10009b6c f   ugeom2d:ugeom2d.dll
+ 0001:00008b72       ?IsIdentity@tagGTransf@@QBEHXZ 10009b72 f   umath:umath.dll
+ 0001:00008b78       ??4tagGTransf@@QAEAAU0@ABUtagG4x4@@@Z 10009b78 f   umath:umath.dll
+ 0001:00008b7e       ?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 10009b7e f   umath:umath.dll
+ 0001:00008b84       ?BuildBox@@YA?AUtagGBox@@KPAUtagGPosition@@@Z 10009b84 f   umath:umath.dll
+ 0001:00008b8a       ??XtagGPosition@@QAEAAU0@ABUtagG4x4@@@Z 10009b8a f   umath:umath.dll
+ 0001:00008b90       ?BuildPosition@@YA?AUtagGPosition@@NNN@Z 10009b90 f   umath:umath.dll
+ 0001:00008b96       ??D@YA?AUtagG4x4@@ABU0@0@Z 10009b96 f   umath:umath.dll
+ 0001:00008b9c       ?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 10009b9c f   umath:umath.dll
+ 0001:00008ba2       ?GetDistanceTolerance@@YA?BNXZ 10009ba2 f   umath:umath.dll
+ 0001:00008ba8       ?BuildVector@@YA?AUtagGVector@@NNN@Z 10009ba8 f   umath:umath.dll
+ 0001:00008bae       ?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 10009bae f   umath:umath.dll
+ 0001:00008bb4       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 10009bb4 f   umath:umath.dll
+ 0001:00008bba       ??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 10009bba f   umath:umath.dll
+ 0001:00008bc0       ?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 10009bc0 f   umath:umath.dll
+ 0001:00008bc6       ??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 10009bc6 f   umath:umath.dll
+ 0001:00008bcc       ??D@YA?AUtagGTransf@@ABU0@0@Z 10009bcc f   umath:umath.dll
+ 0001:00008bd2       ?IsNull@tagGVector@@QBEHXZ 10009bd2 f   umath:umath.dll
+ 0001:00008bd8       ??D@YA?AUtagGPosition@@ABU0@ABUtagGMatrix@@@Z 10009bd8 f   umath:umath.dll
+ 0001:00008bde       ?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 10009bde f   umath:umath.dll
+ 0001:00008be4       ?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 10009be4 f   umath:umath.dll
+ 0001:00008bea       ??D@YA?AUtagGVector@@ABU0@0@Z 10009bea f   umath:umath.dll
+ 0001:00008bf0       ??BtagGUnitVector@@QBE?AUtagGVector@@XZ 10009bf0 f   umath:umath.dll
+ 0001:00008bf6       ??XtagGTransf@@QAEAAU0@ABU0@@Z 10009bf6 f   umath:umath.dll
+ 0001:00008bfc       ?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 10009bfc f   umath:umath.dll
+ 0001:00008c02       ??XtagG4x4@@QAEAAU0@ABU0@@Z 10009c02 f   umath:umath.dll
+ 0001:00008c08       ?ScaleTransf@@YA?AUtagGTransf@@N@Z 10009c08 f   umath:umath.dll
+ 0001:00008c0e       _malloc                    10009c0e f   MSVCRT:MSVCR80.dll
+ 0001:00008c14       __callnewh                 10009c14 f   MSVCRT:MSVCR80.dll
+ 0001:00008c1a       ??_Etype_info@@UAEPAXI@Z   10009c1a f i MSVCRT:ti_inst.obj
+ 0001:00008c70       _memset                    10009c70 f   MSVCRT:MSVCR80.dll
+ 0001:00008c76       ??3@YAXPAX@Z               10009c76 f   MSVCRT:MSVCR80.dll
+ 0001:00008c7c       _memcpy                    10009c7c f   MSVCRT:MSVCR80.dll
+ 0001:00008c82       ??_V@YAXPAX@Z              10009c82 f   MSVCRT:MSVCR80.dll
+ 0001:00008c88       @__security_check_cookie@4 10009c88 f   MSVCRT:secchk.obj
+ 0001:00008ca0       __alloca_probe_16          10009ca0 f   MSVCRT:alloca16.obj
+ 0001:00008cb6       __alloca_probe_8           10009cb6     MSVCRT:alloca16.obj
+ 0001:00008ccc       ___CxxFrameHandler3        10009ccc f   MSVCRT:MSVCR80.dll
+ 0001:00008d1f       __CRT_INIT@12              10009d1f f   MSVCRT:crtdll.obj
+ 0001:00008fd4       __DllMainCRTStartup@12     10009fd4 f   MSVCRT:crtdll.obj
+ 0001:00008ff5       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10009ff5 f   MSVCRT:ehvecdtr.obj
+ 0001:00009053       ??_M@YGXPAXIHP6EX0@Z@Z     1000a053 f   MSVCRT:ehvecdtr.obj
+ 0001:000090b6       ___report_gsfailure        1000a0b6 f   MSVCRT:gs_report.obj
+ 0001:000091c0       __chkstk                   1000a1c0 f   MSVCRT:chkstk.obj
+ 0001:000091c0       __alloca_probe             1000a1c0     MSVCRT:chkstk.obj
+ 0001:000091eb       ___clean_type_info_names   1000a1eb f   MSVCRT:tncleanup.obj
+ 0001:000091f7       __onexit                   1000a1f7 f   MSVCRT:atonexit.obj
+ 0001:00009296       _atexit                    1000a296 f   MSVCRT:atonexit.obj
+ 0001:000092a8       __RTC_Initialize           1000a2a8 f   MSVCRT:initsect.obj
+ 0001:000092cc       __RTC_Terminate            1000a2cc f   MSVCRT:initsect.obj
+ 0001:000092f0       __ValidateImageBase        1000a2f0 f   MSVCRT:pesect.obj
+ 0001:00009320       __FindPESection            1000a320 f   MSVCRT:pesect.obj
+ 0001:00009362       __IsNonwritableInCurrentImage 1000a362 f   MSVCRT:pesect.obj
+ 0001:000093ce       __initterm                 1000a3ce f   MSVCRT:MSVCR80.dll
+ 0001:000093d4       __initterm_e               1000a3d4 f   MSVCRT:MSVCR80.dll
+ 0001:000093da       __amsg_exit                1000a3da f   MSVCRT:MSVCR80.dll
+ 0001:000093e0       ___CppXcptFilter           1000a3e0 f   MSVCRT:MSVCR80.dll
+ 0001:000093e6       _DllMain@12                1000a3e6 f   MSVCRT:dllmain.obj
+ 0001:00009408       __SEH_prolog4              1000a408 f   MSVCRT:sehprolg4.obj
+ 0001:0000944d       __SEH_epilog4              1000a44d f   MSVCRT:sehprolg4.obj
+ 0001:00009461       __except_handler4          1000a461 f   MSVCRT:chandler4gs.obj
+ 0001:00009484       ___security_init_cookie    1000a484 f   MSVCRT:gs_support.obj
+ 0001:00009518       ?terminate@@YAXXZ          1000a518 f   MSVCRT:MSVCR80.dll
+ 0001:0000951e       ??1type_info@@UAE@XZ       1000a51e f   MSVCRT:MSVCR80.dll
+ 0001:0000951e       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000a51e f   MSVCRT:MSVCR80.dll
+ 0001:00009524       __crt_debugger_hook        1000a524 f   MSVCRT:MSVCR80.dll
+ 0001:0000952a       ___clean_type_info_names_internal 1000a52a f   MSVCRT:MSVCR80.dll
+ 0001:00009530       __unlock                   1000a530 f   MSVCRT:MSVCR80.dll
+ 0001:00009536       ___dllonexit               1000a536 f   MSVCRT:MSVCR80.dll
+ 0001:0000953c       __lock                     1000a53c f   MSVCRT:MSVCR80.dll
+ 0001:00009542       __except_handler4_common   1000a542 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__JFreeLibrary        1000b000     jutil:JUtil.dll
+ 0002:00000004       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PBD0JKH@Z 1000b004     jutil:JUtil.dll
+ 0002:00000008       __imp_?ConvertUnitToDbu@@YAHINPANPAI@Z 1000b008     jutil:JUtil.dll
+ 0002:0000000c       \177JUtil_NULL_THUNK_DATA  1000b00c     jutil:JUtil.dll
+ 0002:00000010       __imp__DebugBreak@0        1000b010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__InterlockedExchange@8 1000b014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetPrivateProfileIntA@16 1000b018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__Sleep@4             1000b01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__InterlockedCompareExchange@12 1000b020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  1000b024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetCurrentProcess@0 1000b028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__UnhandledExceptionFilter@4 1000b02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__SetUnhandledExceptionFilter@4 1000b030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__IsDebuggerPresent@0 1000b034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__DisableThreadLibraryCalls@4 1000b038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__QueryPerformanceCounter@4 1000b03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetTickCount@0      1000b040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetCurrentThreadId@0 1000b044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentProcessId@0 1000b048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetSystemTimeAsFileTime@4 1000b04c     kernel32:KERNEL32.dll
+ 0002:00000050       \177KERNEL32_NULL_THUNK_DATA 1000b050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__pwGetEndPtsCvdata   1000b054     miniems:MINIEMS.DLL
+ 0002:00000058       __imp__pwGetParTolSf       1000b058     miniems:MINIEMS.DLL
+ 0002:0000005c       __imp__pwRemoveDegenSpans2d 1000b05c     miniems:MINIEMS.DLL
+ 0002:00000060       __imp__pwNumDegenSpans2d   1000b060     miniems:MINIEMS.DLL
+ 0002:00000064       __imp__pwGetSfRuleLineCvs  1000b064     miniems:MINIEMS.DLL
+ 0002:00000068       __imp__pwGetSfEdCvs        1000b068     miniems:MINIEMS.DLL
+ 0002:0000006c       __imp__pwRemoveDegenSpans  1000b06c     miniems:MINIEMS.DLL
+ 0002:00000070       __imp__pwNumDegenSpans     1000b070     miniems:MINIEMS.DLL
+ 0002:00000074       __imp__pwSwapNodesGeomloop 1000b074     miniems:MINIEMS.DLL
+ 0002:00000078       __imp__pwRevCvdata         1000b078     miniems:MINIEMS.DLL
+ 0002:0000007c       __imp__pwGetSfFaceLoopsUv  1000b07c     miniems:MINIEMS.DLL
+ 0002:00000080       __imp__pwGetUvCvsOfSfFaceLoopsXyz 1000b080     miniems:MINIEMS.DLL
+ 0002:00000084       __imp__pwGetSfAsBspline    1000b084     miniems:MINIEMS.DLL
+ 0002:00000088       __imp__pwGetSfSize         1000b088     miniems:MINIEMS.DLL
+ 0002:0000008c       __imp__pwIsSamePt          1000b08c     miniems:MINIEMS.DLL
+ 0002:00000090       __imp__pwIsUvPtsIso        1000b090     miniems:MINIEMS.DLL
+ 0002:00000094       __imp__pwCreateGeomloop    1000b094     miniems:MINIEMS.DLL
+ 0002:00000098       __imp__pwMapUvCvToXyzOfSf  1000b098     miniems:MINIEMS.DLL
+ 0002:0000009c       __imp__pwPrintFileLine     1000b09c     miniems:MINIEMS.DLL
+ 0002:000000a0       __imp__pwFreeGeomloop      1000b0a0     miniems:MINIEMS.DLL
+ 0002:000000a4       __imp__pwGetDpbInfo        1000b0a4     miniems:MINIEMS.DLL
+ 0002:000000a8       __imp__omConstructOS       1000b0a8     miniems:MINIEMS.DLL
+ 0002:000000ac       __imp__uomGetUnits         1000b0ac     miniems:MINIEMS.DLL
+ 0002:000000b0       __imp__omGetRtreeObjsOfClass 1000b0b0     miniems:MINIEMS.DLL
+ 0002:000000b4       __imp__pwIsSurfaceActive   1000b0b4     miniems:MINIEMS.DLL
+ 0002:000000b8       __imp__pwIsSurfaceDisplayable 1000b0b8     miniems:MINIEMS.DLL
+ 0002:000000bc       __imp__pwFree              1000b0bc     miniems:MINIEMS.DLL
+ 0002:000000c0       __imp__pwGetColorMapSize   1000b0c0     miniems:MINIEMS.DLL
+ 0002:000000c4       __imp__pwGetColorMap       1000b0c4     miniems:MINIEMS.DLL
+ 0002:000000c8       __imp__pwGetSfAttrData     1000b0c8     miniems:MINIEMS.DLL
+ 0002:000000cc       __imp__omClassidFromName   1000b0cc     miniems:MINIEMS.DLL
+ 0002:000000d0       __imp__omObjOfClass        1000b0d0     miniems:MINIEMS.DLL
+ 0002:000000d4       __imp__pwIdMx              1000b0d4     miniems:MINIEMS.DLL
+ 0002:000000d8       __imp__omDeleteOS          1000b0d8     miniems:MINIEMS.DLL
+ 0002:000000dc       __imp__pwGetSubbsRtreeRangeFromGRrtree 1000b0dc     miniems:MINIEMS.DLL
+ 0002:000000e0       \177MINIEMS_NULL_THUNK_DATA 1000b0e0     miniems:MINIEMS.DLL
+ 0002:000000e4       __imp_??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 1000b0e4     msvcprt:MSVCP80.dll
+ 0002:000000e8       \177MSVCP80_NULL_THUNK_DATA 1000b0e8     msvcprt:MSVCP80.dll
+ 0002:000000ec       __imp___unlock             1000b0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp____clean_type_info_names_internal 1000b0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___onexit             1000b0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000b0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp_?terminate@@YAXXZ    1000b0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp____CppXcptFilter     1000b100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___adjust_fdiv        1000b104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___amsg_exit          1000b108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___initterm_e         1000b10c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___initterm           1000b110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___decode_pointer     1000b114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___encoded_null       1000b118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___malloc_crt         1000b11c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___encode_pointer     1000b120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp____dllonexit         1000b124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp__remove              1000b128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp__strrchr             1000b12c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp____CxxFrameHandler3  1000b130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp__islower             1000b134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp__calloc              1000b138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___access             1000b13c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp__strcpy_s            1000b140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp_??_V@YAXPAX@Z        1000b144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp__memcpy              1000b148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp_??3@YAXPAX@Z         1000b14c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp__memset              1000b150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp__free                1000b154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp___callnewh           1000b158     MSVCRT:MSVCR80.dll
+ 0002:0000015c       __imp__malloc              1000b15c     MSVCRT:MSVCR80.dll
+ 0002:00000160       __imp___lock               1000b160     MSVCRT:MSVCR80.dll
+ 0002:00000164       __imp___except_handler4_common 1000b164     MSVCRT:MSVCR80.dll
+ 0002:00000168       __imp___crt_debugger_hook  1000b168     MSVCRT:MSVCR80.dll
+ 0002:0000016c       \177MSVCR80_NULL_THUNK_DATA 1000b16c     MSVCRT:MSVCR80.dll
+ 0002:00000170       __imp_?CFGgetReadDefaultView@@YAHPADPAUtagGView@@@Z 1000b170     config:config.dll
+ 0002:00000174       __imp_?CFGgetCOMobjectDLLName@@YAHPAD0@Z 1000b174     config:config.dll
+ 0002:00000178       \177config_NULL_THUNK_DATA 1000b178     config:config.dll
+ 0002:0000017c       __imp__BSfreecv            1000b17c     ubspm2d:ubspm2d.dll
+ 0002:00000180       \177ubspm2d_NULL_THUNK_DATA 1000b180     ubspm2d:ubspm2d.dll
+ 0002:00000184       __imp__BSsfptseval         1000b184     ubspm3d:ubspm3d.dll
+ 0002:00000188       __imp__BSsftgeomsf         1000b188     ubspm3d:ubspm3d.dll
+ 0002:0000018c       \177ubspm3d_NULL_THUNK_DATA 1000b18c     ubspm3d:ubspm3d.dll
+ 0002:00000190       __imp__IMGBspCurveFreeMem  1000b190     ugeom:ugeom.dll
+ 0002:00000194       __imp__IMGBspCurveCopyWithAlloc 1000b194     ugeom:ugeom.dll
+ 0002:00000198       __imp__IMGBspSurfaceAllocMem 1000b198     ugeom:ugeom.dll
+ 0002:0000019c       __imp__IMTypedSurfaceTransform4x4 1000b19c     ugeom:ugeom.dll
+ 0002:000001a0       __imp__IMTypedCurve3dToTypedCurve2d 1000b1a0     ugeom:ugeom.dll
+ 0002:000001a4       __imp__IMTypedCurveTransform4x4 1000b1a4     ugeom:ugeom.dll
+ 0002:000001a8       __imp__IMGTypedSurfaceAllocMem 1000b1a8     ugeom:ugeom.dll
+ 0002:000001ac       __imp__IMIGRbsp_surfaceToGPlane 1000b1ac     ugeom:ugeom.dll
+ 0002:000001b0       __imp__IMGBspSurfaceCopyWithAlloc 1000b1b0     ugeom:ugeom.dll
+ 0002:000001b4       __imp__IMGTorusCopyWithAlloc 1000b1b4     ugeom:ugeom.dll
+ 0002:000001b8       __imp__IMGConeCopyWithAlloc 1000b1b8     ugeom:ugeom.dll
+ 0002:000001bc       __imp__IMGPlaneCopyWithAlloc 1000b1bc     ugeom:ugeom.dll
+ 0002:000001c0       __imp__IMTypedSurfaceTransform 1000b1c0     ugeom:ugeom.dll
+ 0002:000001c4       __imp__IMGBspSurfaceFreeMem 1000b1c4     ugeom:ugeom.dll
+ 0002:000001c8       __imp__IMGTorusFreeMem     1000b1c8     ugeom:ugeom.dll
+ 0002:000001cc       __imp__IMGConeFreeMem      1000b1cc     ugeom:ugeom.dll
+ 0002:000001d0       __imp__IMGPlaneFreeMem     1000b1d0     ugeom:ugeom.dll
+ 0002:000001d4       __imp__IMGComplexStringSetScope 1000b1d4     ugeom:ugeom.dll
+ 0002:000001d8       __imp__IMGComplexStringSetForm 1000b1d8     ugeom:ugeom.dll
+ 0002:000001dc       __imp__IMGTypedCurveFreeMem 1000b1dc     ugeom:ugeom.dll
+ 0002:000001e0       __imp__IMGArc3dToGBspCurve3d 1000b1e0     ugeom:ugeom.dll
+ 0002:000001e4       __imp__IMGEllipse3dToGBspCurve3d 1000b1e4     ugeom:ugeom.dll
+ 0002:000001e8       __imp__IMGLineStringToGBspCurve 1000b1e8     ugeom:ugeom.dll
+ 0002:000001ec       __imp__IMGLineToGBspCurve  1000b1ec     ugeom:ugeom.dll
+ 0002:000001f0       __imp__IMGTypedSurfaceFreeMem 1000b1f0     ugeom:ugeom.dll
+ 0002:000001f4       __imp__IMIGRbsp_curveToGTypedCurve 1000b1f4     ugeom:ugeom.dll
+ 0002:000001f8       __imp__IMGTypedCurveAllocMem 1000b1f8     ugeom:ugeom.dll
+ 0002:000001fc       __imp__IMGLineBy2Pts       1000b1fc     ugeom:ugeom.dll
+ 0002:00000200       __imp__IMGLineStringToIGRbsp_curve 1000b200     ugeom:ugeom.dll
+ 0002:00000204       __imp__IMGTypedSurfaceCopy 1000b204     ugeom:ugeom.dll
+ 0002:00000208       __imp__IMIGRbsp_surfaceToGBspSurface 1000b208     ugeom:ugeom.dll
+ 0002:0000020c       __imp__IMIGRbsp_surfaceToGTorus 1000b20c     ugeom:ugeom.dll
+ 0002:00000210       __imp__IMIGRbsp_surfaceToGSphere 1000b210     ugeom:ugeom.dll
+ 0002:00000214       __imp__IMIGRbsp_surfaceToGCone 1000b214     ugeom:ugeom.dll
+ 0002:00000218       \177ugeom_NULL_THUNK_DATA  1000b218     ugeom:ugeom.dll
+ 0002:0000021c       __imp__IMGBspCurve2dAllocMem 1000b21c     ugeom2d:ugeom2d.dll
+ 0002:00000220       __imp__IMBspCurveCopy2d    1000b220     ugeom2d:ugeom2d.dll
+ 0002:00000224       __imp__IMGBspCurveFreeMem2d 1000b224     ugeom2d:ugeom2d.dll
+ 0002:00000228       __imp__IMIGRbsp_curveToGTypedCurve2d 1000b228     ugeom2d:ugeom2d.dll
+ 0002:0000022c       __imp__IMLineByPtPt2d      1000b22c     ugeom2d:ugeom2d.dll
+ 0002:00000230       __imp__IMGTypedCurve2dAllocMem 1000b230     ugeom2d:ugeom2d.dll
+ 0002:00000234       __imp__IMGLineString2dToIGRbsp_curve 1000b234     ugeom2d:ugeom2d.dll
+ 0002:00000238       __imp__IMSetFormCurve      1000b238     ugeom2d:ugeom2d.dll
+ 0002:0000023c       __imp__IMGLine2dToGBspCurve2d 1000b23c     ugeom2d:ugeom2d.dll
+ 0002:00000240       __imp__IMGLineString2dToGBspCurve2d 1000b240     ugeom2d:ugeom2d.dll
+ 0002:00000244       __imp__IMGEllipse2dToGBspCurve2d 1000b244     ugeom2d:ugeom2d.dll
+ 0002:00000248       __imp__IMGArc2dToGBspCurve2d 1000b248     ugeom2d:ugeom2d.dll
+ 0002:0000024c       __imp__IMGTypedCurveFreeMem2d 1000b24c     ugeom2d:ugeom2d.dll
+ 0002:00000250       __imp__IMGComplexString2dSetForm 1000b250     ugeom2d:ugeom2d.dll
+ 0002:00000254       __imp__IMGComplexString2dSetScope 1000b254     ugeom2d:ugeom2d.dll
+ 0002:00000258       __imp__IMFree              1000b258     ugeom2d:ugeom2d.dll
+ 0002:0000025c       __imp__IMAlloc             1000b25c     ugeom2d:ugeom2d.dll
+ 0002:00000260       \177ugeom2d_NULL_THUNK_DATA 1000b260     ugeom2d:ugeom2d.dll
+ 0002:00000264       __imp_?ScaleTransf@@YA?AUtagGTransf@@N@Z 1000b264     umath:umath.dll
+ 0002:00000268       __imp_??XtagG4x4@@QAEAAU0@ABU0@@Z 1000b268     umath:umath.dll
+ 0002:0000026c       __imp_?RotateTransf@@YA?AUtagGTransf@@NABUtagGUnitVector@@@Z 1000b26c     umath:umath.dll
+ 0002:00000270       __imp_??XtagGTransf@@QAEAAU0@ABU0@@Z 1000b270     umath:umath.dll
+ 0002:00000274       __imp_??BtagGUnitVector@@QBE?AUtagGVector@@XZ 1000b274     umath:umath.dll
+ 0002:00000278       __imp_??D@YA?AUtagGVector@@ABU0@0@Z 1000b278     umath:umath.dll
+ 0002:0000027c       __imp_?BuildMatrix@@YA?AUtagGMatrix@@ABUtagGUnitVector@@00H@Z 1000b27c     umath:umath.dll
+ 0002:00000280       __imp_?BuildTransf@@YA?AUtagGTransf@@ABUtagGMatrix@@ABUtagGVector@@NHHH@Z 1000b280     umath:umath.dll
+ 0002:00000284       __imp_??D@YA?AUtagGPosition@@ABU0@ABUtagGMatrix@@@Z 1000b284     umath:umath.dll
+ 0002:00000288       __imp_?IsNull@tagGVector@@QBEHXZ 1000b288     umath:umath.dll
+ 0002:0000028c       __imp_??D@YA?AUtagGTransf@@ABU0@0@Z 1000b28c     umath:umath.dll
+ 0002:00000290       __imp_??4tagG4x4@@QAEAAU0@ABUtagGTransf@@@Z 1000b290     umath:umath.dll
+ 0002:00000294       __imp_?TranslateTransf@@YA?AUtagGTransf@@ABUtagGVector@@@Z 1000b294     umath:umath.dll
+ 0002:00000298       __imp_??D@YA?AUtagGPosition@@ABUtagG4x4@@ABU0@@Z 1000b298     umath:umath.dll
+ 0002:0000029c       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1000b29c     umath:umath.dll
+ 0002:000002a0       __imp_?BuildUnitVector@@YA?AUtagGUnitVector@@NNN@Z 1000b2a0     umath:umath.dll
+ 0002:000002a4       __imp_?BuildVector@@YA?AUtagGVector@@NNN@Z 1000b2a4     umath:umath.dll
+ 0002:000002a8       __imp_?GetDistanceTolerance@@YA?BNXZ 1000b2a8     umath:umath.dll
+ 0002:000002ac       __imp_?Scale4x4@@YAXNAAUtagG4x4@@PAJ@Z 1000b2ac     umath:umath.dll
+ 0002:000002b0       __imp_??D@YA?AUtagG4x4@@ABU0@0@Z 1000b2b0     umath:umath.dll
+ 0002:000002b4       __imp_?BuildPosition@@YA?AUtagGPosition@@NNN@Z 1000b2b4     umath:umath.dll
+ 0002:000002b8       __imp_??XtagGPosition@@QAEAAU0@ABUtagG4x4@@@Z 1000b2b8     umath:umath.dll
+ 0002:000002bc       __imp_?BuildBox@@YA?AUtagGBox@@KPAUtagGPosition@@@Z 1000b2bc     umath:umath.dll
+ 0002:000002c0       __imp_?BuildBox@@YA?AUtagGBox@@NNNNNN@Z 1000b2c0     umath:umath.dll
+ 0002:000002c4       __imp_??4tagGTransf@@QAEAAU0@ABUtagG4x4@@@Z 1000b2c4     umath:umath.dll
+ 0002:000002c8       __imp_?IsIdentity@tagGTransf@@QBEHXZ 1000b2c8     umath:umath.dll
+ 0002:000002cc       \177umath_NULL_THUNK_DATA  1000b2cc     umath:umath.dll
+ 0002:000002d0       ___xc_a                    1000b2d0     MSVCRT:cinitexe.obj
+ 0002:00000344       ___xc_z                    1000b344     MSVCRT:cinitexe.obj
+ 0002:00000348       ___xi_a                    1000b348     MSVCRT:cinitexe.obj
+ 0002:00000350       ___xi_z                    1000b350     MSVCRT:cinitexe.obj
+ 0002:0000037c       ??_C@_0CB@CJDFPOKG@Export?5Surface?5Plane?5Angle?5Value@ 1000b37c     readems.obj
+ 0002:000003a0       ??_C@_0BD@PNLBHEEG@Output?5File?5Format?$AA@ 1000b3a0     readems.obj
+ 0002:000003b4       ??_C@_0BH@IECCINFA@Export?5Tolerance?5Value?$AA@ 1000b3b4     readems.obj
+ 0002:000003cc       ??_C@_0N@PONGCODM@Export?5Units?$AA@ 1000b3cc     readems.obj
+ 0002:000003dc       ??_C@_0N@PANHANCL@Import?5Units?$AA@ 1000b3dc     readems.obj
+ 0002:000003ec       ??_C@_0BJ@BGOBHFA@Import?5Make?5Base?5Feature?$AA@ 1000b3ec     readems.obj
+ 0002:00000408       ??_C@_0BE@FCPGGPBN@Import?5Property?5map?$AA@ 1000b408     readems.obj
+ 0002:0000041c       ??_C@_0L@OBJFLDAK@Time?5Stamp?$AA@ 1000b41c     readems.obj
+ 0002:00000428       ??_C@_0BF@HLJDKAHE@Write?5Export?5Feature?$AA@ 1000b428     readems.obj
+ 0002:00000440       ??_C@_0BH@IOEKAGKJ@Write?5Feature?5To?5Color?$AA@ 1000b440     readems.obj
+ 0002:00000458       ??_C@_0BL@IGKFIBPC@Write?5Feature?5To?5Line?5Type?$AA@ 1000b458     readems.obj
+ 0002:00000474       ??_C@_0BJ@EFAHJCME@Arrowhead?5Import?5Mapping?$AA@ 1000b474     readems.obj
+ 0002:00000490       ??_C@_0BE@KHPHPGFP@Read?5Polyline?5Width?$AA@ 1000b490     readems.obj
+ 0002:000004a4       ??_C@_01GOHFPIOK@m?$AA@    1000b4a4     readems.obj
+ 0002:000004a8       ??_C@_08CHBOKEDA@JT?5Units?$AA@ 1000b4a8     readems.obj
+ 0002:000004b4       ??_C@_0BD@JJFEBOEJ@Healing?5and?5Sewing?$AA@ 1000b4b4     readems.obj
+ 0002:000004c8       ??_C@_08FAGNKDJG@Relative?$AA@ 1000b4c8     readems.obj
+ 0002:000004d4       ??_C@_0BJ@LPFIMAOP@Chordal?5Tolerance?5Option?$AA@ 1000b4d4     readems.obj
+ 0002:000004f0       ??_C@_05CGKLNCBH@0?4001?$AA@ 1000b4f0     readems.obj
+ 0002:000004f8       ??_C@_0BI@CBIMJFOD@Chordal?5Tolerance?5Value?$AA@ 1000b4f8     readems.obj
+ 0002:00000510       ??_C@_0M@GENAFPDI@Part?5Layers?$AA@ 1000b510     readems.obj
+ 0002:0000051c       ??_C@_0BG@GMNFDLGE@Current?5Configuration?$AA@ 1000b51c     readems.obj
+ 0002:00000534       ??_C@_0L@FOPFONEP@Map?5Colors?$AA@ 1000b534     readems.obj
+ 0002:00000540       ??_C@_0BF@KKOLLPHF@Translate?5Background?$AA@ 1000b540     readems.obj
+ 0002:00000558       ??_C@_0BI@MFGGFIDK@Background?5On?5File?5Open?$AA@ 1000b558     readems.obj
+ 0002:00000570       ??_C@_0BC@DJCMOLJP@RecognizeFeatures?$AA@ 1000b570     readems.obj
+ 0002:00000584       ??_C@_0M@LPOJEKPL@ProE?5Flavor?$AA@ 1000b584     readems.obj
+ 0002:00000590       ??_C@_0N@HODFCELD@Catia?5Flavor?$AA@ 1000b590     readems.obj
+ 0002:000005a0       ??_C@_0BL@JNBEGPMO@Stringently?5Check?5Surfaces?$AA@ 1000b5a0     readems.obj
+ 0002:000005bc       ??_C@_01GBGANLPD@0?$AA@    1000b5bc     readems.obj
+ 0002:000005c0       ??_C@_0BG@KCANDBPI@Sew?5Imported?5Surfaces?$AA@ 1000b5c0     readems.obj
+ 0002:000005d8       ??_C@_0BG@DBKJODPG@Read?5Bounded?5Surfaces?$AA@ 1000b5d8     readems.obj
+ 0002:000005f0       ??_C@_0BJ@FEMKLCAN@Include?5Precise?5Geometry?$AA@ 1000b5f0     readems.obj
+ 0002:0000060c       ??_C@_0BN@NOOPPGPK@Trim?5Curve?5Preference?5Export?$AA@ 1000b60c     readems.obj
+ 0002:0000062c       ??_C@_0BN@EKFEAPKG@Trim?5Curve?5Preference?5Import?$AA@ 1000b62c     readems.obj
+ 0002:0000064c       ??_C@_0BA@NNHGKEDJ@Save?5Preference?$AA@ 1000b64c     readems.obj
+ 0002:0000065c       ??_C@_0O@IDDDOBKM@Import?5Bodies?$AA@ 1000b65c     readems.obj
+ 0002:0000066c       ??_C@_01EKENIIDA@3?$AA@    1000b66c     readems.obj
+ 0002:00000670       ??_C@_09GBPDBPAF@Export?5As?$AA@ 1000b670     readems.obj
+ 0002:0000067c       ??_C@_01HIHLOKLC@1?$AA@    1000b67c     readems.obj
+ 0002:00000680       ??_C@_05CFLIFMAE@Units?$AA@ 1000b680     readems.obj
+ 0002:00000688       ??_C@_0BE@NMCKNGJH@Write?5Layer?5Locates?$AA@ 1000b688     readems.obj
+ 0002:0000069c       ??_C@_0BF@GKCDCOKJ@Write?5Layer?5Displays?$AA@ 1000b69c     readems.obj
+ 0002:000006b4       ??_C@_0BC@FGHJBLN@Write?5Layer?5Names?$AA@ 1000b6b4     readems.obj
+ 0002:000006c8       ??_C@_0BI@GGCOGNPK@Write?5Linestyle?5Weights?$AA@ 1000b6c8     readems.obj
+ 0002:000006e0       ??_C@_0BH@IAPEJMBJ@Write?5Linestyle?5Colors?$AA@ 1000b6e0     readems.obj
+ 0002:000006f8       ??_C@_0BB@OPILLNGD@Break?5Dimensions?$AA@ 1000b6f8     readems.obj
+ 0002:0000070c       ??_C@_0BG@PHGJIMFO@Write?5Linestyle?5Names?$AA@ 1000b70c     readems.obj
+ 0002:00000724       ??_C@_0BC@DCAOBJNM@Write?5Hatchstyles?$AA@ 1000b724     readems.obj
+ 0002:00000738       ??_C@_0BB@IKJBCALA@Read?5Hatchstyles?$AA@ 1000b738     readems.obj
+ 0002:0000074c       ??_C@_0N@FIFLIAKF@Bigfont?5Name?$AA@ 1000b74c     readems.obj
+ 0002:0000075c       ??_C@_0BG@NPFJHKMO@Application?5Text?5Type?$AA@ 1000b75c     readems.obj
+ 0002:00000774       ??_C@_0BO@OOLPFCMN@Process?5Construction?5Elements?$AA@ 1000b774     readems.obj
+ 0002:00000794       ??_C@_0CI@OEHJMIL@Process?5Non?9Displayable?5Referenc@ 1000b794     readems.obj
+ 0002:000007bc       ??_C@_0BD@BCHIGLJA@Max?4?5Nesting?5Depth?$AA@ 1000b7bc     readems.obj
+ 0002:000007d0       ??_C@_0BG@HCCJKKEI@AutoCAD?5Extended?5Data?$AA@ 1000b7d0     readems.obj
+ 0002:000007e8       ??_C@_0BC@BKMMCJAL@MS?5resource?5files?$AA@ 1000b7e8     readems.obj
+ 0002:000007fc       ??_C@_0CF@PMOCJJHO@Foreign?5to?5Neutral?5Server?5Entity@ 1000b7fc     readems.obj
+ 0002:00000824       ??_C@_0CC@FBBHGIJD@Application?5to?5Neutral?5Entity?5Ma@ 1000b824     readems.obj
+ 0002:00000848       ??_C@_0CK@LHDLKMKA@Neutral?5to?5Foreign?5Translation?5E@ 1000b848     readems.obj
+ 0002:00000874       ??_C@_0CK@EKDDLMNO@Foreign?5to?5Neutral?5Translation?5E@ 1000b874     readems.obj
+ 0002:000008a0       ??_C@_0BI@HIIOGLAB@Translate?5Scaled?5Layers?$AA@ 1000b8a0     readems.obj
+ 0002:000008b8       ??_C@_0BJ@HGICCCH@Override?5Linetype?5Colors?$AA@ 1000b8b8     readems.obj
+ 0002:000008d4       ??_C@_0BA@HBGHIPKH@Override?5Colors?$AA@ 1000b8d4     readems.obj
+ 0002:000008e4       ??_C@_0BF@CNNJHLCF@Read?5Linetype?5Colors?$AA@ 1000b8e4     readems.obj
+ 0002:000008fc       ??_C@_0M@FDJECDLA@Read?5Colors?$AA@ 1000b8fc     readems.obj
+ 0002:00000908       ??_C@_0BN@ONKCLLBK@Processing?5Batch?5Translation?$AA@ 1000b908     readems.obj
+ 0002:00000928       ??_C@_0BE@DAGKDAGO@Write?5Default?5Units?$AA@ 1000b928     readems.obj
+ 0002:0000093c       ??_C@_0CC@EIOMEKFP@Memory?5Needed?5Per?5Foreign?5Elemen@ 1000b93c     readems.obj
+ 0002:00000960       ??_C@_0CB@CLNPGHDA@Memory?5Needed?5Per?5Native?5Element@ 1000b960     readems.obj
+ 0002:00000984       ??_C@_0BF@ILGCNOID@Symbol?5Template?5File?$AA@ 1000b984     readems.obj
+ 0002:0000099c       ??_C@_0BI@OCLBEPOH@Pos?5Units?5Per?5Sub?5Units?$AA@ 1000b99c     readems.obj
+ 0002:000009b4       ??_C@_0BL@MMJJPDED@Sub?5Units?5Per?5Master?5Units?$AA@ 1000b9b4     readems.obj
+ 0002:000009d0       ??_C@_0M@ICLKLKFA@Active?5View?$AA@ 1000b9d0     readems.obj
+ 0002:000009dc       ??_C@_0BD@KMAMHCHB@Read?5Block?5Options?$AA@ 1000b9dc     readems.obj
+ 0002:000009f0       ??_C@_0O@DCHCMCMB@Shared?5embeds?$AA@ 1000b9f0     readems.obj
+ 0002:00000a00       ??_C@_0BC@ICFCHNJB@Read?5Cell?5Options?$AA@ 1000ba00     readems.obj
+ 0002:00000a14       ??_C@_0BE@GCLMENOJ@Enable?5DebugLogging?$AA@ 1000ba14     readems.obj
+ 0002:00000a28       ??_C@_0N@JMOEGMKL@Write?5Layers?$AA@ 1000ba28     readems.obj
+ 0002:00000a38       ??_C@_0BP@PBJIHBKO@Write?5Polyline?5Width?5Threshold?$AA@ 1000ba38     readems.obj
+ 0002:00000a58       ??_C@_0BG@FLHOALAM@Read?5Part?5Name?5Prefix?$AA@ 1000ba58     readems.obj
+ 0002:00000a70       ??_C@_0BE@DOPDOAKO@Read?5Part?5File?5Path?$AA@ 1000ba70     readems.obj
+ 0002:00000a84       ??_C@_0BI@MACLNPNC@Read?5Part?5Template?5File?$AA@ 1000ba84     readems.obj
+ 0002:00000a9c       ??_C@_0BM@KLJLDDKK@Read?5Assembly?5Template?5File?$AA@ 1000ba9c     readems.obj
+ 0002:00000ab8       ??_C@_0BD@CJDEKAO@Read?5Default?5Width?$AA@ 1000bab8     readems.obj
+ 0002:00000acc       ??_C@_0O@PFMBKECH@Template?5File?$AA@ 1000bacc     readems.obj
+ 0002:00000adc       ??_C@_0BH@OFFDFAJO@Write?5Embedded?5Objects?$AA@ 1000badc     readems.obj
+ 0002:00000af4       ??_C@_06KMEJCCGM@Ignore?$AA@ 1000baf4     readems.obj
+ 0002:00000afc       ??_C@_0BF@JLBAABMG@Write?5Linked?5Objects?$AA@ 1000bafc     readems.obj
+ 0002:00000b14       ??_C@_0N@HEAKGDJN@Write?5Widths?$AA@ 1000bb14     readems.obj
+ 0002:00000b24       ??_C@_0M@LAIFMFIJ@Read?5Widths?$AA@ 1000bb24     readems.obj
+ 0002:00000b30       ??_C@_0BK@BLOBOGFI@Write?5Font?5Resource?5Files?$AA@ 1000bb30     readems.obj
+ 0002:00000b4c       ??_C@_0BJ@GNNJFEGO@Read?5Font?5Resource?5Files?$AA@ 1000bb4c     readems.obj
+ 0002:00000b68       ??_C@_0BP@EKNMPDJB@Write?5Linestyle?5Resource?5Files?$AA@ 1000bb68     readems.obj
+ 0002:00000b88       ??_C@_0BO@IANLFCPO@Read?5Linestyle?5Resource?5Files?$AA@ 1000bb88     readems.obj
+ 0002:00000ba8       ??_C@_0BA@LEDOLEFK@Ignore?5Warnings?$AA@ 1000bba8     readems.obj
+ 0002:00000bb8       ??_C@_0BF@NMEKCCPP@Read?5Reference?5Paths?$AA@ 1000bbb8     readems.obj
+ 0002:00000bd0       ??_C@_09KMILOHFO@Translate?$AA@ 1000bbd0     readems.obj
+ 0002:00000bdc       ??_C@_0BH@EDICNJKJ@Read?5Reference?5Options?$AA@ 1000bbdc     readems.obj
+ 0002:00000bf4       ??_C@_0O@LEJBMJLO@Write?5Version?$AA@ 1000bbf4     readems.obj
+ 0002:00000c04       ??_C@_0BD@BKNLFPGM@Export?5Entry?5Point?$AA@ 1000bc04     readems.obj
+ 0002:00000c18       ??_C@_0BD@DAELHCPE@Import?5Entry?5Point?$AA@ 1000bc18     readems.obj
+ 0002:00000c2c       ??_C@_03ECEIPJGG@Dll?$AA@  1000bc2c     readems.obj
+ 0002:00000c30       ??_C@_0N@ODHLKEAA@Option?5Forms?$AA@ 1000bc30     readems.obj
+ 0002:00000c40       ??_C@_0BB@NFDEABFA@Write?5Text?5Fonts?$AA@ 1000bc40     readems.obj
+ 0002:00000c54       ??_C@_0BA@PHKIGCGH@Read?5Text?5Fonts?$AA@ 1000bc54     readems.obj
+ 0002:00000c64       ??_C@_0BD@KGCHCEFC@Read?5Default?5Units?$AA@ 1000bc64     readems.obj
+ 0002:00000c78       ??_C@_0BC@KIAAFNBC@Projection?5Vector?$AA@ 1000bc78     readems.obj
+ 0002:00000c8c       ??_C@_0M@NEBNFABG@0?40?50?40?51?40?$AA@ 1000bc8c     readems.obj
+ 0002:00000c98       ??_C@_06EFAGIKOH@Normal?$AA@ 1000bc98     readems.obj
+ 0002:00000ca0       ??_C@_0M@GMKBDHHD@0?40?50?40?50?40?$AA@ 1000bca0     readems.obj
+ 0002:00000cac       ??_C@_0BA@GJLDONN@Reference?5Point?$AA@ 1000bcac     readems.obj
+ 0002:00000cbc       ??_C@_03PGGAENPN@Top?$AA@  1000bcbc     readems.obj
+ 0002:00000cc0       ??_C@_04FABLJDN@Name?$AA@  1000bcc0     readems.obj
+ 0002:00000cc8       ??_C@_0BG@NNEHMMHB@Transformation?5Matrix?$AA@ 1000bcc8     readems.obj
+ 0002:00000ce0       ??_C@_04KOACHJEN@Type?$AA@ 1000bce0     readems.obj
+ 0002:00000ce8       ??_C@_0BD@OOIDEPKH@Write?5Default?5View?$AA@ 1000bce8     readems.obj
+ 0002:00000d00       ??_C@_0EA@DCDFKCHG@1?40?50?40?50?40?50?40?50?40?51?40?50?40?50?40?5@ 1000bd00     readems.obj
+ 0002:00000d40       ??_C@_0P@DIBIOLFJ@Transformation?$AA@ 1000bd40     readems.obj
+ 0002:00000d50       ??_C@_0BC@KKDPPNON@Read?5Default?5View?$AA@ 1000bd50     readems.obj
+ 0002:00000d64       ??_C@_0BB@LHDEPIHM@Write?5Linestyles?$AA@ 1000bd64     readems.obj
+ 0002:00000d78       ??_C@_0BA@JFKIJLEL@Read?5Linestyles?$AA@ 1000bd78     readems.obj
+ 0002:00000d88       ??_C@_0P@HNBPIHLB@Enable?5Logging?$AA@ 1000bd88     readems.obj
+ 0002:00000d98       ??_C@_09HACGBFPA@Seed?5File?$AA@ 1000bd98     readems.obj
+ 0002:00000da4       ??_C@_0L@GEDNDJAA@Entity?5Map?$AA@ 1000bda4     readems.obj
+ 0002:00000daf       ??_C@_00CNPNBAHC@?$AA@     1000bdaf     readems.obj
+ 0002:00000db0       ??_C@_04KAIBKGKB@Dlls?$AA@ 1000bdb0     readems.obj
+ 0002:00000db8       ??_C@_07KHIHFBFN@Options?$AA@ 1000bdb8     readems.obj
+ 0002:00000dc0       _IID_IJReadData            1000bdc0     readems.obj
+ 0002:00001504       ??_7JReadEmsClassFactory@@6B@ 1000c504     readems.obj
+ 0002:0000151c       ??_7JReadEms@@6B@          1000c51c     readems.obj
+ 0002:00001528       ??_C@_0M@LFOOGKKD@READEMS?4drx?$AA@ 1000c528     readems.obj
+ 0002:00001534       ??_C@_0CH@DGPHIMED@?$HLCEAAE570?9DC64?911ce?9B4EE?90800360@ 1000c534     readems.obj
+ 0002:0000155c       ??_C@_0DC@OFKOFPPL@JReadEms?3?3ImpIJReadData?3?3GetTota@ 1000c55c     readems.obj
+ 0002:00001590       __real@3fe0000000000000    1000c590     readems.obj
+ 0002:00001598       __real@3fb999999999999a    1000c598     readems.obj
+ 0002:000015a0       __real@fe37e43c8800759c    1000c5a0     readems.obj
+ 0002:000015a8       __real@7e37e43c8800759c    1000c5a8     readems.obj
+ 0002:000015b0       ??_C@_07NANHAHAH@GRrtree?$AA@ 1000c5b0     readems.obj
+ 0002:000015b8       ??_C@_0CH@MFBLBGBC@JReadEms?3?3ImpIJReadData?3?3GetGlob@ 1000c5b8     readems.obj
+ 0002:000015e0       ??_C@_0CI@JLONLCIK@JReadEms?3?3ImpIJReadData?3?3GetAllG@ 1000c5e0     readems.obj
+ 0002:00001608       ??_C@_08EPLMJDCM@EMSsubbs?$AA@ 1000c608     readems.obj
+ 0002:00001614       ??_C@_0CC@FGOJONBG@JReadEms?3?3ImpIJReadData?3?3OpenFil@ 1000c614     readems.obj
+ 0002:0000163c       ??_7ImpIJReadData@JReadEms@@6B@ 1000c63c     readems.obj
+ 0002:00001698       _CLSID_JReadEms            1000c698     server.obj
+ 0002:000016a8       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000c6a8     stdafx.obj
+ 0002:000016c0       ??_C@_08CAEDCLLD@FURLONGS?$AA@ 1000c6c0     utils.obj
+ 0002:000016cc       ??_C@_07NOMMAADL@FURLONG?$AA@ 1000c6cc     utils.obj
+ 0002:000016d4       ??_C@_06GLEDOMEC@POINTS?$AA@ 1000c6d4     utils.obj
+ 0002:000016dc       ??_C@_05NKNPLGBO@POINT?$AA@ 1000c6dc     utils.obj
+ 0002:000016e4       ??_C@_06JMGGAPHH@CHAINS?$AA@ 1000c6e4     utils.obj
+ 0002:000016ec       ??_C@_05JNGLNOIK@CHAIN?$AA@ 1000c6ec     utils.obj
+ 0002:000016f4       ??_C@_05PFNGONML@LINKS?$AA@ 1000c6f4     utils.obj
+ 0002:000016fc       ??_C@_04CLELJMBJ@LINK?$AA@ 1000c6fc     utils.obj
+ 0002:00001704       ??_C@_05KOBFDPAK@POLES?$AA@ 1000c704     utils.obj
+ 0002:0000170c       ??_C@_04DGDHEAKG@POLE?$AA@ 1000c70c     utils.obj
+ 0002:00001714       ??_C@_04FOHMPHKJ@RODS?$AA@ 1000c714     utils.obj
+ 0002:0000171c       ??_C@_03FAGMKHDG@ROD?$AA@  1000c71c     utils.obj
+ 0002:00001720       ??_C@_0M@IKCMKNDK@THOUSANDTHS?$AA@ 1000c720     utils.obj
+ 0002:0000172c       ??_C@_0L@LLAGNGFF@THOUSANDTH?$AA@ 1000c72c     utils.obj
+ 0002:00001738       ??_C@_04JHLEPJJO@MILS?$AA@ 1000c738     utils.obj
+ 0002:00001740       ??_C@_03JEECBGEF@MIL?$AA@  1000c740     utils.obj
+ 0002:00001744       ??_C@_0L@PBJFDIOF@HUNDREDTHS?$AA@ 1000c744     utils.obj
+ 0002:00001750       ??_C@_09LDLIKHJP@HUNDREDTH?$AA@ 1000c750     utils.obj
+ 0002:0000175c       ??_C@_06KGCPNKMI@TENTHS?$AA@ 1000c75c     utils.obj
+ 0002:00001764       ??_C@_05GBOPKPOL@TENTH?$AA@ 1000c764     utils.obj
+ 0002:0000176c       ??_C@_03HLHKOPNL@KMS?$AA@  1000c76c     utils.obj
+ 0002:00001770       ??_C@_0L@COBLGGKL@KILOMETERS?$AA@ 1000c770     utils.obj
+ 0002:0000177c       ??_C@_09FNAJCKDD@KILOMETER?$AA@ 1000c77c     utils.obj
+ 0002:00001788       ??_C@_02DJKGHFIE@KM?$AA@   1000c788     utils.obj
+ 0002:0000178c       ??_C@_07BKCMMFFP@MICRONS?$AA@ 1000c78c     utils.obj
+ 0002:00001794       ??_C@_06EHDCCFK@MICRON?$AA@ 1000c794     utils.obj
+ 0002:0000179c       ??_C@_0M@BIGJKNLJ@CENTIMETERS?$AA@ 1000c79c     utils.obj
+ 0002:000017a8       ??_C@_0L@CMIIMOJJ@CENTIMETER?$AA@ 1000c7a8     utils.obj
+ 0002:000017b4       ??_C@_02DHLFCEDM@CM?$AA@   1000c7b4     utils.obj
+ 0002:000017b8       ??_C@_0M@OIKPNMDE@MILLIMETERS?$AA@ 1000c7b8     utils.obj
+ 0002:000017c4       ??_C@_0L@OFGKAHAJ@MILLIMETER?$AA@ 1000c7c4     utils.obj
+ 0002:000017d0       ??_C@_02DNCLAJDG@MM?$AA@   1000c7d0     utils.obj
+ 0002:000017d4       ??_C@_02PFPCIDDO@ME?$AA@   1000c7d4     utils.obj
+ 0002:000017d8       ??_C@_06IHCNJKKK@METERS?$AA@ 1000c7d8     utils.obj
+ 0002:000017e0       ??_C@_05NHFLHINP@METER?$AA@ 1000c7e0     utils.obj
+ 0002:000017e8       ??_C@_01PLPBNMEI@M?$AA@    1000c7e8     utils.obj
+ 0002:000017ec       ??_C@_02FJEHMMDC@MI?$AA@   1000c7ec     utils.obj
+ 0002:000017f0       ??_C@_05JOBNNLOP@MILES?$AA@ 1000c7f0     utils.obj
+ 0002:000017f8       ??_C@_04ILCMEMEJ@MILE?$AA@ 1000c7f8     utils.obj
+ 0002:00001800       ??_C@_05IHCOJKDI@YARDS?$AA@ 1000c800     utils.obj
+ 0002:00001808       ??_C@_04NEFLOKNP@YARD?$AA@ 1000c808     utils.obj
+ 0002:00001810       ??_C@_04IIAILPMN@FOOT?$AA@ 1000c810     utils.obj
+ 0002:00001818       ??_C@_04OKCCNKHP@FEET?$AA@ 1000c818     utils.obj
+ 0002:00001820       ??_C@_01GEODFPGF@?8?$AA@   1000c820     utils.obj
+ 0002:00001824       ??_C@_02KKHOEPMP@FT?$AA@   1000c824     utils.obj
+ 0002:00001828       ??_C@_04FNIJOLEA@INCH?$AA@ 1000c828     utils.obj
+ 0002:00001830       ??_C@_02BBAPPCCJ@IN?$AA@   1000c830     utils.obj
+ 0002:00001834       ??_C@_06CAGGGIMA@INCHES?$AA@ 1000c834     utils.obj
+ 0002:0000183c       ??_C@_07LDHCBBPP@EMScone?$AA@ 1000c83c     ems2gtp:sfemsgtp.obj
+ 0002:00001844       ??_C@_08KDOPPHCM@EMSplane?$AA@ 1000c844     ems2gtp:sfemsgtp.obj
+ 0002:00001850       ??_C@_0P@KJAGJLDO@?4?2sfemsgtp?4cpp?$AA@ 1000c850     ems2gtp:sfemsgtp.obj
+ 0002:00001860       __real@4024000000000000    1000c860     ems2gtp:sfemsgtp.obj
+ 0002:00001868       __real@3feccccccccccccd    1000c868     ems2gtp:sfemsgtp.obj
+ 0002:00001880       __real@400921fb54442d18    1000c880     trutil:viewfunc.obj
+ 0002:00001888       __real@4000000000000000    1000c888     trutil:viewfunc.obj
+ 0002:00001890       __real@bff0000000000000    1000c890     trutil:viewfunc.obj
+ 0002:00001898       __real@bff921fb54442d18    1000c898     trutil:viewfunc.obj
+ 0002:000018a0       __real@c00921fb54442d18    1000c8a0     trutil:viewfunc.obj
+ 0002:000018b4       ??_7tagJCharStyleDescrList@@6B@ 1000c8b4     trutil:freedata.obj
+ 0002:000018d0       _IID_IClassFactory         1000c8d0     uuid:unknwn_i.obj
+ 0002:000018e0       _IID_IUnknown              1000c8e0     uuid:unknwn_i.obj
+ 0002:000018f4       ??_7type_info@@6B@         1000c8f4     MSVCRT:ti_inst.obj
+ 0002:000018f8       __pRawDllMain              1000c8f8     MSVCRT:crtdll.obj
+ 0002:000018f8       __pDefaultRawDllMain       1000c8f8     MSVCRT:crtdll.obj
+ 0002:00001908       __load_config_used         1000c908     MSVCRT:loadcfg.obj
+ 0002:00001984       ??_R4JReadEmsClassFactory@@6B@ 1000c984     readems.obj
+ 0002:00001998       ??_R3JReadEmsClassFactory@@8 1000c998     readems.obj
+ 0002:000019a8       ??_R2JReadEmsClassFactory@@8 1000c9a8     readems.obj
+ 0002:000019b8       ??_R1A@?0A@EA@JReadEmsClassFactory@@8 1000c9b8     readems.obj
+ 0002:000019d4       ??_R1A@?0A@EA@IClassFactory@@8 1000c9d4     readems.obj
+ 0002:000019f0       ??_R3IClassFactory@@8      1000c9f0     readems.obj
+ 0002:00001a00       ??_R2IClassFactory@@8      1000ca00     readems.obj
+ 0002:00001a0c       ??_R1A@?0A@EA@IUnknown@@8  1000ca0c     readems.obj
+ 0002:00001a28       ??_R3IUnknown@@8           1000ca28     readems.obj
+ 0002:00001a38       ??_R2IUnknown@@8           1000ca38     readems.obj
+ 0002:00001a40       ??_R4JReadEms@@6B@         1000ca40     readems.obj
+ 0002:00001a54       ??_R3JReadEms@@8           1000ca54     readems.obj
+ 0002:00001a64       ??_R2JReadEms@@8           1000ca64     readems.obj
+ 0002:00001a70       ??_R1A@?0A@EA@JReadEms@@8  1000ca70     readems.obj
+ 0002:00001a8c       ??_R4ImpIJReadData@JReadEms@@6B@ 1000ca8c     readems.obj
+ 0002:00001aa0       ??_R3ImpIJReadData@JReadEms@@8 1000caa0     readems.obj
+ 0002:00001ab0       ??_R2ImpIJReadData@JReadEms@@8 1000cab0     readems.obj
+ 0002:00001ac0       ??_R1A@?0A@EA@ImpIJReadData@JReadEms@@8 1000cac0     readems.obj
+ 0002:00001adc       ??_R1A@?0A@EA@IJReadData@@8 1000cadc     readems.obj
+ 0002:00001af8       ??_R3IJReadData@@8         1000caf8     readems.obj
+ 0002:00001b08       ??_R2IJReadData@@8         1000cb08     readems.obj
+ 0002:00001b14       ??_R4tagJCharStyleDescrList@@6B@ 1000cb14     trutil:freedata.obj
+ 0002:00001b28       ??_R3tagJCharStyleDescrList@@8 1000cb28     trutil:freedata.obj
+ 0002:00001b38       ??_R2tagJCharStyleDescrList@@8 1000cb38     trutil:freedata.obj
+ 0002:00001b40       ??_R1A@?0A@EA@tagJCharStyleDescrList@@8 1000cb40     trutil:freedata.obj
+ 0002:00001b5c       ??_R4type_info@@6B@        1000cb5c     MSVCRT:ti_inst.obj
+ 0002:00001b70       ??_R3type_info@@8          1000cb70     MSVCRT:ti_inst.obj
+ 0002:00001b80       ??_R2type_info@@8          1000cb80     MSVCRT:ti_inst.obj
+ 0002:00001b88       ??_R1A@?0A@EA@type_info@@8 1000cb88     MSVCRT:ti_inst.obj
+ 0002:00001bb0       ___safe_se_handler_table   1000cbb0     <linker-defined>
+ 0002:00001bc4       ___rtc_iaa                 1000cbc4     MSVCRT:initsect.obj
+ 0002:00001bc8       ___rtc_izz                 1000cbc8     MSVCRT:initsect.obj
+ 0002:00001bcc       ___rtc_taa                 1000cbcc     MSVCRT:initsect.obj
+ 0002:00001bd0       ___rtc_tzz                 1000cbd0     MSVCRT:initsect.obj
+ 0002:00001d34       __IMPORT_DESCRIPTOR_config 1000cd34     config:config.dll
+ 0002:00001d48       __IMPORT_DESCRIPTOR_JUtil  1000cd48     jutil:JUtil.dll
+ 0002:00001d5c       __IMPORT_DESCRIPTOR_MINIEMS 1000cd5c     miniems:MINIEMS.DLL
+ 0002:00001d70       __IMPORT_DESCRIPTOR_ubspm2d 1000cd70     ubspm2d:ubspm2d.dll
+ 0002:00001d84       __IMPORT_DESCRIPTOR_ubspm3d 1000cd84     ubspm3d:ubspm3d.dll
+ 0002:00001d98       __IMPORT_DESCRIPTOR_ugeom  1000cd98     ugeom:ugeom.dll
+ 0002:00001dac       __IMPORT_DESCRIPTOR_ugeom2d 1000cdac     ugeom2d:ugeom2d.dll
+ 0002:00001dc0       __IMPORT_DESCRIPTOR_umath  1000cdc0     umath:umath.dll
+ 0002:00001dd4       __IMPORT_DESCRIPTOR_KERNEL32 1000cdd4     kernel32:KERNEL32.dll
+ 0002:00001de8       __IMPORT_DESCRIPTOR_MSVCP80 1000cde8     msvcprt:MSVCP80.dll
+ 0002:00001dfc       __IMPORT_DESCRIPTOR_MSVCR80 1000cdfc     MSVCRT:MSVCR80.dll
+ 0002:00001e10       __NULL_IMPORT_DESCRIPTOR   1000ce10     config:config.dll
+ 0003:00000000       __newmode                  1000e000     newmode.obj
+ 0003:00000004       ??_R0?AVJReadEmsClassFactory@@@8 1000e004     readems.obj
+ 0003:00000028       ??_R0?AUIClassFactory@@@8  1000e028     readems.obj
+ 0003:00000044       ??_R0?AUIUnknown@@@8       1000e044     readems.obj
+ 0003:0000005c       ??_R0?AVJReadEms@@@8       1000e05c     readems.obj
+ 0003:00000074       ??_R0?AUImpIJReadData@JReadEms@@@8 1000e074     readems.obj
+ 0003:0000009c       ??_R0?AUIJReadData@@@8     1000e09c     readems.obj
+ 0003:00002960       ??_R0?AUtagJCharStyleDescrList@@@8 10010960     trutil:freedata.obj
+ 0003:000047e8       ??_R0?AVtype_info@@@8      100127e8     MSVCRT:ti_inst.obj
+ 0003:00004800       ___security_cookie         10012800     MSVCRT:gs_cookie.obj
+ 0003:00004804       ___security_cookie_complement 10012804     MSVCRT:gs_cookie.obj
+ 0003:00004810       ___native_dllmain_reason   10012810     MSVCRT:natstart.obj
+ 0003:00004814       ___native_vcclrit_reason   10012814     MSVCRT:natstart.obj
+ 0003:00005a6c       ?__type_info_root_node@@3U__type_info_node@@A 10013a6c     MSVCRT:tncleanup.obj
+ 0003:00005a74       __adjust_fdiv              10013a74     <common>
+ 0003:00005a78       ___native_startup_state    10013a78     <common>
+ 0003:00005a7c       ___native_startup_lock     10013a7c     <common>
+ 0003:00005a80       ___onexitend               10013a80     <common>
+ 0003:00005a84       ___onexitbegin             10013a84     <common>
+ 0003:00005a88       ___dyn_tls_init_callback   10013a88     <common>
+
+ entry point at        0001:00008fd4
+
+ Static symbols
+
+ 0001:00000190       ?JReadEms_ReallocateGraphicsArray@@YAJPAHHPAPAPAX@Z 10001190 f   readems.obj
+ 0001:00000210       ?GetGTypeSurfaceData@@YAJAAUPWsfdispdata@@PAUIGEvlt@@PAUtagG4x4@@PAHPAPAPAUtagGType@@@Z 10001210 f   readems.obj
+ 0001:00005750       ?TRgetParallelProjectionTransf@@YAHAAUtagGPosition@@AAUtagGVector@@10QANAAUtagGTransf@@@Z 10006750 f   trutil:viewfunc.obj
+ 0001:000064f0       ?TRFreeGComplexString2d@@YAXPAUtagGComplexString2d@@@Z 100074f0 f   trutil:freedata.obj
+ 0001:000066b0       ?TRFreeGComplexString@@YAXPAUtagGComplexString@@@Z 100076b0 f   trutil:freedata.obj
+ 0001:00008cd2       _pre_c_init                10009cd2 f   MSVCRT:crtdll.obj
+ 0001:00008ebe       ___DllMainCRTStartup       10009ebe f   MSVCRT:crtdll.obj
+ 0001:00009550       __unwindfunclet$?CreateInstance@JReadEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$0 1000a550 f   readems.obj
+ 0001:0000955b       __ehhandler$?CreateInstance@JReadEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000a55b f   readems.obj
+ 0001:00009580       __unwindfunclet$_DllGetClassObject@12$0 1000a580 f   server.obj
+ 0001:0000958b       __ehhandler$_DllGetClassObject@12 1000a58b f   server.obj
+ 0001:000095b0       __unwindfunclet$??1tagGTextBox@@QAE@XZ$0 1000a5b0 f   trutil:freedata.obj
+ 0001:000095bb       __ehhandler$??1tagGTextBox@@QAE@XZ 1000a5bb f   trutil:freedata.obj
+ 0001:000095e0       __unwindfunclet$??1tagGDimension@@QAE@XZ$0 1000a5e0 f   trutil:freedata.obj
+ 0001:000095ef       __unwindfunclet$??1tagGDimension@@QAE@XZ$1 1000a5ef f   trutil:freedata.obj
+ 0001:000095fe       __ehhandler$??1tagGDimension@@QAE@XZ 1000a5fe f   trutil:freedata.obj
+ 0001:00009620       ??__EGNULL_Camera@@YAXXZ   1000a620 f   stdafx.obj
+ 0001:00009640       ??__EGNULL_CAMERA@@YAXXZ   1000a640 f   stdafx.obj
+ 0001:00009660       ??__EGID_Camera@@YAXXZ     1000a660 f   stdafx.obj
+ 0001:00009680       ??__EGID_CAMERA@@YAXXZ     1000a680 f   stdafx.obj
+ 0001:000096a0       ??__EGNULL_Camera@@YAXXZ   1000a6a0 f   trutil:trcvutil.obj
+ 0001:000096c0       ??__EGNULL_CAMERA@@YAXXZ   1000a6c0 f   trutil:trcvutil.obj
+ 0001:000096e0       ??__EGID_Camera@@YAXXZ     1000a6e0 f   trutil:trcvutil.obj
+ 0001:00009700       ??__EGID_CAMERA@@YAXXZ     1000a700 f   trutil:trcvutil.obj
+ 0001:00009720       ??__EGNULL_Camera@@YAXXZ   1000a720 f   trutil:viewfunc.obj
+ 0001:00009740       ??__EGNULL_CAMERA@@YAXXZ   1000a740 f   trutil:viewfunc.obj
+ 0001:00009760       ??__EGID_Camera@@YAXXZ     1000a760 f   trutil:viewfunc.obj
+ 0001:00009780       ??__EGID_CAMERA@@YAXXZ     1000a780 f   trutil:viewfunc.obj
+ 0001:000097a0       ??__EGNULL_Camera@@YAXXZ   1000a7a0 f   trutil:freedata.obj
+ 0001:000097c0       ??__EGNULL_CAMERA@@YAXXZ   1000a7c0 f   trutil:freedata.obj
+ 0001:000097e0       ??__EGID_Camera@@YAXXZ     1000a7e0 f   trutil:freedata.obj
+ 0001:00009800       ??__EGID_CAMERA@@YAXXZ     1000a800 f   trutil:freedata.obj
+ 0001:00009820       ??__EGNULL_Camera@@YAXXZ   1000a820 f   trutil:trfunc.obj
+ 0001:00009840       ??__EGNULL_CAMERA@@YAXXZ   1000a840 f   trutil:trfunc.obj
+ 0001:00009860       ??__EGID_Camera@@YAXXZ     1000a860 f   trutil:trfunc.obj
+ 0001:00009880       ??__EGID_CAMERA@@YAXXZ     1000a880 f   trutil:trfunc.obj
+ 0001:000098a0       ??__EGNULL_Camera@@YAXXZ   1000a8a0 f   trutil:trgeomcp.obj
+ 0001:000098c0       ??__EGNULL_CAMERA@@YAXXZ   1000a8c0 f   trutil:trgeomcp.obj
+ 0001:000098e0       ??__EGID_Camera@@YAXXZ     1000a8e0 f   trutil:trgeomcp.obj
+ 0001:00009900       ??__EGID_CAMERA@@YAXXZ     1000a900 f   trutil:trgeomcp.obj
+ 0001:00009920       ??__EGNULL_Camera@@YAXXZ   1000a920 f   trutil:trcreate.obj
+ 0001:00009940       ??__EGNULL_CAMERA@@YAXXZ   1000a940 f   trutil:trcreate.obj
+ 0001:00009960       ??__EGID_Camera@@YAXXZ     1000a960 f   trutil:trcreate.obj
+ 0001:00009980       ??__EGID_CAMERA@@YAXXZ     1000a980 f   trutil:trcreate.obj

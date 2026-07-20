@@ -1,0 +1,1310 @@
+ lyrmgr
+
+ Timestamp is 46b3a3d3 (Fri Aug 03 16:53:23 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000ef23H .text                   CODE
+ 0001:0000ef30 00001724H .text$x                 CODE
+ 0001:00010660 00000276H .text$yc                CODE
+ 0002:00000000 000001a4H .idata$5                DATA
+ 0002:000001a4 00000004H .CRT$XCA                DATA
+ 0002:000001a8 00000050H .CRT$XCU                DATA
+ 0002:000001f8 00000004H .CRT$XCZ                DATA
+ 0002:000001fc 00000004H .CRT$XIA                DATA
+ 0002:00000200 00000004H .CRT$XIAA               DATA
+ 0002:00000204 00000004H .CRT$XIZ                DATA
+ 0002:00000210 00001840H .rdata                  DATA
+ 0002:00001a50 00000030H .rdata$debug            DATA
+ 0002:00001a80 00000b5cH .rdata$r                DATA
+ 0002:000025e0 000001c8H .rdata$sxdata           DATA
+ 0002:000027a8 00000004H .rtc$IAA                DATA
+ 0002:000027ac 00000004H .rtc$IZZ                DATA
+ 0002:000027b0 00000004H .rtc$TAA                DATA
+ 0002:000027b4 00000004H .rtc$TZZ                DATA
+ 0002:000027b8 000018bcH .xdata$x                DATA
+ 0002:00004074 00000000H ATL$__a                 DATA
+ 0002:00004074 00000000H ATL$__z                 DATA
+ 0002:00004074 000000a0H .idata$2                DATA
+ 0002:00004114 00000014H .idata$3                DATA
+ 0002:00004128 000001a4H .idata$4                DATA
+ 0002:000042cc 000008b6H .idata$6                DATA
+ 0002:00004b90 000000f5H .edata                  DATA
+ 0003:00000000 00003aecH .data                   DATA
+ 0003:00003af0 00000e28H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003c0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000072       ___safe_se_handler_count   00000072     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i layer.obj
+ 0001:000000d0       ?Delegate@IOContext@@QAEJPAUIUnknown@@@Z 100010d0 f i layer.obj
+ 0001:00000140       ?AddRef@IJLayerImp@JLayer@@UAGKXZ 10001140 f   layer.obj
+ 0001:00000140       ?AddRef@IJLayerSettingsImp@JLayerSettings@@UAGKXZ 10001140 f   LayerSettings.obj
+ 0001:00000140       ?AddRef@IJLayerManagerImp@JLayerManager@@UAGKXZ 10001140 f   lyrmgr.obj
+ 0001:00000160       ?GetName@IJLayerImp@JLayer@@UAGJPAVGUserText@@@Z 10001160 f   layer.obj
+ 0001:000001b0       ?GetName@IJLayerImp@JLayer@@UAGJPAPA_W@Z 100011b0 f   layer.obj
+ 0001:00000220       ?GetDescription@IJLayerImp@JLayer@@UAGJPAVGUserText@@@Z 10001220 f   layer.obj
+ 0001:00000270       ?SetDescription@IJLayerImp@JLayer@@UAGJPB_W@Z 10001270 f   layer.obj
+ 0001:000002a0       ?IsVisible@IJLayerImp@JLayer@@UAG_NXZ 100012a0 f   layer.obj
+ 0001:000002b0       ?IsLocatable@IJLayerImp@JLayer@@UAG_NXZ 100012b0 f   layer.obj
+ 0001:000002c0       ?GetNumObjects@IJLayerImp@JLayer@@UAGIXZ 100012c0 f   layer.obj
+ 0001:000002d0       ?IsAutoHideLayer@IJLayerImp@JLayer@@UAG_NXZ 100012d0 f   layer.obj
+ 0001:00000320       ?QueryInterface@IJPersistImp@JLayerSettings@@UAGJABU_GUID@@PAPAX@Z 10001320 f   LayerSettings.obj
+ 0001:00000320       ?QueryInterface@IJPersistImp@JLayerManager@@UAGJABU_GUID@@PAPAX@Z 10001320 f   lyrmgr.obj
+ 0001:00000320       ?QueryInterface@IJPersistImp@JLayer@@UAGJABU_GUID@@PAPAX@Z 10001320 f   layer.obj
+ 0001:00000340       ?AddRef@IJPersistImp@JLayer@@UAGKXZ 10001340 f   layer.obj
+ 0001:00000340       ?AddRef@IJPersistImp@JLayerManager@@UAGKXZ 10001340 f   lyrmgr.obj
+ 0001:00000340       ?AddRef@IJPersistImp@JLayerSettings@@UAGKXZ 10001340 f   LayerSettings.obj
+ 0001:00000360       ?GetClassID@IJPersistImp@JLayer@@UAGJPAU_GUID@@@Z 10001360 f   layer.obj
+ 0001:000003c0       ?QueryInterface@IJCopyImp@JLayerManager@@UAGJABU_GUID@@PAPAX@Z 100013c0 f   lyrmgr.obj
+ 0001:000003c0       ?QueryInterface@IJCopyImp@JLayer@@UAGJABU_GUID@@PAPAX@Z 100013c0 f   layer.obj
+ 0001:000003e0       ?CreateClones@IJCopyImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 100013e0 f   layer.obj
+ 0001:000003f0       ?PreValueDelete@IJDeleteImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100013f0 f   lyrmgr.obj
+ 0001:000003f0       ?PreValueDelete@IJDeleteImp@JLayer@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100013f0 f   layer.obj
+ 0001:000003f0       ?PreValueCopy@IJCopyImp@JLayer@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100013f0 f   layer.obj
+ 0001:000003f0       ?PreValueCopy@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 100013f0 f   lyrmgrcp.obj
+ 0001:00000400       ?QueryInterface@IJDeleteImp@JLayer@@UAGJABU_GUID@@PAPAX@Z 10001400 f   layer.obj
+ 0001:00000400       ?QueryInterface@IJDeleteImp@JLayerManager@@UAGJABU_GUID@@PAPAX@Z 10001400 f   lyrmgr.obj
+ 0001:00000420       ?AddRef@IJDeleteImp@JLayerManager@@UAGKXZ 10001420 f   lyrmgr.obj
+ 0001:00000420       ?AddRef@IJDeleteImp@JLayer@@UAGKXZ 10001420 f   layer.obj
+ 0001:00000440       ?Release@IJDeleteImp@JLayerManager@@UAGKXZ 10001440 f   lyrmgr.obj
+ 0001:00000440       ?Release@IJDeleteImp@JLayer@@UAGKXZ 10001440 f   layer.obj
+ 0001:00000460       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 10001460 f i lyrmgr.obj
+ 0001:00000460       ??1?$TIP@PAUIJLayerSettings@@@@QAE@XZ 10001460 f i lyrmgr.obj
+ 0001:00000460       ??1?$TIP@PAUIJLayer@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAUIJGraphicRelationValue@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAUIJRelationValue@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAUIJSheet@@@@QAE@XZ 10001460 f i lyrmgr.obj
+ 0001:00000460       ??1?$TIP@PAUIJLayerManager@@@@QAE@XZ 10001460 f i layer.obj
+ 0001:00000460       ??1?$TIP@PAUIJRelationGraphInfo@@@@QAE@XZ 10001460 f i lyrmgr.obj
+ 0001:00000460       ??1?$TIP@PAUIJPersist@@@@QAE@XZ 10001460 f i lyrmgr.obj
+ 0001:00000470       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10001470 f i layer.obj
+ 0001:000004f0       ??1JLayer@@UAE@XZ          100014f0 f   layer.obj
+ 0001:000005a0       ?QueryInterface@JLayer@@UAGJABU_GUID@@PAPAX@Z 100015a0 f   layer.obj
+ 0001:00000970       ?NotifyEdgeBar@JLayer@@AAEXHIJ@Z 10001970 f   layer.obj
+ 0001:00000a40       ?SetVisible@IJLayerImp@JLayer@@UAGJ_N0@Z 10001a40 f   layer.obj
+ 0001:00000aa0       ?SetLocatable@IJLayerImp@JLayer@@UAGJ_N0@Z 10001aa0 f   layer.obj
+ 0001:00000b00       ?AddObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z 10001b00 f   layer.obj
+ 0001:00000ca0       ?RemoveObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z 10001ca0 f   layer.obj
+ 0001:00000e20       ?EnumValues@IJCopyImp@JLayer@@UAGJPAPAUIEnumJIDREF@@@Z 10001e20 f   layer.obj
+ 0001:00000f60       ?EnumValues@IJDeleteImp@JLayer@@UAGJPAPAUIEnumJIDREF@@@Z 10001f60 f   layer.obj
+ 0001:000010a0       ?Disconnect@IJDeleteImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100020a0 f   layer.obj
+ 0001:00001210       ??_EJLayer@@UAEPAXI@Z      10002210 f i layer.obj
+ 0001:00001210       ??_GJLayer@@UAEPAXI@Z      10002210 f i layer.obj
+ 0001:00001230       ?ReconnectClones@IJCopy@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 10002230 f i layer.obj
+ 0001:00001240       ?SetName@IJLayerImp@JLayer@@UAGJPB_W@Z 10002240 f   layer.obj
+ 0001:00001490       ?IsActive@IJLayerImp@JLayer@@UAG_NXZ 10002490 f   layer.obj
+ 0001:00001580       ?ShowOnly@IJLayerImp@JLayer@@UAGJXZ 10002580 f   layer.obj
+ 0001:00001680       ?SerializeVersion1@JLayer@@AAEJPAVIOContext@@@Z 10002680 f   layer.obj
+ 0001:00001a30       ?Serialize@IJPersistImp@JLayer@@UAGJPAVIOContext@@@Z 10002a30 f   layer.obj
+ 0001:00001b20       ?Convert@IJPersistImp@JLayer@@UAGJPAVCvtContext@@@Z 10002b20 f   layer.obj
+ 0001:00001c20       ?ReconnectClones@IJCopyImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z 10002c20 f   layer.obj
+ 0001:00001ec0       ??0JLayer@@QAE@PAUIUnknown@@@Z 10002ec0 f   layer.obj
+ 0001:00001f70       ?Clone@IJPersistImp@JLayer@@UAGJPAUIUnknown@@PAPAU3@@Z 10002f70 f   layer.obj
+ 0001:000020a0       ??3@YAXPAX0@Z              100030a0 f i LayerSettings.obj
+ 0001:000020b0       ??0bad_alloc@std@@QAE@PBD@Z 100030b0 f i LayerSettings.obj
+ 0001:00002110       ??1bad_alloc@std@@UAE@XZ   10003110 f i LayerSettings.obj
+ 0001:00002160       ??_Gbad_alloc@std@@UAEPAXI@Z 10003160 f i LayerSettings.obj
+ 0001:00002160       ??_Ebad_alloc@std@@UAEPAXI@Z 10003160 f i LayerSettings.obj
+ 0001:000021d0       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100031d0 f i LayerSettings.obj
+ 0001:00002240       ??1logic_error@std@@UAE@XZ 10003240 f i LayerSettings.obj
+ 0001:000022a0       ?what@logic_error@std@@UBEPBDXZ 100032a0 f i LayerSettings.obj
+ 0001:000022b0       ??_Glogic_error@std@@UAEPAXI@Z 100032b0 f i LayerSettings.obj
+ 0001:000022b0       ??_Elogic_error@std@@UAEPAXI@Z 100032b0 f i LayerSettings.obj
+ 0001:000022d0       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100032d0 f i LayerSettings.obj
+ 0001:00002330       ??1length_error@std@@UAE@XZ 10003330 f i LayerSettings.obj
+ 0001:00002380       ??_Glength_error@std@@UAEPAXI@Z 10003380 f i LayerSettings.obj
+ 0001:00002380       ??_Elength_error@std@@UAEPAXI@Z 10003380 f i LayerSettings.obj
+ 0001:000023e0       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100033e0 f i LayerSettings.obj
+ 0001:00002440       ??1out_of_range@std@@UAE@XZ 10003440 f i LayerSettings.obj
+ 0001:00002490       ??_Eout_of_range@std@@UAEPAXI@Z 10003490 f i LayerSettings.obj
+ 0001:00002490       ??_Gout_of_range@std@@UAEPAXI@Z 10003490 f i LayerSettings.obj
+ 0001:000024f0       ?QueryInterface@JLayerSettings@@UAGJABU_GUID@@PAPAX@Z 100034f0 f   LayerSettings.obj
+ 0001:000025a0       ?Release@IJLayerImp@JLayer@@UAGKXZ 100035a0 f   layer.obj
+ 0001:000025a0       ?Release@IJLayerManagerImp@JLayerManager@@UAGKXZ 100035a0 f   lyrmgr.obj
+ 0001:000025a0       ?Release@IJLayerSettingsImp@JLayerSettings@@UAGKXZ 100035a0 f   LayerSettings.obj
+ 0001:000025c0       ?GetClassID@IJPersistImp@JLayerSettings@@UAGJPAU_GUID@@@Z 100035c0 f   LayerSettings.obj
+ 0001:00002620       ?GetThis@IJPersistImp@JLayerSettings@@UAGPAXXZ 10003620 f   LayerSettings.obj
+ 0001:00002620       ?GetThis@IJPersistImp@JLayerManager@@UAGPAXXZ 10003620 f   lyrmgr.obj
+ 0001:00002620       ?GetThis@IJPersistImp@JLayer@@UAGPAXXZ 10003620 f   layer.obj
+ 0001:00002630       ?Convert@IJPersistImp@JLayerSettings@@UAGJPAVCvtContext@@@Z 10003630 f   LayerSettings.obj
+ 0001:000026f0       ?_Min@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@@Z 100036f0 f i lyrmgr.obj
+ 0001:000026f0       ?_Min@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@@Z 100036f0 f i LayerSettings.obj
+ 0001:00002710       ??0bad_alloc@std@@QAE@ABV01@@Z 10003710 f i LayerSettings.obj
+ 0001:00002770       ?NotifyEdgeBar@JLayerSettings@@AAEXXZ 10003770 f   LayerSettings.obj
+ 0001:00002830       ?SetVisible@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z 10003830 f   LayerSettings.obj
+ 0001:00002950       ?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z 10003950 f   LayerSettings.obj
+ 0001:00002a50       ?SetLocatable@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z 10003a50 f   LayerSettings.obj
+ 0001:00002b70       ?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z 10003b70 f   LayerSettings.obj
+ 0001:00002c70       ?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z 10003c70 f   LayerSettings.obj
+ 0001:00002de0       ?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z 10003de0 f   LayerSettings.obj
+ 0001:00002f50       ?ShowOnly@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@@Z 10003f50 f   LayerSettings.obj
+ 0001:00003070       ?_Erase@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@@Z 10004070 f i LayerSettings.obj
+ 0001:00003070       ?_Erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@@Z 10004070 f i lyrmgr.obj
+ 0001:000030b0       ?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKE@2@D@Z 100040b0 f i LayerSettings.obj
+ 0001:00003150       ?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@XZ 10004150 f i LayerSettings.obj
+ 0001:00003200       ?erase@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10004200 f i LayerSettings.obj
+ 0001:000034b0       ??0logic_error@std@@QAE@ABV01@@Z 100044b0 f i LayerSettings.obj
+ 0001:00003520       ??0out_of_range@std@@QAE@ABV01@@Z 10004520 f i LayerSettings.obj
+ 0001:00003580       ?clear@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAEXXZ 10004580 f i LayerSettings.obj
+ 0001:00003580       ?clear@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAEXXZ 10004580 f i lyrmgr.obj
+ 0001:000035b0       ?_Insert@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKE@2@@Z 100045b0 f i LayerSettings.obj
+ 0001:00003790       ??0length_error@std@@QAE@ABV01@@Z 10004790 f i LayerSettings.obj
+ 0001:000037f0       ?erase@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 100047f0 f i LayerSettings.obj
+ 0001:000038c0       ?NotifyLayerDeleted@IJLayerSettingsImp@JLayerSettings@@UAGJK@Z 100048c0 f   LayerSettings.obj
+ 0001:00003930       ?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z 10004930 f   LayerSettings.obj
+ 0001:00003c60       ?GetLayerFlags@JLayerSettings@@AAEEK@Z 10004c60 f   LayerSettings.obj
+ 0001:00003cd0       ?insert@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBKE@2@@Z 10004cd0 f i LayerSettings.obj
+ 0001:00003d90       ?SetVisible@IJLayerSettingsImp@JLayerSettings@@UAGJK_N@Z 10004d90 f   LayerSettings.obj
+ 0001:00003ed0       ?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NK@Z 10004ed0 f   LayerSettings.obj
+ 0001:00003ef0       ?SetLocatable@IJLayerSettingsImp@JLayerSettings@@UAGJK_N@Z 10004ef0 f   LayerSettings.obj
+ 0001:00004030       ?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NK@Z 10005030 f   LayerSettings.obj
+ 0001:00004050       ?GetLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJPersistManager@@KPAH1@Z 10005050 f   LayerSettings.obj
+ 0001:000041a0       ?SetLayerFlags@IJLayerSettingsImp@JLayerSettings@@UAGJKE@Z 100051a0 f   LayerSettings.obj
+ 0001:000042b0       ?GetLayerFlags@IJLayerSettingsImp@JLayerSettings@@UAGJKPAE@Z 100052b0 f   LayerSettings.obj
+ 0001:00004310       ?Serialize@IJPersistImp@JLayerSettings@@UAGJPAVIOContext@@@Z 10005310 f   LayerSettings.obj
+ 0001:00004580       ??1?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE@XZ 10005580 f i LayerSettings.obj
+ 0001:000045c0       ??1?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ 100055c0 f i LayerSettings.obj
+ 0001:00004630       ??1JLayerSettings@@UAE@XZ  10005630 f   LayerSettings.obj
+ 0001:000046a0       ??0?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ 100056a0 f i LayerSettings.obj
+ 0001:00004710       ??0JLayerSettings@@QAE@PAUIUnknown@@@Z 10005710 f   LayerSettings.obj
+ 0001:00004790       ??_GJLayerSettings@@UAEPAXI@Z 10005790 f i LayerSettings.obj
+ 0001:00004790       ??_EJLayerSettings@@UAEPAXI@Z 10005790 f i LayerSettings.obj
+ 0001:000047b0       ?Clone@IJPersistImp@JLayerSettings@@UAGJPAUIUnknown@@PAPAU3@@Z 100057b0 f   LayerSettings.obj
+ 0001:000048f0       ?SerializeClassStm@JIOStreamContext@@QAEJPAU_GUID@@@Z 100058f0 f i lyrmgr.obj
+ 0001:00004920       ?QueryInterface@IJLayerManagerImp@JLayerManager@@UAGJABU_GUID@@PAPAX@Z 10005920 f   lyrmgr.obj
+ 0001:00004920       ?QueryInterface@IJLayerSettingsImp@JLayerSettings@@UAGJABU_GUID@@PAPAX@Z 10005920 f   LayerSettings.obj
+ 0001:00004920       ?QueryInterface@IJLayerImp@JLayer@@UAGJABU_GUID@@PAPAX@Z 10005920 f   layer.obj
+ 0001:00004940       ?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAK@Z 10005940 f   lyrmgr.obj
+ 0001:00004980       ?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10005980 f   lyrmgr.obj
+ 0001:00004a30       ?Release@IJPersistImp@JLayerManager@@UAGKXZ 10005a30 f   lyrmgr.obj
+ 0001:00004a30       ?Release@IJPersistImp@JLayerSettings@@UAGKXZ 10005a30 f   LayerSettings.obj
+ 0001:00004a30       ?Release@IJPersistImp@JLayer@@UAGKXZ 10005a30 f   layer.obj
+ 0001:00004a50       ?GetClassID@IJPersistImp@JLayerManager@@UAGJPAU_GUID@@@Z 10005a50 f   lyrmgr.obj
+ 0001:00004ab0       ?AddRef@IJCopyImp@JLayer@@UAGKXZ 10005ab0 f   layer.obj
+ 0001:00004ab0       ?AddRef@IJCopyImp@JLayerManager@@UAGKXZ 10005ab0 f   lyrmgr.obj
+ 0001:00004ad0       ?Release@IJCopyImp@JLayerManager@@UAGKXZ 10005ad0 f   lyrmgr.obj
+ 0001:00004ad0       ?Release@IJCopyImp@JLayer@@UAGKXZ 10005ad0 f   layer.obj
+ 0001:00004af0       ?EnumValues@IJDeleteImp@JLayerManager@@UAGJPAPAUIEnumJIDREF@@@Z 10005af0 f   lyrmgr.obj
+ 0001:00004b10       ??I?$TIP@PAUIJLayerManager@@@@QAEPAPAUIJLayerManager@@XZ 10005b10 f i layer.obj
+ 0001:00004b10       ??I?$TIP@PAUIJLayer@@@@QAEPAPAUIJLayer@@XZ 10005b10 f i layer.obj
+ 0001:00004b10       ??I?$TIP@PAUIJRelationGraphInfo@@@@QAEPAPAUIJRelationGraphInfo@@XZ 10005b10 f i lyrmgr.obj
+ 0001:00004b10       ??I?$TIP@PAUIJPersist@@@@QAEPAPAUIJPersist@@XZ 10005b10 f i lyrmgr.obj
+ 0001:00004b10       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 10005b10 f i layer.obj
+ 0001:00004b10       ??I?$TIP@PAUIJRelationValue@@@@QAEPAPAUIJRelationValue@@XZ 10005b10 f i layer.obj
+ 0001:00004b10       ??I?$TIP@PAUIJLayerSettings@@@@QAEPAPAUIJLayerSettings@@XZ 10005b10 f i lyrmgr.obj
+ 0001:00004b30       ??8const_iterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QBE_NABV012@@Z 10005b30 f i lyrmgr.obj
+ 0001:00004b60       ??4?$TIP@PAUIUnknown@@@@QAEAAV0@ABQAUIUnknown@@@Z 10005b60 f i lyrmgr.obj
+ 0001:00004b90       ?_Xlen@?$vector@KV?$allocator@K@std@@@std@@KAXXZ 10005b90 f i lyrmgr.obj
+ 0001:00004bf0       ?_Max@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@@Z 10005bf0 f i LayerSettings.obj
+ 0001:00004bf0       ?_Max@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@@Z 10005bf0 f i lyrmgr.obj
+ 0001:00004c10       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAEXXZ 10005c10 f i lyrmgr.obj
+ 0001:00004c10       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAEXXZ 10005c10 f i LayerSettings.obj
+ 0001:00004ca0       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAEXXZ 10005ca0 f i LayerSettings.obj
+ 0001:00004ca0       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAEXXZ 10005ca0 f i lyrmgr.obj
+ 0001:00004d10       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBKK@2@D@Z 10005d10 f i lyrmgr.obj
+ 0001:00004d10       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBKE@2@D@Z 10005d10 f i LayerSettings.obj
+ 0001:00004d50       ?QueryInterface@JLayerManager@@UAGJABU_GUID@@PAPAX@Z 10005d50 f   lyrmgr.obj
+ 0001:00005020       ?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 10006020 f   lyrmgr.obj
+ 0001:000051c0       ?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIUnknown@@@Z 100061c0 f   lyrmgr.obj
+ 0001:000052d0       ?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 100062d0 f   lyrmgr.obj
+ 0001:00005420       ?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJK@Z 10006420 f   lyrmgr.obj
+ 0001:00005520       ?GetLayerCount@IJLayerManagerImp@JLayerManager@@UAGKXZ 10006520 f   lyrmgr.obj
+ 0001:00005730       ?GetLayerByPosition@IJLayerManagerImp@JLayerManager@@UAGJIPAPAUIUnknown@@@Z 10006730 f   lyrmgr.obj
+ 0001:00005890       _GetObjectLayer@8          10006890 f   lyrmgr.obj
+ 0001:00005a20       _GetLayerManager@12        10006a20 f   lyrmgr.obj
+ 0001:00005bc0       ??D?$_Vector_iterator@KV?$allocator@K@std@@@std@@QBEAAKXZ 10006bc0 f i lyrmgr.obj
+ 0001:00005bf0       ??9const_iterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QBE_NABV012@@Z 10006bf0 f i lyrmgr.obj
+ 0001:00005bf0       ??9?$_Vector_const_iterator@KV?$allocator@K@std@@@std@@QBE_NABV01@@Z 10006bf0 f i lyrmgr.obj
+ 0001:00005c20       ?allocate@?$allocator@K@std@@QAEPAKI@Z 10006c20 f i lyrmgr.obj
+ 0001:00005c70       ?_Lrotate@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@@Z 10006c70 f i lyrmgr.obj
+ 0001:00005c70       ?_Lrotate@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@@Z 10006c70 f i LayerSettings.obj
+ 0001:00005cc0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@@Z 10006cc0 f i LayerSettings.obj
+ 0001:00005cc0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@@Z 10006cc0 f i lyrmgr.obj
+ 0001:00005d20       ?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PB_W@Z 10006d20 f   lyrmgr.obj
+ 0001:00005ea0       ?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 10006ea0 f   lyrmgr.obj
+ 0001:00006010       ?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 10007010 f   lyrmgr.obj
+ 0001:00006530       _AddObjectToActiveLayer@4  10007530 f   lyrmgr.obj
+ 0001:00006630       _AddObjectToLayer@8        10007630 f   lyrmgr.obj
+ 0001:00006730       _GetObjectLayerName@8      10007730 f   lyrmgr.obj
+ 0001:00006890       ?begin@?$vector@KV?$allocator@K@std@@@std@@QAE?AV?$_Vector_iterator@KV?$allocator@K@std@@@2@XZ 10007890 f i lyrmgr.obj
+ 0001:000068c0       ?end@?$vector@KV?$allocator@K@std@@@std@@QAE?AV?$_Vector_iterator@KV?$allocator@K@std@@@2@XZ 100078c0 f i lyrmgr.obj
+ 0001:000068f0       ??Citerator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QBEPAU?$pair@$$CBKK@2@XZ 100078f0 f i lyrmgr.obj
+ 0001:00006920       ??E?$_Vector_iterator@KV?$allocator@K@std@@@std@@QAE?AV01@H@Z 10007920 f i lyrmgr.obj
+ 0001:00006960       ?erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10007960 f i lyrmgr.obj
+ 0001:00006c10       ?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKK@2@D@Z 10007c10 f i lyrmgr.obj
+ 0001:00006cb0       ?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@XZ 10007cb0 f i lyrmgr.obj
+ 0001:00006d60       ??$fill@PAKK@std@@YAXPAK0ABK@Z 10007d60 f i lyrmgr.obj
+ 0001:00006d80       ??$_Unchecked_move_backward@PAKPAK@stdext@@YAPAKPAK00@Z 10007d80 f i lyrmgr.obj
+ 0001:00006db0       ??$_Distance2@Viterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@I@std@@YAXViterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@0@0AAIUbidirectional_iterator_tag@0@@Z 10007db0 f i lyrmgr.obj
+ 0001:00006df0       ?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 10007df0 f   lyrmgr.obj
+ 0001:00007120       ?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10008120 f   lyrmgr.obj
+ 0001:00007480       ?UpdateDocActiveLayerOnAdd@JLayerManager@@AAEXPAUIJPersistManager@@KPAUIJLayer@@@Z 10008480 f   lyrmgr.obj
+ 0001:00007640       ?GetLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WPAPAUIUnknown@@@Z 10008640 f   lyrmgr.obj
+ 0001:000078c0       ?EnumLayers@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIEnumUnknown@@@Z 100088c0 f   lyrmgr.obj
+ 0001:00007b50       ?IsLayerNameInUse@IJLayerManagerImp@JLayerManager@@UAG_NPB_W@Z 10008b50 f   lyrmgr.obj
+ 0001:00007d80       ?EnumValues@IJCopyImp@JLayerManager@@UAGJPAPAUIEnumJIDREF@@@Z 10008d80 f   lyrmgr.obj
+ 0001:00008090       ?PreValueCopy@IJCopyImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 10009090 f   lyrmgr.obj
+ 0001:000082e0       ??1?$vector@KV?$allocator@K@std@@@std@@QAE@XZ 100092e0 f i lyrmgr.obj
+ 0001:00008310       ?erase@?$vector@KV?$allocator@K@std@@@std@@QAE?AV?$_Vector_iterator@KV?$allocator@K@std@@@2@V32@@Z 10009310 f i lyrmgr.obj
+ 0001:00008350       ?find@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@ABK@Z 10009350 f i lyrmgr.obj
+ 0001:00008350       ?find@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@ABK@Z 10009350 f i LayerSettings.obj
+ 0001:000083c0       ?erase@?$vector@KV?$allocator@K@std@@@std@@QAE?AV?$_Vector_iterator@KV?$allocator@K@std@@@2@V32@0@Z 100093c0 f i lyrmgr.obj
+ 0001:00008420       ?erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10009420 f i lyrmgr.obj
+ 0001:000084f0       ?equal_range@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@V123@@2@ABK@Z 100094f0 f i lyrmgr.obj
+ 0001:00008550       ?_Insert@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKK@2@@Z 10009550 f i lyrmgr.obj
+ 0001:00008730       ?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJKPAK@Z 10009730 f   lyrmgr.obj
+ 0001:00008810       ?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 10009810 f   lyrmgr.obj
+ 0001:00008a40       ?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJKK@Z 10009a40 f   lyrmgr.obj
+ 0001:00008ba0       ?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10009ba0 f   lyrmgr.obj
+ 0001:000090e0       ?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z 1000a0e0 f   lyrmgr.obj
+ 0001:00009430       ?SetVisible@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z 1000a430 f   lyrmgr.obj
+ 0001:00009770       ?SetLocatable@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z 1000a770 f   lyrmgr.obj
+ 0001:00009ab0       ?AddObjectToActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 1000aab0 f   lyrmgr.obj
+ 0001:00009da0       ?IsLayerActiveInAnyContext@IJLayerManagerImp@JLayerManager@@UAG_NPAUIUnknown@@@Z 1000ada0 f   lyrmgr.obj
+ 0001:00009f20       ?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z 1000af20 f   lyrmgr.obj
+ 0001:0000a7e0       ?clear@?$vector@KV?$allocator@K@std@@@std@@QAEXXZ 1000b7e0 f i lyrmgr.obj
+ 0001:0000a820       ??1?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE@XZ 1000b820 f i lyrmgr.obj
+ 0001:0000a860       ?insert@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBKK@2@@Z 1000b860 f i lyrmgr.obj
+ 0001:0000a920       ?erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAEIABK@Z 1000b920 f i lyrmgr.obj
+ 0001:0000a990       ??$_Umove@PAK@?$vector@KV?$allocator@K@std@@@std@@IAEPAKPAK00@Z 1000b990 f i lyrmgr.obj
+ 0001:0000a9d0       ??1?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ 1000b9d0 f i lyrmgr.obj
+ 0001:0000aa40       ??1JLayerManager@@UAE@XZ   1000ba40 f   lyrmgr.obj
+ 0001:0000aae0       ?AddLayerContext@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 1000bae0 f   lyrmgr.obj
+ 0001:0000ad60       ?RemoveLayerContext@JLayerManager@@AAEJPAUIUnknown@@@Z 1000bd60 f   lyrmgr.obj
+ 0001:0000af50       ?Disconnect@IJDeleteImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 1000bf50 f   lyrmgr.obj
+ 0001:0000b1a0       ??0?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ 1000c1a0 f i lyrmgr.obj
+ 0001:0000b210       ?_Ufill@?$vector@KV?$allocator@K@std@@@std@@IAEPAKPAKIABK@Z 1000c210 f i lyrmgr.obj
+ 0001:0000b240       ?_Insert_n@?$vector@KV?$allocator@K@std@@@std@@IAEXV?$_Vector_iterator@KV?$allocator@K@std@@@2@IABK@Z 1000c240 f i lyrmgr.obj
+ 0001:0000b490       ??0JLayerManager@@QAE@PAUIUnknown@@@Z 1000c490 f   lyrmgr.obj
+ 0001:0000b530       ??_GJLayerManager@@UAEPAXI@Z 1000c530 f i lyrmgr.obj
+ 0001:0000b530       ??_EJLayerManager@@UAEPAXI@Z 1000c530 f i lyrmgr.obj
+ 0001:0000b550       ?Clone@IJPersistImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 1000c550 f   lyrmgr.obj
+ 0001:0000b690       ?insert@?$vector@KV?$allocator@K@std@@@std@@QAE?AV?$_Vector_iterator@KV?$allocator@K@std@@@2@V32@ABK@Z 1000c690 f i lyrmgr.obj
+ 0001:0000b720       ?push_back@?$vector@KV?$allocator@K@std@@@std@@QAEXABK@Z 1000c720 f i lyrmgr.obj
+ 0001:0000b790       ?AddLayer@JLayerManager@@AAEJPAUIJPersistManager@@PAUIUnknown@@PAK@Z 1000c790 f   lyrmgr.obj
+ 0001:0000b960       ?AddLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 1000c960 f   lyrmgr.obj
+ 0001:0000bb00       ?EnumContextsInWhichLayerIsActive@IJLayerManagerImp@JLayerManager@@UAGJKPAPAUIEnumUnknown@@@Z 1000cb00 f   lyrmgr.obj
+ 0001:0000bdc0       ?SerializeVersion1@JLayerManager@@AAEJPAVIOContext@@@Z 1000cdc0 f   lyrmgr.obj
+ 0001:0000c190       ?Serialize@IJPersistImp@JLayerManager@@UAGJPAVIOContext@@@Z 1000d190 f   lyrmgr.obj
+ 0001:0000c610       ?Convert@IJPersistImp@JLayerManager@@UAGJPAVCvtContext@@@Z 1000d610 f   lyrmgr.obj
+ 0001:0000c710       ?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z 1000d710 f   lyrmgr.obj
+ 0001:0000ca60       ??1JDocLayerManagerCopySemantic@@UAE@XZ 1000da60 f   lyrmgrcp.obj
+ 0001:0000cac0       ?QueryInterface@JDocLayerManagerCopySemantic@@UAGJABU_GUID@@PAPAX@Z 1000dac0 f   lyrmgrcp.obj
+ 0001:0000cb70       ?QueryInterface@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@EAGJABU_GUID@@PAPAX@Z 1000db70 f   lyrmgrcp.obj
+ 0001:0000cb90       ?AddRef@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@EAGKXZ 1000db90 f   lyrmgrcp.obj
+ 0001:0000cbb0       ?Release@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@EAGKXZ 1000dbb0 f   lyrmgrcp.obj
+ 0001:0000cbd0       ?GetRelation@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@EAGJPAPAUIUnknown@@@Z 1000dbd0 f   lyrmgrcp.obj
+ 0001:0000cc00       ?SetRelation@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@EAGJPAUIUnknown@@@Z 1000dc00 f   lyrmgrcp.obj
+ 0001:0000cc70       ?QueryInterface@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJABU_GUID@@PAPAX@Z 1000dc70 f   lyrmgrcp.obj
+ 0001:0000cc90       ?AddRef@IJCopyImp@JDocLayerManagerCopySemantic@@EAGKXZ 1000dc90 f   lyrmgrcp.obj
+ 0001:0000ccb0       ?Release@IJCopyImp@JDocLayerManagerCopySemantic@@EAGKXZ 1000dcb0 f   lyrmgrcp.obj
+ 0001:0000ccd0       ?QueryInterface@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJABU_GUID@@PAPAX@Z 1000dcd0 f   lyrmgrcp.obj
+ 0001:0000ccf0       ?AddRef@IJPersistImp@JDocLayerManagerCopySemantic@@UAGKXZ 1000dcf0 f   lyrmgrcp.obj
+ 0001:0000cd10       ?Release@IJPersistImp@JDocLayerManagerCopySemantic@@UAGKXZ 1000dd10 f   lyrmgrcp.obj
+ 0001:0000cd30       ?GetClassID@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAU_GUID@@@Z 1000dd30 f   lyrmgrcp.obj
+ 0001:0000cd90       ?GetThis@IJPersistImp@JDocLayerManagerCopySemantic@@UAGPAXXZ 1000dd90 f   lyrmgrcp.obj
+ 0001:0000cda0       ?Serialize@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAVIOContext@@@Z 1000dda0 f   lyrmgrcp.obj
+ 0001:0000cda0       ?SpacemapLeaking@IJPersist@@UAGJPAUIJPersistManager@@@Z 1000dda0 f   layer.obj
+ 0001:0000cdb0       ?Convert@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAVCvtContext@@@Z 1000ddb0 f   lyrmgrcp.obj
+ 0001:0000ce40       ?InitNew@IJPersistImp@JLayer@@UAGJXZ 1000de40 f   layer.obj
+ 0001:0000ce40       ?InitNew@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJXZ 1000de40 f   lyrmgrcp.obj
+ 0001:0000ce40       ?Initialize@JDocLayerManagerCopySemantic@@QAGJXZ 1000de40 f   lyrmgrcp.obj
+ 0001:0000ce40       ?Initialize@JLayer@@QAGJXZ 1000de40 f   layer.obj
+ 0001:0000ce40       ?InitNew@IJPersistImp@JLayerManager@@UAGJXZ 1000de40 f   lyrmgr.obj
+ 0001:0000ce40       ?Initialize@JLayerManager@@QAGJXZ 1000de40 f   lyrmgr.obj
+ 0001:0000ce40       ?InitNew@IJPersistImp@JLayerSettings@@UAGJXZ 1000de40 f   LayerSettings.obj
+ 0001:0000ce40       ?Initialize@JLayerSettings@@QAGJXZ 1000de40 f   LayerSettings.obj
+ 0001:0000ce50       ??_EJDocLayerManagerCopySemantic@@UAEPAXI@Z 1000de50 f i lyrmgrcp.obj
+ 0001:0000ce50       ??_GJDocLayerManagerCopySemantic@@UAEPAXI@Z 1000de50 f i lyrmgrcp.obj
+ 0001:0000ce70       ?EnumValues@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAPAUIEnumJIDREF@@@Z 1000de70 f   lyrmgrcp.obj
+ 0001:0000d0c0       ?CreateClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 1000e0c0 f   lyrmgrcp.obj
+ 0001:0000d370       ?ReconnectClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 1000e370 f   lyrmgrcp.obj
+ 0001:0000d5d0       ?ReconnectClones@IJCopy@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z 1000e5d0 f i lyrmgrcp.obj
+ 0001:0000d5e0       ??0JDocLayerManagerCopySemantic@@QAE@PAUIUnknown@@@Z 1000e5e0 f   lyrmgrcp.obj
+ 0001:0000d660       ?Clone@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAUIUnknown@@PAPAU3@@Z 1000e660 f   lyrmgrcp.obj
+ 0001:0000d770       ?GetObjectCount@@YAKXZ     1000e770 f   server.obj
+ 0001:0000d780       ?ServerIncrementNumberOfObjects@@YAXXZ 1000e780 f   server.obj
+ 0001:0000d790       ?ServerDecrementNumberOfObjects@@YAXXZ 1000e790 f   server.obj
+ 0001:0000d7a0       ?GetLockCount@@YAKXZ       1000e7a0 f   server.obj
+ 0001:0000d7b0       ?ServerIncrementNumberOfLocks@@YAXXZ 1000e7b0 f   server.obj
+ 0001:0000d7c0       ?ServerDecrementNumberOfLocks@@YAXXZ 1000e7c0 f   server.obj
+ 0001:0000d7d0       _DllCanUnloadNow@0         1000e7d0 f   server.obj
+ 0001:0000d7f0       ??0?$ClassFactory@VJLayerManager@@@@QAE@HHH@Z 1000e7f0 f i server.obj
+ 0001:0000d870       ?OnCreateInstance@?$ClassFactory@VJLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000e870 f i server.obj
+ 0001:0000d9c0       ??0?$ClassFactory@VJLayer@@@@QAE@HHH@Z 1000e9c0 f i server.obj
+ 0001:0000da40       ?OnCreateInstance@?$ClassFactory@VJLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000ea40 f i server.obj
+ 0001:0000db90       ??0?$ClassFactory@VJDocLayerManagerCopySemantic@@@@QAE@HHH@Z 1000eb90 f i server.obj
+ 0001:0000dc10       ?OnCreateInstance@?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000ec10 f i server.obj
+ 0001:0000dd60       ??0?$ClassFactory@VJLayerSettings@@@@QAE@HHH@Z 1000ed60 f i server.obj
+ 0001:0000dde0       ?OnCreateInstance@?$ClassFactory@VJLayerSettings@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000ede0 f i server.obj
+ 0001:0000df30       _DllGetClassObject@12      1000ef30 f   server.obj
+ 0001:0000e1a0       ??_G?$ClassFactory@VJLayerManager@@@@UAEPAXI@Z 1000f1a0 f i server.obj
+ 0001:0000e1a0       ??_E?$ClassFactory@VJLayerManager@@@@UAEPAXI@Z 1000f1a0 f i server.obj
+ 0001:0000e200       ??_E?$ClassFactory@VJLayer@@@@UAEPAXI@Z 1000f200 f i server.obj
+ 0001:0000e200       ??_G?$ClassFactory@VJLayer@@@@UAEPAXI@Z 1000f200 f i server.obj
+ 0001:0000e260       ??_E?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEPAXI@Z 1000f260 f i server.obj
+ 0001:0000e260       ??_G?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEPAXI@Z 1000f260 f i server.obj
+ 0001:0000e2c0       ??_E?$ClassFactory@VJLayerSettings@@@@UAEPAXI@Z 1000f2c0 f i server.obj
+ 0001:0000e2c0       ??_G?$ClassFactory@VJLayerSettings@@@@UAEPAXI@Z 1000f2c0 f i server.obj
+ 0001:0000e31c       _CreateBitArray@20         1000f31c f   bitarry:bitarry.dll
+ 0001:0000e322       _JLogModify@4              1000f322 f   jengine:jengine.dll
+ 0001:0000e328       ?AddRef@CPersistObject@@UAGKXZ 1000f328 f   jengine:jengine.dll
+ 0001:0000e32e       ?Release@CPersistObject@@UAGKXZ 1000f32e f   jengine:jengine.dll
+ 0001:0000e334       _JGetFastDAXObject@16      1000f334 f   jengine:jengine.dll
+ 0001:0000e33a       _CreateStdRelation@8       1000f33a f   jengine:jengine.dll
+ 0001:0000e340       _CreateStdRelationValue@12 1000f340 f   jengine:jengine.dll
+ 0001:0000e346       ?JBroadcastMessageToEdgeBar@@YAJPAUIUnknown@@HIJ@Z 1000f346 f   jengine:jengine.dll
+ 0001:0000e34c       @GetPersistManager@8       1000f34c f   jengine:jengine.dll
+ 0001:0000e352       _JCreateJIDREFDataHolder@12 1000f352 f   jengine:jengine.dll
+ 0001:0000e358       _GetOidOfLayerRelation@12  1000f358 f   jengine:jengine.dll
+ 0001:0000e35e       _BatchDelete@4             1000f35e f   jengine:jengine.dll
+ 0001:0000e364       _GetOwnerOrGroup@16        1000f364 f   jengine:jengine.dll
+ 0001:0000e36a       ??1JMemberRoadmap@@QAE@XZ  1000f36a f   jengine:jengine.dll
+ 0001:0000e370       _JGetRootOwner             1000f370 f   jengine:jengine.dll
+ 0001:0000e376       ??0JMemberRoadmap@@QAE@PBXK@Z 1000f376 f   jengine:jengine.dll
+ 0001:0000e37c       _JCreateUnknownDataHolder@12 1000f37c f   jengine:jengine.dll
+ 0001:0000e382       _GetRelationFromSemantic@12 1000f382 f   jengine:jengine.dll
+ 0001:0000e388       _HRerrEx                   1000f388 f   jutil:JUtil.dll
+ 0001:0000e38e       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000f38e f   jutil:JUtil.dll
+ 0001:0000e394       _JCoCreateInstance         1000f394 f   jutil:JUtil.dll
+ 0001:0000e39a       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000f39a f   jutil:JUtil.dll
+ 0001:0000e3a0       ?AddRef@JClassFactory@@UAGKXZ 1000f3a0 f   jutil:JUtil.dll
+ 0001:0000e3a6       ?Release@JClassFactory@@UAGKXZ 1000f3a6 f   jutil:JUtil.dll
+ 0001:0000e3ac       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000f3ac f   jutil:JUtil.dll
+ 0001:0000e3b2       ?LockServer@JClassFactory@@UAGJH@Z 1000f3b2 f   jutil:JUtil.dll
+ 0001:0000e3b8       _malloc                    1000f3b8 f   MSVCRT:MSVCR80.dll
+ 0001:0000e3be       __callnewh                 1000f3be f   MSVCRT:MSVCR80.dll
+ 0001:0000e3c4       ??3@YAXPAX@Z               1000f3c4 f   MSVCRT:MSVCR80.dll
+ 0001:0000e3ca       ??_Etype_info@@UAEPAXI@Z   1000f3ca f i MSVCRT:ti_inst.obj
+ 0001:0000e414       ___CxxFrameHandler3        1000f414 f   MSVCRT:MSVCR80.dll
+ 0001:0000e41a       @__security_check_cookie@4 1000f41a f   MSVCRT:secchk.obj
+ 0001:0000e429       __except_handler4          1000f429 f   MSVCRT:chandler4gs.obj
+ 0001:0000e450       __alloca_probe_16          1000f450 f   MSVCRT:alloca16.obj
+ 0001:0000e466       __alloca_probe_8           1000f466     MSVCRT:alloca16.obj
+ 0001:0000e480       __allmul                   1000f480 f   MSVCRT:llmul.obj
+ 0001:0000e4b4       ?what@exception@std@@UBEPBDXZ 1000f4b4 f   MSVCRT:MSVCR80.dll
+ 0001:0000e4ba       __CxxThrowException@8      1000f4ba f   MSVCRT:MSVCR80.dll
+ 0001:0000e4c0       ??0exception@std@@QAE@ABV01@@Z 1000f4c0 f   MSVCRT:MSVCR80.dll
+ 0001:0000e513       __CRT_INIT@12              1000f513 f   MSVCRT:crtdll.obj
+ 0001:0000e7c8       __DllMainCRTStartup@12     1000f7c8 f   MSVCRT:crtdll.obj
+ 0001:0000e7e9       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000f7e9 f   MSVCRT:ehvecdtr.obj
+ 0001:0000e847       ??_M@YGXPAXIHP6EX0@Z@Z     1000f847 f   MSVCRT:ehvecdtr.obj
+ 0001:0000e8aa       ___report_gsfailure        1000f8aa f   MSVCRT:gs_report.obj
+ 0001:0000e9ae       __except_handler4_common   1000f9ae f   MSVCRT:MSVCR80.dll
+ 0001:0000e9c0       __chkstk                   1000f9c0 f   MSVCRT:chkstk.obj
+ 0001:0000e9c0       __alloca_probe             1000f9c0     MSVCRT:chkstk.obj
+ 0001:0000e9eb       ___clean_type_info_names   1000f9eb f   MSVCRT:tncleanup.obj
+ 0001:0000e9f7       __onexit                   1000f9f7 f   MSVCRT:atonexit.obj
+ 0001:0000ea96       _atexit                    1000fa96 f   MSVCRT:atonexit.obj
+ 0001:0000eaa8       __RTC_Initialize           1000faa8 f   MSVCRT:initsect.obj
+ 0001:0000eacc       __RTC_Terminate            1000facc f   MSVCRT:initsect.obj
+ 0001:0000eaf0       __ValidateImageBase        1000faf0 f   MSVCRT:pesect.obj
+ 0001:0000eb20       __FindPESection            1000fb20 f   MSVCRT:pesect.obj
+ 0001:0000eb62       __IsNonwritableInCurrentImage 1000fb62 f   MSVCRT:pesect.obj
+ 0001:0000ebce       __initterm                 1000fbce f   MSVCRT:MSVCR80.dll
+ 0001:0000ebd4       __initterm_e               1000fbd4 f   MSVCRT:MSVCR80.dll
+ 0001:0000ebda       __amsg_exit                1000fbda f   MSVCRT:MSVCR80.dll
+ 0001:0000ebe0       ___CppXcptFilter           1000fbe0 f   MSVCRT:MSVCR80.dll
+ 0001:0000ebe6       _DllMain@12                1000fbe6 f   MSVCRT:dllmain.obj
+ 0001:0000ec08       __SEH_prolog4              1000fc08 f   MSVCRT:sehprolg4.obj
+ 0001:0000ec4d       __SEH_epilog4              1000fc4d f   MSVCRT:sehprolg4.obj
+ 0001:0000ec61       ___security_init_cookie    1000fc61 f   MSVCRT:gs_support.obj
+ 0001:0000ecf6       ?terminate@@YAXXZ          1000fcf6 f   MSVCRT:MSVCR80.dll
+ 0001:0000ecfc       ??1type_info@@UAE@XZ       1000fcfc f   MSVCRT:MSVCR80.dll
+ 0001:0000ecfc       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000fcfc f   MSVCRT:MSVCR80.dll
+ 0001:0000ed02       __crt_debugger_hook        1000fd02 f   MSVCRT:MSVCR80.dll
+ 0001:0000ed08       ___clean_type_info_names_internal 1000fd08 f   MSVCRT:MSVCR80.dll
+ 0001:0000ed0e       __unlock                   1000fd0e f   MSVCRT:MSVCR80.dll
+ 0001:0000ed14       ___dllonexit               1000fd14 f   MSVCRT:MSVCR80.dll
+ 0001:0000ed1a       __lock                     1000fd1a f   MSVCRT:MSVCR80.dll
+ 0001:0000eddc       __RawDllMainProxy@12       1000fddc f   mfcs80:rawdllmainproxy.obj
+ 0001:0000edff       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000fdff f i atls:atltrace.obj
+ 0001:0000ee64       ?_AtlGetThreadACPReal@ATL@@YGIXZ 1000fe64 f i atls:atltrace.obj
+ 0001:0000ee68       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 1000fe68 f i atls:atltrace.obj
+ 0001:0000eecc       __SEH_prolog4_GS           1000fecc f   MSVCRT:sehprolg4gs.obj
+ 0001:0000ef14       __SEH_epilog4_GS           1000ff14 f   MSVCRT:sehprolg4gs.obj
+ 0002:00000000       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10012000     jutil:JUtil.dll
+ 0002:00000004       __imp_?Release@JClassFactory@@UAGKXZ 10012004     jutil:JUtil.dll
+ 0002:00000008       __imp_?AddRef@JClassFactory@@UAGKXZ 10012008     jutil:JUtil.dll
+ 0002:0000000c       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1001200c     jutil:JUtil.dll
+ 0002:00000010       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10012010     jutil:JUtil.dll
+ 0002:00000014       __imp_??1JClassFactory@@UAE@XZ 10012014     jutil:JUtil.dll
+ 0002:00000018       __imp_??0GUserText@@QAE@XZ 10012018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?Empty@GUserText@@QAEAAV1@XZ 1001201c     jutil:JUtil.dll
+ 0002:00000020       __imp__JCoCreateInstance   10012020     jutil:JUtil.dll
+ 0002:00000024       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 10012024     jutil:JUtil.dll
+ 0002:00000028       __imp_??1GUserText@@QAE@XZ 10012028     jutil:JUtil.dll
+ 0002:0000002c       __imp_?Serialize@GUserText@@QAEJABVJIOStreamContext@@@Z 1001202c     jutil:JUtil.dll
+ 0002:00000030       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10012030     jutil:JUtil.dll
+ 0002:00000034       __imp__HRerrEx             10012034     jutil:JUtil.dll
+ 0002:00000038       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10012038     jutil:JUtil.dll
+ 0002:0000003c       __imp_?LockServer@JClassFactory@@UAGJH@Z 1001203c     jutil:JUtil.dll
+ 0002:00000040       \177JUtil_NULL_THUNK_DATA  10012040     jutil:JUtil.dll
+ 0002:00000044       __imp__TerminateProcess@8  10012044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__InterlockedCompareExchange@12 10012048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__Sleep@4             1001204c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcess@0 10012050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__UnhandledExceptionFilter@4 10012054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__SetUnhandledExceptionFilter@4 10012058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__IsDebuggerPresent@0 1001205c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__DisableThreadLibraryCalls@4 10012060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__QueryPerformanceCounter@4 10012064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetTickCount@0      10012068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetCurrentThreadId@0 1001206c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetCurrentProcessId@0 10012070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetSystemTimeAsFileTime@4 10012074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetACP@0            10012078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetLocaleInfoA@16   1001207c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetThreadLocale@0   10012080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetVersionExA@4     10012084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__InterlockedExchange@8 10012088     kernel32:KERNEL32.dll
+ 0002:0000008c       \177KERNEL32_NULL_THUNK_DATA 1001208c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 10012090     msvcprt:MSVCP80.dll
+ 0002:00000094       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 10012094     msvcprt:MSVCP80.dll
+ 0002:00000098       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10012098     msvcprt:MSVCP80.dll
+ 0002:0000009c       \177MSVCP80_NULL_THUNK_DATA 1001209c     msvcprt:MSVCP80.dll
+ 0002:000000a0       __imp_??1exception@std@@UAE@XZ 100120a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp_??0exception@std@@QAE@ABQBD@Z 100120a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp_?what@exception@std@@UBEPBDXZ 100120a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp_??0exception@std@@QAE@XZ 100120ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___invalid_parameter_noinfo 100120b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___CxxThrowException@8 100120b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp_??0exception@std@@QAE@ABV01@@Z 100120b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp__memmove_s           100120bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___except_handler4_common 100120c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___encode_pointer     100120c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___malloc_crt         100120c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___encoded_null       100120cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___initterm           100120d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___initterm_e         100120d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp___amsg_exit          100120d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___adjust_fdiv        100120dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp____CppXcptFilter     100120e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp_?terminate@@YAXXZ    100120e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100120e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___crt_debugger_hook  100120ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp____clean_type_info_names_internal 100120f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___unlock             100120f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp____dllonexit         100120f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___lock               100120fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___onexit             10012100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp____CxxFrameHandler3  10012104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp__free                10012108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp_??3@YAXPAX@Z         1001210c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___callnewh           10012110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___decode_pointer     10012114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp__wcsicmp             10012118     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp___wcsicmp            10012118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__malloc              1001211c     MSVCRT:MSVCR80.dll
+ 0002:00000120       \177MSVCR80_NULL_THUNK_DATA 10012120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp__CreateBitArray@20   10012124     bitarry:bitarry.dll
+ 0002:00000128       \177bitarry_NULL_THUNK_DATA 10012128     bitarry:bitarry.dll
+ 0002:0000012c       __imp_??1JMemberRoadmap@@QAE@XZ 1001212c     jengine:jengine.dll
+ 0002:00000130       __imp__GetOwnerOrGroup@16  10012130     jengine:jengine.dll
+ 0002:00000134       __imp__BatchDelete@4       10012134     jengine:jengine.dll
+ 0002:00000138       __imp__GetOidOfLayerRelation@12 10012138     jengine:jengine.dll
+ 0002:0000013c       __imp_??2CPersistObject@@SAPAXI@Z 1001213c     jengine:jengine.dll
+ 0002:00000140       __imp_??0CPersistObject@@QAE@PAUIUnknown@@@Z 10012140     jengine:jengine.dll
+ 0002:00000144       __imp_?GetObjectVersions@CvtContext@@QBEJPBU_GUID@@PAG1@Z 10012144     jengine:jengine.dll
+ 0002:00000148       __imp__JGetRootOwner       10012148     jengine:jengine.dll
+ 0002:0000014c       __imp__JCreateJIDREFDataHolder@12 1001214c     jengine:jengine.dll
+ 0002:00000150       __imp_@GetPersistManager@8 10012150     jengine:jengine.dll
+ 0002:00000154       __imp_?JBroadcastMessageToEdgeBar@@YAJPAUIUnknown@@HIJ@Z 10012154     jengine:jengine.dll
+ 0002:00000158       __imp__CreateStdRelationValue@12 10012158     jengine:jengine.dll
+ 0002:0000015c       __imp__CreateStdRelation@8 1001215c     jengine:jengine.dll
+ 0002:00000160       __imp__JGetFastDAXObject@16 10012160     jengine:jengine.dll
+ 0002:00000164       __imp_??0JMemberRoadmap@@QAE@PBXK@Z 10012164     jengine:jengine.dll
+ 0002:00000168       __imp__JCreateUnknownDataHolder@12 10012168     jengine:jengine.dll
+ 0002:0000016c       __imp__GetRelationFromSemantic@12 1001216c     jengine:jengine.dll
+ 0002:00000170       __imp_??1CPersistObject@@UAE@XZ 10012170     jengine:jengine.dll
+ 0002:00000174       __imp_?AddRef@CPersistObject@@UAGKXZ 10012174     jengine:jengine.dll
+ 0002:00000178       __imp_?Release@CPersistObject@@UAGKXZ 10012178     jengine:jengine.dll
+ 0002:0000017c       __imp__JLogModify@4        1001217c     jengine:jengine.dll
+ 0002:00000180       __imp_??3CPersistObject@@SAXPAX@Z 10012180     jengine:jengine.dll
+ 0002:00000184       \177jengine_NULL_THUNK_DATA 10012184     jengine:jengine.dll
+ 0002:00000188       __imp__ReadClassStm@8      10012188     ole32:ole32.dll
+ 0002:0000018c       __imp__WriteClassStm@8     1001218c     ole32:ole32.dll
+ 0002:00000190       \177ole32_NULL_THUNK_DATA  10012190     ole32:ole32.dll
+ 0002:00000194       __imp__JSESysFreeString@4  10012194     sealloc:sealloc.dll
+ 0002:00000198       __imp__JSESysAllocStringLen@8 10012198     sealloc:sealloc.dll
+ 0002:0000019c       __imp__JSESysAllocString@4 1001219c     sealloc:sealloc.dll
+ 0002:000001a0       \177sealloc_NULL_THUNK_DATA 100121a0     sealloc:sealloc.dll
+ 0002:000001a4       ___xc_a                    100121a4     MSVCRT:cinitexe.obj
+ 0002:000001f8       ___xc_z                    100121f8     MSVCRT:cinitexe.obj
+ 0002:000001fc       ___xi_a                    100121fc     MSVCRT:cinitexe.obj
+ 0002:00000204       ___xi_z                    10012204     MSVCRT:cinitexe.obj
+ 0002:0000022c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1001222c     guid.obj
+ 0002:0000023c       _CLSID_HLayerApp           1001223c     guid.obj
+ 0002:0000024c       _CLSID_JLayer              1001224c     guid.obj
+ 0002:0000025c       _CLSID_JLayerSettings      1001225c     guid.obj
+ 0002:0000026c       _CLSID_JLayerManager       1001226c     guid.obj
+ 0002:0000027c       _CLSID_JDocLayerManagerCopySemantic 1001227c     guid.obj
+ 0002:0000028c       _IID_IJPersistManager      1001228c     guid.obj
+ 0002:0000029c       _IID_IJPersist             1001229c     guid.obj
+ 0002:000002ac       _IID_IJNoDispatchSupport   100122ac     guid.obj
+ 0002:000002bc       _IID_IJLayerManager        100122bc     guid.obj
+ 0002:000002cc       _GUID_JLayerManagerRelation 100122cc     guid.obj
+ 0002:000002dc       _IID_IJBitArray            100122dc     guid.obj
+ 0002:000002ec       _IID_IJRelationValue       100122ec     guid.obj
+ 0002:000002fc       _IID_IJGraphicRelationValue 100122fc     guid.obj
+ 0002:0000030c       _IID_IJRelation            1001230c     guid.obj
+ 0002:0000031c       _IID_IJStandAloneSemantic  1001231c     guid.obj
+ 0002:0000032c       _IID_IJCopy                1001232c     guid.obj
+ 0002:0000033c       _IID_IJDelete              1001233c     guid.obj
+ 0002:0000034c       _IID_IJRelationGraphInfo   1001234c     guid.obj
+ 0002:0000035c       _IID_IJOwner               1001235c     guid.obj
+ 0002:0000036c       _IID_IJLayerSettings       1001236c     guid.obj
+ 0002:0000037c       _IID_IJLayer               1001237c     guid.obj
+ 0002:0000038c       _IID_IJDocument            1001238c     guid.obj
+ 0002:0000039c       _GUID_JSheetLayersRelation 1001239c     guid.obj
+ 0002:000003ac       _CLSID_CFrameWorkDispatchObjectFactory 100123ac     guid.obj
+ 0002:000003bc       _IID_IJSheet               100123bc     guid.obj
+ 0002:000003cc       ??_C@_0CM@GOIAMPIP@General?2SESEInsightTarget?2Manage@ 100123cc     layer.obj
+ 0002:000003f8       ??_C@_0CM@CFLLONED@General?2SESEInsightSource?2Manage@ 100123f8     layer.obj
+ 0002:00000424       ??_C@_0BC@PMPKKPPO@SESEInsightTarget?$AA@ 10012424     layer.obj
+ 0002:00000438       ??_C@_0BC@IBOENEBP@SESEInsightSource?$AA@ 10012438     layer.obj
+ 0002:0000044c       ??_C@_0DA@EEEMJNPA@General?2StructureEditorTarget?2Ma@ 1001244c     layer.obj
+ 0002:0000047c       ??_C@_0DA@PHHLPDM@General?2StructureEditorSource?2Ma@ 1001247c     layer.obj
+ 0002:000004ac       ??_C@_0BG@GLPNBFBI@StructureEditorTarget?$AA@ 100124ac     layer.obj
+ 0002:000004c4       ??_C@_0BG@BGODGOPJ@StructureEditorSource?$AA@ 100124c4     layer.obj
+ 0002:000004dc       ??_C@_0L@MNMJNOKC@?2UnManaged?$AA@ 100124dc     layer.obj
+ 0002:000004e8       ??_C@_08GNBJJBFL@?2Managed?$AA@ 100124e8     layer.obj
+ 0002:000004f4       ??_C@_0N@DCACADCL@IfFontItalic?$AA@ 100124f4     layer.obj
+ 0002:00000504       ??_C@_0L@HABBFGEE@FontScript?$AA@ 10012504     layer.obj
+ 0002:00000510       ??_C@_08IOPOCEFC@FontSize?$AA@ 10012510     layer.obj
+ 0002:0000051c       ??_C@_09BIHFJGEM@FontStyle?$AA@ 1001251c     layer.obj
+ 0002:00000528       ??_C@_08MKFDOKHL@FontName?$AA@ 10012528     layer.obj
+ 0002:00000534       ??_C@_09PPPLNFCP@Revisions?$AA@ 10012534     layer.obj
+ 0002:00000540       ??_C@_0L@IKFKNMIK@LCA?2Step?93?$AA@ 10012540     layer.obj
+ 0002:0000054c       ??_C@_0L@JDEBONML@LCA?2Step?92?$AA@ 1001254c     layer.obj
+ 0002:00000558       ??_C@_0L@LIGMLOAI@LCA?2Step?91?$AA@ 10012558     layer.obj
+ 0002:00000564       ??_C@_0BC@PJLOJMLB@?2ColumnAllignment?$AA@ 10012564     layer.obj
+ 0002:00000578       ??_C@_0N@MJNDLMLL@?2ColumnWidth?$AA@ 10012578     layer.obj
+ 0002:00000588       ??_C@_0M@GILJBBJK@?2ColumnName?$AA@ 10012588     layer.obj
+ 0002:00000594       ??_C@_0BN@JDKHKMCP@General?2EditProfile?2Position?$AA@ 10012594     layer.obj
+ 0002:000005b4       ??_C@_0CG@MMFLBBHB@General?2EditProfile?2ManagedPrope@ 100125b4     layer.obj
+ 0002:000005dc       ??_C@_0M@JCDCLJCA@EditProfile?$AA@ 100125dc     layer.obj
+ 0002:000005e8       ??_C@_08OPPFIBME@General?2?$AA@ 100125e8     layer.obj
+ 0002:000005f4       ??_C@_0CI@NHNILGNF@General?2SearchResults?2ManagedPro@ 100125f4     layer.obj
+ 0002:0000061c       ??_C@_0CK@GNOEILGH@General?2SearchResults?2UnManagedP@ 1001261c     layer.obj
+ 0002:00000648       ??_C@_0O@PKDDHDIC@SearchResults?$AA@ 10012648     layer.obj
+ 0002:00000658       ??_C@_0CE@CNFCLGND@General?2WhereUsed?2ManagedPropert@ 10012658     layer.obj
+ 0002:0000067c       ??_C@_0CG@DLLONGGL@General?2WhereUsed?2UnManagedPrope@ 1001267c     layer.obj
+ 0002:000006a4       ??_C@_09NNDHDAJB@WhereUsed?$AA@ 100126a4     layer.obj
+ 0002:000006b0       ??_C@_0BA@FMHGINFB@PropertyManager?$AA@ 100126b0     layer.obj
+ 0002:000006c0       ??_C@_05CDEHLADN@?$CFs?$CFlu?$AA@ 100126c0     layer.obj
+ 0002:000006c8       ??_C@_06GDCBNBFJ@?$CFlu?$CFls?$AA@ 100126c8     layer.obj
+ 0002:000006d0       ??_C@_0N@NLFOEMPN@PropValue?$CFlu?$AA@ 100126d0     layer.obj
+ 0002:000006e0       ??_C@_09FJMCAKIG@PropCount?$AA@ 100126e0     layer.obj
+ 0002:000006ec       ??_C@_0CK@MBCJNOIL@General?2PropertyManager?2ManagedP@ 100126ec     layer.obj
+ 0002:00000718       ??_C@_0CM@KLFAECG@General?2PropertyManager?2UnManage@ 10012718     layer.obj
+ 0002:00000760       ??_C@_0M@IHJKJCJB@?4?2layer?4cpp?$AA@ 10012760     layer.obj
+ 0002:0000076c       ??_C@_0BM@CMCKEIKF@JLayer?3?3IJLayerImp?3?3GetName?$AA@ 1001276c     layer.obj
+ 0002:00000788       ??_C@_0CD@IOGOKGHB@JLayer?3?3IJLayerImp?3?3GetDescripti@ 10012788     layer.obj
+ 0002:000007ac       ??_C@_1BI@GDDHGECO@?$AAA?$AAu?$AAt?$AAo?$AA?5?$AA?9?$AA?5?$AAH?$AAi?$AAd?$AAe?$AA?$AA@ 100127ac     layer.obj
+ 0002:000007c4       ??_C@_0CB@EMMLNIIG@JLayer?3?3IJPersistImp?3?3GetClassID@ 100127c4     layer.obj
+ 0002:000007ec       ??_7JLayer@@6B@            100127ec     layer.obj
+ 0002:000007fc       ??_C@_0BH@JHLLNMKI@JLayer?3?3QueryInterface?$AA@ 100127fc     layer.obj
+ 0002:00000814       ??_C@_0BG@CIBOBGDP@JLayer?3?3NotifyEdgeBar?$AA@ 10012814     layer.obj
+ 0002:0000082c       ??_C@_0BO@FOKIJEIK@JLayer?3?3IJLayerImp?3?3AddObject?$AA@ 1001282c     layer.obj
+ 0002:0000084c       ??_C@_0CB@NNINBCBN@JLayer?3?3IJLayerImp?3?3RemoveObject@ 1001284c     layer.obj
+ 0002:00000870       ??_C@_0BO@KENPMFGN@JLayer?3?3IJCopyImp?3?3EnumValues?$AA@ 10012870     layer.obj
+ 0002:00000890       ??_C@_0CA@OILENCPG@JLayer?3?3IJDeleteImp?3?3EnumValues?$AA@ 10012890     layer.obj
+ 0002:000008b0       ??_C@_0CA@MOMBCJ@JLayer?3?3IJDeleteImp?3?3Disconnect?$AA@ 100128b0     layer.obj
+ 0002:000008d4       ??_7IJLayerImp@JLayer@@6B@ 100128d4     layer.obj
+ 0002:00000920       ??_7IJPersistImp@JLayer@@6B@ 10012920     layer.obj
+ 0002:0000094c       ??_7IJCopyImp@JLayer@@6B@  1001294c     layer.obj
+ 0002:00000970       ??_7IJDeleteImp@JLayer@@6B@ 10012970     layer.obj
+ 0002:00000988       ??_C@_0BM@NENLHHHE@JLayer?3?3IJLayerImp?3?3SetName?$AA@ 10012988     layer.obj
+ 0002:000009a4       ??_C@_11LOCGONAA@?$AA?$AA@ 100129a4     layer.obj
+ 0002:000009a8       ??_C@_0BN@LEGHAPGC@JLayer?3?3IJLayerImp?3?3IsActive?$AA@ 100129a8     layer.obj
+ 0002:000009c8       ??_C@_0BN@BHHNCCGJ@JLayer?3?3IJLayerImp?3?3ShowOnly?$AA@ 100129c8     layer.obj
+ 0002:000009e8       ??_C@_0BK@MOBPECIB@JLayer?3?3SerializeVersion1?$AA@ 100129e8     layer.obj
+ 0002:00000a04       ??_C@_0CA@BNNECDNK@JLayer?3?3IJPersistImp?3?3Serialize?$AA@ 10012a04     layer.obj
+ 0002:00000a24       ??_C@_0BO@KNNLIILN@JLayer?3?3IJPersistImp?3?3Convert?$AA@ 10012a24     layer.obj
+ 0002:00000a44       ??_C@_0CD@BIEKLIDF@JLayer?3?3IJCopyImp?3?3ReconnectClon@ 10012a44     layer.obj
+ 0002:00000a68       ??_C@_0BM@DFFKIPKI@JLayer?3?3IJPersistImp?3?3Clone?$AA@ 10012a68     layer.obj
+ 0002:00000a94       ??_7bad_alloc@std@@6B@     10012a94     LayerSettings.obj
+ 0002:00000aa0       ??_7logic_error@std@@6B@   10012aa0     LayerSettings.obj
+ 0002:00000aac       ??_7length_error@std@@6B@  10012aac     LayerSettings.obj
+ 0002:00000ab8       ??_7out_of_range@std@@6B@  10012ab8     LayerSettings.obj
+ 0002:00000ac0       ??_C@_0BE@IHNAIFD@?4?2LayerSettings?4cpp?$AA@ 10012ac0     LayerSettings.obj
+ 0002:00000ad4       ??_C@_0CJ@LAEOBFFJ@JLayerSettings?3?3IJPersistImp?3?3Ge@ 10012ad4     LayerSettings.obj
+ 0002:00000b00       ??_C@_0CG@IDOPNFBC@JLayerSettings?3?3IJPersistImp?3?3Co@ 10012b00     LayerSettings.obj
+ 0002:00000b28       ??_C@_0BO@GMIPLBLL@JLayerSettings?3?3NotifyEdgeBar?$AA@ 10012b28     LayerSettings.obj
+ 0002:00000b48       ??_C@_0CP@BGGOAIAB@JLayerSettings?3?3IJLayerSettingsI@ 10012b48     LayerSettings.obj
+ 0002:00000b78       ??_C@_0CO@LBHBPENO@JLayerSettings?3?3IJLayerSettingsI@ 10012b78     LayerSettings.obj
+ 0002:00000ba8       ??_C@_0DB@PCINAINC@JLayerSettings?3?3IJLayerSettingsI@ 10012ba8     LayerSettings.obj
+ 0002:00000bdc       ??_C@_0DA@EACGMICK@JLayerSettings?3?3IJLayerSettingsI@ 10012bdc     LayerSettings.obj
+ 0002:00000c14       ??_7IJLayerSettingsImp@JLayerSettings@@6B@ 10012c14     LayerSettings.obj
+ 0002:00000c64       ??_7IJPersistImp@JLayerSettings@@6B@ 10012c64     LayerSettings.obj
+ 0002:00000c8c       ??_C@_0CN@JPPAKPDE@JLayerSettings?3?3IJLayerSettingsI@ 10012c8c     LayerSettings.obj
+ 0002:00000cbc       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 10012cbc     LayerSettings.obj
+ 0002:00000cd8       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 10012cd8     LayerSettings.obj
+ 0002:00000cec       ??_C@_0DG@MHJKPIIH@JLayerSettings?3?3IJLayerSettingsI@ 10012cec     LayerSettings.obj
+ 0002:00000d24       ??_C@_0DF@KGPGBIA@JLayerSettings?3?3IJLayerSettingsI@ 10012d24     LayerSettings.obj
+ 0002:00000d5c       ??_C@_0DC@PIPHFAAF@JLayerSettings?3?3IJLayerSettingsI@ 10012d5c     LayerSettings.obj
+ 0002:00000d90       ??_C@_0DC@IHOJODHC@JLayerSettings?3?3IJLayerSettingsI@ 10012d90     LayerSettings.obj
+ 0002:00000dc4       ??_C@_0CI@CBJBIAIB@JLayerSettings?3?3IJPersistImp?3?3Se@ 10012dc4     LayerSettings.obj
+ 0002:00000df0       ??_7JLayerSettings@@6B@    10012df0     LayerSettings.obj
+ 0002:00000e00       ??_C@_0CE@BDDJDN@JLayerSettings?3?3IJPersistImp?3?3Cl@ 10012e00     LayerSettings.obj
+ 0002:00000e30       ??_C@_0N@GBBMBLKO@?4?2lyrmgr?4cpp?$AA@ 10012e30     lyrmgr.obj
+ 0002:00000e40       ??_C@_0DB@BMMIGENF@JLayerManager?3?3IJLayerManagerImp@ 10012e40     lyrmgr.obj
+ 0002:00000e74       ??_C@_0CO@DOFFLFI@JLayerManager?3?3IJLayerManagerImp@ 10012e74     lyrmgr.obj
+ 0002:00000ea4       ??_C@_0CI@OIMJABDN@JLayerManager?3?3IJPersistImp?3?3Get@ 10012ea4     lyrmgr.obj
+ 0002:00000ecc       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 10012ecc     lyrmgr.obj
+ 0002:00000ee0       ??_C@_0BO@PGGBDAEF@JLayerManager?3?3QueryInterface?$AA@ 10012ee0     lyrmgr.obj
+ 0002:00000f00       ??_C@_0DB@NCNGJOPJ@JLayerManager?3?3IJLayerManagerImp@ 10012f00     lyrmgr.obj
+ 0002:00000f34       ??_C@_0BA@ICMDECHE@JGetTypedParent?$AA@ 10012f34     lyrmgr.obj
+ 0002:00000f44       ??_C@_0DF@PLIJHKEC@JLayerManager?3?3IJLayerManagerImp@ 10012f44     lyrmgr.obj
+ 0002:00000f7c       ??_C@_0P@EODCBCCA@GetObjectLayer?$AA@ 10012f7c     lyrmgr.obj
+ 0002:00000f8c       ??_C@_0BA@EGJMEAIK@GetLayerManager?$AA@ 10012f8c     lyrmgr.obj
+ 0002:00000f9c       ??_C@_1BK@LFKFMPNA@?$AAL?$AAa?$AAy?$AAe?$AAr?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?$AA@ 10012f9c     lyrmgr.obj
+ 0002:00000fbc       ??_7IJLayerManagerImp@JLayerManager@@6B@ 10012fbc     lyrmgr.obj
+ 0002:0000103c       ??_7IJPersistImp@JLayerManager@@6B@ 1001303c     lyrmgr.obj
+ 0002:00001068       ??_7IJCopyImp@JLayerManager@@6B@ 10013068     lyrmgr.obj
+ 0002:0000108c       ??_7IJDeleteImp@JLayerManager@@6B@ 1001308c     lyrmgr.obj
+ 0002:000010a4       ??_C@_0DD@KCOOPJBI@JLayerManager?3?3IJLayerManagerImp@ 100130a4     lyrmgr.obj
+ 0002:000010d8       ??_C@_0CH@GCNBAAGN@JLayerManager?3?3IJCopyImp?3?3Create@ 100130d8     lyrmgr.obj
+ 0002:00001100       ??_C@_0BH@JEFINKJE@AddObjectToActiveLayer?$AA@ 10013100     lyrmgr.obj
+ 0002:00001118       ??_C@_0BB@PBEBFGKN@AddObjectToLayer?$AA@ 10013118     lyrmgr.obj
+ 0002:0000112c       ??_C@_0BD@PPFIFBBJ@GetObjectLayerName?$AA@ 1001312c     lyrmgr.obj
+ 0002:00001140       ??_C@_0CL@HJDBDNDI@JLayerManager?3?3IJLayerManagerImp@ 10013140     lyrmgr.obj
+ 0002:0000116c       ??_C@_0CJ@HDHGEGGA@JLayerManager?3?3UpdateDocActiveLa@ 1001316c     lyrmgr.obj
+ 0002:00001198       ??_C@_0CL@EHGGBIMJ@JLayerManager?3?3IJLayerManagerImp@ 10013198     lyrmgr.obj
+ 0002:000011c4       ??_C@_0CN@PBCJNMIO@JLayerManager?3?3IJLayerManagerImp@ 100131c4     lyrmgr.obj
+ 0002:000011f4       ??_C@_0DD@PPFDCNJK@JLayerManager?3?3IJLayerManagerImp@ 100131f4     lyrmgr.obj
+ 0002:00001228       ??_C@_0CF@OHPBCONN@JLayerManager?3?3IJCopyImp?3?3EnumVa@ 10013228     lyrmgr.obj
+ 0002:00001250       ??_C@_0CH@KIBIKCPM@JLayerManager?3?3IJCopyImp?3?3PreVal@ 10013250     lyrmgr.obj
+ 0002:00001278       ??_C@_0CO@NIAJPFJJ@JLayerManager?3?3IJLayerManagerImp@ 10013278     lyrmgr.obj
+ 0002:000012a8       ??_C@_0CN@KENKFDKE@JLayerManager?3?3IJLayerManagerImp@ 100132a8     lyrmgr.obj
+ 0002:000012d8       ??_C@_0CP@NNEEHKLG@JLayerManager?3?3IJLayerManagerImp@ 100132d8     lyrmgr.obj
+ 0002:00001308       ??_C@_0DJ@FHNKMJKP@JLayerManager?3?3IJLayerManagerImp@ 10013308     lyrmgr.obj
+ 0002:00001344       ??_C@_0DM@GLMAJAGC@JLayerManager?3?3IJLayerManagerImp@ 10013344     lyrmgr.obj
+ 0002:00001380       ??_C@_0CK@OAHEABDE@JLayerManager?3?3IJCopyImp?3?3Reconn@ 10013380     lyrmgr.obj
+ 0002:000013b0       ??_7JLayerManager@@6B@     100133b0     lyrmgr.obj
+ 0002:000013c0       ??_C@_0DC@NDGAGFKL@JLayerManager?3?3IJLayerManagerImp@ 100133c0     lyrmgr.obj
+ 0002:000013f4       ??_C@_0CC@EHAMADNK@JLayerManager?3?3RemoveLayerContex@ 100133f4     lyrmgr.obj
+ 0002:00001418       ??_C@_0CH@NDNDBHEP@JLayerManager?3?3IJDeleteImp?3?3Disc@ 10013418     lyrmgr.obj
+ 0002:00001440       ??_C@_0CD@IFEPJIEG@JLayerManager?3?3IJPersistImp?3?3Clo@ 10013440     lyrmgr.obj
+ 0002:00001464       ??_C@_0BI@BIICEKIF@JLayerManager?3?3AddLayer?$AA@ 10013464     lyrmgr.obj
+ 0002:0000147c       ??_C@_0CL@JPAIPNBD@JLayerManager?3?3IJLayerManagerImp@ 1001347c     lyrmgr.obj
+ 0002:000014a8       ??_C@_0ED@ELOIGHOD@JLayerManager?3?3IJLayerManagerImp@ 100134a8     lyrmgr.obj
+ 0002:000014ec       ??_C@_0CB@PLOIIGDJ@JLayerManager?3?3SerializeVersion1@ 100134ec     lyrmgr.obj
+ 0002:00001510       ??_C@_0CH@MOMJPFLM@JLayerManager?3?3IJPersistImp?3?3Ser@ 10013510     lyrmgr.obj
+ 0002:00001538       ??_C@_0CF@OOPFGDAN@JLayerManager?3?3IJPersistImp?3?3Con@ 10013538     lyrmgr.obj
+ 0002:00001560       ??_C@_0CO@FBEJBJFJ@JLayerManager?3?3IJLayerManagerImp@ 10013560     lyrmgr.obj
+ 0002:00001594       ??_7JDocLayerManagerCopySemantic@@6B@ 10013594     lyrmgrcp.obj
+ 0002:000015a4       ??_C@_0P@KEDOMFGG@?4?2lyrmgrcp?4cpp?$AA@ 100135a4     lyrmgrcp.obj
+ 0002:000015b8       ??_C@_0ED@OHOAKGIH@JDocLayerManagerCopySemantic?3?3IJ@ 100135b8     lyrmgrcp.obj
+ 0002:000015fc       ??_C@_0DH@GMHNNDHF@JDocLayerManagerCopySemantic?3?3IJ@ 100135fc     lyrmgrcp.obj
+ 0002:00001634       ??_C@_0DE@NPDOHAIA@JDocLayerManagerCopySemantic?3?3IJ@ 10013634     lyrmgrcp.obj
+ 0002:00001668       ??_C@_0DE@NGDKDNFA@JDocLayerManagerCopySemantic?3?3IJ@ 10013668     lyrmgrcp.obj
+ 0002:0000169c       ??_C@_0DG@GIECJGHO@JDocLayerManagerCopySemantic?3?3IJ@ 1001369c     lyrmgrcp.obj
+ 0002:000016d4       ??_C@_0DJ@LAAJPDHF@JDocLayerManagerCopySemantic?3?3IJ@ 100136d4     lyrmgrcp.obj
+ 0002:00001714       ??_7IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@6B@ 10013714     lyrmgrcp.obj
+ 0002:0000172c       ??_7IJCopyImp@JDocLayerManagerCopySemantic@@6B@ 1001372c     lyrmgrcp.obj
+ 0002:00001750       ??_7IJPersistImp@JDocLayerManagerCopySemantic@@6B@ 10013750     lyrmgrcp.obj
+ 0002:00001778       ??_C@_0DC@BCJIFNGB@JDocLayerManagerCopySemantic?3?3IJ@ 10013778     lyrmgrcp.obj
+ 0002:000017b0       ??_7?$ClassFactory@VJLayerManager@@@@6B@ 100137b0     server.obj
+ 0002:000017cc       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 100137cc     server.obj
+ 0002:000017e4       ??_C@_0DE@CCBBDKLI@ClassFactory?$DMclass?5JLayerManager@ 100137e4     server.obj
+ 0002:0000181c       ??_7?$ClassFactory@VJLayer@@@@6B@ 1001381c     server.obj
+ 0002:00001838       ??_C@_0CN@KAGJDBMN@ClassFactory?$DMclass?5JLayer?$DO?3?3OnCr@ 10013838     server.obj
+ 0002:0000186c       ??_7?$ClassFactory@VJDocLayerManagerCopySemantic@@@@6B@ 1001386c     server.obj
+ 0002:00001888       ??_C@_0ED@LFGAHOCF@ClassFactory?$DMclass?5JDocLayerMana@ 10013888     server.obj
+ 0002:000018d0       ??_7?$ClassFactory@VJLayerSettings@@@@6B@ 100138d0     server.obj
+ 0002:000018ec       ??_C@_0DF@MGDPCMOK@ClassFactory?$DMclass?5JLayerSetting@ 100138ec     server.obj
+ 0002:00001924       ??_C@_0N@NHMOHGJB@?4?2server?4cpp?$AA@ 10013924     server.obj
+ 0002:00001934       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 10013934     server.obj
+ 0002:00001948       _IID_IDispatch             10013948     uuid:oaidl_i.obj
+ 0002:00001958       _IID_IPersist              10013958     uuid:objidl_i.obj
+ 0002:00001968       _IID_IClassFactory         10013968     uuid:unknwn_i.obj
+ 0002:00001978       _IID_IUnknown              10013978     uuid:unknwn_i.obj
+ 0002:00001988       _GUID_NULL                 10013988     uuid:cguid_i.obj
+ 0002:0000199c       ??_7type_info@@6B@         1001399c     MSVCRT:ti_inst.obj
+ 0002:000019a0       __pDefaultRawDllMain       100139a0     MSVCRT:crtdll.obj
+ 0002:000019ac       ??_C@_06JBKGCNBB@Delete?$AA@ 100139ac     mfcs80:stdafx.obj
+ 0002:000019b4       ??_C@_08KAAPDIAN@NoRemove?$AA@ 100139b4     mfcs80:stdafx.obj
+ 0002:000019c0       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 100139c0     mfcs80:stdafx.obj
+ 0002:000019cc       ??_C@_03LAIAPFCB@Val?$AA@  100139cc     mfcs80:stdafx.obj
+ 0002:000019d0       ??_C@_01HMGJMAIH@B?$AA@    100139d0     mfcs80:stdafx.obj
+ 0002:000019d4       ??_C@_01CKDDGHAB@D?$AA@    100139d4     mfcs80:stdafx.obj
+ 0002:000019d8       ??_C@_01PLPBNMEI@M?$AA@    100139d8     mfcs80:stdafx.obj
+ 0002:000019dc       ??_C@_01CPLAODJH@S?$AA@    100139dc     mfcs80:stdafx.obj
+ 0002:00001a00       __pRawDllMain              10013a00     mfcs80:rawdllmainproxy.obj
+ 0002:00001a08       __load_config_used         10013a08     MSVCRT:loadcfg.obj
+ 0002:00001a80       ??_R4JLayer@@6B@           10013a80     layer.obj
+ 0002:00001a94       ??_R3JLayer@@8             10013a94     layer.obj
+ 0002:00001aa4       ??_R2JLayer@@8             10013aa4     layer.obj
+ 0002:00001ab4       ??_R1A@?0A@EA@JLayer@@8    10013ab4     layer.obj
+ 0002:00001ad0       ??_R1A@?0A@EA@CPersistObject@@8 10013ad0     layer.obj
+ 0002:00001aec       ??_R3CPersistObject@@8     10013aec     layer.obj
+ 0002:00001afc       ??_R2CPersistObject@@8     10013afc     layer.obj
+ 0002:00001b08       ??_R1A@?0A@EA@IUnknown@@8  10013b08     layer.obj
+ 0002:00001b24       ??_R3IUnknown@@8           10013b24     layer.obj
+ 0002:00001b34       ??_R2IUnknown@@8           10013b34     layer.obj
+ 0002:00001b3c       ??_R4IJLayerImp@JLayer@@6B@ 10013b3c     layer.obj
+ 0002:00001b50       ??_R3IJLayerImp@JLayer@@8  10013b50     layer.obj
+ 0002:00001b60       ??_R2IJLayerImp@JLayer@@8  10013b60     layer.obj
+ 0002:00001b70       ??_R1A@?0A@EA@IJLayerImp@JLayer@@8 10013b70     layer.obj
+ 0002:00001b8c       ??_R1A@?0A@EA@IJLayer@@8   10013b8c     layer.obj
+ 0002:00001ba8       ??_R3IJLayer@@8            10013ba8     layer.obj
+ 0002:00001bb8       ??_R2IJLayer@@8            10013bb8     layer.obj
+ 0002:00001bc4       ??_R4IJPersistImp@JLayer@@6B@ 10013bc4     layer.obj
+ 0002:00001bd8       ??_R3IJPersistImp@JLayer@@8 10013bd8     layer.obj
+ 0002:00001be8       ??_R2IJPersistImp@JLayer@@8 10013be8     layer.obj
+ 0002:00001bfc       ??_R1A@?0A@EA@IJPersistImp@JLayer@@8 10013bfc     layer.obj
+ 0002:00001c18       ??_R1A@?0A@EA@IJPersist@@8 10013c18     layer.obj
+ 0002:00001c34       ??_R3IJPersist@@8          10013c34     layer.obj
+ 0002:00001c44       ??_R2IJPersist@@8          10013c44     layer.obj
+ 0002:00001c54       ??_R1A@?0A@EA@IPersist@@8  10013c54     layer.obj
+ 0002:00001c70       ??_R3IPersist@@8           10013c70     layer.obj
+ 0002:00001c80       ??_R2IPersist@@8           10013c80     layer.obj
+ 0002:00001c8c       ??_R4IJCopyImp@JLayer@@6B@ 10013c8c     layer.obj
+ 0002:00001ca0       ??_R3IJCopyImp@JLayer@@8   10013ca0     layer.obj
+ 0002:00001cb0       ??_R2IJCopyImp@JLayer@@8   10013cb0     layer.obj
+ 0002:00001cc4       ??_R1A@?0A@EA@IJCopyImp@JLayer@@8 10013cc4     layer.obj
+ 0002:00001ce0       ??_R1A@?0A@EA@IJCopy@@8    10013ce0     layer.obj
+ 0002:00001cfc       ??_R3IJCopy@@8             10013cfc     layer.obj
+ 0002:00001d0c       ??_R2IJCopy@@8             10013d0c     layer.obj
+ 0002:00001d1c       ??_R1A@?0A@EA@IJSemantic@@8 10013d1c     layer.obj
+ 0002:00001d38       ??_R3IJSemantic@@8         10013d38     layer.obj
+ 0002:00001d48       ??_R2IJSemantic@@8         10013d48     layer.obj
+ 0002:00001d54       ??_R4IJDeleteImp@JLayer@@6B@ 10013d54     layer.obj
+ 0002:00001d68       ??_R3IJDeleteImp@JLayer@@8 10013d68     layer.obj
+ 0002:00001d78       ??_R2IJDeleteImp@JLayer@@8 10013d78     layer.obj
+ 0002:00001d8c       ??_R1A@?0A@EA@IJDeleteImp@JLayer@@8 10013d8c     layer.obj
+ 0002:00001da8       ??_R1A@?0A@EA@IJDelete@@8  10013da8     layer.obj
+ 0002:00001dc4       ??_R3IJDelete@@8           10013dc4     layer.obj
+ 0002:00001dd4       ??_R2IJDelete@@8           10013dd4     layer.obj
+ 0002:00001de4       ??_R4bad_alloc@std@@6B@    10013de4     LayerSettings.obj
+ 0002:00001df8       ??_R3bad_alloc@std@@8      10013df8     LayerSettings.obj
+ 0002:00001e08       ??_R2bad_alloc@std@@8      10013e08     LayerSettings.obj
+ 0002:00001e14       ??_R1A@?0A@EA@bad_alloc@std@@8 10013e14     LayerSettings.obj
+ 0002:00001e30       ??_R1A@?0A@EA@exception@std@@8 10013e30     LayerSettings.obj
+ 0002:00001e4c       ??_R3exception@std@@8      10013e4c     LayerSettings.obj
+ 0002:00001e5c       ??_R2exception@std@@8      10013e5c     LayerSettings.obj
+ 0002:00001e64       ??_R4logic_error@std@@6B@  10013e64     LayerSettings.obj
+ 0002:00001e78       ??_R3logic_error@std@@8    10013e78     LayerSettings.obj
+ 0002:00001e88       ??_R2logic_error@std@@8    10013e88     LayerSettings.obj
+ 0002:00001e94       ??_R1A@?0A@EA@logic_error@std@@8 10013e94     LayerSettings.obj
+ 0002:00001eb0       ??_R4length_error@std@@6B@ 10013eb0     LayerSettings.obj
+ 0002:00001ec4       ??_R3length_error@std@@8   10013ec4     LayerSettings.obj
+ 0002:00001ed4       ??_R2length_error@std@@8   10013ed4     LayerSettings.obj
+ 0002:00001ee4       ??_R1A@?0A@EA@length_error@std@@8 10013ee4     LayerSettings.obj
+ 0002:00001f00       ??_R4out_of_range@std@@6B@ 10013f00     LayerSettings.obj
+ 0002:00001f14       ??_R3out_of_range@std@@8   10013f14     LayerSettings.obj
+ 0002:00001f24       ??_R2out_of_range@std@@8   10013f24     LayerSettings.obj
+ 0002:00001f34       ??_R1A@?0A@EA@out_of_range@std@@8 10013f34     LayerSettings.obj
+ 0002:00001f50       ??_R4IJLayerSettingsImp@JLayerSettings@@6B@ 10013f50     LayerSettings.obj
+ 0002:00001f64       ??_R3IJLayerSettingsImp@JLayerSettings@@8 10013f64     LayerSettings.obj
+ 0002:00001f74       ??_R2IJLayerSettingsImp@JLayerSettings@@8 10013f74     LayerSettings.obj
+ 0002:00001f84       ??_R1A@?0A@EA@IJLayerSettingsImp@JLayerSettings@@8 10013f84     LayerSettings.obj
+ 0002:00001fa0       ??_R1A@?0A@EA@IJLayerSettings@@8 10013fa0     LayerSettings.obj
+ 0002:00001fbc       ??_R3IJLayerSettings@@8    10013fbc     LayerSettings.obj
+ 0002:00001fcc       ??_R2IJLayerSettings@@8    10013fcc     LayerSettings.obj
+ 0002:00001fd8       ??_R4IJPersistImp@JLayerSettings@@6B@ 10013fd8     LayerSettings.obj
+ 0002:00001fec       ??_R3IJPersistImp@JLayerSettings@@8 10013fec     LayerSettings.obj
+ 0002:00001ffc       ??_R2IJPersistImp@JLayerSettings@@8 10013ffc     LayerSettings.obj
+ 0002:00002010       ??_R1A@?0A@EA@IJPersistImp@JLayerSettings@@8 10014010     LayerSettings.obj
+ 0002:0000202c       ??_R4JLayerSettings@@6B@   1001402c     LayerSettings.obj
+ 0002:00002040       ??_R3JLayerSettings@@8     10014040     LayerSettings.obj
+ 0002:00002050       ??_R2JLayerSettings@@8     10014050     LayerSettings.obj
+ 0002:00002060       ??_R1A@?0A@EA@JLayerSettings@@8 10014060     LayerSettings.obj
+ 0002:0000207c       ??_R4IJLayerManagerImp@JLayerManager@@6B@ 1001407c     lyrmgr.obj
+ 0002:00002090       ??_R3IJLayerManagerImp@JLayerManager@@8 10014090     lyrmgr.obj
+ 0002:000020a0       ??_R2IJLayerManagerImp@JLayerManager@@8 100140a0     lyrmgr.obj
+ 0002:000020b0       ??_R1A@?0A@EA@IJLayerManagerImp@JLayerManager@@8 100140b0     lyrmgr.obj
+ 0002:000020cc       ??_R1A@?0A@EA@IJLayerManager@@8 100140cc     lyrmgr.obj
+ 0002:000020e8       ??_R3IJLayerManager@@8     100140e8     lyrmgr.obj
+ 0002:000020f8       ??_R2IJLayerManager@@8     100140f8     lyrmgr.obj
+ 0002:00002104       ??_R4IJPersistImp@JLayerManager@@6B@ 10014104     lyrmgr.obj
+ 0002:00002118       ??_R3IJPersistImp@JLayerManager@@8 10014118     lyrmgr.obj
+ 0002:00002128       ??_R2IJPersistImp@JLayerManager@@8 10014128     lyrmgr.obj
+ 0002:0000213c       ??_R1A@?0A@EA@IJPersistImp@JLayerManager@@8 1001413c     lyrmgr.obj
+ 0002:00002158       ??_R4IJCopyImp@JLayerManager@@6B@ 10014158     lyrmgr.obj
+ 0002:0000216c       ??_R3IJCopyImp@JLayerManager@@8 1001416c     lyrmgr.obj
+ 0002:0000217c       ??_R2IJCopyImp@JLayerManager@@8 1001417c     lyrmgr.obj
+ 0002:00002190       ??_R1A@?0A@EA@IJCopyImp@JLayerManager@@8 10014190     lyrmgr.obj
+ 0002:000021ac       ??_R4IJDeleteImp@JLayerManager@@6B@ 100141ac     lyrmgr.obj
+ 0002:000021c0       ??_R3IJDeleteImp@JLayerManager@@8 100141c0     lyrmgr.obj
+ 0002:000021d0       ??_R2IJDeleteImp@JLayerManager@@8 100141d0     lyrmgr.obj
+ 0002:000021e4       ??_R1A@?0A@EA@IJDeleteImp@JLayerManager@@8 100141e4     lyrmgr.obj
+ 0002:00002200       ??_R4JLayerManager@@6B@    10014200     lyrmgr.obj
+ 0002:00002214       ??_R3JLayerManager@@8      10014214     lyrmgr.obj
+ 0002:00002224       ??_R2JLayerManager@@8      10014224     lyrmgr.obj
+ 0002:00002234       ??_R1A@?0A@EA@JLayerManager@@8 10014234     lyrmgr.obj
+ 0002:00002250       ??_R4JDocLayerManagerCopySemantic@@6B@ 10014250     lyrmgrcp.obj
+ 0002:00002264       ??_R3JDocLayerManagerCopySemantic@@8 10014264     lyrmgrcp.obj
+ 0002:00002274       ??_R2JDocLayerManagerCopySemantic@@8 10014274     lyrmgrcp.obj
+ 0002:00002284       ??_R1A@?0A@EA@JDocLayerManagerCopySemantic@@8 10014284     lyrmgrcp.obj
+ 0002:000022a0       ??_R4IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@6B@ 100142a0     lyrmgrcp.obj
+ 0002:000022b4       ??_R3IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@8 100142b4     lyrmgrcp.obj
+ 0002:000022c4       ??_R2IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@8 100142c4     lyrmgrcp.obj
+ 0002:000022d4       ??_R1A@?0A@EA@IJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@8 100142d4     lyrmgrcp.obj
+ 0002:000022f0       ??_R1A@?0A@EA@IJStandAloneSemantic@@8 100142f0     lyrmgrcp.obj
+ 0002:0000230c       ??_R3IJStandAloneSemantic@@8 1001430c     lyrmgrcp.obj
+ 0002:0000231c       ??_R2IJStandAloneSemantic@@8 1001431c     lyrmgrcp.obj
+ 0002:00002328       ??_R4IJCopyImp@JDocLayerManagerCopySemantic@@6B@ 10014328     lyrmgrcp.obj
+ 0002:0000233c       ??_R3IJCopyImp@JDocLayerManagerCopySemantic@@8 1001433c     lyrmgrcp.obj
+ 0002:0000234c       ??_R2IJCopyImp@JDocLayerManagerCopySemantic@@8 1001434c     lyrmgrcp.obj
+ 0002:00002360       ??_R1A@?0A@EA@IJCopyImp@JDocLayerManagerCopySemantic@@8 10014360     lyrmgrcp.obj
+ 0002:0000237c       ??_R4IJPersistImp@JDocLayerManagerCopySemantic@@6B@ 1001437c     lyrmgrcp.obj
+ 0002:00002390       ??_R3IJPersistImp@JDocLayerManagerCopySemantic@@8 10014390     lyrmgrcp.obj
+ 0002:000023a0       ??_R2IJPersistImp@JDocLayerManagerCopySemantic@@8 100143a0     lyrmgrcp.obj
+ 0002:000023b4       ??_R1A@?0A@EA@IJPersistImp@JDocLayerManagerCopySemantic@@8 100143b4     lyrmgrcp.obj
+ 0002:000023d0       ??_R4?$ClassFactory@VJLayerManager@@@@6B@ 100143d0     server.obj
+ 0002:000023e4       ??_R3?$ClassFactory@VJLayerManager@@@@8 100143e4     server.obj
+ 0002:000023f4       ??_R2?$ClassFactory@VJLayerManager@@@@8 100143f4     server.obj
+ 0002:00002408       ??_R1A@?0A@EA@?$ClassFactory@VJLayerManager@@@@8 10014408     server.obj
+ 0002:00002424       ??_R1A@?0A@EA@JClassFactory@@8 10014424     server.obj
+ 0002:00002440       ??_R3JClassFactory@@8      10014440     server.obj
+ 0002:00002450       ??_R2JClassFactory@@8      10014450     server.obj
+ 0002:00002460       ??_R1A@?0A@EA@IClassFactory@@8 10014460     server.obj
+ 0002:0000247c       ??_R3IClassFactory@@8      1001447c     server.obj
+ 0002:0000248c       ??_R2IClassFactory@@8      1001448c     server.obj
+ 0002:00002498       ??_R4?$ClassFactory@VJLayer@@@@6B@ 10014498     server.obj
+ 0002:000024ac       ??_R3?$ClassFactory@VJLayer@@@@8 100144ac     server.obj
+ 0002:000024bc       ??_R2?$ClassFactory@VJLayer@@@@8 100144bc     server.obj
+ 0002:000024d0       ??_R1A@?0A@EA@?$ClassFactory@VJLayer@@@@8 100144d0     server.obj
+ 0002:000024ec       ??_R4?$ClassFactory@VJDocLayerManagerCopySemantic@@@@6B@ 100144ec     server.obj
+ 0002:00002500       ??_R3?$ClassFactory@VJDocLayerManagerCopySemantic@@@@8 10014500     server.obj
+ 0002:00002510       ??_R2?$ClassFactory@VJDocLayerManagerCopySemantic@@@@8 10014510     server.obj
+ 0002:00002524       ??_R1A@?0A@EA@?$ClassFactory@VJDocLayerManagerCopySemantic@@@@8 10014524     server.obj
+ 0002:00002540       ??_R4?$ClassFactory@VJLayerSettings@@@@6B@ 10014540     server.obj
+ 0002:00002554       ??_R3?$ClassFactory@VJLayerSettings@@@@8 10014554     server.obj
+ 0002:00002564       ??_R2?$ClassFactory@VJLayerSettings@@@@8 10014564     server.obj
+ 0002:00002578       ??_R1A@?0A@EA@?$ClassFactory@VJLayerSettings@@@@8 10014578     server.obj
+ 0002:00002594       ??_R4type_info@@6B@        10014594     MSVCRT:ti_inst.obj
+ 0002:000025a8       ??_R3type_info@@8          100145a8     MSVCRT:ti_inst.obj
+ 0002:000025b8       ??_R2type_info@@8          100145b8     MSVCRT:ti_inst.obj
+ 0002:000025c0       ??_R1A@?0A@EA@type_info@@8 100145c0     MSVCRT:ti_inst.obj
+ 0002:000025e0       ___safe_se_handler_table   100145e0     <linker-defined>
+ 0002:000027a8       ___rtc_iaa                 100147a8     MSVCRT:initsect.obj
+ 0002:000027ac       ___rtc_izz                 100147ac     MSVCRT:initsect.obj
+ 0002:000027b0       ___rtc_taa                 100147b0     MSVCRT:initsect.obj
+ 0002:000027b4       ___rtc_tzz                 100147b4     MSVCRT:initsect.obj
+ 0002:00002bd8       __TI2?AVbad_alloc@std@@    10014bd8     LayerSettings.obj
+ 0002:00002be8       __CTA2?AVbad_alloc@std@@   10014be8     LayerSettings.obj
+ 0002:00002bf4       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10014bf4     LayerSettings.obj
+ 0002:00002c10       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 10014c10     LayerSettings.obj
+ 0002:00002e80       __TI3?AVout_of_range@std@@ 10014e80     LayerSettings.obj
+ 0002:00002ebc       __CTA3?AVout_of_range@std@@ 10014ebc     LayerSettings.obj
+ 0002:00002ecc       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 10014ecc     LayerSettings.obj
+ 0002:00002ee8       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 10014ee8     LayerSettings.obj
+ 0002:00002f64       __TI3?AVlength_error@std@@ 10014f64     LayerSettings.obj
+ 0002:00002fa0       __CTA3?AVlength_error@std@@ 10014fa0     LayerSettings.obj
+ 0002:00002fb0       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 10014fb0     LayerSettings.obj
+ 0002:00004074       __IMPORT_DESCRIPTOR_bitarry 10016074     bitarry:bitarry.dll
+ 0002:00004088       __IMPORT_DESCRIPTOR_jengine 10016088     jengine:jengine.dll
+ 0002:0000409c       __IMPORT_DESCRIPTOR_JUtil  1001609c     jutil:JUtil.dll
+ 0002:000040b0       __IMPORT_DESCRIPTOR_sealloc 100160b0     sealloc:sealloc.dll
+ 0002:000040c4       __IMPORT_DESCRIPTOR_MSVCP80 100160c4     msvcprt:MSVCP80.dll
+ 0002:000040d8       __IMPORT_DESCRIPTOR_MSVCR80 100160d8     MSVCRT:MSVCR80.dll
+ 0002:000040ec       __IMPORT_DESCRIPTOR_KERNEL32 100160ec     kernel32:KERNEL32.dll
+ 0002:00004100       __IMPORT_DESCRIPTOR_ole32  10016100     ole32:ole32.dll
+ 0002:00004114       __NULL_IMPORT_DESCRIPTOR   10016114     bitarry:bitarry.dll
+ 0003:00000000       __newmode                  10017000     newmode.obj
+ 0003:00000ad0       ??_R0?AVJLayer@@@8         10017ad0     layer.obj
+ 0003:00000ae8       ??_R0?AVCPersistObject@@@8 10017ae8     layer.obj
+ 0003:00000b08       ??_R0?AUIUnknown@@@8       10017b08     layer.obj
+ 0003:00000b20       ??_R0?AUIJLayerImp@JLayer@@@8 10017b20     layer.obj
+ 0003:00000b40       ??_R0?AUIJLayer@@@8        10017b40     layer.obj
+ 0003:00000b58       ??_R0?AUIJPersistImp@JLayer@@@8 10017b58     layer.obj
+ 0003:00000b7c       ??_R0?AUIJPersist@@@8      10017b7c     layer.obj
+ 0003:00000b94       ??_R0?AUIPersist@@@8       10017b94     layer.obj
+ 0003:00000bac       ??_R0?AUIJCopyImp@JLayer@@@8 10017bac     layer.obj
+ 0003:00000bcc       ??_R0?AUIJCopy@@@8         10017bcc     layer.obj
+ 0003:00000be4       ??_R0?AUIJSemantic@@@8     10017be4     layer.obj
+ 0003:00000c00       ??_R0?AUIJDeleteImp@JLayer@@@8 10017c00     layer.obj
+ 0003:00000c24       ??_R0?AUIJDelete@@@8       10017c24     layer.obj
+ 0003:00001700       ??_R0?AVbad_alloc@std@@@8  10018700     LayerSettings.obj
+ 0003:0000171c       ??_R0?AVexception@std@@@8  1001871c     LayerSettings.obj
+ 0003:00001738       ??_R0?AVlogic_error@std@@@8 10018738     LayerSettings.obj
+ 0003:00001758       ??_R0?AVlength_error@std@@@8 10018758     LayerSettings.obj
+ 0003:00001778       ??_R0?AVout_of_range@std@@@8 10018778     LayerSettings.obj
+ 0003:00001798       ??_R0?AUIJLayerSettingsImp@JLayerSettings@@@8 10018798     LayerSettings.obj
+ 0003:000017c8       ??_R0?AUIJLayerSettings@@@8 100187c8     LayerSettings.obj
+ 0003:000017e8       ??_R0?AUIJPersistImp@JLayerSettings@@@8 100187e8     LayerSettings.obj
+ 0003:00001814       ??_R0?AVJLayerSettings@@@8 10018814     LayerSettings.obj
+ 0003:000022f8       ??_R0?AUIJLayerManagerImp@JLayerManager@@@8 100192f8     lyrmgr.obj
+ 0003:00002328       ??_R0?AUIJLayerManager@@@8 10019328     lyrmgr.obj
+ 0003:00002348       ??_R0?AUIJPersistImp@JLayerManager@@@8 10019348     lyrmgr.obj
+ 0003:00002374       ??_R0?AUIJCopyImp@JLayerManager@@@8 10019374     lyrmgr.obj
+ 0003:0000239c       ??_R0?AUIJDeleteImp@JLayerManager@@@8 1001939c     lyrmgr.obj
+ 0003:000023c4       ??_R0?AVJLayerManager@@@8  100193c4     lyrmgr.obj
+ 0003:00002e00       ??_R0?AVJDocLayerManagerCopySemantic@@@8 10019e00     lyrmgrcp.obj
+ 0003:00002e30       ??_R0?AVIJStandAloneSemanticImp@JDocLayerManagerCopySemantic@@@8 10019e30     lyrmgrcp.obj
+ 0003:00002e74       ??_R0?AUIJStandAloneSemantic@@@8 10019e74     lyrmgrcp.obj
+ 0003:00002e98       ??_R0?AVIJCopyImp@JDocLayerManagerCopySemantic@@@8 10019e98     lyrmgrcp.obj
+ 0003:00002ed0       ??_R0?AUIJPersistImp@JDocLayerManagerCopySemantic@@@8 10019ed0     lyrmgrcp.obj
+ 0003:000039c0       ??_R0?AV?$ClassFactory@VJLayerManager@@@@@8 1001a9c0     server.obj
+ 0003:000039f0       ??_R0?AVJClassFactory@@@8  1001a9f0     server.obj
+ 0003:00003a0c       ??_R0?AUIClassFactory@@@8  1001aa0c     server.obj
+ 0003:00003a28       ??_R0?AV?$ClassFactory@VJLayer@@@@@8 1001aa28     server.obj
+ 0003:00003a50       ??_R0?AV?$ClassFactory@VJDocLayerManagerCopySemantic@@@@@8 1001aa50     server.obj
+ 0003:00003a90       ??_R0?AV?$ClassFactory@VJLayerSettings@@@@@8 1001aa90     server.obj
+ 0003:00003ac0       ??_R0?AVtype_info@@@8      1001aac0     MSVCRT:ti_inst.obj
+ 0003:00003ad8       ___security_cookie         1001aad8     MSVCRT:gs_cookie.obj
+ 0003:00003adc       ___security_cookie_complement 1001aadc     MSVCRT:gs_cookie.obj
+ 0003:00003ae0       ___native_dllmain_reason   1001aae0     MSVCRT:natstart.obj
+ 0003:00003ae4       ___native_vcclrit_reason   1001aae4     MSVCRT:natstart.obj
+ 0003:00003ae8       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1001aae8     atls:atltrace.obj
+ 0003:000048ec       ?__type_info_root_node@@3U__type_info_node@@A 1001b8ec     MSVCRT:tncleanup.obj
+ 0003:000048f4       __afxForceEXCLUDE          1001b8f4     mfcs80:nolib.obj
+ 0003:000048f8       __afxForceSTDAFX           1001b8f8     mfcs80:stdafx.obj
+ 0003:000048fc       __adjust_fdiv              1001b8fc     <common>
+ 0003:00004900       ___native_startup_state    1001b900     <common>
+ 0003:00004904       ___native_startup_lock     1001b904     <common>
+ 0003:00004908       ___onexitend               1001b908     <common>
+ 0003:0000490c       ___onexitbegin             1001b90c     <common>
+ 0003:00004910       ___dyn_tls_init_callback   1001b910     <common>
+ 0003:00004914       __pActualRawDllMain        1001b914     <common>
+
+ entry point at        0001:0000e7c8
+
+ Static symbols
+
+ 0001:00003138       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKE@2@D@Z$0 10004138 f i LayerSettings.obj
+ 0001:000031e2       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@XZ$0 100041e2 f i LayerSettings.obj
+ 0001:00005540       ?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10006540 f   lyrmgr.obj
+ 0001:00006c98       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKK@2@D@Z$0 10007c98 f i lyrmgr.obj
+ 0001:00006d42       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@XZ$0 10007d42 f i lyrmgr.obj
+ 0001:0000b39f       __catch$?_Insert_n@?$vector@KV?$allocator@K@std@@@std@@IAEXV?$_Vector_iterator@KV?$allocator@K@std@@@2@IABK@Z$0 1000c39f f i lyrmgr.obj
+ 0001:0000b3ab       __catch$?_Insert_n@?$vector@KV?$allocator@K@std@@@std@@IAEXV?$_Vector_iterator@KV?$allocator@K@std@@@2@IABK@Z$2 1000c3ab f i lyrmgr.obj
+ 0001:0000e4c6       _pre_c_init                1000f4c6 f   MSVCRT:crtdll.obj
+ 0001:0000e6b2       ___DllMainCRTStartup       1000f6b2 f   MSVCRT:crtdll.obj
+ 0001:0000ed20       __FindPESection            1000fd20 f   mfcs80:rawdllmainproxy.obj
+ 0001:0000ed5a       __IsNonwritableInCurrentImage 1000fd5a f   mfcs80:rawdllmainproxy.obj
+ 0001:0000ef30       __unwindfunclet$??1JLayer@@UAE@XZ$0 1000ff30 f   layer.obj
+ 0001:0000ef39       __unwindfunclet$??1JLayer@@UAE@XZ$1 1000ff39 f   layer.obj
+ 0001:0000ef45       __unwindfunclet$??1JLayer@@UAE@XZ$2 1000ff45 f   layer.obj
+ 0001:0000ef51       __ehhandler$??1JLayer@@UAE@XZ 1000ff51 f   layer.obj
+ 0001:0000ef70       __unwindfunclet$?NotifyEdgeBar@JLayer@@AAEXHIJ@Z$1 1000ff70 f   layer.obj
+ 0001:0000ef78       __ehhandler$?NotifyEdgeBar@JLayer@@AAEXHIJ@Z 1000ff78 f   layer.obj
+ 0001:0000efa0       __unwindfunclet$?AddObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z$3 1000ffa0 f   layer.obj
+ 0001:0000efa8       __unwindfunclet$?AddObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z$4 1000ffa8 f   layer.obj
+ 0001:0000efb0       __ehhandler$?AddObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z 1000ffb0 f   layer.obj
+ 0001:0000efd0       __unwindfunclet$?RemoveObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z$2 1000ffd0 f   layer.obj
+ 0001:0000efd8       __unwindfunclet$?RemoveObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z$3 1000ffd8 f   layer.obj
+ 0001:0000efe0       __ehhandler$?RemoveObject@IJLayerImp@JLayer@@UAGJPAUIUnknown@@@Z 1000ffe0 f   layer.obj
+ 0001:0000f000       __unwindfunclet$?Disconnect@IJDeleteImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z$2 10010000 f   layer.obj
+ 0001:0000f008       __ehhandler$?Disconnect@IJDeleteImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10010008 f   layer.obj
+ 0001:0000f030       __unwindfunclet$?SetName@IJLayerImp@JLayer@@UAGJPB_W@Z$7 10010030 f   layer.obj
+ 0001:0000f038       __unwindfunclet$?SetName@IJLayerImp@JLayer@@UAGJPB_W@Z$8 10010038 f   layer.obj
+ 0001:0000f040       __unwindfunclet$?SetName@IJLayerImp@JLayer@@UAGJPB_W@Z$9 10010040 f   layer.obj
+ 0001:0000f048       __ehhandler$?SetName@IJLayerImp@JLayer@@UAGJPB_W@Z 10010048 f   layer.obj
+ 0001:0000f070       __unwindfunclet$?IsActive@IJLayerImp@JLayer@@UAG_NXZ$2 10010070 f   layer.obj
+ 0001:0000f078       __ehhandler$?IsActive@IJLayerImp@JLayer@@UAG_NXZ 10010078 f   layer.obj
+ 0001:0000f0a0       __unwindfunclet$?ShowOnly@IJLayerImp@JLayer@@UAGJXZ$3 100100a0 f   layer.obj
+ 0001:0000f0a8       __ehhandler$?ShowOnly@IJLayerImp@JLayer@@UAGJXZ 100100a8 f   layer.obj
+ 0001:0000f0d0       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$5 100100d0 f   layer.obj
+ 0001:0000f0d8       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$6 100100d8 f   layer.obj
+ 0001:0000f0e0       __ehhandler$?ReconnectClones@IJCopyImp@JLayer@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z 100100e0 f   layer.obj
+ 0001:0000f110       __unwindfunclet$??0JLayer@@QAE@PAUIUnknown@@@Z$0 10010110 f   layer.obj
+ 0001:0000f119       __unwindfunclet$??0JLayer@@QAE@PAUIUnknown@@@Z$1 10010119 f   layer.obj
+ 0001:0000f125       __unwindfunclet$??0JLayer@@QAE@PAUIUnknown@@@Z$2 10010125 f   layer.obj
+ 0001:0000f131       __ehhandler$??0JLayer@@QAE@PAUIUnknown@@@Z 10010131 f   layer.obj
+ 0001:0000f150       __unwindfunclet$?Clone@IJPersistImp@JLayer@@UAGJPAUIUnknown@@PAPAU3@@Z$3 10010150 f   layer.obj
+ 0001:0000f15c       __ehhandler$?Clone@IJPersistImp@JLayer@@UAGJPAUIUnknown@@PAPAU3@@Z 1001015c f   layer.obj
+ 0001:0000f180       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 10010180 f   LayerSettings.obj
+ 0001:0000f189       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 10010189 f   LayerSettings.obj
+ 0001:0000f1b0       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 100101b0 f   LayerSettings.obj
+ 0001:0000f1b9       __ehhandler$??1bad_alloc@std@@UAE@XZ 100101b9 f   LayerSettings.obj
+ 0001:0000f1e0       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 100101e0 f   LayerSettings.obj
+ 0001:0000f1e9       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 100101e9 f   LayerSettings.obj
+ 0001:0000f210       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10010210 f   LayerSettings.obj
+ 0001:0000f219       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 10010219 f   LayerSettings.obj
+ 0001:0000f225       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10010225 f   LayerSettings.obj
+ 0001:0000f240       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 10010240 f   LayerSettings.obj
+ 0001:0000f249       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 10010249 f   LayerSettings.obj
+ 0001:0000f255       __ehhandler$??1logic_error@std@@UAE@XZ 10010255 f   LayerSettings.obj
+ 0001:0000f270       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10010270 f   LayerSettings.obj
+ 0001:0000f278       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10010278 f   LayerSettings.obj
+ 0001:0000f2a0       __unwindfunclet$??1length_error@std@@UAE@XZ$0 100102a0 f   LayerSettings.obj
+ 0001:0000f2a8       __ehhandler$??1length_error@std@@UAE@XZ 100102a8 f   LayerSettings.obj
+ 0001:0000f2d0       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 100102d0 f   LayerSettings.obj
+ 0001:0000f2d8       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 100102d8 f   LayerSettings.obj
+ 0001:0000f300       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10010300 f   LayerSettings.obj
+ 0001:0000f308       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10010308 f   LayerSettings.obj
+ 0001:0000f330       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 10010330 f   LayerSettings.obj
+ 0001:0000f338       __ehhandler$??1out_of_range@std@@UAE@XZ 10010338 f   LayerSettings.obj
+ 0001:0000f360       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 10010360 f   LayerSettings.obj
+ 0001:0000f368       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 10010368 f   LayerSettings.obj
+ 0001:0000f390       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 10010390 f   LayerSettings.obj
+ 0001:0000f399       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 10010399 f   LayerSettings.obj
+ 0001:0000f3c0       __unwindfunclet$?NotifyEdgeBar@JLayerSettings@@AAEXXZ$1 100103c0 f   LayerSettings.obj
+ 0001:0000f3c8       __ehhandler$?NotifyEdgeBar@JLayerSettings@@AAEXXZ 100103c8 f   LayerSettings.obj
+ 0001:0000f3f0       __unwindfunclet$?SetVisible@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z$4 100103f0 f   LayerSettings.obj
+ 0001:0000f3f8       __ehhandler$?SetVisible@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z 100103f8 f   LayerSettings.obj
+ 0001:0000f420       __unwindfunclet$?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z$3 10010420 f   LayerSettings.obj
+ 0001:0000f428       __ehhandler$?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z 10010428 f   LayerSettings.obj
+ 0001:0000f450       __unwindfunclet$?SetLocatable@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z$4 10010450 f   LayerSettings.obj
+ 0001:0000f458       __ehhandler$?SetLocatable@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@_N@Z 10010458 f   LayerSettings.obj
+ 0001:0000f480       __unwindfunclet$?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z$3 10010480 f   LayerSettings.obj
+ 0001:0000f488       __ehhandler$?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPAUIUnknown@@@Z 10010488 f   LayerSettings.obj
+ 0001:0000f4b0       __unwindfunclet$?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z$4 100104b0 f   LayerSettings.obj
+ 0001:0000f4b8       __unwindfunclet$?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z$5 100104b8 f   LayerSettings.obj
+ 0001:0000f4c0       __ehhandler$?IsVisible@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z 100104c0 f   LayerSettings.obj
+ 0001:0000f4e0       __unwindfunclet$?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z$4 100104e0 f   LayerSettings.obj
+ 0001:0000f4e8       __unwindfunclet$?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z$5 100104e8 f   LayerSettings.obj
+ 0001:0000f4f0       __ehhandler$?IsLocatable@IJLayerSettingsImp@JLayerSettings@@UAG_NPB_W@Z 100104f0 f   LayerSettings.obj
+ 0001:0000f510       __unwindfunclet$?ShowOnly@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@@Z$4 10010510 f   LayerSettings.obj
+ 0001:0000f518       __ehhandler$?ShowOnly@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIUnknown@@@Z 10010518 f   LayerSettings.obj
+ 0001:0000f540       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKE@2@D@Z$2 10010540 f   LayerSettings.obj
+ 0001:0000f551       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKE@2@D@Z 10010551 f   LayerSettings.obj
+ 0001:0000f570       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@XZ 10010570 f   LayerSettings.obj
+ 0001:0000f590       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 10010590 f   LayerSettings.obj
+ 0001:0000f599       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10010599 f   LayerSettings.obj
+ 0001:0000f5c0       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 100105c0 f   LayerSettings.obj
+ 0001:0000f5c9       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 100105c9 f   LayerSettings.obj
+ 0001:0000f5d5       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 100105d5 f   LayerSettings.obj
+ 0001:0000f5f0       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 100105f0 f   LayerSettings.obj
+ 0001:0000f5f8       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 100105f8 f   LayerSettings.obj
+ 0001:0000f620       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKE@2@@Z$0 10010620 f   LayerSettings.obj
+ 0001:0000f629       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKE@2@@Z 10010629 f   LayerSettings.obj
+ 0001:0000f650       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 10010650 f   LayerSettings.obj
+ 0001:0000f658       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 10010658 f   LayerSettings.obj
+ 0001:0000f680       __unwindfunclet$?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z$4 10010680 f   LayerSettings.obj
+ 0001:0000f688       __unwindfunclet$?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z$5 10010688 f   LayerSettings.obj
+ 0001:0000f690       __unwindfunclet$?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z$6 10010690 f   LayerSettings.obj
+ 0001:0000f698       __unwindfunclet$?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z$7 10010698 f   LayerSettings.obj
+ 0001:0000f6a0       __ehhandler$?CopyLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJMapUnknownToUnknown@@PAUIJLayerSettings@@@Z 100106a0 f   LayerSettings.obj
+ 0001:0000f6c0       __unwindfunclet$?GetLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJPersistManager@@KPAH1@Z$4 100106c0 f   LayerSettings.obj
+ 0001:0000f6c8       __ehhandler$?GetLayerSettings@IJLayerSettingsImp@JLayerSettings@@UAGJPAUIJPersistManager@@KPAH1@Z 100106c8 f   LayerSettings.obj
+ 0001:0000f6f0       __unwindfunclet$??1?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ$0 100106f0 f   LayerSettings.obj
+ 0001:0000f6f8       __ehhandler$??1?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ 100106f8 f   LayerSettings.obj
+ 0001:0000f720       __unwindfunclet$??1JLayerSettings@@UAE@XZ$0 10010720 f   LayerSettings.obj
+ 0001:0000f729       __unwindfunclet$??1JLayerSettings@@UAE@XZ$1 10010729 f   LayerSettings.obj
+ 0001:0000f734       __ehhandler$??1JLayerSettings@@UAE@XZ 10010734 f   LayerSettings.obj
+ 0001:0000f750       __unwindfunclet$??0?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ$0 10010750 f   LayerSettings.obj
+ 0001:0000f758       __ehhandler$??0?$map@KEU?$less@K@std@@V?$allocator@U?$pair@$$CBKE@std@@@2@@std@@QAE@XZ 10010758 f   LayerSettings.obj
+ 0001:0000f780       __unwindfunclet$??0JLayerSettings@@QAE@PAUIUnknown@@@Z$0 10010780 f   LayerSettings.obj
+ 0001:0000f789       __unwindfunclet$??0JLayerSettings@@QAE@PAUIUnknown@@@Z$1 10010789 f   LayerSettings.obj
+ 0001:0000f794       __ehhandler$??0JLayerSettings@@QAE@PAUIUnknown@@@Z 10010794 f   LayerSettings.obj
+ 0001:0000f7b0       __unwindfunclet$?Clone@IJPersistImp@JLayerSettings@@UAGJPAUIUnknown@@PAPAU3@@Z$3 100107b0 f   LayerSettings.obj
+ 0001:0000f7bc       __ehhandler$?Clone@IJPersistImp@JLayerSettings@@UAGJPAUIUnknown@@PAPAU3@@Z 100107bc f   LayerSettings.obj
+ 0001:0000f7e0       __unwindfunclet$?_Xlen@?$vector@KV?$allocator@K@std@@@std@@KAXXZ$0 100107e0 f   lyrmgr.obj
+ 0001:0000f7e9       __ehhandler$?_Xlen@?$vector@KV?$allocator@K@std@@@std@@KAXXZ 100107e9 f   lyrmgr.obj
+ 0001:0000f810       __unwindfunclet$?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z$6 10010810 f   lyrmgr.obj
+ 0001:0000f818       __ehhandler$?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 10010818 f   lyrmgr.obj
+ 0001:0000f840       __unwindfunclet$?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIUnknown@@@Z$4 10010840 f   lyrmgr.obj
+ 0001:0000f848       __ehhandler$?GetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIUnknown@@@Z 10010848 f   lyrmgr.obj
+ 0001:0000f870       __unwindfunclet$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$4 10010870 f   lyrmgr.obj
+ 0001:0000f878       __ehhandler$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10010878 f   lyrmgr.obj
+ 0001:0000f8a0       __unwindfunclet$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJK@Z$2 100108a0 f   lyrmgr.obj
+ 0001:0000f8a8       __ehhandler$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJK@Z 100108a8 f   lyrmgr.obj
+ 0001:0000f8d0       __unwindfunclet$?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z$5 100108d0 f   lyrmgr.obj
+ 0001:0000f8d8       __unwindfunclet$?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z$6 100108d8 f   lyrmgr.obj
+ 0001:0000f8e0       __unwindfunclet$?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z$7 100108e0 f   lyrmgr.obj
+ 0001:0000f8e8       __unwindfunclet$?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z$8 100108e8 f   lyrmgr.obj
+ 0001:0000f8f0       __ehhandler$?JGetTypedParent@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100108f0 f   lyrmgr.obj
+ 0001:0000f910       __unwindfunclet$?GetLayerByPosition@IJLayerManagerImp@JLayerManager@@UAGJIPAPAUIUnknown@@@Z$4 10010910 f   lyrmgr.obj
+ 0001:0000f918       __ehhandler$?GetLayerByPosition@IJLayerManagerImp@JLayerManager@@UAGJIPAPAUIUnknown@@@Z 10010918 f   lyrmgr.obj
+ 0001:0000f940       __unwindfunclet$_GetObjectLayer@8$6 10010940 f   lyrmgr.obj
+ 0001:0000f948       __ehhandler$_GetObjectLayer@8 10010948 f   lyrmgr.obj
+ 0001:0000f970       __unwindfunclet$_GetLayerManager@12$6 10010970 f   lyrmgr.obj
+ 0001:0000f978       __ehhandler$_GetLayerManager@12 10010978 f   lyrmgr.obj
+ 0001:0000f9a0       __unwindfunclet$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PB_W@Z$5 100109a0 f   lyrmgr.obj
+ 0001:0000f9a8       __unwindfunclet$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PB_W@Z$6 100109a8 f   lyrmgr.obj
+ 0001:0000f9b0       __ehhandler$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@PB_W@Z 100109b0 f   lyrmgr.obj
+ 0001:0000f9d0       __unwindfunclet$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$2 100109d0 f   lyrmgr.obj
+ 0001:0000f9d8       __unwindfunclet$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$3 100109d8 f   lyrmgr.obj
+ 0001:0000f9e0       __unwindfunclet$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$4 100109e0 f   lyrmgr.obj
+ 0001:0000f9e8       __ehhandler$?AddObjectToLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 100109e8 f   lyrmgr.obj
+ 0001:0000fa10       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$13 10010a10 f   lyrmgr.obj
+ 0001:0000fa18       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$14 10010a18 f   lyrmgr.obj
+ 0001:0000fa20       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$15 10010a20 f   lyrmgr.obj
+ 0001:0000fa28       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$16 10010a28 f   lyrmgr.obj
+ 0001:0000fa30       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$17 10010a30 f   lyrmgr.obj
+ 0001:0000fa38       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$18 10010a38 f   lyrmgr.obj
+ 0001:0000fa41       __unwindfunclet$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$19 10010a41 f   lyrmgr.obj
+ 0001:0000fa49       __ehhandler$?CreateClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 10010a49 f   lyrmgr.obj
+ 0001:0000fa80       __unwindfunclet$_AddObjectToActiveLayer@4$4 10010a80 f   lyrmgr.obj
+ 0001:0000fa88       __ehhandler$_AddObjectToActiveLayer@4 10010a88 f   lyrmgr.obj
+ 0001:0000fab0       __unwindfunclet$_AddObjectToLayer@8$4 10010ab0 f   lyrmgr.obj
+ 0001:0000fab8       __ehhandler$_AddObjectToLayer@8 10010ab8 f   lyrmgr.obj
+ 0001:0000fae0       __unwindfunclet$_GetObjectLayerName@8$5 10010ae0 f   lyrmgr.obj
+ 0001:0000fae8       __unwindfunclet$_GetObjectLayerName@8$6 10010ae8 f   lyrmgr.obj
+ 0001:0000faf0       __ehhandler$_GetObjectLayerName@8 10010af0 f   lyrmgr.obj
+ 0001:0000fb10       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 10010b10 f   lyrmgr.obj
+ 0001:0000fb19       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10010b19 f   lyrmgr.obj
+ 0001:0000fb40       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKK@2@D@Z$2 10010b40 f   lyrmgr.obj
+ 0001:0000fb51       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBKK@2@D@Z 10010b51 f   lyrmgr.obj
+ 0001:0000fb70       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@XZ 10010b70 f   lyrmgr.obj
+ 0001:0000fb90       __unwindfunclet$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$9 10010b90 f   lyrmgr.obj
+ 0001:0000fb98       __unwindfunclet$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$10 10010b98 f   lyrmgr.obj
+ 0001:0000fba0       __ehhandler$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 10010ba0 f   lyrmgr.obj
+ 0001:0000fbc0       __unwindfunclet$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$7 10010bc0 f   lyrmgr.obj
+ 0001:0000fbc8       __unwindfunclet$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$8 10010bc8 f   lyrmgr.obj
+ 0001:0000fbd0       __ehhandler$?ShowOnly@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10010bd0 f   lyrmgr.obj
+ 0001:0000fbf0       __unwindfunclet$?UpdateDocActiveLayerOnAdd@JLayerManager@@AAEXPAUIJPersistManager@@KPAUIJLayer@@@Z$3 10010bf0 f   lyrmgr.obj
+ 0001:0000fbf8       __ehhandler$?UpdateDocActiveLayerOnAdd@JLayerManager@@AAEXPAUIJPersistManager@@KPAUIJLayer@@@Z 10010bf8 f   lyrmgr.obj
+ 0001:0000fc20       __unwindfunclet$?GetLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WPAPAUIUnknown@@@Z$4 10010c20 f   lyrmgr.obj
+ 0001:0000fc28       __unwindfunclet$?GetLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WPAPAUIUnknown@@@Z$5 10010c28 f   lyrmgr.obj
+ 0001:0000fc30       __unwindfunclet$?GetLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WPAPAUIUnknown@@@Z$6 10010c30 f   lyrmgr.obj
+ 0001:0000fc39       __ehhandler$?GetLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WPAPAUIUnknown@@@Z 10010c39 f   lyrmgr.obj
+ 0001:0000fc60       __unwindfunclet$?EnumLayers@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIEnumUnknown@@@Z$4 10010c60 f   lyrmgr.obj
+ 0001:0000fc68       __unwindfunclet$?EnumLayers@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIEnumUnknown@@@Z$5 10010c68 f   lyrmgr.obj
+ 0001:0000fc70       __ehhandler$?EnumLayers@IJLayerManagerImp@JLayerManager@@UAGJPAPAUIEnumUnknown@@@Z 10010c70 f   lyrmgr.obj
+ 0001:0000fc90       __unwindfunclet$?IsLayerNameInUse@IJLayerManagerImp@JLayerManager@@UAG_NPB_W@Z$3 10010c90 f   lyrmgr.obj
+ 0001:0000fc98       __unwindfunclet$?IsLayerNameInUse@IJLayerManagerImp@JLayerManager@@UAG_NPB_W@Z$4 10010c98 f   lyrmgr.obj
+ 0001:0000fca0       __unwindfunclet$?IsLayerNameInUse@IJLayerManagerImp@JLayerManager@@UAG_NPB_W@Z$5 10010ca0 f   lyrmgr.obj
+ 0001:0000fca9       __ehhandler$?IsLayerNameInUse@IJLayerManagerImp@JLayerManager@@UAG_NPB_W@Z 10010ca9 f   lyrmgr.obj
+ 0001:0000fcd0       __unwindfunclet$?EnumValues@IJCopyImp@JLayerManager@@UAGJPAPAUIEnumJIDREF@@@Z$7 10010cd0 f   lyrmgr.obj
+ 0001:0000fcd8       __ehhandler$?EnumValues@IJCopyImp@JLayerManager@@UAGJPAPAUIEnumJIDREF@@@Z 10010cd8 f   lyrmgr.obj
+ 0001:0000fd00       __unwindfunclet$?PreValueCopy@IJCopyImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z$2 10010d00 f   lyrmgr.obj
+ 0001:0000fd08       __unwindfunclet$?PreValueCopy@IJCopyImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z$3 10010d08 f   lyrmgr.obj
+ 0001:0000fd10       __unwindfunclet$?PreValueCopy@IJCopyImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z$4 10010d10 f   lyrmgr.obj
+ 0001:0000fd18       __ehhandler$?PreValueCopy@IJCopyImp@JLayerManager@@UAGJPAUIUnknown@@PAUIJRelationNotify@@@Z 10010d18 f   lyrmgr.obj
+ 0001:0000fd40       __unwindfunclet$?_Insert@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKK@2@@Z$0 10010d40 f   lyrmgr.obj
+ 0001:0000fd49       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@$0A@@std@@@2@ABU?$pair@$$CBKK@2@@Z 10010d49 f   lyrmgr.obj
+ 0001:0000fd70       __unwindfunclet$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z$7 10010d70 f   lyrmgr.obj
+ 0001:0000fd78       __ehhandler$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@0@Z 10010d78 f   lyrmgr.obj
+ 0001:0000fda0       __unwindfunclet$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJKK@Z$3 10010da0 f   lyrmgr.obj
+ 0001:0000fda8       __ehhandler$?SetActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJKK@Z 10010da8 f   lyrmgr.obj
+ 0001:0000fdd0       __unwindfunclet$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$8 10010dd0 f   lyrmgr.obj
+ 0001:0000fdd8       __unwindfunclet$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$9 10010dd8 f   lyrmgr.obj
+ 0001:0000fde0       __unwindfunclet$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$10 10010de0 f   lyrmgr.obj
+ 0001:0000fde8       __unwindfunclet$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$11 10010de8 f   lyrmgr.obj
+ 0001:0000fdf0       __unwindfunclet$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$12 10010df0 f   lyrmgr.obj
+ 0001:0000fdf8       __ehhandler$?RemoveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10010df8 f   lyrmgr.obj
+ 0001:0000fe20       __unwindfunclet$?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z$6 10010e20 f   lyrmgr.obj
+ 0001:0000fe28       __unwindfunclet$?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z$7 10010e28 f   lyrmgr.obj
+ 0001:0000fe30       __unwindfunclet$?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z$8 10010e30 f   lyrmgr.obj
+ 0001:0000fe38       __unwindfunclet$?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z$9 10010e38 f   lyrmgr.obj
+ 0001:0000fe41       __ehhandler$?DeleteLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_W@Z 10010e41 f   lyrmgr.obj
+ 0001:0000fe60       __unwindfunclet$?SetVisible@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$6 10010e60 f   lyrmgr.obj
+ 0001:0000fe68       __unwindfunclet$?SetVisible@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$7 10010e68 f   lyrmgr.obj
+ 0001:0000fe70       __unwindfunclet$?SetVisible@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$8 10010e70 f   lyrmgr.obj
+ 0001:0000fe78       __ehhandler$?SetVisible@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z 10010e78 f   lyrmgr.obj
+ 0001:0000fea0       __unwindfunclet$?SetLocatable@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$6 10010ea0 f   lyrmgr.obj
+ 0001:0000fea8       __unwindfunclet$?SetLocatable@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$7 10010ea8 f   lyrmgr.obj
+ 0001:0000feb0       __unwindfunclet$?SetLocatable@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z$8 10010eb0 f   lyrmgr.obj
+ 0001:0000feb8       __ehhandler$?SetLocatable@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@_N1@Z 10010eb8 f   lyrmgr.obj
+ 0001:0000fee0       __unwindfunclet$?AddObjectToActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$9 10010ee0 f   lyrmgr.obj
+ 0001:0000fee8       __unwindfunclet$?AddObjectToActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$10 10010ee8 f   lyrmgr.obj
+ 0001:0000fef0       __unwindfunclet$?AddObjectToActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$11 10010ef0 f   lyrmgr.obj
+ 0001:0000fef8       __ehhandler$?AddObjectToActiveLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10010ef8 f   lyrmgr.obj
+ 0001:0000ff20       __unwindfunclet$?IsLayerActiveInAnyContext@IJLayerManagerImp@JLayerManager@@UAG_NPAUIUnknown@@@Z$3 10010f20 f   lyrmgr.obj
+ 0001:0000ff28       __ehhandler$?IsLayerActiveInAnyContext@IJLayerManagerImp@JLayerManager@@UAG_NPAUIUnknown@@@Z 10010f28 f   lyrmgr.obj
+ 0001:0000ff50       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$16 10010f50 f   lyrmgr.obj
+ 0001:0000ff5b       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$17 10010f5b f   lyrmgr.obj
+ 0001:0000ff66       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$18 10010f66 f   lyrmgr.obj
+ 0001:0000ff6e       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$19 10010f6e f   lyrmgr.obj
+ 0001:0000ff79       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$20 10010f79 f   lyrmgr.obj
+ 0001:0000ff84       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$21 10010f84 f   lyrmgr.obj
+ 0001:0000ff8f       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$22 10010f8f f   lyrmgr.obj
+ 0001:0000ff97       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$23 10010f97 f   lyrmgr.obj
+ 0001:0000ff9f       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$24 10010f9f f   lyrmgr.obj
+ 0001:0000ffaa       __unwindfunclet$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z$25 10010faa f   lyrmgr.obj
+ 0001:0000ffb5       __ehhandler$?ReconnectClones@IJCopyImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@PAUIJRelationNotify@@@Z 10010fb5 f   lyrmgr.obj
+ 0001:0000fff0       __unwindfunclet$??1?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ$0 10010ff0 f   lyrmgr.obj
+ 0001:0000fff8       __ehhandler$??1?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ 10010ff8 f   lyrmgr.obj
+ 0001:00010020       __unwindfunclet$??1JLayerManager@@UAE@XZ$0 10011020 f   lyrmgr.obj
+ 0001:00010029       __unwindfunclet$??1JLayerManager@@UAE@XZ$1 10011029 f   lyrmgr.obj
+ 0001:00010034       __unwindfunclet$??1JLayerManager@@UAE@XZ$2 10011034 f   lyrmgr.obj
+ 0001:0001003f       __ehhandler$??1JLayerManager@@UAE@XZ 1001103f f   lyrmgr.obj
+ 0001:00010060       __unwindfunclet$?AddLayerContext@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$8 10011060 f   lyrmgr.obj
+ 0001:00010068       __unwindfunclet$?AddLayerContext@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$9 10011068 f   lyrmgr.obj
+ 0001:00010070       __unwindfunclet$?AddLayerContext@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$10 10011070 f   lyrmgr.obj
+ 0001:00010078       __ehhandler$?AddLayerContext@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10011078 f   lyrmgr.obj
+ 0001:000100a0       __unwindfunclet$?RemoveLayerContext@JLayerManager@@AAEJPAUIUnknown@@@Z$7 100110a0 f   lyrmgr.obj
+ 0001:000100a8       __unwindfunclet$?RemoveLayerContext@JLayerManager@@AAEJPAUIUnknown@@@Z$8 100110a8 f   lyrmgr.obj
+ 0001:000100b0       __ehhandler$?RemoveLayerContext@JLayerManager@@AAEJPAUIUnknown@@@Z 100110b0 f   lyrmgr.obj
+ 0001:000100d0       __unwindfunclet$?Disconnect@IJDeleteImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z$3 100110d0 f   lyrmgr.obj
+ 0001:000100d8       __unwindfunclet$?Disconnect@IJDeleteImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z$4 100110d8 f   lyrmgr.obj
+ 0001:000100e0       __ehhandler$?Disconnect@IJDeleteImp@JLayerManager@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100110e0 f   lyrmgr.obj
+ 0001:00010110       __unwindfunclet$??0?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ$0 10011110 f   lyrmgr.obj
+ 0001:00010118       __ehhandler$??0?$map@KKU?$less@K@std@@V?$allocator@U?$pair@$$CBKK@std@@@2@@std@@QAE@XZ 10011118 f   lyrmgr.obj
+ 0001:00010140       __ehhandler$?_Insert_n@?$vector@KV?$allocator@K@std@@@std@@IAEXV?$_Vector_iterator@KV?$allocator@K@std@@@2@IABK@Z 10011140 f   lyrmgr.obj
+ 0001:00010160       __unwindfunclet$??0JLayerManager@@QAE@PAUIUnknown@@@Z$0 10011160 f   lyrmgr.obj
+ 0001:00010169       __unwindfunclet$??0JLayerManager@@QAE@PAUIUnknown@@@Z$1 10011169 f   lyrmgr.obj
+ 0001:00010174       __unwindfunclet$??0JLayerManager@@QAE@PAUIUnknown@@@Z$2 10011174 f   lyrmgr.obj
+ 0001:0001017f       __ehhandler$??0JLayerManager@@QAE@PAUIUnknown@@@Z 1001117f f   lyrmgr.obj
+ 0001:000101a0       __unwindfunclet$?Clone@IJPersistImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z$3 100111a0 f   lyrmgr.obj
+ 0001:000101ac       __ehhandler$?Clone@IJPersistImp@JLayerManager@@UAGJPAUIUnknown@@PAPAU3@@Z 100111ac f   lyrmgr.obj
+ 0001:000101d0       __unwindfunclet$?AddLayer@JLayerManager@@AAEJPAUIJPersistManager@@PAUIUnknown@@PAK@Z$5 100111d0 f   lyrmgr.obj
+ 0001:000101d8       __ehhandler$?AddLayer@JLayerManager@@AAEJPAUIJPersistManager@@PAUIUnknown@@PAK@Z 100111d8 f   lyrmgr.obj
+ 0001:00010200       __unwindfunclet$?AddLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$5 10011200 f   lyrmgr.obj
+ 0001:00010208       __unwindfunclet$?AddLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z$6 10011208 f   lyrmgr.obj
+ 0001:00010210       __ehhandler$?AddLayer@IJLayerManagerImp@JLayerManager@@UAGJPAUIUnknown@@@Z 10011210 f   lyrmgr.obj
+ 0001:00010230       __unwindfunclet$?EnumContextsInWhichLayerIsActive@IJLayerManagerImp@JLayerManager@@UAGJKPAPAUIEnumUnknown@@@Z$7 10011230 f   lyrmgr.obj
+ 0001:00010238       __unwindfunclet$?EnumContextsInWhichLayerIsActive@IJLayerManagerImp@JLayerManager@@UAGJKPAPAUIEnumUnknown@@@Z$8 10011238 f   lyrmgr.obj
+ 0001:00010240       __unwindfunclet$?EnumContextsInWhichLayerIsActive@IJLayerManagerImp@JLayerManager@@UAGJKPAPAUIEnumUnknown@@@Z$9 10011240 f   lyrmgr.obj
+ 0001:00010248       __ehhandler$?EnumContextsInWhichLayerIsActive@IJLayerManagerImp@JLayerManager@@UAGJKPAPAUIEnumUnknown@@@Z 10011248 f   lyrmgr.obj
+ 0001:00010270       __unwindfunclet$?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z$11 10011270 f   lyrmgr.obj
+ 0001:00010278       __unwindfunclet$?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z$12 10011278 f   lyrmgr.obj
+ 0001:00010280       __unwindfunclet$?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z$13 10011280 f   lyrmgr.obj
+ 0001:00010288       __unwindfunclet$?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z$14 10011288 f   lyrmgr.obj
+ 0001:00010290       __ehhandler$?CreateLayer@IJLayerManagerImp@JLayerManager@@UAGJPB_WABU_GUID@@PAPAX@Z 10011290 f   lyrmgr.obj
+ 0001:000102b0       __unwindfunclet$??1JDocLayerManagerCopySemantic@@UAE@XZ$0 100112b0 f   lyrmgrcp.obj
+ 0001:000102b9       __ehhandler$??1JDocLayerManagerCopySemantic@@UAE@XZ 100112b9 f   lyrmgrcp.obj
+ 0001:000102e0       __unwindfunclet$?EnumValues@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAPAUIEnumJIDREF@@@Z$6 100112e0 f   lyrmgrcp.obj
+ 0001:000102e8       __ehhandler$?EnumValues@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAPAUIEnumJIDREF@@@Z 100112e8 f   lyrmgrcp.obj
+ 0001:00010310       __unwindfunclet$?CreateClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$8 10011310 f   lyrmgrcp.obj
+ 0001:00010318       __ehhandler$?CreateClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 10011318 f   lyrmgrcp.obj
+ 0001:00010340       __unwindfunclet$?ReconnectClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z$6 10011340 f   lyrmgrcp.obj
+ 0001:00010348       __ehhandler$?ReconnectClones@IJCopyImp@JDocLayerManagerCopySemantic@@EAGJPAUIEnumJIDREF@@PAUIJMapUnknownToUnknown@@@Z 10011348 f   lyrmgrcp.obj
+ 0001:00010370       __unwindfunclet$??0JDocLayerManagerCopySemantic@@QAE@PAUIUnknown@@@Z$0 10011370 f   lyrmgrcp.obj
+ 0001:00010379       __ehhandler$??0JDocLayerManagerCopySemantic@@QAE@PAUIUnknown@@@Z 10011379 f   lyrmgrcp.obj
+ 0001:000103a0       __unwindfunclet$?Clone@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAUIUnknown@@PAPAU3@@Z$2 100113a0 f   lyrmgrcp.obj
+ 0001:000103ac       __ehhandler$?Clone@IJPersistImp@JDocLayerManagerCopySemantic@@UAGJPAUIUnknown@@PAPAU3@@Z 100113ac f   lyrmgrcp.obj
+ 0001:000103d0       __unwindfunclet$??0?$ClassFactory@VJLayerManager@@@@QAE@HHH@Z$0 100113d0 f   server.obj
+ 0001:000103d9       __ehhandler$??0?$ClassFactory@VJLayerManager@@@@QAE@HHH@Z 100113d9 f   server.obj
+ 0001:00010400       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011400 f   server.obj
+ 0001:0001040c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJLayerManager@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001140c f   server.obj
+ 0001:00010430       __unwindfunclet$??0?$ClassFactory@VJLayer@@@@QAE@HHH@Z$0 10011430 f   server.obj
+ 0001:00010439       __ehhandler$??0?$ClassFactory@VJLayer@@@@QAE@HHH@Z 10011439 f   server.obj
+ 0001:00010460       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011460 f   server.obj
+ 0001:0001046c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJLayer@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001146c f   server.obj
+ 0001:00010490       __unwindfunclet$??0?$ClassFactory@VJDocLayerManagerCopySemantic@@@@QAE@HHH@Z$0 10011490 f   server.obj
+ 0001:00010499       __ehhandler$??0?$ClassFactory@VJDocLayerManagerCopySemantic@@@@QAE@HHH@Z 10011499 f   server.obj
+ 0001:000104c0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100114c0 f   server.obj
+ 0001:000104cc       __ehhandler$?OnCreateInstance@?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100114cc f   server.obj
+ 0001:000104f0       __unwindfunclet$??0?$ClassFactory@VJLayerSettings@@@@QAE@HHH@Z$0 100114f0 f   server.obj
+ 0001:000104f9       __ehhandler$??0?$ClassFactory@VJLayerSettings@@@@QAE@HHH@Z 100114f9 f   server.obj
+ 0001:00010520       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJLayerSettings@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011520 f   server.obj
+ 0001:0001052c       __ehhandler$?OnCreateInstance@?$ClassFactory@VJLayerSettings@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001152c f   server.obj
+ 0001:00010550       __unwindfunclet$_DllGetClassObject@12$4 10011550 f   server.obj
+ 0001:0001055b       __unwindfunclet$_DllGetClassObject@12$5 1001155b f   server.obj
+ 0001:00010566       __unwindfunclet$_DllGetClassObject@12$6 10011566 f   server.obj
+ 0001:00010571       __unwindfunclet$_DllGetClassObject@12$7 10011571 f   server.obj
+ 0001:0001057c       __ehhandler$_DllGetClassObject@12 1001157c f   server.obj
+ 0001:000105a0       __unwindfunclet$??_G?$ClassFactory@VJLayerManager@@@@UAEPAXI@Z$0 100115a0 f   server.obj
+ 0001:000105a9       __ehhandler$??_G?$ClassFactory@VJLayerManager@@@@UAEPAXI@Z 100115a9 f   server.obj
+ 0001:000105d0       __unwindfunclet$??_G?$ClassFactory@VJLayer@@@@UAEPAXI@Z$0 100115d0 f   server.obj
+ 0001:000105d9       __ehhandler$??_G?$ClassFactory@VJLayer@@@@UAEPAXI@Z 100115d9 f   server.obj
+ 0001:00010600       __unwindfunclet$??_G?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEPAXI@Z$0 10011600 f   server.obj
+ 0001:00010609       __ehhandler$??_G?$ClassFactory@VJDocLayerManagerCopySemantic@@@@UAEPAXI@Z 10011609 f   server.obj
+ 0001:00010630       __unwindfunclet$??_G?$ClassFactory@VJLayerSettings@@@@UAEPAXI@Z$0 10011630 f   server.obj
+ 0001:00010639       __ehhandler$??_G?$ClassFactory@VJLayerSettings@@@@UAEPAXI@Z 10011639 f   server.obj
+ 0001:00010660       ??__EGNULL_Camera@@YAXXZ   10011660 f   layer.obj
+ 0001:00010680       ??__EGNULL_CAMERA@@YAXXZ   10011680 f   layer.obj
+ 0001:000106a0       ??__EGID_Camera@@YAXXZ     100116a0 f   layer.obj
+ 0001:000106c0       ??__EGID_CAMERA@@YAXXZ     100116c0 f   layer.obj
+ 0001:000106e0       ??__EGNULL_Camera@@YAXXZ   100116e0 f   LayerSettings.obj
+ 0001:00010700       ??__EGNULL_CAMERA@@YAXXZ   10011700 f   LayerSettings.obj
+ 0001:00010720       ??__EGID_Camera@@YAXXZ     10011720 f   LayerSettings.obj
+ 0001:00010740       ??__EGID_CAMERA@@YAXXZ     10011740 f   LayerSettings.obj
+ 0001:00010760       ??__EGNULL_Camera@@YAXXZ   10011760 f   lyrmgr.obj
+ 0001:00010780       ??__EGNULL_CAMERA@@YAXXZ   10011780 f   lyrmgr.obj
+ 0001:000107a0       ??__EGID_Camera@@YAXXZ     100117a0 f   lyrmgr.obj
+ 0001:000107c0       ??__EGID_CAMERA@@YAXXZ     100117c0 f   lyrmgr.obj
+ 0001:000107e0       ??__EGNULL_Camera@@YAXXZ   100117e0 f   lyrmgrcp.obj
+ 0001:00010800       ??__EGNULL_CAMERA@@YAXXZ   10011800 f   lyrmgrcp.obj
+ 0001:00010820       ??__EGID_Camera@@YAXXZ     10011820 f   lyrmgrcp.obj
+ 0001:00010840       ??__EGID_CAMERA@@YAXXZ     10011840 f   lyrmgrcp.obj
+ 0001:00010860       ??__EGNULL_Camera@@YAXXZ   10011860 f   server.obj
+ 0001:00010880       ??__EGNULL_CAMERA@@YAXXZ   10011880 f   server.obj
+ 0001:000108a0       ??__EGID_Camera@@YAXXZ     100118a0 f   server.obj
+ 0001:000108c0       ??__EGID_CAMERA@@YAXXZ     100118c0 f   server.obj

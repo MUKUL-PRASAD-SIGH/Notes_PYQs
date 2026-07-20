@@ -1,0 +1,220 @@
+\\ Solid Edge PipeThreads.txt file,
+\\ The location of this file is set by Tools | Options, File Locations.
+\\ For example: c:\Program Files\Solid Edgev19\Program\PipeThreads.txt
+\\ You can add, edit, or remove entries from this file, If you edit this file, 
+\\ you should backup the file before uninstalling Solid Edge,
+
+\\ This file is intended to be used with systems that have a comma“,” delimiter for
+\\ the decimal place
+
+\\ Localization requirements are that only comments are to be localized.
+\\ The separator between various fields must be a semi colon ";"
+\\ All lines starting with "\\" are ignored
+
+\\ This file contains both Inch and Metric thread types which are listed in separate
+\\ sections that start and end all of the following fields with:
+\\ “BeginInch” and “EndInch” for inch based threads and
+\\ “BeginMetric” and “EndMetric” for metric based threads and
+
+\\ This file contains both straight and tapered threads which are listed in separate
+\\ sections that start and end all of the following fields with:
+\\ “BeginStraightPipe” and “EndStraightPipe” for inch based threads and
+\\ “BeginTaperPipe” and “EndTaperPipe” for metric based threads and
+
+\\ The fields in this file for straight pipe threads are:
+\\ outside pipe diameter 
+\\ internal minor diameter
+\\ external minor diameter
+\\ thread type
+\\ thread family
+
+\\ The fields in this file for tapered pipe threads are:
+\\ outside pipe diameter 
+\\ length for external threads 
+\\ inside pipe diameter 
+\\ length for internal threads 
+\\ thread height 
+\\ thread type external 
+\\ thread type internal
+\\ thread family
+
+\\ For the hole feature with straight threads:
+\\ The outside pipe diameter is listed in the UI and is used for size selection,
+\\ but a hole equal to the internal minor diameter is created
+
+\\ For the hole feature with tapered threads:
+\\ The outside pipe diameter is listed in the UI and is used for size selection, 
+\\ inside pipe diameter is created but a hole equal to the
+
+\\ For the Thread feature with straight threads:
+\\ For internal threads (holes) the hole must be modeled to the internal minor diameter
+\\ For external threads (shafts) the cylinder must be modeled to the outside pipe diameter
+
+\\ For the Thread feature with tapered threads:
+\\ For internal threads (holes) the hole must be modeled to the inside pipe diameter
+\\ For external threads (shafts) the cylinder must be modeled to the outside pipe diameter
+
+\\ The thread family is used to classify similar threads to allow automatic thread
+\\ sizing when the underlying diameter changes, Solid Edge will maintain the thread
+\\ family, but will search for the appropriate diameter to match the model
+
+\\ Beginning of Tapered Pipe Threads
+\\ Beginning of inch sizes
+BeginInch 
+
+\\ Beginning of Straight Pipe Threads
+BeginStraightPipe
+0,405; 0,358; 0,3259;  1/8-27 NPSM; NPSM
+0,54; 0,468; 0,4208;  1/4-18 NPSM; NPSM
+0,675; 0,603; 0,5568;  3/8-18 NPSM; NPSM
+0,84; 0,747; 0,6893;  1/2-14 NPSM; NPSM
+1,05; 0,958; 0,9003;  3/4-14 NPSM; NPSM
+1,315; 1,201; 1,1304;  1-11,5 NPSM; NPSM
+1,66; 1,546; 1,4754;  1  1/4-11,5 NPSM; NPSM
+1,9; 1,785; 1,7144;  1  1/2-11,5 NPSM; NPSM
+2,375; 2,259; 2,1884;  2-11,5 NPSM; NPSM
+2,875; 2,708; 2,6095;  2  1/2-8 NPSM; NPSM
+3,5; 3,334; 3,2355;  3-8 NPSM; NPSM
+4; 3,835; 3,7365;  3  1/2-8 NPSM; NPSM
+4,5; 4,333; 4,2345;  4-8 NPSM; NPSM
+5,563; 5,395; 5,2965;  5-8 NPSM; NPSM
+6,625; 6,452; 6,3535;  6-8 NPSM; NPSM
+EndStraightPipe
+
+BeginTaperPipe
+0,3125; 0,3896; 0,2642; 0,2711; 0,0296;  1/16-27 NPT ;   1/16-27 NPT; NPT
+0,405; 0,3924; 0,3566; 0,2726; 0,0296;  1/8-27 NPT ;  1/8-27 NPT; NPT
+0,54; 0,5946; 0,467; 0,3945; 0,0444;  1/4-18 NPT ;   1/4-18 NPT; NPT
+0,675; 0,6006; 0,6016; 0,4067; 0,0444;  3/8-18 NPT ;   3/8-18 NPT; NPT
+0,84; 0,7815; 0,745; 0,5343; 0,0571;  1/2-14 NPT ;   1/2-14 NPT; NPT
+1,05; 0,7935; 0,9543; 0,5533; 0,0571;  3/4-14 NPT ;   3/4-14 NPT; NPT
+1,315; 0,9845; 1,1973; 0,6609; 0,0696;  1-11,5 NPT;  1-11,5 NPT; NPT
+1,66; 1,0085; 1,5408; 0,6809; 0,0696;  1  1/4-11,5 NPT ;  1  1/4-11,5 NPT; NPT
+1,9; 1,0252; 1,7798; 0,6809; 0,0696;  1  1/2-11,5 NPT ;  1  1/2-11,5 NPT; NPT
+2,375; 1,0582; 2,2527; 0,6969; 0,0696;  2-11,5 NPT ;   2-11,5 NPT; NPT
+2,875; 1,5712; 2,7039; 0,932; 0,1;  2  1/2-8 NPT ;  2  1/2-8 NPT; NPT
+3,5; 1,6337; 3,325; 1,016; 0,1;  3-8 NPT ;  3-8 NPT; NPT
+4; 1,6837; 3,8219; 1,071; 0,1;  3  1/2-8 NPT ;  3  1/2-8 NPT; NPT
+4,5; 1,7337; 4,3188; 1,094; 0,1;  4-8 NPT ;  4-8 NPT; NPT
+5,563; 1,84; 5,3751; 1,187; 0,1;  5-8 NPT ;  5-8 NPT; NPT
+6,625; 1,9462; 6,4305; 1,208; 0,1;  6-8 NPT ;  6-8 NPT; NPT
+8,625; 2,1462; 8,418; 1,313; 0,1;  8-8 NPT ;  8-8 NPT; NPT
+10,75; 2,3587; 10,5297; 1,46; 0,1;  10-8 NPT ;  10-8 NPT; NPT
+12,75; 2,5587; 12,5172; 1,61; 0,1;  12-8 NPT ;  12-8 NPT; NPT
+14; 2,6837; 13,7594; 1,812; 0,1;  14-8 NPT ;   14-8 NPT; NPT
+16; 2,8837; 15,7469; 2,062; 0,1;  16-8 NPT ;  16-8 NPT; NPT
+18; 3,0837; 17,7344; 2,25; 0,1;  18-8 NPT ;  18-8 NPT; NPT
+20; 3,2837; 19,7219; 2,375; 0,1;  20-8 NPT ;  20-8 NPT; NPT
+24; 3,6837; 23,6969; 2,625; 0,1;  24-8 NPT ;   24-8 NPT; NPT
+EndTaperPipe
+EndInch
+\\ End of inch sizes,
+
+\\ Beginning of metric sizes
+BeginMetric
+BeginStraightPipe
+8,5; 6,561; 6,561;  Rp 1/16-28; Rp
+10,5; 8,566; 8,566;  Rp 1/8-28; Rp
+13,8; 11,445; 11,445;  Rp 1/4-19; Rp
+17,3; 14,95; 14,95;  Rp 3/8-19; Rp
+21,7; 18,631; 18,631;  Rp 1/2-14; Rp
+27,2; 24,117; 24,117;  Rp 3/4-14; Rp
+34; 30,291; 30,291;  Rp 1-11; Rp
+42,7; 38,952; 38,952;  Rp 1 1/4-11; Rp
+48,6; 44,845; 44,845;  Rp 1 1/2-11; Rp
+60,5; 56,656; 56,656;  Rp 2-11; Rp
+76,3; 72,226; 72,226;  Rp 2 1/2-11; Rp
+89,1; 84,926; 84,926;  Rp 3-11; Rp
+114,3; 110,072; 110,072;  Rp 4-11; Rp
+139,8; 135,472; 135,472;  Rp 5-11; Rp
+165,2; 160,872; 160,872;  Rp 6-11; Rp
+8; 5,714; 5,46;  Rd 8 x 1/8; Rd
+9; 6,714; 6,46;  Rd 9 x 1/10; Rd
+10; 7,714; 7460;  Rd 10 x 1/10; Rd
+11; 8,714; 8,46;  Rd 11 x 1/10; Rd
+12; 9,714; 9,46;  Rd 12 x 1/10; Rd
+14; 11,142; 10,825;  Rd 14 x 1/8; Rd
+16; 13,142; 12,825;  Rd 16 x 1/8; Rd
+18; 15,142; 14,825;  Rd 18 x 1/8; Rd
+20; 17,142; 16,825;  Rd 20 x 1/8; Rd
+22; 19,142; 18,825;  Rd 22 x 1/8; Rd
+24; 21,142; 20,825;  Rd 24 x 1/8; Rd
+26; 23,142; 22,825;  Rd 26 x 1/8; Rd
+28; 25,142; 24,825;  Rd 28 x 1/8; Rd
+30; 27,142; 26,825;  Rd 30 x 1/8; Rd
+32; 28,142; 28,825;  Rd 32 x 1/8; Rd
+34; 31,142; 30,825;  Rd 34 x 1/8; Rd
+36; 33,142; 32,825;  Rd 36 x 1/8; Rd
+38; 35,142; 34,852;  Rd 38 x 1/8; Rd
+40; 36,19; 35,767;  Rd 40 x 1/6; Rd
+42; 38,19; 37,767;  Rd 42 x 1/6; Rd
+44; 40,19; 39,767;  Rd 44 x 1/6; Rd
+46; 42,19; 41,767;  Rd 46 x 1/6; Rd
+48; 44,19; 43,767;  Rd 48 x 1/6; Rd
+50; 46,19; 45,767;  Rd 50 x 1/6; Rd
+52; 48,19; 47,767;  Rd 52 x 1/6; Rd
+55; 51,19; 50,767;  Rd 55 x 1/6; Rd
+58; 54,19; 53,767;  Rd 58 x 1/6; Rd
+60; 56,19; 55,767;  Rd 60 x 1/6; Rd
+62; 58,19; 57,767;  Rd 62 x 1/6; Rd
+65; 61,19; 60,767;  Rd 65 x 1/6; Rd
+68; 64,19; 63,767;  Rd 68 x 1/6; Rd
+70; 66,19; 65,767;  Rd 70 x 1/6; Rd
+72; 68,19; 67,767;  Rd 72 x 1/6; Rd
+75; 71,19; 70,767;  Rd 75 x 1/6; Rd
+78; 74,19; 73,767;  Rd 78 x 1/6; Rd
+80; 76,19; 75,767;  Rd 80 x 1/6; Rd
+82; 78,19; 77,767;  Rd 82 x 1/6; Rd
+85; 81,19; 80,767;  Rd 85 x 1/6; Rd
+88; 84,19; 83,767;  Rd 88 x 1/6; Rd
+90; 86,19; 85,767;  Rd 90 x 1/6; Rd
+92; 88,19; 87,767;  Rd 92 x 1/6; Rd
+95; 91,19; 90,767;  Rd 95 x 1/6; Rd
+98; 94,19; 93,767;  Rd 98 x 1/6; Rd
+100; 96,19; 95,767;  Rd 100 x 1/6; Rd
+105; 99,285; 98,65;  Rd 105 x 1/4; Rd
+110; 104,285; 103,65;  Rd 110 x 1/4; Rd
+115; 109,285; 108,65;  Rd 115 x 1/4; Rd
+120; 114,285; 113,65;  Rd 120 x 1/4; Rd
+125; 119,285; 118,65;  Rd 125 x 1/4; Rd
+130; 124,285; 123,65;  Rd 130 x 1/4; Rd
+135; 129,285; 128,65;  Rd 135 x 1/4; Rd
+140; 134,285; 133,65;  Rd 140 x 1/4; Rd
+145; 139,285; 138,65;  Rd 145 x 1/4; Rd
+150; 144,285; 143,65;  Rd 150 x 1/4; Rd
+155; 149,285; 148,65;  Rd 155 x 1/4; Rd
+160; 154,285; 153,65;  Rd 160 x 1/4; Rd
+165; 159,285; 158,65;  Rd 165 x 1/4; Rd
+170; 164,285; 163,65;  Rd 170 x 1/4; Rd
+175; 169,285; 168,65;  Rd 175 x 1/4; Rd
+180; 174,285; 173,65;  Rd 180 x 1/4; Rd
+185; 179,285; 178,65;  Rd 185 x 1/4; Rd
+190; 184,285; 183,65;  Rd 190 x 1/4; Rd
+195; 189,285; 188,65;  Rd 195 x 1/4; Rd
+200; 194,285; 193,65;  Rd 200 x 1/4; Rd
+EndStraightPipe
+
+BeginTaperPipe
+8,5; 7,4; 7,142; 6,2; 0,581;  R 1/16-28  ;  Rc 1/16-28; R
+10,5; 7,4; 9,147; 6,2; 0,581;  R 1/8-28   ;  Rc 1/8-28; R
+13,8; 11; 12,301; 9,4; 0,856;  R 1/4-19   ;  Rc 1/4-19; R
+17,3; 11,4; 15,806; 9,7; 0,856;  R 3/8-19   ;  Rc 3/8-19; R
+21,7; 15; 19,793; 12,7; 1,162;  R 1/2-14   ;  Rc 1/2-14; R
+27,2; 16,3; 25,279; 14,1; 1,162;  R 3/4-14   ;  Rc 3/4-14; R
+34; 19,1; 31,77; 16,2; 1,479;  R 1-11     ;  Rc 1-11; R
+42,7; 21,4; 40,431; 18,5; 1,479;  R 1 1/4-11 ;  Rc 1 1/4-11; R
+48,6; 21,4; 46,324; 18,5; 1,479;  R 1 1/2-11 ;  Rc 1 1/2-11; R
+60,5; 25,7; 58,135; 22,8; 1,479;  R 2-11     ;  Rc 2-11; R
+76,3; 30,2; 73,705; 26,7; 1,479;  R 2 1/2-11 ;  Rc 2 1/2-11; R
+89,1; 33,3; 86,405; 29,8; 1,479;  R 3-11     ;  Rc 3-11; R
+114,3; 39,3; 111,551; 35,8; 1,479;  R 4-11     ;  Rc 4-11; R
+139,8; 43,6; 136,951; 40,1; 1,479;  R 5-11     ;  Rc 5-11; R
+165,2; 43,6; 162,351; 40,1; 1,479;  R 6-11     ;  Rc 6-11; R
+8; 7,4; 7; 6,2; 0,581;  M8 x 0,75   ;  M8 x 0,75; M
+10; 7,4; 9; 6,2; 0,581;  M10 x 1      ;  M10 x 1; M
+12; 9,7; 11; 8,9; 0,856;  M12 x 1,5    ;  M12 x 1,5; M
+14; 11; 13; 9,4; 0,856;  M14 x 1,5    ;  M14 x 1,5; M
+EndTaperPipe
+EndMetric
+\\ End of metric Sizes
+\\ End of Taper Pipe Threads

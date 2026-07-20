@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title id="PartName"></title>
+	</head>
+	<body>
+		<p align="center"><img id="LogoFile" src=""></img></p>
+		<br></br>
+		<b>
+			<p align="center" id="ReportTitle"></p>
+		</b>
+		<b>
+			<p align="center" id="Company"></p>
+		</b>
+		<b>
+			<p align="center" id="AuthorName"></p>
+		</b>
+		<b>
+			<p align="center" id="Date"></p>
+		</b>
+		<p align="center"><u><b><a name="top"><font size="3">Table of Contents</font></a></b></u></p>
+		<ol>
+			<li><center><a href="#Introduction"><strong>Introduction</strong></a></center></li>
+			<li><center><a href="#PartProperties"><strong>Part Properties</strong></a></center></li>
+			<li><center><a href="#MaterialProperties"><strong>Material Properties</strong></a></center></li>
+			<li><center><a href="#LoadInfo"><strong>Load and Constraint Information</strong></a></center></li>
+			<li><center><a href="#StudyProperties"><strong>Study Properties</strong></a></center></li>
+			<li><center><a href="#StressResults"><strong>Stress Results</strong></a></center></li>
+			<li><center><a href="#DisplacementResults"><strong>Displacement Results</strong></a></center></li>
+			<li><center><a href="#FOS"><strong>Factor of Safety</strong></a></center></li>
+			<li><center><a href="#Conclusion"><strong>Conclusion</strong></a></center></li>
+			<li><center><a href="#Disclaimer"><strong>Disclaimer</strong></a></center></li>
+		</ol>
+		<br/>
+		<p align="center"><h3><a name="Introduction"><font size="3">1. Introduction</font></a></h3></p>
+		<font size="2">
+			<p id="Introduction"></p>
+		</font>
+		<br/>
+		<p><b><a name="PartProperties">2. Part Properties</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="50%">
+			<tr>
+				<td width="42%">Part Name</td>
+				<td width="58%" id="PartName"></td>
+			</tr>
+			<tr>
+				<td width="42%">Mass</td>
+				<td width="58%" id="PartMass"></td>
+			</tr>
+			<tr>
+				<td width="42%">Volume</td>
+				<td width="58%" id="PartVolume"></td>
+			</tr>
+			<tr>
+				<td width="42%">Weight</td>
+				<td width="58%" id="PartWeight"></td>
+			</tr>
+		</table>
+		<br/>
+		<p><b><a name="MaterialProperties">3. Material Properties</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="50%">
+			<tr>
+				<td width="43%">Material Name</td>
+				<td width="57%" id="MaterialName"></td>
+			</tr>
+			<tr>
+				<td width="43%">Mass Density</td>
+				<td width="57%" id="MassDensity"></td>
+			</tr>
+			<tr>
+				<td width="43%">Young's Modulus</td>
+				<td width="57%" id="YoungsModulus"></td>
+			</tr>
+			<tr>
+				<td width="43%">Poisson's Ratio</td>
+				<td width="57%" id="PoissonsRatio"></td>
+			</tr>
+			<tr>
+				<td width="43%">Thermal Expansion Coefficient</td>
+				<td width="57%" id="ThermalExpansionCoefficient"></td>
+			</tr>
+			<tr>
+				<td width="43%">Thermal Conductivity</td>
+				<td width="57%" id="ThermalConductivity"></td>
+			</tr>
+			<tr>
+				<td width="43%">Yield Strength</td>
+				<td width="57%" id="YieldStrength"></td>
+			</tr>
+			<tr>
+				<td width="43%">Ultimate Strength</td>
+				<td width="57%" id="UltimateStrength"></td>
+			</tr>
+		</table>
+		<br/>
+		<p><b><a name="LoadInfo">4. Load and Constraint Information</a></b></p>
+		<p id="LoadAndConstraintInfo">
+			<p id="LoadSetHeader"><b>Load Set</b></p>
+			<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+				width="50%" id="LoadAndConstraintInfo">
+				<tr>
+					<td width="43%">Load Set Name</td>
+					<td width="57%" id="LoadSetName"></td>
+				</tr>
+				<tr>
+					<td width="43%">Load Type</td>
+					<td width="57%" id="LoadType"></td>
+				</tr>
+				<tr>
+					<td width="43%">Number of Load Elements</td>
+					<td width="57%" id="NumLoadElements"></td>
+				</tr>
+				<tr>
+					<td width="43%">Load value</td>
+					<td width="57%" id="LoadValue"></td>
+				</tr>
+			</table>
+		</p>
+		<br/>
+		<p><b>Constraints</b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="50%">
+			<tr>
+				<td width="43%">Number of Constrained Faces</td>
+				<td width="57%" id="NumberConstrainedFaces"></td>
+			</tr>
+		</table>
+		<br/>
+		<p><b><a name="StudyProperties">5. Study Properties</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="50%">
+			<tr>
+				<td width="43%">Mesh Type</td>
+				<td width="57%" id="MeshType"></td>
+			</tr>
+			<tr>
+				<td width="43%">Number of elements</td>
+				<td width="57%" id="NumberMeshElements"></td>
+			</tr>
+			<tr>
+				<td width="43%">Number of nodes</td>
+				<td width="57%" id="NumberMeshNodes"></td>
+			</tr>
+			<tr>
+				<td width="43%">Solver Type</td>
+				<td width="57%">Nastran</td>
+			</tr>
+		</table>
+		<br/>
+		<p><b><a name="StressResults">6. Stress Results</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="68%">
+			<tr>
+				<td align="center" width="21%">Type</td>
+				<td align="center" width="83">Extent</td>
+				<td align="center" width="17%">Value</td>
+				<td align="center" width="14%">X</td>
+				<td align="center" width="250">Y</td>
+				<td align="center" width="27%">Z</td>
+			</tr>
+			<tr>
+				<td width="20%" rowspan="2">Von Mises Stress</td>
+				<td width="16%">Minimum</td>
+				<td width="16%" id="StressResultsMinimumValue"></td>
+				<td width="16%" id="StressResultsMinimumLocationXCoord"></td>
+				<td width="16%" id="StressResultsMinimumLocationYCoord"></td>
+				<td width="16%" id="StressResultsMinimumLocationZCoord"></td>
+			</tr>
+			<tr>
+				<td width="16%">Maximum</td>
+				<td width="16%" id="StressResultsMaximumValue"></td>
+				<td width="16%" id="StressResultsMaximumLocationXCoord"></td>
+				<td width="16%" id="StressResultsMaximumLocationYCoord"></td>
+				<td width="16%" id="StressResultsMaximumLocationZCoord"></td>
+			</tr>
+		</table>
+		<p align="center"><a href="" id="StressResultsImageRef"><img id="StressResultsImage" src="" alt="" height="295" width="342"></img></a><a href="" id="StressResultsImageRef">View Full Size</a></p>
+		<br/>
+		<p><b><a name="DisplacementResults">7. Displacement Results</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="67%">
+			<tr>
+				<td align="center" width="21%">Type</td>
+				<td align="center" width="83">Extent</td>
+				<td align="center" width="17%">Value</td>
+				<td align="center" width="14%">X</td>
+				<td align="center" width="250">Y</td>
+				<td align="center" width="27%">Z</td>
+			</tr>
+			<tr>
+				<td width="20%" rowspan="2">Resultant Displacement</td>
+				<td width="16%">Minimum</td>
+				<td width="16%" id="DisplacementResultsMinimumValue"></td>
+				<td width="16%" id="DisplacementResultsMinimumLocationXCoord"></td>
+				<td width="16%" id="DisplacementResultsMinimumLocationYCoord"></td>
+				<td width="16%" id="DisplacementResultsMinimumLocationZCoord"></td>
+			</tr>
+			<tr>
+				<td width="16%">Maximum</td>
+				<td width="16%" id="DisplacementResultsMaximumValue"></td>
+				<td width="16%" id="DisplacementResultsMaximumLocationXCoord"></td>
+				<td width="16%" id="DisplacementResultsMaximumLocationYCoord"></td>
+				<td width="16%" id="DisplacementResultsMaximumLocationZCoord"></td>
+			</tr>
+		</table>
+		<br/>
+		<p align="center"><a href="" id="DisplacementResultsImageRef"><img id="DisplacementResultsImage" src="" alt="" height="295" width="342"></img></a><a href="" id="DisplacementResultsImageRef">View Full Size</a></p>
+		<br/>
+		<p><b><a name="FOS">8. Factor of Safety</a></b></p>
+		<table border="1" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111"
+			width="29%">
+			<tr>
+				<td width="50%">Factor of Safety Value</td>
+				<td width="50%" id="FactorOfSafetyValue"></td>
+			</tr>
+		</table>
+		<p align="center"><a href="" id="FactorOfSafetyImageRef"><img id="FactorOfSafetyImage" src="" alt="" height="295" width="342"></img></a><a href="" id="FactorOfSafetyImageRef">View Full Size</a></p>
+		<br/>
+		<p><b><a name="Conclusion">9. Conclusion</a></b></p>
+		<font size="2">
+			<p id="Conclusion"></p>
+		</font>
+		<p align="center"><b><a name="Disclaimer">10. Disclaimer</a></b></p>
+		<p align="center"><b>Important Information</b></p>
+		<p align="center"><font size="2">This report should not be used to solely judge a 
+				design idea's suitability to a given set of environmental conditions. UGS makes 
+				every effort to ensure that its products provide as much guidance and help as 
+				possible. However this does not replace good engineering judgment, which is 
+				always the responsibility of our users. A qualitative approach to engineering 
+				should ensure that the results of this evaluation are evaluated in conjunction 
+				with the practical experience of design engineers and analysts, and ultimately 
+				experimental test data. The results contained within this report are believed 
+				to be reliable but should not be construed as providing any sort of warranty 
+				for fitness of purpose.</font></p>
+	</body>
+</html>

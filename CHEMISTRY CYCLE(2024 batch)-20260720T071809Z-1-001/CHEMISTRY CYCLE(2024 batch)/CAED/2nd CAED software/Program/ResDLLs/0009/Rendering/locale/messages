@@ -1,0 +1,93 @@
+#
+# $File: //lw/QABUILD/75/lads/smdata/english_us/messages $
+# $Revision: #4 $
+# $Change: 20759 $
+# $Author: tomek $
+# $DateTime: 2005/05/25 11:37:45 $
+#
+# Description:
+#
+#    Session manager master message file for "english_us".
+#    Optionally includes messages for GUI-FW and applications.
+#
+# Notes:
+#
+#    US English message, shader names etc are similar to UK English so
+#    load these first and replace with differences.
+#
+
+
+load "english_uk"
+
+0124 License validation failed.
+0124 A license may be obtained by browsing the following URL
+0124 http://www.lightworks-user.com/authorization/index.php?ID=%s&DATA=%s
+0125 License validated: ID="%s", Data="%s", Key="%s"
+0126 Notice for license: ID="%s", License = 0x%p
+
+# Plugin state - reason why not loaded.
+0150 Error on initialization
+
+
+0606 Initializing...\c
+
+#
+# Shader names, args, etc. (4000+)
+#
+include "shaders.mesg"
+
+#
+# GUI FrameWork messages
+#
+offset framework
+nonewline
+0174 Color Shader
+0203 &New Color Shader
+1062 New Color Shader\nNew Color Shader
+
+1227 License Validation
+1228 License &Key:
+1229 &Get License Key
+1230 &Details:
+1238 Archive License Notice
+1239 A rendering component (archive, material in a model, etc.)
+1239 requires licensing.\n
+1239 A License Key must be obtained and entered below.
+1239 License Keys are obtained from the LightWorks User web site, by either:\n
+1239 1. Pressing the Get License Key button, or\n
+1239 2. Entering the License URL into a browser
+1240 Get License &Help
+1241 License &URL:
+
+#
+# Widgets
+#
+0502 Color
+0561 Color Editor
+
+0564 Cube Center X
+0565 Cube Center Y
+0566 Cube Center Z
+
+0580 Move Center X
+0581 Move Center Y
+0582 Move Center Z
+
+0626 Transparent Color
+
+1413 Color
+
+1480 Center
+1483 Center
+1485 Center
+1487 Center
+
+#
+# Pre-defined entity names
+#
+include "names.mesg"
+
+#
+# Messages specific to LightWork Design applications.
+#
+include opt "lwappl.mesg"

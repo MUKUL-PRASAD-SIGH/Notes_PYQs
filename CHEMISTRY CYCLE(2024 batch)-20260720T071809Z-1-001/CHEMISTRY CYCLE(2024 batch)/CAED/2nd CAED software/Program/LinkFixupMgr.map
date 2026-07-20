@@ -1,0 +1,1599 @@
+ LinkFixupMgr
+
+ Timestamp is 46b3a022 (Fri Aug 03 16:37:38 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004a02H .text                   CODE
+ 0001:00004a10 00000a95H .text$x                 CODE
+ 0001:000054b0 00000108H .text$yc                CODE
+ 0001:000055c0 000000baH .text$yd                CODE
+ 0002:00000000 000002b0H .idata$5                DATA
+ 0002:000002b0 00000004H .CRT$XCA                DATA
+ 0002:000002b4 00000004H .CRT$XCAA               DATA
+ 0002:000002b8 00000004H .CRT$XCL                DATA
+ 0002:000002bc 00000020H .CRT$XCU                DATA
+ 0002:000002dc 00000004H .CRT$XCZ                DATA
+ 0002:000002e0 00000004H .CRT$XIA                DATA
+ 0002:000002e4 00000004H .CRT$XIAA               DATA
+ 0002:000002e8 00000004H .CRT$XIZ                DATA
+ 0002:000002f0 00002608H .rdata                  DATA
+ 0002:000028f8 00000036H .rdata$debug            DATA
+ 0002:00002930 00000338H .rdata$r                DATA
+ 0002:00002c70 000000dcH .rdata$sxdata           DATA
+ 0002:00002d4c 00000004H .rtc$IAA                DATA
+ 0002:00002d50 00000004H .rtc$IZZ                DATA
+ 0002:00002d54 00000004H .rtc$TAA                DATA
+ 0002:00002d58 00000004H .rtc$TZZ                DATA
+ 0002:00002d60 00000c64H .xdata$x                DATA
+ 0002:000039c4 00000004H ATL$__a                 DATA
+ 0002:000039c8 00000004H ATL$__z                 DATA
+ 0002:000039cc 000000b4H .idata$2                DATA
+ 0002:00003a80 00000014H .idata$3                DATA
+ 0002:00003a94 000002b0H .idata$4                DATA
+ 0002:00003d44 000008f8H .idata$6                DATA
+ 0002:00004640 00000274H .edata                  DATA
+ 0003:00000000 00000bf4H .data                   DATA
+ 0003:00000bf8 00005674H .bss                    DATA
+ 0004:00000000 00000268H .rsrc$01                DATA
+ 0004:00000270 000057a0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000037       ___safe_se_handler_count   00000037     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               00401000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              00401025 f   nothrownew.obj
+ 0001:00000030       ?GetThisMessageMap@CLinkFixupMgrApp@@KGPBUAFX_MSGMAP@@XZ 00401030 f   LinFixupMgrApp.obj
+ 0001:00000040       ??0CLinkFixupMgrApp@@QAE@XZ 00401040 f   LinFixupMgrApp.obj
+ 0001:000000a0       ??1CLinkFixupMgrApp@@UAE@XZ 004010a0 f i LinFixupMgrApp.obj
+ 0001:000000f0       ?InitInstance@CLinkFixupMgrApp@@UAEHXZ 004010f0 f   LinFixupMgrApp.obj
+ 0001:000001d0       ?ExitInstance@CLinkFixupMgrApp@@UAEHXZ 004011d0 f   LinFixupMgrApp.obj
+ 0001:000001e0       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 004011e0 f i LinFixupMgrApp.obj
+ 0001:000001f0       ??3CObject@@SGXPAX@Z       004011f0 f i LinFixupMgrApp.obj
+ 0001:00000200       ?AssertValid@CObject@@UBEXXZ 00401200 f i LinFixupMgrApp.obj
+ 0001:00000210       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 00401210 f i LinFixupMgrApp.obj
+ 0001:00000220       ?GetMessageMap@CLinkFixupMgrApp@@MBEPBUAFX_MSGMAP@@XZ 00401220 f   LinFixupMgrApp.obj
+ 0001:00000230       ??_ECLinkFixupMgrApp@@UAEPAXI@Z 00401230 f i LinFixupMgrApp.obj
+ 0001:00000230       ??_GCLinkFixupMgrApp@@UAEPAXI@Z 00401230 f i LinFixupMgrApp.obj
+ 0001:00000290       ??2@YAPAXIPAX@Z            00401290 f i stdafx.obj
+ 0001:000002a0       ??3@YAXPAX0@Z              004012a0 f i stdafx.obj
+ 0001:000002b0       ?AfxCrtErrorCheck@@YAHH@Z  004012b0 f i stdafx.obj
+ 0001:00000340       ??0Thank_you@Define_the_symbol__ATL_MIXED@@QAE@XZ 00401340 f i stdafx.obj
+ 0001:00000350       ?one@Thank_you@Define_the_symbol__ATL_MIXED@@UAEXXZ 00401350 f i stdafx.obj
+ 0001:00000360       ??$AtlMultiply@H@ATL@@YAJPAHHH@Z 00401360 f i stdafx.obj
+ 0001:00000390       ??$AtlMultiply@I@ATL@@YAJPAIII@Z 00401390 f i stdafx.obj
+ 0001:000003b0       ?Allocate@CCRTAllocator@ATL@@SAPAXI@Z 004013b0 f i stdafx.obj
+ 0001:000003c0       ?Free@CCRTAllocator@ATL@@SAXPAX@Z 004013c0 f i stdafx.obj
+ 0001:000003d0       ?InterlockedExchangePointer@@YGPAXPAPAXPAX@Z 004013d0 f i stdafx.obj
+ 0001:000003e0       ?_AtlGetConversionACP@ATL@@YGIXZ 004013e0 f i stdafx.obj
+ 0001:000003f0       ?AtlA2WHelper@@YGPA_WPA_WPBDHI@Z 004013f0 f i stdafx.obj
+ 0001:00000430       ?AtlW2AHelper@@YGPADPADPB_WHI@Z 00401430 f i stdafx.obj
+ 0001:00000470       ?AtlThrowImpl@ATL@@YGXJ@Z  00401470 f i stdafx.obj
+ 0001:00000490       ?AtlThrowLastWin32@ATL@@YGXXZ 00401490 f i stdafx.obj
+ 0001:000004b0       ?wcscpy_s@Checked@ATL@@YAXPA_WIPB_W@Z 004014b0 f i stdafx.obj
+ 0001:000004d0       ?_AtlInstallStringThunk@ATL@@YAXPAPAXPAX1@Z 004014d0 f i stdafx.obj
+ 0001:00000550       ?_AfxInitManaged@@YAHXZ    00401550 f i stdafx.obj
+ 0001:00000560       ??0CObject@@IAE@XZ         00401560 f i stdafx.obj
+ 0001:00000570       ??1CObject@@UAE@XZ         00401570 f i stdafx.obj
+ 0001:00000580       ??0bad_alloc@std@@QAE@PBD@Z 00401580 f i stdafx.obj
+ 0001:000005e0       ??1bad_alloc@std@@UAE@XZ   004015e0 f i stdafx.obj
+ 0001:00000630       ??_Gbad_alloc@std@@UAEPAXI@Z 00401630 f i stdafx.obj
+ 0001:00000630       ??_Ebad_alloc@std@@UAEPAXI@Z 00401630 f i stdafx.obj
+ 0001:000006a0       ??0_Iterator_base@std@@QAE@XZ 004016a0 f i stdafx.obj
+ 0001:000006b0       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004016b0 f i stdafx.obj
+ 0001:00000720       ??1logic_error@std@@UAE@XZ 00401720 f i stdafx.obj
+ 0001:00000780       ?what@logic_error@std@@UBEPBDXZ 00401780 f i stdafx.obj
+ 0001:00000790       ??_Elogic_error@std@@UAEPAXI@Z 00401790 f i stdafx.obj
+ 0001:00000790       ??_Glogic_error@std@@UAEPAXI@Z 00401790 f i stdafx.obj
+ 0001:000007b0       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004017b0 f i stdafx.obj
+ 0001:00000810       ??1out_of_range@std@@UAE@XZ 00401810 f i stdafx.obj
+ 0001:00000860       ??_Eout_of_range@std@@UAEPAXI@Z 00401860 f i stdafx.obj
+ 0001:00000860       ??_Gout_of_range@std@@UAEPAXI@Z 00401860 f i stdafx.obj
+ 0001:000008c0       ??1MappingStruct@@QAE@XZ   004018c0 f i stdafx.obj
+ 0001:00000920       ??0SPPropInfoWithName@@QAE@XZ 00401920 f i stdafx.obj
+ 0001:00000980       ??1SPPropInfoWithName@@QAE@XZ 00401980 f i stdafx.obj
+ 0001:000009e0       ??0SPPropInfoWithName@@QAE@ABU0@@Z 004019e0 f i stdafx.obj
+ 0001:00000a60       ??4SPPropInfoWithName@@QAEAAU0@ABU0@@Z 00401a60 f i stdafx.obj
+ 0001:00000a90       ??0tagRFMSCookie@@QAE@XZ   00401a90 f i stdafx.obj
+ 0001:00000af0       ??1tagRFMSCookie@@QAE@XZ   00401af0 f i stdafx.obj
+ 0001:00000b40       ??0tagRFMSCookie@@QAE@ABV0@@Z 00401b40 f i stdafx.obj
+ 0001:00000d40       ??4tagRFMSCookie@@QAEAAV0@ABV0@@Z 00401d40 f i stdafx.obj
+ 0001:00000f60       ??0?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAE@XZ 00401f60 f i stdafx.obj
+ 0001:00000f70       ??1?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAE@XZ 00401f70 f i stdafx.obj
+ 0001:00000fa0       ??0?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@QAE@XZ 00401fa0 f i stdafx.obj
+ 0001:00000fb0       ??B?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@QBEPADXZ 00401fb0 f i stdafx.obj
+ 0001:00000fc0       ??B?$CW2AEX@$0IA@@ATL@@QBEPADXZ 00401fc0 f i stdafx.obj
+ 0001:00000fd0       ?FreeHeap@?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@AAEXXZ 00401fd0 f i stdafx.obj
+ 0001:00000fe0       ?key_comp@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBE?AVGUserTextCaseInsensitiveLess@@XZ 00401fe0 f i stdafx.obj
+ 0001:00000ff0       ??0?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@QAE@XZ 00401ff0 f i stdafx.obj
+ 0001:00001000       ?GetData@CAtlSafeAllocBufferNode@?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAEPAXXZ 00402000 f i stdafx.obj
+ 0001:00001010       ?AllocateHeap@?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@AAEXI@Z 00402010 f i stdafx.obj
+ 0001:00001040       ?_Isnil@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAADPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402040 f i stdafx.obj
+ 0001:00001050       ?_Left@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@@Z 00402050 f i stdafx.obj
+ 0001:00001060       ?_Parent@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@@Z 00402060 f i stdafx.obj
+ 0001:00001070       ?_Right@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@@Z 00402070 f i stdafx.obj
+ 0001:00001080       ?size@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBEIXZ 00402080 f i stdafx.obj
+ 0001:00001090       ?_Max@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@@Z 00402090 f i stdafx.obj
+ 0001:000010b0       ?_Min@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@@Z 004020b0 f i stdafx.obj
+ 0001:000010d0       ??0?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@QAE@ABV01@@Z 004020d0 f i stdafx.obj
+ 0001:000010e0       ?deallocate@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@I@Z 004020e0 f i stdafx.obj
+ 0001:000010f0       ??8const_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBE_NABV012@@Z 004020f0 f i stdafx.obj
+ 0001:00001120       ??9const_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBE_NABV012@@Z 00402120 f i stdafx.obj
+ 0001:00001150       ?_Color@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAADPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402150 f i stdafx.obj
+ 0001:00001160       ?_Myval@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@KAAAU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402160 f i stdafx.obj
+ 0001:00001170       ?_Mynode@const_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@3@XZ 00402170 f i stdafx.obj
+ 0001:00001180       ??0?$_Bidit@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@HPBU12@ABU12@@std@@QAE@XZ 00402180 f i stdafx.obj
+ 0001:00001190       ??0?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@QAE@VGUserTextCaseInsensitiveLess@@@Z 00402190 f i stdafx.obj
+ 0001:000011a0       ??0?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@ABU01@@Z 004021a0 f i stdafx.obj
+ 0001:00001210       ??1?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@XZ 00402210 f i stdafx.obj
+ 0001:00001270       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEXXZ 00402270 f i stdafx.obj
+ 0001:000012e0       ??$AtlAdd@K@ATL@@YAJPAKKK@Z 004022e0 f i stdafx.obj
+ 0001:00001310       ??0?$CList@VMappingStruct@@AAV1@@@QAE@H@Z 00402310 f i stdafx.obj
+ 0001:00001340       ??4MappingStruct@@QAEAAV0@ABV0@@Z 00402340 f i stdafx.obj
+ 0001:00001370       ?IsStoring@CArchive@@QBEHXZ 00402370 f i stdafx.obj
+ 0001:00001380       ?EnsureRead@CArchive@@QAEXPAXI@Z 00402380 f i stdafx.obj
+ 0001:000013b0       ?data@CPlex@@QAEPAXXZ      004023b0 f i stdafx.obj
+ 0001:000013c0       ??0MappingStruct@@QAE@XZ   004023c0 f i stdafx.obj
+ 0001:00001440       ??$AtlAddThrow@K@ATL@@YAKKK@Z 00402440 f i stdafx.obj
+ 0001:00001460       ??$AtlMultiplyThrow@I@ATL@@YAIII@Z 00402460 f i stdafx.obj
+ 0001:00001480       ??$AtlConvFreeMemory@D@ATL@@YAXPAD0H@Z 00402480 f i stdafx.obj
+ 0001:000014a0       ??$AtlConvAllocMemory@D@ATL@@YAXPAPADHPADH@Z 004024a0 f i stdafx.obj
+ 0001:00001540       ??$swap@D@std@@YAXAAD0@Z   00402540 f i stdafx.obj
+ 0001:00001560       ??$?0U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@?$allocator@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAE@ABV?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00402560 f i stdafx.obj
+ 0001:00001570       ??$_Destroy@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@YAXPAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@@Z 00402570 f i stdafx.obj
+ 0001:00001580       ??$?0U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAE@ABV?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00402580 f i stdafx.obj
+ 0001:00001590       ??$_Allocate@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@YAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@IPAU120@@Z 00402590 f i stdafx.obj
+ 0001:000015e0       ??$_Construct@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@PAU123@@std@@YAXPAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@ABQAU120@@Z 004025e0 f i stdafx.obj
+ 0001:00001600       ??0bad_alloc@std@@QAE@ABV01@@Z 00402600 f i stdafx.obj
+ 0001:00001660       ??1_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@XZ 00402660 f i stdafx.obj
+ 0001:000016b0       ??$SerializeElements@VMappingStruct@@@@YGXAAVCArchive@@PAVMappingStruct@@H@Z 004026b0 f i stdafx.obj
+ 0001:00001770       ??_GMappingStruct@@QAEPAXI@Z 00402770 f i stdafx.obj
+ 0001:00001790       ?NewNode@?$CList@VMappingStruct@@AAV1@@@IAEPAUCNode@1@PAU21@0@Z 00402790 f i stdafx.obj
+ 0001:00001860       ?_AtlVerifyStackAvailable@_ATL_SAFE_ALLOCA_IMPL@ATL@@YA_NK@Z 00402860 f i stdafx.obj
+ 0001:00001920       ?Allocate@?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAEPAXK@Z 00402920 f i stdafx.obj
+ 0001:00001960       ??1?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@QAE@XZ 00402960 f i stdafx.obj
+ 0001:00001970       ??1?$CW2AEX@$0IA@@ATL@@QAE@XZ 00402970 f i stdafx.obj
+ 0001:00001990       ?AllocateBytes@?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@QAEPADI@Z 00402990 f i stdafx.obj
+ 0001:000019c0       ?Init@?$CW2AEX@$0IA@@ATL@@AAEXPB_WI@Z 004029c0 f i stdafx.obj
+ 0001:00001a90       ?get_allocator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QBE?AV?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@2@XZ 00402a90 f i stdafx.obj
+ 0001:00001aa0       ?_Lmost@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IBEAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ 00402aa0 f i stdafx.obj
+ 0001:00001ab0       ?_Rmost@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IBEAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ 00402ab0 f i stdafx.obj
+ 0001:00001ac0       ?_Root@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IBEAAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ 00402ac0 f i stdafx.obj
+ 0001:00001ad0       ?destroy@?$allocator@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402ad0 f i stdafx.obj
+ 0001:00001ae0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402ae0 f i stdafx.obj
+ 0001:00001b30       ?_Rrotate@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00402b30 f i stdafx.obj
+ 0001:00001b90       ??0?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAE@ABVGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00402b90 f i stdafx.obj
+ 0001:00001ba0       ?allocate@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@I@Z 00402ba0 f i stdafx.obj
+ 0001:00001bf0       ?construct@?$allocator@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@ABQAU342@@Z 00402bf0 f i stdafx.obj
+ 0001:00001c10       ??0const_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PBV12@@Z 00402c10 f i stdafx.obj
+ 0001:00001c40       ??Econst_iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEAAV012@XZ 00402c40 f i stdafx.obj
+ 0001:00001c50       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z 00402c50 f i stdafx.obj
+ 0001:00001cd0       ??_G_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEPAXI@Z 00402cd0 f i stdafx.obj
+ 0001:00001d30       ?AddTail@?$CList@VMappingStruct@@AAV1@@@QAEPAU__POSITION@@AAVMappingStruct@@@Z 00402d30 f i stdafx.obj
+ 0001:00001d90       ?RemoveAll@?$CList@VMappingStruct@@AAV1@@@QAEXXZ 00402d90 f i stdafx.obj
+ 0001:00001e30       ?CompareStringWFake@ATL@@YGHKKPB_WH0H@Z 00402e30 f i stdafx.obj
+ 0001:00001fd0       ?CompareStringWThunk@ATL@@YGHKKPB_WH0H@Z 00402fd0 f i stdafx.obj
+ 0001:00001ff0       ?lstrcmpiWFake@ATL@@YGHPB_W0@Z 00402ff0 f i stdafx.obj
+ 0001:00002170       ?lstrcmpiWThunk@ATL@@YGHPB_W0@Z 00403170 f i stdafx.obj
+ 0001:00002190       ?CharLowerWFake@ATL@@YGPA_WPA_W@Z 00403190 f i stdafx.obj
+ 0001:00002340       ?CharLowerWThunk@ATL@@YGPA_WPA_W@Z 00403340 f i stdafx.obj
+ 0001:00002360       ?CharUpperWFake@ATL@@YGPA_WPA_W@Z 00403360 f i stdafx.obj
+ 0001:00002510       ?CharUpperWThunk@ATL@@YGPA_WPA_W@Z 00403510 f i stdafx.obj
+ 0001:00002530       ?Allocate@?$CTempBuffer@D$0IA@VCCRTAllocator@ATL@@@ATL@@QAEPADI@Z 00403530 f i stdafx.obj
+ 0001:00002570       ??0?$CW2AEX@$0IA@@ATL@@QAE@PB_W@Z 00403570 f i stdafx.obj
+ 0001:000025a0       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ 004035a0 f i stdafx.obj
+ 0001:00002650       ??0?$_Tree_ptr@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAE@ABVGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00403650 f i stdafx.obj
+ 0001:00002660       ??0iterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PBV12@@Z 00403660 f i stdafx.obj
+ 0001:00002690       ?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z 00403690 f i stdafx.obj
+ 0001:00002730       ??Eiterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEAAV012@XZ 00403730 f i stdafx.obj
+ 0001:00002740       ??1?$CList@VMappingStruct@@AAV1@@@UAE@XZ 00403740 f i stdafx.obj
+ 0001:00002750       ?Serialize@?$CList@VMappingStruct@@AAV1@@@UAEXAAVCArchive@@@Z 00403750 f i stdafx.obj
+ 0001:00002850       ??$_Destroy@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@YAXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@@Z 00403850 f i stdafx.obj
+ 0001:000028a0       ??_E?$CList@VMappingStruct@@AAV1@@@UAEPAXI@Z 004038a0 f i stdafx.obj
+ 0001:000028a0       ??_G?$CList@VMappingStruct@@AAV1@@@UAEPAXI@Z 004038a0 f i stdafx.obj
+ 0001:000028c0       ?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z 004038c0 f i stdafx.obj
+ 0001:00002ae0       ?GetEnvironmentVariableWThunk@ATL@@YGKPB_WPA_WK@Z 00403ae0 f i stdafx.obj
+ 0001:00002b00       ?GetStringTypeExWFake@ATL@@YGHKKPB_WHPAG@Z 00403b00 f i stdafx.obj
+ 0001:00002c40       ?GetStringTypeExWThunk@ATL@@YGHKKPB_WHPAG@Z 00403c40 f i stdafx.obj
+ 0001:00002c60       ?begin@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@XZ 00403c60 f i stdafx.obj
+ 0001:00002c80       ?end@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@XZ 00403c80 f i stdafx.obj
+ 0001:00002c90       ?_Init@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXXZ 00403c90 f i stdafx.obj
+ 0001:00002cc0       ??0?$_Tree_val@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAE@ABVGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00403cc0 f i stdafx.obj
+ 0001:00002cd0       ?destroy@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00403cd0 f i stdafx.obj
+ 0001:00002d20       ??Eiterator@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AV012@H@Z 00403d20 f i stdafx.obj
+ 0001:00002d40       ??0?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@ABVGUserTextCaseInsensitiveLess@@ABV?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@1@@Z 00403d40 f i stdafx.obj
+ 0001:00002d70       ?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00403d70 f i stdafx.obj
+ 0001:00002e30       ?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 00403e30 f i stdafx.obj
+ 0001:00003130       ??0logic_error@std@@QAE@ABV01@@Z 00404130 f i stdafx.obj
+ 0001:000031a0       ??0out_of_range@std@@QAE@ABV01@@Z 004041a0 f i stdafx.obj
+ 0001:00003200       ?_Copy@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@0@Z 00404200 f i stdafx.obj
+ 0001:000032c0       ?clear@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEXXZ 004042c0 f i stdafx.obj
+ 0001:000032f0       ?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 004042f0 f i stdafx.obj
+ 0001:000033c0       ?_Copy@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXABV12@@Z 004043c0 f i stdafx.obj
+ 0001:00003440       ?_Tidy@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXXZ 00404440 f i stdafx.obj
+ 0001:00003480       ?Clear@SPDocLibPropInfoWithUrl@@QAEXXZ 00404480 f i stdafx.obj
+ 0001:000034c0       ??0?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@ABV01@@Z 004044c0 f i stdafx.obj
+ 0001:00003560       ??1?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@XZ 00404560 f i stdafx.obj
+ 0001:000035a0       ??4?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEAAV01@ABV01@@Z 004045a0 f i stdafx.obj
+ 0001:000035e0       ??1?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ 004045e0 f i stdafx.obj
+ 0001:00003650       ??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@ABV01@@Z 00404650 f i stdafx.obj
+ 0001:000036a0       ??4?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAEAAV01@ABV01@@Z 004046a0 f i stdafx.obj
+ 0001:000036e0       ??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ 004046e0 f i stdafx.obj
+ 0001:00003750       ??0SPDocLibPropInfoWithUrl@@QAE@XZ 00404750 f i stdafx.obj
+ 0001:00003800       ??1SPDocLibPropInfoWithUrl@@QAE@XZ 00404800 f i stdafx.obj
+ 0001:000038b0       ??0SPDocLibPropInfoWithUrl@@QAE@ABU0@@Z 004048b0 f i stdafx.obj
+ 0001:00003930       ??4SPDocLibPropInfoWithUrl@@QAEAAU0@ABU0@@Z 00404930 f i stdafx.obj
+ 0001:00003980       ??1GUserText@@QAE@XZ       00404980 f   jutil:JUtil.dll
+ 0001:00003986       ?Find@GUserText@@QBEHPBDHI@Z 00404986 f   jutil:JUtil.dll
+ 0001:0000398c       ??4GUserText@@QAEAAV0@PBD@Z 0040498c f   jutil:JUtil.dll
+ 0001:00003992       ??0GUserText@@QAE@XZ       00404992 f   jutil:JUtil.dll
+ 0001:00003998       ??0GUserText@@QAE@ABV0@@Z  00404998 f   jutil:JUtil.dll
+ 0001:0000399e       ??4GUserText@@QAEAAV0@ABV0@@Z 0040499e f   jutil:JUtil.dll
+ 0001:000039a4       ?Empty@GUserText@@QAEAAV1@XZ 004049a4 f   jutil:JUtil.dll
+ 0001:000039aa       _JRFMS_ProcessLogFileForSecureLinkFixup@0 004049aa f   rfmssvs:RFMSsvs.dll
+ 0001:000039b0       _JRFMS_ShowSecureLinksUpdateInputDialog@0 004049b0 f   rfmssvs:RFMSsvs.dll
+ 0001:000039b6       ?JRFMS_EnableInsightAccess@@YAXHPAU_GUID@@PAVGUserText@@@Z 004049b6 f   rfmssvs:RFMSsvs.dll
+ 0001:000039bc       ?JRFMS_CloseUserLog@@YAJXZ 004049bc f   rfmssvs:RFMSsvs.dll
+ 0001:000039c2       ?InitCookie@tagRFMSCookie@@QAEXXZ 004049c2 f   rfmssvs:RFMSsvs.dll
+ 0001:000039c8       ??3@YAXPAX@Z               004049c8 f   mfc80:MFC80.DLL
+ 0001:000039ce       ?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 004049ce f   mfc80:MFC80.DLL
+ 0001:000039d4       ?OnHelp@CWinApp@@IAEXXZ    004049d4 f   mfc80:MFC80.DLL
+ 0001:000039da       ??1CWinApp@@UAE@XZ         004049da f   mfc80:MFC80.DLL
+ 0001:000039e0       ??0CWinApp@@QAE@PBD@Z      004049e0 f   mfc80:MFC80.DLL
+ 0001:000039e6       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 004049e6 f   mfc80:MFC80.DLL
+ 0001:000039ec       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004049ec f   mfc80:MFC80.DLL
+ 0001:000039f2       ?OnFinalRelease@CCmdTarget@@UAEXXZ 004049f2 f   mfc80:MFC80.DLL
+ 0001:000039f8       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 004049f8 f   mfc80:MFC80.DLL
+ 0001:000039fe       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 004049fe f   mfc80:MFC80.DLL
+ 0001:00003a04       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00404a04 f   mfc80:MFC80.DLL
+ 0001:00003a0a       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 00404a0a f   mfc80:MFC80.DLL
+ 0001:00003a10       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 00404a10 f   mfc80:MFC80.DLL
+ 0001:00003a16       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 00404a16 f   mfc80:MFC80.DLL
+ 0001:00003a1c       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 00404a1c f   mfc80:MFC80.DLL
+ 0001:00003a22       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 00404a22 f   mfc80:MFC80.DLL
+ 0001:00003a28       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 00404a28 f   mfc80:MFC80.DLL
+ 0001:00003a2e       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 00404a2e f   mfc80:MFC80.DLL
+ 0001:00003a34       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 00404a34 f   mfc80:MFC80.DLL
+ 0001:00003a3a       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00404a3a f   mfc80:MFC80.DLL
+ 0001:00003a40       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 00404a40 f   mfc80:MFC80.DLL
+ 0001:00003a46       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 00404a46 f   mfc80:MFC80.DLL
+ 0001:00003a4c       ?Run@CWinApp@@UAEHXZ       00404a4c f   mfc80:MFC80.DLL
+ 0001:00003a52       ?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00404a52 f   mfc80:MFC80.DLL
+ 0001:00003a58       ?PumpMessage@CWinThread@@UAEHXZ 00404a58 f   mfc80:MFC80.DLL
+ 0001:00003a5e       ?OnIdle@CWinApp@@UAEHJ@Z   00404a5e f   mfc80:MFC80.DLL
+ 0001:00003a64       ?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00404a64 f   mfc80:MFC80.DLL
+ 0001:00003a6a       ?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 00404a6a f   mfc80:MFC80.DLL
+ 0001:00003a70       ?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 00404a70 f   mfc80:MFC80.DLL
+ 0001:00003a76       ?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 00404a76 f   mfc80:MFC80.DLL
+ 0001:00003a7c       ?Delete@CWinThread@@UAEXXZ 00404a7c f   mfc80:MFC80.DLL
+ 0001:00003a82       ?InitLibId@CWinApp@@UAEXXZ 00404a82 f   mfc80:MFC80.DLL
+ 0001:00003a88       ?Register@CWinApp@@UAEHXZ  00404a88 f   mfc80:MFC80.DLL
+ 0001:00003a8e       ?Unregister@CWinApp@@UAEHXZ 00404a8e f   mfc80:MFC80.DLL
+ 0001:00003a94       ?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 00404a94 f   mfc80:MFC80.DLL
+ 0001:00003a9a       ?AddToRecentFileList@CWinApp@@UAEXPBD@Z 00404a9a f   mfc80:MFC80.DLL
+ 0001:00003aa0       ?InitApplication@CWinApp@@UAEHXZ 00404aa0 f   mfc80:MFC80.DLL
+ 0001:00003aa6       ?SaveAllModified@CWinApp@@UAEHXZ 00404aa6 f   mfc80:MFC80.DLL
+ 0001:00003aac       ?DoMessageBox@CWinApp@@UAEHPBDII@Z 00404aac f   mfc80:MFC80.DLL
+ 0001:00003ab2       ?DoWaitCursor@CWinApp@@UAEXH@Z 00404ab2 f   mfc80:MFC80.DLL
+ 0001:00003ab8       ?OnDDECommand@CWinApp@@UAEHPAD@Z 00404ab8 f   mfc80:MFC80.DLL
+ 0001:00003abe       ?WinHelpA@CWinApp@@UAEXKI@Z 00404abe f   mfc80:MFC80.DLL
+ 0001:00003ac4       ?HtmlHelpA@CWinApp@@UAEXKI@Z 00404ac4 f   mfc80:MFC80.DLL
+ 0001:00003aca       ?WinHelpInternal@CWinApp@@UAEXKI@Z 00404aca f   mfc80:MFC80.DLL
+ 0001:00003ad0       ?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 00404ad0 f   mfc80:MFC80.DLL
+ 0001:00003ad6       ?LoadSysPolicies@CWinApp@@UAEHXZ 00404ad6 f   mfc80:MFC80.DLL
+ 0001:00003adc       ?InitInstance@CWinApp@@UAEHXZ 00404adc f   mfc80:MFC80.DLL
+ 0001:00003ae2       ?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 00404ae2 f   mfc80:MFC80.DLL
+ 0001:00003ae8       ?ExitInstance@CWinApp@@UAEHXZ 00404ae8 f   mfc80:MFC80.DLL
+ 0001:00003aee       ?AfxThrowInvalidArgException@@YGXXZ 00404aee f   mfc80:MFC80.DLL
+ 0001:00003af4       ?AfxThrowMemoryException@@YGXXZ 00404af4 f   mfc80:MFC80.DLL
+ 0001:00003afa       ?AfxThrowOleException@@YGXJ@Z 00404afa f   mfc80:MFC80.DLL
+ 0001:00003b00       ?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 00404b00 f   mfc80:MFC80.DLL
+ 0001:00003b06       ?AfxThrowArchiveException@@YGXHPBD@Z 00404b06 f   mfc80:MFC80.DLL
+ 0001:00003b0c       ?Read@CArchive@@QAEIPAXI@Z 00404b0c f   mfc80:MFC80.DLL
+ 0001:00003b12       ?Write@CArchive@@QAEXPBXI@Z 00404b12 f   mfc80:MFC80.DLL
+ 0001:00003b18       ?Create@CPlex@@SGPAU1@AAPAU1@II@Z 00404b18 f   mfc80:MFC80.DLL
+ 0001:00003b1e       ?FreeDataChain@CPlex@@QAEXXZ 00404b1e f   mfc80:MFC80.DLL
+ 0001:00003b24       ?ReadCount@CArchive@@QAEKXZ 00404b24 f   mfc80:MFC80.DLL
+ 0001:00003b2a       ?WriteCount@CArchive@@QAEXK@Z 00404b2a f   mfc80:MFC80.DLL
+ 0001:00003b30       ??1CComBSTR@ATL@@QAE@XZ    00404b30 f i mfcs80:stdafx.obj
+ 0001:00003b39       ??1stringdispid@CComTypeInfoHolder@ATL@@QAE@XZ 00404b39 f i mfcs80:stdafx.obj
+ 0001:00003b42       ??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z 00404b42 f i mfcs80:stdafx.obj
+ 0001:00003b8e       _malloc                    00404b8e f   msvcrt:MSVCR80.dll
+ 0001:00003b94       __callnewh                 00404b94 f   msvcrt:MSVCR80.dll
+ 0001:00003b9a       ___CxxFrameHandler3        00404b9a f   msvcrt:MSVCR80.dll
+ 0001:00003ba0       @__security_check_cookie@4 00404ba0 f   msvcrt:secchk.obj
+ 0001:00003baf       ??0type_info@@AAE@ABV0@@Z  00404baf f   msvcrt:ti_inst.obj
+ 0001:00003bba       ??_Etype_info@@UAEPAXI@Z   00404bba f i msvcrt:ti_inst.obj
+ 0001:00003c03       ??4type_info@@AAEAAV0@ABV0@@Z 00404c03 f   msvcrt:ti_inst.obj
+ 0001:00003c08       __onexit                   00404c08 f   msvcrt:atonexit.obj
+ 0001:00003ca7       _atexit                    00404ca7 f   msvcrt:atonexit.obj
+ 0001:00003cba       _free                      00404cba f   msvcrt:MSVCR80.dll
+ 0001:00003cc0       _wcscpy_s                  00404cc0 f   msvcrt:MSVCR80.dll
+ 0001:00003cc6       ??1exception@std@@UAE@XZ   00404cc6 f   msvcrt:MSVCR80.dll
+ 0001:00003ccc       ??0exception@std@@QAE@ABQBD@Z 00404ccc f   msvcrt:MSVCR80.dll
+ 0001:00003cd2       ?what@exception@std@@UBEPBDXZ 00404cd2 f   msvcrt:MSVCR80.dll
+ 0001:00003cd8       ??0exception@std@@QAE@XZ   00404cd8 f   msvcrt:MSVCR80.dll
+ 0001:00003cde       _memcpy                    00404cde f   msvcrt:MSVCR80.dll
+ 0001:00003ce4       __invalid_parameter_noinfo 00404ce4 f   msvcrt:MSVCR80.dll
+ 0001:00003cea       _calloc                    00404cea f   msvcrt:MSVCR80.dll
+ 0001:00003cf0       __recalloc                 00404cf0 f   msvcrt:MSVCR80.dll
+ 0001:00003cf6       __CxxThrowException@8      00404cf6 f   msvcrt:MSVCR80.dll
+ 0001:00003cfc       ??0exception@std@@QAE@ABV01@@Z 00404cfc f   msvcrt:MSVCR80.dll
+ 0001:00003d02       __resetstkoflw             00404d02 f   msvcrt:MSVCR80.dll
+ 0001:00003d08       __except_handler4          00404d08 f   msvcrt:chandler4gs.obj
+ 0001:00003d30       __alloca_probe_16          00404d30 f   msvcrt:alloca16.obj
+ 0001:00003d46       __alloca_probe_8           00404d46     msvcrt:alloca16.obj
+ 0001:00003d60       __allmul                   00404d60 f   msvcrt:llmul.obj
+ 0001:00003da6       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 00404da6 f   msvcrt:ehvecdtr.obj
+ 0001:00003e04       ??_M@YGXPAXIHP6EX0@Z@Z     00404e04 f   msvcrt:ehvecdtr.obj
+ 0001:00003e67       ??_L@YGXPAXIHP6EX0@Z1@Z    00404e67 f   msvcrt:ehvecctr.obj
+ 0001:00003ecc       _NtCurrentTeb              00404ecc f i msvcrt:crtexew.obj
+ 0001:0000423b       _WinMainCRTStartup         0040523b f   msvcrt:crtexew.obj
+ 0001:00004248       __SEH_prolog4_GS           00405248 f   msvcrt:sehprolg4gs.obj
+ 0001:00004290       __SEH_epilog4_GS           00405290 f   msvcrt:sehprolg4gs.obj
+ 0001:0000429f       __EH_prolog3               0040529f f   msvcrt:ehprolg3.obj
+ 0001:000042d2       __EH_prolog3_catch         004052d2 f   msvcrt:ehprolg3.obj
+ 0001:00004308       __EH_prolog3_GS            00405308 f   msvcrt:ehprolg3.obj
+ 0001:0000433e       __EH_prolog3_catch_GS      0040533e f   msvcrt:ehprolg3.obj
+ 0001:00004377       __EH_epilog3               00405377 f   msvcrt:ehprolg3.obj
+ 0001:0000438b       __EH_epilog3_GS            0040538b f   msvcrt:ehprolg3.obj
+ 0001:0000439a       __EH_epilog3_catch_GS      0040539a f   msvcrt:ehprolg3.obj
+ 0001:000043aa       _wcslen                    004053aa f   msvcrt:MSVCR80.dll
+ 0001:000043b0       ___report_gsfailure        004053b0 f   msvcrt:gs_report.obj
+ 0001:000044b4       __unlock                   004054b4 f   msvcrt:MSVCR80.dll
+ 0001:000044ba       __encode_pointer           004054ba f   msvcrt:MSVCR80.dll
+ 0001:000044c0       ___dllonexit               004054c0 f   msvcrt:MSVCR80.dll
+ 0001:000044c6       __lock                     004054c6 f   msvcrt:MSVCR80.dll
+ 0001:000044cc       __decode_pointer           004054cc f   msvcrt:MSVCR80.dll
+ 0001:000044d4       __SEH_prolog4              004054d4 f   msvcrt:sehprolg4.obj
+ 0001:00004519       __SEH_epilog4              00405519 f   msvcrt:sehprolg4.obj
+ 0001:0000452e       __except_handler4_common   0040552e f   msvcrt:MSVCR80.dll
+ 0001:00004540       __chkstk                   00405540 f   msvcrt:chkstk.obj
+ 0001:00004540       __alloca_probe             00405540     msvcrt:chkstk.obj
+ 0001:0000456c       ?terminate@@YAXXZ          0040556c f   msvcrt:MSVCR80.dll
+ 0001:00004572       __amsg_exit                00405572 f   msvcrt:MSVCR80.dll
+ 0001:00004578       ___getmainargs             00405578 f   msvcrt:MSVCR80.dll
+ 0001:0000457e       __RTC_Initialize           0040557e f   msvcrt:initsect.obj
+ 0001:000045a2       __RTC_Terminate            004055a2 f   msvcrt:initsect.obj
+ 0001:000045c6       __cexit                    004055c6 f   msvcrt:MSVCR80.dll
+ 0001:000045cc       __exit                     004055cc f   msvcrt:MSVCR80.dll
+ 0001:000045d2       __XcptFilter               004055d2 f   msvcrt:MSVCR80.dll
+ 0001:000045d8       __ismbblead                004055d8 f   msvcrt:MSVCR80.dll
+ 0001:000045de       _exit                      004055de f   msvcrt:MSVCR80.dll
+ 0001:000045f0       __ValidateImageBase        004055f0 f   msvcrt:pesect.obj
+ 0001:00004620       __FindPESection            00405620 f   msvcrt:pesect.obj
+ 0001:00004662       __IsNonwritableInCurrentImage 00405662 f   msvcrt:pesect.obj
+ 0001:000046ce       __initterm                 004056ce f   msvcrt:MSVCR80.dll
+ 0001:000046d4       __initterm_e               004056d4 f   msvcrt:MSVCR80.dll
+ 0001:000046da       __configthreadlocale       004056da f   msvcrt:MSVCR80.dll
+ 0001:000046e0       __invoke_watson_if_error   004056e0 f i msvcrt:fp8.obj
+ 0001:00004702       __setdefaultprecision      00405702 f   msvcrt:fp8.obj
+ 0001:0000472c       ___setusermatherr          0040572c f   msvcrt:MSVCR80.dll
+ 0001:00004732       __matherr                  00405732 f   msvcrt:merr.obj
+ 0001:00004735       __setargv                  00405735 f   msvcrt:dllargv.obj
+ 0001:00004738       ___p__commode              00405738 f   msvcrt:MSVCR80.dll
+ 0001:0000473e       ___p__fmode                0040573e f   msvcrt:MSVCR80.dll
+ 0001:00004744       ___set_app_type            00405744 f   msvcrt:MSVCR80.dll
+ 0001:0000474a       ___security_init_cookie    0040574a f   msvcrt:gs_support.obj
+ 0001:000047de       __crt_debugger_hook        004057de f   msvcrt:MSVCR80.dll
+ 0001:000047e4       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 004057e4 f   msvcrt:MSVCR80.dll
+ 0001:000047e4       ??1type_info@@UAE@XZ       004057e4 f   msvcrt:MSVCR80.dll
+ 0001:000047ea       __invoke_watson            004057ea f   msvcrt:MSVCR80.dll
+ 0001:000047f0       __controlfp_s              004057f0 f   msvcrt:MSVCR80.dll
+ 0001:000047f6       _InterlockedExchange@8     004057f6 f   kernel32:KERNEL32.dll
+ 0001:000047fc       _MultiByteToWideChar@24    004057fc f   kernel32:KERNEL32.dll
+ 0001:00004802       _WideCharToMultiByte@32    00405802 f   kernel32:KERNEL32.dll
+ 0001:00004808       _GetLastError@0            00405808 f   kernel32:KERNEL32.dll
+ 0001:0000480e       _GetVersion@0              0040580e f   kernel32:KERNEL32.dll
+ 0001:00004814       _lstrlenW@4                00405814 f   kernel32:KERNEL32.dll
+ 0001:0000481a       _CompareStringA@24         0040581a f   kernel32:KERNEL32.dll
+ 0001:00004820       _CompareStringW@24         00405820 f   kernel32:KERNEL32.dll
+ 0001:00004826       _lstrcmpiA@8               00405826 f   kernel32:KERNEL32.dll
+ 0001:0000482c       _lstrcmpiW@8               0040582c f   kernel32:KERNEL32.dll
+ 0001:00004832       _lstrlenA@4                00405832 f   kernel32:KERNEL32.dll
+ 0001:00004838       _GetEnvironmentVariableA@12 00405838 f   kernel32:KERNEL32.dll
+ 0001:0000483e       _GetEnvironmentVariableW@12 0040583e f   kernel32:KERNEL32.dll
+ 0001:00004844       _GetStringTypeExA@20       00405844 f   kernel32:KERNEL32.dll
+ 0001:0000484a       _GetStringTypeExW@20       0040584a f   kernel32:KERNEL32.dll
+ 0001:00004850       _Sleep@4                   00405850 f   kernel32:KERNEL32.dll
+ 0001:00004856       _InterlockedCompareExchange@12 00405856 f   kernel32:KERNEL32.dll
+ 0001:0000485c       _GetStartupInfoA@4         0040585c f   kernel32:KERNEL32.dll
+ 0001:00004862       _TerminateProcess@8        00405862 f   kernel32:KERNEL32.dll
+ 0001:00004868       _GetCurrentProcess@0       00405868 f   kernel32:KERNEL32.dll
+ 0001:0000486e       _UnhandledExceptionFilter@4 0040586e f   kernel32:KERNEL32.dll
+ 0001:00004874       _SetUnhandledExceptionFilter@4 00405874 f   kernel32:KERNEL32.dll
+ 0001:0000487a       _IsDebuggerPresent@0       0040587a f   kernel32:KERNEL32.dll
+ 0001:00004880       _QueryPerformanceCounter@4 00405880 f   kernel32:KERNEL32.dll
+ 0001:00004886       _GetTickCount@0            00405886 f   kernel32:KERNEL32.dll
+ 0001:0000488c       _GetCurrentThreadId@0      0040588c f   kernel32:KERNEL32.dll
+ 0001:00004892       _GetCurrentProcessId@0     00405892 f   kernel32:KERNEL32.dll
+ 0001:00004898       _GetSystemTimeAsFileTime@4 00405898 f   kernel32:KERNEL32.dll
+ 0001:0000489e       _CharLowerA@4              0040589e f   user32:USER32.dll
+ 0001:000048a4       _CharLowerW@4              004058a4 f   user32:USER32.dll
+ 0001:000048aa       _CharUpperA@4              004058aa f   user32:USER32.dll
+ 0001:000048b0       _CharUpperW@4              004058b0 f   user32:USER32.dll
+ 0001:000048b6       _CoUninitialize@0          004058b6 f   ole32:ole32.dll
+ 0001:000048bc       _CoInitialize@4            004058bc f   ole32:ole32.dll
+ 0001:000048c2       _SysFreeString@4           004058c2 f   oleaut32:OLEAUT32.dll
+ 0001:000048c8       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 004058c8 f   msvcprt:MSVCP80.dll
+ 0001:000048ce       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 004058ce f   msvcprt:MSVCP80.dll
+ 0001:000048d4       ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 004058d4 f   msvcprt:MSVCP80.dll
+ 0001:000048da       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 004058da f   msvcprt:MSVCP80.dll
+ 0001:000048e0       ?_AtlGetThreadACPFake@ATL@@YGIXZ 004058e0 f i atls:atltrace.obj
+ 0001:00004945       ?_AtlGetThreadACPReal@ATL@@YGIXZ 00405945 f i atls:atltrace.obj
+ 0001:00004949       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 00405949 f i atls:atltrace.obj
+ 0001:000049ad       _WinMain@16                004059ad f   mfcs80:appmodul.obj
+ 0001:000049b2       ?AfxInitialize@@YGHHK@Z    004059b2 f   mfcs80:appmodul.obj
+ 0001:000049d8       __setmbcp                  004059d8 f   msvcrt:MSVCR80.dll
+ 0001:000049de       _GetACP@0                  004059de f   kernel32:KERNEL32.dll
+ 0001:000049e4       _GetLocaleInfoA@16         004059e4 f   kernel32:KERNEL32.dll
+ 0001:000049ea       _GetThreadLocale@0         004059ea f   kernel32:KERNEL32.dll
+ 0001:000049f0       _GetVersionExA@4           004059f0 f   kernel32:KERNEL32.dll
+ 0001:000049f6       ?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 004059f6 f   mfc80:MFC80.DLL
+ 0001:000049fc       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 004059fc f   mfc80:MFC80.DLL
+ 0002:00000000       __imp_?Find@GUserText@@QBEHPBDHI@Z 00407000     jutil:JUtil.dll
+ 0002:00000004       __imp_??4GUserText@@QAEAAV0@PBD@Z 00407004     jutil:JUtil.dll
+ 0002:00000008       __imp_??0GUserText@@QAE@XZ 00407008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??0GUserText@@QAE@ABV0@@Z 0040700c     jutil:JUtil.dll
+ 0002:00000010       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 00407010     jutil:JUtil.dll
+ 0002:00000014       __imp_?Empty@GUserText@@QAEAAV1@XZ 00407014     jutil:JUtil.dll
+ 0002:00000018       __imp_??1GUserText@@QAE@XZ 00407018     jutil:JUtil.dll
+ 0002:0000001c       \177JUtil_NULL_THUNK_DATA  0040701c     jutil:JUtil.dll
+ 0002:00000020       __imp__MultiByteToWideChar@24 00407020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetVersionExA@4     00407024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetThreadLocale@0   00407028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetLocaleInfoA@16   0040702c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetACP@0            00407030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__WideCharToMultiByte@32 00407034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetLastError@0      00407038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetVersion@0        0040703c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__lstrlenW@4          00407040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__CompareStringA@24   00407044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__CompareStringW@24   00407048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__lstrcmpiA@8         0040704c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__lstrcmpiW@8         00407050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__lstrlenA@4          00407054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__GetEnvironmentVariableA@12 00407058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetEnvironmentVariableW@12 0040705c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetStringTypeExA@20 00407060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetStringTypeExW@20 00407064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__Sleep@4             00407068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__InterlockedCompareExchange@12 0040706c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetStartupInfoA@4   00407070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__TerminateProcess@8  00407074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetCurrentProcess@0 00407078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__UnhandledExceptionFilter@4 0040707c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__SetUnhandledExceptionFilter@4 00407080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__IsDebuggerPresent@0 00407084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__QueryPerformanceCounter@4 00407088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetTickCount@0      0040708c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetCurrentThreadId@0 00407090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetCurrentProcessId@0 00407094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetSystemTimeAsFileTime@4 00407098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__InterlockedExchange@8 0040709c     kernel32:KERNEL32.dll
+ 0002:000000a0       \177KERNEL32_NULL_THUNK_DATA 004070a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp_?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 004070a4     mfc80:MFC80.DLL
+ 0002:000000a8       __imp_?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 004070a8     mfc80:MFC80.DLL
+ 0002:000000ac       __imp_?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 004070ac     mfc80:MFC80.DLL
+ 0002:000000b0       __imp_?Delete@CWinThread@@UAEXXZ 004070b0     mfc80:MFC80.DLL
+ 0002:000000b4       __imp_?InitLibId@CWinApp@@UAEXXZ 004070b4     mfc80:MFC80.DLL
+ 0002:000000b8       __imp_?Register@CWinApp@@UAEHXZ 004070b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_?Unregister@CWinApp@@UAEHXZ 004070bc     mfc80:MFC80.DLL
+ 0002:000000c0       __imp_?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 004070c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_?AddToRecentFileList@CWinApp@@UAEXPBD@Z 004070c4     mfc80:MFC80.DLL
+ 0002:000000c8       __imp_?InitApplication@CWinApp@@UAEHXZ 004070c8     mfc80:MFC80.DLL
+ 0002:000000cc       __imp_?SaveAllModified@CWinApp@@UAEHXZ 004070cc     mfc80:MFC80.DLL
+ 0002:000000d0       __imp_?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 004070d0     mfc80:MFC80.DLL
+ 0002:000000d4       __imp_?DoWaitCursor@CWinApp@@UAEXH@Z 004070d4     mfc80:MFC80.DLL
+ 0002:000000d8       __imp_?OnDDECommand@CWinApp@@UAEHPAD@Z 004070d8     mfc80:MFC80.DLL
+ 0002:000000dc       __imp_?WinHelpA@CWinApp@@UAEXKI@Z 004070dc     mfc80:MFC80.DLL
+ 0002:000000e0       __imp_?HtmlHelpA@CWinApp@@UAEXKI@Z 004070e0     mfc80:MFC80.DLL
+ 0002:000000e4       __imp_?WinHelpInternal@CWinApp@@UAEXKI@Z 004070e4     mfc80:MFC80.DLL
+ 0002:000000e8       __imp_?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 004070e8     mfc80:MFC80.DLL
+ 0002:000000ec       __imp_?LoadSysPolicies@CWinApp@@UAEHXZ 004070ec     mfc80:MFC80.DLL
+ 0002:000000f0       __imp_?InitInstance@CWinApp@@UAEHXZ 004070f0     mfc80:MFC80.DLL
+ 0002:000000f4       __imp_?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 004070f4     mfc80:MFC80.DLL
+ 0002:000000f8       __imp_?ExitInstance@CWinApp@@UAEHXZ 004070f8     mfc80:MFC80.DLL
+ 0002:000000fc       __imp_?AfxThrowInvalidArgException@@YGXXZ 004070fc     mfc80:MFC80.DLL
+ 0002:00000100       __imp_?AfxThrowMemoryException@@YGXXZ 00407100     mfc80:MFC80.DLL
+ 0002:00000104       __imp_?AfxThrowOleException@@YGXJ@Z 00407104     mfc80:MFC80.DLL
+ 0002:00000108       __imp_?GetRuntimeClass@CObject@@UBEPAUCRuntimeClass@@XZ 00407108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?AfxThrowArchiveException@@YGXHPBD@Z 0040710c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?Read@CArchive@@QAEIPAXI@Z 00407110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?Write@CArchive@@QAEXPBXI@Z 00407114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_?Create@CPlex@@SGPAU1@AAPAU1@II@Z 00407118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?FreeDataChain@CPlex@@QAEXXZ 0040711c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_?ReadCount@CArchive@@QAEKXZ 00407120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?WriteCount@CArchive@@QAEXK@Z 00407124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?OnIdle@CWinApp@@UAEHJ@Z 00407128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_?PumpMessage@CWinThread@@UAEHXZ 0040712c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00407130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?Run@CWinApp@@UAEHXZ 00407134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 00407138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 0040713c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00407140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 00407144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 00407148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 0040714c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 00407150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 00407154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 00407158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 0040715c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 00407160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 00407164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00407168     mfc80:MFC80.DLL
+ 0002:0000016c       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 0040716c     mfc80:MFC80.DLL
+ 0002:00000170       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 00407170     mfc80:MFC80.DLL
+ 0002:00000174       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 00407174     mfc80:MFC80.DLL
+ 0002:00000178       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00407178     mfc80:MFC80.DLL
+ 0002:0000017c       __imp_?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 0040717c     mfc80:MFC80.DLL
+ 0002:00000180       __imp_??0CWinApp@@QAE@PBD@Z 00407180     mfc80:MFC80.DLL
+ 0002:00000184       __imp_??1CWinApp@@UAE@XZ   00407184     mfc80:MFC80.DLL
+ 0002:00000188       __imp_?OnHelp@CWinApp@@IAEXXZ 00407188     mfc80:MFC80.DLL
+ 0002:0000018c       __imp_?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 0040718c     mfc80:MFC80.DLL
+ 0002:00000190       __imp_??3@YAXPAX@Z         00407190     mfc80:MFC80.DLL
+ 0002:00000194       __imp_?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 00407194     mfc80:MFC80.DLL
+ 0002:00000198       __imp_?DoMessageBox@CWinApp@@UAEHPBDII@Z 00407198     mfc80:MFC80.DLL
+ 0002:0000019c       \177MFC80_NULL_THUNK_DATA  0040719c     mfc80:MFC80.DLL
+ 0002:000001a0       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 004071a0     msvcprt:MSVCP80.dll
+ 0002:000001a4       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 004071a4     msvcprt:MSVCP80.dll
+ 0002:000001a8       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 004071a8     msvcprt:MSVCP80.dll
+ 0002:000001ac       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 004071ac     msvcprt:MSVCP80.dll
+ 0002:000001b0       \177MSVCP80_NULL_THUNK_DATA 004071b0     msvcprt:MSVCP80.dll
+ 0002:000001b4       __imp___initterm_e         004071b4     msvcrt:MSVCR80.dll
+ 0002:000001b8       __imp___configthreadlocale 004071b8     msvcrt:MSVCR80.dll
+ 0002:000001bc       __imp____setusermatherr    004071bc     msvcrt:MSVCR80.dll
+ 0002:000001c0       __imp___adjust_fdiv        004071c0     msvcrt:MSVCR80.dll
+ 0002:000001c4       __imp____p__commode        004071c4     msvcrt:MSVCR80.dll
+ 0002:000001c8       __imp____p__fmode          004071c8     msvcrt:MSVCR80.dll
+ 0002:000001cc       __imp____set_app_type      004071cc     msvcrt:MSVCR80.dll
+ 0002:000001d0       __imp___crt_debugger_hook  004071d0     msvcrt:MSVCR80.dll
+ 0002:000001d4       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 004071d4     msvcrt:MSVCR80.dll
+ 0002:000001d8       __imp___invoke_watson      004071d8     msvcrt:MSVCR80.dll
+ 0002:000001dc       __imp___controlfp_s        004071dc     msvcrt:MSVCR80.dll
+ 0002:000001e0       __imp___exit               004071e0     msvcrt:MSVCR80.dll
+ 0002:000001e4       __imp___cexit              004071e4     msvcrt:MSVCR80.dll
+ 0002:000001e8       __imp____getmainargs       004071e8     msvcrt:MSVCR80.dll
+ 0002:000001ec       __imp___amsg_exit          004071ec     msvcrt:MSVCR80.dll
+ 0002:000001f0       __imp_?terminate@@YAXXZ    004071f0     msvcrt:MSVCR80.dll
+ 0002:000001f4       __imp___except_handler4_common 004071f4     msvcrt:MSVCR80.dll
+ 0002:000001f8       __imp___decode_pointer     004071f8     msvcrt:MSVCR80.dll
+ 0002:000001fc       __imp___onexit             004071fc     msvcrt:MSVCR80.dll
+ 0002:00000200       __imp___initterm           00407200     msvcrt:MSVCR80.dll
+ 0002:00000204       __imp____dllonexit         00407204     msvcrt:MSVCR80.dll
+ 0002:00000208       __imp___encode_pointer     00407208     msvcrt:MSVCR80.dll
+ 0002:0000020c       __imp___unlock             0040720c     msvcrt:MSVCR80.dll
+ 0002:00000210       __imp__wcslen              00407210     msvcrt:MSVCR80.dll
+ 0002:00000214       __imp___resetstkoflw       00407214     msvcrt:MSVCR80.dll
+ 0002:00000218       __imp_??0exception@std@@QAE@ABV01@@Z 00407218     msvcrt:MSVCR80.dll
+ 0002:0000021c       __imp___CxxThrowException@8 0040721c     msvcrt:MSVCR80.dll
+ 0002:00000220       __imp___recalloc           00407220     msvcrt:MSVCR80.dll
+ 0002:00000224       __imp___invalid_parameter_noinfo 00407224     msvcrt:MSVCR80.dll
+ 0002:00000228       __imp__memcpy              00407228     msvcrt:MSVCR80.dll
+ 0002:0000022c       __imp_??0exception@std@@QAE@XZ 0040722c     msvcrt:MSVCR80.dll
+ 0002:00000230       __imp_?what@exception@std@@UBEPBDXZ 00407230     msvcrt:MSVCR80.dll
+ 0002:00000234       __imp_??0exception@std@@QAE@ABQBD@Z 00407234     msvcrt:MSVCR80.dll
+ 0002:00000238       __imp_??1exception@std@@UAE@XZ 00407238     msvcrt:MSVCR80.dll
+ 0002:0000023c       __imp__wcscpy_s            0040723c     msvcrt:MSVCR80.dll
+ 0002:00000240       __imp__free                00407240     msvcrt:MSVCR80.dll
+ 0002:00000244       __imp____CxxFrameHandler3  00407244     msvcrt:MSVCR80.dll
+ 0002:00000248       __imp___callnewh           00407248     msvcrt:MSVCR80.dll
+ 0002:0000024c       __imp__malloc              0040724c     msvcrt:MSVCR80.dll
+ 0002:00000250       __imp___setmbcp            00407250     msvcrt:MSVCR80.dll
+ 0002:00000254       __imp___acmdln             00407254     msvcrt:MSVCR80.dll
+ 0002:00000258       __imp__exit                00407258     msvcrt:MSVCR80.dll
+ 0002:0000025c       __imp___ismbblead          0040725c     msvcrt:MSVCR80.dll
+ 0002:00000260       __imp___lock               00407260     msvcrt:MSVCR80.dll
+ 0002:00000264       __imp___XcptFilter         00407264     msvcrt:MSVCR80.dll
+ 0002:00000268       __imp__calloc              00407268     msvcrt:MSVCR80.dll
+ 0002:0000026c       \177MSVCR80_NULL_THUNK_DATA 0040726c     msvcrt:MSVCR80.dll
+ 0002:00000270       __imp__SysFreeString@4     00407270     oleaut32:OLEAUT32.dll
+ 0002:00000274       \177OLEAUT32_NULL_THUNK_DATA 00407274     oleaut32:OLEAUT32.dll
+ 0002:00000278       __imp__JRFMS_ShowSecureLinksUpdateInputDialog@0 00407278     rfmssvs:RFMSsvs.dll
+ 0002:0000027c       __imp__JRFMS_ProcessLogFileForSecureLinkFixup@0 0040727c     rfmssvs:RFMSsvs.dll
+ 0002:00000280       __imp_?JRFMS_CloseUserLog@@YAJXZ 00407280     rfmssvs:RFMSsvs.dll
+ 0002:00000284       __imp_?InitCookie@tagRFMSCookie@@QAEXXZ 00407284     rfmssvs:RFMSsvs.dll
+ 0002:00000288       __imp_?JRFMS_EnableInsightAccess@@YAXHPAU_GUID@@PAVGUserText@@@Z 00407288     rfmssvs:RFMSsvs.dll
+ 0002:0000028c       \177RFMSsvs_NULL_THUNK_DATA 0040728c     rfmssvs:RFMSsvs.dll
+ 0002:00000290       __imp__CharLowerW@4        00407290     user32:USER32.dll
+ 0002:00000294       __imp__CharUpperW@4        00407294     user32:USER32.dll
+ 0002:00000298       __imp__CharUpperA@4        00407298     user32:USER32.dll
+ 0002:0000029c       __imp__CharLowerA@4        0040729c     user32:USER32.dll
+ 0002:000002a0       \177USER32_NULL_THUNK_DATA 004072a0     user32:USER32.dll
+ 0002:000002a4       __imp__CoInitialize@4      004072a4     ole32:ole32.dll
+ 0002:000002a8       __imp__CoUninitialize@0    004072a8     ole32:ole32.dll
+ 0002:000002ac       \177ole32_NULL_THUNK_DATA  004072ac     ole32:ole32.dll
+ 0002:000002b0       ___xc_a                    004072b0     msvcrt:cinitexe.obj
+ 0002:000002dc       ___xc_z                    004072dc     msvcrt:cinitexe.obj
+ 0002:000002e0       ___xi_a                    004072e0     msvcrt:cinitexe.obj
+ 0002:000002e8       ___xi_z                    004072e8     msvcrt:cinitexe.obj
+ 0002:0000030c       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 0040730c     nothrownew.obj
+ 0002:00000310       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 00407310     nothrownew.obj
+ 0002:00000314       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 00407314     nothrownew.obj
+ 0002:00000318       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 00407318     nothrownew.obj
+ 0002:0000031c       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 0040731c     nothrownew.obj
+ 0002:0000035c       ??_7CLinkFixupMgrApp@@6B@  0040735c     LinFixupMgrApp.obj
+ 0002:0000041c       ??_C@_02KBLNPNMJ@?9S?$AA@  0040741c     LinFixupMgrApp.obj
+ 0002:00000420       ??_C@_02DEDJNJGL@?9s?$AA@  00407420     LinFixupMgrApp.obj
+ 0002:00000424       ??_C@_19PFCDLDMI@?$AAN?$AAO?$AAN?$AAE?$AA?$AA@ 00407424     stdafx.obj
+ 0002:00000430       ??_C@_1O@CAEABMNI@?$AAN?$AAO?$AAD?$AAA?$AAT?$AAA?$AA?$AA@ 00407430     stdafx.obj
+ 0002:00000440       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 00407440     stdafx.obj
+ 0002:00000450       ??_C@_0BF@GPPHKJFN@Invalid?5DateTimeSpan?$AA@ 00407450     stdafx.obj
+ 0002:00000468       ??_C@_0BB@KEKMKJPM@Invalid?5DateTime?$AA@ 00407468     stdafx.obj
+ 0002:0000047c       ?_Min@?$AtlLimits@H@ATL@@2HB 0040747c     stdafx.obj
+ 0002:00000480       ?_Max@?$AtlLimits@H@ATL@@2HB 00407480     stdafx.obj
+ 0002:00000484       ?_Min@?$AtlLimits@I@ATL@@2IB 00407484     stdafx.obj
+ 0002:00000488       ?_Max@?$AtlLimits@I@ATL@@2IB 00407488     stdafx.obj
+ 0002:0000048c       ?_Min@?$AtlLimits@J@ATL@@2JB 0040748c     stdafx.obj
+ 0002:00000490       ?_Max@?$AtlLimits@J@ATL@@2JB 00407490     stdafx.obj
+ 0002:00000494       ?_Min@?$AtlLimits@K@ATL@@2KB 00407494     stdafx.obj
+ 0002:00000498       ?_Max@?$AtlLimits@K@ATL@@2KB 00407498     stdafx.obj
+ 0002:000004a0       ?_Min@?$AtlLimits@_J@ATL@@2_JB 004074a0     stdafx.obj
+ 0002:000004a8       ?_Max@?$AtlLimits@_J@ATL@@2_JB 004074a8     stdafx.obj
+ 0002:000004b0       ?_Min@?$AtlLimits@_K@ATL@@2_KB 004074b0     stdafx.obj
+ 0002:000004b8       ?_Max@?$AtlLimits@_K@ATL@@2_KB 004074b8     stdafx.obj
+ 0002:000004c0       ?VT@?$CVarTypeInfo@D@ATL@@2GB 004074c0     stdafx.obj
+ 0002:000004c4       ?pmField@?$CVarTypeInfo@D@ATL@@2QQtagVARIANT@@DQ3@ 004074c4     stdafx.obj
+ 0002:000004c8       ?VT@?$CVarTypeInfo@E@ATL@@2GB 004074c8     stdafx.obj
+ 0002:000004cc       ?pmField@?$CVarTypeInfo@E@ATL@@2QQtagVARIANT@@EQ3@ 004074cc     stdafx.obj
+ 0002:000004d0       ?VT@?$CVarTypeInfo@PAD@ATL@@2GB 004074d0     stdafx.obj
+ 0002:000004d4       ?pmField@?$CVarTypeInfo@PAD@ATL@@2QQtagVARIANT@@PADQ3@ 004074d4     stdafx.obj
+ 0002:000004d8       ?VT@?$CVarTypeInfo@PAE@ATL@@2GB 004074d8     stdafx.obj
+ 0002:000004dc       ?pmField@?$CVarTypeInfo@PAE@ATL@@2QQtagVARIANT@@PAEQ3@ 004074dc     stdafx.obj
+ 0002:000004e0       ?VT@?$CVarTypeInfo@F@ATL@@2GB 004074e0     stdafx.obj
+ 0002:000004e4       ?pmField@?$CVarTypeInfo@F@ATL@@2QQtagVARIANT@@FQ3@ 004074e4     stdafx.obj
+ 0002:000004e8       ?VT@?$CVarTypeInfo@PAF@ATL@@2GB 004074e8     stdafx.obj
+ 0002:000004ec       ?pmField@?$CVarTypeInfo@PAF@ATL@@2QQtagVARIANT@@PAFQ3@ 004074ec     stdafx.obj
+ 0002:000004f0       ?VT@?$CVarTypeInfo@G@ATL@@2GB 004074f0     stdafx.obj
+ 0002:000004f4       ?pmField@?$CVarTypeInfo@G@ATL@@2QQtagVARIANT@@GQ3@ 004074f4     stdafx.obj
+ 0002:000004f8       ?VT@?$CVarTypeInfo@PAG@ATL@@2GB 004074f8     stdafx.obj
+ 0002:000004fc       ?pmField@?$CVarTypeInfo@PAG@ATL@@2QQtagVARIANT@@PAGQ3@ 004074fc     stdafx.obj
+ 0002:00000500       ?VT@?$CVarTypeInfo@H@ATL@@2GB 00407500     stdafx.obj
+ 0002:00000504       ?pmField@?$CVarTypeInfo@H@ATL@@2QQtagVARIANT@@HQ3@ 00407504     stdafx.obj
+ 0002:00000508       ?VT@?$CVarTypeInfo@PAH@ATL@@2GB 00407508     stdafx.obj
+ 0002:0000050c       ?pmField@?$CVarTypeInfo@PAH@ATL@@2QQtagVARIANT@@PAHQ3@ 0040750c     stdafx.obj
+ 0002:00000510       ?VT@?$CVarTypeInfo@I@ATL@@2GB 00407510     stdafx.obj
+ 0002:00000514       ?pmField@?$CVarTypeInfo@I@ATL@@2QQtagVARIANT@@IQ3@ 00407514     stdafx.obj
+ 0002:00000518       ?VT@?$CVarTypeInfo@PAI@ATL@@2GB 00407518     stdafx.obj
+ 0002:0000051c       ?pmField@?$CVarTypeInfo@PAI@ATL@@2QQtagVARIANT@@PAIQ3@ 0040751c     stdafx.obj
+ 0002:00000520       ?VT@?$CVarTypeInfo@J@ATL@@2GB 00407520     stdafx.obj
+ 0002:00000524       ?pmField@?$CVarTypeInfo@J@ATL@@2QQtagVARIANT@@JQ3@ 00407524     stdafx.obj
+ 0002:00000528       ?VT@?$CVarTypeInfo@PAJ@ATL@@2GB 00407528     stdafx.obj
+ 0002:0000052c       ?pmField@?$CVarTypeInfo@PAJ@ATL@@2QQtagVARIANT@@PAJQ3@ 0040752c     stdafx.obj
+ 0002:00000530       ?VT@?$CVarTypeInfo@K@ATL@@2GB 00407530     stdafx.obj
+ 0002:00000534       ?pmField@?$CVarTypeInfo@K@ATL@@2QQtagVARIANT@@KQ3@ 00407534     stdafx.obj
+ 0002:00000538       ?VT@?$CVarTypeInfo@PAK@ATL@@2GB 00407538     stdafx.obj
+ 0002:0000053c       ?pmField@?$CVarTypeInfo@PAK@ATL@@2QQtagVARIANT@@PAKQ3@ 0040753c     stdafx.obj
+ 0002:00000540       ?VT@?$CVarTypeInfo@_J@ATL@@2GB 00407540     stdafx.obj
+ 0002:00000544       ?pmField@?$CVarTypeInfo@_J@ATL@@2QQtagVARIANT@@_JQ3@ 00407544     stdafx.obj
+ 0002:00000548       ?VT@?$CVarTypeInfo@PA_J@ATL@@2GB 00407548     stdafx.obj
+ 0002:0000054c       ?pmField@?$CVarTypeInfo@PA_J@ATL@@2QQtagVARIANT@@PA_JQ3@ 0040754c     stdafx.obj
+ 0002:00000550       ?VT@?$CVarTypeInfo@_K@ATL@@2GB 00407550     stdafx.obj
+ 0002:00000554       ?pmField@?$CVarTypeInfo@_K@ATL@@2QQtagVARIANT@@_KQ3@ 00407554     stdafx.obj
+ 0002:00000558       ?VT@?$CVarTypeInfo@PA_K@ATL@@2GB 00407558     stdafx.obj
+ 0002:0000055c       ?pmField@?$CVarTypeInfo@PA_K@ATL@@2QQtagVARIANT@@PA_KQ3@ 0040755c     stdafx.obj
+ 0002:00000560       ?VT@?$CVarTypeInfo@M@ATL@@2GB 00407560     stdafx.obj
+ 0002:00000564       ?pmField@?$CVarTypeInfo@M@ATL@@2QQtagVARIANT@@MQ3@ 00407564     stdafx.obj
+ 0002:00000568       ?VT@?$CVarTypeInfo@PAM@ATL@@2GB 00407568     stdafx.obj
+ 0002:0000056c       ?pmField@?$CVarTypeInfo@PAM@ATL@@2QQtagVARIANT@@PAMQ3@ 0040756c     stdafx.obj
+ 0002:00000570       ?VT@?$CVarTypeInfo@N@ATL@@2GB 00407570     stdafx.obj
+ 0002:00000574       ?pmField@?$CVarTypeInfo@N@ATL@@2QQtagVARIANT@@NQ3@ 00407574     stdafx.obj
+ 0002:00000578       ?VT@?$CVarTypeInfo@PAN@ATL@@2GB 00407578     stdafx.obj
+ 0002:0000057c       ?pmField@?$CVarTypeInfo@PAN@ATL@@2QQtagVARIANT@@PANQ3@ 0040757c     stdafx.obj
+ 0002:00000580       ?VT@?$CVarTypeInfo@UtagVARIANT@@@ATL@@2GB 00407580     stdafx.obj
+ 0002:00000584       ?VT@?$CVarTypeInfo@PA_W@ATL@@2GB 00407584     stdafx.obj
+ 0002:00000588       ?pmField@?$CVarTypeInfo@PA_W@ATL@@2QQtagVARIANT@@PA_WQ3@ 00407588     stdafx.obj
+ 0002:0000058c       ?VT@?$CVarTypeInfo@PAPA_W@ATL@@2GB 0040758c     stdafx.obj
+ 0002:00000590       ?pmField@?$CVarTypeInfo@PAPA_W@ATL@@2QQtagVARIANT@@PAPA_WQ3@ 00407590     stdafx.obj
+ 0002:00000594       ?VT@?$CVarTypeInfo@PAUIUnknown@@@ATL@@2GB 00407594     stdafx.obj
+ 0002:00000598       ?pmField@?$CVarTypeInfo@PAUIUnknown@@@ATL@@2QQtagVARIANT@@PAUIUnknown@@Q3@ 00407598     stdafx.obj
+ 0002:0000059c       ?VT@?$CVarTypeInfo@PAPAUIUnknown@@@ATL@@2GB 0040759c     stdafx.obj
+ 0002:000005a0       ?pmField@?$CVarTypeInfo@PAPAUIUnknown@@@ATL@@2QQtagVARIANT@@PAPAUIUnknown@@Q3@ 004075a0     stdafx.obj
+ 0002:000005a4       ?VT@?$CVarTypeInfo@PAUIDispatch@@@ATL@@2GB 004075a4     stdafx.obj
+ 0002:000005a8       ?pmField@?$CVarTypeInfo@PAUIDispatch@@@ATL@@2QQtagVARIANT@@PAUIDispatch@@Q3@ 004075a8     stdafx.obj
+ 0002:000005ac       ?VT@?$CVarTypeInfo@PAPAUIDispatch@@@ATL@@2GB 004075ac     stdafx.obj
+ 0002:000005b0       ?pmField@?$CVarTypeInfo@PAPAUIDispatch@@@ATL@@2QQtagVARIANT@@PAPAUIDispatch@@Q3@ 004075b0     stdafx.obj
+ 0002:000005b4       ?VT@?$CVarTypeInfo@TtagCY@@@ATL@@2GB 004075b4     stdafx.obj
+ 0002:000005b8       ?pmField@?$CVarTypeInfo@TtagCY@@@ATL@@2QQtagVARIANT@@TtagCY@@Q3@ 004075b8     stdafx.obj
+ 0002:000005bc       ?VT@?$CVarTypeInfo@PATtagCY@@@ATL@@2GB 004075bc     stdafx.obj
+ 0002:000005c0       ?pmField@?$CVarTypeInfo@PATtagCY@@@ATL@@2QQtagVARIANT@@PATtagCY@@Q3@ 004075c0     stdafx.obj
+ 0002:000005c4       ?c_bIsMFCDLLTraits@?$_MFCDLLTraitsCheck@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@_CSTRING_IMPL_@ATL@@2_NB 004075c4     stdafx.obj
+ 0002:000005c5       ?c_bIsMFCDLLTraits@?$_MFCDLLTraitsCheck@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@_CSTRING_IMPL_@ATL@@2_NB 004075c5     stdafx.obj
+ 0002:000005c8       ?generic@CArchiveException@@2HB 004075c8     stdafx.obj
+ 0002:000005cc       ?generic@CFileException@@2HB 004075cc     stdafx.obj
+ 0002:000005d0       ?Millisecond@CFileTime@ATL@@2_KB 004075d0     stdafx.obj
+ 0002:000005d8       ?Second@CFileTime@ATL@@2_KB 004075d8     stdafx.obj
+ 0002:000005e0       ?Minute@CFileTime@ATL@@2_KB 004075e0     stdafx.obj
+ 0002:000005e8       ?Hour@CFileTime@ATL@@2_KB  004075e8     stdafx.obj
+ 0002:000005f0       ?Day@CFileTime@ATL@@2_KB   004075f0     stdafx.obj
+ 0002:000005f8       ?Week@CFileTime@ATL@@2_KB  004075f8     stdafx.obj
+ 0002:00000600       ?szInvalidDateTime@ATL@@3QBDB 00407600     stdafx.obj
+ 0002:00000604       ?szInvalidDateTimeSpan@ATL@@3QBDB 00407604     stdafx.obj
+ 0002:00000608       ?OLE_DATETIME_HALFSECOND@COleDateTimeSpan@ATL@@0NB 00407608     stdafx.obj
+ 0002:00000610       ?CLSID_WinFormsControl@@3U_GUID@@B 00407610     stdafx.obj
+ 0002:00000620       ?collate@?$_Locbase@H@std@@2HB 00407620     stdafx.obj
+ 0002:00000624       ?ctype@?$_Locbase@H@std@@2HB 00407624     stdafx.obj
+ 0002:00000628       ?monetary@?$_Locbase@H@std@@2HB 00407628     stdafx.obj
+ 0002:0000062c       ?numeric@?$_Locbase@H@std@@2HB 0040762c     stdafx.obj
+ 0002:00000630       ?time@?$_Locbase@H@std@@2HB 00407630     stdafx.obj
+ 0002:00000634       ?messages@?$_Locbase@H@std@@2HB 00407634     stdafx.obj
+ 0002:00000638       ?all@?$_Locbase@H@std@@2HB 00407638     stdafx.obj
+ 0002:0000063c       ?none@?$_Locbase@H@std@@2HB 0040763c     stdafx.obj
+ 0002:00000640       ?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407640     stdafx.obj
+ 0002:00000644       ?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407644     stdafx.obj
+ 0002:00000648       ?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407648     stdafx.obj
+ 0002:0000064c       ?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 0040764c     stdafx.obj
+ 0002:00000650       ?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407650     stdafx.obj
+ 0002:00000654       ?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407654     stdafx.obj
+ 0002:00000658       ?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407658     stdafx.obj
+ 0002:0000065c       ?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B 0040765c     stdafx.obj
+ 0002:00000660       ?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407660     stdafx.obj
+ 0002:00000664       ?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407664     stdafx.obj
+ 0002:00000668       ?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407668     stdafx.obj
+ 0002:0000066c       ?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B 0040766c     stdafx.obj
+ 0002:00000670       ?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407670     stdafx.obj
+ 0002:00000674       ?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407674     stdafx.obj
+ 0002:00000678       ?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407678     stdafx.obj
+ 0002:0000067c       ?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B 0040767c     stdafx.obj
+ 0002:00000680       ?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407680     stdafx.obj
+ 0002:00000684       ?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407684     stdafx.obj
+ 0002:00000688       ?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 00407688     stdafx.obj
+ 0002:0000068c       ?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B 0040768c     stdafx.obj
+ 0002:00000690       ?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B 00407690     stdafx.obj
+ 0002:00000694       ?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B 00407694     stdafx.obj
+ 0002:00000698       ?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B 00407698     stdafx.obj
+ 0002:0000069c       ?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B 0040769c     stdafx.obj
+ 0002:000006a0       ?in@?$_Iosb@H@std@@2W4_Openmode@12@B 004076a0     stdafx.obj
+ 0002:000006a4       ?out@?$_Iosb@H@std@@2W4_Openmode@12@B 004076a4     stdafx.obj
+ 0002:000006a8       ?ate@?$_Iosb@H@std@@2W4_Openmode@12@B 004076a8     stdafx.obj
+ 0002:000006ac       ?app@?$_Iosb@H@std@@2W4_Openmode@12@B 004076ac     stdafx.obj
+ 0002:000006b0       ?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B 004076b0     stdafx.obj
+ 0002:000006b4       ?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B 004076b4     stdafx.obj
+ 0002:000006b8       ?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B 004076b8     stdafx.obj
+ 0002:000006bc       ?binary@?$_Iosb@H@std@@2W4_Openmode@12@B 004076bc     stdafx.obj
+ 0002:000006c0       ?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B 004076c0     stdafx.obj
+ 0002:000006c4       ?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B 004076c4     stdafx.obj
+ 0002:000006c8       ?end@?$_Iosb@H@std@@2W4_Seekdir@12@B 004076c8     stdafx.obj
+ 0002:000006cc       _IID_ISEListCtrlCustomCombo 004076cc     stdafx.obj
+ 0002:000006dc       _IID_IJPropertySetStorage  004076dc     stdafx.obj
+ 0002:000006ec       _IID_IJEnumPropertySetStorage 004076ec     stdafx.obj
+ 0002:000006fc       _IID_IJPropertyStorage     004076fc     stdafx.obj
+ 0002:0000070c       _IID_IJPropertyStorageEx   0040770c     stdafx.obj
+ 0002:0000071c       _IID_IJEnumPropertyStorage 0040771c     stdafx.obj
+ 0002:0000072c       _IID_IJPersistManager      0040772c     stdafx.obj
+ 0002:0000073c       _IID_IJPersist             0040773c     stdafx.obj
+ 0002:0000074c       _IID_IJPersistRoot         0040774c     stdafx.obj
+ 0002:0000075c       _IID_IJPersistCluster      0040775c     stdafx.obj
+ 0002:0000076c       _IID_IEnumCluster          0040776c     stdafx.obj
+ 0002:0000077c       _IID_IJClusterCallback     0040777c     stdafx.obj
+ 0002:0000078c       _IID_IJObjectCallback      0040778c     stdafx.obj
+ 0002:0000079c       _IID_IIsWrapper            0040779c     stdafx.obj
+ 0002:000007ac       _IID_IJCPPPersistManager   004077ac     stdafx.obj
+ 0002:000007bc       _IID_IJConvertAfterLoad    004077bc     stdafx.obj
+ 0002:000007cc       _IID_IJNoDispatchSupport   004077cc     stdafx.obj
+ 0002:000007dc       _IID_IEnumLPIID2           004077dc     stdafx.obj
+ 0002:000007ec       _IID_IEnumLPIID            004077ec     stdafx.obj
+ 0002:000007fc       _IID_IJMapUnknownToUnknown 004077fc     stdafx.obj
+ 0002:0000080c       _IID_IJRelationValue       0040780c     stdafx.obj
+ 0002:0000081c       _IID_IJGraphicRelationValue 0040781c     stdafx.obj
+ 0002:0000082c       _IID_IJRelation            0040782c     stdafx.obj
+ 0002:0000083c       _IID_IJSemantic            0040783c     stdafx.obj
+ 0002:0000084c       _IID_IJStandAloneSemantic  0040784c     stdafx.obj
+ 0002:0000085c       _IID_IJCompute             0040785c     stdafx.obj
+ 0002:0000086c       _IID_IJCopy                0040786c     stdafx.obj
+ 0002:0000087c       _IID_IJDelete              0040787c     stdafx.obj
+ 0002:0000088c       _IID_IJSupportOnly         0040788c     stdafx.obj
+ 0002:0000089c       _IID_IJRelationSolver      0040789c     stdafx.obj
+ 0002:000008ac       _IID_IJRelationGraph       004078ac     stdafx.obj
+ 0002:000008bc       _IID_IJRelationGlobal      004078bc     stdafx.obj
+ 0002:000008cc       _IID_IJRelationNotify      004078cc     stdafx.obj
+ 0002:000008dc       _IID_IEnumJRelationSemanticDesc 004078dc     stdafx.obj
+ 0002:000008ec       _IID_IEnumULONG            004078ec     stdafx.obj
+ 0002:000008fc       _IID_IEnumJIDREF           004078fc     stdafx.obj
+ 0002:0000090c       _IID_IJModeEnumJIDREF      0040790c     stdafx.obj
+ 0002:0000091c       _IID_IJRelationGraphInfo   0040791c     stdafx.obj
+ 0002:0000092c       _IID_IEnumJRelationDesc    0040792c     stdafx.obj
+ 0002:0000093c       _IID_IJComputeCFunction    0040793c     stdafx.obj
+ 0002:0000094c       _IID_IJCFunctionEx         0040794c     stdafx.obj
+ 0002:0000095c       _IID_IStdEnumJIDREF        0040795c     stdafx.obj
+ 0002:0000096c       _IID_IStdEnumJIDREF2       0040796c     stdafx.obj
+ 0002:0000097c       _IID_IStdEnumUnknown       0040797c     stdafx.obj
+ 0002:0000098c       _IID_IStdEnumUnknown2      0040798c     stdafx.obj
+ 0002:0000099c       _GUID_StdRelationType      0040799c     stdafx.obj
+ 0002:000009ac       _IID_IJSemanticDesc        004079ac     stdafx.obj
+ 0002:000009bc       _IID_IEnumJSemanticDesc    004079bc     stdafx.obj
+ 0002:000009cc       _IID_IJRefOwner            004079cc     stdafx.obj
+ 0002:000009dc       _IID_IJOwner               004079dc     stdafx.obj
+ 0002:000009ec       _GUID_OwnerRelation        004079ec     stdafx.obj
+ 0002:000009fc       _IID_IJAppProxyMaintain    004079fc     stdafx.obj
+ 0002:00000a0c       _IID_IJOwnerEvaluateFilter 00407a0c     stdafx.obj
+ 0002:00000a1c       _IID_IJOwnerNotify         00407a1c     stdafx.obj
+ 0002:00000a2c       _IID_IJOwner2              00407a2c     stdafx.obj
+ 0002:00000a3c       _IID_IJOwnerMemberCopyBehavior 00407a3c     stdafx.obj
+ 0002:00000a4c       _IID_IJOwnerMemberCopyDeleteSemantic 00407a4c     stdafx.obj
+ 0002:00000a5c       _CLSID_JWinLayer           00407a5c     stdafx.obj
+ 0002:00000a6c       _CLSID_JDocStore           00407a6c     stdafx.obj
+ 0002:00000a7c       _CLSID_JDTSSemantic        00407a7c     stdafx.obj
+ 0002:00000a8c       _CLSID_JDocWinToViewSemantic 00407a8c     stdafx.obj
+ 0002:00000a9c       _CLSID_AttrSetTable        00407a9c     stdafx.obj
+ 0002:00000aac       _CLSID_AttrSetDef          00407aac     stdafx.obj
+ 0002:00000abc       _CLSID_ERMetadataExchange  00407abc     stdafx.obj
+ 0002:00000acc       _CLSID_DefIJAttrSetDef     00407acc     stdafx.obj
+ 0002:00000adc       _CLSID_TypeLibLocater      00407adc     stdafx.obj
+ 0002:00000aec       _CLSID_Chan1M              00407aec     stdafx.obj
+ 0002:00000afc       _CLSID_ImpIJAttrSetComputation 00407afc     stdafx.obj
+ 0002:00000b0c       _CLSID_ImpIJAttrSetDisam   00407b0c     stdafx.obj
+ 0002:00000b1c       _CLSID_EnumTable           00407b1c     stdafx.obj
+ 0002:00000b2c       _CLSID_TypeLibManager      00407b2c     stdafx.obj
+ 0002:00000b3c       _CLSID_CachedTypeLib       00407b3c     stdafx.obj
+ 0002:00000b4c       _CLSID_JOleLinkObject      00407b4c     stdafx.obj
+ 0002:00000b5c       _CLSID_JOleAssocConnect    00407b5c     stdafx.obj
+ 0002:00000b6c       _CLSID_JUnitsOfMeasure     00407b6c     stdafx.obj
+ 0002:00000b7c       _CLSID_JRelationHolder     00407b7c     stdafx.obj
+ 0002:00000b8c       _CLSID_JRelationGraphHolder 00407b8c     stdafx.obj
+ 0002:00000b9c       _CLSID_JRelationElemList   00407b9c     stdafx.obj
+ 0002:00000bac       _CLSID_JPropertiesCollection 00407bac     stdafx.obj
+ 0002:00000bbc       _CLSID_JFileProperties     00407bbc     stdafx.obj
+ 0002:00000bcc       _CLSID_JGeneralPropSheetExt 00407bcc     stdafx.obj
+ 0002:00000bdc       _CLSID_JStatisticsPropSheetExt 00407bdc     stdafx.obj
+ 0002:00000bec       _CLSID_CLtQry              00407bec     stdafx.obj
+ 0002:00000bfc       _CLSID_JSummaryInfo        00407bfc     stdafx.obj
+ 0002:00000c0c       _CLSID__JRoutingSlip       00407c0c     stdafx.obj
+ 0002:00000c1c       _CLSID_JBinderCmd          00407c1c     stdafx.obj
+ 0002:00000c2c       _CLSID_JProbeCmd           00407c2c     stdafx.obj
+ 0002:00000c3c       _CLSID_EditSymbolPropertiesCMD 00407c3c     stdafx.obj
+ 0002:00000c4c       _CLSID_ConvertSymbolToGraphicCMD 00407c4c     stdafx.obj
+ 0002:00000c5c       _CLSID_OpenSymbolCMD       00407c5c     stdafx.obj
+ 0002:00000c6c       _CLSID_EditSymbolCMD       00407c6c     stdafx.obj
+ 0002:00000c7c       _CLSID_SymbolRibbonBarCMD  00407c7c     stdafx.obj
+ 0002:00000c8c       _CLSID_JSymbolPropSheetExt 00407c8c     stdafx.obj
+ 0002:00000c9c       _CLSID_CutawayDefinitionManager 00407c9c     stdafx.obj
+ 0002:00000cac       _CLSID_JSectionViewManager 00407cac     stdafx.obj
+ 0002:00000cbc       _CLSID_JSectionView        00407cbc     stdafx.obj
+ 0002:00000ccc       _CLSID_JSectionViewCacheInfo 00407ccc     stdafx.obj
+ 0002:00000cdc       _CLSID_DataCenterActivateCmd 00407cdc     stdafx.obj
+ 0002:00000cec       _CLSID_JEndDropCmd         00407cec     stdafx.obj
+ 0002:00000cfc       _CLSID_JSymbolGenesis      00407cfc     stdafx.obj
+ 0002:00000d0c       _CLSID_HVariables          00407d0c     stdafx.obj
+ 0002:00000d1c       _CLSID_JVariableTableCmd   00407d1c     stdafx.obj
+ 0002:00000d2c       _CLSID_JVarListener        00407d2c     stdafx.obj
+ 0002:00000d3c       _CLSID_JNameMgr            00407d3c     stdafx.obj
+ 0002:00000d4c       _CLSID_JExprTrnSup         00407d4c     stdafx.obj
+ 0002:00000d5c       _CLSID_JVarManager         00407d5c     stdafx.obj
+ 0002:00000d6c       _CLSID_JFontMgr            00407d6c     stdafx.obj
+ 0002:00000d7c       _CLSID_JWinFont            00407d7c     stdafx.obj
+ 0002:00000d8c       _CLSID_JTextServices       00407d8c     stdafx.obj
+ 0002:00000d9c       _CLSID_JDisplayVariableDialogCmd 00407d9c     stdafx.obj
+ 0002:00000dac       _CLSID_JLocateSensorInputsCmd 00407dac     stdafx.obj
+ 0002:00000dbc       _CLSID_JEndLocateSensorInputCmd 00407dbc     stdafx.obj
+ 0002:00000dcc       _CLSID_DropGG              00407dcc     stdafx.obj
+ 0002:00000ddc       _CLSID_BringForward        00407ddc     stdafx.obj
+ 0002:00000dec       _CLSID_BringToFront        00407dec     stdafx.obj
+ 0002:00000dfc       _CLSID_SendBackward        00407dfc     stdafx.obj
+ 0002:00000e0c       _CLSID_SendToBack          00407e0c     stdafx.obj
+ 0002:00000e1c       _CLSID_JImagePreview       00407e1c     stdafx.obj
+ 0002:00000e2c       _CLSID_JInsertObject       00407e2c     stdafx.obj
+ 0002:00000e3c       _CLSID_MDSTrnsup           00407e3c     stdafx.obj
+ 0002:00000e4c       _CLSID_JNamedView          00407e4c     stdafx.obj
+ 0002:00000e5c       _CLSID_Print3dCmd          00407e5c     stdafx.obj
+ 0002:00000e6c       _CLSID_JPreviewPropSheetExt 00407e6c     stdafx.obj
+ 0002:00000e7c       _CLSID__HOccGeometry2d     00407e7c     stdafx.obj
+ 0002:00000e8c       _CLSID__HOccGeometry3d     00407e8c     stdafx.obj
+ 0002:00000e9c       _CLSID__HOccProperties     00407e9c     stdafx.obj
+ 0002:00000eac       _CLSID__HOccSite           00407eac     stdafx.obj
+ 0002:00000ebc       _CLSID_JAuxConverter       00407ebc     stdafx.obj
+ 0002:00000ecc       _CLSID_JPaletteMgr         00407ecc     stdafx.obj
+ 0002:00000edc       _CLSID_JXformManager       00407edc     stdafx.obj
+ 0002:00000eec       _CLSID_JTessellator        00407eec     stdafx.obj
+ 0002:00000efc       _CLSID_JTessellatorComposite 00407efc     stdafx.obj
+ 0002:00000f0c       _CLSID_RxNPRrd             00407f0c     stdafx.obj
+ 0002:00000f1c       _CLSID_EditActiveStyle3d   00407f1c     stdafx.obj
+ 0002:00000f2c       _CLSID_EditStyle3d         00407f2c     stdafx.obj
+ 0002:00000f3c       _CLSID_COpenMovie          00407f3c     stdafx.obj
+ 0002:00000f4c       _CLSID_JStyleBase          00407f4c     stdafx.obj
+ 0002:00000f5c       _CLSID_JStyleR2d           00407f5c     stdafx.obj
+ 0002:00000f6c       _CLSID_RenderExtensions    00407f6c     stdafx.obj
+ 0002:00000f7c       _CLSID_TextureCache        00407f7c     stdafx.obj
+ 0002:00000f8c       _CLSID_SaveAsImageCmd      00407f8c     stdafx.obj
+ 0002:00000f9c       _CLSID_JCommonUnitsPropSheetExt 00407f9c     stdafx.obj
+ 0002:00000fac       _CLSID_PanView             00407fac     stdafx.obj
+ 0002:00000fbc       _CLSID_ZoomOut2D           00407fbc     stdafx.obj
+ 0002:00000fcc       _CLSID_FitView             00407fcc     stdafx.obj
+ 0002:00000fdc       _CLSID_AreaZoom            00407fdc     stdafx.obj
+ 0002:00000fec       _CLSID_PrevView            00407fec     stdafx.obj
+ 0002:00000ffc       _CLSID_ZoomTool            00407ffc     stdafx.obj
+ 0002:0000100c       _CLSID_PrevView3d          0040800c     stdafx.obj
+ 0002:0000101c       _CLSID_QuickPan            0040801c     stdafx.obj
+ 0002:0000102c       _CLSID_QuickZoom           0040802c     stdafx.obj
+ 0002:0000103c       _CLSID_JNamedViewsCmd      0040803c     stdafx.obj
+ 0002:0000104c       _CLSID_JNamedViewListCmd   0040804c     stdafx.obj
+ 0002:0000105c       _CLSID_JViewStyleListCmd   0040805c     stdafx.obj
+ 0002:0000106c       _CLSID_JSharpenCmd         0040806c     stdafx.obj
+ 0002:0000107c       _CLSID_JSharpenListCmd     0040807c     stdafx.obj
+ 0002:0000108c       _CLSID_JDisplayDepthsCmd   0040808c     stdafx.obj
+ 0002:0000109c       _CLSID_JToggleDisplayDepthsCmd 0040809c     stdafx.obj
+ 0002:000010ac       _CLSID_JOrientViewToProfileCmd 004080ac     stdafx.obj
+ 0002:000010bc       _CLSID_JFaceStyleListCmd   004080bc     stdafx.obj
+ 0002:000010cc       _CLSID_AlignEdge           004080cc     stdafx.obj
+ 0002:000010dc       _CLSID_ViewDataServer      004080dc     stdafx.obj
+ 0002:000010ec       _CLSID_EditActiveViewStyle 004080ec     stdafx.obj
+ 0002:000010fc       _CLSID_EditViewStyle       004080fc     stdafx.obj
+ 0002:0000110c       _CLSID_ApplyViewStyle      0040810c     stdafx.obj
+ 0002:0000111c       _CLSID_TogglePerspective   0040811c     stdafx.obj
+ 0002:0000112c       _CLSID_ToggleShaded        0040812c     stdafx.obj
+ 0002:0000113c       _CLSID_JNSBFileMgr         0040813c     stdafx.obj
+ 0002:0000114c       _CLSID_JNSBQryMgr          0040814c     stdafx.obj
+ 0002:0000115c       _CLSID_JReferenceEngine    0040815c     stdafx.obj
+ 0002:0000116c       _CLSID_JSite               0040816c     stdafx.obj
+ 0002:0000117c       _CLSID_JSiteManager        0040817c     stdafx.obj
+ 0002:0000118c       _CLSID_JDataObject         0040818c     stdafx.obj
+ 0002:0000119c       _CLSID_JDataObjectHelper   0040819c     stdafx.obj
+ 0002:000011ac       _CLSID_JPseudoObject       004081ac     stdafx.obj
+ 0002:000011bc       _CLSID_JMembassy           004081bc     stdafx.obj
+ 0002:000011cc       _CLSID_JMembassyNtfyOfOwnrChg 004081cc     stdafx.obj
+ 0002:000011dc       _CLSID_JReverseSiteManager 004081dc     stdafx.obj
+ 0002:000011ec       _CLSID_JReverseOccurrence  004081ec     stdafx.obj
+ 0002:000011fc       _CLSID_JReverseSite        004081fc     stdafx.obj
+ 0002:0000120c       _CLSID_JRestructureSite    0040820c     stdafx.obj
+ 0002:0000121c       _CLSID_JRestructureSiteManager 0040821c     stdafx.obj
+ 0002:0000122c       _CLSID_JReferUI            0040822c     stdafx.obj
+ 0002:0000123c       _CLSID_JGraphicFacelet     0040823c     stdafx.obj
+ 0002:0000124c       _CLSID_JOccurrenceFacelet  0040824c     stdafx.obj
+ 0002:0000125c       _CLSID_JSimplifiedOccurrenceFacelet 0040825c     stdafx.obj
+ 0002:0000126c       _CLSID_JPointFacelet       0040826c     stdafx.obj
+ 0002:0000127c       _CLSID_JLineFacelet        0040827c     stdafx.obj
+ 0002:0000128c       _CLSID_JLineStringFacelet  0040828c     stdafx.obj
+ 0002:0000129c       _CLSID_JEllipseFacelet     0040829c     stdafx.obj
+ 0002:000012ac       _CLSID_JArcFacelet         004082ac     stdafx.obj
+ 0002:000012bc       _CLSID_JBspCurveFacelet    004082bc     stdafx.obj
+ 0002:000012cc       _CLSID_JComplexStringFacelet 004082cc     stdafx.obj
+ 0002:000012dc       _CLSID_JPlaneFacelet       004082dc     stdafx.obj
+ 0002:000012ec       _CLSID_JConeFacelet        004082ec     stdafx.obj
+ 0002:000012fc       _CLSID_JSphereFacelet      004082fc     stdafx.obj
+ 0002:0000130c       _CLSID_JTorusFacelet       0040830c     stdafx.obj
+ 0002:0000131c       _CLSID_JProjectionFacelet  0040831c     stdafx.obj
+ 0002:0000132c       _CLSID_JRevolutionFacelet  0040832c     stdafx.obj
+ 0002:0000133c       _CLSID_JBspSurfaceFacelet  0040833c     stdafx.obj
+ 0002:0000134c       _CLSID_JBoundariesFacelet  0040834c     stdafx.obj
+ 0002:0000135c       _CLSID_JRuledFacelet       0040835c     stdafx.obj
+ 0002:0000136c       _CLSID_JPolyMeshFacelet    0040836c     stdafx.obj
+ 0002:0000137c       _CLSID__HSymbol2d          0040837c     stdafx.obj
+ 0002:0000138c       _CLSID__HSymbol3d          0040838c     stdafx.obj
+ 0002:0000139c       _CLSID__HSymbols           0040839c     stdafx.obj
+ 0002:000013ac       _CLSID_JRelationCFunction  004083ac     stdafx.obj
+ 0002:000013bc       _CLSID_JCFunctionCopyDeleteSemantic 004083bc     stdafx.obj
+ 0002:000013cc       _CLSID_AttrSetValues       004083cc     stdafx.obj
+ 0002:000013dc       _CLSID_FreeFormAttrSet     004083dc     stdafx.obj
+ 0002:000013ec       _CLSID_HAttrSet            004083ec     stdafx.obj
+ 0002:000013fc       _CLSID_JOwnerEngine        004083fc     stdafx.obj
+ 0002:0000140c       _CLSID_JOwnerNotificationComputeSemantic 0040840c     stdafx.obj
+ 0002:0000141c       _CLSID_JGroupCopy          0040841c     stdafx.obj
+ 0002:0000142c       _CLSID_JOwnerDelete        0040842c     stdafx.obj
+ 0002:0000143c       _CLSID_JOwnerMemberCopyDeleteSemantic 0040843c     stdafx.obj
+ 0002:0000144c       _CLSID_JLoadMembersComputeSemantic 0040844c     stdafx.obj
+ 0002:0000145c       _CLSID_JOwnerEngineWithoutNotification 0040845c     stdafx.obj
+ 0002:0000146c       _CLSID_JOwnerEngineWithoutSemantic 0040846c     stdafx.obj
+ 0002:0000147c       _CLSID_PersistManager      0040847c     stdafx.obj
+ 0002:0000148c       _CLSID_JSelectSetManager   0040848c     stdafx.obj
+ 0002:0000149c       _CLSID_CComLockBytes       0040849c     stdafx.obj
+ 0002:000014ac       _CLSID_JEnumLPIID          004084ac     stdafx.obj
+ 0002:000014bc       _CLSID_JMapUnkToUnk        004084bc     stdafx.obj
+ 0002:000014cc       _CLSID__HSymbol            004084cc     stdafx.obj
+ 0002:000014dc       _CLSID__HSymbolCollections 004084dc     stdafx.obj
+ 0002:000014ec       _CLSID__HSymbolPropertiesParentExt 004084ec     stdafx.obj
+ 0002:000014fc       _CLSID__HSymbolProperties  004084fc     stdafx.obj
+ 0002:0000150c       _CLSID_JCommandSite        0040850c     stdafx.obj
+ 0002:0000151c       _CLSID_JBinder             0040851c     stdafx.obj
+ 0002:0000152c       _CLSID_JBitArray           0040852c     stdafx.obj
+ 0002:0000153c       _CLSID_CopyCmd             0040853c     stdafx.obj
+ 0002:0000154c       _CLSID_CutCmd              0040854c     stdafx.obj
+ 0002:0000155c       _CLSID_PasteCmd            0040855c     stdafx.obj
+ 0002:0000156c       _CLSID_Undo                0040856c     stdafx.obj
+ 0002:0000157c       _CLSID_Redo                0040857c     stdafx.obj
+ 0002:0000158c       _CLSID_JDelayRelationalUpdate 0040858c     stdafx.obj
+ 0002:0000159c       _CLSID_JUpdateRelations    0040859c     stdafx.obj
+ 0002:000015ac       _CLSID_JCoreView           004085ac     stdafx.obj
+ 0002:000015bc       _CLSID_JViewSet            004085bc     stdafx.obj
+ 0002:000015cc       _CLSID_JDisplayManager     004085cc     stdafx.obj
+ 0002:000015dc       _CLSID_JDynamic2dGList     004085dc     stdafx.obj
+ 0002:000015ec       _CLSID_JDynamic3dGList     004085ec     stdafx.obj
+ 0002:000015fc       _CLSID_DisplayBatch        004085fc     stdafx.obj
+ 0002:0000160c       _CLSID_DisplayListManager  0040860c     stdafx.obj
+ 0002:0000161c       _CLSID_GeometryCacheManager 0040861c     stdafx.obj
+ 0002:0000162c       _CLSID_JDoubleValue        0040862c     stdafx.obj
+ 0002:0000163c       _CLSID_JDoubleValueFacelet2 0040863c     stdafx.obj
+ 0002:0000164c       _CLSID_JTransfValue        0040864c     stdafx.obj
+ 0002:0000165c       _CLSID_JRelationBExpression 0040865c     stdafx.obj
+ 0002:0000166c       _CLSID_JTextValue          0040866c     stdafx.obj
+ 0002:0000167c       _CLSID_JTextValueFacelet2  0040867c     stdafx.obj
+ 0002:0000168c       _CLSID_JDropSource         0040868c     stdafx.obj
+ 0002:0000169c       _CLSID_JDropTarget         0040869c     stdafx.obj
+ 0002:000016ac       _CLSID_JStartDragCmd       004086ac     stdafx.obj
+ 0002:000016bc       _CLSID_JEdgeBarCmd         004086bc     stdafx.obj
+ 0002:000016cc       _CLSID__HVariable          004086cc     stdafx.obj
+ 0002:000016dc       _CLSID__HVariablesCollection 004086dc     stdafx.obj
+ 0002:000016ec       _CLSID__HVariableList      004086ec     stdafx.obj
+ 0002:000016fc       _CLSID__HVTEDispView       004086fc     stdafx.obj
+ 0002:0000170c       _CLSID_JFilterStyleOverride 0040870c     stdafx.obj
+ 0002:0000171c       _CLSID_JGaugeManager       0040871c     stdafx.obj
+ 0002:0000172c       _CLSID_JSensor             0040872c     stdafx.obj
+ 0002:0000173c       _CLSID_JSensorManager      0040873c     stdafx.obj
+ 0002:0000174c       _CLSID_JGroupEngine        0040874c     stdafx.obj
+ 0002:0000175c       _CLSID_JMasterGroupEngine  0040875c     stdafx.obj
+ 0002:0000176c       _CLSID_JRangeOwner         0040876c     stdafx.obj
+ 0002:0000177c       _CLSID_HLayerApp           0040877c     stdafx.obj
+ 0002:0000178c       _CLSID_HLayersApp          0040878c     stdafx.obj
+ 0002:0000179c       _CLSID_HSensor             0040879c     stdafx.obj
+ 0002:000017ac       _CLSID_HSensors            004087ac     stdafx.obj
+ 0002:000017bc       _CLSID_HSheetMetalSensors  004087bc     stdafx.obj
+ 0002:000017cc       _CLSID__HStyle3d           004087cc     stdafx.obj
+ 0002:000017dc       _CLSID_HViewStyle          004087dc     stdafx.obj
+ 0002:000017ec       _CLSID_HViewStyles         004087ec     stdafx.obj
+ 0002:000017fc       _CLSID_JReadAcad           004087fc     stdafx.obj
+ 0002:0000180c       _CLSID_JWriteAcad          0040880c     stdafx.obj
+ 0002:0000181c       _CLSID_JReadIges           0040881c     stdafx.obj
+ 0002:0000182c       _CLSID_JWriteIges          0040882c     stdafx.obj
+ 0002:0000183c       _CLSID_JReadMstn           0040883c     stdafx.obj
+ 0002:0000184c       _CLSID_JWriteMstn          0040884c     stdafx.obj
+ 0002:0000185c       _CLSID_JReadAcis           0040885c     stdafx.obj
+ 0002:0000186c       _CLSID_JWriteAcis          0040886c     stdafx.obj
+ 0002:0000187c       _CLSID_JWriteStl           0040887c     stdafx.obj
+ 0002:0000188c       _CLSID_JGDIX               0040888c     stdafx.obj
+ 0002:0000189c       _CLSID_JGL                 0040889c     stdafx.obj
+ 0002:000018ac       _CLSID_JPoint              004088ac     stdafx.obj
+ 0002:000018bc       _CLSID_JLine               004088bc     stdafx.obj
+ 0002:000018cc       _CLSID_JLineString         004088cc     stdafx.obj
+ 0002:000018dc       _CLSID_JEllipse            004088dc     stdafx.obj
+ 0002:000018ec       _CLSID_JArc                004088ec     stdafx.obj
+ 0002:000018fc       _CLSID_JBspCurve           004088fc     stdafx.obj
+ 0002:0000190c       _CLSID_JComplexString      0040890c     stdafx.obj
+ 0002:0000191c       _CLSID_JPlane              0040891c     stdafx.obj
+ 0002:0000192c       _CLSID_JCone               0040892c     stdafx.obj
+ 0002:0000193c       _CLSID_JBspSurface         0040893c     stdafx.obj
+ 0002:0000194c       _CLSID_JSphere             0040894c     stdafx.obj
+ 0002:0000195c       _CLSID_JTorus              0040895c     stdafx.obj
+ 0002:0000196c       _CLSID_JProjection         0040896c     stdafx.obj
+ 0002:0000197c       _CLSID_JRevolution         0040897c     stdafx.obj
+ 0002:0000198c       _CLSID_JRuled              0040898c     stdafx.obj
+ 0002:0000199c       _CLSID_JPolyMesh           0040899c     stdafx.obj
+ 0002:000019ac       _CLSID_JPercent            004089ac     stdafx.obj
+ 0002:000019bc       _CLSID_JPREVIEW            004089bc     stdafx.obj
+ 0002:000019cc       _CLSID_JHighlightSets      004089cc     stdafx.obj
+ 0002:000019dc       _CLSID_JLayer              004089dc     stdafx.obj
+ 0002:000019ec       _CLSID_JLayerSettings      004089ec     stdafx.obj
+ 0002:000019fc       _CLSID_JLayerGroup         004089fc     stdafx.obj
+ 0002:00001a0c       _CLSID_JLayerManager       00408a0c     stdafx.obj
+ 0002:00001a1c       _CLSID_JDocLayerManagerCopySemantic 00408a1c     stdafx.obj
+ 0002:00001a2c       _CLSID_JNameManager        00408a2c     stdafx.obj
+ 0002:00001a3c       _CLSID_JDocNameMgrCopySemantic 00408a3c     stdafx.obj
+ 0002:00001a4c       _CLSID_JReadEms            00408a4c     stdafx.obj
+ 0002:00001a5c       _CLSID_JWriteEms           00408a5c     stdafx.obj
+ 0002:00001a6c       _CLSID_JRenderRec          00408a6c     stdafx.obj
+ 0002:00001a7c       _CLSID_JRenderRecLite      00408a7c     stdafx.obj
+ 0002:00001a8c       _CLSID_JRenderGL           00408a8c     stdafx.obj
+ 0002:00001a9c       _CLSID_JRenderManager      00408a9c     stdafx.obj
+ 0002:00001aac       _CLSID_IJRenderSceneMultiplex 00408aac     stdafx.obj
+ 0002:00001abc       _CLSID_JRender2dGDI        00408abc     stdafx.obj
+ 0002:00001acc       _CLSID_JRender2dGL         00408acc     stdafx.obj
+ 0002:00001adc       _CLSID_JRDrawGDI           00408adc     stdafx.obj
+ 0002:00001aec       _CLSID_JRDrawGL            00408aec     stdafx.obj
+ 0002:00001afc       _CLSID_JRDrawIGL           00408afc     stdafx.obj
+ 0002:00001b0c       _CLSID_JRDrawHybrid        00408b0c     stdafx.obj
+ 0002:00001b1c       _CLSID_JRDrawDD            00408b1c     stdafx.obj
+ 0002:00001b2c       _CLSID_JCanvasXOR          00408b2c     stdafx.obj
+ 0002:00001b3c       _CLSID_JCanvasSBS          00408b3c     stdafx.obj
+ 0002:00001b4c       _CLSID_JCanvasDBS          00408b4c     stdafx.obj
+ 0002:00001b5c       _CLSID_JCanvasGLOVL        00408b5c     stdafx.obj
+ 0002:00001b6c       _CLSID_JCanvasGLXOR        00408b6c     stdafx.obj
+ 0002:00001b7c       _CLSID_JCanvasIGL          00408b7c     stdafx.obj
+ 0002:00001b8c       _CLSID_JCanvasGLSBS        00408b8c     stdafx.obj
+ 0002:00001b9c       _CLSID_JCanvasGLDBS        00408b9c     stdafx.obj
+ 0002:00001bac       _CLSID_JCanvasDD           00408bac     stdafx.obj
+ 0002:00001bbc       _CLSID_JCanvasDDOVL        00408bbc     stdafx.obj
+ 0002:00001bcc       _CLSID_JCanvasDDSBS        00408bcc     stdafx.obj
+ 0002:00001bdc       _CLSID_JCanvasDDDBS        00408bdc     stdafx.obj
+ 0002:00001bec       _CLSID_JCanvas             00408bec     stdafx.obj
+ 0002:00001bfc       _CLSID_JDraw               00408bfc     stdafx.obj
+ 0002:00001c0c       _CLSID_JGeometryCacheServer 00408c0c     stdafx.obj
+ 0002:00001c1c       _CLSID_JGeometryCache      00408c1c     stdafx.obj
+ 0002:00001c2c       _CLSID_JRendererInfo       00408c2c     stdafx.obj
+ 0002:00001c3c       _CLSID_JFlyThroughEdit     00408c3c     stdafx.obj
+ 0002:00001c4c       _CLSID_JAnimationServer    00408c4c     stdafx.obj
+ 0002:00001c5c       _CLSID_SaveAsMovie         00408c5c     stdafx.obj
+ 0002:00001c6c       _CLSID_RenderArea          00408c6c     stdafx.obj
+ 0002:00001c7c       _CLSID_RenderScene         00408c7c     stdafx.obj
+ 0002:00001c8c       _CLSID_FlightPlan          00408c8c     stdafx.obj
+ 0002:00001c9c       _CLSID_Timeline            00408c9c     stdafx.obj
+ 0002:00001cac       _CLSID_ToggleAdvanced      00408cac     stdafx.obj
+ 0002:00001cbc       _CLSID_FaceStyleEditor     00408cbc     stdafx.obj
+ 0002:00001ccc       _CLSID_ViewStyleEditor     00408ccc     stdafx.obj
+ 0002:00001cdc       _CLSID_RenderSetup         00408cdc     stdafx.obj
+ 0002:00001cec       _CLSID_DeleteFlightPath    00408cec     stdafx.obj
+ 0002:00001cfc       _CLSID_AddFrames           00408cfc     stdafx.obj
+ 0002:00001d0c       _CLSID_RemoveFrames        00408d0c     stdafx.obj
+ 0002:00001d1c       _CLSID_TimelineProperties  00408d1c     stdafx.obj
+ 0002:00001d2c       _CLSID_JStyleSimpleLine    00408d2c     stdafx.obj
+ 0002:00001d3c       _CLSID_JStyleSolidLine     00408d3c     stdafx.obj
+ 0002:00001d4c       _CLSID_JStyleMultiplexer   00408d4c     stdafx.obj
+ 0002:00001d5c       _CLSID_JStyleSimpleFill    00408d5c     stdafx.obj
+ 0002:00001d6c       _CLSID_JStyleHatchFill     00408d6c     stdafx.obj
+ 0002:00001d7c       _CLSID_JStyleSymbolFill    00408d7c     stdafx.obj
+ 0002:00001d8c       _CLSID_JStyleTextChar      00408d8c     stdafx.obj
+ 0002:00001d9c       _CLSID_JStyleTextPara      00408d9c     stdafx.obj
+ 0002:00001dac       _CLSID_JStyleHole          00408dac     stdafx.obj
+ 0002:00001dbc       _CLSID_JStyleOverride      00408dbc     stdafx.obj
+ 0002:00001dcc       _CLSID_JStyleSimpleMultiplexer 00408dcc     stdafx.obj
+ 0002:00001ddc       _CLSID_JStyleOLG           00408ddc     stdafx.obj
+ 0002:00001dec       _CLSID_JStyleSimpleDashType 00408dec     stdafx.obj
+ 0002:00001dfc       _CLSID_JStyleFullDashType  00408dfc     stdafx.obj
+ 0002:00001e0c       _CLSID_JStyleBitmap        00408e0c     stdafx.obj
+ 0002:00001e1c       _CLSID_JStylePointSymbol   00408e1c     stdafx.obj
+ 0002:00001e2c       _CLSID_JStyleLineTerminator 00408e2c     stdafx.obj
+ 0002:00001e3c       _CLSID_JStyleLinePointGen  00408e3c     stdafx.obj
+ 0002:00001e4c       _CLSID_JStyleProxy         00408e4c     stdafx.obj
+ 0002:00001e5c       _CLSID_JTableStyle         00408e5c     stdafx.obj
+ 0002:00001e6c       _CLSID_JStyle3d            00408e6c     stdafx.obj
+ 0002:00001e7c       _CLSID_HStyle3ds           00408e7c     stdafx.obj
+ 0002:00001e8c       _CLSID_JStyle3dView        00408e8c     stdafx.obj
+ 0002:00001e9c       _CLSID_JStyleManager       00408e9c     stdafx.obj
+ 0002:00001eac       _CLSID_JDocStyleMgrCopySemantic 00408eac     stdafx.obj
+ 0002:00001ebc       _CLSID_JStyleRelations     00408ebc     stdafx.obj
+ 0002:00001ecc       _CLSID_JSymbol             00408ecc     stdafx.obj
+ 0002:00001edc       _CLSID_JSymbolInformation  00408edc     stdafx.obj
+ 0002:00001eec       _CLSID_JRigidBody          00408eec     stdafx.obj
+ 0002:00001efc       _CLSID_JSymbolPropProxy    00408efc     stdafx.obj
+ 0002:00001f0c       _CLSID_JOwnrshpLstnr4Smbl  00408f0c     stdafx.obj
+ 0002:00001f1c       _CLSID_JSymbolCompute      00408f1c     stdafx.obj
+ 0002:00001f2c       _CLSID_JTranslatorOptionsSheet 00408f2c     stdafx.obj
+ 0002:00001f3c       _CLSID_HLinearStyles       00408f3c     stdafx.obj
+ 0002:00001f4c       _CLSID_HLinearStyle        00408f4c     stdafx.obj
+ 0002:00001f5c       _CLSID_HDashStyles         00408f5c     stdafx.obj
+ 0002:00001f6c       _CLSID_HDashStyle          00408f6c     stdafx.obj
+ 0002:00001f7c       _CLSID_HFillStyles         00408f7c     stdafx.obj
+ 0002:00001f8c       _CLSID_HFillStyle          00408f8c     stdafx.obj
+ 0002:00001f9c       _CLSID_HHatchPatternStyles 00408f9c     stdafx.obj
+ 0002:00001fac       _CLSID_HHatchPatternStyle  00408fac     stdafx.obj
+ 0002:00001fbc       _CLSID_HSymbolPatternStyles 00408fbc     stdafx.obj
+ 0002:00001fcc       _CLSID_HSymbolPatternStyle 00408fcc     stdafx.obj
+ 0002:00001fdc       _CLSID_HTextStyles         00408fdc     stdafx.obj
+ 0002:00001fec       _CLSID_HTextStyle          00408fec     stdafx.obj
+ 0002:00001ffc       _CLSID_HTextCharStyles     00408ffc     stdafx.obj
+ 0002:0000200c       _CLSID_HTextCharStyle      0040900c     stdafx.obj
+ 0002:0000201c       _CLSID_JView               0040901c     stdafx.obj
+ 0002:0000202c       _CLSID_JRenderControl      0040902c     stdafx.obj
+ 0002:0000203c       _CLSID_JGraphicHelper      0040903c     stdafx.obj
+ 0002:0000204c       _CLSID_JVRDevice           0040904c     stdafx.obj
+ 0002:0000205c       _CLSID_JStyleLibrarian     0040905c     stdafx.obj
+ 0002:0000206c       _CLSID_JRenderer           0040906c     stdafx.obj
+ 0002:0000207c       _CLSID_JRemoteRenderer     0040907c     stdafx.obj
+ 0002:0000208c       _CLSID_SELWRemoteRenderer  0040908c     stdafx.obj
+ 0002:0000209c       _CLSID_SEGLRemoteRenderer  0040909c     stdafx.obj
+ 0002:000020ac       _CLSID_SEDXRemoteRenderer  004090ac     stdafx.obj
+ 0002:000020bc       _CLSID_SEVRRemoteRenderer  004090bc     stdafx.obj
+ 0002:000020cc       _CLSID_JRemoteRenderManager 004090cc     stdafx.obj
+ 0002:000020dc       _CLSID_JAnimationManager   004090dc     stdafx.obj
+ 0002:000020ec       _CLSID_JKeyframePath       004090ec     stdafx.obj
+ 0002:000020fc       _CLSID_JRC                 004090fc     stdafx.obj
+ 0002:0000210c       _CLSID_JCamera             0040910c     stdafx.obj
+ 0002:0000211c       _CLSID_CommonViews         0040911c     stdafx.obj
+ 0002:0000212c       _CLSID_LookAtFace          0040912c     stdafx.obj
+ 0002:0000213c       _CLSID_RotateView3d        0040913c     stdafx.obj
+ 0002:0000214c       _CLSID_SpinAbout           0040914c     stdafx.obj
+ 0002:0000215c       _CLSID_ZoomTool3d          0040915c     stdafx.obj
+ 0002:0000216c       _CLSID_PanTool3d           0040916c     stdafx.obj
+ 0002:0000217c       _CLSID_AreaZoomTool        0040917c     stdafx.obj
+ 0002:0000218c       _CLSID_FitView3d           0040918c     stdafx.obj
+ 0002:0000219c       _CLSID_JViewStyle          0040919c     stdafx.obj
+ 0002:000021ac       _CLSID_JNSBDefRoot         004091ac     stdafx.obj
+ 0002:000021bc       _CLSID_JSummaryPropSheetExt 004091bc     stdafx.obj
+ 0002:000021cc       _CLSID_JVBUserSensorCmd    004091cc     stdafx.obj
+ 0002:000021dc       _CATID_UserSensor          004091dc     stdafx.obj
+ 0002:000021ec       _FormatID_MechanicalModeling 004091ec     stdafx.obj
+ 0002:000021fc       _CLSID_JSEStatusPropSheetExt 004091fc     stdafx.obj
+ 0002:0000220c       _CLSID_JViewStyleOutlineButtonCmd 0040920c     stdafx.obj
+ 0002:0000221c       _CLSID_JViewStyleShadedButtonCmd 0040921c     stdafx.obj
+ 0002:0000222c       _CLSID_JViewStyleHiddenDimButtonCmd 0040922c     stdafx.obj
+ 0002:0000223c       _CLSID_JViewStyleHiddenNoneButtonCmd 0040923c     stdafx.obj
+ 0002:0000224c       _CLSID_JViewStyleShadedHLButtonCmd 0040924c     stdafx.obj
+ 0002:0000225c       _CLSID_JViewStyleDropShadowButtonCmd 0040925c     stdafx.obj
+ 0002:0000226c       _CLSID_CSEProp             0040926c     stdafx.obj
+ 0002:0000227c       _CLSID_InsightHelper       0040927c     stdafx.obj
+ 0002:0000228c       _CLSID_JDocumentUpdateManager 0040928c     stdafx.obj
+ 0002:0000229c       _CLSID_JDocumentComputeNodeManager 0040929c     stdafx.obj
+ 0002:000022ac       _CLSID_JInterPartNode      004092ac     stdafx.obj
+ 0002:000022bc       _CLSID_JInterPartNodes     004092bc     stdafx.obj
+ 0002:000022cc       _CLSID_JExtRefObject       004092cc     stdafx.obj
+ 0002:000022dc       _CLSID_JExtRefObjects      004092dc     stdafx.obj
+ 0002:000022ec       _CLSID_JVariablesCollectionManager 004092ec     stdafx.obj
+ 0002:000022fc       _CLSID_JAsmFitToPartCmd    004092fc     stdafx.obj
+ 0002:0000230c       _CLSID_JImageSite          0040930c     stdafx.obj
+ 0002:0000231c       _CLSID_HCurvatureComb      0040931c     stdafx.obj
+ 0002:0000232c       _CLSID_JMercury            0040932c     stdafx.obj
+ 0002:0000233c       _CLSID_JCellManager        0040933c     stdafx.obj
+ 0002:0000234c       _CLSID_JCell               0040934c     stdafx.obj
+ 0002:0000235c       _CLSID_JCellOccurrence     0040935c     stdafx.obj
+ 0002:0000236c       _CLSID_JSEContextMenuExt   0040936c     stdafx.obj
+ 0002:0000237c       _CLSID_JMaterialManager    0040937c     stdafx.obj
+ 0002:0000238c       _CLSID_JLocalSite          0040938c     stdafx.obj
+ 0002:0000239c       _CLSID_JLocalOccurrence    0040939c     stdafx.obj
+ 0002:000023ac       _CLSID_CTimelineDialog     004093ac     stdafx.obj
+ 0002:000023bc       _CLSID_CTMExplosionCategoryService 004093bc     stdafx.obj
+ 0002:000023cc       _CLSID_CTMMotorsCategoryService 004093cc     stdafx.obj
+ 0002:000023dc       _CLSID_JClipboardCopyData  004093dc     stdafx.obj
+ 0002:000023ec       _CLSID_TALSessionManager   004093ec     stdafx.obj
+ 0002:000023fc       _CLSID_TALLogging          004093fc     stdafx.obj
+ 0002:0000240c       _IID_IJRenderContext       0040940c     stdafx.obj
+ 0002:0000241c       _IID_IJRenderSetup         0040941c     stdafx.obj
+ 0002:0000242c       _IID_IJRenderMaster        0040942c     stdafx.obj
+ 0002:0000243c       _IID_IJRenderMgrServices   0040943c     stdafx.obj
+ 0002:0000244c       _IID_IJPaletteMsg          0040944c     stdafx.obj
+ 0002:0000245c       _IID_IJRenderInfo          0040945c     stdafx.obj
+ 0002:0000246c       _IID_IJRenderScene         0040946c     stdafx.obj
+ 0002:0000247c       _IID_IJRenderBuffer        0040947c     stdafx.obj
+ 0002:0000248c       _IID_IJRenderHook          0040948c     stdafx.obj
+ 0002:0000249c       _IID_IJRenderCache         0040949c     stdafx.obj
+ 0002:000024ac       _IID_IJRenderCacheEdit     004094ac     stdafx.obj
+ 0002:000024bc       _IID_IJRenderControl       004094bc     stdafx.obj
+ 0002:000024cc       _IID_IJRenderOLE4DM        004094cc     stdafx.obj
+ 0002:000024dc       _IID_IJRenderVideo         004094dc     stdafx.obj
+ 0002:000024ec       _IID_IJRenderer            004094ec     stdafx.obj
+ 0002:000024fc       _IID_IJLayerSettings       004094fc     stdafx.obj
+ 0002:0000250c       _IID_IJLocateInfoArray     0040950c     stdafx.obj
+ 0002:0000251c       _IID_IJLocateInfoAnalyze   0040951c     stdafx.obj
+ 0002:0000252c       _IID_IJGraphicView         0040952c     stdafx.obj
+ 0002:0000253c       _IID_IJGraphic             0040953c     stdafx.obj
+ 0002:0000254c       _IID_IJGeometry            0040954c     stdafx.obj
+ 0002:0000255c       _IID_IJGraphicInfo         0040955c     stdafx.obj
+ 0002:0000256c       _IID_IJDisplayListView     0040956c     stdafx.obj
+ 0002:0000257c       _GUID_DisplayFilterRelation 0040957c     stdafx.obj
+ 0002:0000258c       _IID_IJGraphicEx           0040958c     stdafx.obj
+ 0002:0000259c       _IID_IJModelRange          0040959c     stdafx.obj
+ 0002:000025ac       _IID_IJTransformOnly       004095ac     stdafx.obj
+ 0002:000025bc       _IID_IJLayerOverride       004095bc     stdafx.obj
+ 0002:000025cc       _IID_IJLocateBehavior      004095cc     stdafx.obj
+ 0002:000025dc       _IID_IJLayerBehavior       004095dc     stdafx.obj
+ 0002:000025ec       _IID_IJCellManager         004095ec     stdafx.obj
+ 0002:000025fc       _IID_IJCell                004095fc     stdafx.obj
+ 0002:0000260c       _IID_IJCellOccurrence      0040960c     stdafx.obj
+ 0002:0000261c       _GUID_CellRelation         0040961c     stdafx.obj
+ 0002:0000262c       _IID_IJCellGeometry        0040962c     stdafx.obj
+ 0002:0000263c       _IID_IJCellVRC             0040963c     stdafx.obj
+ 0002:0000264c       _IID_IJCellOccurrenceVRC   0040964c     stdafx.obj
+ 0002:0000265c       _IID_IAccessSEProps        0040965c     stdafx.obj
+ 0002:0000266c       _IID_ISEPropsUtls          0040966c     stdafx.obj
+ 0002:0000267c       _IID_ISEPropertyEditor     0040967c     stdafx.obj
+ 0002:0000268c       _IID_ISEPropMgrUtls        0040968c     stdafx.obj
+ 0002:000026a0       ??_7Thank_you@Define_the_symbol__ATL_MIXED@@6B@ 004096a0     stdafx.obj
+ 0002:000026a8       ??_7bad_alloc@std@@6B@     004096a8     stdafx.obj
+ 0002:000026b4       ??_7logic_error@std@@6B@   004096b4     stdafx.obj
+ 0002:000026c0       ??_7out_of_range@std@@6B@  004096c0     stdafx.obj
+ 0002:000026cc       ??_7?$CList@VMappingStruct@@AAV1@@@6B@ 004096cc     stdafx.obj
+ 0002:000026e0       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 004096e0     stdafx.obj
+ 0002:000026fc       ??_C@_07KJLOKDKB@TypeLib?$AA@ 004096fc     mfcs80:stdafx.obj
+ 0002:00002704       ??_C@_08KEKAJNJI@Software?$AA@ 00409704     mfcs80:stdafx.obj
+ 0002:00002710       ??_C@_06FDHFNJBJ@SYSTEM?$AA@ 00409710     mfcs80:stdafx.obj
+ 0002:00002718       ??_C@_08LOPHEHKG@SECURITY?$AA@ 00409718     mfcs80:stdafx.obj
+ 0002:00002724       ??_C@_03DDIMFGBA@SAM?$AA@  00409724     mfcs80:stdafx.obj
+ 0002:00002728       ??_C@_04IHBFOLAC@Mime?$AA@ 00409728     mfcs80:stdafx.obj
+ 0002:00002730       ??_C@_08PPIOJEA@Hardware?$AA@ 00409730     mfcs80:stdafx.obj
+ 0002:0000273c       ??_C@_09JKPGEJCH@Interface?$AA@ 0040973c     mfcs80:stdafx.obj
+ 0002:00002748       ??_C@_08PICKODJL@FileType?$AA@ 00409748     mfcs80:stdafx.obj
+ 0002:00002754       ??_C@_0BF@HDDNNDFH@Component?5Categories?$AA@ 00409754     mfcs80:stdafx.obj
+ 0002:0000276c       ??_C@_05GIBEAPNE@CLSID?$AA@ 0040976c     mfcs80:stdafx.obj
+ 0002:00002774       ??_C@_05PDIKPLII@AppID?$AA@ 00409774     mfcs80:stdafx.obj
+ 0002:0000277c       ??_C@_06JBKGCNBB@Delete?$AA@ 0040977c     mfcs80:stdafx.obj
+ 0002:00002784       ??_C@_08KAAPDIAN@NoRemove?$AA@ 00409784     mfcs80:stdafx.obj
+ 0002:00002790       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 00409790     mfcs80:stdafx.obj
+ 0002:0000279c       ??_C@_03LAIAPFCB@Val?$AA@  0040979c     mfcs80:stdafx.obj
+ 0002:000027a0       ??_C@_01HMGJMAIH@B?$AA@    004097a0     mfcs80:stdafx.obj
+ 0002:000027a4       ??_C@_01CKDDGHAB@D?$AA@    004097a4     mfcs80:stdafx.obj
+ 0002:000027a8       ??_C@_01PLPBNMEI@M?$AA@    004097a8     mfcs80:stdafx.obj
+ 0002:000027ac       ??_C@_01CPLAODJH@S?$AA@    004097ac     mfcs80:stdafx.obj
+ 0002:000027b0       _LIBID_ATLLib              004097b0     mfcs80:stdafx.obj
+ 0002:000027c0       _CLSID_Registrar           004097c0     mfcs80:stdafx.obj
+ 0002:000027d0       _IID_IRegistrar            004097d0     mfcs80:stdafx.obj
+ 0002:000027e0       _IID_IAxWinHostWindow      004097e0     mfcs80:stdafx.obj
+ 0002:000027f0       _IID_IAxWinAmbientDispatch 004097f0     mfcs80:stdafx.obj
+ 0002:00002800       _IID_IInternalConnection   00409800     mfcs80:stdafx.obj
+ 0002:00002810       _IID_IDocHostUIHandlerDispatch 00409810     mfcs80:stdafx.obj
+ 0002:00002820       _IID_IAxWinHostWindowLic   00409820     mfcs80:stdafx.obj
+ 0002:00002830       _IID_IAxWinAmbientDispatchEx 00409830     mfcs80:stdafx.obj
+ 0002:00002860       ?MAX_VALUE@CRegParser@ATL@@1HB 00409860     mfcs80:stdafx.obj
+ 0002:00002864       ?MAX_TYPE@CRegParser@ATL@@1HB 00409864     mfcs80:stdafx.obj
+ 0002:00002868       ?rgszNeverDelete@CRegParser@ATL@@1QBQBDB 00409868     mfcs80:stdafx.obj
+ 0002:00002898       ?cbNeverDelete@CRegParser@ATL@@1HB 00409898     mfcs80:stdafx.obj
+ 0002:000028a0       ??_7type_info@@6B@         004098a0     msvcrt:ti_inst.obj
+ 0002:000028b0       __load_config_used         004098b0     msvcrt:loadcfg.obj
+ 0002:00002930       ??_R4CLinkFixupMgrApp@@6B@ 00409930     LinFixupMgrApp.obj
+ 0002:00002944       ??_R3CLinkFixupMgrApp@@8   00409944     LinFixupMgrApp.obj
+ 0002:00002954       ??_R2CLinkFixupMgrApp@@8   00409954     LinFixupMgrApp.obj
+ 0002:0000296c       ??_R1A@?0A@EA@CLinkFixupMgrApp@@8 0040996c     LinFixupMgrApp.obj
+ 0002:00002988       ??_R1A@?0A@EA@CWinApp@@8   00409988     LinFixupMgrApp.obj
+ 0002:000029a4       ??_R3CWinApp@@8            004099a4     LinFixupMgrApp.obj
+ 0002:000029b4       ??_R2CWinApp@@8            004099b4     LinFixupMgrApp.obj
+ 0002:000029c8       ??_R1A@?0A@EA@CWinThread@@8 004099c8     LinFixupMgrApp.obj
+ 0002:000029e4       ??_R3CWinThread@@8         004099e4     LinFixupMgrApp.obj
+ 0002:000029f4       ??_R2CWinThread@@8         004099f4     LinFixupMgrApp.obj
+ 0002:00002a04       ??_R1A@?0A@EA@CCmdTarget@@8 00409a04     LinFixupMgrApp.obj
+ 0002:00002a20       ??_R3CCmdTarget@@8         00409a20     LinFixupMgrApp.obj
+ 0002:00002a30       ??_R2CCmdTarget@@8         00409a30     LinFixupMgrApp.obj
+ 0002:00002a3c       ??_R1A@?0A@EA@CObject@@8   00409a3c     LinFixupMgrApp.obj
+ 0002:00002a58       ??_R3CObject@@8            00409a58     LinFixupMgrApp.obj
+ 0002:00002a68       ??_R2CObject@@8            00409a68     LinFixupMgrApp.obj
+ 0002:00002a70       ??_R4Thank_you@Define_the_symbol__ATL_MIXED@@6B@ 00409a70     stdafx.obj
+ 0002:00002a84       ??_R3Thank_you@Define_the_symbol__ATL_MIXED@@8 00409a84     stdafx.obj
+ 0002:00002a94       ??_R2Thank_you@Define_the_symbol__ATL_MIXED@@8 00409a94     stdafx.obj
+ 0002:00002a9c       ??_R1A@?0A@EA@Thank_you@Define_the_symbol__ATL_MIXED@@8 00409a9c     stdafx.obj
+ 0002:00002ab8       ??_R4bad_alloc@std@@6B@    00409ab8     stdafx.obj
+ 0002:00002acc       ??_R3bad_alloc@std@@8      00409acc     stdafx.obj
+ 0002:00002adc       ??_R2bad_alloc@std@@8      00409adc     stdafx.obj
+ 0002:00002ae8       ??_R1A@?0A@EA@bad_alloc@std@@8 00409ae8     stdafx.obj
+ 0002:00002b04       ??_R1A@?0A@EA@exception@std@@8 00409b04     stdafx.obj
+ 0002:00002b20       ??_R3exception@std@@8      00409b20     stdafx.obj
+ 0002:00002b30       ??_R2exception@std@@8      00409b30     stdafx.obj
+ 0002:00002b38       ??_R4logic_error@std@@6B@  00409b38     stdafx.obj
+ 0002:00002b4c       ??_R3logic_error@std@@8    00409b4c     stdafx.obj
+ 0002:00002b5c       ??_R2logic_error@std@@8    00409b5c     stdafx.obj
+ 0002:00002b68       ??_R1A@?0A@EA@logic_error@std@@8 00409b68     stdafx.obj
+ 0002:00002b84       ??_R4out_of_range@std@@6B@ 00409b84     stdafx.obj
+ 0002:00002b98       ??_R3out_of_range@std@@8   00409b98     stdafx.obj
+ 0002:00002ba8       ??_R2out_of_range@std@@8   00409ba8     stdafx.obj
+ 0002:00002bb8       ??_R1A@?0A@EA@out_of_range@std@@8 00409bb8     stdafx.obj
+ 0002:00002bd4       ??_R4?$CList@VMappingStruct@@AAV1@@@6B@ 00409bd4     stdafx.obj
+ 0002:00002be8       ??_R3?$CList@VMappingStruct@@AAV1@@@8 00409be8     stdafx.obj
+ 0002:00002bf8       ??_R2?$CList@VMappingStruct@@AAV1@@@8 00409bf8     stdafx.obj
+ 0002:00002c04       ??_R1A@?0A@EA@?$CList@VMappingStruct@@AAV1@@@8 00409c04     stdafx.obj
+ 0002:00002c20       ??_R4type_info@@6B@        00409c20     msvcrt:ti_inst.obj
+ 0002:00002c34       ??_R3type_info@@8          00409c34     msvcrt:ti_inst.obj
+ 0002:00002c44       ??_R2type_info@@8          00409c44     msvcrt:ti_inst.obj
+ 0002:00002c4c       ??_R1A@?0A@EA@type_info@@8 00409c4c     msvcrt:ti_inst.obj
+ 0002:00002c70       ___safe_se_handler_table   00409c70     <linker-defined>
+ 0002:00002d4c       ___rtc_iaa                 00409d4c     msvcrt:initsect.obj
+ 0002:00002d50       ___rtc_izz                 00409d50     msvcrt:initsect.obj
+ 0002:00002d54       ___rtc_taa                 00409d54     msvcrt:initsect.obj
+ 0002:00002d58       ___rtc_tzz                 00409d58     msvcrt:initsect.obj
+ 0002:000031c8       __TI2?AVbad_alloc@std@@    0040a1c8     stdafx.obj
+ 0002:000031d8       __CTA2?AVbad_alloc@std@@   0040a1d8     stdafx.obj
+ 0002:000031e4       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 0040a1e4     stdafx.obj
+ 0002:00003200       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0040a200     stdafx.obj
+ 0002:000035e0       __TI3?AVout_of_range@std@@ 0040a5e0     stdafx.obj
+ 0002:00003644       __CTA3?AVout_of_range@std@@ 0040a644     stdafx.obj
+ 0002:00003654       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 0040a654     stdafx.obj
+ 0002:00003670       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 0040a670     stdafx.obj
+ 0002:000039c4       ___pobjMapEntryFirst       0040a9c4     mfcs80:stdafx.obj
+ 0002:000039c8       ___pobjMapEntryLast        0040a9c8     mfcs80:stdafx.obj
+ 0002:000039cc       __IMPORT_DESCRIPTOR_JUtil  0040a9cc     jutil:JUtil.dll
+ 0002:000039e0       __IMPORT_DESCRIPTOR_RFMSsvs 0040a9e0     rfmssvs:RFMSsvs.dll
+ 0002:000039f4       __IMPORT_DESCRIPTOR_MFC80  0040a9f4     mfc80:MFC80.DLL
+ 0002:00003a08       __IMPORT_DESCRIPTOR_MSVCR80 0040aa08     msvcrt:MSVCR80.dll
+ 0002:00003a1c       __IMPORT_DESCRIPTOR_KERNEL32 0040aa1c     kernel32:KERNEL32.dll
+ 0002:00003a30       __IMPORT_DESCRIPTOR_USER32 0040aa30     user32:USER32.dll
+ 0002:00003a44       __IMPORT_DESCRIPTOR_ole32  0040aa44     ole32:ole32.dll
+ 0002:00003a58       __IMPORT_DESCRIPTOR_OLEAUT32 0040aa58     oleaut32:OLEAUT32.dll
+ 0002:00003a6c       __IMPORT_DESCRIPTOR_MSVCP80 0040aa6c     msvcprt:MSVCP80.dll
+ 0002:00003a80       __NULL_IMPORT_DESCRIPTOR   0040aa80     jutil:JUtil.dll
+ 0003:00000000       __newmode                  0040c000     newmode.obj
+ 0003:00000004       ??_R0?AVCLinkFixupMgrApp@@@8 0040c004     LinFixupMgrApp.obj
+ 0003:00000024       ??_R0?AVCWinApp@@@8        0040c024     LinFixupMgrApp.obj
+ 0003:0000003c       ??_R0?AVCWinThread@@@8     0040c03c     LinFixupMgrApp.obj
+ 0003:00000058       ??_R0?AVCCmdTarget@@@8     0040c058     LinFixupMgrApp.obj
+ 0003:00000074       ??_R0?AVCObject@@@8        0040c074     LinFixupMgrApp.obj
+ 0003:0000008c       ?_strthunks@ATL@@3U_AtlStringThunks@1@A 0040c08c     stdafx.obj
+ 0003:000000a4       __pIncludeInitManaged      0040c0a4     stdafx.obj
+ 0003:00000ad0       ??_R0?AUThank_you@Define_the_symbol__ATL_MIXED@@@8 0040cad0     stdafx.obj
+ 0003:00000b08       ??_R0?AVbad_alloc@std@@@8  0040cb08     stdafx.obj
+ 0003:00000b24       ??_R0?AVexception@std@@@8  0040cb24     stdafx.obj
+ 0003:00000b40       ??_R0?AVlogic_error@std@@@8 0040cb40     stdafx.obj
+ 0003:00000b60       ??_R0?AVout_of_range@std@@@8 0040cb60     stdafx.obj
+ 0003:00000b80       ??_R0?AV?$CList@VMappingStruct@@AAV1@@@@8 0040cb80     stdafx.obj
+ 0003:00000bac       ?clash@Define_the_symbol__ATL_MIXED@@3UThank_you@1@A 0040cbac     stdafx.obj
+ 0003:00000bb0       ___security_cookie         0040cbb0     msvcrt:gs_cookie.obj
+ 0003:00000bb4       ___security_cookie_complement 0040cbb4     msvcrt:gs_cookie.obj
+ 0003:00000bb8       ??_R0?AVtype_info@@@8      0040cbb8     msvcrt:ti_inst.obj
+ 0003:00000bd0       ___native_dllmain_reason   0040cbd0     msvcrt:natstart.obj
+ 0003:00000bd4       ___native_vcclrit_reason   0040cbd4     msvcrt:natstart.obj
+ 0003:00000bd8       ___globallocalestatus      0040cbd8     msvcrt:xthdloc.obj
+ 0003:00000bdc       ___defaultmatherr          0040cbdc     msvcrt:merr.obj
+ 0003:00000be0       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 0040cbe0     atls:atltrace.obj
+ 0003:00000be4       ?rcDefault@CWindow@ATL@@2UtagRECT@@A 0040cbe4     atls:atltrace.obj
+ 0003:00000bf8       ?theApp@@3VCLinkFixupMgrApp@@A 0040cbf8     LinFixupMgrApp.obj
+ 0003:00000ca0       ___@@_PchSym_@00@UfgrohUhixUqiunhUvcvxfgzyovhUormpurcfkntiUwveUdrmDCUivovzhvUhgwzucOlyq@ 0040cca0     stdafx.obj
+ 0003:00005eb8       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 00411eb8     stdafx.obj
+ 0003:00005ebc       ?s_pLog@CFixedStringMgr@ATL@@2PAVIFixedStringLog@2@A 00411ebc     stdafx.obj
+ 0003:00005ec0       ?s_bWin9x@?1??_AtlInstallStringThunk@ATL@@YAXPAPAXPAX1@Z@4_NA 00411ec0     stdafx.obj
+ 0003:00005ec4       ??_B?1??_AtlInstallStringThunk@ATL@@YAXPAPAXPAX1@Z@51 00411ec4     stdafx.obj
+ 0003:00005ec8       ?clash@Inconsistent_definition_of_symbol__ATL_MIXED@@3U_Please_define_it_the_same_throughout_your_project@1@A 00411ec8     stdafx.obj
+ 0003:00005ecc       __afxForceEXCLUDE          00411ecc     mfcs80:nolib.obj
+ 0003:00005ed0       ?_pAtlAutoThreadModule@ATL@@3PAUIAtlAutoThreadModule@1@A 00411ed0     mfcs80:stdafx.obj
+ 0003:00005ed4       __afxForceSTDAFX           00411ed4     mfcs80:stdafx.obj
+ 0003:00005ed8       ?_pPerfRegFunc@ATL@@3P6AJPAUHINSTANCE__@@@ZA 00411ed8     mfcs80:stdafx.obj
+ 0003:00005edc       ?_pPerfUnRegFunc@ATL@@3P6AJXZA 00411edc     mfcs80:stdafx.obj
+ 0003:00005ee0       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 00411ee0     mfcs80:stdafx.obj
+ 0003:00005ee4       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 00411ee4     mfcs80:stdafx.obj
+ 0003:00005ef4       ?_pModule@ATL@@3PAVCComModule@1@A 00411ef4     mfcs80:stdafx.obj
+ 0003:00005ef8       ?ATL_CREATE_OBJECT@CComApartment@ATL@@2IA 00411ef8     mfcs80:stdafx.obj
+ 0003:00005efc       ?WM_DESTROYMODELESS@CDHtmlDialog@@1IA 00411efc     mfcs80:stdafx.obj
+ 0003:00006244       __dowildcard               00412244     msvcrt:wildcard.obj
+ 0003:00006248       __commode                  00412248     msvcrt:xncommod.obj
+ 0003:0000624c       __fmode                    0041224c     msvcrt:xtxtmode.obj
+ 0003:00006250       ?_afxInitAppState@@3DA     00412250     mfcs80:appmodul.obj
+ 0003:00006254       __adjust_fdiv              00412254     <common>
+ 0003:00006258       ___native_startup_state    00412258     <common>
+ 0003:0000625c       ___native_startup_lock     0041225c     <common>
+ 0003:00006260       ___dyn_tls_init_callback   00412260     <common>
+ 0003:00006264       ___onexitend               00412264     <common>
+ 0003:00006268       ___onexitbegin             00412268     <common>
+
+ entry point at        0001:0000423b
+
+ Static symbols
+
+ 0001:fffff000       __unwindfunclet$?CharLowerWFake@ATL@@YGPA_WPA_W@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff000       __unwindfunclet$?CompareStringWFake@ATL@@YGHKKPB_WH0H@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff000       __unwindfunclet$?GetStringTypeExWFake@ATL@@YGHKKPB_WHPAG@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff000       __unwindfunclet$?lstrcmpiWFake@ATL@@YGHPB_W0@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff000       __unwindfunclet$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff000       __unwindfunclet$?CharUpperWFake@ATL@@YGPA_WPA_W@Z$0 00400000 f   mfcs80:stdafx.obj
+ 0001:fffff008       __ehhandler$?CompareStringWFake@ATL@@YGHKKPB_WH0H@Z 00400008 f   mfcs80:stdafx.obj
+ 0001:fffff008       __ehhandler$?lstrcmpiWFake@ATL@@YGHPB_W0@Z 00400008 f   mfcs80:stdafx.obj
+ 0001:fffff008       __ehhandler$?CharLowerWFake@ATL@@YGPA_WPA_W@Z 00400008 f   mfcs80:stdafx.obj
+ 0001:fffff008       __ehhandler$?CharUpperWFake@ATL@@YGPA_WPA_W@Z 00400008 f   mfcs80:stdafx.obj
+ 0001:fffff00b       __ehhandler$?GetStringTypeExWFake@ATL@@YGHKKPB_WHPAG@Z 0040000b f   mfcs80:stdafx.obj
+ 0001:fffff00b       __unwindfunclet$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z$1 0040000b f   mfcs80:stdafx.obj
+ 0001:fffff013       __ehhandler$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z 00400013 f   mfcs80:stdafx.obj
+ 0001:00002632       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ$0 00403632 f i stdafx.obj
+ 0001:00002718       __catch$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z$0 00403718 f i stdafx.obj
+ 0001:000032a4       __catch$?_Copy@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@0@Z$0 004042a4 f i stdafx.obj
+ 0001:00003543       __catch$??0?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@ABV01@@Z$0 00404543 f i stdafx.obj
+ 0001:00003d94       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 00404d94 f   msvcrt:ehvecdtr.obj
+ 0001:00003ed3       _pre_cpp_init              00404ed3 f   msvcrt:crtexew.obj
+ 0001:00003f1e       ___tmainCRTStartup         00404f1e f   msvcrt:crtexew.obj
+ 0001:000040fd       _check_managed_app         004050fd f   msvcrt:crtexew.obj
+ 0001:00004159       _pre_c_init                00405159 f   msvcrt:crtexew.obj
+ 0001:00004a10       __unwindfunclet$??0CLinkFixupMgrApp@@QAE@XZ$0 00405a10 f   LinFixupMgrApp.obj
+ 0001:00004a18       __ehhandler$??0CLinkFixupMgrApp@@QAE@XZ 00405a18 f   LinFixupMgrApp.obj
+ 0001:00004a40       __unwindfunclet$??1CLinkFixupMgrApp@@UAE@XZ$0 00405a40 f   LinFixupMgrApp.obj
+ 0001:00004a48       __ehhandler$??1CLinkFixupMgrApp@@UAE@XZ 00405a48 f   LinFixupMgrApp.obj
+ 0001:00004a70       __unwindfunclet$?InitInstance@CLinkFixupMgrApp@@UAEHXZ$0 00405a70 f   LinFixupMgrApp.obj
+ 0001:00004a79       __ehhandler$?InitInstance@CLinkFixupMgrApp@@UAEHXZ 00405a79 f   LinFixupMgrApp.obj
+ 0001:00004aa0       __unwindfunclet$??_GCLinkFixupMgrApp@@UAEPAXI@Z$0 00405aa0 f   LinFixupMgrApp.obj
+ 0001:00004aa8       __ehhandler$??_GCLinkFixupMgrApp@@UAEPAXI@Z 00405aa8 f   LinFixupMgrApp.obj
+ 0001:00004ad0       __unwindfunclet$??__FtheApp@@YAXXZ$0 00405ad0 f   LinFixupMgrApp.obj
+ 0001:00004ada       __ehhandler$??__FtheApp@@YAXXZ 00405ada f   LinFixupMgrApp.obj
+ 0001:00004b00       __unwindfunclet$?_AtlInstallStringThunk@ATL@@YAXPAPAXPAX1@Z$0 00405b00 f   stdafx.obj
+ 0001:00004b0e       __ehhandler$?_AtlInstallStringThunk@ATL@@YAXPAPAXPAX1@Z 00405b0e f   stdafx.obj
+ 0001:00004b30       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 00405b30 f   stdafx.obj
+ 0001:00004b39       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 00405b39 f   stdafx.obj
+ 0001:00004b60       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 00405b60 f   stdafx.obj
+ 0001:00004b69       __ehhandler$??1bad_alloc@std@@UAE@XZ 00405b69 f   stdafx.obj
+ 0001:00004b90       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 00405b90 f   stdafx.obj
+ 0001:00004b99       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 00405b99 f   stdafx.obj
+ 0001:00004bc0       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 00405bc0 f   stdafx.obj
+ 0001:00004bc9       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 00405bc9 f   stdafx.obj
+ 0001:00004bd5       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00405bd5 f   stdafx.obj
+ 0001:00004bf0       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 00405bf0 f   stdafx.obj
+ 0001:00004bf9       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 00405bf9 f   stdafx.obj
+ 0001:00004c05       __ehhandler$??1logic_error@std@@UAE@XZ 00405c05 f   stdafx.obj
+ 0001:00004c20       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 00405c20 f   stdafx.obj
+ 0001:00004c28       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00405c28 f   stdafx.obj
+ 0001:00004c50       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 00405c50 f   stdafx.obj
+ 0001:00004c58       __ehhandler$??1out_of_range@std@@UAE@XZ 00405c58 f   stdafx.obj
+ 0001:00004c80       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 00405c80 f   stdafx.obj
+ 0001:00004c88       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 00405c88 f   stdafx.obj
+ 0001:00004cb0       __unwindfunclet$??1MappingStruct@@QAE@XZ$0 00405cb0 f   stdafx.obj
+ 0001:00004cb9       __unwindfunclet$??1MappingStruct@@QAE@XZ$1 00405cb9 f   stdafx.obj
+ 0001:00004cc5       __ehhandler$??1MappingStruct@@QAE@XZ 00405cc5 f   stdafx.obj
+ 0001:00004ce0       __unwindfunclet$??0SPPropInfoWithName@@QAE@XZ$0 00405ce0 f   stdafx.obj
+ 0001:00004ce9       __unwindfunclet$??0SPPropInfoWithName@@QAE@XZ$1 00405ce9 f   stdafx.obj
+ 0001:00004cf5       __ehhandler$??0SPPropInfoWithName@@QAE@XZ 00405cf5 f   stdafx.obj
+ 0001:00004d10       __unwindfunclet$??1SPPropInfoWithName@@QAE@XZ$0 00405d10 f   stdafx.obj
+ 0001:00004d19       __unwindfunclet$??1SPPropInfoWithName@@QAE@XZ$1 00405d19 f   stdafx.obj
+ 0001:00004d25       __ehhandler$??1SPPropInfoWithName@@QAE@XZ 00405d25 f   stdafx.obj
+ 0001:00004d40       __unwindfunclet$??0SPPropInfoWithName@@QAE@ABU0@@Z$0 00405d40 f   stdafx.obj
+ 0001:00004d49       __unwindfunclet$??0SPPropInfoWithName@@QAE@ABU0@@Z$1 00405d49 f   stdafx.obj
+ 0001:00004d55       __ehhandler$??0SPPropInfoWithName@@QAE@ABU0@@Z 00405d55 f   stdafx.obj
+ 0001:00004d70       __unwindfunclet$??0tagRFMSCookie@@QAE@XZ$0 00405d70 f   stdafx.obj
+ 0001:00004d7f       __ehhandler$??0tagRFMSCookie@@QAE@XZ 00405d7f f   stdafx.obj
+ 0001:00004da0       __unwindfunclet$??1tagRFMSCookie@@QAE@XZ$0 00405da0 f   stdafx.obj
+ 0001:00004daf       __ehhandler$??1tagRFMSCookie@@QAE@XZ 00405daf f   stdafx.obj
+ 0001:00004dd0       __unwindfunclet$??0tagRFMSCookie@@QAE@ABV0@@Z$0 00405dd0 f   stdafx.obj
+ 0001:00004ddf       __ehhandler$??0tagRFMSCookie@@QAE@ABV0@@Z 00405ddf f   stdafx.obj
+ 0001:00004e00       __unwindfunclet$??0?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@ABU01@@Z$0 00405e00 f   stdafx.obj
+ 0001:00004e09       __unwindfunclet$??0?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@ABU01@@Z$1 00405e09 f   stdafx.obj
+ 0001:00004e14       __ehhandler$??0?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@ABU01@@Z 00405e14 f   stdafx.obj
+ 0001:00004e30       __unwindfunclet$??1?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@XZ$0 00405e30 f   stdafx.obj
+ 0001:00004e39       __unwindfunclet$??1?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@XZ$1 00405e39 f   stdafx.obj
+ 0001:00004e44       __ehhandler$??1?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@QAE@XZ 00405e44 f   stdafx.obj
+ 0001:00004e60       __unwindfunclet$??0MappingStruct@@QAE@XZ$0 00405e60 f   stdafx.obj
+ 0001:00004e69       __unwindfunclet$??0MappingStruct@@QAE@XZ$1 00405e69 f   stdafx.obj
+ 0001:00004e75       __ehhandler$??0MappingStruct@@QAE@XZ 00405e75 f   stdafx.obj
+ 0001:00004e90       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 00405e90 f   stdafx.obj
+ 0001:00004e99       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 00405e99 f   stdafx.obj
+ 0001:00004ec0       __unwindfunclet$??1_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@XZ$0 00405ec0 f   stdafx.obj
+ 0001:00004ecb       __ehhandler$??1_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@XZ 00405ecb f   stdafx.obj
+ 0001:00004ef0       __unwindfunclet$?NewNode@?$CList@VMappingStruct@@AAV1@@@IAEPAUCNode@1@PAU21@0@Z$0 00405ef0 f   stdafx.obj
+ 0001:00004f04       __ehhandler$?NewNode@?$CList@VMappingStruct@@AAV1@@@IAEPAUCNode@1@PAU21@0@Z 00405f04 f   stdafx.obj
+ 0001:00004f20       __unwindfunclet$??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z$0 00405f20 f   stdafx.obj
+ 0001:00004f2b       __ehhandler$??0_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z 00405f2b f   stdafx.obj
+ 0001:00004f50       __unwindfunclet$??_G_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEPAXI@Z$0 00405f50 f   stdafx.obj
+ 0001:00004f5b       __ehhandler$??_G_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAEPAXI@Z 00405f5b f   stdafx.obj
+ 0001:00004f80       __unwindfunclet$?RemoveAll@?$CList@VMappingStruct@@AAV1@@@QAEXXZ$0 00405f80 f   stdafx.obj
+ 0001:00004f89       __unwindfunclet$?RemoveAll@?$CList@VMappingStruct@@AAV1@@@QAEXXZ$1 00405f89 f   stdafx.obj
+ 0001:00004f95       __ehhandler$?RemoveAll@?$CList@VMappingStruct@@AAV1@@@QAEXXZ 00405f95 f   stdafx.obj
+ 0001:00004fb0       __unwindfunclet$?CompareStringWFake@ATL@@YGHKKPB_WH0H@Z$0 00405fb0 f   stdafx.obj
+ 0001:00004fb8       __ehhandler$?CompareStringWFake@ATL@@YGHKKPB_WH0H@Z 00405fb8 f   stdafx.obj
+ 0001:00004fe0       __unwindfunclet$?lstrcmpiWFake@ATL@@YGHPB_W0@Z$0 00405fe0 f   stdafx.obj
+ 0001:00004fe8       __ehhandler$?lstrcmpiWFake@ATL@@YGHPB_W0@Z 00405fe8 f   stdafx.obj
+ 0001:00005010       __unwindfunclet$?CharLowerWFake@ATL@@YGPA_WPA_W@Z$0 00406010 f   stdafx.obj
+ 0001:00005018       __ehhandler$?CharLowerWFake@ATL@@YGPA_WPA_W@Z 00406018 f   stdafx.obj
+ 0001:00005040       __unwindfunclet$?CharUpperWFake@ATL@@YGPA_WPA_W@Z$0 00406040 f   stdafx.obj
+ 0001:00005048       __ehhandler$?CharUpperWFake@ATL@@YGPA_WPA_W@Z 00406048 f   stdafx.obj
+ 0001:00005070       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@XZ 00406070 f   stdafx.obj
+ 0001:00005090       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z$2 00406090 f   stdafx.obj
+ 0001:000050a1       __ehhandler$?_Buynode@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBVGUserText@@USPPropInfoWithName@@@2@D@Z 004060a1 f   stdafx.obj
+ 0001:000050c0       __unwindfunclet$?Serialize@?$CList@VMappingStruct@@AAV1@@@UAEXAAVCArchive@@@Z$0 004060c0 f   stdafx.obj
+ 0001:000050d3       __ehhandler$?Serialize@?$CList@VMappingStruct@@AAV1@@@UAEXAAVCArchive@@@Z 004060d3 f   stdafx.obj
+ 0001:000050f0       __unwindfunclet$??$_Destroy@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@YAXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@@Z$0 004060f0 f   stdafx.obj
+ 0001:000050fb       __ehhandler$??$_Destroy@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@YAXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@0@@Z 004060fb f   stdafx.obj
+ 0001:00005120       __unwindfunclet$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z$0 00406120 f   stdafx.obj
+ 0001:0000512b       __unwindfunclet$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z$1 0040612b f   stdafx.obj
+ 0001:00005136       __ehhandler$?GetEnvironmentVariableWFake@ATL@@YGKPB_WPA_WK@Z 00406136 f   stdafx.obj
+ 0001:00005170       __unwindfunclet$?GetStringTypeExWFake@ATL@@YGHKKPB_WHPAG@Z$0 00406170 f   stdafx.obj
+ 0001:0000517b       __ehhandler$?GetStringTypeExWFake@ATL@@YGHKKPB_WHPAG@Z 0040617b f   stdafx.obj
+ 0001:000051b0       __unwindfunclet$?destroy@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$0 004061b0 f   stdafx.obj
+ 0001:000051bb       __ehhandler$?destroy@?$allocator@U_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@@std@@QAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 004061bb f   stdafx.obj
+ 0001:000051e0       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$0 004061e0 f   stdafx.obj
+ 0001:000051eb       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$1 004061eb f   stdafx.obj
+ 0001:000051f4       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$2 004061f4 f   stdafx.obj
+ 0001:000051ff       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$3 004061ff f   stdafx.obj
+ 0001:00005208       __unwindfunclet$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z$4 00406208 f   stdafx.obj
+ 0001:00005214       __ehhandler$?_Erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@@Z 00406214 f   stdafx.obj
+ 0001:00005230       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 00406230 f   stdafx.obj
+ 0001:00005239       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$1 00406239 f   stdafx.obj
+ 0001:00005244       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$2 00406244 f   stdafx.obj
+ 0001:0000524d       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$3 0040624d f   stdafx.obj
+ 0001:00005258       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$4 00406258 f   stdafx.obj
+ 0001:00005261       __unwindfunclet$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$5 00406261 f   stdafx.obj
+ 0001:0000526d       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 0040626d f   stdafx.obj
+ 0001:00005290       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 00406290 f   stdafx.obj
+ 0001:00005299       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 00406299 f   stdafx.obj
+ 0001:000052a5       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 004062a5 f   stdafx.obj
+ 0001:000052c0       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 004062c0 f   stdafx.obj
+ 0001:000052c8       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 004062c8 f   stdafx.obj
+ 0001:000052f0       __ehhandler$?_Copy@?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@2@PAU342@0@Z 004062f0 f   stdafx.obj
+ 0001:00005310       __ehhandler$??0?$_Tree@V?$_Tmap_traits@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@$0A@@std@@@std@@QAE@ABV01@@Z 00406310 f   stdafx.obj
+ 0001:00005330       __unwindfunclet$??1?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ$0 00406330 f   stdafx.obj
+ 0001:00005338       __ehhandler$??1?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ 00406338 f   stdafx.obj
+ 0001:00005360       __unwindfunclet$??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@ABV01@@Z$0 00406360 f   stdafx.obj
+ 0001:00005368       __ehhandler$??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@ABV01@@Z 00406368 f   stdafx.obj
+ 0001:00005390       __unwindfunclet$??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ$0 00406390 f   stdafx.obj
+ 0001:00005398       __ehhandler$??0?$map@VGUserText@@USPPropInfoWithName@@VGUserTextCaseInsensitiveLess@@V?$allocator@U?$pair@$$CBVGUserText@@USPPropInfoWithName@@@std@@@std@@@std@@QAE@XZ 00406398 f   stdafx.obj
+ 0001:000053c0       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@XZ$0 004063c0 f   stdafx.obj
+ 0001:000053c9       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@XZ$1 004063c9 f   stdafx.obj
+ 0001:000053d5       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@XZ$2 004063d5 f   stdafx.obj
+ 0001:000053e0       __ehhandler$??0SPDocLibPropInfoWithUrl@@QAE@XZ 004063e0 f   stdafx.obj
+ 0001:00005400       __unwindfunclet$??1SPDocLibPropInfoWithUrl@@QAE@XZ$0 00406400 f   stdafx.obj
+ 0001:00005409       __unwindfunclet$??1SPDocLibPropInfoWithUrl@@QAE@XZ$1 00406409 f   stdafx.obj
+ 0001:00005415       __unwindfunclet$??1SPDocLibPropInfoWithUrl@@QAE@XZ$2 00406415 f   stdafx.obj
+ 0001:00005420       __ehhandler$??1SPDocLibPropInfoWithUrl@@QAE@XZ 00406420 f   stdafx.obj
+ 0001:00005440       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@ABU0@@Z$0 00406440 f   stdafx.obj
+ 0001:00005449       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@ABU0@@Z$1 00406449 f   stdafx.obj
+ 0001:00005455       __unwindfunclet$??0SPDocLibPropInfoWithUrl@@QAE@ABU0@@Z$2 00406455 f   stdafx.obj
+ 0001:00005460       __ehhandler$??0SPDocLibPropInfoWithUrl@@QAE@ABU0@@Z 00406460 f   stdafx.obj
+ 0001:00005480       __unwindfunclet$??__FNULL_RFMSCOOKIE@@YAXXZ$0 00406480 f   stdafx.obj
+ 0001:0000548b       __ehhandler$??__FNULL_RFMSCOOKIE@@YAXXZ 0040648b f   stdafx.obj
+ 0001:000054b0       ??__EtheApp@@YAXXZ         004064b0 f   LinFixupMgrApp.obj
+ 0001:000054d0       ??__EgutDefault@@YAXXZ     004064d0 f   stdafx.obj
+ 0001:000054f0       ??__EGNULL_Camera@@YAXXZ   004064f0 f   stdafx.obj
+ 0001:00005510       ??__EGNULL_CAMERA@@YAXXZ   00406510 f   stdafx.obj
+ 0001:00005530       ??__EGID_Camera@@YAXXZ     00406530 f   stdafx.obj
+ 0001:00005550       ??__EGID_CAMERA@@YAXXZ     00406550 f   stdafx.obj
+ 0001:00005570       ??__ETempRefObjCachedLocationList@@YAXXZ 00406570 f   stdafx.obj
+ 0001:00005590       ??__ENULL_RFMSCOOKIE@@YAXXZ 00406590 f   stdafx.obj
+ 0001:000055a6       ??__E_afxInitAppState@@YAXXZ 004065a6 f   mfcs80:appmodul.obj
+ 0001:000055c0       ??__FtheApp@@YAXXZ         004065c0 f   LinFixupMgrApp.obj
+ 0001:00005610       ??__FgutDefault@@YAXXZ     00406610 f   stdafx.obj
+ 0001:00005620       ??__FNULL_RFMSCOOKIE@@YAXXZ 00406620 f   stdafx.obj
+ 0001:00005670       ??__FTempRefObjCachedLocationList@@YAXXZ 00406670 f   stdafx.obj

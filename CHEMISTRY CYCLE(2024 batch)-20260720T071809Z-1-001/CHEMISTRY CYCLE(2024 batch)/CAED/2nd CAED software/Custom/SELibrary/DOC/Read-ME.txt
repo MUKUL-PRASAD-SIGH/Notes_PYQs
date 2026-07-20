@@ -1,0 +1,84 @@
+__________________________________
+Requirements
+
+Solid Edge Version 9 or greater
+20 MB free disc space
+
+__________________________________
+General Usage
+
+While in a Solid Edge assembly click the Solid Edge Standard Parts Library button found on the Se-Library toolbar. 
+If this toolbar is not visible, activate it by selecting View | Toolbars | Toolbars and checking the entry. 
+Once the library is active, choose the desired component and size from the dialog. 
+Different parts are listed on each tab, where variations are listed in the list box. 
+The table lists different sizes shown in each row of the table. 
+Each part includes a drawing indicating the dimensional values. 
+A quick preview of the part is also available. 
+Toggle between the drawing and the part by clicking the "Part" (or "Drawing" button).
+
+Once a component is selected, it can be added to the assembly by either double-clicking the size or clicking the Add button. 
+If the selected part is not found, the library manager will create the part using a base part as a template, and modify the part dimensions per the selected size. 
+Once created the part will be appropriately named and stored in the installation path specified above. 
+Note: The name is a combination of the part type (listed on the tab) and the contents of the first column.
+
+The base parts included in this library are based on dimensional values extracted from MSS SP-104, 1995. 
+The following symbols are used to designate the type of fitting end:
+
+C - Solder joint fittings end made to receive copper tube diameter (female)
+FTG - Solder joint fit end made to copper tube diameter (male)
+F - Internal ANSI Standard Taper Pipe Thread (female) NPT1
+M - External ANSI Standard Taper Pipe Thread (male) NPTE
+
+Once a component is selected it can be placed into an assembly using two different methods. 
+1) Solid Edge’s standard part placement approach or 
+2) the component can be placed at the assembly origin. 
+The check box in the library manager dialog box enables this selection. 
+To assist part placement during method (1) follow the prompts in Solid Edge located at the bottom of the screen. 
+During part placement, the library manager will be minimized and located on the task bar. 
+Once the desired constraints are applied, activate the library manager by selecting it from the task bar. 
+If the fitting is the first part of the assembly it will be placed at the assembly origin (0,0,0).
+
+As new parts are created some specific information (part properties) are added to the part. 
+For example a title, category and material. 
+If additional information is needed (part numbers, project name, etc.) this can be entered during part creation. 
+Check the "Edit part properties during placement" on the library manager dialog box. 
+Once the part is created a property dialog box will be displayed, enter the data as desired. 
+If part data for existing parts needs to be modified, open the part and enter the information.
+
+Continue adding components as desired and click the Done button when complete.
+
+__________________________________
+Networking
+
+This library of parts can be located on a network. 
+This allows users connected to the network access to the same library. 
+First create a folder on a machine to act as the central location for the library of parts, then share it. 
+Next, install the library on each machine and map the shared folder. 
+After the installation, edit the SE-Library.ini file and enter the drive for the share, for example K:\. 
+Connect each machine to the share.
+
+Copy the entire file structure from one of the installations to the shared machine. 
+The illustration shows the directory structure, copy Parts and all sub-directories. 
+Finally, copy the SE-Library.dat file to the share. 
+Once Solid Edge is started, the library will be read from the share.
+
+__________________________________
+Customizing the library
+
+New parts can be added to the library to simplify assembly design. 
+Typical applications would be to add custom parts such as bearing blocks, fasteners and other parts commonly used. 
+Consult the uses guide UsersGuide.doc for more details.
+
+__________________________________
+Legal Notices
+
+Copyright 1999, 2000, 2001 Unigraphics Solutions Inc. All rights reserved.
+Copyright 2001 UGS All rights reserved.
+Copyright 2002 EDS All rights reserved.
+
+Including software, file formats, and audio-visual displays; may be used pursuant to applicable software license agreement; contains confidential and proprietary information of Unigraphics Solutions Inc. and/or third parties which is protected by copyright and trade secret law and may not be provided or otherwise made available without proper authorization.
+
+Restricted Rights Legend
+Use duplication, or disclosure by the Government is subject to restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013 or subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted Rights at 48 CFR 52.227-19, as applicable.
+
+Unpublished -- rights reserved under the copyright laws of the United States.

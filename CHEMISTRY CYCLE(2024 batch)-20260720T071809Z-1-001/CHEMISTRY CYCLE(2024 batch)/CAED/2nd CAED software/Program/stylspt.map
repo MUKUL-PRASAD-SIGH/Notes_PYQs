@@ -1,0 +1,409 @@
+ stylspt
+
+ Timestamp is 46b3a353 (Fri Aug 03 16:51:15 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004e10H .text                   CODE
+ 0001:00004e10 000001b4H .text$x                 CODE
+ 0001:00004fd0 000000f6H .text$yc                CODE
+ 0002:00000000 00000144H .idata$5                DATA
+ 0002:00000144 00000004H .CRT$XCA                DATA
+ 0002:00000148 00000020H .CRT$XCU                DATA
+ 0002:00000168 00000004H .CRT$XCZ                DATA
+ 0002:0000016c 00000004H .CRT$XIA                DATA
+ 0002:00000170 00000004H .CRT$XIAA               DATA
+ 0002:00000174 00000004H .CRT$XIZ                DATA
+ 0002:00000180 00000678H .rdata                  DATA
+ 0002:000007f8 00000031H .rdata$debug            DATA
+ 0002:0000082c 00000000H .rdata$r                DATA
+ 0002:00000830 0000001cH .rdata$sxdata           DATA
+ 0002:0000084c 00000004H .rtc$IAA                DATA
+ 0002:00000850 00000004H .rtc$IZZ                DATA
+ 0002:00000854 00000004H .rtc$TAA                DATA
+ 0002:00000858 00000004H .rtc$TZZ                DATA
+ 0002:00000860 000001ecH .xdata$x                DATA
+ 0002:00000a4c 00000000H ATL$__a                 DATA
+ 0002:00000a4c 00000000H ATL$__z                 DATA
+ 0002:00000a4c 000000b4H .idata$2                DATA
+ 0002:00000b00 00000014H .idata$3                DATA
+ 0002:00000b14 00000144H .idata$4                DATA
+ 0002:00000c58 0000042eH .idata$6                DATA
+ 0002:00001090 00000c1cH .edata                  DATA
+ 0003:00000000 0000145cH .data                   DATA
+ 0003:00001460 000007a8H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000408H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000007       ___safe_se_handler_count   00000007     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ?HCreateFillStyle@@YAJPB_W0PAUIUnknown@@PAPAU_IHFillStyle@@PAPAU_IHHatchPatternStyle@@PAPAU_IHSymbolPatternStyle@@@Z 10001000 f   fstylspt.obj
+ 0001:000003b0       ?HSetActiveFillStyle@@YAJPAUIUnknown@@0@Z 100013b0 f   fstylspt.obj
+ 0001:00000440       ?HGetActiveFillStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10001440 f   fstylspt.obj
+ 0001:000004c0       ?HGetFillStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 100014c0 f   fstylspt.obj
+ 0001:00000540       ?HGetFillStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10001540 f   fstylspt.obj
+ 0001:00000610       _IsEqualGUID               10001610 f i hstylspt.obj
+ 0001:000006b0       ?HGetPatternStyleType@@YAJPAUIUnknown@@PAW4tagPatternStyleType@@@Z 100016b0 f   hstylspt.obj
+ 0001:000009c0       ?HGetFillPattern@@YAJPAUIUnknown@@PAPAU1@PAW4tagPatternStyleType@@@Z 100019c0 f   hstylspt.obj
+ 0001:00000c00       ?HSetStyleID@@YAJPAUIJStyleManager2@@KPAK@Z 10001c00 f   styleid.obj
+ 0001:00000cb0       ?HSetStyleID@@YAJPAUIJStyleManager2@@PAKPAUIUnknown@@@Z 10001cb0 f   styleid.obj
+ 0001:00000cf0       ?HChangeStyleID@@YAJKKPAK@Z 10001cf0 f   styleid.obj
+ 0001:00000d30       ?HCleanupUnusedStyles@@YAJPAUIUnknown@@H@Z 10001d30 f   styleid.obj
+ 0001:00000d40       ?HSetStyleID@@YAJPAUIUnknown@@KPAK@Z 10001d40 f   styleid.obj
+ 0001:00000da0       ?HSetStyleID@@YAJPAUIUnknown@@0PAK@Z 10001da0 f   styleid.obj
+ 0001:00000e30       ?HGetStyleInterface@@YAJPAUIUnknown@@KABU_GUID@@PAPAX@Z 10001e30 f   styleid.obj
+ 0001:00000e90       ?HCopyStyleAndAssignID@@YAJKPAUIJStyleManager2@@0PAUIJPersistManager@@PAKK@Z 10001e90 f   styleid.obj
+ 0001:00000f30       ?HCopyStyleAndAssignID@@YAJPAUIUnknown@@PAUIJStyleManager2@@1PAUIJPersistManager@@PAKK@Z 10001f30 f   styleid.obj
+ 0001:00000ff0       ?HGetStyleID@@YAJPAUIUnknown@@PAK@Z 10001ff0 f   styleid.obj
+ 0001:00001070       ?HIsStyleBeingUsed@@YAJPAUIUnknown@@PAH@Z 10002070 f   styleid.obj
+ 0001:00001120       ?HConvertToStyleIDs@@YAJPAUIUnknown@@H@Z 10002120 f   styleid.obj
+ 0001:00001230       ?HloadOverrideData@@YAJPAUtagStyleOverride@@0@Z 10002230 f   stylespt.obj
+ 0001:000012d0       ?HIsValidStyleName@@YAHPBDPAUHINSTANCE__@@IIII@Z 100022d0 f   stylespt.obj
+ 0001:00001410       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 10002410 f i stylespt.obj
+ 0001:00001410       ??I?$TIP@PAUIJStyleManager@@@@QAEPAPAUIJStyleManager@@XZ 10002410 f i stylespt.obj
+ 0001:00001410       ??I?$TIP@PAUIJStyleRender@@@@QAEPAPAUIJStyleRender@@XZ 10002410 f i stylespt.obj
+ 0001:00001410       ??I?$TIP@PAUIJStyleSimpleLine@@@@QAEPAPAUIJStyleSimpleLine@@XZ 10002410 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIJStyleSimpleLine@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIEnumUnknown@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIJStyleManager2@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIJStyleManager@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001430       ??1?$TIP@PAUIJStyleRender@@@@QAE@XZ 10002430 f i stylespt.obj
+ 0001:00001440       ?SetItemData@CListBox@@QAEHHK@Z 10002440 f i stylespt.obj
+ 0001:00001460       ?AddString@CListBox@@QAEHPBD@Z 10002460 f i stylespt.obj
+ 0001:00001480       ?SetItemData@CComboBox@@QAEHHK@Z 10002480 f i stylespt.obj
+ 0001:000014a0       ?AddString@CComboBox@@QAEHPBD@Z 100024a0 f i stylespt.obj
+ 0001:000014c0       ?HCreateOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleOverride@@0PAPAU1@0@Z 100024c0 f   stylespt.obj
+ 0001:00001890       ?HCreateSimpleLineStyle@@YAJPA_W0PAUIUnknown@@PAUtagStyleSimpleLineData@@PAUtagStyleSimpleDashTypeData@@PAPAU1@@Z 10002890 f   stylespt.obj
+ 0001:00001ac0       ?HSetActiveLinearStyle@@YAJPAUIUnknown@@0@Z 10002ac0 f   stylespt.obj
+ 0001:00001b50       ?HGetActiveLinearStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10002b50 f   stylespt.obj
+ 0001:00001bd0       ?HGetLinearStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10002bd0 f   stylespt.obj
+ 0001:00001ca0       ?HGetDashStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10002ca0 f   stylespt.obj
+ 0001:00001d70       ?HGetLinearStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 10002d70 f   stylespt.obj
+ 0001:00001df0       ?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 10002df0 f   stylespt.obj
+ 0001:00002110       ?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z 10003110 f   stylespt.obj
+ 0001:000023f0       ?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@@Z 100033f0 f   stylespt.obj
+ 0001:00002410       ?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCComboBox@@@Z 10003410 f   stylespt.obj
+ 0001:00002430       ?HGetActiveSolidLineStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10003430 f   stylespt.obj
+ 0001:000024b0       ?HSetActiveSolidLineStyle@@YAJPAUIUnknown@@0@Z 100034b0 f   stylespt.obj
+ 0001:00002540       ?HGeomStyleGetStyleName@@YAJPAUIUnknown@@PAPA_WJ@Z 10003540 f   stylespt.obj
+ 0001:00002790       ?HGeomStyleGetOverride@@YAJPAUIUnknown@@PAUtagStyleOverride@@@Z 10003790 f   stylespt.obj
+ 0001:000028c0       ?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleOverride@@0PAPAU1@@Z 100038c0 f   stylespt.obj
+ 0001:00002db0       ?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleSimpleDashTypeData@@0PAPAU1@@Z 10003db0 f   stylespt.obj
+ 0001:00003470       ?HGetOverrideStyle@@YAJPAUIUnknown@@PAUIJStyleDashTypeRender@@0PAPAU1@@Z 10004470 f   stylespt.obj
+ 0001:000039c0       ?HGeomStylePutStyleName@@YAJPAUIUnknown@@PA_WJ@Z 100049c0 f   stylespt.obj
+ 0001:00003cb0       ?HGeomStylePutOverride@@YAJPAUIUnknown@@PAUtagStyleOverride@@@Z 10004cb0 f   stylespt.obj
+ 0001:00003ed0       ?HGetTextStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10004ed0 f   textspt.obj
+ 0001:00003f90       ?HGetActiveTextStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10004f90 f   textspt.obj
+ 0001:00004010       ?HSetActiveTextStyle@@YAJPAUIUnknown@@0@Z 10005010 f   textspt.obj
+ 0001:000040a0       ?HGetParaOverride@@YAJPAUIUnknown@@0PAPAU1@PA_W@Z 100050a0 f   textspt.obj
+ 0001:00004210       ?HGetCharOverride@@YAJPAUIUnknown@@0PAPAU1@PA_W@Z 10005210 f   textspt.obj
+ 0001:00004378       _HSetStyle2@16             10005378 f   daxutil:Daxutil.dll
+ 0001:0000437e       _JGetFastDAXObject@16      1000537e f   jengine:jengine.dll
+ 0001:00004384       _JLogModify@4              10005384 f   jengine:jengine.dll
+ 0001:0000438a       _JGetStyleManagerFromObject 1000538a f   jengine:jengine.dll
+ 0001:00004390       _BatchFlushOff             10005390 f   jengine:jengine.dll
+ 0001:00004396       _BatchFlush@0              10005396 f   jengine:jengine.dll
+ 0001:0000439c       _JGetStyleManager          1000539c f   jengine:jengine.dll
+ 0001:000043a2       _BatchFlushOn              100053a2 f   jengine:jengine.dll
+ 0001:000043a8       @GetPersistManager@8       100053a8 f   jengine:jengine.dll
+ 0001:000043ae       _GetOwnerOrGroup@16        100053ae f   jengine:jengine.dll
+ 0001:000043b4       _HRerrEx                   100053b4 f   jutil:JUtil.dll
+ 0001:000043ba       _RCfatalerr                100053ba f   jutil:JUtil.dll
+ 0001:000043c0       _JCoCreateInstance         100053c0 f   jutil:JUtil.dll
+ 0001:000043c6       ??3@YAXPAX@Z               100053c6 f   mfc80:MFC80.DLL
+ 0001:000043cc       @__security_check_cookie@4 100053cc f   msvcrt:secchk.obj
+ 0001:000043dc       ___CxxFrameHandler3        100053dc f   msvcrt:MSVCR80.dll
+ 0001:000043e2       __except_handler4          100053e2 f   msvcrt:chandler4gs.obj
+ 0001:00004410       __alloca_probe_16          10005410 f   msvcrt:alloca16.obj
+ 0001:00004426       __alloca_probe_8           10005426     msvcrt:alloca16.obj
+ 0001:00004440       __allmul                   10005440 f   msvcrt:llmul.obj
+ 0001:00004480       _memset                    10005480 f   msvcrt:MSVCR80.dll
+ 0001:000044d3       __CRT_INIT@12              100054d3 f   msvcrt:crtdll.obj
+ 0001:00004788       __DllMainCRTStartup@12     10005788 f   msvcrt:crtdll.obj
+ 0001:000047ac       __SEH_prolog4_GS           100057ac f   msvcrt:sehprolg4gs.obj
+ 0001:000047f4       __SEH_epilog4_GS           100057f4 f   msvcrt:sehprolg4gs.obj
+ 0001:00004803       ___report_gsfailure        10005803 f   msvcrt:gs_report.obj
+ 0001:00004908       __except_handler4_common   10005908 f   msvcrt:MSVCR80.dll
+ 0001:00004910       __alloca_probe             10005910     msvcrt:chkstk.obj
+ 0001:00004910       __chkstk                   10005910 f   msvcrt:chkstk.obj
+ 0001:0000493b       ___clean_type_info_names   1000593b f   msvcrt:tncleanup.obj
+ 0001:00004947       __onexit                   10005947 f   msvcrt:atonexit.obj
+ 0001:000049e6       _atexit                    100059e6 f   msvcrt:atonexit.obj
+ 0001:000049f8       __RTC_Initialize           100059f8 f   msvcrt:initsect.obj
+ 0001:00004a1c       __RTC_Terminate            10005a1c f   msvcrt:initsect.obj
+ 0001:00004a40       __ValidateImageBase        10005a40 f   msvcrt:pesect.obj
+ 0001:00004a70       __FindPESection            10005a70 f   msvcrt:pesect.obj
+ 0001:00004ab2       __IsNonwritableInCurrentImage 10005ab2 f   msvcrt:pesect.obj
+ 0001:00004b1e       __initterm                 10005b1e f   msvcrt:MSVCR80.dll
+ 0001:00004b24       __initterm_e               10005b24 f   msvcrt:MSVCR80.dll
+ 0001:00004b2a       __amsg_exit                10005b2a f   msvcrt:MSVCR80.dll
+ 0001:00004b30       ___CppXcptFilter           10005b30 f   msvcrt:MSVCR80.dll
+ 0001:00004b36       _DllMain@12                10005b36 f   msvcrt:dllmain.obj
+ 0001:00004b58       __SEH_prolog4              10005b58 f   msvcrt:sehprolg4.obj
+ 0001:00004b9d       __SEH_epilog4              10005b9d f   msvcrt:sehprolg4.obj
+ 0001:00004bb1       ___security_init_cookie    10005bb1 f   msvcrt:gs_support.obj
+ 0001:00004c46       __crt_debugger_hook        10005c46 f   msvcrt:MSVCR80.dll
+ 0001:00004c4c       ___clean_type_info_names_internal 10005c4c f   msvcrt:MSVCR80.dll
+ 0001:00004c52       __unlock                   10005c52 f   msvcrt:MSVCR80.dll
+ 0001:00004c58       ___dllonexit               10005c58 f   msvcrt:MSVCR80.dll
+ 0001:00004c5e       __lock                     10005c5e f   msvcrt:MSVCR80.dll
+ 0001:00004c64       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10005c64 f i atls:atltrace.obj
+ 0001:00004cc9       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10005cc9 f i atls:atltrace.obj
+ 0001:00004ccd       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10005ccd f i atls:atltrace.obj
+ 0001:00004ded       __RawDllMainProxy@12       10005ded f   mfcs80:rawdllmainproxy.obj
+ 0002:00000000       __imp__HSetStyle2@16       10007000     daxutil:Daxutil.dll
+ 0002:00000004       \177Daxutil_NULL_THUNK_DATA 10007004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?IsEmpty@GUserText@@QBEHXZ 10007008     jutil:JUtil.dll
+ 0002:0000000c       __imp_??BGUserText@@QBEPB_WXZ 1000700c     jutil:JUtil.dll
+ 0002:00000010       __imp__JCoCreateInstance   10007010     jutil:JUtil.dll
+ 0002:00000014       __imp__RCfatalerr          10007014     jutil:JUtil.dll
+ 0002:00000018       __imp_??0GUserText@@QAE@XZ 10007018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 1000701c     jutil:JUtil.dll
+ 0002:00000020       __imp_??BGUserText@@QBEPBDXZ 10007020     jutil:JUtil.dll
+ 0002:00000024       __imp_??1GUserText@@QAE@XZ 10007024     jutil:JUtil.dll
+ 0002:00000028       __imp__HRerrEx             10007028     jutil:JUtil.dll
+ 0002:0000002c       \177JUtil_NULL_THUNK_DATA  1000702c     jutil:JUtil.dll
+ 0002:00000030       __imp__QueryPerformanceCounter@4 10007030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetTickCount@0      10007034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetCurrentThreadId@0 10007038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetCurrentProcessId@0 1000703c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetSystemTimeAsFileTime@4 10007040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetACP@0            10007044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetLocaleInfoA@16   10007048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetThreadLocale@0   1000704c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__DisableThreadLibraryCalls@4 10007050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__IsDebuggerPresent@0 10007054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__SetUnhandledExceptionFilter@4 10007058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__UnhandledExceptionFilter@4 1000705c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetCurrentProcess@0 10007060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__TerminateProcess@8  10007064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__InterlockedCompareExchange@12 10007068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__Sleep@4             1000706c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__InterlockedExchange@8 10007070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetVersionExA@4     10007074     kernel32:KERNEL32.dll
+ 0002:00000078       \177KERNEL32_NULL_THUNK_DATA 10007078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp_?IsEmpty@?$CSimpleStringT@D$00@ATL@@QBE_NXZ 1000707c     mfc80:MFC80.DLL
+ 0002:00000080       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 10007080     mfc80:MFC80.DLL
+ 0002:00000084       __imp_?FindOneOf@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QBEHPBD@Z 10007084     mfc80:MFC80.DLL
+ 0002:00000088       __imp_?GetLength@?$CSimpleStringT@D$00@ATL@@QBEHXZ 10007088     mfc80:MFC80.DLL
+ 0002:0000008c       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@PBD@Z 1000708c     mfc80:MFC80.DLL
+ 0002:00000090       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 10007090     mfc80:MFC80.DLL
+ 0002:00000094       __imp_??4?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEAAV01@PB_W@Z 10007094     mfc80:MFC80.DLL
+ 0002:00000098       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 10007098     mfc80:MFC80.DLL
+ 0002:0000009c       __imp_??3@YAXPAX@Z         1000709c     mfc80:MFC80.DLL
+ 0002:000000a0       \177MFC80_NULL_THUNK_DATA  100070a0     mfc80:MFC80.DLL
+ 0002:000000a4       __imp___adjust_fdiv        100070a4     msvcrt:MSVCR80.dll
+ 0002:000000a8       __imp____CppXcptFilter     100070a8     msvcrt:MSVCR80.dll
+ 0002:000000ac       __imp___crt_debugger_hook  100070ac     msvcrt:MSVCR80.dll
+ 0002:000000b0       __imp____clean_type_info_names_internal 100070b0     msvcrt:MSVCR80.dll
+ 0002:000000b4       __imp___amsg_exit          100070b4     msvcrt:MSVCR80.dll
+ 0002:000000b8       __imp____dllonexit         100070b8     msvcrt:MSVCR80.dll
+ 0002:000000bc       __imp___lock               100070bc     msvcrt:MSVCR80.dll
+ 0002:000000c0       __imp___onexit             100070c0     msvcrt:MSVCR80.dll
+ 0002:000000c4       __imp__free                100070c4     msvcrt:MSVCR80.dll
+ 0002:000000c8       __imp____CxxFrameHandler3  100070c8     msvcrt:MSVCR80.dll
+ 0002:000000cc       __imp___initterm           100070cc     msvcrt:MSVCR80.dll
+ 0002:000000d0       __imp___decode_pointer     100070d0     msvcrt:MSVCR80.dll
+ 0002:000000d4       __imp___encoded_null       100070d4     msvcrt:MSVCR80.dll
+ 0002:000000d8       __imp___malloc_crt         100070d8     msvcrt:MSVCR80.dll
+ 0002:000000dc       __imp___encode_pointer     100070dc     msvcrt:MSVCR80.dll
+ 0002:000000e0       __imp___except_handler4_common 100070e0     msvcrt:MSVCR80.dll
+ 0002:000000e4       __imp__memset              100070e4     msvcrt:MSVCR80.dll
+ 0002:000000e8       __imp___unlock             100070e8     msvcrt:MSVCR80.dll
+ 0002:000000ec       __imp___initterm_e         100070ec     msvcrt:MSVCR80.dll
+ 0002:000000f0       \177MSVCR80_NULL_THUNK_DATA 100070f0     msvcrt:MSVCR80.dll
+ 0002:000000f4       __imp__VariantInit@4       100070f4     oleaut32:OLEAUT32.dll
+ 0002:000000f8       \177OLEAUT32_NULL_THUNK_DATA 100070f8     oleaut32:OLEAUT32.dll
+ 0002:000000fc       __imp__SendMessageA@16     100070fc     user32:USER32.dll
+ 0002:00000100       __imp__MessageBoxA@16      10007100     user32:USER32.dll
+ 0002:00000104       \177USER32_NULL_THUNK_DATA 10007104     user32:USER32.dll
+ 0002:00000108       __imp__BatchFlushOff       10007108     jengine:jengine.dll
+ 0002:0000010c       __imp__BatchFlush@0        1000710c     jengine:jengine.dll
+ 0002:00000110       __imp__JGetStyleManager    10007110     jengine:jengine.dll
+ 0002:00000114       __imp__BatchFlushOn        10007114     jengine:jengine.dll
+ 0002:00000118       __imp_@GetPersistManager@8 10007118     jengine:jengine.dll
+ 0002:0000011c       __imp__GetOwnerOrGroup@16  1000711c     jengine:jengine.dll
+ 0002:00000120       __imp__JGetFastDAXObject@16 10007120     jengine:jengine.dll
+ 0002:00000124       __imp__JLogModify@4        10007124     jengine:jengine.dll
+ 0002:00000128       __imp__JGetStyleManagerFromObject 10007128     jengine:jengine.dll
+ 0002:0000012c       \177jengine_NULL_THUNK_DATA 1000712c     jengine:jengine.dll
+ 0002:00000130       __imp__JSESysFreeString@4  10007130     sealloc:sealloc.dll
+ 0002:00000134       __imp__JSESysAllocString@4 10007134     sealloc:sealloc.dll
+ 0002:00000138       __imp__JVariantClear@4     10007138     sealloc:sealloc.dll
+ 0002:0000013c       __imp__JSESysAllocStringLen@8 1000713c     sealloc:sealloc.dll
+ 0002:00000140       \177sealloc_NULL_THUNK_DATA 10007140     sealloc:sealloc.dll
+ 0002:00000144       ___xc_a                    10007144     msvcrt:cinitexe.obj
+ 0002:00000168       ___xc_z                    10007168     msvcrt:cinitexe.obj
+ 0002:0000016c       ___xi_a                    1000716c     msvcrt:cinitexe.obj
+ 0002:00000174       ___xi_z                    10007174     msvcrt:cinitexe.obj
+ 0002:0000019c       ??_C@_0P@DBPOPKPG@?4?2fstylspt?4cpp?$AA@ 1000719c     fstylspt.obj
+ 0002:000001ac       ??_C@_0BB@JIPAMCOI@HCreateFillStyle?$AA@ 100071ac     fstylspt.obj
+ 0002:000001c0       ??_C@_0BE@JDJCBELK@HSetActiveFillStyle?$AA@ 100071c0     fstylspt.obj
+ 0002:000001d4       ??_C@_0BE@GJLICCFC@HGetActiveFillStyle?$AA@ 100071d4     fstylspt.obj
+ 0002:000001e8       ??_C@_0BC@KENPHNDG@HGetFillStyleName?$AA@ 100071e8     fstylspt.obj
+ 0002:000001fc       ??_C@_0O@DFOGPPO@HGetFillStyle?$AA@ 100071fc     fstylspt.obj
+ 0002:0000020c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000720c     guid.obj
+ 0002:00000224       _IID_IJPersist             10007224     guid.obj
+ 0002:00000234       _CLSID_JStyleSimpleLine    10007234     guid.obj
+ 0002:00000244       _CLSID_JStyleSimpleFill    10007244     guid.obj
+ 0002:00000254       _CLSID_JStyleHatchFill     10007254     guid.obj
+ 0002:00000264       _CLSID_JStyleSymbolFill    10007264     guid.obj
+ 0002:00000274       _CLSID_JStyleTextChar      10007274     guid.obj
+ 0002:00000284       _CLSID_JStyleTextPara      10007284     guid.obj
+ 0002:00000294       _CLSID_JStyleOverride      10007294     guid.obj
+ 0002:000002a4       _CLSID_JStyleSimpleDashType 100072a4     guid.obj
+ 0002:000002b4       _CLSID_HLinearStyles       100072b4     guid.obj
+ 0002:000002c4       _CLSID_HLinearStyle        100072c4     guid.obj
+ 0002:000002d4       _CLSID_HFillStyles         100072d4     guid.obj
+ 0002:000002e4       _CLSID_HFillStyle          100072e4     guid.obj
+ 0002:000002f4       _CLSID_HHatchPatternStyles 100072f4     guid.obj
+ 0002:00000304       _CLSID_HSymbolPatternStyles 10007304     guid.obj
+ 0002:00000314       _CLSID_HTextStyle          10007314     guid.obj
+ 0002:00000324       _IID_IJStyleManager        10007324     guid.obj
+ 0002:00000334       _IID_IJStyleManager2       10007334     guid.obj
+ 0002:00000344       _IID_IJConvertStyles       10007344     guid.obj
+ 0002:00000354       _IID_IJStyleUser           10007354     guid.obj
+ 0002:00000364       _IID_IJManageStyle         10007364     guid.obj
+ 0002:00000374       _IID_IJStyleRender         10007374     guid.obj
+ 0002:00000384       _IID_IJStyleSimpleLine     10007384     guid.obj
+ 0002:00000394       _IID_IJStyleDashTypeRender 10007394     guid.obj
+ 0002:000003a4       _IID_IJStyleSimpleDashType 100073a4     guid.obj
+ 0002:000003b4       _IID_IJStyleSimpleFill     100073b4     guid.obj
+ 0002:000003c4       _IID_IJStyleHatchFill      100073c4     guid.obj
+ 0002:000003d4       _IID_IJStyleSymbolFill     100073d4     guid.obj
+ 0002:000003e4       _IID_IJStyleOverride       100073e4     guid.obj
+ 0002:000003f4       _IID__IHHatchPatternStyle  100073f4     guid.obj
+ 0002:00000404       _IID__IHFillStyle          10007404     guid.obj
+ 0002:00000414       _IID__IHSymbolPatternStyle 10007414     guid.obj
+ 0002:00000424       _IID__IHFillStyles         10007424     guid.obj
+ 0002:00000434       _IID__IHHatchPatternStyles 10007434     guid.obj
+ 0002:00000444       _IID__IHLinearStyles       10007444     guid.obj
+ 0002:00000454       _IID__IHSymbolPatternStyles 10007454     guid.obj
+ 0002:00000464       _IID_IJSymbology           10007464     guid.obj
+ 0002:00000474       _IID_IJComplexString2d     10007474     guid.obj
+ 0002:00000484       _IID_IJDocument            10007484     guid.obj
+ 0002:00000494       ??_C@_0P@MLBIPGEG@?4?2hstylspt?4cpp?$AA@ 10007494     hstylspt.obj
+ 0002:000004a4       ??_C@_0BF@JIMDGIFG@HGetPatternStyleType?$AA@ 100074a4     hstylspt.obj
+ 0002:000004bc       ??_C@_0BA@KMFODCKE@HGetFillPattern?$AA@ 100074bc     hstylspt.obj
+ 0002:000004d4       ??_C@_0O@CPEDLJPG@?4?2styleid?4cpp?$AA@ 100074d4     styleid.obj
+ 0002:000004e4       ??_C@_0M@JNFPODHB@HSetStyleID?$AA@ 100074e4     styleid.obj
+ 0002:000004f0       ??_C@_0P@IECLCLGH@HChangeStyleID?$AA@ 100074f0     styleid.obj
+ 0002:00000500       ??_C@_0BG@BFIKCLOH@HCopyStyleAndAssignID?$AA@ 10007500     styleid.obj
+ 0002:00000518       ??_C@_0M@IDHAFEDI@HGetStyleID?$AA@ 10007518     styleid.obj
+ 0002:00000524       ??_C@_0BC@OJGIJPIL@HIsStyleBeingUsed?$AA@ 10007524     styleid.obj
+ 0002:00000538       ??_C@_0BD@FAKEAGO@HConvertToStyleIDs?$AA@ 10007538     styleid.obj
+ 0002:0000054c       ??_C@_04CBCBNFIC@?2?$DL?$HL?$HN?$AA@ 1000754c     stylespt.obj
+ 0002:00000554       ??_C@_0P@EKPOLHEA@?4?2stylespt?4cpp?$AA@ 10007554     stylespt.obj
+ 0002:00000564       ??_C@_0BF@CJLHMECP@HCreateOverrideStyle?$AA@ 10007564     stylespt.obj
+ 0002:0000057c       ??_C@_0BH@LDDMHPNL@HCreateSimpleLineStyle?$AA@ 1000757c     stylespt.obj
+ 0002:00000594       ??_C@_0BG@FHIGFBHC@HSetActiveLinearStyle?$AA@ 10007594     stylespt.obj
+ 0002:000005ac       ??_C@_0BG@OJLEHCF@HGetActiveLinearStyle?$AA@ 100075ac     stylespt.obj
+ 0002:000005c4       ??_C@_0BA@EEEODAL@HGetLinearStyle?$AA@ 100075c4     stylespt.obj
+ 0002:000005d4       ??_C@_0O@ONKHBKEP@HGetDashStyle?$AA@ 100075d4     stylespt.obj
+ 0002:000005e4       ??_C@_0BE@NDABBGDP@HGetLinearStyleName?$AA@ 100075e4     stylespt.obj
+ 0002:000005f8       ??_C@_0BC@NBOHGLPJ@HGetDashStyleName?$AA@ 100075f8     stylespt.obj
+ 0002:0000060c       ??_C@_0BB@FMBGBNBN@PopulateStyleBox?$AA@ 1000760c     stylespt.obj
+ 0002:00000620       ??_C@_0BJ@HNLGDOID@HGetActiveSolidLineStyle?$AA@ 10007620     stylespt.obj
+ 0002:0000063c       ??_C@_0BJ@GLNLNPOB@HSetActiveSolidLineStyle?$AA@ 1000763c     stylespt.obj
+ 0002:00000658       ??_C@_0BH@PIEFNACP@HGeomStyleGetStyleName?$AA@ 10007658     stylespt.obj
+ 0002:00000670       ??_C@_0BG@KKOCGELF@HGeomStyleGetOverride?$AA@ 10007670     stylespt.obj
+ 0002:00000688       ??_C@_0BC@NKDMNJPE@HGetOverrideStyle?$AA@ 10007688     stylespt.obj
+ 0002:0000069c       ??_C@_0BH@DNCJJNFB@HGeomStylePutStyleName?$AA@ 1000769c     stylespt.obj
+ 0002:000006b4       ??_C@_0BG@HMJEKEAN@HGeomStylePutOverride?$AA@ 100076b4     stylespt.obj
+ 0002:000006cc       ??_C@_0O@IHDNCDAP@?4?2textspt?4cpp?$AA@ 100076cc     textspt.obj
+ 0002:000006dc       ??_C@_0O@GKPBCAEH@HGetTextStyle?$AA@ 100076dc     textspt.obj
+ 0002:000006ec       ??_C@_0BE@BHGNOL@HGetActiveTextStyle?$AA@ 100076ec     textspt.obj
+ 0002:00000700       ??_C@_0BE@PKDNFLAD@HSetActiveTextStyle?$AA@ 10007700     textspt.obj
+ 0002:00000714       ??_C@_0BB@JILFBCIK@HGetParaOverride?$AA@ 10007714     textspt.obj
+ 0002:00000728       ??_C@_0BB@PHFMHKCO@HGetCharOverride?$AA@ 10007728     textspt.obj
+ 0002:0000073c       ??_C@_06JBKGCNBB@Delete?$AA@ 1000773c     mfcs80:stdafx.obj
+ 0002:00000744       ??_C@_08KAAPDIAN@NoRemove?$AA@ 10007744     mfcs80:stdafx.obj
+ 0002:00000750       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 10007750     mfcs80:stdafx.obj
+ 0002:0000075c       ??_C@_03LAIAPFCB@Val?$AA@  1000775c     mfcs80:stdafx.obj
+ 0002:00000760       ??_C@_01HMGJMAIH@B?$AA@    10007760     mfcs80:stdafx.obj
+ 0002:00000764       ??_C@_01CKDDGHAB@D?$AA@    10007764     mfcs80:stdafx.obj
+ 0002:00000768       ??_C@_01PLPBNMEI@M?$AA@    10007768     mfcs80:stdafx.obj
+ 0002:0000076c       ??_C@_01CPLAODJH@S?$AA@    1000776c     mfcs80:stdafx.obj
+ 0002:00000790       __pDefaultRawDllMain       10007790     msvcrt:crtdll.obj
+ 0002:0000079c       _IID_IUnknown              1000779c     uuid:unknwn_i.obj
+ 0002:000007ac       __pRawDllMain              100077ac     mfcs80:rawdllmainproxy.obj
+ 0002:000007b0       __load_config_used         100077b0     msvcrt:loadcfg.obj
+ 0002:00000830       ___safe_se_handler_table   10007830     <linker-defined>
+ 0002:0000084c       ___rtc_iaa                 1000784c     msvcrt:initsect.obj
+ 0002:00000850       ___rtc_izz                 10007850     msvcrt:initsect.obj
+ 0002:00000854       ___rtc_taa                 10007854     msvcrt:initsect.obj
+ 0002:00000858       ___rtc_tzz                 10007858     msvcrt:initsect.obj
+ 0002:00000a4c       __IMPORT_DESCRIPTOR_Daxutil 10007a4c     daxutil:Daxutil.dll
+ 0002:00000a60       __IMPORT_DESCRIPTOR_jengine 10007a60     jengine:jengine.dll
+ 0002:00000a74       __IMPORT_DESCRIPTOR_JUtil  10007a74     jutil:JUtil.dll
+ 0002:00000a88       __IMPORT_DESCRIPTOR_sealloc 10007a88     sealloc:sealloc.dll
+ 0002:00000a9c       __IMPORT_DESCRIPTOR_MFC80  10007a9c     mfc80:MFC80.DLL
+ 0002:00000ab0       __IMPORT_DESCRIPTOR_MSVCR80 10007ab0     msvcrt:MSVCR80.dll
+ 0002:00000ac4       __IMPORT_DESCRIPTOR_KERNEL32 10007ac4     kernel32:KERNEL32.dll
+ 0002:00000ad8       __IMPORT_DESCRIPTOR_USER32 10007ad8     user32:USER32.dll
+ 0002:00000aec       __IMPORT_DESCRIPTOR_OLEAUT32 10007aec     oleaut32:OLEAUT32.dll
+ 0002:00000b00       __NULL_IMPORT_DESCRIPTOR   10007b00     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  10009000     newmode.obj
+ 0003:00001448       ___security_cookie         1000a448     msvcrt:gs_cookie.obj
+ 0003:0000144c       ___security_cookie_complement 1000a44c     msvcrt:gs_cookie.obj
+ 0003:00001450       ___native_dllmain_reason   1000a450     msvcrt:natstart.obj
+ 0003:00001454       ___native_vcclrit_reason   1000a454     msvcrt:natstart.obj
+ 0003:00001458       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 1000a458     atls:atltrace.obj
+ 0003:000018b0       __afxForceEXCLUDE          1000a8b0     mfcs80:nolib.obj
+ 0003:000018b4       __afxForceSTDAFX           1000a8b4     mfcs80:stdafx.obj
+ 0003:00001be4       ?__type_info_root_node@@3U__type_info_node@@A 1000abe4     msvcrt:tncleanup.obj
+ 0003:00001bec       __pActualRawDllMain        1000abec     <common>
+ 0003:00001bf0       __adjust_fdiv              1000abf0     <common>
+ 0003:00001bf4       ___native_startup_state    1000abf4     <common>
+ 0003:00001bf8       ___native_startup_lock     1000abf8     <common>
+ 0003:00001bfc       ___onexitend               1000abfc     <common>
+ 0003:00001c00       ___onexitbegin             1000ac00     <common>
+ 0003:00001c04       ___dyn_tls_init_callback   1000ac04     <common>
+
+ entry point at        0001:00004788
+
+ Static symbols
+
+ 0001:00004486       _pre_c_init                10005486 f   msvcrt:crtdll.obj
+ 0001:00004672       ___DllMainCRTStartup       10005672 f   msvcrt:crtdll.obj
+ 0001:00004d31       __FindPESection            10005d31 f   mfcs80:rawdllmainproxy.obj
+ 0001:00004d6b       __IsNonwritableInCurrentImage 10005d6b f   mfcs80:rawdllmainproxy.obj
+ 0001:00004e10       __unwindfunclet$?HIsValidStyleName@@YAHPBDPAUHINSTANCE__@@IIII@Z$0 10005e10 f   stylespt.obj
+ 0001:00004e19       __unwindfunclet$?HIsValidStyleName@@YAHPBDPAUHINSTANCE__@@IIII@Z$1 10005e19 f   stylespt.obj
+ 0001:00004e22       __unwindfunclet$?HIsValidStyleName@@YAHPBDPAUHINSTANCE__@@IIII@Z$2 10005e22 f   stylespt.obj
+ 0001:00004e2b       __ehhandler$?HIsValidStyleName@@YAHPBDPAUHINSTANCE__@@IIII@Z 10005e2b f   stylespt.obj
+ 0001:00004e50       __unwindfunclet$?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z$4 10005e50 f   stylespt.obj
+ 0001:00004e58       __unwindfunclet$?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z$5 10005e58 f   stylespt.obj
+ 0001:00004e60       __unwindfunclet$?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z$6 10005e60 f   stylespt.obj
+ 0001:00004e68       __ehhandler$?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 10005e68 f   stylespt.obj
+ 0001:00004e90       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$7 10005e90 f   stylespt.obj
+ 0001:00004e99       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$8 10005e99 f   stylespt.obj
+ 0001:00004ea1       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$9 10005ea1 f   stylespt.obj
+ 0001:00004ea9       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$10 10005ea9 f   stylespt.obj
+ 0001:00004eb1       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$11 10005eb1 f   stylespt.obj
+ 0001:00004eba       __unwindfunclet$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z$12 10005eba f   stylespt.obj
+ 0001:00004ec3       __ehhandler$?PopulateStyleBox@@YAJPAUIJStyleManager@@ABU_GUID@@PAVCListBox@@PAVCComboBox@@@Z 10005ec3 f   stylespt.obj
+ 0001:00004ee0       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleOverride@@0PAPAU1@@Z$18 10005ee0 f   stylespt.obj
+ 0001:00004eeb       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleOverride@@0PAPAU1@@Z$19 10005eeb f   stylespt.obj
+ 0001:00004ef6       __ehhandler$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleOverride@@0PAPAU1@@Z 10005ef6 f   stylespt.obj
+ 0001:00004f30       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleSimpleDashTypeData@@0PAPAU1@@Z$22 10005f30 f   stylespt.obj
+ 0001:00004f3b       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleSimpleDashTypeData@@0PAPAU1@@Z$23 10005f3b f   stylespt.obj
+ 0001:00004f46       __ehhandler$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUtagStyleSimpleDashTypeData@@0PAPAU1@@Z 10005f46 f   stylespt.obj
+ 0001:00004f80       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUIJStyleDashTypeRender@@0PAPAU1@@Z$17 10005f80 f   stylespt.obj
+ 0001:00004f8b       __unwindfunclet$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUIJStyleDashTypeRender@@0PAPAU1@@Z$18 10005f8b f   stylespt.obj
+ 0001:00004f96       __ehhandler$?HGetOverrideStyle@@YAJPAUIUnknown@@PAUIJStyleDashTypeRender@@0PAPAU1@@Z 10005f96 f   stylespt.obj
+ 0001:00004fd0       ??__EGNULL_Camera@@YAXXZ   10005fd0 f   guid.obj
+ 0001:00004ff0       ??__EGNULL_CAMERA@@YAXXZ   10005ff0 f   guid.obj
+ 0001:00005010       ??__EGID_Camera@@YAXXZ     10006010 f   guid.obj
+ 0001:00005030       ??__EGID_CAMERA@@YAXXZ     10006030 f   guid.obj
+ 0001:00005050       ??__EGNULL_Camera@@YAXXZ   10006050 f   stdafx.obj
+ 0001:00005070       ??__EGNULL_CAMERA@@YAXXZ   10006070 f   stdafx.obj
+ 0001:00005090       ??__EGID_Camera@@YAXXZ     10006090 f   stdafx.obj
+ 0001:000050b0       ??__EGID_CAMERA@@YAXXZ     100060b0 f   stdafx.obj

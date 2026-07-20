@@ -1,0 +1,22 @@
+[PDF]
+Version = 2.0
+
+[Package Definition]
+Name = SEEC Administrator V20
+Version = 20.00.0096
+Publisher = UGS
+Language = English
+Programs = Setup
+MifFileName = SEEC Administrator V20.mif
+MifName = SEEC Administrator V20
+MifVersion = 20.00.0096
+MifPublisher = UGS
+
+[Setup]
+Name = Automated Minimum Installation
+CommandLine = msiexec /m "SEEC Administrator V20.mif" /qn /I "SEEC Administrator V20.msi"
+SupportedClients = Win 9x, Win NT (i386)
+UserInputRequired = False
+RemoveProgram = True
+UnInstallKey = {697E553E-3C14-4D94-91C6-2270028D7F55}
+

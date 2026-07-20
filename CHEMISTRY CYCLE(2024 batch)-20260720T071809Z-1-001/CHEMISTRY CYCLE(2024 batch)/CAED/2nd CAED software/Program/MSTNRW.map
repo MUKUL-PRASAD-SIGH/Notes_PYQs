@@ -1,0 +1,544 @@
+ MSTNRW
+
+ Timestamp is 46b39def (Fri Aug 03 16:28:15 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000eedcH .text                   CODE
+ 0002:00000000 000000fcH .idata$5                DATA
+ 0002:000000fc 00000004H .CRT$XCA                DATA
+ 0002:00000100 00000004H .CRT$XCZ                DATA
+ 0002:00000104 00000004H .CRT$XIA                DATA
+ 0002:00000108 00000004H .CRT$XIAA               DATA
+ 0002:0000010c 00000004H .CRT$XIC                DATA
+ 0002:00000110 00000004H .CRT$XIZ                DATA
+ 0002:00000120 00000480H .rdata                  DATA
+ 0002:000005a0 00000030H .rdata$debug            DATA
+ 0002:000005d0 00000004H .rdata$sxdata           DATA
+ 0002:000005d4 00000004H .rtc$IAA                DATA
+ 0002:000005d8 00000004H .rtc$IZZ                DATA
+ 0002:000005dc 00000004H .rtc$TAA                DATA
+ 0002:000005e0 00000004H .rtc$TZZ                DATA
+ 0002:000005e8 00000084H .xdata$x                DATA
+ 0002:0000066c 00000028H .idata$2                DATA
+ 0002:00000694 00000014H .idata$3                DATA
+ 0002:000006a8 000000fcH .idata$4                DATA
+ 0002:000007a4 00000388H .idata$6                DATA
+ 0002:00000b30 00001223H .edata                  DATA
+ 0003:00000000 00000068H .data                   DATA
+ 0003:00000080 000071a0H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _IGDScompareIds            10001000 f   assoc.obj
+ 0001:00000030       _IGDSmatchIds              10001030 f   assoc.obj
+ 0001:00000050       _IGDSgetPointFromLinearAssoc 10001050 f   assoc.obj
+ 0001:000001d0       _IGDSgetPointFromProjectionAssoc 100011d0 f   assoc.obj
+ 0001:000002e0       _IGDSgetPointFromArcAssoc  100012e0 f   assoc.obj
+ 0001:00000530       _IGDSgetText3DAssocPointFromJust 10001530 f   assoc.obj
+ 0001:00000840       _IGDSgetText2DAssocPointFromJust 10001840 f   assoc.obj
+ 0001:00000980       _IGDSgetPointFromOriginAssoc 10001980 f   assoc.obj
+ 0001:00000a50       _IGDSgetPointFromAssocInfo 10001a50 f   assoc.obj
+ 0001:00000ba0       _IGDSget_assocId_of_BSI_ele 10001ba0 f   bsiele.obj
+ 0001:00000bf0       _UTFVaxTo32                10001bf0 f   float.obj
+ 0001:00000c60       _UTF32ToFVax               10001c60 f   float.obj
+ 0001:00000cd0       _fltvax_to_flt32           10001cd0 f   fltconv.obj
+ 0001:00000d80       _flt32_to_fltvax           10001d80 f   fltconv.obj
+ 0001:00000e30       _IGDS_init_read            10001e30 f   getele.obj
+ 0001:00000e90       _IGDSrefCounter            10001e90 f   getele.obj
+ 0001:00000fb0       _IGDSbeginReadFromMemory   10001fb0 f   getele.obj
+ 0001:00000fd0       _IGDSendReadFromMemory     10001fd0 f   getele.obj
+ 0001:00000ff0       _IGDSread_one_ele          10001ff0 f   getele.obj
+ 0001:00001140       _IGDSparse_type10          10002140 f   getele.obj
+ 0001:00001180       _IGDSparse_surface_header  10002180 f   getele.obj
+ 0001:000011a0       _IGDSparse_dimension       100021a0 f   getele.obj
+ 0001:00001390       _IGDSparse_shared_cell_def 10002390 f   getele.obj
+ 0001:000014d0       _IGDSparse_shared_cell_inst 100024d0 f   getele.obj
+ 0001:00001620       _IGDSparse_complex         10002620 f   getele.obj
+ 0001:00001640       _IGDSparse_color_table     10002640 f   getele.obj
+ 0001:00001710       _IGDSswap_words            10002710 f   getele.obj
+ 0001:00001760       _IGDSunsign_sign_int       10002760 f   getele.obj
+ 0001:00001790       _IGDScp_common_hdr         10002790 f   getele.obj
+ 0001:00001860       _IGDSget_r_byte_offset     10002860 f   getele.obj
+ 0001:00001880       _IGDSfreeIgdsElem          10002880 f   getele.obj
+ 0001:00001890       _IGDSparse_cell_def        10002890 f   getele.obj
+ 0001:000018c0       _IGDSpush_file_status      100028c0 f   getele.obj
+ 0001:000019e0       _IGDSpop_file_status       100029e0 f   getele.obj
+ 0001:00001a90       _IGDScell_matrix_to_real_world 10002a90 f   getele.obj
+ 0001:00001af0       _IGDS2dpt_to3dpt           10002af0 f   getele.obj
+ 0001:00001b90       _IGDS2dcell_to_3dcell      10002b90 f   getele.obj
+ 0001:00001c00       _IGDSparse_raster          10002c00 f   getele.obj
+ 0001:00001f20       _IGDSparse_pattern_ele     10002f20 f   getele.obj
+ 0001:00002040       _IGDSparse_plotting_header 10003040 f   getele.obj
+ 0001:00002190       _IGDSparse_bundles         10003190 f   getele.obj
+ 0001:00002230       _IGDSparse_unknown         10003230 f   getele.obj
+ 0001:00002260       _IGDSparse_bscurve_data    10003260 f   getele.obj
+ 0001:00002390       _IGDSparse_bssurface_data  10003390 f   getele.obj
+ 0001:000026b0       _IGDSfree_complex_data     100036b0 f   getele.obj
+ 0001:000028c0       _IGDSparse_attribute       100038c0 f   getele.obj
+ 0001:00002af0       _IGDSparse_view_data       10003af0 f   getele.obj
+ 0001:00002b30       _IGDSparse_named_levels    10003b30 f   getele.obj
+ 0001:00002bf0       _IGDSparse_ty66_lv05       10003bf0 f   getele.obj
+ 0001:00002ca0       _IGDSparse_ty66_lv23       10003ca0 f   getele.obj
+ 0001:00002d30       _IGDSget_cur_filepos       10003d30 f   getele.obj
+ 0001:00002d40       _IGDSget_igds_filename     10003d40 f   getele.obj
+ 0001:00002d90       _IGDSget_offset_from_id    10003d90 f   getele.obj
+ 0001:00002f40       _IGDSparse_dim_typ66_1     10003f40 f   getele.obj
+ 0001:00003060       _IGDSopen_igds_file        10004060 f   getele.obj
+ 0001:00003120       _IGDSclose_igds_file       10004120 f   getele.obj
+ 0001:00003180       _IGDSparse_linestr         10004180 f   getele.obj
+ 0001:000031d0       _IGDSparse_point_string    100041d0 f   getele.obj
+ 0001:00003290       _IGDSparse_line            10004290 f   getele.obj
+ 0001:000032c0       _IGDSparse_type9           100042c0 f   getele.obj
+ 0001:00003420       _IGDSparse_ellipse         10004420 f   getele.obj
+ 0001:000034c0       _IGDSparse_arc             100044c0 f   getele.obj
+ 0001:000035b0       _IGDSparse_bssurface       100045b0 f   getele.obj
+ 0001:00003610       _IGDSparse_bsboundary      10004610 f   getele.obj
+ 0001:00003650       _IGDSparse_bscurve         10004650 f   getele.obj
+ 0001:00003690       _IGDSparse_bsknot          10004690 f   getele.obj
+ 0001:00003690       _IGDSparse_bsweight        10004690 f   getele.obj
+ 0001:000036c0       _IGDSparse_tcb             100046c0 f   getele.obj
+ 0001:000038f0       _IGDSparse_truncated_cone  100048f0 f   getele.obj
+ 0001:00003960       _IGDSparse_multiline       10004960 f   getele.obj
+ 0001:00003c80       _IGDSparse_text_string     10004c80 f   getele.obj
+ 0001:00003d60       _IGDSparse_text_node       10004d60 f   getele.obj
+ 0001:00003e10       _IGDSparse_named_view      10004e10 f   getele.obj
+ 0001:00003f20       _IGDSparse_cell_inst       10004f20 f   getele.obj
+ 0001:00003fb0       _IGDSparse_ele             10004fb0 f   getele.obj
+ 0001:00004440       _IGDSget_ele               10005440 f   getele.obj
+ 0001:00004750       _IGDSparse_surface_data    10005750 f   getele.obj
+ 0001:00004a00       _IGDSat_offset_get_ele     10005a00 f   getele.obj
+ 0001:00004a80       _IGDSget_ele_from_id       10005a80 f   getele.obj
+ 0001:00004ad0       _IGDSGetProfileElementsAtOffset 10005ad0 f   getele.obj
+ 0001:00004cd0       _IGDSget_nextCellHeader    10005cd0 f   getele.obj
+ 0001:00004d10       _IGDSget_dim_text_height   10005d10 f   getele.obj
+ 0001:00004dc0       _IGDSget_complex_data      10005dc0 f   getele.obj
+ 0001:00004e60       _IGDS_getWriteColorNumberFromRGB 10005e60 f   global.obj
+ 0001:00004fd0       _IGDS_getReadType9         10005fd0 f   global.obj
+ 0001:00004ff0       _IGDS_getWriteType9        10005ff0 f   global.obj
+ 0001:00005010       _IGDS_getReadFileType      10006010 f   global.obj
+ 0001:00005020       _IGDS_getReadDgnRange      10006020 f   global.obj
+ 0001:00005070       _IGDS_getReadViewFillMode  10006070 f   global.obj
+ 0001:00005090       _IGDS_getReadScaleFactor   10006090 f   global.obj
+ 0001:000050b0       _IGDS_getWriteScaleFactor  100060b0 f   global.obj
+ 0001:000050c0       _IGDS_getReadColorTable    100060c0 f   global.obj
+ 0001:000050f0       _IGDS_getWriteColorTable   100060f0 f   global.obj
+ 0001:00005120       _IGDS_getReadLevelSymbology 10006120 f   global.obj
+ 0001:00005150       _IGDS_getReadElementSymbologyOverrides 10006150 f   global.obj
+ 0001:00005240       _IGDS_getReadFileDim       10006240 f   global.obj
+ 0001:00005250       _IGDS_getWriteFileDim      10006250 f   global.obj
+ 0001:00005260       _IGDS_getReadNumElements   10006260 f   global.obj
+ 0001:00005270       _IGDS_getReadGlobalData    10006270 f   global.obj
+ 0001:00005290       _IGDS_getWriteGlobalData   10006290 f   global.obj
+ 0001:000052b0       _IGDS_putWriteGlobalData   100062b0 f   global.obj
+ 0001:000052e0       _IGDS_putReadGlobalData    100062e0 f   global.obj
+ 0001:00005310       _IGDS_getReadSharedCellOffset 10006310 f   global.obj
+ 0001:00005390       _IGDS_getReadNamedCellOffset 10006390 f   global.obj
+ 0001:00005470       _IGDS_getReadCellDefinitionOffset 10006470 f   global.obj
+ 0001:000055d0       _IGDSupdate_group_list     100065d0 f   global.obj
+ 0001:00005680       _IGDSgetNumberOfGroups     10006680 f   global.obj
+ 0001:00005690       _IGDSgetGroupInfo          10006690 f   global.obj
+ 0001:000056d0       _IGDS_getReadNextAssocId   100066d0 f   global.obj
+ 0001:000056e0       _IGDS_getWriteNextTextNodeNum 100066e0 f   global.obj
+ 0001:00005700       _IGDS_getWriteNextGroupNum 10006700 f   global.obj
+ 0001:00005710       _IGDScellIsGroupedHole     10006710 f   global.obj
+ 0001:000058b0       _IGDSgetReadCellNewName    100068b0 f   global.obj
+ 0001:000059b0       _IGDS_GetDefLayerComment   100069b0 f   global.obj
+ 0001:000059d0       _IGDS_GetDefLayerName      100069d0 f   global.obj
+ 0001:00005a70       _IGDS_FreeGlobalLevels     10006a70 f   global.obj
+ 0001:00005ad0       _IGDS_GetFirstUnNamedLevel 10006ad0 f   global.obj
+ 0001:00005b00       _IGDS_GetDefLevelNumber    10006b00 f   global.obj
+ 0001:00005b20       _IGDS_MapLevelNumToName    10006b20 f   global.obj
+ 0001:00005b90       _IGDS_LookForLevelName     10006b90 f   global.obj
+ 0001:00005c10       _IGDS_AddToUniqueLevelList 10006c10 f   global.obj
+ 0001:00005c60       _IGDSgetWriteStyleIdFromName 10006c60 f   global.obj
+ 0001:00005cf0       _IGDSgetReadStyleNameFromId 10006cf0 f   global.obj
+ 0001:00005d60       _IGDS_getWriteReferenceNumber 10006d60 f   global.obj
+ 0001:00005d70       _IGDSfreeGlobal            10006d70 f   global.obj
+ 0001:00005e40       _IGDSfreeGlobalData        10006e40 f   global.obj
+ 0001:00005e80       _IGDStransformReadDatabasePtsToWorld 10006e80 f   global.obj
+ 0001:00005f70       _IGDStransformWorldToReadDatabasePts 10006f70 f   global.obj
+ 0001:00006040       _IGDStransformWorldToWriteDatabasePts 10007040 f   global.obj
+ 0001:00006110       _IGDS_PutLevelsIntoGlobalData 10007110 f   global.obj
+ 0001:00006260       _IGDS_MapLevelNameToNum    10007260 f   global.obj
+ 0001:000062b0       _IGDSloadReadGlobalData    100072b0 f   global.obj
+ 0001:00006a50       _IGDS_initialize           10007a50 f   init.obj
+ 0001:00006be0       _IGDS_shutdown             10007be0 f   init.obj
+ 0001:00006bf0       _IGDSinit_ints             10007bf0 f   init.obj
+ 0001:00006c10       _IGDSinit_dbls             10007c10 f   init.obj
+ 0001:00006c40       _IGDS_atOffestAnalyzeLinkage 10007c40 f   linkage.obj
+ 0001:00007080       _IGDS_analyzeLinkage       10008080 f   linkage.obj
+ 0001:000070f0       _IGDSput_text_param        100080f0 f   linkage.obj
+ 0001:00007170       _IGDSparse_text_param      10008170 f   linkage.obj
+ 0001:00007220       _IGDSparse_UDLS_info       10008220 f   linkage.obj
+ 0001:00007290       _IGDSparse_assoc_pattern   10008290 f   linkage.obj
+ 0001:000073f0       _IGDSput_assoc_pattern     100083f0 f   linkage.obj
+ 0001:00007550       _IGDSparse_database_linkages 10008550 f   linkage.obj
+ 0001:000076a0       _IGDSparse_UserDataLinkages 100086a0 f   linkage.obj
+ 0001:00007790       _IGDS_putLinkage           10008790 f   linkage.obj
+ 0001:00007930       _IGDSlocate_load           10008930 f   locate.obj
+ 0001:00007950       _IGDSlocate_checkEle       10008950 f   locate.obj
+ 0001:00007a50       _IGDSxform_points          10008a50 f   matrix.obj
+ 0001:00007b30       _IGDSquaternion_to_matrix  10008b30 f   matrix.obj
+ 0001:00007c20       _IGDSrotmx_to_quat         10008c20 f   matrix.obj
+ 0001:00007e30       _IGDSmatrix_to_quaternion  10008e30 f   matrix.obj
+ 0001:00007f20       _IGDSmatrix_from_angle     10008f20 f   matrix.obj
+ 0001:00007f70       _IGDSidmx                  10008f70 f   matrix.obj
+ 0001:00007fb0       _IGDSintersect_two_lines   10008fb0 f   matrix.obj
+ 0001:00008020       _IGDSdimension_quaternion_to_matrix 10009020 f   matrix.obj
+ 0001:00008080       _IGDS2dmatrix_to_3dmatrix_dbl 10009080 f   matrix.obj
+ 0001:000080e0       _IGDSdimension_matrix_to_quaternion 100090e0 f   matrix.obj
+ 0001:00008140       _IGDSflip_two_points_matrix 10009140 f   matrix.obj
+ 0001:00008280       _IGDSgetEntityTypeLiteral  10009280 f   miscstr.obj
+ 0001:00008910       _IGDSstring_strip          10009910 f   miscstr.obj
+ 0001:00008970       _IGDS_2upper               10009970 f   miscstr.obj
+ 0001:000089c0       _IGDSfrewind_r             100099c0 f   miscstr.obj
+ 0001:000089d0       _IGDSfrewind_w             100099d0 f   miscstr.obj
+ 0001:000089e0       _IGDSfseek_w               100099e0 f   miscstr.obj
+ 0001:00008a00       _IGDSfseek_r               10009a00 f   miscstr.obj
+ 0001:00008a20       _IGDSdbls_to_ints          10009a20 f   miscval.obj
+ 0001:00008a60       _IGDSints_to_dbls          10009a60 f   miscval.obj
+ 0001:00008ad0       _IGDSpoints_range          10009ad0 f   miscval.obj
+ 0001:00008b90       _IGDSis_within_range       10009b90 f   miscval.obj
+ 0001:00008bd0       _IGDSreadColorTableFile    10009bd0 f   miscval.obj
+ 0001:00008cc0       _IGDScreateColorTableFile  10009cc0 f   miscval.obj
+ 0001:00008dc0       _IGDS_dist_from_2pts       10009dc0 f   miscval.obj
+ 0001:00008e10       _IGDS_point_at_distance    10009e10 f   miscval.obj
+ 0001:00008e90       _IGDS_point_at_dist_normal 10009e90 f   miscval.obj
+ 0001:00008f50       _IGDS_add_2vc              10009f50 f   miscval.obj
+ 0001:00008f80       _IGDSisMSTNfile            10009f80 f   miscval.obj
+ 0001:00009140       _IGDSget_matrix_n_scale    1000a140 f   mtxscale.obj
+ 0001:000092a0       _IGDS_init_write           1000a2a0 f   putele.obj
+ 0001:000092b0       _IGDScreate_cell_lib       1000a2b0 f   putele.obj
+ 0001:00009410       _IGDS3dpt_to_2dpt          1000a410 f   putele.obj
+ 0001:000094a0       _IGDSgetNumWordsInTextString 1000a4a0 f   putele.obj
+ 0001:000094e0       _IGDSwrt_one_ele           1000a4e0 f   putele.obj
+ 0001:000095f0       _IGDSwrite_dummy           1000a5f0 f   putele.obj
+ 0001:00009640       _IGDSwrite_complex         1000a640 f   putele.obj
+ 0001:00009690       _IGDSwrite_line            1000a690 f   putele.obj
+ 0001:00009700       _IGDSwrite_cell_inst       1000a700 f   putele.obj
+ 0001:000097d0       _IGDSwrite_cell_def        1000a7d0 f   putele.obj
+ 0001:00009800       _IGDSwrite_dimension       1000a800 f   putele.obj
+ 0001:00009a10       _IGDSwrite_shared_cell_inst 1000aa10 f   putele.obj
+ 0001:00009a10       _IGDSwrite_shared_cell_def 1000aa10 f   putele.obj
+ 0001:00009a90       _IGDSwrite_multiline       1000aa90 f   putele.obj
+ 0001:00009d40       _IGDSget_w_byte_offset     1000ad40 f   putele.obj
+ 0001:00009d50       _IGDSclose_cell_lib        1000ad50 f   putele.obj
+ 0001:00009db0       _IGDSinit_range            1000adb0 f   putele.obj
+ 0001:00009dd0       _IGDSaccumulate_range      1000add0 f   putele.obj
+ 0001:00009e20       _IGDSwrite_ellipse         1000ae20 f   putele.obj
+ 0001:00009ec0       _IGDSwrite_elliptical_arc  1000aec0 f   putele.obj
+ 0001:00009fa0       _IGDSwrite_truncated_cone  1000afa0 f   putele.obj
+ 0001:0000a020       _IGDSwrite_bscurve         1000b020 f   putele.obj
+ 0001:0000a060       _IGDSwrite_bsboundary      1000b060 f   putele.obj
+ 0001:0000a0c0       _IGDSwrite_bsknot          1000b0c0 f   putele.obj
+ 0001:0000a0c0       _IGDSwrite_bsweight        1000b0c0 f   putele.obj
+ 0001:0000a100       _IGDSwrite_bssurface       1000b100 f   putele.obj
+ 0001:0000a170       _IGDSat_offset_wrt_buf     1000b170 f   putele.obj
+ 0001:0000a1f0       _IGDSset_cur_w_file        1000b1f0 f   putele.obj
+ 0001:0000a2a0       _IGDSwrite_ref_file_type5  1000b2a0 f   putele.obj
+ 0001:0000a370       _IGDSwrite_named_view      1000b370 f   putele.obj
+ 0001:0000a450       _IGDSwrite_color_table     1000b450 f   putele.obj
+ 0001:0000a4e0       _IGDSwrite_raster          1000b4e0 f   putele.obj
+ 0001:0000a840       _IGDSwrite_pattern_ele     1000b840 f   putele.obj
+ 0001:0000a970       _IGDSwrite_plotting_header 1000b970 f   putele.obj
+ 0001:0000aad0       _IGDSwrite_bundles         1000bad0 f   putele.obj
+ 0001:0000ab80       _IGDSwrite_unknown         1000bb80 f   putele.obj
+ 0001:0000ac00       _IGDSwrite_attribute       1000bc00 f   putele.obj
+ 0001:0000ace0       _IGDSwrite_view_data       1000bce0 f   putele.obj
+ 0001:0000ad40       _IGDSwrite_named_levels    1000bd40 f   putele.obj
+ 0001:0000ae20       _IGDSwrite_ty66_lv05       1000be20 f   putele.obj
+ 0001:0000aef0       _IGDSwrite_tcb             1000bef0 f   putele.obj
+ 0001:0000b120       _IGDSwrite_dim_typ66_1     1000c120 f   putele.obj
+ 0001:0000b260       _IGDSput_dim_text_height   1000c260 f   putele.obj
+ 0001:0000b330       _IGDSwrite_ty66_lv23       1000c330 f   putele.obj
+ 0001:0000b3f0       _IGDSget_cur_w_file        1000c3f0 f   putele.obj
+ 0001:0000b400       _IGDScreate_igds_file      1000c400 f   putele.obj
+ 0001:0000b8d0       _IGDSwrite_linestring      1000c8d0 f   putele.obj
+ 0001:0000b960       _IGDSwrite_text_string     1000c960 f   putele.obj
+ 0001:0000ba60       _IGDSwrite_point_string    1000ca60 f   putele.obj
+ 0001:0000bb40       _IGDSwrite_text_node       1000cb40 f   putele.obj
+ 0001:0000bc00       _IGDSat_offset_put_bundle_ele 1000cc00 f   putele.obj
+ 0001:0000bc60       _IGDSwrite_bscurve_data    1000cc60 f   putele.obj
+ 0001:0000c020       _IGDSwrite_bssurface_data  1000d020 f   putele.obj
+ 0001:0000c460       _IGDSwrtEofClose           1000d460 f   putele.obj
+ 0001:0000c750       _IGDSput_ele               1000d750 f   putele.obj
+ 0001:0000cbb0       _IGDSat_offset_put_ele     1000dbb0 f   putele.obj
+ 0001:0000cc20       _IGDSput_complex_data      1000dc20 f   putele.obj
+ 0001:0000cca0       _IGDSput_cell              1000dca0 f   putele.obj
+ 0001:0000cdf0       _IGDSascii_to_rad50        1000ddf0 f   rad50.obj
+ 0001:0000cf20       _IGDSrad50_to_ascii        1000df20 f   rad50.obj
+ 0001:0000d0a0       _IGDSfont_tbl_setfilepos   1000e0a0 f   rcsfile.obj
+ 0001:0000d1d0       _IGDSfont_load_namemap     1000e1d0 f   rcsfile.obj
+ 0001:0000d340       _IGDSget_fontName          1000e340 f   rcsfile.obj
+ 0001:0000d3a0       _IGDSget_fontMap           1000e3a0 f   rcsfile.obj
+ 0001:0000d3c0       _IGDSget_fontNumber        1000e3c0 f   rcsfile.obj
+ 0001:0000d460       _IGDSparse_point_symbol_descriptor 1000e460 f   rcsfile.obj
+ 0001:0000d500       _IGDSfree_lstyle_rsc_file  1000e500 f   rcsfile.obj
+ 0001:0000d560       _IGDSparse_Alias_list_descriptor 1000e560 f   rcsfile.obj
+ 0001:0000d650       _IGDSparse_rsc_file_header 1000e650 f   rcsfile.obj
+ 0001:0000d6a0       _IGDSparse_rsc_lookup_table 1000e6a0 f   rcsfile.obj
+ 0001:0000d790       _IGDSresolve_RscFileType   1000e790 f   rcsfile.obj
+ 0001:0000d870       _IGDSfreeTextMap           1000e870 f   rcsfile.obj
+ 0001:0000d8a0       _IGDS_initRscFiles         1000e8a0 f   rcsfile.obj
+ 0001:0000d960       _IGDSparse_lstyleRscFile   1000e960 f   rcsfile.obj
+ 0001:0000e480       _IGDSsolids_build_tree     1000f480 f   soltree.obj
+ 0001:0000e540       _IGDSsolids_delete_tree    1000f540 f   soltree.obj
+ 0001:0000e580       @__security_check_cookie@4 1000f580 f   MSVCRT:secchk.obj
+ 0001:0000e590       __CIsin                    1000f590 f   MSVCRT:MSVCR80.dll
+ 0001:0000e596       __CIcos                    1000f596 f   MSVCRT:MSVCR80.dll
+ 0001:0000e5a0       __alloca_probe             1000f5a0     MSVCRT:chkstk.obj
+ 0001:0000e5a0       __chkstk                   1000f5a0 f   MSVCRT:chkstk.obj
+ 0001:0000e5cc       _memset                    1000f5cc f   MSVCRT:MSVCR80.dll
+ 0001:0000e5d2       _memcpy                    1000f5d2 f   MSVCRT:MSVCR80.dll
+ 0001:0000e5e0       __ftol2_sse                1000f5e0 f   MSVCRT:ftol2.obj
+ 0001:0000e5e9       __ftol2_pentium4           1000f5e9 f   MSVCRT:ftol2.obj
+ 0001:0000e5fc       __ftol2_sse_excpt          1000f5fc f   MSVCRT:ftol2.obj
+ 0001:0000e616       __ftol2                    1000f616 f   MSVCRT:ftol2.obj
+ 0001:0000e68c       __CIsqrt                   1000f68c f   MSVCRT:MSVCR80.dll
+ 0001:0000e692       __CIpow                    1000f692 f   MSVCRT:MSVCR80.dll
+ 0001:0000e6e5       __CRT_INIT@12              1000f6e5 f   MSVCRT:crtdll.obj
+ 0001:0000e99a       __DllMainCRTStartup@12     1000f99a f   MSVCRT:crtdll.obj
+ 0001:0000e9bb       ___report_gsfailure        1000f9bb f   MSVCRT:gs_report.obj
+ 0001:0000eb0f       __get_sse2_info            1000fb0f f   MSVCRT:cpu_disp.obj
+ 0001:0000eb6f       ___sse2_available_init     1000fb6f f   MSVCRT:cpu_disp.obj
+ 0001:0000eb7c       ___clean_type_info_names   1000fb7c f   MSVCRT:tncleanup.obj
+ 0001:0000eb88       __onexit                   1000fb88 f   MSVCRT:atonexit.obj
+ 0001:0000ec27       _atexit                    1000fc27 f   MSVCRT:atonexit.obj
+ 0001:0000ec39       __RTC_Initialize           1000fc39 f   MSVCRT:initsect.obj
+ 0001:0000ec5d       __RTC_Terminate            1000fc5d f   MSVCRT:initsect.obj
+ 0001:0000ec90       __ValidateImageBase        1000fc90 f   MSVCRT:pesect.obj
+ 0001:0000ecc0       __FindPESection            1000fcc0 f   MSVCRT:pesect.obj
+ 0001:0000ed02       __IsNonwritableInCurrentImage 1000fd02 f   MSVCRT:pesect.obj
+ 0001:0000ed6e       __initterm                 1000fd6e f   MSVCRT:MSVCR80.dll
+ 0001:0000ed74       __initterm_e               1000fd74 f   MSVCRT:MSVCR80.dll
+ 0001:0000ed7a       __amsg_exit                1000fd7a f   MSVCRT:MSVCR80.dll
+ 0001:0000ed80       ___CppXcptFilter           1000fd80 f   MSVCRT:MSVCR80.dll
+ 0001:0000ed86       _DllMain@12                1000fd86 f   MSVCRT:dllmain.obj
+ 0001:0000eda8       __SEH_prolog4              1000fda8 f   MSVCRT:sehprolg4.obj
+ 0001:0000eded       __SEH_epilog4              1000fded f   MSVCRT:sehprolg4.obj
+ 0001:0000ee01       __except_handler4          1000fe01 f   MSVCRT:chandler4gs.obj
+ 0001:0000ee24       ___security_init_cookie    1000fe24 f   MSVCRT:gs_support.obj
+ 0001:0000eeb8       __crt_debugger_hook        1000feb8 f   MSVCRT:MSVCR80.dll
+ 0001:0000eebe       ___clean_type_info_names_internal 1000febe f   MSVCRT:MSVCR80.dll
+ 0001:0000eec4       __unlock                   1000fec4 f   MSVCRT:MSVCR80.dll
+ 0001:0000eeca       ___dllonexit               1000feca f   MSVCRT:MSVCR80.dll
+ 0001:0000eed0       __lock                     1000fed0 f   MSVCRT:MSVCR80.dll
+ 0001:0000eed6       __except_handler4_common   1000fed6 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 10010000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 10010004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      10010008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 1001000c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 10010010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsDebuggerPresent@0 10010014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__SetUnhandledExceptionFilter@4 10010018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 1001001c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcess@0 10010020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  10010024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 10010028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             1001002c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 10010030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetSystemTimeAsFileTime@4 10010034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 10010038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__calloc              1001003c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp__bsearch             10010040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp__fclose              10010044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp__fflush              10010048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp__printf              1001004c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp__sprintf             10010050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___itoa               10010054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp__qsort               10010058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp__strchr              1001005c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp___CIsqrt             10010060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp__toupper             10010064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp__rewind              10010068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp__fwrite              1001006c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp___CIpow              10010070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp__fopen               10010074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp___encode_pointer     10010078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp___malloc_crt         1001007c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp___encoded_null       10010080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp___decode_pointer     10010084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp___initterm           10010088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp___initterm_e         1001008c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___amsg_exit          10010090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp___adjust_fdiv        10010094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp____CppXcptFilter     10010098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___crt_debugger_hook  1001009c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp____clean_type_info_names_internal 100100a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___unlock             100100a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp____dllonexit         100100a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___lock               100100ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___onexit             100100b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___except_handler4_common 100100b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp__strncpy             100100b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp__memcpy              100100bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp__ftell               100100c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp__fread               100100c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__fseek               100100c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__feof                100100cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__realloc             100100d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__free                100100d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__memset              100100d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___CIcos              100100dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___CIsin              100100e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__fgetc               100100e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp__malloc              100100e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp__stricmp             100100ec     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___stricmp            100100ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__close               100100f0     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___close              100100f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___creat              100100f4     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp__creat               100100f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       \177MSVCR80_NULL_THUNK_DATA 100100f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       ___xc_a                    100100fc     MSVCRT:cinitexe.obj
+ 0002:00000100       ___xc_z                    10010100     MSVCRT:cinitexe.obj
+ 0002:00000104       ___xi_a                    10010104     MSVCRT:cinitexe.obj
+ 0002:00000110       ___xi_z                    10010110     MSVCRT:cinitexe.obj
+ 0002:00000140       __real@41f0000000000000    10010140     assoc.obj
+ 0002:00000148       __real@4066800000000000    10010148     assoc.obj
+ 0002:00000150       __real@400921fb54442d18    10010150     assoc.obj
+ 0002:00000158       __real@4115f90000000000    10010158     assoc.obj
+ 0002:00000160       __real@3ed387fc762340f9    10010160     getele.obj
+ 0002:00000168       ??_C@_02JDPG@rb?$AA@       10010168     getele.obj
+ 0002:0000016c       ??_C@_02PLJDPFIO@00?$AA@   1001016c     getele.obj
+ 0002:00000170       ??_C@_0DP@NLGCMPOC@IGDSparse_surface_data?3?5cannot?5a@ 10010170     getele.obj
+ 0002:000001b0       ??_C@_0DP@NFPMAJDB@IGDSparse_surface_data?3?5cannot?5a@ 100101b0     getele.obj
+ 0002:000001f0       ??_C@_0CF@IKLGNPMJ@Default?5Microstation?5Level?5Numbe@ 100101f0     global.obj
+ 0002:00000218       __real@3ff0000000000000    10010218     global.obj
+ 0002:00000220       ??_C@_05LFHGFJK@?$CFs_?$CFd?$AA@ 10010220     global.obj
+ 0002:00000228       ??_C@_0L@PAJOEHEB@seed3d?4dgn?$AA@ 10010228     init.obj
+ 0002:00000234       ??_C@_0M@GFLDOAJM@color_w?4tbl?$AA@ 10010234     init.obj
+ 0002:00000240       ??_C@_09BJINOPG@color?4tbl?$AA@ 10010240     init.obj
+ 0002:00000250       __real@4139000000000000    10010250     linkage.obj
+ 0002:00000258       __real@4000000000000000    10010258     matrix.obj
+ 0002:00000260       __real@41dfffffffc00000    10010260     matrix.obj
+ 0002:00000268       __real@3fe0000000000000    10010268     matrix.obj
+ 0002:00000270       __real@3e112e0be826d695    10010270     matrix.obj
+ 0002:00000278       __real@3eb0c6f7a0b5ed8d    10010278     matrix.obj
+ 0002:00000280       ??_C@_0M@DDFFPPNK@IGDS_RASTER?$AA@ 10010280     miscstr.obj
+ 0002:0000028c       ??_C@_0BA@JBLAIMCC@IGDS_RASTERCOMP?$AA@ 1001028c     miscstr.obj
+ 0002:0000029c       ??_C@_0P@KJIFICME@IGDS_RASTERHDR?$AA@ 1001029c     miscstr.obj
+ 0002:000002ac       ??_C@_0BF@OOHCHAPD@IGDS_MICROSTATIONELM?$AA@ 100102ac     miscstr.obj
+ 0002:000002c4       ??_C@_0P@EGKKHMGP@IGDS_ATTRIBUTE?$AA@ 100102c4     miscstr.obj
+ 0002:000002d4       ??_C@_0P@DDCNOHOG@IGDS_MULTILINE?$AA@ 100102d4     miscstr.obj
+ 0002:000002e4       ??_C@_0BC@HINEDLOI@IGDS_SHARCELLINST?$AA@ 100102e4     miscstr.obj
+ 0002:000002f8       ??_C@_0BB@HGHOAOIN@IGDS_SHARCELLDEF?$AA@ 100102f8     miscstr.obj
+ 0002:0000030c       ??_C@_0P@JFEMGJLK@IGDS_DIMENSION?$AA@ 1001030c     miscstr.obj
+ 0002:0000031c       ??_C@_0M@OGLGNOCA@IGDS_BSPWEI?$AA@ 1001031c     miscstr.obj
+ 0002:00000328       ??_C@_0P@CDDNMOOD@IGDS_BSPCURHDR?$AA@ 10010328     miscstr.obj
+ 0002:00000338       ??_C@_0N@GKHALPNM@IGDS_SURFKNO?$AA@ 10010338     miscstr.obj
+ 0002:00000348       ??_C@_0N@KGJHGALK@IGDS_SURFBOU?$AA@ 10010348     miscstr.obj
+ 0002:00000358       ??_C@_0P@EEODFCCN@IGDS_BSPSURHDR?$AA@ 10010358     miscstr.obj
+ 0002:00000368       ??_C@_09KNDFCBEK@IGDS_CONE?$AA@ 10010368     miscstr.obj
+ 0002:00000374       ??_C@_0BC@JCOILPJL@IGDS_POINT_STRING?$AA@ 10010374     miscstr.obj
+ 0002:00000388       ??_C@_09IJPBBIHG@IGDS_POLE?$AA@ 10010388     miscstr.obj
+ 0002:00000394       ??_C@_0L@KCHECENK@IGDS_SOLID?$AA@ 10010394     miscstr.obj
+ 0002:000003a0       ??_C@_09MMGAAIOE@IGDS_SURF?$AA@ 100103a0     miscstr.obj
+ 0002:000003ac       ??_C@_09FLDKHGGO@IGDS_TEXT?$AA@ 100103ac     miscstr.obj
+ 0002:000003b8       ??_C@_08FPEGDPJA@IGDS_ARC?$AA@ 100103b8     miscstr.obj
+ 0002:000003c4       ??_C@_0N@PAGHKCGA@IGDS_ELLIPSE?$AA@ 100103c4     miscstr.obj
+ 0002:000003d4       ??_C@_0P@CEBCNJMG@IGDS_CPLXSHAPE?$AA@ 100103d4     miscstr.obj
+ 0002:000003e4       ??_C@_0L@EEOKHIAN@IGDS_CONIC?$AA@ 100103e4     miscstr.obj
+ 0002:000003f0       ??_C@_0N@NJIPNOJC@IGDS_CPLXSTR?$AA@ 100103f0     miscstr.obj
+ 0002:00000400       ??_C@_0L@DFFFFMMC@IGDS_CURVE?$AA@ 10010400     miscstr.obj
+ 0002:0000040c       ??_C@_0M@BEDGMJJF@IGDS_TYPE10?$AA@ 1001040c     miscstr.obj
+ 0002:00000418       ??_C@_0L@NJJFGALI@IGDS_TYPE9?$AA@ 10010418     miscstr.obj
+ 0002:00000424       ??_C@_0L@MAIOFBPJ@IGDS_TYPE8?$AA@ 10010424     miscstr.obj
+ 0002:00000430       ??_C@_0P@DLBEFIII@IGDS_TEXT_NODE?$AA@ 10010430     miscstr.obj
+ 0002:00000440       ??_C@_0L@OINCIJKJ@IGDS_SHAPE?$AA@ 10010440     miscstr.obj
+ 0002:0000044c       ??_C@_0L@HFCACPLE@IGDS_TYPE5?$AA@ 1001044c     miscstr.obj
+ 0002:00000458       ??_C@_0BA@DOAACGEA@IGDS_LINESTRING?$AA@ 10010458     miscstr.obj
+ 0002:00000468       ??_C@_09KAOOJEH@IGDS_LINE?$AA@ 10010468     miscstr.obj
+ 0002:00000474       ??_C@_09BAMOKOAJ@IGDS_CELL?$AA@ 10010474     miscstr.obj
+ 0002:00000480       ??_C@_0O@JIGHOFJM@IGDS_CELL_DEF?$AA@ 10010480     miscstr.obj
+ 0002:00000490       ??_C@_03ELIABIOC@w?$CLb?$AA@ 10010490     miscval.obj
+ 0002:00000498       __real@403f000000000000    10010498     miscval.obj
+ 0002:000004a0       _FILE_CREATE_MODE          100104a0     putele.obj
+ 0002:000004a4       ??_C@_03HMFOOINA@r?$CLb?$AA@ 100104a4     putele.obj
+ 0002:000004a8       ??_C@_04GILDDPFM@CLsl?$AA@ 100104a8     rcsfile.obj
+ 0002:000004b0       ??_C@_04KKHDOIOD@BLtf?$AA@ 100104b0     rcsfile.obj
+ 0002:000004b8       ??_C@_06PONNDPCL@SUBTRC?$AA@ 100104b8     soltree.obj
+ 0002:000004c0       ??_C@_06DOHCBJLJ@INTSCT?$AA@ 100104c0     soltree.obj
+ 0002:000004c8       ??_C@_05PFBKALKL@UNITE?$AA@ 100104c8     soltree.obj
+ 0002:000004d0       ??_C@_03CLLHMAC@RIB?$AA@   100104d0     soltree.obj
+ 0002:000004d4       ??_C@_06DIJNNANN@ROUNDV?$AA@ 100104d4     soltree.obj
+ 0002:000004dc       ??_C@_06DGDIGEGI@PROTRU?$AA@ 100104dc     soltree.obj
+ 0002:000004e4       ??_C@_03ODLKKDDL@CUT?$AA@  100104e4     soltree.obj
+ 0002:000004e8       ??_C@_04CHPFNFNO@BOSS?$AA@ 100104e8     soltree.obj
+ 0002:000004f0       ??_C@_04GGKHJMOF@HOLE?$AA@ 100104f0     soltree.obj
+ 0002:000004f8       ??_C@_06FJHCJBEP@ROUNDE?$AA@ 100104f8     soltree.obj
+ 0002:00000500       ??_C@_06EAMPINJ@CHAMFR?$AA@ 10010500     soltree.obj
+ 0002:00000508       ??_C@_03KIIMPPAI@SAT?$AA@  10010508     soltree.obj
+ 0002:0000050c       ??_C@_05CEBIDAFG@SOLID?$AA@ 1001050c     soltree.obj
+ 0002:00000514       ??_C@_06GOFJFMAB@DDPROJ?$AA@ 10010514     soltree.obj
+ 0002:0000051c       ??_C@_06JMPKFPDO@DDREVL?$AA@ 1001051c     soltree.obj
+ 0002:00000524       ??_C@_05CDAIFOEF@WEDGE?$AA@ 10010524     soltree.obj
+ 0002:0000052c       ??_C@_05JJGEPOMA@TORUS?$AA@ 1001052c     soltree.obj
+ 0002:00000534       ??_C@_04BCPDHJJK@CONE?$AA@ 10010534     soltree.obj
+ 0002:0000053c       ??_C@_06FKFPCBEF@SPHERE?$AA@ 1001053c     soltree.obj
+ 0002:00000544       ??_C@_04CELLJAAM@SLAB?$AA@ 10010544     soltree.obj
+ 0002:0000054c       __pRawDllMain              1001054c     MSVCRT:crtdll.obj
+ 0002:0000054c       __pDefaultRawDllMain       1001054c     MSVCRT:crtdll.obj
+ 0002:00000558       __load_config_used         10010558     MSVCRT:loadcfg.obj
+ 0002:000005d0       ___safe_se_handler_table   100105d0     <linker-defined>
+ 0002:000005d4       ___rtc_iaa                 100105d4     MSVCRT:initsect.obj
+ 0002:000005d8       ___rtc_izz                 100105d8     MSVCRT:initsect.obj
+ 0002:000005dc       ___rtc_taa                 100105dc     MSVCRT:initsect.obj
+ 0002:000005e0       ___rtc_tzz                 100105e0     MSVCRT:initsect.obj
+ 0002:0000066c       __IMPORT_DESCRIPTOR_MSVCR80 1001066c     MSVCRT:MSVCR80.dll
+ 0002:00000680       __IMPORT_DESCRIPTOR_KERNEL32 10010680     kernel32:KERNEL32.dll
+ 0002:00000694       __NULL_IMPORT_DESCRIPTOR   10010694     MSVCRT:MSVCR80.dll
+ 0003:00000000       __newmode                  10012000     newmode.obj
+ 0003:00000004       _IGDS_init_done            10012004     init.obj
+ 0003:00000058       ___security_cookie         10012058     MSVCRT:gs_cookie.obj
+ 0003:0000005c       ___security_cookie_complement 1001205c     MSVCRT:gs_cookie.obj
+ 0003:00000060       ___native_dllmain_reason   10012060     MSVCRT:natstart.obj
+ 0003:00000064       ___native_vcclrit_reason   10012064     MSVCRT:natstart.obj
+ 0003:00003734       ?__type_info_root_node@@3U__type_info_node@@A 10015734     MSVCRT:tncleanup.obj
+ 0003:0000373c       _t_count                   1001573c     <common>
+ 0003:00003740       _IGDSrsc_atbl              10015740     <common>
+ 0003:00003760       _IGDSglobal_r              10015760     <common>
+ 0003:00004b00       _IGDScell_r_file_name      10016b00     <common>
+ 0003:00004f00       _IGDSglobal_w              10016f00     <common>
+ 0003:000062a0       _IGDStext_map              100182a0     <common>
+ 0003:000062c0       _IGDSigds_r_file_name      100182c0     <common>
+ 0003:000066c0       _IGDScell_w_file_name      100186c0     <common>
+ 0003:00006ac0       _IGDSlast_r_file_name      10018ac0     <common>
+ 0003:00006ac4       _IGDScur_w_file_name       10018ac4     <common>
+ 0003:00006ac8       _IGDScur_wfp               10018ac8     <common>
+ 0003:00006acc       _IGDScell_wfp              10018acc     <common>
+ 0003:00006ad0       _IGDScell_rfp              10018ad0     <common>
+ 0003:00006ae0       _IGDSigds_w_file_name      10018ae0     <common>
+ 0003:00006ee0       _IGDScur_rfp               10018ee0     <common>
+ 0003:00006ee4       _IGDSigds_wfp              10018ee4     <common>
+ 0003:00006ee8       _IGDSlast_w_file_name      10018ee8     <common>
+ 0003:00006f00       _IGDSconfig_var            10018f00     <common>
+ 0003:00007200       _IGDScur_r_file_name       10019200     <common>
+ 0003:00007204       __adjust_fdiv              10019204     <common>
+ 0003:00007208       ___native_startup_state    10019208     <common>
+ 0003:0000720c       ___native_startup_lock     1001920c     <common>
+ 0003:00007210       ___onexitend               10019210     <common>
+ 0003:00007214       ___onexitbegin             10019214     <common>
+ 0003:00007218       ___sse2_available          10019218     <common>
+ 0003:0000721c       ___dyn_tls_init_callback   1001921c     <common>
+
+ entry point at        0001:0000e99a
+
+ Static symbols
+
+ 0001:000055a0       _IGDSnew_group_list_elem   100065a0 f   global.obj
+ 0001:0000e100       _get_solid_type            1000f100 f   soltree.obj
+ 0001:0000e310       _get_solid_group_id        1000f310 f   soltree.obj
+ 0001:0000e380       _add_node                  1000f380 f   soltree.obj
+ 0001:0000e698       _pre_c_init                1000f698 f   MSVCRT:crtdll.obj
+ 0001:0000e884       ___DllMainCRTStartup       1000f884 f   MSVCRT:crtdll.obj
+ 0001:0000eabf       _has_osfxsr_set            1000fabf f   MSVCRT:cpu_disp.obj

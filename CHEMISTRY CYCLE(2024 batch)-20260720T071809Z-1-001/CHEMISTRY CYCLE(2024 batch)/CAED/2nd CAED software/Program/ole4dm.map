@@ -1,0 +1,231 @@
+ ole4dm
+
+ Timestamp is 46b39d33 (Fri Aug 03 16:25:07 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000c70H .text                   CODE
+ 0002:00000000 00000458H .orpc                   CODE
+ 0003:00000000 000000e8H .idata$5                DATA
+ 0003:000000e8 00000004H .CRT$XCA                DATA
+ 0003:000000ec 00000004H .CRT$XCZ                DATA
+ 0003:000000f0 00000004H .CRT$XIA                DATA
+ 0003:000000f4 00000004H .CRT$XIAA               DATA
+ 0003:000000f8 00000004H .CRT$XIZ                DATA
+ 0003:00000100 000008d0H .rdata                  DATA
+ 0003:000009d0 00000030H .rdata$debug            DATA
+ 0003:00000a00 00000004H .rdata$sxdata           DATA
+ 0003:00000a04 00000004H .rtc$IAA                DATA
+ 0003:00000a08 00000004H .rtc$IZZ                DATA
+ 0003:00000a0c 00000004H .rtc$TAA                DATA
+ 0003:00000a10 00000004H .rtc$TZZ                DATA
+ 0003:00000a18 00000064H .xdata$x                DATA
+ 0003:00000a7c 00000050H .idata$2                DATA
+ 0003:00000acc 00000014H .idata$3                DATA
+ 0003:00000ae0 000000e8H .idata$4                DATA
+ 0003:00000bc8 000004b4H .idata$6                DATA
+ 0003:00001080 00000083H .edata                  DATA
+ 0004:00000000 00000120H .data                   DATA
+ 0004:00000120 0000035cH .bss                    DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _MIDL_user_allocate@4      10001000 f   OLE4XMIT.obj
+ 0001:00000010       _MIDL_user_free@4          10001010 f   OLE4XMIT.obj
+ 0001:00000020       _SHAPE_to_xmit@8           10001020 f   OLE4XMIT.obj
+ 0001:00000130       _SHAPE_from_xmit@8         10001130 f   OLE4XMIT.obj
+ 0001:00000240       _SHAPE_free_inst@4         10001240 f   OLE4XMIT.obj
+ 0001:00000250       _SHAPE_free_xmit@4         10001250 f   OLE4XMIT.obj
+ 0001:00000260       _IEnumHWND_Next_Proxy@16   10001260 f   OLE4XMIT.obj
+ 0001:00000290       _IEnumHWND_Next_Stub@16    10001290 f   OLE4XMIT.obj
+ 0001:000002b0       _GetProxyDllInfo@8         100012b0 f   dlldata.obj
+ 0001:000002e0       _DllGetClassObject@12      100012e0 f   dlldata.obj
+ 0001:00000320       _DllCanUnloadNow@0         10001320 f   dlldata.obj
+ 0001:00000330       _CStdStubBuffer_Release@4  10001330 f   dlldata.obj
+ 0001:00000350       _IEnumHWND_RemoteNext_Proxy@16 10001350 f   ole4dm_p.obj
+ 0001:00000380       _IEnumHWND_RemoteNext_Thunk@4 10001380 f   ole4dm_p.obj
+ 0001:000003f0       _SHAPE_XmitTranslateToXmit@4 100013f0 f i ole4dm_p.obj
+ 0001:00000410       _SHAPE_XmitTranslateFromXmit@4 10001410 f i ole4dm_p.obj
+ 0001:00000430       _SHAPE_XmitFreeXmit@4      10001430 f i ole4dm_p.obj
+ 0001:00000450       _SHAPE_XmitFreeInst@4      10001450 f i ole4dm_p.obj
+ 0001:00000462       _NdrCStdStubBuffer_Release@8 10001462 f   rpcrt4:RPCRT4.dll
+ 0001:00000468       _CStdStubBuffer_AddRef@4   10001468 f   rpcrt4:RPCRT4.dll
+ 0001:0000046e       _IUnknown_QueryInterface_Proxy@12 1000146e f   rpcrt4:RPCRT4.dll
+ 0001:00000474       _NdrOleFree@4              10001474 f   rpcrt4:RPCRT4.dll
+ 0001:0000047a       _NdrOleAllocate@4          1000147a f   rpcrt4:RPCRT4.dll
+ 0001:00000480       _CStdStubBuffer_CountRefs@4 10001480 f   rpcrt4:RPCRT4.dll
+ 0001:00000486       _IUnknown_Release_Proxy@4  10001486 f   rpcrt4:RPCRT4.dll
+ 0001:0000048c       _CStdStubBuffer_DebugServerQueryInterface@8 1000148c f   rpcrt4:RPCRT4.dll
+ 0001:00000492       _CStdStubBuffer_QueryInterface@12 10001492 f   rpcrt4:RPCRT4.dll
+ 0001:00000498       _IUnknown_AddRef_Proxy@4   10001498 f   rpcrt4:RPCRT4.dll
+ 0001:0000049e       _CStdStubBuffer_DebugServerRelease@8 1000149e f   rpcrt4:RPCRT4.dll
+ 0001:000004a4       _CStdStubBuffer_Disconnect@4 100014a4 f   rpcrt4:RPCRT4.dll
+ 0001:000004aa       _CStdStubBuffer_IsIIDSupported@8 100014aa f   rpcrt4:RPCRT4.dll
+ 0001:000004b0       _NdrClientCall2            100014b0 f   rpcrt4:RPCRT4.dll
+ 0001:000004b6       _CStdStubBuffer_Invoke@12  100014b6 f   rpcrt4:RPCRT4.dll
+ 0001:000004bc       _CStdStubBuffer_Connect@8  100014bc f   rpcrt4:RPCRT4.dll
+ 0001:000004c2       _HWND_UserUnmarshal@12     100014c2 f   ole32:ole32.dll
+ 0001:000004c8       _HWND_UserMarshal@12       100014c8 f   ole32:ole32.dll
+ 0001:000004ce       _HWND_UserFree@8           100014ce f   ole32:ole32.dll
+ 0001:000004d4       _HWND_UserSize@12          100014d4 f   ole32:ole32.dll
+ 0001:000004da       @__security_check_cookie@4 100014da f   MSVCRT:secchk.obj
+ 0001:00000536       __CRT_INIT@12              10001536 f   MSVCRT:crtdll.obj
+ 0001:000007eb       __DllMainCRTStartup@12     100017eb f   MSVCRT:crtdll.obj
+ 0001:0000080c       ___report_gsfailure        1000180c f   MSVCRT:gs_report.obj
+ 0001:00000910       ___clean_type_info_names   10001910 f   MSVCRT:tncleanup.obj
+ 0001:0000091c       __onexit                   1000191c f   MSVCRT:atonexit.obj
+ 0001:000009bb       _atexit                    100019bb f   MSVCRT:atonexit.obj
+ 0001:000009cd       __RTC_Initialize           100019cd f   MSVCRT:initsect.obj
+ 0001:000009f1       __RTC_Terminate            100019f1 f   MSVCRT:initsect.obj
+ 0001:00000a20       __ValidateImageBase        10001a20 f   MSVCRT:pesect.obj
+ 0001:00000a50       __FindPESection            10001a50 f   MSVCRT:pesect.obj
+ 0001:00000a92       __IsNonwritableInCurrentImage 10001a92 f   MSVCRT:pesect.obj
+ 0001:00000afe       __initterm                 10001afe f   MSVCRT:MSVCR80.dll
+ 0001:00000b04       __initterm_e               10001b04 f   MSVCRT:MSVCR80.dll
+ 0001:00000b0a       __amsg_exit                10001b0a f   MSVCRT:MSVCR80.dll
+ 0001:00000b10       ___CppXcptFilter           10001b10 f   MSVCRT:MSVCR80.dll
+ 0001:00000b16       _DllMain@12                10001b16 f   MSVCRT:dllmain.obj
+ 0001:00000b38       __SEH_prolog4              10001b38 f   MSVCRT:sehprolg4.obj
+ 0001:00000b7d       __SEH_epilog4              10001b7d f   MSVCRT:sehprolg4.obj
+ 0001:00000b91       __except_handler4          10001b91 f   MSVCRT:chandler4gs.obj
+ 0001:00000bb4       ___security_init_cookie    10001bb4 f   MSVCRT:gs_support.obj
+ 0001:00000c48       __crt_debugger_hook        10001c48 f   MSVCRT:MSVCR80.dll
+ 0001:00000c4e       ___clean_type_info_names_internal 10001c4e f   MSVCRT:MSVCR80.dll
+ 0001:00000c54       __unlock                   10001c54 f   MSVCRT:MSVCR80.dll
+ 0001:00000c5a       ___dllonexit               10001c5a f   MSVCRT:MSVCR80.dll
+ 0001:00000c60       __lock                     10001c60 f   MSVCRT:MSVCR80.dll
+ 0001:00000c66       __except_handler4_common   10001c66 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __OLE4DM_IID_Lookup@8      10002000 f   ole4dm_p.obj
+ 0003:00000000       __imp__GetSystemTimeAsFileTime@4 10003000     kernel32:KERNEL32.dll
+ 0003:00000004       __imp__GetCurrentProcessId@0 10003004     kernel32:KERNEL32.dll
+ 0003:00000008       __imp__GetCurrentThreadId@0 10003008     kernel32:KERNEL32.dll
+ 0003:0000000c       __imp__GetTickCount@0      1000300c     kernel32:KERNEL32.dll
+ 0003:00000010       __imp__QueryPerformanceCounter@4 10003010     kernel32:KERNEL32.dll
+ 0003:00000014       __imp__DisableThreadLibraryCalls@4 10003014     kernel32:KERNEL32.dll
+ 0003:00000018       __imp__IsDebuggerPresent@0 10003018     kernel32:KERNEL32.dll
+ 0003:0000001c       __imp__SetUnhandledExceptionFilter@4 1000301c     kernel32:KERNEL32.dll
+ 0003:00000020       __imp__UnhandledExceptionFilter@4 10003020     kernel32:KERNEL32.dll
+ 0003:00000024       __imp__GetCurrentProcess@0 10003024     kernel32:KERNEL32.dll
+ 0003:00000028       __imp__TerminateProcess@8  10003028     kernel32:KERNEL32.dll
+ 0003:0000002c       __imp__InterlockedCompareExchange@12 1000302c     kernel32:KERNEL32.dll
+ 0003:00000030       __imp__Sleep@4             10003030     kernel32:KERNEL32.dll
+ 0003:00000034       __imp__InterlockedExchange@8 10003034     kernel32:KERNEL32.dll
+ 0003:00000038       \177KERNEL32_NULL_THUNK_DATA 10003038     kernel32:KERNEL32.dll
+ 0003:0000003c       __imp___except_handler4_common 1000303c     MSVCRT:MSVCR80.dll
+ 0003:00000040       __imp___onexit             10003040     MSVCRT:MSVCR80.dll
+ 0003:00000044       __imp___lock               10003044     MSVCRT:MSVCR80.dll
+ 0003:00000048       __imp____dllonexit         10003048     MSVCRT:MSVCR80.dll
+ 0003:0000004c       __imp___unlock             1000304c     MSVCRT:MSVCR80.dll
+ 0003:00000050       __imp____clean_type_info_names_internal 10003050     MSVCRT:MSVCR80.dll
+ 0003:00000054       __imp___crt_debugger_hook  10003054     MSVCRT:MSVCR80.dll
+ 0003:00000058       __imp____CppXcptFilter     10003058     MSVCRT:MSVCR80.dll
+ 0003:0000005c       __imp__malloc              1000305c     MSVCRT:MSVCR80.dll
+ 0003:00000060       __imp__free                10003060     MSVCRT:MSVCR80.dll
+ 0003:00000064       __imp___encode_pointer     10003064     MSVCRT:MSVCR80.dll
+ 0003:00000068       __imp___malloc_crt         10003068     MSVCRT:MSVCR80.dll
+ 0003:0000006c       __imp___encoded_null       1000306c     MSVCRT:MSVCR80.dll
+ 0003:00000070       __imp___decode_pointer     10003070     MSVCRT:MSVCR80.dll
+ 0003:00000074       __imp___initterm           10003074     MSVCRT:MSVCR80.dll
+ 0003:00000078       __imp___initterm_e         10003078     MSVCRT:MSVCR80.dll
+ 0003:0000007c       __imp___amsg_exit          1000307c     MSVCRT:MSVCR80.dll
+ 0003:00000080       __imp___adjust_fdiv        10003080     MSVCRT:MSVCR80.dll
+ 0003:00000084       \177MSVCR80_NULL_THUNK_DATA 10003084     MSVCRT:MSVCR80.dll
+ 0003:00000088       __imp__IUnknown_AddRef_Proxy@4 10003088     rpcrt4:RPCRT4.dll
+ 0003:0000008c       __imp__NdrDllCanUnloadNow@4 1000308c     rpcrt4:RPCRT4.dll
+ 0003:00000090       __imp__NdrDllGetClassObject@24 10003090     rpcrt4:RPCRT4.dll
+ 0003:00000094       __imp__CStdStubBuffer_AddRef@4 10003094     rpcrt4:RPCRT4.dll
+ 0003:00000098       __imp__IUnknown_QueryInterface_Proxy@12 10003098     rpcrt4:RPCRT4.dll
+ 0003:0000009c       __imp__CStdStubBuffer_Connect@8 1000309c     rpcrt4:RPCRT4.dll
+ 0003:000000a0       __imp__CStdStubBuffer_Invoke@12 100030a0     rpcrt4:RPCRT4.dll
+ 0003:000000a4       __imp__NdrClientCall2      100030a4     rpcrt4:RPCRT4.dll
+ 0003:000000a8       __imp__CStdStubBuffer_IsIIDSupported@8 100030a8     rpcrt4:RPCRT4.dll
+ 0003:000000ac       __imp__CStdStubBuffer_Disconnect@4 100030ac     rpcrt4:RPCRT4.dll
+ 0003:000000b0       __imp__CStdStubBuffer_DebugServerRelease@8 100030b0     rpcrt4:RPCRT4.dll
+ 0003:000000b4       __imp__NdrCStdStubBuffer_Release@8 100030b4     rpcrt4:RPCRT4.dll
+ 0003:000000b8       __imp__CStdStubBuffer_QueryInterface@12 100030b8     rpcrt4:RPCRT4.dll
+ 0003:000000bc       __imp__CStdStubBuffer_DebugServerQueryInterface@8 100030bc     rpcrt4:RPCRT4.dll
+ 0003:000000c0       __imp__IUnknown_Release_Proxy@4 100030c0     rpcrt4:RPCRT4.dll
+ 0003:000000c4       __imp__CStdStubBuffer_CountRefs@4 100030c4     rpcrt4:RPCRT4.dll
+ 0003:000000c8       __imp__NdrOleAllocate@4    100030c8     rpcrt4:RPCRT4.dll
+ 0003:000000cc       __imp__NdrOleFree@4        100030cc     rpcrt4:RPCRT4.dll
+ 0003:000000d0       \177RPCRT4_NULL_THUNK_DATA 100030d0     rpcrt4:RPCRT4.dll
+ 0003:000000d4       __imp__HWND_UserMarshal@12 100030d4     ole32:ole32.dll
+ 0003:000000d8       __imp__HWND_UserFree@8     100030d8     ole32:ole32.dll
+ 0003:000000dc       __imp__HWND_UserSize@12    100030dc     ole32:ole32.dll
+ 0003:000000e0       __imp__HWND_UserUnmarshal@12 100030e0     ole32:ole32.dll
+ 0003:000000e4       \177ole32_NULL_THUNK_DATA  100030e4     ole32:ole32.dll
+ 0003:000000e8       ___xc_a                    100030e8     MSVCRT:cinitexe.obj
+ 0003:000000ec       ___xc_z                    100030ec     MSVCRT:cinitexe.obj
+ 0003:000000f0       ___xi_a                    100030f0     MSVCRT:cinitexe.obj
+ 0003:000000f8       ___xi_z                    100030f8     MSVCRT:cinitexe.obj
+ 0003:0000011c       __pRawDllMain              1000311c     MSVCRT:crtdll.obj
+ 0003:0000011c       __pDefaultRawDllMain       1000311c     MSVCRT:crtdll.obj
+ 0003:00000674       __IOle3DObjectStubVtbl     10003674     ole4dm_p.obj
+ 0003:000006cc       __IOleLocateStubVtbl       100036cc     ole4dm_p.obj
+ 0003:00000724       __IOleInPlaceViewsStubVtbl 10003724     ole4dm_p.obj
+ 0003:0000077c       __IOleInPlaceActive3DObjectStubVtbl 1000377c     ole4dm_p.obj
+ 0003:000007d4       __IOleInPlace3DSiteStubVtbl 100037d4     ole4dm_p.obj
+ 0003:0000083c       __IEnumHWNDStubVtbl        1000383c     ole4dm_p.obj
+ 0003:00000874       __OLE4DM_InterfaceNamesList 10003874     ole4dm_p.obj
+ 0003:00000890       _OLE4DM_ProxyFileInfo      10003890     ole4dm_p.obj
+ 0003:000008b8       _IID_IOle3DObject          100038b8     ole4dm_i.obj
+ 0003:000008c8       _IID_IOleLocate            100038c8     ole4dm_i.obj
+ 0003:000008d8       _IID_IOleInPlaceViews      100038d8     ole4dm_i.obj
+ 0003:000008e8       _IID_IOleInPlaceActive3DObject 100038e8     ole4dm_i.obj
+ 0003:000008f8       _IID_IOleInPlace3DSite     100038f8     ole4dm_i.obj
+ 0003:00000908       _IID_IEnumHWND             10003908     ole4dm_i.obj
+ 0003:00000918       ??_C@_09PFMMKCHC@IEnumHWND?$AA@ 10003918     ole4dm_p.obj
+ 0003:00000924       ??_C@_0BC@GPFGPCCM@IOleInPlace3DSite?$AA@ 10003924     ole4dm_p.obj
+ 0003:00000938       ??_C@_0BK@JPDDCAEB@IOleInPlaceActive3DObject?$AA@ 10003938     ole4dm_p.obj
+ 0003:00000954       ??_C@_0BB@DGIMJCJN@IOleInPlaceViews?$AA@ 10003954     ole4dm_p.obj
+ 0003:00000968       ??_C@_0L@BIODIJCM@IOleLocate?$AA@ 10003968     ole4dm_p.obj
+ 0003:00000974       ??_C@_0N@HGMIPLOD@IOle3DObject?$AA@ 10003974     ole4dm_p.obj
+ 0003:00000988       __load_config_used         10003988     MSVCRT:loadcfg.obj
+ 0003:00000a00       ___safe_se_handler_table   10003a00     <linker-defined>
+ 0003:00000a04       ___rtc_iaa                 10003a04     MSVCRT:initsect.obj
+ 0003:00000a08       ___rtc_izz                 10003a08     MSVCRT:initsect.obj
+ 0003:00000a0c       ___rtc_taa                 10003a0c     MSVCRT:initsect.obj
+ 0003:00000a10       ___rtc_tzz                 10003a10     MSVCRT:initsect.obj
+ 0003:00000a7c       __IMPORT_DESCRIPTOR_RPCRT4 10003a7c     rpcrt4:RPCRT4.dll
+ 0003:00000a90       __IMPORT_DESCRIPTOR_ole32  10003a90     ole32:ole32.dll
+ 0003:00000aa4       __IMPORT_DESCRIPTOR_MSVCR80 10003aa4     MSVCRT:MSVCR80.dll
+ 0003:00000ab8       __IMPORT_DESCRIPTOR_KERNEL32 10003ab8     kernel32:KERNEL32.dll
+ 0003:00000acc       __NULL_IMPORT_DESCRIPTOR   10003acc     rpcrt4:RPCRT4.dll
+ 0004:00000000       __newmode                  10005000     newmode.obj
+ 0004:00000004       ___security_cookie         10005004     MSVCRT:gs_cookie.obj
+ 0004:00000008       ___security_cookie_complement 10005008     MSVCRT:gs_cookie.obj
+ 0004:0000000c       ___native_dllmain_reason   1000500c     MSVCRT:natstart.obj
+ 0004:00000010       ___native_vcclrit_reason   10005010     MSVCRT:natstart.obj
+ 0004:00000014       __IOle3DObjectProxyVtbl    10005014     ole4dm_p.obj
+ 0004:0000002c       __IOleLocateProxyVtbl      1000502c     ole4dm_p.obj
+ 0004:00000048       __IOleInPlaceViewsProxyVtbl 10005048     ole4dm_p.obj
+ 0004:0000006c       __IOleInPlaceActive3DObjectProxyVtbl 1000506c     ole4dm_p.obj
+ 0004:00000094       __IOleInPlace3DSiteProxyVtbl 10005094     ole4dm_p.obj
+ 0004:000000b4       __IEnumHWNDProxyVtbl       100050b4     ole4dm_p.obj
+ 0004:000000d8       __OLE4DM_ProxyVtblList     100050d8     ole4dm_p.obj
+ 0004:000000f4       __OLE4DM_StubVtblList      100050f4     ole4dm_p.obj
+ 0004:00000110       _aProxyFileList            10005110     dlldata.obj
+ 0004:0000044c       ?__type_info_root_node@@3U__type_info_node@@A 1000544c     MSVCRT:tncleanup.obj
+ 0004:00000454       _gPFactory                 10005454     dlldata.obj
+ 0004:00000464       __adjust_fdiv              10005464     <common>
+ 0004:00000468       ___native_startup_state    10005468     <common>
+ 0004:0000046c       ___native_startup_lock     1000546c     <common>
+ 0004:00000470       ___onexitend               10005470     <common>
+ 0004:00000474       ___onexitbegin             10005474     <common>
+ 0004:00000478       ___dyn_tls_init_callback   10005478     <common>
+
+ entry point at        0001:000007eb
+
+ Static symbols
+
+ 0001:000003c0       _IOleLocate_XMITSHAPEExprEval_0000@4 100013c0 f    CIL library: CIL module
+ 0001:000004e9       _pre_c_init                100014e9 f   MSVCRT:crtdll.obj
+ 0001:000006d5       ___DllMainCRTStartup       100016d5 f   MSVCRT:crtdll.obj

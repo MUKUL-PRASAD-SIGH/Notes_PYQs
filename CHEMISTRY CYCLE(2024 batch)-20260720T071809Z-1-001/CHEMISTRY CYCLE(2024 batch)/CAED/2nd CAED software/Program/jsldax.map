@@ -1,0 +1,672 @@
+ jsldax
+
+ Timestamp is 46b3a475 (Fri Aug 03 16:56:05 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000368dH .text                   CODE
+ 0001:00003690 00000364H .text$x                 CODE
+ 0001:00003a00 000000f6H .text$yc                CODE
+ 0002:00000000 00000220H .idata$5                DATA
+ 0002:00000220 00000004H .CRT$XCA                DATA
+ 0002:00000224 00000020H .CRT$XCU                DATA
+ 0002:00000244 00000004H .CRT$XCZ                DATA
+ 0002:00000248 00000004H .CRT$XIA                DATA
+ 0002:0000024c 00000004H .CRT$XIAA               DATA
+ 0002:00000250 00000004H .CRT$XIZ                DATA
+ 0002:00000260 00000930H .rdata                  DATA
+ 0002:00000b90 00000030H .rdata$debug            DATA
+ 0002:00000bc0 00000664H .rdata$r                DATA
+ 0002:00001230 0000004cH .rdata$sxdata           DATA
+ 0002:0000127c 00000004H .rtc$IAA                DATA
+ 0002:00001280 00000004H .rtc$IZZ                DATA
+ 0002:00001284 00000004H .rtc$TAA                DATA
+ 0002:00001288 00000004H .rtc$TZZ                DATA
+ 0002:00001290 000003ccH .xdata$x                DATA
+ 0002:0000165c 00000000H ATL$__a                 DATA
+ 0002:0000165c 00000000H ATL$__z                 DATA
+ 0002:0000165c 000000dcH .idata$2                DATA
+ 0002:00001738 00000014H .idata$3                DATA
+ 0002:0000174c 00000220H .idata$4                DATA
+ 0002:0000196c 00000c38H .idata$6                DATA
+ 0002:000025b0 00000069H .edata                  DATA
+ 0003:00000000 000017bcH .data                   DATA
+ 0003:000017c0 000007c4H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000013       ___safe_se_handler_count   00000013     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??1HCurvatureComb@@QAE@XZ  10001030 f   hCurvComb.obj
+ 0001:00000040       ?Initialize@HCurvatureComb@@QAEJXZ 10001040 f   hCurvComb.obj
+ 0001:00000050       ?QueryInterface@IJHighlightSetsImp@JHighlightSets@@UAGJABU_GUID@@PAPAX@Z 10001050 f   Hlights.obj
+ 0001:00000050       ?QueryInterface@IHelperImp@HCurvatureComb@@UAGJABU_GUID@@PAPAX@Z 10001050 f   hCurvComb.obj
+ 0001:00000050       ?QueryInterface@IJHighlightSetImp@JHighlightSet@@UAGJABU_GUID@@PAPAX@Z 10001050 f   HLIGHT.obj
+ 0001:00000070       ?AddRef@IHelperImp@HCurvatureComb@@UAGKXZ 10001070 f   hCurvComb.obj
+ 0001:00000090       ?Release@IHelperImp@HCurvatureComb@@UAGKXZ 10001090 f   hCurvComb.obj
+ 0001:000000b0       ?Bind@IHelperImp@HCurvatureComb@@UAGJPAUIUnknown@@@Z 100010b0 f   hCurvComb.obj
+ 0001:000000d0       ?GetBinding@IHelperImp@HCurvatureComb@@UAGJPAPAUIUnknown@@@Z 100010d0 f   hCurvComb.obj
+ 0001:000000f0       ?SetParent@IHelperImp@HCurvatureComb@@UAGJPAUIUnknown@@@Z 100010f0 f   hCurvComb.obj
+ 0001:00000110       ?GetClassID@IHelperImp@HCurvatureComb@@UAGJPAU_GUID@@@Z 10001110 f   hCurvComb.obj
+ 0001:00000140       ?AddRef@IHCurvatureCombImp@HCurvatureComb@@UAGKXZ 10001140 f   hCurvComb.obj
+ 0001:00000160       ?Release@IHCurvatureCombImp@HCurvatureComb@@UAGKXZ 10001160 f   hCurvComb.obj
+ 0001:00000180       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10001180 f i hCurvComb.obj
+ 0001:00000180       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 10001180 f i HLIGHT.obj
+ 0001:00000190       _IsEqualGUID               10001190 f i hCurvComb.obj
+ 0001:00000230       ?Release@HCurvatureComb@@UAGKXZ 10001230 f   hCurvComb.obj
+ 0001:00000280       ?QueryInterface@HCurvatureComb@@UAGJABU_GUID@@PAPAX@Z 10001280 f   hCurvComb.obj
+ 0001:00000310       ?SetShowComb@IHCurvatureCombImp@HCurvatureComb@@UAGJH@Z 10001310 f   hCurvComb.obj
+ 0001:00000440       ?GetShowComb@IHCurvatureCombImp@HCurvatureComb@@UAGJPAH@Z 10001440 f   hCurvComb.obj
+ 0001:000004c0       ??0HCurvatureComb@@QAE@PAUIUnknown@@@Z 100014c0 f   hCurvComb.obj
+ 0001:000004f0       ??0JDisplayElementsList@JHighlightSet@@QAE@XZ 100014f0 f   HLIGHT.obj
+ 0001:00000560       ??1JDisplayElementsList@JHighlightSet@@UAE@XZ 10001560 f   HLIGHT.obj
+ 0001:000005b0       ?AddRef@JHighlightSet@@UAGKXZ 100015b0 f   HLIGHT.obj
+ 0001:000005c0       ?RemoveAll@IJHighlightSetImp@JHighlightSet@@UAGJXZ 100015c0 f   HLIGHT.obj
+ 0001:00000600       ?GetHighLightColor@JDisplayElementsList@JHighlightSet@@QAEJPAJ@Z 10001600 f   HLIGHT.obj
+ 0001:00000640       ?SetHighLightColor@JDisplayElementsList@JHighlightSet@@QAEJJ@Z 10001640 f   HLIGHT.obj
+ 0001:00000680       ?SetTransform@IJHighlightSetImp@JHighlightSet@@UAGJPAN@Z 10001680 f   HLIGHT.obj
+ 0001:00000710       ??3CObject@@SGXPAX@Z       10001710 f i HLIGHT.obj
+ 0001:00000720       ?AssertValid@CObject@@UBEXXZ 10001720 f i HLIGHT.obj
+ 0001:00000730       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10001730 f i HLIGHT.obj
+ 0001:00000730       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10001730 f i HLIGHT.obj
+ 0001:00000740       ?GetTopologyProxy@JHighlightSet@@AAEJPAUIUnknown@@PAPAU2@@Z 10001740 f   HLIGHT.obj
+ 0001:00000860       ??1JHighlightSet@@QAE@XZ   10001860 f   HLIGHT.obj
+ 0001:000008f0       ??_GJDisplayElementsList@JHighlightSet@@UAEPAXI@Z 100018f0 f i HLIGHT.obj
+ 0001:000008f0       ??_EJDisplayElementsList@JHighlightSet@@UAEPAXI@Z 100018f0 f i HLIGHT.obj
+ 0001:00000910       ?QueryInterface@JHighlightSet@@UAGJABU_GUID@@PAPAX@Z 10001910 f   HLIGHT.obj
+ 0001:00000a70       ?AddItem@IJHighlightSetImp@JHighlightSet@@UAGJPAUIUnknown@@@Z 10001a70 f   HLIGHT.obj
+ 0001:00000b80       ?AddSelected@IJHighlightSetImp@JHighlightSet@@UAGJXZ 10001b80 f   HLIGHT.obj
+ 0001:00000da0       ?Delete@IJHighlightSetImp@JHighlightSet@@UAGJXZ 10001da0 f   HLIGHT.obj
+ 0001:00000f10       ?get_Color@IJHighlightSetImp@JHighlightSet@@UAGJPAJ@Z 10001f10 f   HLIGHT.obj
+ 0001:00000f80       ?put_Color@IJHighlightSetImp@JHighlightSet@@UAGJJ@Z 10001f80 f   HLIGHT.obj
+ 0001:00000fc0       ?DisplayEntities@JDisplayElementsList@JHighlightSet@@QAEJXZ 10001fc0 f   HLIGHT.obj
+ 0001:00001130       ??A?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAEABUHIGHLIGHTOBJECT@JDisplayElementBase@@I@Z 10002130 f i HLIGHT.obj
+ 0001:00001170       ?Release@JHighlightSet@@UAGKXZ 10002170 f   HLIGHT.obj
+ 0001:000011a0       ?Draw@IJHighlightSetImp@JHighlightSet@@UAGJXZ 100021a0 f   HLIGHT.obj
+ 0001:000011e0       ?GetCount@JDisplayElementsList@JHighlightSet@@QAEJPAJ@Z 100021e0 f   HLIGHT.obj
+ 0001:00001250       ?GetItemFromList@JDisplayElementsList@JHighlightSet@@QAEJJPAPAUIUnknown@@@Z 10002250 f   HLIGHT.obj
+ 0001:000013d0       ??0JHighlightSet@@QAE@PAUIUnknown@@@Z 100023d0 f   HLIGHT.obj
+ 0001:00001450       ?RemoveItem@IJHighlightSetImp@JHighlightSet@@UAGJUtagVARIANT@@@Z 10002450 f   HLIGHT.obj
+ 0001:000016e0       ?get_Count@IJHighlightSetImp@JHighlightSet@@UAGJPAJ@Z 100026e0 f   HLIGHT.obj
+ 0001:00001750       ?Item@IJHighlightSetImp@JHighlightSet@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10002750 f   HLIGHT.obj
+ 0001:000018f0       ?CreateHighlightSet@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100028f0 f   HLIGHT.obj
+ 0001:00001a30       ?Initialize@JHighlightSets@@QAEKXZ 10002a30 f   Hlights.obj
+ 0001:00001a40       ?AddRef@JHighlightSets@@UAGKXZ 10002a40 f   Hlights.obj
+ 0001:00001a40       ?AddRef@HCurvatureComb@@UAGKXZ 10002a40 f   hCurvComb.obj
+ 0001:00001a50       ?AddRef@IJHighlightSetImp@JHighlightSet@@UAGKXZ 10002a50 f   HLIGHT.obj
+ 0001:00001a50       ?AddRef@IJHighlightSetsImp@JHighlightSets@@UAGKXZ 10002a50 f   Hlights.obj
+ 0001:00001a70       ?Release@IJHighlightSetsImp@JHighlightSets@@UAGKXZ 10002a70 f   Hlights.obj
+ 0001:00001a70       ?Release@IJHighlightSetImp@JHighlightSet@@UAGKXZ 10002a70 f   HLIGHT.obj
+ 0001:00001a90       ?get_Application@IJHighlightSetsImp@JHighlightSets@@UAGJPAPAUIUnknown@@@Z 10002a90 f   Hlights.obj
+ 0001:00001b00       ?get_Parent@IJHighlightSetsImp@JHighlightSets@@UAGJPAPAUIUnknown@@@Z 10002b00 f   Hlights.obj
+ 0001:00001b20       ?get__NewEnum@IJHighlightSetsImp@JHighlightSets@@UAGJPAPAUIUnknown@@@Z 10002b20 f   Hlights.obj
+ 0001:00001b30       ?QueryInterface@IJCollectionParentImp@JHighlightSets@@UAGJABU_GUID@@PAPAX@Z 10002b30 f   Hlights.obj
+ 0001:00001b30       ?QueryInterface@IHCurvatureCombImp@HCurvatureComb@@UAGJABU_GUID@@PAPAX@Z 10002b30 f   hCurvComb.obj
+ 0001:00001b50       ?AddRef@IJCollectionParentImp@JHighlightSets@@UAGKXZ 10002b50 f   Hlights.obj
+ 0001:00001b70       ?Release@IJCollectionParentImp@JHighlightSets@@UAGKXZ 10002b70 f   Hlights.obj
+ 0001:00001b90       ??0?$JList@PAUIUnknown@@PAU1@@@QAE@H@Z 10002b90 f i Hlights.obj
+ 0001:00001bb0       ?FindIndex@?$JList@PAUIUnknown@@PAU1@@@QBEPAU__POSITION@@H@Z 10002bb0 f i Hlights.obj
+ 0001:00001bd0       ??$CompareElements@PAUIUnknown@@PAU1@@@YGHPBQAUIUnknown@@0@Z 10002bd0 f i Hlights.obj
+ 0001:00001c00       ??$ConstructElements@PAUIUnknown@@@@YGXPAPAUIUnknown@@H@Z 10002c00 f i Hlights.obj
+ 0001:00001c20       ?QueryInterface@JHighlightSets@@UAGJABU_GUID@@PAPAX@Z 10002c20 f   Hlights.obj
+ 0001:00001d20       ?get_Count@IJHighlightSetsImp@JHighlightSets@@UAGJPAJ@Z 10002d20 f   Hlights.obj
+ 0001:00001d60       ?Item@IJHighlightSetsImp@JHighlightSets@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10002d60 f   Hlights.obj
+ 0001:00001e80       ?SetParent@IJCollectionParentImp@JHighlightSets@@UAGJPAUIUnknown@@H@Z 10002e80 f   Hlights.obj
+ 0001:00001ee0       ?RemoveAll@?$JList@PAUIUnknown@@PAU1@@@QAEXXZ 10002ee0 f i Hlights.obj
+ 0001:00001f10       ?Find@?$JList@PAUIUnknown@@PAU1@@@QBEPAU__POSITION@@PAUIUnknown@@PAU2@@Z 10002f10 f i Hlights.obj
+ 0001:00001f50       ??1?$JList@PAUIUnknown@@PAU1@@@QAE@XZ 10002f50 f i Hlights.obj
+ 0001:00001f60       ?NewNode@?$JList@PAUIUnknown@@PAU1@@@IAEPAUCNode@1@PAU21@0@Z 10002f60 f i Hlights.obj
+ 0001:00001fe0       ?FreeNode@?$JList@PAUIUnknown@@PAU1@@@IAEXPAUCNode@1@@Z 10002fe0 f i Hlights.obj
+ 0001:00002000       ??1JHighlightSets@@QAE@XZ  10003000 f   Hlights.obj
+ 0001:000020a0       ?AddTail@?$JList@PAUIUnknown@@PAU1@@@QAEPAU__POSITION@@PAUIUnknown@@@Z 100030a0 f i Hlights.obj
+ 0001:000020d0       ?RemoveAt@?$JList@PAUIUnknown@@PAU1@@@QAEXPAU__POSITION@@@Z 100030d0 f i Hlights.obj
+ 0001:00002110       ??0JHighlightSets@@QAE@PAUIUnknown@@@Z 10003110 f   Hlights.obj
+ 0001:00002190       ?Release@JHighlightSets@@UAGKXZ 10003190 f   Hlights.obj
+ 0001:000021c0       ?Add@IJHighlightSetsImp@JHighlightSets@@UAGJPAPAUIUnknown@@@Z 100031c0 f   Hlights.obj
+ 0001:00002280       ?Remove@IJHighlightSetsImp@JHighlightSets@@UAGJPAUIUnknown@@@Z 10003280 f   Hlights.obj
+ 0001:000022d0       ?ServerGetNumberOfObjects@@YAKXZ 100032d0 f   SERVER.obj
+ 0001:000022e0       ?ServerGetNumberOfLocks@@YAKXZ 100032e0 f   SERVER.obj
+ 0001:000022f0       ?ServerIncrementNumberOfObjects@@YAXXZ 100032f0 f   SERVER.obj
+ 0001:00002300       ?ServerDecrementNumberOfObjects@@YAXXZ 10003300 f   SERVER.obj
+ 0001:00002310       ?ServerIncrementNumberOfLocks@@YAXXZ 10003310 f   SERVER.obj
+ 0001:00002320       ?ServerDecrementNumberOfLocks@@YAXXZ 10003320 f   SERVER.obj
+ 0001:00002330       ??0?$ClassFactory@VJHighlightSets@@@@QAE@HHH@Z 10003330 f i SERVER.obj
+ 0001:000023b0       ?OnCreateInstance@?$ClassFactory@VJHighlightSets@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100033b0 f i SERVER.obj
+ 0001:00002500       ??0?$ClassFactory@VHCurvatureComb@@@@QAE@HHH@Z 10003500 f i SERVER.obj
+ 0001:00002580       ?OnCreateInstance@?$ClassFactory@VHCurvatureComb@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10003580 f i SERVER.obj
+ 0001:000026d0       ??1AFX_MAINTAIN_STATE2@@QAE@XZ 100036d0 f i SERVER.obj
+ 0001:000026f0       _DllMain@12                100036f0 f   SERVER.obj
+ 0001:000027b0       _DllGetClassObject@12      100037b0 f   SERVER.obj
+ 0001:00002900       _DllCanUnloadNow@0         10003900 f   SERVER.obj
+ 0001:000029a0       ??_G?$ClassFactory@VJHighlightSets@@@@UAEPAXI@Z 100039a0 f i SERVER.obj
+ 0001:000029a0       ??_E?$ClassFactory@VJHighlightSets@@@@UAEPAXI@Z 100039a0 f i SERVER.obj
+ 0001:00002a00       ??_E?$ClassFactory@VHCurvatureComb@@@@UAEPAXI@Z 10003a00 f i SERVER.obj
+ 0001:00002a00       ??_G?$ClassFactory@VHCurvatureComb@@@@UAEPAXI@Z 10003a00 f i SERVER.obj
+ 0001:00002a60       _ExtRawDllMain@12          10003a60 f   SERVER.obj
+ 0001:00002a88       _HModifyElement@8          10003a88 f   daxutil:Daxutil.dll
+ 0001:00002a8e       ?GetRuntimeClass@JDisplayElementBase@@UBEPAUCRuntimeClass@@XZ 10003a8e f   displst:Displst.dll
+ 0001:00002a94       ?OnFinalRelease@JDisplayBaseList@@UAEXXZ 10003a94 f   displst:Displst.dll
+ 0001:00002a9a       ?GetInterfaceMap@JDisplayBaseList@@MBEPBUAFX_INTERFACEMAP@@XZ 10003a9a f   displst:Displst.dll
+ 0001:00002aa0       ?Initialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10003aa0 f   displst:Displst.dll
+ 0001:00002aa6       ?SetView@JDisplayBaseList@@UAEJPAUIJView@@H@Z 10003aa6 f   displst:Displst.dll
+ 0001:00002aac       ?SetPriority@JDisplayBaseList@@UAEJH@Z 10003aac f   displst:Displst.dll
+ 0001:00002ab2       ?SetTransform@JDisplayBaseList@@UAEJPAUtagG4x4@@@Z 10003ab2 f   displst:Displst.dll
+ 0001:00002ab8       ?GetHilitePlaneId@JDisplayBaseList@@UAEJPAK@Z 10003ab8 f   displst:Displst.dll
+ 0001:00002abe       ?UnInitialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10003abe f   displst:Displst.dll
+ 0001:00002ac4       ?GetListType@JDisplayBaseList@@MAEJPAK@Z 10003ac4 f   displst:Displst.dll
+ 0001:00002aca       ?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z 10003aca f   displst:Displst.dll
+ 0001:00002ad0       ?BatchPreModify@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10003ad0 f   displst:Displst.dll
+ 0001:00002ad6       ?BatchEvaluate@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10003ad6 f   displst:Displst.dll
+ 0001:00002adc       ?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 10003adc f   displst:Displst.dll
+ 0001:00002ae2       ?BeginGraphicContext@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 10003ae2 f   displst:Displst.dll
+ 0001:00002ae8       ?EndGraphicContext@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10003ae8 f   displst:Displst.dll
+ 0001:00002aee       ?Cleanup@JDisplayElementBase@@MAEJXZ 10003aee f   displst:Displst.dll
+ 0001:00002af4       ?PreDraw@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10003af4 f   displst:Displst.dll
+ 0001:00002afa       ?RenderElement@JDisplayBaseList@@MAEJPAVJGraphicContext@@PAUIJGraphic@@@Z 10003afa f   displst:Displst.dll
+ 0001:00002b00       ?SetIncrementalDisplay@JDisplayBaseList@@MAEJH@Z 10003b00 f   displst:Displst.dll
+ 0001:00002b06       ?Add@JDisplayElementBase@@UAEJHH@Z 10003b06 f   displst:Displst.dll
+ 0001:00002b0c       ?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10003b0c f   displst:Displst.dll
+ 0001:00002b12       ?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10003b12 f   displst:Displst.dll
+ 0001:00002b18       ?RemoveAll@JDisplayElementBase@@UAEJH@Z 10003b18 f   displst:Displst.dll
+ 0001:00002b1e       ?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z 10003b1e f   displst:Displst.dll
+ 0001:00002b24       _HAddRefObject@8           10003b24 f   jengine:jengine.dll
+ 0001:00002b2a       _HReleaseObject@8          10003b2a f   jengine:jengine.dll
+ 0001:00002b30       _JBindDAXObject@12         10003b30 f   jengine:jengine.dll
+ 0001:00002b36       _HGetBinding@12            10003b36 f   jengine:jengine.dll
+ 0001:00002b3c       _HSetParentObject@12       10003b3c f   jengine:jengine.dll
+ 0001:00002b42       _BatchFlush@0              10003b42 f   jengine:jengine.dll
+ 0001:00002b48       _GetOwnerOrGroup@16        10003b48 f   jengine:jengine.dll
+ 0001:00002b4e       _JGetDocActiveView         10003b4e f   jengine:jengine.dll
+ 0001:00002b54       _JGetApplication           10003b54 f   jengine:jengine.dll
+ 0001:00002b5a       _HRSetLogErrFlags          10003b5a f   jutil:JUtil.dll
+ 0001:00002b60       _HRGetLogErrFlags          10003b60 f   jutil:JUtil.dll
+ 0001:00002b66       _HRerrEx                   10003b66 f   jutil:JUtil.dll
+ 0001:00002b6c       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 10003b6c f   jutil:JUtil.dll
+ 0001:00002b72       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10003b72 f   jutil:JUtil.dll
+ 0001:00002b78       ?AddRef@JClassFactory@@UAGKXZ 10003b78 f   jutil:JUtil.dll
+ 0001:00002b7e       ?Release@JClassFactory@@UAGKXZ 10003b7e f   jutil:JUtil.dll
+ 0001:00002b84       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10003b84 f   jutil:JUtil.dll
+ 0001:00002b8a       ?LockServer@JClassFactory@@UAGJH@Z 10003b8a f   jutil:JUtil.dll
+ 0001:00002b90       ?Build4x4@@YA?AUtagG4x4@@PBN@Z 10003b90 f   umath:umath.dll
+ 0001:00002b96       ??3@YAXPAX@Z               10003b96 f   mfc80:MFC80.DLL
+ 0001:00002b9c       ?AfxThrowInvalidArgException@@YGXXZ 10003b9c f   mfc80:MFC80.DLL
+ 0001:00002ba2       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10003ba2 f   mfc80:MFC80.DLL
+ 0001:00002ba8       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10003ba8 f   mfc80:MFC80.DLL
+ 0001:00002bae       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10003bae f   mfc80:MFC80.DLL
+ 0001:00002bb4       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10003bb4 f   mfc80:MFC80.DLL
+ 0001:00002bba       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10003bba f   mfc80:MFC80.DLL
+ 0001:00002bc0       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10003bc0 f   mfc80:MFC80.DLL
+ 0001:00002bc6       ?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 10003bc6 f   mfc80:MFC80.DLL
+ 0001:00002bcc       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10003bcc f   mfc80:MFC80.DLL
+ 0001:00002bd2       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10003bd2 f   mfc80:MFC80.DLL
+ 0001:00002bd8       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10003bd8 f   mfc80:MFC80.DLL
+ 0001:00002bde       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10003bde f   mfc80:MFC80.DLL
+ 0001:00002be4       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10003be4 f   mfc80:MFC80.DLL
+ 0001:00002bea       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10003bea f   mfc80:MFC80.DLL
+ 0001:00002bf0       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10003bf0 f   mfc80:MFC80.DLL
+ 0001:00002bf6       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10003bf6 f   mfc80:MFC80.DLL
+ 0001:00002bfc       ?AfxDeactivateActCtx@@YGHKK@Z 10003bfc f   mfc80:MFC80.DLL
+ 0001:00002c02       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10003c02 f   mfc80:MFC80.DLL
+ 0001:00002c08       ?RegisterAll@COleObjectFactory@@SGHXZ 10003c08 f   mfc80:MFC80.DLL
+ 0001:00002c0e       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10003c0e f   mfc80:MFC80.DLL
+ 0001:00002c14       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 10003c14 f   mfc80:MFC80.DLL
+ 0001:00002c1a       ??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 10003c1a f   mfc80:MFC80.DLL
+ 0001:00002c20       ?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10003c20 f   mfc80:MFC80.DLL
+ 0001:00002c26       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10003c26 f   mfc80:MFC80.DLL
+ 0001:00002c2c       _malloc                    10003c2c f   msvcrt:MSVCR80.dll
+ 0001:00002c32       __callnewh                 10003c32 f   msvcrt:MSVCR80.dll
+ 0001:00002c38       ??_Etype_info@@UAEPAXI@Z   10003c38 f i msvcrt:ti_inst.obj
+ 0001:00002c82       ___CxxFrameHandler3        10003c82 f   msvcrt:MSVCR80.dll
+ 0001:00002c88       @__security_check_cookie@4 10003c88 f   msvcrt:secchk.obj
+ 0001:00002c97       __except_handler4          10003c97 f   msvcrt:chandler4gs.obj
+ 0001:00002cc0       __alloca_probe_16          10003cc0 f   msvcrt:alloca16.obj
+ 0001:00002cd6       __alloca_probe_8           10003cd6     msvcrt:alloca16.obj
+ 0001:00002cf0       __allmul                   10003cf0 f   msvcrt:llmul.obj
+ 0001:00002d24       _memset                    10003d24 f   msvcrt:MSVCR80.dll
+ 0001:00002d77       __CRT_INIT@12              10003d77 f   msvcrt:crtdll.obj
+ 0001:0000302c       __DllMainCRTStartup@12     1000402c f   msvcrt:crtdll.obj
+ 0001:00003050       __SEH_prolog4_GS           10004050 f   msvcrt:sehprolg4gs.obj
+ 0001:00003098       __SEH_epilog4_GS           10004098 f   msvcrt:sehprolg4gs.obj
+ 0001:000030a7       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 100040a7 f   msvcrt:ehvecdtr.obj
+ 0001:00003105       ??_M@YGXPAXIHP6EX0@Z@Z     10004105 f   msvcrt:ehvecdtr.obj
+ 0001:00003168       ___report_gsfailure        10004168 f   msvcrt:gs_report.obj
+ 0001:0000326c       __except_handler4_common   1000426c f   msvcrt:MSVCR80.dll
+ 0001:00003280       __alloca_probe             10004280     msvcrt:chkstk.obj
+ 0001:00003280       __chkstk                   10004280 f   msvcrt:chkstk.obj
+ 0001:000032ab       ___clean_type_info_names   100042ab f   msvcrt:tncleanup.obj
+ 0001:000032b7       __onexit                   100042b7 f   msvcrt:atonexit.obj
+ 0001:00003356       _atexit                    10004356 f   msvcrt:atonexit.obj
+ 0001:00003368       __RTC_Initialize           10004368 f   msvcrt:initsect.obj
+ 0001:0000338c       __RTC_Terminate            1000438c f   msvcrt:initsect.obj
+ 0001:000033b0       __ValidateImageBase        100043b0 f   msvcrt:pesect.obj
+ 0001:000033e0       __FindPESection            100043e0 f   msvcrt:pesect.obj
+ 0001:00003422       __IsNonwritableInCurrentImage 10004422 f   msvcrt:pesect.obj
+ 0001:0000348e       __initterm                 1000448e f   msvcrt:MSVCR80.dll
+ 0001:00003494       __initterm_e               10004494 f   msvcrt:MSVCR80.dll
+ 0001:0000349a       __amsg_exit                1000449a f   msvcrt:MSVCR80.dll
+ 0001:000034a0       ___CppXcptFilter           100044a0 f   msvcrt:MSVCR80.dll
+ 0001:000034a8       __SEH_prolog4              100044a8 f   msvcrt:sehprolg4.obj
+ 0001:000034ed       __SEH_epilog4              100044ed f   msvcrt:sehprolg4.obj
+ 0001:00003501       ___security_init_cookie    10004501 f   msvcrt:gs_support.obj
+ 0001:00003596       ?terminate@@YAXXZ          10004596 f   msvcrt:MSVCR80.dll
+ 0001:0000359c       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000459c f   msvcrt:MSVCR80.dll
+ 0001:0000359c       ??1type_info@@UAE@XZ       1000459c f   msvcrt:MSVCR80.dll
+ 0001:000035a2       __crt_debugger_hook        100045a2 f   msvcrt:MSVCR80.dll
+ 0001:000035a8       ___clean_type_info_names_internal 100045a8 f   msvcrt:MSVCR80.dll
+ 0001:000035ae       __unlock                   100045ae f   msvcrt:MSVCR80.dll
+ 0001:000035b4       ___dllonexit               100045b4 f   msvcrt:MSVCR80.dll
+ 0001:000035ba       __lock                     100045ba f   msvcrt:MSVCR80.dll
+ 0001:000035c0       ?_AtlGetThreadACPFake@ATL@@YGIXZ 100045c0 f i atls:atltrace.obj
+ 0001:00003625       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10004625 f i atls:atltrace.obj
+ 0001:00003629       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10004629 f i atls:atltrace.obj
+ 0002:00000000       __imp__HModifyElement@8    10005000     daxutil:Daxutil.dll
+ 0002:00000004       \177Daxutil_NULL_THUNK_DATA 10005004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_??1JDisplayElementBase@@UAE@XZ 10005008     displst:Displst.dll
+ 0002:0000000c       __imp_?SetListType@JDisplayBaseList@@IAEJHK@Z 1000500c     displst:Displst.dll
+ 0002:00000010       __imp_??0JDisplayElementBase@@QAE@XZ 10005010     displst:Displst.dll
+ 0002:00000014       __imp_?GetRuntimeClass@JDisplayElementBase@@UBEPAUCRuntimeClass@@XZ 10005014     displst:Displst.dll
+ 0002:00000018       __imp_?OnFinalRelease@JDisplayBaseList@@UAEXXZ 10005018     displst:Displst.dll
+ 0002:0000001c       __imp_?GetInterfaceMap@JDisplayBaseList@@MBEPBUAFX_INTERFACEMAP@@XZ 1000501c     displst:Displst.dll
+ 0002:00000020       __imp_?Initialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10005020     displst:Displst.dll
+ 0002:00000024       __imp_?SetView@JDisplayBaseList@@UAEJPAUIJView@@H@Z 10005024     displst:Displst.dll
+ 0002:00000028       __imp_?SetPriority@JDisplayBaseList@@UAEJH@Z 10005028     displst:Displst.dll
+ 0002:0000002c       __imp_?SetTransform@JDisplayBaseList@@UAEJPAUtagG4x4@@@Z 1000502c     displst:Displst.dll
+ 0002:00000030       __imp_?GetHilitePlaneId@JDisplayBaseList@@UAEJPAK@Z 10005030     displst:Displst.dll
+ 0002:00000034       __imp_?UnInitialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10005034     displst:Displst.dll
+ 0002:00000038       __imp_?GetListType@JDisplayBaseList@@MAEJPAK@Z 10005038     displst:Displst.dll
+ 0002:0000003c       __imp_?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z 1000503c     displst:Displst.dll
+ 0002:00000040       __imp_?BatchPreModify@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10005040     displst:Displst.dll
+ 0002:00000044       __imp_?BatchEvaluate@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10005044     displst:Displst.dll
+ 0002:00000048       __imp_?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 10005048     displst:Displst.dll
+ 0002:0000004c       __imp_?BeginGraphicContext@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 1000504c     displst:Displst.dll
+ 0002:00000050       __imp_?EndGraphicContext@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10005050     displst:Displst.dll
+ 0002:00000054       __imp_?Cleanup@JDisplayElementBase@@MAEJXZ 10005054     displst:Displst.dll
+ 0002:00000058       __imp_?PreDraw@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10005058     displst:Displst.dll
+ 0002:0000005c       __imp_?RenderElement@JDisplayBaseList@@MAEJPAVJGraphicContext@@PAUIJGraphic@@@Z 1000505c     displst:Displst.dll
+ 0002:00000060       __imp_?SetIncrementalDisplay@JDisplayBaseList@@MAEJH@Z 10005060     displst:Displst.dll
+ 0002:00000064       __imp_?Add@JDisplayElementBase@@UAEJHH@Z 10005064     displst:Displst.dll
+ 0002:00000068       __imp_?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10005068     displst:Displst.dll
+ 0002:0000006c       __imp_?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 1000506c     displst:Displst.dll
+ 0002:00000070       __imp_?RemoveAll@JDisplayElementBase@@UAEJH@Z 10005070     displst:Displst.dll
+ 0002:00000074       __imp_?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z 10005074     displst:Displst.dll
+ 0002:00000078       __imp_?SetColor@JDisplayBaseList@@IAEJHK@Z 10005078     displst:Displst.dll
+ 0002:0000007c       __imp_?Cleanup@JDisplayBaseList@@MAEJXZ 1000507c     displst:Displst.dll
+ 0002:00000080       __imp_?GetObjectA@HIGHLIGHTOBJECT@JDisplayElementBase@@QBEJPAPAUIJGraphic@@@Z 10005080     displst:Displst.dll
+ 0002:00000084       \177Displst_NULL_THUNK_DATA 10005084     displst:Displst.dll
+ 0002:00000088       __imp__HRerrEx             10005088     jutil:JUtil.dll
+ 0002:0000008c       __imp_?LockServer@JClassFactory@@UAGJH@Z 1000508c     jutil:JUtil.dll
+ 0002:00000090       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10005090     jutil:JUtil.dll
+ 0002:00000094       __imp_?Release@JClassFactory@@UAGKXZ 10005094     jutil:JUtil.dll
+ 0002:00000098       __imp_?AddRef@JClassFactory@@UAGKXZ 10005098     jutil:JUtil.dll
+ 0002:0000009c       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000509c     jutil:JUtil.dll
+ 0002:000000a0       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 100050a0     jutil:JUtil.dll
+ 0002:000000a4       __imp_??1JClassFactory@@UAE@XZ 100050a4     jutil:JUtil.dll
+ 0002:000000a8       __imp_?Create@JPlex@@SGPAU1@AAPAU1@II@Z 100050a8     jutil:JUtil.dll
+ 0002:000000ac       __imp_?FreeDataChain@JPlex@@QAEXXZ 100050ac     jutil:JUtil.dll
+ 0002:000000b0       __imp__HRSetLogErrFlags    100050b0     jutil:JUtil.dll
+ 0002:000000b4       __imp__HRGetLogErrFlags    100050b4     jutil:JUtil.dll
+ 0002:000000b8       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 100050b8     jutil:JUtil.dll
+ 0002:000000bc       \177JUtil_NULL_THUNK_DATA  100050bc     jutil:JUtil.dll
+ 0002:000000c0       __imp__IsDebuggerPresent@0 100050c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__QueryPerformanceCounter@4 100050c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__GetTickCount@0      100050c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__GetCurrentThreadId@0 100050cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__GetCurrentProcessId@0 100050d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__GetSystemTimeAsFileTime@4 100050d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__GetACP@0            100050d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__GetLocaleInfoA@16   100050dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__GetThreadLocale@0   100050e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__SetUnhandledExceptionFilter@4 100050e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__UnhandledExceptionFilter@4 100050e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__GetCurrentProcess@0 100050ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__TerminateProcess@8  100050f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__InterlockedCompareExchange@12 100050f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__Sleep@4             100050f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__InterlockedExchange@8 100050fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GetVersionExA@4     10005100     kernel32:KERNEL32.dll
+ 0002:00000104       \177KERNEL32_NULL_THUNK_DATA 10005104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 10005108     mfc80:MFC80.DLL
+ 0002:0000010c       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000510c     mfc80:MFC80.DLL
+ 0002:00000110       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 10005110     mfc80:MFC80.DLL
+ 0002:00000114       __imp_?RegisterAll@COleObjectFactory@@SGHXZ 10005114     mfc80:MFC80.DLL
+ 0002:00000118       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10005118     mfc80:MFC80.DLL
+ 0002:0000011c       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000511c     mfc80:MFC80.DLL
+ 0002:00000120       __imp_??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 10005120     mfc80:MFC80.DLL
+ 0002:00000124       __imp_?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10005124     mfc80:MFC80.DLL
+ 0002:00000128       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 10005128     mfc80:MFC80.DLL
+ 0002:0000012c       __imp_??3@YAXPAX@Z         1000512c     mfc80:MFC80.DLL
+ 0002:00000130       __imp_?AfxThrowInvalidArgException@@YGXXZ 10005130     mfc80:MFC80.DLL
+ 0002:00000134       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10005134     mfc80:MFC80.DLL
+ 0002:00000138       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 10005138     mfc80:MFC80.DLL
+ 0002:0000013c       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000513c     mfc80:MFC80.DLL
+ 0002:00000140       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 10005140     mfc80:MFC80.DLL
+ 0002:00000144       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10005144     mfc80:MFC80.DLL
+ 0002:00000148       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10005148     mfc80:MFC80.DLL
+ 0002:0000014c       __imp_?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 1000514c     mfc80:MFC80.DLL
+ 0002:00000150       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 10005150     mfc80:MFC80.DLL
+ 0002:00000154       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10005154     mfc80:MFC80.DLL
+ 0002:00000158       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10005158     mfc80:MFC80.DLL
+ 0002:0000015c       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000515c     mfc80:MFC80.DLL
+ 0002:00000160       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 10005160     mfc80:MFC80.DLL
+ 0002:00000164       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 10005164     mfc80:MFC80.DLL
+ 0002:00000168       __imp_?AfxDeactivateActCtx@@YGHKK@Z 10005168     mfc80:MFC80.DLL
+ 0002:0000016c       \177MFC80_NULL_THUNK_DATA  1000516c     mfc80:MFC80.DLL
+ 0002:00000170       __imp___amsg_exit          10005170     msvcrt:MSVCR80.dll
+ 0002:00000174       __imp___adjust_fdiv        10005174     msvcrt:MSVCR80.dll
+ 0002:00000178       __imp____CppXcptFilter     10005178     msvcrt:MSVCR80.dll
+ 0002:0000017c       __imp_?terminate@@YAXXZ    1000517c     msvcrt:MSVCR80.dll
+ 0002:00000180       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10005180     msvcrt:MSVCR80.dll
+ 0002:00000184       __imp___crt_debugger_hook  10005184     msvcrt:MSVCR80.dll
+ 0002:00000188       __imp____clean_type_info_names_internal 10005188     msvcrt:MSVCR80.dll
+ 0002:0000018c       __imp___unlock             1000518c     msvcrt:MSVCR80.dll
+ 0002:00000190       __imp____dllonexit         10005190     msvcrt:MSVCR80.dll
+ 0002:00000194       __imp___lock               10005194     msvcrt:MSVCR80.dll
+ 0002:00000198       __imp___onexit             10005198     msvcrt:MSVCR80.dll
+ 0002:0000019c       __imp___initterm           1000519c     msvcrt:MSVCR80.dll
+ 0002:000001a0       __imp___decode_pointer     100051a0     msvcrt:MSVCR80.dll
+ 0002:000001a4       __imp___encoded_null       100051a4     msvcrt:MSVCR80.dll
+ 0002:000001a8       __imp___malloc_crt         100051a8     msvcrt:MSVCR80.dll
+ 0002:000001ac       __imp___encode_pointer     100051ac     msvcrt:MSVCR80.dll
+ 0002:000001b0       __imp___except_handler4_common 100051b0     msvcrt:MSVCR80.dll
+ 0002:000001b4       __imp__memset              100051b4     msvcrt:MSVCR80.dll
+ 0002:000001b8       __imp___invalid_parameter_noinfo 100051b8     msvcrt:MSVCR80.dll
+ 0002:000001bc       __imp____CxxFrameHandler3  100051bc     msvcrt:MSVCR80.dll
+ 0002:000001c0       __imp__free                100051c0     msvcrt:MSVCR80.dll
+ 0002:000001c4       __imp___callnewh           100051c4     msvcrt:MSVCR80.dll
+ 0002:000001c8       __imp__malloc              100051c8     msvcrt:MSVCR80.dll
+ 0002:000001cc       __imp___initterm_e         100051cc     msvcrt:MSVCR80.dll
+ 0002:000001d0       \177MSVCR80_NULL_THUNK_DATA 100051d0     msvcrt:MSVCR80.dll
+ 0002:000001d4       __imp__VariantInit@4       100051d4     oleaut32:OLEAUT32.dll
+ 0002:000001d8       __imp__VariantChangeType@16 100051d8     oleaut32:OLEAUT32.dll
+ 0002:000001dc       \177OLEAUT32_NULL_THUNK_DATA 100051dc     oleaut32:OLEAUT32.dll
+ 0002:000001e0       __imp__GetClientRect@8     100051e0     user32:USER32.dll
+ 0002:000001e4       \177USER32_NULL_THUNK_DATA 100051e4     user32:USER32.dll
+ 0002:000001e8       __imp__HGetBinding@12      100051e8     jengine:jengine.dll
+ 0002:000001ec       __imp__HSetParentObject@12 100051ec     jengine:jengine.dll
+ 0002:000001f0       __imp__BatchFlush@0        100051f0     jengine:jengine.dll
+ 0002:000001f4       __imp__GetOwnerOrGroup@16  100051f4     jengine:jengine.dll
+ 0002:000001f8       __imp__JGetDocActiveView   100051f8     jengine:jengine.dll
+ 0002:000001fc       __imp__JGetApplication     100051fc     jengine:jengine.dll
+ 0002:00000200       __imp__JBindDAXObject@12   10005200     jengine:jengine.dll
+ 0002:00000204       __imp__HAddRefObject@8     10005204     jengine:jengine.dll
+ 0002:00000208       __imp__HReleaseObject@8    10005208     jengine:jengine.dll
+ 0002:0000020c       \177jengine_NULL_THUNK_DATA 1000520c     jengine:jengine.dll
+ 0002:00000210       __imp__JVariantClear@4     10005210     sealloc:sealloc.dll
+ 0002:00000214       \177sealloc_NULL_THUNK_DATA 10005214     sealloc:sealloc.dll
+ 0002:00000218       __imp_?Build4x4@@YA?AUtagG4x4@@PBN@Z 10005218     umath:umath.dll
+ 0002:0000021c       \177umath_NULL_THUNK_DATA  1000521c     umath:umath.dll
+ 0002:00000220       ___xc_a                    10005220     msvcrt:cinitexe.obj
+ 0002:00000244       ___xc_z                    10005244     msvcrt:cinitexe.obj
+ 0002:00000248       ___xi_a                    10005248     msvcrt:cinitexe.obj
+ 0002:00000250       ___xi_z                    10005250     msvcrt:cinitexe.obj
+ 0002:0000027c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000527c     GUID.obj
+ 0002:0000028c       _IID_IJDocument            1000528c     GUID.obj
+ 0002:0000029c       _IID_IJHighlightSets       1000529c     GUID.obj
+ 0002:000002ac       _IID_IJHighlightSet        100052ac     GUID.obj
+ 0002:000002bc       _IID_IJCollectionParent    100052bc     GUID.obj
+ 0002:000002cc       _IID_IJSelectSet           100052cc     GUID.obj
+ 0002:000002e4       _CLSID_JHighlightSets      100052e4     GUID.obj
+ 0002:000002f4       _CLSID_HCurvatureComb      100052f4     GUID.obj
+ 0002:00000304       _IID_IJGraphic             10005304     GUID.obj
+ 0002:00000314       _IID_IJView                10005314     GUID.obj
+ 0002:00000324       _CLSID_CFrameWorkDispatchObjectFactory 10005324     GUID.obj
+ 0002:00000334       _IID_IJDMObjectUtils       10005334     GUID.obj
+ 0002:00000344       _IID_IJDMObject            10005344     GUID.obj
+ 0002:00000354       _IID_IHelper               10005354     GUID.obj
+ 0002:00000364       _IID_IJCurvatureComb       10005364     GUID.obj
+ 0002:00000374       _IID__IHCurvatureComb      10005374     GUID.obj
+ 0002:00000388       ??_7HCurvatureComb@@6B@    10005388     hCurvComb.obj
+ 0002:00000394       ??_C@_0BA@NMIDCGFG@?4?2hCurvComb?4cpp?$AA@ 10005394     hCurvComb.obj
+ 0002:000003a4       ??_C@_0DA@DNIHKFMK@HCurvatureComb?3?3IHCurvatureCombI@ 100053a4     hCurvComb.obj
+ 0002:000003d4       ??_C@_0DA@DCJJHDEJ@HCurvatureComb?3?3IHCurvatureCombI@ 100053d4     hCurvComb.obj
+ 0002:00000408       ??_7IHelperImp@HCurvatureComb@@6B@ 10005408     hCurvComb.obj
+ 0002:00000428       ??_7IHCurvatureCombImp@HCurvatureComb@@6B@ 10005428     hCurvComb.obj
+ 0002:00000454       ??_7JDisplayElementsList@JHighlightSet@@6B@ 10005454     HLIGHT.obj
+ 0002:00000504       ??_C@_0N@PIKKOMDE@?4?2HLIGHT?4CPP?$AA@ 10005504     HLIGHT.obj
+ 0002:00000514       ??_C@_0CM@HEJIEAMK@JHighlightSet?3?3IJHighlightSetImp@ 10005514     HLIGHT.obj
+ 0002:00000540       ??_C@_0DH@CMIHNCOM@JHighlightSet?3?3JDisplayElementsL@ 10005540     HLIGHT.obj
+ 0002:00000578       ??_C@_0DH@JIMFJPC@JHighlightSet?3?3JDisplayElementsL@ 10005578     HLIGHT.obj
+ 0002:000005b0       ??_C@_0CP@LGKLONHI@JHighlightSet?3?3IJHighlightSetImp@ 100055b0     HLIGHT.obj
+ 0002:000005e0       ??_C@_0CA@LJDGLODJ@JHighlightSet?3?3GetTopologyProxy?$AA@ 100055e0     HLIGHT.obj
+ 0002:00000604       ??_7JHighlightSet@@6B@     10005604     HLIGHT.obj
+ 0002:00000610       ??_C@_0BO@HPOPCOAK@JHighlightSet?3?3QueryInterface?$AA@ 10005610     HLIGHT.obj
+ 0002:00000630       ??_C@_0CK@KBGICDFD@JHighlightSet?3?3IJHighlightSetImp@ 10005630     HLIGHT.obj
+ 0002:0000065c       ??_C@_0CO@GKDAIJPO@JHighlightSet?3?3IJHighlightSetImp@ 1000565c     HLIGHT.obj
+ 0002:0000068c       ??_C@_0CJ@MJEDJHAB@JHighlightSet?3?3IJHighlightSetImp@ 1000568c     HLIGHT.obj
+ 0002:000006b8       ??_C@_0CM@KLINPODO@JHighlightSet?3?3IJHighlightSetImp@ 100056b8     HLIGHT.obj
+ 0002:000006e4       ??_C@_0CM@MCDPCGNO@JHighlightSet?3?3IJHighlightSetImp@ 100056e4     HLIGHT.obj
+ 0002:00000710       ??_C@_0DF@JHCNDMHE@JHighlightSet?3?3JDisplayElementsL@ 10005710     HLIGHT.obj
+ 0002:0000074c       ??_7IJHighlightSetImp@JHighlightSet@@6B@ 1000574c     HLIGHT.obj
+ 0002:00000784       ??_C@_0CH@ICPPBIEF@JHighlightSet?3?3IJHighlightSetImp@ 10005784     HLIGHT.obj
+ 0002:000007ac       ??_C@_0CO@DAFOLHAI@JHighlightSet?3?3JDisplayElementsL@ 100057ac     HLIGHT.obj
+ 0002:000007dc       ??_C@_0DF@KANDINLG@JHighlightSet?3?3JDisplayElementsL@ 100057dc     HLIGHT.obj
+ 0002:00000814       ??_C@_0CN@BJKKJDK@JHighlightSet?3?3IJHighlightSetImp@ 10005814     HLIGHT.obj
+ 0002:00000844       ??_C@_0CM@NBAECLJK@JHighlightSet?3?3IJHighlightSetImp@ 10005844     HLIGHT.obj
+ 0002:00000870       ??_C@_0CH@OICANBCP@JHighlightSet?3?3IJHighlightSetImp@ 10005870     HLIGHT.obj
+ 0002:00000898       ??_C@_0BD@HFGDOMKD@CreateHighlightSet?$AA@ 10005898     HLIGHT.obj
+ 0002:000008bc       ??_C@_0O@HIOJMLLL@?4?2Hlights?4cpp?$AA@ 100058bc     Hlights.obj
+ 0002:000008cc       ??_C@_0DE@HBGLHFPI@JHighlightSets?3?3IJHighlightSetsI@ 100058cc     Hlights.obj
+ 0002:00000900       ??_C@_0CO@GOFONHO@JHighlightSets?3?3IJHighlightSetsI@ 10005900     Hlights.obj
+ 0002:00000930       ??_C@_0CJ@LHPPGBPC@JHighlightSets?3?3IJHighlightSetsI@ 10005930     Hlights.obj
+ 0002:00000960       ??_7IJHighlightSetsImp@JHighlightSets@@6B@ 10005960     Hlights.obj
+ 0002:0000098c       ??_7IJCollectionParentImp@JHighlightSets@@6B@ 1000598c     Hlights.obj
+ 0002:000009a0       ??_7JHighlightSets@@6B@    100059a0     Hlights.obj
+ 0002:000009ac       ??_C@_0CI@LBLHGOEF@JHighlightSets?3?3IJHighlightSetsI@ 100059ac     Hlights.obj
+ 0002:000009d4       __pRawDllMain              100059d4     SERVER.obj
+ 0002:000009dc       ??_7?$ClassFactory@VJHighlightSets@@@@6B@ 100059dc     SERVER.obj
+ 0002:000009f8       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 100059f8     SERVER.obj
+ 0002:00000a10       ??_C@_0DF@EKJLFBMN@ClassFactory?$DMclass?5JHighlightSet@ 10005a10     SERVER.obj
+ 0002:00000a4c       ??_7?$ClassFactory@VHCurvatureComb@@@@6B@ 10005a4c     SERVER.obj
+ 0002:00000a68       ??_C@_0DF@PPHEACFH@ClassFactory?$DMclass?5HCurvatureCom@ 10005a68     SERVER.obj
+ 0002:00000ab0       ??_C@_06JBKGCNBB@Delete?$AA@ 10005ab0     mfcs80:stdafx.obj
+ 0002:00000ab8       ??_C@_08KAAPDIAN@NoRemove?$AA@ 10005ab8     mfcs80:stdafx.obj
+ 0002:00000ac4       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 10005ac4     mfcs80:stdafx.obj
+ 0002:00000ad0       ??_C@_03LAIAPFCB@Val?$AA@  10005ad0     mfcs80:stdafx.obj
+ 0002:00000ad4       ??_C@_01HMGJMAIH@B?$AA@    10005ad4     mfcs80:stdafx.obj
+ 0002:00000ad8       ??_C@_01CKDDGHAB@D?$AA@    10005ad8     mfcs80:stdafx.obj
+ 0002:00000adc       ??_C@_01PLPBNMEI@M?$AA@    10005adc     mfcs80:stdafx.obj
+ 0002:00000ae0       ??_C@_01CPLAODJH@S?$AA@    10005ae0     mfcs80:stdafx.obj
+ 0002:00000b08       ??_7type_info@@6B@         10005b08     msvcrt:ti_inst.obj
+ 0002:00000b0c       __pDefaultRawDllMain       10005b0c     msvcrt:crtdll.obj
+ 0002:00000b18       _IID_IClassFactory         10005b18     uuid:unknwn_i.obj
+ 0002:00000b28       _IID_IUnknown              10005b28     uuid:unknwn_i.obj
+ 0002:00000b38       _IID_IDispatch             10005b38     uuid:oaidl_i.obj
+ 0002:00000b48       __load_config_used         10005b48     msvcrt:loadcfg.obj
+ 0002:00000bc0       ??_R4HCurvatureComb@@6B@   10005bc0     hCurvComb.obj
+ 0002:00000bd4       ??_R3HCurvatureComb@@8     10005bd4     hCurvComb.obj
+ 0002:00000be4       ??_R2HCurvatureComb@@8     10005be4     hCurvComb.obj
+ 0002:00000bf0       ??_R1A@?0A@EA@HCurvatureComb@@8 10005bf0     hCurvComb.obj
+ 0002:00000c0c       ??_R1A@?0A@EA@IUnknown@@8  10005c0c     hCurvComb.obj
+ 0002:00000c28       ??_R3IUnknown@@8           10005c28     hCurvComb.obj
+ 0002:00000c38       ??_R2IUnknown@@8           10005c38     hCurvComb.obj
+ 0002:00000c40       ??_R4IHelperImp@HCurvatureComb@@6B@ 10005c40     hCurvComb.obj
+ 0002:00000c54       ??_R3IHelperImp@HCurvatureComb@@8 10005c54     hCurvComb.obj
+ 0002:00000c64       ??_R2IHelperImp@HCurvatureComb@@8 10005c64     hCurvComb.obj
+ 0002:00000c74       ??_R1A@?0A@EA@IHelperImp@HCurvatureComb@@8 10005c74     hCurvComb.obj
+ 0002:00000c90       ??_R1A@?0A@EA@IHelper@@8   10005c90     hCurvComb.obj
+ 0002:00000cac       ??_R3IHelper@@8            10005cac     hCurvComb.obj
+ 0002:00000cbc       ??_R2IHelper@@8            10005cbc     hCurvComb.obj
+ 0002:00000cc8       ??_R4IHCurvatureCombImp@HCurvatureComb@@6B@ 10005cc8     hCurvComb.obj
+ 0002:00000cdc       ??_R3IHCurvatureCombImp@HCurvatureComb@@8 10005cdc     hCurvComb.obj
+ 0002:00000cec       ??_R2IHCurvatureCombImp@HCurvatureComb@@8 10005cec     hCurvComb.obj
+ 0002:00000cfc       ??_R1A@?0A@EA@IHCurvatureCombImp@HCurvatureComb@@8 10005cfc     hCurvComb.obj
+ 0002:00000d18       ??_R1A@?0A@EA@_IHCurvatureComb@@8 10005d18     hCurvComb.obj
+ 0002:00000d34       ??_R3_IHCurvatureComb@@8   10005d34     hCurvComb.obj
+ 0002:00000d44       ??_R2_IHCurvatureComb@@8   10005d44     hCurvComb.obj
+ 0002:00000d50       ??_R4JDisplayElementsList@JHighlightSet@@6B@ 10005d50     HLIGHT.obj
+ 0002:00000d64       ??_R3JDisplayElementsList@JHighlightSet@@8 10005d64     HLIGHT.obj
+ 0002:00000d74       ??_R2JDisplayElementsList@JHighlightSet@@8 10005d74     HLIGHT.obj
+ 0002:00000d8c       ??_R1A@?0A@EA@JDisplayElementsList@JHighlightSet@@8 10005d8c     HLIGHT.obj
+ 0002:00000da8       ??_R1A@?0A@EA@JDisplayElementBase@@8 10005da8     HLIGHT.obj
+ 0002:00000dc4       ??_R3JDisplayElementBase@@8 10005dc4     HLIGHT.obj
+ 0002:00000dd4       ??_R2JDisplayElementBase@@8 10005dd4     HLIGHT.obj
+ 0002:00000de8       ??_R1A@?0A@EA@JDisplayBaseList@@8 10005de8     HLIGHT.obj
+ 0002:00000e04       ??_R3JDisplayBaseList@@8   10005e04     HLIGHT.obj
+ 0002:00000e14       ??_R2JDisplayBaseList@@8   10005e14     HLIGHT.obj
+ 0002:00000e24       ??_R1A@?0A@EA@CCmdTarget@@8 10005e24     HLIGHT.obj
+ 0002:00000e40       ??_R3CCmdTarget@@8         10005e40     HLIGHT.obj
+ 0002:00000e50       ??_R2CCmdTarget@@8         10005e50     HLIGHT.obj
+ 0002:00000e5c       ??_R1A@?0A@EA@CObject@@8   10005e5c     HLIGHT.obj
+ 0002:00000e78       ??_R3CObject@@8            10005e78     HLIGHT.obj
+ 0002:00000e88       ??_R2CObject@@8            10005e88     HLIGHT.obj
+ 0002:00000e90       ??_R4JHighlightSet@@6B@    10005e90     HLIGHT.obj
+ 0002:00000ea4       ??_R3JHighlightSet@@8      10005ea4     HLIGHT.obj
+ 0002:00000eb4       ??_R2JHighlightSet@@8      10005eb4     HLIGHT.obj
+ 0002:00000ec0       ??_R1A@?0A@EA@JHighlightSet@@8 10005ec0     HLIGHT.obj
+ 0002:00000edc       ??_R4IJHighlightSetImp@JHighlightSet@@6B@ 10005edc     HLIGHT.obj
+ 0002:00000ef0       ??_R3IJHighlightSetImp@JHighlightSet@@8 10005ef0     HLIGHT.obj
+ 0002:00000f00       ??_R2IJHighlightSetImp@JHighlightSet@@8 10005f00     HLIGHT.obj
+ 0002:00000f10       ??_R1A@?0A@EA@IJHighlightSetImp@JHighlightSet@@8 10005f10     HLIGHT.obj
+ 0002:00000f2c       ??_R1A@?0A@EA@IJHighlightSet@@8 10005f2c     HLIGHT.obj
+ 0002:00000f48       ??_R3IJHighlightSet@@8     10005f48     HLIGHT.obj
+ 0002:00000f58       ??_R2IJHighlightSet@@8     10005f58     HLIGHT.obj
+ 0002:00000f64       ??_R4IJHighlightSetsImp@JHighlightSets@@6B@ 10005f64     Hlights.obj
+ 0002:00000f78       ??_R3IJHighlightSetsImp@JHighlightSets@@8 10005f78     Hlights.obj
+ 0002:00000f88       ??_R2IJHighlightSetsImp@JHighlightSets@@8 10005f88     Hlights.obj
+ 0002:00000f98       ??_R1A@?0A@EA@IJHighlightSetsImp@JHighlightSets@@8 10005f98     Hlights.obj
+ 0002:00000fb4       ??_R1A@?0A@EA@IJHighlightSets@@8 10005fb4     Hlights.obj
+ 0002:00000fd0       ??_R3IJHighlightSets@@8    10005fd0     Hlights.obj
+ 0002:00000fe0       ??_R2IJHighlightSets@@8    10005fe0     Hlights.obj
+ 0002:00000fec       ??_R4IJCollectionParentImp@JHighlightSets@@6B@ 10005fec     Hlights.obj
+ 0002:00001000       ??_R3IJCollectionParentImp@JHighlightSets@@8 10006000     Hlights.obj
+ 0002:00001010       ??_R2IJCollectionParentImp@JHighlightSets@@8 10006010     Hlights.obj
+ 0002:00001020       ??_R1A@?0A@EA@IJCollectionParentImp@JHighlightSets@@8 10006020     Hlights.obj
+ 0002:0000103c       ??_R1A@?0A@EA@IJCollectionParent@@8 1000603c     Hlights.obj
+ 0002:00001058       ??_R3IJCollectionParent@@8 10006058     Hlights.obj
+ 0002:00001068       ??_R2IJCollectionParent@@8 10006068     Hlights.obj
+ 0002:00001074       ??_R4JHighlightSets@@6B@   10006074     Hlights.obj
+ 0002:00001088       ??_R3JHighlightSets@@8     10006088     Hlights.obj
+ 0002:00001098       ??_R2JHighlightSets@@8     10006098     Hlights.obj
+ 0002:000010a4       ??_R1A@?0A@EA@JHighlightSets@@8 100060a4     Hlights.obj
+ 0002:000010c0       ??_R4?$ClassFactory@VJHighlightSets@@@@6B@ 100060c0     SERVER.obj
+ 0002:000010d4       ??_R3?$ClassFactory@VJHighlightSets@@@@8 100060d4     SERVER.obj
+ 0002:000010e4       ??_R2?$ClassFactory@VJHighlightSets@@@@8 100060e4     SERVER.obj
+ 0002:000010f8       ??_R1A@?0A@EA@?$ClassFactory@VJHighlightSets@@@@8 100060f8     SERVER.obj
+ 0002:00001114       ??_R1A@?0A@EA@JClassFactory@@8 10006114     SERVER.obj
+ 0002:00001130       ??_R3JClassFactory@@8      10006130     SERVER.obj
+ 0002:00001140       ??_R2JClassFactory@@8      10006140     SERVER.obj
+ 0002:00001150       ??_R1A@?0A@EA@IClassFactory@@8 10006150     SERVER.obj
+ 0002:0000116c       ??_R3IClassFactory@@8      1000616c     SERVER.obj
+ 0002:0000117c       ??_R2IClassFactory@@8      1000617c     SERVER.obj
+ 0002:00001188       ??_R4?$ClassFactory@VHCurvatureComb@@@@6B@ 10006188     SERVER.obj
+ 0002:0000119c       ??_R3?$ClassFactory@VHCurvatureComb@@@@8 1000619c     SERVER.obj
+ 0002:000011ac       ??_R2?$ClassFactory@VHCurvatureComb@@@@8 100061ac     SERVER.obj
+ 0002:000011c0       ??_R1A@?0A@EA@?$ClassFactory@VHCurvatureComb@@@@8 100061c0     SERVER.obj
+ 0002:000011dc       ??_R4type_info@@6B@        100061dc     msvcrt:ti_inst.obj
+ 0002:000011f0       ??_R3type_info@@8          100061f0     msvcrt:ti_inst.obj
+ 0002:00001200       ??_R2type_info@@8          10006200     msvcrt:ti_inst.obj
+ 0002:00001208       ??_R1A@?0A@EA@type_info@@8 10006208     msvcrt:ti_inst.obj
+ 0002:00001230       ___safe_se_handler_table   10006230     <linker-defined>
+ 0002:0000127c       ___rtc_iaa                 1000627c     msvcrt:initsect.obj
+ 0002:00001280       ___rtc_izz                 10006280     msvcrt:initsect.obj
+ 0002:00001284       ___rtc_taa                 10006284     msvcrt:initsect.obj
+ 0002:00001288       ___rtc_tzz                 10006288     msvcrt:initsect.obj
+ 0002:0000165c       __IMPORT_DESCRIPTOR_Daxutil 1000665c     daxutil:Daxutil.dll
+ 0002:00001670       __IMPORT_DESCRIPTOR_Displst 10006670     displst:Displst.dll
+ 0002:00001684       __IMPORT_DESCRIPTOR_jengine 10006684     jengine:jengine.dll
+ 0002:00001698       __IMPORT_DESCRIPTOR_JUtil  10006698     jutil:JUtil.dll
+ 0002:000016ac       __IMPORT_DESCRIPTOR_umath  100066ac     umath:umath.dll
+ 0002:000016c0       __IMPORT_DESCRIPTOR_sealloc 100066c0     sealloc:sealloc.dll
+ 0002:000016d4       __IMPORT_DESCRIPTOR_MFC80  100066d4     mfc80:MFC80.DLL
+ 0002:000016e8       __IMPORT_DESCRIPTOR_MSVCR80 100066e8     msvcrt:MSVCR80.dll
+ 0002:000016fc       __IMPORT_DESCRIPTOR_KERNEL32 100066fc     kernel32:KERNEL32.dll
+ 0002:00001710       __IMPORT_DESCRIPTOR_USER32 10006710     user32:USER32.dll
+ 0002:00001724       __IMPORT_DESCRIPTOR_OLEAUT32 10006724     oleaut32:OLEAUT32.dll
+ 0002:00001738       __NULL_IMPORT_DESCRIPTOR   10006738     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  10008000     newmode.obj
+ 0003:00000a28       ??_R0?AVHCurvatureComb@@@8 10008a28     hCurvComb.obj
+ 0003:00000a48       ??_R0?AUIUnknown@@@8       10008a48     hCurvComb.obj
+ 0003:00000a60       ??_R0?AUIHelperImp@HCurvatureComb@@@8 10008a60     hCurvComb.obj
+ 0003:00000a88       ??_R0?AUIHelper@@@8        10008a88     hCurvComb.obj
+ 0003:00000aa0       ??_R0?AUIHCurvatureCombImp@HCurvatureComb@@@8 10008aa0     hCurvComb.obj
+ 0003:00000ad0       ??_R0?AU_IHCurvatureComb@@@8 10008ad0     hCurvComb.obj
+ 0003:00000af0       ??_R0?AVJDisplayElementsList@JHighlightSet@@@8 10008af0     HLIGHT.obj
+ 0003:00000b24       ??_R0?AVJDisplayElementBase@@@8 10008b24     HLIGHT.obj
+ 0003:00000b48       ??_R0?AVJDisplayBaseList@@@8 10008b48     HLIGHT.obj
+ 0003:00000b68       ??_R0?AVCCmdTarget@@@8     10008b68     HLIGHT.obj
+ 0003:00000b84       ??_R0?AVCObject@@@8        10008b84     HLIGHT.obj
+ 0003:00000b9c       ??_R0?AVJHighlightSet@@@8  10008b9c     HLIGHT.obj
+ 0003:00000bb8       ??_R0?AUIJHighlightSetImp@JHighlightSet@@@8 10008bb8     HLIGHT.obj
+ 0003:00000be8       ??_R0?AUIJHighlightSet@@@8 10008be8     HLIGHT.obj
+ 0003:00000c08       ??_R0?AUIJHighlightSetsImp@JHighlightSets@@@8 10008c08     Hlights.obj
+ 0003:00000c38       ??_R0?AUIJHighlightSets@@@8 10008c38     Hlights.obj
+ 0003:00000c58       ??_R0?AUIJCollectionParentImp@JHighlightSets@@@8 10008c58     Hlights.obj
+ 0003:00000c8c       ??_R0?AUIJCollectionParent@@@8 10008c8c     Hlights.obj
+ 0003:00000cb0       ??_R0?AVJHighlightSets@@@8 10008cb0     Hlights.obj
+ 0003:00000cd0       ??_R0?AV?$ClassFactory@VJHighlightSets@@@@@8 10008cd0     SERVER.obj
+ 0003:00000d00       ??_R0?AVJClassFactory@@@8  10008d00     SERVER.obj
+ 0003:00000d1c       ??_R0?AUIClassFactory@@@8  10008d1c     SERVER.obj
+ 0003:00000d38       ??_R0?AV?$ClassFactory@VHCurvatureComb@@@@@8 10008d38     SERVER.obj
+ 0003:00001788       ??_R0?AVtype_info@@@8      10009788     msvcrt:ti_inst.obj
+ 0003:000017a0       ___security_cookie         100097a0     msvcrt:gs_cookie.obj
+ 0003:000017a4       ___security_cookie_complement 100097a4     msvcrt:gs_cookie.obj
+ 0003:000017b0       ___native_dllmain_reason   100097b0     msvcrt:natstart.obj
+ 0003:000017b4       ___native_vcclrit_reason   100097b4     msvcrt:natstart.obj
+ 0003:000017b8       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 100097b8     atls:atltrace.obj
+ 0003:000019e8       __afxForceEXTDLL           100099e8     SERVER.obj
+ 0003:00001c30       __afxForceEXCLUDE          10009c30     mfcs80:nolib.obj
+ 0003:00001c34       __afxForceSTDAFX           10009c34     mfcs80:stdafx.obj
+ 0003:00001f64       ?__type_info_root_node@@3U__type_info_node@@A 10009f64     msvcrt:tncleanup.obj
+ 0003:00001f6c       __adjust_fdiv              10009f6c     <common>
+ 0003:00001f70       ___native_startup_state    10009f70     <common>
+ 0003:00001f74       ___native_startup_lock     10009f74     <common>
+ 0003:00001f78       ___onexitend               10009f78     <common>
+ 0003:00001f7c       ___onexitbegin             10009f7c     <common>
+ 0003:00001f80       ___dyn_tls_init_callback   10009f80     <common>
+
+ entry point at        0001:0000302c
+
+ Static symbols
+
+ 0001:00002d2a       _pre_c_init                10003d2a f   msvcrt:crtdll.obj
+ 0001:00002f16       ___DllMainCRTStartup       10003f16 f   msvcrt:crtdll.obj
+ 0001:00003690       __unwindfunclet$?SetShowComb@IHCurvatureCombImp@HCurvatureComb@@UAGJH@Z$1 10004690 f   hCurvComb.obj
+ 0001:00003698       __ehhandler$?SetShowComb@IHCurvatureCombImp@HCurvatureComb@@UAGJH@Z 10004698 f   hCurvComb.obj
+ 0001:000036c0       __unwindfunclet$??0JDisplayElementsList@JHighlightSet@@QAE@XZ$0 100046c0 f   HLIGHT.obj
+ 0001:000036c9       __ehhandler$??0JDisplayElementsList@JHighlightSet@@QAE@XZ 100046c9 f   HLIGHT.obj
+ 0001:000036f0       __unwindfunclet$??1JDisplayElementsList@JHighlightSet@@UAE@XZ$0 100046f0 f   HLIGHT.obj
+ 0001:000036f9       __ehhandler$??1JDisplayElementsList@JHighlightSet@@UAE@XZ 100046f9 f   HLIGHT.obj
+ 0001:00003720       __unwindfunclet$??1JHighlightSet@@QAE@XZ$0 10004720 f   HLIGHT.obj
+ 0001:0000372b       __ehhandler$??1JHighlightSet@@QAE@XZ 1000472b f   HLIGHT.obj
+ 0001:00003750       __unwindfunclet$?GetItemFromList@JDisplayElementsList@JHighlightSet@@QAEJJPAPAUIUnknown@@@Z$2 10004750 f   HLIGHT.obj
+ 0001:00003758       __ehhandler$?GetItemFromList@JDisplayElementsList@JHighlightSet@@QAEJJPAPAUIUnknown@@@Z 10004758 f   HLIGHT.obj
+ 0001:00003780       __unwindfunclet$??0JHighlightSet@@QAE@PAUIUnknown@@@Z$0 10004780 f   HLIGHT.obj
+ 0001:0000378b       __ehhandler$??0JHighlightSet@@QAE@PAUIUnknown@@@Z 1000478b f   HLIGHT.obj
+ 0001:000037b0       __unwindfunclet$?CreateHighlightSet@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z$3 100047b0 f   HLIGHT.obj
+ 0001:000037bb       __ehhandler$?CreateHighlightSet@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100047bb f   HLIGHT.obj
+ 0001:000037e0       __unwindfunclet$??1JHighlightSets@@QAE@XZ$0 100047e0 f   Hlights.obj
+ 0001:000037eb       __ehhandler$??1JHighlightSets@@QAE@XZ 100047eb f   Hlights.obj
+ 0001:00003810       __unwindfunclet$??0JHighlightSets@@QAE@PAUIUnknown@@@Z$0 10004810 f   Hlights.obj
+ 0001:0000381b       __ehhandler$??0JHighlightSets@@QAE@PAUIUnknown@@@Z 1000481b f   Hlights.obj
+ 0001:00003840       __unwindfunclet$??0?$ClassFactory@VJHighlightSets@@@@QAE@HHH@Z$0 10004840 f   SERVER.obj
+ 0001:00003849       __ehhandler$??0?$ClassFactory@VJHighlightSets@@@@QAE@HHH@Z 10004849 f   SERVER.obj
+ 0001:00003870       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJHighlightSets@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10004870 f   SERVER.obj
+ 0001:0000387b       __ehhandler$?OnCreateInstance@?$ClassFactory@VJHighlightSets@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000487b f   SERVER.obj
+ 0001:000038a0       __unwindfunclet$??0?$ClassFactory@VHCurvatureComb@@@@QAE@HHH@Z$0 100048a0 f   SERVER.obj
+ 0001:000038a9       __ehhandler$??0?$ClassFactory@VHCurvatureComb@@@@QAE@HHH@Z 100048a9 f   SERVER.obj
+ 0001:000038d0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHCurvatureComb@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100048d0 f   SERVER.obj
+ 0001:000038db       __ehhandler$?OnCreateInstance@?$ClassFactory@VHCurvatureComb@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100048db f   SERVER.obj
+ 0001:00003900       __unwindfunclet$_DllMain@12$0 10004900 f   SERVER.obj
+ 0001:0000390a       __ehhandler$_DllMain@12    1000490a f   SERVER.obj
+ 0001:00003930       __unwindfunclet$_DllGetClassObject@12$0 10004930 f   SERVER.obj
+ 0001:00003938       __unwindfunclet$_DllGetClassObject@12$1 10004938 f   SERVER.obj
+ 0001:00003943       __unwindfunclet$_DllGetClassObject@12$2 10004943 f   SERVER.obj
+ 0001:0000394e       __ehhandler$_DllGetClassObject@12 1000494e f   SERVER.obj
+ 0001:00003970       __unwindfunclet$_DllCanUnloadNow@0$0 10004970 f   SERVER.obj
+ 0001:00003978       __ehhandler$_DllCanUnloadNow@0 10004978 f   SERVER.obj
+ 0001:000039a0       __unwindfunclet$??_G?$ClassFactory@VJHighlightSets@@@@UAEPAXI@Z$0 100049a0 f   SERVER.obj
+ 0001:000039a9       __ehhandler$??_G?$ClassFactory@VJHighlightSets@@@@UAEPAXI@Z 100049a9 f   SERVER.obj
+ 0001:000039d0       __unwindfunclet$??_G?$ClassFactory@VHCurvatureComb@@@@UAEPAXI@Z$0 100049d0 f   SERVER.obj
+ 0001:000039d9       __ehhandler$??_G?$ClassFactory@VHCurvatureComb@@@@UAEPAXI@Z 100049d9 f   SERVER.obj
+ 0001:00003a00       ??__EGNULL_Camera@@YAXXZ   10004a00 f   GUID.obj
+ 0001:00003a20       ??__EGNULL_CAMERA@@YAXXZ   10004a20 f   GUID.obj
+ 0001:00003a40       ??__EGID_Camera@@YAXXZ     10004a40 f   GUID.obj
+ 0001:00003a60       ??__EGID_CAMERA@@YAXXZ     10004a60 f   GUID.obj
+ 0001:00003a80       ??__EGNULL_Camera@@YAXXZ   10004a80 f   STDAFX.obj
+ 0001:00003aa0       ??__EGNULL_CAMERA@@YAXXZ   10004aa0 f   STDAFX.obj
+ 0001:00003ac0       ??__EGID_Camera@@YAXXZ     10004ac0 f   STDAFX.obj
+ 0001:00003ae0       ??__EGID_CAMERA@@YAXXZ     10004ae0 f   STDAFX.obj

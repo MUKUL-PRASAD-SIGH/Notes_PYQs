@@ -1,0 +1,754 @@
+ skpref
+
+ Timestamp is 46b3a54e (Fri Aug 03 16:59:42 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000583aH .text                   CODE
+ 0001:00005840 00000684H .text$x                 CODE
+ 0001:00005ed0 00000476H .text$yc                CODE
+ 0002:00000000 000001ccH .idata$5                DATA
+ 0002:000001cc 00000004H .CRT$XCA                DATA
+ 0002:000001d0 00000090H .CRT$XCU                DATA
+ 0002:00000260 00000004H .CRT$XCZ                DATA
+ 0002:00000264 00000004H .CRT$XIA                DATA
+ 0002:00000268 00000004H .CRT$XIAA               DATA
+ 0002:0000026c 00000004H .CRT$XIZ                DATA
+ 0002:00000270 00000f48H .rdata                  DATA
+ 0002:000011b8 00000030H .rdata$debug            DATA
+ 0002:000011e8 00000290H .rdata$r                DATA
+ 0002:00001480 00000084H .rdata$sxdata           DATA
+ 0002:00001504 00000004H .rtc$IAA                DATA
+ 0002:00001508 00000004H .rtc$IZZ                DATA
+ 0002:0000150c 00000004H .rtc$TAA                DATA
+ 0002:00001510 00000004H .rtc$TZZ                DATA
+ 0002:00001518 00000684H .xdata$x                DATA
+ 0002:00001b9c 00000000H ATL$__a                 DATA
+ 0002:00001b9c 00000000H ATL$__z                 DATA
+ 0002:00001b9c 000000c8H .idata$2                DATA
+ 0002:00001c64 00000014H .idata$3                DATA
+ 0002:00001c78 000001ccH .idata$4                DATA
+ 0002:00001e44 00000ab0H .idata$6                DATA
+ 0002:00002900 000023f1H .edata                  DATA
+ 0003:00000000 00005c7cH .data                   DATA
+ 0003:00005c80 00001740H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000021       ___safe_se_handler_count   00000021     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??0SkPrefsGeneral@@QAE@ABV0@@Z 10001030 f i clear.obj
+ 0001:000000b0       ??_ESkPrefsGeneral@@UAEPAXI@Z 100010b0 f i clear.obj
+ 0001:00000110       ??0SkPrefsFileLocations@@QAE@ABV0@@Z 10001110 f i clear.obj
+ 0001:00000190       ??_ESkPrefsFileLocations@@UAEPAXI@Z 10001190 f i clear.obj
+ 0001:000001f0       ??0SkPrefsUserInfo@@QAE@ABV0@@Z 100011f0 f i clear.obj
+ 0001:00000270       ??_ESkPrefsUserInfo@@UAEPAXI@Z 10001270 f i clear.obj
+ 0001:000002d0       ??0SkPrefsFreeSketch@@QAE@ABV0@@Z 100012d0 f i clear.obj
+ 0001:00000350       ??_ESkPrefsFreeSketch@@UAEPAXI@Z 10001350 f i clear.obj
+ 0001:000003b0       ??0SkPrefsView@@QAE@ABV0@@Z 100013b0 f i clear.obj
+ 0001:00000430       ??_ESkPrefsView@@UAEPAXI@Z 10001430 f i clear.obj
+ 0001:00000490       ??0SkSavePrefs@@QAE@ABV0@@Z 10001490 f i clear.obj
+ 0001:00000510       ??4SkPrefsFileLocations@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000510       ??4SkPrefsUserInfo@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000510       ??4SkPrefsGeneral@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000510       ??4SkPrefsFreeSketch@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000510       ??4SkSavePrefs@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000510       ??4SkPrefsView@@QAEAAV0@ABV0@@Z 10001510 f i clear.obj
+ 0001:00000550       ??_ESkSavePrefs@@UAEPAXI@Z 10001550 f i clear.obj
+ 0001:000005b0       ??0SkPrefsPrecision@@QAE@ABV0@@Z 100015b0 f i clear.obj
+ 0001:00000660       ??4SkPrefsPrecision@@QAEAAV0@ABV0@@Z 10001660 f i clear.obj
+ 0001:000006d0       ??_ESkPrefsPrecision@@UAEPAXI@Z 100016d0 f i clear.obj
+ 0001:00000730       ?SketchPreferenceStartUp@@YAJXZ 10001730 f   clear.obj
+ 0001:00000960       ?SketchShowStyleRibbon@@YAHXZ 10001960 f   clear.obj
+ 0001:00000a40       ?SketchShowStyleRibbonColorPickerOnly@@YAHXZ 10001a40 f   clear.obj
+ 0001:00000b20       ?SketchAutomaticStyle@@YAHXZ 10001b20 f   clear.obj
+ 0001:00000c00       ??$strcpy@PAD@@YAPADAAPADPBD@Z 10001c00 f i FLOCPREF.obj
+ 0001:00000c20       ??$sprintf@PAD@@YAHAAPADPBDZZ 10001c20 f i FLOCPREF.obj
+ 0001:00000c40       ??1SkPrefsFileLocations@@UAE@XZ 10001c40 f   FLOCPREF.obj
+ 0001:00000c90       ?Free@SkPrefsFileLocations@@QAEJPAPAD@Z 10001c90 f   FLOCPREF.obj
+ 0001:00000cc0       ?GetStartup@SkPrefsFileLocations@@QAEJPAPAD@Z 10001cc0 f   FLOCPREF.obj
+ 0001:00000cf0       ?SetStartup@SkPrefsFileLocations@@QAEJPAD@Z 10001cf0 f   FLOCPREF.obj
+ 0001:00000d10       ?GetDocuments@SkPrefsFileLocations@@QAEJPAPAD@Z 10001d10 f   FLOCPREF.obj
+ 0001:00000d40       ?SetDocuments@SkPrefsFileLocations@@QAEJPAD@Z 10001d40 f   FLOCPREF.obj
+ 0001:00000d60       ?GetUserTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z 10001d60 f   FLOCPREF.obj
+ 0001:00000e30       ?SetUserTemplates@SkPrefsFileLocations@@QAEJPAD@Z 10001e30 f   FLOCPREF.obj
+ 0001:00000ee0       ?GetCatalogs@SkPrefsFileLocations@@QAEJPAPAD@Z 10001ee0 f   FLOCPREF.obj
+ 0001:00000f10       ?SetCatalogs@SkPrefsFileLocations@@QAEJPAD@Z 10001f10 f   FLOCPREF.obj
+ 0001:00000f30       ?GetFont1@SkPrefsFileLocations@@QAEJPAPAD@Z 10001f30 f   FLOCPREF.obj
+ 0001:00000f60       ?SetFont1@SkPrefsFileLocations@@QAEJPAD@Z 10001f60 f   FLOCPREF.obj
+ 0001:00000f80       ?GetFont2@SkPrefsFileLocations@@QAEJPAPAD@Z 10001f80 f   FLOCPREF.obj
+ 0001:00000fb0       ?SetFont2@SkPrefsFileLocations@@QAEJPAD@Z 10001fb0 f   FLOCPREF.obj
+ 0001:00000fd0       ?GetFont3@SkPrefsFileLocations@@QAEJPAPAD@Z 10001fd0 f   FLOCPREF.obj
+ 0001:00001000       ?SetFont3@SkPrefsFileLocations@@QAEJPAD@Z 10002000 f   FLOCPREF.obj
+ 0001:00001020       ?GetMacros@SkPrefsFileLocations@@QAEJPAPAD@Z 10002020 f   FLOCPREF.obj
+ 0001:00001050       ?SetMacros@SkPrefsFileLocations@@QAEJPAD@Z 10002050 f   FLOCPREF.obj
+ 0001:00001070       ?GetSymbolTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z 10002070 f   FLOCPREF.obj
+ 0001:00001140       ?SetSymbolTemplates@SkPrefsFileLocations@@QAEJPAD@Z 10002140 f   FLOCPREF.obj
+ 0001:00001320       ?GetPropertySeedFile@SkPrefsFileLocations@@QAEJPAPAD@Z 10002320 f   FLOCPREF.obj
+ 0001:00001460       ?SetPropertySeedFile@SkPrefsFileLocations@@QAEJPAD@Z 10002460 f   FLOCPREF.obj
+ 0001:00001480       ?GetStartupScreeFile@SkPrefsFileLocations@@QAEJPAPAD@Z 10002480 f   FLOCPREF.obj
+ 0001:00001630       ?SetStartupScreeFile@SkPrefsFileLocations@@QAEJPAD@Z 10002630 f   FLOCPREF.obj
+ 0001:00001650       ??0SkPrefsFileLocations@@QAE@XZ 10002650 f   FLOCPREF.obj
+ 0001:000016d0       ??1SkPrefsFreeSketch@@UAE@XZ 100026d0 f   FRSKPREF.obj
+ 0001:00001720       ?GetAccuracy@SkPrefsFreeSketch@@QAEJPAH@Z 10002720 f   FRSKPREF.obj
+ 0001:00001750       ?SetAccuracy@SkPrefsFreeSketch@@QAEJH@Z 10002750 f   FRSKPREF.obj
+ 0001:00001770       ?GetRecognizeLine@SkPrefsFreeSketch@@QAEJPAH@Z 10002770 f   FRSKPREF.obj
+ 0001:000017a0       ?SetRecognizeLine@SkPrefsFreeSketch@@QAEJH@Z 100027a0 f   FRSKPREF.obj
+ 0001:000017c0       ?GetRecognizeArc@SkPrefsFreeSketch@@QAEJPAH@Z 100027c0 f   FRSKPREF.obj
+ 0001:000017f0       ?SetRecognizeArc@SkPrefsFreeSketch@@QAEJH@Z 100027f0 f   FRSKPREF.obj
+ 0001:00001810       ?GetRecognizeCircle@SkPrefsFreeSketch@@QAEJPAH@Z 10002810 f   FRSKPREF.obj
+ 0001:00001840       ?SetRecognizeCircle@SkPrefsFreeSketch@@QAEJH@Z 10002840 f   FRSKPREF.obj
+ 0001:00001860       ?GetRecognizeRectangle@SkPrefsFreeSketch@@QAEJPAH@Z 10002860 f   FRSKPREF.obj
+ 0001:00001890       ?SetRecognizeRectangle@SkPrefsFreeSketch@@QAEJH@Z 10002890 f   FRSKPREF.obj
+ 0001:000018b0       ?GetAdjustMode@SkPrefsFreeSketch@@QAEJPAH@Z 100028b0 f   FRSKPREF.obj
+ 0001:000018e0       ?SetAdjustMode@SkPrefsFreeSketch@@QAEJH@Z 100028e0 f   FRSKPREF.obj
+ 0001:00001900       ?GetSmoothMode@SkPrefsFreeSketch@@QAEJPAH@Z 10002900 f   FRSKPREF.obj
+ 0001:00001930       ?SetSmoothMode@SkPrefsFreeSketch@@QAEJH@Z 10002930 f   FRSKPREF.obj
+ 0001:00001950       ??0SkPrefsFreeSketch@@QAE@XZ 10002950 f   FRSKPREF.obj
+ 0001:000019d0       ?SkPrefsGeneralClearCache@@YAJXZ 100029d0 f   GENRPREF.obj
+ 0001:000019e0       ??1SkPrefsGeneral@@UAE@XZ  100029e0 f   GENRPREF.obj
+ 0001:00001a30       ?GetUpdateAutoLinksAtOpen@SkPrefsGeneral@@QAEJPAH@Z 10002a30 f   GENRPREF.obj
+ 0001:00001a80       ?GetAutoDimenKeyin@SkPrefsGeneral@@QAEJPAH@Z 10002a80 f   GENRPREF.obj
+ 0001:00001ad0       ?GetDisplayUOM@SkPrefsGeneral@@QAEJPAH@Z 10002ad0 f   GENRPREF.obj
+ 0001:00001b20       ?GetUndoSteps@SkPrefsGeneral@@QAEJPAH@Z 10002b20 f   GENRPREF.obj
+ 0001:00001b70       ?GetStoreViewerData@SkPrefsGeneral@@QAEJPAH@Z 10002b70 f   GENRPREF.obj
+ 0001:00001ba0       ?GetMouseWheelChangeDimFlag@SkPrefsGeneral@@QAEJPAH@Z 10002ba0 f   GENRPREF.obj
+ 0001:00001bd0       ?GetAutomaticSaveFlag@SkPrefsGeneral@@QAEJPAH@Z 10002bd0 f   GENRPREF.obj
+ 0001:00001bd0       ?GetAutomaticSaveFlag@SkSavePrefs@@QAEJPAH@Z 10002bd0 f   SAVEPREF.obj
+ 0001:00001c00       ?SetAutomaticSaveFlag@SkPrefsGeneral@@QAEJH@Z 10002c00 f   GENRPREF.obj
+ 0001:00001c50       ?SetMinutesBetweenAutomaticSave@SkPrefsGeneral@@QAEJH@Z 10002c50 f   GENRPREF.obj
+ 0001:00001cb0       ?GetNotifyBeforeAutomaticSaveFlag@SkPrefsGeneral@@QAEJPAH@Z 10002cb0 f   GENRPREF.obj
+ 0001:00001ce0       ?SetNotifyBeforeAutomaticSaveFlag@SkPrefsGeneral@@QAEJH@Z 10002ce0 f   GENRPREF.obj
+ 0001:00001d30       ?GetCheckModelChangesBeforeUpdate@SkPrefsGeneral@@QAEJPAH@Z 10002d30 f   GENRPREF.obj
+ 0001:00001d60       ?SetCheckModelChangesBeforeUpdate@SkPrefsGeneral@@QAEJH@Z 10002d60 f   GENRPREF.obj
+ 0001:00001db0       ?GetSaveViewerDataAsBlack@SkPrefsGeneral@@QAEJPAH@Z 10002db0 f   GENRPREF.obj
+ 0001:00001de0       ?SetSaveViewerDataAsBlack@SkPrefsGeneral@@QAEJH@Z 10002de0 f   GENRPREF.obj
+ 0001:00001e30       ??0SkPrefsGeneral@@QAE@XZ  10002e30 f   GENRPREF.obj
+ 0001:00001f00       ?SetUpdateAutoLinksAtOpen@SkPrefsGeneral@@QAEJH@Z 10002f00 f   GENRPREF.obj
+ 0001:00001f80       ?GetRecentlyUsedFiles@SkPrefsGeneral@@QAEJPAH0@Z 10002f80 f   GENRPREF.obj
+ 0001:00002070       ?SetRecentlyUsedFiles@SkPrefsGeneral@@QAEJHH@Z 10003070 f   GENRPREF.obj
+ 0001:00002130       ?SetAutoDimenKeyin@SkPrefsGeneral@@QAEJH@Z 10003130 f   GENRPREF.obj
+ 0001:000021b0       ?SetDisplayUOM@SkPrefsGeneral@@QAEJH@Z 100031b0 f   GENRPREF.obj
+ 0001:000022f0       ?SetUndoSteps@SkPrefsGeneral@@QAEJH@Z 100032f0 f   GENRPREF.obj
+ 0001:000023d0       ?SetStoreViewerData@SkPrefsGeneral@@QAEJH@Z 100033d0 f   GENRPREF.obj
+ 0001:00002450       ?SetMouseWheelChangeDimFlag@SkPrefsGeneral@@QAEJH@Z 10003450 f   GENRPREF.obj
+ 0001:00002520       ?SkPrefsPrecisionClearCache@@YAJXZ 10003520 f   PRECPREF.obj
+ 0001:00002530       ??1SkPrefsPrecision@@UAE@XZ 10003530 f   PRECPREF.obj
+ 0001:00002580       ?GetInstallFlag@SkPrefsPrecision@@QAEJPAH@Z 10003580 f   PRECPREF.obj
+ 0001:000025a0       ?GetShowState@SkPrefsPrecision@@QAEJPAH@Z 100035a0 f   PRECPREF.obj
+ 0001:000025c0       ?GetUserShowState@SkPrefsPrecision@@QAEJPAH@Z 100035c0 f   PRECPREF.obj
+ 0001:000025e0       ?SetUserShowState@SkPrefsPrecision@@QAEJH@Z 100035e0 f   PRECPREF.obj
+ 0001:00002620       ?GetStepValue@SkPrefsPrecision@@QAEJPAN@Z 10003620 f   PRECPREF.obj
+ 0001:000026e0       ?GetXLockValue@SkPrefsPrecision@@QAEJPANPAH@Z 100036e0 f   PRECPREF.obj
+ 0001:00002730       ?GetYLockValue@SkPrefsPrecision@@QAEJPANPAH@Z 10003730 f   PRECPREF.obj
+ 0001:00002780       ?GetRotation@SkPrefsPrecision@@QAEJPAN@Z 10003780 f   PRECPREF.obj
+ 0001:000027c0       ?GetAngleInfo@SkPrefsPrecision@@QAEJPAN00PAW4X_orient_types@1@@Z 100037c0 f   PRECPREF.obj
+ 0001:00002890       ?GetTargetPoint@SkPrefsPrecision@@QAEJPAUtagGPosition2d@@@Z 10003890 f   PRECPREF.obj
+ 0001:00002900       ?GetEvaluatedPoint@SkPrefsPrecision@@QAEJPAUtagGPosition2d@@@Z 10003900 f   PRECPREF.obj
+ 0001:00002970       ?GetDisplayGridFlag@SkPrefsPrecision@@QAEJPAH@Z 10003970 f   PRECPREF.obj
+ 0001:00002990       ?GetDisplayGridAsPoint@SkPrefsPrecision@@QAEJPAH@Z 10003990 f   PRECPREF.obj
+ 0001:000029b0       ?GetSnapToPointFlag@SkPrefsPrecision@@QAEJPAH@Z 100039b0 f   PRECPREF.obj
+ 0001:000029d0       ?GetMajorGridColor@SkPrefsPrecision@@QAEJPAK@Z 100039d0 f   PRECPREF.obj
+ 0001:00002a20       ?GetOriginGridColor@SkPrefsPrecision@@QAEJPAK@Z 10003a20 f   PRECPREF.obj
+ 0001:00002a70       ?GetDisplayHelperLine@SkPrefsPrecision@@QAEJPAH@Z 10003a70 f   PRECPREF.obj
+ 0001:00002a90       ?GetDisplayDistance@SkPrefsPrecision@@QAEJPAH@Z 10003a90 f   PRECPREF.obj
+ 0001:00002ab0       ?GetMinorSpace@SkPrefsPrecision@@QAEJPAF@Z 10003ab0 f   PRECPREF.obj
+ 0001:00002b60       ?GetMajorSpace@SkPrefsPrecision@@QAEJPAN@Z 10003b60 f   PRECPREF.obj
+ 0001:00002c20       ??0SkPrefsPrecision@@QAE@XZ 10003c20 f   PRECPREF.obj
+ 0001:00002f50       ?SetInstallFlag@SkPrefsPrecision@@QAEJH@Z 10003f50 f   PRECPREF.obj
+ 0001:00002ff0       ?SetShowState@SkPrefsPrecision@@QAEJW4RequestorToShow@1@H@Z 10003ff0 f   PRECPREF.obj
+ 0001:000030c0       ?SetStepValue@SkPrefsPrecision@@QAEJN@Z 100040c0 f   PRECPREF.obj
+ 0001:00003160       ?SetXLockValue@SkPrefsPrecision@@QAEJNH@Z 10004160 f   PRECPREF.obj
+ 0001:00003200       ?SetYLockValue@SkPrefsPrecision@@QAEJNH@Z 10004200 f   PRECPREF.obj
+ 0001:000032a0       ?SetRotation@SkPrefsPrecision@@QAEJN@Z 100042a0 f   PRECPREF.obj
+ 0001:00003370       ?SetTargetPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 10004370 f   PRECPREF.obj
+ 0001:00003450       ?SetEvaluatedPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 10004450 f   PRECPREF.obj
+ 0001:00003530       ?SetDisplayGridFlag@SkPrefsPrecision@@QAEJH@Z 10004530 f   PRECPREF.obj
+ 0001:000035d0       ?SetDisplayGridAsPoint@SkPrefsPrecision@@QAEJH@Z 100045d0 f   PRECPREF.obj
+ 0001:00003670       ?SetSnapToPointFlag@SkPrefsPrecision@@QAEJH@Z 10004670 f   PRECPREF.obj
+ 0001:00003710       ?SetMajorGridColor@SkPrefsPrecision@@QAEJK@Z 10004710 f   PRECPREF.obj
+ 0001:000037b0       ?GetMinorGridColor@SkPrefsPrecision@@QAEJPAK@Z 100047b0 f   PRECPREF.obj
+ 0001:000038e0       ?SetMinorGridColor@SkPrefsPrecision@@QAEJK@Z 100048e0 f   PRECPREF.obj
+ 0001:00003980       ?SetOriginGridColor@SkPrefsPrecision@@QAEJK@Z 10004980 f   PRECPREF.obj
+ 0001:00003a20       ?SetDisplayHelperLine@SkPrefsPrecision@@QAEJH@Z 10004a20 f   PRECPREF.obj
+ 0001:00003ac0       ?SetDisplayDistance@SkPrefsPrecision@@QAEJH@Z 10004ac0 f   PRECPREF.obj
+ 0001:00003b60       ?SetMinorSpace@SkPrefsPrecision@@QAEJF@Z 10004b60 f   PRECPREF.obj
+ 0001:00003c20       ?SetMajorSpace@SkPrefsPrecision@@QAEJN@Z 10004c20 f   PRECPREF.obj
+ 0001:00003ce0       ??1SkSavePrefs@@UAE@XZ     10004ce0 f   SAVEPREF.obj
+ 0001:00003d30       ?GetPreserveDocuments@SkSavePrefs@@QAEJPAH@Z 10004d30 f   SAVEPREF.obj
+ 0001:00003d60       ?SetPreserveDocuments@SkSavePrefs@@QAEJH@Z 10004d60 f   SAVEPREF.obj
+ 0001:00003d80       ?SetAutomaticSaveFlag@SkSavePrefs@@QAEJH@Z 10004d80 f   SAVEPREF.obj
+ 0001:00003dc0       ?GetMinutesBetweenAutomaticSave@SkPrefsGeneral@@QAEJPAH@Z 10004dc0 f   GENRPREF.obj
+ 0001:00003dc0       ?GetMinutesBetweenAutomaticSave@SkSavePrefs@@QAEJPAH@Z 10004dc0 f   SAVEPREF.obj
+ 0001:00003e10       ?SetMinutesBetweenAutomaticSave@SkSavePrefs@@QAEJH@Z 10004e10 f   SAVEPREF.obj
+ 0001:00003e70       ?GetAutomaticBackupFlag@SkSavePrefs@@QAEJPAH@Z 10004e70 f   SAVEPREF.obj
+ 0001:00003ea0       ?SetAutomaticBackupFlag@SkSavePrefs@@QAEJH@Z 10004ea0 f   SAVEPREF.obj
+ 0001:00003ef0       ?GetMinsBetweenAutomaticBackup@SkSavePrefs@@QAEJPAH@Z 10004ef0 f   SAVEPREF.obj
+ 0001:00003f40       ?SetMinsBetweenAutomaticBackup@SkSavePrefs@@QAEJH@Z 10004f40 f   SAVEPREF.obj
+ 0001:00003fa0       ?GetAutomaticBackupModelFlag@SkSavePrefs@@QAEJPAH@Z 10004fa0 f   SAVEPREF.obj
+ 0001:00003fd0       ?SetAutomaticBackupModelFlag@SkSavePrefs@@QAEJH@Z 10004fd0 f   SAVEPREF.obj
+ 0001:00004020       ?GetAutomaticBackupDraftFlag@SkSavePrefs@@QAEJPAH@Z 10005020 f   SAVEPREF.obj
+ 0001:00004050       ?SetAutomaticBackupDraftFlag@SkSavePrefs@@QAEJH@Z 10005050 f   SAVEPREF.obj
+ 0001:000040a0       ??0SkSavePrefs@@QAE@XZ     100050a0 f   SAVEPREF.obj
+ 0001:00004140       ??1?$TIP@PAUIHPrefSetEx@@@@QAE@XZ 10005140 f i smartdepthpref.obj
+ 0001:00004140       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10005140 f i PRECPREF.obj
+ 0001:00004140       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 10005140 f i smartdepthpref.obj
+ 0001:00004150       ?GetSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z 10005150 f   smartdepthpref.obj
+ 0001:00004380       ?PutSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z 10005380 f   smartdepthpref.obj
+ 0001:00004770       ??1SkPrefsUserInfo@@UAE@XZ 10005770 f   UINFPREF.obj
+ 0001:000047c0       ?Free@SkPrefsUserInfo@@QAEJPAPAD@Z 100057c0 f   UINFPREF.obj
+ 0001:000047f0       ?GetName@SkPrefsUserInfo@@QAEJPAPAD@Z 100057f0 f   UINFPREF.obj
+ 0001:00004820       ?SetName@SkPrefsUserInfo@@QAEJPAD@Z 10005820 f   UINFPREF.obj
+ 0001:00004840       ?GetInitials@SkPrefsUserInfo@@QAEJPAPAD@Z 10005840 f   UINFPREF.obj
+ 0001:00004870       ?SetInitials@SkPrefsUserInfo@@QAEJPAD@Z 10005870 f   UINFPREF.obj
+ 0001:00004890       ?GetAddress@SkPrefsUserInfo@@QAEJPAPAD@Z 10005890 f   UINFPREF.obj
+ 0001:000048c0       ?SetAddress@SkPrefsUserInfo@@QAEJPAD@Z 100058c0 f   UINFPREF.obj
+ 0001:000048e0       ??0SkPrefsUserInfo@@QAE@XZ 100058e0 f   UINFPREF.obj
+ 0001:00004960       ??1SkPrefsView@@UAE@XZ     10005960 f   VIEWPREF.obj
+ 0001:000049b0       ?GetWndStatusBar@SkPrefsView@@QAEJPAH@Z 100059b0 f   VIEWPREF.obj
+ 0001:000049e0       ?GetZoomToolLeftClick@SkPrefsView@@QAEJPAH@Z 100059e0 f   VIEWPREF.obj
+ 0001:00004a10       ?SetZoomToolLeftClick@SkPrefsView@@QAEJH@Z 10005a10 f   VIEWPREF.obj
+ 0001:00004a30       ?GetZoomToolLeftDrag@SkPrefsView@@QAEJPAH@Z 10005a30 f   VIEWPREF.obj
+ 0001:00004a60       ?SetZoomToolLeftDrag@SkPrefsView@@QAEJH@Z 10005a60 f   VIEWPREF.obj
+ 0001:00004a80       ?GetZoomToolRightClick@SkPrefsView@@QAEJPAH@Z 10005a80 f   VIEWPREF.obj
+ 0001:00004ab0       ?SetZoomToolRightClick@SkPrefsView@@QAEJH@Z 10005ab0 f   VIEWPREF.obj
+ 0001:00004ad0       ?GetZoomToolRightDrag@SkPrefsView@@QAEJPAH@Z 10005ad0 f   VIEWPREF.obj
+ 0001:00004b00       ?SetZoomToolRightDrag@SkPrefsView@@QAEJH@Z 10005b00 f   VIEWPREF.obj
+ 0001:00004b20       ??0SkPrefsView@@QAE@XZ     10005b20 f   VIEWPREF.obj
+ 0001:00004ba0       ?SetWndStatusBar@SkPrefsView@@QAEJH@Z 10005ba0 f   VIEWPREF.obj
+ 0001:00004c4a       _JGetApplication           10005c4a f   jengine:jengine.dll
+ 0001:00004c50       _SetUserTemplatePath       10005c50 f   jengine:jengine.dll
+ 0001:00004c56       _JQueryApplication         10005c56 f   jengine:jengine.dll
+ 0001:00004c5c       _JSetUndoTransactionLimit@4 10005c5c f   jengine:jengine.dll
+ 0001:00004c62       _HRerrEx                   10005c62 f   jutil:JUtil.dll
+ 0001:00004c68       ?JGetEnvCmdInfoInt@@YAJPBD0AAH@Z 10005c68 f   jutil:JUtil.dll
+ 0001:00004c6e       _JGetSolidEdgeUserTemplatePathFromRegistry 10005c6e f   jutil:JUtil.dll
+ 0001:00004c74       _JSetSolidEdgeCommonCurrentUserValue 10005c74 f   jutil:JUtil.dll
+ 0001:00004c7a       _JGetSolidEdgeSymbolTemplatePathFromRegistry 10005c7a f   jutil:JUtil.dll
+ 0001:00004c80       _GetCurrentVersionProductInfoString@8 10005c80 f   jutil:JUtil.dll
+ 0001:00004c86       _JGetSolidEdgeCommonCurrentUserValue 10005c86 f   jutil:JUtil.dll
+ 0001:00004c8c       ?JSysAllocStringA@@YGPA_WPBD@Z 10005c8c f   jutil:JUtil.dll
+ 0001:00004c92       ?JRFMS_GetCommonPrefValuesForFileLocationOptions@@YAJPBDPADH@Z 10005c92 f   rfmssvs:RFMSsvs.dll
+ 0001:00004c98       ?JRFMS_SetCommonPrefValuesForFileLocationOptions@@YAJPBD0H@Z 10005c98 f   rfmssvs:RFMSsvs.dll
+ 0001:00004c9e       ?SkPrefsSmartSketchClearCache@@YAJXZ 10005c9e f   sprfhlp:sprfhlp.dll
+ 0001:00004ca4       ?SkPrefsColorClearCache@@YAJXZ 10005ca4 f   sprfhlp:sprfhlp.dll
+ 0001:00004caa       ??3@YAXPAX@Z               10005caa f   mfc80:MFC80.DLL
+ 0001:00004cb0       ??_V@YAXPAX@Z              10005cb0 f   mfc80:MFC80.DLL
+ 0001:00004cb6       _malloc                    10005cb6 f   msvcrt:MSVCR80.dll
+ 0001:00004cbc       __callnewh                 10005cbc f   msvcrt:MSVCR80.dll
+ 0001:00004cc2       ??_Etype_info@@UAEPAXI@Z   10005cc2 f i msvcrt:ti_inst.obj
+ 0001:00004d0c       ___CxxFrameHandler3        10005d0c f   msvcrt:MSVCR80.dll
+ 0001:00004d12       @__security_check_cookie@4 10005d12 f   msvcrt:secchk.obj
+ 0001:00004d21       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10005d21 f   msvcrt:ehvecdtr.obj
+ 0001:00004d7f       ??_M@YGXPAXIHP6EX0@Z@Z     10005d7f f   msvcrt:ehvecdtr.obj
+ 0001:00004df0       __except_handler4          10005df0 f   msvcrt:chandler4gs.obj
+ 0001:00004e20       __alloca_probe_16          10005e20 f   msvcrt:alloca16.obj
+ 0001:00004e36       __alloca_probe_8           10005e36     msvcrt:alloca16.obj
+ 0001:00004e50       __allmul                   10005e50 f   msvcrt:llmul.obj
+ 0001:00004e84       _memset                    10005e84 f   msvcrt:MSVCR80.dll
+ 0001:00004e90       __chkstk                   10005e90 f   msvcrt:chkstk.obj
+ 0001:00004e90       __alloca_probe             10005e90     msvcrt:chkstk.obj
+ 0001:00004ebc       __CIcos                    10005ebc f   msvcrt:MSVCR80.dll
+ 0001:00004ec2       __CIsin                    10005ec2 f   msvcrt:MSVCR80.dll
+ 0001:00004ec8       _floor                     10005ec8 f   msvcrt:MSVCR80.dll
+ 0001:00004f1b       __CRT_INIT@12              10005f1b f   msvcrt:crtdll.obj
+ 0001:000051d0       __DllMainCRTStartup@12     100061d0 f   msvcrt:crtdll.obj
+ 0001:000051f4       __SEH_prolog4_GS           100061f4 f   msvcrt:sehprolg4gs.obj
+ 0001:0000523c       __SEH_epilog4_GS           1000623c f   msvcrt:sehprolg4gs.obj
+ 0001:0000524b       ___report_gsfailure        1000624b f   msvcrt:gs_report.obj
+ 0001:00005350       ?terminate@@YAXXZ          10006350 f   msvcrt:MSVCR80.dll
+ 0001:00005358       __SEH_prolog4              10006358 f   msvcrt:sehprolg4.obj
+ 0001:0000539d       __SEH_epilog4              1000639d f   msvcrt:sehprolg4.obj
+ 0001:000053b2       __except_handler4_common   100063b2 f   msvcrt:MSVCR80.dll
+ 0001:000053b8       ___clean_type_info_names   100063b8 f   msvcrt:tncleanup.obj
+ 0001:000053c4       __onexit                   100063c4 f   msvcrt:atonexit.obj
+ 0001:00005463       _atexit                    10006463 f   msvcrt:atonexit.obj
+ 0001:00005475       __RTC_Initialize           10006475 f   msvcrt:initsect.obj
+ 0001:00005499       __RTC_Terminate            10006499 f   msvcrt:initsect.obj
+ 0001:000054c0       __ValidateImageBase        100064c0 f   msvcrt:pesect.obj
+ 0001:000054f0       __FindPESection            100064f0 f   msvcrt:pesect.obj
+ 0001:00005532       __IsNonwritableInCurrentImage 10006532 f   msvcrt:pesect.obj
+ 0001:0000559e       __initterm                 1000659e f   msvcrt:MSVCR80.dll
+ 0001:000055a4       __initterm_e               100065a4 f   msvcrt:MSVCR80.dll
+ 0001:000055aa       __amsg_exit                100065aa f   msvcrt:MSVCR80.dll
+ 0001:000055b0       ___CppXcptFilter           100065b0 f   msvcrt:MSVCR80.dll
+ 0001:000055b6       _DllMain@12                100065b6 f   msvcrt:dllmain.obj
+ 0001:000055d6       ___security_init_cookie    100065d6 f   msvcrt:gs_support.obj
+ 0001:0000566a       ??1type_info@@UAE@XZ       1000666a f   msvcrt:MSVCR80.dll
+ 0001:0000566a       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000666a f   msvcrt:MSVCR80.dll
+ 0001:00005670       __crt_debugger_hook        10006670 f   msvcrt:MSVCR80.dll
+ 0001:00005676       ___clean_type_info_names_internal 10006676 f   msvcrt:MSVCR80.dll
+ 0001:0000567c       __unlock                   1000667c f   msvcrt:MSVCR80.dll
+ 0001:00005682       ___dllonexit               10006682 f   msvcrt:MSVCR80.dll
+ 0001:00005688       __lock                     10006688 f   msvcrt:MSVCR80.dll
+ 0001:0000568e       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000668e f i atls:atltrace.obj
+ 0001:000056f3       ?_AtlGetThreadACPReal@ATL@@YGIXZ 100066f3 f i atls:atltrace.obj
+ 0001:000056f7       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 100066f7 f i atls:atltrace.obj
+ 0001:00005817       __RawDllMainProxy@12       10006817 f   mfcs80:rawdllmainproxy.obj
+ 0002:00000000       __imp__JGetSolidEdgeSymbolTemplatePathFromRegistry 10008000     jutil:JUtil.dll
+ 0002:00000004       __imp_?Empty@GUserText@@QAEAAV1@XZ 10008004     jutil:JUtil.dll
+ 0002:00000008       __imp_?JSysAllocStringA@@YGPA_WPBD@Z 10008008     jutil:JUtil.dll
+ 0002:0000000c       __imp_?ConvertUnitToDbu@@YAHINPANPAI@Z 1000800c     jutil:JUtil.dll
+ 0002:00000010       __imp_?GetDefaultUnits@@YAHIPAI00@Z 10008010     jutil:JUtil.dll
+ 0002:00000014       __imp__HRerrEx             10008014     jutil:JUtil.dll
+ 0002:00000018       __imp_??1GUserText@@QAE@XZ 10008018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?JGetEnvCmdInfoInt@@YAJPBD0AAH@Z 1000801c     jutil:JUtil.dll
+ 0002:00000020       __imp_??BGUserText@@QBEPBDXZ 10008020     jutil:JUtil.dll
+ 0002:00000024       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10008024     jutil:JUtil.dll
+ 0002:00000028       __imp_??0GUserText@@QAE@XZ 10008028     jutil:JUtil.dll
+ 0002:0000002c       __imp__JGetSolidEdgeUserTemplatePathFromRegistry 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_??0GUserText@@QAE@ABV0@@Z 10008030     jutil:JUtil.dll
+ 0002:00000034       __imp_??0GUserText@@QAE@PBDHI@Z 10008034     jutil:JUtil.dll
+ 0002:00000038       __imp__JSetSolidEdgeCommonCurrentUserValue 10008038     jutil:JUtil.dll
+ 0002:0000003c       __imp__GetCurrentVersionProductInfoString@8 1000803c     jutil:JUtil.dll
+ 0002:00000040       __imp__JGetSolidEdgeCommonCurrentUserValue 10008040     jutil:JUtil.dll
+ 0002:00000044       __imp_??YGUserText@@QAEAAV0@PB_W@Z 10008044     jutil:JUtil.dll
+ 0002:00000048       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10008048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?JGetResDLLsPath@@YA?AVGUserText@@PBDJKH@Z 1000804c     jutil:JUtil.dll
+ 0002:00000050       __imp_??4GUserText@@QAEAAV0@PBD@Z 10008050     jutil:JUtil.dll
+ 0002:00000054       __imp_?SetDefaultUnitFormat@@YAHIAAUtagUomFormat@@@Z 10008054     jutil:JUtil.dll
+ 0002:00000058       __imp_?GetDefaultUnitFormat@@YAHIPAUtagUomFormat@@@Z 10008058     jutil:JUtil.dll
+ 0002:0000005c       __imp_?GetAllUnitTypes@@YAHPAIH@Z 1000805c     jutil:JUtil.dll
+ 0002:00000060       __imp_?GetNumUnitTypes@@YAHXZ 10008060     jutil:JUtil.dll
+ 0002:00000064       \177JUtil_NULL_THUNK_DATA  10008064     jutil:JUtil.dll
+ 0002:00000068       __imp__GetACP@0            10008068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetLocaleInfoA@16   1000806c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__GetThreadLocale@0   10008070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetVersionExA@4     10008074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetSystemTimeAsFileTime@4 10008078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetCurrentProcessId@0 1000807c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetCurrentThreadId@0 10008080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetTickCount@0      10008084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__QueryPerformanceCounter@4 10008088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__DisableThreadLibraryCalls@4 1000808c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__IsDebuggerPresent@0 10008090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetUnhandledExceptionFilter@4 10008094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__UnhandledExceptionFilter@4 10008098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__GetCurrentProcess@0 1000809c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__TerminateProcess@8  100080a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__InterlockedCompareExchange@12 100080a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__Sleep@4             100080a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__ExpandEnvironmentStringsA@12 100080ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__InterlockedExchange@8 100080b0     kernel32:KERNEL32.dll
+ 0002:000000b4       \177KERNEL32_NULL_THUNK_DATA 100080b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp_??_V@YAXPAX@Z        100080b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_??3@YAXPAX@Z         100080bc     mfc80:MFC80.DLL
+ 0002:000000c0       \177MFC80_NULL_THUNK_DATA  100080c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp___callnewh           100080c4     msvcrt:MSVCR80.dll
+ 0002:000000c8       __imp__free                100080c8     msvcrt:MSVCR80.dll
+ 0002:000000cc       __imp__wcscpy_s            100080cc     msvcrt:MSVCR80.dll
+ 0002:000000d0       __imp____CxxFrameHandler3  100080d0     msvcrt:MSVCR80.dll
+ 0002:000000d4       __imp__vsprintf            100080d4     msvcrt:MSVCR80.dll
+ 0002:000000d8       __imp___access             100080d8     msvcrt:MSVCR80.dll
+ 0002:000000dc       __imp___splitpath          100080dc     msvcrt:MSVCR80.dll
+ 0002:000000e0       __imp__memset              100080e0     msvcrt:MSVCR80.dll
+ 0002:000000e4       __imp___CIcos              100080e4     msvcrt:MSVCR80.dll
+ 0002:000000e8       __imp___CIsin              100080e8     msvcrt:MSVCR80.dll
+ 0002:000000ec       __imp__floor               100080ec     msvcrt:MSVCR80.dll
+ 0002:000000f0       __imp__malloc              100080f0     msvcrt:MSVCR80.dll
+ 0002:000000f4       __imp_?terminate@@YAXXZ    100080f4     msvcrt:MSVCR80.dll
+ 0002:000000f8       __imp___except_handler4_common 100080f8     msvcrt:MSVCR80.dll
+ 0002:000000fc       __imp___encode_pointer     100080fc     msvcrt:MSVCR80.dll
+ 0002:00000100       __imp___malloc_crt         10008100     msvcrt:MSVCR80.dll
+ 0002:00000104       __imp___encoded_null       10008104     msvcrt:MSVCR80.dll
+ 0002:00000108       __imp___decode_pointer     10008108     msvcrt:MSVCR80.dll
+ 0002:0000010c       __imp___initterm           1000810c     msvcrt:MSVCR80.dll
+ 0002:00000110       __imp___initterm_e         10008110     msvcrt:MSVCR80.dll
+ 0002:00000114       __imp___amsg_exit          10008114     msvcrt:MSVCR80.dll
+ 0002:00000118       __imp___adjust_fdiv        10008118     msvcrt:MSVCR80.dll
+ 0002:0000011c       __imp____CppXcptFilter     1000811c     msvcrt:MSVCR80.dll
+ 0002:00000120       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10008120     msvcrt:MSVCR80.dll
+ 0002:00000124       __imp___crt_debugger_hook  10008124     msvcrt:MSVCR80.dll
+ 0002:00000128       __imp____clean_type_info_names_internal 10008128     msvcrt:MSVCR80.dll
+ 0002:0000012c       __imp___unlock             1000812c     msvcrt:MSVCR80.dll
+ 0002:00000130       __imp____dllonexit         10008130     msvcrt:MSVCR80.dll
+ 0002:00000134       __imp___lock               10008134     msvcrt:MSVCR80.dll
+ 0002:00000138       __imp___onexit             10008138     msvcrt:MSVCR80.dll
+ 0002:0000013c       \177MSVCR80_NULL_THUNK_DATA 1000813c     msvcrt:MSVCR80.dll
+ 0002:00000140       __imp__VariantInit@4       10008140     oleaut32:OLEAUT32.dll
+ 0002:00000144       \177OLEAUT32_NULL_THUNK_DATA 10008144     oleaut32:OLEAUT32.dll
+ 0002:00000148       __imp_?JRFMS_SetCommonPrefValuesForFileLocationOptions@@YAJPBD0H@Z 10008148     rfmssvs:RFMSsvs.dll
+ 0002:0000014c       __imp_?JRFMS_GetCommonPrefValuesForFileLocationOptions@@YAJPBDPADH@Z 1000814c     rfmssvs:RFMSsvs.dll
+ 0002:00000150       \177RFMSsvs_NULL_THUNK_DATA 10008150     rfmssvs:RFMSsvs.dll
+ 0002:00000154       __imp_?GetPrefDouble@JWPrefHelper@@QAEJPB_W0PAN@Z 10008154     uprfhlp:Uprfhlp.dll
+ 0002:00000158       __imp_?GetPrefLong@JWPrefHelper@@QAEJPB_W0PAJ@Z 10008158     uprfhlp:Uprfhlp.dll
+ 0002:0000015c       __imp_?SetPrefShort@JWPrefHelper@@QAEJPB_W0F@Z 1000815c     uprfhlp:Uprfhlp.dll
+ 0002:00000160       __imp_?GetPrefShort@JWPrefHelper@@QAEJPB_W0PAF@Z 10008160     uprfhlp:Uprfhlp.dll
+ 0002:00000164       __imp_?GetPrefBool@JWPrefHelper@@QAEJPB_W0PAH@Z 10008164     uprfhlp:Uprfhlp.dll
+ 0002:00000168       __imp_?SetPrefInteger@JWPrefHelper@@QAEJPB_W0H@Z 10008168     uprfhlp:Uprfhlp.dll
+ 0002:0000016c       __imp_?GetPrefInteger@JWPrefHelper@@QAEJPB_W0PAH@Z 1000816c     uprfhlp:Uprfhlp.dll
+ 0002:00000170       __imp_??0JWPrefHelper@@QAE@XZ 10008170     uprfhlp:Uprfhlp.dll
+ 0002:00000174       __imp_?InitStorageAssociation@JWPrefHelper@@QAEJW4StorageAssociationTypes@1@PAUIUnknown@@@Z 10008174     uprfhlp:Uprfhlp.dll
+ 0002:00000178       __imp_?SetPrefDouble@JWPrefHelper@@QAEJPB_W0N@Z 10008178     uprfhlp:Uprfhlp.dll
+ 0002:0000017c       __imp_?GetPrefCharStr@JWPrefHelper@@QAEJPB_W0PAPAD@Z 1000817c     uprfhlp:Uprfhlp.dll
+ 0002:00000180       __imp_??4JWPrefHelper@@QAEAAV0@ABV0@@Z 10008180     uprfhlp:Uprfhlp.dll
+ 0002:00000184       __imp_??0JWPrefHelper@@QAE@ABV0@@Z 10008184     uprfhlp:Uprfhlp.dll
+ 0002:00000188       __imp_??1JWPrefHelper@@UAE@XZ 10008188     uprfhlp:Uprfhlp.dll
+ 0002:0000018c       __imp_?SetPrefLong@JWPrefHelper@@QAEJPB_W0J@Z 1000818c     uprfhlp:Uprfhlp.dll
+ 0002:00000190       __imp_?GetDocument@JWPrefHelper@@QAEJPAPAUIUnknown@@@Z 10008190     uprfhlp:Uprfhlp.dll
+ 0002:00000194       __imp_?SetPrefBool@JWPrefHelper@@QAEJPB_W0H@Z 10008194     uprfhlp:Uprfhlp.dll
+ 0002:00000198       __imp_?SetPrefCharStr@JWPrefHelper@@QAEJPB_W0PAD@Z 10008198     uprfhlp:Uprfhlp.dll
+ 0002:0000019c       \177Uprfhlp_NULL_THUNK_DATA 1000819c     uprfhlp:Uprfhlp.dll
+ 0002:000001a0       __imp__JSetUndoTransactionLimit@4 100081a0     jengine:jengine.dll
+ 0002:000001a4       __imp__JQueryApplication   100081a4     jengine:jengine.dll
+ 0002:000001a8       __imp__SetUserTemplatePath 100081a8     jengine:jengine.dll
+ 0002:000001ac       __imp__JGetApplication     100081ac     jengine:jengine.dll
+ 0002:000001b0       \177jengine_NULL_THUNK_DATA 100081b0     jengine:jengine.dll
+ 0002:000001b4       __imp__JVariantClear@4     100081b4     sealloc:sealloc.dll
+ 0002:000001b8       __imp__JSESysFreeString@4  100081b8     sealloc:sealloc.dll
+ 0002:000001bc       \177sealloc_NULL_THUNK_DATA 100081bc     sealloc:sealloc.dll
+ 0002:000001c0       __imp_?SkPrefsColorClearCache@@YAJXZ 100081c0     sprfhlp:sprfhlp.dll
+ 0002:000001c4       __imp_?SkPrefsSmartSketchClearCache@@YAJXZ 100081c4     sprfhlp:sprfhlp.dll
+ 0002:000001c8       \177sprfhlp_NULL_THUNK_DATA 100081c8     sprfhlp:sprfhlp.dll
+ 0002:000001cc       ___xc_a                    100081cc     msvcrt:cinitexe.obj
+ 0002:00000260       ___xc_z                    10008260     msvcrt:cinitexe.obj
+ 0002:00000264       ___xi_a                    10008264     msvcrt:cinitexe.obj
+ 0002:0000026c       ___xi_z                    1000826c     msvcrt:cinitexe.obj
+ 0002:0000028c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000828c     clear.obj
+ 0002:000002ac       ??_7SkPrefsGeneral@@6B@    100082ac     clear.obj
+ 0002:000002b4       ??_7SkPrefsFileLocations@@6B@ 100082b4     clear.obj
+ 0002:000002bc       ??_7SkPrefsUserInfo@@6B@   100082bc     clear.obj
+ 0002:000002c4       ??_7SkPrefsFreeSketch@@6B@ 100082c4     clear.obj
+ 0002:000002cc       ??_7SkPrefsView@@6B@       100082cc     clear.obj
+ 0002:000002d4       ??_7SkSavePrefs@@6B@       100082d4     clear.obj
+ 0002:000002dc       ??_7SkPrefsPrecision@@6B@  100082dc     clear.obj
+ 0002:000002e0       ??_C@_0M@FIIFCODM@?4?2clear?4cpp?$AA@ 100082e0     clear.obj
+ 0002:000002ec       ??_C@_0BI@JEPCPPEK@SketchPreferenceStartUp?$AA@ 100082ec     clear.obj
+ 0002:00000304       ??_C@_0BA@BOCLKMHG@ShowStyleRibbon?$AA@ 10008304     clear.obj
+ 0002:00000314       ??_C@_0BP@DLCNILEG@ShowStyleRibbonColorPickerOnly?$AA@ 10008314     clear.obj
+ 0002:00000334       ??_C@_0P@KBIDNBGI@AutomaticStyle?$AA@ 10008334     clear.obj
+ 0002:00000344       ??_C@_0BC@GCJNJHG@StartupScreenFile?$AA@ 10008344     FLOCPREF.obj
+ 0002:00000358       ??_C@_0N@FFPADDKF@PropSeedFile?$AA@ 10008358     FLOCPREF.obj
+ 0002:00000368       ??_C@_0O@OINHMBNJ@UserTemplates?$AA@ 10008368     FLOCPREF.obj
+ 0002:00000384       ??_C@_1BA@FIJHCCCE@?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA?$AA@ 10008384     FLOCPREF.obj
+ 0002:00000394       ??_C@_1BE@EJKFPHKG@?$AAD?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 10008394     FLOCPREF.obj
+ 0002:000003a8       ??_C@_1BC@LBJJPLOG@?$AAC?$AAa?$AAt?$AAa?$AAl?$AAo?$AAg?$AAs?$AA?$AA@ 100083a8     FLOCPREF.obj
+ 0002:000003bc       ??_C@_1M@GGNNBGOH@?$AAF?$AAo?$AAn?$AAt?$AA1?$AA?$AA@ 100083bc     FLOCPREF.obj
+ 0002:000003c8       ??_C@_1M@HEGILJAJ@?$AAF?$AAo?$AAn?$AAt?$AA2?$AA?$AA@ 100083c8     FLOCPREF.obj
+ 0002:000003d4       ??_C@_1M@MMNENOGM@?$AAF?$AAo?$AAn?$AAt?$AA3?$AA?$AA@ 100083d4     FLOCPREF.obj
+ 0002:000003e0       ??_C@_1O@DPHNLKJG@?$AAM?$AAa?$AAc?$AAr?$AAo?$AAs?$AA?$AA@ 100083e0     FLOCPREF.obj
+ 0002:000003f0       ??_C@_1CA@BADNPAI@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAT?$AAe?$AAm?$AAp?$AAl?$AAa?$AAt?$AAe?$AAs?$AA?$AA@ 100083f0     FLOCPREF.obj
+ 0002:00000410       ??_C@_0N@JEMGCKHE@Propseed?4txt?$AA@ 10008410     FLOCPREF.obj
+ 0002:00000420       ??_C@_0DN@MPFAGBOI@Z?3?2Engine?2Src?2Docmgmt?2Src?2Proper@ 10008420     FLOCPREF.obj
+ 0002:00000460       ??_C@_05BMGBEOOC@?$CFs?2?$CFs?$AA@ 10008460     FLOCPREF.obj
+ 0002:00000468       ??_C@_0N@NAGBDEPH@?$CFSystemRoot?$CF?$AA@ 10008468     FLOCPREF.obj
+ 0002:00000478       ??_C@_0BA@LDMOCAFI@?$CFs?2propseed?4txt?$AA@ 10008478     FLOCPREF.obj
+ 0002:00000488       ??_C@_0CO@CAKEODHJ@Program?5Files?2Solid?5Edge?2Program@ 10008488     FLOCPREF.obj
+ 0002:000004b8       ??_C@_0M@PBEHJCJG@InstallPath?$AA@ 100084b8     FLOCPREF.obj
+ 0002:000004c4       ??_C@_1CO@IIGLGCB@?$AA?2?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA?2?$AAS?$AAE?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA?4?$AAh?$AAt?$AAm?$AA?$AA@ 100084c4     FLOCPREF.obj
+ 0002:000004f4       ??_C@_1DG@DNOGBANJ@?$AAz?$AA?3?$AA?2?$AAe?$AAn?$AAg?$AAi?$AAn?$AAe?$AA?2?$AAB?$AAI?$AAN?$AA?2?$AAR?$AAe?$AAs?$AAD?$AAl?$AAl?$AAs?$AA?2?$AA0?$AA0?$AA0?$AA9?$AA?$AA@ 100084f4     FLOCPREF.obj
+ 0002:0000052c       ??_C@_0M@GJPOBN@JEngine?4dll?$AA@ 1000852c     FLOCPREF.obj
+ 0002:00000538       ??_C@_1CM@KEJBEDOE@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAF?$AAi?$AAl?$AAe?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 10008538     FLOCPREF.obj
+ 0002:00000564       ??_C@_1BC@OHENPEDC@?$AAA?$AAc?$AAc?$AAu?$AAr?$AAa?$AAc?$AAy?$AA?$AA@ 10008564     FRSKPREF.obj
+ 0002:00000578       ??_C@_1BM@LLAMEPKJ@?$AAR?$AAe?$AAc?$AAo?$AAg?$AAn?$AAi?$AAz?$AAe?$AAL?$AAi?$AAn?$AAe?$AA?$AA@ 10008578     FRSKPREF.obj
+ 0002:00000594       ??_C@_1BK@HNJKAMLC@?$AAR?$AAe?$AAc?$AAo?$AAg?$AAn?$AAi?$AAz?$AAe?$AAA?$AAr?$AAc?$AA?$AA@ 10008594     FRSKPREF.obj
+ 0002:000005b0       ??_C@_1CA@GFAEKNHN@?$AAR?$AAe?$AAc?$AAo?$AAg?$AAn?$AAi?$AAz?$AAe?$AAC?$AAi?$AAr?$AAc?$AAl?$AAe?$AA?$AA@ 100085b0     FRSKPREF.obj
+ 0002:000005d0       ??_C@_1CG@ODLCJAMF@?$AAR?$AAe?$AAc?$AAo?$AAg?$AAn?$AAi?$AAz?$AAe?$AAR?$AAe?$AAc?$AAt?$AAa?$AAn?$AAg?$AAl?$AAe?$AA?$AA@ 100085d0     FRSKPREF.obj
+ 0002:000005f8       ??_C@_1BG@PHHICJOD@?$AAA?$AAd?$AAj?$AAu?$AAs?$AAt?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 100085f8     FRSKPREF.obj
+ 0002:00000610       ??_C@_1BG@BCNCKIDO@?$AAS?$AAm?$AAo?$AAo?$AAt?$AAh?$AAM?$AAo?$AAd?$AAe?$AA?$AA@ 10008610     FRSKPREF.obj
+ 0002:00000628       ??_C@_1CG@OBFKMEKA@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAF?$AAr?$AAe?$AAe?$AAS?$AAk?$AAe?$AAt?$AAc?$AAh?$AA?$AA@ 10008628     FRSKPREF.obj
+ 0002:00000650       ??_C@_1CM@LCCLLGO@?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AAA?$AAu?$AAt?$AAo?$AAL?$AAi?$AAn?$AAk?$AAs?$AAA?$AAt?$AAO?$AAp?$AAe?$AAn?$AA?$AA@ 10008650     GENRPREF.obj
+ 0002:0000067c       ??_C@_1CK@BHMDOELM@?$AAA?$AAu?$AAt?$AAo?$AAD?$AAi?$AAm?$AAe?$AAn?$AAK?$AAe?$AAy?$AAi?$AAn?$AAV?$AAa?$AAl?$AAu?$AAe?$AAs?$AA?$AA@ 1000867c     GENRPREF.obj
+ 0002:000006a8       ??_C@_1BG@HPDMEMMI@?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAU?$AAO?$AAM?$AA?$AA@ 100086a8     GENRPREF.obj
+ 0002:000006c0       ??_C@_1BO@EPGAMBKO@?$AAD?$AAr?$AAa?$AAf?$AAt?$AAU?$AAn?$AAd?$AAo?$AAS?$AAt?$AAe?$AAp?$AAs?$AA?$AA@ 100086c0     GENRPREF.obj
+ 0002:000006e0       ??_C@_1CA@BGJAGEPD@?$AAS?$AAt?$AAo?$AAr?$AAe?$AAV?$AAi?$AAe?$AAw?$AAe?$AAr?$AAD?$AAa?$AAt?$AAa?$AA?$AA@ 100086e0     GENRPREF.obj
+ 0002:00000700       ??_C@_1DO@GCGIPMNG@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAD?$AAi?$AAm?$AAW?$AAi?$AAt?$AAh?$AAM?$AAo?$AAu?$AAs?$AAe?$AAW?$AAh?$AAe?$AAe?$AAl?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAd?$AA?$AA@ 10008700     GENRPREF.obj
+ 0002:00000740       ??_C@_1CA@CMCOIDAK@?$AAP?$AAe?$AAr?$AAf?$AAo?$AAr?$AAm?$AAA?$AAu?$AAt?$AAo?$AAS?$AAa?$AAv?$AAe?$AA?$AA@ 10008740     GENRPREF.obj
+ 0002:00000760       ??_C@_0P@JKLBKAPM@?4?2GENRPREF?4CPP?$AA@ 10008760     GENRPREF.obj
+ 0002:00000770       ??_C@_0CF@DLPPFELP@SkPrefsGeneral?3?3SetAutomaticSave@ 10008770     GENRPREF.obj
+ 0002:00000798       ??_C@_1CO@FPPMCLCC@?$AAM?$AAi?$AAn?$AAu?$AAt?$AAe?$AAs?$AAB?$AAe?$AAt?$AAw?$AAe?$AAe?$AAn?$AAA?$AAu?$AAt?$AAo?$AAS?$AAa?$AAv?$AAe?$AA?$AA@ 10008798     GENRPREF.obj
+ 0002:000007c8       ??_C@_0CP@LKMLPDKL@SkPrefsGeneral?3?3SetMinutesBetwee@ 100087c8     GENRPREF.obj
+ 0002:000007f8       ??_C@_1CM@LEHAOKMH@?$AAN?$AAo?$AAt?$AAi?$AAf?$AAy?$AAB?$AAe?$AAf?$AAo?$AAr?$AAe?$AAA?$AAu?$AAt?$AAo?$AAS?$AAa?$AAv?$AAe?$AAs?$AA?$AA@ 100087f8     GENRPREF.obj
+ 0002:00000824       ??_C@_0DB@NHJJGPKM@SkPrefsGeneral?3?3SetNotifyBeforeA@ 10008824     GENRPREF.obj
+ 0002:00000858       ??_C@_1DC@MHFDNIGC@?$AAC?$AAh?$AAe?$AAc?$AAk?$AAM?$AAo?$AAd?$AAe?$AAl?$AAB?$AAe?$AAf?$AAo?$AAr?$AAe?$AAD?$AAV?$AAU?$AAp?$AAd?$AAa?$AAt?$AAe?$AA?$AA@ 10008858     GENRPREF.obj
+ 0002:0000088c       ??_C@_0DB@NMACPPGP@SkPrefsGeneral?3?3SetCheckModelCha@ 1000888c     GENRPREF.obj
+ 0002:000008c0       ??_C@_1CM@NGKOLNF@?$AAS?$AAa?$AAv?$AAe?$AAV?$AAi?$AAe?$AAw?$AAe?$AAr?$AAD?$AAa?$AAt?$AAa?$AAA?$AAs?$AAB?$AAl?$AAa?$AAc?$AAk?$AA?$AA@ 100088c0     GENRPREF.obj
+ 0002:000008ec       ??_C@_0CJ@IFIMMGHF@SkPrefsGeneral?3?3SetSaveViewerDat@ 100088ec     GENRPREF.obj
+ 0002:00000918       ??_C@_11LOCGONAA@?$AA?$AA@ 10008918     GENRPREF.obj
+ 0002:0000091c       ??_C@_1CA@PDBECGGO@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAG?$AAe?$AAn?$AAe?$AAr?$AAa?$AAl?$AA?$AA@ 1000891c     GENRPREF.obj
+ 0002:0000093c       ??_C@_0CF@MEPFMNMM@SkPrefsGeneral?3?3GetRecentlyUsedF@ 1000893c     GENRPREF.obj
+ 0002:00000964       ??_C@_0CF@JNOINLJL@SkPrefsGeneral?3?3SetRecentlyUsedF@ 10008964     GENRPREF.obj
+ 0002:0000098c       ??_C@_0BO@PANCPEPD@SkPrefsGeneral?3?3SetDisplayUOM?$AA@ 1000898c     GENRPREF.obj
+ 0002:000009ac       ??_C@_0BN@JEHJGBOO@SkPrefsGeneral?3?3SetUndoSteps?$AA@ 100089ac     GENRPREF.obj
+ 0002:000009d8       _IID_IJApplication         100089d8     guid.obj
+ 0002:000009e8       _IID_IJDocument            100089e8     guid.obj
+ 0002:000009f8       _IID_IHPrefSetEx           100089f8     guid.obj
+ 0002:00000a08       ??_C@_1BI@MIPDGNOP@?$AAP?$AAi?$AAn?$AAR?$AAu?$AAn?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10008a08     PRECPREF.obj
+ 0002:00000a20       __real@3f9a027525460aa6    10008a20     PRECPREF.obj
+ 0002:00000a28       __real@4049000000000000    10008a28     PRECPREF.obj
+ 0002:00000a30       __real@4014000000000000    10008a30     PRECPREF.obj
+ 0002:00000a38       ??_C@_1BG@LCBGLNBJ@?$AAP?$AAa?$AAp?$AAe?$AAr?$AAU?$AAn?$AAi?$AAt?$AAs?$AA?$AA@ 10008a38     PRECPREF.obj
+ 0002:00000a50       ??_C@_1BE@NMDKDMAE@?$AAS?$AAt?$AAe?$AAp?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10008a50     PRECPREF.obj
+ 0002:00000a68       __real@0000000000000000    10008a68     PRECPREF.obj
+ 0002:00000a70       __real@bff0000000000000    10008a70     PRECPREF.obj
+ 0002:00000a78       ??_C@_1BC@OMNMCCAA@?$AAR?$AAo?$AAt?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10008a78     PRECPREF.obj
+ 0002:00000a90       __real@3f91d14e3bcd35a8    10008a90     PRECPREF.obj
+ 0002:00000a98       ??_C@_1BA@FLAJPPFE@?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AAY?$AA?$AA@ 10008a98     PRECPREF.obj
+ 0002:00000aa8       ??_C@_1BA@ODLFJIDB@?$AAT?$AAa?$AAr?$AAg?$AAe?$AAt?$AAX?$AA?$AA@ 10008aa8     PRECPREF.obj
+ 0002:00000ab8       ??_C@_1BG@JEPIAHBN@?$AAE?$AAv?$AAa?$AAl?$AAu?$AAa?$AAt?$AAe?$AAd?$AAY?$AA?$AA@ 10008ab8     PRECPREF.obj
+ 0002:00000ad0       ??_C@_1BG@CMEEGAHI@?$AAE?$AAv?$AAa?$AAl?$AAu?$AAa?$AAt?$AAe?$AAd?$AAX?$AA?$AA@ 10008ad0     PRECPREF.obj
+ 0002:00000ae8       ??_C@_1BM@KJGMNLFJ@?$AAP?$AAi?$AAn?$AAM?$AAa?$AAj?$AAo?$AAr?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10008ae8     PRECPREF.obj
+ 0002:00000b04       ??_C@_1BO@ELKLMCIO@?$AAP?$AAi?$AAn?$AAO?$AAr?$AAi?$AAg?$AAi?$AAn?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10008b04     PRECPREF.obj
+ 0002:00000b24       ??_C@_1BM@MEKLFHPI@?$AAP?$AAi?$AAn?$AAM?$AAi?$AAn?$AAo?$AAr?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?$AA@ 10008b24     PRECPREF.obj
+ 0002:00000b40       ??_C@_1BM@FCNIFGEM@?$AAP?$AAi?$AAn?$AAM?$AAa?$AAj?$AAo?$AAr?$AAS?$AAp?$AAa?$AAc?$AAe?$AA?$AA@ 10008b40     PRECPREF.obj
+ 0002:00000b5c       ??_C@_1BM@DPBPNKON@?$AAP?$AAi?$AAn?$AAM?$AAi?$AAn?$AAo?$AAr?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10008b5c     PRECPREF.obj
+ 0002:00000b78       ??_C@_1CA@BEHICIJJ@?$AAP?$AAi?$AAn?$AAD?$AAi?$AAs?$AAp?$AAl?$AAa?$AAy?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 10008b78     PRECPREF.obj
+ 0002:00000b98       ??_C@_1BG@IDCCKHDI@?$AAY?$AAL?$AAo?$AAc?$AAk?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10008b98     PRECPREF.obj
+ 0002:00000bb0       ??_C@_1BG@JEAKMDPI@?$AAX?$AAL?$AAo?$AAc?$AAk?$AAV?$AAa?$AAl?$AAu?$AAe?$AA?$AA@ 10008bb0     PRECPREF.obj
+ 0002:00000bc8       ??_C@_1BE@BPHGIEME@?$AAP?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 10008bc8     PRECPREF.obj
+ 0002:00000be0       __real@c01921fb54442d18    10008be0     PRECPREF.obj
+ 0002:00000be8       __real@401921fb54442d18    10008be8     PRECPREF.obj
+ 0002:00000bf0       ??_C@_0P@MAAIGJJP@?4?2PRECPREF?4CPP?$AA@ 10008bf0     PRECPREF.obj
+ 0002:00000c00       ??_C@_0CB@JHADCOLM@SkPrefsPrecision?3?3SetTargetPoint@ 10008c00     PRECPREF.obj
+ 0002:00000c24       ??_C@_0CE@POPMOBLL@SkPrefsPrecision?3?3SetEvaluatedPo@ 10008c24     PRECPREF.obj
+ 0002:00000c48       ??_C@_0CE@IJEJBKE@SkPrefsPrecision?3?3SetMajorGridCo@ 10008c48     PRECPREF.obj
+ 0002:00000c6c       ??_C@_0CE@PLHEOFAE@SkPrefsPrecision?3?3SetMinorGridCo@ 10008c6c     PRECPREF.obj
+ 0002:00000c90       ??_C@_0CF@LIOJJBBE@SkPrefsPrecision?3?3SetOriginGridC@ 10008c90     PRECPREF.obj
+ 0002:00000cb8       ??_C@_1CE@PLAEHMJO@?$AAP?$AAr?$AAe?$AAs?$AAe?$AAr?$AAv?$AAe?$AAD?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?$AA@ 10008cb8     SAVEPREF.obj
+ 0002:00000cdc       ??_C@_0P@DMEOOINA@?4?2SAVEPREF?4CPP?$AA@ 10008cdc     SAVEPREF.obj
+ 0002:00000cec       ??_C@_0CC@GFCDIJOH@SkSavePrefs?3?3SetAutomaticSaveFla@ 10008cec     SAVEPREF.obj
+ 0002:00000d10       ??_C@_0CM@NHBIGCMA@SkSavePrefs?3?3SetMinutesBetweenAu@ 10008d10     SAVEPREF.obj
+ 0002:00000d3c       ??_C@_1CE@KKHBJJBI@?$AAP?$AAe?$AAr?$AAf?$AAo?$AAr?$AAm?$AAA?$AAu?$AAt?$AAo?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AA?$AA@ 10008d3c     SAVEPREF.obj
+ 0002:00000d60       ??_C@_0CE@DDCIGAMG@SkSavePrefs?3?3SetAutomaticBackupF@ 10008d60     SAVEPREF.obj
+ 0002:00000d84       ??_C@_1DC@GCJOJFAK@?$AAM?$AAi?$AAn?$AAu?$AAt?$AAe?$AAs?$AAB?$AAe?$AAt?$AAw?$AAe?$AAe?$AAn?$AAA?$AAu?$AAt?$AAo?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AA?$AA@ 10008d84     SAVEPREF.obj
+ 0002:00000db8       ??_C@_0CL@EJAAPDHL@SkSavePrefs?3?3SetMinsBetweenAutom@ 10008db8     SAVEPREF.obj
+ 0002:00000de4       ??_C@_1CC@ILPEGJPP@?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AAM?$AAo?$AAd?$AAe?$AAl?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?$AA@ 10008de4     SAVEPREF.obj
+ 0002:00000e08       ??_C@_0CJ@DLIIDGGL@SkSavePrefs?3?3SetAutomaticBackupM@ 10008e08     SAVEPREF.obj
+ 0002:00000e34       ??_C@_1CC@OLNBHBPI@?$AAB?$AAa?$AAc?$AAk?$AAu?$AAp?$AAD?$AAr?$AAa?$AAf?$AAt?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?$AA@ 10008e34     SAVEPREF.obj
+ 0002:00000e58       ??_C@_0CJ@MJPCMII@SkSavePrefs?3?3SetAutomaticBackupD@ 10008e58     SAVEPREF.obj
+ 0002:00000e84       ??_C@_1BK@FJHLFBDF@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAS?$AAa?$AAv?$AAe?$AA?$AA@ 10008e84     SAVEPREF.obj
+ 0002:00000ea0       ??_C@_1CO@DGNLGIKF@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAD?$AAe?$AAp?$AAt?$AAh?$AAF?$AAi?$AAn?$AAi?$AAt?$AAe?$AA?$AA@ 10008ea0     smartdepthpref.obj
+ 0002:00000ed0       ??_C@_1DA@BHGNMDNF@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAD?$AAe?$AAp?$AAt?$AAh?$AAT?$AAh?$AAr?$AAo?$AAu?$AAg?$AAh?$AA?$AA@ 10008ed0     smartdepthpref.obj
+ 0002:00000f00       ??_C@_1CK@FNKIDGFK@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAH?$AAo?$AAl?$AAe?$AAD?$AAe?$AAp?$AAt?$AAh?$AAF?$AAi?$AAn?$AAi?$AAt?$AAe?$AA?$AA@ 10008f00     smartdepthpref.obj
+ 0002:00000f2c       ??_C@_1CM@IJKCJCH@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAH?$AAo?$AAl?$AAe?$AAD?$AAe?$AAp?$AAt?$AAh?$AAT?$AAh?$AAr?$AAo?$AAu?$AAg?$AAh?$AA?$AA@ 10008f2c     smartdepthpref.obj
+ 0002:00000f58       ??_C@_0BF@INMDPHF@?4?2smartdepthpref?4cpp?$AA@ 10008f58     smartdepthpref.obj
+ 0002:00000f70       ??_C@_0BJ@PAGEGOML@GetSmartDepthPreferences?$AA@ 10008f70     smartdepthpref.obj
+ 0002:00000f8c       ??_C@_0BJ@BJEIMKDA@PutSmartDepthPreferences?$AA@ 10008f8c     smartdepthpref.obj
+ 0002:00000fa8       ??_C@_19DINFBLAK@?$AAN?$AAa?$AAm?$AAe?$AA?$AA@ 10008fa8     UINFPREF.obj
+ 0002:00000fb4       ??_C@_1BC@PBGBKGDN@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAs?$AA?$AA@ 10008fb4     UINFPREF.obj
+ 0002:00000fc8       ??_C@_1BA@LDPMAPOD@?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?$AA@ 10008fc8     UINFPREF.obj
+ 0002:00000fd8       ??_C@_1CC@LOHMAOP@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAU?$AAs?$AAe?$AAr?$AAI?$AAn?$AAf?$AAo?$AA?$AA@ 10008fd8     UINFPREF.obj
+ 0002:00000ffc       ??_C@_1BK@FGBONCGN@?$AAW?$AAn?$AAd?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AAB?$AAa?$AAr?$AA?$AA@ 10008ffc     VIEWPREF.obj
+ 0002:00001018       ??_C@_1CG@GFAEJGCN@?$AAZ?$AAo?$AAo?$AAm?$AAT?$AAo?$AAo?$AAl?$AA_?$AAL?$AAe?$AAf?$AAt?$AAC?$AAl?$AAi?$AAc?$AAk?$AA?$AA@ 10009018     VIEWPREF.obj
+ 0002:00001040       ??_C@_1CE@CKIAPAMK@?$AAZ?$AAo?$AAo?$AAm?$AAT?$AAo?$AAo?$AAl?$AA_?$AAL?$AAe?$AAf?$AAt?$AAD?$AAr?$AAa?$AAg?$AA?$AA@ 10009040     VIEWPREF.obj
+ 0002:00001064       ??_C@_1CI@PFEBNGBJ@?$AAZ?$AAo?$AAo?$AAm?$AAT?$AAo?$AAo?$AAl?$AA_?$AAR?$AAi?$AAg?$AAh?$AAt?$AAC?$AAl?$AAi?$AAc?$AAk?$AA?$AA@ 10009064     VIEWPREF.obj
+ 0002:0000108c       ??_C@_1CG@HIBIJMNE@?$AAZ?$AAo?$AAo?$AAm?$AAT?$AAo?$AAo?$AAl?$AA_?$AAR?$AAi?$AAg?$AAh?$AAt?$AAD?$AAr?$AAa?$AAg?$AA?$AA@ 1000908c     VIEWPREF.obj
+ 0002:000010b4       ??_C@_1BK@BDOFGOOF@?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?9?$AAV?$AAi?$AAe?$AAw?$AA?$AA@ 100090b4     VIEWPREF.obj
+ 0002:000010d0       ??_C@_0P@DDCCNOCC@?4?2VIEWPREF?4CPP?$AA@ 100090d0     VIEWPREF.obj
+ 0002:000010e0       ??_C@_0BN@GJHCFEMI@SkPrefsView?3?3SetWndStatusBar?$AA@ 100090e0     VIEWPREF.obj
+ 0002:00001100       ??_C@_06JBKGCNBB@Delete?$AA@ 10009100     mfcs80:stdafx.obj
+ 0002:00001108       ??_C@_08KAAPDIAN@NoRemove?$AA@ 10009108     mfcs80:stdafx.obj
+ 0002:00001114       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 10009114     mfcs80:stdafx.obj
+ 0002:00001120       ??_C@_03LAIAPFCB@Val?$AA@  10009120     mfcs80:stdafx.obj
+ 0002:00001124       ??_C@_01HMGJMAIH@B?$AA@    10009124     mfcs80:stdafx.obj
+ 0002:00001128       ??_C@_01CKDDGHAB@D?$AA@    10009128     mfcs80:stdafx.obj
+ 0002:0000112c       ??_C@_01PLPBNMEI@M?$AA@    1000912c     mfcs80:stdafx.obj
+ 0002:00001130       ??_C@_01CPLAODJH@S?$AA@    10009130     mfcs80:stdafx.obj
+ 0002:00001158       ??_7type_info@@6B@         10009158     msvcrt:ti_inst.obj
+ 0002:0000115c       __pDefaultRawDllMain       1000915c     msvcrt:crtdll.obj
+ 0002:00001168       __pRawDllMain              10009168     mfcs80:rawdllmainproxy.obj
+ 0002:00001170       __load_config_used         10009170     msvcrt:loadcfg.obj
+ 0002:000011e8       ??_R4SkPrefsGeneral@@6B@   100091e8     clear.obj
+ 0002:000011fc       ??_R3SkPrefsGeneral@@8     100091fc     clear.obj
+ 0002:0000120c       ??_R2SkPrefsGeneral@@8     1000920c     clear.obj
+ 0002:00001218       ??_R1A@?0A@EA@SkPrefsGeneral@@8 10009218     clear.obj
+ 0002:00001234       ??_R1A@?0A@EA@JWPrefHelper@@8 10009234     clear.obj
+ 0002:00001250       ??_R3JWPrefHelper@@8       10009250     clear.obj
+ 0002:00001260       ??_R2JWPrefHelper@@8       10009260     clear.obj
+ 0002:00001268       ??_R4SkPrefsFileLocations@@6B@ 10009268     clear.obj
+ 0002:0000127c       ??_R3SkPrefsFileLocations@@8 1000927c     clear.obj
+ 0002:0000128c       ??_R2SkPrefsFileLocations@@8 1000928c     clear.obj
+ 0002:00001298       ??_R1A@?0A@EA@SkPrefsFileLocations@@8 10009298     clear.obj
+ 0002:000012b4       ??_R4SkPrefsUserInfo@@6B@  100092b4     clear.obj
+ 0002:000012c8       ??_R3SkPrefsUserInfo@@8    100092c8     clear.obj
+ 0002:000012d8       ??_R2SkPrefsUserInfo@@8    100092d8     clear.obj
+ 0002:000012e4       ??_R1A@?0A@EA@SkPrefsUserInfo@@8 100092e4     clear.obj
+ 0002:00001300       ??_R4SkPrefsFreeSketch@@6B@ 10009300     clear.obj
+ 0002:00001314       ??_R3SkPrefsFreeSketch@@8  10009314     clear.obj
+ 0002:00001324       ??_R2SkPrefsFreeSketch@@8  10009324     clear.obj
+ 0002:00001330       ??_R1A@?0A@EA@SkPrefsFreeSketch@@8 10009330     clear.obj
+ 0002:0000134c       ??_R4SkPrefsView@@6B@      1000934c     clear.obj
+ 0002:00001360       ??_R3SkPrefsView@@8        10009360     clear.obj
+ 0002:00001370       ??_R2SkPrefsView@@8        10009370     clear.obj
+ 0002:0000137c       ??_R1A@?0A@EA@SkPrefsView@@8 1000937c     clear.obj
+ 0002:00001398       ??_R4SkSavePrefs@@6B@      10009398     clear.obj
+ 0002:000013ac       ??_R3SkSavePrefs@@8        100093ac     clear.obj
+ 0002:000013bc       ??_R2SkSavePrefs@@8        100093bc     clear.obj
+ 0002:000013c8       ??_R1A@?0A@EA@SkSavePrefs@@8 100093c8     clear.obj
+ 0002:000013e4       ??_R4SkPrefsPrecision@@6B@ 100093e4     clear.obj
+ 0002:000013f8       ??_R3SkPrefsPrecision@@8   100093f8     clear.obj
+ 0002:00001408       ??_R2SkPrefsPrecision@@8   10009408     clear.obj
+ 0002:00001414       ??_R1A@?0A@EA@SkPrefsPrecision@@8 10009414     clear.obj
+ 0002:00001430       ??_R4type_info@@6B@        10009430     msvcrt:ti_inst.obj
+ 0002:00001444       ??_R3type_info@@8          10009444     msvcrt:ti_inst.obj
+ 0002:00001454       ??_R2type_info@@8          10009454     msvcrt:ti_inst.obj
+ 0002:0000145c       ??_R1A@?0A@EA@type_info@@8 1000945c     msvcrt:ti_inst.obj
+ 0002:00001480       ___safe_se_handler_table   10009480     <linker-defined>
+ 0002:00001504       ___rtc_iaa                 10009504     msvcrt:initsect.obj
+ 0002:00001508       ___rtc_izz                 10009508     msvcrt:initsect.obj
+ 0002:0000150c       ___rtc_taa                 1000950c     msvcrt:initsect.obj
+ 0002:00001510       ___rtc_tzz                 10009510     msvcrt:initsect.obj
+ 0002:00001b9c       __IMPORT_DESCRIPTOR_jengine 10009b9c     jengine:jengine.dll
+ 0002:00001bb0       __IMPORT_DESCRIPTOR_JUtil  10009bb0     jutil:JUtil.dll
+ 0002:00001bc4       __IMPORT_DESCRIPTOR_RFMSsvs 10009bc4     rfmssvs:RFMSsvs.dll
+ 0002:00001bd8       __IMPORT_DESCRIPTOR_Uprfhlp 10009bd8     uprfhlp:Uprfhlp.dll
+ 0002:00001bec       __IMPORT_DESCRIPTOR_sprfhlp 10009bec     sprfhlp:sprfhlp.dll
+ 0002:00001c00       __IMPORT_DESCRIPTOR_sealloc 10009c00     sealloc:sealloc.dll
+ 0002:00001c14       __IMPORT_DESCRIPTOR_MFC80  10009c14     mfc80:MFC80.DLL
+ 0002:00001c28       __IMPORT_DESCRIPTOR_MSVCR80 10009c28     msvcrt:MSVCR80.dll
+ 0002:00001c3c       __IMPORT_DESCRIPTOR_KERNEL32 10009c3c     kernel32:KERNEL32.dll
+ 0002:00001c50       __IMPORT_DESCRIPTOR_OLEAUT32 10009c50     oleaut32:OLEAUT32.dll
+ 0002:00001c64       __NULL_IMPORT_DESCRIPTOR   10009c64     jengine:jengine.dll
+ 0003:00000000       __newmode                  1000d000     newmode.obj
+ 0003:00000a28       ??_R0?AVSkPrefsGeneral@@@8 1000da28     clear.obj
+ 0003:00000a48       ??_R0?AVJWPrefHelper@@@8   1000da48     clear.obj
+ 0003:00000a64       ??_R0?AVSkPrefsFileLocations@@@8 1000da64     clear.obj
+ 0003:00000a88       ??_R0?AVSkPrefsUserInfo@@@8 1000da88     clear.obj
+ 0003:00000aa8       ??_R0?AVSkPrefsFreeSketch@@@8 1000daa8     clear.obj
+ 0003:00000ac8       ??_R0?AVSkPrefsView@@@8    1000dac8     clear.obj
+ 0003:00000ae4       ??_R0?AVSkSavePrefs@@@8    1000dae4     clear.obj
+ 0003:00000b00       ??_R0?AVSkPrefsPrecision@@@8 1000db00     clear.obj
+ 0003:00005c48       ??_R0?AVtype_info@@@8      10012c48     msvcrt:ti_inst.obj
+ 0003:00005c60       ___security_cookie         10012c60     msvcrt:gs_cookie.obj
+ 0003:00005c64       ___security_cookie_complement 10012c64     msvcrt:gs_cookie.obj
+ 0003:00005c70       ___native_dllmain_reason   10012c70     msvcrt:natstart.obj
+ 0003:00005c74       ___native_vcclrit_reason   10012c74     msvcrt:natstart.obj
+ 0003:00005c78       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10012c78     atls:atltrace.obj
+ 0003:00007068       __afxForceEXCLUDE          10014068     mfcs80:nolib.obj
+ 0003:0000706c       __afxForceSTDAFX           1001406c     mfcs80:stdafx.obj
+ 0003:0000739c       ?__type_info_root_node@@3U__type_info_node@@A 1001439c     msvcrt:tncleanup.obj
+ 0003:000073a4       __pActualRawDllMain        100143a4     <common>
+ 0003:000073a8       __adjust_fdiv              100143a8     <common>
+ 0003:000073ac       ___native_startup_state    100143ac     <common>
+ 0003:000073b0       ___native_startup_lock     100143b0     <common>
+ 0003:000073b4       ___onexitend               100143b4     <common>
+ 0003:000073b8       ___onexitbegin             100143b8     <common>
+ 0003:000073bc       ___dyn_tls_init_callback   100143bc     <common>
+
+ entry point at        0001:000051d0
+
+ Static symbols
+
+ 0001:00001160       ?JMGetPropertySeedFilePath@@YAJPAD0@Z 10002160 f   FLOCPREF.obj
+ 0001:000024d0       ?GetFilePrimaryUnits@@YAJPAJ@Z 100034d0 f   PRECPREF.obj
+ 0001:00004120       ?SETBSTRVAR@@YAXAAUtagVARIANT@@PBD@Z 10005120 f   smartdepthpref.obj
+ 0001:00004ece       _pre_c_init                10005ece f   msvcrt:crtdll.obj
+ 0001:000050ba       ___DllMainCRTStartup       100060ba f   msvcrt:crtdll.obj
+ 0001:0000575b       __FindPESection            1000675b f   mfcs80:rawdllmainproxy.obj
+ 0001:00005795       __IsNonwritableInCurrentImage 10006795 f   mfcs80:rawdllmainproxy.obj
+ 0001:00005840       __unwindfunclet$??0SkPrefsGeneral@@QAE@ABV0@@Z$0 10006840 f   clear.obj
+ 0001:00005849       __ehhandler$??0SkPrefsGeneral@@QAE@ABV0@@Z 10006849 f   clear.obj
+ 0001:00005870       __unwindfunclet$??0SkPrefsFileLocations@@QAE@ABV0@@Z$0 10006870 f   clear.obj
+ 0001:00005879       __ehhandler$??0SkPrefsFileLocations@@QAE@ABV0@@Z 10006879 f   clear.obj
+ 0001:000058a0       __unwindfunclet$??0SkPrefsUserInfo@@QAE@ABV0@@Z$0 100068a0 f   clear.obj
+ 0001:000058a9       __ehhandler$??0SkPrefsUserInfo@@QAE@ABV0@@Z 100068a9 f   clear.obj
+ 0001:000058d0       __unwindfunclet$??0SkPrefsFreeSketch@@QAE@ABV0@@Z$0 100068d0 f   clear.obj
+ 0001:000058d9       __ehhandler$??0SkPrefsFreeSketch@@QAE@ABV0@@Z 100068d9 f   clear.obj
+ 0001:00005900       __unwindfunclet$??0SkPrefsView@@QAE@ABV0@@Z$0 10006900 f   clear.obj
+ 0001:00005909       __ehhandler$??0SkPrefsView@@QAE@ABV0@@Z 10006909 f   clear.obj
+ 0001:00005930       __unwindfunclet$??0SkSavePrefs@@QAE@ABV0@@Z$0 10006930 f   clear.obj
+ 0001:00005939       __ehhandler$??0SkSavePrefs@@QAE@ABV0@@Z 10006939 f   clear.obj
+ 0001:00005960       __unwindfunclet$??0SkPrefsPrecision@@QAE@ABV0@@Z$0 10006960 f   clear.obj
+ 0001:00005969       __ehhandler$??0SkPrefsPrecision@@QAE@ABV0@@Z 10006969 f   clear.obj
+ 0001:00005990       __unwindfunclet$?SketchPreferenceStartUp@@YAJXZ$12 10006990 f   clear.obj
+ 0001:0000599b       __unwindfunclet$?SketchPreferenceStartUp@@YAJXZ$13 1000699b f   clear.obj
+ 0001:000059a6       __ehhandler$?SketchPreferenceStartUp@@YAJXZ 100069a6 f   clear.obj
+ 0001:000059e0       __unwindfunclet$?SketchShowStyleRibbon@@YAHXZ$0 100069e0 f   clear.obj
+ 0001:000059e9       __ehhandler$?SketchShowStyleRibbon@@YAHXZ 100069e9 f   clear.obj
+ 0001:00005a10       __unwindfunclet$?SketchShowStyleRibbonColorPickerOnly@@YAHXZ$0 10006a10 f   clear.obj
+ 0001:00005a19       __ehhandler$?SketchShowStyleRibbonColorPickerOnly@@YAHXZ 10006a19 f   clear.obj
+ 0001:00005a40       __unwindfunclet$?SketchAutomaticStyle@@YAHXZ$0 10006a40 f   clear.obj
+ 0001:00005a49       __ehhandler$?SketchAutomaticStyle@@YAHXZ 10006a49 f   clear.obj
+ 0001:00005a70       __unwindfunclet$??1SkPrefsFileLocations@@UAE@XZ$0 10006a70 f   FLOCPREF.obj
+ 0001:00005a79       __ehhandler$??1SkPrefsFileLocations@@UAE@XZ 10006a79 f   FLOCPREF.obj
+ 0001:00005aa0       __unwindfunclet$?GetUserTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z$0 10006aa0 f   FLOCPREF.obj
+ 0001:00005aa9       __ehhandler$?GetUserTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z 10006aa9 f   FLOCPREF.obj
+ 0001:00005ae0       __unwindfunclet$?SetUserTemplates@SkPrefsFileLocations@@QAEJPAD@Z$0 10006ae0 f   FLOCPREF.obj
+ 0001:00005ae9       __unwindfunclet$?SetUserTemplates@SkPrefsFileLocations@@QAEJPAD@Z$1 10006ae9 f   FLOCPREF.obj
+ 0001:00005af2       __ehhandler$?SetUserTemplates@SkPrefsFileLocations@@QAEJPAD@Z 10006af2 f   FLOCPREF.obj
+ 0001:00005b10       __unwindfunclet$?GetSymbolTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z$0 10006b10 f   FLOCPREF.obj
+ 0001:00005b19       __ehhandler$?GetSymbolTemplates@SkPrefsFileLocations@@QAEJPAPADH@Z 10006b19 f   FLOCPREF.obj
+ 0001:00005b50       __unwindfunclet$?GetStartupScreeFile@SkPrefsFileLocations@@QAEJPAPAD@Z$0 10006b50 f   FLOCPREF.obj
+ 0001:00005b5c       __unwindfunclet$?GetStartupScreeFile@SkPrefsFileLocations@@QAEJPAPAD@Z$1 10006b5c f   FLOCPREF.obj
+ 0001:00005b68       __unwindfunclet$?GetStartupScreeFile@SkPrefsFileLocations@@QAEJPAPAD@Z$2 10006b68 f   FLOCPREF.obj
+ 0001:00005b74       __ehhandler$?GetStartupScreeFile@SkPrefsFileLocations@@QAEJPAPAD@Z 10006b74 f   FLOCPREF.obj
+ 0001:00005bb0       __unwindfunclet$??0SkPrefsFileLocations@@QAE@XZ$0 10006bb0 f   FLOCPREF.obj
+ 0001:00005bb9       __ehhandler$??0SkPrefsFileLocations@@QAE@XZ 10006bb9 f   FLOCPREF.obj
+ 0001:00005be0       __unwindfunclet$??1SkPrefsFreeSketch@@UAE@XZ$0 10006be0 f   FRSKPREF.obj
+ 0001:00005be9       __ehhandler$??1SkPrefsFreeSketch@@UAE@XZ 10006be9 f   FRSKPREF.obj
+ 0001:00005c10       __unwindfunclet$??0SkPrefsFreeSketch@@QAE@XZ$0 10006c10 f   FRSKPREF.obj
+ 0001:00005c19       __ehhandler$??0SkPrefsFreeSketch@@QAE@XZ 10006c19 f   FRSKPREF.obj
+ 0001:00005c40       __unwindfunclet$??1SkPrefsGeneral@@UAE@XZ$0 10006c40 f   GENRPREF.obj
+ 0001:00005c49       __ehhandler$??1SkPrefsGeneral@@UAE@XZ 10006c49 f   GENRPREF.obj
+ 0001:00005c70       __unwindfunclet$??0SkPrefsGeneral@@QAE@XZ$0 10006c70 f   GENRPREF.obj
+ 0001:00005c79       __ehhandler$??0SkPrefsGeneral@@QAE@XZ 10006c79 f   GENRPREF.obj
+ 0001:00005ca0       __unwindfunclet$??1SkPrefsPrecision@@UAE@XZ$0 10006ca0 f   PRECPREF.obj
+ 0001:00005ca9       __ehhandler$??1SkPrefsPrecision@@UAE@XZ 10006ca9 f   PRECPREF.obj
+ 0001:00005cd0       __unwindfunclet$??0SkPrefsPrecision@@QAE@XZ$0 10006cd0 f   PRECPREF.obj
+ 0001:00005cd9       __ehhandler$??0SkPrefsPrecision@@QAE@XZ 10006cd9 f   PRECPREF.obj
+ 0001:00005d00       __unwindfunclet$?GetMinorGridColor@SkPrefsPrecision@@QAEJPAK@Z$0 10006d00 f   PRECPREF.obj
+ 0001:00005d08       __ehhandler$?GetMinorGridColor@SkPrefsPrecision@@QAEJPAK@Z 10006d08 f   PRECPREF.obj
+ 0001:00005d30       __unwindfunclet$??1SkSavePrefs@@UAE@XZ$0 10006d30 f   SAVEPREF.obj
+ 0001:00005d39       __ehhandler$??1SkSavePrefs@@UAE@XZ 10006d39 f   SAVEPREF.obj
+ 0001:00005d60       __unwindfunclet$??0SkSavePrefs@@QAE@XZ$0 10006d60 f   SAVEPREF.obj
+ 0001:00005d69       __ehhandler$??0SkSavePrefs@@QAE@XZ 10006d69 f   SAVEPREF.obj
+ 0001:00005d90       __unwindfunclet$?GetSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$3 10006d90 f   smartdepthpref.obj
+ 0001:00005d98       __unwindfunclet$?GetSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$4 10006d98 f   smartdepthpref.obj
+ 0001:00005da0       __unwindfunclet$?GetSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$5 10006da0 f   smartdepthpref.obj
+ 0001:00005da8       __ehhandler$?GetSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z 10006da8 f   smartdepthpref.obj
+ 0001:00005dd0       __unwindfunclet$?PutSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$7 10006dd0 f   smartdepthpref.obj
+ 0001:00005dd8       __unwindfunclet$?PutSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$8 10006dd8 f   smartdepthpref.obj
+ 0001:00005de0       __unwindfunclet$?PutSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z$9 10006de0 f   smartdepthpref.obj
+ 0001:00005de8       __ehhandler$?PutSmartDepthPreferences@@YAJPAUIUnknown@@AAVGUserText@@111@Z 10006de8 f   smartdepthpref.obj
+ 0001:00005e10       __unwindfunclet$??1SkPrefsUserInfo@@UAE@XZ$0 10006e10 f   UINFPREF.obj
+ 0001:00005e19       __ehhandler$??1SkPrefsUserInfo@@UAE@XZ 10006e19 f   UINFPREF.obj
+ 0001:00005e40       __unwindfunclet$??0SkPrefsUserInfo@@QAE@XZ$0 10006e40 f   UINFPREF.obj
+ 0001:00005e49       __ehhandler$??0SkPrefsUserInfo@@QAE@XZ 10006e49 f   UINFPREF.obj
+ 0001:00005e70       __unwindfunclet$??1SkPrefsView@@UAE@XZ$0 10006e70 f   VIEWPREF.obj
+ 0001:00005e79       __ehhandler$??1SkPrefsView@@UAE@XZ 10006e79 f   VIEWPREF.obj
+ 0001:00005ea0       __unwindfunclet$??0SkPrefsView@@QAE@XZ$0 10006ea0 f   VIEWPREF.obj
+ 0001:00005ea9       __ehhandler$??0SkPrefsView@@QAE@XZ 10006ea9 f   VIEWPREF.obj
+ 0001:00005ed0       ??__EGNULL_Camera@@YAXXZ   10006ed0 f   clear.obj
+ 0001:00005ef0       ??__EGNULL_CAMERA@@YAXXZ   10006ef0 f   clear.obj
+ 0001:00005f10       ??__EGID_Camera@@YAXXZ     10006f10 f   clear.obj
+ 0001:00005f30       ??__EGID_CAMERA@@YAXXZ     10006f30 f   clear.obj
+ 0001:00005f50       ??__EGNULL_Camera@@YAXXZ   10006f50 f   FLOCPREF.obj
+ 0001:00005f70       ??__EGNULL_CAMERA@@YAXXZ   10006f70 f   FLOCPREF.obj
+ 0001:00005f90       ??__EGID_Camera@@YAXXZ     10006f90 f   FLOCPREF.obj
+ 0001:00005fb0       ??__EGID_CAMERA@@YAXXZ     10006fb0 f   FLOCPREF.obj
+ 0001:00005fd0       ??__EGNULL_Camera@@YAXXZ   10006fd0 f   FRSKPREF.obj
+ 0001:00005ff0       ??__EGNULL_CAMERA@@YAXXZ   10006ff0 f   FRSKPREF.obj
+ 0001:00006010       ??__EGID_Camera@@YAXXZ     10007010 f   FRSKPREF.obj
+ 0001:00006030       ??__EGID_CAMERA@@YAXXZ     10007030 f   FRSKPREF.obj
+ 0001:00006050       ??__EGNULL_Camera@@YAXXZ   10007050 f   GENRPREF.obj
+ 0001:00006070       ??__EGNULL_CAMERA@@YAXXZ   10007070 f   GENRPREF.obj
+ 0001:00006090       ??__EGID_Camera@@YAXXZ     10007090 f   GENRPREF.obj
+ 0001:000060b0       ??__EGID_CAMERA@@YAXXZ     100070b0 f   GENRPREF.obj
+ 0001:000060d0       ??__EGNULL_Camera@@YAXXZ   100070d0 f   PRECPREF.obj
+ 0001:000060f0       ??__EGNULL_CAMERA@@YAXXZ   100070f0 f   PRECPREF.obj
+ 0001:00006110       ??__EGID_Camera@@YAXXZ     10007110 f   PRECPREF.obj
+ 0001:00006130       ??__EGID_CAMERA@@YAXXZ     10007130 f   PRECPREF.obj
+ 0001:00006150       ??__EGNULL_Camera@@YAXXZ   10007150 f   SAVEPREF.obj
+ 0001:00006170       ??__EGNULL_CAMERA@@YAXXZ   10007170 f   SAVEPREF.obj
+ 0001:00006190       ??__EGID_Camera@@YAXXZ     10007190 f   SAVEPREF.obj
+ 0001:000061b0       ??__EGID_CAMERA@@YAXXZ     100071b0 f   SAVEPREF.obj
+ 0001:000061d0       ??__EGNULL_Camera@@YAXXZ   100071d0 f   smartdepthpref.obj
+ 0001:000061f0       ??__EGNULL_CAMERA@@YAXXZ   100071f0 f   smartdepthpref.obj
+ 0001:00006210       ??__EGID_Camera@@YAXXZ     10007210 f   smartdepthpref.obj
+ 0001:00006230       ??__EGID_CAMERA@@YAXXZ     10007230 f   smartdepthpref.obj
+ 0001:00006250       ??__EGNULL_Camera@@YAXXZ   10007250 f   UINFPREF.obj
+ 0001:00006270       ??__EGNULL_CAMERA@@YAXXZ   10007270 f   UINFPREF.obj
+ 0001:00006290       ??__EGID_Camera@@YAXXZ     10007290 f   UINFPREF.obj
+ 0001:000062b0       ??__EGID_CAMERA@@YAXXZ     100072b0 f   UINFPREF.obj
+ 0001:000062d0       ??__EGNULL_Camera@@YAXXZ   100072d0 f   VIEWPREF.obj
+ 0001:000062f0       ??__EGNULL_CAMERA@@YAXXZ   100072f0 f   VIEWPREF.obj
+ 0001:00006310       ??__EGID_Camera@@YAXXZ     10007310 f   VIEWPREF.obj
+ 0001:00006330       ??__EGID_CAMERA@@YAXXZ     10007330 f   VIEWPREF.obj

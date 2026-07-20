@@ -1,0 +1,192 @@
+// $Log: /Current_Appx/CurrZ-Appx/appxsdk/include/secatids.h $ 
+// 
+// 18    2/01/06 5:10p Smsnider
+// T27466: Edit blocks in draft
+// 
+// 17    8/08/05 12:19p Rdhollan
+// 
+// 16    7/20/05 10:09a Rdhollan
+// 
+// 15    4/20/05 1:07p Cmsmith
+// Harness environment
+// 
+// 14    1/24/05 2:55p Rdhollan
+// add new component sketch environments.
+// 
+// 13    7/12/04 4:50p Rdhollan
+// 
+// 12    11/14/02 1:30p Aitken
+// New environment for broken out section profile.
+// 
+// 11    6/08/01 1:06p Rdhollan
+// TR60745: Change definition of conflicting guid for profile revolved
+// env.
+// 
+// 10    3/21/01 2:43p Rdhollan
+// 
+// 9     3/20/01 4:35p Rdhollan
+// 
+// 8     10/10/00 1:12p Rdhollan
+// 
+// 7     8/15/00 3:53p Rdhollan
+// add catid for xpresroute
+// 
+// 6     5/12/00 9:04a Wbcecil
+// Added an entry for the new "weldment" environment.
+// 
+// 5     12/15/99 8:41a Npai
+// 
+// 4     11/26/99 3:45p Npai
+// CR 46974: Initial checkin for enabling the "Motion" environment in
+// Assembly.
+// 
+// 3     2/09/99 5:12p Jedelmas
+// Mass Update:  Changing Intergraph string to Unigraphics Solutions.
+// Adding $Log:
+// into file.
+
+/////////////////////////////////////////////////////////////////////////////
+// secatids.h
+
+// Declaration of CATIDs used by Solid Edge
+
+
+#ifndef __SECATIDS_H__
+#define __SECATIDS_H__
+
+/////////////////////////////////////////////////////////////////////////
+// CATID that needs to be supported by a Solid Edge Addin
+/////////////////////////////////////////////////////////////////////////
+
+// {26B1D2D1-2B03-11d2-B589-080036E8B802}
+DEFINE_GUID(CATID_SolidEdgeAddIn, 
+0x26b1d2d1, 0x2b03, 0x11d2, 0xb5, 0x89, 0x8, 0x0, 0x36, 0xe8, 0xb8, 0x2);
+
+/////////////////////////////////////////////////////////////////////////
+//  CATIDs for Solid Edge Environment categories
+/////////////////////////////////////////////////////////////////////////
+
+// {26618394-09D6-11d1-BA07-080036230602}
+DEFINE_GUID(CATID_SEApplication, 
+0x26618394, 0x9d6, 0x11d1, 0xba, 0x7, 0x8, 0x0, 0x36, 0x23, 0x6, 0x2);
+
+// {26618395-09D6-11d1-BA07-080036230602}
+DEFINE_GUID(CATID_SEAssembly, 
+0x26618395, 0x9d6, 0x11d1, 0xba, 0x7, 0x8, 0x0, 0x36, 0x23, 0x6, 0x2);
+
+// {67ED3F40-A351-11d3-A40B-0004AC969602}
+DEFINE_GUID(CATID_SEMotion, 
+0x67ed3f40, 0xa351, 0x11d3, 0xa4, 0xb, 0x0, 0x4, 0xac, 0x96, 0x96, 0x2);
+
+// {26618396-09D6-11d1-BA07-080036230602}
+DEFINE_GUID(CATID_SEPart, 
+0x26618396, 0x9d6, 0x11d1, 0xba, 0x7, 0x8, 0x0, 0x36, 0x23, 0x6, 0x2);
+
+// {26618397-09D6-11d1-BA07-080036230602}
+DEFINE_GUID(CATID_SEProfile, 
+0x26618397, 0x9d6, 0x11d1, 0xba, 0x7, 0x8, 0x0, 0x36, 0x23, 0x6, 0x2);
+
+// {E6F9C8DC-B256-11d3-A41E-0004AC969602}
+DEFINE_GUID(CATID_SEFeatureRecognition, 
+0xe6f9c8dc, 0xb256, 0x11d3, 0xa4, 0x1e, 0x0, 0x4, 0xac, 0x96, 0x96, 0x2);
+
+// {26618398-09D6-11d1-BA07-080036230602}
+DEFINE_GUID(CATID_SESheetMetal, 
+0x26618398, 0x9d6, 0x11d1, 0xba, 0x7, 0x8, 0x0, 0x36, 0x23, 0x6, 0x2);
+
+// {08244193-B78D-11d2-9216-00C04F79BE98}
+DEFINE_GUID(CATID_SEDraft, 
+0x8244193, 0xb78d, 0x11d2, 0x92, 0x16, 0x0, 0xc0, 0x4f, 0x79, 0xbe, 0x98);
+
+// {7313526A-276F-11d4-B64E-00C04F79B2BF}
+DEFINE_GUID(CATID_SEWeldment, 
+0x7313526a, 0x276f, 0x11d4, 0xb6, 0x4e, 0x0, 0xc0, 0x4f, 0x79, 0xb2, 0xbf);
+
+// Note: XpresRoute is also know as "Tubing" which is what the env returns as its name
+// {1661432A-489C-4714-B1B2-61E85CFD0B71}
+DEFINE_GUID(CATID_SEXpresRoute, 
+0x1661432a, 0x489c, 0x4714, 0xb1, 0xb2, 0x61, 0xe8, 0x5c, 0xfd, 0xb, 0x71);
+
+// {23BE4212-5810-478b-94FF-B4D682C1B538}
+DEFINE_GUID(CATID_SEExplode, 
+0x23be4212, 0x5810, 0x478b, 0x94, 0xff, 0xb4, 0xd6, 0x82, 0xc1, 0xb5, 0x38);
+
+// {CE3DCEBF-E36E-4851-930A-ED892FE0772A}
+DEFINE_GUID(CATID_SESimplify, 
+0xce3dcebf, 0xe36e, 0x4851, 0x93, 0xa, 0xed, 0x89, 0x2f, 0xe0, 0x77, 0x2a);
+
+// {D35550BF-0810-4f67-97D5-789EDBC23F4D}
+DEFINE_GUID(CATID_SEStudio, 
+0xd35550bf, 0x810, 0x4f67, 0x97, 0xd5, 0x78, 0x9e, 0xdb, 0xc2, 0x3f, 0x4d);
+
+// {27B34941-FFCD-4768-9102-0B6698656CEA}
+DEFINE_GUID(CATID_SELayout, 
+0x27b34941, 0xffcd, 0x4768, 0x91, 0x2, 0xb, 0x66, 0x98, 0x65, 0x6c, 0xea);
+
+// Note: Sketch is also know as "LayoutInPart" which is what the env returns as its name
+// {0DDABC90-125E-4cfe-9CB7-DC97FB74CCF4}
+DEFINE_GUID(CATID_SESketch, 
+0xddabc90, 0x125e, 0x4cfe, 0x9c, 0xb7, 0xdc, 0x97, 0xfb, 0x74, 0xcc, 0xf4);
+
+// {0D5CC5F7-5BA3-4d2f-B6A9-31D9B401FE30}
+DEFINE_GUID(CATID_SEProfileHole, 
+0xd5cc5f7, 0x5ba3, 0x4d2f, 0xb6, 0xa9, 0x31, 0xd9, 0xb4, 0x1, 0xfe, 0x30);
+
+// {7BD57D4B-BA47-4a79-A4E2-DFFD43B97ADF}
+DEFINE_GUID(CATID_SEProfilePattern, 
+0x7bd57d4b, 0xba47, 0x4a79, 0xa4, 0xe2, 0xdf, 0xfd, 0x43, 0xb9, 0x7a, 0xdf);
+
+// {FB73C683-1536-4073-B792-E28B8D31146E}
+DEFINE_GUID(CATID_SEProfileRevolved, 
+0xfb73c683, 0x1536, 0x4073, 0xb7, 0x92, 0xe2, 0x8b, 0x8d, 0x31, 0x14, 0x6e);
+
+// {8DBC3B5F-02D6-4241-BE96-B12EAF83FAE6}
+DEFINE_GUID(CATID_SEDrawingViewEdit, 
+0x8dbc3b5f, 0x2d6, 0x4241, 0xbe, 0x96, 0xb1, 0x2e, 0xaf, 0x83, 0xfa, 0xe6);
+
+// {B21CCFF8-1FDD-4f44-9417-F1EAE06888FA}
+DEFINE_GUID(CATID_SERefAxis, 
+0xb21ccff8, 0x1fdd, 0x4f44, 0x94, 0x17, 0xf1, 0xea, 0xe0, 0x68, 0x88, 0xfa);
+
+// {7C6F65F1-A02D-4c3c-8063-8F54B59B34E3}
+DEFINE_GUID(CATID_SECuttingPlaneLine, 
+0x7c6f65f1, 0xa02d, 0x4c3c, 0x80, 0x63, 0x8f, 0x54, 0xb5, 0x9b, 0x34, 0xe3);
+
+// {534CAB66-8089-4e18-8FC4-6FA5A957E445}   
+DEFINE_GUID(CATID_SEBrokenOutSectionProfile, 
+0x534cab66, 0x8089, 0x4e18, 0x8f, 0xc4, 0x6f, 0xa5, 0xa9, 0x57, 0xe4, 0x45);
+
+// {D84119E8-F844-4823-B3A0-D4F31793028A}
+DEFINE_GUID(CATID_SEFrame, 
+0xd84119e8, 0xf844, 0x4823, 0xb3, 0xa0, 0xd4, 0xf3, 0x17, 0x93, 0x2, 0x8a);
+
+// {F6031120-7D99-48a7-95FC-EEE8038D7996}
+DEFINE_GUID(CATID_2dModel, 
+0xf6031120, 0x7d99, 0x48a7, 0x95, 0xfc, 0xee, 0xe8, 0x3, 0x8d, 0x79, 0x96);
+
+// {892A1CDA-12AE-4619-BB69-C5156C929832}
+DEFINE_GUID(CATID_EditBlockView, 
+0x892a1cda, 0x12ae, 0x4619, 0xbb, 0x69, 0xc5, 0x15, 0x6c, 0x92, 0x98, 0x32);
+
+// {FAB8DC23-00F4-4872-8662-18DD013F2095}
+DEFINE_GUID(CATID_SEComponentSketchInPart, 
+0xfab8dc23, 0xf4, 0x4872, 0x86, 0x62, 0x18, 0xdd, 0x1, 0x3f, 0x20, 0x95);
+
+// {86D925FB-66ED-40d2-AA3D-D04E74838141}
+DEFINE_GUID(CATID_SEComponentSketchInAsm, 
+0x86d925fb, 0x66ed, 0x40d2, 0xaa, 0x3d, 0xd0, 0x4e, 0x74, 0x83, 0x81, 0x41);
+
+// {5337A0AB-23ED-4261-A238-00E2070406FC}
+DEFINE_GUID(CATID_SEHarness, 
+0x5337a0ab, 0x23ed, 0x4261, 0xa2, 0x38, 0x0, 0xe2, 0x7, 0x4, 0x6, 0xfc);
+
+// {C484ED57-DBB6-4a83-BEDB-C08600AF07BF}
+DEFINE_GUID(CATID_SEAll,
+0xc484ed57, 0xdbb6, 0x4a83, 0xbe, 0xdb, 0xc0, 0x86, 0x0, 0xaf, 0x7, 0xbf);
+
+// {BAD41B8D-18FF-42c9-9611-8A00E6921AE8}
+DEFINE_GUID(CATID_SEAllDocumentEnvrionments, 
+0xbad41b8d, 0x18ff, 0x42c9, 0x96, 0x11, 0x8a, 0x0, 0xe6, 0x92, 0x1a, 0xe8);
+
+#endif //__SECATIDS_H__
+

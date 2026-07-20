@@ -1,0 +1,205 @@
+// Solid Edge eCAD configuration file SEHarness.txt
+// the file must be located in \Solid Edge\Program folder and be called “SEHarness.txt”
+//
+// This configuration file defines the data formats for eCAD net list files.
+// There are three sections:
+// 1) Company Name, as presented within the Solid Edge interface
+// 2) Columnar position definition for the connection list
+// 3) Columnar position definition for the component list
+//
+// The connection list also defines the data format Solid Edge uses when exporting
+// wire harness manufacturing information that will be imported into an eCAD system.
+// Solid Edge writes the file using the same data during import, but populates the
+// cutlength field.
+// 
+// Fields representing data that is not used can be omitted, but set the column position
+// to 0.
+//
+// Localization requirements:
+// Do not localize any data except comments (lines beginning with “//”).
+//
+// eCAD systems you want to display in the Solid Edge interface must be identified by:
+// “Companyname=”, and the file delimiter type must be specified: “Delimiter=”
+//
+// For the connection list, start and end all of the following fields with:
+// “BeginConnectionDefinition” and “EndConnectionDefinition”
+//
+// For the component list, start and end all of the following fields with:
+// “BeginComponentDefinition” and “EndComponentDefinition”
+//
+// The entire definition of company name connection and component list must
+// start and end with:
+// “BeginCompany” and “EndCompany”
+//
+// The fields for the component list are:
+// 	ComponentID=x, required: "x" defines column for the unique ID for each component
+//	ComponentName=x, required: "x" defines column for the component name
+//	CompDescription=x, Optional: "x" defines column for a component description
+//
+// the fields for the connection list are:
+// 	WireID=x, Required: "x" defines column for the unique ID for each wire
+// 	FromComponentID =x, Required: "x" defines column for the from component name
+// 	FromComponentTerminal =x, Required: "x" defines column for the from component terminal
+// 	ToComponentID =x, Required: "x" defines column for the to component name
+// 	ToComponentTerminal =x, Required: "x" defines column for the to component terminal
+// 	CableID=x, Optional: "x" defines column for the unique id for any cables
+// 	WireDiameter=x, Required/optional: "x" defines column for wire diameter in meters.
+// 	WireGage=x, Required/optional: "x" defines column for wire gage, used in priority over WireDia
+// 	WireColor=x, Optional: "x" defines column for the color RGB value (0 to 16 million)
+// 	WireMaterial=x, Optional:  "x" defines column for material “copper” or “aluminum" not localized
+// 	WireType=x, Optional:  "x" defines column for material type “solid” or “stranded” not localized
+// 	WireDescription=x, Optional: "x" defines column the column for the wire description
+// 	CutLength=x, Required: "x" defines column for the wire length in meters computed by Solid Edge
+
+
+
+BeginCompany
+
+Companyname="Sample"
+FieldDelimiter=","
+DecimalDelimiter="."
+
+BeginComponentDefinition
+ComponentID=1
+ComponentName=2
+ComponentDescription=3
+EndComponentDefinition
+
+BeginConnectionDefinition
+WireID=1
+FromComponentID=2
+FromComponentTerminal=3
+ToComponentID=4
+ToComponentTerminal=5
+CableID=6
+WireDiameter=7
+WireGage=8
+WireColor=9
+WireMaterial=10
+WireType=11
+WireDescription=12
+CutLength=13
+EndConnectionDefinition
+
+EndCompany
+
+
+
+
+BeginCompany
+
+Companyname="CIM-Team E3.series"
+FieldDelimiter=","
+DecimalDelimiter="."
+
+BeginComponentDefinition
+ComponentID=1
+ComponentName=2
+ComponentDescription=3
+EndComponentDefinition
+
+BeginConnectionDefinition
+WireID=1
+FromComponentID=2
+FromComponentTerminal=3
+ToComponentID=4
+ToComponentTerminal=5
+CableID=6
+WireDiameter=7
+WireGage=8
+WireColor=9
+WireMaterial=10
+WireType=11
+WireDescription=12
+CutLength=13
+EndConnectionDefinition
+
+EndCompany
+
+
+
+BeginCompany
+
+Companyname="VeSys Electrical"
+FieldDelimiter=","
+DecimalDelimiter="."
+
+BeginComponentDefinition
+ComponentID=1
+ComponentName=2
+EndComponentDefinition
+
+BeginConnectionDefinition
+WireID=1
+FromComponentID=2
+FromComponentTerminal=3
+ToComponentID=4
+ToComponentTerminal=5
+CableID=6
+WireGage=7
+WireMaterial=8
+WireColor=9
+WireDiameter=10
+CutLength=11
+WireDescription=12
+
+EndConnectionDefinition
+
+EndCompany
+
+BeginCompany
+
+Companyname="ECT promis-e"
+FieldDelimiter=","
+DecimalDelimiter="."
+
+BeginComponentDefinition
+ComponentID=1
+ComponentName=2
+ComponentDescription=3
+EndComponentDefinition
+
+BeginConnectionDefinition
+WireID=1
+FromComponentID=2
+FromComponentTerminal=3
+ToComponentID=4
+ToComponentTerminal=5
+WireGage=6
+WireDiameter=7
+WireDescription=8
+CableID=9
+CutLength=10
+EndConnectionDefinition
+
+EndCompany
+
+BeginCompany
+
+Companyname="Zuken"
+FieldDelimiter=","
+DecimalDelimiter="."
+
+BeginComponentDefinition
+ComponentID=1
+ComponentName=2
+ComponentDescription=3
+EndComponentDefinition
+
+BeginConnectionDefinition
+WireID=1
+FromComponentID=2
+FromComponentTerminal=3
+ToComponentID=4
+ToComponentTerminal=5
+CableID=6
+WireDiameter=7
+WireGage=8
+WireColor=9
+WireMaterial=10
+WireType=11
+WireDescription=12
+CutLength=13
+EndConnectionDefinition
+
+EndCompany

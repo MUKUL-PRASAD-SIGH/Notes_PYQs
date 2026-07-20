@@ -1,0 +1,42 @@
+@ECHO OFF
+ 
+CLS
+ 
+
+ 
+SET SE_ToolsDLL=./SpellCheckerForSolidEdgeDraft.dll
+SET REGASMEXE=%SystemRoot%\Microsoft.Net\Framework\v2.0.50727\RegAsm.exe
+
+ 
+IF NOT EXIST %REGASMEXE% (
+ GOTO REGASMNOTFOUND
+)
+ 
+
+ 
+
+ 
+IF EXIST "%SE_ToolsDLL%" (
+ GOTO REGISTERDLL
+) ELSE (
+ GOTO SE_ToolsDLLNOTFOUND
+)
+ 
+:REGISTERDLL
+ECHO Registering BuildRevisionBlock.dll
+CALL %REGASMEXE% /CODEBASE /NOLOGO /SILENT "%SE_ToolsDLL%"
+GOTO PAUSEANDEXIT
+
+
+ 
+:REGASMNOTFOUND
+ECHO ERROR:  %REGASMEXE% not found
+GOTO PAUSEANDEXIT
+ 
+:SE_ToolsDLLNOTFOUND
+ECHO ERROR:  Unable to register %SE_ToolsDLL%.  File not found.
+GOTO PAUSEANDEXIT
+ 
+:PAUSEANDEXIT
+PAUSE
+:EXIT

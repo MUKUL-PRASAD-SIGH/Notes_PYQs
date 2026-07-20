@@ -1,0 +1,500 @@
+ WRTEMS
+
+ Timestamp is 46b3a74f (Fri Aug 03 17:08:15 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001f18H .text                   CODE
+ 0001:00001f20 000000c4H .text$x                 CODE
+ 0001:00001ff0 000000f6H .text$yc                CODE
+ 0002:00000000 0000016cH .idata$5                DATA
+ 0002:0000016c 00000004H .CRT$XCA                DATA
+ 0002:00000170 00000020H .CRT$XCU                DATA
+ 0002:00000190 00000004H .CRT$XCZ                DATA
+ 0002:00000194 00000004H .CRT$XIA                DATA
+ 0002:00000198 00000004H .CRT$XIAA               DATA
+ 0002:0000019c 00000004H .CRT$XIZ                DATA
+ 0002:000001a0 00001528H .rdata                  DATA
+ 0002:000016c8 00000030H .rdata$debug            DATA
+ 0002:000016f8 000001d8H .rdata$r                DATA
+ 0002:000018d0 00000014H .rdata$sxdata           DATA
+ 0002:000018e4 00000004H .rtc$IAA                DATA
+ 0002:000018e8 00000004H .rtc$IZZ                DATA
+ 0002:000018ec 00000004H .rtc$TAA                DATA
+ 0002:000018f0 00000004H .rtc$TZZ                DATA
+ 0002:000018f8 00000154H .xdata$x                DATA
+ 0002:00001a4c 000000b4H .idata$2                DATA
+ 0002:00001b00 00000014H .idata$3                DATA
+ 0002:00001b14 0000016cH .idata$4                DATA
+ 0002:00001c80 0000062cH .idata$6                DATA
+ 0002:000022b0 00000090H .edata                  DATA
+ 0003:00000000 00001538H .data                   DATA
+ 0003:00001538 000007b4H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000005       ___safe_se_handler_count   00000005     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       _IsEqualGUID               10001030 f i server.obj
+ 0001:000000d0       ??4CPar2Ems@@QAEAAV0@ABV0@@Z 100010d0 f i server.obj
+ 0001:000000f0       ?ServerGetNumberOfObjects@@YAKXZ 100010f0 f   server.obj
+ 0001:00000100       ?ServerGetNumberOfLocks@@YAKXZ 10001100 f   server.obj
+ 0001:00000110       ?ServerIncrementNumberOfObjects@@YAXXZ 10001110 f   server.obj
+ 0001:00000120       ?ServerDecrementNumberOfObjects@@YAXXZ 10001120 f   server.obj
+ 0001:00000130       ?ServerIncrementNumberOfLocks@@YAXXZ 10001130 f   server.obj
+ 0001:00000140       ?ServerDecrementNumberOfLocks@@YAXXZ 10001140 f   server.obj
+ 0001:00000150       _DllGetClassObject@12      10001150 f   server.obj
+ 0001:00000260       _DllCanUnloadNow@0         10001260 f   server.obj
+ 0001:00000280       ?QueryInterface@JWriteEmsClassFactory@@UAGJABU_GUID@@PAPAX@Z 10001280 f   wrtems.obj
+ 0001:000002d0       ?AddRef@JWriteEmsClassFactory@@UAGKXZ 100012d0 f   wrtems.obj
+ 0001:000002d0       ?AddRef@JWriteEms@@UAGKXZ  100012d0 f   wrtems.obj
+ 0001:000002e0       ?LockServer@JWriteEmsClassFactory@@UAGJH@Z 100012e0 f   wrtems.obj
+ 0001:00000300       ??1JWriteEmsClassFactory@@QAE@XZ 10001300 f   wrtems.obj
+ 0001:00000310       ?QueryInterface@JWriteEms@@UAGJABU_GUID@@PAPAX@Z 10001310 f   wrtems.obj
+ 0001:00000380       ?QueryInterface@ImpIJWriteData@JWriteEms@@UAGJABU_GUID@@PAPAX@Z 10001380 f   wrtems.obj
+ 0001:000003a0       ?AddRef@ImpIJWriteData@JWriteEms@@UAGKXZ 100013a0 f   wrtems.obj
+ 0001:000003c0       ?Release@ImpIJWriteData@JWriteEms@@UAGKXZ 100013c0 f   wrtems.obj
+ 0001:000003e0       ?SetTransformation@ImpIJWriteData@JWriteEms@@UAGHPAX@Z 100013e0 f   wrtems.obj
+ 0001:00000420       ?GetTransformation@ImpIJWriteData@JWriteEms@@UAGHPAPAX@Z 10001420 f   wrtems.obj
+ 0001:00000440       ?GetSupportedInputFormats@ImpIJWriteData@JWriteEms@@UAGHPAG@Z 10001440 f   wrtems.obj
+ 0001:00000460       ?StartLogging@ImpIJWriteData@JWriteEms@@UAGJH@Z 10001460 f   wrtems.obj
+ 0001:000004a0       ?StopLogging@ImpIJWriteData@JWriteEms@@UAGJXZ 100014a0 f   wrtems.obj
+ 0001:000004c0       ?PutGlobalData@ImpIJWriteData@JWriteEms@@UAGJGPAXPAUIJReadData@@@Z 100014c0 f   wrtems.obj
+ 0001:000004c0       ?GetEstimatedProcessingTimeOfPutGraphics@ImpIJWriteData@JWriteEms@@UAGJGHPAK@Z 100014c0 f   wrtems.obj
+ 0001:000004d0       ?PutSymbolDefinitions@ImpIJWriteData@JWriteEms@@UAGJGHPAPAXPAUIJReadData@@@Z 100014d0 f   wrtems.obj
+ 0001:000004e0       ??1JWriteEms@@QAE@XZ       100014e0 f   wrtems.obj
+ 0001:00000530       ?Initialize@JWriteEms@@QAEKXZ 10001530 f   wrtems.obj
+ 0001:000005c0       ?WriteToLog@JWriteEms@@QAAHIZZ 100015c0 f   wrtems.obj
+ 0001:00000600       ?cmd_close_os@@YAIG@Z      10001600 f   wrtems.obj
+ 0001:00000800       ??$strcpy@$0BAE@@@YAPADAAY0BAE@DPBD@Z 10001800 f i wrtems.obj
+ 0001:00000830       ??$sprintf@$0BAE@@@YAHAAY0BAE@DPBDZZ 10001830 f i wrtems.obj
+ 0001:00000850       ??$strcpy@$0MI@@@YAPADAAY0MI@DPBD@Z 10001850 f i wrtems.obj
+ 0001:00000880       ??$strcpy@$0GE@@@YAPADAAY0GE@DPBD@Z 10001880 f i wrtems.obj
+ 0001:000008a0       ??0JWriteEmsClassFactory@@QAE@XZ 100018a0 f   wrtems.obj
+ 0001:000008b0       ?Release@JWriteEms@@UAGKXZ 100018b0 f   wrtems.obj
+ 0001:000008f0       ?SetConfiguration@ImpIJWriteData@JWriteEms@@UAGHPBDGPAX@Z 100018f0 f   wrtems.obj
+ 0001:00000a40       ?OpenFile@ImpIJWriteData@JWriteEms@@UAGJPAXHPBD@Z 10001a40 f   wrtems.obj
+ 0001:00000e90       ?CloseFile@ImpIJWriteData@JWriteEms@@UAGHXZ 10001e90 f   wrtems.obj
+ 0001:00000f60       ?PutGraphics@ImpIJWriteData@JWriteEms@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z 10001f60 f   wrtems.obj
+ 0001:00001230       ?Release@JWriteEmsClassFactory@@UAGKXZ 10002230 f   wrtems.obj
+ 0001:00001260       ??0JWriteEms@@QAE@PAUIUnknown@@@Z 10002260 f   wrtems.obj
+ 0001:000012c0       ?CreateInstance@JWriteEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100022c0 f   wrtems.obj
+ 0001:000013a0       ?CFGgetCOMobjectDLLName@@YAHPAD0@Z 100023a0 f   config:config.dll
+ 0001:000013a6       ?CFGgetPathToCOMobjectDLL@@YAHPAD0@Z 100023a6 f   config:config.dll
+ 0001:000013ac       _JFreeLibrary              100023ac f   jutil:JUtil.dll
+ 0001:000013b2       _AnsiString                100023b2 f   jutil:JUtil.dll
+ 0001:000013b8       _omSend                    100023b8 f   miniems:MINIEMS.DLL
+ 0001:000013be       _pwPrintFileLine           100023be f   miniems:MINIEMS.DLL
+ 0001:000013c4       _omMakeMessage             100023c4 f   miniems:MINIEMS.DLL
+ 0001:000013ca       _omObjOfClass              100023ca f   miniems:MINIEMS.DLL
+ 0001:000013d0       _omClassidFromName         100023d0 f   miniems:MINIEMS.DLL
+ 0001:000013d6       _pwSetActiveXYZChtTol      100023d6 f   miniems:MINIEMS.DLL
+ 0001:000013dc       _pwSetActiveXYZLenTol      100023dc f   miniems:MINIEMS.DLL
+ 0001:000013e2       _pwGetPersistXYZTols       100023e2 f   miniems:MINIEMS.DLL
+ 0001:000013e8       _omConstructOS             100023e8 f   miniems:MINIEMS.DLL
+ 0001:000013ee       ?Translate@CPar2Ems@@QAEHXZ 100023ee f   psolems:PSOLEMS.dll
+ 0001:000013f4       ?SetParFileName@CPar2Ems@@QAEXPAD@Z 100023f4 f   psolems:PSOLEMS.dll
+ 0001:000013fa       ?SetBodyPtr@CPar2Ems@@QAEXPAH@Z 100023fa f   psolems:PSOLEMS.dll
+ 0001:00001400       ??1CPar2Ems@@QAE@XZ        10002400 f   psolems:PSOLEMS.dll
+ 0001:00001406       ?SetScaleFactor@CPar2Ems@@QAEHXZ 10002406 f   psolems:PSOLEMS.dll
+ 0001:0000140c       ?SetLogFileHandle@CPar2Ems@@QAEXH@Z 1000240c f   psolems:PSOLEMS.dll
+ 0001:00001412       ?SetOsobjid@CPar2Ems@@QAEXK@Z 10002412 f   psolems:PSOLEMS.dll
+ 0001:00001418       ?SetOsnum@CPar2Ems@@QAEXG@Z 10002418 f   psolems:PSOLEMS.dll
+ 0001:0000141e       ??0CPar2Ems@@QAE@XZ        1000241e f   psolems:PSOLEMS.dll
+ 0001:00001430       ??$sprintf@PAD@@YAHAAPADPBDZZ 10002430 f i trutil:trfunc.obj
+ 0001:000014b0       ?TRwrite@@YAXHPBD@Z        100024b0 f   trutil:trfunc.obj
+ 0001:000014e0       ?TRwritedent@@YAXHH@Z      100024e0 f   trutil:trfunc.obj
+ 0001:00001590       ?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 10002590 f   trutil:trfunc.obj
+ 0001:0000165a       _malloc                    1000265a f   MSVCRT:MSVCR80.dll
+ 0001:00001660       __callnewh                 10002660 f   MSVCRT:MSVCR80.dll
+ 0001:00001666       ??3@YAXPAX@Z               10002666 f   MSVCRT:MSVCR80.dll
+ 0001:0000166c       ___CxxFrameHandler3        1000266c f   MSVCRT:MSVCR80.dll
+ 0001:00001672       @__security_check_cookie@4 10002672 f   MSVCRT:secchk.obj
+ 0001:00001681       ??_Etype_info@@UAEPAXI@Z   10002681 f i MSVCRT:ti_inst.obj
+ 0001:0000171d       __CRT_INIT@12              1000271d f   MSVCRT:crtdll.obj
+ 0001:000019d2       __DllMainCRTStartup@12     100029d2 f   MSVCRT:crtdll.obj
+ 0001:000019f3       ___report_gsfailure        100029f3 f   MSVCRT:gs_report.obj
+ 0001:00001af7       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10002af7 f   MSVCRT:ehvecdtr.obj
+ 0001:00001b55       ??_M@YGXPAXIHP6EX0@Z@Z     10002b55 f   MSVCRT:ehvecdtr.obj
+ 0001:00001bb8       ___clean_type_info_names   10002bb8 f   MSVCRT:tncleanup.obj
+ 0001:00001bc4       __onexit                   10002bc4 f   MSVCRT:atonexit.obj
+ 0001:00001c63       _atexit                    10002c63 f   MSVCRT:atonexit.obj
+ 0001:00001c75       __RTC_Initialize           10002c75 f   MSVCRT:initsect.obj
+ 0001:00001c99       __RTC_Terminate            10002c99 f   MSVCRT:initsect.obj
+ 0001:00001cc0       __ValidateImageBase        10002cc0 f   MSVCRT:pesect.obj
+ 0001:00001cf0       __FindPESection            10002cf0 f   MSVCRT:pesect.obj
+ 0001:00001d32       __IsNonwritableInCurrentImage 10002d32 f   MSVCRT:pesect.obj
+ 0001:00001d9e       __initterm                 10002d9e f   MSVCRT:MSVCR80.dll
+ 0001:00001da4       __initterm_e               10002da4 f   MSVCRT:MSVCR80.dll
+ 0001:00001daa       __amsg_exit                10002daa f   MSVCRT:MSVCR80.dll
+ 0001:00001db0       ___CppXcptFilter           10002db0 f   MSVCRT:MSVCR80.dll
+ 0001:00001db6       _DllMain@12                10002db6 f   MSVCRT:dllmain.obj
+ 0001:00001dd8       __SEH_prolog4              10002dd8 f   MSVCRT:sehprolg4.obj
+ 0001:00001e1d       __SEH_epilog4              10002e1d f   MSVCRT:sehprolg4.obj
+ 0001:00001e31       __except_handler4          10002e31 f   MSVCRT:chandler4gs.obj
+ 0001:00001e54       ___security_init_cookie    10002e54 f   MSVCRT:gs_support.obj
+ 0001:00001ee8       __crt_debugger_hook        10002ee8 f   MSVCRT:MSVCR80.dll
+ 0001:00001eee       ?terminate@@YAXXZ          10002eee f   MSVCRT:MSVCR80.dll
+ 0001:00001ef4       ??1type_info@@UAE@XZ       10002ef4 f   MSVCRT:MSVCR80.dll
+ 0001:00001ef4       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10002ef4 f   MSVCRT:MSVCR80.dll
+ 0001:00001efa       ___clean_type_info_names_internal 10002efa f   MSVCRT:MSVCR80.dll
+ 0001:00001f00       __unlock                   10002f00 f   MSVCRT:MSVCR80.dll
+ 0001:00001f06       ___dllonexit               10002f06 f   MSVCRT:MSVCR80.dll
+ 0001:00001f0c       __lock                     10002f0c f   MSVCRT:MSVCR80.dll
+ 0001:00001f12       __except_handler4_common   10002f12 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?FormatStringWithVargs@GUserText@@QAEHQAUHINSTANCE__@@IPAD@Z 10004000     jutil:JUtil.dll
+ 0002:00000004       __imp_??0GUserText@@QAE@XZ 10004004     jutil:JUtil.dll
+ 0002:00000008       __imp__JFreeLibrary        10004008     jutil:JUtil.dll
+ 0002:0000000c       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PBD0JKH@Z 1000400c     jutil:JUtil.dll
+ 0002:00000010       __imp__AnsiString          10004010     jutil:JUtil.dll
+ 0002:00000014       __imp_??BGUserText@@QBEPBDXZ 10004014     jutil:JUtil.dll
+ 0002:00000018       __imp_??1GUserText@@QAE@XZ 10004018     jutil:JUtil.dll
+ 0002:0000001c       \177JUtil_NULL_THUNK_DATA  1000401c     jutil:JUtil.dll
+ 0002:00000020       __imp__OutputDebugStringA@4 10004020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetPrivateProfileStringA@24 10004024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__CopyFileA@12        10004028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetPrivateProfileIntA@16 1000402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetCurrentProcessId@0 10004030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetSystemTimeAsFileTime@4 10004034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetCurrentThreadId@0 10004038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetTickCount@0      1000403c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__QueryPerformanceCounter@4 10004040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__DisableThreadLibraryCalls@4 10004044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__IsDebuggerPresent@0 10004048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__UnhandledExceptionFilter@4 1000404c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcess@0 10004050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__TerminateProcess@8  10004054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__InterlockedCompareExchange@12 10004058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__Sleep@4             1000405c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__InterlockedExchange@8 10004060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__SetUnhandledExceptionFilter@4 10004064     kernel32:KERNEL32.dll
+ 0002:00000068       \177KERNEL32_NULL_THUNK_DATA 10004068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__omConstructOS       1000406c     miniems:MINIEMS.DLL
+ 0002:00000070       __imp__pwGetPersistXYZTols 10004070     miniems:MINIEMS.DLL
+ 0002:00000074       __imp__pwSetActiveXYZLenTol 10004074     miniems:MINIEMS.DLL
+ 0002:00000078       __imp__omSend              10004078     miniems:MINIEMS.DLL
+ 0002:0000007c       __imp__pwPrintFileLine     1000407c     miniems:MINIEMS.DLL
+ 0002:00000080       __imp__omMakeMessage       10004080     miniems:MINIEMS.DLL
+ 0002:00000084       __imp__pwSetActiveXYZChtTol 10004084     miniems:MINIEMS.DLL
+ 0002:00000088       __imp__omClassidFromName   10004088     miniems:MINIEMS.DLL
+ 0002:0000008c       __imp__omObjOfClass        1000408c     miniems:MINIEMS.DLL
+ 0002:00000090       \177MINIEMS_NULL_THUNK_DATA 10004090     miniems:MINIEMS.DLL
+ 0002:00000094       __imp___onexit             10004094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___except_handler4_common 10004098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp____CxxFrameHandler3  1000409c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___lock               100040a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp____dllonexit         100040a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___unlock             100040a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp____clean_type_info_names_internal 100040ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100040b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp_?terminate@@YAXXZ    100040b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___crt_debugger_hook  100040b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp__malloc              100040bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___callnewh           100040c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp_??3@YAXPAX@Z         100040c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__write               100040c8     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___write              100040c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__strrchr             100040cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___ctime64            100040d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___time64             100040d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__strcpy_s            100040d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__vsprintf_s          100040dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___access             100040e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__free                100040e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___splitpath          100040e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp__vsprintf            100040ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__getenv              100040f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___encode_pointer     100040f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___malloc_crt         100040f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___encoded_null       100040fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___decode_pointer     10004100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___initterm           10004104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___initterm_e         10004108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___amsg_exit          1000410c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp___adjust_fdiv        10004110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp____CppXcptFilter     10004114     MSVCRT:MSVCR80.dll
+ 0002:00000118       \177MSVCR80_NULL_THUNK_DATA 10004118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__GetActiveObject@12  1000411c     oleaut32:OLEAUT32.dll
+ 0002:00000120       \177OLEAUT32_NULL_THUNK_DATA 10004120     oleaut32:OLEAUT32.dll
+ 0002:00000124       __imp_??0CPar2Ems@@QAE@XZ  10004124     psolems:PSOLEMS.dll
+ 0002:00000128       __imp_?SetOsnum@CPar2Ems@@QAEXG@Z 10004128     psolems:PSOLEMS.dll
+ 0002:0000012c       __imp_?SetOsobjid@CPar2Ems@@QAEXK@Z 1000412c     psolems:PSOLEMS.dll
+ 0002:00000130       __imp_?SetLogFileHandle@CPar2Ems@@QAEXH@Z 10004130     psolems:PSOLEMS.dll
+ 0002:00000134       __imp_?SetScaleFactor@CPar2Ems@@QAEHXZ 10004134     psolems:PSOLEMS.dll
+ 0002:00000138       __imp_?Translate@CPar2Ems@@QAEHXZ 10004138     psolems:PSOLEMS.dll
+ 0002:0000013c       __imp_?SetParFileName@CPar2Ems@@QAEXPAD@Z 1000413c     psolems:PSOLEMS.dll
+ 0002:00000140       __imp_?SetBodyPtr@CPar2Ems@@QAEXPAH@Z 10004140     psolems:PSOLEMS.dll
+ 0002:00000144       __imp_??1CPar2Ems@@QAE@XZ  10004144     psolems:PSOLEMS.dll
+ 0002:00000148       \177PSOLEMS_NULL_THUNK_DATA 10004148     psolems:PSOLEMS.dll
+ 0002:0000014c       __imp__IsWindow@4          1000414c     user32:USER32.dll
+ 0002:00000150       __imp__MessageBoxA@16      10004150     user32:USER32.dll
+ 0002:00000154       \177USER32_NULL_THUNK_DATA 10004154     user32:USER32.dll
+ 0002:00000158       __imp_?CFGgetPathToCOMobjectDLL@@YAHPAD0@Z 10004158     config:config.dll
+ 0002:0000015c       __imp_?CFGgetCOMobjectDLLName@@YAHPAD0@Z 1000415c     config:config.dll
+ 0002:00000160       \177config_NULL_THUNK_DATA 10004160     config:config.dll
+ 0002:00000164       __imp__CLSIDFromProgID@8   10004164     ole32:ole32.dll
+ 0002:00000168       \177ole32_NULL_THUNK_DATA  10004168     ole32:ole32.dll
+ 0002:0000016c       ___xc_a                    1000416c     MSVCRT:cinitexe.obj
+ 0002:00000190       ___xc_z                    10004190     MSVCRT:cinitexe.obj
+ 0002:00000194       ___xi_a                    10004194     MSVCRT:cinitexe.obj
+ 0002:0000019c       ___xi_z                    1000419c     MSVCRT:cinitexe.obj
+ 0002:000001bc       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100041bc     guid.obj
+ 0002:000001cc       _IID_IJWriteData           100041cc     guid.obj
+ 0002:000001dc       _CLSID_JWriteEms           100041dc     guid.obj
+ 0002:000001ec       _IID_IJApplication         100041ec     guid.obj
+ 0002:000001fc       ??_C@_0CB@CJDFPOKG@Export?5Surface?5Plane?5Angle?5Value@ 100041fc     wrtems.obj
+ 0002:00000220       ??_C@_0BD@PNLBHEEG@Output?5File?5Format?$AA@ 10004220     wrtems.obj
+ 0002:00000234       ??_C@_0BH@IECCINFA@Export?5Tolerance?5Value?$AA@ 10004234     wrtems.obj
+ 0002:0000024c       ??_C@_0N@PONGCODM@Export?5Units?$AA@ 1000424c     wrtems.obj
+ 0002:0000025c       ??_C@_0N@PANHANCL@Import?5Units?$AA@ 1000425c     wrtems.obj
+ 0002:0000026c       ??_C@_0BJ@BGOBHFA@Import?5Make?5Base?5Feature?$AA@ 1000426c     wrtems.obj
+ 0002:00000288       ??_C@_0BE@FCPGGPBN@Import?5Property?5map?$AA@ 10004288     wrtems.obj
+ 0002:0000029c       ??_C@_0L@OBJFLDAK@Time?5Stamp?$AA@ 1000429c     wrtems.obj
+ 0002:000002a8       ??_C@_0BF@HLJDKAHE@Write?5Export?5Feature?$AA@ 100042a8     wrtems.obj
+ 0002:000002c0       ??_C@_0BH@IOEKAGKJ@Write?5Feature?5To?5Color?$AA@ 100042c0     wrtems.obj
+ 0002:000002d8       ??_C@_0BL@IGKFIBPC@Write?5Feature?5To?5Line?5Type?$AA@ 100042d8     wrtems.obj
+ 0002:000002f4       ??_C@_0BJ@EFAHJCME@Arrowhead?5Import?5Mapping?$AA@ 100042f4     wrtems.obj
+ 0002:00000310       ??_C@_0BE@KHPHPGFP@Read?5Polyline?5Width?$AA@ 10004310     wrtems.obj
+ 0002:00000324       ??_C@_01GOHFPIOK@m?$AA@    10004324     wrtems.obj
+ 0002:00000328       ??_C@_08CHBOKEDA@JT?5Units?$AA@ 10004328     wrtems.obj
+ 0002:00000334       ??_C@_0BD@JJFEBOEJ@Healing?5and?5Sewing?$AA@ 10004334     wrtems.obj
+ 0002:00000348       ??_C@_08FAGNKDJG@Relative?$AA@ 10004348     wrtems.obj
+ 0002:00000354       ??_C@_0BJ@LPFIMAOP@Chordal?5Tolerance?5Option?$AA@ 10004354     wrtems.obj
+ 0002:00000370       ??_C@_05CGKLNCBH@0?4001?$AA@ 10004370     wrtems.obj
+ 0002:00000378       ??_C@_0BI@CBIMJFOD@Chordal?5Tolerance?5Value?$AA@ 10004378     wrtems.obj
+ 0002:00000390       ??_C@_0M@GENAFPDI@Part?5Layers?$AA@ 10004390     wrtems.obj
+ 0002:0000039c       ??_C@_0BG@GMNFDLGE@Current?5Configuration?$AA@ 1000439c     wrtems.obj
+ 0002:000003b4       ??_C@_0L@FOPFONEP@Map?5Colors?$AA@ 100043b4     wrtems.obj
+ 0002:000003c0       ??_C@_0BF@KKOLLPHF@Translate?5Background?$AA@ 100043c0     wrtems.obj
+ 0002:000003d8       ??_C@_0BI@MFGGFIDK@Background?5On?5File?5Open?$AA@ 100043d8     wrtems.obj
+ 0002:000003f0       ??_C@_0BC@DJCMOLJP@RecognizeFeatures?$AA@ 100043f0     wrtems.obj
+ 0002:00000404       ??_C@_0M@LPOJEKPL@ProE?5Flavor?$AA@ 10004404     wrtems.obj
+ 0002:00000410       ??_C@_0N@HODFCELD@Catia?5Flavor?$AA@ 10004410     wrtems.obj
+ 0002:00000420       ??_C@_0BL@JNBEGPMO@Stringently?5Check?5Surfaces?$AA@ 10004420     wrtems.obj
+ 0002:0000043c       ??_C@_01GBGANLPD@0?$AA@    1000443c     wrtems.obj
+ 0002:00000440       ??_C@_0BG@KCANDBPI@Sew?5Imported?5Surfaces?$AA@ 10004440     wrtems.obj
+ 0002:00000458       ??_C@_0BG@DBKJODPG@Read?5Bounded?5Surfaces?$AA@ 10004458     wrtems.obj
+ 0002:00000470       ??_C@_0BJ@FEMKLCAN@Include?5Precise?5Geometry?$AA@ 10004470     wrtems.obj
+ 0002:0000048c       ??_C@_0BN@NOOPPGPK@Trim?5Curve?5Preference?5Export?$AA@ 1000448c     wrtems.obj
+ 0002:000004ac       ??_C@_0BN@EKFEAPKG@Trim?5Curve?5Preference?5Import?$AA@ 100044ac     wrtems.obj
+ 0002:000004cc       ??_C@_0BA@NNHGKEDJ@Save?5Preference?$AA@ 100044cc     wrtems.obj
+ 0002:000004dc       ??_C@_0O@IDDDOBKM@Import?5Bodies?$AA@ 100044dc     wrtems.obj
+ 0002:000004ec       ??_C@_01EKENIIDA@3?$AA@    100044ec     wrtems.obj
+ 0002:000004f0       ??_C@_09GBPDBPAF@Export?5As?$AA@ 100044f0     wrtems.obj
+ 0002:000004fc       ??_C@_01HIHLOKLC@1?$AA@    100044fc     wrtems.obj
+ 0002:00000500       ??_C@_05CFLIFMAE@Units?$AA@ 10004500     wrtems.obj
+ 0002:00000508       ??_C@_0BE@NMCKNGJH@Write?5Layer?5Locates?$AA@ 10004508     wrtems.obj
+ 0002:0000051c       ??_C@_0BF@GKCDCOKJ@Write?5Layer?5Displays?$AA@ 1000451c     wrtems.obj
+ 0002:00000534       ??_C@_0BC@FGHJBLN@Write?5Layer?5Names?$AA@ 10004534     wrtems.obj
+ 0002:00000548       ??_C@_0BI@GGCOGNPK@Write?5Linestyle?5Weights?$AA@ 10004548     wrtems.obj
+ 0002:00000560       ??_C@_0BH@IAPEJMBJ@Write?5Linestyle?5Colors?$AA@ 10004560     wrtems.obj
+ 0002:00000578       ??_C@_0BB@OPILLNGD@Break?5Dimensions?$AA@ 10004578     wrtems.obj
+ 0002:0000058c       ??_C@_0BG@PHGJIMFO@Write?5Linestyle?5Names?$AA@ 1000458c     wrtems.obj
+ 0002:000005a4       ??_C@_0BC@DCAOBJNM@Write?5Hatchstyles?$AA@ 100045a4     wrtems.obj
+ 0002:000005b8       ??_C@_0BB@IKJBCALA@Read?5Hatchstyles?$AA@ 100045b8     wrtems.obj
+ 0002:000005cc       ??_C@_0N@FIFLIAKF@Bigfont?5Name?$AA@ 100045cc     wrtems.obj
+ 0002:000005dc       ??_C@_0BG@NPFJHKMO@Application?5Text?5Type?$AA@ 100045dc     wrtems.obj
+ 0002:000005f4       ??_C@_0BO@OOLPFCMN@Process?5Construction?5Elements?$AA@ 100045f4     wrtems.obj
+ 0002:00000614       ??_C@_0CI@OEHJMIL@Process?5Non?9Displayable?5Referenc@ 10004614     wrtems.obj
+ 0002:0000063c       ??_C@_0BD@BCHIGLJA@Max?4?5Nesting?5Depth?$AA@ 1000463c     wrtems.obj
+ 0002:00000650       ??_C@_0BG@HCCJKKEI@AutoCAD?5Extended?5Data?$AA@ 10004650     wrtems.obj
+ 0002:00000668       ??_C@_0BC@BKMMCJAL@MS?5resource?5files?$AA@ 10004668     wrtems.obj
+ 0002:0000067c       ??_C@_0CF@PMOCJJHO@Foreign?5to?5Neutral?5Server?5Entity@ 1000467c     wrtems.obj
+ 0002:000006a4       ??_C@_0CC@FBBHGIJD@Application?5to?5Neutral?5Entity?5Ma@ 100046a4     wrtems.obj
+ 0002:000006c8       ??_C@_0CK@LHDLKMKA@Neutral?5to?5Foreign?5Translation?5E@ 100046c8     wrtems.obj
+ 0002:000006f4       ??_C@_0CK@EKDDLMNO@Foreign?5to?5Neutral?5Translation?5E@ 100046f4     wrtems.obj
+ 0002:00000720       ??_C@_0BI@HIIOGLAB@Translate?5Scaled?5Layers?$AA@ 10004720     wrtems.obj
+ 0002:00000738       ??_C@_0BJ@HGICCCH@Override?5Linetype?5Colors?$AA@ 10004738     wrtems.obj
+ 0002:00000754       ??_C@_0BA@HBGHIPKH@Override?5Colors?$AA@ 10004754     wrtems.obj
+ 0002:00000764       ??_C@_0BF@CNNJHLCF@Read?5Linetype?5Colors?$AA@ 10004764     wrtems.obj
+ 0002:0000077c       ??_C@_0M@FDJECDLA@Read?5Colors?$AA@ 1000477c     wrtems.obj
+ 0002:00000788       ??_C@_0BN@ONKCLLBK@Processing?5Batch?5Translation?$AA@ 10004788     wrtems.obj
+ 0002:000007a8       ??_C@_0BE@DAGKDAGO@Write?5Default?5Units?$AA@ 100047a8     wrtems.obj
+ 0002:000007bc       ??_C@_0CC@EIOMEKFP@Memory?5Needed?5Per?5Foreign?5Elemen@ 100047bc     wrtems.obj
+ 0002:000007e0       ??_C@_0CB@CLNPGHDA@Memory?5Needed?5Per?5Native?5Element@ 100047e0     wrtems.obj
+ 0002:00000804       ??_C@_0BF@ILGCNOID@Symbol?5Template?5File?$AA@ 10004804     wrtems.obj
+ 0002:0000081c       ??_C@_0BI@OCLBEPOH@Pos?5Units?5Per?5Sub?5Units?$AA@ 1000481c     wrtems.obj
+ 0002:00000834       ??_C@_0BL@MMJJPDED@Sub?5Units?5Per?5Master?5Units?$AA@ 10004834     wrtems.obj
+ 0002:00000850       ??_C@_0M@ICLKLKFA@Active?5View?$AA@ 10004850     wrtems.obj
+ 0002:0000085c       ??_C@_0BD@KMAMHCHB@Read?5Block?5Options?$AA@ 1000485c     wrtems.obj
+ 0002:00000870       ??_C@_0O@DCHCMCMB@Shared?5embeds?$AA@ 10004870     wrtems.obj
+ 0002:00000880       ??_C@_0BC@ICFCHNJB@Read?5Cell?5Options?$AA@ 10004880     wrtems.obj
+ 0002:00000894       ??_C@_0BE@GCLMENOJ@Enable?5DebugLogging?$AA@ 10004894     wrtems.obj
+ 0002:000008a8       ??_C@_0N@JMOEGMKL@Write?5Layers?$AA@ 100048a8     wrtems.obj
+ 0002:000008b8       ??_C@_0BP@PBJIHBKO@Write?5Polyline?5Width?5Threshold?$AA@ 100048b8     wrtems.obj
+ 0002:000008d8       ??_C@_0BG@FLHOALAM@Read?5Part?5Name?5Prefix?$AA@ 100048d8     wrtems.obj
+ 0002:000008f0       ??_C@_0BE@DOPDOAKO@Read?5Part?5File?5Path?$AA@ 100048f0     wrtems.obj
+ 0002:00000904       ??_C@_0BI@MACLNPNC@Read?5Part?5Template?5File?$AA@ 10004904     wrtems.obj
+ 0002:0000091c       ??_C@_0BM@KLJLDDKK@Read?5Assembly?5Template?5File?$AA@ 1000491c     wrtems.obj
+ 0002:00000938       ??_C@_0BD@CJDEKAO@Read?5Default?5Width?$AA@ 10004938     wrtems.obj
+ 0002:0000094c       ??_C@_0O@PFMBKECH@Template?5File?$AA@ 1000494c     wrtems.obj
+ 0002:0000095c       ??_C@_0BH@OFFDFAJO@Write?5Embedded?5Objects?$AA@ 1000495c     wrtems.obj
+ 0002:00000974       ??_C@_06KMEJCCGM@Ignore?$AA@ 10004974     wrtems.obj
+ 0002:0000097c       ??_C@_0BF@JLBAABMG@Write?5Linked?5Objects?$AA@ 1000497c     wrtems.obj
+ 0002:00000994       ??_C@_0N@HEAKGDJN@Write?5Widths?$AA@ 10004994     wrtems.obj
+ 0002:000009a4       ??_C@_0M@LAIFMFIJ@Read?5Widths?$AA@ 100049a4     wrtems.obj
+ 0002:000009b0       ??_C@_0BK@BLOBOGFI@Write?5Font?5Resource?5Files?$AA@ 100049b0     wrtems.obj
+ 0002:000009cc       ??_C@_0BJ@GNNJFEGO@Read?5Font?5Resource?5Files?$AA@ 100049cc     wrtems.obj
+ 0002:000009e8       ??_C@_0BP@EKNMPDJB@Write?5Linestyle?5Resource?5Files?$AA@ 100049e8     wrtems.obj
+ 0002:00000a08       ??_C@_0BO@IANLFCPO@Read?5Linestyle?5Resource?5Files?$AA@ 10004a08     wrtems.obj
+ 0002:00000a28       ??_C@_0BA@LEDOLEFK@Ignore?5Warnings?$AA@ 10004a28     wrtems.obj
+ 0002:00000a38       ??_C@_0BF@NMEKCCPP@Read?5Reference?5Paths?$AA@ 10004a38     wrtems.obj
+ 0002:00000a50       ??_C@_09KMILOHFO@Translate?$AA@ 10004a50     wrtems.obj
+ 0002:00000a5c       ??_C@_0BH@EDICNJKJ@Read?5Reference?5Options?$AA@ 10004a5c     wrtems.obj
+ 0002:00000a74       ??_C@_0O@LEJBMJLO@Write?5Version?$AA@ 10004a74     wrtems.obj
+ 0002:00000a84       ??_C@_0BD@BKNLFPGM@Export?5Entry?5Point?$AA@ 10004a84     wrtems.obj
+ 0002:00000a98       ??_C@_0BD@DAELHCPE@Import?5Entry?5Point?$AA@ 10004a98     wrtems.obj
+ 0002:00000aac       ??_C@_03ECEIPJGG@Dll?$AA@  10004aac     wrtems.obj
+ 0002:00000ab0       ??_C@_0N@ODHLKEAA@Option?5Forms?$AA@ 10004ab0     wrtems.obj
+ 0002:00000ac0       ??_C@_0BB@NFDEABFA@Write?5Text?5Fonts?$AA@ 10004ac0     wrtems.obj
+ 0002:00000ad4       ??_C@_0BA@PHKIGCGH@Read?5Text?5Fonts?$AA@ 10004ad4     wrtems.obj
+ 0002:00000ae4       ??_C@_0BD@KGCHCEFC@Read?5Default?5Units?$AA@ 10004ae4     wrtems.obj
+ 0002:00000af8       ??_C@_0BC@KIAAFNBC@Projection?5Vector?$AA@ 10004af8     wrtems.obj
+ 0002:00000b0c       ??_C@_0M@NEBNFABG@0?40?50?40?51?40?$AA@ 10004b0c     wrtems.obj
+ 0002:00000b18       ??_C@_06EFAGIKOH@Normal?$AA@ 10004b18     wrtems.obj
+ 0002:00000b20       ??_C@_0M@GMKBDHHD@0?40?50?40?50?40?$AA@ 10004b20     wrtems.obj
+ 0002:00000b2c       ??_C@_0BA@GJLDONN@Reference?5Point?$AA@ 10004b2c     wrtems.obj
+ 0002:00000b3c       ??_C@_03PGGAENPN@Top?$AA@  10004b3c     wrtems.obj
+ 0002:00000b40       ??_C@_04FABLJDN@Name?$AA@  10004b40     wrtems.obj
+ 0002:00000b48       ??_C@_0BG@NNEHMMHB@Transformation?5Matrix?$AA@ 10004b48     wrtems.obj
+ 0002:00000b60       ??_C@_04KOACHJEN@Type?$AA@ 10004b60     wrtems.obj
+ 0002:00000b68       ??_C@_0BD@OOIDEPKH@Write?5Default?5View?$AA@ 10004b68     wrtems.obj
+ 0002:00000b80       ??_C@_0EA@DCDFKCHG@1?40?50?40?50?40?50?40?50?40?51?40?50?40?50?40?5@ 10004b80     wrtems.obj
+ 0002:00000bc0       ??_C@_0P@DIBIOLFJ@Transformation?$AA@ 10004bc0     wrtems.obj
+ 0002:00000bd0       ??_C@_0BC@KKDPPNON@Read?5Default?5View?$AA@ 10004bd0     wrtems.obj
+ 0002:00000be4       ??_C@_0BB@LHDEPIHM@Write?5Linestyles?$AA@ 10004be4     wrtems.obj
+ 0002:00000bf8       ??_C@_0BA@JFKIJLEL@Read?5Linestyles?$AA@ 10004bf8     wrtems.obj
+ 0002:00000c08       ??_C@_0P@HNBPIHLB@Enable?5Logging?$AA@ 10004c08     wrtems.obj
+ 0002:00000c18       ??_C@_09HACGBFPA@Seed?5File?$AA@ 10004c18     wrtems.obj
+ 0002:00000c24       ??_C@_0L@GEDNDJAA@Entity?5Map?$AA@ 10004c24     wrtems.obj
+ 0002:00000c2f       ??_C@_00CNPNBAHC@?$AA@     10004c2f     wrtems.obj
+ 0002:00000c30       ??_C@_04KAIBKGKB@Dlls?$AA@ 10004c30     wrtems.obj
+ 0002:00000c38       ??_C@_07KHIHFBFN@Options?$AA@ 10004c38     wrtems.obj
+ 0002:0000137c       ??_7JWriteEmsClassFactory@@6B@ 1000537c     wrtems.obj
+ 0002:00001394       ??_7JWriteEms@@6B@         10005394     wrtems.obj
+ 0002:000013a0       ??_C@_0L@JJGIIMHL@wrtems?4drx?$AA@ 100053a0     wrtems.obj
+ 0002:000013ac       ??_C@_0CH@BAPHOBGL@?$HL043127C0?9DC65?911ce?9B4EE?90800360@ 100053ac     wrtems.obj
+ 0002:000013d4       ??_C@_06FOBLBEIN@delete?$AA@ 100053d4     wrtems.obj
+ 0002:000013dc       ??_C@_0N@NLPIENAC@?4?2wrtems?4cpp?$AA@ 100053dc     wrtems.obj
+ 0002:000013ec       ??_C@_09KDHEJNKF@set_state?$AA@ 100053ec     wrtems.obj
+ 0002:000013f8       ??_C@_09NNDFHOIK@OMFiledOS?$AA@ 100053f8     wrtems.obj
+ 0002:00001404       ??_C@_1CM@NBHONFK@?$AAS?$AAo?$AAl?$AAi?$AAd?$AAE?$AAd?$AAg?$AAe?$AA?4?$AAA?$AAp?$AAp?$AAl?$AAi?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 10005404     wrtems.obj
+ 0002:00001430       ??_C@_0M@KBFFDNFL@Save?5As?5EMS?$AA@ 10005430     wrtems.obj
+ 0002:00001440       ??_C@_0EN@JCOJHJOL@The?5input?5file?5name?5exceeds?514?5c@ 10005440     wrtems.obj
+ 0002:00001490       ??_C@_0GG@KKPPHPFE@Fatal?5Error?3?5The?5length?5of?5input@ 10005490     wrtems.obj
+ 0002:000014f8       ??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@ 100054f8     wrtems.obj
+ 0002:00001500       ??_C@_02DKCKIIND@?$CFs?$AA@ 10005500     wrtems.obj
+ 0002:00001504       ??_C@_0CE@KBGBCOIB@JWriteEms?3?3ImpIJWriteData?3?3OpenF@ 10005504     wrtems.obj
+ 0002:00001528       ??_C@_05NGFEDHGN@write?$AA@ 10005528     wrtems.obj
+ 0002:00001530       ??_C@_0BL@JGILBOOD@ERROR?3?5Not?5a?5body?5pointer?4?$AA@ 10005530     wrtems.obj
+ 0002:0000154c       ??_C@_0CA@IICKIAIM@ERROR?3?5Not?52?5elements?5in?5list?4?6?$AA@ 1000554c     wrtems.obj
+ 0002:0000156c       ??_C@_0CM@EANOLPAJ@ERROR?3?5Reading?5bodies?5not?5yet?5im@ 1000556c     wrtems.obj
+ 0002:0000159c       ??_7ImpIJWriteData@JWriteEms@@6B@ 1000559c     wrtems.obj
+ 0002:000015e0       ??_C@_0BA@IFCOOEJO@?$CFs?2TRindent?4ini?$AA@ 100055e0     trutil:trfunc.obj
+ 0002:000015f0       ??_C@_04JKHNIKCB@TEMP?$AA@ 100055f0     trutil:trfunc.obj
+ 0002:000015f8       ??_C@_06OIKOPCGF@Indent?$AA@ 100055f8     trutil:trfunc.obj
+ 0002:00001600       ??_C@_0BD@DPCKNFFI@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10005600     trutil:trfunc.obj
+ 0002:00001614       ??_C@_0BA@FMPIKLLM@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10005614     trutil:trfunc.obj
+ 0002:00001624       ??_C@_0N@ONKJJLFA@?5?5?5?5?5?5?5?5?5?5?5?5?$AA@ 10005624     trutil:trfunc.obj
+ 0002:00001634       ??_C@_09CMIEKKHO@?5?5?5?5?5?5?5?5?5?$AA@ 10005634     trutil:trfunc.obj
+ 0002:00001640       ??_C@_06GGLIPOFD@?5?5?5?5?5?5?$AA@ 10005640     trutil:trfunc.obj
+ 0002:00001648       ??_C@_03NDEAONJP@?5?5?5?$AA@ 10005648     trutil:trfunc.obj
+ 0002:0000164c       _IID_IClassFactory         1000564c     uuid:unknwn_i.obj
+ 0002:0000165c       _IID_IUnknown              1000565c     uuid:unknwn_i.obj
+ 0002:00001670       ??_7type_info@@6B@         10005670     MSVCRT:ti_inst.obj
+ 0002:00001674       __pRawDllMain              10005674     MSVCRT:crtdll.obj
+ 0002:00001674       __pDefaultRawDllMain       10005674     MSVCRT:crtdll.obj
+ 0002:00001680       __load_config_used         10005680     MSVCRT:loadcfg.obj
+ 0002:000016f8       ??_R4JWriteEmsClassFactory@@6B@ 100056f8     wrtems.obj
+ 0002:0000170c       ??_R3JWriteEmsClassFactory@@8 1000570c     wrtems.obj
+ 0002:0000171c       ??_R2JWriteEmsClassFactory@@8 1000571c     wrtems.obj
+ 0002:0000172c       ??_R1A@?0A@EA@JWriteEmsClassFactory@@8 1000572c     wrtems.obj
+ 0002:00001748       ??_R1A@?0A@EA@IClassFactory@@8 10005748     wrtems.obj
+ 0002:00001764       ??_R3IClassFactory@@8      10005764     wrtems.obj
+ 0002:00001774       ??_R2IClassFactory@@8      10005774     wrtems.obj
+ 0002:00001780       ??_R1A@?0A@EA@IUnknown@@8  10005780     wrtems.obj
+ 0002:0000179c       ??_R3IUnknown@@8           1000579c     wrtems.obj
+ 0002:000017ac       ??_R2IUnknown@@8           100057ac     wrtems.obj
+ 0002:000017b4       ??_R4JWriteEms@@6B@        100057b4     wrtems.obj
+ 0002:000017c8       ??_R3JWriteEms@@8          100057c8     wrtems.obj
+ 0002:000017d8       ??_R2JWriteEms@@8          100057d8     wrtems.obj
+ 0002:000017e4       ??_R1A@?0A@EA@JWriteEms@@8 100057e4     wrtems.obj
+ 0002:00001800       ??_R4ImpIJWriteData@JWriteEms@@6B@ 10005800     wrtems.obj
+ 0002:00001814       ??_R3ImpIJWriteData@JWriteEms@@8 10005814     wrtems.obj
+ 0002:00001824       ??_R2ImpIJWriteData@JWriteEms@@8 10005824     wrtems.obj
+ 0002:00001834       ??_R1A@?0A@EA@ImpIJWriteData@JWriteEms@@8 10005834     wrtems.obj
+ 0002:00001850       ??_R1A@?0A@EA@IJWriteData@@8 10005850     wrtems.obj
+ 0002:0000186c       ??_R3IJWriteData@@8        1000586c     wrtems.obj
+ 0002:0000187c       ??_R2IJWriteData@@8        1000587c     wrtems.obj
+ 0002:00001888       ??_R4type_info@@6B@        10005888     MSVCRT:ti_inst.obj
+ 0002:0000189c       ??_R3type_info@@8          1000589c     MSVCRT:ti_inst.obj
+ 0002:000018ac       ??_R2type_info@@8          100058ac     MSVCRT:ti_inst.obj
+ 0002:000018b4       ??_R1A@?0A@EA@type_info@@8 100058b4     MSVCRT:ti_inst.obj
+ 0002:000018d0       ___safe_se_handler_table   100058d0     <linker-defined>
+ 0002:000018e4       ___rtc_iaa                 100058e4     MSVCRT:initsect.obj
+ 0002:000018e8       ___rtc_izz                 100058e8     MSVCRT:initsect.obj
+ 0002:000018ec       ___rtc_taa                 100058ec     MSVCRT:initsect.obj
+ 0002:000018f0       ___rtc_tzz                 100058f0     MSVCRT:initsect.obj
+ 0002:00001a4c       __IMPORT_DESCRIPTOR_config 10005a4c     config:config.dll
+ 0002:00001a60       __IMPORT_DESCRIPTOR_JUtil  10005a60     jutil:JUtil.dll
+ 0002:00001a74       __IMPORT_DESCRIPTOR_MINIEMS 10005a74     miniems:MINIEMS.DLL
+ 0002:00001a88       __IMPORT_DESCRIPTOR_PSOLEMS 10005a88     psolems:PSOLEMS.dll
+ 0002:00001a9c       __IMPORT_DESCRIPTOR_KERNEL32 10005a9c     kernel32:KERNEL32.dll
+ 0002:00001ab0       __IMPORT_DESCRIPTOR_USER32 10005ab0     user32:USER32.dll
+ 0002:00001ac4       __IMPORT_DESCRIPTOR_ole32  10005ac4     ole32:ole32.dll
+ 0002:00001ad8       __IMPORT_DESCRIPTOR_OLEAUT32 10005ad8     oleaut32:OLEAUT32.dll
+ 0002:00001aec       __IMPORT_DESCRIPTOR_MSVCR80 10005aec     MSVCRT:MSVCR80.dll
+ 0002:00001b00       __NULL_IMPORT_DESCRIPTOR   10005b00     config:config.dll
+ 0003:00000000       __newmode                  10007000     newmode.obj
+ 0003:00000a30       ??_R0?AVJWriteEmsClassFactory@@@8 10007a30     wrtems.obj
+ 0003:00000a54       ??_R0?AUIClassFactory@@@8  10007a54     wrtems.obj
+ 0003:00000a70       ??_R0?AUIUnknown@@@8       10007a70     wrtems.obj
+ 0003:00000a88       ??_R0?AVJWriteEms@@@8      10007a88     wrtems.obj
+ 0003:00000aa0       ??_R0?AUImpIJWriteData@JWriteEms@@@8 10007aa0     wrtems.obj
+ 0003:00000ac8       ??_R0?AUIJWriteData@@@8    10007ac8     wrtems.obj
+ 0003:00001508       ___security_cookie         10008508     MSVCRT:gs_cookie.obj
+ 0003:0000150c       ___security_cookie_complement 1000850c     MSVCRT:gs_cookie.obj
+ 0003:00001510       ??_R0?AVtype_info@@@8      10008510     MSVCRT:ti_inst.obj
+ 0003:00001530       ___native_dllmain_reason   10008530     MSVCRT:natstart.obj
+ 0003:00001534       ___native_vcclrit_reason   10008534     MSVCRT:natstart.obj
+ 0003:00001ccc       ?__type_info_root_node@@3U__type_info_node@@A 10008ccc     MSVCRT:tncleanup.obj
+ 0003:00001cd4       __adjust_fdiv              10008cd4     <common>
+ 0003:00001cd8       ___native_startup_state    10008cd8     <common>
+ 0003:00001cdc       ___native_startup_lock     10008cdc     <common>
+ 0003:00001ce0       ___onexitend               10008ce0     <common>
+ 0003:00001ce4       ___onexitbegin             10008ce4     <common>
+ 0003:00001ce8       ___dyn_tls_init_callback   10008ce8     <common>
+
+ entry point at        0001:000019d2
+
+ Static symbols
+
+ 0001:00000990       ?GetActiveHwnd@@YAJAAPAUHWND__@@@Z 10001990 f   wrtems.obj
+ 0001:00001450       ?TRxxx@@YAXXZ              10002450 f   trutil:trfunc.obj
+ 0001:00001480       ?TRindent@@YAHXZ           10002480 f   trutil:trfunc.obj
+ 0001:000016d0       _pre_c_init                100026d0 f   MSVCRT:crtdll.obj
+ 0001:000018bc       ___DllMainCRTStartup       100028bc f   MSVCRT:crtdll.obj
+ 0001:00001f20       __unwindfunclet$_DllGetClassObject@12$0 10002f20 f   server.obj
+ 0001:00001f2b       __ehhandler$_DllGetClassObject@12 10002f2b f   server.obj
+ 0001:00001f50       __unwindfunclet$?PutGraphics@ImpIJWriteData@JWriteEms@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z$0 10002f50 f   wrtems.obj
+ 0001:00001f5b       __ehhandler$?PutGraphics@ImpIJWriteData@JWriteEms@@UAGJGHPAPAXPAUIJReadData@@PAPAKPAIPAPAPAUIUnknown@@@Z 10002f5b f   wrtems.obj
+ 0001:00001f90       __unwindfunclet$?CreateInstance@JWriteEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z$0 10002f90 f   wrtems.obj
+ 0001:00001f9b       __ehhandler$?CreateInstance@JWriteEmsClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10002f9b f   wrtems.obj
+ 0001:00001fc0       __unwindfunclet$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z$0 10002fc0 f   trutil:trfunc.obj
+ 0001:00001fc9       __ehhandler$?TRwriteToLogArgs@@YAHPAUHINSTANCE__@@HIPAD@Z 10002fc9 f   trutil:trfunc.obj
+ 0001:00001ff0       ??__EGNULL_Camera@@YAXXZ   10002ff0 f   wrtems.obj
+ 0001:00002010       ??__EGNULL_CAMERA@@YAXXZ   10003010 f   wrtems.obj
+ 0001:00002030       ??__EGID_Camera@@YAXXZ     10003030 f   wrtems.obj
+ 0001:00002050       ??__EGID_CAMERA@@YAXXZ     10003050 f   wrtems.obj
+ 0001:00002070       ??__EGNULL_Camera@@YAXXZ   10003070 f   trutil:trfunc.obj
+ 0001:00002090       ??__EGNULL_CAMERA@@YAXXZ   10003090 f   trutil:trfunc.obj
+ 0001:000020b0       ??__EGID_Camera@@YAXXZ     100030b0 f   trutil:trfunc.obj
+ 0001:000020d0       ??__EGID_CAMERA@@YAXXZ     100030d0 f   trutil:trfunc.obj

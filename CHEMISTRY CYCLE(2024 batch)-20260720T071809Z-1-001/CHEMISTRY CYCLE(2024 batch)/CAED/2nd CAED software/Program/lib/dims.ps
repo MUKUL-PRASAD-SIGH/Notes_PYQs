@@ -1,0 +1,1654 @@
+%-12345X@PJL JOB
+@PJL ENTER LANGUAGE = POSTSCRIPT 
+%!PS-Adobe-3.0
+%%Title: dims.dft
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 7/19/2006 18:1:8
+%%For: vrmysore
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (HP DesignJet 650C) (2014.102) 0
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 0 0 1224 792
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Halftoning PrDefault
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 300 V 0 0 -72 300 V 0 792 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 0 0 1224 792
+%%EndPageComments
+%%BeginPageSetup
+featurebegin{
+%%BeginFeature: *CustomPageSize
+ 
+1224 792 0 0 1 
+	4 dict begin
+		/Orientation exch def
+		2 array astore /Margins exch def
+		2 array astore /PageSize exch def
+		/ImagingBBox null def
+		currentdict
+	end setpagedevice
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputMode Enhanced
+
+<<      /PostRenderingEnhance true
+	/PostRenderingEnhanceDetails 
+	<<      /PrintQuality 3
+		/Type 11 >>
+>>      setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *MirrorPrint False
+<</MirrorPrint false>>setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 300dpi
+1 dict dup /HWResolution [300 300] put setpagedevice
+%%EndFeature
+}featurecleanup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+0 0 0 1 scol 1 Lj 1 Lc 8 Lw solid N 186 3186 M 4914 3186 I K 
+N 4914 3186 M 4914 113 I K 
+N 4914 114 M 185 114 I K 
+N 186 114 M 186 3186 I K 
+N 3226 3186 M 3226 2585 I K 
+4 Lw N 3489 2924 M 3489 2585 I K 
+N 3714 2924 M 3714 2585 I K 
+8 Lw N 3976 3186 M 3976 2585 I K 
+4 Lw N 4089 3036 M 4089 2924 I K 
+N 4239 3186 M 4239 3110 I K 
+N 4539 3186 M 4539 3110 I K 
+N 4800 3036 M 4800 2924 I K 
+8 Lw N 3226 2586 M 4914 2586 I K 
+N 3226 2654 M 3976 2654 I K 
+N 3226 2721 M 3976 2721 I K 
+N 3976 2772 M 4914 2772 I K 
+N 3226 2789 M 3976 2789 I K 
+N 3226 2856 M 3976 2856 I K 
+N 3226 2924 M 4914 2924 I K 
+N 3976 3036 M 4914 3036 I K 
+N 3976 3111 M 4914 3111 I K 
+29970 VM?
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_T3Hdr 5.0 0
+{version cvi 2016 ge{32/FontType resourcestatus{pop pop true}{false}ifelse}
+{false}ifelse}exec/Is2016andT32? exch def/T32DefSBCMap{/CIDInit/ProcSet
+findresource begin 10 dict begin begincmap/CIDSystemInfo 3 dict dup begin
+/Registry(Adobe)def/Ordering(Identity1)def/Supplement 0 def end def/CMapType 0
+def/WMode 0 def 1 begincodespacerange<00><ff>endcodespacerange 1 begincidrange
+<00><ff>0 endcidrange endcmap/DrvSBCMap currentdict/CMap defineresource pop end
+end}bind def Is2016andT32?{T32DefSBCMap}def/T32RsrcBegin{Is2016andT32?{
+/BitmapFontInit/ProcSet findresource begin}if}bind def/T32RsrcEnd{Is2016andT32?
+{end}if}bind def/AddT32Char{6 1 roll 0 get 7 1 roll pop pop 5 1 roll pop
+findfont/TT32R get addglyph}bind def/AddT3Char{findfont dup 5 2 roll 1 index
+length 0 gt{cvx 1 index exch 4 exch put dup(imagemask)cvx cvn 5 exch put cvx}
+{pop cvx}ifelse 3 -1 roll/CharProcs get 3 1 roll put dup/Encoding get 5 -1 roll
+4 index put/Metrics get 3 1 roll put}bind def/AddT3T32Char Is2016andT32?{
+/AddT32Char}{/AddT3Char}ifelse load def/GreNewFontT32{5 dict begin exch
+/FontMatrix exch def exch/FontBBox exch def exch pop exch pop/CIDFontType 4 def
+dup currentdict end/CIDFont defineresource 3 -1 roll dup/DrvSBCMap dup/CMap
+resourcestatus{pop pop}{T32DefSBCMap}ifelse 5 -1 roll[exch]composefont dup
+length dict copy dup/FID undef begin exch/TT32R exch def currentdict end
+definefont/BitmapFontInit/ProcSet findresource begin/TT32R get[14 0 0 0 0 0]<>0
+4 -1 roll addglyph end}bind def/GreNewFontT3{11 dict begin pop/FontType 3 def
+/FontMatrix exch def/FontBBox exch def/Encoding exch def/CharProcs 257 dict def
+CharProcs/.notdef{}put/Metrics 257 dict def Metrics/.notdef 3 -1 roll put
+AddFontInfoBegin AddFontInfo AddFontInfoEnd/BuildChar{userdict begin/char exch
+def dup/charname exch/Encoding get char get def dup/Metrics get charname 2 copy
+known{get aload pop}{pop/.notdef get aload pop}ifelse setcachedevice begin
+Encoding char get CharProcs exch 2 copy known{get}{pop/.notdef get}ifelse end
+exec end}def currentdict end definefont pop}bind def/GreNewFont{Is2016andT32?
+{GreNewFontT32}{GreNewFontT3}ifelse}bind def/UDF3{Is2016andT32?{/BitmapFontInit
+/ProcSet findresource begin dup/CIDFont findresource removeall/CIDFont
+undefineresource undefinefont end}{pop UDF}ifelse}bind def
+%%EndResource
+end reinitialize
+/TTB862b00
+[58 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 58 div 0 0 -1 58 div 0 0 ]
+/__TTB862b00
+GreNewFont
+T32RsrcBegin
+
+1
+/D [28 0 3 -36 26 0 ] 
+/D [23 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~s7cTorW)uuJD^sRhuhoq!T;l9nDF:khuGap!'K0>*8gf:huFbT!"Roe%c@<s
+huF8F!"Roe%c@<shuF8F!"Roe%c@=,huFbT!$'ns4Q$3!huJ#[!-$iri8=^q
+i"*X's+(.K!<;fo~>
+ ]
+/TTB862b00 AddT3T32Char
+
+2
+/R [28 0 3 -36 28 0 ] 
+/R [25 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~s8RTLs8V!Ws8VQghuNNPhuJ!%huGk>huGk>huF_shuF_shuF_shuF_shuF_s
+huF_shuG_:huG_:huJ!%huN6Hs8V!Ws8Tk7s8RTLi!4c4hueK0hugaphuUUn
+huVa9huM[8huN6HhuI]rhuJ!%huG_:huGk>huF_shuFeuhuF5ehuF8fhuEu^
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+3
+/A [26 0 1 -36 25 0 ] 
+/A [24 36 true [1 0 0 1 -1 36 ]  0 0]
+[<~!#P\92uiq@!!#+]!'C5]IK0@s!!%HJ!:Bgek5YMF!!26_!Q0Eg_ghd*J-1G>
+"+e5iJ\VKk^]skt#6<Zm!8nCfn.5Qg+91gM!,rnX3#hoX2ukot!$!ru*,klt
+Du^qu!"SJu%c@<s~>
+ ]
+/TTB862b00 AddT3T32Char
+
+4
+/W [31 0 1 -36 30 0 ] 
+/W [29 36 true [1 0 0 1 -1 36 ]  0 0]
+[<~i!'1#i!'1#n-/l3E!?;]E!HA^E";s<E";s,E";s,3"LPt3$3\/3$3\/3$3^e
+3$#iN*'(jN*'(jN*'(jN*&uu/*,sqg*cU.i%WM#i%WHK>%cDO2%cDO2%cDg:
+#N.fH#J`P(#J`M'#J_A\#J_A\"+VEm"+VEm"+Uj]"+Ud[!rr`0!rr`0!<<6&
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+5
+/N [29 0 3 -36 26 0 ] 
+/N [23 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~^]4l&!"SJu%e'H.p](g!!"So,%fQG<mJmac!"S/l%c`'Lj1l/`^^f>]%cHgd
+i,B1aGRiXk%cBGZi#WBd%M%D-%c@R%i!5;#"4#g*cJS`khuN3'!<1mVIc(2i
+huGt!!$:%u*oI#.~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+F /F0 0 /0 F /TTB862b00 mF 
+/F0S3A F0 [58.852 0 0 -58.852 0 0 ] mFS
+F0S3A Ji 
+3244 2706 M <0102030405>S 
+2376 VM?
+T32RsrcBegin
+
+6
+/C [29 0 2 -36 27 0 ] 
+/C [25 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~!.OtK!WV'X"97ij#Jg*7%fe]l*WR5]49,ll2uj0`GQ7dFDu]k<Du]k<Du]k<
+n,NFghuE`WhuE`WhuE`WhuE`WhuE`WhuE`WhuE`WhuE`WhuE`WhuE`Wn,NFg
+Du]k<Du]k<GQ7^D2uj$\2uj0`49,ll*WR5]%fe]l&&@r?#QO8n!WV'X!.OtK
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+7
+/H [28 0 3 -36 25 0 ] 
+/H [22 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~huFbT!$'ns*8gf:huFbT!$'ns*8gf:huFbT!$'ns*8gf:huFbT!$'ns*8gf:
+huFbss8;osr;ZfphuFbT!$'ns*8gf:huFbT!$'ns*8gf:huFbT!$'ns*8gf:
+huFbT!$'ns*8gf:~>
+ ]
+/TTB862b00 AddT3T32Char
+
+8
+/E [26 0 2 -36 24 0 ] 
+/E [22 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~s8VTgs7$'gnDF9HhuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEcWrrE*!!<<'!huEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEcWs8;osr;Zfp~>
+ ]
+/TTB862b00 AddT3T32Char
+
+9
+/K [27 0 3 -36 26 0 ] 
+/K [23 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~huN9)!8uc9i8=^Qi!4ej#6<Zm!8nmui&h"t2uql]!9!>HiSX^p^]<E1!9\k4
+mf3@VJ,oV"!<9h7q;;8Jn,Vrs!8r)%i&h"t*WY+.!8n@fi!4ej"2Ngq^u,7O
+huN9)!-mE%4Q$2Z~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3244 2773 M <06070806090801>S 
+1188 VM?
+T32RsrcBegin
+
+10
+/G [28 0 2 -36 25 0 ] 
+/G [23 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~!.FnKs*t@Si"(D.%fghq!'!(@*&mp>GQ84m!!$s<!,qo<n,NIH!!(pW!8mhW
+huEc8!!(pW!8mhWhuiu:"9.3\rpTmtDu^Ae!"NrJ%X7s`2uk!^!$!$[4<FQJ
+%tX3Ts54"Z^]=B7~>
+ ]
+/TTB862b00 AddT3T32Char
+
+11
+/space [15 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3244 2841 M <08050A0B03>S 
+594 VM?
+T32RsrcBegin
+
+12
+/P [27 0 3 -36 25 0 ] 
+/P [22 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~s8RWLs1n[7i8=V)huJ#[!'&m:4Q$2ZhuFbT!$'ns*8gf:huFbT!'K0>38ad]
+huN9Hs7$'g_#OE7huEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEc8!!(pW!8mhW~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3368 2841 M <0C0C02>S 
+594 VM?
+T32RsrcBegin
+
+13
+/M [33 0 3 -37 30 0 ] 
+/M [27 37 true [1 0 0 1 -3 37 ]  0 0]
+[<~zhuEabhuEc8n,NIHn,NLIp](?Qp](?Qp](ESqu?iWqu?u[rW!2]rW!2]rW!Je
+mf3jUmf4Eek5ZL[kC=Q1kC>\Qj1mY4j1ootiP9EjiS\\5i8F+_i:,[_i:5a`
+i,QQji-E,ri&ea4i&cJIi#dL-i#_sWi#_sWi"#hGi!obFi!'2>huj&<huEc8
+~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3244 2908 M <0D0A020B030C0C02>S 
+4158 VM?
+T32RsrcBegin
+
+14
+/U [31 0 3 -36 29 0 ] 
+/U [26 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~huEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEen
+huEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEenhuEen
+huEenhuEenn,NR+Du]ujDu]ujGQ7u!49,ll4ocZ)++Se?&-)P-"97ij!.TM!
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+15
+/L [27 0 3 -36 25 0 ] 
+/L [22 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~huEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEcWs8;osr;Zfp~>
+ ]
+/TTB862b00 AddT3T32Char
+
+16
+/S [28 0 2 -36 25 0 ] 
+/S [23 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~!WE'(s1f`Vn36sKHiSP=!"eW"!8mhWhuEc8!!(pW!8mhWDu]l_!!#+]!$;1@
+&)[Eiqu?_HJ,g,<!!2Qh!-eJD49,@$!!!K/!"Ju/%KHJ=!!!L:!$(J.4F@-R
+56:O$s54.^^]=B7~>
+ ]
+/TTB862b00 AddT3T32Char
+
+17
+/O [30 0 2 -36 27 0 ] 
+/O [25 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~!.OtK!WTq8#QO8n%tXKU%fghS)ur)$49-E&2ujEg2ujEgDu^+CDu^+CDu^+C
+?iU9/huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0huF"4
+Du^+CDu^+CDu^+C2ujHh2ujEg49-E&*WS;&%fghS&&J#@#QN]^!WTq8!.OtK
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+18
+/T [27 0 1 -36 25 0 ] 
+/T [24 36 true [1 0 0 1 -1 36 ]  0 0]
+[<~s8W-!s8W-!rr>"Y!&srY2uiq<!!"tY!&srY2uiq<!!"tY!&srY2uiq<!!"tY
+!&srY2uiq<!!"tY!&srY2uiq<!!"tY!&srY2uiq<!!"tY!&srY2uiq<!!"tY
+!&srY2uiq<!!"tY~>
+ ]
+/TTB862b00 AddT3T32Char
+
+19
+/I [10 0 3 -36 6 0 ] 
+/I [3 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~i8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPO~>
+ ]
+/TTB862b00 AddT3T32Char
+
+20
+/F [25 0 2 -36 23 0 ] 
+/F [21 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~s8Vlos7lWoptu,PhuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+s8N*!rrE*!!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEc8!!(pW!8mhW~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3280 2983 M <0E050F0810100B1112070802041310080B100C08061314130801>S 
+3320 3043 M <01130D0805101311>S 
+3514 3043 M <05100B0302080B13050B13>S 
+3744 3043 M <05060708>S 
+3855 3043 M <10>S 
+3465 3103 M <03050A>S 
+2376 VM?
+T32RsrcBegin
+
+21
+/plusminus [22 0 3 -31 20 -7 ] 
+/plusminus [17 24 true [1 0 0 1 -3 31 ]  0 0]
+[<~!Pe[9^]4DN!!0k8!Pe[9^]4DN!<<(Ls8RWLs*t-c!!0k8!Pe[9^]4DN!!0k8
+!Pe[8zz!!!$!s+(.LJH,Y"~>
+ ]
+/TTB862b00 AddT3T32Char
+
+22
+/X [26 0 0 -36 26 0 ] 
+/X [26 36 true [1 0 0 1 0 36 ]  0 0]
+[<~Du]ujGQ7u!49,Td)upHK*WR5]%KIIK%fe]l#Cnc6"+YUr"2OC+!PmUn!9)i9
+!:di)!->pU!.04r!'^G`!$;1@!$2+?!$2+?!$;1@!'bu6!.04r!->pU!:di)
+!8uc8!T<GI"2JjU"+YUr#Cnc6#65_D%KIOM*WQZM)upKL49,TdGQ7hrDu^!U
+~>
+ ]
+/TTB862b00 AddT3T32Char
+
+23
+/period [7 0 1 -4 5 0 ] 
+/period [4 4 true [1 0 0 1 -1 4 ]  0 0]
+[<~nF5r:~>
+ ]
+/TTB862b00 AddT3T32Char
+
+24
+/degree [15 0 2 -36 12 -26 ] 
+/degree [10 10 true [1 0 0 1 -2 36 ]  0 0]
+[<~*WU\?It7.+iP=Efo>#j+It/R?~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3547 3103 M <0F08100B1516171618>S 
+1188 VM?
+T32RsrcBegin
+
+25
+/two [29 0 3 -36 26 0 ] 
+/two [23 36 true [1 0 0 1 -3 36 ]  0 0]
+[<~!<3$(s1f0Fn/h]+490ag!'G3#*cM)hDu^@J!"Ju/%KHJ=!!!E-!#tt=)uosu
+!!$s<!8mhX^]4Ie!!`K(%KHJk!!%6D!:Tsh^]4Ie!!`K(%KHJK!!"tY!&srY
+Du]lfs8N&urr<#t~>
+ ]
+/TTB862b00 AddT3T32Char
+
+26
+/three [29 0 3 -37 26 0 ] 
+/three [23 37 true [1 0 0 1 -3 37 ]  0 0]
+[<~!WE'(s*tX[^`N[:494k1!,ulWG]3XB?iW.d!&srY2uiq<!!$s<!,qo<huF"t
+!<7QLs53nWn,NLa!!%BH!'C5])uosK!!!K/!"Ju/%KHJ=huF8F!$6(Z*-_HG
+490UI!UpX"i!9:t!WE'~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3361 3164 M <190B0C0F0B15161716160B1A0B0C0F0B151617161616>S 
+3545 2638 M <05030D08>S 
+0 0.5 0.5 1 scol 1188 VM?
+T32RsrcBegin
+
+27
+/v [24 0 1 -27 23 0 ] 
+/v [22 27 true [1 0 0 1 -1 27 ]  0 0]
+[<~huFa9!$#qX3,ejW2ukot!,t%#E#\lI*!"n<!8n=fi!oe'%fsHN"+UUYJ-1FS
+",?jYLB%@q!!1@F!U]pfrVurr!!)os!.4bHGQ7_'!!~>
+ ]
+/TTB862b00 AddT3T32Char
+
+28
+/r [17 0 3 -27 16 0 ] 
+/r [13 27 true [1 0 0 1 -3 27 ]  0 0]
+[<~j7)7,n*p;fp]0d`n,VqXhuM[8huM[8huM[8huM[8huM[8huM[8huM[8huM[8
+huM[8huE~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3507 2705 M <1B1C>S 
+594 VM?
+T32RsrcBegin
+
+29
+/m [43 0 2 -27 40 0 ] 
+/m [38 27 true [1 0 0 1 -2 27 ]  0 0]
+[<~!;lhG!9=([s+';4KE&aU"3879rW1=FnGE:S!-n8=IK2@s!.4c+n,Rh94R`>1
+!$'ns2ujrV!&sruhuG_:*8gfV!$'ns2ujrV!&sruhuG_:*8gfV!$'ns2ujrV
+!&sruhuG_:*8gfV!$'ns2ujrV!&sruhuG_:*8gfV!$'ns2ujo~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3549 2705 M <1D>S 
+1188 VM?
+T32RsrcBegin
+
+30
+/y [26 0 2 -27 23 10 ] 
+/y [21 37 true [1 0 0 1 -2 27 ]  0 0]
+[<~huG`U!'"otG]3Y%2umnW!:VrJi#DaT*!+t=!Pf0G^^^I^#6TJ]"+UU]J-1Q,
+",?jYNrT4+!!1@F!8IPSqu?`p!!%6D!-eJDGQ7__!!$s<!,qo<huEc8!!0k8
+!Pe[?J,hfa!.OtKHiO-~>
+ ]
+/TTB862b00 AddT3T32Char
+
+31
+/s [25 0 2 -27 23 0 ] 
+/s [21 27 true [1 0 0 1 -2 27 ]  0 0]
+[<~"8i-0rr=/@J3F(N2uqlU!8qer?uQ)GDu]l_!!#+]!$?^k#Oh]orVup?^]4Jp
+!!$s<!&srY2uiq<huGb+!-i_gn3-mB5QBXPs*t4N!!~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3592 2705 M <1E1F>S 
+594 VM?
+T32RsrcBegin
+
+32
+/o [29 0 3 -27 27 0 ] 
+/o [24 27 true [1 0 0 1 -3 27 ]  0 0]
+[<~!<3$$s1f0Fn/m5V4ofsm!'GK+*cM)hDu^C;!!hE^#N,RehuF#?!!hE^#N,Re
+huF#O!!dHC%WDCXGQ8dI!'EFFHlmq7&-),$s1eX7!!~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3644 2705 M <201C>S 
+594 VM?
+T32RsrcBegin
+
+33
+/e [27 0 2 -27 25 0 ] 
+/e [23 27 true [1 0 0 1 -2 27 ]  0 0]
+[<~!<)s#s*tX[^`NU8490=[!'"ot3,ej7?iV2)!"@cc%,_*os8W#ss8N&urnmbV
+huEc8!!$C,!,qo<GQ8^G!'!.BGTVM+&-(Pms1eX7!!~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3691 2705 M (!)S 
+0 0 0 1 scol 3791 2638 M <0103>S 
+3846 2638 M <1208>S 
+0 0.5 0.5 1 scol 1188 VM?
+T32RsrcBegin
+
+34
+/zero [29 0 3 -37 26 0 ] 
+/zero [23 37 true [1 0 0 1 -3 37 ]  0 0]
+[<~!<)s#s*t@S^^l(U*WY[l!-gI'3&gmtDu^ks!$#qX*,klthuF8F!"Roe%c@<s
+huF8F!"Roe%c@<shuF8F!"Roe%c@<shuF7+!$#qX*,kltDu^k;!&uq<3'71c
+*WY[?KA["7^]XUe!<)r~>
+ ]
+/TTB862b00 AddT3T32Char
+
+35
+/seven [27 0 2 -36 25 0 ] 
+/seven [23 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~s8W)us8N&uqu?^Z!!%6D!,qo<huEen!!@`O"+U@V!!!6(!"Ju/%KHJK!!!u=
+!&srY2uiqt!!$s<!,qo<huEc8!!(pW!5JR8^]4DN!!0k8"+U@RJ,f\%!!@`O
+"+U@RJ,fZO!!`K(~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3732 2705 M ("#)S 
+1188 VM?
+T32RsrcBegin
+
+36
+/slash [13 0 0 -36 12 0 ] 
+/slash [12 36 true [1 0 0 1 0 36 ]  0 0]
+[<~!,qqr!8mk8!8mn9!Pe`O!PefQ"+UK("+UW,#64u/#6587%KHt=%KHt=)uprY
+)uprY2uko<2uko<DuahWDuahWhuM[8~>
+ ]
+/TTB862b00 AddT3T32Char
+
+37
+/one [18 0 7 -36 10 0 ] 
+/one [3 36 true [1 0 0 1 -7 36 ]  0 0]
+[<~i8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPO~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3789 2705 M ($%)S 
+3821 2705 M (\032$")S 
+594 VM?
+T32RsrcBegin
+
+38
+/six [29 0 3 -37 26 0 ] 
+/six [23 37 true [1 0 0 1 -3 37 ]  0 0]
+[<~!.OtLs1em>i"*Wm%fghq!'!(@*&mp<2uiqt!!$s<!,qo<?iU2b!!(sW!9=*p
+kPsK/JaiX=Gl.P(p])</!$(J.%e'H.n,Nsf!"NrJ%WDCXDu^A-!$!ru*'=3`
+*WUEqJa`pEhuj"p!.Ot~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3893 2705 M (&)S 
+0 0 0 1 scol 28785 VM?
+/TTB863b00
+[97 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 97 div 0 0 -1 97 div 0 0 ]
+/__TTB863b00
+GreNewFont
+T32RsrcBegin
+
+1
+/S [65 0 3 -71 61 2 ] 
+/S [58 73 true [1 0 0 1 -3 71 ]  0 0]
+[<~!!!9(huE`W!!*'!rr<$!!!E9$s53kW!$D7@s7cQo!'gM`s8Duu!<<*!s8N'!
+!WW3"s8RTL"98E$s8Tk7#QOi(s8V!W&-)\0s8VQg&-)\0s8Vio+92B@s8Vio
++926=s8Vus5QBXA&-)P-5QAM!#QOc'5Q?66!WW-!J,]KK!<<#uJ,TEJ!.Y"K
+J,TEJ!.Y"KJ,TEJ!'gJ`J,TEJ!'gJ`J,TEJ!'gJ`J,TEJ!'gJ`J,]KKzJ,b$!
+z5QAM!z5QBXAz5QC]_z+92B1z+92B@J,fQL&-)\0qu?]s#QOi(s1eU7"98E$
+s7cQo!WW3"s8N'!!<<*!s8Tk7!.Y%Ks8VQg!$D7@s8Vio!!E9$s8Vus!!#7`
+s8W&u!!!-$s8W&u!!!!@s8W*!zs8W*!z&-)Z[z!WW1Mz!.Y$!z!'gM!z!$D6V
+z!$D6Vz!"]+Fz!"]+Fs82is!"]+Fs82is!"]+Fs82is!"]+FJ,TEJ!"]+FJ,TEJ
+!"]+FJ,]KK!$D5kJ,b$!!'gL65QAM!!.Y$!5QBXA!<<(L+92*9"98B$+92?@
++92?@&-)\0s8W&u&-)\0s8W&u#QOi(s8Vus"98E$s8Vio!WW3"s8VQg!<<*!
+s8V!W!.Y%Ks8Tk7!$D7@s8N'!!"],0s82is!!E9$s6p!g!!%NKs*t(L!!!-$
+n,NFg~>
+ ]
+/TTB863b00 AddT3T32Char
+T32RsrcEnd
+F /F1 0 /0 F /TTB863b00 mF 
+/F1S61 F1 [97.395 0 0 -97.395 0 0 ] mFS
+F1S61 Ji 
+4147 2691 M <01>S 
+8928 VM?
+T32RsrcBegin
+
+2
+/O [76 0 4 -71 72 2 ] 
+/O [68 73 true [1 0 0 1 -4 71 ]  0 0]
+[<~!!!!0s*t(L!!!!"s8Vioz&-)\0z!'gM`s1eU7!!*'!s8VQg!!!'"s8W,s!!!!(
+s8W-!rVuou&-)\0s8N'!!$D7@s8W+L!!#7`s8W-!^]4@as8W-!s53kWs8W-!
+s8VQg!WW2p!WW2p!!3-"^]6V!qu?j!rr<$0s82j%s82is#QOc'#QOQ!!!3-!
+!"],!!!!$!rr<T0huE`WJ,]Kjs53kW!.Y$!+90+V!!#7`J3X'a!!!!@s1gl!
+J,fQL+90,@rr<$!!"]+FJ,]KK!!!Q0i.(b,!!!!0s58D+z#QN_3rVuou!!iP^
+J,TEJ!!!9(i;`cV!!!!(s7$'dz"97ljqu?]s!!E8js82is!!!-$nGiCd!!!!$
+s7$'dz"97ljqu?]s!!E8js82is!!!-$nGiCd!!!!$s7$'dz"97ljqu?]s!!E8j
+s82is!!!-$nGiCd!!!!$s7$'dz"97ljrVuou!!iPnJ,TEJ!!!9(i.(_+!!!!(
+s58D+z#QN_3rr<$!!"]+fJ,]KK!!!Q0i'76l!!!!0s1gl!J,fQL+90,@s1eU7
+!$D6V+90+V!!#7`J04gL!!!"Ks*tX[n,NFgs8N'0s7cQo!<<'!#QO]%!!3-!
+!!iQ'!!!9(rW!'#rr<$0s82its8Tk75QCKY!WW2t!WW2p!!*'!s8W-!n,NH<
+s8W-!s53kW5QCc`s8Tk7!$D7@s8W+L!!!Q0s8W-!!!!!(s8W-!rVuou"98E$
+s7cQo!!*'!s8VQg!!!!`s8W,7z&-)\0z!!3-"p](9o!!!!@rr<$!!!~>
+ ]
+/TTB863b00 AddT3T32Char
+
+3
+/L [59 0 8 -71 56 1 ] 
+/L [48 72 true [1 0 0 1 -8 71 ]  0 0]
+[<~s82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is
+!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&s
+zs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is
+!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&s
+zs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is!!*&szs82is
+!!*&szs82is!!*&szs82is!!*&szs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!~>
+ ]
+/TTB863b00 AddT3T32Char
+
+4
+/I [27 0 6 -71 20 1 ] 
+/I [14 72 true [1 0 0 1 -6 71 ]  0 0]
+[<~s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;op
+s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;op
+s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;op
+~>
+ ]
+/TTB863b00 AddT3T32Char
+
+5
+/D [70 0 7 -71 66 1 ] 
+/D [59 72 true [1 0 0 1 -7 71 ]  0 0]
+[<~s8W-!qu?]ss8W-!s*t(Ls8W-!s53kWs8W-!s7cQos8W-!s82iss8W-!s8Duu
+s8W-!s8RTLs8W-!s8Tk7s8W-!s8Tk7s8W-!s8V!Ws8W-!s8VQgs8W-!s8Vio
+s82is5QCKYs82is&-)P-s82is"98?#s82is!WW-!s82is!<<'!s82is!<<'!
+s82is!.Y"Ks82is!.Y$!s82is!'gL6s82is!'gL6s82is!$D6Vs82is!$D6V
+s82is!"]+Fs82is!"]+Fs82is!"]+fs82is!"]+fs82is!!iP^s82is!!iP^
+s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP^
+s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP^s82is!!iP>
+s82is!"]+Fs82is!"]+Fs82is!"]+Fs82is!"]+Fs82is!$D6Vs82is!$D5k
+s82is!$D5ks82is!'gL6s82is!'gJ`s82is!.Y"Ks82is!.Y"Ks82is!<<#u
+s82is!WW-!s82is"989!s82is#QO]%s82is&-)D)s82is+92*9s82iss8VQg
+s8W-!s8V!Ws8W-!s8V!Ws8W-!s8Tk7s8W-!s8RTLs8W-!s8N'!s8W-!s8Duu
+s8W-!s82iss8W-!s7cQos8W-!s6p!gs8W-!s1eU7s8W-!rr<$!s8W-!p](9o
+~>
+ ]
+/TTB863b00 AddT3T32Char
+
+6
+/space [27 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TTB863b00 AddT3T32Char
+T32RsrcEnd
+4211 2691 M <0203040506>S 
+1785 VM?
+T32RsrcBegin
+
+7
+/E [65 0 7 -71 60 1 ] 
+/E [53 72 true [1 0 0 1 -7 71 ]  0 0]
+[<~s8W-!s8V$Ws8W-!s5<qWs8W-!i;`iWs8W,Ws8W-!s8V$Ws8W-!s5<qWs8W-!
+i;`iWs8W,Ws8W-!s8V$Ws8W-!s5<qWs8W-!i;`iWs8W,Ws82is!!!$!qu?]s
+!!*&sz!<;rszs82is!!!$!qu?]s!!*&sz!<;rszs82is!!!$!qu?]s!!*&sz
+!<;rszs82is!!!$!qu?]s!!*&sz!<;rszs82is!!!$!s8W-!rrE*!s8W-!!<<*!
+s8W*!s8W-!s8N*!s8W-!rrE*!s8W-!!<<*!s8W*!s8W-!s8N*!s8W-!rrE*!
+s8W-!!<<*!s8W*!s8W-!s8N*!qu?]s!!*&sz!<;rszs82is!!!$!qu?]s!!*&s
+z!<;rszs82is!!!$!qu?]s!!*&sz!<;rszs82is!!!$!qu?]s!!*&sz!<;rs
+zs82is!!!$!qu?]s!!*&sz!<;rszs8W-!s8Vlos8W-!s7lWos8W-!q#CBos8W,o
+s8W-!s8Vlos8W-!s7lWos8W-!q#CBos8W,os8W-!s8Vlos8W-!s7lWos8W-!
+q#CBos8W,o~>
+ ]
+/TTB863b00 AddT3T32Char
+T32RsrcEnd
+4470 2691 M <0705>S 
+1785 VM?
+T32RsrcBegin
+
+8
+/G [76 0 5 -71 70 2 ] 
+/G [65 73 true [1 0 0 1 -5 71 ]  0 0]
+[<~!!!!0s*t(L!!!!"s8Vusz&-)\0J,fQL!'gM`s53kW!!*'!s8Vio!!!'"s8W,s
+!!!!(s8W-!rVuou&-)\0s8RTL!$D7@s8W,7!!#7`s8W-!huEb,s8W-!s53kW
+s8W-!s8VQg!WW2p!WW2p!!3-"^]5JVp](Errr<$(s82j%s8Duu"989!#QOQ!
+!!3-!!"],!!!!$!rW!K/huE`WJ,]Kjs53kW!'gJ`+90+V!!#7`!'gL6!!!!@
+s+!?6J,fQL+9-jUrr<$!!"]*[5Q:]`z!.Y"Kz!!%NJz!!!"KrVuouzJ,TEJz
+!.XtJz!!*&sz!!!$!qu?]szs82isz!<;rs!!iQ(s+(.I!!!9(s8RWLqu?^%s8W+L
+s82is#QOi(JH,NI!!iQ(s+(.I!!!9(s8RWLqu?^%s8W+Ls82is#QOi(JH,NI
+!!iQ(s+(.K!!!9(s8RWLrVup's8W+LJ,TEJ#QOi(J:IOu!!!!(s+#V!z#QK=(
+rr<$!!"]*[J,b$!!!!Q0J3X'a!!!!0s+!?6^]4?7+9-jUs1eU7!$D5k+917!
+!!#7`J04g\!!!!`s*tX[n,NFgJ,b$0s7cQo!<<(L#QO]%!!3-"J-Z,S!!!-$
+s*t4Os*t([s8RTMs8V!W5QCb6!WW2t!WW3"J,oWLs8W-!s*t*!s8W-!s8RTL
+5QCc`s8DtJ!$D7@s8VopJ,g,[s8W,hs*t(Ss8W-!iW"E."98E$s2"_c!!*'!
+s8N*!J,fR6s8W&us*t(L&-)\)!<7QL!!E9$^]=Cb!!!!`qu?]s!!~>
+ ]
+/TTB863b00 AddT3T32Char
+T32RsrcEnd
+4604 2691 M <08>S 
+4679 2691 M <07>S 
+30510 VM?
+/TTB864b00
+[50 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 50 div 0 0 -1 50 div 0 0 ]
+/__TTB864b00
+GreNewFont
+T32RsrcBegin
+
+1
+/U [37 0 6 -37 41 1 ] 
+/U [35 38 true [1 0 0 1 -6 37 ]  0 0]
+[<~"2Fm=^]V@P"2G/W!!C"AJ,f\e#CldV^^#Ai#Cm&0!!e#b!!!7S%fcS7J.DV[
+%tG/j!"T&?!!!N0*WQ0N!$2+?%fdXN!$2+]!!"&?4obR(!'C5]*WS;&!$2,&
+!!#+]49,@D!-eJD490U+!'C7+!!%BHGQ7_g!-eJDGQ@45!-eM5!!%6Dn,NIX
+!:Tshn,W4`"5j1W!!hE^IK1J*!.TNKJ,hh6rr<$@s82is#QO8n!!*%L!!!~>
+ ]
+/TTB864b00 AddT3T32Char
+
+2
+/G [39 0 5 -37 41 1 ] 
+/G [36 38 true [1 0 0 1 -5 37 ]  0 0]
+[<~!!#7Q!!!'"rVup's8N'!+92@k!'e7`^]=?6&)[K`!!D-]n,NLY"5j.[n-?`/
+!:UML!!)L!!!!#g*WQ0?!$2+?!!#+]!!!!]zGQ7^D!-eJD!!%6D+918<!$D7!
+n,OR1_!h=gs1n+(!!C%+!!!8>n,NFnJFEO=#Cu:D!"XVT!!!O[p](:9J:%=s
+56-'2!.Ou4!!3*"5C`k9!$C,@hZ+2es.02qs8F&>"98-;!!%Ma%KH~>
+ ]
+/TTB864b00 AddT3T32Char
+
+3
+/S [34 0 4 -37 36 1 ] 
+/S [32 38 true [1 0 0 1 -4 37 ]  0 0]
+[<~!!3+M!!iPn!$D79!.Y%H!<3&u!VcXZ!Up(2"2FmI"2FmI#Cldb#Cldb#CldS
+#CldS#J^<>"7Q9j"9/?$!WVWh!.Y"K!!iP>!!*&W!!!Q!!!!,j!!!&p!!!#o
+!!!#on,NI`n,NI`n,NI`n,NLYn,NLYp](ESp](QWIK1J*It3$!5QC``+926=
+&-),!!WRZM~>
+ ]
+/TTB864b00 AddT3T32Char
+
+4
+/space [14 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TTB864b00 AddT3T32Char
+
+5
+/minus [17 0 5 -16 18 -12 ] 
+/minus [13 4 true [1 0 0 1 -5 16 ]  0 0]
+[<~J,"Ngs7$'X~>
+ ]
+/TTB864b00 AddT3T32Char
+
+6
+/T [31 0 8 -37 38 1 ] 
+/T [30 38 true [1 0 0 1 -8 37 ]  0 0]
+[<~J,fQHJ,fQHs8W,os8W,o!"T&0!"T&0!"T&0!"T&0!$2+?!$2+?!$2+?!$2+?
+!'UA_!'C5]!'C5]!'C5]!'C5]!.4bH!-eJD!-eJD!-eJD!-eJD!;HNo!:Tsg
+!:Tsg!:Tsg!:Tsg!T3qX!T3qX!T3qX!T3qX!T3qX"2Fm:"2Fm:"2Fm:"2Fm:
+"2Fm:#CldS~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+F /F2 0 /0 F /TTB864b00 mF 
+/F2S32 F2 [50.52 0 0 -50.52 0 0 ] mFS
+F2S32 Ji 
+4153 2752 M <01020304050406>S 
+1170 VM?
+T32RsrcBegin
+
+7
+/h [28 0 3 -37 29 1 ] 
+/h [26 38 true [1 0 0 1 -3 37 ]  0 0]
+[<~!:Tsg!:Tsg!T3qX!T3qX!T3qX!T3qX!T3qX"2Fm:"2Fm:"2Fm:"2Xm8"3:EA
+#G;$H#J^;S#Q,+J#Ohu6&&8:_%tFn8%fcib%fcib%fcib*rlOr*WQ]N*WQ]N
+*WQ]N*WQ]N49-H'49-E&49-E&49-E&49-E&GQ9o-GQ9i+GQ9i+GQ9i+GQ9i+
+n,Rh9n,R\5~>
+ ]
+/TTB864b00 AddT3T32Char
+
+8
+/e [28 0 4 -27 29 1 ] 
+/e [25 28 true [1 0 0 1 -4 27 ]  0 0]
+[<~!"[uf!'g5Y!<<#u!WW-!"7SMT#J^iM%tG1@*rlOr*WQFq4obh<49,V:HiOD%
+J,fP!J,fP!s8W*!s8W*!n,NFgn,NFgn,NFgn,PWPn,Rh9p]13lHia!BIL#?B
+J,eF,5QAM!&,uV0"8i-!~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+4338 2752 M <070804>S 
+1170 VM?
+T32RsrcBegin
+
+9
+/P [34 0 4 -37 37 1 ] 
+/P [33 38 true [1 0 0 1 -4 37 ]  0 0]
+[<~!<<)g!!*'!qu?cts8E!!s8W*!!T3rB!!2!X%tF]=!"XS^^]4Ui"2FmAJ-3Re
+#Clol!!e#V^]4lF#Cldb!!e#S*rlOr!$2+FJ,jrs%tFZX!"],0p](j)s53kf
+s8Tk7&-)Y0!$;1@!!"&?!!!!?z*WQ0?!$2+?!!#+]!!!!]z49,?]!'C5]!!#+]
+!!!"DzGQ7^D!-eJD!!%6D!!!"Dzn,NFg!:Tsg!!!~>
+ ]
+/TTB864b00 AddT3T32Char
+
+10
+/L [28 0 4 -37 28 1 ] 
+/L [24 38 true [1 0 0 1 -4 37 ]  0 0]
+[<~!:Tsgn,NLI!!2!X!T3qYhuEf9!!C":"2Fm=^]4JP!!C":#CldZJ,fh)!!e#S
+%tFWj!!!N0!"T&0%fcSO!!"&?!$2+?*WQ0]!!#+]!'C5]49,@D!!#+]!-eJD
+GQ7_g!!%NKs*t(Ks8W)us8D~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+4407 2752 M <090A>S 
+1170 VM?
+T32RsrcBegin
+
+11
+/M [42 0 4 -37 47 1 ] 
+/M [43 38 true [1 0 0 1 -4 37 ]  0 0]
+[<~!<)ru+5d.u!!",!!WE'!5JR=!!!#7!!WE'!J%u*a!!%A]!WE'!s1e`n!!)bD
+"4$rJpOE@l!!285"4$rLkC<Z\!!COI#EJiicN"32!"Y+j#EJiq%fciq!$;^O
+&!$]3*WQ]UJ3G"S%gRVI*WQ]UJ:&C<%gRW0*WR8eJG;5,*X@5b49-E-Jabc%
+*X@8S49-E)_r*WW49NL:GQ9i.a1up"49No[GQ9i.cN&1i49OI@p],O@h>m$F
+GQ[pFn,R\6quH3dGQI^Bn,R\6p]9jan,`:bhuN6In,_GI~>
+ ]
+/TTB864b00 AddT3T32Char
+
+12
+/C [37 0 5 -37 39 1 ] 
+/C [34 38 true [1 0 0 1 -5 37 ]  0 0]
+[<~!!%M!!!!-$n,NG!s7cQo5QCW]!.P%K!!)osIfKN=!'^GchuFjL#J^<MJ-UT)
+%tG/j!"XT%z*WQ0?!'C5]!!#+]!!!!]zGQ7^D!-eJD!!%6D!!!"<zn,NFg!:Tsg
+!!)Kg!!!#g!!")@n,NGP!:Tsg4ok'P!.4e9!!)osp](<h!-eJEn,Rh9"7Q;>
+!!hE^56)e@!$B"+J,g,[rr<$(s82is"97ij!!%M!!!!~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+4468 2752 M <0B040C>S 
+1755 VM?
+T32RsrcBegin
+
+13
+/o [28 0 4 -27 29 1 ] 
+/o [25 28 true [1 0 0 1 -4 27 ]  0 0]
+[<~!$C,!!.XbD!WW-!"98?##Om3C&&97e*rlh%*WQ_$4obh<49,V:GQ7u!GQ7u!
+GQ7u!Du^,nn,Nt!n,Nt!n,Nt!n,OL0n,OL0n,PWPp],[Ap]1'hHia!BIL#?B
+J,eF,5QAM!+9)<@"8Dir~>
+ ]
+/TTB864b00 AddT3T32Char
+
+14
+/m [42 0 3 -27 43 1 ] 
+/m [40 28 true [1 0 0 1 -3 27 ]  0 0]
+[<~"2jm=p]llZ+8cAYs*t"Qs8W-!#P^OQIg=mR^`O*&%tG`4J.DW%%fd+?*Y/5m
+!$2XN*WR6&!$2+]*WR5]4rs\F!'D;&4od\d!'C6D49.JD4?NU+!-gU+490Ug
+!.4ck490U+G^'45!-i_gGQ@5X!-eM5GQ@45n9=s&!:]IXn,VtI!:U$I~>
+ ]
+/TTB864b00 AddT3T32Char
+
+15
+/p [28 0 0 -27 30 11 ] 
+/p [30 38 true [1 0 0 1 0 27 ]  0 0]
+[<~!9!kW!9=*p!:TsG!T3qH!WR`G!WE)o!VcYB!VcXW"7Q:Q"5j/A"5j/A"2Fn!
+#J^=%#J^=%#Cle6#Clf!#Clf!%tFY!%tFZL%tF]M&&85(&&8:_+5d[F+7MLF
++92?@*rl-<5(E>-4<M?=49,?]49,?]49,?]GQ7^DGQ7^DGQ7^DGQ7^DGQ7^D
+n,NFgn,NFg~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+4560 2752 M <0D0E0F>S 
+1755 VM?
+T32RsrcBegin
+
+16
+/a [28 0 3 -27 29 1 ] 
+/a [26 28 true [1 0 0 1 -3 27 ]  0 0]
+[<~!"\i)!.XtJ!<<(L"98CO"7SOj#J^kc#Cm&0%fcib!!!O[!!!O[!!!N0!!")@
+!$D4@"98B$&-(Me+5e1?4ocW(HiP2fGQ8cbn,PWPn,Rh9n,W@dp]:9mr"&]*
+s8W*!J,Xot5PRGC&)\N0~>
+ ]
+/TTB864b00 AddT3T32Char
+
+17
+/n [28 0 3 -27 29 1 ] 
+/n [26 28 true [1 0 0 1 -3 27 ]  0 0]
+[<~"2k$:#ESlb#J^:h#QOh>#Q,+J#Ohu6&)[Q*&&8F#%tFn8%fcib%fcib*WQFq
+*WQ]N*WQ]N*WQ]N*WQ]N49,ll49-E&49-E&49-E&49-E&GQ8cbGQ9i+GQ9i+
+GQ9i+GQ9i+n,Rh9n,R\5~>
+ ]
+/TTB864b00 AddT3T32Char
+
+18
+/y [25 0 0 -27 30 11 ] 
+/y [30 38 true [1 0 0 1 0 27 ]  0 0]
+[<~"2Fn]"2Fp3!T3tI!T4"J!T4(<!T4(<!T43u!T435!T4K=!T4Ig!T5%"!:W/P
+!:W)N!:Y@9!:Y45!:]a`!:]IX!:fOY!;#+K!;!u+!.Vca!.TM!!.TM!!.OtK
+!.OtK!.FnJ!.4bH!.4bH!-eJD!;HNo!Up'h!T3qX"5j.Z#J^<>It.M!s*t(L
+rVuoup](9o~>
+ ]
+/TTB864b00 AddT3T32Char
+T32RsrcEnd
+4657 2752 M <101112>S 
+28764 VM?
+/TTB865b00
+[48 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 48 div 0 0 -1 48 div 0 0 ]
+/__TTB865b00
+GreNewFont
+T32RsrcBegin
+
+1
+/T [23 0 1 -30 21 0 ] 
+/T [20 30 true [1 0 0 1 -1 30 ]  0 0]
+[<~s8VTgs6p$(!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7
+!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4~>
+ ]
+/TTB865b00 AddT3T32Char
+
+2
+/I [8 0 3 -30 5 0 ] 
+/I [2 30 true [1 0 0 1 -3 30 ]  0 0]
+[<~^qdb$^qdb$^qdb$^qdb$^qdb$^qdb$^qdb$^q]~>
+ ]
+/TTB865b00 AddT3T32Char
+
+3
+/L [22 0 2 -30 21 0 ] 
+/L [19 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7
+^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7s8V$Ws53~>
+ ]
+/TTB865b00 AddT3T32Char
+
+4
+/E [22 0 2 -30 20 0 ] 
+/E [18 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~s8RWLs+%lb!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!*&o!<;fo
+^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7s8Tn7s1e~>
+ ]
+/TTB865b00 AddT3T32Char
+T32RsrcEnd
+F /F3 0 /0 F /TTB865b00 mF 
+/F3S30 F3 [48.957 0 0 -48.957 0 0 ] mFS
+F3S30 Ji 
+3991 2812 M <0102010304>S 
+882 VM?
+T32RsrcBegin
+
+5
+/S [23 0 2 -30 21 0 ] 
+/S [19 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~"8Dj<rW#%kJ8bV+?iY_m!!'e7!5JR7^]4Am!!(pW!-eJD49,@'J,g,L!!3'!
+!'^G`#CldT^]4Am!!$C,!+5d,?iU17?iXTm!5Ng[J3F3g&,lP2p](~>
+ ]
+/TTB865b00 AddT3T32Char
+
+6
+/Z [19 0 1 -30 17 0 ] 
+/Z [16 30 true [1 0 0 1 -1 30 ]  0 0]
+[<~J,b#u!!`K.!"Ju;!#ttU!&ss4!,qpG!8mjm!Pe_d"+UIR#64r.%KHn;)upfU
+0E<d,?iXR7s8W-!~>
+ ]
+/TTB865b00 AddT3T32Char
+T32RsrcEnd
+3997 2964 M <05020604>S 
+27585 VM?
+/TTB866b00
+[57 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 57 div 0 0 -1 57 div 0 0 ]
+/__TTB866b00
+GreNewFont
+T32RsrcBegin
+
+1
+/B [26 0 2 -35 25 1 ] 
+/B [23 36 true [1 0 0 1 -2 35 ]  0 0]
+[<~s8E#us+(.Li8=XohuN9)!-$ir38acrhuGap!'&m:38ad]huI`S!:^$gi;`hm
+s8Tmm!V#"IGi/Q]huFbT!$'ns%c@<shuF8F!"Roe%c@<shuFhV!$'ns4Q$3a
+huN9Hs5<qW_#OFb~>
+ ]
+/TTB866b00 AddT3T32Char
+T32RsrcEnd
+F /F4 0 /0 F /TTB866b00 mF 
+/F4S39 F4 [57.031 0 0 -57.031 0 0 ] mFS
+F4S39 Ji 
+4020 3013 M <01>S 
+2646 VM?
+T32RsrcBegin
+
+7
+/D [24 0 2 -30 21 0 ] 
+/D [19 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~s53nWp]/)l!5K'E^]skT"+\/fJA;3$^];0c!5QAMi4o>#^]7cX!+<SB@))bM
+^]7cX!+<SB@))bM^];0c!5QAN^q]u$^]T,&#6;OL!5L\ss7cTohuE~>
+ ]
+/TTB865b00 AddT3T32Char
+
+8
+/W [26 0 1 -30 25 0 ] 
+/W [24 30 true [1 0 0 1 -1 30 ]  0 0]
+[<~^^pU`&-h&0#%0Cp?oS?u3!NbQ$t+Gk0Ph.OC^`"0$o$f`0ZFqH`Y]Q1(`:.-
+)1rbDK<Q5EYRQ/f%frmF!:UL!i"#hG"p!Qc!+6!2?j6Tr"9:[e!!!~>
+ ]
+/TTB865b00 AddT3T32Char
+
+9
+/G [23 0 2 -30 21 0 ] 
+/G [19 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~!VcX"rW!E=!#u)k3!$fK!5NORi*ZOM?iU17!!'e7!5JR7^]4AM!!'e7!5JR7
+^]4AM&)b56i4o>#?iXSB!+917?uQ*R0EAmJ!PfZWJ.<*?#Q=](p](~>
+ ]
+/TTB865b00 AddT3T32Char
+
+10
+/space [12 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TTB865b00 AddT3T32Char
+
+11
+/N [24 0 2 -30 21 0 ] 
+/N [19 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~^]7d#!+=^b@.4/(p]+^S!+=R^@*AUY`W0De!+<\E@)7A$_15q/^gOt9@)-/X
+^bB033+0N=@)*ai^^OVd#%54O@))kP^]EB/!T:`ni4o?N^]7cX!$D~>
+ ]
+/TTB865b00 AddT3T32Char
+
+12
+/O [25 0 2 -30 23 0 ] 
+/O [21 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~!W2p&rr<Q7J/eU*(]_?*!+7J\?sisg?iVlg!&21g(r-+g^]54e!#WKO(r-+g
+^]54e!#WKO(r-+g?iVlg!&.d\0JEKG0E>Jt!5KQT^^g[##QFc)qu?~>
+ ]
+/TTB865b00 AddT3T32Char
+T32RsrcEnd
+F3S30 Ji 
+4104 2964 M <0708090A0B0C>S 
+441 VM?
+T32RsrcBegin
+
+13
+/R [24 0 2 -30 22 0 ] 
+/R [20 30 true [1 0 0 1 -2 30 ]  0 0]
+[<~s8E#us+%le^q]ud^]<<.!+<SB@))bM^]7cX!+<SB@))b-^];0c!J%rfJH,TK
+s82l4$in'Q!5Jd=^]skT!s$+=JA;29^]D6d!5QAMi4o>#^]8>h!&+~>
+ ]
+/TTB865b00 AddT3T32Char
+T32RsrcEnd
+4823 2964 M <0D04>S 
+441 VM?
+T32RsrcBegin
+
+14
+/V [23 0 1 -30 22 0 ] 
+/V [21 30 true [1 0 0 1 -1 30 ]  0 0]
+[<~^]53Z!#T)D0OOl70E<d\!+7J\?l/lO(]_>k!5K!C^^L6o"p'5Y"+URX!!<<'
+!s\f."on[Y!!/#Y!R(NDbQ%Xq!!)co!-eJDDu]kl!!"\Q!$D7A!!!~>
+ ]
+/TTB865b00 AddT3T32Char
+T32RsrcEnd
+4869 2964 M <0E>S 
+0 0.5 0.5 1 scol F0S3A Ji 
+3994 3092 M <14130F080B05030D08>S 
+2970 VM?
+T32RsrcBegin
+
+39
+/colon [6 0 2 -19 5 -2 ] 
+/colon [3 17 true [1 0 0 1 -2 19 ]  0 0]
+[<~i8EMnzz!!(s8hu~>
+ ]
+/TTB862b00 AddT3T32Char
+
+40
+/d [27 0 2 -36 24 0 ] 
+/d [22 36 true [1 0 0 1 -2 36 ]  0 0]
+[<~!!!u=!#tt=)uosY!!!u=!#tt=)uosY!!!u>r#>tA*"W(>*s::\!;neVHuK(5
+Du`#i!'K0>*8gf:huFbT!$'ns*8gf:huFbT!$'ns4E(9_Du`"F!.6a+r&b#X
+*s;EOs4dkZ*!,sW~>
+ ]
+/TTB862b00 AddT3T32Char
+
+41
+/i [12 0 4 -36 7 0 ] 
+/i [3 36 true [1 0 0 1 -4 36 ]  0 0]
+[<~i8EMnz!8ueni8EPOi8EPOi8EPOi8EPOi8EPOi8EPO~>
+ ]
+/TTB862b00 AddT3T32Char
+
+42
+/f [17 0 1 -36 15 0 ] 
+/f [14 36 true [1 0 0 1 -1 36 ]  0 0]
+[<~!;lrs#Q,*_%fd(>%KHt=%KHt=%KQOus7$'X%KHt=%KHt=%KHt=%KHt=%KHt=
+%KHt=%KHt=%KHt=%KHt=%KHt=%KHt=~>
+ ]
+/TTB862b00 AddT3T32Char
+
+43
+/t [15 0 2 -34 13 0 ] 
+/t [11 34 true [1 0 0 1 -2 34 ]  0 0]
+[<~)uprY)uprY)uprY*!$#ss5<q8)uprY)uprY)uprY)uprY)uprY)uprY)uprY
+)uprY)uprY)uprY*WR;?&)[]N~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+4210 3092 M <270B28291D1F17282A2B>S 
+0 0 0 1 scol 3994 3167 M <1006030F0827>S 
+4257 3167 M <0408130A071227>S 
+0 0.5 0.5 1 scol 4557 3167 M <10070808120B250B11140B>S 
+4811 3167 M (%)S 
+0 0 0 1 scol N 3414 114 M 3414 339 I K 
+4 Lw N 3528 189 M 3528 339 I K 
+N 4350 189 M 4350 339 I K 
+N 4614 189 M 4614 339 I K 
+8 Lw N 3414 189 M 4914 189 I K 
+4 Lw N 3414 264 M 4914 264 I K 
+594 VM?
+T32RsrcBegin
+
+44
+/V [27 0 0 -36 26 0 ] 
+/V [26 36 true [1 0 0 1 0 36 ]  0 0]
+[<~huEk0Du]ujDu]ujDu^+C2uj0`2uj0`49,ik)upHK)uq#[*WR/[%KIIK%KJTk
+#66^`#66^`#68uK"+Y=j"+Y=j"2OC+!PmUn!PmUn!TCfo!9(]n!9(]n!-<Yj
+!-<Yj!-<Yj!'^G`!'^G`!'^G`!$2+?!$2+?!$2+?!"8i-!"8i-!"8i-z~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+3974 170 M <02082C13101311050B0713>S 
+594 VM?
+T32RsrcBegin
+
+45
+/Y [26 0 0 -36 25 0 ] 
+/Y [25 36 true [1 0 0 1 0 36 ]  0 0]
+[<~huF"4n,N[nGQ83R2uk!"49-?$)ur)$%KL_R%fgPK#6=5n#Ct_4"2Wmq!Q2\Q
+!TS\1!9\k4!-\DC!.OtK!'UA_!'C5]!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=
+!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=
+~>
+ ]
+/TTB862b00 AddT3T32Char
+T32RsrcEnd
+4214 170 M <101211022D>S 
+3430 245 M <02082C>S 
+3803 245 M <0108100602130C>S 
+3979 245 M <12131105>S 
+4428 245 M <0103>S 
+4482 245 M <1208>S 
+4654 245 M <030C0C02112C0801>S 
+7 Lw N 795 2345 M 2295 2345 I K 
+N 2295 2345 M 2295 1744 I K 
+N 2295 1745 M 794 1745 I K 
+N 795 1745 M 795 2345 I K 
+N 3509 1283 M 3507 1325 I 3501 1367 I 3491 1408 I 3478 1448 I 3460 1486 I 3439 1523 I 3415 1558 I 3388 1590 I 3358 1619 I 3325 1646 I 3290 1669 I 3253 1689 I 3214 1705 I 3174 1718 I 3132 1727 I 3090 1732 I 3048 1733 I 3006 1730 I 2965 1723 I 2924 1712 I 2884 1698 I 2846 1680 I 2810 1658 I 2776 1633 I 2744 1605 I 2716 1574 I 2690 1541 I 2667 1505 I 2648 1467 I 2633 1428 I 2621 1388 I 2613 1346 I 2609 1304 I 2609 1262 I 2613 1220 I 2621 1178 I 2633 1138 I 2648 1099 I 2667 1061 I 2690 1025 I 2716 992 I 2744 961 I 2776 933 I 2810 908 I 2846 886 I 2884 868 I 2924 854 I 2965 843 I 3006 836 I 3048 833 I 3090 834 I 3132 839 I 3174 848 I 3214 861 I 3253 877 I 3290 897 I 3325 920 I 3358 947 I 3388 976 I 3415 1008 I 3439 1043 I 3460 1080 I 3478 1118 I 3491 1158 I 3501 1199 I 3507 1241 I 3509 1283 I K 
+4 Lw N 832 2659 M 795 2653 I 832 2646 I 832 2659 I K 
+N 832 2659 M 795 2653 I 832 2646 I 832 2659 I C 
+ O N 2257 2659 M 2295 2653 I 2257 2646 I 2257 2659 I K 
+N 2257 2659 M 2295 2653 I 2257 2646 I 2257 2659 I C 
+ O N 795 2364 M 795 2671 I K 
+N 2295 2364 M 2295 2671 I K 
+N 795 2653 M 1467 2653 I K 
+N 1622 2653 M 2295 2653 I K 
+29100 VM?
+/TTB867b00
+[61 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 61 div 0 0 -1 61 div 0 0 ]
+/__TTB867b00
+GreNewFont
+T32RsrcBegin
+
+1
+/five [31 0 3 -38 27 0 ] 
+/five [24 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~&-)P<s83E-r!i],%KHJK!!!u=!#tt=)uosY!!!u=!&srY2uiq<rr>.\i'782
+It7<C!.9"k)uos[!!!K/!"T&0#64`/!!!6(!!`K(#64`/!!!Pf!"SJu%WDCh
+GQ9ig!-fRdp^dD_#QMR?rr<~>
+ ]
+/TTB867b00 AddT3T32Char
+
+2
+/period [7 0 1 -4 5 0 ] 
+/period [4 4 true [1 0 0 1 -1 4 ]  0 0]
+[<~nF5r:~>
+ ]
+/TTB867b00 AddT3T32Char
+
+3
+/zero [31 0 3 -39 27 0 ] 
+/zero [24 39 true [1 0 0 1 -3 39 ]  0 0]
+[<~!<3$$s1em>i"(D.*WUF)!'!(@4?*<\GQ8e(!"NrJ%WDCXn,O!W!!hE^#N,Re
+huF#?!!hE^#N,RehuF#?!!hE^#N,RehuF#?!!hun%WDCXDu^Ae!"O5R*]O->
+49.J`!&u#"GRoAp#QN]as1eX6!!~>
+ ]
+/TTB867b00 AddT3T32Char
+T32RsrcEnd
+F /F5 0 /0 F /TTB867b00 mF 
+/F5S3D F5 [61.719 0 0 -61.719 0 0 ] mFS
+F5S3D Ji 
+1480 2671 M <010203>S 
+1548 2671 M <0303>S 
+N 481 1783 M 487 1745 I 493 1783 I 481 1783 I K 
+N 481 1783 M 487 1745 I 493 1783 I 481 1783 I C 
+ O N 481 2308 M 487 2345 I 493 2308 I 481 2308 I K 
+N 481 2308 M 487 2345 I 493 2308 I 481 2308 I C 
+ O N 776 1745 M 467 1745 I K 
+N 776 2345 M 467 2345 I K 
+N 487 1745 M 487 2013 I K 
+N 487 2077 M 487 2345 I K 
+699 VM?
+T32RsrcBegin
+
+4
+/two [31 0 3 -38 27 0 ] 
+/two [24 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~!<7QOs54Ffn/m2Y*WS;b!$4*"%WDCYDu^,^!!`K(#64`/!!!6(!"Ju/%KHJK
+!!!u=!&srYDu]mr!!0k8"+U@^!!"&?!'C5]GQ7a5!!0k8"+U@V!!!K/!#tt=
+49,@@!!$s<!.Y%Ks8W-!s8N~>
+ ]
+/TTB867b00 AddT3T32Char
+T32RsrcEnd
+423 2064 M <040203>S 
+491 2064 M <0303>S 
+N 2707 1003 M 2487 827 I K 
+N 2681 975 M 2707 1003 I 2673 984 I 2681 975 I K 
+N 2681 975 M 2707 1003 I 2673 984 I 2681 975 I C 
+ O N 2488 828 M 2430 828 I K 
+29073 VM?
+/TTB868b00
+[57 0 0 0 0 0 ] 
+ 256 array 0 1 255 {1 index exch /.notdef put} for 
+[0 0 0 0 ] 
+[1 57 div 0 0 -1 57 div 0 0 ]
+/__TTB868b00
+GreNewFont
+T32RsrcBegin
+
+1
+/O [42 0 2 -44 39 7 ] 
+/O [37 51 true [1 0 0 1 -2 44 ]  0 0]
+[<~!!!!"^]4?7!Pe[8!!@`O!!!7S!!!!(z%fcS0!"Ju/&,mOK!'gM]!!*'!p](Eq
+!;lg%n,Rn;&&82F!"XS[kC=WS!TUs:!!0pO49,K!i&C]=JDbYP#68^^!"T'K
+Du^@J0^o&`!'&m:)uqtV!'C6@huG_:38ad]!'&m:Du_lU!8mi:huVa938ahQ
+!''HM^]6'-"+UA*E!LmnE&\(&!,sn.!!(ps%KHOf*ZP.\^^iO-"+UWd!"XS^
+p])B9!Up)<!!)p!qu?`ss6p!hn,L0'!Q"a8!!@`O!!!7S!!!!(z%fcS0!"Ju/
+!!!K/!!!!~>
+ ]
+/TTB868b00 AddT3T32Char
+T32RsrcEnd
+F /F6 0 /0 F /TTB868b00 mF 
+/F6S39 F6 [57.813 0 0 -57.813 0 0 ] mFS
+F6S39 Ji 
+2224 847 M <01>S 
+699 VM?
+T32RsrcBegin
+
+5
+/three [31 0 3 -38 27 0 ] 
+/three [24 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~!<)s's1f0Fi#`!h490Uc!'"ot4E(9?!!!u=!#tt=)uosY!!"tY!&srYp](Ec
+!<:sWs53nWn,NI`!!#+]!$2+?%KHJ>!!!6(!!`K(#64`/!!!8^!!dHC%WDCh
+GQ8dI!'D>'p^dDo#QMR>rr<~>
+ ]
+/TTB867b00 AddT3T32Char
+T32RsrcEnd
+F5S3D Ji 
+2289 847 M <050203>S 
+2357 847 M <0303>S 
+0 0.5 0.5 1 scol 1400 VM?
+T32RsrcBegin
+
+6
+/P [28 0 3 -38 27 0 ] 
+/P [24 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~s8Tn7s7$'gptu."huFhV!"Roe%c@<lhuF#?!!hE^#N,RehuF#?!!hE^%c@<s
+huFhV!.=hHq#CB`s8Tmm!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEc8!!(pW!8mhWhuEc8!!!~>
+ ]
+/TTB867b00 AddT3T32Char
+
+7
+/D [30 0 3 -38 28 0 ] 
+/D [25 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~s82iss8RTLs8Tk7i!80?huW<IhuJ!%huGk>huGk>huFeuhuF5ehuF8fhuEu^
+huEu^huEu^huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0huEk0
+huEu^huEu^huEu^huF8fhuF5ehuFeuhuF_shuGk>huJ!%huN6Hi!80?s8Tk7
+s8RTLs82is~>
+ ]
+/TTB867b00 AddT3T32Char
+T32RsrcEnd
+1199 771 M <0607>S 
+4200 VM?
+T32RsrcBegin
+
+8
+/F [27 0 3 -38 25 0 ] 
+/F [22 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~s8W#ss8;osr87PThuEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEcWs+(.LJH,Y"huEc8!!(pW!8mhWhuEc8!!(pW!8mhWhuEc8!!(pW!8mhW
+huEc8!!(pW!8mhWhuEc8!!!~>
+ ]
+/TTB867b00 AddT3T32Char
+
+9
+/space [15 0 0 0 1 1 ] 
+/space [1 1 true [1 0 0 1 0 0 ]  0 0]
+[<~!!~>
+ ]
+/TTB867b00 AddT3T32Char
+
+10
+/R [30 0 3 -38 29 0 ] 
+/R [26 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~s8V!Ws8Vios8VushuJ-)huFeuhuF5ehuF8fhuEu^huEu^huEu^huEu^huEu^
+huEu^huEu^huF5ehuF5ehuF_shuJ-)s8Vios8VQgs8Tk7hueK0huUUnhuUUn
+huM[8huM[8huI]rhuI]rhuG_:huGk>huF_shuFeuhuF5ehuF8fhuEu^huF"4
+huEk0huEkp~>
+ ]
+/TTB867b00 AddT3T32Char
+
+11
+/I [10 0 3 -38 6 0 ] 
+/I [3 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~i8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8EPOi8=~>
+ ]
+/TTB867b00 AddT3T32Char
+
+12
+/N [30 0 3 -38 27 0 ] 
+/N [24 38 true [1 0 0 1 -3 38 ]  0 0]
+[<~huF#?!!hun#Oh]up](Qs!!iE%#Q=].mJmL\!!h\;#NL=>j1koY^^&iV#N5(V
+i,AqZGR*.d#N.]Li#W-]%L:o&#N,gli!5%q"39=#a5@!]huMru!;GCOJ)C;k
+huH""!$C,!+5d,0huF#?!!`~>
+ ]
+/TTB867b00 AddT3T32Char
+
+13
+/T [29 0 2 -38 27 0 ] 
+/T [25 38 true [1 0 0 1 -2 38 ]  0 0]
+[<~s8W+Ls8W+Ls8W+L!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=
+!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=
+!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=!#tt=
+!#tt=!#tt=~>
+ ]
+/TTB867b00 AddT3T32Char
+T32RsrcEnd
+1257 771 M <0809060A0B0C0D>S 
+: 0 0 504 443 rc N 503 118 M 501 155 I 495 190 I 485 225 I 471 259 I 454 290 I 433 320 I 408 347 I 381 371 I 352 392 I 320 410 I 287 424 I 252 434 I 216 440 I 180 442 I 144 440 I 108 434 I 73 424 I 39 410 I 8 392 I -22 371 I -49 347 I -73 320 I -94 290 I -112 259 I -126 225 I -136 190 I -142 155 I -144 118 I -142 82 I -136 46 I -126 12 I -112 -22 I -94 -54 I -73 -83 I -49 -110 I -22 -135 I 8 -156 I 39 -173 I 73 -187 I 108 -197 I 144 -203 I 180 -205 I 216 -203 I 252 -197 I 287 -187 I 320 -173 I 352 -156 I 381 -135 I 408 -110 I 433 -83 I 454 -54 I 471 -22 I 485 12 I 495 46 I 501 82 I 503 118 I C 
+0 0 0 1 scol  O ; 0 0 0 1 scol 7 Lw N 503 118 M 501 155 I K 
+N 501 155 M 495 190 I K 
+N 495 190 M 485 225 I K 
+N 485 225 M 470 259 I K 
+N 471 259 M 453 290 I K 
+N 454 290 M 432 320 I K 
+N 433 320 M 407 347 I K 
+N 408 347 M 380 371 I K 
+N 381 371 M 351 392 I K 
+N 352 392 M 319 410 I K 
+N 320 410 M 286 424 I K 
+N 287 424 M 251 434 I K 
+N 252 434 M 215 440 I K 
+N 216 440 M 179 442 I K 
+N 180 442 M 143 440 I K 
+N 144 440 M 107 434 I K 
+N 108 434 M 72 424 I K 
+N 73 424 M 38 409 I K 
+N 39 410 M 7 391 I K 
+: 0 381 14 17 rc N 8 392 M -1 386 I K 
+; : 475 0 16 18 rc N 480 0 M 485 12 I K 
+; N 485 12 M 495 46 I K 
+N 495 46 M 501 82 I K 
+N 501 82 M 503 118 I K 
+: 4588 2849 512 451 rc N 5238 3174 M 5236 3210 I 5231 3246 I 5221 3280 I 5207 3313 I 5190 3345 I 5170 3374 I 5146 3401 I 5120 3426 I 5091 3447 I 5060 3465 I 5027 3479 I 4993 3490 I 4958 3497 I 4922 3500 I 4886 3499 I 4851 3494 I 4816 3485 I 4782 3472 I 4750 3456 I 4720 3437 I 4693 3414 I 4668 3388 I 4646 3360 I 4627 3329 I 4611 3297 I 4600 3263 I 4592 3228 I 4588 3192 I 4588 3156 I 4592 3121 I 4600 3086 I 4611 3052 I 4627 3020 I 4646 2989 I 4668 2961 I 4693 2935 I 4720 2912 I 4750 2893 I 4782 2876 I 4816 2864 I 4851 2855 I 4886 2850 I 4922 2849 I 4958 2852 I 4993 2859 I 5027 2870 I 5060 2884 I 5091 2902 I 5120 2923 I 5146 2947 I 5170 2975 I 5190 3004 I 5207 3036 I 5221 3069 I 5231 3103 I 5236 3139 I 5238 3174 I C 
+ O ; : 4605 3291 14 9 rc N 4613 3300 M 4610 3296 I K 
+; : 4594 3257 23 43 rc N 4611 3297 M 4599 3262 I K 
+; N 4600 3263 M 4592 3227 I K 
+N 4592 3228 M 4588 3191 I K 
+N 4588 3192 M 4588 3155 I K 
+N 4588 3156 M 4592 3120 I K 
+N 4592 3121 M 4600 3085 I K 
+N 4600 3086 M 4611 3051 I K 
+N 4611 3052 M 4627 3019 I K 
+N 4627 3020 M 4646 2988 I K 
+N 4646 2989 M 4668 2960 I K 
+N 4668 2961 M 4693 2934 I K 
+N 4693 2935 M 4720 2911 I K 
+N 4720 2912 M 4750 2892 I K 
+N 4750 2893 M 4782 2875 I K 
+N 4782 2876 M 4816 2863 I K 
+N 4816 2864 M 4851 2855 I K 
+N 4851 2855 M 4886 2850 I K 
+N 4886 2850 M 4922 2849 I K 
+N 4922 2849 M 4958 2852 I K 
+N 4958 2852 M 4993 2859 I K 
+N 4993 2859 M 5027 2870 I K 
+N 5027 2870 M 5060 2884 I K 
+N 5060 2884 M 5091 2902 I K 
+: 5086 2897 14 18 rc N 5091 2902 M 5100 2909 I K 
+; LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 0 0 1224 792
+%%DocumentNeededResources: 
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_T3Hdr 5.0 0
+%%+ procset Pscript_Text 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 1
+(%%[LastPage]%%) = 
+%%EOF
+%-12345X@PJL EOJ
+%-12345X
+[
+/Title ()
+/Subject ()
+/Keywords ()
+/Author (vrmysore)
+/DOCINFO pdfmark

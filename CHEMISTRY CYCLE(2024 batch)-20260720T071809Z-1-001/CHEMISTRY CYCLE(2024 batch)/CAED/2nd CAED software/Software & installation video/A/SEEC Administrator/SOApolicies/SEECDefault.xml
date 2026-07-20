@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectPropertyPolicy xmlns="http://teamcenter.com/Schemas/Soa/ObjectPropertyPolicy" >
+
+<!-- Don't think we want the site defaults included...
+   <Include file="site/SiteDefault.xml" /> 
+-->
+
+<!--
+    Note an object will load both the properties listed in 
+    its specific section of this document as well as the 
+    properties listed for any superclass(es) of that class.
+    For example, an Item will come with its item_id as well 
+    as the properties listed under WorkspaceObject.
+-->
+
+<!--
+    Preferences can be supported by putting a line such as this:
+
+        <Preference name="PortalPSEColumnsShownPref" /> 
+
+    inside an ObjectType block.
+-->
+
+    <ObjectType name="ModelObject">
+       <Property name="Uid"/>
+    </ObjectType>
+
+    <ObjectType name="WorkspaceObject">
+        <Property name="object_string"/>
+        <Property name="object_type"/>
+        <Property name="object_desc"/>
+        <Property name="object_name"/>
+        <Property name="last_mod_date"/>
+        <Property name="checked_out"/>
+        <Property name="checked_out_user"/>
+        <Property name="release_status_list"/>
+    </ObjectType>
+    
+ 
+    <ObjectType name="User">
+        <Property name="user_name"/>
+        <Property name="user_id"/>
+        <Property name="person"/>
+        <Property name="default_group"/>
+        <Property name="home_folder"/>
+        <Property name="newstuff_folder"/>
+        <Property name="volume" withProperties="true"/>
+    </ObjectType>
+
+    <ObjectType name="Group">
+        <Property name="name"/>
+        <Property name="volume" withProperties="true"/>
+    </ObjectType>
+
+    <ObjectType name="Role">
+        <Property name="role_name"/>
+    </ObjectType>
+
+
+    <ObjectType name="Item">
+        <Property name="item_id"/>
+        <Property name="revision_list"/>
+        <Property name="more_revisions"/>
+        <Property name="item_revision"/>
+    </ObjectType>
+
+    
+    <ObjectType name="ItemRevision">
+        <Property name="items_tag"/>
+        <Property name="item_id"/>
+        <Property name="item_revision_id"/>
+        <Property name="checked_out_user"/>
+        <Property name="IMAN_specification"/>
+    </ObjectType>
+
+    <ObjectType name="Folder">
+    </ObjectType>
+
+    <ObjectType name="BOMLine">
+        <Property name="bl_has_children"/>
+        <Property name="bl_is_variant"/>
+        <Property name="bl_item"/>
+        <Property name="bl_revision"/>
+        <Property name="bl_parent"/>
+        <Property name="bl_window"/>
+        <Property name="bl_quantity"/>
+        <Property name="bl_quick_num_children"/>
+        <Property name="bl_sequence_no"/>
+        <Property name="bl_quantity"/>
+        <Property name="bl_item_uom_tag"/>
+        <Property name="bl_rev_release_status_list"/>
+        <Property name="bl_rev_has_variants"/>
+        <Property name="bl_occ_type"/>
+        <Property name="bl_occ_xform_matrix"/>
+        <Property name="AIE_Exported"/>
+        <Property name="AIE_OCC_ID"/>
+        <Property name="AIE_OCC_NAME"/>
+        <Property name="bl_child_lines"/>
+        <Property name="bl_occurrence_uid"/>
+        <Property name="bl_occurrence"/>
+    </ObjectType>
+
+    <ObjectType name="PSOccurrence">
+        <Property name="occ_thread"/>
+    </ObjectType>
+
+    <ObjectType name="BOMWindow">
+        <Property name="top_line"/>
+        <Property name="revision_rule"/>
+        <Property name="engineering_change"/>
+        <Property name="ec_flag"/>
+        <Property name="appearance_root"/>
+        <Property name="has_occupancy_cache"/>
+        <Property name="show_unconfigured_variants"/>
+        <Property name="icm_flag"/>
+        <Property name="show_unconfigured_changes"/>
+        <Property name="is_packed_by_default"/>
+        <Property name="is_tracking_appearances"/>
+        <Property name="ove_ignore_errors"/>
+        <Property name="ove_message_error_level"/>
+        <Property name="incr_change_rev"/>
+        <Property name="show_out_of_context_lines"/> 
+    </ObjectType>
+
+
+    <ObjectType name="Dataset">
+         <Property name="ref_names"/>
+         <Property name="ref_list"/>
+         <Property name="tool_used"/>
+         <Property name="checked_out_user"/>
+         <Property name="revision_number"/>
+         <Property name="revision_limit"/>
+         <Property name="dataset_type" withProperties="true"/>
+    </ObjectType>    
+     
+      
+    <ObjectType name="ImanFile">
+        <Property name="original_file_name"/>
+        <Property name="time_last_modified"/>
+        <Property name="object_type"/>
+    </ObjectType>
+
+    <ObjectType name="DatasetType">
+         <Property name="named_ref_list"/>
+         <Property name="datasettype_name"/>
+    </ObjectType>
+
+    <ObjectType name="RevisionRule">
+        <Property name="object_name"/>
+        <Property name="object_desc"/>
+        <Property name="object_string"/>
+        <Property name="user_visible"/>
+        <Property name="suppressed"/>
+    </ObjectType>
+
+    <ObjectType name="ImanQuery">
+        <Property name="query_name"/>
+        <Property name="query_desc"/>
+        <Property name="query_class"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValues">
+        <Property name="lov_name"/>
+        <Property name="lov_value_type"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesChar">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesDate">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesDouble">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesInteger">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesString">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+    <ObjectType name="ListOfValuesTag">
+        <Property name="lov_values"/>
+        <Property name="lov_value_descriptions"/>
+    </ObjectType>
+
+
+     <ObjectType name="CadAttrMappingDefinition">
+         <Property name="attr_title"/>
+         <Property name="item_type_name"/>
+         <Property name="dataset_type_name"/>
+         <Property name="cad_master"/>
+         <Property name="iman_master"/>
+         <Property name="required"/>
+         <Property name="write_once"/>
+         <Property name="description"/>
+         <Property name="default_value"/>
+         <Property name="mapping_type"/>
+         <Property name="constant_value"/>
+         <Property name="mapping_parts" withProperties="true"/>
+     </ObjectType>
+
+    <ObjectType name="ReleaseStatus">
+        <Property name="name"/>
+    </ObjectType>
+  
+    <ObjectType name="GroupMember">
+      <Property name="the_group" withProperties="true"/>
+      <Property name="the_user" withProperties="true"/>
+      <Property name="role" withProperties="true"/>
+    </ObjectType>
+
+  <ObjectType name="ImanVolume">
+    <Property name="volume_name"/>
+  </ObjectType>
+  
+  <ObjectType name="CadAttrMappingDefPartProp">
+    <Property name="property_name"/>
+  </ObjectType>
+</ObjectPropertyPolicy>

@@ -1,0 +1,22 @@
+[PDF]
+Version = 2.0
+
+[Package Definition]
+Name = Solid Edge Data Migration Component
+Version = 20.00.0096
+Publisher = UGS
+Language = English
+Programs = Setup
+MifFileName = Solid Edge Data Migration Component.mif
+MifName = Solid Edge Data Migration Component
+MifVersion = 20.00.0096
+MifPublisher = UGS
+
+[Setup]
+Name = Automated Minimum Installation
+CommandLine = msiexec /m "Solid Edge Data Migration Component.mif" /qn /I "Solid Edge Data Migration Component.msi"
+SupportedClients = Win 9x, Win NT (i386)
+UserInputRequired = False
+RemoveProgram = True
+UnInstallKey = {72A2B20E-DCBD-484A-AD74-D2A9903977CA}
+

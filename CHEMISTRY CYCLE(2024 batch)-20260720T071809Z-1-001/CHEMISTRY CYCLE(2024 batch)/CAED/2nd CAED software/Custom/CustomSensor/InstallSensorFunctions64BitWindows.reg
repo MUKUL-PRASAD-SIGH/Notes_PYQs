@@ -1,0 +1,17 @@
+REGEDIT4
+
+; Sample script for VB Sensor that HAS TO BE USED IF YOU ARE RUNNING wINDOWS 64-bit Edition in order for the sensor to show up
+; when you click the custom sensor button.
+
+; VB automatically puts out most of the basic reg entries. Just add the DLL specific entries
+
+; This is where the ClassID of your DLL is specified
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{B1D0A1BD-7528-11D4-BAEB-00C04F79B2C7}]
+@="UserDefinedSensorFunctions"
+
+; Registers that the DLL implements the VB Sensor Interface
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{B1D0A1BD-7528-11D4-BAEB-00C04F79B2C7}\Implemented Categories]
+
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{B1D0A1BD-7528-11D4-BAEB-00C04F79B2C7}\Implemented Categories\{1a540cc2-eaf8-11d3-b872-00c04f79b2c2}]
+@="The UserDefinedSensorInterface"
+

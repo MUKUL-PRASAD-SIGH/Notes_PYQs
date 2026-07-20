@@ -1,0 +1,503 @@
+ SESendMail
+
+ Timestamp is 46b39e29 (Fri Aug 03 16:29:13 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003e03H .text                   CODE
+ 0001:00003e10 00000578H .text$x                 CODE
+ 0001:00004390 00000076H .text$yc                CODE
+ 0002:00000000 00000148H .idata$5                DATA
+ 0002:00000148 00000004H .CRT$XCA                DATA
+ 0002:0000014c 00000004H .CRT$XCAA               DATA
+ 0002:00000150 00000010H .CRT$XCU                DATA
+ 0002:00000160 00000004H .CRT$XCZ                DATA
+ 0002:00000164 00000004H .CRT$XIA                DATA
+ 0002:00000168 00000004H .CRT$XIAA               DATA
+ 0002:0000016c 00000004H .CRT$XIZ                DATA
+ 0002:00000170 00000560H .rdata                  DATA
+ 0002:000006d0 00000034H .rdata$debug            DATA
+ 0002:00000704 00000164H .rdata$r                DATA
+ 0002:00000870 00000064H .rdata$sxdata           DATA
+ 0002:000008d4 00000004H .rtc$IAA                DATA
+ 0002:000008d8 00000004H .rtc$IZZ                DATA
+ 0002:000008dc 00000004H .rtc$TAA                DATA
+ 0002:000008e0 00000004H .rtc$TZZ                DATA
+ 0002:000008e8 0000089cH .xdata$x                DATA
+ 0002:00001184 00000000H ATL$__a                 DATA
+ 0002:00001184 00000000H ATL$__z                 DATA
+ 0002:00001184 00000050H .idata$2                DATA
+ 0002:000011d4 00000014H .idata$3                DATA
+ 0002:000011e8 00000148H .idata$4                DATA
+ 0002:00001330 0000090cH .idata$6                DATA
+ 0002:00001c3c 00000000H .edata                  DATA
+ 0003:00000000 00000af0H .data                   DATA
+ 0003:00000af0 000005a4H .bss                    DATA
+ 0004:00000000 00000148H .rsrc$01                DATA
+ 0004:00000150 00002d20H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000019       ___safe_se_handler_count   00000019     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??0getopts@@QAE@PAD@Z      00401000 f i SESendMail.obj
+ 0001:00000070       ??1getopts@@QAE@XZ         00401070 f i SESendMail.obj
+ 0001:000000e0       ?parse@getopts@@AAEXPAD@Z  004010e0 f i SESendMail.obj
+ 0001:00000390       _WinMain@16                00401390 f   SESendMail.obj
+ 0001:00000cb0       ??1?$vector@PADV?$allocator@PAD@std@@@std@@QAE@XZ 00401cb0 f i SESendMail.obj
+ 0001:00000ce0       ??1?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 00401ce0 f i SESendMail.obj
+ 0001:00000d30       ?push_back@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 00401d30 f i SESendMail.obj
+ 0001:00000de0       ?insert@?$vector@PADV?$allocator@PAD@std@@@std@@QAE?AV?$_Vector_iterator@PADV?$allocator@PAD@std@@@2@V32@ABQAD@Z 00401de0 f i SESendMail.obj
+ 0001:00000e70       ?_Ufill@?$vector@PADV?$allocator@PAD@std@@@std@@IAEPAPADPAPADIABQAD@Z 00401e70 f i SESendMail.obj
+ 0001:00000ea0       ?size@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEIXZ 00401ea0 f i SESendMail.obj
+ 0001:00000ed0       ?insert@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V32@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 00401ed0 f i SESendMail.obj
+ 0001:00000f90       ?_Ufill@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PAV32@IABV32@@Z 00401f90 f i SESendMail.obj
+ 0001:00000fd0       ?_Insert_n@?$vector@PADV?$allocator@PAD@std@@@std@@IAEXV?$_Vector_iterator@PADV?$allocator@PAD@std@@@2@IABQAD@Z 00401fd0 f i SESendMail.obj
+ 0001:00001250       ?_Xlen@?$vector@PADV?$allocator@PAD@std@@@std@@KAXXZ 00402250 f i SESendMail.obj
+ 0001:000012c0       ?allocate@?$allocator@PAD@std@@QAEPAPADI@Z 004022c0 f i SESendMail.obj
+ 0001:00001310       ?_Destroy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 00402310 f i SESendMail.obj
+ 0001:00001340       ?_Insert_n@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 00402340 f i SESendMail.obj
+ 0001:00001660       ?_Xlen@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@KAXXZ 00402660 f i SESendMail.obj
+ 0001:000016d0       ?allocate@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@I@Z 004026d0 f i SESendMail.obj
+ 0001:00001720       ??0length_error@std@@QAE@ABV01@@Z 00402720 f i SESendMail.obj
+ 0001:00001780       ??$_Umove@PAPAD@?$vector@PADV?$allocator@PAD@std@@@std@@IAEPAPADPAPAD00@Z 00402780 f i SESendMail.obj
+ 0001:000017b0       ??$_Umove@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PAV21@00@Z 004027b0 f i SESendMail.obj
+ 0001:000017e0       ??$fill@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0ABV10@@Z 004027e0 f i SESendMail.obj
+ 0001:00001810       ??$_Unchecked_move_backward@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@@stdext@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@00@Z 00402810 f i SESendMail.obj
+ 0001:00001840       ??$_Uninit_fill_n@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@IABV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00402840 f i SESendMail.obj
+ 0001:000018e0       ??$_Move_backward_opt@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PAV10@00Urandom_access_iterator_tag@0@U_Swap_move_tag@0@U_Range_checked_iterator_tag@0@@Z 004028e0 f i SESendMail.obj
+ 0001:00001940       ?construct@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV32@@Z 00402940 f i SESendMail.obj
+ 0001:000019a0       ??$_Uninit_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PAV10@00AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Swap_move_tag@0@U_Range_checked_iterator_tag@0@@Z 004029a0 f i SESendMail.obj
+ 0001:00001a70       ??3@YAXPAX0@Z              00402a70 f i SESendMail.obj
+ 0001:00001a80       ??1bad_alloc@std@@UAE@XZ   00402a80 f i SESendMail.obj
+ 0001:00001ad0       ??_Ebad_alloc@std@@UAEPAXI@Z 00402ad0 f i  CIL library: CIL module
+ 0001:00001ad0       ??_Gbad_alloc@std@@UAEPAXI@Z 00402ad0 f i SESendMail.obj
+ 0001:00001b40       ??0bad_alloc@std@@QAE@ABV01@@Z 00402b40 f i SESendMail.obj
+ 0001:00001ba0       ??0bad_alloc@std@@QAE@PBD@Z 00402ba0 f i SESendMail.obj
+ 0001:00001c00       ??_Elength_error@std@@UAEPAXI@Z 00402c00 f i  CIL library: CIL module
+ 0001:00001c00       ??_Glength_error@std@@UAEPAXI@Z 00402c00 f i SESendMail.obj
+ 0001:00001c60       ?what@logic_error@std@@UBEPBDXZ 00402c60 f i SESendMail.obj
+ 0001:00001c70       ??1logic_error@std@@UAE@XZ 00402c70 f i SESendMail.obj
+ 0001:00001cd0       ??_Glogic_error@std@@UAEPAXI@Z 00402cd0 f i SESendMail.obj
+ 0001:00001cd0       ??_Elogic_error@std@@UAEPAXI@Z 00402cd0 f i  CIL library: CIL module
+ 0001:00001cf0       ??0logic_error@std@@QAE@ABV01@@Z 00402cf0 f i SESendMail.obj
+ 0001:00001d60       ??1length_error@std@@UAE@XZ 00402d60 f i SESendMail.obj
+ 0001:00001db0       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00402db0 f i SESendMail.obj
+ 0001:00001e10       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00402e10 f i SESendMail.obj
+ 0001:00001e77       ??2@YAPAXI@Z               00402e77 f   nothrownew.obj
+ 0001:00001ea0       ??A?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@I@Z 00402ea0 f i sjutil:SendMail.obj
+ 0001:00001ef0       ??E?$_Vector_const_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEAAV01@XZ 00402ef0 f i sjutil:SendMail.obj
+ 0001:00001f20       ?size@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@QBEIXZ 00402f20 f i sjutil:SendMail.obj
+ 0001:00001f20       ?size@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@QBEIXZ 00402f20 f i sjutil:SendMail.obj
+ 0001:00001f40       ??$_Fill@PAUMapiFileDesc@@U1@@std@@YAXPAUMapiFileDesc@@0ABU1@@Z 00402f40 f i sjutil:SendMail.obj
+ 0001:00001f40       ??$_Fill@PAUMapiRecipDesc@@U1@@std@@YAXPAUMapiRecipDesc@@0ABU1@@Z 00402f40 f i sjutil:SendMail.obj
+ 0001:00001f80       ??$_Copy_backward_opt@PAUMapiRecipDesc@@PAU1@Uforward_iterator_tag@std@@@std@@YAPAUMapiRecipDesc@@PAU1@00Uforward_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00402f80 f i sjutil:SendMail.obj
+ 0001:00001f80       ??$_Copy_backward_opt@PAUMapiFileDesc@@PAU1@Uforward_iterator_tag@std@@@std@@YAPAUMapiFileDesc@@PAU1@00Uforward_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00402f80 f i sjutil:SendMail.obj
+ 0001:00001fd0       ??A?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@QAEAAUMapiRecipDesc@@I@Z 00402fd0 f i sjutil:SendMail.obj
+ 0001:00001fd0       ??A?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@QAEAAUMapiFileDesc@@I@Z 00402fd0 f i sjutil:SendMail.obj
+ 0001:00002010       ??C?$_Vector_const_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEPBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@XZ 00403010 f i sjutil:SendMail.obj
+ 0001:00002010       ??D?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QBEAAPAUMapiRecipDesc@@XZ 00403010 f i sjutil:SendMail.obj
+ 0001:00002040       ??9?$_Vector_const_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE_NABV01@@Z 00403040 f i sjutil:SendMail.obj
+ 0001:00002070       ??E?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAEAAV01@XZ 00403070 f i sjutil:SendMail.obj
+ 0001:000020a0       ?_Xlen@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@KAXXZ 004030a0 f i sjutil:SendMail.obj
+ 0001:000020a0       ?_Xlen@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@KAXXZ 004030a0 f i sjutil:SendMail.obj
+ 0001:000020a0       ?_Xlen@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@KAXXZ 004030a0 f i sjutil:SendMail.obj
+ 0001:00002100       ?construct@?$allocator@UMapiFileDesc@@@std@@QAEXPAUMapiFileDesc@@ABU3@@Z 00403100 f i sjutil:SendMail.obj
+ 0001:00002100       ?construct@?$allocator@UMapiRecipDesc@@@std@@QAEXPAUMapiRecipDesc@@ABU3@@Z 00403100 f i sjutil:SendMail.obj
+ 0001:00002140       ??$_Copy_backward_opt@PAUMapiRecipDesc@@PAU1@@std@@YAPAUMapiRecipDesc@@PAU1@00Urandom_access_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00403140 f i sjutil:SendMail.obj
+ 0001:00002140       ??$_Copy_backward_opt@PAUMapiFileDesc@@PAU1@@std@@YAPAUMapiFileDesc@@PAU1@00Urandom_access_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00403140 f i sjutil:SendMail.obj
+ 0001:000021a0       ??$_Uninit_copy@PAUMapiRecipDesc@@PAU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAPAUMapiRecipDesc@@PAU1@00AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 004031a0 f i sjutil:SendMail.obj
+ 0001:000021a0       ??$_Uninit_copy@PAUMapiFileDesc@@PAU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAPAUMapiFileDesc@@PAU1@00AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 004031a0 f i sjutil:SendMail.obj
+ 0001:00002230       ?allocate@?$allocator@UMapiRecipDesc@@@std@@QAEPAUMapiRecipDesc@@I@Z 00403230 f i sjutil:SendMail.obj
+ 0001:00002230       ?allocate@?$allocator@UMapiFileDesc@@@std@@QAEPAUMapiFileDesc@@I@Z 00403230 f i sjutil:SendMail.obj
+ 0001:00002280       ?allocate@?$allocator@PAUMapiRecipDesc@@@std@@QAEPAPAUMapiRecipDesc@@I@Z 00403280 f i sjutil:SendMail.obj
+ 0001:000022d0       ??$fill@PAPAUMapiRecipDesc@@PAU1@@std@@YAXPAPAUMapiRecipDesc@@0ABQAU1@@Z 004032d0 f i sjutil:SendMail.obj
+ 0001:000022f0       ??$_Unchecked_move_backward@PAPAUMapiRecipDesc@@PAPAU1@@stdext@@YAPAPAUMapiRecipDesc@@PAPAU1@00@Z 004032f0 f i sjutil:SendMail.obj
+ 0001:00002320       ??$_Uninit_fill_n@PAUMapiFileDesc@@IU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAXPAUMapiFileDesc@@IABU1@AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00403320 f i sjutil:SendMail.obj
+ 0001:00002320       ??$_Uninit_fill_n@PAUMapiRecipDesc@@IU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAXPAUMapiRecipDesc@@IABU1@AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00403320 f i sjutil:SendMail.obj
+ 0001:000023b0       ?begin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$_Vector_const_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@XZ 004033b0 f i sjutil:SendMail.obj
+ 0001:000023e0       ?end@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$_Vector_const_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@XZ 004033e0 f i sjutil:SendMail.obj
+ 0001:00002410       ?erase@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAE?AV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@V32@0@Z 00403410 f i sjutil:SendMail.obj
+ 0001:00002470       ??$_Unchecked_move_backward@PAUMapiFileDesc@@PAU1@@stdext@@YAPAUMapiFileDesc@@PAU1@00@Z 00403470 f i sjutil:SendMail.obj
+ 0001:00002470       ??$_Unchecked_move_backward@PAUMapiRecipDesc@@PAU1@@stdext@@YAPAUMapiRecipDesc@@PAU1@00@Z 00403470 f i sjutil:SendMail.obj
+ 0001:000024a0       ??1?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@QAE@XZ 004034a0 f i sjutil:SendMail.obj
+ 0001:000024a0       ??1?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@QAE@XZ 004034a0 f i sjutil:SendMail.obj
+ 0001:000024a0       ??1?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAE@XZ 004034a0 f i sjutil:SendMail.obj
+ 0001:000024d0       ?clear@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAEXXZ 004034d0 f i sjutil:SendMail.obj
+ 0001:00002510       ?_Ufill@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEPAUMapiRecipDesc@@PAU3@IABU3@@Z 00403510 f i sjutil:SendMail.obj
+ 0001:00002510       ?_Ufill@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEPAUMapiFileDesc@@PAU3@IABU3@@Z 00403510 f i sjutil:SendMail.obj
+ 0001:00002550       ??$_Umove@PAPAUMapiRecipDesc@@@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEPAPAUMapiRecipDesc@@PAPAU2@00@Z 00403550 f i sjutil:SendMail.obj
+ 0001:00002590       ?_Ufill@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEPAPAUMapiRecipDesc@@PAPAU3@IABQAU3@@Z 00403590 f i sjutil:SendMail.obj
+ 0001:000025c0       ?_Insert_n@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@IABQAUMapiRecipDesc@@@Z 004035c0 f i sjutil:SendMail.obj
+ 0001:00002810       ??$_Umove@PAUMapiFileDesc@@@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEPAUMapiFileDesc@@PAU2@00@Z 00403810 f i sjutil:SendMail.obj
+ 0001:00002810       ??$_Umove@PAUMapiRecipDesc@@@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEPAUMapiRecipDesc@@PAU2@00@Z 00403810 f i sjutil:SendMail.obj
+ 0001:00002840       ?insert@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAE?AV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@V32@ABQAUMapiRecipDesc@@@Z 00403840 f i sjutil:SendMail.obj
+ 0001:000028d0       ?_Insert_n@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@2@IABUMapiRecipDesc@@@Z 004038d0 f i sjutil:SendMail.obj
+ 0001:000028d0       ?_Insert_n@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@2@IABUMapiFileDesc@@@Z 004038d0 f i sjutil:SendMail.obj
+ 0001:00002b90       ?push_back@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@QAEXABQAUMapiRecipDesc@@@Z 00403b90 f i sjutil:SendMail.obj
+ 0001:00002c00       ?insert@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@QAE?AV?$_Vector_iterator@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@2@V32@ABUMapiRecipDesc@@@Z 00403c00 f i sjutil:SendMail.obj
+ 0001:00002c00       ?insert@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@QAE?AV?$_Vector_iterator@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@2@V32@ABUMapiFileDesc@@@Z 00403c00 f i sjutil:SendMail.obj
+ 0001:00002cb0       ?push_back@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@QAEXABUMapiRecipDesc@@@Z 00403cb0 f i sjutil:SendMail.obj
+ 0001:00002cb0       ?push_back@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@QAEXABUMapiFileDesc@@@Z 00403cb0 f i sjutil:SendMail.obj
+ 0001:00002d60       _SESendMailEx@20           00403d60 f   sjutil:SendMail.obj
+ 0001:00003380       _HRerrEx                   00404380 f   sjutil:sjutil.obj
+ 0001:00003382       _malloc                    00404382 f   MSVCRT:MSVCR80.dll
+ 0001:00003388       __callnewh                 00404388 f   MSVCRT:MSVCR80.dll
+ 0001:0000338e       @__security_check_cookie@4 0040438e f   MSVCRT:secchk.obj
+ 0001:0000339e       ??3@YAXPAX@Z               0040439e f   MSVCRT:MSVCR80.dll
+ 0001:000033a4       ??0exception@std@@QAE@ABV01@@Z 004043a4 f   MSVCRT:MSVCR80.dll
+ 0001:000033aa       ?what@exception@std@@UBEPBDXZ 004043aa f   MSVCRT:MSVCR80.dll
+ 0001:000033b0       ??_Etype_info@@UAEPAXI@Z   004043b0 f i MSVCRT:ti_inst.obj
+ 0001:00003705       _WinMainCRTStartup         00404705 f   MSVCRT:crtexew.obj
+ 0001:00003710       ___CxxFrameHandler3        00404710 f   MSVCRT:MSVCR80.dll
+ 0001:00003716       __CxxThrowException@8      00404716 f   MSVCRT:MSVCR80.dll
+ 0001:0000371c       __except_handler4          0040471c f   MSVCRT:chandler4gs.obj
+ 0001:00003740       __alloca_probe_16          00404740 f   MSVCRT:alloca16.obj
+ 0001:00003756       __alloca_probe_8           00404756     MSVCRT:alloca16.obj
+ 0001:00003770       __allmul                   00404770 f   MSVCRT:llmul.obj
+ 0001:000037a4       ___report_gsfailure        004047a4 f   MSVCRT:gs_report.obj
+ 0001:000038a8       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 004048a8 f   MSVCRT:ehvecdtr.obj
+ 0001:00003906       ??_M@YGXPAXIHP6EX0@Z@Z     00404906 f   MSVCRT:ehvecdtr.obj
+ 0001:0000396a       __amsg_exit                0040496a f   MSVCRT:MSVCR80.dll
+ 0001:00003970       __onexit                   00404970 f   MSVCRT:atonexit.obj
+ 0001:00003a0f       _atexit                    00404a0f f   MSVCRT:atonexit.obj
+ 0001:00003a21       __RTC_Initialize           00404a21 f   MSVCRT:initsect.obj
+ 0001:00003a45       __RTC_Terminate            00404a45 f   MSVCRT:initsect.obj
+ 0001:00003a6a       __XcptFilter               00404a6a f   MSVCRT:MSVCR80.dll
+ 0001:00003a70       __ValidateImageBase        00404a70 f   MSVCRT:pesect.obj
+ 0001:00003aa0       __FindPESection            00404aa0 f   MSVCRT:pesect.obj
+ 0001:00003ae2       __IsNonwritableInCurrentImage 00404ae2 f   MSVCRT:pesect.obj
+ 0001:00003b4e       __initterm                 00404b4e f   MSVCRT:MSVCR80.dll
+ 0001:00003b54       __initterm_e               00404b54 f   MSVCRT:MSVCR80.dll
+ 0001:00003b5c       __SEH_prolog4              00404b5c f   MSVCRT:sehprolg4.obj
+ 0001:00003ba1       __SEH_epilog4              00404ba1 f   MSVCRT:sehprolg4.obj
+ 0001:00003bb5       __setdefaultprecision      00404bb5 f   MSVCRT:fp8.obj
+ 0001:00003bde       __setargv                  00404bde f   MSVCRT:dllargv.obj
+ 0001:00003bde       __matherr                  00404bde f   MSVCRT:merr.obj
+ 0001:00003be1       ___security_init_cookie    00404be1 f   MSVCRT:gs_support.obj
+ 0001:00003c76       __except_handler4_common   00404c76 f   MSVCRT:MSVCR80.dll
+ 0001:00003c80       __chkstk                   00404c80 f   MSVCRT:chkstk.obj
+ 0001:00003c80       __alloca_probe             00404c80     MSVCRT:chkstk.obj
+ 0001:00003cac       __crt_debugger_hook        00404cac f   MSVCRT:MSVCR80.dll
+ 0001:00003cb2       ?terminate@@YAXXZ          00404cb2 f   MSVCRT:MSVCR80.dll
+ 0001:00003cb8       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 00404cb8 f   MSVCRT:MSVCR80.dll
+ 0001:00003cb8       ??1type_info@@UAE@XZ       00404cb8 f   MSVCRT:MSVCR80.dll
+ 0001:00003cbe       __unlock                   00404cbe f   MSVCRT:MSVCR80.dll
+ 0001:00003cc4       ___dllonexit               00404cc4 f   MSVCRT:MSVCR80.dll
+ 0001:00003cca       __lock                     00404cca f   MSVCRT:MSVCR80.dll
+ 0001:00003cd0       __invoke_watson            00404cd0 f   MSVCRT:MSVCR80.dll
+ 0001:00003cd6       __controlfp_s              00404cd6 f   MSVCRT:MSVCR80.dll
+ 0001:00003cdc       ?_AtlGetThreadACPFake@ATL@@YGIXZ 00404cdc f i atls:atltrace.obj
+ 0001:00003d41       ?_AtlGetThreadACPReal@ATL@@YGIXZ 00404d41 f i atls:atltrace.obj
+ 0001:00003d45       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 00404d45 f i atls:atltrace.obj
+ 0001:00003dac       __SEH_prolog4_GS           00404dac f   MSVCRT:sehprolg4gs.obj
+ 0001:00003df4       __SEH_epilog4_GS           00404df4 f   MSVCRT:sehprolg4gs.obj
+ 0002:00000000       __imp__GetCommandLineA@0   00406000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__FreeLibrary@4       00406004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetProcAddress@8    00406008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__LoadLibraryA@4      0040600c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__InterlockedExchange@8 00406010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetCurrentThreadId@0 00406014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetVersionExA@4     00406018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetThreadLocale@0   0040601c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLocaleInfoA@16   00406020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetACP@0            00406024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetSystemTimeAsFileTime@4 00406028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetTickCount@0      0040602c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__QueryPerformanceCounter@4 00406030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__IsDebuggerPresent@0 00406034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__SetUnhandledExceptionFilter@4 00406038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__UnhandledExceptionFilter@4 0040603c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetCurrentProcess@0 00406040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__TerminateProcess@8  00406044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetStartupInfoA@4   00406048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__InterlockedCompareExchange@12 0040604c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__Sleep@4             00406050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentProcessId@0 00406054     kernel32:KERNEL32.dll
+ 0002:00000058       \177KERNEL32_NULL_THUNK_DATA 00406058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp_?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 0040605c     msvcprt:MSVCP80.dll
+ 0002:00000060       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00406060     msvcprt:MSVCP80.dll
+ 0002:00000064       __imp_??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z 00406064     msvcprt:MSVCP80.dll
+ 0002:00000068       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00406068     msvcprt:MSVCP80.dll
+ 0002:0000006c       __imp_??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z 0040606c     msvcprt:MSVCP80.dll
+ 0002:00000070       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00406070     msvcprt:MSVCP80.dll
+ 0002:00000074       __imp_??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 00406074     msvcprt:MSVCP80.dll
+ 0002:00000078       __imp_??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBDABV10@@Z 00406078     msvcprt:MSVCP80.dll
+ 0002:0000007c       __imp_?swap@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXAAV12@@Z 0040607c     msvcprt:MSVCP80.dll
+ 0002:00000080       __imp_??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z 00406080     msvcprt:MSVCP80.dll
+ 0002:00000084       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 00406084     msvcprt:MSVCP80.dll
+ 0002:00000088       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00406088     msvcprt:MSVCP80.dll
+ 0002:0000008c       \177MSVCP80_NULL_THUNK_DATA 0040608c     msvcprt:MSVCP80.dll
+ 0002:00000090       __imp___amsg_exit          00406090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp____getmainargs       00406094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___cexit              00406098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___exit               0040609c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___XcptFilter         004060a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___ismbblead          004060a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp__exit                004060a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp___acmdln             004060ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___initterm           004060b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___configthreadlocale 004060b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp____setusermatherr    004060b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___adjust_fdiv        004060bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp____p__commode        004060c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp____p__fmode          004060c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___encode_pointer     004060c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp____set_app_type      004060cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___except_handler4_common 004060d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___crt_debugger_hook  004060d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp_?terminate@@YAXXZ    004060d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 004060dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___unlock             004060e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp____dllonexit         004060e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___lock               004060e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___onexit             004060ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___decode_pointer     004060f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___invoke_watson      004060f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___controlfp_s        004060f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___CxxThrowException@8 004060fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp____CxxFrameHandler3  00406100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__memmove_s           00406104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp_??1exception@std@@UAE@XZ 00406108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp_??0exception@std@@QAE@ABV01@@Z 0040610c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp_??0exception@std@@QAE@ABQBD@Z 00406110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp_??0exception@std@@QAE@XZ 00406114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp_??3@YAXPAX@Z         00406118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___invalid_parameter_noinfo 0040611c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp__strchr              00406120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp__isspace             00406124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp___callnewh           00406128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp__malloc              0040612c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp___initterm_e         00406130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp__strnicmp            00406134     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___strnicmp           00406134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp_?what@exception@std@@UBEPBDXZ 00406138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       \177MSVCR80_NULL_THUNK_DATA 0040613c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp__MessageBoxA@16      00406140     user32:USER32.dll
+ 0002:00000144       \177USER32_NULL_THUNK_DATA 00406144     user32:USER32.dll
+ 0002:00000148       ___xc_a                    00406148     MSVCRT:cinitexe.obj
+ 0002:00000160       ___xc_z                    00406160     MSVCRT:cinitexe.obj
+ 0002:00000164       ___xi_a                    00406164     MSVCRT:cinitexe.obj
+ 0002:0000016c       ___xi_z                    0040616c     MSVCRT:cinitexe.obj
+ 0002:00000190       ??_7bad_alloc@std@@6B@     00406190     sjutil:SendMail.obj
+ 0002:0000019c       ??_7logic_error@std@@6B@   0040619c     sjutil:SendMail.obj
+ 0002:000001a8       ??_7length_error@std@@6B@  004061a8     sjutil:SendMail.obj
+ 0002:000001b0       ??_C@_0P@PHMAHFGM@MAPIFreeBuffer?$AA@ 004061b0     sjutil:SendMail.obj
+ 0002:000001c0       ??_C@_0BA@FJBNABJG@MAPIResolveName?$AA@ 004061c0     sjutil:SendMail.obj
+ 0002:000001d0       ??_C@_0N@INHCDDHL@MAPISendMail?$AA@ 004061d0     sjutil:SendMail.obj
+ 0002:000001e0       ??_C@_0L@PBPPHLOM@MAPILogoff?$AA@ 004061e0     sjutil:SendMail.obj
+ 0002:000001ec       ??_C@_09EHJBOALE@MAPILogon?$AA@ 004061ec     sjutil:SendMail.obj
+ 0002:000001f8       ??_C@_0L@CDKONNBO@MAPI32?4DLL?$AA@ 004061f8     sjutil:SendMail.obj
+ 0002:00000204       ??_C@_0P@OAFDIDJM@?4?2SendMail?4cpp?$AA@ 00406204     sjutil:SendMail.obj
+ 0002:00000214       ??_C@_0N@GIIIILFA@SESendMailEx?$AA@ 00406214     sjutil:SendMail.obj
+ 0002:00000228       ??_7type_info@@6B@         00406228     MSVCRT:ti_inst.obj
+ 0002:00000234       ??_C@_06JBKGCNBB@Delete?$AA@ 00406234     mfcs80:stdafx.obj
+ 0002:0000023c       ??_C@_08KAAPDIAN@NoRemove?$AA@ 0040623c     mfcs80:stdafx.obj
+ 0002:00000248       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 00406248     mfcs80:stdafx.obj
+ 0002:00000254       ??_C@_03LAIAPFCB@Val?$AA@  00406254     mfcs80:stdafx.obj
+ 0002:00000258       ??_C@_01HMGJMAIH@B?$AA@    00406258     mfcs80:stdafx.obj
+ 0002:0000025c       ??_C@_01CKDDGHAB@D?$AA@    0040625c     mfcs80:stdafx.obj
+ 0002:00000260       ??_C@_01PLPBNMEI@M?$AA@    00406260     mfcs80:stdafx.obj
+ 0002:00000264       ??_C@_01CPLAODJH@S?$AA@    00406264     mfcs80:stdafx.obj
+ 0002:00000288       ??_C@_0DBJ@FLOFGDBD@Usage?3?$AN?6?7?1to?3user?$EAsomewhere?4com?5@ 00406288     SESendMail.obj
+ 0002:000005a4       ??_C@_0L@DLDIEINA@SESendMail?$AA@ 004065a4     SESendMail.obj
+ 0002:000005b0       ??_C@_02GLHBANAM@?1?$DP?$AA@ 004065b0     SESendMail.obj
+ 0002:000005b4       ??_C@_04PIDDNFJI@?1to?3?$AA@ 004065b4     SESendMail.obj
+ 0002:000005bc       ??_C@_09DEOLGAOF@?1subject?3?$AA@ 004065bc     SESendMail.obj
+ 0002:000005c8       ??_C@_06ECNNEIJI@?1text?3?$AA@ 004065c8     SESendMail.obj
+ 0002:000005d0       ??_C@_0N@IDBOEJAI@?1attachment?3?$AA@ 004065d0     SESendMail.obj
+ 0002:000005e0       ??_C@_06GPDDKBEP@?1name?3?$AA@ 004065e0     SESendMail.obj
+ 0002:000005e8       ??_C@_0CH@EHHIGPAH@?7Unrecognized?5command?5line?5argum@ 004065e8     SESendMail.obj
+ 0002:00000610       ??_C@_03CGLHDMIP@?$CC?$AN?6?$AA@ 00406610     SESendMail.obj
+ 0002:00000614       ??_C@_0CP@CMACAGJM@?7No?5recipient?5specified?5on?5the?5c@ 00406614     SESendMail.obj
+ 0002:00000644       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 00406644     SESendMail.obj
+ 0002:00000648       ??_C@_0BI@EKGPBMKO@Error?$CIs?$CJ?5encountered?3?$AN?6?$AA@ 00406648     SESendMail.obj
+ 0002:00000660       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 00406660     SESendMail.obj
+ 0002:00000674       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 00406674     stdafx.obj
+ 0002:00000688       __load_config_used         00406688     MSVCRT:loadcfg.obj
+ 0002:00000704       ??_R4type_info@@6B@        00406704     MSVCRT:ti_inst.obj
+ 0002:00000718       ??_R3type_info@@8          00406718     MSVCRT:ti_inst.obj
+ 0002:00000728       ??_R2type_info@@8          00406728     MSVCRT:ti_inst.obj
+ 0002:00000730       ??_R1A@?0A@EA@type_info@@8 00406730     MSVCRT:ti_inst.obj
+ 0002:0000074c       ??_R4length_error@std@@6B@ 0040674c     SESendMail.obj
+ 0002:00000760       ??_R3length_error@std@@8   00406760     SESendMail.obj
+ 0002:00000770       ??_R2length_error@std@@8   00406770     SESendMail.obj
+ 0002:00000780       ??_R1A@?0A@EA@length_error@std@@8 00406780     SESendMail.obj
+ 0002:0000079c       ??_R4logic_error@std@@6B@  0040679c     SESendMail.obj
+ 0002:000007b0       ??_R3logic_error@std@@8    004067b0     SESendMail.obj
+ 0002:000007c0       ??_R2logic_error@std@@8    004067c0     SESendMail.obj
+ 0002:000007cc       ??_R1A@?0A@EA@logic_error@std@@8 004067cc     SESendMail.obj
+ 0002:000007e8       ??_R4bad_alloc@std@@6B@    004067e8     SESendMail.obj
+ 0002:000007fc       ??_R3bad_alloc@std@@8      004067fc     SESendMail.obj
+ 0002:0000080c       ??_R2bad_alloc@std@@8      0040680c     SESendMail.obj
+ 0002:00000818       ??_R1A@?0A@EA@exception@std@@8 00406818     SESendMail.obj
+ 0002:00000834       ??_R3exception@std@@8      00406834     SESendMail.obj
+ 0002:00000844       ??_R2exception@std@@8      00406844     SESendMail.obj
+ 0002:0000084c       ??_R1A@?0A@EA@bad_alloc@std@@8 0040684c     SESendMail.obj
+ 0002:00000870       ___safe_se_handler_table   00406870     <linker-defined>
+ 0002:000008d4       ___rtc_iaa                 004068d4     MSVCRT:initsect.obj
+ 0002:000008d8       ___rtc_izz                 004068d8     MSVCRT:initsect.obj
+ 0002:000008dc       ___rtc_taa                 004068dc     MSVCRT:initsect.obj
+ 0002:000008e0       ___rtc_tzz                 004068e0     MSVCRT:initsect.obj
+ 0002:00000bcc       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 00406bcc     SESendMail.obj
+ 0002:00000be8       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 00406be8     SESendMail.obj
+ 0002:00000c04       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 00406c04     SESendMail.obj
+ 0002:00000c20       __CTA3?AVlength_error@std@@ 00406c20     SESendMail.obj
+ 0002:00000c30       __TI3?AVlength_error@std@@ 00406c30     SESendMail.obj
+ 0002:00000c40       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 00406c40     SESendMail.obj
+ 0002:00000c5c       __CTA2?AVbad_alloc@std@@   00406c5c     SESendMail.obj
+ 0002:00000c68       __TI2?AVbad_alloc@std@@    00406c68     SESendMail.obj
+ 0002:00001184       __IMPORT_DESCRIPTOR_KERNEL32 00407184     kernel32:KERNEL32.dll
+ 0002:00001198       __IMPORT_DESCRIPTOR_USER32 00407198     user32:USER32.dll
+ 0002:000011ac       __IMPORT_DESCRIPTOR_MSVCP80 004071ac     msvcprt:MSVCP80.dll
+ 0002:000011c0       __IMPORT_DESCRIPTOR_MSVCR80 004071c0     MSVCRT:MSVCR80.dll
+ 0002:000011d4       __NULL_IMPORT_DESCRIPTOR   004071d4     kernel32:KERNEL32.dll
+ 0003:00000000       __newmode                  00408000     newmode.obj
+ 0003:00000010       ?_afxInitData@@3PAHA       00408010     sjutil:sjutil.obj
+ 0003:00000020       ?_afxDataNil@@3PAUCStringData@ATL@@A 00408020     sjutil:sjutil.obj
+ 0003:00000024       ?_afxPchNil@@3PBDB         00408024     sjutil:sjutil.obj
+ 0003:00000a40       ??_R0?AVtype_info@@@8      00408a40     MSVCRT:ti_inst.obj
+ 0003:00000a58       ___security_cookie         00408a58     MSVCRT:gs_cookie.obj
+ 0003:00000a5c       ___security_cookie_complement 00408a5c     MSVCRT:gs_cookie.obj
+ 0003:00000a60       ___native_dllmain_reason   00408a60     MSVCRT:natstart.obj
+ 0003:00000a64       ___native_vcclrit_reason   00408a64     MSVCRT:natstart.obj
+ 0003:00000a68       ___globallocalestatus      00408a68     MSVCRT:xthdloc.obj
+ 0003:00000a6c       ___defaultmatherr          00408a6c     MSVCRT:merr.obj
+ 0003:00000a70       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 00408a70     atls:atltrace.obj
+ 0003:00000a74       ??_R0?AVexception@std@@@8  00408a74     SESendMail.obj
+ 0003:00000a90       ??_R0?AVlogic_error@std@@@8 00408a90     SESendMail.obj
+ 0003:00000ab0       ??_R0?AVlength_error@std@@@8 00408ab0     SESendMail.obj
+ 0003:00000ad0       ??_R0?AVbad_alloc@std@@@8  00408ad0     SESendMail.obj
+ 0003:00000af8       ?ghModuleHandle@@3PAUHINSTANCE__@@A 00408af8     sjutil:sjutil.obj
+ 0003:00001064       __dowildcard               00409064     MSVCRT:wildcard.obj
+ 0003:00001068       __commode                  00409068     MSVCRT:xncommod.obj
+ 0003:0000106c       __fmode                    0040906c     MSVCRT:xtxtmode.obj
+ 0003:00001070       __afxForceEXCLUDE          00409070     mfcs80:nolib.obj
+ 0003:00001074       __afxForceSTDAFX           00409074     mfcs80:stdafx.obj
+ 0003:00001078       ___@@_PchSym_@00@UfgrohUhixUhvhvmwnzroUdrmDCUivovzhvUhgwzucOlyq@ 00409078     stdafx.obj
+ 0003:0000107c       __adjust_fdiv              0040907c     <common>
+ 0003:00001080       ___native_startup_state    00409080     <common>
+ 0003:00001084       ___native_startup_lock     00409084     <common>
+ 0003:00001088       ___onexitend               00409088     <common>
+ 0003:0000108c       ___onexitbegin             0040908c     <common>
+ 0003:00001090       ___dyn_tls_init_callback   00409090     <common>
+
+ entry point at        0001:00003705
+
+ Static symbols
+
+ 0001:00000230       ?RemoveQuotes@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 00401230 f    CIL library: CIL module
+ 0001:000002f0       ?ShowUsage@@YAXPBD@Z       004012f0 f    CIL library: CIL module
+ 0001:0000112a       __catch$?_Insert_n@?$vector@PADV?$allocator@PAD@std@@@std@@IAEXV?$_Vector_iterator@PADV?$allocator@PAD@std@@@2@IABQAD@Z$0 0040212a f i  CIL library: CIL module
+ 0001:00001136       __catch$?_Insert_n@?$vector@PADV?$allocator@PAD@std@@@std@@IAEXV?$_Vector_iterator@PADV?$allocator@PAD@std@@@2@IABQAD@Z$2 00402136 f i  CIL library: CIL module
+ 0001:0000150b       __catch$?_Insert_n@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z$0 0040250b f i  CIL library: CIL module
+ 0001:000015c5       __catch$?_Insert_n@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z$2 004025c5 f i  CIL library: CIL module
+ 0001:000018b7       __catch$??$_Uninit_fill_n@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@IABV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 004028b7 f i  CIL library: CIL module
+ 0001:00001a47       __catch$??$_Uninit_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PAV10@00AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Swap_move_tag@0@U_Range_checked_iterator_tag@0@@Z$0 00402a47 f i  CIL library: CIL module
+ 0001:00002217       __catch$??$_Uninit_copy@PAUMapiFileDesc@@PAU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAPAUMapiFileDesc@@PAU1@00AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 00403217 f i sjutil:SendMail.obj
+ 0001:00002217       __catch$??$_Uninit_copy@PAUMapiRecipDesc@@PAU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAPAUMapiRecipDesc@@PAU1@00AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 00403217 f i sjutil:SendMail.obj
+ 0001:00002397       __catch$??$_Uninit_fill_n@PAUMapiFileDesc@@IU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAXPAUMapiFileDesc@@IABU1@AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 00403397 f i sjutil:SendMail.obj
+ 0001:00002397       __catch$??$_Uninit_fill_n@PAUMapiRecipDesc@@IU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAXPAUMapiRecipDesc@@IABU1@AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 00403397 f i sjutil:SendMail.obj
+ 0001:0000271f       __catch$?_Insert_n@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@IABQAUMapiRecipDesc@@@Z$0 0040371f f i sjutil:SendMail.obj
+ 0001:0000272b       __catch$?_Insert_n@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@IABQAUMapiRecipDesc@@@Z$2 0040372b f i sjutil:SendMail.obj
+ 0001:00002a8b       __catch$?_Insert_n@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@2@IABUMapiFileDesc@@@Z$0 00403a8b f i sjutil:SendMail.obj
+ 0001:00002a8b       __catch$?_Insert_n@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@2@IABUMapiRecipDesc@@@Z$0 00403a8b f i sjutil:SendMail.obj
+ 0001:00002a97       __catch$?_Insert_n@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@2@IABUMapiFileDesc@@@Z$2 00403a97 f i sjutil:SendMail.obj
+ 0001:00002a97       __catch$?_Insert_n@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@2@IABUMapiRecipDesc@@@Z$2 00403a97 f i sjutil:SendMail.obj
+ 0001:000033f9       _pre_cpp_init              004043f9 f   MSVCRT:crtexew.obj
+ 0001:00003444       ___tmainCRTStartup         00404444 f   MSVCRT:crtexew.obj
+ 0001:00003623       _pre_c_init                00404623 f   MSVCRT:crtexew.obj
+ 0001:00003e10       __unwindfunclet$?_Xlen@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@KAXXZ$0 00404e10 f   sjutil:SendMail.obj
+ 0001:00003e10       __unwindfunclet$?_Xlen@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@KAXXZ$0 00404e10 f   sjutil:SendMail.obj
+ 0001:00003e10       __unwindfunclet$?_Xlen@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@KAXXZ$0 00404e10 f   sjutil:SendMail.obj
+ 0001:00003e19       __ehhandler$?_Xlen@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@KAXXZ 00404e19 f   sjutil:SendMail.obj
+ 0001:00003e19       __ehhandler$?_Xlen@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@KAXXZ 00404e19 f   sjutil:SendMail.obj
+ 0001:00003e19       __ehhandler$?_Xlen@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@KAXXZ 00404e19 f   sjutil:SendMail.obj
+ 0001:00003e40       __ehhandler$??$_Uninit_copy@PAUMapiFileDesc@@PAU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAPAUMapiFileDesc@@PAU1@00AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00404e40 f   sjutil:SendMail.obj
+ 0001:00003e40       __ehhandler$??$_Uninit_copy@PAUMapiRecipDesc@@PAU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAPAUMapiRecipDesc@@PAU1@00AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00404e40 f   sjutil:SendMail.obj
+ 0001:00003e60       __ehhandler$??$_Uninit_fill_n@PAUMapiFileDesc@@IU1@V?$allocator@UMapiFileDesc@@@std@@@std@@YAXPAUMapiFileDesc@@IABU1@AAV?$allocator@UMapiFileDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00404e60 f   sjutil:SendMail.obj
+ 0001:00003e60       __ehhandler$??$_Uninit_fill_n@PAUMapiRecipDesc@@IU1@V?$allocator@UMapiRecipDesc@@@std@@@std@@YAXPAUMapiRecipDesc@@IABU1@AAV?$allocator@UMapiRecipDesc@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00404e60 f   sjutil:SendMail.obj
+ 0001:00003e80       __ehhandler$?_Insert_n@?$vector@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@PAUMapiRecipDesc@@V?$allocator@PAUMapiRecipDesc@@@std@@@2@IABQAUMapiRecipDesc@@@Z 00404e80 f   sjutil:SendMail.obj
+ 0001:00003ea0       __ehhandler$?_Insert_n@?$vector@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiRecipDesc@@V?$allocator@UMapiRecipDesc@@@std@@@2@IABUMapiRecipDesc@@@Z 00404ea0 f   sjutil:SendMail.obj
+ 0001:00003ea0       __ehhandler$?_Insert_n@?$vector@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@std@@IAEXV?$_Vector_iterator@UMapiFileDesc@@V?$allocator@UMapiFileDesc@@@std@@@2@IABUMapiFileDesc@@@Z 00404ea0 f   sjutil:SendMail.obj
+ 0001:00003ec0       __unwindfunclet$_SESendMailEx@20$10 00404ec0 f   sjutil:SendMail.obj
+ 0001:00003ec9       __unwindfunclet$_SESendMailEx@20$11 00404ec9 f   sjutil:SendMail.obj
+ 0001:00003ed2       __unwindfunclet$_SESendMailEx@20$12 00404ed2 f   sjutil:SendMail.obj
+ 0001:00003edd       __unwindfunclet$_SESendMailEx@20$13 00404edd f   sjutil:SendMail.obj
+ 0001:00003ee8       __unwindfunclet$_SESendMailEx@20$14 00404ee8 f   sjutil:SendMail.obj
+ 0001:00003ef3       __ehhandler$_SESendMailEx@20 00404ef3 f   sjutil:SendMail.obj
+ 0001:00003f30       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 00404f30 f    CIL library: CIL module
+ 0001:00003f30       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 00404f30 f    CIL library: CIL module
+ 0001:00003f39       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 00404f39 f    CIL library: CIL module
+ 0001:00003f39       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 00404f39 f    CIL library: CIL module
+ 0001:00003f45       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00404f45 f    CIL library: CIL module
+ 0001:00003f45       __ehhandler$??1logic_error@std@@UAE@XZ 00404f45 f    CIL library: CIL module
+ 0001:00003f60       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 00404f60 f    CIL library: CIL module
+ 0001:00003f69       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 00404f69 f    CIL library: CIL module
+ 0001:00003f75       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 00404f75 f    CIL library: CIL module
+ 0001:00003f90       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 00404f90 f    CIL library: CIL module
+ 0001:00003f99       __ehhandler$??1bad_alloc@std@@UAE@XZ 00404f99 f    CIL library: CIL module
+ 0001:00003fc0       __unwindfunclet$?construct@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV32@@Z$0 00404fc0 f    CIL library: CIL module
+ 0001:00003fd1       __ehhandler$?construct@?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV32@@Z 00404fd1 f    CIL library: CIL module
+ 0001:00003ff0       __ehhandler$??$_Uninit_fill_n@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@IABV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 00404ff0 f    CIL library: CIL module
+ 0001:00004010       __unwindfunclet$?ShowUsage@@YAXPBD@Z$0 00405010 f    CIL library: CIL module
+ 0001:00004019       __ehhandler$?ShowUsage@@YAXPBD@Z 00405019 f    CIL library: CIL module
+ 0001:00004050       __unwindfunclet$?RemoveQuotes@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$0 00405050 f    CIL library: CIL module
+ 0001:0000406a       __ehhandler$?RemoveQuotes@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 0040506a f    CIL library: CIL module
+ 0001:00004090       __unwindfunclet$??1getopts@@QAE@XZ$0 00405090 f    CIL library: CIL module
+ 0001:00004098       __ehhandler$??1getopts@@QAE@XZ 00405098 f    CIL library: CIL module
+ 0001:000040c0       __unwindfunclet$??1length_error@std@@UAE@XZ$0 004050c0 f    CIL library: CIL module
+ 0001:000040c8       __ehhandler$??1length_error@std@@UAE@XZ 004050c8 f    CIL library: CIL module
+ 0001:000040f0       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 004050f0 f    CIL library: CIL module
+ 0001:000040f0       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 004050f0 f    CIL library: CIL module
+ 0001:000040f0       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 004050f0 f    CIL library: CIL module
+ 0001:000040f8       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004050f8 f    CIL library: CIL module
+ 0001:000040f8       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 004050f8 f    CIL library: CIL module
+ 0001:000040f8       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 004050f8 f    CIL library: CIL module
+ 0001:00004120       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 00405120 f    CIL library: CIL module
+ 0001:00004120       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 00405120 f    CIL library: CIL module
+ 0001:00004120       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 00405120 f    CIL library: CIL module
+ 0001:00004129       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 00405129 f    CIL library: CIL module
+ 0001:00004129       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 00405129 f    CIL library: CIL module
+ 0001:00004129       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 00405129 f    CIL library: CIL module
+ 0001:00004150       __unwindfunclet$??$_Uninit_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PAV10@00AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Swap_move_tag@0@U_Range_checked_iterator_tag@0@@Z$2 00405150 f    CIL library: CIL module
+ 0001:00004159       __ehhandler$??$_Uninit_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PAV10@00AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U_Swap_move_tag@0@U_Range_checked_iterator_tag@0@@Z 00405159 f    CIL library: CIL module
+ 0001:00004180       __unwindfunclet$?_Xlen@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@KAXXZ$0 00405180 f    CIL library: CIL module
+ 0001:00004189       __unwindfunclet$?_Xlen@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@KAXXZ$1 00405189 f    CIL library: CIL module
+ 0001:00004191       __ehhandler$?_Xlen@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@KAXXZ 00405191 f    CIL library: CIL module
+ 0001:000041b0       __unwindfunclet$?_Insert_n@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z$4 004051b0 f    CIL library: CIL module
+ 0001:000041b9       __ehhandler$?_Insert_n@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXV?$_Vector_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 004051b9 f    CIL library: CIL module
+ 0001:000041e0       __unwindfunclet$?_Xlen@?$vector@PADV?$allocator@PAD@std@@@std@@KAXXZ$0 004051e0 f    CIL library: CIL module
+ 0001:000041e9       __unwindfunclet$?_Xlen@?$vector@PADV?$allocator@PAD@std@@@std@@KAXXZ$1 004051e9 f    CIL library: CIL module
+ 0001:000041f1       __ehhandler$?_Xlen@?$vector@PADV?$allocator@PAD@std@@@std@@KAXXZ 004051f1 f    CIL library: CIL module
+ 0001:00004210       __ehhandler$?_Insert_n@?$vector@PADV?$allocator@PAD@std@@@std@@IAEXV?$_Vector_iterator@PADV?$allocator@PAD@std@@@2@IABQAD@Z 00405210 f    CIL library: CIL module
+ 0001:00004230       __unwindfunclet$??0getopts@@QAE@PAD@Z$0 00405230 f    CIL library: CIL module
+ 0001:00004238       __ehhandler$??0getopts@@QAE@PAD@Z 00405238 f    CIL library: CIL module
+ 0001:00004260       __unwindfunclet$_WinMain@16$0 00405260 f    CIL library: CIL module
+ 0001:00004269       __unwindfunclet$_WinMain@16$1 00405269 f    CIL library: CIL module
+ 0001:00004272       __unwindfunclet$_WinMain@16$2 00405272 f    CIL library: CIL module
+ 0001:0000427b       __unwindfunclet$_WinMain@16$3 0040527b f    CIL library: CIL module
+ 0001:00004286       __unwindfunclet$_WinMain@16$4 00405286 f    CIL library: CIL module
+ 0001:00004291       __unwindfunclet$_WinMain@16$5 00405291 f    CIL library: CIL module
+ 0001:0000429c       __unwindfunclet$_WinMain@16$6 0040529c f    CIL library: CIL module
+ 0001:000042a9       __unwindfunclet$_WinMain@16$7 004052a9 f    CIL library: CIL module
+ 0001:000042b5       __unwindfunclet$_WinMain@16$8 004052b5 f    CIL library: CIL module
+ 0001:000042c1       __unwindfunclet$_WinMain@16$9 004052c1 f    CIL library: CIL module
+ 0001:000042cd       __unwindfunclet$_WinMain@16$10 004052cd f    CIL library: CIL module
+ 0001:000042d9       __unwindfunclet$_WinMain@16$11 004052d9 f    CIL library: CIL module
+ 0001:000042e5       __unwindfunclet$_WinMain@16$12 004052e5 f    CIL library: CIL module
+ 0001:000042f1       __unwindfunclet$_WinMain@16$13 004052f1 f    CIL library: CIL module
+ 0001:000042fd       __unwindfunclet$_WinMain@16$14 004052fd f    CIL library: CIL module
+ 0001:00004309       __unwindfunclet$_WinMain@16$15 00405309 f    CIL library: CIL module
+ 0001:00004315       __unwindfunclet$_WinMain@16$16 00405315 f    CIL library: CIL module
+ 0001:00004321       __unwindfunclet$_WinMain@16$19 00405321 f    CIL library: CIL module
+ 0001:0000432c       __unwindfunclet$_WinMain@16$17 0040532c f    CIL library: CIL module
+ 0001:00004338       __unwindfunclet$_WinMain@16$18 00405338 f    CIL library: CIL module
+ 0001:00004344       __unwindfunclet$_WinMain@16$20 00405344 f    CIL library: CIL module
+ 0001:0000434f       __unwindfunclet$_WinMain@16$21 0040534f f    CIL library: CIL module
+ 0001:0000435a       __ehhandler$_WinMain@16    0040535a f    CIL library: CIL module
+ 0001:00004390       ??__EGNULL_Camera@@YAXXZ   00405390 f   sjutil:sjutil.obj
+ 0001:000043b0       ??__EGNULL_CAMERA@@YAXXZ   004053b0 f   sjutil:sjutil.obj
+ 0001:000043d0       ??__EGID_Camera@@YAXXZ     004053d0 f   sjutil:sjutil.obj
+ 0001:000043f0       ??__EGID_CAMERA@@YAXXZ     004053f0 f   sjutil:sjutil.obj

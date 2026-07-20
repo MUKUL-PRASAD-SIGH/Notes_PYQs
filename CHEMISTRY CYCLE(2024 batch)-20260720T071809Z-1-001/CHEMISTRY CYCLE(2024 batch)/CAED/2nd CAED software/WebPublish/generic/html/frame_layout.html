@@ -1,0 +1,33 @@
+<html>
+<head>
+<script LANGUAGE="JavaScript" src="util.js"></script>
+<script LANGUAGE="JavaScript">
+function write_frames() {
+var aType=top_level.gtv("aType")
+var onef=aType=="part"||aType=="sheetmetal"
+document.writeln ('<FRAMESET frameborder="1" border="1" rows="15%,*" onload="top_level.initializeTree()">')
+document.writeln ('  <FRAME scrolling="auto" name="header_frame" src="header.html">')
+document.writeln ('  <FRAMESET frameborder="1" border="1" cols="35%,*" >')
+if (!onef) {
+document.writeln ('    <FRAMESET frameborder="1" border="1" rows="75%,*" >')
+document.writeln ('      <FRAME scrolling="auto" name="instruction_frame" src="inst.html" >')
+}
+document.writeln ('      <FRAME scrolling="auto" name="properties_frame" src="prop.html" >')
+if (!onef) {
+document.writeln ('    </FRAMESET>')
+}
+if (!onef) {
+document.writeln ('    <FRAME scrolling="auto" name="visuals_frame" src="visuals.html">')
+}
+else {
+document.writeln ('    <FRAME scrolling="auto" name="visuals_frame" src="part_visuals.html">')
+}
+document.writeln ('  </FRAMESET>')
+document.writeln ('</FRAMESET>')
+}
+</script>
+</head>
+<script LANGUAGE="JavaScript">
+write_frames()
+</script>
+</html>

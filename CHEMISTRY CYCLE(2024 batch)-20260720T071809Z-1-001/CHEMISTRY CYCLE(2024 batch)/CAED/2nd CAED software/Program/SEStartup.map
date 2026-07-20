@@ -1,0 +1,1795 @@
+ SEStartup
+
+ Timestamp is 46b3ab71 (Fri Aug 03 17:25:53 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005243H .text                   CODE
+ 0001:00005250 00000a44H .text$x                 CODE
+ 0001:00005ca0 000213ebH .text$yc                CODE
+ 0001:00027090 000003baH .text$yd                CODE
+ 0002:00000000 00000da8H .Additional             CODE
+ 0002:00000db0 000000aaH .Additional$x           CODE
+ 0003:00000000 000001d4H .idata$5                DATA
+ 0003:000001d4 00000004H .CRT$XCA                DATA
+ 0003:000001d8 00000310H .CRT$XCU                DATA
+ 0003:000004e8 00000004H .CRT$XCZ                DATA
+ 0003:000004ec 00000004H .CRT$XIA                DATA
+ 0003:000004f0 00000004H .CRT$XIAA               DATA
+ 0003:000004f4 00000004H .CRT$XIZ                DATA
+ 0003:00000500 00002b70H .rdata                  DATA
+ 0003:00003070 00000033H .rdata$debug            DATA
+ 0003:000030a4 00000000H .rdata$r                DATA
+ 0003:000030b0 00000098H .rdata$sxdata           DATA
+ 0003:00003148 00000004H .rtc$IAA                DATA
+ 0003:0000314c 00000004H .rtc$IZZ                DATA
+ 0003:00003150 00000004H .rtc$TAA                DATA
+ 0003:00003154 00000004H .rtc$TZZ                DATA
+ 0003:00003158 000009b4H .xdata$x                DATA
+ 0003:00003b0c 00000000H ATL$__a                 DATA
+ 0003:00003b0c 00000000H ATL$__z                 DATA
+ 0003:00003b0c 000000c8H .idata$2                DATA
+ 0003:00003bd4 00000014H .idata$3                DATA
+ 0003:00003be8 000001d4H .idata$4                DATA
+ 0003:00003dbc 000008d8H .idata$6                DATA
+ 0003:000046a0 00000074H .edata                  DATA
+ 0004:00000000 00003c3cH .data                   DATA
+ 0004:00003c40 0000ee50H .bss                    DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000348H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000026       ___safe_se_handler_count   00000026     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?CleanRunningObjectTable@@YAXXZ 10001030 f   SEStartup.obj
+ 0001:00000160       ?IsEmbedded@@YAHPAD@Z      10001160 f   SEStartup.obj
+ 0001:00000260       ?IsAutomated@@YAHPAD@Z     10001260 f   SEStartup.obj
+ 0001:00000360       ?GetEnvironmentFromCmdLine@@YAKPAD@Z 10001360 f   SEStartup.obj
+ 0001:00000900       ?SetTextKey@@YAXPBD00@Z    10001900 f   SEStartup.obj
+ 0001:00000930       ?SetDwordKey@@YAXPBDK0@Z   10001930 f   SEStartup.obj
+ 0001:00000960       ?BuildRegistryPath@@YAPBDPBD@Z 10001960 f   SEStartup.obj
+ 0001:000009b0       ??$sprintf@$0BAE@@@YAHAAY0BAE@DPBDZZ 100019b0 f i startupcrcstuff.obj
+ 0001:000009d0       ?GetFileFormats@JFILETYPEINFO@@QAEJPAPAV?$JArray@UtagJFILEFORMAT@@AAU1@@@@Z 100019d0 f i startupcrcstuff.obj
+ 0001:00000a10       ?RemoveAt@?$JArray@UtagJFILEFORMAT@@AAU1@@@QAEXHH@Z 10001a10 f i startupcrcstuff.obj
+ 0001:00000a54       _JConnectDDEServer         10001a54 f   jengine:jengine.dll
+ 0001:00000a5a       _JWinMain@28               10001a5a f   jengine:jengine.dll
+ 0001:00000a60       ?JCheckRegEntryStringEx@@YAJPBDPAD0PAPADHHPAUHKEY__@@@Z 10001a60 f   jutil:JUtil.dll
+ 0001:00000a66       ?JCheckRegEntryDWORDEx@@YAJPBDK0PAKHHPAUHKEY__@@@Z 10001a66 f   jutil:JUtil.dll
+ 0001:00000a6c       _JGetSolidEdgeLocalMachineApplicationPath 10001a6c f   jutil:JUtil.dll
+ 0001:00000a72       _Jlmchk_IsValid            10001a72 f   jutil:JUtil.dll
+ 0001:00000a78       _Jlmchk_OutOnDemand@36     10001a78 f   jutil:JUtil.dll
+ 0001:00000a7e       _HRerrEx                   10001a7e f   jutil:JUtil.dll
+ 0001:00000a84       _IsFeatureDefinedInLicenseFile@8 10001a84 f   jutil:JUtil.dll
+ 0001:00000a8a       _JGetSolidEdgeCurrentUserApplicationPath 10001a8a f   jutil:JUtil.dll
+ 0001:00000a90       ?JGetFileTypeInfoByIndex@@YAJKPAPAVJFILETYPEINFO@@@Z 10001a90 f   jutil:JUtil.dll
+ 0001:00000a96       ?JGetFileTypeInfoCount@@YAJPAK@Z 10001a96 f   jutil:JUtil.dll
+ 0001:00000a9c       _Jlmchk_In@0               10001a9c f   jutil:JUtil.dll
+ 0001:00000aa2       _JFreeLibrary              10001aa2 f   jutil:JUtil.dll
+ 0001:00000aa8       ?JVerifySelfRegisteringDlls@@YAXXZ 10001aa8 f   jutil:JUtil.dll
+ 0001:00000aae       ?JNonLayoutLicenseExists@@YA_NXZ 10001aae f   jutil:JUtil.dll
+ 0001:00000ab4       ?JRFMS_SetSEECNestedItemSearch@@YAXH@Z 10001ab4 f   rfmssvs:RFMSsvs.dll
+ 0001:00000aba       ?JRFMS_SetIgnoreTCSwitch@@YAX_N@Z 10001aba f   rfmssvs:RFMSsvs.dll
+ 0001:00000ac0       ?JRFMS_SetEdgeManagerInstallStatus@@YAX_N@Z 10001ac0 f   rfmssvs:RFMSsvs.dll
+ 0001:00000ac6       ?JRFMS_SetDesignDraftingLicenseVar@@YAXH@Z 10001ac6 f   rfmssvs:RFMSsvs.dll
+ 0001:00000acc       ?JRFMS_EnableInsightAccess@@YAXHPAU_GUID@@PAVGUserText@@@Z 10001acc f   rfmssvs:RFMSsvs.dll
+ 0001:00000ae0       ?SetLicenseLoaded@@YAXH@Z  10001ae0 f   seinit:seinit.obj
+ 0001:00000af0       ??$ConstructElements@PBD@@YGXPAPBDH@Z 10001af0 f i seinit:seinit.obj
+ 0001:00000b10       ??$ConstructElements@U_GUID@@@@YGXPAU_GUID@@H@Z 10001b10 f i seinit:seinit.obj
+ 0001:00000b30       ?SetMember@JOBJCMDINFO@@AAEXPAU_GUID@@PBU2@U2@@Z 10001b30 f i seinit:seinit.obj
+ 0001:00000ba0       ?ConstructElements@@YGXPAUtagJCLSIDPAIR@@H@Z 10001ba0 f i seinit:seinit.obj
+ 0001:00000ba0       ?ConstructElements@@YGXPAVJOBJFACELETINFO@@H@Z 10001ba0 f i seinit:seinit.obj
+ 0001:00000c10       ?ConstructElements@@YGXPAUtagJCMDINFOINFO@@H@Z 10001c10 f i seinit:seinit.obj
+ 0001:00000c40       ?ConstructElements@@YGXPAUtagJNAMECLSID@@H@Z 10001c40 f i seinit:seinit.obj
+ 0001:00000c40       ?ConstructElements@@YGXPAVJFILEEXTENSIONS@@H@Z 10001c40 f i seinit:seinit.obj
+ 0001:00000c90       ?ConstructElements@@YGXPAUtagJENVHOOK@@H@Z 10001c90 f i seinit:seinit.obj
+ 0001:00000cc0       ?Reset@JENVIRONMENTINFO@@AAEXPBD@Z 10001cc0 f i seinit:seinit.obj
+ 0001:00000d60       ?ConstructElements@@YGXPAUtagJCLIPBOARDFORMAT@@H@Z 10001d60 f i seinit:seinit.obj
+ 0001:00000dd0       ??0tagJFILEFORMATOPTIONS@@QAE@XZ 10001dd0 f i seinit:seinit.obj
+ 0001:00000e70       ?ConstructElements@@YGXPAUtagJFILEFORMAT@@H@Z 10001e70 f i seinit:seinit.obj
+ 0001:00000ed0       ?ConstructElements@@YGXPAUtagJPROPERTYSHEETENTRY@@H@Z 10001ed0 f i seinit:seinit.obj
+ 0001:00000f20       ?Reset@JFILETYPEINFO@@AAEXABU_GUID@@@Z 10001f20 f i seinit:seinit.obj
+ 0001:00001050       ?SetSize@?$JArray@PBDPBD@@QAEXHH@Z 10002050 f i seinit:seinit.obj
+ 0001:00001170       ?SetSize@?$JArray@U_GUID@@AAU1@@@QAEXHH@Z 10002170 f i seinit:seinit.obj
+ 0001:00001290       ?SetSize@?$JArray@UtagJCLSIDPAIR@@AAU1@@@QAEXHH@Z 10002290 f i seinit:seinit.obj
+ 0001:00001290       ?SetSize@?$JArray@VJOBJFACELETINFO@@AAV1@@@QAEXHH@Z 10002290 f i seinit:seinit.obj
+ 0001:000013b0       ?SetSize@?$JArray@UtagJCMDINFOINFO@@AAU1@@@QAEXHH@Z 100023b0 f i seinit:seinit.obj
+ 0001:000014f0       ?SetSize@?$JArray@UtagJNAMECLSID@@AAU1@@@QAEXHH@Z 100024f0 f i seinit:seinit.obj
+ 0001:000014f0       ?SetSize@?$JArray@VJFILEEXTENSIONS@@AAV1@@@QAEXHH@Z 100024f0 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@VJFILEEXTENSIONS@@AAV1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJENVHOOK@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJCLIPBOARDFORMAT@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJCLSIDPAIR@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJPROPERTYSHEETENTRY@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJCMDINFOINFO@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@VJOBJFACELETINFO@@AAV1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJNAMECLSID@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@UtagJFILEFORMAT@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@U_GUID@@AAU1@@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001610       ??1?$JArray@PBDPBD@@QAE@XZ 10002610 f i seinit:seinit.obj
+ 0001:00001620       ?SetSize@?$JArray@UtagJENVHOOK@@AAU1@@@QAEXHH@Z 10002620 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@VJFILETYPEINFO@@AAV1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@U_GUID@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJCMDINFOINFO@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJFILEFORMAT@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@VJFILEEXTENSIONS@@AAV1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@PBDPBD@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@VJENVIRONMENTINFO@@AAV1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJCLIPBOARDFORMAT@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@VJOBJFACELETINFO@@AAV1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@VJOBJCMDINFO@@AAV1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJNAMECLSID@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJCLSIDPAIR@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJPROPERTYSHEETENTRY@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJENVHOOK@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001750       ??0?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QAE@XZ 10002750 f i seinit:seinit.obj
+ 0001:00001760       ?SetSize@?$JArray@UtagJCLIPBOARDFORMAT@@AAU1@@@QAEXHH@Z 10002760 f i seinit:seinit.obj
+ 0001:00001880       ?SetSize@?$JArray@UtagJFILEFORMAT@@AAU1@@@QAEXHH@Z 10002880 f i seinit:seinit.obj
+ 0001:000019b0       ?SetSize@?$JArray@UtagJPROPERTYSHEETENTRY@@AAU1@@@QAEXHH@Z 100029b0 f i seinit:seinit.obj
+ 0001:00001ad0       ?SetMember@JOBJCMDINFO@@AAEXPAV?$JArray@U_GUID@@AAU1@@@PAPBU_GUID@@HU3@@Z 10002ad0 f i seinit:seinit.obj
+ 0001:00001b70       ??0JOBJCMDINFO@@QAE@XZ     10002b70 f i seinit:seinit.obj
+ 0001:00001c60       ??0JOBJCMDINFO@@QAE@PBU_GUID@@000PAPBU1@H1H@Z 10002c60 f i seinit:seinit.obj
+ 0001:00001df0       ?ConstructElements@@YGXPAVJOBJCMDINFO@@H@Z 10002df0 f i seinit:seinit.obj
+ 0001:00001e20       ??1JOBJCMDINFO@@QAE@XZ     10002e20 f i seinit:seinit.obj
+ 0001:00001e80       ??0JENVIRONMENTINFO@@QAE@XZ 10002e80 f i seinit:seinit.obj
+ 0001:00001f30       ?ConstructElements@@YGXPAVJENVIRONMENTINFO@@H@Z 10002f30 f i seinit:seinit.obj
+ 0001:00001f60       ??1JENVIRONMENTINFO@@QAE@XZ 10002f60 f i seinit:seinit.obj
+ 0001:00002000       ??0tagJCLIPBOARDFORMATS@@QAE@XZ 10003000 f i seinit:seinit.obj
+ 0001:00002060       ??0tagJFILETYPEINFOVIEW@@QAE@XZ 10003060 f i seinit:seinit.obj
+ 0001:000020e0       ?ConstructElements@@YGXPAUtagJFILETYPEINFOVIEW@@H@Z 100030e0 f i seinit:seinit.obj
+ 0001:00002110       ??1tagJFILETYPEINFOVIEW@@QAE@XZ 10003110 f i seinit:seinit.obj
+ 0001:00002160       ??1tagJCLIPBOARDFORMATS@@QAE@XZ 10003160 f i seinit:seinit.obj
+ 0001:000021b0       ??$CopyArrayTemplate@V?$JArray@U_GUID@@AAU1@@@@@YAXAAV?$JArray@U_GUID@@AAU1@@@ABV0@@Z 100031b0 f i seinit:seinit.obj
+ 0001:00002220       ??$CopyArrayTemplate@V?$JArray@UtagJCLSIDPAIR@@AAU1@@@@@YAXAAV?$JArray@UtagJCLSIDPAIR@@AAU1@@@ABV0@@Z 10003220 f i seinit:seinit.obj
+ 0001:00002280       ??$CopyArrayTemplate@V?$JArray@UtagJCMDINFOINFO@@AAU1@@@@@YAXAAV?$JArray@UtagJCMDINFOINFO@@AAU1@@@ABV0@@Z 10003280 f i seinit:seinit.obj
+ 0001:000022e0       ??$CopyArrayTemplate@V?$JArray@UtagJNAMECLSID@@AAU1@@@@@YAXAAV?$JArray@UtagJNAMECLSID@@AAU1@@@ABV0@@Z 100032e0 f i seinit:seinit.obj
+ 0001:00002350       ??$CopyArrayTemplate@V?$JArray@UtagJENVHOOK@@AAU1@@@@@YAXAAV?$JArray@UtagJENVHOOK@@AAU1@@@ABV0@@Z 10003350 f i seinit:seinit.obj
+ 0001:000023a0       ??$CopyArrayTemplate@V?$JArray@UtagJCLIPBOARDFORMAT@@AAU1@@@@@YAXAAV?$JArray@UtagJCLIPBOARDFORMAT@@AAU1@@@ABV0@@Z 100033a0 f i seinit:seinit.obj
+ 0001:00002400       ??$CopyArrayTemplate@V?$JArray@PBDPBD@@@@YAXAAV?$JArray@PBDPBD@@ABV0@@Z 10003400 f i seinit:seinit.obj
+ 0001:00002450       ??$CopyArrayTemplate@V?$JArray@UtagJFILEFORMAT@@AAU1@@@@@YAXAAV?$JArray@UtagJFILEFORMAT@@AAU1@@@ABV0@@Z 10003450 f i seinit:seinit.obj
+ 0001:000024c0       ??$CopyArrayTemplate@V?$JArray@UtagJPROPERTYSHEETENTRY@@AAU1@@@@@YAXAAV?$JArray@UtagJPROPERTYSHEETENTRY@@AAU1@@@ABV0@@Z 100034c0 f i seinit:seinit.obj
+ 0001:00002530       ?CopyIt@JOBJCMDINFO@@AAEXABV1@@Z 10003530 f i seinit:seinit.obj
+ 0001:000025c0       ?DestructElements@@YGXPAVJOBJCMDINFO@@H@Z 100035c0 f i seinit:seinit.obj
+ 0001:00002640       ?CopyIt@JENVIRONMENTINFO@@AAEXABV1@@Z 10003640 f i seinit:seinit.obj
+ 0001:00002780       ?DestructElements@@YGXPAVJENVIRONMENTINFO@@H@Z 10003780 f i seinit:seinit.obj
+ 0001:000027b0       ??0tagJFILETYPEINFOVIEW@@QAE@ABU0@@Z 100037b0 f i seinit:seinit.obj
+ 0001:00002840       ?DestructElements@@YGXPAUtagJFILETYPEINFOVIEW@@H@Z 10003840 f i seinit:seinit.obj
+ 0001:000028b0       ?SetSize@?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QAEXHH@Z 100038b0 f i seinit:seinit.obj
+ 0001:00002a00       ??1?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QAE@XZ 10003a00 f i seinit:seinit.obj
+ 0001:00002a20       ?SetSize@?$JArray@VJOBJCMDINFO@@AAV1@@@QAEXHH@Z 10003a20 f i seinit:seinit.obj
+ 0001:00002b70       ??1?$JArray@VJOBJCMDINFO@@AAV1@@@QAE@XZ 10003b70 f i seinit:seinit.obj
+ 0001:00002b90       ??1?$JArray@VJENVIRONMENTINFO@@AAV1@@@QAE@XZ 10003b90 f i seinit:seinit.obj
+ 0001:00002bb0       ?SetSize@?$JArray@VJENVIRONMENTINFO@@AAV1@@@QAEXHH@Z 10003bb0 f i seinit:seinit.obj
+ 0001:00002d00       ?GetAt@?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z 10003d00 f i seinit:seinit.obj
+ 0001:00002d70       ??1tagJFILETYPEINFOVIEWS@@QAE@XZ 10003d70 f i seinit:seinit.obj
+ 0001:00002dc0       ??1JFILETYPEINFO@@QAE@XZ   10003dc0 f i seinit:seinit.obj
+ 0001:00002e60       ??A?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z 10003e60 f i seinit:seinit.obj
+ 0001:00002ec0       ??$SetInfo@VJENVIRONMENTINFO@@@@YAXAAV?$JArray@VJENVIRONMENTINFO@@AAV1@@@QAPAVJENVIRONMENTINFO@@H@Z 10003ec0 f i seinit:seinit.obj
+ 0001:00002f20       ??0JFILETYPEINFO@@QAE@XZ   10003f20 f i seinit:seinit.obj
+ 0001:00002fd0       ?ConstructElements@@YGXPAVJFILETYPEINFO@@H@Z 10003fd0 f i seinit:seinit.obj
+ 0001:00003000       ?DestructElements@@YGXPAVJFILETYPEINFO@@H@Z 10004000 f i seinit:seinit.obj
+ 0001:00003030       ??$CopyArrayTemplate@V?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@@@YAXAAV?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@ABV0@@Z 10004030 f i seinit:seinit.obj
+ 0001:00003100       ??1?$JArray@VJFILETYPEINFO@@AAV1@@@QAE@XZ 10004100 f i seinit:seinit.obj
+ 0001:00003120       ?SetSize@?$JArray@VJFILETYPEINFO@@AAV1@@@QAEXHH@Z 10004120 f i seinit:seinit.obj
+ 0001:00003270       ?CopyIt@JFILETYPEINFO@@AAEXABV1@@Z 10004270 f i seinit:seinit.obj
+ 0001:00003400       ??0tagJAPPDATA@@QAE@XZ     10004400 f i seinit:seinit.obj
+ 0001:000034b0       ??1tagJAPPDATA@@QAE@XZ     100044b0 f i seinit:seinit.obj
+ 0001:00003560       ??$SetInfo@VJFILETYPEINFO@@@@YAXAAV?$JArray@VJFILETYPEINFO@@AAV1@@@QAPAVJFILETYPEINFO@@H@Z 10004560 f i seinit:seinit.obj
+ 0001:000035c0       ?JInitializeSEData@@YAJXZ  100045c0 f   seinit:seinit.obj
+ 0001:00003c00       ??0tagJCLIPBOARDFORMAT@@QAE@PBDU_GUID@@1@Z 10004c00 f i seinit:partfiletypes.obj
+ 0001:00003c80       ??0tagJFILEFORMATOPTIONS@@QAE@U_GUID@@0@Z 10004c80 f i seinit:partfiletypes.obj
+ 0001:00003d40       ??0tagJFILEFORMATOPTIONS@@QAE@U_GUID@@000@Z 10004d40 f i seinit:partfiletypes.obj
+ 0001:00003e30       ??0tagJFILETYPEINFOVIEW@@QAE@PBDU_GUID@@0QAPBDH@Z 10004e30 f i seinit:partfiletypes.obj
+ 0001:00003f10       ??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z 10004f10 f i seinit:partfiletypes.obj
+ 0001:00004340       ??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z 10005340 f i seinit:profileenv.obj
+ 0001:00004710       ?GetClsidKeyCount@@YAHXZ   10005710 f   seinit:CmdInfo.obj
+ 0001:00004716       ??3@YAXPAX@Z               10005716 f   mfc80:MFC80.DLL
+ 0001:0000471c       ??_V@YAXPAX@Z              1000571c f   mfc80:MFC80.DLL
+ 0001:00004722       _malloc                    10005722 f   msvcrt:MSVCR80.dll
+ 0001:00004728       __callnewh                 10005728 f   msvcrt:MSVCR80.dll
+ 0001:0000472e       ___CxxFrameHandler3        1000572e f   msvcrt:MSVCR80.dll
+ 0001:00004734       @__security_check_cookie@4 10005734 f   msvcrt:secchk.obj
+ 0001:00004744       _memset                    10005744 f   msvcrt:MSVCR80.dll
+ 0001:0000474a       __except_handler4          1000574a f   msvcrt:chandler4gs.obj
+ 0001:00004770       __alloca_probe_16          10005770 f   msvcrt:alloca16.obj
+ 0001:00004786       __alloca_probe_8           10005786     msvcrt:alloca16.obj
+ 0001:000047a0       __allmul                   100057a0 f   msvcrt:llmul.obj
+ 0001:00004821       __CRT_INIT@12              10005821 f   msvcrt:crtdll.obj
+ 0001:00004ad6       __DllMainCRTStartup@12     10005ad6 f   msvcrt:crtdll.obj
+ 0001:00004af8       _memcpy                    10005af8 f   msvcrt:MSVCR80.dll
+ 0001:00004afe       __onexit                   10005afe f   msvcrt:atonexit.obj
+ 0001:00004b9d       _atexit                    10005b9d f   msvcrt:atonexit.obj
+ 0001:00004baf       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10005baf f   msvcrt:ehvecdtr.obj
+ 0001:00004c0d       ??_M@YGXPAXIHP6EX0@Z@Z     10005c0d f   msvcrt:ehvecdtr.obj
+ 0001:00004c70       __SEH_prolog4_GS           10005c70 f   msvcrt:sehprolg4gs.obj
+ 0001:00004cb8       __SEH_epilog4_GS           10005cb8 f   msvcrt:sehprolg4gs.obj
+ 0001:00004cc7       ___report_gsfailure        10005cc7 f   msvcrt:gs_report.obj
+ 0001:00004dcc       __except_handler4_common   10005dcc f   msvcrt:MSVCR80.dll
+ 0001:00004de0       __alloca_probe             10005de0     msvcrt:chkstk.obj
+ 0001:00004de0       __chkstk                   10005de0 f   msvcrt:chkstk.obj
+ 0001:00004e0b       ___clean_type_info_names   10005e0b f   msvcrt:tncleanup.obj
+ 0001:00004e17       __RTC_Initialize           10005e17 f   msvcrt:initsect.obj
+ 0001:00004e3b       __RTC_Terminate            10005e3b f   msvcrt:initsect.obj
+ 0001:00004e60       __ValidateImageBase        10005e60 f   msvcrt:pesect.obj
+ 0001:00004e90       __FindPESection            10005e90 f   msvcrt:pesect.obj
+ 0001:00004ed2       __IsNonwritableInCurrentImage 10005ed2 f   msvcrt:pesect.obj
+ 0001:00004f3e       __initterm                 10005f3e f   msvcrt:MSVCR80.dll
+ 0001:00004f44       __initterm_e               10005f44 f   msvcrt:MSVCR80.dll
+ 0001:00004f4a       __amsg_exit                10005f4a f   msvcrt:MSVCR80.dll
+ 0001:00004f50       ___CppXcptFilter           10005f50 f   msvcrt:MSVCR80.dll
+ 0001:00004f56       _DllMain@12                10005f56 f   msvcrt:dllmain.obj
+ 0001:00004f78       __SEH_prolog4              10005f78 f   msvcrt:sehprolg4.obj
+ 0001:00004fbd       __SEH_epilog4              10005fbd f   msvcrt:sehprolg4.obj
+ 0001:00004fd1       ___security_init_cookie    10005fd1 f   msvcrt:gs_support.obj
+ 0001:00005066       __unlock                   10006066 f   msvcrt:MSVCR80.dll
+ 0001:0000506c       ___dllonexit               1000606c f   msvcrt:MSVCR80.dll
+ 0001:00005072       __lock                     10006072 f   msvcrt:MSVCR80.dll
+ 0001:00005078       ?terminate@@YAXXZ          10006078 f   msvcrt:MSVCR80.dll
+ 0001:0000507e       __crt_debugger_hook        1000607e f   msvcrt:MSVCR80.dll
+ 0001:00005084       ___clean_type_info_names_internal 10006084 f   msvcrt:MSVCR80.dll
+ 0001:0000508a       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000608a f i atls:atltrace.obj
+ 0001:000050ef       ?_AtlGetThreadACPReal@ATL@@YGIXZ 100060ef f i atls:atltrace.obj
+ 0001:000050f3       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 100060f3 f i atls:atltrace.obj
+ 0001:00005158       ?JInitializeSolidEdgeData@@YAJPAUtagJAPPDATA@@@Z 10006158 f   jutil:JUtil.dll
+ 0001:0000515e       ?JCheckRegDebugEntryDWORD@@YAKPBDK0HH@Z 1000615e f   jutil:JUtil.dll
+ 0001:00005220       __RawDllMainProxy@12       10006220 f   mfcs80:rawdllmainproxy.obj
+ 0002:00000000       ?JHasInsightFeatureLicense@@YAHXZ 10029000 f   startupcrcstuff.obj
+ 0002:00000110       ?AscertainSEECInstall@@YAHXZ 10029110 f   startupcrcstuff.obj
+ 0002:00000380       ?IsLicenseKeyOk@@YAHPAUHINSTANCE__@@HHPBD@Z 10029380 f   startupcrcstuff.obj
+ 0002:000005e0       ?SetApplicationDefaults@@YAXPBD00KK0K0@Z 100295e0 f   startupcrcstuff.obj
+ 0002:000006d0       ?CleanupFileTable@@YAXXZ   100296d0 f   startupcrcstuff.obj
+ 0002:00000830       _JStartupSolidEdgeCommon@16 10029830 f   startupcrcstuff.obj
+ 0003:00000000       __imp__RegCloseKey@4       1002a000     advapi32:ADVAPI32.dll
+ 0003:00000004       __imp__RegQueryValueExA@24 1002a004     advapi32:ADVAPI32.dll
+ 0003:00000008       __imp__RegOpenKeyExA@20    1002a008     advapi32:ADVAPI32.dll
+ 0003:0000000c       \177ADVAPI32_NULL_THUNK_DATA 1002a00c     advapi32:ADVAPI32.dll
+ 0003:00000010       __imp_?Find@GUserText@@QBEHABV1@H@Z 1002a010     jutil:JUtil.dll
+ 0003:00000014       __imp_??0GUserText@@QAE@PB_WHH@Z 1002a014     jutil:JUtil.dll
+ 0003:00000018       __imp_?ToLower@GUserText@@QAEHH@Z 1002a018     jutil:JUtil.dll
+ 0003:0000001c       __imp_??0GUserText@@QAE@PBDHI@Z 1002a01c     jutil:JUtil.dll
+ 0003:00000020       __imp_?JCheckRegEntryStringEx@@YAJPBDPAD0PAPADHHPAUHKEY__@@@Z 1002a020     jutil:JUtil.dll
+ 0003:00000024       __imp_?JCheckRegEntryDWORDEx@@YAJPBDK0PAKHHPAUHKEY__@@@Z 1002a024     jutil:JUtil.dll
+ 0003:00000028       __imp__JGetSolidEdgeLocalMachineApplicationPath 1002a028     jutil:JUtil.dll
+ 0003:0000002c       __imp__Jlmchk_IsValid      1002a02c     jutil:JUtil.dll
+ 0003:00000030       __imp__Jlmchk_OutOnDemand@36 1002a030     jutil:JUtil.dll
+ 0003:00000034       __imp__HRerrEx             1002a034     jutil:JUtil.dll
+ 0003:00000038       __imp__IsFeatureDefinedInLicenseFile@8 1002a038     jutil:JUtil.dll
+ 0003:0000003c       __imp_??BGUserText@@QBEPB_WXZ 1002a03c     jutil:JUtil.dll
+ 0003:00000040       __imp_?IsEmpty@GUserText@@QBEHXZ 1002a040     jutil:JUtil.dll
+ 0003:00000044       __imp_??1GUserText@@QAE@XZ 1002a044     jutil:JUtil.dll
+ 0003:00000048       __imp_??BGUserText@@QBEPBDXZ 1002a048     jutil:JUtil.dll
+ 0003:0000004c       __imp_??YGUserText@@QAEAAV0@PB_W@Z 1002a04c     jutil:JUtil.dll
+ 0003:00000050       __imp_??YGUserText@@QAEAAV0@PBD@Z 1002a050     jutil:JUtil.dll
+ 0003:00000054       __imp_??0GUserText@@QAE@XZ 1002a054     jutil:JUtil.dll
+ 0003:00000058       __imp__JGetSolidEdgeCurrentUserApplicationPath 1002a058     jutil:JUtil.dll
+ 0003:0000005c       __imp_?JGetFileTypeInfoByIndex@@YAJKPAPAVJFILETYPEINFO@@@Z 1002a05c     jutil:JUtil.dll
+ 0003:00000060       __imp_?JGetFileTypeInfoCount@@YAJPAK@Z 1002a060     jutil:JUtil.dll
+ 0003:00000064       __imp__Jlmchk_In@0         1002a064     jutil:JUtil.dll
+ 0003:00000068       __imp__JFreeLibrary        1002a068     jutil:JUtil.dll
+ 0003:0000006c       __imp_?JVerifySelfRegisteringDlls@@YAXXZ 1002a06c     jutil:JUtil.dll
+ 0003:00000070       __imp_?JNonLayoutLicenseExists@@YA_NXZ 1002a070     jutil:JUtil.dll
+ 0003:00000074       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 1002a074     jutil:JUtil.dll
+ 0003:00000078       __imp_?JInitializeSolidEdgeData@@YAJPAUtagJAPPDATA@@@Z 1002a078     jutil:JUtil.dll
+ 0003:0000007c       __imp_?JCheckRegDebugEntryDWORD@@YAKPBDK0HH@Z 1002a07c     jutil:JUtil.dll
+ 0003:00000080       __imp_??4GUserText@@QAEAAV0@PBD@Z 1002a080     jutil:JUtil.dll
+ 0003:00000084       \177JUtil_NULL_THUNK_DATA  1002a084     jutil:JUtil.dll
+ 0003:00000088       __imp__GetThreadLocale@0   1002a088     kernel32:KERNEL32.dll
+ 0003:0000008c       __imp__GetACP@0            1002a08c     kernel32:KERNEL32.dll
+ 0003:00000090       __imp__GetLocaleInfoA@16   1002a090     kernel32:KERNEL32.dll
+ 0003:00000094       __imp__GetSystemTimeAsFileTime@4 1002a094     kernel32:KERNEL32.dll
+ 0003:00000098       __imp__GetCurrentProcessId@0 1002a098     kernel32:KERNEL32.dll
+ 0003:0000009c       __imp__GetCurrentThreadId@0 1002a09c     kernel32:KERNEL32.dll
+ 0003:000000a0       __imp__GetTickCount@0      1002a0a0     kernel32:KERNEL32.dll
+ 0003:000000a4       __imp__QueryPerformanceCounter@4 1002a0a4     kernel32:KERNEL32.dll
+ 0003:000000a8       __imp__DisableThreadLibraryCalls@4 1002a0a8     kernel32:KERNEL32.dll
+ 0003:000000ac       __imp__IsDebuggerPresent@0 1002a0ac     kernel32:KERNEL32.dll
+ 0003:000000b0       __imp__SetUnhandledExceptionFilter@4 1002a0b0     kernel32:KERNEL32.dll
+ 0003:000000b4       __imp__UnhandledExceptionFilter@4 1002a0b4     kernel32:KERNEL32.dll
+ 0003:000000b8       __imp__GetCurrentProcess@0 1002a0b8     kernel32:KERNEL32.dll
+ 0003:000000bc       __imp__TerminateProcess@8  1002a0bc     kernel32:KERNEL32.dll
+ 0003:000000c0       __imp__InterlockedCompareExchange@12 1002a0c0     kernel32:KERNEL32.dll
+ 0003:000000c4       __imp__Sleep@4             1002a0c4     kernel32:KERNEL32.dll
+ 0003:000000c8       __imp__GetVersionExA@4     1002a0c8     kernel32:KERNEL32.dll
+ 0003:000000cc       __imp__InterlockedExchange@8 1002a0cc     kernel32:KERNEL32.dll
+ 0003:000000d0       __imp__CreateMutexA@12     1002a0d0     kernel32:KERNEL32.dll
+ 0003:000000d4       __imp__GetLastError@0      1002a0d4     kernel32:KERNEL32.dll
+ 0003:000000d8       __imp__ReleaseMutex@4      1002a0d8     kernel32:KERNEL32.dll
+ 0003:000000dc       __imp__GetCommandLineA@0   1002a0dc     kernel32:KERNEL32.dll
+ 0003:000000e0       __imp__lstrcpyA@8          1002a0e0     kernel32:KERNEL32.dll
+ 0003:000000e4       __imp__lstrcatA@8          1002a0e4     kernel32:KERNEL32.dll
+ 0003:000000e8       __imp__GetModuleFileNameA@12 1002a0e8     kernel32:KERNEL32.dll
+ 0003:000000ec       \177KERNEL32_NULL_THUNK_DATA 1002a0ec     kernel32:KERNEL32.dll
+ 0003:000000f0       __imp_??3@YAXPAX@Z         1002a0f0     mfc80:MFC80.DLL
+ 0003:000000f4       __imp_??_V@YAXPAX@Z        1002a0f4     mfc80:MFC80.DLL
+ 0003:000000f8       \177MFC80_NULL_THUNK_DATA  1002a0f8     mfc80:MFC80.DLL
+ 0003:000000fc       __imp____clean_type_info_names_internal 1002a0fc     msvcrt:MSVCR80.dll
+ 0003:00000100       __imp____dllonexit         1002a100     msvcrt:MSVCR80.dll
+ 0003:00000104       __imp___unlock             1002a104     msvcrt:MSVCR80.dll
+ 0003:00000108       __imp____CppXcptFilter     1002a108     msvcrt:MSVCR80.dll
+ 0003:0000010c       __imp___adjust_fdiv        1002a10c     msvcrt:MSVCR80.dll
+ 0003:00000110       __imp___amsg_exit          1002a110     msvcrt:MSVCR80.dll
+ 0003:00000114       __imp___initterm_e         1002a114     msvcrt:MSVCR80.dll
+ 0003:00000118       __imp___initterm           1002a118     msvcrt:MSVCR80.dll
+ 0003:0000011c       __imp___decode_pointer     1002a11c     msvcrt:MSVCR80.dll
+ 0003:00000120       __imp___encoded_null       1002a120     msvcrt:MSVCR80.dll
+ 0003:00000124       __imp___malloc_crt         1002a124     msvcrt:MSVCR80.dll
+ 0003:00000128       __imp___encode_pointer     1002a128     msvcrt:MSVCR80.dll
+ 0003:0000012c       __imp___except_handler4_common 1002a12c     msvcrt:MSVCR80.dll
+ 0003:00000130       __imp__free                1002a130     msvcrt:MSVCR80.dll
+ 0003:00000134       __imp__memmove             1002a134     msvcrt:MSVCR80.dll
+ 0003:00000138       __imp__strcpy_s            1002a138     msvcrt:MSVCR80.dll
+ 0003:0000013c       __imp__strcat_s            1002a13c     msvcrt:MSVCR80.dll
+ 0003:00000140       __imp__vsprintf_s          1002a140     msvcrt:MSVCR80.dll
+ 0003:00000144       __imp___mbsrchr            1002a144     msvcrt:MSVCR80.dll
+ 0003:00000148       __imp__memset              1002a148     msvcrt:MSVCR80.dll
+ 0003:0000014c       __imp___wstat64i32         1002a14c     msvcrt:MSVCR80.dll
+ 0003:00000150       __imp____CxxFrameHandler3  1002a150     msvcrt:MSVCR80.dll
+ 0003:00000154       __imp___callnewh           1002a154     msvcrt:MSVCR80.dll
+ 0003:00000158       __imp__malloc              1002a158     msvcrt:MSVCR80.dll
+ 0003:0000015c       __imp___crt_debugger_hook  1002a15c     msvcrt:MSVCR80.dll
+ 0003:00000160       __imp_?terminate@@YAXXZ    1002a160     msvcrt:MSVCR80.dll
+ 0003:00000164       __imp___onexit             1002a164     msvcrt:MSVCR80.dll
+ 0003:00000168       __imp__memcpy              1002a168     msvcrt:MSVCR80.dll
+ 0003:0000016c       __imp___lock               1002a16c     msvcrt:MSVCR80.dll
+ 0003:00000170       __imp___putenv             1002a170     msvcrt:MSVCR80.dll
+ 0003:00000170       __imp__putenv              1002a170     msvcrt:MSVCR80.dll
+ 0003:00000174       \177MSVCR80_NULL_THUNK_DATA 1002a174     msvcrt:MSVCR80.dll
+ 0003:00000178       __imp_?JRFMS_EnableInsightAccess@@YAXHPAU_GUID@@PAVGUserText@@@Z 1002a178     rfmssvs:RFMSsvs.dll
+ 0003:0000017c       __imp_?JRFMS_SetDesignDraftingLicenseVar@@YAXH@Z 1002a17c     rfmssvs:RFMSsvs.dll
+ 0003:00000180       __imp_?JRFMS_SetEdgeManagerInstallStatus@@YAX_N@Z 1002a180     rfmssvs:RFMSsvs.dll
+ 0003:00000184       __imp_?JRFMS_SetIgnoreTCSwitch@@YAX_N@Z 1002a184     rfmssvs:RFMSsvs.dll
+ 0003:00000188       __imp_?JRFMS_SetSEECNestedItemSearch@@YAXH@Z 1002a188     rfmssvs:RFMSsvs.dll
+ 0003:0000018c       \177RFMSsvs_NULL_THUNK_DATA 1002a18c     rfmssvs:RFMSsvs.dll
+ 0003:00000190       __imp__PeekMessageA@20     1002a190     user32:USER32.dll
+ 0003:00000194       __imp__RegisterWindowMessageA@4 1002a194     user32:USER32.dll
+ 0003:00000198       \177USER32_NULL_THUNK_DATA 1002a198     user32:USER32.dll
+ 0003:0000019c       __imp__JWinMain@28         1002a19c     jengine:jengine.dll
+ 0003:000001a0       __imp__JConnectDDEServer   1002a1a0     jengine:jengine.dll
+ 0003:000001a4       \177jengine_NULL_THUNK_DATA 1002a1a4     jengine:jengine.dll
+ 0003:000001a8       __imp__CoUninitialize@0    1002a1a8     ole32:ole32.dll
+ 0003:000001ac       __imp__CreateBindCtx@8     1002a1ac     ole32:ole32.dll
+ 0003:000001b0       __imp__CoInitialize@4      1002a1b0     ole32:ole32.dll
+ 0003:000001b4       __imp__StringFromCLSID@8   1002a1b4     ole32:ole32.dll
+ 0003:000001b8       \177ole32_NULL_THUNK_DATA  1002a1b8     ole32:ole32.dll
+ 0003:000001bc       __imp_?TimerContainerComment@@YAXPBDK@Z 1002a1bc     timeutl:timeutl.dll
+ 0003:000001c0       __imp_?TimerContainerStop@@YAXXZ 1002a1c0     timeutl:timeutl.dll
+ 0003:000001c4       __imp_?TimerOutputTimingData@@YAXXZ 1002a1c4     timeutl:timeutl.dll
+ 0003:000001c8       __imp_?TimerClearTimingData@@YAXXZ 1002a1c8     timeutl:timeutl.dll
+ 0003:000001cc       __imp_?TimerContainerStart@@YAXPBD00@Z 1002a1cc     timeutl:timeutl.dll
+ 0003:000001d0       \177timeutl_NULL_THUNK_DATA 1002a1d0     timeutl:timeutl.dll
+ 0003:000001d4       ___xc_a                    1002a1d4     msvcrt:cinitexe.obj
+ 0003:000004e8       ___xc_z                    1002a4e8     msvcrt:cinitexe.obj
+ 0003:000004ec       ___xi_a                    1002a4ec     msvcrt:cinitexe.obj
+ 0003:000004f4       ___xi_z                    1002a4f4     msvcrt:cinitexe.obj
+ 0003:0000051c       ??_C@_1BG@NFBEDPI@?$AA?1?$AAe?$AAm?$AAb?$AAe?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 1002a51c     SEStartup.obj
+ 0003:00000534       ??_C@_1BG@CDABIKHI@?$AA?9?$AAe?$AAm?$AAb?$AAe?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?$AA@ 1002a534     SEStartup.obj
+ 0003:0000054c       ??_C@_1BI@BPKKELKE@?$AA?1?$AAa?$AAu?$AAt?$AAo?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1002a54c     SEStartup.obj
+ 0003:00000564       ??_C@_1BI@MGJBIHKL@?$AA?9?$AAa?$AAu?$AAt?$AAo?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$AA@ 1002a564     SEStartup.obj
+ 0003:0000057c       ??_C@_1M@HLHDEAOL@?$AAd?$AAr?$AAa?$AAf?$AAt?$AA?$AA@ 1002a57c     SEStartup.obj
+ 0003:00000588       ??_C@_1O@EKONDDGN@?$AA?1?$AAd?$AAr?$AAa?$AAf?$AAt?$AA?$AA@ 1002a588     SEStartup.obj
+ 0003:00000598       ??_C@_1O@KLIDPHMA@?$AA?9?$AAd?$AAr?$AAa?$AAf?$AAt?$AA?$AA@ 1002a598     SEStartup.obj
+ 0003:000005a8       ??_C@_1BC@JPPKMMFP@?$AAa?$AAs?$AAs?$AAe?$AAm?$AAb?$AAl?$AAy?$AA?$AA@ 1002a5a8     SEStartup.obj
+ 0003:000005bc       ??_C@_1BE@JBFHLILF@?$AA?1?$AAa?$AAs?$AAs?$AAe?$AAm?$AAb?$AAl?$AAy?$AA?$AA@ 1002a5bc     SEStartup.obj
+ 0003:000005d0       ??_C@_1BE@FLJJMODJ@?$AA?9?$AAa?$AAs?$AAs?$AAe?$AAm?$AAb?$AAl?$AAy?$AA?$AA@ 1002a5d0     SEStartup.obj
+ 0003:000005e4       ??_C@_1BC@BEHHMPIC@?$AAw?$AAe?$AAl?$AAd?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 1002a5e4     SEStartup.obj
+ 0003:000005f8       ??_C@_1BE@BKNKLLGI@?$AA?1?$AAw?$AAe?$AAl?$AAd?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 1002a5f8     SEStartup.obj
+ 0003:0000060c       ??_C@_1BE@NABEMNOE@?$AA?9?$AAw?$AAe?$AAl?$AAd?$AAm?$AAe?$AAn?$AAt?$AA?$AA@ 1002a60c     SEStartup.obj
+ 0003:00000620       ??_C@_1BG@JPMMFCDB@?$AAs?$AAh?$AAe?$AAe?$AAt?$AAm?$AAe?$AAt?$AAa?$AAl?$AA?$AA@ 1002a620     SEStartup.obj
+ 0003:00000638       ??_C@_1BI@IJOHNMEC@?$AA?1?$AAs?$AAh?$AAe?$AAe?$AAt?$AAm?$AAe?$AAt?$AAa?$AAl?$AA?$AA@ 1002a638     SEStartup.obj
+ 0003:00000650       ??_C@_1BI@FANMBAEN@?$AA?9?$AAs?$AAh?$AAe?$AAe?$AAt?$AAm?$AAe?$AAt?$AAa?$AAl?$AA?$AA@ 1002a650     SEStartup.obj
+ 0003:00000668       ??_C@_19FEMKCJDF@?$AAp?$AAa?$AAr?$AAt?$AA?$AA@ 1002a668     SEStartup.obj
+ 0003:00000674       ??_C@_1M@KGDAMDKF@?$AA?1?$AAp?$AAa?$AAr?$AAt?$AA?$AA@ 1002a674     SEStartup.obj
+ 0003:00000680       ??_C@_1M@EKALFNDK@?$AA?9?$AAp?$AAa?$AAr?$AAt?$AA?$AA@ 1002a680     SEStartup.obj
+ 0003:0000068c       ??_C@_01KICIPPFI@?2?$AA@   1002a68c     SEStartup.obj
+ 0003:00000690       ??_C@_0BB@IOHDHHEF@solidedgeinsight?$AA@ 1002a690     SEStartup.obj
+ 0003:000006a4       ??_C@_0BE@HDBEENBI@JDocumentTransition?$AA@ 1002a6a4     SEStartup.obj
+ 0003:000006b8       ??_C@_0BH@BLOKAFNP@JEnvironmentTransition?$AA@ 1002a6b8     SEStartup.obj
+ 0003:000006d0       ??_C@_0BD@JIAEEGLO@JViewSetTransition?$AA@ 1002a6d0     SEStartup.obj
+ 0003:000006e4       ??_C@_0BN@JHJLPFLL@JActiveEnvironmentTransition?$AA@ 1002a6e4     SEStartup.obj
+ 0003:00000704       ??_C@_0BB@LKKBMDEC@JSelectSetChange?$AA@ 1002a704     SEStartup.obj
+ 0003:00000718       ??_C@_0BF@OCMHANML@JContextHelpByHelpID?$AA@ 1002a718     SEStartup.obj
+ 0003:00000730       ??_C@_0BC@EKGLLHGO@JEnableAutomation?$AA@ 1002a730     SEStartup.obj
+ 0003:00000744       ??_C@_0BB@BJMHHHIG@JQueryAutomation?$AA@ 1002a744     SEStartup.obj
+ 0003:00000758       ??_C@_03FBKOFMHG@JVK?$AA@  1002a758     SEStartup.obj
+ 0003:0000075c       ??_C@_03KLEBLEPM@JVA?$AA@  1002a75c     SEStartup.obj
+ 0003:00000760       ??_C@_04FKGBADCC@JBMH?$AA@ 1002a760     SEStartup.obj
+ 0003:00000768       ??_C@_0BE@KNIEJLBD@JPROCESSDDEREQUESTS?$AA@ 1002a768     SEStartup.obj
+ 0003:0000077c       ??_C@_0BA@NJHJGFFP@JVARIABLECHANGE?$AA@ 1002a77c     SEStartup.obj
+ 0003:0000078c       ??_C@_0BD@LMMMPDEI@JDOCMARKEDEDITOPEN?$AA@ 1002a78c     SEStartup.obj
+ 0003:000007a0       ??_C@_0BD@NIOHACMH@JREFRESHSELECTLIST?$AA@ 1002a7a0     SEStartup.obj
+ 0003:000007b4       ??_C@_0BC@NPHMMION@AutomationCommand?$AA@ 1002a7b4     SEStartup.obj
+ 0003:000007c8       ??_C@_0O@KIPCLFIJ@JSetFrameMenu?$AA@ 1002a7c8     SEStartup.obj
+ 0003:000007d8       ??_C@_0BM@IGEJGMKB@MeasurementCommandCompleted?$AA@ 1002a7d8     SEStartup.obj
+ 0003:000007f4       ??_C@_0BL@MBELOECB@MeasurementVariableCreated?$AA@ 1002a7f4     SEStartup.obj
+ 0003:00000810       ??_C@_0BH@DAMMGAMN@JActiveSheetTransition?$AA@ 1002a810     SEStartup.obj
+ 0003:00000828       ??_C@_0BN@CPKMNBIN@ActivatePartCommandCompleted?$AA@ 1002a828     SEStartup.obj
+ 0003:00000848       ??_C@_0BL@GFMMIEDI@EndProfileCommandCompleted?$AA@ 1002a848     SEStartup.obj
+ 0003:00000864       ??_C@_0BG@HLEMPMDF@JEnableHelpAutomation?$AA@ 1002a864     SEStartup.obj
+ 0003:0000087c       ??_C@_0BF@JPIPAAJ@JQueryHelpAutomation?$AA@ 1002a87c     SEStartup.obj
+ 0003:00000894       ??_C@_0BD@EBFGFGMN@FOADisableControls?$AA@ 1002a894     SEStartup.obj
+ 0003:000008a8       ??_C@_0BE@ILBPHLHO@FOAReenableControls?$AA@ 1002a8a8     SEStartup.obj
+ 0003:000008bc       ??_C@_08GOIOPLGD@JCopilot?$AA@ 1002a8bc     SEStartup.obj
+ 0003:000008c8       ??_C@_05FIBOIAJM@JIdle?$AA@ 1002a8c8     SEStartup.obj
+ 0003:000008d0       ??_C@_0BJ@NMDPMBBB@WirePathCommandCompleted?$AA@ 1002a8d0     SEStartup.obj
+ 0003:000008ec       ??_C@_0BL@BCFKBNEE@JStartSpecificHelpTutorial?$AA@ 1002a8ec     SEStartup.obj
+ 0003:00000908       ??_C@_0BM@GKJCJFJE@CleanupForAutoBackupAndSave?$AA@ 1002a908     SEStartup.obj
+ 0003:00000924       ??_C@_0BL@BAPPMNOD@ViewUpdatedWithMouseButton?$AA@ 1002a924     SEStartup.obj
+ 0003:00000940       ??_C@_0N@ELIIMMOC@DTACheckName?$AA@ 1002a940     SEStartup.obj
+ 0003:00000950       ??_C@_0BG@IAMDNFAH@DTACheckCommandActive?$AA@ 1002a950     SEStartup.obj
+ 0003:00000968       ??_C@_0P@PFEINKLG@DTAUpdateTable?$AA@ 1002a968     SEStartup.obj
+ 0003:00000978       ??_C@_0BI@GHFHBMKN@TerminalBalloonModified?$AA@ 1002a978     SEStartup.obj
+ 0003:00000990       ??_C@_0BO@KABIPIKG@ModifyBalloonCommandCompleted?$AA@ 1002a990     SEStartup.obj
+ 0003:000009b0       ??_C@_0BM@FLOACCMP@ModifyBalloonCommandStarted?$AA@ 1002a9b0     SEStartup.obj
+ 0003:000009cc       ??_C@_0BM@DDDLKKEI@ModifyBalloonCommandNoPopup?$AA@ 1002a9cc     SEStartup.obj
+ 0003:000009e8       ??_C@_0BD@BPMNFGEJ@DTAEmptySelectList?$AA@ 1002a9e8     SEStartup.obj
+ 0003:000009fc       ??_C@_0BE@EODDBIPI@JRunningLowOnMemory?$AA@ 1002a9fc     SEStartup.obj
+ 0003:00000a10       ??_C@_0BF@MPBBMPPF@ViewTransformChanged?$AA@ 1002aa10     SEStartup.obj
+ 0003:00000a28       ??_C@_0BB@NGFLIGJD@LowMemoryWarning?$AA@ 1002aa28     SEStartup.obj
+ 0003:00000a3c       ??_C@_0BE@PJHMFMBG@OptionValueModified?$AA@ 1002aa3c     SEStartup.obj
+ 0003:00000a50       ??_C@_0BN@EPFKOMLG@TangentReferencePlaneRefresh?$AA@ 1002aa50     SEStartup.obj
+ 0003:00000a70       ??_C@_0BD@OAPIGFHO@BeginViewTransform?$AA@ 1002aa70     SEStartup.obj
+ 0003:00000a84       ??_C@_0BB@KJPLDJJM@EndViewTransform?$AA@ 1002aa84     SEStartup.obj
+ 0003:00000a98       ??_C@_0BF@CPDFGLOK@SolidEdge2DDraftingM?$AA@ 1002aa98     startupcrcstuff.obj
+ 0003:00000ab0       ??_C@_0BC@EMLCDEDJ@SEIDesignDrafting?$AA@ 1002aab0     startupcrcstuff.obj
+ 0003:00000ac4       ??_C@_0BB@IGPOAPCA@SEEmbeddedClient?$AA@ 1002aac4     startupcrcstuff.obj
+ 0003:00000ad8       ??_C@_0BB@PIBKEBKF@seembeddedclient?$AA@ 1002aad8     startupcrcstuff.obj
+ 0003:00000aec       ??_C@_0P@HGHLJHOB@InprocServer32?$AA@ 1002aaec     startupcrcstuff.obj
+ 0003:00000afc       ??_C@_05GIBEAPNE@CLSID?$AA@ 1002aafc     startupcrcstuff.obj
+ 0003:00000b04       ??_C@_0BG@HENODGFG@z?3?2include?2ugenutil?4h?$AA@ 1002ab04     startupcrcstuff.obj
+ 0003:00000b1c       ??_C@_0BO@CFODGMBD@JFILETYPEINFO?3?3GetFileFormats?$AA@ 1002ab1c     startupcrcstuff.obj
+ 0003:00000b3c       ??_C@_0BC@CCFMHJLD@seidesigndrafting?$AA@ 1002ab3c     startupcrcstuff.obj
+ 0003:00000b50       ??_C@_0BB@ILKJAGGO@SEDesignDrafting?$AA@ 1002ab50     startupcrcstuff.obj
+ 0003:00000b64       ??_C@_0BB@LIABPDNE@sedesigndrafting?$AA@ 1002ab64     startupcrcstuff.obj
+ 0003:00000b78       ??_C@_09LGMGOABD@SolidEdge?$AA@ 1002ab78     startupcrcstuff.obj
+ 0003:00000b84       ??_C@_02DPKJAMEF@?$CFd?$AA@ 1002ab84     startupcrcstuff.obj
+ 0003:00000b88       ??_C@_06IDCBBFJP@IconId?$AA@ 1002ab88     startupcrcstuff.obj
+ 0003:00000b90       ??_C@_06PBJNMCOG@ResLib?$AA@ 1002ab90     startupcrcstuff.obj
+ 0003:00000b98       ??_C@_04PNFIKAAD@Icon?$AA@ 1002ab98     startupcrcstuff.obj
+ 0003:00000b9d       ??_C@_00CNPNBAHC@?$AA@     1002ab9d     startupcrcstuff.obj
+ 0003:00000ba0       ??_C@_05MEDFLLNN@?2TOTD?$AA@ 1002aba0     startupcrcstuff.obj
+ 0003:00000ba8       ??_C@_0BC@CFEEJMEL@SolidEdgeOrigin3d?$AA@ 1002aba8     startupcrcstuff.obj
+ 0003:00000bbc       ??_C@_0BG@GNFEHPO@SolidEdge?4Application?$AA@ 1002abbc     startupcrcstuff.obj
+ 0003:00000bd4       ??_C@_06CNNBJKPB@NoShow?$AA@ 1002abd4     startupcrcstuff.obj
+ 0003:00000bdc       ??_C@_08OBKALPHO@ShowTips?$AA@ 1002abdc     startupcrcstuff.obj
+ 0003:00000be8       ??_C@_0BE@KIAENPGO@Solid?5Edge?5session?4?$AA@ 1002abe8     startupcrcstuff.obj
+ 0003:00000bfc       ??_C@_0DF@HCJDPKJO@The?5system?5container?5accumulates@ 1002abfc     startupcrcstuff.obj
+ 0003:00000c34       ??_C@_06FHFOAHML@system?$AA@ 1002ac34     startupcrcstuff.obj
+ 0003:00000c3c       ??_C@_0BJ@HPLLFGJJ@Mother?5of?5all?5Containers?$AA@ 1002ac3c     startupcrcstuff.obj
+ 0003:00000c58       ??_C@_0BI@CFAMBEJB@JStartupSolidEdgeCommon?$AA@ 1002ac58     startupcrcstuff.obj
+ 0003:00000c70       ??_C@_0CH@MKAECNKE@?$HL886F91D5?94B45?945DC?9938E?96B0276C@ 1002ac70     startupcrcstuff.obj
+ 0003:00000c98       ??_C@_0L@LJCLMGKF@SolidEdge_?$AA@ 1002ac98     startupcrcstuff.obj
+ 0003:00000ca4       ??_C@_0BN@COMFLIIN@SolidEdgeSingleInstanceMutex?$AA@ 1002aca4     startupcrcstuff.obj
+ 0003:00000cc4       ??_C@_0L@KMMKLMBF@separt?4dnx?$AA@ 1002acc4     startupcrcstuff.obj
+ 0003:00000cd0       ??_C@_0L@LJPGOGAB@separt?4drx?$AA@ 1002acd0     startupcrcstuff.obj
+ 0003:00000cdc       ??_C@_0M@NJALGCHB@Application?$AA@ 1002acdc     startupcrcstuff.obj
+ 0003:00000ce8       ??_C@_06ILGIONGP@Detail?$AA@ 1002ace8     startupcrcstuff.obj
+ 0003:00000cf0       ??_C@_0BI@KAJGCFPN@SolidEdge?4DraftDocument?$AA@ 1002acf0     startupcrcstuff.obj
+ 0003:00000d08       ??_C@_08DIMEECLG@Assembly?$AA@ 1002ad08     startupcrcstuff.obj
+ 0003:00000d14       ??_C@_0BL@PCIMGJDD@SolidEdge?4AssemblyDocument?$AA@ 1002ad14     startupcrcstuff.obj
+ 0003:00000d30       ??_C@_08CMPNOMPJ@Weldment?$AA@ 1002ad30     startupcrcstuff.obj
+ 0003:00000d3c       ??_C@_0BL@KDLAHGGG@SolidEdge?4WeldmentDocument?$AA@ 1002ad3c     startupcrcstuff.obj
+ 0003:00000d58       ??_C@_0L@KHNIHMEG@SheetMetal?$AA@ 1002ad58     startupcrcstuff.obj
+ 0003:00000d64       ??_C@_0BN@JGNJAOJL@SolidEdge?4SheetMetalDocument?$AA@ 1002ad64     startupcrcstuff.obj
+ 0003:00000d84       ??_C@_04JOHCFHID@Part?$AA@ 1002ad84     startupcrcstuff.obj
+ 0003:00000d8c       ??_C@_0BH@GBIGOECM@SolidEdge?4PartDocument?$AA@ 1002ad8c     startupcrcstuff.obj
+ 0003:00000da4       ??_C@_0CJ@FIAECFL@JTK_XLATR_ENABLE_PERSISTED_INSTA@ 1002ada4     startupcrcstuff.obj
+ 0003:00000dd0       ??_C@_0CF@ELGJBPKE@JTK_USE_MASTER_NOTATION_PMI_FORM@ 1002add0     startupcrcstuff.obj
+ 0003:00000df8       ??_C@_05HIKPKPAA@curve?$AA@ 1002adf8     stdstartup.obj
+ 0003:00000e00       ??_C@_07BOEDKGLJ@cpcurve?$AA@ 1002ae00     stdstartup.obj
+ 0003:00000e08       ??_C@_07PPKCIPKC@trcurve?$AA@ 1002ae08     stdstartup.obj
+ 0003:00000e10       ??_C@_07GCPIJHJC@spcurve?$AA@ 1002ae10     stdstartup.obj
+ 0003:00000e18       ??_C@_06LMGHKIAC@fcurve?$AA@ 1002ae18     stdstartup.obj
+ 0003:00000e20       ??_C@_06EKCPNIOL@icurve?$AA@ 1002ae20     stdstartup.obj
+ 0003:00000e28       ??_C@_06EICIIMBB@bcurve?$AA@ 1002ae28     stdstartup.obj
+ 0003:00000e30       ??_C@_07IANGJLLC@ellipse?$AA@ 1002ae30     stdstartup.obj
+ 0003:00000e38       ??_C@_06EPAGOIP@circle?$AA@ 1002ae38     stdstartup.obj
+ 0003:00000e40       ??_C@_04HJPCFDOP@line?$AA@ 1002ae40     stdstartup.obj
+ 0003:00000e48       ??_C@_07OLGKIMHI@blendsf?$AA@ 1002ae48     stdstartup.obj
+ 0003:00000e50       ??_C@_04EFNENOPD@spun?$AA@ 1002ae50     stdstartup.obj
+ 0003:00000e58       ??_C@_05JLCDMOHP@swept?$AA@ 1002ae58     stdstartup.obj
+ 0003:00000e60       ??_C@_05BGNBAILF@fsurf?$AA@ 1002ae60     stdstartup.obj
+ 0003:00000e68       ??_C@_06KLHHMIGM@offset?$AA@ 1002ae68     stdstartup.obj
+ 0003:00000e70       ??_C@_05INEAEKKD@bsurf?$AA@ 1002ae70     stdstartup.obj
+ 0003:00000e78       ??_C@_05FCPCBJIO@torus?$AA@ 1002ae78     stdstartup.obj
+ 0003:00000e80       ??_C@_06FOHEPPJH@sphere?$AA@ 1002ae80     stdstartup.obj
+ 0003:00000e88       ??_C@_03GFEAAPHK@cyl?$AA@  1002ae88     stdstartup.obj
+ 0003:00000e8c       ??_C@_04NOMJJLOC@cone?$AA@ 1002ae8c     stdstartup.obj
+ 0003:00000e94       ??_C@_05MAIECAHP@plane?$AA@ 1002ae94     stdstartup.obj
+ 0003:00000e9c       ??_C@_06LEBKBMLE@Vertex?$AA@ 1002ae9c     stdstartup.obj
+ 0003:00000ea4       ??_C@_04EIJIPNMI@Edge?$AA@ 1002aea4     stdstartup.obj
+ 0003:00000eac       ??_C@_03NMLMJBIE@Fin?$AA@  1002aeac     stdstartup.obj
+ 0003:00000eb0       ??_C@_04KLCPKPBE@Loop?$AA@ 1002aeb0     stdstartup.obj
+ 0003:00000eb8       ??_C@_04DPOPNPPG@Face?$AA@ 1002aeb8     stdstartup.obj
+ 0003:00000ec0       ??_C@_05OJBIAJFH@Shell?$AA@ 1002aec0     stdstartup.obj
+ 0003:00000ec8       ??_C@_06FLCJJPBG@Region?$AA@ 1002aec8     stdstartup.obj
+ 0003:00000ed0       ??_C@_04MJIIEFNN@Body?$AA@ 1002aed0     stdstartup.obj
+ 0003:00000ed8       ??_C@_0N@MMBDGCHC@General?5Body?$AA@ 1002aed8     stdstartup.obj
+ 0003:00000ee8       ??_C@_0L@KIDLEDBE@Solid?5Body?$AA@ 1002aee8     stdstartup.obj
+ 0003:00000ef4       ??_C@_0L@NGDFGHLH@Sheet?5Body?$AA@ 1002aef4     stdstartup.obj
+ 0003:00000f00       ??_C@_09HHHPIAOB@Wire?5Body?$AA@ 1002af00     stdstartup.obj
+ 0003:00000f0c       ??_C@_0L@PILBJAGG@Acorn?5Body?$AA@ 1002af0c     stdstartup.obj
+ 0003:00000f18       ??_C@_0N@MEIFBAJO@Minimum?5Body?$AA@ 1002af18     stdstartup.obj
+ 0003:00000f28       ??_C@_09JJBHCMJI@Unhandled?$AA@ 1002af28     stdstartup.obj
+ 0003:00000f34       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1002af34     stdstartup.obj
+ 0003:00000f70       _IID_IJDoubleValue         1002af70     seinit:guid.obj
+ 0003:00000f80       _IID_IJTextValue           1002af80     seinit:guid.obj
+ 0003:00000fb0       _CLSID_JGeneralPropSheetExt 1002afb0     seinit:guid.obj
+ 0003:00000fc0       _CLSID_JStatisticsPropSheetExt 1002afc0     seinit:guid.obj
+ 0003:00000fd0       _CLSID_EditSymbolPropertiesCMD 1002afd0     seinit:guid.obj
+ 0003:00000fe0       _CLSID_JExprTrnSup         1002afe0     seinit:guid.obj
+ 0003:00000ff0       _CLSID_MDSTrnsup           1002aff0     seinit:guid.obj
+ 0003:00001000       _CLSID_JPreviewPropSheetExt 1002b000     seinit:guid.obj
+ 0003:00001010       _CLSID_EditStyle3d         1002b010     seinit:guid.obj
+ 0003:00001020       _CLSID_JCommonUnitsPropSheetExt 1002b020     seinit:guid.obj
+ 0003:00001030       _CLSID_ViewDataServer      1002b030     seinit:guid.obj
+ 0003:00001040       _CLSID_EditViewStyle       1002b040     seinit:guid.obj
+ 0003:00001050       _CLSID_JReferenceEngine    1002b050     seinit:guid.obj
+ 0003:00001060       _CLSID_JGraphicFacelet     1002b060     seinit:guid.obj
+ 0003:00001070       _CLSID_JOccurrenceFacelet  1002b070     seinit:guid.obj
+ 0003:00001080       _CLSID_JSimplifiedOccurrenceFacelet 1002b080     seinit:guid.obj
+ 0003:00001090       _CLSID_JPointFacelet       1002b090     seinit:guid.obj
+ 0003:000010a0       _CLSID_JLineFacelet        1002b0a0     seinit:guid.obj
+ 0003:000010b0       _CLSID_JLineStringFacelet  1002b0b0     seinit:guid.obj
+ 0003:000010c0       _CLSID_JEllipseFacelet     1002b0c0     seinit:guid.obj
+ 0003:000010d0       _CLSID_JArcFacelet         1002b0d0     seinit:guid.obj
+ 0003:000010e0       _CLSID_JBspCurveFacelet    1002b0e0     seinit:guid.obj
+ 0003:000010f0       _CLSID_JComplexStringFacelet 1002b0f0     seinit:guid.obj
+ 0003:00001100       _CLSID_JPlaneFacelet       1002b100     seinit:guid.obj
+ 0003:00001110       _CLSID_JConeFacelet        1002b110     seinit:guid.obj
+ 0003:00001120       _CLSID_JSphereFacelet      1002b120     seinit:guid.obj
+ 0003:00001130       _CLSID_JTorusFacelet       1002b130     seinit:guid.obj
+ 0003:00001140       _CLSID_JProjectionFacelet  1002b140     seinit:guid.obj
+ 0003:00001150       _CLSID_JRevolutionFacelet  1002b150     seinit:guid.obj
+ 0003:00001160       _CLSID_JBspSurfaceFacelet  1002b160     seinit:guid.obj
+ 0003:00001170       _CLSID_JBoundariesFacelet  1002b170     seinit:guid.obj
+ 0003:00001180       _CLSID_JRuledFacelet       1002b180     seinit:guid.obj
+ 0003:00001190       _CLSID_JPolyMeshFacelet    1002b190     seinit:guid.obj
+ 0003:000011a0       _CLSID_JDoubleValueFacelet2 1002b1a0     seinit:guid.obj
+ 0003:000011b0       _CLSID_JTextValueFacelet2  1002b1b0     seinit:guid.obj
+ 0003:000011c0       _CLSID_JReadAcad           1002b1c0     seinit:guid.obj
+ 0003:000011d0       _CLSID_JWriteAcad          1002b1d0     seinit:guid.obj
+ 0003:000011e0       _CLSID_JReadIges           1002b1e0     seinit:guid.obj
+ 0003:000011f0       _CLSID_JWriteIges          1002b1f0     seinit:guid.obj
+ 0003:00001200       _CLSID_JReadMstn           1002b200     seinit:guid.obj
+ 0003:00001210       _CLSID_JWriteMstn          1002b210     seinit:guid.obj
+ 0003:00001220       _CLSID_JWriteStl           1002b220     seinit:guid.obj
+ 0003:00001230       _CLSID_JWriteEms           1002b230     seinit:guid.obj
+ 0003:00001240       _CLSID_JSymbol             1002b240     seinit:guid.obj
+ 0003:00001250       _CLSID_JTranslatorOptionsSheet 1002b250     seinit:guid.obj
+ 0003:00001260       _CLSID_JView               1002b260     seinit:guid.obj
+ 0003:00001270       _CLSID_JSummaryPropSheetExt 1002b270     seinit:guid.obj
+ 0003:00001280       _FormatID_MechanicalModeling 1002b280     seinit:guid.obj
+ 0003:00001290       _CLSID_JSEStatusPropSheetExt 1002b290     seinit:guid.obj
+ 0003:000012a0       _CLSID_JCellOccurrence     1002b2a0     seinit:guid.obj
+ 0003:000012b0       _IID_IJGraphic             1002b2b0     seinit:guid.obj
+ 0003:000012c0       _IID_IJPoint               1002b2c0     seinit:guid.obj
+ 0003:000012d0       _IID_IJLine                1002b2d0     seinit:guid.obj
+ 0003:000012e0       _IID_IJLineString          1002b2e0     seinit:guid.obj
+ 0003:000012f0       _IID_IJEllipse             1002b2f0     seinit:guid.obj
+ 0003:00001300       _IID_IJArc                 1002b300     seinit:guid.obj
+ 0003:00001310       _IID_IJBspCurve            1002b310     seinit:guid.obj
+ 0003:00001320       _IID_IJComplexString       1002b320     seinit:guid.obj
+ 0003:00001330       _IID_IJPlane               1002b330     seinit:guid.obj
+ 0003:00001340       _IID_IJCone                1002b340     seinit:guid.obj
+ 0003:00001350       _IID_IJSphere              1002b350     seinit:guid.obj
+ 0003:00001360       _IID_IJTorus               1002b360     seinit:guid.obj
+ 0003:00001370       _IID_IJProjection          1002b370     seinit:guid.obj
+ 0003:00001380       _IID_IJRevolution          1002b380     seinit:guid.obj
+ 0003:00001390       _IID_IJBspSurface          1002b390     seinit:guid.obj
+ 0003:000013a0       _IID_IJBoundaries          1002b3a0     seinit:guid.obj
+ 0003:000013b0       _IID_IJRuled               1002b3b0     seinit:guid.obj
+ 0003:000013c0       _IID_IJPolyMesh            1002b3c0     seinit:guid.obj
+ 0003:000013d0       _IID_IJTypedGeometry2d     1002b3d0     seinit:guid.obj
+ 0003:000013e0       _IID_IJArc2d               1002b3e0     seinit:guid.obj
+ 0003:000013f0       _IID_IJBspCurve2d          1002b3f0     seinit:guid.obj
+ 0003:00001400       _IID_IJBspCurve2dSupport   1002b400     seinit:guid.obj
+ 0003:00001410       _IID_IJCircle2d            1002b410     seinit:guid.obj
+ 0003:00001420       _IID_IJComplexString2d     1002b420     seinit:guid.obj
+ 0003:00001430       _IID_IJCurve2d             1002b430     seinit:guid.obj
+ 0003:00001440       _IID_IJEllipse2d           1002b440     seinit:guid.obj
+ 0003:00001450       _IID_IJLine2d              1002b450     seinit:guid.obj
+ 0003:00001460       _IID_IJLineString2d        1002b460     seinit:guid.obj
+ 0003:00001470       _IID_IJPoint2d             1002b470     seinit:guid.obj
+ 0003:00001480       _IID_IJRectangle2d         1002b480     seinit:guid.obj
+ 0003:00001490       _IID_IJBHCGeometry2d       1002b490     seinit:guid.obj
+ 0003:000014a0       _CLSID_DatumFramePropCmd   1002b4a0     seinit:guid.obj
+ 0003:000014b0       _CLSID_DatumTargetPropCmd  1002b4b0     seinit:guid.obj
+ 0003:000014c0       _CLSID_FeatCntrlFramPropCmd 1002b4c0     seinit:guid.obj
+ 0003:000014d0       _CLSID_SurfTextPropCmd     1002b4d0     seinit:guid.obj
+ 0003:000014e0       _CLSID_DatumFrameModCmd    1002b4e0     seinit:guid.obj
+ 0003:000014f0       _CLSID_DatumTargetModCmd   1002b4f0     seinit:guid.obj
+ 0003:00001500       _CLSID_DatumPointModCmd    1002b500     seinit:guid.obj
+ 0003:00001510       _CLSID_FCFModCmd           1002b510     seinit:guid.obj
+ 0003:00001520       _CLSID_SurfTextModCmd      1002b520     seinit:guid.obj
+ 0003:00001530       _CLSID_HSOJDatumPoint      1002b530     seinit:guid.obj
+ 0003:00001540       _CLSID_HSOViewPlaneLine    1002b540     seinit:guid.obj
+ 0003:00001550       _CLSID_HSOBreakLinePair    1002b550     seinit:guid.obj
+ 0003:00001560       _CLSID_BreakLinePairModCmd 1002b560     seinit:guid.obj
+ 0003:00001570       _CLSID_HSOJCenterLine      1002b570     seinit:guid.obj
+ 0003:00001580       _CLSID_HSOJCenterMark      1002b580     seinit:guid.obj
+ 0003:00001590       _CLSID_HSOJBoltHoleCircle  1002b590     seinit:guid.obj
+ 0003:000015a0       _CLSID_ModifyCenterLineCmd 1002b5a0     seinit:guid.obj
+ 0003:000015b0       _CLSID_ModifyCenterMarkCmd 1002b5b0     seinit:guid.obj
+ 0003:000015c0       _CLSID_CLPropCmd           1002b5c0     seinit:guid.obj
+ 0003:000015d0       _CLSID_CPModCmd            1002b5d0     seinit:guid.obj
+ 0003:000015e0       _CLSID_CPPropCmd           1002b5e0     seinit:guid.obj
+ 0003:000015f0       _CLSID_HSOCuttingPlaneLine 1002b5f0     seinit:guid.obj
+ 0003:00001600       _CLSID_DEModCmd            1002b600     seinit:guid.obj
+ 0003:00001610       _CLSID_DraftProfilePropertiesCmd 1002b610     seinit:guid.obj
+ 0003:00001620       _CLSID_HSODraftProfile     1002b620     seinit:guid.obj
+ 0003:00001630       _CLSID_DraftDeleteCmd      1002b630     seinit:guid.obj
+ 0003:00001640       _CLSID_DraftPasteCmd       1002b640     seinit:guid.obj
+ 0003:00001650       _CLSID_DraftCopyCmd        1002b650     seinit:guid.obj
+ 0003:00001660       _CLSID_DraftCutCmd         1002b660     seinit:guid.obj
+ 0003:00001670       _CLSID_DVModCmd            1002b670     seinit:guid.obj
+ 0003:00001680       _CLSID_DVPropCmd           1002b680     seinit:guid.obj
+ 0003:00001690       _CLSID_HSOJDrawingView     1002b690     seinit:guid.obj
+ 0003:000016a0       _CLSID_JDftHoleTableModCmd 1002b6a0     seinit:guid.obj
+ 0003:000016b0       _CLSID_JDftHoleTablePropCmd 1002b6b0     seinit:guid.obj
+ 0003:000016c0       _CLSID_DtlPartsListModCmd  1002b6c0     seinit:guid.obj
+ 0003:000016d0       _CLSID_DtlPartsListPropCmd 1002b6d0     seinit:guid.obj
+ 0003:000016e0       _CLSID_VPModCmd            1002b6e0     seinit:guid.obj
+ 0003:000016f0       _CLSID_VPPropCmd           1002b6f0     seinit:guid.obj
+ 0003:00001700       _CLSID_JAsmEmsTranslatorSupport 1002b700     seinit:guid.obj
+ 0003:00001710       _CLSID_JTranslation3       1002b710     seinit:guid.obj
+ 0003:00001720       _CLSID_JReadDraft          1002b720     seinit:guid.obj
+ 0003:00001730       _CLSID_JWriteImage         1002b730     seinit:guid.obj
+ 0003:00001740       _CLSID_JIges3D             1002b740     seinit:guid.obj
+ 0003:00001750       _CLSID_JProE               1002b750     seinit:guid.obj
+ 0003:00001760       _CLSID_JStep3D             1002b760     seinit:guid.obj
+ 0003:00001770       _CLSID_JSW3D               1002b770     seinit:guid.obj
+ 0003:00001780       _CLSID_JCuttingPlane       1002b780     seinit:guid.obj
+ 0003:00001790       _CLSID_JDrawingView3d      1002b790     seinit:guid.obj
+ 0003:000017a0       _CLSID_JPartsList          1002b7a0     seinit:guid.obj
+ 0003:000017b0       _CLSID_JHoleTable          1002b7b0     seinit:guid.obj
+ 0003:000017c0       _CLSID_JViewPlane          1002b7c0     seinit:guid.obj
+ 0003:000017d0       _CLSID_JDetailEnvelope     1002b7d0     seinit:guid.obj
+ 0003:000017e0       _CLSID_JBreakLinePair      1002b7e0     seinit:guid.obj
+ 0003:000017f0       _CLSID_JDisplayRegion      1002b7f0     seinit:guid.obj
+ 0003:00001800       _CLSID_JSat3D              1002b800     seinit:guid.obj
+ 0003:00001810       _CLSID_BrokenOutSectionModCmd 1002b810     seinit:guid.obj
+ 0003:00001820       _CLSID_JDraftProfile       1002b820     seinit:guid.obj
+ 0003:00001830       _CLSID_ModifyBoltHoleCircleCmd 1002b830     seinit:guid.obj
+ 0003:00001840       _CLSID_DraftBoundary       1002b840     seinit:guid.obj
+ 0003:00001850       _CLSID_SpecifySimpleCroppingBoundaryCmd 1002b850     seinit:guid.obj
+ 0003:00001860       _CLSID_JCatia3D            1002b860     seinit:guid.obj
+ 0003:00001870       _CLSID_JCatiaV5            1002b870     seinit:guid.obj
+ 0003:00001880       _CLSID_EdgeBroker          1002b880     seinit:guid.obj
+ 0003:00001890       _CLSID_JBendTable          1002b890     seinit:guid.obj
+ 0003:000018a0       _CLSID_JBendTableModifyCmd 1002b8a0     seinit:guid.obj
+ 0003:000018b0       _CLSID_JBendTablePropertiesCmd 1002b8b0     seinit:guid.obj
+ 0003:000018c0       _CLSID_JFOPTable           1002b8c0     seinit:guid.obj
+ 0003:000018d0       _CLSID_JFOPTableModifyCmd  1002b8d0     seinit:guid.obj
+ 0003:000018e0       _CLSID_JFOPTablePropertiesCmd 1002b8e0     seinit:guid.obj
+ 0003:000018f0       _CLSID_DraftDocument       1002b8f0     seinit:guid.obj
+ 0003:00001900       _CLSID_PartDocument        1002b900     seinit:guid.obj
+ 0003:00001910       _CLSID_AssemblyDocument    1002b910     seinit:guid.obj
+ 0003:00001920       _CLSID_SheetMetalDocument  1002b920     seinit:guid.obj
+ 0003:00001930       _CLSID_WeldmentDocument    1002b930     seinit:guid.obj
+ 0003:00001940       _CLSID_FamilyOfAssembliesDocument 1002b940     seinit:guid.obj
+ 0003:00001950       _CLSID_DMPartDocument      1002b950     seinit:guid.obj
+ 0003:00001960       _IID_IJCenterMark          1002b960     seinit:guid.obj
+ 0003:00001970       _IID_IJCenterLine          1002b970     seinit:guid.obj
+ 0003:00001980       _IID_IJAnnotGeometry       1002b980     seinit:guid.obj
+ 0003:00001990       _IID_IJConnector           1002b990     seinit:guid.obj
+ 0003:000019a0       _CLSID_JDim                1002b9a0     seinit:guid.obj
+ 0003:000019b0       _CLSID_JLeader             1002b9b0     seinit:guid.obj
+ 0003:000019c0       _CLSID_JDatumFrame         1002b9c0     seinit:guid.obj
+ 0003:000019d0       _CLSID_JDatumTarget        1002b9d0     seinit:guid.obj
+ 0003:000019e0       _CLSID_JFeatureControlFrame 1002b9e0     seinit:guid.obj
+ 0003:000019f0       _CLSID_JSurfaceFinishSymbols 1002b9f0     seinit:guid.obj
+ 0003:00001a00       _CLSID_JWeldSymbols        1002ba00     seinit:guid.obj
+ 0003:00001a10       _CLSID_JBalloon            1002ba10     seinit:guid.obj
+ 0003:00001a20       _CLSID_JCenterMark         1002ba20     seinit:guid.obj
+ 0003:00001a30       _CLSID_JCenterLine         1002ba30     seinit:guid.obj
+ 0003:00001a40       _CLSID_JCenterLineFacelet  1002ba40     seinit:guid.obj
+ 0003:00001a50       _CLSID_JCenterMarkFacelet  1002ba50     seinit:guid.obj
+ 0003:00001a60       _CLSID_JAnnotGeometryFacelet 1002ba60     seinit:guid.obj
+ 0003:00001a70       _CLSID_JDatumPoint         1002ba70     seinit:guid.obj
+ 0003:00001a80       _CLSID_JCornerAnnotation   1002ba80     seinit:guid.obj
+ 0003:00001a90       _CLSID_JTextBox            1002ba90     seinit:guid.obj
+ 0003:00001aa0       _CLSID_JCallOut            1002baa0     seinit:guid.obj
+ 0003:00001ab0       _CLSID_JDraftDocExt        1002bab0     seinit:guid.obj
+ 0003:00001ac0       _CLSID_JSet2d              1002bac0     seinit:guid.obj
+ 0003:00001ad0       _CLSID_JSlotCns2d          1002bad0     seinit:guid.obj
+ 0003:00001ae0       _CLSID_JOffsetCns2d        1002bae0     seinit:guid.obj
+ 0003:00001af0       _CLSID_JLine2dFacelet      1002baf0     seinit:guid.obj
+ 0003:00001b00       _CLSID_JArc2dFacelet       1002bb00     seinit:guid.obj
+ 0003:00001b10       _CLSID_JEllipse2dFacelet   1002bb10     seinit:guid.obj
+ 0003:00001b20       _CLSID_JBspCurve2dFacelet  1002bb20     seinit:guid.obj
+ 0003:00001b30       _CLSID_JBspCurve2dSupportFacelet 1002bb30     seinit:guid.obj
+ 0003:00001b40       _CLSID_JCircle2dFacelet    1002bb40     seinit:guid.obj
+ 0003:00001b50       _CLSID_JHKeyPointFacelet   1002bb50     seinit:guid.obj
+ 0003:00001b60       _CLSID_JKeyPointFacelet    1002bb60     seinit:guid.obj
+ 0003:00001b70       _CLSID_JTypedGeometry2dFacelet 1002bb70     seinit:guid.obj
+ 0003:00001b80       _CLSID_JLineString2dFacelet 1002bb80     seinit:guid.obj
+ 0003:00001b90       _CLSID_JComplexString2dFacelet 1002bb90     seinit:guid.obj
+ 0003:00001ba0       _CLSID_JRectangle2dFacelet 1002bba0     seinit:guid.obj
+ 0003:00001bb0       _CLSID_JCurve2dFacelet     1002bbb0     seinit:guid.obj
+ 0003:00001bc0       _CLSID_JPoint2dFacelet     1002bbc0     seinit:guid.obj
+ 0003:00001bd0       _CLSID_ModifyLeaderCmd     1002bbd0     seinit:guid.obj
+ 0003:00001be0       _CLSID_HSOLeaderCmd        1002bbe0     seinit:guid.obj
+ 0003:00001bf0       _CLSID_LeaderPropCmd       1002bbf0     seinit:guid.obj
+ 0003:00001c00       _CLSID_ModifyBalloonCmd    1002bc00     seinit:guid.obj
+ 0003:00001c10       _CLSID_BalloonPropCmd      1002bc10     seinit:guid.obj
+ 0003:00001c20       _CLSID_ModifyEdgeCmd       1002bc20     seinit:guid.obj
+ 0003:00001c30       _CLSID_EdgePropCmd         1002bc30     seinit:guid.obj
+ 0003:00001c40       _CLSID_ModifySlot          1002bc40     seinit:guid.obj
+ 0003:00001c50       _CLSID_SlotProp            1002bc50     seinit:guid.obj
+ 0003:00001c60       _CLSID_ModifyOffset        1002bc60     seinit:guid.obj
+ 0003:00001c70       _CLSID_SkModDimCmd         1002bc70     seinit:guid.obj
+ 0003:00001c80       _CLSID_SkDimPropCmd        1002bc80     seinit:guid.obj
+ 0003:00001c90       _CLSID_EditDimensionStyle  1002bc90     seinit:guid.obj
+ 0003:00001ca0       _CLSID_EditFillStyle       1002bca0     seinit:guid.obj
+ 0003:00001cb0       _CLSID_SkModPatternCmd     1002bcb0     seinit:guid.obj
+ 0003:00001cc0       _CLSID_SkModLineCmd        1002bcc0     seinit:guid.obj
+ 0003:00001cd0       _CLSID_SkModArcCmd         1002bcd0     seinit:guid.obj
+ 0003:00001ce0       _CLSID_SkModCircleCmd      1002bce0     seinit:guid.obj
+ 0003:00001cf0       _CLSID_SkModCurveCmd       1002bcf0     seinit:guid.obj
+ 0003:00001d00       _CLSID_SkModRectCmd        1002bd00     seinit:guid.obj
+ 0003:00001d10       _CLSID_SkModComplexStringCmd 1002bd10     seinit:guid.obj
+ 0003:00001d20       _CLSID_SkModLineStringCmd  1002bd20     seinit:guid.obj
+ 0003:00001d30       _CLSID_SkModPointCmd       1002bd30     seinit:guid.obj
+ 0003:00001d40       _CLSID_SkModEllipseCmd     1002bd40     seinit:guid.obj
+ 0003:00001d50       _CLSID_SkModEllipArcCmd    1002bd50     seinit:guid.obj
+ 0003:00001d60       _CLSID_SkPropertiesLine    1002bd60     seinit:guid.obj
+ 0003:00001d70       _CLSID_SkPropertiesArc     1002bd70     seinit:guid.obj
+ 0003:00001d80       _CLSID_SkPropertiesCircle  1002bd80     seinit:guid.obj
+ 0003:00001d90       _CLSID_SkPropertiesEllipticalArc 1002bd90     seinit:guid.obj
+ 0003:00001da0       _CLSID_SkPropertiesEllipse 1002bda0     seinit:guid.obj
+ 0003:00001db0       _CLSID_SkPropertiesRectangle 1002bdb0     seinit:guid.obj
+ 0003:00001dc0       _CLSID_SkPropertiesBoundaryFill 1002bdc0     seinit:guid.obj
+ 0003:00001dd0       _CLSID_SkPropertiesPoint   1002bdd0     seinit:guid.obj
+ 0003:00001de0       _CLSID_SkPropertiesCurve   1002bde0     seinit:guid.obj
+ 0003:00001df0       _CLSID_SkModBoundaryCmd    1002bdf0     seinit:guid.obj
+ 0003:00001e00       _CLSID_SkModSymbolCmd      1002be00     seinit:guid.obj
+ 0003:00001e10       _CLSID_HdlSvcObjectLine2D  1002be10     seinit:guid.obj
+ 0003:00001e20       _CLSID_HdlSvcObjectCircle2D 1002be20     seinit:guid.obj
+ 0003:00001e30       _CLSID_HdlSvcObjectArc2D   1002be30     seinit:guid.obj
+ 0003:00001e40       _CLSID_HdlSvcObjectBspCurve2D 1002be40     seinit:guid.obj
+ 0003:00001e50       _CLSID_HdlSvcObjectEllipse2D 1002be50     seinit:guid.obj
+ 0003:00001e60       _CLSID_HdlSvcObjectPoint2D 1002be60     seinit:guid.obj
+ 0003:00001e70       _CLSID_HdlSvcObjectRect2D  1002be70     seinit:guid.obj
+ 0003:00001e80       _CLSID_HdlSvcObjectDim2D   1002be80     seinit:guid.obj
+ 0003:00001e90       _CLSID_HdlSvcObjectText2D  1002be90     seinit:guid.obj
+ 0003:00001ea0       _CLSID_HdlSvcObjectEllipArc2D 1002bea0     seinit:guid.obj
+ 0003:00001eb0       _CLSID_HdlSvcObjectBoundary2D 1002beb0     seinit:guid.obj
+ 0003:00001ec0       _CLSID_SkPropertiesGroup   1002bec0     seinit:guid.obj
+ 0003:00001ed0       _CLSID_SkModGroupCmd       1002bed0     seinit:guid.obj
+ 0003:00001ee0       _CLSID_EditHatchStyle      1002bee0     seinit:guid.obj
+ 0003:00001ef0       _CLSID_EditLineStyle       1002bef0     seinit:guid.obj
+ 0003:00001f00       _CLSID_SkPropertiesDefault 1002bf00     seinit:guid.obj
+ 0003:00001f10       _CLSID_SkModDefaultCmd     1002bf10     seinit:guid.obj
+ 0003:00001f20       _CLSID_HdlSvcObjectDefault2D 1002bf20     seinit:guid.obj
+ 0003:00001f30       _CLSID_JNWArrow2dCommand   1002bf30     seinit:guid.obj
+ 0003:00001f40       _CLSID_HSOSmartFrame2d     1002bf40     seinit:guid.obj
+ 0003:00001f50       _CLSID_SkSmrtFrmCmd        1002bf50     seinit:guid.obj
+ 0003:00001f60       _CLSID_SmtFrameProp        1002bf60     seinit:guid.obj
+ 0003:00001f70       _CLSID_SkModTxtCmd         1002bf70     seinit:guid.obj
+ 0003:00001f80       _CLSID_SkTxtPropCmd        1002bf80     seinit:guid.obj
+ 0003:00001f90       _CLSID_EditTextStyle       1002bf90     seinit:guid.obj
+ 0003:00001fa0       _CLSID_JSHEETVIEW          1002bfa0     seinit:guid.obj
+ 0003:00001fb0       _CLSID_JSmartFrame2d       1002bfb0     seinit:guid.obj
+ 0003:00001fc0       _CLSID_JTranslation2       1002bfc0     seinit:guid.obj
+ 0003:00001fd0       _CLSID_JCircle2d           1002bfd0     seinit:guid.obj
+ 0003:00001fe0       _CLSID_JRectangle2d        1002bfe0     seinit:guid.obj
+ 0003:00001ff0       _CLSID_JLine2d             1002bff0     seinit:guid.obj
+ 0003:00002000       _CLSID_JCurve2d            1002c000     seinit:guid.obj
+ 0003:00002010       _CLSID_JBspCurve2d         1002c010     seinit:guid.obj
+ 0003:00002020       _CLSID_JPoint2d            1002c020     seinit:guid.obj
+ 0003:00002030       _CLSID_JArc2d              1002c030     seinit:guid.obj
+ 0003:00002040       _CLSID_JEllipse2d          1002c040     seinit:guid.obj
+ 0003:00002050       _CLSID_JLineString2d       1002c050     seinit:guid.obj
+ 0003:00002060       _CLSID_JEllipArc2d         1002c060     seinit:guid.obj
+ 0003:00002070       _CLSID_JPattern2d          1002c070     seinit:guid.obj
+ 0003:00002080       _CLSID_JComplexString2d    1002c080     seinit:guid.obj
+ 0003:00002090       _CLSID_JBoundary2d         1002c090     seinit:guid.obj
+ 0003:000020a0       _CLSID_JGroup              1002c0a0     seinit:guid.obj
+ 0003:000020b0       _CLSID_MDS2SE              1002c0b0     seinit:guid.obj
+ 0003:000020c0       _CLSID_WeldModCmd          1002c0c0     seinit:guid.obj
+ 0003:000020d0       _CLSID_WeldPropCmd         1002c0d0     seinit:guid.obj
+ 0003:000020e0       _CLSID_JImageFrame2d       1002c0e0     seinit:guid.obj
+ 0003:000020f0       _CLSID_SkModImgFrmCmd      1002c0f0     seinit:guid.obj
+ 0003:00002100       _CLSID_SkPropertiesImageFrame 1002c100     seinit:guid.obj
+ 0003:00002110       _CLSID_JBoltHoleCircle     1002c110     seinit:guid.obj
+ 0003:00002120       _CLSID_JBHCGeometry2dFacelet 1002c120     seinit:guid.obj
+ 0003:00002130       _CLSID_HdlSvcObjectBlueDot 1002c130     seinit:guid.obj
+ 0003:00002140       _CLSID_SkModTxPrCmd        1002c140     seinit:guid.obj
+ 0003:00002150       _CLSID_JTextProfile2d      1002c150     seinit:guid.obj
+ 0003:00002160       _CLSID_SkPropertiesTextProfile 1002c160     seinit:guid.obj
+ 0003:00002170       _CLSID_ModifySetCmd        1002c170     seinit:guid.obj
+ 0003:00002180       _CLSID_ModifyVirtualComponentCmd 1002c180     seinit:guid.obj
+ 0003:00002190       _CLSID_HSOVirtualComponentCmd 1002c190     seinit:guid.obj
+ 0003:000021a0       _CLSID_JSnapshot2d         1002c1a0     seinit:guid.obj
+ 0003:000021b0       _CLSID_SnapshotModifyCmd   1002c1b0     seinit:guid.obj
+ 0003:000021c0       _CLSID_JBlockOccurrence    1002c1c0     seinit:guid.obj
+ 0003:000021d0       _CLSID_JBlockLabel         1002c1d0     seinit:guid.obj
+ 0003:000021e0       _CLSID_ModifyConnectorCmd  1002c1e0     seinit:guid.obj
+ 0003:000021f0       _CLSID_HSOConnectorCmd     1002c1f0     seinit:guid.obj
+ 0003:00002200       _CLSID_JConnector          1002c200     seinit:guid.obj
+ 0003:00002210       _CLSID_ConnectorPropCmd    1002c210     seinit:guid.obj
+ 0003:00002220       _CLSID_ConnectorFacelet    1002c220     seinit:guid.obj
+ 0003:00002230       _CLSID_ModifyBlockOccCmd   1002c230     seinit:guid.obj
+ 0003:00002240       _CLSID_BlockPropertiesCmd  1002c240     seinit:guid.obj
+ 0003:00002250       _CLSID_BlockOccHsoCmd      1002c250     seinit:guid.obj
+ 0003:00002260       _CLSID_BlockLabelPropertiesCmd 1002c260     seinit:guid.obj
+ 0003:00002270       _CLSID_ModifyBlockLabelCmd 1002c270     seinit:guid.obj
+ 0003:00002280       _CLSID_JUserTable          1002c280     seinit:guid.obj
+ 0003:00002290       _CLSID_UserTableModifyCmd  1002c290     seinit:guid.obj
+ 0003:000022a0       _CLSID_UserTablePropertiesCmd 1002c2a0     seinit:guid.obj
+ 0003:000022b0       _CLSID_EditTableStyle      1002c2b0     seinit:guid.obj
+ 0003:000022c0       _CLSID_JPDFWriter          1002c2c0     seinit:guid.obj
+ 0003:000022d0       _CLSID_JAreaProperties     1002c2d0     seinit:guid.obj
+ 0003:000022e0       _CLSID_SkModAreaPropertiesCmd 1002c2e0     seinit:guid.obj
+ 0003:000022f0       _CLSID_SkAreaPropertiesCmd 1002c2f0     seinit:guid.obj
+ 0003:00002300       _CLSID_HdlSvcObjectAreaProperties 1002c300     seinit:guid.obj
+ 0003:00002310       _CLSID_JHole2d             1002c310     seinit:guid.obj
+ 0003:00002320       _CLSID_JTranslation        1002c320     seinit:guid.obj
+ 0003:00002330       _CLSID_ProfileCopyWrapperCmd 1002c330     seinit:guid.obj
+ 0003:00002340       _CLSID_ProfileCutWrapperCmd 1002c340     seinit:guid.obj
+ 0003:00002350       _CLSID_ProfilePasteCmd     1002c350     seinit:guid.obj
+ 0003:00002360       _CLSID_SkConvertToCurveCmd 1002c360     seinit:guid.obj
+ 0003:00002370       _CLSID_JSmartBoss2d        1002c370     seinit:guid.obj
+ 0003:00002380       _CLSID_PropertiesSmartBoss2d 1002c380     seinit:guid.obj
+ 0003:00002390       _CLSID_JAssemblyModelExtensionShell 1002c390     seinit:guid.obj
+ 0003:000023a0       _CLSID_JPartModelExtensionShell 1002c3a0     seinit:guid.obj
+ 0003:000023b0       _CLSID_CPartDispatchObjectFactory 1002c3b0     seinit:guid.obj
+ 0003:000023c0       _CLSID_CAssemblyDispatchObjectFactory 1002c3c0     seinit:guid.obj
+ 0003:000023d0       _CLSID_JSePvTrn            1002c3d0     seinit:guid.obj
+ 0003:000023e0       _CLSID_CDraftDispatchObjectFactory 1002c3e0     seinit:guid.obj
+ 0003:000023f0       _CLSID_JMNwsShowDimCmd     1002c3f0     seinit:guid.obj
+ 0003:00002400       _CLSID_JReadSheetMetalFlat 1002c400     seinit:guid.obj
+ 0003:00002410       _CLSID_JTranslationP       1002c410     seinit:guid.obj
+ 0003:00002420       _CLSID_JMPsToPart          1002c420     seinit:guid.obj
+ 0003:00002430       _CLSID_JMUgToPart          1002c430     seinit:guid.obj
+ 0003:00002440       _CLSID_JMHPartDocAutoExtension 1002c440     seinit:guid.obj
+ 0003:00002450       _CLSID_HRefPlaneFaclet     1002c450     seinit:guid.obj
+ 0003:00002460       _CLSID_JMPartNWCmd         1002c460     seinit:guid.obj
+ 0003:00002470       _CLSID_JMConstruction      1002c470     seinit:guid.obj
+ 0003:00002480       _CLSID_JMRefPlaneFacelet   1002c480     seinit:guid.obj
+ 0003:00002490       _CLSID_JMRefPlane          1002c490     seinit:guid.obj
+ 0003:000024a0       _CLSID_JBlueDot            1002c4a0     seinit:guid.obj
+ 0003:000024b0       _CLSID_JBlueDotEditCmd     1002c4b0     seinit:guid.obj
+ 0003:000024c0       _CLSID_JMDynEditSpacePointCmd 1002c4c0     seinit:guid.obj
+ 0003:000024d0       _CLSID_JMDynEditRefPlaneCmd 1002c4d0     seinit:guid.obj
+ 0003:000024e0       _CLSID_JMNwsFOPTableCmd    1002c4e0     seinit:guid.obj
+ 0003:000024f0       _CLSID_JMNwsDTATableCmd    1002c4f0     seinit:guid.obj
+ 0003:00002500       _CLSID_JStlTranslator      1002c500     seinit:guid.obj
+ 0003:00002510       _IID__IHRefPlane           1002c510     seinit:guid.obj
+ 0003:00002520       _IID_IJAsmTree             1002c520     seinit:guid.obj
+ 0003:00002530       _IID__IHKeyPoint           1002c530     seinit:guid.obj
+ 0003:00002540       _IID_IJKeyPoint            1002c540     seinit:guid.obj
+ 0003:00002550       _IID_IJRefPlane            1002c550     seinit:guid.obj
+ 0003:00002560       _CLSID_JAsmRelMaintCmd     1002c560     seinit:guid.obj
+ 0003:00002570       _CLSID_JAsmStyleRibbonCmd  1002c570     seinit:guid.obj
+ 0003:00002580       _CLSID_JAsmNWEditSvcCmd    1002c580     seinit:guid.obj
+ 0003:00002590       _CLSID_JAsmNWSelectSvcCmd  1002c590     seinit:guid.obj
+ 0003:000025a0       _CLSID_JAsmDimensionSvcCmd 1002c5a0     seinit:guid.obj
+ 0003:000025b0       _CLSID_JAsmConstruction    1002c5b0     seinit:guid.obj
+ 0003:000025c0       _CLSID_JAsmTreeFacelet     1002c5c0     seinit:guid.obj
+ 0003:000025d0       _CLSID_AsmDocExt           1002c5d0     seinit:guid.obj
+ 0003:000025e0       _CLSID_JAsmRefPlane        1002c5e0     seinit:guid.obj
+ 0003:000025f0       _CLSID_JAsmParallelRefPlane 1002c5f0     seinit:guid.obj
+ 0003:00002600       _CLSID_JAsmAngularRefPlane 1002c600     seinit:guid.obj
+ 0003:00002610       _CLSID_JExplodeNWServiceCmd 1002c610     seinit:guid.obj
+ 0003:00002620       _CLSID_JAsmExplodeEventSvcCmd 1002c620     seinit:guid.obj
+ 0003:00002630       _CLSID_JAsmReadAssembly    1002c630     seinit:guid.obj
+ 0003:00002640       _CLSID_JAsmWriteAssembly   1002c640     seinit:guid.obj
+ 0003:00002650       _CLSID_JAsmTranslatorSupport 1002c650     seinit:guid.obj
+ 0003:00002660       _CLSID_JAsmParasolidsTranslatorSupport 1002c660     seinit:guid.obj
+ 0003:00002670       _CLSID_JAsmUnigraphicsTranslatorSupport 1002c670     seinit:guid.obj
+ 0003:00002680       _CLSID_JAsmXPKTranslatorSupport 1002c680     seinit:guid.obj
+ 0003:00002690       _CLSID_JAsmPLMXMLTranslatorSupport 1002c690     seinit:guid.obj
+ 0003:000026a0       _CLSID_JAsm3PointRefPlane  1002c6a0     seinit:guid.obj
+ 0003:000026b0       _CLSID_JAsmNormalToCurveRefPlane 1002c6b0     seinit:guid.obj
+ 0003:000026c0       _IID_IJOccurrence          1002c6c0     seinit:guid.obj
+ 0003:000026d0       _IID_IJSimplifiedOccurrence 1002c6d0     seinit:guid.obj
+ 0003:000026e0       _CLSID_JSEProjectPropSheetExt 1002c6e0     seinit:guid.obj
+ 0003:000026f0       _CLSID_JSECustomPropSheetExt 1002c6f0     seinit:guid.obj
+ 0003:00002700       _CLSID_SETeamcenter        1002c700     seinit:guid.obj
+ 0003:00002710       ??_C@_06GBAJNDGM@?4model?$AA@ 1002c710     seinit:seinit.obj
+ 0003:00002718       ??_C@_04DMOAILBA@?4sat?$AA@ 1002c718     seinit:seinit.obj
+ 0003:00002720       ??_C@_04ECGBCPIP@?4stp?$AA@ 1002c720     seinit:seinit.obj
+ 0003:00002728       ??_C@_05BDIAHLGC@?4prt?4?$AA@ 1002c728     seinit:seinit.obj
+ 0003:00002730       ??_C@_04EIIINGJO@?4igs?$AA@ 1002c730     seinit:seinit.obj
+ 0003:00002738       ??_C@_05OFELDKMK@?4asm?4?$AA@ 1002c738     seinit:seinit.obj
+ 0003:00002740       ??_C@_0CB@BEFHBFNK@JDadHookToInsertDraftIntoProfile@ 1002c740     seinit:seinit.obj
+ 0003:00002764       ??_C@_0N@NJIJKAHB@JDadHookPart?$AA@ 1002c764     seinit:seinit.obj
+ 0003:00002774       ??_C@_0O@IOIBFGEI@JDadHookDraft?$AA@ 1002c774     seinit:seinit.obj
+ 0003:00002784       ??_C@_0BE@NIKEALCJ@JAsmDragAndDropHook?$AA@ 1002c784     seinit:seinit.obj
+ 0003:00002798       ??_C@_0M@HAEIFKIE@exprdex?4dll?$AA@ 1002c798     seinit:seinit.obj
+ 0003:000027a4       ??_C@_0L@LCMAOII@sensor?4dll?$AA@ 1002c7a4     seinit:seinit.obj
+ 0003:000027b0       ??_C@_0M@KLILAOPN@EdgeBar?4dll?$AA@ 1002c7b0     seinit:seinit.obj
+ 0003:000027bc       ??_C@_0M@FNBLBFGG@ptrnsup?4dll?$AA@ 1002c7bc     seinit:seinit.obj
+ 0003:000027c8       ??_C@_07JOCCBFIH@i2d?4dcx?$AA@ 1002c7c8     seinit:seinit.obj
+ 0003:000027d0       ??_C@_0M@PPONPKI@partsvc?4dll?$AA@ 1002c7d0     seinit:seinit.obj
+ 0003:000027dc       ??_C@_0L@MELMFJC@asmapp?4dll?$AA@ 1002c7dc     seinit:seinit.obj
+ 0003:000027e8       ??_C@_0M@MCNCMEJP@dethook?4dll?$AA@ 1002c7e8     seinit:seinit.obj
+ 0003:000027f4       ??_C@_0BD@MEOKADO@ENABLE_DMPART_DOCS?$AA@ 1002c7f4     seinit:seinit.obj
+ 0003:00002808       ??_C@_0N@EHPMAJMK@?4?2seinit?4cpp?$AA@ 1002c808     seinit:seinit.obj
+ 0003:00002818       ??_C@_0BC@COCENBPK@JInitializeSEData?$AA@ 1002c818     seinit:seinit.obj
+ 0003:0000282c       ??_C@_06MGLODHDI@DMPart?$AA@ 1002c82c     seinit:partfiletypes.obj
+ 0003:00002834       ??_C@_0L@GLBFFHBD@EditMVPart?$AA@ 1002c834     seinit:partfiletypes.obj
+ 0003:00002840       ??_C@_0BG@EHCHAJEP@ComponentSketchInPart?$AA@ 1002c840     seinit:partfiletypes.obj
+ 0003:00002858       ??_C@_0BB@NIAMIIBN@ProfileSmartBoss?$AA@ 1002c858     seinit:partfiletypes.obj
+ 0003:0000286c       ??_C@_07CPBHIDI@RefAxis?$AA@ 1002c86c     seinit:partfiletypes.obj
+ 0003:00002874       ??_C@_0BA@DGMNOJCI@ProfileRevolved?$AA@ 1002c874     seinit:partfiletypes.obj
+ 0003:00002884       ??_C@_0P@PBBLGBIA@ProfilePattern?$AA@ 1002c884     seinit:partfiletypes.obj
+ 0003:00002894       ??_C@_0M@JIIAHFOO@ProfileHole?$AA@ 1002c894     seinit:partfiletypes.obj
+ 0003:000028a0       ??_C@_07EELFDIBP@Profile?$AA@ 1002c8a0     seinit:partfiletypes.obj
+ 0003:000028a8       ??_C@_0N@BHCEJKNA@LayoutInPart?$AA@ 1002c8a8     seinit:partfiletypes.obj
+ 0003:000028b8       ??_C@_0BD@LABMJKJI@FeatureRecognition?$AA@ 1002c8b8     seinit:partfiletypes.obj
+ 0003:000028cc       ??_C@_0M@HMPALCID@graph2d?4dex?$AA@ 1002c8cc     seinit:partfiletypes.obj
+ 0003:000028d8       ??_C@_0M@EKMMLHFD@edgebar?4dll?$AA@ 1002c8d8     seinit:partfiletypes.obj
+ 0003:000028e4       ??_C@_0M@EGKHJDJB@partdex?4dll?$AA@ 1002c8e4     seinit:partfiletypes.obj
+ 0003:000028f0       ??_C@_09PNJCGIKH@annot?4dex?$AA@ 1002c8f0     seinit:partfiletypes.obj
+ 0003:000028fc       ??_C@_0M@CMBNBFLB@grp_dex?4dex?$AA@ 1002c8fc     seinit:partfiletypes.obj
+ 0003:00002908       ??_C@_0M@CBNFFBPE@profdex?4dll?$AA@ 1002c908     seinit:partfiletypes.obj
+ 0003:00002914       ?PartGroupFileTypeInfoCount@@3HB 1002c914     seinit:partfiletypes.obj
+ 0003:00002918       ?DMPartGroupFileTypeInfoCount@@3HB 1002c918     seinit:partfiletypes.obj
+ 0003:0000291c       ??_C@_0BB@GOJPNPBK@SolidEdgeDrawing?$AA@ 1002c91c     seinit:partfiletypes.obj
+ 0003:00002930       ??_C@_09NHLCINGO@Imagineer?$AA@ 1002c930     seinit:partfiletypes.obj
+ 0003:0000293c       ??_C@_0L@MNJEBCJE@EMSProfile?$AA@ 1002c93c     seinit:partfiletypes.obj
+ 0003:00002948       ??_C@_07DKONDJKF@CF_TEXT?$AA@ 1002c948     seinit:partfiletypes.obj
+ 0003:00002950       ??_C@_08PHBDPKAJ@AdobePDF?$AA@ 1002c950     seinit:partfiletypes.obj
+ 0003:0000295c       ??_C@_04FNJBFLLK@?4PDF?$AA@ 1002c95c     seinit:partfiletypes.obj
+ 0003:00002964       ??_C@_07LJHAAJLP@?4SLDASM?$AA@ 1002c964     seinit:partfiletypes.obj
+ 0003:0000296c       ??_C@_09BBHHGINM@SW2SE?4INI?$AA@ 1002c96c     seinit:partfiletypes.obj
+ 0003:00002978       ??_C@_02JLLOHNJH@SW?$AA@   1002c978     seinit:partfiletypes.obj
+ 0003:0000297c       ??_C@_07MLBHPKGK@?4SLDPRT?$AA@ 1002c97c     seinit:partfiletypes.obj
+ 0003:00002984       ??_C@_0M@ICKEPFJP@?4CATProduct?$AA@ 1002c984     seinit:partfiletypes.obj
+ 0003:00002990       ??_C@_0O@HFKOCADD@SECATIAV5?4INI?$AA@ 1002c990     seinit:partfiletypes.obj
+ 0003:000029a0       ??_C@_08OLLCMOJD@CATIA?5V5?$AA@ 1002c9a0     seinit:partfiletypes.obj
+ 0003:000029ac       ??_C@_08CGBLBMCD@?4CATPart?$AA@ 1002c9ac     seinit:partfiletypes.obj
+ 0003:000029b8       ??_C@_0M@NDBNGJCN@SECATIA?4INI?$AA@ 1002c9b8     seinit:partfiletypes.obj
+ 0003:000029c4       ??_C@_05HACEAHJJ@CATIA?$AA@ 1002c9c4     seinit:partfiletypes.obj
+ 0003:000029cc       ??_C@_06KKJPDECC@?4MODEL?$AA@ 1002c9cc     seinit:partfiletypes.obj
+ 0003:000029d4       ??_C@_0L@FPEKHEMA@PLMXML?4INI?$AA@ 1002c9d4     seinit:partfiletypes.obj
+ 0003:000029e0       ??_C@_06LDIIKGAO@PLMXML?$AA@ 1002c9e0     seinit:partfiletypes.obj
+ 0003:000029e8       ??_C@_07KHDKNGHN@?4PLMXML?$AA@ 1002c9e8     seinit:partfiletypes.obj
+ 0003:000029f0       ??_C@_07PMIFHAJJ@?4PLMXPK?$AA@ 1002c9f0     seinit:partfiletypes.obj
+ 0003:000029f8       ??_C@_0M@PAHLJLIJ@SDRCXPK?4INI?$AA@ 1002c9f8     seinit:partfiletypes.obj
+ 0003:00002a04       ??_C@_03KPDDLPNA@XPK?$AA@  1002ca04     seinit:partfiletypes.obj
+ 0003:00002a08       ??_C@_04DGKEAGLE@?4XPK?$AA@ 1002ca08     seinit:partfiletypes.obj
+ 0003:00002a10       ??_C@_08CFJBCDPM@?4XMT_TXT?$AA@ 1002ca10     seinit:partfiletypes.obj
+ 0003:00002a1c       ??_C@_08PNCKBICD@?4XMT_BIN?$AA@ 1002ca1c     seinit:partfiletypes.obj
+ 0003:00002a28       ??_C@_0N@PJJAEOGD@SEXGLTRN?4INI?$AA@ 1002ca28     seinit:partfiletypes.obj
+ 0003:00002a38       ??_C@_0BA@GCFBBCOC@RealityWave?5XGL?$AA@ 1002ca38     seinit:partfiletypes.obj
+ 0003:00002a48       ??_C@_04GAIMCFIG@?4XGL?$AA@ 1002ca48     seinit:partfiletypes.obj
+ 0003:00002a50       ??_C@_04PAKCEPBH@?4X_T?$AA@ 1002ca50     seinit:partfiletypes.obj
+ 0003:00002a58       ??_C@_0O@POIAIOL@ParasolidTopo?$AA@ 1002ca58     seinit:partfiletypes.obj
+ 0003:00002a68       ??_C@_04OMDKPKMA@?4X_B?$AA@ 1002ca68     seinit:partfiletypes.obj
+ 0003:00002a70       ??_C@_04EPJKOCPD@?4STP?$AA@ 1002ca70     seinit:partfiletypes.obj
+ 0003:00002a78       ??_C@_0L@MKOIEDGL@STEP3D?4INI?$AA@ 1002ca78     seinit:partfiletypes.obj
+ 0003:00002a84       ??_C@_0L@HIPKHEIH@INGRSTEP3D?$AA@ 1002ca84     seinit:partfiletypes.obj
+ 0003:00002a90       ??_C@_05IEKNAFIL@?4STEP?$AA@ 1002ca90     seinit:partfiletypes.obj
+ 0003:00002a98       ??_C@_09GNKIMNEI@SESTL?4INI?$AA@ 1002ca98     seinit:partfiletypes.obj
+ 0003:00002aa4       ??_C@_07GHEHHCC@INGRSTL?$AA@ 1002caa4     seinit:partfiletypes.obj
+ 0003:00002aac       ??_C@_04KJONLPKO@?4STL?$AA@ 1002caac     seinit:partfiletypes.obj
+ 0003:00002ab4       ??_C@_09LHMLPONH@SESAT?4INI?$AA@ 1002cab4     seinit:partfiletypes.obj
+ 0003:00002ac0       ??_C@_05CCADCMNH@SESAT?$AA@ 1002cac0     seinit:partfiletypes.obj
+ 0003:00002ac8       ??_C@_04DBBLEGGM@?4SAT?$AA@ 1002cac8     seinit:partfiletypes.obj
+ 0003:00002ad0       ??_C@_05EKDOLNLI@?4PRT?4?$AA@ 1002cad0     seinit:partfiletypes.obj
+ 0003:00002ad8       ??_C@_09BJOMAIAN@PSXMT?4INI?$AA@ 1002cad8     seinit:partfiletypes.obj
+ 0003:00002ae4       ??_C@_06BJGBENCD@UGTopo?$AA@ 1002cae4     seinit:partfiletypes.obj
+ 0003:00002aec       ??_C@_04DNMOPEKL@?4PRT?$AA@ 1002caec     seinit:partfiletypes.obj
+ 0003:00002af4       ??_C@_0M@EDKKAGJP@SEPVTRN?4INI?$AA@ 1002caf4     seinit:partfiletypes.obj
+ 0003:00002b00       ??_C@_0BA@EJLBCOJB@EAI?5DirectModel?$AA@ 1002cb00     seinit:partfiletypes.obj
+ 0003:00002b10       ??_C@_03DNIMGIKI@?4JT?$AA@ 1002cb10     seinit:partfiletypes.obj
+ 0003:00002b14       ??_C@_04EFHDBLOC@?4IGS?$AA@ 1002cb14     seinit:partfiletypes.obj
+ 0003:00002b1c       ??_C@_0L@HEAJCIIN@seiges?4ini?$AA@ 1002cb1c     seinit:partfiletypes.obj
+ 0003:00002b28       ??_C@_09FGJMPOGF@INGRIGS3D?$AA@ 1002cb28     seinit:partfiletypes.obj
+ 0003:00002b34       ??_C@_05MHHMCBBK@?4IGES?$AA@ 1002cb34     seinit:partfiletypes.obj
+ 0003:00002b3c       ??_C@_09LDPBIFB@emsps?4ini?$AA@ 1002cb3c     seinit:partfiletypes.obj
+ 0003:00002b48       ??_C@_07KNKLOJAA@INGREMS?$AA@ 1002cb48     seinit:partfiletypes.obj
+ 0003:00002b50       ??_C@_04CDCCBIM@?4EMS?$AA@ 1002cb50     seinit:partfiletypes.obj
+ 0003:00002b58       ??_C@_08FCCDBCIH@PROE?4INI?$AA@ 1002cb58     seinit:partfiletypes.obj
+ 0003:00002b64       ??_C@_04JGACHBLN@PROE?$AA@ 1002cb64     seinit:partfiletypes.obj
+ 0003:00002b6c       ??_C@_05LMPFPMBA@?4ASM?4?$AA@ 1002cb6c     seinit:partfiletypes.obj
+ 0003:00002b74       ??_C@_06LAMOLDCM@3DView?$AA@ 1002cb74     seinit:partfiletypes.obj
+ 0003:00002b7c       ??_C@_0O@PDEDBBMB@SolidEdgePart?$AA@ 1002cb7c     seinit:partfiletypes.obj
+ 0003:00002b8c       ??_C@_0P@MPJJJJCA@GraphicSupport?$AA@ 1002cb8c     seinit:partfiletypes.obj
+ 0003:00002b9c       ??_C@_0M@LCOILHIC@partdax?4dll?$AA@ 1002cb9c     seinit:partfiletypes.obj
+ 0003:00002ba8       ??_C@_08HNOAHKOO@part?4ver?$AA@ 1002cba8     seinit:partfiletypes.obj
+ 0003:00002bb4       ??_C@_09DOHFDHDD@SESMF?4INI?$AA@ 1002cbb4     seinit:partfiletypes.obj
+ 0003:00002bc0       ??_C@_0O@DENDEAHP@AutoCADSMetal?$AA@ 1002cbc0     seinit:partfiletypes.obj
+ 0003:00002bd0       ??_C@_04JHNGMBGG@?4DXF?$AA@ 1002cbd0     seinit:partfiletypes.obj
+ 0003:00002bd8       ??_C@_0L@NIAIFKEK@smetal?4ver?$AA@ 1002cbd8     seinit:partfiletypes.obj
+ 0003:00002be4       ??_C@_0N@BIJCLEJF@weldment?4ver?$AA@ 1002cbe4     seinit:partfiletypes.obj
+ 0003:00002bf4       ??_C@_0L@DEHKLFNG@dmpart?4ver?$AA@ 1002cbf4     seinit:partfiletypes.obj
+ 0003:00002c00       ??_C@_06DBJPBKF@EditMV?$AA@ 1002cc00     seinit:asmfiletypes.obj
+ 0003:00002c08       ??_C@_07HDNBCAHE@Harness?$AA@ 1002cc08     seinit:asmfiletypes.obj
+ 0003:00002c10       ??_C@_0BF@PIPDMMLB@ComponentSketchInAsm?$AA@ 1002cc10     seinit:asmfiletypes.obj
+ 0003:00002c28       ??_C@_05MPDBFDHF@Frame?$AA@ 1002cc28     seinit:asmfiletypes.obj
+ 0003:00002c30       ??_C@_06CDMPPGLJ@Tubing?$AA@ 1002cc30     seinit:asmfiletypes.obj
+ 0003:00002c38       ??_C@_06MAAIBEFA@Studio?$AA@ 1002cc38     seinit:asmfiletypes.obj
+ 0003:00002c40       ??_C@_06EMGELNAF@Motion?$AA@ 1002cc40     seinit:asmfiletypes.obj
+ 0003:00002c48       ??_C@_06KMHOJANB@Layout?$AA@ 1002cc48     seinit:asmfiletypes.obj
+ 0003:00002c50       ??_C@_0M@NIKDDDKC@profDex?4dll?$AA@ 1002cc50     seinit:asmfiletypes.obj
+ 0003:00002c5c       ?AsmGroupFileTypeInfoCount@@3HB 1002cc5c     seinit:asmfiletypes.obj
+ 0003:00002c60       ??_C@_0L@BMDPCBNO@CF_GTYPE3D?$AA@ 1002cc60     seinit:asmfiletypes.obj
+ 0003:00002c6c       ??_C@_0L@BNPNELOJ@CF_GTYPE2D?$AA@ 1002cc6c     seinit:asmfiletypes.obj
+ 0003:00002c78       ??_C@_07JPMEMIBK@CF_GEOM?$AA@ 1002cc78     seinit:asmfiletypes.obj
+ 0003:00002c80       ??_C@_07OFCDCBAL@CF_ACIS?$AA@ 1002cc80     seinit:asmfiletypes.obj
+ 0003:00002c88       ??_C@_0BP@BOEMAAEE@Unigraphics?5Solutions?5Assembly?$AA@ 1002cc88     seinit:asmfiletypes.obj
+ 0003:00002ca8       ??_C@_0M@EFPKGMPL@UG?5Bookmark?$AA@ 1002cca8     seinit:asmfiletypes.obj
+ 0003:00002cb4       ??_C@_04EPCJFKFI@?4BKM?$AA@ 1002ccb4     seinit:asmfiletypes.obj
+ 0003:00002cbc       ??_C@_07LEJIDMLG@Jupiter?$AA@ 1002ccbc     seinit:asmfiletypes.obj
+ 0003:00002cc4       ??_C@_09CCEAEBDP@aeasm?4dex?$AA@ 1002ccc4     seinit:asmfiletypes.obj
+ 0003:00002cd0       ??_C@_0N@BMFNNFFD@assembly?4ver?$AA@ 1002ccd0     seinit:asmfiletypes.obj
+ 0003:00002ce0       ??_C@_0M@LNCKBDII@profile?4dnx?$AA@ 1002cce0     seinit:profileenv.obj
+ 0003:00002cec       ??_C@_08JNEOMACB@Commands?$AA@ 1002ccec     seinit:profileenv.obj
+ 0003:00002cf8       ?ProfileGroupEnvInfoCount@@3HB 1002ccf8     seinit:profileenv.obj
+ 0003:00002cfc       ??_C@_07HHOOFHOI@CopyCmd?$AA@ 1002ccfc     seinit:profileenv.obj
+ 0003:00002d04       ??_C@_06IIPCJEBL@CutCmd?$AA@ 1002cd04     seinit:profileenv.obj
+ 0003:00002d0c       ??_C@_0BA@GJMPOFFL@DimensionRibbon?$AA@ 1002cd0c     seinit:profileenv.obj
+ 0003:00002d1c       ??_C@_07EAJOOGMN@PROFILE?$AA@ 1002cd1c     seinit:profileenv.obj
+ 0003:00002d24       ??_C@_0N@IHMAOLKD@DropGeometry?$AA@ 1002cd24     seinit:profileenv.obj
+ 0003:00002d34       ??_C@_08KDDLHGFN@PasteCmd?$AA@ 1002cd34     seinit:profileenv.obj
+ 0003:00002d40       ??_C@_0P@KBIDNBGI@AutomaticStyle?$AA@ 1002cd40     seinit:profileenv.obj
+ 0003:00002d50       ??_C@_0BC@GBDCJJJE@ConvertToCurveCmd?$AA@ 1002cd50     seinit:profileenv.obj
+ 0003:00002d64       ??_C@_09JLNDFHAM@Dimension?$AA@ 1002cd64     seinit:profileenv.obj
+ 0003:00002d70       ??_C@_04CAMFALGN@Fill?$AA@ 1002cd70     seinit:profileenv.obj
+ 0003:00002d78       ??_C@_05KIMCLLN@Hatch?$AA@ 1002cd78     seinit:profileenv.obj
+ 0003:00002d80       ??_C@_06LACFBFGA@Linear?$AA@ 1002cd80     seinit:profileenv.obj
+ 0003:00002d88       ??_C@_0BP@DLCNILEG@ShowStyleRibbonColorPickerOnly?$AA@ 1002cd88     seinit:profileenv.obj
+ 0003:00002da8       ??_C@_0M@KFBLMIHA@Profile?4dnx?$AA@ 1002cda8     seinit:profileenv.obj
+ 0003:00002db4       ??_C@_0BC@MEEHENFK@InPlaceActivation?$AA@ 1002cdb4     seinit:partenv.obj
+ 0003:00002dc8       ?PartGroupEnvInfoCount@@3HB 1002cdc8     seinit:partenv.obj
+ 0003:00002dcc       ?TwoDDraftingApplicationGroupEnvInfoCount@@3HB 1002cdcc     seinit:partenv.obj
+ 0003:00002dd0       ??_C@_04JDIJJKPP@PART?$AA@ 1002cdd0     seinit:partenv.obj
+ 0003:00002dd8       ??_C@_0BA@BOCLKMHG@ShowStyleRibbon?$AA@ 1002cdd8     seinit:partenv.obj
+ 0003:00002de8       ??_C@_04OGMCGMPK@View?$AA@ 1002cde8     seinit:partenv.obj
+ 0003:00002df0       ??_C@_0M@DMIJLMDL@stdpart?4drx?$AA@ 1002cdf0     seinit:partenv.obj
+ 0003:00002dfc       ??_C@_0O@BNKOEHFF@BalloonRibbon?$AA@ 1002cdfc     seinit:partenv.obj
+ 0003:00002e0c       ??_C@_0L@PMLHHEJD@detail?4dnx?$AA@ 1002ce0c     seinit:DraftEnvInfo.obj
+ 0003:00002e18       ?DraftGroupEnvInfoCount@@3HB 1002ce18     seinit:DraftEnvInfo.obj
+ 0003:00002e1c       ?TwoDDraftingGroupEnvInfoCount@@3HB 1002ce1c     seinit:DraftEnvInfo.obj
+ 0003:00002e20       ??_C@_06EAPOAKCB@DETAIL?$AA@ 1002ce20     seinit:DraftEnvInfo.obj
+ 0003:00002e28       ??_C@_09MKEEJEOH@DeleteCmd?$AA@ 1002ce28     seinit:DraftEnvInfo.obj
+ 0003:00002e34       ??_C@_0BB@MOKGLIDC@CuttingPlaneLine?$AA@ 1002ce34     seinit:DraftEnvInfo.obj
+ 0003:00002e48       ??_C@_06OJMNBEFB@UIVIEW?$AA@ 1002ce48     seinit:DraftEnvInfo.obj
+ 0003:00002e50       ??_C@_0M@MNCEIGEE@cutplln?4dnx?$AA@ 1002ce50     seinit:DraftEnvInfo.obj
+ 0003:00002e5c       ??_C@_0L@OJILCOIH@detail?4drx?$AA@ 1002ce5c     seinit:DraftEnvInfo.obj
+ 0003:00002e68       ??_C@_0M@BGLBKDGH@UISELECTSET?$AA@ 1002ce68     seinit:DraftEnvInfo.obj
+ 0003:00002e74       ??_C@_04OJAHODMC@Text?$AA@ 1002ce74     seinit:DraftEnvInfo.obj
+ 0003:00002e7c       ??_C@_05LFBINIGO@Table?$AA@ 1002ce7c     seinit:DraftEnvInfo.obj
+ 0003:00002e84       ??_C@_0BA@DMKBKDKA@DrawingViewEdit?$AA@ 1002ce84     seinit:DraftEnvInfo.obj
+ 0003:00002e94       ??_C@_0M@GHLAPNIH@edtvwnv?4dnx?$AA@ 1002ce94     seinit:DraftEnvInfo.obj
+ 0003:00002ea0       ??_C@_09BKHDEIMA@TwoDModel?$AA@ 1002cea0     seinit:DraftEnvInfo.obj
+ 0003:00002eac       ??_C@_0BI@IFAPHKLK@BrokenOutSectionProfile?$AA@ 1002ceac     seinit:DraftEnvInfo.obj
+ 0003:00002ec4       ??_C@_0BC@PNCCLBPD@Create2dModelView?$AA@ 1002cec4     seinit:DraftEnvInfo.obj
+ 0003:00002ed8       ??_C@_0O@PALFACEH@EditBlockView?$AA@ 1002ced8     seinit:DraftEnvInfo.obj
+ 0003:00002ee8       ??_C@_0BB@BBJAOLEH@InProcActivation?$AA@ 1002cee8     seinit:asmenv.obj
+ 0003:00002efc       ??_C@_07IAGMLCGE@asm?4dnx?$AA@ 1002cefc     seinit:asmenv.obj
+ 0003:00002f04       ?AsmGroupEnvInfoCount@@3HB 1002cf04     seinit:asmenv.obj
+ 0003:00002f08       ??_C@_07JFFAOIHA@asm?4drx?$AA@ 1002cf08     seinit:asmenv.obj
+ 0003:00002f10       ??_C@_07EHNGPOJF@Explode?$AA@ 1002cf10     seinit:asmenv.obj
+ 0003:00002f18       ?DraftGroupFileTypeInfoCount@@3HB 1002cf18     seinit:DraftFileTypes.obj
+ 0003:00002f1c       ??_C@_0L@JCOCNBEB@mds2se?4ini?$AA@ 1002cf1c     seinit:DraftFileTypes.obj
+ 0003:00002f28       ??_C@_04MIFHDCOM@?4MDS?$AA@ 1002cf28     seinit:DraftFileTypes.obj
+ 0003:00002f30       ??_C@_08CDNNHHNJ@INGRIGES?$AA@ 1002cf30     seinit:DraftFileTypes.obj
+ 0003:00002f3c       ??_C@_0M@NODGBFDF@AutoCADINGR?$AA@ 1002cf3c     seinit:DraftFileTypes.obj
+ 0003:00002f48       ??_C@_04IFJBLHBK@?4DWG?$AA@ 1002cf48     seinit:DraftFileTypes.obj
+ 0003:00002f50       ??_C@_0L@NGKLAPHL@SEACAD?4INI?$AA@ 1002cf50     seinit:DraftFileTypes.obj
+ 0003:00002f5c       ??_C@_0L@FMGMCLNC@ITMSTN?4INI?$AA@ 1002cf5c     seinit:DraftFileTypes.obj
+ 0003:00002f68       ??_C@_0BB@CJLDBAON@MicroStationINGR?$AA@ 1002cf68     seinit:DraftFileTypes.obj
+ 0003:00002f7c       ??_C@_04EIHFKPCD@?4DGN?$AA@ 1002cf7c     seinit:DraftFileTypes.obj
+ 0003:00002f84       ??_C@_09KHMEGPCM@SheetView?$AA@ 1002cf84     seinit:DraftFileTypes.obj
+ 0003:00002f90       ??_C@_06JOMJELCJ@Sheets?$AA@ 1002cf90     seinit:DraftFileTypes.obj
+ 0003:00002f98       ??_C@_0L@IFAHDNHF@docext?4dex?$AA@ 1002cf98     seinit:DraftFileTypes.obj
+ 0003:00002fa4       ??_C@_09BNAIDCGH@draft?4ver?$AA@ 1002cfa4     seinit:DraftFileTypes.obj
+ 0003:00002fb0       ??_C@_06JBKGCNBB@Delete?$AA@ 1002cfb0     mfcs80:stdafx.obj
+ 0003:00002fb8       ??_C@_08KAAPDIAN@NoRemove?$AA@ 1002cfb8     mfcs80:stdafx.obj
+ 0003:00002fc4       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 1002cfc4     mfcs80:stdafx.obj
+ 0003:00002fd0       ??_C@_03LAIAPFCB@Val?$AA@  1002cfd0     mfcs80:stdafx.obj
+ 0003:00002fd4       ??_C@_01HMGJMAIH@B?$AA@    1002cfd4     mfcs80:stdafx.obj
+ 0003:00002fd8       ??_C@_01CKDDGHAB@D?$AA@    1002cfd8     mfcs80:stdafx.obj
+ 0003:00002fdc       ??_C@_01PLPBNMEI@M?$AA@    1002cfdc     mfcs80:stdafx.obj
+ 0003:00002fe0       ??_C@_01CPLAODJH@S?$AA@    1002cfe0     mfcs80:stdafx.obj
+ 0003:00003004       __pDefaultRawDllMain       1002d004     msvcrt:crtdll.obj
+ 0003:00003010       _GUID_NULL                 1002d010     uuid:cguid_i.obj
+ 0003:00003020       __pRawDllMain              1002d020     mfcs80:rawdllmainproxy.obj
+ 0003:00003028       __load_config_used         1002d028     msvcrt:loadcfg.obj
+ 0003:000030b0       ___safe_se_handler_table   1002d0b0     <linker-defined>
+ 0003:00003148       ___rtc_iaa                 1002d148     msvcrt:initsect.obj
+ 0003:0000314c       ___rtc_izz                 1002d14c     msvcrt:initsect.obj
+ 0003:00003150       ___rtc_taa                 1002d150     msvcrt:initsect.obj
+ 0003:00003154       ___rtc_tzz                 1002d154     msvcrt:initsect.obj
+ 0003:00003b0c       __IMPORT_DESCRIPTOR_jengine 1002db0c     jengine:jengine.dll
+ 0003:00003b20       __IMPORT_DESCRIPTOR_JUtil  1002db20     jutil:JUtil.dll
+ 0003:00003b34       __IMPORT_DESCRIPTOR_RFMSsvs 1002db34     rfmssvs:RFMSsvs.dll
+ 0003:00003b48       __IMPORT_DESCRIPTOR_MFC80  1002db48     mfc80:MFC80.DLL
+ 0003:00003b5c       __IMPORT_DESCRIPTOR_MSVCR80 1002db5c     msvcrt:MSVCR80.dll
+ 0003:00003b70       __IMPORT_DESCRIPTOR_KERNEL32 1002db70     kernel32:KERNEL32.dll
+ 0003:00003b84       __IMPORT_DESCRIPTOR_USER32 1002db84     user32:USER32.dll
+ 0003:00003b98       __IMPORT_DESCRIPTOR_ADVAPI32 1002db98     advapi32:ADVAPI32.dll
+ 0003:00003bac       __IMPORT_DESCRIPTOR_ole32  1002dbac     ole32:ole32.dll
+ 0003:00003bc0       __IMPORT_DESCRIPTOR_timeutl 1002dbc0     timeutl:timeutl.dll
+ 0003:00003bd4       __NULL_IMPORT_DESCRIPTOR   1002dbd4     jengine:jengine.dll
+ 0004:00000000       __newmode                  1002f000     newmode.obj
+ 0004:000015d8       ?ApplicationHooks@@3PAPBDA 100305d8     seinit:seinit.obj
+ 0004:00001600       ?PreDragHooks@@3PAPBDA     10030600     seinit:seinit.obj
+ 0004:00001614       ?ExtensionArray@@3PAUJFileExtensions@@A 10030614     seinit:seinit.obj
+ 0004:000017b8       ?PartDocHooks@@3PAPBDA     100307b8     seinit:partfiletypes.obj
+ 0004:000017d8       ?Part3dViewEnvironments@@3PAPBDA 100307d8     seinit:partfiletypes.obj
+ 0004:00001808       ?SheetMetalDocHooks@@3PAPBDA 10030808     seinit:partfiletypes.obj
+ 0004:00001828       ?SheetMetal3dViewEnvironments@@3PAPBDA 10030828     seinit:partfiletypes.obj
+ 0004:00001858       ?WeldmentDocHooks@@3PAPBDA 10030858     seinit:partfiletypes.obj
+ 0004:00001878       ?Weldment3dViewEnvironments@@3PAPBDA 10030878     seinit:partfiletypes.obj
+ 0004:00001898       ?PartGroupFileTypeInfo@@3PAPAVJFILETYPEINFO@@A 10030898     seinit:partfiletypes.obj
+ 0004:000018a4       ?DMPartDocHooks@@3PAPBDA   100308a4     seinit:partfiletypes.obj
+ 0004:000018c4       ?DMPart3dViewEnvironments@@3PAPBDA 100308c4     seinit:partfiletypes.obj
+ 0004:000018f4       ?DMPartGroupFileTypeInfo@@3PAPAVJFILETYPEINFO@@A 100308f4     seinit:partfiletypes.obj
+ 0004:00001b78       ?AssemblyDocHooks@@3PAPBDA 10030b78     seinit:asmfiletypes.obj
+ 0004:00001b94       ?Assembly3dViewEnvironments@@3PAPBDA 10030b94     seinit:asmfiletypes.obj
+ 0004:00001bcc       ?FamilyOfAssembliesDocHooks@@3PAPBDA 10030bcc     seinit:asmfiletypes.obj
+ 0004:00001bd0       ?FamilyOfAssemblies3dViewEnvironments@@3PAPBDA 10030bd0     seinit:asmfiletypes.obj
+ 0004:00001bd4       ?AsmGroupFileTypeInfo@@3PAPAVJFILETYPEINFO@@A 10030bd4     seinit:asmfiletypes.obj
+ 0004:00001d20       ?LayoutEnvHooks@@3PAUtagJENVHOOK@@A 10030d20     seinit:profileenv.obj
+ 0004:00001d28       ?LayoutInPartEnvHooks@@3PAUtagJENVHOOK@@A 10030d28     seinit:profileenv.obj
+ 0004:00001d30       ?ProfileEnvHooks@@3PAUtagJENVHOOK@@A 10030d30     seinit:profileenv.obj
+ 0004:00001d38       ?ProfileHoleEnvHooks@@3PAUtagJENVHOOK@@A 10030d38     seinit:profileenv.obj
+ 0004:00001d40       ?ProfilePatternEnvHooks@@3PAUtagJENVHOOK@@A 10030d40     seinit:profileenv.obj
+ 0004:00001d48       ?ProfileRevolvedEnvHooks@@3PAUtagJENVHOOK@@A 10030d48     seinit:profileenv.obj
+ 0004:00001d50       ?RefAxisEnvHooks@@3PAUtagJENVHOOK@@A 10030d50     seinit:profileenv.obj
+ 0004:00001d58       ?ProfileSmartBossEnvHooks@@3PAUtagJENVHOOK@@A 10030d58     seinit:profileenv.obj
+ 0004:00001d60       ?ProfileGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 10030d60     seinit:profileenv.obj
+ 0004:00001d88       ?LayoutCmdInfo@@3PAUtagJCMDINFOINFO@@A 10030d88     seinit:profileenv.obj
+ 0004:00001e50       ?LayoutStyles@@3PAUtagJNAMECLSID@@A 10030e50     seinit:profileenv.obj
+ 0004:00001ea0       ?LayoutInPartCmdInfo@@3PAUtagJCMDINFOINFO@@A 10030ea0     seinit:profileenv.obj
+ 0004:00001f68       ?LayoutInPartStyles@@3PAUtagJNAMECLSID@@A 10030f68     seinit:profileenv.obj
+ 0004:00001fb8       ?ProfileCmdInfo@@3PAUtagJCMDINFOINFO@@A 10030fb8     seinit:profileenv.obj
+ 0004:00002080       ?ProfileStyles@@3PAUtagJNAMECLSID@@A 10031080     seinit:profileenv.obj
+ 0004:000020d0       ?ProfileHoleCmdInfo@@3PAUtagJCMDINFOINFO@@A 100310d0     seinit:profileenv.obj
+ 0004:00002128       ?ProfileHoleStyles@@3PAUtagJNAMECLSID@@A 10031128     seinit:profileenv.obj
+ 0004:00002178       ?ProfilePatternCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031178     seinit:profileenv.obj
+ 0004:000021d0       ?ProfilePatternStyles@@3PAUtagJNAMECLSID@@A 100311d0     seinit:profileenv.obj
+ 0004:00002220       ?ProfileRevolvedCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031220     seinit:profileenv.obj
+ 0004:000022e8       ?ProfileRevolvedStyles@@3PAUtagJNAMECLSID@@A 100312e8     seinit:profileenv.obj
+ 0004:00002338       ?RefAxisCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031338     seinit:profileenv.obj
+ 0004:00002400       ?RefAxisStyles@@3PAUtagJNAMECLSID@@A 10031400     seinit:profileenv.obj
+ 0004:00002450       ?ProfileSmartBossCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031450     seinit:profileenv.obj
+ 0004:000024a8       ?ProfileSmartBossStyles@@3PAUtagJNAMECLSID@@A 100314a8     seinit:profileenv.obj
+ 0004:000024f8       ?ApplicationEnvHooks@@3PAUtagJENVHOOK@@A 100314f8     seinit:partenv.obj
+ 0004:00002500       ?PartNWServiceCommands@@3PAPBU_GUID@@A 10031500     seinit:partenv.obj
+ 0004:0000250c       ?PartEnvHooks@@3PAUtagJENVHOOK@@A 1003150c     seinit:partenv.obj
+ 0004:0000251c       ?FeatureRecognitionEnvHooks@@3PAUtagJENVHOOK@@A 1003151c     seinit:partenv.obj
+ 0004:00002524       ?SheetMetalNWServiceCommands@@3PAPBU_GUID@@A 10031524     seinit:partenv.obj
+ 0004:00002530       ?SheetMetalEnvHooks@@3PAUtagJENVHOOK@@A 10031530     seinit:partenv.obj
+ 0004:00002540       ?WeldmentNWServiceCommands@@3PAPBU_GUID@@A 10031540     seinit:partenv.obj
+ 0004:00002544       ?WeldmentEnvHooks@@3PAUtagJENVHOOK@@A 10031544     seinit:partenv.obj
+ 0004:00002554       ?EditMVEnvHooks@@3PAUtagJENVHOOK@@A 10031554     seinit:partenv.obj
+ 0004:0000255c       ?DMPartEnvHooks@@3PAUtagJENVHOOK@@A 1003155c     seinit:partenv.obj
+ 0004:0000256c       ?PartGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 1003156c     seinit:partenv.obj
+ 0004:00002588       ?TwoDDraftingApplicationGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 10031588     seinit:partenv.obj
+ 0004:0000258c       ?PartCmdInfo@@3PAUtagJCMDINFOINFO@@A 1003158c     seinit:partenv.obj
+ 0004:000025c8       ?PartStyles@@3PAUtagJNAMECLSID@@A 100315c8     seinit:partenv.obj
+ 0004:00002640       ?SheetMetalCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031640     seinit:partenv.obj
+ 0004:00002678       ?SheetMetalStyles@@3PAUtagJNAMECLSID@@A 10031678     seinit:partenv.obj
+ 0004:000026f0       ?WeldmentCmdInfo@@3PAUtagJCMDINFOINFO@@A 100316f0     seinit:partenv.obj
+ 0004:00002728       ?WeldmentStyles@@3PAUtagJNAMECLSID@@A 10031728     seinit:partenv.obj
+ 0004:000027a0       ?EditMVPartCmdInfo@@3PAUtagJCMDINFOINFO@@A 100317a0     seinit:partenv.obj
+ 0004:000027f8       ?EditMVPartStyles@@3PAUtagJNAMECLSID@@A 100317f8     seinit:partenv.obj
+ 0004:00002870       ?DMPartCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031870     seinit:partenv.obj
+ 0004:000028a8       ?DMPartStyles@@3PAUtagJNAMECLSID@@A 100318a8     seinit:partenv.obj
+ 0004:00002920       ?CuttingPlaneLineEnvHooks@@3PAUtagJENVHOOK@@A 10031920     seinit:DraftEnvInfo.obj
+ 0004:00002930       ?DetailEnvHooks@@3PAUtagJENVHOOK@@A 10031930     seinit:DraftEnvInfo.obj
+ 0004:00002940       ?DrawingViewEditEnvHooks@@3PAUtagJENVHOOK@@A 10031940     seinit:DraftEnvInfo.obj
+ 0004:00002950       ?TwoDModelEnvHooks@@3PAUtagJENVHOOK@@A 10031950     seinit:DraftEnvInfo.obj
+ 0004:00002960       ?BrokenOutSectionProfileEnvHooks@@3PAUtagJENVHOOK@@A 10031960     seinit:DraftEnvInfo.obj
+ 0004:00002970       ?Create2dModelViewEnvHooks@@3PAUtagJENVHOOK@@A 10031970     seinit:DraftEnvInfo.obj
+ 0004:00002980       ?EditBlockViewEnvHooks@@3PAUtagJENVHOOK@@A 10031980     seinit:DraftEnvInfo.obj
+ 0004:00002990       ?DraftGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 10031990     seinit:DraftEnvInfo.obj
+ 0004:000029ac       ?TwoDDraftingGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 100319ac     seinit:DraftEnvInfo.obj
+ 0004:000029c0       ?CuttingPlaneLineCmdInfo@@3PAUtagJCMDINFOINFO@@A 100319c0     seinit:DraftEnvInfo.obj
+ 0004:00002a18       ?DetailCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031a18     seinit:DraftEnvInfo.obj
+ 0004:00002ae0       ?DetailStyles@@3PAUtagJNAMECLSID@@A 10031ae0     seinit:DraftEnvInfo.obj
+ 0004:00002b58       ?DrawingViewEditCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031b58     seinit:DraftEnvInfo.obj
+ 0004:00002be8       ?DrawingViewEditStyles@@3PAUtagJNAMECLSID@@A 10031be8     seinit:DraftEnvInfo.obj
+ 0004:00002c60       ?TwoDModelCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031c60     seinit:DraftEnvInfo.obj
+ 0004:00002cf0       ?TwoDModelEditStyles@@3PAUtagJNAMECLSID@@A 10031cf0     seinit:DraftEnvInfo.obj
+ 0004:00002d68       ?BrokenOutSectionProfileCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031d68     seinit:DraftEnvInfo.obj
+ 0004:00002dd8       ?Create2dModelViewCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031dd8     seinit:DraftEnvInfo.obj
+ 0004:00002e10       ?EditBlockViewCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031e10     seinit:DraftEnvInfo.obj
+ 0004:00002ea0       ?EditBlockViewStyles@@3PAUtagJNAMECLSID@@A 10031ea0     seinit:DraftEnvInfo.obj
+ 0004:00002f08       ?AssemblyNWServiceCommands@@3PAPBU_GUID@@A 10031f08     seinit:asmenv.obj
+ 0004:00002f18       ?AssemblyEnvHooks@@3PAUtagJENVHOOK@@A 10031f18     seinit:asmenv.obj
+ 0004:00002f28       ?ExplodeNWServiceCommands@@3PAPBU_GUID@@A 10031f28     seinit:asmenv.obj
+ 0004:00002f30       ?ExplodeEnvHooks@@3PAUtagJENVHOOK@@A 10031f30     seinit:asmenv.obj
+ 0004:00002f40       ?MotionEnvHooks@@3PAUtagJENVHOOK@@A 10031f40     seinit:asmenv.obj
+ 0004:00002f50       ?StudioNWServiceCommands@@3PAPBU_GUID@@A 10031f50     seinit:asmenv.obj
+ 0004:00002f60       ?StudioEnvHooks@@3PAUtagJENVHOOK@@A 10031f60     seinit:asmenv.obj
+ 0004:00002f70       ?TubingNWServiceCommands@@3PAPBU_GUID@@A 10031f70     seinit:asmenv.obj
+ 0004:00002f84       ?TubingEnvHooks@@3PAUtagJENVHOOK@@A 10031f84     seinit:asmenv.obj
+ 0004:00002f94       ?AsmGroupEnvInfo@@3PAPAVJENVIRONMENTINFO@@A 10031f94     seinit:asmenv.obj
+ 0004:00002fb0       ?AssemblyCmdInfo@@3PAUtagJCMDINFOINFO@@A 10031fb0     seinit:asmenv.obj
+ 0004:00002fd0       ?AssemblyStyles@@3PAUtagJNAMECLSID@@A 10031fd0     seinit:asmenv.obj
+ 0004:00003048       ?ExplodeStyles@@3PAUtagJNAMECLSID@@A 10032048     seinit:asmenv.obj
+ 0004:000030c0       ?MotionStyles@@3PAUtagJNAMECLSID@@A 100320c0     seinit:asmenv.obj
+ 0004:00003138       ?StudioStyles@@3PAUtagJNAMECLSID@@A 10032138     seinit:asmenv.obj
+ 0004:0000319c       ?TubingCmdInfo@@3PAUtagJCMDINFOINFO@@A 1003219c     seinit:asmenv.obj
+ 0004:000031d8       ?TubingStyles@@3PAUtagJNAMECLSID@@A 100321d8     seinit:asmenv.obj
+ 0004:00003250       ?DraftDocHooks@@3PAPBDA    10032250     seinit:DraftFileTypes.obj
+ 0004:00003264       ?DraftSheetViewEnvironments@@3PAPBDA 10032264     seinit:DraftFileTypes.obj
+ 0004:00003280       ?DraftGroupFileTypeInfo@@3PAPAVJFILETYPEINFO@@A 10032280     seinit:DraftFileTypes.obj
+ 0004:00003328       ?SkModDefaultArray@@3PAPBU_GUID@@A 10032328     seinit:CmdInfo.obj
+ 0004:00003330       ?SkPropertiesDefaultArray@@3PAPBU_GUID@@A 10032330     seinit:CmdInfo.obj
+ 0004:00003338       ?ClsidKeyArray@@3PAUClsidKey@@A 10032338     seinit:CmdInfo.obj
+ 0004:00003c20       ___security_cookie         10032c20     msvcrt:gs_cookie.obj
+ 0004:00003c24       ___security_cookie_complement 10032c24     msvcrt:gs_cookie.obj
+ 0004:00003c30       ___native_dllmain_reason   10032c30     msvcrt:natstart.obj
+ 0004:00003c34       ___native_vcclrit_reason   10032c34     msvcrt:natstart.obj
+ 0004:00003c38       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10032c38     atls:atltrace.obj
+ 0004:00003c40       ?CompanyName@@3PADA        10032c40     SEStartup.obj
+ 0004:00003e48       ?UserName@@3PADA           10032e48     SEStartup.obj
+ 0004:00004050       ?g_hSEStartup@@3PAUHINSTANCE__@@A 10033050     SEStartup.obj
+ 0004:00004054       _WM_JDOCUMENTTRANSITION    10033054     SEStartup.obj
+ 0004:00004058       _WM_JENVIRONMENTTRANSITION 10033058     SEStartup.obj
+ 0004:0000405c       _WM_JVIEWSETTRANSITION     1003305c     SEStartup.obj
+ 0004:00004060       _WM_JACTIVEENVIRONMENTTRANSITION 10033060     SEStartup.obj
+ 0004:00004064       _WM_JSELECTSETCHANGE       10033064     SEStartup.obj
+ 0004:00004068       _WM_JCONTEXTHELPBYHELPID   10033068     SEStartup.obj
+ 0004:0000406c       _WM_JENABLEAUTOMATION      1003306c     SEStartup.obj
+ 0004:00004070       _WM_JQUERYAUTOMATION       10033070     SEStartup.obj
+ 0004:00004074       _WM_JVK                    10033074     SEStartup.obj
+ 0004:00004078       _WM_JVA                    10033078     SEStartup.obj
+ 0004:0000407c       _WM_SECRETAGENTMAN         1003307c     SEStartup.obj
+ 0004:00004080       _WM_JPROCESSDDEREQUESTS    10033080     SEStartup.obj
+ 0004:00004084       _WM_JVARIABLECHANGE        10033084     SEStartup.obj
+ 0004:00004088       _WM_JDOCMARKEDEDITOPEN     10033088     SEStartup.obj
+ 0004:0000408c       _WM_REFRESH_SELECT_LIST    1003308c     SEStartup.obj
+ 0004:00004090       _WM_AUTOMATION_COMMAND     10033090     SEStartup.obj
+ 0004:00004094       _WM_JSETFRAMEMENU          10033094     SEStartup.obj
+ 0004:00004098       _WM_MEASUREMENT_COMMANDCOMPLETED 10033098     SEStartup.obj
+ 0004:0000409c       _WM_MEASUREMENT_VARIABLE_CREATED 1003309c     SEStartup.obj
+ 0004:000040a0       _WM_JACTIVESHEETTRANSITION 100330a0     SEStartup.obj
+ 0004:000040a4       _WM_ACTIVATEPART_COMMANDCOMPLETED 100330a4     SEStartup.obj
+ 0004:000040a8       _WM_ENDPROFILE_COMMAND_COMPLETED 100330a8     SEStartup.obj
+ 0004:000040ac       _WM_JENABLEHELPAUTOMATION  100330ac     SEStartup.obj
+ 0004:000040b0       _WM_JQUERYHELPAUTOMATION   100330b0     SEStartup.obj
+ 0004:000040b4       _WM_FOA_DISABLE_CONTROLS   100330b4     SEStartup.obj
+ 0004:000040b8       _WM_FOA_REENABLE_CONTROLS  100330b8     SEStartup.obj
+ 0004:000040bc       _WM_JCOPILOT               100330bc     SEStartup.obj
+ 0004:000040c0       _WM_JIDLE                  100330c0     SEStartup.obj
+ 0004:000040c4       _WM_WIREPATH_COMMANDCOMPLETED 100330c4     SEStartup.obj
+ 0004:000040c8       _WM_JSTARTSPECIFICHELPTUTORIAL 100330c8     SEStartup.obj
+ 0004:000040cc       _WM_AUTO_BACKUPSAVE_CLEANUP 100330cc     SEStartup.obj
+ 0004:000040d0       _WM_JVIEW_UPDATED_WITH_MOUSEBUTTON 100330d0     SEStartup.obj
+ 0004:000040d4       _WM_DTA_CHECK_NAME         100330d4     SEStartup.obj
+ 0004:000040d8       _WM_DTA_CHECK_COMMAND_ACTIVE 100330d8     SEStartup.obj
+ 0004:000040dc       _WM_DTA_UPDATE_TABLE       100330dc     SEStartup.obj
+ 0004:000040e0       _WM_TERMINAL_BALLOON_MODIFIED 100330e0     SEStartup.obj
+ 0004:000040e4       _WM_MODIFYBALLOON_CMDCOMPLETED 100330e4     SEStartup.obj
+ 0004:000040e8       _WM_MODIFYBALLOON_CMDSTARTED 100330e8     SEStartup.obj
+ 0004:000040ec       _WM_MODIFYBALLOON_NOPOPUP  100330ec     SEStartup.obj
+ 0004:000040f0       _WM_DTA_EMPTY_SELECT_LIST  100330f0     SEStartup.obj
+ 0004:000040f4       _WM_RUNNING_LOW_ON_MEMORY  100330f4     SEStartup.obj
+ 0004:000040f8       _WM_VIEW_TRANSFORM_CHANGED 100330f8     SEStartup.obj
+ 0004:000040fc       _WM_SE_LOW_MEMORY_WARNING  100330fc     SEStartup.obj
+ 0004:00004100       _WM_OPTIONVALUE_MODIFIED   10033100     SEStartup.obj
+ 0004:00004104       _WM_TANGENT_REF_PLANE_REFRESH 10033104     SEStartup.obj
+ 0004:00004108       _WM_BEGIN_VIEWTRANSFORM    10033108     SEStartup.obj
+ 0004:0000410c       _WM_END_VIEWTRANSFORM      1003310c     SEStartup.obj
+ 0004:000046a8       ?PostDragHooks@@3PAPBDA    100336a8     seinit:seinit.obj
+ 0004:000046b0       ?g_JAppData@@3UtagJAPPDATA@@A 100336b0     seinit:seinit.obj
+ 0004:00004730       ?PartClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 10033730     seinit:partfiletypes.obj
+ 0004:000047c0       ?PartFileFormats@@3PAUtagJFILEFORMAT@@A 100337c0     seinit:partfiletypes.obj
+ 0004:00005698       ?PartSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10034698     seinit:partfiletypes.obj
+ 0004:000056c0       ?PartFileType@@3VJFILETYPEINFO@@A 100346c0     seinit:partfiletypes.obj
+ 0004:000057a0       ?SheetMetalClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 100347a0     seinit:partfiletypes.obj
+ 0004:000057e8       ?SheetMetalFileFormats@@3PAUtagJFILEFORMAT@@A 100347e8     seinit:partfiletypes.obj
+ 0004:00006758       ?SheetMetalSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10035758     seinit:partfiletypes.obj
+ 0004:00006780       ?SheetMetalFileType@@3VJFILETYPEINFO@@A 10035780     seinit:partfiletypes.obj
+ 0004:00006860       ?WeldmentClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 10035860     seinit:partfiletypes.obj
+ 0004:000068a8       ?WeldmentFileFormats@@3PAUtagJFILEFORMAT@@A 100358a8     seinit:partfiletypes.obj
+ 0004:00007190       ?WeldmentSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10036190     seinit:partfiletypes.obj
+ 0004:000071b8       ?WeldmentFileType@@3VJFILETYPEINFO@@A 100361b8     seinit:partfiletypes.obj
+ 0004:00007298       ?DMPartClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 10036298     seinit:partfiletypes.obj
+ 0004:00007328       ?DMPartFileFormats@@3PAUtagJFILEFORMAT@@A 10036328     seinit:partfiletypes.obj
+ 0004:00008200       ?DMPartSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10037200     seinit:partfiletypes.obj
+ 0004:00008228       ?DMPartFileType@@3VJFILETYPEINFO@@A 10037228     seinit:partfiletypes.obj
+ 0004:00008308       ?AssemblyClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 10037308     seinit:asmfiletypes.obj
+ 0004:000083e0       ?AssemblyFileFormats@@3PAUtagJFILEFORMAT@@A 100373e0     seinit:asmfiletypes.obj
+ 0004:00009350       ?AssemblySupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10038350     seinit:asmfiletypes.obj
+ 0004:00009378       ?AssemblyFileType@@3VJFILETYPEINFO@@A 10038378     seinit:asmfiletypes.obj
+ 0004:00009454       ?FamilyOfAssembliesSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10038454     seinit:asmfiletypes.obj
+ 0004:00009480       ?FamilyOfAssembliesFileType@@3VJFILETYPEINFO@@A 10038480     seinit:asmfiletypes.obj
+ 0004:00009560       ?LayoutHSOs@@3PAUtagJCLSIDPAIR@@A 10038560     seinit:profileenv.obj
+ 0004:000098c0       ?LayoutAltNWs@@3PAUtagJCLSIDPAIR@@A 100388c0     seinit:profileenv.obj
+ 0004:00009ce0       ?LayoutEnvInfo@@3VJENVIRONMENTINFO@@A 10038ce0     seinit:profileenv.obj
+ 0004:00009db0       ?LayoutInPartHSOs@@3PAUtagJCLSIDPAIR@@A 10038db0     seinit:profileenv.obj
+ 0004:0000a150       ?LayoutInPartAltNWs@@3PAUtagJCLSIDPAIR@@A 10039150     seinit:profileenv.obj
+ 0004:0000a5b0       ?LayoutInPartEnvInfo@@3VJENVIRONMENTINFO@@A 100395b0     seinit:profileenv.obj
+ 0004:0000a680       ?ProfileHSOs@@3PAUtagJCLSIDPAIR@@A 10039680     seinit:profileenv.obj
+ 0004:0000aa00       ?ProfileAltNWs@@3PAUtagJCLSIDPAIR@@A 10039a00     seinit:profileenv.obj
+ 0004:0000ada0       ?ProfileEnvInfo@@3VJENVIRONMENTINFO@@A 10039da0     seinit:profileenv.obj
+ 0004:0000ae70       ?ProfileHoleHSOs@@3PAUtagJCLSIDPAIR@@A 10039e70     seinit:profileenv.obj
+ 0004:0000b1d0       ?ProfileHoleAltNWs@@3PAUtagJCLSIDPAIR@@A 1003a1d0     seinit:profileenv.obj
+ 0004:0000b510       ?ProfileHoleEnvInfo@@3VJENVIRONMENTINFO@@A 1003a510     seinit:profileenv.obj
+ 0004:0000b5e0       ?ProfilePatternHSOs@@3PAUtagJCLSIDPAIR@@A 1003a5e0     seinit:profileenv.obj
+ 0004:0000b960       ?ProfilePatternAltNWs@@3PAUtagJCLSIDPAIR@@A 1003a960     seinit:profileenv.obj
+ 0004:0000bd20       ?ProfilePatternEnvInfo@@3VJENVIRONMENTINFO@@A 1003ad20     seinit:profileenv.obj
+ 0004:0000bdf0       ?ProfileRevolvedHSOs@@3PAUtagJCLSIDPAIR@@A 1003adf0     seinit:profileenv.obj
+ 0004:0000c150       ?ProfileRevolvedAltNWs@@3PAUtagJCLSIDPAIR@@A 1003b150     seinit:profileenv.obj
+ 0004:0000c4f0       ?ProfileRevolvedEnvInfo@@3VJENVIRONMENTINFO@@A 1003b4f0     seinit:profileenv.obj
+ 0004:0000c5c0       ?RefAxisHSOs@@3PAUtagJCLSIDPAIR@@A 1003b5c0     seinit:profileenv.obj
+ 0004:0000c7a0       ?RefAxisAltNWs@@3PAUtagJCLSIDPAIR@@A 1003b7a0     seinit:profileenv.obj
+ 0004:0000c980       ?RefAxisEnvInfo@@3VJENVIRONMENTINFO@@A 1003b980     seinit:profileenv.obj
+ 0004:0000ca50       ?ProfileSmartBossHSOs@@3PAUtagJCLSIDPAIR@@A 1003ba50     seinit:profileenv.obj
+ 0004:0000cdb0       ?ProfileSmartBossAltNWs@@3PAUtagJCLSIDPAIR@@A 1003bdb0     seinit:profileenv.obj
+ 0004:0000d0f0       ?ProfileSmartBossEnvInfo@@3VJENVIRONMENTINFO@@A 1003c0f0     seinit:profileenv.obj
+ 0004:0000d1c0       ?ComponentSketchInPartEnvInfo@@3VJENVIRONMENTINFO@@A 1003c1c0     seinit:profileenv.obj
+ 0004:0000d290       ?ComponentSketchInAsmEnvInfo@@3VJENVIRONMENTINFO@@A 1003c290     seinit:profileenv.obj
+ 0004:0000d360       ?ApplicationEnvInfo@@3VJENVIRONMENTINFO@@A 1003c360     seinit:partenv.obj
+ 0004:0000d430       ?TwoDDraftingApplicationEnvInfo@@3VJENVIRONMENTINFO@@A 1003c430     seinit:partenv.obj
+ 0004:0000d500       ?PartHSOs@@3PAUtagJCLSIDPAIR@@A 1003c500     seinit:partenv.obj
+ 0004:0000d800       ?PartEnvInfo@@3VJENVIRONMENTINFO@@A 1003c800     seinit:partenv.obj
+ 0004:0000d8d0       ?FeatureRecognitionEnvInfo@@3VJENVIRONMENTINFO@@A 1003c8d0     seinit:partenv.obj
+ 0004:0000d9a0       ?SheetMetalEnvInfo@@3VJENVIRONMENTINFO@@A 1003c9a0     seinit:partenv.obj
+ 0004:0000da70       ?WeldmentEnvInfo@@3VJENVIRONMENTINFO@@A 1003ca70     seinit:partenv.obj
+ 0004:0000db40       ?EditMVPartEnvInfo@@3VJENVIRONMENTINFO@@A 1003cb40     seinit:partenv.obj
+ 0004:0000dc10       ?DMPartEnvInfo@@3VJENVIRONMENTINFO@@A 1003cc10     seinit:partenv.obj
+ 0004:0000dce0       ?CuttingPlaneLineHSOs@@3PAUtagJCLSIDPAIR@@A 1003cce0     seinit:DraftEnvInfo.obj
+ 0004:0000dd40       ?CuttingPlaneLineAltNWs@@3PAUtagJCLSIDPAIR@@A 1003cd40     seinit:DraftEnvInfo.obj
+ 0004:0000dda0       ?CuttingPlaneLineEnvInfo@@3VJENVIRONMENTINFO@@A 1003cda0     seinit:DraftEnvInfo.obj
+ 0004:0000de70       ?DetailHSOs@@3PAUtagJCLSIDPAIR@@A 1003ce70     seinit:DraftEnvInfo.obj
+ 0004:0000e310       ?DetailAltNWs@@3PAUtagJCLSIDPAIR@@A 1003d310     seinit:DraftEnvInfo.obj
+ 0004:0000e8b0       ?DetailPropertyCmds@@3PAUtagJCLSIDPAIR@@A 1003d8b0     seinit:DraftEnvInfo.obj
+ 0004:0000ec30       ?DetailEnvInfo@@3VJENVIRONMENTINFO@@A 1003dc30     seinit:DraftEnvInfo.obj
+ 0004:0000ed00       ?TwoDDraftingEnvInfo@@3VJENVIRONMENTINFO@@A 1003dd00     seinit:DraftEnvInfo.obj
+ 0004:0000edd0       ?DrawingViewEditHSOs@@3PAUtagJCLSIDPAIR@@A 1003ddd0     seinit:DraftEnvInfo.obj
+ 0004:0000f250       ?DrawingViewEditAltNWs@@3PAUtagJCLSIDPAIR@@A 1003e250     seinit:DraftEnvInfo.obj
+ 0004:0000f670       ?DrawingViewEditPropertyCmds@@3PAUtagJCLSIDPAIR@@A 1003e670     seinit:DraftEnvInfo.obj
+ 0004:0000f970       ?DrawingViewEditInfo@@3VJENVIRONMENTINFO@@A 1003e970     seinit:DraftEnvInfo.obj
+ 0004:0000fa40       ?TwoDDraftingDrawingViewEditInfo@@3VJENVIRONMENTINFO@@A 1003ea40     seinit:DraftEnvInfo.obj
+ 0004:0000fb10       ?TwoDModelHSOs@@3PAUtagJCLSIDPAIR@@A 1003eb10     seinit:DraftEnvInfo.obj
+ 0004:0000ff70       ?TwoDModelAltNWs@@3PAUtagJCLSIDPAIR@@A 1003ef70     seinit:DraftEnvInfo.obj
+ 0004:00010390       ?TwoDModelPropertyCmds@@3PAUtagJCLSIDPAIR@@A 1003f390     seinit:DraftEnvInfo.obj
+ 0004:00010690       ?TwoDModelInfo@@3VJENVIRONMENTINFO@@A 1003f690     seinit:DraftEnvInfo.obj
+ 0004:00010760       ?TwoDDraftingTwoDModelInfo@@3VJENVIRONMENTINFO@@A 1003f760     seinit:DraftEnvInfo.obj
+ 0004:00010830       ?BrokenOutSectionProfileHSOs@@3PAUtagJCLSIDPAIR@@A 1003f830     seinit:DraftEnvInfo.obj
+ 0004:00010950       ?BrokenOutSectionProfileAltNWs@@3PAUtagJCLSIDPAIR@@A 1003f950     seinit:DraftEnvInfo.obj
+ 0004:00010a50       ?BrokenOutSectionProfileEnvInfo@@3VJENVIRONMENTINFO@@A 1003fa50     seinit:DraftEnvInfo.obj
+ 0004:00010b20       ?Create2dModelViewEnvInfo@@3VJENVIRONMENTINFO@@A 1003fb20     seinit:DraftEnvInfo.obj
+ 0004:00010bf0       ?TwoDDraftingCreate2dModelViewEnvInfo@@3VJENVIRONMENTINFO@@A 1003fbf0     seinit:DraftEnvInfo.obj
+ 0004:00010cc0       ?EditBlockViewHSOs@@3PAUtagJCLSIDPAIR@@A 1003fcc0     seinit:DraftEnvInfo.obj
+ 0004:00011040       ?EditBlockViewAltNWs@@3PAUtagJCLSIDPAIR@@A 10040040     seinit:DraftEnvInfo.obj
+ 0004:00011340       ?EditBlockViewPropertyCmds@@3PAUtagJCLSIDPAIR@@A 10040340     seinit:DraftEnvInfo.obj
+ 0004:000115e0       ?EditBlockViewInfo@@3VJENVIRONMENTINFO@@A 100405e0     seinit:DraftEnvInfo.obj
+ 0004:000116b0       ?TwoDDraftingEditBlockViewInfo@@3VJENVIRONMENTINFO@@A 100406b0     seinit:DraftEnvInfo.obj
+ 0004:00011780       ?AssemblyHSOs@@3PAUtagJCLSIDPAIR@@A 10040780     seinit:asmenv.obj
+ 0004:00011b20       ?AssemblyEnvInfo@@3VJENVIRONMENTINFO@@A 10040b20     seinit:asmenv.obj
+ 0004:00011bf0       ?ExplodeEnvInfo@@3VJENVIRONMENTINFO@@A 10040bf0     seinit:asmenv.obj
+ 0004:00011cc0       ?MotionEnvInfo@@3VJENVIRONMENTINFO@@A 10040cc0     seinit:asmenv.obj
+ 0004:00011d90       ?StudioEnvInfo@@3VJENVIRONMENTINFO@@A 10040d90     seinit:asmenv.obj
+ 0004:00011e60       ?TubingEnvInfo@@3VJENVIRONMENTINFO@@A 10040e60     seinit:asmenv.obj
+ 0004:00011f30       ?FrameEnvInfo@@3VJENVIRONMENTINFO@@A 10040f30     seinit:asmenv.obj
+ 0004:00012000       ?HarnessEnvInfo@@3VJENVIRONMENTINFO@@A 10041000     seinit:asmenv.obj
+ 0004:000120d0       ?EditMVEnvInfo@@3VJENVIRONMENTINFO@@A 100410d0     seinit:asmenv.obj
+ 0004:000121a0       ?DraftClipboardFormats@@3PAUtagJCLIPBOARDFORMAT@@A 100411a0     seinit:DraftFileTypes.obj
+ 0004:00012210       ?DraftFileFormats@@3PAUtagJFILEFORMAT@@A 10041210     seinit:DraftFileTypes.obj
+ 0004:00012638       ?DraftSupportedViews@@3PAUtagJFILETYPEINFOVIEW@@A 10041638     seinit:DraftFileTypes.obj
+ 0004:00012660       ?DraftFileType@@3VJFILETYPEINFO@@A 10041660     seinit:DraftFileTypes.obj
+ 0004:0001273c       __afxForceEXCLUDE          1004173c     mfcs80:nolib.obj
+ 0004:00012740       __afxForceSTDAFX           10041740     mfcs80:stdafx.obj
+ 0004:00012a6c       ?__type_info_root_node@@3U__type_info_node@@A 10041a6c     msvcrt:tncleanup.obj
+ 0004:00012a74       __pActualRawDllMain        10041a74     <common>
+ 0004:00012a78       __adjust_fdiv              10041a78     <common>
+ 0004:00012a7c       ___native_startup_state    10041a7c     <common>
+ 0004:00012a80       ___native_startup_lock     10041a80     <common>
+ 0004:00012a84       ___onexitend               10041a84     <common>
+ 0004:00012a88       ___onexitbegin             10041a88     <common>
+ 0004:00012a8c       ___dyn_tls_init_callback   10041a8c     <common>
+
+ entry point at        0001:00004ad6
+
+ Static symbols
+
+ 0001:000047d4       _pre_c_init                100057d4 f   msvcrt:crtdll.obj
+ 0001:000049c0       ___DllMainCRTStartup       100059c0 f   msvcrt:crtdll.obj
+ 0001:00005164       __FindPESection            10006164 f   mfcs80:rawdllmainproxy.obj
+ 0001:0000519e       __IsNonwritableInCurrentImage 1000619e f   mfcs80:rawdllmainproxy.obj
+ 0001:00005250       __unwindfunclet$?IsEmbedded@@YAHPAD@Z$0 10006250 f   SEStartup.obj
+ 0001:00005259       __unwindfunclet$?IsEmbedded@@YAHPAD@Z$1 10006259 f   SEStartup.obj
+ 0001:00005262       __unwindfunclet$?IsEmbedded@@YAHPAD@Z$2 10006262 f   SEStartup.obj
+ 0001:0000526b       __ehhandler$?IsEmbedded@@YAHPAD@Z 1000626b f   SEStartup.obj
+ 0001:00005290       __unwindfunclet$?IsAutomated@@YAHPAD@Z$0 10006290 f   SEStartup.obj
+ 0001:00005299       __unwindfunclet$?IsAutomated@@YAHPAD@Z$1 10006299 f   SEStartup.obj
+ 0001:000052a2       __unwindfunclet$?IsAutomated@@YAHPAD@Z$2 100062a2 f   SEStartup.obj
+ 0001:000052ab       __ehhandler$?IsAutomated@@YAHPAD@Z 100062ab f   SEStartup.obj
+ 0001:000052d0       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$0 100062d0 f   SEStartup.obj
+ 0001:000052d9       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$1 100062d9 f   SEStartup.obj
+ 0001:000052f3       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$2 100062f3 f   SEStartup.obj
+ 0001:0000530d       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$3 1000630d f   SEStartup.obj
+ 0001:00005316       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$4 10006316 f   SEStartup.obj
+ 0001:00005330       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$5 10006330 f   SEStartup.obj
+ 0001:0000534a       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$6 1000634a f   SEStartup.obj
+ 0001:00005353       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$7 10006353 f   SEStartup.obj
+ 0001:0000536d       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$8 1000636d f   SEStartup.obj
+ 0001:00005387       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$9 10006387 f   SEStartup.obj
+ 0001:00005390       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$10 10006390 f   SEStartup.obj
+ 0001:000053aa       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$11 100063aa f   SEStartup.obj
+ 0001:000053c9       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$12 100063c9 f   SEStartup.obj
+ 0001:000053d2       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$13 100063d2 f   SEStartup.obj
+ 0001:000053f1       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$14 100063f1 f   SEStartup.obj
+ 0001:00005410       __unwindfunclet$?GetEnvironmentFromCmdLine@@YAKPAD@Z$15 10006410 f   SEStartup.obj
+ 0001:00005419       __ehhandler$?GetEnvironmentFromCmdLine@@YAKPAD@Z 10006419 f   SEStartup.obj
+ 0001:00005440       __unwindfunclet$??0JOBJCMDINFO@@QAE@XZ$0 10006440 f   seinit:seinit.obj
+ 0001:0000544b       __unwindfunclet$??0JOBJCMDINFO@@QAE@XZ$1 1000644b f   seinit:seinit.obj
+ 0001:00005456       __ehhandler$??0JOBJCMDINFO@@QAE@XZ 10006456 f   seinit:seinit.obj
+ 0001:00005480       __unwindfunclet$??0JOBJCMDINFO@@QAE@PBU_GUID@@000PAPBU1@H1H@Z$0 10006480 f   seinit:seinit.obj
+ 0001:0000548b       __unwindfunclet$??0JOBJCMDINFO@@QAE@PBU_GUID@@000PAPBU1@H1H@Z$1 1000648b f   seinit:seinit.obj
+ 0001:00005496       __ehhandler$??0JOBJCMDINFO@@QAE@PBU_GUID@@000PAPBU1@H1H@Z 10006496 f   seinit:seinit.obj
+ 0001:000054c0       __unwindfunclet$??1JOBJCMDINFO@@QAE@XZ$0 100064c0 f   seinit:seinit.obj
+ 0001:000054cb       __unwindfunclet$??1JOBJCMDINFO@@QAE@XZ$1 100064cb f   seinit:seinit.obj
+ 0001:000054d6       __ehhandler$??1JOBJCMDINFO@@QAE@XZ 100064d6 f   seinit:seinit.obj
+ 0001:00005500       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$0 10006500 f   seinit:seinit.obj
+ 0001:0000550b       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$1 1000650b f   seinit:seinit.obj
+ 0001:00005516       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$2 10006516 f   seinit:seinit.obj
+ 0001:00005521       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$3 10006521 f   seinit:seinit.obj
+ 0001:0000552c       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$4 1000652c f   seinit:seinit.obj
+ 0001:00005537       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$5 10006537 f   seinit:seinit.obj
+ 0001:00005545       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@XZ$6 10006545 f   seinit:seinit.obj
+ 0001:00005553       __ehhandler$??0JENVIRONMENTINFO@@QAE@XZ 10006553 f   seinit:seinit.obj
+ 0001:00005570       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$0 10006570 f   seinit:seinit.obj
+ 0001:0000557b       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$1 1000657b f   seinit:seinit.obj
+ 0001:00005586       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$2 10006586 f   seinit:seinit.obj
+ 0001:00005591       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$3 10006591 f   seinit:seinit.obj
+ 0001:0000559c       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$4 1000659c f   seinit:seinit.obj
+ 0001:000055a7       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$5 100065a7 f   seinit:seinit.obj
+ 0001:000055b5       __unwindfunclet$??1JENVIRONMENTINFO@@QAE@XZ$6 100065b5 f   seinit:seinit.obj
+ 0001:000055c3       __ehhandler$??1JENVIRONMENTINFO@@QAE@XZ 100065c3 f   seinit:seinit.obj
+ 0001:000055e0       __unwindfunclet$??0tagJCLIPBOARDFORMATS@@QAE@XZ$0 100065e0 f   seinit:seinit.obj
+ 0001:000055eb       __ehhandler$??0tagJCLIPBOARDFORMATS@@QAE@XZ 100065eb f   seinit:seinit.obj
+ 0001:00005610       __unwindfunclet$??0tagJFILETYPEINFOVIEW@@QAE@XZ$0 10006610 f   seinit:seinit.obj
+ 0001:0000561b       __ehhandler$??0tagJFILETYPEINFOVIEW@@QAE@XZ 1000661b f   seinit:seinit.obj
+ 0001:00005640       __unwindfunclet$??1tagJFILETYPEINFOVIEW@@QAE@XZ$0 10006640 f   seinit:seinit.obj
+ 0001:0000564b       __ehhandler$??1tagJFILETYPEINFOVIEW@@QAE@XZ 1000664b f   seinit:seinit.obj
+ 0001:00005670       __unwindfunclet$??1tagJCLIPBOARDFORMATS@@QAE@XZ$0 10006670 f   seinit:seinit.obj
+ 0001:0000567b       __ehhandler$??1tagJCLIPBOARDFORMATS@@QAE@XZ 1000667b f   seinit:seinit.obj
+ 0001:000056a0       __unwindfunclet$?DestructElements@@YGXPAVJOBJCMDINFO@@H@Z$0 100066a0 f   seinit:seinit.obj
+ 0001:000056ab       __unwindfunclet$?DestructElements@@YGXPAVJOBJCMDINFO@@H@Z$1 100066ab f   seinit:seinit.obj
+ 0001:000056b6       __ehhandler$?DestructElements@@YGXPAVJOBJCMDINFO@@H@Z 100066b6 f   seinit:seinit.obj
+ 0001:000056e0       __unwindfunclet$??0tagJFILETYPEINFOVIEW@@QAE@ABU0@@Z$0 100066e0 f   seinit:seinit.obj
+ 0001:000056eb       __ehhandler$??0tagJFILETYPEINFOVIEW@@QAE@ABU0@@Z 100066eb f   seinit:seinit.obj
+ 0001:00005710       __unwindfunclet$?DestructElements@@YGXPAUtagJFILETYPEINFOVIEW@@H@Z$0 10006710 f   seinit:seinit.obj
+ 0001:0000571b       __ehhandler$?DestructElements@@YGXPAUtagJFILETYPEINFOVIEW@@H@Z 1000671b f   seinit:seinit.obj
+ 0001:00005740       __unwindfunclet$?GetAt@?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z$0 10006740 f   seinit:seinit.obj
+ 0001:00005759       __ehhandler$?GetAt@?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z 10006759 f   seinit:seinit.obj
+ 0001:00005780       __unwindfunclet$??1tagJFILETYPEINFOVIEWS@@QAE@XZ$0 10006780 f   seinit:seinit.obj
+ 0001:0000578b       __ehhandler$??1tagJFILETYPEINFOVIEWS@@QAE@XZ 1000678b f   seinit:seinit.obj
+ 0001:000057b0       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$0 100067b0 f   seinit:seinit.obj
+ 0001:000057bb       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$1 100067bb f   seinit:seinit.obj
+ 0001:000057c6       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$2 100067c6 f   seinit:seinit.obj
+ 0001:000057d1       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$3 100067d1 f   seinit:seinit.obj
+ 0001:000057df       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$4 100067df f   seinit:seinit.obj
+ 0001:000057ed       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$5 100067ed f   seinit:seinit.obj
+ 0001:000057f8       __unwindfunclet$??1JFILETYPEINFO@@QAE@XZ$6 100067f8 f   seinit:seinit.obj
+ 0001:00005803       __ehhandler$??1JFILETYPEINFO@@QAE@XZ 10006803 f   seinit:seinit.obj
+ 0001:00005820       __unwindfunclet$??A?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z$0 10006820 f   seinit:seinit.obj
+ 0001:00005839       __ehhandler$??A?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@QBE?AUtagJFILETYPEINFOVIEW@@H@Z 10006839 f   seinit:seinit.obj
+ 0001:00005860       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$0 10006860 f   seinit:seinit.obj
+ 0001:0000586b       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$1 1000686b f   seinit:seinit.obj
+ 0001:00005876       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$2 10006876 f   seinit:seinit.obj
+ 0001:00005881       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$3 10006881 f   seinit:seinit.obj
+ 0001:0000588f       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$5 1000688f f   seinit:seinit.obj
+ 0001:0000589a       __unwindfunclet$??0JFILETYPEINFO@@QAE@XZ$4 1000689a f   seinit:seinit.obj
+ 0001:000058a8       __ehhandler$??0JFILETYPEINFO@@QAE@XZ 100068a8 f   seinit:seinit.obj
+ 0001:000058d0       __unwindfunclet$??$CopyArrayTemplate@V?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@@@YAXAAV?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@ABV0@@Z$0 100068d0 f   seinit:seinit.obj
+ 0001:000058d8       __unwindfunclet$??$CopyArrayTemplate@V?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@@@YAXAAV?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@ABV0@@Z$1 100068d8 f   seinit:seinit.obj
+ 0001:000058e0       __ehhandler$??$CopyArrayTemplate@V?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@@@YAXAAV?$JArray@UtagJFILETYPEINFOVIEW@@AAU1@@@ABV0@@Z 100068e0 f   seinit:seinit.obj
+ 0001:00005900       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$0 10006900 f   seinit:seinit.obj
+ 0001:00005908       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$1 10006908 f   seinit:seinit.obj
+ 0001:00005913       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$2 10006913 f   seinit:seinit.obj
+ 0001:0000591e       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$3 1000691e f   seinit:seinit.obj
+ 0001:00005929       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$4 10006929 f   seinit:seinit.obj
+ 0001:00005934       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$5 10006934 f   seinit:seinit.obj
+ 0001:0000593f       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$6 1000693f f   seinit:seinit.obj
+ 0001:0000594a       __unwindfunclet$??0tagJAPPDATA@@QAE@XZ$7 1000694a f   seinit:seinit.obj
+ 0001:00005955       __ehhandler$??0tagJAPPDATA@@QAE@XZ 10006955 f   seinit:seinit.obj
+ 0001:00005970       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$0 10006970 f   seinit:seinit.obj
+ 0001:00005978       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$1 10006978 f   seinit:seinit.obj
+ 0001:00005983       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$2 10006983 f   seinit:seinit.obj
+ 0001:0000598e       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$3 1000698e f   seinit:seinit.obj
+ 0001:00005999       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$4 10006999 f   seinit:seinit.obj
+ 0001:000059a4       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$5 100069a4 f   seinit:seinit.obj
+ 0001:000059af       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$6 100069af f   seinit:seinit.obj
+ 0001:000059ba       __unwindfunclet$??1tagJAPPDATA@@QAE@XZ$7 100069ba f   seinit:seinit.obj
+ 0001:000059c5       __ehhandler$??1tagJAPPDATA@@QAE@XZ 100069c5 f   seinit:seinit.obj
+ 0001:000059e0       __unwindfunclet$?JInitializeSEData@@YAJXZ$3 100069e0 f   seinit:seinit.obj
+ 0001:000059e8       __unwindfunclet$?JInitializeSEData@@YAJXZ$4 100069e8 f   seinit:seinit.obj
+ 0001:000059f0       __unwindfunclet$?JInitializeSEData@@YAJXZ$5 100069f0 f   seinit:seinit.obj
+ 0001:000059f8       __ehhandler$?JInitializeSEData@@YAJXZ 100069f8 f   seinit:seinit.obj
+ 0001:00005a20       __unwindfunclet$??0tagJFILETYPEINFOVIEW@@QAE@PBDU_GUID@@0QAPBDH@Z$0 10006a20 f   seinit:partfiletypes.obj
+ 0001:00005a2b       __ehhandler$??0tagJFILETYPEINFOVIEW@@QAE@PBDU_GUID@@0QAPBDH@Z 10006a2b f   seinit:partfiletypes.obj
+ 0001:00005a60       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$0 10006a60 f   seinit:partfiletypes.obj
+ 0001:00005a6b       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$1 10006a6b f   seinit:partfiletypes.obj
+ 0001:00005a76       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$2 10006a76 f   seinit:partfiletypes.obj
+ 0001:00005a81       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$3 10006a81 f   seinit:partfiletypes.obj
+ 0001:00005a8f       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$5 10006a8f f   seinit:partfiletypes.obj
+ 0001:00005a9a       __unwindfunclet$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z$4 10006a9a f   seinit:partfiletypes.obj
+ 0001:00005aa8       __ehhandler$??0JFILETYPEINFO@@QAE@ABU_GUID@@PBDQAUtagJCLIPBOARDFORMAT@@H0QAPBDH0QAUtagJFILEFORMAT@@HK1U1@1K5QBUtagJPROPERTYSHEETENTRY@@H5511QAUtagJFILETYPEINFOVIEW@@H@Z 10006aa8 f   seinit:partfiletypes.obj
+ 0001:00005ad0       __unwindfunclet$??__EPartSupportedViews@@YAXXZ$0 10006ad0 f   seinit:partfiletypes.obj
+ 0001:00005ada       __ehhandler$??__EPartSupportedViews@@YAXXZ 10006ada f   seinit:partfiletypes.obj
+ 0001:00005b00       __unwindfunclet$??__ESheetMetalSupportedViews@@YAXXZ$0 10006b00 f   seinit:partfiletypes.obj
+ 0001:00005b0a       __ehhandler$??__ESheetMetalSupportedViews@@YAXXZ 10006b0a f   seinit:partfiletypes.obj
+ 0001:00005b30       __unwindfunclet$??__EWeldmentSupportedViews@@YAXXZ$0 10006b30 f   seinit:partfiletypes.obj
+ 0001:00005b3a       __ehhandler$??__EWeldmentSupportedViews@@YAXXZ 10006b3a f   seinit:partfiletypes.obj
+ 0001:00005b60       __unwindfunclet$??__EDMPartSupportedViews@@YAXXZ$0 10006b60 f   seinit:partfiletypes.obj
+ 0001:00005b6a       __ehhandler$??__EDMPartSupportedViews@@YAXXZ 10006b6a f   seinit:partfiletypes.obj
+ 0001:00005b90       __unwindfunclet$??__EAssemblySupportedViews@@YAXXZ$0 10006b90 f   seinit:asmfiletypes.obj
+ 0001:00005b9a       __ehhandler$??__EAssemblySupportedViews@@YAXXZ 10006b9a f   seinit:asmfiletypes.obj
+ 0001:00005bc0       __unwindfunclet$??__EFamilyOfAssembliesSupportedViews@@YAXXZ$0 10006bc0 f   seinit:asmfiletypes.obj
+ 0001:00005bca       __ehhandler$??__EFamilyOfAssembliesSupportedViews@@YAXXZ 10006bca f   seinit:asmfiletypes.obj
+ 0001:00005bf0       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$0 10006bf0 f   seinit:profileenv.obj
+ 0001:00005bfb       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$1 10006bfb f   seinit:profileenv.obj
+ 0001:00005c06       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$2 10006c06 f   seinit:profileenv.obj
+ 0001:00005c11       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$3 10006c11 f   seinit:profileenv.obj
+ 0001:00005c1c       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$4 10006c1c f   seinit:profileenv.obj
+ 0001:00005c27       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$5 10006c27 f   seinit:profileenv.obj
+ 0001:00005c35       __unwindfunclet$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z$6 10006c35 f   seinit:profileenv.obj
+ 0001:00005c43       __ehhandler$??0JENVIRONMENTINFO@@QAE@PBDKQAUtagJCLSIDPAIR@@H1H1HQAPBU_GUID@@HU2@PADKKKKKKKKQAUtagJCMDINFOINFO@@HQAUtagJNAMECLSID@@HQAUtagJENVHOOK@@H44U2@4K4@Z 10006c43 f   seinit:profileenv.obj
+ 0001:00005c70       __unwindfunclet$??__EDraftSupportedViews@@YAXXZ$0 10006c70 f   seinit:DraftFileTypes.obj
+ 0001:00005c7a       __ehhandler$??__EDraftSupportedViews@@YAXXZ 10006c7a f   seinit:DraftFileTypes.obj
+ 0001:00005ca0       ??__EWM_JDOCUMENTTRANSITION@@YAXXZ 10006ca0 f   SEStartup.obj
+ 0001:00005cc0       ??__EWM_JENVIRONMENTTRANSITION@@YAXXZ 10006cc0 f   SEStartup.obj
+ 0001:00005ce0       ??__EWM_JVIEWSETTRANSITION@@YAXXZ 10006ce0 f   SEStartup.obj
+ 0001:00005d00       ??__EWM_JACTIVEENVIRONMENTTRANSITION@@YAXXZ 10006d00 f   SEStartup.obj
+ 0001:00005d20       ??__EWM_JSELECTSETCHANGE@@YAXXZ 10006d20 f   SEStartup.obj
+ 0001:00005d40       ??__EWM_JCONTEXTHELPBYHELPID@@YAXXZ 10006d40 f   SEStartup.obj
+ 0001:00005d60       ??__EWM_JENABLEAUTOMATION@@YAXXZ 10006d60 f   SEStartup.obj
+ 0001:00005d80       ??__EWM_JQUERYAUTOMATION@@YAXXZ 10006d80 f   SEStartup.obj
+ 0001:00005da0       ??__EWM_JVK@@YAXXZ         10006da0 f   SEStartup.obj
+ 0001:00005dc0       ??__EWM_JVA@@YAXXZ         10006dc0 f   SEStartup.obj
+ 0001:00005de0       ??__EWM_SECRETAGENTMAN@@YAXXZ 10006de0 f   SEStartup.obj
+ 0001:00005e00       ??__EWM_JPROCESSDDEREQUESTS@@YAXXZ 10006e00 f   SEStartup.obj
+ 0001:00005e20       ??__EWM_JVARIABLECHANGE@@YAXXZ 10006e20 f   SEStartup.obj
+ 0001:00005e40       ??__EWM_JDOCMARKEDEDITOPEN@@YAXXZ 10006e40 f   SEStartup.obj
+ 0001:00005e60       ??__EWM_REFRESH_SELECT_LIST@@YAXXZ 10006e60 f   SEStartup.obj
+ 0001:00005e80       ??__EWM_AUTOMATION_COMMAND@@YAXXZ 10006e80 f   SEStartup.obj
+ 0001:00005ea0       ??__EWM_JSETFRAMEMENU@@YAXXZ 10006ea0 f   SEStartup.obj
+ 0001:00005ec0       ??__EWM_MEASUREMENT_COMMANDCOMPLETED@@YAXXZ 10006ec0 f   SEStartup.obj
+ 0001:00005ee0       ??__EWM_MEASUREMENT_VARIABLE_CREATED@@YAXXZ 10006ee0 f   SEStartup.obj
+ 0001:00005f00       ??__EWM_JACTIVESHEETTRANSITION@@YAXXZ 10006f00 f   SEStartup.obj
+ 0001:00005f20       ??__EWM_ACTIVATEPART_COMMANDCOMPLETED@@YAXXZ 10006f20 f   SEStartup.obj
+ 0001:00005f40       ??__EWM_ENDPROFILE_COMMAND_COMPLETED@@YAXXZ 10006f40 f   SEStartup.obj
+ 0001:00005f60       ??__EWM_JENABLEHELPAUTOMATION@@YAXXZ 10006f60 f   SEStartup.obj
+ 0001:00005f80       ??__EWM_JQUERYHELPAUTOMATION@@YAXXZ 10006f80 f   SEStartup.obj
+ 0001:00005fa0       ??__EWM_FOA_DISABLE_CONTROLS@@YAXXZ 10006fa0 f   SEStartup.obj
+ 0001:00005fc0       ??__EWM_FOA_REENABLE_CONTROLS@@YAXXZ 10006fc0 f   SEStartup.obj
+ 0001:00005fe0       ??__EWM_JCOPILOT@@YAXXZ    10006fe0 f   SEStartup.obj
+ 0001:00006000       ??__EWM_JIDLE@@YAXXZ       10007000 f   SEStartup.obj
+ 0001:00006020       ??__EWM_WIREPATH_COMMANDCOMPLETED@@YAXXZ 10007020 f   SEStartup.obj
+ 0001:00006040       ??__EWM_JSTARTSPECIFICHELPTUTORIAL@@YAXXZ 10007040 f   SEStartup.obj
+ 0001:00006060       ??__EWM_AUTO_BACKUPSAVE_CLEANUP@@YAXXZ 10007060 f   SEStartup.obj
+ 0001:00006080       ??__EWM_JVIEW_UPDATED_WITH_MOUSEBUTTON@@YAXXZ 10007080 f   SEStartup.obj
+ 0001:000060a0       ??__EWM_DTA_CHECK_NAME@@YAXXZ 100070a0 f   SEStartup.obj
+ 0001:000060c0       ??__EWM_DTA_CHECK_COMMAND_ACTIVE@@YAXXZ 100070c0 f   SEStartup.obj
+ 0001:000060e0       ??__EWM_DTA_UPDATE_TABLE@@YAXXZ 100070e0 f   SEStartup.obj
+ 0001:00006100       ??__EWM_TERMINAL_BALLOON_MODIFIED@@YAXXZ 10007100 f   SEStartup.obj
+ 0001:00006120       ??__EWM_MODIFYBALLOON_CMDCOMPLETED@@YAXXZ 10007120 f   SEStartup.obj
+ 0001:00006140       ??__EWM_MODIFYBALLOON_CMDSTARTED@@YAXXZ 10007140 f   SEStartup.obj
+ 0001:00006160       ??__EWM_MODIFYBALLOON_NOPOPUP@@YAXXZ 10007160 f   SEStartup.obj
+ 0001:00006180       ??__EWM_DTA_EMPTY_SELECT_LIST@@YAXXZ 10007180 f   SEStartup.obj
+ 0001:000061a0       ??__EWM_RUNNING_LOW_ON_MEMORY@@YAXXZ 100071a0 f   SEStartup.obj
+ 0001:000061c0       ??__EWM_VIEW_TRANSFORM_CHANGED@@YAXXZ 100071c0 f   SEStartup.obj
+ 0001:000061e0       ??__EWM_SE_LOW_MEMORY_WARNING@@YAXXZ 100071e0 f   SEStartup.obj
+ 0001:00006200       ??__EWM_OPTIONVALUE_MODIFIED@@YAXXZ 10007200 f   SEStartup.obj
+ 0001:00006220       ??__EWM_TANGENT_REF_PLANE_REFRESH@@YAXXZ 10007220 f   SEStartup.obj
+ 0001:00006240       ??__EWM_BEGIN_VIEWTRANSFORM@@YAXXZ 10007240 f   SEStartup.obj
+ 0001:00006260       ??__EWM_END_VIEWTRANSFORM@@YAXXZ 10007260 f   SEStartup.obj
+ 0001:00006280       ??__EGNULL_Camera@@YAXXZ   10007280 f   stdstartup.obj
+ 0001:000062a0       ??__EGNULL_CAMERA@@YAXXZ   100072a0 f   stdstartup.obj
+ 0001:000062c0       ??__EGID_Camera@@YAXXZ     100072c0 f   stdstartup.obj
+ 0001:000062e0       ??__EGID_CAMERA@@YAXXZ     100072e0 f   stdstartup.obj
+ 0001:00006300       ??__EJMStdIncludeFaceTypesForSilhouettes@@YAXXZ 10007300 f   stdstartup.obj
+ 0001:00006380       ??__EGNULL_Camera@@YAXXZ   10007380 f   seinit:guid.obj
+ 0001:000063a0       ??__EGNULL_CAMERA@@YAXXZ   100073a0 f   seinit:guid.obj
+ 0001:000063c0       ??__EGID_Camera@@YAXXZ     100073c0 f   seinit:guid.obj
+ 0001:000063e0       ??__EGID_CAMERA@@YAXXZ     100073e0 f   seinit:guid.obj
+ 0001:00006400       ??__Eg_JAppData@@YAXXZ     10007400 f   seinit:seinit.obj
+ 0001:00006420       ??__EPartClipboardFormats@@YAXXZ 10007420 f   seinit:partfiletypes.obj
+ 0001:00006590       ??__EPartFileFormats@@YAXXZ 10007590 f   seinit:partfiletypes.obj
+ 0001:00008080       ??__EPartPropertySheetHandlers@@YAXXZ 10009080 f   seinit:partfiletypes.obj
+ 0001:000081f0       ??__EPartSupportedViews@@YAXXZ 100091f0 f   seinit:partfiletypes.obj
+ 0001:00008280       ??__EPartFileType@@YAXXZ   10009280 f   seinit:partfiletypes.obj
+ 0001:00008380       ??__ESheetMetalClipboardFormats@@YAXXZ 10009380 f   seinit:partfiletypes.obj
+ 0001:00008430       ??__ESheetMetalFileFormats@@YAXXZ 10009430 f   seinit:partfiletypes.obj
+ 0001:0000a0c0       ??__ESheetMetalPropertySheetHandlers@@YAXXZ 1000b0c0 f   seinit:partfiletypes.obj
+ 0001:0000a230       ??__ESheetMetalSupportedViews@@YAXXZ 1000b230 f   seinit:partfiletypes.obj
+ 0001:0000a2c0       ??__ESheetMetalFileType@@YAXXZ 1000b2c0 f   seinit:partfiletypes.obj
+ 0001:0000a3d0       ??__EWeldmentClipboardFormats@@YAXXZ 1000b3d0 f   seinit:partfiletypes.obj
+ 0001:0000a480       ??__EWeldmentFileFormats@@YAXXZ 1000b480 f   seinit:partfiletypes.obj
+ 0001:0000b270       ??__EWeldmentPropertySheetHandlers@@YAXXZ 1000c270 f   seinit:partfiletypes.obj
+ 0001:0000b3e0       ??__EWeldmentSupportedViews@@YAXXZ 1000c3e0 f   seinit:partfiletypes.obj
+ 0001:0000b470       ??__EWeldmentFileType@@YAXXZ 1000c470 f   seinit:partfiletypes.obj
+ 0001:0000b570       ??__EDMPartClipboardFormats@@YAXXZ 1000c570 f   seinit:partfiletypes.obj
+ 0001:0000b6e0       ??__EDMPartFileFormats@@YAXXZ 1000c6e0 f   seinit:partfiletypes.obj
+ 0001:0000d1d0       ??__EDMPartPropertySheetHandlers@@YAXXZ 1000e1d0 f   seinit:partfiletypes.obj
+ 0001:0000d340       ??__EDMPartSupportedViews@@YAXXZ 1000e340 f   seinit:partfiletypes.obj
+ 0001:0000d3d0       ??__EDMPartFileType@@YAXXZ 1000e3d0 f   seinit:partfiletypes.obj
+ 0001:0000d4d0       ??__EAssemblyClipboardFormats@@YAXXZ 1000e4d0 f   seinit:asmfiletypes.obj
+ 0001:0000d680       ??__EAssemblyFileFormats@@YAXXZ 1000e680 f   seinit:asmfiletypes.obj
+ 0001:0000f1b0       ??__EAssemblyPropertySheetHandlers@@YAXXZ 100101b0 f   seinit:asmfiletypes.obj
+ 0001:0000f320       ??__EAssemblySupportedViews@@YAXXZ 10010320 f   seinit:asmfiletypes.obj
+ 0001:0000f3b0       ??__EAssemblyFileType@@YAXXZ 100103b0 f   seinit:asmfiletypes.obj
+ 0001:0000f4c0       ??__EFamilyOfAssembliesPropertySheetHandlers@@YAXXZ 100104c0 f   seinit:asmfiletypes.obj
+ 0001:0000f630       ??__EFamilyOfAssembliesSupportedViews@@YAXXZ 10010630 f   seinit:asmfiletypes.obj
+ 0001:0000f6c0       ??__EFamilyOfAssembliesFileType@@YAXXZ 100106c0 f   seinit:asmfiletypes.obj
+ 0001:0000f780       ??__ELayoutHSOs@@YAXXZ     10010780 f   seinit:profileenv.obj
+ 0001:000100a0       ??__ELayoutAltNWs@@YAXXZ   100110a0 f   seinit:profileenv.obj
+ 0001:00010cb0       ??__ELayoutCmdInfo@@YAXXZ  10011cb0 f   seinit:profileenv.obj
+ 0001:00010d70       ??__ELayoutStyles@@YAXXZ   10011d70 f   seinit:profileenv.obj
+ 0001:00010e30       ??__ELayoutEnvInfo@@YAXXZ  10011e30 f   seinit:profileenv.obj
+ 0001:00010ef0       ??__ELayoutInPartHSOs@@YAXXZ 10011ef0 f   seinit:profileenv.obj
+ 0001:000118d0       ??__ELayoutInPartAltNWs@@YAXXZ 100128d0 f   seinit:profileenv.obj
+ 0001:00012590       ??__ELayoutInPartCmdInfo@@YAXXZ 10013590 f   seinit:profileenv.obj
+ 0001:00012650       ??__ELayoutInPartStyles@@YAXXZ 10013650 f   seinit:profileenv.obj
+ 0001:00012710       ??__ELayoutInPartEnvInfo@@YAXXZ 10013710 f   seinit:profileenv.obj
+ 0001:000127d0       ??__EProfileHSOs@@YAXXZ    100137d0 f   seinit:profileenv.obj
+ 0001:00013140       ??__EProfileAltNWs@@YAXXZ  10014140 f   seinit:profileenv.obj
+ 0001:00013be0       ??__EProfileCmdInfo@@YAXXZ 10014be0 f   seinit:profileenv.obj
+ 0001:00013ca0       ??__EProfileStyles@@YAXXZ  10014ca0 f   seinit:profileenv.obj
+ 0001:00013d60       ??__EProfileEnvInfo@@YAXXZ 10014d60 f   seinit:profileenv.obj
+ 0001:00013e20       ??__EProfileHoleHSOs@@YAXXZ 10014e20 f   seinit:profileenv.obj
+ 0001:00014740       ??__EProfileHoleAltNWs@@YAXXZ 10015740 f   seinit:profileenv.obj
+ 0001:000150c0       ??__EProfileHoleStyles@@YAXXZ 100160c0 f   seinit:profileenv.obj
+ 0001:00015180       ??__EProfileHoleEnvInfo@@YAXXZ 10016180 f   seinit:profileenv.obj
+ 0001:00015240       ??__EProfilePatternHSOs@@YAXXZ 10016240 f   seinit:profileenv.obj
+ 0001:00015bc0       ??__EProfilePatternAltNWs@@YAXXZ 10016bc0 f   seinit:profileenv.obj
+ 0001:000166c0       ??__EProfilePatternStyles@@YAXXZ 100176c0 f   seinit:profileenv.obj
+ 0001:00016780       ??__EProfilePatternEnvInfo@@YAXXZ 10017780 f   seinit:profileenv.obj
+ 0001:00016840       ??__EProfileRevolvedHSOs@@YAXXZ 10017840 f   seinit:profileenv.obj
+ 0001:00017160       ??__EProfileRevolvedAltNWs@@YAXXZ 10018160 f   seinit:profileenv.obj
+ 0001:00017c00       ??__EProfileRevolvedCmdInfo@@YAXXZ 10018c00 f   seinit:profileenv.obj
+ 0001:00017cc0       ??__EProfileRevolvedStyles@@YAXXZ 10018cc0 f   seinit:profileenv.obj
+ 0001:00017d80       ??__EProfileRevolvedEnvInfo@@YAXXZ 10018d80 f   seinit:profileenv.obj
+ 0001:00017e40       ??__ERefAxisHSOs@@YAXXZ    10018e40 f   seinit:profileenv.obj
+ 0001:00018390       ??__ERefAxisAltNWs@@YAXXZ  10019390 f   seinit:profileenv.obj
+ 0001:00018900       ??__ERefAxisCmdInfo@@YAXXZ 10019900 f   seinit:profileenv.obj
+ 0001:000189c0       ??__ERefAxisStyles@@YAXXZ  100199c0 f   seinit:profileenv.obj
+ 0001:00018a80       ??__ERefAxisEnvInfo@@YAXXZ 10019a80 f   seinit:profileenv.obj
+ 0001:00018b40       ??__EProfileSmartBossHSOs@@YAXXZ 10019b40 f   seinit:profileenv.obj
+ 0001:00019460       ??__EProfileSmartBossAltNWs@@YAXXZ 1001a460 f   seinit:profileenv.obj
+ 0001:00019de0       ??__EProfileSmartBossStyles@@YAXXZ 1001ade0 f   seinit:profileenv.obj
+ 0001:00019ea0       ??__EProfileSmartBossEnvInfo@@YAXXZ 1001aea0 f   seinit:profileenv.obj
+ 0001:00019f60       ??__EComponentSketchInPartEnvInfo@@YAXXZ 1001af60 f   seinit:profileenv.obj
+ 0001:0001a020       ??__EComponentSketchInAsmEnvInfo@@YAXXZ 1001b020 f   seinit:profileenv.obj
+ 0001:0001a0e0       ??__EApplicationEnvInfo@@YAXXZ 1001b0e0 f   seinit:partenv.obj
+ 0001:0001a180       ??__ETwoDDraftingApplicationEnvInfo@@YAXXZ 1001b180 f   seinit:partenv.obj
+ 0001:0001a220       ??__EPartStyles@@YAXXZ     1001b220 f   seinit:partenv.obj
+ 0001:0001a340       ??__EPartHSOs@@YAXXZ       1001b340 f   seinit:partenv.obj
+ 0001:0001ab30       ??__EPartEnvInfo@@YAXXZ    1001bb30 f   seinit:partenv.obj
+ 0001:0001ac00       ??__EFeatureRecognitionEnvInfo@@YAXXZ 1001bc00 f   seinit:partenv.obj
+ 0001:0001acc0       ??__ESheetMetalStyles@@YAXXZ 1001bcc0 f   seinit:partenv.obj
+ 0001:0001ade0       ??__ESheetMetalEnvInfo@@YAXXZ 1001bde0 f   seinit:partenv.obj
+ 0001:0001aec0       ??__EWeldmentStyles@@YAXXZ 1001bec0 f   seinit:partenv.obj
+ 0001:0001afe0       ??__EWeldmentEnvInfo@@YAXXZ 1001bfe0 f   seinit:partenv.obj
+ 0001:0001b0c0       ??__EEditMVPartStyles@@YAXXZ 1001c0c0 f   seinit:partenv.obj
+ 0001:0001b1e0       ??__EEditMVPartEnvInfo@@YAXXZ 1001c1e0 f   seinit:partenv.obj
+ 0001:0001b2b0       ??__EDMPartStyles@@YAXXZ   1001c2b0 f   seinit:partenv.obj
+ 0001:0001b3d0       ??__EDMPartEnvInfo@@YAXXZ  1001c3d0 f   seinit:partenv.obj
+ 0001:0001b4b0       ??__ECuttingPlaneLineHSOs@@YAXXZ 1001c4b0 f   seinit:DraftEnvInfo.obj
+ 0001:0001b5d0       ??__ECuttingPlaneLineAltNWs@@YAXXZ 1001c5d0 f   seinit:DraftEnvInfo.obj
+ 0001:0001b6f0       ??__ECuttingPlaneLineCmdInfo@@YAXXZ 1001c6f0 f   seinit:DraftEnvInfo.obj
+ 0001:0001b720       ??__ECuttingPlaneLineEnvInfo@@YAXXZ 1001c720 f   seinit:DraftEnvInfo.obj
+ 0001:0001b7f0       ??__EDetailHSOs@@YAXXZ     1001c7f0 f   seinit:DraftEnvInfo.obj
+ 0001:0001c4d0       ??__EDetailAltNWs@@YAXXZ   1001d4d0 f   seinit:DraftEnvInfo.obj
+ 0001:0001d4e0       ??__EDetailPropertyCmds@@YAXXZ 1001e4e0 f   seinit:DraftEnvInfo.obj
+ 0001:0001de80       ??__EDetailCmdInfo@@YAXXZ  1001ee80 f   seinit:DraftEnvInfo.obj
+ 0001:0001df40       ??__EDetailStyles@@YAXXZ   1001ef40 f   seinit:DraftEnvInfo.obj
+ 0001:0001e060       ??__EDetailEnvInfo@@YAXXZ  1001f060 f   seinit:DraftEnvInfo.obj
+ 0001:0001e130       ??__ETwoDDraftingEnvInfo@@YAXXZ 1001f130 f   seinit:DraftEnvInfo.obj
+ 0001:0001e200       ??__EDrawingViewEditHSOs@@YAXXZ 1001f200 f   seinit:DraftEnvInfo.obj
+ 0001:0001ee00       ??__EDrawingViewEditAltNWs@@YAXXZ 1001fe00 f   seinit:DraftEnvInfo.obj
+ 0001:0001f990       ??__EDrawingViewEditPropertyCmds@@YAXXZ 10020990 f   seinit:DraftEnvInfo.obj
+ 0001:000201d0       ??__EDrawingViewEditCmdInfo@@YAXXZ 100211d0 f   seinit:DraftEnvInfo.obj
+ 0001:00020230       ??__EDrawingViewEditStyles@@YAXXZ 10021230 f   seinit:DraftEnvInfo.obj
+ 0001:00020350       ??__EDrawingViewEditInfo@@YAXXZ 10021350 f   seinit:DraftEnvInfo.obj
+ 0001:00020420       ??__ETwoDDraftingDrawingViewEditInfo@@YAXXZ 10021420 f   seinit:DraftEnvInfo.obj
+ 0001:000204f0       ??__ETwoDModelHSOs@@YAXXZ  100214f0 f   seinit:DraftEnvInfo.obj
+ 0001:000210b0       ??__ETwoDModelAltNWs@@YAXXZ 100220b0 f   seinit:DraftEnvInfo.obj
+ 0001:00021c40       ??__ETwoDModelPropertyCmds@@YAXXZ 10022c40 f   seinit:DraftEnvInfo.obj
+ 0001:00022480       ??__ETwoDModelCmdInfo@@YAXXZ 10023480 f   seinit:DraftEnvInfo.obj
+ 0001:000224e0       ??__ETwoDModelEditStyles@@YAXXZ 100234e0 f   seinit:DraftEnvInfo.obj
+ 0001:00022600       ??__ETwoDModelInfo@@YAXXZ  10023600 f   seinit:DraftEnvInfo.obj
+ 0001:000226d0       ??__ETwoDDraftingTwoDModelInfo@@YAXXZ 100236d0 f   seinit:DraftEnvInfo.obj
+ 0001:000227a0       ??__EBrokenOutSectionProfileHSOs@@YAXXZ 100237a0 f   seinit:DraftEnvInfo.obj
+ 0001:00022ae0       ??__EBrokenOutSectionProfileAltNWs@@YAXXZ 10023ae0 f   seinit:DraftEnvInfo.obj
+ 0001:00022dc0       ??__EBrokenOutSectionProfileCmdInfo@@YAXXZ 10023dc0 f   seinit:DraftEnvInfo.obj
+ 0001:00022df0       ??__EBrokenOutSectionProfileEnvInfo@@YAXXZ 10023df0 f   seinit:DraftEnvInfo.obj
+ 0001:00022ec0       ??__ECreate2dModelViewCmdInfo@@YAXXZ 10023ec0 f   seinit:DraftEnvInfo.obj
+ 0001:00022ef0       ??__ECreate2dModelViewEnvInfo@@YAXXZ 10023ef0 f   seinit:DraftEnvInfo.obj
+ 0001:00022fb0       ??__ETwoDDraftingCreate2dModelViewEnvInfo@@YAXXZ 10023fb0 f   seinit:DraftEnvInfo.obj
+ 0001:00023070       ??__EEditBlockViewHSOs@@YAXXZ 10024070 f   seinit:DraftEnvInfo.obj
+ 0001:000239c0       ??__EEditBlockViewAltNWs@@YAXXZ 100249c0 f   seinit:DraftEnvInfo.obj
+ 0001:00024230       ??__EEditBlockViewPropertyCmds@@YAXXZ 10025230 f   seinit:DraftEnvInfo.obj
+ 0001:00024970       ??__EEditBlockViewCmdInfo@@YAXXZ 10025970 f   seinit:DraftEnvInfo.obj
+ 0001:000249d0       ??__EEditBlockViewStyles@@YAXXZ 100259d0 f   seinit:DraftEnvInfo.obj
+ 0001:00024ac0       ??__EEditBlockViewInfo@@YAXXZ 10025ac0 f   seinit:DraftEnvInfo.obj
+ 0001:00024b90       ??__ETwoDDraftingEditBlockViewInfo@@YAXXZ 10025b90 f   seinit:DraftEnvInfo.obj
+ 0001:00024c60       ??__EAssemblyStyles@@YAXXZ 10025c60 f   seinit:asmenv.obj
+ 0001:00024d80       ??__EAssemblyHSOs@@YAXXZ   10025d80 f   seinit:asmenv.obj
+ 0001:000256c0       ??__EAssemblyEnvInfo@@YAXXZ 100266c0 f   seinit:asmenv.obj
+ 0001:000257a0       ??__EExplodeStyles@@YAXXZ  100267a0 f   seinit:asmenv.obj
+ 0001:000258c0       ??__EExplodeEnvInfo@@YAXXZ 100268c0 f   seinit:asmenv.obj
+ 0001:00025980       ??__EMotionStyles@@YAXXZ   10026980 f   seinit:asmenv.obj
+ 0001:00025aa0       ??__EMotionEnvInfo@@YAXXZ  10026aa0 f   seinit:asmenv.obj
+ 0001:00025b50       ??__EStudioStyles@@YAXXZ   10026b50 f   seinit:asmenv.obj
+ 0001:00025c40       ??__EStudioEnvInfo@@YAXXZ  10026c40 f   seinit:asmenv.obj
+ 0001:00025d00       ??__ETubingStyles@@YAXXZ   10026d00 f   seinit:asmenv.obj
+ 0001:00025e20       ??__ETubingEnvInfo@@YAXXZ  10026e20 f   seinit:asmenv.obj
+ 0001:00025ef0       ??__EFrameEnvInfo@@YAXXZ   10026ef0 f   seinit:asmenv.obj
+ 0001:00025fc0       ??__EHarnessEnvInfo@@YAXXZ 10026fc0 f   seinit:asmenv.obj
+ 0001:00026090       ??__EEditMVEnvInfo@@YAXXZ  10027090 f   seinit:asmenv.obj
+ 0001:00026150       ??__EDraftClipboardFormats@@YAXXZ 10027150 f   seinit:DraftFileTypes.obj
+ 0001:00026250       ??__EDraftFileFormats@@YAXXZ 10027250 f   seinit:DraftFileTypes.obj
+ 0001:00026d80       ??__EDraftPropertySheetHandlers@@YAXXZ 10027d80 f   seinit:DraftFileTypes.obj
+ 0001:00026ef0       ??__EDraftSupportedViews@@YAXXZ 10027ef0 f   seinit:DraftFileTypes.obj
+ 0001:00026f80       ??__EDraftFileType@@YAXXZ  10027f80 f   seinit:DraftFileTypes.obj
+ 0001:00027090       ??__Fg_JAppData@@YAXXZ     10028090 f   seinit:seinit.obj
+ 0001:000270a0       ??__FPartSupportedViews@@YAXXZ 100280a0 f   seinit:partfiletypes.obj
+ 0001:000270c0       ??__FSheetMetalSupportedViews@@YAXXZ 100280c0 f   seinit:partfiletypes.obj
+ 0001:000270e0       ??__FWeldmentSupportedViews@@YAXXZ 100280e0 f   seinit:partfiletypes.obj
+ 0001:00027100       ??__FDMPartSupportedViews@@YAXXZ 10028100 f   seinit:partfiletypes.obj
+ 0001:00027120       ??__FPartFileType@@YAXXZ   10028120 f   seinit:partfiletypes.obj
+ 0001:00027130       ??__FSheetMetalFileType@@YAXXZ 10028130 f   seinit:partfiletypes.obj
+ 0001:00027140       ??__FWeldmentFileType@@YAXXZ 10028140 f   seinit:partfiletypes.obj
+ 0001:00027150       ??__FDMPartFileType@@YAXXZ 10028150 f   seinit:partfiletypes.obj
+ 0001:00027160       ??__FAssemblySupportedViews@@YAXXZ 10028160 f   seinit:asmfiletypes.obj
+ 0001:00027180       ??__FFamilyOfAssembliesSupportedViews@@YAXXZ 10028180 f   seinit:asmfiletypes.obj
+ 0001:000271a0       ??__FAssemblyFileType@@YAXXZ 100281a0 f   seinit:asmfiletypes.obj
+ 0001:000271b0       ??__FFamilyOfAssembliesFileType@@YAXXZ 100281b0 f   seinit:asmfiletypes.obj
+ 0001:000271c0       ??__FLayoutEnvInfo@@YAXXZ  100281c0 f   seinit:profileenv.obj
+ 0001:000271d0       ??__FLayoutInPartEnvInfo@@YAXXZ 100281d0 f   seinit:profileenv.obj
+ 0001:000271e0       ??__FProfileEnvInfo@@YAXXZ 100281e0 f   seinit:profileenv.obj
+ 0001:000271f0       ??__FProfileHoleEnvInfo@@YAXXZ 100281f0 f   seinit:profileenv.obj
+ 0001:00027200       ??__FProfilePatternEnvInfo@@YAXXZ 10028200 f   seinit:profileenv.obj
+ 0001:00027210       ??__FProfileRevolvedEnvInfo@@YAXXZ 10028210 f   seinit:profileenv.obj
+ 0001:00027220       ??__FRefAxisEnvInfo@@YAXXZ 10028220 f   seinit:profileenv.obj
+ 0001:00027230       ??__FProfileSmartBossEnvInfo@@YAXXZ 10028230 f   seinit:profileenv.obj
+ 0001:00027240       ??__FComponentSketchInPartEnvInfo@@YAXXZ 10028240 f   seinit:profileenv.obj
+ 0001:00027250       ??__FComponentSketchInAsmEnvInfo@@YAXXZ 10028250 f   seinit:profileenv.obj
+ 0001:00027260       ??__FApplicationEnvInfo@@YAXXZ 10028260 f   seinit:partenv.obj
+ 0001:00027270       ??__FTwoDDraftingApplicationEnvInfo@@YAXXZ 10028270 f   seinit:partenv.obj
+ 0001:00027280       ??__FPartEnvInfo@@YAXXZ    10028280 f   seinit:partenv.obj
+ 0001:00027290       ??__FFeatureRecognitionEnvInfo@@YAXXZ 10028290 f   seinit:partenv.obj
+ 0001:000272a0       ??__FSheetMetalEnvInfo@@YAXXZ 100282a0 f   seinit:partenv.obj
+ 0001:000272b0       ??__FWeldmentEnvInfo@@YAXXZ 100282b0 f   seinit:partenv.obj
+ 0001:000272c0       ??__FEditMVPartEnvInfo@@YAXXZ 100282c0 f   seinit:partenv.obj
+ 0001:000272d0       ??__FDMPartEnvInfo@@YAXXZ  100282d0 f   seinit:partenv.obj
+ 0001:000272e0       ??__FCuttingPlaneLineEnvInfo@@YAXXZ 100282e0 f   seinit:DraftEnvInfo.obj
+ 0001:000272f0       ??__FDetailEnvInfo@@YAXXZ  100282f0 f   seinit:DraftEnvInfo.obj
+ 0001:00027300       ??__FTwoDDraftingEnvInfo@@YAXXZ 10028300 f   seinit:DraftEnvInfo.obj
+ 0001:00027310       ??__FDrawingViewEditInfo@@YAXXZ 10028310 f   seinit:DraftEnvInfo.obj
+ 0001:00027320       ??__FTwoDDraftingDrawingViewEditInfo@@YAXXZ 10028320 f   seinit:DraftEnvInfo.obj
+ 0001:00027330       ??__FTwoDModelInfo@@YAXXZ  10028330 f   seinit:DraftEnvInfo.obj
+ 0001:00027340       ??__FTwoDDraftingTwoDModelInfo@@YAXXZ 10028340 f   seinit:DraftEnvInfo.obj
+ 0001:00027350       ??__FBrokenOutSectionProfileEnvInfo@@YAXXZ 10028350 f   seinit:DraftEnvInfo.obj
+ 0001:00027360       ??__FCreate2dModelViewEnvInfo@@YAXXZ 10028360 f   seinit:DraftEnvInfo.obj
+ 0001:00027370       ??__FTwoDDraftingCreate2dModelViewEnvInfo@@YAXXZ 10028370 f   seinit:DraftEnvInfo.obj
+ 0001:00027380       ??__FEditBlockViewInfo@@YAXXZ 10028380 f   seinit:DraftEnvInfo.obj
+ 0001:00027390       ??__FTwoDDraftingEditBlockViewInfo@@YAXXZ 10028390 f   seinit:DraftEnvInfo.obj
+ 0001:000273a0       ??__FAssemblyEnvInfo@@YAXXZ 100283a0 f   seinit:asmenv.obj
+ 0001:000273b0       ??__FExplodeEnvInfo@@YAXXZ 100283b0 f   seinit:asmenv.obj
+ 0001:000273c0       ??__FMotionEnvInfo@@YAXXZ  100283c0 f   seinit:asmenv.obj
+ 0001:000273d0       ??__FStudioEnvInfo@@YAXXZ  100283d0 f   seinit:asmenv.obj
+ 0001:000273e0       ??__FTubingEnvInfo@@YAXXZ  100283e0 f   seinit:asmenv.obj
+ 0001:000273f0       ??__FFrameEnvInfo@@YAXXZ   100283f0 f   seinit:asmenv.obj
+ 0001:00027400       ??__FHarnessEnvInfo@@YAXXZ 10028400 f   seinit:asmenv.obj
+ 0001:00027410       ??__FEditMVEnvInfo@@YAXXZ  10028410 f   seinit:asmenv.obj
+ 0001:00027420       ??__FDraftSupportedViews@@YAXXZ 10028420 f   seinit:DraftFileTypes.obj
+ 0001:00027440       ??__FDraftFileType@@YAXXZ  10028440 f   seinit:DraftFileTypes.obj
+ 0002:00000311       __catch$?AscertainSEECInstall@@YAHXZ$0 10029311 f   startupcrcstuff.obj
+ 0002:00000db0       __unwindfunclet$?JHasInsightFeatureLicense@@YAHXZ$0 10029db0 f   startupcrcstuff.obj
+ 0002:00000db9       __ehhandler$?JHasInsightFeatureLicense@@YAHXZ 10029db9 f   startupcrcstuff.obj
+ 0002:00000de0       __unwindfunclet$?AscertainSEECInstall@@YAHXZ$2 10029de0 f   startupcrcstuff.obj
+ 0002:00000de9       __unwindfunclet$?AscertainSEECInstall@@YAHXZ$3 10029de9 f   startupcrcstuff.obj
+ 0002:00000df2       __ehhandler$?AscertainSEECInstall@@YAHXZ 10029df2 f   startupcrcstuff.obj
+ 0002:00000e20       __unwindfunclet$?IsLicenseKeyOk@@YAHPAUHINSTANCE__@@HHPBD@Z$0 10029e20 f   startupcrcstuff.obj
+ 0002:00000e29       __unwindfunclet$?IsLicenseKeyOk@@YAHPAUHINSTANCE__@@HHPBD@Z$1 10029e29 f   startupcrcstuff.obj
+ 0002:00000e32       __ehhandler$?IsLicenseKeyOk@@YAHPAUHINSTANCE__@@HHPBD@Z 10029e32 f   startupcrcstuff.obj

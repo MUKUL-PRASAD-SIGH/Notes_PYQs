@@ -1,0 +1,770 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+
+<head>
+<title>Sentinel System Driver Installation Guide</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<meta NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+<meta NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (Win95; U) [Netscape]">
+<link rel="stylesheet" href="Rainbow.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+
+<p>&nbsp;</p>
+
+<h1>Sentinel System Driver Windows Installer Merge Modules</h1>
+</div>
+
+<p>&nbsp;</p>
+
+<p>This current release of Sentinel System Driver also contains an installation method
+using the Windows Installer merge modules. The installer that you run is essentially a
+front-end to the merge modules that contain the actual information necessary to install
+the driver. </p>
+
+<p>Since the Windows Installer only supports Windows 95, 98, ME, Windows NT 4.0 (SP 3 and
+higher), Windows 2000 and Windows XP&#151;the merge modules only contain the drivers for
+those operating systems. The merge modules can be added to any Windows Installer package
+to seamlessly add the Sentinel System Driver installation to your application. </p>
+
+<p>Adding the driver to your installer is relatively straightforward, but there are a few
+items that must be placed in your installer in the right sequence to make it all work.
+This method is described for users who wish to merge the driver installation into their
+own installer. Another alternative is to call the driver installation (<i>setup.exe</i>)
+from your own installer. Using the right command-line options, you can fully control what
+components are installed, and whether the user can interact with the installer. More
+information on this is contained in <a href="DriverInfo.htm#InstallOptions">Installation
+Options</a>.</p>
+
+<p><b>Note:</b> The merge modules are written and tested with InstallShield Developer
+7.0.2. If using Wise for Windows Installer, see <a href="#wise">Special Instructions for
+Adding Custom Actions to Wise Windows Installer</a>.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name="Organization"></a>Organization of the Merge Modules </h2>
+
+<p>The installation is broken up into the following three merge modules contained in the<i>
+</i><em>\Windows 32-bit\Merge Modules</em> directory:</p>
+
+<h3><em>SSDConfigfiles.msm</em></h3>
+
+<p>This module contains the configuration program and its required components. This module
+is installed regardless of which driver you install (parallel or USB).</p>
+
+<h3><em>SSDParallel.msm</em></h3>
+
+<p>This module contains the driver for any of the Rainbow Technologies parallel port keys.
+Installation of this driver is optional; it is only necessary to support parallel port key
+use. However, any application that uses a USB SuperPro key and was not compiled with the
+SuperPro 6.1 or later client libraries must have the parallel driver installed. Otherwise,
+the application cannot communicate directly with the USB driver. This driver is safe to
+install on systems that lack a parallel port. </p>
+
+<h3><em>SSDUSB.msm</em></h3>
+
+<p>This module contains the USB SuperPro driver. Installation of this driver is optional.
+This driver can be installed alone (without the parallel driver) if the application that
+uses the USB SuperPro was compiled with the SuperPro 6.1 or later client libraries.
+Otherwise, this driver should be installed along with the parallel driver. </p>
+
+<p>Note that Sentinel USB driver is not supported on Windows 95. If your operating system
+does not support USB, the installer will not install it even if you select it.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name="Merge"></a>Merging the Driver into Your Installer </h2>
+
+<p>The driver merge modules can be added to any Microsoft Windows Installer package. There
+are many third-party applications that can be used to design a Windows Installer package.
+An example would be &quot;InstallShield for Windows Installer.&quot; As do other such
+applications, InstallShield assists you in building the actual installation media and
+simplifies configuration. For more information about using and developing a Windows
+Installer package, visit Microsoft's MSDN Web site. </p>
+
+<p>Once you can add the merge module to your installation package, you can associate it
+with a particular feature of the installation. This will allow your customers to have some
+control of whether this feature should be installed. Alternatively, you can make it a
+required item that gets installed with your application. </p>
+
+<p>The merge module itself contains the necessary files and registry entries to install
+the driver. It will determine what needs to be installed based on the operating system it
+is being installed on. This frees you from having to understand exactly how to install the
+driver. There are a few custom actions that have to be performed to complete the driver
+installation and they are described below. </p>
+
+<p>&nbsp;</p>
+
+<h2><a name="AddCustom"></a>Adding a Custom Action to Your Installation Package </h2>
+
+<p>Some of the necessary steps to install the driver are performed as &quot;custom
+actions&quot; within the merge modules. While the merge module contains the custom action
+itself so you do not have to do any coding, the action has to be added to the sequence
+table of the installer. Every Windows Installer package has a sequence table that
+identifies what steps need to be performed in what order. You will have to manually add
+the merge modules custom action to your sequence table. </p>
+
+<p>When a merge module is added to an installation package, the custom actions from the
+merge module are referred to by their action's name and the GUID (global unique
+identifier) of the merge module. Each merge module has its own GUID that can be found by
+right clicking on the file from Windows Explorer, selecting <b>Properties</b> and looking
+for the file's revision number. An example name for the RemoveOldDriver action would be: </p>
+
+<blockquote>
+  <p><font face="Courier New, Courier, mono">RemoveOldDriver.B391C189_6953_11D4_82CB_00D0B72E1DB9
+  </font></p>
+</blockquote>
+
+<p>Most third-party software packages take care of this, putting this name together for
+you and presenting you with a list of all the custom actions from the merge modules. Most
+Express or Lite installer packages cannot perform the necessary sequencing to use these
+merge models. (And, see <a href="#wise">Special Instructions for Adding Custom Actions to
+Wise Windows Installer</a> for sequencing instructions when using that installer.)</p>
+
+<p>The actions are then placed in the sequence table of the installation package. Each
+action in the sequence table is given a sequence number. The actions are carried out from
+the lowest sequence number to the highest. </p>
+
+<p>Many third-party packages will list the actions in order and automatically assign a
+sequence number that inserts the action in the desired place. Otherwise, find the sequence
+number of the action you would like your action to take place after and assign it a number
+higher. For example, assume that you wish to place the <strong>RemoveOldDriver</strong>
+custom action after the <strong>RemoveFolders </strong>action. If the <strong>RemoveFolders</strong>
+sequence number is 1800&#151;the <strong>RemoveOldDriver</strong> sequence number could be
+1850 (most actions are separated by a value of 50). The installer then knows to perform
+this action after it has completed th<strong>e RemoveFolders</strong> action. </p>
+
+<p>Each action listed in the sequence table has a condition field that will allow you to
+define when the action should be performed. It is important that this field be filled out
+correctly since you may not always need or want to carry out a particular custom action. </p>
+
+<p>For more information on action, custom actions, conditions, and the sequence table
+refer to the Windows Installer on Microsoft's MSDN Web site. </p>
+
+<p>&nbsp;</p>
+
+<h2><a name="ReqCustom"></a>Required Custom Actions </h2>
+
+<p>The following table describes what customs actions need to be added to your
+installation package sequence table. It also shows where in the table it should be
+inserted and the recommended condition that should be used to run this action. All
+conditions are case sensitive. </p>
+
+<table border="1" width="90%" cellpadding="5" cellspacing=" " height="3330">
+  <tr valign="top">
+    <th width="22%" height="14"><b>Custom Action Name</b></th>
+    <th width="78%" height="14"><b>Use</b></th>
+  </tr>
+  <tr valign="top">
+    <td width="22%" valign="top" align="left" height="724"><strong>RemoveOldDriver</strong></td>
+    <td width="78%" height="724"><b>Inserted after Standard Action: </b><ul type="square">
+      <li>This custom action should be inserted before <strong>CostInitialize</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>None required.</li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action can be used to both detect and remove any previous version of the
+    Sentinel System Driver prior to the current release. This action uses properties to pass
+    information back and forth and can be used to determine what course of action needs to be
+    taken by the installer.</p>
+    <p>This action should be used on both the user interface and install execute sequences. </p>
+    <p>The action always checks the currently installed driver version to decide how to
+    proceed. Depending on the version it detects, the following properties will be set:<ul
+    type="square">
+      <li><p style="margin-top: 3; margin-bottom: 3"><b>OLDDRIVERFOUND</b>&#150;If a previous
+        version is found, this property will be set. The older driver has to be removed before
+        installing this version.</p>
+      </li>
+      <li><p style="margin-top: 3; margin-bottom: 3"><b>NEWDRIVERFOUND</b>&#150;If a driver newer
+        than this version is found, this property will be set. In such a case, you should just
+        install your product, without installing the Sentinel System Driver because a higher
+        version already exists on the system.&nbsp; </p>
+      </li>
+    </ul>
+    <p>After determining whether an old driver is installed, the action will only proceed to
+    remove the older version if the property CONFIRMUPGRADE is set. If this property is not
+    set, the action exits. In this way, the action can be called twice&#151;the first time to
+    determine if an older version is installed, the second time to actually remove the older
+    driver version. This allows you to confirm with users whether or not they would like to
+    proceed. </p>
+    <p>The supplied installer is a good example of calling this twice. it calls it the first
+    time without the CONFIRMUPGRADE property set. If an old driver is found, it presents the
+    user with and upgrade confirmation screen. If the user accepts, it calls the custom action
+    again with CONFIRMUPGRADE set to actually uninstall the old version.</p>
+    <p>If the action actually removes an older driver, it will set the OLDDRIVERREMOVED
+    property. This property can be used later to determine if a reboot is required. </p>
+    <p>Most often, the old driver can be removed without any problems. If the user has some of
+    the driver files locked, the files will be flagged for deletion upon rebooting the system.
+    If this is the case, the action will set the property REMOVEOLDDRIVERREBOOT. If this
+    property is set after returning from calling this action, you should reboot immediately
+    and then continue the installation. </p>
+    <p>If there is no driver installed, this action does nothing and is therefore safe to run
+    in any situation.</p>
+    <p>This action should be inserted before the <strong>CostInitialize</strong> standard
+    action. </td>
+  </tr>
+  <tr valign="top">
+    <td height="358" width="22%" valign="top" align="left"><strong>RemoveOldDriverAgain</strong></td>
+    <td height="358" width="78%"><b>Inserted after Standard Action: </b><ul type="square">
+      <li>This custom action should be inserted before<strong> CostInitialize</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>OLDDRIVERFOUND</li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This action is exactly the same as <strong>RemoveOldDriver</strong>.</p>
+    <p>A custom action can only be inserted into a sequence table once. The <strong>RemoveOldDriver</strong>
+    function can be called twice, however, by using the <strong>RemoveOldDriver</strong> and
+    the <strong>RemoveOldDriverAgain</strong> custom actions. If the action is called without
+    setting the CONFIRMUPGRADE property, it will only report if an old driver is installed via
+    the OLDDRIVERFOUND property. This custom action is identical to the <strong>RemoveOldDriver</strong>
+    custom action, but is included to allow you to perform this function twice.</p>
+    <p>A good example of using these custom actions is calling <strong>RemoveOldDriver</strong>
+    to confirm via the GUI whether the user wants to upgrade the driver. After the user
+    confirms the upgrade, you set the CONFIRMUPGRADE property and call<strong>
+    RemoveOldDriverAgain</strong> to actually do the uninstall. </p>
+    <p>Do NOT install the new driver without successfully removing the old driver first! </td>
+  </tr>
+  <tr valign="top">
+    <td height="302" width="22%" valign="top" align="left"><strong>RemoveVDDRegEntry</strong></td>
+    <td height="302" width="78%"><b>Inserted After Standard Action:</b><ul type="square">
+      <li>This custom action should be inserted after <strong>RemoveRegistryValues</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>VersionNT and REMOVE</li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action will remove the registry entry for the NT virtual device driver
+    (VDD) during uninstallation. Since this registry entry may contain other pieces of
+    information, it cannot simply be deleted. </p>
+    <p>There is no effect if the VDD is not installed and this action is called. </p>
+    <p>This action should only be added in Windows NT/2000/XP as noted in the conditions.</p>
+    <p>This action should be inserted after all other registry values are removed in the
+    installation process. </td>
+  </tr>
+  <tr valign="top">
+    <td height="344" width="22%" valign="top" align="left"><strong>MakeVDDRegEntry</strong></td>
+    <td height="344" width="78%"><b>Inserted after Standard Action:</b><ul type="square">
+      <li>This custom action should be inserted after <strong>WriteRegistryValues</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>VersionNT and not NOVDDINSTALL (and not REMOVE)</li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action will add a registry entry for the NT Virtual Device Driver (VDD).
+    Since this registry entry may contain other pieces of information, it cannot be simply
+    added or overwritten, but must be modified by this custom action.</p>
+    <p>The VDD component is not installed if the property NOVDDINSTALL is added to the command
+    line. For this reason, this action should also not be called if this property is set. This
+    is reflected in the recommended condition.</p>
+    <p>This action should only be added in Windows NT/2000/XP as noted in the conditions. </p>
+    <p>This action should be inserted after all other registry values are added in the
+    installation process. </td>
+  </tr>
+  <tr valign="top">
+    <td height="330" width="22%" valign="top" align="left"><strong>InstallNTParService</strong></td>
+    <td height="330" width="78%"><b>Inserted after Standard Action:</b><ul type="square">
+      <li>This custom action should be inserted after <strong>InstallServices</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>VersionNT and <i>&amp;Parallel_Driver</i>=3 </li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action adds the NT parallel driver service to the service control manager.
+    Since this is a kernel service, it must be added via a custom action. This should only be
+    installed if the parallel driver is being installed. </p>
+    <p><i>Parallel_Driver</i> in the recommended condition is the name you give to the
+    parallel driver feature in your installer. If you are always going to install the parallel
+    port driver, you can leave this item out of the conditions. For example, the supplied
+    installer uses the condition &quot;VersionNT and &amp;Parallel_Driver=3.&quot;</p>
+    <p>This action should only be performed on Windows NT/2000/XP as noted in the conditions.</p>
+    <p>This action should be performed after all other services are added during the
+    installation process. </td>
+  </tr>
+  <tr valign="top">
+    <td height="373" width="22%" valign="top" align="left"><strong>StartParallelDriver</strong></td>
+    <td height="373" width="78%" valign="top" align="left"><b>Inserted after Standard Action:</b><ul
+    type="square">
+      <li>This custom action should be inserted after<strong> InstallFinalize</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>&amp;<i>Parallel_Driver</i>=3 </li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action will start up the parallel driver so that any application can use
+    it. In many cases, the driver can be started up without requiring a reboot. However, in
+    certain instances a reboot is required to start up the driver. If a reboot is required, it
+    automatically flags the installer to reboot upon completion. Also, the custom action will
+    set the SSDREBOOTREQUIRED property to the installer. The action should only be called if
+    the parallel driver is being installed. </p>
+    <p><i>Parallel_Driver</i> in the recommended condition is the name you give the parallel
+    driver feature in your installer. If you are always going to install the parallel driver,
+    you can leave this item out of the conditions. For example, the supplied installer uses
+    the condition &quot;&amp;Parallel_Driver=3&quot;.</p>
+    <p>This action should be run for every operating system, the action will detect the OS and
+    determine the proper course of action for that OS to start the driver. This action should
+    occur at the end of the installation process after all other files are installed. </td>
+  </tr>
+  <tr valign="top">
+    <td height="480" width="22%" valign="top" align="left"><strong>CopyUSBINF</strong></td>
+    <td height="480" width="78%"><b>Inserted after Standard Action:</b><ul type="square">
+      <li>This custom action should be inserted after <strong>InstallFinalize</strong>.</li>
+    </ul>
+    <p><b>Recommended Condition:</b><ul type="square">
+      <li>VersionNT&gt;=500 and &amp;<i>USB_Driver</i>=3 </li>
+    </ul>
+    <p><b>Description:</b></p>
+    <p>This custom action tells Windows 2000 where to find the &quot;INF&quot; file for the
+    USB SuperPro. Effectively, this step pre-installs the driver so that when the user plugs
+    in a USB key for the first time, Plug 'n' Play can finish the installation without any
+    user response. This should only be called if the USB driver is being installed. </p>
+    <p><i>USB_Driver</i> in the recommended condition is the name you give the USB driver
+    feature in your installer. If you are always going to install this driver, you can leave
+    this item out of the conditions.</p>
+    <p>By default, the USB driver files are installed in <i>C:\Program Files\Rainbow
+    Technologies\Sentinel System Driver</i>. If you install the files in a different location,
+    you can set the SYSDRIVERDIR property to the path of the files. The custom action will use
+    the directory in the property to find the files.</p>
+    <p>Although PnP is supposed to be able to update the driver without rebooting, in some
+    cases this is not possible. If a reboot is required, it automatically flags the installer
+    to reboot upon completion. Also, the custom action will set the SSDREBOOTREQUIRED property
+    to the installer. </p>
+    <p>This action should only be performed on Windows 2000/XP (Windows NT 4.0 does not
+    support USB), as noted in the conditions.</p>
+    <p>All files have to be copied to the local system before this action can be completed,
+    therefore this should always be run last in your installation. </td>
+  </tr>
+  <tr>
+    <td height="156" width="22%" valign="top" align="left"><strong>RemoveUSBDriver</strong></td>
+    <td height="156" width="78%">This custom action removes the USB driver files (<em>Sntlusb.sys</em>
+    and<em> Sntlusb.inf</em>), and related registry entries from the system, if the user sets
+    the USBFULLUNINSTALL property to TRUE. <p>According to Microsoft specifications, a PnP
+    driver should never be uninstalled from a system even if the hardware is removed. This is
+    because PnP only loads in the drivers for components actually plugged into the computer.
+    When the device is removed, the driver is never loaded. Uninstalling it risks
+    inadvertently causing a problem with the entire operating system. For this reason, the USB
+    driver is never fully uninstalled by default by the installer.&nbsp; </p>
+    <p>This action is intended for developers who want to completely remove all traces of the
+    USB driver from a computer. However, this should be done at their own risk.&nbsp; </td>
+  </tr>
+  <tr>
+    <td height="109" width="22%" valign="top" align="left"><strong>StartSpService</strong></td>
+    <td height="109" width="78%">This custom action restarts the SuperPro server/service after
+    installing the Sentinel system Driver. <p><b>Recommended Condition:</b><ul type="square">
+      <li>This is executed if ISSERVICESTOPPED=TRUE</li>
+    </ul>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<h2><a name="Link"></a>Linking the Configuration Program to Your Installer </h2>
+
+<p>The Sentinel System Driver contains a configuration program called <i>SetupSysDriver.exe</i>
+to allow your customer configure the driver if necessary. It also contains a button that
+allows the user to call the original installer to modify, repair, or remove the
+installation. </p>
+
+<p>By default, to call up the Sentinel System Driver installer, the program uses the
+product code GUID (Global Unique Identifier) for the installer contained within the
+driver. If you are using merge modules, then the product code GUID will be a different
+value. The configuration program will not be able to call up the installer. </p>
+
+<p>You can link the configuration program to your own installer by placing the product
+code GUID in a file. Alternatively, you can disable this feature so that the customer must
+go through your own software. To do this, create a file called <i>sysdriver.guid</i> and
+place it in the same directory as <i>SetupSysDriver.exe</i>. This file must reside in the
+same directory as the executable. The first line of the file should contain the product
+code GUID of your installer. Only the first line of the file is read. The GUID must be the
+only item on the first line and be in the following format: </p>
+
+<blockquote>
+  <p><font face="Courier New, Courier, mono">{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} </font></p>
+</blockquote>
+
+<p>For example the Sentinel System Driver GUID for version 5.41 is: </p>
+
+<blockquote>
+  <p><font face="Courier New, Courier, mono">{791CAF6C-90A3-11D4-8306-00D0B72E1DB9} </font></p>
+</blockquote>
+
+<p>If the value given is not a valid GUID as above, it will be rejected and the hard-coded
+value will be used instead. If you put in the word &quot;disable&quot; instead of a GUID,
+the installer will disable this feature and not let the user call any installer from the
+configuration program. </p>
+
+<p>&nbsp;</p>
+
+<h2><a name="wise"></a>Special Instructions for Adding Custom Actions to Wise for Windows
+Installer</h2>
+
+<p>Because InstallShield and Wise handle sequencing actions in a different manner, using
+the Wise for Windows installer with the Rainbow merge modules requires a slightly
+different approach. </p>
+
+<p>Wise expects you to sequence a custom action from a merge module during the merge
+module design time (sequencing information is stored in the merge module). InstallShield
+expects you to sequence the merge module during the installer design time (no sequencing
+information is kept in the merge module, so the installer has to specifically sequence
+it). </p>
+
+<p>Since the Sentinel System Driver merge modules are made with InstallShield for Windows
+Installer, they do not have sequencing information stored in them. Wise for Windows
+Installer therefore cannot automatically sequence the actions because the information does
+not yet exist. </p>
+
+<p>You can manually sequence the custom actions in Wise for Windows Installer by doing the
+following: 
+
+<ol>
+  <li><p style="margin-top: 3; margin-bottom: 3">Open your Wise for Windows Installer project
+    (you must open it up from a <em>.msi</em> file, not a <em>.wsi</em> file). </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Go to the <b>Setup Editor</b> and select the <b>Tables</b>
+    view. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Find the <strong>CustomAction</strong> table.
+    Look for your desired custom action in the list that you would like to sequence (this
+    assumes you have already added the merge modules to your project). You will see the name
+    as it is listed in the driver documentation with &quot;GUID&quot; attached to it. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Select the action and then copy the name to
+    the clipboard by right clicking on it and selecting <b>Copy</b>. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Next, go to the desired sequence table you
+    want to add the custom action to. Normally, it will be either the<strong>
+    InstallUISequence</strong> or the <strong>InstallExecuteSequence</strong> table. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Identify the action you would like to
+    sequence this after and note its sequence numbers. For example, the <strong>InstallServices</strong>
+    action is normally sequence number 5800 in Wise. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Right-click on the table and select <b>New
+    Row</b>. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">In the empty row, copy the name of the custom
+    action under the <b>Action</b> column. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">In the <b>Condition</b> column, insert the
+    proper condition based on the driver documentation. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Finally, in the <b>Sequence</b> column, enter
+    a value that is higher than the action you would like it sequenced after. For example, the<br>
+    <strong>InstallNTParallelDriver </strong>custom action should be sequenced after the <strong>InstallServices</strong>
+    action. Since the <strong>InstallServices</strong> action is sequence number<br>
+    5800, you might sequence <strong>InstallNTParallelDriver</strong> using value 5810.</p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Repeat this for all the custom actions listed
+    in the documentation. </p>
+  </li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h2><a name="sample"></a>Sample Use of Merge Modules</h2>
+
+<p>The installer for the Sentinel System Driver uses the merge modules supplied. It has to
+perform all the steps listed for sequencing the custom actions in order to properly
+install. For that reason, it is a good example of how to add the same custom actions into
+your own installer using the merge modules. </p>
+
+<p>Below is the sequence and conditions given for each custom action used by the Sentinel
+System Driver installer. </p>
+
+<p>Note that the information provided below is to be used as an example&#151;your actual
+conditions and sequence numbers may be different depending on your circumstances. Also
+listed are some standard actions to illustrate how the custom actions fit relative to the
+standard installer actions. </p>
+
+<h3 align="left"><b>The Install User Interface Sequence Table</b></h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Action</th>
+    <th>Sequence Number</th>
+    <th>Condition</th>
+  </tr>
+  <tr>
+    <td><strong>RemoveOldDriver</strong></td>
+    <td>72</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>UpgradeConfirmation (</strong>Dialog)</td>
+    <td>75 </td>
+    <td>OLDDRIVERFOUND and not AFTERREBOOT and not OLDDRIVERREMOVED</td>
+  </tr>
+  <tr>
+    <td><strong>RemoveOldDriverAgain</strong></td>
+    <td>84</td>
+    <td>OLDDRIVERFOUND and not AFTERREBOOT and not OLDDRIVERREMOVED</td>
+  </tr>
+  <tr>
+    <td><strong>MustReboot </strong>(Dialog)</td>
+    <td>94</td>
+    <td>REMOVEOLDDRIVERREBOOT and not AFTERREBOOT</td>
+  </tr>
+  <tr>
+    <td><strong>NewDriverFound </strong>(Dialog)</td>
+    <td>97</td>
+    <td>NEWDRIVERFOUND</td>
+  </tr>
+  <tr>
+    <td><strong>SetupInitialization</strong> (Dialog) </td>
+    <td>100</td>
+    <td>(none)</td>
+  </tr>
+</table>
+
+<p><strong>Note</strong>: None of the dialog boxes discussed below is provided by the
+merge modules. They are rather part of the Sentinel System Driver installation done using <em>setup.exe</em>.
+You can create such dialog boxes in your own installer, and set the required properties
+appropriately.</p>
+
+<p>The Sentinel System Driver installer warns the user before upgrading to a new version
+of the Sentinel System Driver. It accomplishes this by first calling the <strong>RemoveOldDriver</strong>
+custom action. If an old version is found, the OLDDRIVERFOUND property is set. This
+property is used to determine if the <strong>UpgradeConfirmation</strong> dialog should be
+shown. </p>
+
+<p>If the user accepts the upgrade, the CONFIRMUPGRADE property is set and <strong>RemoveOldDriverAgain</strong>
+is called. This time the driver is actually removed and the OLDDRIVERREMOVED property is
+set.&nbsp; </p>
+
+<p>The <strong>MustReboot</strong> dialog tells the user to reboot in order to continue
+(always a possibility when uninstalling, but this happens very seldom in practice). </p>
+
+<p>Also, the <strong>NewDriverFound</strong> dialog is presented to the user if a newer
+version is already installed. This dialog does not allow the user to continue since there
+is no point in installing a version older than the installed version. </p>
+
+<p>After all this is done, the installer continues onto the <strong>SetupInitialization</strong>
+dialog as usual. </p>
+
+<h3><b>The Install Execute Sequence Table </b></h3>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Action</th>
+    <th>Sequence Number</th>
+    <th>Condition</th>
+  </tr>
+  <tr>
+    <td><strong>RemoveOldDriver</strong></td>
+    <td>150</td>
+    <td>not OLDDRIVERREMOVED and UILevel<4</td> </td>
+  </tr>
+  <tr>
+    <td><strong>OldDriverError</strong></td>
+    <td>170</td>
+    <td>OLDDRIVERFOUND and not OLDDRIVERREMOVED</td>
+  </tr>
+  <tr>
+    <td><strong>NewDriverError</strong></td>
+    <td>180</td>
+    <td>NEWDRIVERFOUND</td>
+  </tr>
+  <tr>
+    <td><strong>SetSysDriverDir</strong></td>
+    <td>190</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>ValidateProductID*</strong></td>
+    <td>300</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>&#133;.</strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>UnregisterClassInfo*</strong></td>
+    <td>1350</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>RemoveVDDRegEntry</strong></td>
+    <td>1375 </td>
+    <td>VersionNT and REMOVE </td>
+  </tr>
+  <tr>
+    <td><strong>UnregisterExtensionInfo*</strong></td>
+    <td>1400</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>&#133;.</strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>RemoveFiles*</strong></td>
+    <td>1750</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>RemoveUSBDriver</strong></td>
+    <td>1775</td>
+    <td>VersionNT&gt;4 and REMOVE and USBFULLUNINSTALL</td>
+  </tr>
+  <tr>
+    <td><strong>WriteRegistryValues*</strong></td>
+    <td>2400</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>MakeVDDRegEntry</strong></td>
+    <td>2425</td>
+    <td>VersionNT and not NOVDDINSTALL and NOT REMOVE </td>
+  </tr>
+  <tr>
+    <td><strong>WriteINIValues*</strong></td>
+    <td>2450</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>&#133;.</strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>InstallServices*</strong></td>
+    <td>2750</td>
+    <td>VersionNT</td>
+  </tr>
+  <tr>
+    <td><strong>InstallNTParService</strong></td>
+    <td>2775</td>
+    <td>VersionNT and &amp;Parallel_Driver=3</td>
+  </tr>
+  <tr>
+    <td><strong>StartServices*</strong></td>
+    <td>2800</td>
+    <td>VersionNT</td>
+  </tr>
+  <tr>
+    <td><strong>&#133;. </strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>PublishProduct*</strong></td>
+    <td>3100</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr valign="top">
+    <td height="7"><strong>ScheduleReboot*</strong></td>
+    <td height="7">3150</td>
+    <td height="7">Version9X and (REMOVE or REINSTALL)</td>
+  </tr>
+  <tr>
+    <td><strong>InstallFinalize*</strong></td>
+    <td>3200</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td><strong>StartParallelDriver</strong></td>
+    <td>3250</td>
+    <td>&amp;Parallel_Driver=3 </td>
+  </tr>
+  <tr>
+    <td><strong>CopyUSBInf</strong></td>
+    <td>3300</td>
+    <td>VersionNT and &amp;USB_Driver=3</td>
+  </tr>
+  <tr>
+    <td><strong>RemoveExistingProducts*</strong></td>
+    <td>3500</td>
+    <td>(none)</td>
+  </tr>
+</table>
+
+<p>* denotes a standard Windows Installer action. This is inserted to show the relative
+sequencing of custom actions to standard actions. </p>
+
+<p><strong>RemovedOldDriver</strong> is called first to uninstall the existing versions of
+the Sentinel System Driver before continuing. It is important to note that if the
+installer is guided to install quietly, the user interface is completely skipped, so this
+custom action needs to exist in both sequence tables. This action gets called when the
+installer has been told to run in a quiet mode. </p>
+
+<p><strong>OldDriverError</strong> and <strong>NewDriverError</strong> are basic type 19
+error custom actions. <strong>SetSysDriverDir</strong> is a basic type 51 property
+assignment custom action. These custom actions are defined in the Windows installer; see
+the Microsoft MSDN for details on these custom actions.</p>
+
+<p>The<strong> OldDriverError</strong> causes the installer to exit because an older
+version exists and has yet to be removed. This is a catch-all error condition to be sure
+we don't proceed to install this version without uninstalling an old version. </p>
+
+<p>Similarly, <strong>NewDriverError</strong> causes the installer to exit if a newer
+version of the driver is already installed. Then <strong>SetSysDriverDir</strong> sets the
+property SYSDRIVERDIR to the directory that the driver will be installed to. </p>
+
+<p><strong>RemoveVDDRegEntry</strong> and <strong>MakeVDDRegEntry</strong> modify the
+system registry and therefore should take place in the same area that the installer adds
+and removes registry entries. The conditions should cause the registry entry to be added
+during install and removed during uninstall. </p>
+
+<p>The parallel driver on Windows NT/2000/XP systems is a kernel mode service. Windows
+Installer will not add kernel mode services via its normal method, so the <strong>InstallNTParService</strong>
+custom action is added to add the service to the system. It should be called when Windows
+Installer adds other services during its own <strong>InstallServices</strong> action. </p>
+
+<p>The <strong>StartParallelDriver</strong> and <strong>CopyUSBINF</strong> action have to
+occur at the end of the installation sequence when all the files are copied, services
+created, etc. Thus they should exist at the very end after<b> </b>the<strong>
+InstallFinalize</strong> action. </p>
+
+<h3><strong>Changing the Destination Path of a Merge Module</strong></h3>
+
+<p>The instructions given below explain changing the destination path of the various merge
+modules:&nbsp; 
+
+<ol>
+  <li><p style="margin-top: 3; margin-bottom: 3">In your project ISM, double click the <b>Merge
+    Modules </b>option under the <b>Specify Application Data</b> item available in the
+    left-panel. A list displaying the various merge modules appears.</p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Select <b>SSDParallel</b> and open its <b>Properties</b>
+    by right clicking it. The <b>Properties</b> pop up menu appears. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Now, either edit the the <b>Destination</b>
+    field to specify the path of driver installation. Or, select <b>[INSTALLDIR]</b> property
+    from the list to place them in the location same as your application files. Doing none of
+    them will install the Sentinel System Driver in the root drive.</p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Click <b>Apply</b> and then <b>OK</b> to save
+    the changes done. </p>
+  </li>
+  <li><p style="margin-top: 3; margin-bottom: 3">Repeat steps 2 to 4 for the <b>SSDUSB</b> and
+    <strong>SSDConfigFiles</strong> merge modules.</p>
+  </li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h2><a name="reboot"></a>Rebooting the System</h2>
+
+<p>In some cases, during the processing of a custom action, it is determined that a reboot
+is necessary to complete the installation. If this occurs, the custom action will set the
+property SSDREBOOTREQUIRED. The custom action will also automatically flag the installer
+to reboot after installation is completed. The exception to this is the <strong>RemoveOldDriver</strong>
+custom action. In the rare case that this custom action needs to reboot, the reboot needs
+to be immediate before the installation can continue. If that condition is met, it will
+set the property REMOVEOLDDRIVERREBOOT property. It will not set the SSDREBOOTREQUIRED
+property. </p>
+
+<p>The parallel port driver on Windows 95/98/ME systems is not unloaded from memory until
+the next reboot following uninstallation. Thus, it is recommended you reboot after
+uninstallation on these systems, although this is not required. If the driver is left in
+memory after uninstallation, it will be removed during the user's next shutdown or reboot.</p>
+</body>
+</html>

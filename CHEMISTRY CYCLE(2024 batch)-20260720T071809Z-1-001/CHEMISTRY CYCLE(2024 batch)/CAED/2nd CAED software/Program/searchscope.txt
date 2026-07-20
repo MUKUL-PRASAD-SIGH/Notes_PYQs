@@ -1,0 +1,19 @@
+\\ This document can contain the following valid entries so that system knows where to search...
+\\
+\\ 1. A valid URL to a Document Library 
+\\    EXAMPLE: http://hsvnt261/SolidEdge
+\\
+\\ 2. A valid URL to a Site. in this case, Insight will use all 
+\\    valid Document Libraries in the Site. Validity includes presence of  
+\\    Insight mandatory properties such as SELinkData.
+\\    
+\\    EXAMPLE: http://hsvnt261 
+\\    Document Libraries in the Site - such as http://hsvnt261/SolidEdge and
+\\    http://hsvnt261/Doclib will be used by Insight.
+\\    
+\\ 3. You can exclude a particular Document Library from being used by Insight,  by 
+\\    including the keyword "Exception!".
+\\
+\\    EXAMPLE: Exception!http://hsvnt261/SolidEdge 
+\\
+\\  NOTE: All lines starting with "\\" are ignored

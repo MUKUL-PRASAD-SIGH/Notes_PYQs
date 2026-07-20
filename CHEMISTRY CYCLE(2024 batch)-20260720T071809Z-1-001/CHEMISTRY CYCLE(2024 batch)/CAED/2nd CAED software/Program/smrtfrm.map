@@ -1,0 +1,1057 @@
+ smrtfrm
+
+ Timestamp is 46b3a60e (Fri Aug 03 17:02:54 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000c550H .text                   CODE
+ 0001:0000c550 00000908H .text$x                 CODE
+ 0001:0000ce60 0000043cH .text$yc                CODE
+ 0001:0000d2a0 0000000aH .text$yd                CODE
+ 0002:00000000 000002d0H .idata$5                DATA
+ 0002:000002d0 00000004H .CRT$XCA                DATA
+ 0002:000002d4 00000084H .CRT$XCU                DATA
+ 0002:00000358 00000004H .CRT$XCZ                DATA
+ 0002:0000035c 00000004H .CRT$XIA                DATA
+ 0002:00000360 00000004H .CRT$XIAA               DATA
+ 0002:00000364 00000004H .CRT$XIZ                DATA
+ 0002:00000370 00000f30H .rdata                  DATA
+ 0002:000012a0 00000031H .rdata$debug            DATA
+ 0002:000012d4 0000079cH .rdata$r                DATA
+ 0002:00001a70 00000090H .rdata$sxdata           DATA
+ 0002:00001b00 00000004H .rtc$IAA                DATA
+ 0002:00001b04 00000004H .rtc$IZZ                DATA
+ 0002:00001b08 00000004H .rtc$TAA                DATA
+ 0002:00001b0c 00000004H .rtc$TZZ                DATA
+ 0002:00001b10 000008ccH .xdata$x                DATA
+ 0002:000023dc 00000140H .idata$2                DATA
+ 0002:0000251c 00000014H .idata$3                DATA
+ 0002:00002530 000002d0H .idata$4                DATA
+ 0002:00002800 000010ccH .idata$6                DATA
+ 0002:000038d0 0000006aH .edata                  DATA
+ 0003:00000000 00005518H .data                   DATA
+ 0003:00005518 00001504H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000024       ___safe_se_handler_count   00000024     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ?QueryInterface@IJComputeImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10001030 f   COMPUTE.obj
+ 0001:00000050       ?AddRef@IJComputeImp@JSmartFrame2d@@UAGKXZ 10001050 f   COMPUTE.obj
+ 0001:00000070       ?Release@IJComputeImp@JSmartFrame2d@@UAGKXZ 10001070 f   COMPUTE.obj
+ 0001:00000090       _DllMain@12                10001090 f   SERVER.obj
+ 0001:00000090       ?PreValueModify@IJComputeImp@JSmartFrame2d@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10001090 f   COMPUTE.obj
+ 0001:000000a0       ?GetSolver@IJComputeImp@JSmartFrame2d@@UAGJPAPAUIJRelationSolver@@@Z 100010a0 f   COMPUTE.obj
+ 0001:000000b0       ?ReplaceValue@IJComputeImp@JSmartFrame2d@@UAGJPAUtagJIDREF@@0@Z 100010b0 f   COMPUTE.obj
+ 0001:000000c0       ?Evaluate@IJComputeImp@JSmartFrame2d@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@PAPAUIEnumUnknown@@@Z 100010c0 f   COMPUTE.obj
+ 0001:000001f0       ?NextArg@@YAJPAUtagJIDREF@@PAXAAKPAUIUnknown@@@Z 100011f0 f   COMPUTE.obj
+ 0001:00000370       ??0?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@QAE@ABU_GUID@@P6AJPAUtagJIDREF@@PAXAAKPAUIUnknown@@@Z42P6AJAAPAX3AAPAU3@@ZP6AX24@ZPAV?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@$04@@@Z 10001370 f i COMPUTE.obj
+ 0001:000003e0       _IsEqualGUID               100013e0 f i COMPUTE.obj
+ 0001:00000480       ?QueryInterface@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJABU_GUID@@PAPAX@Z 10001480 f i COMPUTE.obj
+ 0001:000004e0       ?AddRef@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGKXZ 100014e0 f i COMPUTE.obj
+ 0001:000004f0       ?Next@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJKPAUtagJIDREF@@PAK@Z 100014f0 f i COMPUTE.obj
+ 0001:00000560       ?Skip@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJK@Z 10001560 f i COMPUTE.obj
+ 0001:000005a0       ?Reset@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJXZ 100015a0 f i COMPUTE.obj
+ 0001:000005b0       ?AddToCache@?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@$04@@QAEJPAV?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@PAUIUnknown@@@Z 100015b0 f i COMPUTE.obj
+ 0001:000005f0       ?EnumValues@IJComputeImp@JSmartFrame2d@@UAGJPAPAUIEnumJIDREF@@@Z 100015f0 f   COMPUTE.obj
+ 0001:000006c0       ?Release@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGKXZ 100016c0 f i COMPUTE.obj
+ 0001:00000760       ?Clone@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJPAPAUIEnumJIDREF@@@Z 10001760 f i COMPUTE.obj
+ 0001:00000870       ?GetObjectCount@@YAKXZ     10001870 f   SERVER.obj
+ 0001:00000880       ?IncrementObjectCount@@YAXXZ 10001880 f   SERVER.obj
+ 0001:00000890       ?DecrementObjectCount@@YAXXZ 10001890 f   SERVER.obj
+ 0001:000008a0       ?GetLockCount@@YAKXZ       100018a0 f   SERVER.obj
+ 0001:000008b0       ?IncrementLockCount@@YAXXZ 100018b0 f   SERVER.obj
+ 0001:000008c0       ?DecrementLockCount@@YAXXZ 100018c0 f   SERVER.obj
+ 0001:000008d0       _DllCanUnloadNow@0         100018d0 f   SERVER.obj
+ 0001:000008f0       ??0?$ClassFactory@VJSmartFrame2d@@@@QAE@HHH@Z 100018f0 f i SERVER.obj
+ 0001:00000970       ?OnCreateInstance@?$ClassFactory@VJSmartFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10001970 f i SERVER.obj
+ 0001:00000ac0       _DllGetClassObject@12      10001ac0 f   SERVER.obj
+ 0001:00000c60       ??_E?$ClassFactory@VJSmartFrame2d@@@@UAEPAXI@Z 10001c60 f i SERVER.obj
+ 0001:00000c60       ??_G?$ClassFactory@VJSmartFrame2d@@@@UAEPAXI@Z 10001c60 f i SERVER.obj
+ 0001:00000cc0       ??G@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 10001cc0 f i SMFUTIL.obj
+ 0001:00000cf0       ??D@YA?AUtagGVector2d@@ABU0@N@Z 10001cf0 f i SMFUTIL.obj
+ 0001:00000d20       _GetCentroidOfRectangle@44 10001d20 f   SMFUTIL.obj
+ 0001:00000dd0       _BuildEllipseFromRectangle@56 10001dd0 f   SMFUTIL.obj
+ 0001:000011b0       _JVerifyAndCreateMoniker@16 100021b0 f   SMFUTIL.obj
+ 0001:00001430       _JGetReferenceOptions@32   10002430 f   SMFUTIL.obj
+ 0001:000015a0       _JSFSetInfoFromStyle@8     100025a0 f   SMFUTIL.obj
+ 0001:00001850       ?GetFuzzScaleParams@@YAJPAN00@Z 10002850 f   SMFUTIL.obj
+ 0001:00001b00       _GetFuzzMaxValue@32        10002b00 f   SMFUTIL.obj
+ 0001:00002000       _BuildFuzzRectangle@12     10003000 f   SMFUTIL.obj
+ 0001:00002530       _GetGID_TRANSF             10003530 f i SMRTFRM.obj
+ 0001:000025a0       ?Normalize@@YA?AUtagGUnitVector2d@@ABUtagGVector2d@@@Z 100035a0 f i SMRTFRM.obj
+ 0001:000025d0       _GetGNULL_MATRIX_2D        100035d0 f i SMRTFRM.obj
+ 0001:00002670       _GetGNULL_TRANSF_2D        10003670 f i SMRTFRM.obj
+ 0001:00002710       ??0tagStyleOverride@@QAE@XZ 10003710 f i SMRTFRM.obj
+ 0001:00002740       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGEllipse2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10003740 f i SMRTFRM.obj
+ 0001:00002790       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGRectangle2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10003790 f i SMRTFRM.obj
+ 0001:000027e0       ?JCheckAndSetFenceContext@@YAJPAUtagJGEOMCRITERIA@@HPAW4tagJFENCECONTEXT@@@Z 100037e0 f i SMRTFRM.obj
+ 0001:000029d0       ?Initialize@JSmartFrame2d@@QAEJXZ 100039d0 f   SMRTFRM.obj
+ 0001:00002aa0       ?PassOn@JSmartFrame2d@@AAEDD@Z 10003aa0 f   SMRTFRM.obj
+ 0001:00002b00       ?QueryInterface@IJSmartFrame2dImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10003b00 f   SMRTFRM.obj
+ 0001:00002b20       ?AddRef@IJSmartFrame2dImp@JSmartFrame2d@@UAGKXZ 10003b20 f   SMRTFRM.obj
+ 0001:00002b40       ?Release@IJSmartFrame2dImp@JSmartFrame2d@@UAGKXZ 10003b40 f   SMRTFRM.obj
+ 0001:00002b60       ?GetProperties@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtabJSMARTFRAME2DPROPERTIES@@@Z 10003b60 f   SMRTFRM.obj
+ 0001:00002b80       ?SetProperties@IJSmartFrame2dImp@JSmartFrame2d@@UAGJUtabJSMARTFRAME2DPROPERTIES@@@Z 10003b80 f   SMRTFRM.obj
+ 0001:00002ba0       ?GetRect@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGRectangle2d@@@Z 10003ba0 f   SMRTFRM.obj
+ 0001:00002bc0       ?UpdateGeometry@IJSmartFrame2dImp@JSmartFrame2d@@UAGJXZ 10003bc0 f   SMRTFRM.obj
+ 0001:00002cc0       ?SetRect@IJSmartFrame2dImp@JSmartFrame2d@@UAGJUtagGRectangle2d@@@Z 10003cc0 f   SMRTFRM.obj
+ 0001:00002ce0       ?GetProjectionPlane@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGPlane@@@Z 10003ce0 f   SMRTFRM.obj
+ 0001:00002d80       ?SetProjectionPlane@IJSmartFrame2dImp@JSmartFrame2d@@UAGJUtagGPlane@@@Z 10003d80 f   SMRTFRM.obj
+ 0001:00002e20       ?GetFrame@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAPAUIUnknown@@@Z 10003e20 f   SMRTFRM.obj
+ 0001:00002e40       ?SetFrame@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIUnknown@@@Z 10003e40 f   SMRTFRM.obj
+ 0001:00002e50       ?ScaleAboutPoint@IJSmartFrame2dImp@JSmartFrame2d@@UAGJNUtagGPosition2d@@@Z 10003e50 f   SMRTFRM.obj
+ 0001:00002f50       ?QueryInterface@IJGraphicImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10003f50 f   SMRTFRM.obj
+ 0001:00002f70       ?AddRef@IJGraphicImp@JSmartFrame2d@@UAGKXZ 10003f70 f   SMRTFRM.obj
+ 0001:00002f90       ?Release@IJGraphicImp@JSmartFrame2d@@UAGKXZ 10003f90 f   SMRTFRM.obj
+ 0001:00002fb0       ?QueryInterface@IJSymbologyImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10003fb0 f   SMRTFRM.obj
+ 0001:00002fd0       ?AddRef@IJSymbologyImp@JSmartFrame2d@@UAGKXZ 10003fd0 f   SMRTFRM.obj
+ 0001:00002ff0       ?Release@IJSymbologyImp@JSmartFrame2d@@UAGKXZ 10003ff0 f   SMRTFRM.obj
+ 0001:00003010       ?QueryInterface@IJPersistImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10004010 f   SMRTFRM.obj
+ 0001:00003030       ?AddRef@IJPersistImp@JSmartFrame2d@@UAGKXZ 10004030 f   SMRTFRM.obj
+ 0001:00003050       ?Release@IJPersistImp@JSmartFrame2d@@UAGKXZ 10004050 f   SMRTFRM.obj
+ 0001:00003070       ?GetClassID@IJPersistImp@JSmartFrame2d@@UAGJPAU_GUID@@@Z 10004070 f   SMRTFRM.obj
+ 0001:000030a0       ?GetThis@IJPersistImp@JSmartFrame2d@@UAGPAXXZ 100040a0 f   SMRTFRM.obj
+ 0001:000030b0       ?InitNew@IJPersistImp@JSmartFrame2d@@UAGJXZ 100040b0 f   SMRTFRM.obj
+ 0001:000030c0       ?QueryInterface@IJKeyPointImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 100040c0 f   SMRTFRM.obj
+ 0001:000030e0       ?AddRef@IJKeyPointImp@JSmartFrame2d@@UAGKXZ 100040e0 f   SMRTFRM.obj
+ 0001:00003100       ?Release@IJKeyPointImp@JSmartFrame2d@@UAGKXZ 10004100 f   SMRTFRM.obj
+ 0001:00003120       ?GetKeyPointCount@IJKeyPointImp@JSmartFrame2d@@UAGJPAH@Z 10004120 f   SMRTFRM.obj
+ 0001:00003130       ?GetKeyPoint@IJKeyPointImp@JSmartFrame2d@@UAGJHPAUtagGPosition@@PAW4KeyPointType@@PAJ@Z 10004130 f   SMRTFRM.obj
+ 0001:00003310       ?newRectPoint@@YAXHQAUtagGPosition2d@@U1@PAU1@PAH@Z 10004310 f   SMRTFRM.obj
+ 0001:00003420       ?_DAXOnlySetKeyPointHandler@IJKeyPointImp@JSmartFrame2d@@UAGJPAUIJKeyPoint@@@Z 10004420 f   SMRTFRM.obj
+ 0001:00003440       _JSmartFrame2dInterfaceDependencies@4 10004440 f   SMRTFRM.obj
+ 0001:00003490       ?GetRelatedStyle@@YAJPAUIUnknown@@KPAPAUIJSmartFrame2dStyle@@@Z 10004490 f   SMRTFRM.obj
+ 0001:000034e0       ?QueryInterface@IJStyleUserImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 100044e0 f   SMRTFRM.obj
+ 0001:00003500       ?AddRef@IJStyleUserImp@JSmartFrame2d@@UAGKXZ 10004500 f   SMRTFRM.obj
+ 0001:00003520       ?Release@IJStyleUserImp@JSmartFrame2d@@UAGKXZ 10004520 f   SMRTFRM.obj
+ 0001:00003540       ?ObjectCopied@IJStyleUserImp@JSmartFrame2d@@UAGJPAUIJPersistManager@@PAUIJStyleManager2@@1PAUIUnknown@@K@Z 10004540 f   SMRTFRM.obj
+ 0001:00003570       ?GetStyleID@IJStyleUserImp@JSmartFrame2d@@UAGJPAK@Z 10004570 f   SMRTFRM.obj
+ 0001:00003590       ?ChangeStyleID@IJStyleUserImp@JSmartFrame2d@@UAGJKK@Z 10004590 f   SMRTFRM.obj
+ 0001:000035b0       ?QueryInterface@IJProbeImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 100045b0 f   SMRTFRM.obj
+ 0001:000035d0       ?AddRef@IJProbeImp@JSmartFrame2d@@UAGKXZ 100045d0 f   SMRTFRM.obj
+ 0001:000035f0       ?Release@IJProbeImp@JSmartFrame2d@@UAGKXZ 100045f0 f   SMRTFRM.obj
+ 0001:00003610       ?Validate@IJProbeImp@JSmartFrame2d@@UAGJKKPAD@Z 10004610 f   SMRTFRM.obj
+ 0001:00003620       ?QueryInterface@IJQuickPickSupportImp@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10004620 f   SMRTFRM.obj
+ 0001:00003640       ?AddRef@IJQuickPickSupportImp@JSmartFrame2d@@UAGKXZ 10004640 f   SMRTFRM.obj
+ 0001:00003660       ?Release@IJQuickPickSupportImp@JSmartFrame2d@@UAGKXZ 10004660 f   SMRTFRM.obj
+ 0001:00003680       ?GetProperties@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAK@Z 10004680 f   SMRTFRM.obj
+ 0001:00003690       ?GetDisplayBitmap@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAPAUHBITMAP__@@@Z 10004690 f   SMRTFRM.obj
+ 0001:000036d0       ?GetDisplayString@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAKPAD@Z 100046d0 f   SMRTFRM.obj
+ 0001:000037c0       ?GetImageList@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAKPAPAU_IMAGELIST@@@Z 100047c0 f   SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJLocateInfoAnalyze@@@@QAEPAPAUIJLocateInfoAnalyze@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIMoniker@@@@QAEPAPAUIMoniker@@XZ 10004810 f i SMFUTIL.obj
+ 0001:00003810       ??I?$TIP@PAUIJSite@@@@QAEPAPAUIJSite@@XZ 10004810 f i SMFUTIL.obj
+ 0001:00003810       ??I?$TIP@PAUIJGeometry@@@@QAEPAPAUIJGeometry@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAU_IHSmartFrame2dDefaults@@@@QAEPAPAU_IHSmartFrame2dDefaults@@XZ 10004810 f i sfutil:crestyle.obj
+ 0001:00003810       ??I?$TIP@PAUIJSmartFrame2d@@@@QAEPAPAUIJSmartFrame2d@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 10004810 f i SMFUTIL.obj
+ 0001:00003810       ??I?$TIP@PAUIJViewFilterSet@@@@QAEPAPAUIJViewFilterSet@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJPersist@@@@QAEPAPAUIJPersist@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJRangeOwner@@@@QAEPAPAUIJRangeOwner@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJOccurrence@@@@QAEPAPAUIJOccurrence@@XZ 10004810 f i SMFUTIL.obj
+ 0001:00003810       ??I?$TIP@PAUIJOwner@@@@QAEPAPAUIJOwner@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIEnumUnknown@@@@QAEPAPAUIEnumUnknown@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJGraphic@@@@QAEPAPAUIJGraphic@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJStyleRender@@@@QAEPAPAUIJStyleRender@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJSitePrivate@@@@QAEPAPAUIJSitePrivate@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAU_IHSmartFrame2dStyle@@@@QAEPAPAU_IHSmartFrame2dStyle@@XZ 10004810 f i sfutil:crestyle.obj
+ 0001:00003810       ??I?$TIP@PAUIJSFStyleFrame@@@@QAEPAPAUIJSFStyleFrame@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003810       ??I?$TIP@PAUIJSmartFrame2dStyle@@@@QAEPAPAUIJSmartFrame2dStyle@@XZ 10004810 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJModelTrans@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJTrueDex@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJSite@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJSmartFrame2dStyle@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJPersist@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJLocateInfoAnalyze@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJSFStyleFrame@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIRunningObjectTable@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAU_IHSmartFrame2dDefaults@@@@QAE@XZ 10004830 f i sfutil:crestyle.obj
+ 0001:00003830       ??1?$TIP@PAUIJOwner@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIEnumUnknown@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJViewFilterSet@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAU_IHSmartFrame2dStyle@@@@QAE@XZ 10004830 f i sfutil:crestyle.obj
+ 0001:00003830       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIJSitePrivate@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAU_IJApplication@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJRenderInfo@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJSmartFrame2d@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAUIMoniker@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJOccurrence@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJPaperTrans@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJStyleManager@@@@QAE@XZ 10004830 f i sfutil:crestyle.obj
+ 0001:00003830       ??1?$TIP@PAUIJStyleRender@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAU_IHStylesExtension@@@@QAE@XZ 10004830 f i sfutil:crestyle.obj
+ 0001:00003830       ??1?$TIP@PAUIJGeometry@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003830       ??1?$TIP@PAU_IJSheetView@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAUIJSmartFrame2dDefaults@@@@QAE@XZ 10004830 f i SMFUTIL.obj
+ 0001:00003830       ??1?$TIP@PAU_IHSmartFrame2dStyles@@@@QAE@XZ 10004830 f i sfutil:crestyle.obj
+ 0001:00003830       ??1?$TIP@PAUIJRangeOwner@@@@QAE@XZ 10004830 f i SMRTFRM.obj
+ 0001:00003840       ??$sprintf@$0IA@@@YAHAAY0IA@DPBDZZ 10004840 f i SMRTFRM.obj
+ 0001:00003860       ?DoIOPrivate@JIOStreamContext@@ABEJPAXK@Z 10004860 f i SMRTFRM.obj
+ 0001:000038e0       ??1JSmartFrame2d@@UAE@XZ   100048e0 f   SMRTFRM.obj
+ 0001:00003a90       ?QueryInterface@JSmartFrame2d@@UAGJABU_GUID@@PAPAX@Z 10004a90 f   SMRTFRM.obj
+ 0001:00003f40       ?Transform@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPBUtagGTransf@@@Z 10004f40 f   SMRTFRM.obj
+ 0001:000042c0       ?CreateLink@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z 100052c0 f   SMRTFRM.obj
+ 0001:00004560       ?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z 10005560 f   SMRTFRM.obj
+ 0001:00004990       ?SetLinearStyleRender@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIJStyleRender@@@Z 10005990 f   SMRTFRM.obj
+ 0001:000049c0       ?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z 100059c0 f   SMRTFRM.obj
+ 0001:00005360       ?GetContentsRange@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGBox@@H@Z 10006360 f   SMRTFRM.obj
+ 0001:000055e0       ?UpdateSmartFrame2d@IJSmartFrame2dImp@JSmartFrame2d@@UAGJXZ 100065e0 f   SMRTFRM.obj
+ 0001:00005d10       ?GetSmartFrame2dMaxFuzzValue@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAN@Z 10006d10 f   SMRTFRM.obj
+ 0001:00005df0       ?SavePresDataToStorage@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIStorage@@@Z 10006df0 f   SMRTFRM.obj
+ 0001:00005f00       ?GetProperties@IJGraphicImp@JSmartFrame2d@@UAGJPAK@Z 10006f00 f   SMRTFRM.obj
+ 0001:00005f80       ?GetSymbology@IJSymbologyImp@JSmartFrame2d@@UAGJPAPAUIUnknown@@@Z 10006f80 f   SMRTFRM.obj
+ 0001:00005fd0       ?_DAXOnlySetKeyPoint@IJKeyPointImp@JSmartFrame2d@@UAGJHPAUtagGPosition@@@Z 10006fd0 f   SMRTFRM.obj
+ 0001:00006b70       ?IsNonDisplayablePrivateLink@@YAJPAUIUnknown@@PAVJGraphicContext@@PAH@Z 10007b70 f   SMRTFRM.obj
+ 0001:00006d50       ?ObjectDeleted@IJStyleUserImp@JSmartFrame2d@@UAGJPAUIJPersistManager@@PAUIJStyleManager2@@@Z 10007d50 f   SMRTFRM.obj
+ 0001:00006d90       ?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z 10007d90 f   SMRTFRM.obj
+ 0001:00007170       ?UpdateRange@JSmartFrame2d@@QAEJPAUIJRelationNotify@@@Z 10008170 f   SMRTFRM.obj
+ 0001:00007410       ?Dump@IJProbeImp@JSmartFrame2d@@UAGJKKPAD@Z 10008410 f   SMRTFRM.obj
+ 0001:00007c00       ??_GJSmartFrame2d@@UAEPAXI@Z 10008c00 f i SMRTFRM.obj
+ 0001:00007c00       ??_EJSmartFrame2d@@UAEPAXI@Z 10008c00 f i SMRTFRM.obj
+ 0001:00007c20       ?ImplementDeferOrError@IJCompute@@UAGJPAH0@Z 10008c20 f i SMRTFRM.obj
+ 0001:00007c40       ?EvaluateEx@IJCompute@@UAGJPAUIEnumJIDREF@@PAUIJRelationNotify@@PAPAUIEnumUnknown@@PAPAU2@@Z 10008c40 f i SMRTFRM.obj
+ 0001:00007c50       ?SpacemapLeaking@IJPersist@@UAGJPAUIJPersistManager@@@Z 10008c50 f i SMRTFRM.obj
+ 0001:00007c60       ?JSerializeGPlane@@YAJPAVIOContext@@AAUtagGPlane@@@Z 10008c60 f   SMRTFRM.obj
+ 0001:00007e70       ?GetStyle@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAPAUIJSmartFrame2dStyle@@@Z 10008e70 f   SMRTFRM.obj
+ 0001:00007fe0       ?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z 10008fe0 f   SMRTFRM.obj
+ 0001:000088c0       ?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z 100098c0 f   SMRTFRM.obj
+ 0001:00009320       ?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z 1000a320 f   SMRTFRM.obj
+ 0001:00009810       ?SetSymbology@IJSymbologyImp@JSmartFrame2d@@UAGJPAUIUnknown@@@Z 1000a810 f   SMRTFRM.obj
+ 0001:00009830       ?SerializeVersion1@JSmartFrame2d@@QAEJPAVIOContext@@@Z 1000a830 f   SMRTFRM.obj
+ 0001:00009b90       ?Convert@IJPersistImp@JSmartFrame2d@@UAGJPAVCvtContext@@@Z 1000ab90 f   SMRTFRM.obj
+ 0001:00009c50       ?SetStyleID@IJStyleUserImp@JSmartFrame2d@@UAGJK@Z 1000ac50 f   SMRTFRM.obj
+ 0001:00009c70       ??0JSmartFrame2d@@QAE@PAUIUnknown@@@Z 1000ac70 f   SMRTFRM.obj
+ 0001:00009d50       ?Serialize@IJPersistImp@JSmartFrame2d@@UAGJPAVIOContext@@@Z 1000ad50 f   SMRTFRM.obj
+ 0001:00009e00       ?Clone@IJPersistImp@JSmartFrame2d@@UAGJPAUIUnknown@@PAPAU3@@Z 1000ae00 f   SMRTFRM.obj
+ 0001:0000a11c       ?JDftIncrementNumSymbolsAndSmartFramesSaved@@YAXXZ 1000b11c f   daxutil:Daxutil.dll
+ 0001:0000a122       _JQueryApplication         1000b122 f   jengine:jengine.dll
+ 0001:0000a128       _BatchModify@8             1000b128 f   jengine:jengine.dll
+ 0001:0000a12e       ?AddRef@CPersistObject@@UAGKXZ 1000b12e f   jengine:jengine.dll
+ 0001:0000a134       ?Release@CPersistObject@@UAGKXZ 1000b134 f   jengine:jengine.dll
+ 0001:0000a13a       _CreateStdRelationValue@12 1000b13a f   jengine:jengine.dll
+ 0001:0000a140       _JGetFastDAXObject@16      1000b140 f   jengine:jengine.dll
+ 0001:0000a146       _BatchFlush@0              1000b146 f   jengine:jengine.dll
+ 0001:0000a14c       _BatchFlushOn              1000b14c f   jengine:jengine.dll
+ 0001:0000a152       _BatchFlushOff             1000b152 f   jengine:jengine.dll
+ 0001:0000a158       @GetPersistManager@8       1000b158 f   jengine:jengine.dll
+ 0001:0000a15e       _HRerrEx                   1000b15e f   jutil:JUtil.dll
+ 0001:0000a164       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000b164 f   jutil:JUtil.dll
+ 0001:0000a16a       ?AddRef@JClassFactory@@UAGKXZ 1000b16a f   jutil:JUtil.dll
+ 0001:0000a170       ?Release@JClassFactory@@UAGKXZ 1000b170 f   jutil:JUtil.dll
+ 0001:0000a176       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000b176 f   jutil:JUtil.dll
+ 0001:0000a17c       ?LockServer@JClassFactory@@UAGJH@Z 1000b17c f   jutil:JUtil.dll
+ 0001:0000a182       ?JIsValidInterface@@YAHPAUIUnknown@@@Z 1000b182 f   jutil:JUtil.dll
+ 0001:0000a188       _RCfatalerr                1000b188 f   jutil:JUtil.dll
+ 0001:0000a18e       _JCoCreateInstance         1000b18e f   jutil:JUtil.dll
+ 0001:0000a194       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000b194 f   jutil:JUtil.dll
+ 0001:0000a19a       _InitReferenceEngineLinkFromMoniker@48 1000b19a f   olesite:OLESITE.dll
+ 0001:0000a1a0       _InitReferenceEngineEmbed@44 1000b1a0 f   olesite:OLESITE.dll
+ 0001:0000a1a6       _InitReferenceEngineEmbedFromFile@48 1000b1a6 f   olesite:OLESITE.dll
+ 0001:0000a1b0       _BuildRenderStyleObject@8  1000b1b0 f   rendspt:util.obj
+ 0001:0000a1f0       _RealRender2d@16           1000b1f0 f   rendspt:util.obj
+ 0001:0000a470       _MakeCurrentVersion@8      1000b470 f   rendspt:override.obj
+ 0001:0000a580       _MergeOverrideStructures@12 1000b580 f   rendspt:override.obj
+ 0001:0000a8b0       ?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z 1000b8b0 f   sfutil:crestyle.obj
+ 0001:0000ab80       ?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z 1000bb80 f   sfutil:crestyle.obj
+ 0001:0000b658       _IMGPlaneCopyWithAlloc     1000c658 f   ugeom:ugeom.dll
+ 0001:0000b65e       _IMGBoundariesFreeMem      1000c65e f   ugeom:ugeom.dll
+ 0001:0000b664       _UtilGTypeLocate           1000c664 f   ugeom:ugeom.dll
+ 0001:0000b66a       _IMRectGetCorners2d        1000c66a f   ugeom2d:ugeom2d.dll
+ 0001:0000b670       _IMEllipseByCtrMajMin2d    1000c670 f   ugeom2d:ugeom2d.dll
+ 0001:0000b676       _IMRectGetHeightVector2d   1000c676 f   ugeom2d:ugeom2d.dll
+ 0001:0000b67c       _IMRectGetWidthVector2d    1000c67c f   ugeom2d:ugeom2d.dll
+ 0001:0000b682       _IMRectSetHeight2d         1000c682 f   ugeom2d:ugeom2d.dll
+ 0001:0000b688       _IMRectSetWidth2d          1000c688 f   ugeom2d:ugeom2d.dll
+ 0001:0000b68e       _IMRectSetOrigin2d         1000c68e f   ugeom2d:ugeom2d.dll
+ 0001:0000b694       _IMRectGetHeight2d         1000c694 f   ugeom2d:ugeom2d.dll
+ 0001:0000b69a       _IMRectGetWidth2d          1000c69a f   ugeom2d:ugeom2d.dll
+ 0001:0000b6a0       _IMRectGetOrigin2d         1000c6a0 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6a6       _IMRectangleTransform2d    1000c6a6 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6ac       _IMRectByPtPt2d            1000c6ac f   ugeom2d:ugeom2d.dll
+ 0001:0000b6b2       _IMLineByPtAngLen2d        1000c6b2 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6b8       _IMLineGetLength2d         1000c6b8 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6be       _IMLineGetAngle2d          1000c6be f   ugeom2d:ugeom2d.dll
+ 0001:0000b6c4       _IMProjectPointOnLine2d    1000c6c4 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6ca       _IMLineByPtPt2d            1000c6ca f   ugeom2d:ugeom2d.dll
+ 0001:0000b6d0       _IMRectGetRotAngle2d       1000c6d0 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6d6       _IMRectangleValid2d        1000c6d6 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6dc       _IMRectByPtPtAngle2d       1000c6dc f   ugeom2d:ugeom2d.dll
+ 0001:0000b6e2       _IMRectangleOffset2d       1000c6e2 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6e8       _IMRectangleRangeBox2d     1000c6e8 f   ugeom2d:ugeom2d.dll
+ 0001:0000b6ee       ?BuildBox@@YA?AUtagGBox@@NNN@Z 1000c6ee f   umath:umath.dll
+ 0001:0000b6f4       ?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1000c6f4 f   umath:umath.dll
+ 0001:0000b6fa       ??K@YA?AUtagGVector2d@@ABU0@N@Z 1000c6fa f   umath:umath.dll
+ 0001:0000b700       ??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 1000c700 f   umath:umath.dll
+ 0001:0000b706       ?GetLength@tagGVector2d@@QBENXZ 1000c706 f   umath:umath.dll
+ 0001:0000b70c       ?GetRelativeTolerance@@YA?BNXZ 1000c70c f   umath:umath.dll
+ 0001:0000b712       ?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 1000c712 f   umath:umath.dll
+ 0001:0000b718       ?RotateTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 1000c718 f   umath:umath.dll
+ 0001:0000b71e       ?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 1000c71e f   umath:umath.dll
+ 0001:0000b724       ?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1000c724 f   umath:umath.dll
+ 0001:0000b72a       ?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 1000c72a f   umath:umath.dll
+ 0001:0000b730       ?BuildMatrix2d@@YA?AUtagGMatrix2d@@ABUtagGVector2d@@0H@Z 1000c730 f   umath:umath.dll
+ 0001:0000b736       ?BuildTransf2d@@YA?AUtagGTransf2d@@ABUtagGMatrix2d@@ABUtagGVector2d@@NHHH@Z 1000c736 f   umath:umath.dll
+ 0001:0000b73c       ?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 1000c73c f   umath:umath.dll
+ 0001:0000b742       ?ScaleTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 1000c742 f   umath:umath.dll
+ 0001:0000b748       ?Interpolate@@YA?AUtagGPosition2d@@NABU1@0@Z 1000c748 f   umath:umath.dll
+ 0001:0000b74e       ?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 1000c74e f   umath:umath.dll
+ 0001:0000b754       ??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1000c754 f   umath:umath.dll
+ 0001:0000b75a       ?Convert2d@tagGTransf@@QBE?AUtagGTransf2d@@XZ 1000c75a f   umath:umath.dll
+ 0001:0000b760       ?ReflectTransf2d@@YA?AUtagGTransf2d@@ABUtagGUnitVector2d@@ABUtagGPosition2d@@@Z 1000c760 f   umath:umath.dll
+ 0001:0000b766       ??XtagGTransf@@QAEAAU0@ABU0@@Z 1000c766 f   umath:umath.dll
+ 0001:0000b76c       ?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 1000c76c f   umath:umath.dll
+ 0001:0000b772       ?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 1000c772 f   umath:umath.dll
+ 0001:0000b778       ?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1000c778 f   umath:umath.dll
+ 0001:0000b77e       ??_5tagGBox@@QAEAAU0@ABU0@@Z 1000c77e f   umath:umath.dll
+ 0001:0000b784       ??D@YA?AUtagGBox@@ABU0@ABUtagGTransf@@@Z 1000c784 f   umath:umath.dll
+ 0001:0000b78a       ?GetDistanceTolerance@@YA?BNXZ 1000c78a f   umath:umath.dll
+ 0001:0000b790       ??L@YANABUtagGVector2d@@0@Z 1000c790 f   umath:umath.dll
+ 0001:0000b796       ?Inverse@tagGTransf2d@@QBE?AU1@XZ 1000c796 f   umath:umath.dll
+ 0001:0000b79c       ?CoordinateTransf2d@@YA?AUtagGTransf2d@@ABUtagGPosition2d@@ABUtagGUnitVector2d@@1@Z 1000c79c f   umath:umath.dll
+ 0001:0000b7a2       ?ScaleTransf@@YA?AUtagGTransf@@NABUtagGPosition@@@Z 1000c7a2 f   umath:umath.dll
+ 0001:0000b7a8       ??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 1000c7a8 f   umath:umath.dll
+ 0001:0000b7ae       ?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@ABUtagGPosition2d@@0@Z 1000c7ae f   umath:umath.dll
+ 0001:0000b7b4       ?Convert3d@tagGBox@@QAEXABUtagGBox2d@@@Z 1000c7b4 f   umath:umath.dll
+ 0001:0000b7c0       ?Delegate@IOContext@@QAEJPAUIUnknown@@@Z 1000c7c0 f i uprst:UPRSTS.obj
+ 0001:0000b830       ?JSerializeKnownAggregatee@@YAJPAVIOContext@@PAUIUnknown@@PAPAU2@U_GUID@@@Z 1000c830 f   uprst:UPRSTS.obj
+ 0001:0000b960       ?JSerializeAggregatee@@YAJPAVIOContext@@PAUIUnknown@@PAPAU2@@Z 1000c960 f   uprst:UPRSTS.obj
+ 0001:0000bb10       ?JSerializeBSTR@@YAJPAVIOContext@@PAPA_W@Z 1000cb10 f   uprst:UPBSTR.obj
+ 0001:0000bc7a       _JDexGetBitmapForQuickPick@8 1000cc7a f   util:dslutil.dll
+ 0001:0000bc80       _JDexGetStringForQuickPick@8 1000cc80 f   util:dslutil.dll
+ 0001:0000bc86       _JDexGetImageListForQuickPick@4 1000cc86 f   util:dslutil.dll
+ 0001:0000bc8c       _malloc                    1000cc8c f   MSVCRT:MSVCR80.dll
+ 0001:0000bc92       __callnewh                 1000cc92 f   MSVCRT:MSVCR80.dll
+ 0001:0000bc98       @__security_check_cookie@4 1000cc98 f   MSVCRT:secchk.obj
+ 0001:0000bca7       ??_Etype_info@@UAEPAXI@Z   1000cca7 f i MSVCRT:ti_inst.obj
+ 0001:0000bcf0       ??3@YAXPAX@Z               1000ccf0 f   MSVCRT:MSVCR80.dll
+ 0001:0000bcf6       ___CxxFrameHandler3        1000ccf6 f   MSVCRT:MSVCR80.dll
+ 0001:0000bd00       _memset                    1000cd00 f   MSVCRT:MSVCR80.dll
+ 0001:0000bd53       __CRT_INIT@12              1000cd53 f   MSVCRT:crtdll.obj
+ 0001:0000c008       __DllMainCRTStartup@12     1000d008 f   MSVCRT:crtdll.obj
+ 0001:0000c029       __onexit                   1000d029 f   MSVCRT:atonexit.obj
+ 0001:0000c0c8       _atexit                    1000d0c8 f   MSVCRT:atonexit.obj
+ 0001:0000c0da       ___report_gsfailure        1000d0da f   MSVCRT:gs_report.obj
+ 0001:0000c1de       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000d1de f   MSVCRT:ehvecdtr.obj
+ 0001:0000c23c       ??_M@YGXPAXIHP6EX0@Z@Z     1000d23c f   MSVCRT:ehvecdtr.obj
+ 0001:0000c29f       ___clean_type_info_names   1000d29f f   MSVCRT:tncleanup.obj
+ 0001:0000c2ab       __RTC_Initialize           1000d2ab f   MSVCRT:initsect.obj
+ 0001:0000c2cf       __RTC_Terminate            1000d2cf f   MSVCRT:initsect.obj
+ 0001:0000c300       __ValidateImageBase        1000d300 f   MSVCRT:pesect.obj
+ 0001:0000c330       __FindPESection            1000d330 f   MSVCRT:pesect.obj
+ 0001:0000c372       __IsNonwritableInCurrentImage 1000d372 f   MSVCRT:pesect.obj
+ 0001:0000c3de       __initterm                 1000d3de f   MSVCRT:MSVCR80.dll
+ 0001:0000c3e4       __initterm_e               1000d3e4 f   MSVCRT:MSVCR80.dll
+ 0001:0000c3ea       __amsg_exit                1000d3ea f   MSVCRT:MSVCR80.dll
+ 0001:0000c3f0       ___CppXcptFilter           1000d3f0 f   MSVCRT:MSVCR80.dll
+ 0001:0000c3f8       __SEH_prolog4              1000d3f8 f   MSVCRT:sehprolg4.obj
+ 0001:0000c43d       __SEH_epilog4              1000d43d f   MSVCRT:sehprolg4.obj
+ 0001:0000c451       __except_handler4          1000d451 f   MSVCRT:chandler4gs.obj
+ 0001:0000c474       ___security_init_cookie    1000d474 f   MSVCRT:gs_support.obj
+ 0001:0000c508       __unlock                   1000d508 f   MSVCRT:MSVCR80.dll
+ 0001:0000c50e       ___dllonexit               1000d50e f   MSVCRT:MSVCR80.dll
+ 0001:0000c514       __lock                     1000d514 f   MSVCRT:MSVCR80.dll
+ 0001:0000c51a       __crt_debugger_hook        1000d51a f   MSVCRT:MSVCR80.dll
+ 0001:0000c520       ?terminate@@YAXXZ          1000d520 f   MSVCRT:MSVCR80.dll
+ 0001:0000c526       ??1type_info@@UAE@XZ       1000d526 f   MSVCRT:MSVCR80.dll
+ 0001:0000c526       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000d526 f   MSVCRT:MSVCR80.dll
+ 0001:0000c52c       ___clean_type_info_names_internal 1000d52c f   MSVCRT:MSVCR80.dll
+ 0001:0000c532       __except_handler4_common   1000d532 f   MSVCRT:MSVCR80.dll
+ 0001:0000c538       _HGetStyleManager@8        1000d538 f   daxutil:Daxutil.dll
+ 0001:0000c53e       _JGetRootOwner             1000d53e f   jengine:jengine.dll
+ 0001:0000c544       ??0JMemberRoadmap@@QAE@PBXK@Z 1000d544 f   jengine:jengine.dll
+ 0001:0000c54a       ??1JMemberRoadmap@@QAE@XZ  1000d54a f   jengine:jengine.dll
+ 0002:00000000       __imp_?JDftIncrementNumSymbolsAndSmartFramesSaved@@YAXXZ 1000f000     daxutil:Daxutil.dll
+ 0002:00000004       __imp__HGetStyleManager@8  1000f004     daxutil:Daxutil.dll
+ 0002:00000008       \177Daxutil_NULL_THUNK_DATA 1000f008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp_??1JClassFactory@@UAE@XZ 1000f00c     jutil:JUtil.dll
+ 0002:00000010       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000f010     jutil:JUtil.dll
+ 0002:00000014       __imp__JCoCreateInstance   1000f014     jutil:JUtil.dll
+ 0002:00000018       __imp__RCfatalerr          1000f018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?JIsValidInterface@@YAHPAUIUnknown@@@Z 1000f01c     jutil:JUtil.dll
+ 0002:00000020       __imp_??0GUserText@@QAE@XZ 1000f020     jutil:JUtil.dll
+ 0002:00000024       __imp_?GetBytesNeededForCodePage@GUserText@@QBEHI@Z 1000f024     jutil:JUtil.dll
+ 0002:00000028       __imp_??BGUserText@@QBEPBDXZ 1000f028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??1GUserText@@QAE@XZ 1000f02c     jutil:JUtil.dll
+ 0002:00000030       __imp_?LockServer@JClassFactory@@UAGJH@Z 1000f030     jutil:JUtil.dll
+ 0002:00000034       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000f034     jutil:JUtil.dll
+ 0002:00000038       __imp_??4GUserText@@QAEAAV0@PB_W@Z 1000f038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??4GUserText@@QAEAAV0@PBD@Z 1000f03c     jutil:JUtil.dll
+ 0002:00000040       __imp_?Release@JClassFactory@@UAGKXZ 1000f040     jutil:JUtil.dll
+ 0002:00000044       __imp__HRerrEx             1000f044     jutil:JUtil.dll
+ 0002:00000048       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000f048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000f04c     jutil:JUtil.dll
+ 0002:00000050       __imp_?AddRef@JClassFactory@@UAGKXZ 1000f050     jutil:JUtil.dll
+ 0002:00000054       \177JUtil_NULL_THUNK_DATA  1000f054     jutil:JUtil.dll
+ 0002:00000058       __imp__GetSystemTimeAsFileTime@4 1000f058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__InterlockedExchange@8 1000f05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__Sleep@4             1000f060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__InterlockedCompareExchange@12 1000f064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__TerminateProcess@8  1000f068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__GetCurrentProcess@0 1000f06c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__UnhandledExceptionFilter@4 1000f070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__SetUnhandledExceptionFilter@4 1000f074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__IsDebuggerPresent@0 1000f078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__QueryPerformanceCounter@4 1000f07c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetTickCount@0      1000f080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetCurrentThreadId@0 1000f084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetCurrentProcessId@0 1000f088     kernel32:KERNEL32.dll
+ 0002:0000008c       \177KERNEL32_NULL_THUNK_DATA 1000f08c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___lock               1000f090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp____CppXcptFilter     1000f094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___unlock             1000f098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp____dllonexit         1000f09c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp__malloc              1000f0a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___onexit             1000f0a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___callnewh           1000f0a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp_??3@YAXPAX@Z         1000f0ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp____CxxFrameHandler3  1000f0b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp__memset              1000f0b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp__strncpy             1000f0b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp__vsprintf_s          1000f0bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp__strerror            1000f0c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___errno              1000f0c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp__strncat             1000f0c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp___encode_pointer     1000f0cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___malloc_crt         1000f0d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___encoded_null       1000f0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__free                1000f0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___decode_pointer     1000f0dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___initterm           1000f0e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___initterm_e         1000f0e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___amsg_exit          1000f0e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___except_handler4_common 1000f0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp____clean_type_info_names_internal 1000f0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000f0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp_?terminate@@YAXXZ    1000f0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___crt_debugger_hook  1000f0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___adjust_fdiv        1000f100     MSVCRT:MSVCR80.dll
+ 0002:00000104       \177MSVCR80_NULL_THUNK_DATA 1000f104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp__SysStringLen@4      1000f108     oleaut32:OLEAUT32.dll
+ 0002:0000010c       \177OLEAUT32_NULL_THUNK_DATA 1000f10c     oleaut32:OLEAUT32.dll
+ 0002:00000110       __imp__InitReferenceEngineEmbedFromFile@48 1000f110     olesite:OLESITE.dll
+ 0002:00000114       __imp__InitReferenceEngineEmbed@44 1000f114     olesite:OLESITE.dll
+ 0002:00000118       __imp__InitReferenceEngineLinkFromMoniker@48 1000f118     olesite:OLESITE.dll
+ 0002:0000011c       \177OLESITE_NULL_THUNK_DATA 1000f11c     olesite:OLESITE.dll
+ 0002:00000120       __imp_?Dump@ZProbe@@SGJPBDAAUtagGRectangle2d@@KKPADPAK@Z 1000f120     probeutilities:ProbeUtilities.dll
+ 0002:00000124       __imp_?Dump@ZProbe@@SGJPBDAAUtagGPlane@@KKPADPAK@Z 1000f124     probeutilities:ProbeUtilities.dll
+ 0002:00000128       \177ProbeUtilities_NULL_THUNK_DATA 1000f128     probeutilities:ProbeUtilities.dll
+ 0002:0000012c       __imp_?Dump@XProbe@@SGJPBDAAUtabJSMARTFRAME2DPROPERTIES@@KKPADPAK@Z 1000f12c     xprobeutilities:XProbeUtilities.dll
+ 0002:00000130       \177XProbeUtilities_NULL_THUNK_DATA 1000f130     xprobeutilities:XProbeUtilities.dll
+ 0002:00000134       __imp__JDexGetImageListForQuickPick@4 1000f134     util:dslutil.dll
+ 0002:00000138       __imp__JDexGetBitmapForQuickPick@8 1000f138     util:dslutil.dll
+ 0002:0000013c       __imp__JDexGetStringForQuickPick@8 1000f13c     util:dslutil.dll
+ 0002:00000140       \177dslutil_NULL_THUNK_DATA 1000f140     util:dslutil.dll
+ 0002:00000144       __imp__BatchFlush@0        1000f144     jengine:jengine.dll
+ 0002:00000148       __imp__JGetFastDAXObject@16 1000f148     jengine:jengine.dll
+ 0002:0000014c       __imp__CreateStdRelationValue@12 1000f14c     jengine:jengine.dll
+ 0002:00000150       __imp_?Release@CPersistObject@@UAGKXZ 1000f150     jengine:jengine.dll
+ 0002:00000154       __imp__BatchFlushOn        1000f154     jengine:jengine.dll
+ 0002:00000158       __imp_??1CPersistObject@@UAE@XZ 1000f158     jengine:jengine.dll
+ 0002:0000015c       __imp__BatchModify@8       1000f15c     jengine:jengine.dll
+ 0002:00000160       __imp__JQueryApplication   1000f160     jengine:jengine.dll
+ 0002:00000164       __imp_??2CPersistObject@@SAPAXI@Z 1000f164     jengine:jengine.dll
+ 0002:00000168       __imp__BatchFlushOff       1000f168     jengine:jengine.dll
+ 0002:0000016c       __imp_@GetPersistManager@8 1000f16c     jengine:jengine.dll
+ 0002:00000170       __imp_?GetObjectVersions@CvtContext@@QBEJPBU_GUID@@PAG1@Z 1000f170     jengine:jengine.dll
+ 0002:00000174       __imp_??0CPersistObject@@QAE@PAUIUnknown@@@Z 1000f174     jengine:jengine.dll
+ 0002:00000178       __imp_??1JMemberRoadmap@@QAE@XZ 1000f178     jengine:jengine.dll
+ 0002:0000017c       __imp_??0JMemberRoadmap@@QAE@PBXK@Z 1000f17c     jengine:jengine.dll
+ 0002:00000180       __imp_?AddRef@CPersistObject@@UAGKXZ 1000f180     jengine:jengine.dll
+ 0002:00000184       __imp__JGetRootOwner       1000f184     jengine:jengine.dll
+ 0002:00000188       __imp_??3CPersistObject@@SAXPAX@Z 1000f188     jengine:jengine.dll
+ 0002:0000018c       \177jengine_NULL_THUNK_DATA 1000f18c     jengine:jengine.dll
+ 0002:00000190       __imp__GetRunningObjectTable@8 1000f190     ole32:ole32.dll
+ 0002:00000194       __imp__CLSIDFromString@8   1000f194     ole32:ole32.dll
+ 0002:00000198       __imp__GetClassFile@8      1000f198     ole32:ole32.dll
+ 0002:0000019c       __imp__CreateGenericComposite@12 1000f19c     ole32:ole32.dll
+ 0002:000001a0       __imp__CreateItemMoniker@12 1000f1a0     ole32:ole32.dll
+ 0002:000001a4       __imp__CreateFileMoniker@8 1000f1a4     ole32:ole32.dll
+ 0002:000001a8       \177ole32_NULL_THUNK_DATA  1000f1a8     ole32:ole32.dll
+ 0002:000001ac       __imp__JSESysFreeString@4  1000f1ac     sealloc:sealloc.dll
+ 0002:000001b0       __imp__JSESysAllocString@4 1000f1b0     sealloc:sealloc.dll
+ 0002:000001b4       __imp__JSESysAllocStringLen@8 1000f1b4     sealloc:sealloc.dll
+ 0002:000001b8       \177sealloc_NULL_THUNK_DATA 1000f1b8     sealloc:sealloc.dll
+ 0002:000001bc       __imp_?HGetActiveLinearStyle@@YAJPAUIUnknown@@PAPAU1@@Z 1000f1bc     stylspt:stylspt.dll
+ 0002:000001c0       __imp_?HGetStyleID@@YAJPAUIUnknown@@PAK@Z 1000f1c0     stylspt:stylspt.dll
+ 0002:000001c4       __imp_?HSetStyleID@@YAJPAUIUnknown@@KPAK@Z 1000f1c4     stylspt:stylspt.dll
+ 0002:000001c8       __imp_?HChangeStyleID@@YAJKKPAK@Z 1000f1c8     stylspt:stylspt.dll
+ 0002:000001cc       __imp_?HGetStyleInterface@@YAJPAUIUnknown@@KABU_GUID@@PAPAX@Z 1000f1cc     stylspt:stylspt.dll
+ 0002:000001d0       __imp_?HCopyStyleAndAssignID@@YAJPAUIUnknown@@PAUIJStyleManager2@@1PAUIJPersistManager@@PAKK@Z 1000f1d0     stylspt:stylspt.dll
+ 0002:000001d4       \177stylspt_NULL_THUNK_DATA 1000f1d4     stylspt:stylspt.dll
+ 0002:000001d8       __imp__IMGBoundariesFreeMem 1000f1d8     ugeom:ugeom.dll
+ 0002:000001dc       __imp__UtilGTypeLocate     1000f1dc     ugeom:ugeom.dll
+ 0002:000001e0       __imp__IMGPlaneCopyWithAlloc 1000f1e0     ugeom:ugeom.dll
+ 0002:000001e4       \177ugeom_NULL_THUNK_DATA  1000f1e4     ugeom:ugeom.dll
+ 0002:000001e8       __imp__IMRectGetCorners2d  1000f1e8     ugeom2d:ugeom2d.dll
+ 0002:000001ec       __imp__IMEllipseByCtrMajMin2d 1000f1ec     ugeom2d:ugeom2d.dll
+ 0002:000001f0       __imp__IMRectGetHeightVector2d 1000f1f0     ugeom2d:ugeom2d.dll
+ 0002:000001f4       __imp__IMRectGetWidthVector2d 1000f1f4     ugeom2d:ugeom2d.dll
+ 0002:000001f8       __imp__IMRectSetHeight2d   1000f1f8     ugeom2d:ugeom2d.dll
+ 0002:000001fc       __imp__IMRectSetWidth2d    1000f1fc     ugeom2d:ugeom2d.dll
+ 0002:00000200       __imp__IMRectSetOrigin2d   1000f200     ugeom2d:ugeom2d.dll
+ 0002:00000204       __imp__IMRectGetHeight2d   1000f204     ugeom2d:ugeom2d.dll
+ 0002:00000208       __imp__IMRectGetWidth2d    1000f208     ugeom2d:ugeom2d.dll
+ 0002:0000020c       __imp__IMRectGetOrigin2d   1000f20c     ugeom2d:ugeom2d.dll
+ 0002:00000210       __imp__IMRectangleTransform2d 1000f210     ugeom2d:ugeom2d.dll
+ 0002:00000214       __imp__IMRectByPtPt2d      1000f214     ugeom2d:ugeom2d.dll
+ 0002:00000218       __imp__IMLineByPtAngLen2d  1000f218     ugeom2d:ugeom2d.dll
+ 0002:0000021c       __imp__IMLineGetLength2d   1000f21c     ugeom2d:ugeom2d.dll
+ 0002:00000220       __imp__IMLineGetAngle2d    1000f220     ugeom2d:ugeom2d.dll
+ 0002:00000224       __imp__IMProjectPointOnLine2d 1000f224     ugeom2d:ugeom2d.dll
+ 0002:00000228       __imp__IMLineByPtPt2d      1000f228     ugeom2d:ugeom2d.dll
+ 0002:0000022c       __imp__IMRectGetRotAngle2d 1000f22c     ugeom2d:ugeom2d.dll
+ 0002:00000230       __imp__IMRectangleValid2d  1000f230     ugeom2d:ugeom2d.dll
+ 0002:00000234       __imp__IMRectangleOffset2d 1000f234     ugeom2d:ugeom2d.dll
+ 0002:00000238       __imp__IMRectangleRangeBox2d 1000f238     ugeom2d:ugeom2d.dll
+ 0002:0000023c       __imp__IMRectByPtPtAngle2d 1000f23c     ugeom2d:ugeom2d.dll
+ 0002:00000240       \177ugeom2d_NULL_THUNK_DATA 1000f240     ugeom2d:ugeom2d.dll
+ 0002:00000244       __imp_?BuildVector2d@@YA?AUtagGVector2d@@NN@Z 1000f244     umath:umath.dll
+ 0002:00000248       __imp_??K@YA?AUtagGVector2d@@ABU0@N@Z 1000f248     umath:umath.dll
+ 0002:0000024c       __imp_?Convert2d@tagGTransf@@QBE?AUtagGTransf2d@@XZ 1000f24c     umath:umath.dll
+ 0002:00000250       __imp_??H@YA?AUtagGPosition2d@@ABU0@ABUtagGVector2d@@@Z 1000f250     umath:umath.dll
+ 0002:00000254       __imp_?GetLength@tagGVector2d@@QBENXZ 1000f254     umath:umath.dll
+ 0002:00000258       __imp_??BtagGUnitVector2d@@QBE?AUtagGVector2d@@XZ 1000f258     umath:umath.dll
+ 0002:0000025c       __imp_?ConvertG4x4ToGTransf2d@@YAJABUtagG4x4@@AAUtagGTransf2d@@@Z 1000f25c     umath:umath.dll
+ 0002:00000260       __imp_?RotateTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 1000f260     umath:umath.dll
+ 0002:00000264       __imp_?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@NN@Z 1000f264     umath:umath.dll
+ 0002:00000268       __imp_?BuildPosition2d@@YA?AUtagGPosition2d@@NN@Z 1000f268     umath:umath.dll
+ 0002:0000026c       __imp_?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 1000f26c     umath:umath.dll
+ 0002:00000270       __imp_?BuildMatrix2d@@YA?AUtagGMatrix2d@@ABUtagGVector2d@@0H@Z 1000f270     umath:umath.dll
+ 0002:00000274       __imp_?BuildTransf2d@@YA?AUtagGTransf2d@@ABUtagGMatrix2d@@ABUtagGVector2d@@NHHH@Z 1000f274     umath:umath.dll
+ 0002:00000278       __imp_?Convert3d@tagGTransf@@QAEXABUtagGTransf2d@@@Z 1000f278     umath:umath.dll
+ 0002:0000027c       __imp_?Interpolate@@YA?AUtagGPosition2d@@NABU1@0@Z 1000f27c     umath:umath.dll
+ 0002:00000280       __imp_?Convert3d@tagGPosition@@QAEXABUtagGPosition2d@@@Z 1000f280     umath:umath.dll
+ 0002:00000284       __imp_??XtagGPosition2d@@QAEAAU0@ABUtagGTransf2d@@@Z 1000f284     umath:umath.dll
+ 0002:00000288       __imp_??_5tagGBox@@QAEAAU0@ABU0@@Z 1000f288     umath:umath.dll
+ 0002:0000028c       __imp_?Convert3d@tagGBox@@QAEXABUtagGBox2d@@@Z 1000f28c     umath:umath.dll
+ 0002:00000290       __imp_?Convert2d@tagGPosition@@QBE?AUtagGPosition2d@@XZ 1000f290     umath:umath.dll
+ 0002:00000294       __imp_?BuildVector2d@@YA?AUtagGVector2d@@ABUtagGPosition2d@@0@Z 1000f294     umath:umath.dll
+ 0002:00000298       __imp_?TranslateTransf2d@@YA?AUtagGTransf2d@@ABUtagGVector2d@@@Z 1000f298     umath:umath.dll
+ 0002:0000029c       __imp_??XtagGTransf@@QAEAAU0@ABU0@@Z 1000f29c     umath:umath.dll
+ 0002:000002a0       __imp_?ReflectTransf2d@@YA?AUtagGTransf2d@@ABUtagGUnitVector2d@@ABUtagGPosition2d@@@Z 1000f2a0     umath:umath.dll
+ 0002:000002a4       __imp_?BuildBox@@YA?AUtagGBox@@NNN@Z 1000f2a4     umath:umath.dll
+ 0002:000002a8       __imp_?ScaleTransf@@YA?AUtagGTransf@@NABUtagGPosition@@@Z 1000f2a8     umath:umath.dll
+ 0002:000002ac       __imp_?CoordinateTransf2d@@YA?AUtagGTransf2d@@ABUtagGPosition2d@@ABUtagGUnitVector2d@@1@Z 1000f2ac     umath:umath.dll
+ 0002:000002b0       __imp_?Inverse@tagGTransf2d@@QBE?AU1@XZ 1000f2b0     umath:umath.dll
+ 0002:000002b4       __imp_??L@YANABUtagGVector2d@@0@Z 1000f2b4     umath:umath.dll
+ 0002:000002b8       __imp_?GetDistanceTolerance@@YA?BNXZ 1000f2b8     umath:umath.dll
+ 0002:000002bc       __imp_?GetRelativeTolerance@@YA?BNXZ 1000f2bc     umath:umath.dll
+ 0002:000002c0       __imp_??D@YA?AUtagGBox@@ABU0@ABUtagGTransf@@@Z 1000f2c0     umath:umath.dll
+ 0002:000002c4       __imp_?BuildUnitVector2d@@YA?AUtagGUnitVector2d@@ABUtagGPosition2d@@0@Z 1000f2c4     umath:umath.dll
+ 0002:000002c8       __imp_?ScaleTransf2d@@YA?AUtagGTransf2d@@NABUtagGPosition2d@@@Z 1000f2c8     umath:umath.dll
+ 0002:000002cc       \177umath_NULL_THUNK_DATA  1000f2cc     umath:umath.dll
+ 0002:000002d0       ___xc_a                    1000f2d0     MSVCRT:cinitexe.obj
+ 0002:00000358       ___xc_z                    1000f358     MSVCRT:cinitexe.obj
+ 0002:0000035c       ___xi_a                    1000f35c     MSVCRT:cinitexe.obj
+ 0002:00000364       ___xi_z                    1000f364     MSVCRT:cinitexe.obj
+ 0002:0000038c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000f38c     COMPUTE.obj
+ 0002:000003a4       ??_C@_0O@BEEONOCO@?4?2COMPUTE?4CPP?$AA@ 1000f3a4     COMPUTE.obj
+ 0002:000003b4       ??_C@_0CG@GPEAIMCP@JSmartFrame2d?3?3IJComputeImp?3?3Eva@ 1000f3b4     COMPUTE.obj
+ 0002:000003dc       ??_C@_07MKAGCEKO@NextArg?$AA@ 1000f3dc     COMPUTE.obj
+ 0002:000003e8       ??_7?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@6B@ 1000f3e8     COMPUTE.obj
+ 0002:00000404       ??_C@_0CI@ELDPMBPK@JSmartFrame2d?3?3IJComputeImp?3?3Enu@ 1000f404     COMPUTE.obj
+ 0002:0000042c       _IID_IJPersist             1000f42c     GUID.obj
+ 0002:0000043c       _IID_IJRelationValue       1000f43c     GUID.obj
+ 0002:0000044c       _IID_IJGraphicRelationValue 1000f44c     GUID.obj
+ 0002:0000045c       _IID_IJRelation            1000f45c     GUID.obj
+ 0002:0000046c       _IID_IJCompute             1000f46c     GUID.obj
+ 0002:0000047c       _IID_IJCopy                1000f47c     GUID.obj
+ 0002:0000048c       _IID_IJDelete              1000f48c     GUID.obj
+ 0002:0000049c       _IID_IJOwner               1000f49c     GUID.obj
+ 0002:000004b4       _CLSID_JReferenceEngine    1000f4b4     GUID.obj
+ 0002:000004c4       _IID_IJRenderInfo          1000f4c4     GUID.obj
+ 0002:000004d4       _IID_IJLocateInfoAnalyze   1000f4d4     GUID.obj
+ 0002:000004e4       _IID_IJGraphic             1000f4e4     GUID.obj
+ 0002:000004f4       _IID_IJGeometry            1000f4f4     GUID.obj
+ 0002:00000504       _IID_IJSite                1000f504     GUID.obj
+ 0002:00000514       _IID_IJOccurrence          1000f514     GUID.obj
+ 0002:00000524       _IID_IJMembassyControl     1000f524     GUID.obj
+ 0002:00000534       _IID_IJSitePrivate         1000f534     GUID.obj
+ 0002:00000544       _IID_IJSiteOutOfDate       1000f544     GUID.obj
+ 0002:00000554       _IID_IJApplication         1000f554     GUID.obj
+ 0002:00000564       _IID_IJDocument            1000f564     GUID.obj
+ 0002:00000574       _IID__IJSheetView          1000f574     GUID.obj
+ 0002:00000584       _IID_IJSmartFrame2dStyle   1000f584     GUID.obj
+ 0002:00000594       _IID_IJStyleManager        1000f594     GUID.obj
+ 0002:000005a4       _IID_IJStyleUser           1000f5a4     GUID.obj
+ 0002:000005b4       _IID_IJSmartFrame2d        1000f5b4     GUID.obj
+ 0002:000005c4       _IID_IJSymbology           1000f5c4     GUID.obj
+ 0002:000005d4       _IID_IJSFStyleFrame        1000f5d4     GUID.obj
+ 0002:000005e4       _CLSID_JSmartFrame2dStyle  1000f5e4     GUID.obj
+ 0002:000005f4       _CLSID_HSmartFrame2d       1000f5f4     GUID.obj
+ 0002:00000604       _CLSID_JSmartFrame2d       1000f604     GUID.obj
+ 0002:00000614       _IID_IJKeyPoint            1000f614     GUID.obj
+ 0002:00000624       _IID_IJProbe               1000f624     GUID.obj
+ 0002:00000634       _IID_IJQuickPickSupport    1000f634     GUID.obj
+ 0002:00000644       _IID_IJRender2d            1000f644     GUID.obj
+ 0002:00000654       _IID__IHFrame              1000f654     GUID.obj
+ 0002:00000664       _IID__IHSmartFrame2dDefaults 1000f664     GUID.obj
+ 0002:00000674       _IID__IHSmartFrame2dStyle  1000f674     GUID.obj
+ 0002:00000684       _IID_IJSmartFrame2dDefaults 1000f684     GUID.obj
+ 0002:00000694       _IID_IJRangeOwner          1000f694     GUID.obj
+ 0002:000006a4       _IID_IJModelTrans          1000f6a4     GUID.obj
+ 0002:000006b4       _IID_IJPaperTrans          1000f6b4     GUID.obj
+ 0002:000006c4       _IID_IJViewFilterSet       1000f6c4     GUID.obj
+ 0002:000006d4       _CLSID_CFrameWorkSupportDispatchObjectFactory 1000f6d4     GUID.obj
+ 0002:000006e4       _IID_IJTrueDex             1000f6e4     GUID.obj
+ 0002:00000700       ??_7?$ClassFactory@VJSmartFrame2d@@@@6B@ 1000f700     SERVER.obj
+ 0002:0000071c       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 1000f71c     SERVER.obj
+ 0002:00000734       ??_C@_0DE@DHINCMJL@ClassFactory?$DMclass?5JSmartFrame2d@ 1000f734     SERVER.obj
+ 0002:00000768       ??_C@_0N@KAGCOLLF@?4?2SERVER?4CPP?$AA@ 1000f768     SERVER.obj
+ 0002:00000778       ??_C@_0BC@JDLGBILA@DllGetClassObject?$AA@ 1000f778     SERVER.obj
+ 0002:00000798       __real@0000000000000000    1000f798     SMFUTIL.obj
+ 0002:000007a0       __real@3ff0000000000000    1000f7a0     SMFUTIL.obj
+ 0002:000007a8       __real@3fe0000000000000    1000f7a8     SMFUTIL.obj
+ 0002:000007b0       ??_C@_0O@BPOBJIPD@?4?2SMFUTIL?4CPP?$AA@ 1000f7b0     SMFUTIL.obj
+ 0002:000007c0       ??_C@_0BH@EECALJMO@GetCentroidOfRectangle?$AA@ 1000f7c0     SMFUTIL.obj
+ 0002:000007d8       ??_C@_0BK@LJPIEJLL@BuildEllipseFromRectangle?$AA@ 1000f7d8     SMFUTIL.obj
+ 0002:000007f4       ??_C@_0BI@LPBAEAEO@JVerifyAndCreateMoniker?$AA@ 1000f7f4     SMFUTIL.obj
+ 0002:0000080c       ??_C@_13MGDFOILI@?$AA?$CB?$AA?$AA@ 1000f80c     SMFUTIL.obj
+ 0002:00000810       ??_C@_0BF@EFKAEPD@JGetReferenceOptions?$AA@ 1000f810     SMFUTIL.obj
+ 0002:00000828       ??_C@_0BE@HFEFLJEO@JSFSetInfoFromStyle?$AA@ 1000f828     SMFUTIL.obj
+ 0002:0000083c       ??_C@_0BD@PMMJDGJO@GetFuzzScaleParams?$AA@ 1000f83c     SMFUTIL.obj
+ 0002:00000850       __real@41f0000000000000    1000f850     SMFUTIL.obj
+ 0002:00000858       ??_C@_0BA@LHAAMIGL@GetFuzzMaxValue?$AA@ 1000f858     SMFUTIL.obj
+ 0002:00000868       __real@bff0000000000000    1000f868     SMFUTIL.obj
+ 0002:00000870       ??_C@_0BD@EOLBCCPJ@BuildFuzzRectangle?$AA@ 1000f870     SMFUTIL.obj
+ 0002:0000089c       ??_C@_0BG@BBHDGGD@z?3?2include?2fenceloc?4h?$AA@ 1000f89c     SMRTFRM.obj
+ 0002:000008b4       ??_C@_0BJ@BJCBKABH@JCheckAndSetFenceContext?$AA@ 1000f8b4     SMRTFRM.obj
+ 0002:000008d0       ??_C@_0O@LGMEIAOF@?4?2SMRTFRM?4CPP?$AA@ 1000f8d0     SMRTFRM.obj
+ 0002:000008e0       ??_C@_0DB@PHLFGPMK@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000f8e0     SMRTFRM.obj
+ 0002:00000914       ??_C@_0DF@BCADOAPO@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000f914     SMRTFRM.obj
+ 0002:0000094c       ??_C@_0DF@OICJNGBG@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000f94c     SMRTFRM.obj
+ 0002:00000984       ??_C@_0DC@KKHNAOCG@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000f984     SMRTFRM.obj
+ 0002:000009b8       ??_C@_0CK@OPGPFBKO@JSmartFrame2d?3?3IJKeyPointImp?3?3Ge@ 1000f9b8     SMRTFRM.obj
+ 0002:000009e4       ??_C@_0BA@HMPAKFJG@GetRelatedStyle?$AA@ 1000f9e4     SMRTFRM.obj
+ 0002:000009f4       ??_C@_0DH@PMKBBPIE@JSmartFrame2d?3?3IJQuickPickSuppor@ 1000f9f4     SMRTFRM.obj
+ 0002:00000a2c       ??_C@_0DH@IMLNDIOH@JSmartFrame2d?3?3IJQuickPickSuppor@ 1000fa2c     SMRTFRM.obj
+ 0002:00000a64       ??_C@_0DD@DOBNBGFO@JSmartFrame2d?3?3IJQuickPickSuppor@ 1000fa64     SMRTFRM.obj
+ 0002:00000a9c       ??_7IJSmartFrame2dImp@JSmartFrame2d@@6B@ 1000fa9c     SMRTFRM.obj
+ 0002:00000afc       ??_7IJProbeImp@JSmartFrame2d@@6B@ 1000fafc     SMRTFRM.obj
+ 0002:00000b14       ??_7IJGraphicImp@JSmartFrame2d@@6B@ 1000fb14     SMRTFRM.obj
+ 0002:00000b34       ??_7IJSymbologyImp@JSmartFrame2d@@6B@ 1000fb34     SMRTFRM.obj
+ 0002:00000b4c       ??_7IJKeyPointImp@JSmartFrame2d@@6B@ 1000fb4c     SMRTFRM.obj
+ 0002:00000b6c       ??_7IJStyleUserImp@JSmartFrame2d@@6B@ 1000fb6c     SMRTFRM.obj
+ 0002:00000b90       ??_7IJQuickPickSupportImp@JSmartFrame2d@@6B@ 1000fb90     SMRTFRM.obj
+ 0002:00000bac       ??_C@_0BO@GDHECFJD@JSmartFrame2d?3?3?$HOJSmartFrame2d?$AA@ 1000fbac     SMRTFRM.obj
+ 0002:00000bd0       ??_7JSmartFrame2d@@6B@     1000fbd0     SMRTFRM.obj
+ 0002:00000be0       ??_C@_0BO@EKKHKJPG@JSmartFrame2d?3?3QueryInterface?$AA@ 1000fbe0     SMRTFRM.obj
+ 0002:00000c00       ??_C@_0CM@KEIBBHBE@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fc00     SMRTFRM.obj
+ 0002:00000c2c       ??_C@_0CN@NPHKACNN@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fc2c     SMRTFRM.obj
+ 0002:00000c5c       ??_C@_0CO@GLOLBPHC@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fc5c     SMRTFRM.obj
+ 0002:00000c90       ??_C@_0EB@OOGOLEFP@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fc90     SMRTFRM.obj
+ 0002:00000cd4       ??_C@_0DD@FGFPFMHF@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fcd4     SMRTFRM.obj
+ 0002:00000d08       ??_C@_0DF@MOIDFNLI@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fd08     SMRTFRM.obj
+ 0002:00000d40       ??_C@_0DO@OJGKCBJP@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000fd40     SMRTFRM.obj
+ 0002:00000d80       __real@400921fb54442d18    1000fd80     SMRTFRM.obj
+ 0002:00000d88       ??_C@_0DC@KHBJDOKN@JSmartFrame2d?3?3IJKeyPointImp?3?3_D@ 1000fd88     SMRTFRM.obj
+ 0002:00000dbc       ??_C@_0BM@FMMFJIAH@IsNonDisplayablePrivateLink?$AA@ 1000fdbc     SMRTFRM.obj
+ 0002:00000dd8       ??_C@_0BI@FHLJMKN@JSmartFrame2d?3?3SetStyle?$AA@ 1000fdd8     SMRTFRM.obj
+ 0002:00000df0       ??_C@_0BL@DJBDPDJB@JSmartFrame2d?3?3UpdateRange?$AA@ 1000fdf0     SMRTFRM.obj
+ 0002:00000e0c       ??_C@_08FPAHMOOH@?$CFs?3?5?$CFu?$AN?6?$AA@ 1000fe0c     SMRTFRM.obj
+ 0002:00000e18       ??_C@_0BB@DNPOMCOD@m_DatabaseBuffer?$AA@ 1000fe18     SMRTFRM.obj
+ 0002:00000e2c       ??_C@_0BC@LCLKKAFA@m_projectionPlane?$AA@ 1000fe2c     SMRTFRM.obj
+ 0002:00000e40       ??_C@_06PLACMKJD@m_rect?$AA@ 1000fe40     SMRTFRM.obj
+ 0002:00000e48       ??_C@_0N@ELLJAMGD@m_properties?$AA@ 1000fe48     SMRTFRM.obj
+ 0002:00000e58       ??_C@_0O@HCCFEKIK@?$CFs?3?5?5?$CF?$CD010x?$AN?6?$AA@ 1000fe58     SMRTFRM.obj
+ 0002:00000e68       ??_C@_09MBEAGLMJ@m_StyleID?$AA@ 1000fe68     SMRTFRM.obj
+ 0002:00000e74       ??_C@_08HKGMJBDL@?$CFs?3?5?$CFs?$AN?6?$AA@ 1000fe74     SMRTFRM.obj
+ 0002:00000e80       ??_C@_04EJMIGEJP@This?$AA@ 1000fe80     SMRTFRM.obj
+ 0002:00000e88       ??_C@_0BI@JFDDFFPI@?4?4?4?$DMoutput?5truncated?$DO?$AN?6?$AA@ 1000fe88     SMRTFRM.obj
+ 0002:00000ea0       ??_C@_0P@CMJEMPGM@This?3?5?$CF?$CD010p?$AN?6?$AA@ 1000fea0     SMRTFRM.obj
+ 0002:00000eb4       ??_7IJComputeImp@JSmartFrame2d@@6B@ 1000feb4     SMRTFRM.obj
+ 0002:00000ee0       ??_7IJPersistImp@JSmartFrame2d@@6B@ 1000fee0     SMRTFRM.obj
+ 0002:00000f08       ??_C@_0BB@HKMBEIBL@JSerializeGPlane?$AA@ 1000ff08     SMRTFRM.obj
+ 0002:00000f1c       ??_C@_0CL@LAHOCEAJ@JSmartFrame2d?3?3IJSmartFrame2dImp@ 1000ff1c     SMRTFRM.obj
+ 0002:00000f48       ??_C@_0CE@JHMJJNDH@JSmartFrame2d?3?3IJGraphicImp?3?3Loc@ 1000ff48     SMRTFRM.obj
+ 0002:00000f6c       ??_C@_0CF@DKBAOLKH@JSmartFrame2d?3?3IJGraphicImp?3?3Dis@ 1000ff6c     SMRTFRM.obj
+ 0002:00000f94       ??_C@_0CG@HKIFAOG@JSmartFrame2d?3?3IJGraphicImp?3?3Get@ 1000ff94     SMRTFRM.obj
+ 0002:00000fbc       ??_C@_0CB@OOHEJABK@JSmartFrame2d?3?3SerializeVersion1@ 1000ffbc     SMRTFRM.obj
+ 0002:00000fe0       ??_C@_0CF@PEPAJNOC@JSmartFrame2d?3?3IJPersistImp?3?3Con@ 1000ffe0     SMRTFRM.obj
+ 0002:00001008       ??_C@_0CH@ENCKNPIB@JSmartFrame2d?3?3IJPersistImp?3?3Ser@ 10010008     SMRTFRM.obj
+ 0002:00001030       ??_C@_0CD@MPDCEPOK@JSmartFrame2d?3?3IJPersistImp?3?3Clo@ 10010030     SMRTFRM.obj
+ 0002:0000105c       ??_C@_0L@DMCAILMN@?4?2util?4cpp?$AA@ 1001005c     rendspt:util.obj
+ 0002:00001068       ??_C@_0N@EJPEDPPF@RealRender2d?$AA@ 10010068     rendspt:util.obj
+ 0002:00001078       ??_C@_0P@GLDCLKBB@?4?2override?4cpp?$AA@ 10010078     rendspt:override.obj
+ 0002:00001088       ??_C@_0BD@HKMPHMDA@MakeCurrentVersion?$AA@ 10010088     rendspt:override.obj
+ 0002:0000109c       ??_C@_0BI@EHOCLCDL@MergeOverrideStructures?$AA@ 1001009c     rendspt:override.obj
+ 0002:000010b4       _IID_IJFilterStyleOverride 100100b4     rendspt:guid.obj
+ 0002:000010c4       ??_C@_1BK@DCGEPNPP@?$AAS?$AAt?$AAy?$AAl?$AAe?$AAM?$AAa?$AAn?$AAa?$AAg?$AAe?$AAr?$AA?$AA@ 100100c4     sfutil:crestyle.obj
+ 0002:000010e8       ??_C@_0P@CBACFFGN@?4?2crestyle?4cpp?$AA@ 100100e8     sfutil:crestyle.obj
+ 0002:000010f8       ??_C@_0BM@HNJGINO@HGetSmartFrame2dStyleByName?$AA@ 100100f8     sfutil:crestyle.obj
+ 0002:00001118       __real@3fb999999999999a    10010118     sfutil:crestyle.obj
+ 0002:00001120       ??_C@_0BB@POOBJNKF@OfficeAutomation?$AA@ 10010120     sfutil:crestyle.obj
+ 0002:00001134       ??_C@_0CJ@NMKMNLJM@HCreateSmartFrame2dOfficeAutomat@ 10010134     sfutil:crestyle.obj
+ 0002:00001160       ??_C@_0N@MLEFCBOB@?4?2UPRSTS?4CPP?$AA@ 10010160     uprst:UPRSTS.obj
+ 0002:00001170       ??_C@_0BK@PDKELDLP@JSerializeKnownAggregatee?$AA@ 10010170     uprst:UPRSTS.obj
+ 0002:0000118c       ??_C@_0BF@NAANIDDC@JSerializeAggregatee?$AA@ 1001018c     uprst:UPRSTS.obj
+ 0002:000011a4       ??_C@_0N@KMNJLADF@?4?2UPBSTR?4CPP?$AA@ 100101a4     uprst:UPBSTR.obj
+ 0002:000011b4       ??_C@_0P@GNMCGPJD@JSerializeBSTR?$AA@ 100101b4     uprst:UPBSTR.obj
+ 0002:000011c4       _IID_IClassFactory         100101c4     uuid:unknwn_i.obj
+ 0002:000011d4       _IID_IUnknown              100101d4     uuid:unknwn_i.obj
+ 0002:000011e4       _IID_IAdviseSink2          100101e4     uuid:objidl_i.obj
+ 0002:000011f4       _IID_IAdviseSink           100101f4     uuid:objidl_i.obj
+ 0002:00001204       _IID_IPersist              10010204     uuid:objidl_i.obj
+ 0002:00001214       _IID_IEnumUnknown          10010214     uuid:objidl_i.obj
+ 0002:00001224       _GUID_NULL                 10010224     uuid:cguid_i.obj
+ 0002:00001234       _IID_IDispatch             10010234     uuid:oaidl_i.obj
+ 0002:00001248       ??_7type_info@@6B@         10010248     MSVCRT:ti_inst.obj
+ 0002:0000124c       __pRawDllMain              1001024c     MSVCRT:crtdll.obj
+ 0002:0000124c       __pDefaultRawDllMain       1001024c     MSVCRT:crtdll.obj
+ 0002:00001258       __load_config_used         10010258     MSVCRT:loadcfg.obj
+ 0002:000012d4       ??_R4?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@6B@ 100102d4     COMPUTE.obj
+ 0002:000012e8       ??_R3?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@8 100102e8     COMPUTE.obj
+ 0002:000012f8       ??_R2?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@8 100102f8     COMPUTE.obj
+ 0002:00001308       ??_R1A@?0A@EA@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@8 10010308     COMPUTE.obj
+ 0002:00001324       ??_R1A@?0A@EA@IEnumJIDREF@@8 10010324     COMPUTE.obj
+ 0002:00001340       ??_R3IEnumJIDREF@@8        10010340     COMPUTE.obj
+ 0002:00001350       ??_R2IEnumJIDREF@@8        10010350     COMPUTE.obj
+ 0002:0000135c       ??_R1A@?0A@EA@IUnknown@@8  1001035c     COMPUTE.obj
+ 0002:00001378       ??_R3IUnknown@@8           10010378     COMPUTE.obj
+ 0002:00001388       ??_R2IUnknown@@8           10010388     COMPUTE.obj
+ 0002:00001390       ??_R4?$ClassFactory@VJSmartFrame2d@@@@6B@ 10010390     SERVER.obj
+ 0002:000013a4       ??_R3?$ClassFactory@VJSmartFrame2d@@@@8 100103a4     SERVER.obj
+ 0002:000013b4       ??_R2?$ClassFactory@VJSmartFrame2d@@@@8 100103b4     SERVER.obj
+ 0002:000013c8       ??_R1A@?0A@EA@?$ClassFactory@VJSmartFrame2d@@@@8 100103c8     SERVER.obj
+ 0002:000013e4       ??_R1A@?0A@EA@JClassFactory@@8 100103e4     SERVER.obj
+ 0002:00001400       ??_R3JClassFactory@@8      10010400     SERVER.obj
+ 0002:00001410       ??_R2JClassFactory@@8      10010410     SERVER.obj
+ 0002:00001420       ??_R1A@?0A@EA@IClassFactory@@8 10010420     SERVER.obj
+ 0002:0000143c       ??_R3IClassFactory@@8      1001043c     SERVER.obj
+ 0002:0000144c       ??_R2IClassFactory@@8      1001044c     SERVER.obj
+ 0002:00001458       ??_R4IJSmartFrame2dImp@JSmartFrame2d@@6B@ 10010458     SMRTFRM.obj
+ 0002:0000146c       ??_R3IJSmartFrame2dImp@JSmartFrame2d@@8 1001046c     SMRTFRM.obj
+ 0002:0000147c       ??_R2IJSmartFrame2dImp@JSmartFrame2d@@8 1001047c     SMRTFRM.obj
+ 0002:0000148c       ??_R1A@?0A@EA@IJSmartFrame2dImp@JSmartFrame2d@@8 1001048c     SMRTFRM.obj
+ 0002:000014a8       ??_R1A@?0A@EA@IJSmartFrame2d@@8 100104a8     SMRTFRM.obj
+ 0002:000014c4       ??_R3IJSmartFrame2d@@8     100104c4     SMRTFRM.obj
+ 0002:000014d4       ??_R2IJSmartFrame2d@@8     100104d4     SMRTFRM.obj
+ 0002:000014e0       ??_R4IJProbeImp@JSmartFrame2d@@6B@ 100104e0     SMRTFRM.obj
+ 0002:000014f4       ??_R3IJProbeImp@JSmartFrame2d@@8 100104f4     SMRTFRM.obj
+ 0002:00001504       ??_R2IJProbeImp@JSmartFrame2d@@8 10010504     SMRTFRM.obj
+ 0002:00001514       ??_R1A@?0A@EA@IJProbeImp@JSmartFrame2d@@8 10010514     SMRTFRM.obj
+ 0002:00001530       ??_R1A@?0A@EA@IJProbe@@8   10010530     SMRTFRM.obj
+ 0002:0000154c       ??_R3IJProbe@@8            1001054c     SMRTFRM.obj
+ 0002:0000155c       ??_R2IJProbe@@8            1001055c     SMRTFRM.obj
+ 0002:00001568       ??_R4IJGraphicImp@JSmartFrame2d@@6B@ 10010568     SMRTFRM.obj
+ 0002:0000157c       ??_R3IJGraphicImp@JSmartFrame2d@@8 1001057c     SMRTFRM.obj
+ 0002:0000158c       ??_R2IJGraphicImp@JSmartFrame2d@@8 1001058c     SMRTFRM.obj
+ 0002:0000159c       ??_R1A@?0A@EA@IJGraphicImp@JSmartFrame2d@@8 1001059c     SMRTFRM.obj
+ 0002:000015b8       ??_R1A@?0A@EA@IJGraphic@@8 100105b8     SMRTFRM.obj
+ 0002:000015d4       ??_R3IJGraphic@@8          100105d4     SMRTFRM.obj
+ 0002:000015e4       ??_R2IJGraphic@@8          100105e4     SMRTFRM.obj
+ 0002:000015f0       ??_R4IJSymbologyImp@JSmartFrame2d@@6B@ 100105f0     SMRTFRM.obj
+ 0002:00001604       ??_R3IJSymbologyImp@JSmartFrame2d@@8 10010604     SMRTFRM.obj
+ 0002:00001614       ??_R2IJSymbologyImp@JSmartFrame2d@@8 10010614     SMRTFRM.obj
+ 0002:00001624       ??_R1A@?0A@EA@IJSymbologyImp@JSmartFrame2d@@8 10010624     SMRTFRM.obj
+ 0002:00001640       ??_R1A@?0A@EA@IJSymbology@@8 10010640     SMRTFRM.obj
+ 0002:0000165c       ??_R3IJSymbology@@8        1001065c     SMRTFRM.obj
+ 0002:0000166c       ??_R2IJSymbology@@8        1001066c     SMRTFRM.obj
+ 0002:00001678       ??_R4IJKeyPointImp@JSmartFrame2d@@6B@ 10010678     SMRTFRM.obj
+ 0002:0000168c       ??_R3IJKeyPointImp@JSmartFrame2d@@8 1001068c     SMRTFRM.obj
+ 0002:0000169c       ??_R2IJKeyPointImp@JSmartFrame2d@@8 1001069c     SMRTFRM.obj
+ 0002:000016ac       ??_R1A@?0A@EA@IJKeyPointImp@JSmartFrame2d@@8 100106ac     SMRTFRM.obj
+ 0002:000016c8       ??_R1A@?0A@EA@IJKeyPoint@@8 100106c8     SMRTFRM.obj
+ 0002:000016e4       ??_R3IJKeyPoint@@8         100106e4     SMRTFRM.obj
+ 0002:000016f4       ??_R2IJKeyPoint@@8         100106f4     SMRTFRM.obj
+ 0002:00001700       ??_R4IJStyleUserImp@JSmartFrame2d@@6B@ 10010700     SMRTFRM.obj
+ 0002:00001714       ??_R3IJStyleUserImp@JSmartFrame2d@@8 10010714     SMRTFRM.obj
+ 0002:00001724       ??_R2IJStyleUserImp@JSmartFrame2d@@8 10010724     SMRTFRM.obj
+ 0002:00001734       ??_R1A@?0A@EA@IJStyleUserImp@JSmartFrame2d@@8 10010734     SMRTFRM.obj
+ 0002:00001750       ??_R1A@?0A@EA@IJStyleUser@@8 10010750     SMRTFRM.obj
+ 0002:0000176c       ??_R3IJStyleUser@@8        1001076c     SMRTFRM.obj
+ 0002:0000177c       ??_R2IJStyleUser@@8        1001077c     SMRTFRM.obj
+ 0002:00001788       ??_R4IJQuickPickSupportImp@JSmartFrame2d@@6B@ 10010788     SMRTFRM.obj
+ 0002:0000179c       ??_R3IJQuickPickSupportImp@JSmartFrame2d@@8 1001079c     SMRTFRM.obj
+ 0002:000017ac       ??_R2IJQuickPickSupportImp@JSmartFrame2d@@8 100107ac     SMRTFRM.obj
+ 0002:000017bc       ??_R1A@?0A@EA@IJQuickPickSupportImp@JSmartFrame2d@@8 100107bc     SMRTFRM.obj
+ 0002:000017d8       ??_R1A@?0A@EA@IJQuickPickSupport@@8 100107d8     SMRTFRM.obj
+ 0002:000017f4       ??_R3IJQuickPickSupport@@8 100107f4     SMRTFRM.obj
+ 0002:00001804       ??_R2IJQuickPickSupport@@8 10010804     SMRTFRM.obj
+ 0002:00001810       ??_R4JSmartFrame2d@@6B@    10010810     SMRTFRM.obj
+ 0002:00001824       ??_R3JSmartFrame2d@@8      10010824     SMRTFRM.obj
+ 0002:00001834       ??_R2JSmartFrame2d@@8      10010834     SMRTFRM.obj
+ 0002:00001844       ??_R1A@?0A@EA@JSmartFrame2d@@8 10010844     SMRTFRM.obj
+ 0002:00001860       ??_R1A@?0A@EA@CPersistObject@@8 10010860     SMRTFRM.obj
+ 0002:0000187c       ??_R3CPersistObject@@8     1001087c     SMRTFRM.obj
+ 0002:0000188c       ??_R2CPersistObject@@8     1001088c     SMRTFRM.obj
+ 0002:00001898       ??_R4IJComputeImp@JSmartFrame2d@@6B@ 10010898     SMRTFRM.obj
+ 0002:000018ac       ??_R3IJComputeImp@JSmartFrame2d@@8 100108ac     SMRTFRM.obj
+ 0002:000018bc       ??_R2IJComputeImp@JSmartFrame2d@@8 100108bc     SMRTFRM.obj
+ 0002:000018d0       ??_R1A@?0A@EA@IJComputeImp@JSmartFrame2d@@8 100108d0     SMRTFRM.obj
+ 0002:000018ec       ??_R1A@?0A@EA@IJCompute@@8 100108ec     SMRTFRM.obj
+ 0002:00001908       ??_R3IJCompute@@8          10010908     SMRTFRM.obj
+ 0002:00001918       ??_R2IJCompute@@8          10010918     SMRTFRM.obj
+ 0002:00001928       ??_R1A@?0A@EA@IJSemantic@@8 10010928     SMRTFRM.obj
+ 0002:00001944       ??_R3IJSemantic@@8         10010944     SMRTFRM.obj
+ 0002:00001954       ??_R2IJSemantic@@8         10010954     SMRTFRM.obj
+ 0002:00001960       ??_R4IJPersistImp@JSmartFrame2d@@6B@ 10010960     SMRTFRM.obj
+ 0002:00001974       ??_R3IJPersistImp@JSmartFrame2d@@8 10010974     SMRTFRM.obj
+ 0002:00001984       ??_R2IJPersistImp@JSmartFrame2d@@8 10010984     SMRTFRM.obj
+ 0002:00001998       ??_R1A@?0A@EA@IJPersistImp@JSmartFrame2d@@8 10010998     SMRTFRM.obj
+ 0002:000019b4       ??_R1A@?0A@EA@IJPersist@@8 100109b4     SMRTFRM.obj
+ 0002:000019d0       ??_R3IJPersist@@8          100109d0     SMRTFRM.obj
+ 0002:000019e0       ??_R2IJPersist@@8          100109e0     SMRTFRM.obj
+ 0002:000019f0       ??_R1A@?0A@EA@IPersist@@8  100109f0     SMRTFRM.obj
+ 0002:00001a0c       ??_R3IPersist@@8           10010a0c     SMRTFRM.obj
+ 0002:00001a1c       ??_R2IPersist@@8           10010a1c     SMRTFRM.obj
+ 0002:00001a28       ??_R4type_info@@6B@        10010a28     MSVCRT:ti_inst.obj
+ 0002:00001a3c       ??_R3type_info@@8          10010a3c     MSVCRT:ti_inst.obj
+ 0002:00001a4c       ??_R2type_info@@8          10010a4c     MSVCRT:ti_inst.obj
+ 0002:00001a54       ??_R1A@?0A@EA@type_info@@8 10010a54     MSVCRT:ti_inst.obj
+ 0002:00001a70       ___safe_se_handler_table   10010a70     <linker-defined>
+ 0002:00001b00       ___rtc_iaa                 10010b00     MSVCRT:initsect.obj
+ 0002:00001b04       ___rtc_izz                 10010b04     MSVCRT:initsect.obj
+ 0002:00001b08       ___rtc_taa                 10010b08     MSVCRT:initsect.obj
+ 0002:00001b0c       ___rtc_tzz                 10010b0c     MSVCRT:initsect.obj
+ 0002:000023dc       __IMPORT_DESCRIPTOR_Daxutil 100113dc     daxutil:Daxutil.dll
+ 0002:000023f0       __IMPORT_DESCRIPTOR_jengine 100113f0     jengine:jengine.dll
+ 0002:00002404       __IMPORT_DESCRIPTOR_JUtil  10011404     jutil:JUtil.dll
+ 0002:00002418       __IMPORT_DESCRIPTOR_OLESITE 10011418     olesite:OLESITE.dll
+ 0002:0000242c       __IMPORT_DESCRIPTOR_ProbeUtilities 1001142c     probeutilities:ProbeUtilities.dll
+ 0002:00002440       __IMPORT_DESCRIPTOR_stylspt 10011440     stylspt:stylspt.dll
+ 0002:00002454       __IMPORT_DESCRIPTOR_ugeom  10011454     ugeom:ugeom.dll
+ 0002:00002468       __IMPORT_DESCRIPTOR_ugeom2d 10011468     ugeom2d:ugeom2d.dll
+ 0002:0000247c       __IMPORT_DESCRIPTOR_umath  1001147c     umath:umath.dll
+ 0002:00002490       __IMPORT_DESCRIPTOR_dslutil 10011490     util:dslutil.dll
+ 0002:000024a4       __IMPORT_DESCRIPTOR_XProbeUtilities 100114a4     xprobeutilities:XProbeUtilities.dll
+ 0002:000024b8       __IMPORT_DESCRIPTOR_sealloc 100114b8     sealloc:sealloc.dll
+ 0002:000024cc       __IMPORT_DESCRIPTOR_ole32  100114cc     ole32:ole32.dll
+ 0002:000024e0       __IMPORT_DESCRIPTOR_OLEAUT32 100114e0     oleaut32:OLEAUT32.dll
+ 0002:000024f4       __IMPORT_DESCRIPTOR_MSVCR80 100114f4     MSVCRT:MSVCR80.dll
+ 0002:00002508       __IMPORT_DESCRIPTOR_KERNEL32 10011508     kernel32:KERNEL32.dll
+ 0002:0000251c       __NULL_IMPORT_DESCRIPTOR   1001151c     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  10013000     newmode.obj
+ 0003:00000a28       ??_R0?AV?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@@8 10013a28     COMPUTE.obj
+ 0003:00000a64       ??_R0?AUIEnumJIDREF@@@8    10013a64     COMPUTE.obj
+ 0003:00000a80       ??_R0?AUIUnknown@@@8       10013a80     COMPUTE.obj
+ 0003:00001ed8       ??_R0?AV?$ClassFactory@VJSmartFrame2d@@@@@8 10014ed8     SERVER.obj
+ 0003:00001f08       ??_R0?AVJClassFactory@@@8  10014f08     SERVER.obj
+ 0003:00001f24       ??_R0?AUIClassFactory@@@8  10014f24     SERVER.obj
+ 0003:00003380       ??_R0?AUIJSmartFrame2dImp@JSmartFrame2d@@@8 10016380     SMRTFRM.obj
+ 0003:000033b0       ??_R0?AUIJSmartFrame2d@@@8 100163b0     SMRTFRM.obj
+ 0003:000033d0       ??_R0?AUIJProbeImp@JSmartFrame2d@@@8 100163d0     SMRTFRM.obj
+ 0003:000033f8       ??_R0?AUIJProbe@@@8        100163f8     SMRTFRM.obj
+ 0003:00003410       ??_R0?AUIJGraphicImp@JSmartFrame2d@@@8 10016410     SMRTFRM.obj
+ 0003:0000343c       ??_R0?AUIJGraphic@@@8      1001643c     SMRTFRM.obj
+ 0003:00003454       ??_R0?AUIJSymbologyImp@JSmartFrame2d@@@8 10016454     SMRTFRM.obj
+ 0003:00003480       ??_R0?AUIJSymbology@@@8    10016480     SMRTFRM.obj
+ 0003:0000349c       ??_R0?AUIJKeyPointImp@JSmartFrame2d@@@8 1001649c     SMRTFRM.obj
+ 0003:000034c8       ??_R0?AUIJKeyPoint@@@8     100164c8     SMRTFRM.obj
+ 0003:000034e4       ??_R0?AUIJStyleUserImp@JSmartFrame2d@@@8 100164e4     SMRTFRM.obj
+ 0003:00003510       ??_R0?AUIJStyleUser@@@8    10016510     SMRTFRM.obj
+ 0003:0000352c       ??_R0?AUIJQuickPickSupportImp@JSmartFrame2d@@@8 1001652c     SMRTFRM.obj
+ 0003:00003560       ??_R0?AUIJQuickPickSupport@@@8 10016560     SMRTFRM.obj
+ 0003:00003584       ??_R0?AVJSmartFrame2d@@@8  10016584     SMRTFRM.obj
+ 0003:000035a0       ??_R0?AVCPersistObject@@@8 100165a0     SMRTFRM.obj
+ 0003:000035c0       ??_R0?AUIJComputeImp@JSmartFrame2d@@@8 100165c0     SMRTFRM.obj
+ 0003:000035ec       ??_R0?AUIJCompute@@@8      100165ec     SMRTFRM.obj
+ 0003:00003604       ??_R0?AUIJSemantic@@@8     10016604     SMRTFRM.obj
+ 0003:00003620       ??_R0?AUIJPersistImp@JSmartFrame2d@@@8 10016620     SMRTFRM.obj
+ 0003:0000364c       ??_R0?AUIJPersist@@@8      1001664c     SMRTFRM.obj
+ 0003:00003664       ??_R0?AUIPersist@@@8       10016664     SMRTFRM.obj
+ 0003:00004ac8       ?StylMgrWideString@@3PA_WA 10017ac8     sfutil:crestyle.obj
+ 0003:000054f0       ___security_cookie         100184f0     MSVCRT:gs_cookie.obj
+ 0003:000054f4       ___security_cookie_complement 100184f4     MSVCRT:gs_cookie.obj
+ 0003:000054f8       ??_R0?AVtype_info@@@8      100184f8     MSVCRT:ti_inst.obj
+ 0003:00005510       ___native_dllmain_reason   10018510     MSVCRT:natstart.obj
+ 0003:00005514       ___native_vcclrit_reason   10018514     MSVCRT:natstart.obj
+ 0003:000064a8       ?pStylMgrRoadmap@@3UJMemberRoadmap@@A 100194a8     sfutil:crestyle.obj
+ 0003:000069fc       ?__type_info_root_node@@3U__type_info_node@@A 100199fc     MSVCRT:tncleanup.obj
+ 0003:00006a04       __adjust_fdiv              10019a04     <common>
+ 0003:00006a08       ___native_startup_state    10019a08     <common>
+ 0003:00006a0c       ___native_startup_lock     10019a0c     <common>
+ 0003:00006a10       ___onexitend               10019a10     <common>
+ 0003:00006a14       ___onexitbegin             10019a14     <common>
+ 0003:00006a18       ___dyn_tls_init_callback   10019a18     <common>
+
+ entry point at        0001:0000c008
+
+ Static symbols
+
+ 0001:0000bd06       _pre_c_init                1000cd06 f   MSVCRT:crtdll.obj
+ 0001:0000bef2       ___DllMainCRTStartup       1000cef2 f   MSVCRT:crtdll.obj
+ 0001:0000c550       __unwindfunclet$?EnumValues@IJComputeImp@JSmartFrame2d@@UAGJPAPAUIEnumJIDREF@@@Z$1 1000d550 f   COMPUTE.obj
+ 0001:0000c55b       __ehhandler$?EnumValues@IJComputeImp@JSmartFrame2d@@UAGJPAPAUIEnumJIDREF@@@Z 1000d55b f   COMPUTE.obj
+ 0001:0000c580       __unwindfunclet$?Clone@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJPAPAUIEnumJIDREF@@@Z$0 1000d580 f   COMPUTE.obj
+ 0001:0000c58b       __ehhandler$?Clone@?$JEnumDataPointer@UIEnumJIDREF@@UtagJIDREF@@@@UAGJPAPAUIEnumJIDREF@@@Z 1000d58b f   COMPUTE.obj
+ 0001:0000c5b0       __unwindfunclet$??0?$ClassFactory@VJSmartFrame2d@@@@QAE@HHH@Z$0 1000d5b0 f   SERVER.obj
+ 0001:0000c5b9       __ehhandler$??0?$ClassFactory@VJSmartFrame2d@@@@QAE@HHH@Z 1000d5b9 f   SERVER.obj
+ 0001:0000c5e0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VJSmartFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 1000d5e0 f   SERVER.obj
+ 0001:0000c5ec       __ehhandler$?OnCreateInstance@?$ClassFactory@VJSmartFrame2d@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d5ec f   SERVER.obj
+ 0001:0000c610       __unwindfunclet$_DllGetClassObject@12$4 1000d610 f   SERVER.obj
+ 0001:0000c61b       __ehhandler$_DllGetClassObject@12 1000d61b f   SERVER.obj
+ 0001:0000c640       __unwindfunclet$??_G?$ClassFactory@VJSmartFrame2d@@@@UAEPAXI@Z$0 1000d640 f   SERVER.obj
+ 0001:0000c649       __ehhandler$??_G?$ClassFactory@VJSmartFrame2d@@@@UAEPAXI@Z 1000d649 f   SERVER.obj
+ 0001:0000c670       __unwindfunclet$_JVerifyAndCreateMoniker@16$7 1000d670 f   SMFUTIL.obj
+ 0001:0000c678       __unwindfunclet$_JVerifyAndCreateMoniker@16$8 1000d678 f   SMFUTIL.obj
+ 0001:0000c680       __unwindfunclet$_JVerifyAndCreateMoniker@16$9 1000d680 f   SMFUTIL.obj
+ 0001:0000c688       __ehhandler$_JVerifyAndCreateMoniker@16 1000d688 f   SMFUTIL.obj
+ 0001:0000c6b0       __unwindfunclet$_JGetReferenceOptions@32$1 1000d6b0 f   SMFUTIL.obj
+ 0001:0000c6b8       __ehhandler$_JGetReferenceOptions@32 1000d6b8 f   SMFUTIL.obj
+ 0001:0000c6e0       __unwindfunclet$_JSFSetInfoFromStyle@8$8 1000d6e0 f   SMFUTIL.obj
+ 0001:0000c6e8       __unwindfunclet$_JSFSetInfoFromStyle@8$9 1000d6e8 f   SMFUTIL.obj
+ 0001:0000c6f0       __unwindfunclet$_JSFSetInfoFromStyle@8$10 1000d6f0 f   SMFUTIL.obj
+ 0001:0000c6f8       __ehhandler$_JSFSetInfoFromStyle@8 1000d6f8 f   SMFUTIL.obj
+ 0001:0000c720       __unwindfunclet$?GetFuzzScaleParams@@YAJPAN00@Z$8 1000d720 f   SMFUTIL.obj
+ 0001:0000c728       __unwindfunclet$?GetFuzzScaleParams@@YAJPAN00@Z$9 1000d728 f   SMFUTIL.obj
+ 0001:0000c730       __unwindfunclet$?GetFuzzScaleParams@@YAJPAN00@Z$10 1000d730 f   SMFUTIL.obj
+ 0001:0000c738       __unwindfunclet$?GetFuzzScaleParams@@YAJPAN00@Z$11 1000d738 f   SMFUTIL.obj
+ 0001:0000c740       __unwindfunclet$?GetFuzzScaleParams@@YAJPAN00@Z$12 1000d740 f   SMFUTIL.obj
+ 0001:0000c748       __ehhandler$?GetFuzzScaleParams@@YAJPAN00@Z 1000d748 f   SMFUTIL.obj
+ 0001:0000c770       __unwindfunclet$_GetFuzzMaxValue@32$5 1000d770 f   SMFUTIL.obj
+ 0001:0000c77b       __ehhandler$_GetFuzzMaxValue@32 1000d77b f   SMFUTIL.obj
+ 0001:0000c7a0       __unwindfunclet$_BuildFuzzRectangle@12$11 1000d7a0 f   SMFUTIL.obj
+ 0001:0000c7ab       __unwindfunclet$_BuildFuzzRectangle@12$12 1000d7ab f   SMFUTIL.obj
+ 0001:0000c7b6       __ehhandler$_BuildFuzzRectangle@12 1000d7b6 f   SMFUTIL.obj
+ 0001:0000c7e0       __unwindfunclet$?GetDisplayString@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAKPAD@Z$2 1000d7e0 f   SMRTFRM.obj
+ 0001:0000c7e9       __ehhandler$?GetDisplayString@IJQuickPickSupportImp@JSmartFrame2d@@UAGJPAKPAD@Z 1000d7e9 f   SMRTFRM.obj
+ 0001:0000c810       __unwindfunclet$??1JSmartFrame2d@@UAE@XZ$1 1000d810 f   SMRTFRM.obj
+ 0001:0000c819       __unwindfunclet$??1JSmartFrame2d@@UAE@XZ$2 1000d819 f   SMRTFRM.obj
+ 0001:0000c821       __ehhandler$??1JSmartFrame2d@@UAE@XZ 1000d821 f   SMRTFRM.obj
+ 0001:0000c840       __unwindfunclet$?Transform@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPBUtagGTransf@@@Z$8 1000d840 f   SMRTFRM.obj
+ 0001:0000c84b       __unwindfunclet$?Transform@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPBUtagGTransf@@@Z$9 1000d84b f   SMRTFRM.obj
+ 0001:0000c856       __ehhandler$?Transform@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPBUtagGTransf@@@Z 1000d856 f   SMRTFRM.obj
+ 0001:0000c880       __unwindfunclet$?CreateLink@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$6 1000d880 f   SMRTFRM.obj
+ 0001:0000c888       __unwindfunclet$?CreateLink@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$7 1000d888 f   SMRTFRM.obj
+ 0001:0000c890       __ehhandler$?CreateLink@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z 1000d890 f   SMRTFRM.obj
+ 0001:0000c8b0       __unwindfunclet$?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$9 1000d8b0 f   SMRTFRM.obj
+ 0001:0000c8b8       __unwindfunclet$?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$10 1000d8b8 f   SMRTFRM.obj
+ 0001:0000c8c0       __unwindfunclet$?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$11 1000d8c0 f   SMRTFRM.obj
+ 0001:0000c8c8       __unwindfunclet$?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z$12 1000d8c8 f   SMRTFRM.obj
+ 0001:0000c8d0       __ehhandler$?CreateEmbed@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPA_W0@Z 1000d8d0 f   SMRTFRM.obj
+ 0001:0000c900       __unwindfunclet$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z$12 1000d900 f   SMRTFRM.obj
+ 0001:0000c90b       __unwindfunclet$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z$13 1000d90b f   SMRTFRM.obj
+ 0001:0000c916       __unwindfunclet$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z$14 1000d916 f   SMRTFRM.obj
+ 0001:0000c921       __unwindfunclet$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z$15 1000d921 f   SMRTFRM.obj
+ 0001:0000c92c       __unwindfunclet$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z$16 1000d92c f   SMRTFRM.obj
+ 0001:0000c937       __ehhandler$?AdjustSmartFrame2dAndReference@IJSmartFrame2dImp@JSmartFrame2d@@UAGJH@Z 1000d937 f   SMRTFRM.obj
+ 0001:0000c960       __unwindfunclet$?GetContentsRange@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGBox@@H@Z$3 1000d960 f   SMRTFRM.obj
+ 0001:0000c96b       __unwindfunclet$?GetContentsRange@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGBox@@H@Z$4 1000d96b f   SMRTFRM.obj
+ 0001:0000c976       __ehhandler$?GetContentsRange@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUtagGBox@@H@Z 1000d976 f   SMRTFRM.obj
+ 0001:0000c9a0       __unwindfunclet$?UpdateSmartFrame2d@IJSmartFrame2dImp@JSmartFrame2d@@UAGJXZ$10 1000d9a0 f   SMRTFRM.obj
+ 0001:0000c9ab       __ehhandler$?UpdateSmartFrame2d@IJSmartFrame2dImp@JSmartFrame2d@@UAGJXZ 1000d9ab f   SMRTFRM.obj
+ 0001:0000c9d0       __unwindfunclet$?SavePresDataToStorage@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIStorage@@@Z$4 1000d9d0 f   SMRTFRM.obj
+ 0001:0000c9d8       __unwindfunclet$?SavePresDataToStorage@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIStorage@@@Z$5 1000d9d8 f   SMRTFRM.obj
+ 0001:0000c9e0       __ehhandler$?SavePresDataToStorage@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAUIStorage@@@Z 1000d9e0 f   SMRTFRM.obj
+ 0001:0000ca00       __unwindfunclet$?_DAXOnlySetKeyPoint@IJKeyPointImp@JSmartFrame2d@@UAGJHPAUtagGPosition@@@Z$5 1000da00 f   SMRTFRM.obj
+ 0001:0000ca0b       __unwindfunclet$?_DAXOnlySetKeyPoint@IJKeyPointImp@JSmartFrame2d@@UAGJHPAUtagGPosition@@@Z$6 1000da0b f   SMRTFRM.obj
+ 0001:0000ca16       __ehhandler$?_DAXOnlySetKeyPoint@IJKeyPointImp@JSmartFrame2d@@UAGJHPAUtagGPosition@@@Z 1000da16 f   SMRTFRM.obj
+ 0001:0000ca40       __unwindfunclet$?IsNonDisplayablePrivateLink@@YAJPAUIUnknown@@PAVJGraphicContext@@PAH@Z$2 1000da40 f   SMRTFRM.obj
+ 0001:0000ca48       __unwindfunclet$?IsNonDisplayablePrivateLink@@YAJPAUIUnknown@@PAVJGraphicContext@@PAH@Z$3 1000da48 f   SMRTFRM.obj
+ 0001:0000ca50       __ehhandler$?IsNonDisplayablePrivateLink@@YAJPAUIUnknown@@PAVJGraphicContext@@PAH@Z 1000da50 f   SMRTFRM.obj
+ 0001:0000ca70       __unwindfunclet$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z$8 1000da70 f   SMRTFRM.obj
+ 0001:0000ca78       __unwindfunclet$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z$9 1000da78 f   SMRTFRM.obj
+ 0001:0000ca80       __unwindfunclet$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z$10 1000da80 f   SMRTFRM.obj
+ 0001:0000ca88       __unwindfunclet$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z$11 1000da88 f   SMRTFRM.obj
+ 0001:0000ca90       __unwindfunclet$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z$12 1000da90 f   SMRTFRM.obj
+ 0001:0000ca98       __ehhandler$?SetStyle@JSmartFrame2d@@QAEJPAUIUnknown@@K@Z 1000da98 f   SMRTFRM.obj
+ 0001:0000cac0       __unwindfunclet$?UpdateRange@JSmartFrame2d@@QAEJPAUIJRelationNotify@@@Z$6 1000dac0 f   SMRTFRM.obj
+ 0001:0000cacb       __unwindfunclet$?UpdateRange@JSmartFrame2d@@QAEJPAUIJRelationNotify@@@Z$7 1000dacb f   SMRTFRM.obj
+ 0001:0000cad6       __unwindfunclet$?UpdateRange@JSmartFrame2d@@QAEJPAUIJRelationNotify@@@Z$8 1000dad6 f   SMRTFRM.obj
+ 0001:0000cae1       __ehhandler$?UpdateRange@JSmartFrame2d@@QAEJPAUIJRelationNotify@@@Z 1000dae1 f   SMRTFRM.obj
+ 0001:0000cb10       __unwindfunclet$?GetStyle@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAPAUIJSmartFrame2dStyle@@@Z$3 1000db10 f   SMRTFRM.obj
+ 0001:0000cb18       __ehhandler$?GetStyle@IJSmartFrame2dImp@JSmartFrame2d@@UAGJPAPAUIJSmartFrame2dStyle@@@Z 1000db18 f   SMRTFRM.obj
+ 0001:0000cb40       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$22 1000db40 f   SMRTFRM.obj
+ 0001:0000cb4b       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$23 1000db4b f   SMRTFRM.obj
+ 0001:0000cb56       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$24 1000db56 f   SMRTFRM.obj
+ 0001:0000cb61       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$25 1000db61 f   SMRTFRM.obj
+ 0001:0000cb6c       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$26 1000db6c f   SMRTFRM.obj
+ 0001:0000cb77       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$27 1000db77 f   SMRTFRM.obj
+ 0001:0000cb82       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$28 1000db82 f   SMRTFRM.obj
+ 0001:0000cb8d       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$29 1000db8d f   SMRTFRM.obj
+ 0001:0000cb98       __unwindfunclet$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z$30 1000db98 f   SMRTFRM.obj
+ 0001:0000cba3       __ehhandler$?Locate@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@PAUtagJGEOMCRITERIA@@PAUIJLocateInfoArray@@@Z 1000dba3 f   SMRTFRM.obj
+ 0001:0000cbd0       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$21 1000dbd0 f   SMRTFRM.obj
+ 0001:0000cbdb       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$22 1000dbdb f   SMRTFRM.obj
+ 0001:0000cbe6       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$23 1000dbe6 f   SMRTFRM.obj
+ 0001:0000cbf1       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$24 1000dbf1 f   SMRTFRM.obj
+ 0001:0000cbfc       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$25 1000dbfc f   SMRTFRM.obj
+ 0001:0000cc07       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$26 1000dc07 f   SMRTFRM.obj
+ 0001:0000cc12       __unwindfunclet$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z$27 1000dc12 f   SMRTFRM.obj
+ 0001:0000cc1d       __ehhandler$?Display@IJGraphicImp@JSmartFrame2d@@UAGJPAVJGraphicContext@@@Z 1000dc1d f   SMRTFRM.obj
+ 0001:0000cc40       __unwindfunclet$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z$10 1000dc40 f   SMRTFRM.obj
+ 0001:0000cc4b       __unwindfunclet$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z$11 1000dc4b f   SMRTFRM.obj
+ 0001:0000cc56       __unwindfunclet$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z$12 1000dc56 f   SMRTFRM.obj
+ 0001:0000cc61       __unwindfunclet$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z$13 1000dc61 f   SMRTFRM.obj
+ 0001:0000cc6c       __unwindfunclet$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z$14 1000dc6c f   SMRTFRM.obj
+ 0001:0000cc77       __ehhandler$?GetRange@IJGraphicImp@JSmartFrame2d@@UAGJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z 1000dc77 f   SMRTFRM.obj
+ 0001:0000cca0       __unwindfunclet$?SerializeVersion1@JSmartFrame2d@@QAEJPAVIOContext@@@Z$21 1000dca0 f   SMRTFRM.obj
+ 0001:0000cca8       __ehhandler$?SerializeVersion1@JSmartFrame2d@@QAEJPAVIOContext@@@Z 1000dca8 f   SMRTFRM.obj
+ 0001:0000ccd0       __unwindfunclet$??0JSmartFrame2d@@QAE@PAUIUnknown@@@Z$0 1000dcd0 f   SMRTFRM.obj
+ 0001:0000ccd9       __ehhandler$??0JSmartFrame2d@@QAE@PAUIUnknown@@@Z 1000dcd9 f   SMRTFRM.obj
+ 0001:0000cd00       __unwindfunclet$?Clone@IJPersistImp@JSmartFrame2d@@UAGJPAUIUnknown@@PAPAU3@@Z$8 1000dd00 f   SMRTFRM.obj
+ 0001:0000cd08       __unwindfunclet$?Clone@IJPersistImp@JSmartFrame2d@@UAGJPAUIUnknown@@PAPAU3@@Z$9 1000dd08 f   SMRTFRM.obj
+ 0001:0000cd14       __ehhandler$?Clone@IJPersistImp@JSmartFrame2d@@UAGJPAUIUnknown@@PAPAU3@@Z 1000dd14 f   SMRTFRM.obj
+ 0001:0000cd30       __unwindfunclet$_MergeOverrideStructures@12$2 1000dd30 f   rendspt:override.obj
+ 0001:0000cd3e       __ehhandler$_MergeOverrideStructures@12 1000dd3e f   rendspt:override.obj
+ 0001:0000cd60       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$5 1000dd60 f   sfutil:crestyle.obj
+ 0001:0000cd68       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$6 1000dd68 f   sfutil:crestyle.obj
+ 0001:0000cd70       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$7 1000dd70 f   sfutil:crestyle.obj
+ 0001:0000cd78       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$8 1000dd78 f   sfutil:crestyle.obj
+ 0001:0000cd80       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$9 1000dd80 f   sfutil:crestyle.obj
+ 0001:0000cd88       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$10 1000dd88 f   sfutil:crestyle.obj
+ 0001:0000cd90       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$11 1000dd90 f   sfutil:crestyle.obj
+ 0001:0000cd98       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$12 1000dd98 f   sfutil:crestyle.obj
+ 0001:0000cda0       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$13 1000dda0 f   sfutil:crestyle.obj
+ 0001:0000cda8       __unwindfunclet$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$14 1000dda8 f   sfutil:crestyle.obj
+ 0001:0000cdb0       __ehhandler$?HGetSmartFrame2dStyleByName@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z 1000ddb0 f   sfutil:crestyle.obj
+ 0001:0000cdd0       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$52 1000ddd0 f   sfutil:crestyle.obj
+ 0001:0000cdd8       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$53 1000ddd8 f   sfutil:crestyle.obj
+ 0001:0000cde0       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$54 1000dde0 f   sfutil:crestyle.obj
+ 0001:0000cde8       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$55 1000dde8 f   sfutil:crestyle.obj
+ 0001:0000cdf0       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$56 1000ddf0 f   sfutil:crestyle.obj
+ 0001:0000cdf8       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$57 1000ddf8 f   sfutil:crestyle.obj
+ 0001:0000ce03       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$58 1000de03 f   sfutil:crestyle.obj
+ 0001:0000ce0b       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$59 1000de0b f   sfutil:crestyle.obj
+ 0001:0000ce16       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$60 1000de16 f   sfutil:crestyle.obj
+ 0001:0000ce1f       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$61 1000de1f f   sfutil:crestyle.obj
+ 0001:0000ce27       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$62 1000de27 f   sfutil:crestyle.obj
+ 0001:0000ce2f       __unwindfunclet$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z$63 1000de2f f   sfutil:crestyle.obj
+ 0001:0000ce37       __ehhandler$?HCreateSmartFrame2dOfficeAutomationStyle@@YAJPAUIUnknown@@PB_WPAPAUIJSmartFrame2dStyle@@@Z 1000de37 f   sfutil:crestyle.obj
+ 0001:0000ce60       ??__EGNULL_Camera@@YAXXZ   1000de60 f   COMPUTE.obj
+ 0001:0000ce80       ??__EGNULL_CAMERA@@YAXXZ   1000de80 f   COMPUTE.obj
+ 0001:0000cea0       ??__EGID_Camera@@YAXXZ     1000dea0 f   COMPUTE.obj
+ 0001:0000cec0       ??__EGID_CAMERA@@YAXXZ     1000dec0 f   COMPUTE.obj
+ 0001:0000cee0       ??__EGNULL_Camera@@YAXXZ   1000dee0 f   GUID.obj
+ 0001:0000cf00       ??__EGNULL_CAMERA@@YAXXZ   1000df00 f   GUID.obj
+ 0001:0000cf20       ??__EGID_Camera@@YAXXZ     1000df20 f   GUID.obj
+ 0001:0000cf40       ??__EGID_CAMERA@@YAXXZ     1000df40 f   GUID.obj
+ 0001:0000cf60       ??__EGNULL_Camera@@YAXXZ   1000df60 f   SERVER.obj
+ 0001:0000cf80       ??__EGNULL_CAMERA@@YAXXZ   1000df80 f   SERVER.obj
+ 0001:0000cfa0       ??__EGID_Camera@@YAXXZ     1000dfa0 f   SERVER.obj
+ 0001:0000cfc0       ??__EGID_CAMERA@@YAXXZ     1000dfc0 f   SERVER.obj
+ 0001:0000cfe0       ??__EGNULL_Camera@@YAXXZ   1000dfe0 f   SMFUTIL.obj
+ 0001:0000d000       ??__EGNULL_CAMERA@@YAXXZ   1000e000 f   SMFUTIL.obj
+ 0001:0000d020       ??__EGID_Camera@@YAXXZ     1000e020 f   SMFUTIL.obj
+ 0001:0000d040       ??__EGID_CAMERA@@YAXXZ     1000e040 f   SMFUTIL.obj
+ 0001:0000d060       ??__EGNULL_Camera@@YAXXZ   1000e060 f   SMRTFRM.obj
+ 0001:0000d080       ??__EGNULL_CAMERA@@YAXXZ   1000e080 f   SMRTFRM.obj
+ 0001:0000d0a0       ??__EGID_Camera@@YAXXZ     1000e0a0 f   SMRTFRM.obj
+ 0001:0000d0c0       ??__EGID_CAMERA@@YAXXZ     1000e0c0 f   SMRTFRM.obj
+ 0001:0000d0e0       ??__EGNULL_Camera@@YAXXZ   1000e0e0 f   rendspt:util.obj
+ 0001:0000d100       ??__EGNULL_CAMERA@@YAXXZ   1000e100 f   rendspt:util.obj
+ 0001:0000d120       ??__EGID_Camera@@YAXXZ     1000e120 f   rendspt:util.obj
+ 0001:0000d140       ??__EGID_CAMERA@@YAXXZ     1000e140 f   rendspt:util.obj
+ 0001:0000d160       ??__EGNULL_Camera@@YAXXZ   1000e160 f   rendspt:guid.obj
+ 0001:0000d180       ??__EGNULL_CAMERA@@YAXXZ   1000e180 f   rendspt:guid.obj
+ 0001:0000d1a0       ??__EGID_Camera@@YAXXZ     1000e1a0 f   rendspt:guid.obj
+ 0001:0000d1c0       ??__EGID_CAMERA@@YAXXZ     1000e1c0 f   rendspt:guid.obj
+ 0001:0000d1e0       ??__EGNULL_Camera@@YAXXZ   1000e1e0 f   sfutil:crestyle.obj
+ 0001:0000d200       ??__EGNULL_CAMERA@@YAXXZ   1000e200 f   sfutil:crestyle.obj
+ 0001:0000d220       ??__EGID_Camera@@YAXXZ     1000e220 f   sfutil:crestyle.obj
+ 0001:0000d240       ??__EGID_CAMERA@@YAXXZ     1000e240 f   sfutil:crestyle.obj
+ 0001:0000d260       ??__EpStylMgrRoadmap@@YAXXZ 1000e260 f   sfutil:crestyle.obj
+ 0001:0000d2a0       ??__FpStylMgrRoadmap@@YAXXZ 1000e2a0 f   sfutil:crestyle.obj

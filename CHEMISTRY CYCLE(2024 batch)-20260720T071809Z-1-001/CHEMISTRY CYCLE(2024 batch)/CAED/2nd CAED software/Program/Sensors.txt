@@ -1,0 +1,39 @@
+\\ The contents of this file are a subset of the inputs to create the sheet metal checker sensor
+
+\\ This file must be located in the Solid Edge program directory.
+\\ For example: c:\Program Files\Solid Edge\Program\Sensors.txt
+
+\\ If you edit the list you should copy the file before uninstalling Solid Edge.
+
+\\ The format for the same appears below. 
+\\ SensorName; EdgeSet1; EdgeSet2; Threshold(a double Value)
+\\ The Sensor name specified will appear on the Parameters dialog, so also the Threshold value.
+\\ EdgeSet1 and EdgeSet2 will appear in the EdgeSet lists on the ribbon for Sheet Metal Checker
+\\ sensor command, in the respective locale.  They have to be strictly one of the following
+
+    \\	seSheetMetalSensorFeatureTypeExteriorEdges	- Exterior Edges
+    \\  seSheetMetalSensorFeatureTypeInteriorEdges	- Interior Edges
+    \\	seSheetMetalSensorFeatureTypeCutouts	        - Cutouts
+    \\	seSheetMetalSensorFeatureTypeHoles	        - Holes 
+    \\	seSheetMetalSensorFeatureTypeDimples	        - Dimples
+    \\	seSheetMetalSensorFeatureTypeLouvers	        - Louvers
+    \\	seSheetMetalSensorFeatureTypeDrawnCutouts	- DrawnCutouts
+    \\	seSheetMetalSensorFeatureTypeBeads	        - Beads
+
+\\ Some restrictions on the inputs.
+\\ There is no restriction on the what the sensor names should be, but should not contain the ; delimiter.
+\\ Both the edge sets should be one of the types mentioned above.
+\\ The threshold values have to be non-negative(zero included) numerics or variable names that exist in the variable table.
+\\ The Threshold units are always assumed to be that set in the File/Properties/Units Length Readout coloumn.
+\\ Also, the decimal delimiter has to be what is shown in this example file, i.e., a dot('.').
+\\ The seperator between various fields is a semi colon(';').
+  
+Begin
+
+ExampleExteriorEdgesToInteriorEdgesSensor; seSheetMetalSensorFeatureTypeExteriorEdges; seSheetMetalSensorFeatureTypeInteriorEdges; 0.01
+ExampleCutoutsToHolesSensor; seSheetMetalSensorFeatureTypeCutouts; seSheetMetalSensorFeatureTypeHoles; 0.02
+ExampleLouversToCutoutsSensor; seSheetMetalSensorFeatureTypeLouvers; seSheetMetalSensorFeatureTypeCutouts; 0.03
+ExampleCutoutsToCutoutsSensor; seSheetMetalSensorFeatureTypeCutouts; seSheetMetalSensorFeatureTypeCutouts; 0.02
+ExampleHolesToHolesSensor; seSheetMetalSensorFeatureTypeHoles; seSheetMetalSensorFeatureTypeHoles; 0.03
+
+End

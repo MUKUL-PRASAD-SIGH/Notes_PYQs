@@ -1,0 +1,732 @@
+ EXPRDAX
+
+ Timestamp is 46b3a46f (Fri Aug 03 16:55:59 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00006248H .text                   CODE
+ 0001:00006250 00000506H .text$x                 CODE
+ 0001:00006760 00000176H .text$yc                CODE
+ 0002:00000000 000001acH .idata$5                DATA
+ 0002:000001ac 00000004H .CRT$XCA                DATA
+ 0002:000001b0 00000030H .CRT$XCU                DATA
+ 0002:000001e0 00000004H .CRT$XCZ                DATA
+ 0002:000001e4 00000004H .CRT$XIA                DATA
+ 0002:000001e8 00000004H .CRT$XIAA               DATA
+ 0002:000001ec 00000004H .CRT$XIZ                DATA
+ 0002:000001f0 00000a70H .rdata                  DATA
+ 0002:00000c60 00000031H .rdata$debug            DATA
+ 0002:00000c94 00000790H .rdata$r                DATA
+ 0002:00001430 00000064H .rdata$sxdata           DATA
+ 0002:00001494 00000004H .rtc$IAA                DATA
+ 0002:00001498 00000004H .rtc$IZZ                DATA
+ 0002:0000149c 00000004H .rtc$TAA                DATA
+ 0002:000014a0 00000004H .rtc$TZZ                DATA
+ 0002:000014a8 0000057cH .xdata$x                DATA
+ 0002:00001a24 000000a0H .idata$2                DATA
+ 0002:00001ac4 00000014H .idata$3                DATA
+ 0002:00001ad8 000001acH .idata$4                DATA
+ 0002:00001c84 00000602H .idata$6                DATA
+ 0002:00002290 0000006aH .edata                  DATA
+ 0003:00000000 00002240H .data                   DATA
+ 0003:00002240 000009ccH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000019       ___safe_se_handler_count   00000019     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ?AddRef@HVariable@@UAGKXZ  10001030 f   hdblval.obj
+ 0001:00000040       ?QueryInterface@IHVariableImp@HVariable@@UAGJABU_GUID@@PAPAX@Z 10001040 f   hdblval.obj
+ 0001:00000060       ?AddRef@IHVariableImp@HVariable@@UAGKXZ 10001060 f   hdblval.obj
+ 0001:00000080       ?Release@IHVariableImp@HVariable@@UAGKXZ 10001080 f   hdblval.obj
+ 0001:000000a0       ?SetValue@IHVariableImp@HVariable@@UAGJPA_W@Z 100010a0 f   hdblval.obj
+ 0001:00000130       _IsEqualGUID               10001130 f i hdblval.obj
+ 0001:000001d0       ?put_Formula@IHVariableImp@HVariable@@UAGJPA_W@Z 100011d0 f   hdblval.obj
+ 0001:00000250       ?AddRef@IHelperImp@HVariable@@UAGKXZ 10001250 f   hdblval.obj
+ 0001:00000270       ?Release@IHelperImp@HVariable@@UAGKXZ 10001270 f   hdblval.obj
+ 0001:00000290       ?Bind@IHelperImp@HVariable@@UAGJPAUIUnknown@@@Z 10001290 f   hdblval.obj
+ 0001:00000300       ?GetBinding@IHelperImp@HVariable@@UAGJPAPAUIUnknown@@@Z 10001300 f   hdblval.obj
+ 0001:00000320       ?SetParent@IHelperImp@HVariable@@UAGJPAUIUnknown@@@Z 10001320 f   hdblval.obj
+ 0001:00000340       ?GetClassID@IHelperImp@HVariable@@UAGJPAU_GUID@@@Z 10001340 f   hdblval.obj
+ 0001:00000370       ??0?$TIP@PAUIUnknown@@@@QAE@ABQAUIUnknown@@@Z 10001370 f i hdblval.obj
+ 0001:00000390       ??I?$TIP@PAUIUnknown@@@@QAEPAPAUIUnknown@@XZ 10001390 f i hdblval.obj
+ 0001:00000390       ??I?$TIP@PAUIJDoubleValue@@@@QAEPAPAUIJDoubleValue@@XZ 10001390 f i hdblval.obj
+ 0001:00000390       ??I?$TIP@PAUIJGraphic@@@@QAEPAPAUIJGraphic@@XZ 10001390 f i variabls.obj
+ 0001:000003b0       ??1?$TIP@PAUIJVarNameManager@@@@QAE@XZ 100013b0 f i variabls.obj
+ 0001:000003b0       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 100013b0 f i variabls.obj
+ 0001:000003b0       ??1?$TIP@PAUIJExposedVariablePropertyInfo@@@@QAE@XZ 100013b0 f i hdblval.obj
+ 0001:000003b0       ??1?$TIP@PAU_IJDocument@@@@QAE@XZ 100013b0 f i hdblval.obj
+ 0001:000003b0       ??1?$TIP@PAUIJDoubleValue@@@@QAE@XZ 100013b0 f i hdblval.obj
+ 0001:000003b0       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 100013b0 f i hdblval.obj
+ 0001:000003b0       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 100013b0 f i hdblval.obj
+ 0001:000003c0       ??1HVariable@@QAE@XZ       100013c0 f   hdblval.obj
+ 0001:000003f0       ?QueryInterface@HVariable@@UAGJABU_GUID@@PAPAX@Z 100013f0 f   hdblval.obj
+ 0001:00000480       ?get_Value@IHVariableImp@HVariable@@UAGJPAN@Z 10001480 f   hdblval.obj
+ 0001:00000530       ?put_Value@IHVariableImp@HVariable@@UAGJN@Z 10001530 f   hdblval.obj
+ 0001:00000630       ?get_Properties@IHVariableImp@HVariable@@UAGJPAH@Z 10001630 f   hdblval.obj
+ 0001:000006f0       ?put_Properties@IHVariableImp@HVariable@@UAGJH@Z 100016f0 f   hdblval.obj
+ 0001:00000780       ?SetRange@IHVariableImp@HVariable@@UAGJPA_WH0@Z 10001780 f   hdblval.obj
+ 0001:00000820       ?GetRange@IHVariableImp@HVariable@@UAGJPAPA_WPAH0@Z 10001820 f   hdblval.obj
+ 0001:000009f0       ?GetValue@IHVariableImp@HVariable@@UAGJPAPA_W@Z 100019f0 f   hdblval.obj
+ 0001:00000ac0       ?get_UnitsType@IHVariableImp@HVariable@@UAGJPAH@Z 10001ac0 f   hdblval.obj
+ 0001:00000b70       ?put_UnitsType@IHVariableImp@HVariable@@UAGJH@Z 10001b70 f   hdblval.obj
+ 0001:00000c30       ?get_Name@IHVariableImp@HVariable@@UAGJPAPA_WW4NameTypeEnum@@@Z 10001c30 f   hdblval.obj
+ 0001:00000de0       ?put_Name@IHVariableImp@HVariable@@UAGJPA_W@Z 10001de0 f   hdblval.obj
+ 0001:00000f10       ?get_Formula@IHVariableImp@HVariable@@UAGJPAPA_WW4NameTypeEnum@@@Z 10001f10 f   hdblval.obj
+ 0001:00000fe0       ?Delete@IHVariableImp@HVariable@@UAGJXZ 10001fe0 f   hdblval.obj
+ 0001:00001360       ??0HVariable@@QAE@PAUIUnknown@@@Z 10002360 f   hdblval.obj
+ 0001:000013a0       ?Release@HVariable@@UAGKXZ 100023a0 f   hdblval.obj
+ 0001:000013f0       _DllMain@12                100023f0 f   server.obj
+ 0001:00001420       ?ServerGetNumberOfObjects@@YAKXZ 10002420 f   server.obj
+ 0001:00001430       ?ServerGetNumberOfLocks@@YAKXZ 10002430 f   server.obj
+ 0001:00001440       ?ServerIncrementNumberOfObjects@@YAXXZ 10002440 f   server.obj
+ 0001:00001450       ?ServerDecrementNumberOfObjects@@YAXXZ 10002450 f   server.obj
+ 0001:00001460       ?ServerIncrementNumberOfLocks@@YAXXZ 10002460 f   server.obj
+ 0001:00001470       ?ServerDecrementNumberOfLocks@@YAXXZ 10002470 f   server.obj
+ 0001:00001480       _DllCanUnloadNow@0         10002480 f   server.obj
+ 0001:000014a0       ??0?$ClassFactory@VHVariables@@@@QAE@HHH@Z 100024a0 f i server.obj
+ 0001:00001520       ?OnCreateInstance@?$ClassFactory@VHVariables@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002520 f i server.obj
+ 0001:00001670       ??0?$ClassFactory@VHVariable@@@@QAE@HHH@Z 10002670 f i server.obj
+ 0001:000016f0       ?OnCreateInstance@?$ClassFactory@VHVariable@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100026f0 f i server.obj
+ 0001:00001840       ??0?$ClassFactory@VHVarCollection@@@@QAE@HHH@Z 10002840 f i server.obj
+ 0001:000018c0       ?OnCreateInstance@?$ClassFactory@VHVarCollection@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100028c0 f i server.obj
+ 0001:00001a10       ??0?$ClassFactory@VHVariableList@@@@QAE@HHH@Z 10002a10 f i server.obj
+ 0001:00001a90       ?OnCreateInstance@?$ClassFactory@VHVariableList@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10002a90 f i server.obj
+ 0001:00001be0       _DllGetClassObject@12      10002be0 f   server.obj
+ 0001:00001db0       ??_E?$ClassFactory@VHVariables@@@@UAEPAXI@Z 10002db0 f i server.obj
+ 0001:00001db0       ??_G?$ClassFactory@VHVariables@@@@UAEPAXI@Z 10002db0 f i server.obj
+ 0001:00001e10       ??_E?$ClassFactory@VHVariable@@@@UAEPAXI@Z 10002e10 f i server.obj
+ 0001:00001e10       ??_G?$ClassFactory@VHVariable@@@@UAEPAXI@Z 10002e10 f i server.obj
+ 0001:00001e70       ??_E?$ClassFactory@VHVarCollection@@@@UAEPAXI@Z 10002e70 f i server.obj
+ 0001:00001e70       ??_G?$ClassFactory@VHVarCollection@@@@UAEPAXI@Z 10002e70 f i server.obj
+ 0001:00001ed0       ??_E?$ClassFactory@VHVariableList@@@@UAEPAXI@Z 10002ed0 f i server.obj
+ 0001:00001ed0       ??_G?$ClassFactory@VHVariableList@@@@UAEPAXI@Z 10002ed0 f i server.obj
+ 0001:00001f30       ??1HVarCollection@@QAE@XZ  10002f30 f   varcoll.obj
+ 0001:00001f40       ?Initialize@HVariables@@QAEJXZ 10002f40 f   variabls.obj
+ 0001:00001f40       ?Initialize@HVariable@@QAEJXZ 10002f40 f   hdblval.obj
+ 0001:00001f40       ?Initialize@HVarCollection@@QAEJXZ 10002f40 f   varcoll.obj
+ 0001:00001f40       ?Initialize@HVariableList@@QAEJXZ 10002f40 f   varlist.obj
+ 0001:00001f50       ?QueryInterface@IHVarCollectionImp@HVarCollection@@UAGJABU_GUID@@PAPAX@Z 10002f50 f   varcoll.obj
+ 0001:00001f50       ?QueryInterface@IHVariablesImp@HVariables@@UAGJABU_GUID@@PAPAX@Z 10002f50 f   variabls.obj
+ 0001:00001f50       ?QueryInterface@IHelperImp@HVariable@@UAGJABU_GUID@@PAPAX@Z 10002f50 f   hdblval.obj
+ 0001:00001f70       ?AddRef@IHVarCollectionImp@HVarCollection@@UAGKXZ 10002f70 f   varcoll.obj
+ 0001:00001f90       ?Release@IHVarCollectionImp@HVarCollection@@UAGKXZ 10002f90 f   varcoll.obj
+ 0001:00001fb0       ?get_Variables@IHVarCollectionImp@HVarCollection@@UAGJPAPAUIUnknown@@@Z 10002fb0 f   varcoll.obj
+ 0001:00002090       ?QueryInterface@IHelperImp@HVariables@@UAGJABU_GUID@@PAPAX@Z 10003090 f   variabls.obj
+ 0001:00002090       ?QueryInterface@IHVariableListImp@HVariableList@@EAGJABU_GUID@@PAPAX@Z 10003090 f   varlist.obj
+ 0001:00002090       ?QueryInterface@IHelperImp@HVarCollection@@UAGJABU_GUID@@PAPAX@Z 10003090 f   varcoll.obj
+ 0001:000020b0       ?AddRef@IHelperImp@HVarCollection@@UAGKXZ 100030b0 f   varcoll.obj
+ 0001:000020d0       ?Release@IHelperImp@HVarCollection@@UAGKXZ 100030d0 f   varcoll.obj
+ 0001:000020f0       ?Bind@IHelperImp@HVarCollection@@UAGJPAUIUnknown@@@Z 100030f0 f   varcoll.obj
+ 0001:00002110       ?GetBinding@IHelperImp@HVarCollection@@UAGJPAPAUIUnknown@@@Z 10003110 f   varcoll.obj
+ 0001:00002130       ?SetParent@IHelperImp@HVarCollection@@UAGJPAUIUnknown@@@Z 10003130 f   varcoll.obj
+ 0001:00002150       ?GetClassID@IHelperImp@HVarCollection@@UAGJPAU_GUID@@@Z 10003150 f   varcoll.obj
+ 0001:00002180       ?Release@HVarCollection@@UAGKXZ 10003180 f   varcoll.obj
+ 0001:000021d0       ?QueryInterface@HVarCollection@@UAGJABU_GUID@@PAPAX@Z 100031d0 f   varcoll.obj
+ 0001:00002260       ??0HVarCollection@@QAE@PAUIUnknown@@@Z 10003260 f   varcoll.obj
+ 0001:00002290       ?CompareFilterName@@YAHPA_W0H@Z 10003290 f   variabls.obj
+ 0001:00002440       ?Skip@CDMEnumFilter@@UAGJK@Z 10003440 f   variabls.obj
+ 0001:00002470       ?Reset@CDMEnumFilter@@UAGJXZ 10003470 f   variabls.obj
+ 0001:00002480       ?AddRef@CDMEnumFilter@@UAGKXZ 10003480 f   variabls.obj
+ 0001:00002480       ?AddRef@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGKXZ 10003480 f   varlist.obj
+ 0001:00002480       ?AddRef@HVariableList@@UAGKXZ 10003480 f   varlist.obj
+ 0001:00002480       ?AddRef@HVarCollection@@UAGKXZ 10003480 f   varcoll.obj
+ 0001:00002480       ?AddRef@HVariables@@UAGKXZ 10003480 f   variabls.obj
+ 0001:00002490       ?AddRef@IHVariablesImp@HVariables@@UAGKXZ 10003490 f   variabls.obj
+ 0001:000024b0       ?Release@IHVariablesImp@HVariables@@UAGKXZ 100034b0 f   variabls.obj
+ 0001:000024d0       ?Item@IHVariablesImp@HVariables@@UAGJUtagVARIANT@@PAPAUIUnknown@@W4NameTypeEnum@@@Z 100034d0 f   variabls.obj
+ 0001:00002620       ?_NewEnum@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z 10003620 f   variabls.obj
+ 0001:00002650       ?get_Application@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z 10003650 f   variabls.obj
+ 0001:00002670       ?get_Count@IHVariablesImp@HVariables@@UAGJPAH@Z 10003670 f   variabls.obj
+ 0001:00002690       ?get_Parent@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z 10003690 f   variabls.obj
+ 0001:000026f0       ?DetermineArgumentValue@@YAJUtagVARIANT@@HAAH_N@Z 100036f0 f   variabls.obj
+ 0001:00002800       ?swprintf@@YAHPA_WPB_WZZ   10003800 f i variabls.obj
+ 0001:00002820       ?AddRef@IHVariableListImp@HVariableList@@EAGKXZ 10003820 f   varlist.obj
+ 0001:00002820       ?AddRef@IHelperImp@HVariables@@UAGKXZ 10003820 f   variabls.obj
+ 0001:00002840       ?Bind@IHelperImp@HVariables@@UAGJPAUIUnknown@@@Z 10003840 f   variabls.obj
+ 0001:00002850       ?GetBinding@IHelperImp@HVariables@@UAGJPAPAUIUnknown@@@Z 10003850 f   variabls.obj
+ 0001:00002870       ?SetParent@IHelperImp@HVariables@@UAGJPAUIUnknown@@@Z 10003870 f   variabls.obj
+ 0001:00002900       ?GetClassID@IHelperImp@HVariables@@UAGJPAU_GUID@@@Z 10003900 f   variabls.obj
+ 0001:00002930       ??0?$JArray@PAUIDispatch@@PAU1@@@QAE@XZ 10003930 f i variabls.obj
+ 0001:00002930       ??0?$JArray@PAUIUnknown@@PAU1@@@QAE@XZ 10003930 f i varlist.obj
+ 0001:00002940       ?QueryInterface@CDMEnumFilter@@UAGJABU_GUID@@PAPAX@Z 10003940 f   variabls.obj
+ 0001:000029b0       ??1HVariables@@QAE@XZ      100039b0 f   variabls.obj
+ 0001:000029f0       ?QueryInterface@HVariables@@UAGJABU_GUID@@PAPAX@Z 100039f0 f   variabls.obj
+ 0001:00002ae0       ?Translate@IHVariablesImp@HVariables@@UAGJPA_WPAPAUIUnknown@@W4NameTypeEnum@@@Z 10003ae0 f   variabls.obj
+ 0001:00002b90       ?AddFromClipboard@IHVariablesImp@HVariables@@UAGJPA_WUtagVARIANT@@PAPAUIUnknown@@@Z 10003b90 f   variabls.obj
+ 0001:00002d70       ?Add@IHVariablesImp@HVariables@@UAGJPA_W0UtagVARIANT@@PAPAUIUnknown@@@Z 10003d70 f   variabls.obj
+ 0001:00002f10       ?EditFromClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z 10003f10 f   variabls.obj
+ 0001:00003090       ?Edit@IHVariablesImp@HVariables@@UAGJPA_W0@Z 10004090 f   variabls.obj
+ 0001:000031b0       ?GetFormula@IHVariablesImp@HVariables@@UAGJPA_WPAPA_WW4NameTypeEnum@@@Z 100041b0 f   variabls.obj
+ 0001:00003350       ?PutName@IHVariablesImp@HVariables@@UAGJPAUIUnknown@@PA_W@Z 10004350 f   variabls.obj
+ 0001:000034d0       ?GetName@IHVariablesImp@HVariables@@UAGJPAUIUnknown@@PAPA_WW4NameTypeEnum@@@Z 100044d0 f   variabls.obj
+ 0001:00003640       ?Query@IHVariablesImp@HVariables@@UAGJPA_WPAPAUIUnknown@@UtagVARIANT@@22W4NameTypeEnum@@@Z 10004640 f   variabls.obj
+ 0001:00003b90       ?GetVisibleCount@IHVariablesImp@HVariables@@UAGJPAH@Z 10004b90 f   variabls.obj
+ 0001:00003cf0       ?GetVisibleItem@IHVariablesImp@HVariables@@UAGJKPAPAUIUnknown@@@Z 10004cf0 f   variabls.obj
+ 0001:00003e70       ??0CDMEnumFilter@@QAE@XZ   10004e70 f   variabls.obj
+ 0001:00003ed0       ??1CDMEnumFilter@@QAE@XZ   10004ed0 f   variabls.obj
+ 0001:00003f60       ?SetNumElements@CDMEnumFilter@@QAEJK@Z 10004f60 f   variabls.obj
+ 0001:00003fa0       ?LoadElement@CDMEnumFilter@@QAEJPAUIDispatch@@K@Z 10004fa0 f   variabls.obj
+ 0001:00003fd0       ?Next@CDMEnumFilter@@UAGJKPAUtagVARIANT@@PAK@Z 10004fd0 f   variabls.obj
+ 0001:000040c0       ?Clone@CDMEnumFilter@@UAGJPAPAUIEnumVARIANT@@@Z 100050c0 f   variabls.obj
+ 0001:000041a0       ??0HVariables@@QAE@PAUIUnknown@@@Z 100051a0 f   variabls.obj
+ 0001:000041e0       ?Release@HVariables@@UAGKXZ 100051e0 f   variabls.obj
+ 0001:00004240       ?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z 10005240 f   variabls.obj
+ 0001:00004710       ?GetVisibleNewEnum@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z 10005710 f   variabls.obj
+ 0001:00004960       ?Release@CDMEnumFilter@@UAGKXZ 10005960 f   variabls.obj
+ 0001:00004990       ?SetEnv@HVariableList@@QAEXPAUIJPersistManager@@PAUIUnknown@@@Z 10005990 f   varlist.obj
+ 0001:000049b0       ?Release@IHVariableListImp@HVariableList@@EAGKXZ 100059b0 f   varlist.obj
+ 0001:000049b0       ?Release@IHelperImp@HVariables@@UAGKXZ 100059b0 f   variabls.obj
+ 0001:000049d0       ??$wcscpy@PA_W@@YAPA_WAAPA_WPB_W@Z 100059d0 f i varlist.obj
+ 0001:00004a00       ??$ConstructElements@PAUIDispatch@@@@YGXPAPAUIDispatch@@H@Z 10005a00 f i variabls.obj
+ 0001:00004a00       ??$ConstructElements@PAUIUnknown@@@@YGXPAPAUIUnknown@@H@Z 10005a00 f i varlist.obj
+ 0001:00004a20       ?QueryInterface@HVariableList@@UAGJABU_GUID@@PAPAX@Z 10005a20 f   varlist.obj
+ 0001:00004b70       ?get_Count@IHVariableListImp@HVariableList@@EAGJPAH@Z 10005b70 f   varlist.obj
+ 0001:00004bb0       ??0?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@QAE@ABU_GUID@@P6AJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z42P6AJAAPAX3AAPAU3@@ZP6AX24@ZPAV?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@$04@@@Z 10005bb0 f i varlist.obj
+ 0001:00004c20       ?QueryInterface@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJABU_GUID@@PAPAX@Z 10005c20 f i varlist.obj
+ 0001:00004c80       ?Next@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJKPAUtagVARIANT@@PAK@Z 10005c80 f i varlist.obj
+ 0001:00004cf0       ?Skip@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJK@Z 10005cf0 f i varlist.obj
+ 0001:00004d30       ?Reset@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJXZ 10005d30 f i varlist.obj
+ 0001:00004d40       ?AddToCache@?$JEnumDataPointerCache@V?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@$04@@QAEJPAV?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@PAUIUnknown@@@Z 10005d40 f i varlist.obj
+ 0001:00004d80       ?RemoveAt@?$JArray@PAUIUnknown@@PAU1@@@QAEXHH@Z 10005d80 f i varlist.obj
+ 0001:00004dc0       ??1?$JArray@PAUIDispatch@@PAU1@@@QAE@XZ 10005dc0 f i variabls.obj
+ 0001:00004dc0       ??1?$JArray@PAUIUnknown@@PAU1@@@QAE@XZ 10005dc0 f i varlist.obj
+ 0001:00004dd0       ?SetSize@?$JArray@PAUIUnknown@@PAU1@@@QAEXHH@Z 10005dd0 f i varlist.obj
+ 0001:00004dd0       ?SetSize@?$JArray@PAUIDispatch@@PAU1@@@QAEXHH@Z 10005dd0 f i variabls.obj
+ 0001:00004ef0       ?SetAtGrow@?$JArray@PAUIUnknown@@PAU1@@@QAEXHPAUIUnknown@@@Z 10005ef0 f i varlist.obj
+ 0001:00004f30       ??0HVariableList@@QAE@PAUIUnknown@@@Z 10005f30 f   varlist.obj
+ 0001:00004fb0       ?IsVarInArray@HVariableList@@QAEJPAUIUnknown@@@Z 10005fb0 f   varlist.obj
+ 0001:00004fe0       ?Item@IHVariableListImp@HVariableList@@EAGJUtagVARIANT@@PAPAUIUnknown@@W4NameTypeEnum@@@Z 10005fe0 f   varlist.obj
+ 0001:00005210       ?_NewEnum@IHVariableListImp@HVariableList@@EAGJPAPAUIUnknown@@@Z 10006210 f   varlist.obj
+ 0001:00005320       ?Remove@IHVariableListImp@HVariableList@@EAGJUtagVARIANT@@@Z 10006320 f   varlist.obj
+ 0001:000053d0       ?Release@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGKXZ 100063d0 f i varlist.obj
+ 0001:00005470       ?Clone@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJPAPAUIEnumVARIANT@@@Z 10006470 f i varlist.obj
+ 0001:00005580       ?Add@?$JArray@PAUIUnknown@@PAU1@@@QAEHPAUIUnknown@@@Z 10006580 f i varlist.obj
+ 0001:000055a0       ??1HVariableList@@QAE@XZ   100065a0 f   varlist.obj
+ 0001:00005660       ?Add@IHVariableListImp@HVariableList@@EAGJUtagVARIANT@@@Z 10006660 f   varlist.obj
+ 0001:00005870       ?Release@HVariableList@@UAGKXZ 10006870 f   varlist.obj
+ 0001:0000589e       ?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 1000689e f   daxutil:Daxutil.dll
+ 0001:000058a4       ?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 100068a4 f   daxutil:Daxutil.dll
+ 0001:000058aa       ?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 100068aa f   daxutil:Daxutil.dll
+ 0001:000058b0       ?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 100068b0 f   daxutil:Daxutil.dll
+ 0001:000058b6       _GetErrorCode@0            100068b6 f   exprdex:EXPRDEX.DLL
+ 0001:000058bc       _SetErrorCode@4            100068bc f   exprdex:EXPRDEX.DLL
+ 0001:000058c2       _JVarSetStringValue@8      100068c2 f   exprdex:EXPRDEX.DLL
+ 0001:000058c8       _SetCallMod@4              100068c8 f   exprdex:EXPRDEX.DLL
+ 0001:000058ce       _JVarEdit@12               100068ce f   exprdex:EXPRDEX.DLL
+ 0001:000058d4       _GetActiveEnv@12           100068d4 f   exprdex:EXPRDEX.DLL
+ 0001:000058da       _JVarGetStringValue@8      100068da f   exprdex:EXPRDEX.DLL
+ 0001:000058e0       _JVarGetNameManager@8      100068e0 f   exprdex:EXPRDEX.DLL
+ 0001:000058e6       _JVarGetListener@8         100068e6 f   exprdex:EXPRDEX.DLL
+ 0001:000058ec       _JVarGetFormula@12         100068ec f   exprdex:EXPRDEX.DLL
+ 0001:000058f2       _JVarGetEnv@12             100068f2 f   exprdex:EXPRDEX.DLL
+ 0001:000058f8       _JVarAddDouble@32          100068f8 f   exprdex:EXPRDEX.DLL
+ 0001:000058fe       _GetObjectNameFromClipboard@12 100068fe f   exprdex:EXPRDEX.DLL
+ 0001:00005904       _JVarFilter@12             10006904 f   exprdex:EXPRDEX.DLL
+ 0001:0000590a       _JExprCopyToClipboard@12   1000690a f   exprdex:EXPRDEX.DLL
+ 0001:00005910       _HAddRefObject@8           10006910 f   jengine:jengine.dll
+ 0001:00005916       _HReleaseObject@8          10006916 f   jengine:jengine.dll
+ 0001:0000591c       _BatchFlush@0              1000691c f   jengine:jengine.dll
+ 0001:00005922       _BatchModify@8             10006922 f   jengine:jengine.dll
+ 0001:00005928       _JBindDAXObject@12         10006928 f   jengine:jengine.dll
+ 0001:0000592e       @GetPersistManager@8       1000692e f   jengine:jengine.dll
+ 0001:00005934       _HGetBinding@12            10006934 f   jengine:jengine.dll
+ 0001:0000593a       _HSetParentObject@12       1000693a f   jengine:jengine.dll
+ 0001:00005940       _BatchDelete@4             10006940 f   jengine:jengine.dll
+ 0001:00005946       _JGetFastDAXObject@16      10006946 f   jengine:jengine.dll
+ 0001:0000594c       _JGetApplication           1000694c f   jengine:jengine.dll
+ 0001:00005952       _HBindCollection@12        10006952 f   jengine:jengine.dll
+ 0001:00005958       _HRerrEx                   10006958 f   jutil:JUtil.dll
+ 0001:0000595e       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000695e f   jutil:JUtil.dll
+ 0001:00005964       ?AddRef@JClassFactory@@UAGKXZ 10006964 f   jutil:JUtil.dll
+ 0001:0000596a       ?Release@JClassFactory@@UAGKXZ 1000696a f   jutil:JUtil.dll
+ 0001:00005970       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10006970 f   jutil:JUtil.dll
+ 0001:00005976       ?LockServer@JClassFactory@@UAGJH@Z 10006976 f   jutil:JUtil.dll
+ 0001:0000597c       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000697c f   jutil:JUtil.dll
+ 0001:00005982       _JCoCreateInstance         10006982 f   jutil:JUtil.dll
+ 0001:00005988       _malloc                    10006988 f   MSVCRT:MSVCR80.dll
+ 0001:0000598e       __callnewh                 1000698e f   MSVCRT:MSVCR80.dll
+ 0001:00005994       ??_Etype_info@@UAEPAXI@Z   10006994 f i MSVCRT:ti_inst.obj
+ 0001:000059de       ??3@YAXPAX@Z               100069de f   MSVCRT:MSVCR80.dll
+ 0001:000059f0       ___CxxFrameHandler3        100069f0 f   MSVCRT:MSVCR80.dll
+ 0001:000059f6       @__security_check_cookie@4 100069f6 f   MSVCRT:secchk.obj
+ 0001:00005a06       _wcscmp                    10006a06 f   MSVCRT:MSVCR80.dll
+ 0001:00005a0c       _memset                    10006a0c f   MSVCRT:MSVCR80.dll
+ 0001:00005a12       ??_V@YAXPAX@Z              10006a12 f   MSVCRT:MSVCR80.dll
+ 0001:00005a18       _memcpy                    10006a18 f   MSVCRT:MSVCR80.dll
+ 0001:00005a6b       __CRT_INIT@12              10006a6b f   MSVCRT:crtdll.obj
+ 0001:00005d20       __DllMainCRTStartup@12     10006d20 f   MSVCRT:crtdll.obj
+ 0001:00005d41       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006d41 f   MSVCRT:ehvecdtr.obj
+ 0001:00005d9f       ??_M@YGXPAXIHP6EX0@Z@Z     10006d9f f   MSVCRT:ehvecdtr.obj
+ 0001:00005e02       ___report_gsfailure        10006e02 f   MSVCRT:gs_report.obj
+ 0001:00005f06       ___clean_type_info_names   10006f06 f   MSVCRT:tncleanup.obj
+ 0001:00005f12       __onexit                   10006f12 f   MSVCRT:atonexit.obj
+ 0001:00005fb1       _atexit                    10006fb1 f   MSVCRT:atonexit.obj
+ 0001:00005fc3       __RTC_Initialize           10006fc3 f   MSVCRT:initsect.obj
+ 0001:00005fe7       __RTC_Terminate            10006fe7 f   MSVCRT:initsect.obj
+ 0001:00006010       __ValidateImageBase        10007010 f   MSVCRT:pesect.obj
+ 0001:00006040       __FindPESection            10007040 f   MSVCRT:pesect.obj
+ 0001:00006082       __IsNonwritableInCurrentImage 10007082 f   MSVCRT:pesect.obj
+ 0001:000060ee       __initterm                 100070ee f   MSVCRT:MSVCR80.dll
+ 0001:000060f4       __initterm_e               100070f4 f   MSVCRT:MSVCR80.dll
+ 0001:000060fa       __amsg_exit                100070fa f   MSVCRT:MSVCR80.dll
+ 0001:00006100       ___CppXcptFilter           10007100 f   MSVCRT:MSVCR80.dll
+ 0001:00006108       __SEH_prolog4              10007108 f   MSVCRT:sehprolg4.obj
+ 0001:0000614d       __SEH_epilog4              1000714d f   MSVCRT:sehprolg4.obj
+ 0001:00006161       __except_handler4          10007161 f   MSVCRT:chandler4gs.obj
+ 0001:00006184       ___security_init_cookie    10007184 f   MSVCRT:gs_support.obj
+ 0001:00006218       ?terminate@@YAXXZ          10007218 f   MSVCRT:MSVCR80.dll
+ 0001:0000621e       ??1type_info@@UAE@XZ       1000721e f   MSVCRT:MSVCR80.dll
+ 0001:0000621e       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000721e f   MSVCRT:MSVCR80.dll
+ 0001:00006224       __crt_debugger_hook        10007224 f   MSVCRT:MSVCR80.dll
+ 0001:0000622a       ___clean_type_info_names_internal 1000722a f   MSVCRT:MSVCR80.dll
+ 0001:00006230       __unlock                   10007230 f   MSVCRT:MSVCR80.dll
+ 0001:00006236       ___dllonexit               10007236 f   MSVCRT:MSVCR80.dll
+ 0001:0000623c       __lock                     1000723c f   MSVCRT:MSVCR80.dll
+ 0001:00006242       __except_handler4_common   10007242 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 10008000     daxutil:Daxutil.dll
+ 0002:00000004       __imp_?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10008004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 10008008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp_?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 1000800c     daxutil:Daxutil.dll
+ 0002:00000010       \177Daxutil_NULL_THUNK_DATA 10008010     daxutil:Daxutil.dll
+ 0002:00000014       __imp__GetErrorCode@0      10008014     exprdex:EXPRDEX.DLL
+ 0002:00000018       __imp__SetErrorCode@4      10008018     exprdex:EXPRDEX.DLL
+ 0002:0000001c       __imp__JVarSetStringValue@8 1000801c     exprdex:EXPRDEX.DLL
+ 0002:00000020       __imp__SetCallMod@4        10008020     exprdex:EXPRDEX.DLL
+ 0002:00000024       __imp__JVarEdit@12         10008024     exprdex:EXPRDEX.DLL
+ 0002:00000028       __imp__GetActiveEnv@12     10008028     exprdex:EXPRDEX.DLL
+ 0002:0000002c       __imp__JVarGetStringValue@8 1000802c     exprdex:EXPRDEX.DLL
+ 0002:00000030       __imp__JVarGetNameManager@8 10008030     exprdex:EXPRDEX.DLL
+ 0002:00000034       __imp__JVarGetListener@8   10008034     exprdex:EXPRDEX.DLL
+ 0002:00000038       __imp__JVarGetFormula@12   10008038     exprdex:EXPRDEX.DLL
+ 0002:0000003c       __imp__JVarGetEnv@12       1000803c     exprdex:EXPRDEX.DLL
+ 0002:00000040       __imp__JVarAddDouble@32    10008040     exprdex:EXPRDEX.DLL
+ 0002:00000044       __imp__GetObjectNameFromClipboard@12 10008044     exprdex:EXPRDEX.DLL
+ 0002:00000048       __imp__JVarFilter@12       10008048     exprdex:EXPRDEX.DLL
+ 0002:0000004c       __imp__JExprCopyToClipboard@12 1000804c     exprdex:EXPRDEX.DLL
+ 0002:00000050       \177EXPRDEX_NULL_THUNK_DATA 10008050     exprdex:EXPRDEX.DLL
+ 0002:00000054       __imp_??0GUserText@@QAE@XZ 10008054     jutil:JUtil.dll
+ 0002:00000058       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10008058     jutil:JUtil.dll
+ 0002:0000005c       __imp_?FormatUnit@@YAHINAAVGUserText@@PAUtagUomFormat@@PAI22@Z 1000805c     jutil:JUtil.dll
+ 0002:00000060       __imp_??BGUserText@@QBEPB_WXZ 10008060     jutil:JUtil.dll
+ 0002:00000064       __imp_?IsEmpty@GUserText@@QBEHXZ 10008064     jutil:JUtil.dll
+ 0002:00000068       __imp_??1GUserText@@QAE@XZ 10008068     jutil:JUtil.dll
+ 0002:0000006c       __imp__JCoCreateInstance   1000806c     jutil:JUtil.dll
+ 0002:00000070       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 10008070     jutil:JUtil.dll
+ 0002:00000074       __imp_?LockServer@JClassFactory@@UAGJH@Z 10008074     jutil:JUtil.dll
+ 0002:00000078       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10008078     jutil:JUtil.dll
+ 0002:0000007c       __imp_?Release@JClassFactory@@UAGKXZ 1000807c     jutil:JUtil.dll
+ 0002:00000080       __imp_?AddRef@JClassFactory@@UAGKXZ 10008080     jutil:JUtil.dll
+ 0002:00000084       __imp__HRerrEx             10008084     jutil:JUtil.dll
+ 0002:00000088       __imp_??1JClassFactory@@UAE@XZ 10008088     jutil:JUtil.dll
+ 0002:0000008c       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 1000808c     jutil:JUtil.dll
+ 0002:00000090       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10008090     jutil:JUtil.dll
+ 0002:00000094       \177JUtil_NULL_THUNK_DATA  10008094     jutil:JUtil.dll
+ 0002:00000098       __imp__InterlockedCompareExchange@12 10008098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__TerminateProcess@8  1000809c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetCurrentProcess@0 100080a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__UnhandledExceptionFilter@4 100080a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__SetUnhandledExceptionFilter@4 100080a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__IsDebuggerPresent@0 100080ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__QueryPerformanceCounter@4 100080b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__GetTickCount@0      100080b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetCurrentProcessId@0 100080b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__GetSystemTimeAsFileTime@4 100080bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__Sleep@4             100080c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetCurrentThreadId@0 100080c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__InterlockedExchange@8 100080c8     kernel32:KERNEL32.dll
+ 0002:000000cc       \177KERNEL32_NULL_THUNK_DATA 100080cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__wcsicmp             100080d0     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___wcsicmp            100080d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp__wcsnicmp            100080d4     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___wcsnicmp           100080d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp___except_handler4_common 100080d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___onexit             100080dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___lock               100080e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp____dllonexit         100080e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___unlock             100080e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp____clean_type_info_names_internal 100080ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__malloc              100080f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___callnewh           100080f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp_??3@YAXPAX@Z         100080f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp____CxxFrameHandler3  100080fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp__wcscmp              10008100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp__wcsncmp             10008104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___vswprintf          10008108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp__memset              1000810c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp_??_V@YAXPAX@Z        10008110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp__memcpy              10008114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp__memmove             10008118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___encode_pointer     1000811c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp___malloc_crt         10008120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___encoded_null       10008124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp__free                10008128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___decode_pointer     1000812c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp___initterm           10008130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp___initterm_e         10008134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp___amsg_exit          10008138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp___adjust_fdiv        1000813c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp____CppXcptFilter     10008140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp_?terminate@@YAXXZ    10008144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10008148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp___crt_debugger_hook  1000814c     MSVCRT:MSVCR80.dll
+ 0002:00000150       \177MSVCR80_NULL_THUNK_DATA 10008150     MSVCRT:MSVCR80.dll
+ 0002:00000154       __imp__VariantCopyInd@8    10008154     oleaut32:OLEAUT32.dll
+ 0002:00000158       __imp__VariantInit@4       10008158     oleaut32:OLEAUT32.dll
+ 0002:0000015c       __imp__VariantChangeType@16 1000815c     oleaut32:OLEAUT32.dll
+ 0002:00000160       \177OLEAUT32_NULL_THUNK_DATA 10008160     oleaut32:OLEAUT32.dll
+ 0002:00000164       __imp__HAddRefObject@8     10008164     jengine:jengine.dll
+ 0002:00000168       __imp__HReleaseObject@8    10008168     jengine:jengine.dll
+ 0002:0000016c       __imp__BatchFlush@0        1000816c     jengine:jengine.dll
+ 0002:00000170       __imp__BatchModify@8       10008170     jengine:jengine.dll
+ 0002:00000174       __imp__HBindCollection@12  10008174     jengine:jengine.dll
+ 0002:00000178       __imp__JGetApplication     10008178     jengine:jengine.dll
+ 0002:0000017c       __imp__JGetFastDAXObject@16 1000817c     jengine:jengine.dll
+ 0002:00000180       __imp__BatchDelete@4       10008180     jengine:jengine.dll
+ 0002:00000184       __imp__HSetParentObject@12 10008184     jengine:jengine.dll
+ 0002:00000188       __imp__HGetBinding@12      10008188     jengine:jengine.dll
+ 0002:0000018c       __imp_@GetPersistManager@8 1000818c     jengine:jengine.dll
+ 0002:00000190       __imp__JBindDAXObject@12   10008190     jengine:jengine.dll
+ 0002:00000194       \177jengine_NULL_THUNK_DATA 10008194     jengine:jengine.dll
+ 0002:00000198       __imp__JSESysAllocString@4 10008198     sealloc:sealloc.dll
+ 0002:0000019c       __imp__JCoTaskMemFree@4    1000819c     sealloc:sealloc.dll
+ 0002:000001a0       __imp__JVariantClear@4     100081a0     sealloc:sealloc.dll
+ 0002:000001a4       __imp__JCoGetMalloc@8      100081a4     sealloc:sealloc.dll
+ 0002:000001a8       \177sealloc_NULL_THUNK_DATA 100081a8     sealloc:sealloc.dll
+ 0002:000001ac       ___xc_a                    100081ac     MSVCRT:cinitexe.obj
+ 0002:000001e0       ___xc_z                    100081e0     MSVCRT:cinitexe.obj
+ 0002:000001e4       ___xi_a                    100081e4     MSVCRT:cinitexe.obj
+ 0002:000001ec       ___xi_z                    100081ec     MSVCRT:cinitexe.obj
+ 0002:0000020c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000820c     guid.obj
+ 0002:0000021c       _CLSID_CFrameWorkDispatchObjectFactory 1000821c     guid.obj
+ 0002:0000022c       _IID_IJPersistManager      1000822c     guid.obj
+ 0002:0000023c       _IID_IJDocument            1000823c     guid.obj
+ 0002:0000024c       _CLSID_HVariables          1000824c     guid.obj
+ 0002:0000025c       _CLSID_JDoubleValue        1000825c     guid.obj
+ 0002:0000026c       _CLSID__HVariablesCollection 1000826c     guid.obj
+ 0002:0000027c       _CLSID__HVariableList      1000827c     guid.obj
+ 0002:0000028c       _IID_IJGraphic             1000828c     guid.obj
+ 0002:0000029c       _IID_IJDoubleValue         1000829c     guid.obj
+ 0002:000002ac       _IID_IHelper               100082ac     guid.obj
+ 0002:000002bc       _CLSID_HVariable           100082bc     guid.obj
+ 0002:000002cc       _CLSID_HVariableList       100082cc     guid.obj
+ 0002:000002dc       _IID__IHVariable           100082dc     guid.obj
+ 0002:000002ec       _IID__IHVariableList       100082ec     guid.obj
+ 0002:000002fc       _IID__IHVariables          100082fc     guid.obj
+ 0002:0000030c       _IID__IHVariablesCollection 1000830c     guid.obj
+ 0002:0000031c       _IID_IJExposedVariablePropertyInfo 1000831c     guid.obj
+ 0002:0000032c       _IID_IJMembassy            1000832c     guid.obj
+ 0002:0000033c       ??_C@_0O@OPJLEBC@?4?2hdblval?4cpp?$AA@ 1000833c     hdblval.obj
+ 0002:0000034c       ??_C@_0CD@CDPAIIOP@HVariable?3?3IHVariableImp?3?3SetVal@ 1000834c     hdblval.obj
+ 0002:00000370       ??_C@_0CG@PEHDONO@HVariable?3?3IHVariableImp?3?3put_Fo@ 10008370     hdblval.obj
+ 0002:0000039c       ??_7IHelperImp@HVariable@@6B@ 1000839c     hdblval.obj
+ 0002:000003bc       ??_7IHVariableImp@HVariable@@6B@ 100083bc     hdblval.obj
+ 0002:00000408       ??_7HVariable@@6B@         10008408     hdblval.obj
+ 0002:00000414       ??_C@_0CE@MEELPND@HVariable?3?3IHVariableImp?3?3get_Va@ 10008414     hdblval.obj
+ 0002:00000438       ??_C@_11LOCGONAA@?$AA?$AA@ 10008438     hdblval.obj
+ 0002:0000043c       ??_C@_0CE@GFPGGHDD@HVariable?3?3IHVariableImp?3?3put_Va@ 1000843c     hdblval.obj
+ 0002:00000460       ??_C@_0CJ@EDLLICOO@HVariable?3?3IHVariableImp?3?3get_Pr@ 10008460     hdblval.obj
+ 0002:0000048c       ??_C@_0CJ@PKGKCONH@HVariable?3?3IHVariableImp?3?3put_Pr@ 1000848c     hdblval.obj
+ 0002:000004b8       ??_C@_0CD@NMKHFGM@HVariable?3?3IHVariableImp?3?3SetRan@ 100084b8     hdblval.obj
+ 0002:000004dc       ??_C@_0CD@PMOGGGBB@HVariable?3?3IHVariableImp?3?3GetRan@ 100084dc     hdblval.obj
+ 0002:00000500       ??_C@_0CI@PPAJIIFL@HVariable?3?3IHVariableImp?3?3get_Un@ 10008500     hdblval.obj
+ 0002:00000528       ??_C@_0CI@EIHBLICN@HVariable?3?3IHVariableImp?3?3put_Un@ 10008528     hdblval.obj
+ 0002:00000550       ??_C@_0CD@NEOMNKDJ@HVariable?3?3IHVariableImp?3?3get_Na@ 10008550     hdblval.obj
+ 0002:00000574       ??_C@_0CD@GAPGMEKK@HVariable?3?3IHVariableImp?3?3put_Na@ 10008574     hdblval.obj
+ 0002:00000598       ??_C@_0CB@MNKOBJDB@HVariable?3?3IHVariableImp?3?3Delete@ 10008598     hdblval.obj
+ 0002:000005c0       ??_7?$ClassFactory@VHVariables@@@@6B@ 100085c0     server.obj
+ 0002:000005dc       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 100085dc     server.obj
+ 0002:000005f4       ??_C@_0DB@HADPDGLO@ClassFactory?$DMclass?5HVariables?$DO?3?3@ 100085f4     server.obj
+ 0002:0000062c       ??_7?$ClassFactory@VHVariable@@@@6B@ 1000862c     server.obj
+ 0002:00000648       ??_C@_0DA@JGKANMFF@ClassFactory?$DMclass?5HVariable?$DO?3?3O@ 10008648     server.obj
+ 0002:0000067c       ??_7?$ClassFactory@VHVarCollection@@@@6B@ 1000867c     server.obj
+ 0002:00000698       ??_C@_0DF@HNMKILFF@ClassFactory?$DMclass?5HVarCollectio@ 10008698     server.obj
+ 0002:000006d4       ??_7?$ClassFactory@VHVariableList@@@@6B@ 100086d4     server.obj
+ 0002:000006f0       ??_C@_0DE@DMNAOFDL@ClassFactory?$DMclass?5HVariableList@ 100086f0     server.obj
+ 0002:00000728       ??_7HVarCollection@@6B@    10008728     varcoll.obj
+ 0002:00000734       ??_C@_0O@GALDCDEL@?4?2varcoll?4cpp?$AA@ 10008734     varcoll.obj
+ 0002:00000744       ??_C@_0DC@IKLHMAOE@HVarCollection?3?3IHVarCollectionI@ 10008744     varcoll.obj
+ 0002:0000077c       ??_7IHelperImp@HVarCollection@@6B@ 1000877c     varcoll.obj
+ 0002:0000079c       ??_7IHVarCollectionImp@HVarCollection@@6B@ 1000879c     varcoll.obj
+ 0002:000007bc       ??_C@_0P@FGOEHEAE@?4?2variabls?4cpp?$AA@ 100087bc     variabls.obj
+ 0002:000007cc       ??_C@_0CH@PHJNIFKE@HVariables?3?3IHVariablesImp?3?3get_@ 100087cc     variabls.obj
+ 0002:000007f4       ??_C@_0BH@KCNHOJFK@DetermineArgumentValue?$AA@ 100087f4     variabls.obj
+ 0002:0000080c       ??_C@_0CC@FMNJLFHL@HVariables?3?3IHelperImp?3?3SetParen@ 1000880c     variabls.obj
+ 0002:00000834       ??_7IHelperImp@HVariables@@6B@ 10008834     variabls.obj
+ 0002:00000854       ??_7IHVariablesImp@HVariables@@6B@ 10008854     variabls.obj
+ 0002:000008ac       ??_7HVariables@@6B@        100088ac     variabls.obj
+ 0002:000008b8       ??_C@_17JNKLHJIM@?$AA?$EA?$AA?$CF?$AAs?$AA?$AA@ 100088b8     variabls.obj
+ 0002:000008c0       ??_C@_0CN@EEANAGGN@HVariables?3?3IHVariablesImp?3?3AddF@ 100088c0     variabls.obj
+ 0002:000008f0       ??_C@_0CA@MPMPLOPD@HVariables?3?3IHVariablesImp?3?3Add?$AA@ 100088f0     variabls.obj
+ 0002:00000910       ??_C@_0CO@BDEIDMOD@HVariables?3?3IHVariablesImp?3?3Edit@ 10008910     variabls.obj
+ 0002:00000940       ??_C@_0CB@JCHAOFHJ@HVariables?3?3IHVariablesImp?3?3Edit@ 10008940     variabls.obj
+ 0002:00000964       ??_C@_0CH@EPAEOAEL@HVariables?3?3IHVariablesImp?3?3GetF@ 10008964     variabls.obj
+ 0002:0000098c       ??_C@_0CE@FCBIGLHI@HVariables?3?3IHVariablesImp?3?3PutN@ 1000898c     variabls.obj
+ 0002:000009b0       ??_C@_0CE@EDLIMPIE@HVariables?3?3IHVariablesImp?3?3GetN@ 100089b0     variabls.obj
+ 0002:000009d4       ??_C@_0CC@FMCKEGHH@HVariables?3?3IHVariablesImp?3?3Quer@ 100089d4     variabls.obj
+ 0002:000009fc       ??_7CDMEnumFilter@@6B@     100089fc     variabls.obj
+ 0002:00000a18       ??_C@_1CE@MIKNHMLC@?$AAT?$AAm?$AAp?$AAN?$AAa?$AAm?$AAe?$AA1?$AA2?$AA3?$AA4?$AA5?$AA6?$AA7?$AA8?$AA9?$AA0?$AA?$AA@ 10008a18     variabls.obj
+ 0002:00000a3c       ??_C@_0CM@FAGINMEB@HVariables?3?3IHVariablesImp?3?3Copy@ 10008a3c     variabls.obj
+ 0002:00000a68       ??_C@_0CO@OEJDAEFB@HVariables?3?3IHVariablesImp?3?3GetV@ 10008a68     variabls.obj
+ 0002:00000aac       ??_7IHVariableListImp@HVariableList@@6B@ 10008aac     varlist.obj
+ 0002:00000acc       ??_C@_0O@HHGIJMM@?4?2varlist?4cpp?$AA@ 10008acc     varlist.obj
+ 0002:00000adc       ??_C@_0CM@GEJNPICJ@HVariableList?3?3IHVariableListImp@ 10008adc     varlist.obj
+ 0002:00000b0c       ??_7?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@6B@ 10008b0c     varlist.obj
+ 0002:00000b2c       ??_7HVariableList@@6B@     10008b2c     varlist.obj
+ 0002:00000b38       ??_C@_0CH@DKJDGPFD@HVariableList?3?3IHVariableListImp@ 10008b38     varlist.obj
+ 0002:00000b60       ??_C@_0CL@KGEKJBNB@HVariableList?3?3IHVariableListImp@ 10008b60     varlist.obj
+ 0002:00000b8c       ??_C@_0CG@NFLEDKFK@HVariableList?3?3IHVariableListImp@ 10008b8c     varlist.obj
+ 0002:00000bb4       _IID_IClassFactory         10008bb4     uuid:unknwn_i.obj
+ 0002:00000bc4       _IID_IUnknown              10008bc4     uuid:unknwn_i.obj
+ 0002:00000bd4       _GUID_NULL                 10008bd4     uuid:cguid_i.obj
+ 0002:00000be4       _IID_IEnumVARIANT          10008be4     uuid:oaidl_i.obj
+ 0002:00000bf4       _IID_IDispatch             10008bf4     uuid:oaidl_i.obj
+ 0002:00000c08       ??_7type_info@@6B@         10008c08     MSVCRT:ti_inst.obj
+ 0002:00000c0c       __pRawDllMain              10008c0c     MSVCRT:crtdll.obj
+ 0002:00000c0c       __pDefaultRawDllMain       10008c0c     MSVCRT:crtdll.obj
+ 0002:00000c18       __load_config_used         10008c18     MSVCRT:loadcfg.obj
+ 0002:00000c94       ??_R4IHelperImp@HVariable@@6B@ 10008c94     hdblval.obj
+ 0002:00000ca8       ??_R3IHelperImp@HVariable@@8 10008ca8     hdblval.obj
+ 0002:00000cb8       ??_R2IHelperImp@HVariable@@8 10008cb8     hdblval.obj
+ 0002:00000cc8       ??_R1A@?0A@EA@IHelperImp@HVariable@@8 10008cc8     hdblval.obj
+ 0002:00000ce4       ??_R1A@?0A@EA@IHelper@@8   10008ce4     hdblval.obj
+ 0002:00000d00       ??_R3IHelper@@8            10008d00     hdblval.obj
+ 0002:00000d10       ??_R2IHelper@@8            10008d10     hdblval.obj
+ 0002:00000d1c       ??_R1A@?0A@EA@IUnknown@@8  10008d1c     hdblval.obj
+ 0002:00000d38       ??_R3IUnknown@@8           10008d38     hdblval.obj
+ 0002:00000d48       ??_R2IUnknown@@8           10008d48     hdblval.obj
+ 0002:00000d50       ??_R4IHVariableImp@HVariable@@6B@ 10008d50     hdblval.obj
+ 0002:00000d64       ??_R3IHVariableImp@HVariable@@8 10008d64     hdblval.obj
+ 0002:00000d74       ??_R2IHVariableImp@HVariable@@8 10008d74     hdblval.obj
+ 0002:00000d84       ??_R1A@?0A@EA@IHVariableImp@HVariable@@8 10008d84     hdblval.obj
+ 0002:00000da0       ??_R1A@?0A@EA@_IHVariable@@8 10008da0     hdblval.obj
+ 0002:00000dbc       ??_R3_IHVariable@@8        10008dbc     hdblval.obj
+ 0002:00000dcc       ??_R2_IHVariable@@8        10008dcc     hdblval.obj
+ 0002:00000dd8       ??_R4HVariable@@6B@        10008dd8     hdblval.obj
+ 0002:00000dec       ??_R3HVariable@@8          10008dec     hdblval.obj
+ 0002:00000dfc       ??_R2HVariable@@8          10008dfc     hdblval.obj
+ 0002:00000e08       ??_R1A@?0A@EA@HVariable@@8 10008e08     hdblval.obj
+ 0002:00000e24       ??_R4?$ClassFactory@VHVariables@@@@6B@ 10008e24     server.obj
+ 0002:00000e38       ??_R3?$ClassFactory@VHVariables@@@@8 10008e38     server.obj
+ 0002:00000e48       ??_R2?$ClassFactory@VHVariables@@@@8 10008e48     server.obj
+ 0002:00000e5c       ??_R1A@?0A@EA@?$ClassFactory@VHVariables@@@@8 10008e5c     server.obj
+ 0002:00000e78       ??_R1A@?0A@EA@JClassFactory@@8 10008e78     server.obj
+ 0002:00000e94       ??_R3JClassFactory@@8      10008e94     server.obj
+ 0002:00000ea4       ??_R2JClassFactory@@8      10008ea4     server.obj
+ 0002:00000eb4       ??_R1A@?0A@EA@IClassFactory@@8 10008eb4     server.obj
+ 0002:00000ed0       ??_R3IClassFactory@@8      10008ed0     server.obj
+ 0002:00000ee0       ??_R2IClassFactory@@8      10008ee0     server.obj
+ 0002:00000eec       ??_R4?$ClassFactory@VHVariable@@@@6B@ 10008eec     server.obj
+ 0002:00000f00       ??_R3?$ClassFactory@VHVariable@@@@8 10008f00     server.obj
+ 0002:00000f10       ??_R2?$ClassFactory@VHVariable@@@@8 10008f10     server.obj
+ 0002:00000f24       ??_R1A@?0A@EA@?$ClassFactory@VHVariable@@@@8 10008f24     server.obj
+ 0002:00000f40       ??_R4?$ClassFactory@VHVarCollection@@@@6B@ 10008f40     server.obj
+ 0002:00000f54       ??_R3?$ClassFactory@VHVarCollection@@@@8 10008f54     server.obj
+ 0002:00000f64       ??_R2?$ClassFactory@VHVarCollection@@@@8 10008f64     server.obj
+ 0002:00000f78       ??_R1A@?0A@EA@?$ClassFactory@VHVarCollection@@@@8 10008f78     server.obj
+ 0002:00000f94       ??_R4?$ClassFactory@VHVariableList@@@@6B@ 10008f94     server.obj
+ 0002:00000fa8       ??_R3?$ClassFactory@VHVariableList@@@@8 10008fa8     server.obj
+ 0002:00000fb8       ??_R2?$ClassFactory@VHVariableList@@@@8 10008fb8     server.obj
+ 0002:00000fcc       ??_R1A@?0A@EA@?$ClassFactory@VHVariableList@@@@8 10008fcc     server.obj
+ 0002:00000fe8       ??_R4HVarCollection@@6B@   10008fe8     varcoll.obj
+ 0002:00000ffc       ??_R3HVarCollection@@8     10008ffc     varcoll.obj
+ 0002:0000100c       ??_R2HVarCollection@@8     1000900c     varcoll.obj
+ 0002:00001018       ??_R1A@?0A@EA@HVarCollection@@8 10009018     varcoll.obj
+ 0002:00001034       ??_R4IHelperImp@HVarCollection@@6B@ 10009034     varcoll.obj
+ 0002:00001048       ??_R3IHelperImp@HVarCollection@@8 10009048     varcoll.obj
+ 0002:00001058       ??_R2IHelperImp@HVarCollection@@8 10009058     varcoll.obj
+ 0002:00001068       ??_R1A@?0A@EA@IHelperImp@HVarCollection@@8 10009068     varcoll.obj
+ 0002:00001084       ??_R4IHVarCollectionImp@HVarCollection@@6B@ 10009084     varcoll.obj
+ 0002:00001098       ??_R3IHVarCollectionImp@HVarCollection@@8 10009098     varcoll.obj
+ 0002:000010a8       ??_R2IHVarCollectionImp@HVarCollection@@8 100090a8     varcoll.obj
+ 0002:000010b8       ??_R1A@?0A@EA@IHVarCollectionImp@HVarCollection@@8 100090b8     varcoll.obj
+ 0002:000010d4       ??_R1A@?0A@EA@_IHVariablesCollection@@8 100090d4     varcoll.obj
+ 0002:000010f0       ??_R3_IHVariablesCollection@@8 100090f0     varcoll.obj
+ 0002:00001100       ??_R2_IHVariablesCollection@@8 10009100     varcoll.obj
+ 0002:0000110c       ??_R4IHelperImp@HVariables@@6B@ 1000910c     variabls.obj
+ 0002:00001120       ??_R3IHelperImp@HVariables@@8 10009120     variabls.obj
+ 0002:00001130       ??_R2IHelperImp@HVariables@@8 10009130     variabls.obj
+ 0002:00001140       ??_R1A@?0A@EA@IHelperImp@HVariables@@8 10009140     variabls.obj
+ 0002:0000115c       ??_R4IHVariablesImp@HVariables@@6B@ 1000915c     variabls.obj
+ 0002:00001170       ??_R3IHVariablesImp@HVariables@@8 10009170     variabls.obj
+ 0002:00001180       ??_R2IHVariablesImp@HVariables@@8 10009180     variabls.obj
+ 0002:00001190       ??_R1A@?0A@EA@IHVariablesImp@HVariables@@8 10009190     variabls.obj
+ 0002:000011ac       ??_R1A@?0A@EA@_IHVariables@@8 100091ac     variabls.obj
+ 0002:000011c8       ??_R3_IHVariables@@8       100091c8     variabls.obj
+ 0002:000011d8       ??_R2_IHVariables@@8       100091d8     variabls.obj
+ 0002:000011e4       ??_R4HVariables@@6B@       100091e4     variabls.obj
+ 0002:000011f8       ??_R3HVariables@@8         100091f8     variabls.obj
+ 0002:00001208       ??_R2HVariables@@8         10009208     variabls.obj
+ 0002:00001214       ??_R1A@?0A@EA@HVariables@@8 10009214     variabls.obj
+ 0002:00001230       ??_R4CDMEnumFilter@@6B@    10009230     variabls.obj
+ 0002:00001244       ??_R3CDMEnumFilter@@8      10009244     variabls.obj
+ 0002:00001254       ??_R2CDMEnumFilter@@8      10009254     variabls.obj
+ 0002:00001264       ??_R1A@?0A@EA@CDMEnumFilter@@8 10009264     variabls.obj
+ 0002:00001280       ??_R1A@?0A@EA@IEnumVARIANT@@8 10009280     variabls.obj
+ 0002:0000129c       ??_R3IEnumVARIANT@@8       1000929c     variabls.obj
+ 0002:000012ac       ??_R2IEnumVARIANT@@8       100092ac     variabls.obj
+ 0002:000012b8       ??_R4IHVariableListImp@HVariableList@@6B@ 100092b8     varlist.obj
+ 0002:000012cc       ??_R3IHVariableListImp@HVariableList@@8 100092cc     varlist.obj
+ 0002:000012dc       ??_R2IHVariableListImp@HVariableList@@8 100092dc     varlist.obj
+ 0002:000012ec       ??_R1A@?0A@EA@IHVariableListImp@HVariableList@@8 100092ec     varlist.obj
+ 0002:00001308       ??_R1A@?0A@EA@_IHVariableList@@8 10009308     varlist.obj
+ 0002:00001324       ??_R3_IHVariableList@@8    10009324     varlist.obj
+ 0002:00001334       ??_R2_IHVariableList@@8    10009334     varlist.obj
+ 0002:00001340       ??_R4?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@6B@ 10009340     varlist.obj
+ 0002:00001354       ??_R3?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@8 10009354     varlist.obj
+ 0002:00001364       ??_R2?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@8 10009364     varlist.obj
+ 0002:00001374       ??_R1A@?0A@EA@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@8 10009374     varlist.obj
+ 0002:00001390       ??_R4HVariableList@@6B@    10009390     varlist.obj
+ 0002:000013a4       ??_R3HVariableList@@8      100093a4     varlist.obj
+ 0002:000013b4       ??_R2HVariableList@@8      100093b4     varlist.obj
+ 0002:000013c0       ??_R1A@?0A@EA@HVariableList@@8 100093c0     varlist.obj
+ 0002:000013dc       ??_R4type_info@@6B@        100093dc     MSVCRT:ti_inst.obj
+ 0002:000013f0       ??_R3type_info@@8          100093f0     MSVCRT:ti_inst.obj
+ 0002:00001400       ??_R2type_info@@8          10009400     MSVCRT:ti_inst.obj
+ 0002:00001408       ??_R1A@?0A@EA@type_info@@8 10009408     MSVCRT:ti_inst.obj
+ 0002:00001430       ___safe_se_handler_table   10009430     <linker-defined>
+ 0002:00001494       ___rtc_iaa                 10009494     MSVCRT:initsect.obj
+ 0002:00001498       ___rtc_izz                 10009498     MSVCRT:initsect.obj
+ 0002:0000149c       ___rtc_taa                 1000949c     MSVCRT:initsect.obj
+ 0002:000014a0       ___rtc_tzz                 100094a0     MSVCRT:initsect.obj
+ 0002:00001a24       __IMPORT_DESCRIPTOR_Daxutil 10009a24     daxutil:Daxutil.dll
+ 0002:00001a38       __IMPORT_DESCRIPTOR_EXPRDEX 10009a38     exprdex:EXPRDEX.DLL
+ 0002:00001a4c       __IMPORT_DESCRIPTOR_jengine 10009a4c     jengine:jengine.dll
+ 0002:00001a60       __IMPORT_DESCRIPTOR_JUtil  10009a60     jutil:JUtil.dll
+ 0002:00001a74       __IMPORT_DESCRIPTOR_sealloc 10009a74     sealloc:sealloc.dll
+ 0002:00001a88       __IMPORT_DESCRIPTOR_OLEAUT32 10009a88     oleaut32:OLEAUT32.dll
+ 0002:00001a9c       __IMPORT_DESCRIPTOR_MSVCR80 10009a9c     MSVCRT:MSVCR80.dll
+ 0002:00001ab0       __IMPORT_DESCRIPTOR_KERNEL32 10009ab0     kernel32:KERNEL32.dll
+ 0002:00001ac4       __NULL_IMPORT_DESCRIPTOR   10009ac4     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000a28       ??_R0?AUIHelperImp@HVariable@@@8 1000ba28     hdblval.obj
+ 0003:00000a4c       ??_R0?AUIHelper@@@8        1000ba4c     hdblval.obj
+ 0003:00000a64       ??_R0?AUIUnknown@@@8       1000ba64     hdblval.obj
+ 0003:00000a7c       ??_R0?AUIHVariableImp@HVariable@@@8 1000ba7c     hdblval.obj
+ 0003:00000aa4       ??_R0?AU_IHVariable@@@8    1000baa4     hdblval.obj
+ 0003:00000ac0       ??_R0?AVHVariable@@@8      1000bac0     hdblval.obj
+ 0003:00001f18       ??_R0?AV?$ClassFactory@VHVariables@@@@@8 1000cf18     server.obj
+ 0003:00001f44       ??_R0?AVJClassFactory@@@8  1000cf44     server.obj
+ 0003:00001f60       ??_R0?AUIClassFactory@@@8  1000cf60     server.obj
+ 0003:00001f7c       ??_R0?AV?$ClassFactory@VHVariable@@@@@8 1000cf7c     server.obj
+ 0003:00001fa8       ??_R0?AV?$ClassFactory@VHVarCollection@@@@@8 1000cfa8     server.obj
+ 0003:00001fd8       ??_R0?AV?$ClassFactory@VHVariableList@@@@@8 1000cfd8     server.obj
+ 0003:00002008       ??_R0?AVHVarCollection@@@8 1000d008     varcoll.obj
+ 0003:00002028       ??_R0?AUIHelperImp@HVarCollection@@@8 1000d028     varcoll.obj
+ 0003:00002050       ??_R0?AUIHVarCollectionImp@HVarCollection@@@8 1000d050     varcoll.obj
+ 0003:00002080       ??_R0?AU_IHVariablesCollection@@@8 1000d080     varcoll.obj
+ 0003:000020a8       ??_R0?AUIHelperImp@HVariables@@@8 1000d0a8     variabls.obj
+ 0003:000020cc       ??_R0?AUIHVariablesImp@HVariables@@@8 1000d0cc     variabls.obj
+ 0003:000020f4       ??_R0?AU_IHVariables@@@8   1000d0f4     variabls.obj
+ 0003:00002110       ??_R0?AVHVariables@@@8     1000d110     variabls.obj
+ 0003:0000212c       ??_R0?AVCDMEnumFilter@@@8  1000d12c     variabls.obj
+ 0003:00002148       ??_R0?AUIEnumVARIANT@@@8   1000d148     variabls.obj
+ 0003:00002164       ??_R0?AVIHVariableListImp@HVariableList@@@8 1000d164     varlist.obj
+ 0003:00002194       ??_R0?AU_IHVariableList@@@8 1000d194     varlist.obj
+ 0003:000021b4       ??_R0?AV?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@@8 1000d1b4     varlist.obj
+ 0003:000021f4       ??_R0?AVHVariableList@@@8  1000d1f4     varlist.obj
+ 0003:00002210       ??_R0?AVtype_info@@@8      1000d210     MSVCRT:ti_inst.obj
+ 0003:00002230       ___security_cookie         1000d230     MSVCRT:gs_cookie.obj
+ 0003:00002234       ___security_cookie_complement 1000d234     MSVCRT:gs_cookie.obj
+ 0003:00002238       ___native_dllmain_reason   1000d238     MSVCRT:natstart.obj
+ 0003:0000223c       ___native_vcclrit_reason   1000d23c     MSVCRT:natstart.obj
+ 0003:00002bec       ?__type_info_root_node@@3U__type_info_node@@A 1000dbec     MSVCRT:tncleanup.obj
+ 0003:00002bf4       __adjust_fdiv              1000dbf4     <common>
+ 0003:00002bf8       ___native_startup_state    1000dbf8     <common>
+ 0003:00002bfc       ___native_startup_lock     1000dbfc     <common>
+ 0003:00002c00       ___onexitend               1000dc00     <common>
+ 0003:00002c04       ___onexitbegin             1000dc04     <common>
+ 0003:00002c08       ___dyn_tls_init_callback   1000dc08     <common>
+
+ entry point at        0001:00005d20
+
+ Static symbols
+
+ 0001:00004619       __catch$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$13 10005619 f   variabls.obj
+ 0001:00004b00       ?NextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10005b00 f   varlist.obj
+ 0001:00005a1e       _pre_c_init                10006a1e f   MSVCRT:crtdll.obj
+ 0001:00005c0a       ___DllMainCRTStartup       10006c0a f   MSVCRT:crtdll.obj
+ 0001:00006250       __unwindfunclet$?get_Name@IHVariableImp@HVariable@@UAGJPAPA_WW4NameTypeEnum@@@Z$6 10007250 f   hdblval.obj
+ 0001:00006258       __ehhandler$?get_Name@IHVariableImp@HVariable@@UAGJPAPA_WW4NameTypeEnum@@@Z 10007258 f   hdblval.obj
+ 0001:00006280       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$11 10007280 f   hdblval.obj
+ 0001:00006288       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$12 10007288 f   hdblval.obj
+ 0001:00006290       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$13 10007290 f   hdblval.obj
+ 0001:00006298       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$14 10007298 f   hdblval.obj
+ 0001:000062a0       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$15 100072a0 f   hdblval.obj
+ 0001:000062a8       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$16 100072a8 f   hdblval.obj
+ 0001:000062b0       __unwindfunclet$?Delete@IHVariableImp@HVariable@@UAGJXZ$17 100072b0 f   hdblval.obj
+ 0001:000062b8       __ehhandler$?Delete@IHVariableImp@HVariable@@UAGJXZ 100072b8 f   hdblval.obj
+ 0001:000062e0       __unwindfunclet$??0?$ClassFactory@VHVariables@@@@QAE@HHH@Z$0 100072e0 f   server.obj
+ 0001:000062e9       __ehhandler$??0?$ClassFactory@VHVariables@@@@QAE@HHH@Z 100072e9 f   server.obj
+ 0001:00006310       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHVariables@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007310 f   server.obj
+ 0001:0000631b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHVariables@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000731b f   server.obj
+ 0001:00006340       __unwindfunclet$??0?$ClassFactory@VHVariable@@@@QAE@HHH@Z$0 10007340 f   server.obj
+ 0001:00006349       __ehhandler$??0?$ClassFactory@VHVariable@@@@QAE@HHH@Z 10007349 f   server.obj
+ 0001:00006370       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHVariable@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007370 f   server.obj
+ 0001:0000637b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHVariable@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000737b f   server.obj
+ 0001:000063a0       __unwindfunclet$??0?$ClassFactory@VHVarCollection@@@@QAE@HHH@Z$0 100073a0 f   server.obj
+ 0001:000063a9       __ehhandler$??0?$ClassFactory@VHVarCollection@@@@QAE@HHH@Z 100073a9 f   server.obj
+ 0001:000063d0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHVarCollection@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100073d0 f   server.obj
+ 0001:000063db       __ehhandler$?OnCreateInstance@?$ClassFactory@VHVarCollection@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100073db f   server.obj
+ 0001:00006400       __unwindfunclet$??0?$ClassFactory@VHVariableList@@@@QAE@HHH@Z$0 10007400 f   server.obj
+ 0001:00006409       __ehhandler$??0?$ClassFactory@VHVariableList@@@@QAE@HHH@Z 10007409 f   server.obj
+ 0001:00006430       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHVariableList@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007430 f   server.obj
+ 0001:0000643b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHVariableList@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000743b f   server.obj
+ 0001:00006460       __unwindfunclet$_DllGetClassObject@12$0 10007460 f   server.obj
+ 0001:0000646b       __unwindfunclet$_DllGetClassObject@12$1 1000746b f   server.obj
+ 0001:00006476       __unwindfunclet$_DllGetClassObject@12$2 10007476 f   server.obj
+ 0001:00006481       __unwindfunclet$_DllGetClassObject@12$3 10007481 f   server.obj
+ 0001:0000648c       __ehhandler$_DllGetClassObject@12 1000748c f   server.obj
+ 0001:000064b0       __unwindfunclet$??_G?$ClassFactory@VHVariables@@@@UAEPAXI@Z$0 100074b0 f   server.obj
+ 0001:000064b9       __ehhandler$??_G?$ClassFactory@VHVariables@@@@UAEPAXI@Z 100074b9 f   server.obj
+ 0001:000064e0       __unwindfunclet$??_G?$ClassFactory@VHVariable@@@@UAEPAXI@Z$0 100074e0 f   server.obj
+ 0001:000064e9       __ehhandler$??_G?$ClassFactory@VHVariable@@@@UAEPAXI@Z 100074e9 f   server.obj
+ 0001:00006510       __unwindfunclet$??_G?$ClassFactory@VHVarCollection@@@@UAEPAXI@Z$0 10007510 f   server.obj
+ 0001:00006519       __ehhandler$??_G?$ClassFactory@VHVarCollection@@@@UAEPAXI@Z 10007519 f   server.obj
+ 0001:00006540       __unwindfunclet$??_G?$ClassFactory@VHVariableList@@@@UAEPAXI@Z$0 10007540 f   server.obj
+ 0001:00006549       __ehhandler$??_G?$ClassFactory@VHVariableList@@@@UAEPAXI@Z 10007549 f   server.obj
+ 0001:00006570       __unwindfunclet$??0CDMEnumFilter@@QAE@XZ$0 10007570 f   variabls.obj
+ 0001:0000657b       __ehhandler$??0CDMEnumFilter@@QAE@XZ 1000757b f   variabls.obj
+ 0001:000065a0       __unwindfunclet$??1CDMEnumFilter@@QAE@XZ$0 100075a0 f   variabls.obj
+ 0001:000065ab       __ehhandler$??1CDMEnumFilter@@QAE@XZ 100075ab f   variabls.obj
+ 0001:000065d0       __unwindfunclet$?Clone@CDMEnumFilter@@UAGJPAPAUIEnumVARIANT@@@Z$3 100075d0 f   variabls.obj
+ 0001:000065db       __ehhandler$?Clone@CDMEnumFilter@@UAGJPAPAUIEnumVARIANT@@@Z 100075db f   variabls.obj
+ 0001:00006600       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$18 10007600 f   variabls.obj
+ 0001:00006608       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$19 10007608 f   variabls.obj
+ 0001:00006610       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$20 10007610 f   variabls.obj
+ 0001:00006618       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$21 10007618 f   variabls.obj
+ 0001:00006620       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$22 10007620 f   variabls.obj
+ 0001:0000662c       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$23 1000762c f   variabls.obj
+ 0001:00006635       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$24 10007635 f   variabls.obj
+ 0001:0000663e       __unwindfunclet$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z$25 1000763e f   variabls.obj
+ 0001:00006646       __ehhandler$?CopyToClipboard@IHVariablesImp@HVariables@@UAGJPA_W@Z 10007646 f   variabls.obj
+ 0001:00006670       __unwindfunclet$?GetVisibleNewEnum@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z$7 10007670 f   variabls.obj
+ 0001:0000667b       __ehhandler$?GetVisibleNewEnum@IHVariablesImp@HVariables@@UAGJPAPAUIUnknown@@@Z 1000767b f   variabls.obj
+ 0001:000066a0       __unwindfunclet$??0HVariableList@@QAE@PAUIUnknown@@@Z$0 100076a0 f   varlist.obj
+ 0001:000066ab       __ehhandler$??0HVariableList@@QAE@PAUIUnknown@@@Z 100076ab f   varlist.obj
+ 0001:000066d0       __unwindfunclet$?_NewEnum@IHVariableListImp@HVariableList@@EAGJPAPAUIUnknown@@@Z$2 100076d0 f   varlist.obj
+ 0001:000066db       __ehhandler$?_NewEnum@IHVariableListImp@HVariableList@@EAGJPAPAUIUnknown@@@Z 100076db f   varlist.obj
+ 0001:00006700       __unwindfunclet$?Clone@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJPAPAUIEnumVARIANT@@@Z$0 10007700 f   varlist.obj
+ 0001:0000670b       __ehhandler$?Clone@?$JEnumDataPointer@UIEnumVARIANT@@UtagVARIANT@@@@UAGJPAPAUIEnumVARIANT@@@Z 1000770b f   varlist.obj
+ 0001:00006730       __unwindfunclet$??1HVariableList@@QAE@XZ$0 10007730 f   varlist.obj
+ 0001:0000673b       __ehhandler$??1HVariableList@@QAE@XZ 1000773b f   varlist.obj
+ 0001:00006760       ??__EGNULL_Camera@@YAXXZ   10007760 f   guid.obj
+ 0001:00006780       ??__EGNULL_CAMERA@@YAXXZ   10007780 f   guid.obj
+ 0001:000067a0       ??__EGID_Camera@@YAXXZ     100077a0 f   guid.obj
+ 0001:000067c0       ??__EGID_CAMERA@@YAXXZ     100077c0 f   guid.obj
+ 0001:000067e0       ??__EGNULL_Camera@@YAXXZ   100077e0 f   pch.obj
+ 0001:00006800       ??__EGNULL_CAMERA@@YAXXZ   10007800 f   pch.obj
+ 0001:00006820       ??__EGID_Camera@@YAXXZ     10007820 f   pch.obj
+ 0001:00006840       ??__EGID_CAMERA@@YAXXZ     10007840 f   pch.obj
+ 0001:00006860       ??__EGNULL_Camera@@YAXXZ   10007860 f   server.obj
+ 0001:00006880       ??__EGNULL_CAMERA@@YAXXZ   10007880 f   server.obj
+ 0001:000068a0       ??__EGID_Camera@@YAXXZ     100078a0 f   server.obj
+ 0001:000068c0       ??__EGID_CAMERA@@YAXXZ     100078c0 f   server.obj

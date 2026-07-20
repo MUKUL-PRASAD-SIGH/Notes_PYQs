@@ -1,0 +1,1303 @@
+ styles
+
+ Timestamp is 46b3a467 (Fri Aug 03 16:55:51 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000ff88H .text                   CODE
+ 0001:0000ff90 00000be4H .text$x                 CODE
+ 0001:00010b80 000000f6H .text$yc                CODE
+ 0002:00000000 000001a8H .idata$5                DATA
+ 0002:000001a8 00000004H .CRT$XCA                DATA
+ 0002:000001ac 00000020H .CRT$XCU                DATA
+ 0002:000001cc 00000004H .CRT$XCZ                DATA
+ 0002:000001d0 00000004H .CRT$XIA                DATA
+ 0002:000001d4 00000004H .CRT$XIAA               DATA
+ 0002:000001d8 00000004H .CRT$XIZ                DATA
+ 0002:000001e0 00002848H .rdata                  DATA
+ 0002:00002a28 00000030H .rdata$debug            DATA
+ 0002:00002a58 00000fd8H .rdata$r                DATA
+ 0002:00003a30 000000e0H .rdata$sxdata           DATA
+ 0002:00003b10 00000004H .rtc$IAA                DATA
+ 0002:00003b14 00000004H .rtc$IZZ                DATA
+ 0002:00003b18 00000004H .rtc$TAA                DATA
+ 0002:00003b1c 00000004H .rtc$TZZ                DATA
+ 0002:00003b20 00000b34H .xdata$x                DATA
+ 0002:00004654 000000a0H .idata$2                DATA
+ 0002:000046f4 00000014H .idata$3                DATA
+ 0002:00004708 000001a8H .idata$4                DATA
+ 0002:000048b0 00000942H .idata$6                DATA
+ 0002:00005200 00000069H .edata                  DATA
+ 0003:00000000 00001cd8H .data                   DATA
+ 0003:00001cd8 000007acH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000038       ___safe_se_handler_count   00000038     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??1HDashStyle@@QAE@XZ      10001030 f   dstyle.obj
+ 0001:00000040       ?SetParent@IHelperImp@HHatchPatternStyle@@UAGJPAUIUnknown@@@Z 10001040 f   hstyle.obj
+ 0001:00000040       ?SetParent@IHelperImp@HSymbolPatternStyle@@UAGJPAUIUnknown@@@Z 10001040 f   sstyle.obj
+ 0001:00000040       ?get_Description@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAPA_W@Z 10001040 f   sstyle.obj
+ 0001:00000040       ?SetParent@IHelperImp@HDashStyle@@UAGJPAUIUnknown@@@Z 10001040 f   dstyle.obj
+ 0001:00000040       ?SetParent@IHelperImp@HFillStyle@@UAGJPAUIUnknown@@@Z 10001040 f   fstyle.obj
+ 0001:00000040       ?SetParent@IHelperImp@HLinearStyle@@UAGJPAUIUnknown@@@Z 10001040 f   lstyle.obj
+ 0001:00000050       ?GetClassID@IHelperImp@HDashStyle@@UAGJPAU_GUID@@@Z 10001050 f   dstyle.obj
+ 0001:00000080       ?AddRef@IHDashStyleImp@HDashStyle@@UAGKXZ 10001080 f   dstyle.obj
+ 0001:00000080       ?AddRef@IHelperImp@HLinearStyles@@UAGKXZ 10001080 f   lstyles.obj
+ 0001:00000080       ?AddRef@IHelperImp@HHatchPatternStyles@@UAGKXZ 10001080 f   hstyles.obj
+ 0001:00000080       ?AddRef@IHFillStyleImp@HFillStyle@@UAGKXZ 10001080 f   fstyle.obj
+ 0001:00000080       ?AddRef@IHelperImp@HSymbolPatternStyles@@UAGKXZ 10001080 f   sstyles.obj
+ 0001:00000080       ?AddRef@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGKXZ 10001080 f   hstyle.obj
+ 0001:00000080       ?AddRef@IHelperImp@HDashStyles@@UAGKXZ 10001080 f   dstyles.obj
+ 0001:00000080       ?AddRef@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGKXZ 10001080 f   sstyle.obj
+ 0001:00000080       ?AddRef@IHLinearStyleImp@HLinearStyle@@UAGKXZ 10001080 f   lstyle.obj
+ 0001:00000080       ?AddRef@IHelperImp@HFillStyles@@UAGKXZ 10001080 f   fstyles.obj
+ 0001:000000a0       ?Release@IHelperImp@HHatchPatternStyles@@UAGKXZ 100010a0 f   hstyles.obj
+ 0001:000000a0       ?Release@IHelperImp@HFillStyles@@UAGKXZ 100010a0 f   fstyles.obj
+ 0001:000000a0       ?Release@IHDashStyleImp@HDashStyle@@UAGKXZ 100010a0 f   dstyle.obj
+ 0001:000000a0       ?Release@IHelperImp@HSymbolPatternStyles@@UAGKXZ 100010a0 f   sstyles.obj
+ 0001:000000a0       ?Release@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGKXZ 100010a0 f   sstyle.obj
+ 0001:000000a0       ?Release@IHelperImp@HDashStyles@@UAGKXZ 100010a0 f   dstyles.obj
+ 0001:000000a0       ?Release@IHFillStyleImp@HFillStyle@@UAGKXZ 100010a0 f   fstyle.obj
+ 0001:000000a0       ?Release@IHelperImp@HLinearStyles@@UAGKXZ 100010a0 f   lstyles.obj
+ 0001:000000a0       ?Release@IHLinearStyleImp@HLinearStyle@@UAGKXZ 100010a0 f   lstyle.obj
+ 0001:000000a0       ?Release@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGKXZ 100010a0 f   hstyle.obj
+ 0001:000000c0       _IsEqualGUID               100010c0 f i dstyle.obj
+ 0001:00000160       ?Release@HDashStyle@@UAGKXZ 10001160 f   dstyle.obj
+ 0001:000001b0       ?QueryInterface@HDashStyle@@UAGJABU_GUID@@PAPAX@Z 100011b0 f   dstyle.obj
+ 0001:00000320       ?put_Name@IHDashStyleImp@HDashStyle@@UAGJPA_W@Z 10001320 f   dstyle.obj
+ 0001:000003f0       ?get_Name@IHDashStyleImp@HDashStyle@@UAGJPAPA_W@Z 100013f0 f   dstyle.obj
+ 0001:00000570       ?put_Units@IHDashStyleImp@HDashStyle@@UAGJJ@Z 10001570 f   dstyle.obj
+ 0001:000006a0       ?get_Units@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z 100016a0 f   dstyle.obj
+ 0001:00000770       ?get_DashGapCount@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z 10001770 f   dstyle.obj
+ 0001:00000840       ?SetDashGap@IHDashStyleImp@HDashStyle@@UAGJJPAUtagSAFEARRAY@@@Z 10001840 f   dstyle.obj
+ 0001:00000a10       ?GetDashGap@IHDashStyleImp@HDashStyle@@UAGJPAJPAPAUtagSAFEARRAY@@@Z 10001a10 f   dstyle.obj
+ 0001:00000c60       ?put_Center@IHDashStyleImp@HDashStyle@@UAGJF@Z 10001c60 f   dstyle.obj
+ 0001:00000d70       ?get_Center@IHDashStyleImp@HDashStyle@@UAGJPAF@Z 10001d70 f   dstyle.obj
+ 0001:00000e70       ?put_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJN@Z 10001e70 f   dstyle.obj
+ 0001:00000f80       ?get_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJPAN@Z 10001f80 f   dstyle.obj
+ 0001:00001070       ??0HDashStyle@@QAE@PAUIUnknown@@@Z 10002070 f   dstyle.obj
+ 0001:000010a0       ?Initialize@HFillStyle@@QAEJXZ 100020a0 f   fstyle.obj
+ 0001:000010a0       ?Initialize@HHatchPatternStyles@@QAEKXZ 100020a0 f   hstyles.obj
+ 0001:000010a0       ?Initialize@HSymbolPatternStyles@@QAEKXZ 100020a0 f   sstyles.obj
+ 0001:000010a0       ?Initialize@HDashStyle@@QAEJXZ 100020a0 f   dstyle.obj
+ 0001:000010a0       ?Initialize@HSymbolPatternStyle@@QAEJXZ 100020a0 f   sstyle.obj
+ 0001:000010a0       ?Initialize@HHatchPatternStyle@@QAEJXZ 100020a0 f   hstyle.obj
+ 0001:000010a0       ?Initialize@HDashStyles@@QAEKXZ 100020a0 f   dstyles.obj
+ 0001:000010a0       ?Initialize@HLinearStyle@@QAEJXZ 100020a0 f   lstyle.obj
+ 0001:000010a0       ?Initialize@HFillStyles@@QAEKXZ 100020a0 f   fstyles.obj
+ 0001:000010a0       ?Initialize@HLinearStyles@@QAEKXZ 100020a0 f   lstyles.obj
+ 0001:000010b0       ?GetClassID@IHelperImp@HDashStyles@@UAGJPAU_GUID@@@Z 100020b0 f   dstyles.obj
+ 0001:000010f0       ?Release@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGKXZ 100020f0 f   sstyles.obj
+ 0001:000010f0       ?Release@IHDashStylesImp@HDashStyles@@UAGKXZ 100020f0 f   dstyles.obj
+ 0001:000010f0       ?Release@IHLinearStylesImp@HLinearStyles@@UAGKXZ 100020f0 f   lstyles.obj
+ 0001:000010f0       ?Release@IHFillStylesImp@HFillStyles@@UAGKXZ 100020f0 f   fstyles.obj
+ 0001:000010f0       ?Release@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGKXZ 100020f0 f   hstyles.obj
+ 0001:00001110       ?get_Parent@IHFillStylesImp@HFillStyles@@UAGJPAPAUIUnknown@@@Z 10002110 f   fstyles.obj
+ 0001:00001110       ?get_Parent@IHDashStylesImp@HDashStyles@@UAGJPAPAUIUnknown@@@Z 10002110 f   dstyles.obj
+ 0001:00001110       ?get_Parent@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPAPAUIUnknown@@@Z 10002110 f   sstyles.obj
+ 0001:00001110       ?get_Parent@IHLinearStylesImp@HLinearStyles@@UAGJPAPAUIUnknown@@@Z 10002110 f   lstyles.obj
+ 0001:00001110       ?get_Parent@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPAPAUIUnknown@@@Z 10002110 f   hstyles.obj
+ 0001:00001140       ?Item@IHDashStylesImp@HDashStyles@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10002140 f   dstyles.obj
+ 0001:00001180       ??1HDashStyles@@QAE@XZ     10002180 f   dstyles.obj
+ 0001:000011b0       ?QueryInterface@HDashStyles@@UAGJABU_GUID@@PAPAX@Z 100021b0 f   dstyles.obj
+ 0001:000012a0       ?get_Count@IHDashStylesImp@HDashStyles@@UAGJPAJ@Z 100022a0 f   dstyles.obj
+ 0001:000013e0       ?_NewEnum@IHDashStylesImp@HDashStyles@@UAGJPAPAUIUnknown@@@Z 100023e0 f   dstyles.obj
+ 0001:000014f0       ?Add@IHDashStylesImp@HDashStyles@@UAGJPA_WPAPAUIUnknown@@@Z 100024f0 f   dstyles.obj
+ 0001:00001790       ?Remove@IHDashStylesImp@HDashStyles@@UAGJPA_W@Z 10002790 f   dstyles.obj
+ 0001:000018c0       ?Release@HDashStyles@@UAGKXZ 100028c0 f   dstyles.obj
+ 0001:00001910       ??0HDashStyles@@QAE@PAUIUnknown@@@Z 10002910 f   dstyles.obj
+ 0001:00001940       ??1HFillStyle@@QAE@XZ      10002940 f   fstyle.obj
+ 0001:00001950       ?GetClassID@IHelperImp@HFillStyle@@UAGJPAU_GUID@@@Z 10002950 f   fstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleSimpleFill@@@@QAE@XZ 10002980 f i fstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleSimpleDashType@@@@QAE@XZ 10002980 f i dstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleRender@@@@QAE@XZ 10002980 f i fstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleFillTypeRender@@@@QAE@XZ 10002980 f i fstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleHatchFill@@@@QAE@XZ 10002980 f i dstyles.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleManager@@@@QAE@XZ 10002980 f i dstyle.obj
+ 0001:00001980       ??1?$TIP@PAUIJStyleOverride@@@@QAE@XZ 10002980 f i fstyle.obj
+ 0001:00001990       ??I?$TIP@PAUIJStyleSimpleDashType@@@@QAEPAPAUIJStyleSimpleDashType@@XZ 10002990 f i dstyle.obj
+ 0001:00001990       ??I?$TIP@PAUIJStyleHatchFill@@@@QAEPAPAUIJStyleHatchFill@@XZ 10002990 f i fstyle.obj
+ 0001:00001990       ??I?$TIP@PAUIJStyleFillTypeRender@@@@QAEPAPAUIJStyleFillTypeRender@@XZ 10002990 f i fstyle.obj
+ 0001:000019b0       ?Release@HFillStyle@@UAGKXZ 100029b0 f   fstyle.obj
+ 0001:00001a00       ?QueryInterface@HFillStyle@@UAGJABU_GUID@@PAPAX@Z 10002a00 f   fstyle.obj
+ 0001:00001a90       ?put_Name@IHFillStyleImp@HFillStyle@@UAGJPA_W@Z 10002a90 f   fstyle.obj
+ 0001:00001b60       ?get_Name@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 10002b60 f   fstyle.obj
+ 0001:00001d00       ?put_PatternName@IHFillStyleImp@HFillStyle@@UAGJPA_W@Z 10002d00 f   fstyle.obj
+ 0001:00001e80       ?get_PatternName@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 10002e80 f   fstyle.obj
+ 0001:000020f0       ?get_PatternType@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 100030f0 f   fstyle.obj
+ 0001:00002290       ?put_FillBackground@IHFillStyleImp@HFillStyle@@UAGJJ@Z 10003290 f   fstyle.obj
+ 0001:00002340       ?get_FillBackground@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 10003340 f   fstyle.obj
+ 0001:000023d0       ?put_FillColor@IHFillStyleImp@HFillStyle@@UAGJJ@Z 100033d0 f   fstyle.obj
+ 0001:00002500       ?get_FillColor@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 10003500 f   fstyle.obj
+ 0001:00002670       ?put_Color@IHFillStyleImp@HFillStyle@@UAGJJ@Z 10003670 f   fstyle.obj
+ 0001:00002910       ?get_Color@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 10003910 f   fstyle.obj
+ 0001:00002c30       ?put_Rotation@IHFillStyleImp@HFillStyle@@UAGJN@Z 10003c30 f   fstyle.obj
+ 0001:00002e90       ?get_Rotation@IHFillStyleImp@HFillStyle@@UAGJPAN@Z 10003e90 f   fstyle.obj
+ 0001:00003090       ?put_Spacing@IHFillStyleImp@HFillStyle@@UAGJN@Z 10004090 f   fstyle.obj
+ 0001:000033f0       ?get_Spacing@IHFillStyleImp@HFillStyle@@UAGJPAN@Z 100043f0 f   fstyle.obj
+ 0001:000036e0       ?put_Scale@IHFillStyleImp@HFillStyle@@UAGJN@Z 100046e0 f   fstyle.obj
+ 0001:000038b0       ?get_Scale@IHFillStyleImp@HFillStyle@@UAGJPAN@Z 100048b0 f   fstyle.obj
+ 0001:00003a50       ?put_Units@IHFillStyleImp@HFillStyle@@UAGJJ@Z 10004a50 f   fstyle.obj
+ 0001:00003c80       ?get_Units@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 10004c80 f   fstyle.obj
+ 0001:00003e30       ?put_Parent@IHFillStyleImp@HFillStyle@@UAGJPA_W@Z 10004e30 f   fstyle.obj
+ 0001:00003f30       ?get_Parent@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 10004f30 f   fstyle.obj
+ 0001:000040f0       ?put_Active@IHFillStyleImp@HFillStyle@@UAGJPA_W@Z 100050f0 f   fstyle.obj
+ 0001:000041f0       ?get_Active@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 100051f0 f   fstyle.obj
+ 0001:000043a0       ?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 100053a0 f   fstyle.obj
+ 0001:00004c50       ??0HFillStyle@@QAE@PAUIUnknown@@@Z 10005c50 f   fstyle.obj
+ 0001:00004c80       ?GetBinding@IHelperImp@HHatchPatternStyles@@UAGJPAPAUIUnknown@@@Z 10005c80 f   hstyles.obj
+ 0001:00004c80       ?GetBinding@IHelperImp@HFillStyles@@UAGJPAPAUIUnknown@@@Z 10005c80 f   fstyles.obj
+ 0001:00004c80       ?GetBinding@IHelperImp@HDashStyles@@UAGJPAPAUIUnknown@@@Z 10005c80 f   dstyles.obj
+ 0001:00004c80       ?GetBinding@IHelperImp@HLinearStyles@@UAGJPAPAUIUnknown@@@Z 10005c80 f   lstyles.obj
+ 0001:00004c80       ?GetBinding@IHelperImp@HSymbolPatternStyles@@UAGJPAPAUIUnknown@@@Z 10005c80 f   sstyles.obj
+ 0001:00004ca0       ?GetClassID@IHelperImp@HFillStyles@@UAGJPAU_GUID@@@Z 10005ca0 f   fstyles.obj
+ 0001:00004ce0       ?AddRef@IHFillStylesImp@HFillStyles@@UAGKXZ 10005ce0 f   fstyles.obj
+ 0001:00004ce0       ?AddRef@IHDashStylesImp@HDashStyles@@UAGKXZ 10005ce0 f   dstyles.obj
+ 0001:00004ce0       ?AddRef@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGKXZ 10005ce0 f   hstyles.obj
+ 0001:00004ce0       ?AddRef@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGKXZ 10005ce0 f   sstyles.obj
+ 0001:00004ce0       ?AddRef@IHLinearStylesImp@HLinearStyles@@UAGKXZ 10005ce0 f   lstyles.obj
+ 0001:00004d00       ?get_Application@IHFillStylesImp@HFillStyles@@UAGJPAPAUIUnknown@@@Z 10005d00 f   fstyles.obj
+ 0001:00004d00       ?get_Application@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPAPAUIUnknown@@@Z 10005d00 f   sstyles.obj
+ 0001:00004d00       ?get_Application@IHDashStylesImp@HDashStyles@@UAGJPAPAUIUnknown@@@Z 10005d00 f   dstyles.obj
+ 0001:00004d00       ?get_Application@IHLinearStylesImp@HLinearStyles@@UAGJPAPAUIUnknown@@@Z 10005d00 f   lstyles.obj
+ 0001:00004d00       ?get_Application@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPAPAUIUnknown@@@Z 10005d00 f   hstyles.obj
+ 0001:00004d20       ?Item@IHFillStylesImp@HFillStyles@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10005d20 f   fstyles.obj
+ 0001:00004d60       ??1HFillStyles@@QAE@XZ     10005d60 f   fstyles.obj
+ 0001:00004d90       ?QueryInterface@HFillStyles@@UAGJABU_GUID@@PAPAX@Z 10005d90 f   fstyles.obj
+ 0001:00004e80       ?get_Count@IHFillStylesImp@HFillStyles@@UAGJPAJ@Z 10005e80 f   fstyles.obj
+ 0001:00004fc0       ?put_Active@IHFillStylesImp@HFillStyles@@UAGJPA_W@Z 10005fc0 f   fstyles.obj
+ 0001:00005050       ?get_Active@IHFillStylesImp@HFillStyles@@UAGJPAPA_W@Z 10006050 f   fstyles.obj
+ 0001:000051b0       ?_NewEnum@IHFillStylesImp@HFillStyles@@UAGJPAPAUIUnknown@@@Z 100061b0 f   fstyles.obj
+ 0001:000052c0       ?Add@IHFillStylesImp@HFillStyles@@UAGJPA_W0PAPAUIUnknown@@@Z 100062c0 f   fstyles.obj
+ 0001:000054e0       ?Remove@IHFillStylesImp@HFillStyles@@UAGJPA_W@Z 100064e0 f   fstyles.obj
+ 0001:000055e0       ?Release@HFillStyles@@UAGKXZ 100065e0 f   fstyles.obj
+ 0001:00005630       ??0HFillStyles@@QAE@PAUIUnknown@@@Z 10006630 f   fstyles.obj
+ 0001:00005660       ??1HHatchPatternStyle@@QAE@XZ 10006660 f   hstyle.obj
+ 0001:00005670       ?Release@IHelperImp@HSymbolPatternStyle@@UAGKXZ 10006670 f   sstyle.obj
+ 0001:00005670       ?Release@IHelperImp@HFillStyle@@UAGKXZ 10006670 f   fstyle.obj
+ 0001:00005670       ?Release@IHelperImp@HLinearStyle@@UAGKXZ 10006670 f   lstyle.obj
+ 0001:00005670       ?Release@IHelperImp@HHatchPatternStyle@@UAGKXZ 10006670 f   hstyle.obj
+ 0001:00005670       ?Release@IHelperImp@HDashStyle@@UAGKXZ 10006670 f   dstyle.obj
+ 0001:00005690       ?Bind@IHelperImp@HDashStyle@@UAGJPAUIUnknown@@@Z 10006690 f   dstyle.obj
+ 0001:00005690       ?Bind@IHelperImp@HLinearStyle@@UAGJPAUIUnknown@@@Z 10006690 f   lstyle.obj
+ 0001:00005690       ?Bind@IHelperImp@HFillStyle@@UAGJPAUIUnknown@@@Z 10006690 f   fstyle.obj
+ 0001:00005690       ?Bind@IHelperImp@HSymbolPatternStyle@@UAGJPAUIUnknown@@@Z 10006690 f   sstyle.obj
+ 0001:00005690       ?Bind@IHelperImp@HHatchPatternStyle@@UAGJPAUIUnknown@@@Z 10006690 f   hstyle.obj
+ 0001:000056b0       ?GetClassID@IHelperImp@HHatchPatternStyle@@UAGJPAU_GUID@@@Z 100066b0 f   hstyle.obj
+ 0001:000056e0       ?QueryInterface@IHelperImp@HSymbolPatternStyles@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   sstyles.obj
+ 0001:000056e0       ?QueryInterface@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   sstyle.obj
+ 0001:000056e0       ?QueryInterface@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   hstyle.obj
+ 0001:000056e0       ?QueryInterface@IHelperImp@HDashStyles@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   dstyles.obj
+ 0001:000056e0       ?QueryInterface@IHFillStyleImp@HFillStyle@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   fstyle.obj
+ 0001:000056e0       ?QueryInterface@IHelperImp@HHatchPatternStyles@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   hstyles.obj
+ 0001:000056e0       ?QueryInterface@IHDashStyleImp@HDashStyle@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   dstyle.obj
+ 0001:000056e0       ?QueryInterface@IHLinearStyleImp@HLinearStyle@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   lstyle.obj
+ 0001:000056e0       ?QueryInterface@IHelperImp@HFillStyles@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   fstyles.obj
+ 0001:000056e0       ?QueryInterface@IHelperImp@HLinearStyles@@UAGJABU_GUID@@PAPAX@Z 100066e0 f   lstyles.obj
+ 0001:00005700       ??$sprintf@$0CA@@@YAHAAY0CA@DPBDZZ 10006700 f i hstyle.obj
+ 0001:00005720       ?Release@HHatchPatternStyle@@UAGKXZ 10006720 f   hstyle.obj
+ 0001:00005770       ?QueryInterface@HHatchPatternStyle@@UAGJABU_GUID@@PAPAX@Z 10006770 f   hstyle.obj
+ 0001:00005800       ?put_Name@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPA_W@Z 10006800 f   hstyle.obj
+ 0001:000058b0       ?get_Name@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAPA_W@Z 100068b0 f   hstyle.obj
+ 0001:00005a30       ?put_Parent@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPA_W@Z 10006a30 f   hstyle.obj
+ 0001:00005b30       ?get_Parent@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAPA_W@Z 10006b30 f   hstyle.obj
+ 0001:00005cf0       ?put_Units@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJ@Z 10006cf0 f   hstyle.obj
+ 0001:00005da0       ?get_Units@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAJ@Z 10006da0 f   hstyle.obj
+ 0001:00005e20       ?get_Count@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAJ@Z 10006e20 f   hstyle.obj
+ 0001:00005ea0       ?AddHatch@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJNNNNNJNPA_WPAJ@Z 10006ea0 f   hstyle.obj
+ 0001:00006050       ?SetHatch@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJNNNNNJNPA_W@Z 10007050 f   hstyle.obj
+ 0001:00006200       ?GetHatch@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN0000PAJ0PAPA_W@Z 10007200 f   hstyle.obj
+ 0001:00006550       ?RemoveHatch@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJ@Z 10007550 f   hstyle.obj
+ 0001:00006610       ?SetRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJN@Z 10007610 f   hstyle.obj
+ 0001:000066e0       ?GetRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN@Z 100076e0 f   hstyle.obj
+ 0001:00006790       ?SetOrigin@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJNN@Z 10007790 f   hstyle.obj
+ 0001:00006870       ?GetOrigin@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN0@Z 10007870 f   hstyle.obj
+ 0001:00006980       ?SetSpacing@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJN@Z 10007980 f   hstyle.obj
+ 0001:00006a50       ?GetSpacing@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN@Z 10007a50 f   hstyle.obj
+ 0001:00006b00       ?SetShift@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJN@Z 10007b00 f   hstyle.obj
+ 0001:00006bd0       ?GetShift@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN@Z 10007bd0 f   hstyle.obj
+ 0001:00006c80       ?SetColor@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJJ@Z 10007c80 f   hstyle.obj
+ 0001:00006d40       ?GetColor@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAJ@Z 10007d40 f   hstyle.obj
+ 0001:00006df0       ?SetWidth@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJN@Z 10007df0 f   hstyle.obj
+ 0001:00006eb0       ?GetWidth@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAN@Z 10007eb0 f   hstyle.obj
+ 0001:00006f60       ?SetDashType@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPA_W@Z 10007f60 f   hstyle.obj
+ 0001:000070b0       ?GetDashType@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAPA_W@Z 100080b0 f   hstyle.obj
+ 0001:000072a0       ?SetDisplayIndex@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJJ@Z 100082a0 f   hstyle.obj
+ 0001:00007370       ?SetDashGap@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJJPAUtagSAFEARRAY@@@Z 10008370 f   hstyle.obj
+ 0001:00007a00       ?get_DashGapCount@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAJ@Z 10008a00 f   hstyle.obj
+ 0001:00007bc0       ?GetDashGap@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJPAJPAPAUtagSAFEARRAY@@@Z 10008bc0 f   hstyle.obj
+ 0001:00007e90       ?SetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 10008e90 f   hstyle.obj
+ 0001:00007fb0       ?GetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z 10008fb0 f   hstyle.obj
+ 0001:000080b0       ?SetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 100090b0 f   hstyle.obj
+ 0001:000081d0       ?GetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z 100091d0 f   hstyle.obj
+ 0001:000082d0       ?SetMasterColor@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJ@Z 100092d0 f   hstyle.obj
+ 0001:00008420       ?SetMasterWidth@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 10009420 f   hstyle.obj
+ 0001:00008580       ??0HHatchPatternStyle@@QAE@PAUIUnknown@@@Z 10009580 f   hstyle.obj
+ 0001:000085b0       ?GetClassID@IHelperImp@HHatchPatternStyles@@UAGJPAU_GUID@@@Z 100095b0 f   hstyles.obj
+ 0001:000085f0       ?Item@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 100095f0 f   hstyles.obj
+ 0001:00008630       ??1HHatchPatternStyles@@QAE@XZ 10009630 f   hstyles.obj
+ 0001:00008660       ?QueryInterface@HHatchPatternStyles@@UAGJABU_GUID@@PAPAX@Z 10009660 f   hstyles.obj
+ 0001:00008750       ?get_Count@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPAJ@Z 10009750 f   hstyles.obj
+ 0001:00008890       ?_NewEnum@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPAPAUIUnknown@@@Z 10009890 f   hstyles.obj
+ 0001:000089a0       ?Add@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPA_W0PAPAUIUnknown@@@Z 100099a0 f   hstyles.obj
+ 0001:00008bc0       ?Remove@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPA_W@Z 10009bc0 f   hstyles.obj
+ 0001:00008d50       ?Release@HHatchPatternStyles@@UAGKXZ 10009d50 f   hstyles.obj
+ 0001:00008da0       ??0HHatchPatternStyles@@QAE@PAUIUnknown@@@Z 10009da0 f   hstyles.obj
+ 0001:00009080       ??1HLinearStyle@@QAE@XZ    1000a080 f   lstyle.obj
+ 0001:00009090       ?GetClassID@IHelperImp@HLinearStyle@@UAGJPAU_GUID@@@Z 1000a090 f   lstyle.obj
+ 0001:000090c0       ?Release@HLinearStyle@@UAGKXZ 1000a0c0 f   lstyle.obj
+ 0001:00009110       ?QueryInterface@HLinearStyle@@UAGJABU_GUID@@PAPAX@Z 1000a110 f   lstyle.obj
+ 0001:000091a0       ?put_Name@IHLinearStyleImp@HLinearStyle@@UAGJPA_W@Z 1000a1a0 f   lstyle.obj
+ 0001:00009250       ?get_Name@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z 1000a250 f   lstyle.obj
+ 0001:000093d0       ?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z 1000a3d0 f   lstyle.obj
+ 0001:00009ae0       ?put_Units@IHLinearStyleImp@HLinearStyle@@UAGJW4StyleUnitsConstant@@@Z 1000aae0 f   lstyle.obj
+ 0001:00009c10       ?get_Units@IHLinearStyleImp@HLinearStyle@@UAGJPAW4StyleUnitsConstant@@@Z 1000ac10 f   lstyle.obj
+ 0001:00009d00       ?get_Color@IHLinearStyleImp@HLinearStyle@@UAGJPAJ@Z 1000ad00 f   lstyle.obj
+ 0001:00009dd0       ?put_Color@IHLinearStyleImp@HLinearStyle@@UAGJJ@Z 1000add0 f   lstyle.obj
+ 0001:0000a100       ?get_Width@IHLinearStyleImp@HLinearStyle@@UAGJPAN@Z 1000b100 f   lstyle.obj
+ 0001:0000a1d0       ?put_Width@IHLinearStyleImp@HLinearStyle@@UAGJN@Z 1000b1d0 f   lstyle.obj
+ 0001:0000a510       ?SetDashGap@IHLinearStyleImp@HLinearStyle@@UAGJJPAUtagSAFEARRAY@@F@Z 1000b510 f   lstyle.obj
+ 0001:0000a8f0       ?get_DashGapCount@IHLinearStyleImp@HLinearStyle@@UAGJPAJ@Z 1000b8f0 f   lstyle.obj
+ 0001:0000aa40       ?GetDashGap@IHLinearStyleImp@HLinearStyle@@UAGJPAJPAPAUtagSAFEARRAY@@PAF@Z 1000ba40 f   lstyle.obj
+ 0001:0000acc0       ?put_Parent@IHLinearStyleImp@HLinearStyle@@UAGJPA_W@Z 1000bcc0 f   lstyle.obj
+ 0001:0000ada0       ?get_Parent@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z 1000bda0 f   lstyle.obj
+ 0001:0000afa0       ?put_DashType@IHLinearStyleImp@HLinearStyle@@UAGJPA_W@Z 1000bfa0 f   lstyle.obj
+ 0001:0000b400       ?get_DashType@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z 1000c400 f   lstyle.obj
+ 0001:0000b5f0       ??0HLinearStyle@@QAE@PAUIUnknown@@@Z 1000c5f0 f   lstyle.obj
+ 0001:0000b620       ?SetParent@IHelperImp@HDashStyles@@UAGJPAUIUnknown@@@Z 1000c620 f   dstyles.obj
+ 0001:0000b620       ?SetParent@IHelperImp@HLinearStyles@@UAGJPAUIUnknown@@@Z 1000c620 f   lstyles.obj
+ 0001:0000b620       ?SetParent@IHelperImp@HHatchPatternStyles@@UAGJPAUIUnknown@@@Z 1000c620 f   hstyles.obj
+ 0001:0000b620       ?SetParent@IHelperImp@HSymbolPatternStyles@@UAGJPAUIUnknown@@@Z 1000c620 f   sstyles.obj
+ 0001:0000b620       ?SetParent@IHelperImp@HFillStyles@@UAGJPAUIUnknown@@@Z 1000c620 f   fstyles.obj
+ 0001:0000b640       ?GetClassID@IHelperImp@HLinearStyles@@UAGJPAU_GUID@@@Z 1000c640 f   lstyles.obj
+ 0001:0000b680       ?QueryInterface@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJABU_GUID@@PAPAX@Z 1000c680 f   hstyles.obj
+ 0001:0000b680       ?QueryInterface@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJABU_GUID@@PAPAX@Z 1000c680 f   sstyles.obj
+ 0001:0000b680       ?QueryInterface@IHDashStylesImp@HDashStyles@@UAGJABU_GUID@@PAPAX@Z 1000c680 f   dstyles.obj
+ 0001:0000b680       ?QueryInterface@IHFillStylesImp@HFillStyles@@UAGJABU_GUID@@PAPAX@Z 1000c680 f   fstyles.obj
+ 0001:0000b680       ?QueryInterface@IHLinearStylesImp@HLinearStyles@@UAGJABU_GUID@@PAPAX@Z 1000c680 f   lstyles.obj
+ 0001:0000b6a0       ?Item@IHLinearStylesImp@HLinearStyles@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 1000c6a0 f   lstyles.obj
+ 0001:0000b6e0       ??1HLinearStyles@@QAE@XZ   1000c6e0 f   lstyles.obj
+ 0001:0000b710       ?QueryInterface@HLinearStyles@@UAGJABU_GUID@@PAPAX@Z 1000c710 f   lstyles.obj
+ 0001:0000b800       ?get_Count@IHLinearStylesImp@HLinearStyles@@UAGJPAJ@Z 1000c800 f   lstyles.obj
+ 0001:0000b940       ?_NewEnum@IHLinearStylesImp@HLinearStyles@@UAGJPAPAUIUnknown@@@Z 1000c940 f   lstyles.obj
+ 0001:0000ba50       ?Add@IHLinearStylesImp@HLinearStyles@@UAGJPA_W0PAPAUIUnknown@@@Z 1000ca50 f   lstyles.obj
+ 0001:0000bc70       ?Remove@IHLinearStylesImp@HLinearStyles@@UAGJPA_W@Z 1000cc70 f   lstyles.obj
+ 0001:0000bd70       ?put_Active@IHLinearStylesImp@HLinearStyles@@UAGJPA_W@Z 1000cd70 f   lstyles.obj
+ 0001:0000be00       ?get_Active@IHLinearStylesImp@HLinearStyles@@UAGJPAPA_W@Z 1000ce00 f   lstyles.obj
+ 0001:0000bf60       ?Release@HLinearStyles@@UAGKXZ 1000cf60 f   lstyles.obj
+ 0001:0000bfb0       ??0HLinearStyles@@QAE@PAUIUnknown@@@Z 1000cfb0 f   lstyles.obj
+ 0001:0000bfe0       ?ServerGetNumberOfObjects@@YAKXZ 1000cfe0 f   server.obj
+ 0001:0000bff0       ?ServerGetNumberOfLocks@@YAKXZ 1000cff0 f   server.obj
+ 0001:0000c000       ?ServerIncrementNumberOfObjects@@YAXXZ 1000d000 f   server.obj
+ 0001:0000c010       ?ServerDecrementNumberOfObjects@@YAXXZ 1000d010 f   server.obj
+ 0001:0000c020       ?ServerIncrementNumberOfLocks@@YAXXZ 1000d020 f   server.obj
+ 0001:0000c030       ?ServerDecrementNumberOfLocks@@YAXXZ 1000d030 f   server.obj
+ 0001:0000c040       _DllCanUnloadNow@0         1000d040 f   server.obj
+ 0001:0000c090       _DllMain@12                1000d090 f   server.obj
+ 0001:0000c0e0       _GetResourceModuleHandle@4 1000d0e0 f   server.obj
+ 0001:0000c110       ??0?$ClassFactory@VHLinearStyles@@@@QAE@HHH@Z 1000d110 f i server.obj
+ 0001:0000c190       ?OnCreateInstance@?$ClassFactory@VHLinearStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d190 f i server.obj
+ 0001:0000c2e0       ??0?$ClassFactory@VHLinearStyle@@@@QAE@HHH@Z 1000d2e0 f i server.obj
+ 0001:0000c360       ?OnCreateInstance@?$ClassFactory@VHLinearStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d360 f i server.obj
+ 0001:0000c4b0       ??0?$ClassFactory@VHFillStyles@@@@QAE@HHH@Z 1000d4b0 f i server.obj
+ 0001:0000c530       ?OnCreateInstance@?$ClassFactory@VHFillStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d530 f i server.obj
+ 0001:0000c680       ??0?$ClassFactory@VHFillStyle@@@@QAE@HHH@Z 1000d680 f i server.obj
+ 0001:0000c700       ?OnCreateInstance@?$ClassFactory@VHFillStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d700 f i server.obj
+ 0001:0000c850       ??0?$ClassFactory@VHSymbolPatternStyles@@@@QAE@HHH@Z 1000d850 f i server.obj
+ 0001:0000c8d0       ?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000d8d0 f i server.obj
+ 0001:0000ca20       ??0?$ClassFactory@VHSymbolPatternStyle@@@@QAE@HHH@Z 1000da20 f i server.obj
+ 0001:0000caa0       ?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000daa0 f i server.obj
+ 0001:0000cbf0       ??0?$ClassFactory@VHHatchPatternStyles@@@@QAE@HHH@Z 1000dbf0 f i server.obj
+ 0001:0000cc70       ?OnCreateInstance@?$ClassFactory@VHHatchPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000dc70 f i server.obj
+ 0001:0000cdc0       ??0?$ClassFactory@VHHatchPatternStyle@@@@QAE@HHH@Z 1000ddc0 f i server.obj
+ 0001:0000ce40       ?OnCreateInstance@?$ClassFactory@VHHatchPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000de40 f i server.obj
+ 0001:0000cf90       ??0?$ClassFactory@VHDashStyles@@@@QAE@HHH@Z 1000df90 f i server.obj
+ 0001:0000d010       ?OnCreateInstance@?$ClassFactory@VHDashStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000e010 f i server.obj
+ 0001:0000d160       ??0?$ClassFactory@VHDashStyle@@@@QAE@HHH@Z 1000e160 f i server.obj
+ 0001:0000d1e0       ?OnCreateInstance@?$ClassFactory@VHDashStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000e1e0 f i server.obj
+ 0001:0000d330       _DllGetClassObject@12      1000e330 f   server.obj
+ 0001:0000d680       ??_G?$ClassFactory@VHLinearStyles@@@@UAEPAXI@Z 1000e680 f i server.obj
+ 0001:0000d680       ??_E?$ClassFactory@VHLinearStyles@@@@UAEPAXI@Z 1000e680 f i server.obj
+ 0001:0000d6e0       ??_G?$ClassFactory@VHLinearStyle@@@@UAEPAXI@Z 1000e6e0 f i server.obj
+ 0001:0000d6e0       ??_E?$ClassFactory@VHLinearStyle@@@@UAEPAXI@Z 1000e6e0 f i server.obj
+ 0001:0000d740       ??_G?$ClassFactory@VHFillStyles@@@@UAEPAXI@Z 1000e740 f i server.obj
+ 0001:0000d740       ??_E?$ClassFactory@VHFillStyles@@@@UAEPAXI@Z 1000e740 f i server.obj
+ 0001:0000d7a0       ??_E?$ClassFactory@VHFillStyle@@@@UAEPAXI@Z 1000e7a0 f i server.obj
+ 0001:0000d7a0       ??_G?$ClassFactory@VHFillStyle@@@@UAEPAXI@Z 1000e7a0 f i server.obj
+ 0001:0000d800       ??_E?$ClassFactory@VHSymbolPatternStyles@@@@UAEPAXI@Z 1000e800 f i server.obj
+ 0001:0000d800       ??_G?$ClassFactory@VHSymbolPatternStyles@@@@UAEPAXI@Z 1000e800 f i server.obj
+ 0001:0000d860       ??_E?$ClassFactory@VHSymbolPatternStyle@@@@UAEPAXI@Z 1000e860 f i server.obj
+ 0001:0000d860       ??_G?$ClassFactory@VHSymbolPatternStyle@@@@UAEPAXI@Z 1000e860 f i server.obj
+ 0001:0000d8c0       ??_E?$ClassFactory@VHHatchPatternStyles@@@@UAEPAXI@Z 1000e8c0 f i server.obj
+ 0001:0000d8c0       ??_G?$ClassFactory@VHHatchPatternStyles@@@@UAEPAXI@Z 1000e8c0 f i server.obj
+ 0001:0000d920       ??_E?$ClassFactory@VHHatchPatternStyle@@@@UAEPAXI@Z 1000e920 f i server.obj
+ 0001:0000d920       ??_G?$ClassFactory@VHHatchPatternStyle@@@@UAEPAXI@Z 1000e920 f i server.obj
+ 0001:0000d980       ??_G?$ClassFactory@VHDashStyles@@@@UAEPAXI@Z 1000e980 f i server.obj
+ 0001:0000d980       ??_E?$ClassFactory@VHDashStyles@@@@UAEPAXI@Z 1000e980 f i server.obj
+ 0001:0000d9e0       ??_E?$ClassFactory@VHDashStyle@@@@UAEPAXI@Z 1000e9e0 f i server.obj
+ 0001:0000d9e0       ??_G?$ClassFactory@VHDashStyle@@@@UAEPAXI@Z 1000e9e0 f i server.obj
+ 0001:0000da40       ??1HSymbolPatternStyle@@QAE@XZ 1000ea40 f   sstyle.obj
+ 0001:0000da50       ?AddRef@HDashStyle@@UAGKXZ 1000ea50 f   dstyle.obj
+ 0001:0000da50       ?AddRef@HFillStyle@@UAGKXZ 1000ea50 f   fstyle.obj
+ 0001:0000da50       ?AddRef@HSymbolPatternStyle@@UAGKXZ 1000ea50 f   sstyle.obj
+ 0001:0000da50       ?AddRef@HDashStyles@@UAGKXZ 1000ea50 f   dstyles.obj
+ 0001:0000da50       ?AddRef@HHatchPatternStyles@@UAGKXZ 1000ea50 f   hstyles.obj
+ 0001:0000da50       ?AddRef@HSymbolPatternStyles@@UAGKXZ 1000ea50 f   sstyles.obj
+ 0001:0000da50       ?AddRef@HLinearStyle@@UAGKXZ 1000ea50 f   lstyle.obj
+ 0001:0000da50       ?AddRef@HLinearStyles@@UAGKXZ 1000ea50 f   lstyles.obj
+ 0001:0000da50       ?AddRef@HHatchPatternStyle@@UAGKXZ 1000ea50 f   hstyle.obj
+ 0001:0000da50       ?AddRef@HFillStyles@@UAGKXZ 1000ea50 f   fstyles.obj
+ 0001:0000da60       ?QueryInterface@IHelperImp@HLinearStyle@@UAGJABU_GUID@@PAPAX@Z 1000ea60 f   lstyle.obj
+ 0001:0000da60       ?QueryInterface@IHelperImp@HHatchPatternStyle@@UAGJABU_GUID@@PAPAX@Z 1000ea60 f   hstyle.obj
+ 0001:0000da60       ?QueryInterface@IHelperImp@HFillStyle@@UAGJABU_GUID@@PAPAX@Z 1000ea60 f   fstyle.obj
+ 0001:0000da60       ?QueryInterface@IHelperImp@HDashStyle@@UAGJABU_GUID@@PAPAX@Z 1000ea60 f   dstyle.obj
+ 0001:0000da60       ?QueryInterface@IHelperImp@HSymbolPatternStyle@@UAGJABU_GUID@@PAPAX@Z 1000ea60 f   sstyle.obj
+ 0001:0000da80       ?AddRef@IHelperImp@HLinearStyle@@UAGKXZ 1000ea80 f   lstyle.obj
+ 0001:0000da80       ?AddRef@IHelperImp@HFillStyle@@UAGKXZ 1000ea80 f   fstyle.obj
+ 0001:0000da80       ?AddRef@IHelperImp@HSymbolPatternStyle@@UAGKXZ 1000ea80 f   sstyle.obj
+ 0001:0000da80       ?AddRef@IHelperImp@HDashStyle@@UAGKXZ 1000ea80 f   dstyle.obj
+ 0001:0000da80       ?AddRef@IHelperImp@HHatchPatternStyle@@UAGKXZ 1000ea80 f   hstyle.obj
+ 0001:0000daa0       ?GetBinding@IHelperImp@HSymbolPatternStyle@@UAGJPAPAUIUnknown@@@Z 1000eaa0 f   sstyle.obj
+ 0001:0000daa0       ?GetBinding@IHelperImp@HLinearStyle@@UAGJPAPAUIUnknown@@@Z 1000eaa0 f   lstyle.obj
+ 0001:0000daa0       ?GetBinding@IHelperImp@HDashStyle@@UAGJPAPAUIUnknown@@@Z 1000eaa0 f   dstyle.obj
+ 0001:0000daa0       ?GetBinding@IHelperImp@HHatchPatternStyle@@UAGJPAPAUIUnknown@@@Z 1000eaa0 f   hstyle.obj
+ 0001:0000daa0       ?GetBinding@IHelperImp@HFillStyle@@UAGJPAPAUIUnknown@@@Z 1000eaa0 f   fstyle.obj
+ 0001:0000dac0       ?GetClassID@IHelperImp@HSymbolPatternStyle@@UAGJPAU_GUID@@@Z 1000eac0 f   sstyle.obj
+ 0001:0000daf0       ?Release@HSymbolPatternStyle@@UAGKXZ 1000eaf0 f   sstyle.obj
+ 0001:0000db40       ?QueryInterface@HSymbolPatternStyle@@UAGJABU_GUID@@PAPAX@Z 1000eb40 f   sstyle.obj
+ 0001:0000dbd0       ?put_Name@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPA_W@Z 1000ebd0 f   sstyle.obj
+ 0001:0000dc70       ?get_Name@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAPA_W@Z 1000ec70 f   sstyle.obj
+ 0001:0000ddf0       ?put_Parent@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPA_W@Z 1000edf0 f   sstyle.obj
+ 0001:0000dee0       ?get_Parent@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAPA_W@Z 1000eee0 f   sstyle.obj
+ 0001:0000e0a0       ?put_Units@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJ@Z 1000f0a0 f   sstyle.obj
+ 0001:0000e180       ?get_Units@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAJ@Z 1000f180 f   sstyle.obj
+ 0001:0000e260       ?get_Color@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAJ@Z 1000f260 f   sstyle.obj
+ 0001:0000e340       ?put_Color@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJ@Z 1000f340 f   sstyle.obj
+ 0001:0000e420       ?put_Rotation@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000f420 f   sstyle.obj
+ 0001:0000e4a0       ?get_Rotation@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000f4a0 f   sstyle.obj
+ 0001:0000e520       ?SetOrigin@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJNN@Z 1000f520 f   sstyle.obj
+ 0001:0000e5b0       ?GetOrigin@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN0@Z 1000f5b0 f   sstyle.obj
+ 0001:0000e650       ?put_Scale@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000f650 f   sstyle.obj
+ 0001:0000e6d0       ?get_Scale@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000f6d0 f   sstyle.obj
+ 0001:0000e750       ?put_SpacingX@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000f750 f   sstyle.obj
+ 0001:0000e7d0       ?get_SpacingX@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000f7d0 f   sstyle.obj
+ 0001:0000e850       ?put_SpacingY@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000f850 f   sstyle.obj
+ 0001:0000e8d0       ?get_SpacingY@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000f8d0 f   sstyle.obj
+ 0001:0000e950       ?put_StaggerX@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000f950 f   sstyle.obj
+ 0001:0000e9d0       ?get_StaggerX@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000f9d0 f   sstyle.obj
+ 0001:0000ea50       ?put_StaggerY@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJN@Z 1000fa50 f   sstyle.obj
+ 0001:0000ead0       ?get_StaggerY@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAN@Z 1000fad0 f   sstyle.obj
+ 0001:0000eb50       ?get_Count@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJPAJ@Z 1000fb50 f   sstyle.obj
+ 0001:0000ec90       ?AddSymbol@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJNNNNNNNN@Z 1000fc90 f   sstyle.obj
+ 0001:0000ed70       ?RemoveSymbol@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJ@Z 1000fd70 f   sstyle.obj
+ 0001:0000edf0       ?SetSymbol@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJPAUIUnknown@@@Z 1000fdf0 f   sstyle.obj
+ 0001:0000ee70       ?SetDisplayIndex@IHSymbolPatternStyleImp@HSymbolPatternStyle@@UAGJJJ@Z 1000fe70 f   sstyle.obj
+ 0001:0000ef00       ??0HSymbolPatternStyle@@QAE@PAUIUnknown@@@Z 1000ff00 f   sstyle.obj
+ 0001:0000ef30       ?Bind@IHelperImp@HFillStyles@@UAGJPAUIUnknown@@@Z 1000ff30 f   fstyles.obj
+ 0001:0000ef30       ?Bind@IHelperImp@HLinearStyles@@UAGJPAUIUnknown@@@Z 1000ff30 f   lstyles.obj
+ 0001:0000ef30       ?Bind@IHelperImp@HSymbolPatternStyles@@UAGJPAUIUnknown@@@Z 1000ff30 f   sstyles.obj
+ 0001:0000ef30       ?Bind@IHelperImp@HDashStyles@@UAGJPAUIUnknown@@@Z 1000ff30 f   dstyles.obj
+ 0001:0000ef30       ?Bind@IHelperImp@HHatchPatternStyles@@UAGJPAUIUnknown@@@Z 1000ff30 f   hstyles.obj
+ 0001:0000ef40       ?GetClassID@IHelperImp@HSymbolPatternStyles@@UAGJPAU_GUID@@@Z 1000ff40 f   sstyles.obj
+ 0001:0000ef80       ?Item@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 1000ff80 f   sstyles.obj
+ 0001:0000efc0       ??1HSymbolPatternStyles@@QAE@XZ 1000ffc0 f   sstyles.obj
+ 0001:0000eff0       ?QueryInterface@HSymbolPatternStyles@@UAGJABU_GUID@@PAPAX@Z 1000fff0 f   sstyles.obj
+ 0001:0000f080       ?get_Count@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPAJ@Z 10010080 f   sstyles.obj
+ 0001:0000f1c0       ?_NewEnum@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPAPAUIUnknown@@@Z 100101c0 f   sstyles.obj
+ 0001:0000f2d0       ?Add@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPA_W0PAPAUIUnknown@@@Z 100102d0 f   sstyles.obj
+ 0001:0000f4e0       ?Remove@IHSymbolPatternStylesImp@HSymbolPatternStyles@@UAGJPA_W@Z 100104e0 f   sstyles.obj
+ 0001:0000f5d0       ?Release@HSymbolPatternStyles@@UAGKXZ 100105d0 f   sstyles.obj
+ 0001:0000f620       ??0HSymbolPatternStyles@@QAE@PAUIUnknown@@@Z 10010620 f   sstyles.obj
+ 0001:0000f650       _HGetStyleManager@8        10010650 f   daxutil:Daxutil.dll
+ 0001:0000f656       ?HCollectionStyles@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@@Z 10010656 f   daxutil:Daxutil.dll
+ 0001:0000f65c       ?HStylesCollection_NewEnum@@YAJPAUIEnumUnknown@@P6AJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@ZPAPAU3@@Z 1001065c f   daxutil:Daxutil.dll
+ 0001:0000f662       ?HNextStylesEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10010662 f   daxutil:Daxutil.dll
+ 0001:0000f668       _HAddRefObject@8           10010668 f   jengine:jengine.dll
+ 0001:0000f66e       _HReleaseObject@8          1001066e f   jengine:jengine.dll
+ 0001:0000f674       _JBindDAXObject@12         10010674 f   jengine:jengine.dll
+ 0001:0000f67a       _HGetBinding@12            1001067a f   jengine:jengine.dll
+ 0001:0000f680       _JGetStyleManagerFromObject 10010680 f   jengine:jengine.dll
+ 0001:0000f686       _JLogModify@4              10010686 f   jengine:jengine.dll
+ 0001:0000f68c       _BatchFlush@0              1001068c f   jengine:jengine.dll
+ 0001:0000f692       _BatchModify@8             10010692 f   jengine:jengine.dll
+ 0001:0000f698       _HBindCollection@12        10010698 f   jengine:jengine.dll
+ 0001:0000f69e       _JQueryApplication         1001069e f   jengine:jengine.dll
+ 0001:0000f6a4       _JGetFastDAXObject@16      100106a4 f   jengine:jengine.dll
+ 0001:0000f6aa       _HRerrEx                   100106aa f   jutil:JUtil.dll
+ 0001:0000f6b0       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 100106b0 f   jutil:JUtil.dll
+ 0001:0000f6b6       _JFreeLibrary              100106b6 f   jutil:JUtil.dll
+ 0001:0000f6bc       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 100106bc f   jutil:JUtil.dll
+ 0001:0000f6c2       ?AddRef@JClassFactory@@UAGKXZ 100106c2 f   jutil:JUtil.dll
+ 0001:0000f6c8       ?Release@JClassFactory@@UAGKXZ 100106c8 f   jutil:JUtil.dll
+ 0001:0000f6ce       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100106ce f   jutil:JUtil.dll
+ 0001:0000f6d4       ?LockServer@JClassFactory@@UAGJH@Z 100106d4 f   jutil:JUtil.dll
+ 0001:0000f6da       _malloc                    100106da f   MSVCRT:MSVCR80.dll
+ 0001:0000f6e0       __callnewh                 100106e0 f   MSVCRT:MSVCR80.dll
+ 0001:0000f6e6       ??_Etype_info@@UAEPAXI@Z   100106e6 f i MSVCRT:ti_inst.obj
+ 0001:0000f730       ??3@YAXPAX@Z               10010730 f   MSVCRT:MSVCR80.dll
+ 0001:0000f736       ___CxxFrameHandler3        10010736 f   MSVCRT:MSVCR80.dll
+ 0001:0000f73c       @__security_check_cookie@4 1001073c f   MSVCRT:secchk.obj
+ 0001:0000f750       _memset                    10010750 f   MSVCRT:MSVCR80.dll
+ 0001:0000f756       ??_V@YAXPAX@Z              10010756 f   MSVCRT:MSVCR80.dll
+ 0001:0000f7a9       __CRT_INIT@12              100107a9 f   MSVCRT:crtdll.obj
+ 0001:0000fa5e       __DllMainCRTStartup@12     10010a5e f   MSVCRT:crtdll.obj
+ 0001:0000fa7f       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10010a7f f   MSVCRT:ehvecdtr.obj
+ 0001:0000fadd       ??_M@YGXPAXIHP6EX0@Z@Z     10010add f   MSVCRT:ehvecdtr.obj
+ 0001:0000fb40       ___report_gsfailure        10010b40 f   MSVCRT:gs_report.obj
+ 0001:0000fc44       ___clean_type_info_names   10010c44 f   MSVCRT:tncleanup.obj
+ 0001:0000fc50       __onexit                   10010c50 f   MSVCRT:atonexit.obj
+ 0001:0000fcef       _atexit                    10010cef f   MSVCRT:atonexit.obj
+ 0001:0000fd01       __RTC_Initialize           10010d01 f   MSVCRT:initsect.obj
+ 0001:0000fd25       __RTC_Terminate            10010d25 f   MSVCRT:initsect.obj
+ 0001:0000fd50       __ValidateImageBase        10010d50 f   MSVCRT:pesect.obj
+ 0001:0000fd80       __FindPESection            10010d80 f   MSVCRT:pesect.obj
+ 0001:0000fdc2       __IsNonwritableInCurrentImage 10010dc2 f   MSVCRT:pesect.obj
+ 0001:0000fe2e       __initterm                 10010e2e f   MSVCRT:MSVCR80.dll
+ 0001:0000fe34       __initterm_e               10010e34 f   MSVCRT:MSVCR80.dll
+ 0001:0000fe3a       __amsg_exit                10010e3a f   MSVCRT:MSVCR80.dll
+ 0001:0000fe40       ___CppXcptFilter           10010e40 f   MSVCRT:MSVCR80.dll
+ 0001:0000fe48       __SEH_prolog4              10010e48 f   MSVCRT:sehprolg4.obj
+ 0001:0000fe8d       __SEH_epilog4              10010e8d f   MSVCRT:sehprolg4.obj
+ 0001:0000fea1       __except_handler4          10010ea1 f   MSVCRT:chandler4gs.obj
+ 0001:0000fec4       ___security_init_cookie    10010ec4 f   MSVCRT:gs_support.obj
+ 0001:0000ff58       ?terminate@@YAXXZ          10010f58 f   MSVCRT:MSVCR80.dll
+ 0001:0000ff5e       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10010f5e f   MSVCRT:MSVCR80.dll
+ 0001:0000ff5e       ??1type_info@@UAE@XZ       10010f5e f   MSVCRT:MSVCR80.dll
+ 0001:0000ff64       __crt_debugger_hook        10010f64 f   MSVCRT:MSVCR80.dll
+ 0001:0000ff6a       ___clean_type_info_names_internal 10010f6a f   MSVCRT:MSVCR80.dll
+ 0001:0000ff70       __unlock                   10010f70 f   MSVCRT:MSVCR80.dll
+ 0001:0000ff76       ___dllonexit               10010f76 f   MSVCRT:MSVCR80.dll
+ 0001:0000ff7c       __lock                     10010f7c f   MSVCRT:MSVCR80.dll
+ 0001:0000ff82       __except_handler4_common   10010f82 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?HCollectionStyles@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@@Z 10012000     daxutil:Daxutil.dll
+ 0002:00000004       __imp_?HStylesCollection_NewEnum@@YAJPAUIEnumUnknown@@P6AJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@ZPAPAU3@@Z 10012004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?HNextStylesEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10012008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp__HGetStyleManager@8  1001200c     daxutil:Daxutil.dll
+ 0002:00000010       \177Daxutil_NULL_THUNK_DATA 10012010     daxutil:Daxutil.dll
+ 0002:00000014       __imp_?LockServer@JClassFactory@@UAGJH@Z 10012014     jutil:JUtil.dll
+ 0002:00000018       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 10012018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?Release@JClassFactory@@UAGKXZ 1001201c     jutil:JUtil.dll
+ 0002:00000020       __imp_?AddRef@JClassFactory@@UAGKXZ 10012020     jutil:JUtil.dll
+ 0002:00000024       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 10012024     jutil:JUtil.dll
+ 0002:00000028       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10012028     jutil:JUtil.dll
+ 0002:0000002c       __imp_??1JClassFactory@@UAE@XZ 1001202c     jutil:JUtil.dll
+ 0002:00000030       __imp__JFreeLibrary        10012030     jutil:JUtil.dll
+ 0002:00000034       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 10012034     jutil:JUtil.dll
+ 0002:00000038       __imp_??4GUserText@@QAEAAV0@ABV0@@Z 10012038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??YGUserText@@QAEAAV0@PB_W@Z 1001203c     jutil:JUtil.dll
+ 0002:00000040       __imp_??YGUserText@@QAEAAV0@PBD@Z 10012040     jutil:JUtil.dll
+ 0002:00000044       __imp__HRerrEx             10012044     jutil:JUtil.dll
+ 0002:00000048       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 10012048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 1001204c     jutil:JUtil.dll
+ 0002:00000050       __imp_??1GUserText@@QAE@XZ 10012050     jutil:JUtil.dll
+ 0002:00000054       __imp_??BGUserText@@QBEPB_WXZ 10012054     jutil:JUtil.dll
+ 0002:00000058       __imp_?FormatUnit@@YAHINAAVGUserText@@PAUtagUomFormat@@PAI22@Z 10012058     jutil:JUtil.dll
+ 0002:0000005c       __imp_??YGUserText@@QAEAAV0@ABV0@@Z 1001205c     jutil:JUtil.dll
+ 0002:00000060       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10012060     jutil:JUtil.dll
+ 0002:00000064       __imp_??0GUserText@@QAE@XZ 10012064     jutil:JUtil.dll
+ 0002:00000068       __imp_??0GUserText@@QAE@PB_WHH@Z 10012068     jutil:JUtil.dll
+ 0002:0000006c       \177JUtil_NULL_THUNK_DATA  1001206c     jutil:JUtil.dll
+ 0002:00000070       __imp__Sleep@4             10012070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__InterlockedCompareExchange@12 10012074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__TerminateProcess@8  10012078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetCurrentProcess@0 1001207c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__UnhandledExceptionFilter@4 10012080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__SetUnhandledExceptionFilter@4 10012084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__IsDebuggerPresent@0 10012088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__QueryPerformanceCounter@4 1001208c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetTickCount@0      10012090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetCurrentThreadId@0 10012094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetCurrentProcessId@0 10012098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__InterlockedExchange@8 1001209c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetSystemTime@4     100120a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetSystemTimeAsFileTime@4 100120a4     kernel32:KERNEL32.dll
+ 0002:000000a8       \177KERNEL32_NULL_THUNK_DATA 100120a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp___encode_pointer     100120ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___onexit             100120b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp___lock               100120b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp____dllonexit         100120b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___unlock             100120bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp____clean_type_info_names_internal 100120c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___crt_debugger_hook  100120c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100120c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp_?terminate@@YAXXZ    100120cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp____CppXcptFilter     100120d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___adjust_fdiv        100120d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp___amsg_exit          100120d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___initterm_e         100120dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___initterm           100120e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___decode_pointer     100120e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___encoded_null       100120e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___malloc_crt         100120ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__wcscoll             100120f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp_??_V@YAXPAX@Z        100120f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp__vsprintf_s          100120f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp__memset              100120fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp__malloc              10012100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___callnewh           10012104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp_??3@YAXPAX@Z         10012108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp____CxxFrameHandler3  1001210c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp__free                10012110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp___except_handler4_common 10012114     MSVCRT:MSVCR80.dll
+ 0002:00000118       \177MSVCR80_NULL_THUNK_DATA 10012118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp__SafeArrayDestroy@4  1001211c     oleaut32:OLEAUT32.dll
+ 0002:00000120       __imp__SafeArrayCreate@12  10012120     oleaut32:OLEAUT32.dll
+ 0002:00000124       __imp__SafeArrayGetDim@4   10012124     oleaut32:OLEAUT32.dll
+ 0002:00000128       __imp__SafeArrayPutElement@12 10012128     oleaut32:OLEAUT32.dll
+ 0002:0000012c       __imp__SafeArrayGetElement@12 1001212c     oleaut32:OLEAUT32.dll
+ 0002:00000130       \177OLEAUT32_NULL_THUNK_DATA 10012130     oleaut32:OLEAUT32.dll
+ 0002:00000134       __imp__JGetFastDAXObject@16 10012134     jengine:jengine.dll
+ 0002:00000138       __imp__HAddRefObject@8     10012138     jengine:jengine.dll
+ 0002:0000013c       __imp__HReleaseObject@8    1001213c     jengine:jengine.dll
+ 0002:00000140       __imp__JBindDAXObject@12   10012140     jengine:jengine.dll
+ 0002:00000144       __imp__JQueryApplication   10012144     jengine:jengine.dll
+ 0002:00000148       __imp__HBindCollection@12  10012148     jengine:jengine.dll
+ 0002:0000014c       __imp__BatchModify@8       1001214c     jengine:jengine.dll
+ 0002:00000150       __imp__BatchFlush@0        10012150     jengine:jengine.dll
+ 0002:00000154       __imp__JLogModify@4        10012154     jengine:jengine.dll
+ 0002:00000158       __imp__JGetStyleManagerFromObject 10012158     jengine:jengine.dll
+ 0002:0000015c       __imp__HGetBinding@12      1001215c     jengine:jengine.dll
+ 0002:00000160       \177jengine_NULL_THUNK_DATA 10012160     jengine:jengine.dll
+ 0002:00000164       __imp__JSESysAllocStringLen@8 10012164     sealloc:sealloc.dll
+ 0002:00000168       __imp__JSESysAllocString@4 10012168     sealloc:sealloc.dll
+ 0002:0000016c       __imp__JSESysFreeString@4  1001216c     sealloc:sealloc.dll
+ 0002:00000170       \177sealloc_NULL_THUNK_DATA 10012170     sealloc:sealloc.dll
+ 0002:00000174       __imp_?HGetFillPattern@@YAJPAUIUnknown@@PAPAU1@PAW4tagPatternStyleType@@@Z 10012174     stylspt:stylspt.dll
+ 0002:00000178       __imp_?HGetPatternStyleType@@YAJPAUIUnknown@@PAW4tagPatternStyleType@@@Z 10012178     stylspt:stylspt.dll
+ 0002:0000017c       __imp_?HSetActiveFillStyle@@YAJPAUIUnknown@@0@Z 1001217c     stylspt:stylspt.dll
+ 0002:00000180       __imp_?HGetActiveLinearStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10012180     stylspt:stylspt.dll
+ 0002:00000184       __imp_?HGetLinearStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 10012184     stylspt:stylspt.dll
+ 0002:00000188       __imp_?HGetLinearStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10012188     stylspt:stylspt.dll
+ 0002:0000018c       __imp_?HSetActiveLinearStyle@@YAJPAUIUnknown@@0@Z 1001218c     stylspt:stylspt.dll
+ 0002:00000190       __imp_?HGetDashStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 10012190     stylspt:stylspt.dll
+ 0002:00000194       __imp_?HGetDashStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 10012194     stylspt:stylspt.dll
+ 0002:00000198       __imp_?HGetActiveFillStyle@@YAJPAUIUnknown@@PAPAU1@@Z 10012198     stylspt:stylspt.dll
+ 0002:0000019c       __imp_?HGetFillStyleName@@YAJPAUIUnknown@@0PA_WPAK@Z 1001219c     stylspt:stylspt.dll
+ 0002:000001a0       __imp_?HGetFillStyle@@YAJPAUIUnknown@@PA_WPAPAU1@@Z 100121a0     stylspt:stylspt.dll
+ 0002:000001a4       \177stylspt_NULL_THUNK_DATA 100121a4     stylspt:stylspt.dll
+ 0002:000001a8       ___xc_a                    100121a8     MSVCRT:cinitexe.obj
+ 0002:000001cc       ___xc_z                    100121cc     MSVCRT:cinitexe.obj
+ 0002:000001d0       ___xi_a                    100121d0     MSVCRT:cinitexe.obj
+ 0002:000001d8       ___xi_z                    100121d8     MSVCRT:cinitexe.obj
+ 0002:00000200       ??_7HDashStyle@@6B@        10012200     dstyle.obj
+ 0002:0000020c       ??_C@_0N@FLMCEKKA@?4?2dstyle?4cpp?$AA@ 1001220c     dstyle.obj
+ 0002:0000021c       ??_C@_0BE@PEOFBGK@IsDashStyleEditable?$AA@ 1001221c     dstyle.obj
+ 0002:00000230       ??_C@_0CF@JPFHNAEK@HDashStyle?3?3IHDashStyleImp?3?3put_@ 10012230     dstyle.obj
+ 0002:00000258       ??_C@_0CF@CLENMONJ@HDashStyle?3?3IHDashStyleImp?3?3get_@ 10012258     dstyle.obj
+ 0002:00000280       ??_C@_0CG@OLEDOOPC@HDashStyle?3?3IHDashStyleImp?3?3put_@ 10012280     dstyle.obj
+ 0002:000002a8       ??_C@_0CG@ICPBDGBC@HDashStyle?3?3IHDashStyleImp?3?3get_@ 100122a8     dstyle.obj
+ 0002:000002d0       ??_C@_0CN@DOAJAAPF@HDashStyle?3?3IHDashStyleImp?3?3get_@ 100122d0     dstyle.obj
+ 0002:00000300       ??_C@_0CH@EGFOHFIO@HDashStyle?3?3IHDashStyleImp?3?3SetD@ 10012300     dstyle.obj
+ 0002:00000328       ??_C@_0CH@FIHBMCMH@HDashStyle?3?3IHDashStyleImp?3?3GetD@ 10012328     dstyle.obj
+ 0002:00000350       ??_C@_0CH@IKBDJBEP@HDashStyle?3?3IHDashStyleImp?3?3put_@ 10012350     dstyle.obj
+ 0002:00000378       ??_C@_0CH@CKHAMBOP@HDashStyle?3?3IHDashStyleImp?3?3get_@ 10012378     dstyle.obj
+ 0002:000003a0       ??_C@_0DA@PBCAJCNO@HDashStyle?3?3IHDashStyleImp?3?3put_@ 100123a0     dstyle.obj
+ 0002:000003d0       ??_C@_0DA@ODOAKEGC@HDashStyle?3?3IHDashStyleImp?3?3get_@ 100123d0     dstyle.obj
+ 0002:00000404       ??_7IHelperImp@HDashStyle@@6B@ 10012404     dstyle.obj
+ 0002:00000424       ??_7IHDashStyleImp@HDashStyle@@6B@ 10012424     dstyle.obj
+ 0002:00000470       ??_7HDashStyles@@6B@       10012470     dstyles.obj
+ 0002:0000047c       ??_C@_0O@KLGNGHPE@?4?2dstyles?4cpp?$AA@ 1001247c     dstyles.obj
+ 0002:0000048c       ??_C@_0CI@GBBMIEIP@HDashStyles?3?3IHDashStylesImp?3?3ge@ 1001248c     dstyles.obj
+ 0002:000004b4       ??_C@_0CH@CHGBCEBG@HDashStyles?3?3IHDashStylesImp?3?3_N@ 100124b4     dstyles.obj
+ 0002:000004e0       __real@3fe0000000000000    100124e0     dstyles.obj
+ 0002:000004e8       __real@bf5cac083126e979    100124e8     dstyles.obj
+ 0002:000004f0       __real@bf6cac083126e979    100124f0     dstyles.obj
+ 0002:000004f8       ??_C@_0CC@OPAPKIFI@HDashStyles?3?3IHDashStylesImp?3?3Ad@ 100124f8     dstyles.obj
+ 0002:0000051c       ??_C@_0CF@CPAHAPEF@HDashStyles?3?3IHDashStylesImp?3?3Re@ 1001251c     dstyles.obj
+ 0002:00000548       ??_7IHelperImp@HDashStyles@@6B@ 10012548     dstyles.obj
+ 0002:00000568       ??_7IHDashStylesImp@HDashStyles@@6B@ 10012568     dstyles.obj
+ 0002:00000594       ??_7HFillStyle@@6B@        10012594     fstyle.obj
+ 0002:000005a0       ??_C@_0N@DKOPDGB@?4?2fstyle?4cpp?$AA@ 100125a0     fstyle.obj
+ 0002:000005b0       ??_C@_0CF@EHNLDPEK@HFillStyle?3?3IHFillStyleImp?3?3put_@ 100125b0     fstyle.obj
+ 0002:000005d8       ??_C@_0CF@PDMBCBNJ@HFillStyle?3?3IHFillStyleImp?3?3get_@ 100125d8     fstyle.obj
+ 0002:00000600       ??_C@_0CM@IFEGMDFJ@HFillStyle?3?3IHFillStyleImp?3?3put_@ 10012600     fstyle.obj
+ 0002:0000062c       ??_C@_0CM@NKPKJKPN@HFillStyle?3?3IHFillStyleImp?3?3get_@ 1001262c     fstyle.obj
+ 0002:00000658       ??_C@_0CM@HBPJFKIN@HFillStyle?3?3IHFillStyleImp?3?3get_@ 10012658     fstyle.obj
+ 0002:00000684       ??_C@_0CP@EKOKGAIE@HFillStyle?3?3IHFillStyleImp?3?3put_@ 10012684     fstyle.obj
+ 0002:000006b4       ??_C@_0CP@DNDFIMNN@HFillStyle?3?3IHFillStyleImp?3?3get_@ 100126b4     fstyle.obj
+ 0002:000006e4       ??_C@_0CK@MIAOELCB@HFillStyle?3?3IHFillStyleImp?3?3put_@ 100126e4     fstyle.obj
+ 0002:00000710       ??_C@_0CK@HPHGHLFH@HFillStyle?3?3IHFillStyleImp?3?3get_@ 10012710     fstyle.obj
+ 0002:0000073c       ??_C@_0CG@DNMCCHMJ@HFillStyle?3?3IHFillStyleImp?3?3put_@ 1001273c     fstyle.obj
+ 0002:00000764       ??_C@_0CG@FEHAPPCJ@HFillStyle?3?3IHFillStyleImp?3?3get_@ 10012764     fstyle.obj
+ 0002:0000078c       ??_C@_0CJ@JFMKNOPN@HFillStyle?3?3IHFillStyleImp?3?3put_@ 1001278c     fstyle.obj
+ 0002:000007b8       ??_C@_0CJ@FAKGJDID@HFillStyle?3?3IHFillStyleImp?3?3get_@ 100127b8     fstyle.obj
+ 0002:000007e4       ??_C@_0CI@MEJMAMKJ@HFillStyle?3?3IHFillStyleImp?3?3put_@ 100127e4     fstyle.obj
+ 0002:0000080c       ??_C@_0CI@BCOKMMBB@HFillStyle?3?3IHFillStyleImp?3?3get_@ 1001280c     fstyle.obj
+ 0002:00000834       ??_C@_0CG@OELCKEB@HFillStyle?3?3IHFillStyleImp?3?3put_@ 10012834     fstyle.obj
+ 0002:0000085c       ??_C@_0CG@GHPJPCKB@HFillStyle?3?3IHFillStyleImp?3?3get_@ 1001285c     fstyle.obj
+ 0002:00000884       ??_C@_0CG@OLJLGCBN@HFillStyle?3?3IHFillStyleImp?3?3put_@ 10012884     fstyle.obj
+ 0002:000008ac       ??_C@_0CG@ICCJLKPN@HFillStyle?3?3IHFillStyleImp?3?3get_@ 100128ac     fstyle.obj
+ 0002:000008d4       ??_C@_0CH@GALLHAHB@HFillStyle?3?3IHFillStyleImp?3?3put_@ 100128d4     fstyle.obj
+ 0002:000008fc       ??_C@_0CH@MANICANB@HFillStyle?3?3IHFillStyleImp?3?3get_@ 100128fc     fstyle.obj
+ 0002:00000924       ??_C@_0CH@GIKANNMA@HFillStyle?3?3IHFillStyleImp?3?3put_@ 10012924     fstyle.obj
+ 0002:0000094c       ??_C@_0CH@MIMDINGA@HFillStyle?3?3IHFillStyleImp?3?3get_@ 1001294c     fstyle.obj
+ 0002:00000978       ??_7IHelperImp@HFillStyle@@6B@ 10012978     fstyle.obj
+ 0002:0000099c       ??_7IHFillStyleImp@HFillStyle@@6B@ 1001299c     fstyle.obj
+ 0002:00000a08       ??_C@_0CM@KLGOBNLN@HFillStyle?3?3IHFillStyleImp?3?3get_@ 10012a08     fstyle.obj
+ 0002:00000a34       ??_C@_1BI@LAHPFHDF@?$AAC?$AAu?$AAs?$AAt?$AAo?$AAm?$AA?5?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 10012a34     fstyle.obj
+ 0002:00000a4c       ??_C@_1BG@NKOMMFFH@?$AAC?$AAo?$AAn?$AAt?$AAi?$AAn?$AAu?$AAo?$AAu?$AAs?$AA?$AA@ 10012a4c     fstyle.obj
+ 0002:00000a64       ??_C@_15JOGBDECP@?$AA?0?$AA?5?$AA?$AA@ 10012a64     fstyle.obj
+ 0002:00000a6c       ??_C@_13NMPKAAJP@?$AA?$DN?$AA?$AA@ 10012a6c     fstyle.obj
+ 0002:00000a70       ??_C@_1O@CLFFMAJJ@?$AAW?$AAe?$AAi?$AAg?$AAh?$AAt?$AA?$AA@ 10012a70     fstyle.obj
+ 0002:00000a80       ??_C@_1BA@MKDGPOGN@?$AAS?$AAp?$AAa?$AAc?$AAi?$AAn?$AAg?$AA?$AA@ 10012a80     fstyle.obj
+ 0002:00000a90       ??_C@_1M@EJCCJHHO@?$AAA?$AAn?$AAg?$AAl?$AAe?$AA?$AA@ 10012a90     fstyle.obj
+ 0002:00000a9c       ??_C@_1BM@BIAJGEMH@?$AAP?$AAa?$AAt?$AAt?$AAe?$AAr?$AAn?$AA?5?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10012a9c     fstyle.obj
+ 0002:00000ab8       ??_C@_1BI@NIPDEODJ@?$AAS?$AAo?$AAl?$AAi?$AAd?$AA?5?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10012ab8     fstyle.obj
+ 0002:00000ad0       ??_C@_17KOPCBIAL@?$AA?5?$AA?$CL?$AA?5?$AA?$AA@ 10012ad0     fstyle.obj
+ 0002:00000aec       ??_7HFillStyles@@6B@       10012aec     fstyles.obj
+ 0002:00000af8       ??_C@_0O@EHFGPJGL@?4?2fstyles?4cpp?$AA@ 10012af8     fstyles.obj
+ 0002:00000b08       ??_C@_0CI@JACPHNOH@HFillStyles?3?3IHFillStylesImp?3?3ge@ 10012b08     fstyles.obj
+ 0002:00000b30       ??_C@_0CJ@MFHJIDNB@HFillStyles?3?3IHFillStylesImp?3?3pu@ 10012b30     fstyles.obj
+ 0002:00000b5c       ??_C@_0CJ@GFBKNDHB@HFillStyles?3?3IHFillStylesImp?3?3ge@ 10012b5c     fstyles.obj
+ 0002:00000b88       ??_C@_0CH@MAHKAOMH@HFillStyles?3?3IHFillStylesImp?3?3_N@ 10012b88     fstyles.obj
+ 0002:00000bb0       ??_C@_0CC@EHIMCOLH@HFillStyles?3?3IHFillStylesImp?3?3Ad@ 10012bb0     fstyles.obj
+ 0002:00000bd4       ??_C@_0CF@JENBHFCH@HFillStyles?3?3IHFillStylesImp?3?3Re@ 10012bd4     fstyles.obj
+ 0002:00000c00       ??_7IHelperImp@HFillStyles@@6B@ 10012c00     fstyles.obj
+ 0002:00000c20       ??_7IHFillStylesImp@HFillStyles@@6B@ 10012c20     fstyles.obj
+ 0002:00000c50       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 10012c50     guid.obj
+ 0002:00000c60       _CLSID_JStyleSimpleLine    10012c60     guid.obj
+ 0002:00000c70       _CLSID_JStyleSimpleFill    10012c70     guid.obj
+ 0002:00000c80       _CLSID_JStyleHatchFill     10012c80     guid.obj
+ 0002:00000c90       _CLSID_JStyleSymbolFill    10012c90     guid.obj
+ 0002:00000ca0       _CLSID_JStyleSimpleDashType 10012ca0     guid.obj
+ 0002:00000cb0       _CLSID_HLinearStyles       10012cb0     guid.obj
+ 0002:00000cc0       _CLSID_HLinearStyle        10012cc0     guid.obj
+ 0002:00000cd0       _CLSID_HDashStyles         10012cd0     guid.obj
+ 0002:00000ce0       _CLSID_HDashStyle          10012ce0     guid.obj
+ 0002:00000cf0       _CLSID_HFillStyles         10012cf0     guid.obj
+ 0002:00000d00       _CLSID_HFillStyle          10012d00     guid.obj
+ 0002:00000d10       _CLSID_HHatchPatternStyles 10012d10     guid.obj
+ 0002:00000d20       _CLSID_HHatchPatternStyle  10012d20     guid.obj
+ 0002:00000d30       _CLSID_HSymbolPatternStyles 10012d30     guid.obj
+ 0002:00000d40       _CLSID_HSymbolPatternStyle 10012d40     guid.obj
+ 0002:00000d50       _IID_IJStyleManager        10012d50     guid.obj
+ 0002:00000d60       _IID__IHLinearStyle        10012d60     guid.obj
+ 0002:00000d70       _IID__IHHatchPatternStyle  10012d70     guid.obj
+ 0002:00000d80       _IID__IHFillStyle          10012d80     guid.obj
+ 0002:00000d90       _IID__IHSymbolPatternStyle 10012d90     guid.obj
+ 0002:00000da0       _IID__IHFillStyles         10012da0     guid.obj
+ 0002:00000db0       _IID__IHHatchPatternStyles 10012db0     guid.obj
+ 0002:00000dc0       _IID__IHDashStyles         10012dc0     guid.obj
+ 0002:00000dd0       _IID__IHDashStyle          10012dd0     guid.obj
+ 0002:00000de0       _IID__IHLinearStyles       10012de0     guid.obj
+ 0002:00000df0       _IID__IHSymbolPatternStyles 10012df0     guid.obj
+ 0002:00000e00       _IID_IHelper               10012e00     guid.obj
+ 0002:00000e18       _IID_IJStyleRender         10012e18     guid.obj
+ 0002:00000e28       _IID_IJStyleSimpleLine     10012e28     guid.obj
+ 0002:00000e38       _IID_IJStyleDashTypeRender 10012e38     guid.obj
+ 0002:00000e48       _IID_IJStyleSimpleDashType 10012e48     guid.obj
+ 0002:00000e58       _IID_IJStyleSimpleFill     10012e58     guid.obj
+ 0002:00000e68       _IID_IJStyleHatchFill      10012e68     guid.obj
+ 0002:00000e78       _IID_IJStyleSymbolFill     10012e78     guid.obj
+ 0002:00000e88       _IID_IJStyleOverride       10012e88     guid.obj
+ 0002:00000e98       _CLSID_CFrameWorkDispatchObjectFactory 10012e98     guid.obj
+ 0002:00000eac       ??_7HHatchPatternStyle@@6B@ 10012eac     hstyle.obj
+ 0002:00000eb8       ??_C@_0N@FBNINIGH@?4?2hstyle?4cpp?$AA@ 10012eb8     hstyle.obj
+ 0002:00000ec8       ??_C@_0DF@KGJBNHAG@HHatchPatternStyle?3?3IHHatchPatte@ 10012ec8     hstyle.obj
+ 0002:00000f00       ??_C@_0DF@BCILMJJF@HHatchPatternStyle?3?3IHHatchPatte@ 10012f00     hstyle.obj
+ 0002:00000f38       ??_C@_0DH@JCKGPLHI@HHatchPatternStyle?3?3IHHatchPatte@ 10012f38     hstyle.obj
+ 0002:00000f70       ??_C@_0DH@DCMFKLNI@HHatchPatternStyle?3?3IHHatchPatte@ 10012f70     hstyle.obj
+ 0002:00000fa8       ??_C@_0DG@JEBACFEO@HHatchPatternStyle?3?3IHHatchPatte@ 10012fa8     hstyle.obj
+ 0002:00000fe0       ??_C@_0DG@PNKCPNKO@HHatchPatternStyle?3?3IHHatchPatte@ 10012fe0     hstyle.obj
+ 0002:00001018       ??_C@_0DG@FBHCGNNO@HHatchPatternStyle?3?3IHHatchPatte@ 10013018     hstyle.obj
+ 0002:00001050       ??_C@_0DF@MNKBNAPA@HHatchPatternStyle?3?3IHHatchPatte@ 10013050     hstyle.obj
+ 0002:00001088       ??_C@_0DF@OEODCGFH@HHatchPatternStyle?3?3IHHatchPatte@ 10013088     hstyle.obj
+ 0002:000010c0       ??_C@_0DF@BFMPDFCK@HHatchPatternStyle?3?3IHHatchPatte@ 100130c0     hstyle.obj
+ 0002:000010f8       ??_C@_0DI@OBOEJKMB@HHatchPatternStyle?3?3IHHatchPatte@ 100130f8     hstyle.obj
+ 0002:00001130       ??_C@_0DI@KJEJHLNP@HHatchPatternStyle?3?3IHHatchPatte@ 10013130     hstyle.obj
+ 0002:00001168       ??_C@_0DI@KGFHKNFM@HHatchPatternStyle?3?3IHHatchPatte@ 10013168     hstyle.obj
+ 0002:000011a0       ??_C@_0DG@FIKAIBLA@HHatchPatternStyle?3?3IHHatchPatte@ 100131a0     hstyle.obj
+ 0002:000011d8       ??_C@_0DG@HGOFKACC@HHatchPatternStyle?3?3IHHatchPatte@ 100131d8     hstyle.obj
+ 0002:00001210       ??_C@_0DH@EENNPPIN@HHatchPatternStyle?3?3IHHatchPatte@ 10013210     hstyle.obj
+ 0002:00001248       ??_C@_0DH@FKPCEIME@HHatchPatternStyle?3?3IHHatchPatte@ 10013248     hstyle.obj
+ 0002:00001280       ??_C@_0DF@MCCNKGIK@HHatchPatternStyle?3?3IHHatchPatte@ 10013280     hstyle.obj
+ 0002:000012b8       ??_C@_0DF@DDABLFPH@HHatchPatternStyle?3?3IHHatchPatte@ 100132b8     hstyle.obj
+ 0002:000012f0       ??_C@_0DF@BNIOBEDK@HHatchPatternStyle?3?3IHHatchPatte@ 100132f0     hstyle.obj
+ 0002:00001328       ??_C@_0DF@OMKCAHEH@HHatchPatternStyle?3?3IHHatchPatte@ 10013328     hstyle.obj
+ 0002:00001360       ??_C@_0DF@GPGDDPLC@HHatchPatternStyle?3?3IHHatchPatte@ 10013360     hstyle.obj
+ 0002:00001398       ??_C@_0DF@JOEPCMMP@HHatchPatternStyle?3?3IHHatchPatte@ 10013398     hstyle.obj
+ 0002:000013d0       ??_C@_0DI@OEOHHIEN@HHatchPatternStyle?3?3IHHatchPatte@ 100133d0     hstyle.obj
+ 0002:00001408       ??_C@_0DI@OLPJKOMO@HHatchPatternStyle?3?3IHHatchPatte@ 10013408     hstyle.obj
+ 0002:00001440       ??_C@_0DM@FDEMNGCH@HHatchPatternStyle?3?3IHHatchPatte@ 10013440     hstyle.obj
+ 0002:0000147c       ??_C@_0L@LGHPJHIP@FillDash?$CFd?$AA@ 1001347c     hstyle.obj
+ 0002:00001488       ??_C@_11LOCGONAA@?$AA?$AA@ 10013488     hstyle.obj
+ 0002:0000148c       ??_C@_0DH@IEPGNJOC@HHatchPatternStyle?3?3IHHatchPatte@ 1001348c     hstyle.obj
+ 0002:000014c4       ??_C@_0DN@OOBMMOIH@HHatchPatternStyle?3?3IHHatchPatte@ 100134c4     hstyle.obj
+ 0002:00001504       ??_C@_0DH@JKNJGOKL@HHatchPatternStyle?3?3IHHatchPatte@ 10013504     hstyle.obj
+ 0002:0000153c       ??_C@_0DO@OFICMBOA@HHatchPatternStyle?3?3IHHatchPatte@ 1001353c     hstyle.obj
+ 0002:0000157c       ??_C@_0DO@MAIJEKPO@HHatchPatternStyle?3?3IHHatchPatte@ 1001357c     hstyle.obj
+ 0002:000015bc       ??_C@_0DL@OJFCKJEH@HHatchPatternStyle?3?3IHHatchPatte@ 100135bc     hstyle.obj
+ 0002:000015f8       ??_C@_0DL@CHEMFDGL@HHatchPatternStyle?3?3IHHatchPatte@ 100135f8     hstyle.obj
+ 0002:00001634       ??_C@_0DL@NKNLKEMP@HHatchPatternStyle?3?3IHHatchPatte@ 10013634     hstyle.obj
+ 0002:00001670       ??_C@_0DL@KIDGIPEH@HHatchPatternStyle?3?3IHHatchPatte@ 10013670     hstyle.obj
+ 0002:000016b0       ??_7IHelperImp@HHatchPatternStyle@@6B@ 100136b0     hstyle.obj
+ 0002:000016d4       ??_7IHHatchPatternStyleImp@HHatchPatternStyle@@6B@ 100136d4     hstyle.obj
+ 0002:00001780       ??_7HHatchPatternStyles@@6B@ 10013780     hstyles.obj
+ 0002:0000178c       ??_C@_0O@KOGHCKHF@?4?2hstyles?4cpp?$AA@ 1001378c     hstyles.obj
+ 0002:0000179c       ??_C@_0DI@OCPHEGNB@HHatchPatternStyles?3?3IHHatchPatt@ 1001379c     hstyles.obj
+ 0002:000017d4       ??_C@_0DH@BPCGLNAB@HHatchPatternStyles?3?3IHHatchPatt@ 100137d4     hstyles.obj
+ 0002:0000180c       ??_C@_0DC@HAPCMHOI@HHatchPatternStyles?3?3IHHatchPatt@ 1001380c     hstyles.obj
+ 0002:00001840       ??_C@_0DF@MLDAAIAD@HHatchPatternStyles?3?3IHHatchPatt@ 10013840     hstyles.obj
+ 0002:0000187c       ??_7IHelperImp@HHatchPatternStyles@@6B@ 1001387c     hstyles.obj
+ 0002:0000189c       ??_7IHHatchPatternStylesImp@HHatchPatternStyles@@6B@ 1001389c     hstyles.obj
+ 0002:000018c8       ??_7HLinearStyle@@6B@      100138c8     lstyle.obj
+ 0002:000018d4       ??_C@_0N@OBABKLOF@?4?2lstyle?4cpp?$AA@ 100138d4     lstyle.obj
+ 0002:000018e4       ??_C@_0CJ@KPBIOBGM@HLinearStyle?3?3IHLinearStyleImp?3?3@ 100138e4     lstyle.obj
+ 0002:00001910       ??_C@_0CJ@BLACPPPP@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013910     lstyle.obj
+ 0002:0000193c       ??_C@_0DA@JCEJJHJI@HLinearStyle?3?3IHLinearStyleImp?3?3@ 1001393c     lstyle.obj
+ 0002:0000196c       ??_C@_19BIEPDBPA@?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 1001396c     lstyle.obj
+ 0002:00001978       ??_C@_1M@FMOLGDAB@?$AAC?$AAo?$AAl?$AAo?$AAr?$AA?$AA@ 10013978     lstyle.obj
+ 0002:00001984       ??_C@_0CK@DJHOCEDO@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013984     lstyle.obj
+ 0002:000019b0       ??_C@_0CK@FAMMPMNO@HLinearStyle?3?3IHLinearStyleImp?3?3@ 100139b0     lstyle.obj
+ 0002:000019dc       ??_C@_0CK@IGJFLJAK@HLinearStyle?3?3IHLinearStyleImp?3?3@ 100139dc     lstyle.obj
+ 0002:00001a08       ??_C@_0CK@OPCHGBOK@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013a08     lstyle.obj
+ 0002:00001a34       ??_C@_0CK@PEHIJCIC@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013a34     lstyle.obj
+ 0002:00001a60       ??_C@_0CK@JNMKEKGC@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013a60     lstyle.obj
+ 0002:00001a8c       ??_C@_0CL@NEFOMGNP@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013a8c     lstyle.obj
+ 0002:00001ab8       ??_C@_0DB@FACLMFPN@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013ab8     lstyle.obj
+ 0002:00001aec       ??_C@_0CL@MKHBHBJG@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013aec     lstyle.obj
+ 0002:00001b18       ??_C@_0CL@MCAOOEEF@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013b18     lstyle.obj
+ 0002:00001b44       ??_C@_0CL@GCGNLEOF@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013b44     lstyle.obj
+ 0002:00001b70       ??_C@_0CN@JECMNLHA@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013b70     lstyle.obj
+ 0002:00001ba0       ??_C@_0CN@FBEAJGAO@HLinearStyle?3?3IHLinearStyleImp?3?3@ 10013ba0     lstyle.obj
+ 0002:00001bd4       ??_7IHelperImp@HLinearStyle@@6B@ 10013bd4     lstyle.obj
+ 0002:00001bf4       ??_7IHLinearStyleImp@HLinearStyle@@6B@ 10013bf4     lstyle.obj
+ 0002:00001c54       ??_7HLinearStyles@@6B@     10013c54     lstyles.obj
+ 0002:00001c60       ??_C@_0O@KNGBBBAK@?4?2lstyles?4cpp?$AA@ 10013c60     lstyles.obj
+ 0002:00001c70       ??_C@_0CM@JAHIGLLI@HLinearStyles?3?3IHLinearStylesImp@ 10013c70     lstyles.obj
+ 0002:00001c9c       ??_C@_0CL@JHGMFBMH@HLinearStyles?3?3IHLinearStylesImp@ 10013c9c     lstyles.obj
+ 0002:00001cc8       ??_C@_0CG@EEJGFOGB@HLinearStyles?3?3IHLinearStylesImp@ 10013cc8     lstyles.obj
+ 0002:00001cf0       ??_C@_0CJ@MPIILMCK@HLinearStyles?3?3IHLinearStylesImp@ 10013cf0     lstyles.obj
+ 0002:00001d1c       ??_C@_0CN@DOKNJIKC@HLinearStyles?3?3IHLinearStylesImp@ 10013d1c     lstyles.obj
+ 0002:00001d4c       ??_C@_0CN@JOMOMIAC@HLinearStyles?3?3IHLinearStylesImp@ 10013d4c     lstyles.obj
+ 0002:00001d80       ??_7IHelperImp@HLinearStyles@@6B@ 10013d80     lstyles.obj
+ 0002:00001da0       ??_7IHLinearStylesImp@HLinearStyles@@6B@ 10013da0     lstyles.obj
+ 0002:00001dd8       ??_C@_0L@PJEADNKF@styles?4drx?$AA@ 10013dd8     server.obj
+ 0002:00001de8       ??_7?$ClassFactory@VHLinearStyles@@@@6B@ 10013de8     server.obj
+ 0002:00001e04       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 10013e04     server.obj
+ 0002:00001e1c       ??_C@_0DE@IGBJPLMM@ClassFactory?$DMclass?5HLinearStyles@ 10013e1c     server.obj
+ 0002:00001e54       ??_7?$ClassFactory@VHLinearStyle@@@@6B@ 10013e54     server.obj
+ 0002:00001e70       ??_C@_0DD@JELPFIA@ClassFactory?$DMclass?5HLinearStyle?$DO@ 10013e70     server.obj
+ 0002:00001ea8       ??_7?$ClassFactory@VHFillStyles@@@@6B@ 10013ea8     server.obj
+ 0002:00001ec4       ??_C@_0DC@FBDFPKGO@ClassFactory?$DMclass?5HFillStyles?$DO?3@ 10013ec4     server.obj
+ 0002:00001efc       ??_7?$ClassFactory@VHFillStyle@@@@6B@ 10013efc     server.obj
+ 0002:00001f18       ??_C@_0DB@CIJILJGB@ClassFactory?$DMclass?5HFillStyle?$DO?3?3@ 10013f18     server.obj
+ 0002:00001f50       ??_7?$ClassFactory@VHSymbolPatternStyles@@@@6B@ 10013f50     server.obj
+ 0002:00001f6c       ??_C@_0DL@LGEIHFLG@ClassFactory?$DMclass?5HSymbolPatter@ 10013f6c     server.obj
+ 0002:00001fac       ??_7?$ClassFactory@VHSymbolPatternStyle@@@@6B@ 10013fac     server.obj
+ 0002:00001fc8       ??_C@_0DK@ONDKGGGP@ClassFactory?$DMclass?5HSymbolPatter@ 10013fc8     server.obj
+ 0002:00002008       ??_7?$ClassFactory@VHHatchPatternStyles@@@@6B@ 10014008     server.obj
+ 0002:00002024       ??_C@_0DK@FEJJPCFM@ClassFactory?$DMclass?5HHatchPattern@ 10014024     server.obj
+ 0002:00002064       ??_7?$ClassFactory@VHHatchPatternStyle@@@@6B@ 10014064     server.obj
+ 0002:00002080       ??_C@_0DJ@IEMHJIKG@ClassFactory?$DMclass?5HHatchPattern@ 10014080     server.obj
+ 0002:000020c0       ??_7?$ClassFactory@VHDashStyles@@@@6B@ 100140c0     server.obj
+ 0002:000020dc       ??_C@_0DC@PEJAFIPC@ClassFactory?$DMclass?5HDashStyles?$DO?3@ 100140dc     server.obj
+ 0002:00002114       ??_7?$ClassFactory@VHDashStyle@@@@6B@ 10014114     server.obj
+ 0002:00002130       ??_C@_0DB@IHIPEOEG@ClassFactory?$DMclass?5HDashStyle?$DO?3?3@ 10014130     server.obj
+ 0002:00002168       ??_7HSymbolPatternStyle@@6B@ 10014168     sstyle.obj
+ 0002:00002174       ??_C@_0N@NMAPJLOI@?4?2sstyle?4cpp?$AA@ 10014174     sstyle.obj
+ 0002:00002184       ??_C@_0DH@JGNNAHEH@HSymbolPatternStyle?3?3IHSymbolPat@ 10014184     sstyle.obj
+ 0002:000021bc       ??_C@_0DH@CCMHBJNE@HSymbolPatternStyle?3?3IHSymbolPat@ 100141bc     sstyle.obj
+ 0002:000021f4       ??_C@_0DJ@PNBHGHKE@HSymbolPatternStyle?3?3IHSymbolPat@ 100141f4     sstyle.obj
+ 0002:00002230       ??_C@_0DJ@FNHEDHAE@HSymbolPatternStyle?3?3IHSymbolPat@ 10014230     sstyle.obj
+ 0002:0000226c       ??_C@_0DI@JFPLBIJI@HSymbolPatternStyle?3?3IHSymbolPat@ 1001426c     sstyle.obj
+ 0002:000022a4       ??_C@_0DI@PMEJMAHI@HSymbolPatternStyle?3?3IHSymbolPat@ 100142a4     sstyle.obj
+ 0002:000022dc       ??_C@_0DI@CKBAIFKM@HSymbolPatternStyle?3?3IHSymbolPat@ 100142dc     sstyle.obj
+ 0002:00002314       ??_C@_0DI@EDKCFNEM@HSymbolPatternStyle?3?3IHSymbolPat@ 10014314     sstyle.obj
+ 0002:0000234c       ??_C@_0DL@OKFGPHMM@HSymbolPatternStyle?3?3IHSymbolPat@ 1001434c     sstyle.obj
+ 0002:00002388       ??_C@_0DL@CPDKLKLC@HSymbolPatternStyle?3?3IHSymbolPat@ 10014388     sstyle.obj
+ 0002:000023c4       ??_C@_0DI@FJELLMGG@HSymbolPatternStyle?3?3IHSymbolPat@ 100143c4     sstyle.obj
+ 0002:000023fc       ??_C@_0DI@HHAOJNPE@HSymbolPatternStyle?3?3IHSymbolPat@ 100143fc     sstyle.obj
+ 0002:00002434       ??_C@_0DI@HACLFAME@HSymbolPatternStyle?3?3IHSymbolPat@ 10014434     sstyle.obj
+ 0002:0000246c       ??_C@_0DI@BJJJIICE@HSymbolPatternStyle?3?3IHSymbolPat@ 1001446c     sstyle.obj
+ 0002:000024a4       ??_C@_0DL@KCDAHJCN@HSymbolPatternStyle?3?3IHSymbolPat@ 100144a4     sstyle.obj
+ 0002:000024e0       ??_C@_0DL@GHFMDEFD@HSymbolPatternStyle?3?3IHSymbolPat@ 100144e0     sstyle.obj
+ 0002:0000251c       ??_C@_0DL@LLCLEIGM@HSymbolPatternStyle?3?3IHSymbolPat@ 1001451c     sstyle.obj
+ 0002:00002558       ??_C@_0DL@HOEHAFBC@HSymbolPatternStyle?3?3IHSymbolPat@ 10014558     sstyle.obj
+ 0002:00002594       ??_C@_0DL@MPDHGNDK@HSymbolPatternStyle?3?3IHSymbolPat@ 10014594     sstyle.obj
+ 0002:000025d0       ??_C@_0DL@KFLCAEE@HSymbolPatternStyle?3?3IHSymbolPat@ 100145d0     sstyle.obj
+ 0002:0000260c       ??_C@_0DL@NGCMFMHL@HSymbolPatternStyle?3?3IHSymbolPat@ 1001460c     sstyle.obj
+ 0002:00002648       ??_C@_0DL@BDEABBAF@HSymbolPatternStyle?3?3IHSymbolPat@ 10014648     sstyle.obj
+ 0002:00002684       ??_C@_0DI@FAJJFAAI@HSymbolPatternStyle?3?3IHSymbolPat@ 10014684     sstyle.obj
+ 0002:000026bc       ??_C@_0DI@CPIMIGGA@HSymbolPatternStyle?3?3IHSymbolPat@ 100146bc     sstyle.obj
+ 0002:000026f4       ??_C@_0DL@KLKBMEAL@HSymbolPatternStyle?3?3IHSymbolPat@ 100146f4     sstyle.obj
+ 0002:00002730       ??_C@_0DI@GHBHPCNN@HSymbolPatternStyle?3?3IHSymbolPat@ 10014730     sstyle.obj
+ 0002:00002768       ??_C@_0DO@MOCGPJCM@HSymbolPatternStyle?3?3IHSymbolPat@ 10014768     sstyle.obj
+ 0002:000027ac       ??_7IHelperImp@HSymbolPatternStyle@@6B@ 100147ac     sstyle.obj
+ 0002:000027cc       ??_7IHSymbolPatternStyleImp@HSymbolPatternStyle@@6B@ 100147cc     sstyle.obj
+ 0002:0000284c       ??_7HSymbolPatternStyles@@6B@ 1001484c     sstyles.obj
+ 0002:00002858       ??_C@_0O@NDONGDIH@?4?2sstyles?4cpp?$AA@ 10014858     sstyles.obj
+ 0002:00002868       ??_C@_0DK@MBLCNOJC@HSymbolPatternStyles?3?3IHSymbolPa@ 10014868     sstyles.obj
+ 0002:000028a4       ??_C@_0DJ@IDNJEBPG@HSymbolPatternStyles?3?3IHSymbolPa@ 100148a4     sstyles.obj
+ 0002:000028e0       ??_C@_0DE@MDPGIKOJ@HSymbolPatternStyles?3?3IHSymbolPa@ 100148e0     sstyles.obj
+ 0002:00002914       ??_C@_0DH@IIEIJHNG@HSymbolPatternStyles?3?3IHSymbolPa@ 10014914     sstyles.obj
+ 0002:00002950       ??_7IHelperImp@HSymbolPatternStyles@@6B@ 10014950     sstyles.obj
+ 0002:00002970       ??_7IHSymbolPatternStylesImp@HSymbolPatternStyles@@6B@ 10014970     sstyles.obj
+ 0002:00002998       _IID_IClassFactory         10014998     uuid:unknwn_i.obj
+ 0002:000029a8       _IID_IUnknown              100149a8     uuid:unknwn_i.obj
+ 0002:000029b8       _IID_IDispatch             100149b8     uuid:oaidl_i.obj
+ 0002:000029cc       ??_7type_info@@6B@         100149cc     MSVCRT:ti_inst.obj
+ 0002:000029d0       __pRawDllMain              100149d0     MSVCRT:crtdll.obj
+ 0002:000029d0       __pDefaultRawDllMain       100149d0     MSVCRT:crtdll.obj
+ 0002:000029e0       __load_config_used         100149e0     MSVCRT:loadcfg.obj
+ 0002:00002a58       ??_R4HDashStyle@@6B@       10014a58     dstyle.obj
+ 0002:00002a6c       ??_R3HDashStyle@@8         10014a6c     dstyle.obj
+ 0002:00002a7c       ??_R2HDashStyle@@8         10014a7c     dstyle.obj
+ 0002:00002a88       ??_R1A@?0A@EA@HDashStyle@@8 10014a88     dstyle.obj
+ 0002:00002aa4       ??_R1A@?0A@EA@IUnknown@@8  10014aa4     dstyle.obj
+ 0002:00002ac0       ??_R3IUnknown@@8           10014ac0     dstyle.obj
+ 0002:00002ad0       ??_R2IUnknown@@8           10014ad0     dstyle.obj
+ 0002:00002ad8       ??_R3_IHDashStyle@@8       10014ad8     dstyle.obj
+ 0002:00002ae8       ??_R2_IHDashStyle@@8       10014ae8     dstyle.obj
+ 0002:00002af4       ??_R1A@?0A@EA@_IHDashStyle@@8 10014af4     dstyle.obj
+ 0002:00002b10       ??_R4IHelperImp@HDashStyle@@6B@ 10014b10     dstyle.obj
+ 0002:00002b24       ??_R3IHelperImp@HDashStyle@@8 10014b24     dstyle.obj
+ 0002:00002b34       ??_R2IHelperImp@HDashStyle@@8 10014b34     dstyle.obj
+ 0002:00002b44       ??_R1A@?0A@EA@IHelperImp@HDashStyle@@8 10014b44     dstyle.obj
+ 0002:00002b60       ??_R1A@?0A@EA@IHelper@@8   10014b60     dstyle.obj
+ 0002:00002b7c       ??_R3IHelper@@8            10014b7c     dstyle.obj
+ 0002:00002b8c       ??_R2IHelper@@8            10014b8c     dstyle.obj
+ 0002:00002b98       ??_R4IHDashStyleImp@HDashStyle@@6B@ 10014b98     dstyle.obj
+ 0002:00002bac       ??_R3IHDashStyleImp@HDashStyle@@8 10014bac     dstyle.obj
+ 0002:00002bbc       ??_R2IHDashStyleImp@HDashStyle@@8 10014bbc     dstyle.obj
+ 0002:00002bcc       ??_R1A@?0A@EA@IHDashStyleImp@HDashStyle@@8 10014bcc     dstyle.obj
+ 0002:00002be8       ??_R3_IHDashStyles@@8      10014be8     dstyles.obj
+ 0002:00002bf8       ??_R2_IHDashStyles@@8      10014bf8     dstyles.obj
+ 0002:00002c04       ??_R1A@?0A@EA@_IHDashStyles@@8 10014c04     dstyles.obj
+ 0002:00002c20       ??_R4HDashStyles@@6B@      10014c20     dstyles.obj
+ 0002:00002c34       ??_R3HDashStyles@@8        10014c34     dstyles.obj
+ 0002:00002c44       ??_R2HDashStyles@@8        10014c44     dstyles.obj
+ 0002:00002c50       ??_R1A@?0A@EA@HDashStyles@@8 10014c50     dstyles.obj
+ 0002:00002c6c       ??_R4IHelperImp@HDashStyles@@6B@ 10014c6c     dstyles.obj
+ 0002:00002c80       ??_R3IHelperImp@HDashStyles@@8 10014c80     dstyles.obj
+ 0002:00002c90       ??_R2IHelperImp@HDashStyles@@8 10014c90     dstyles.obj
+ 0002:00002ca0       ??_R1A@?0A@EA@IHelperImp@HDashStyles@@8 10014ca0     dstyles.obj
+ 0002:00002cbc       ??_R4IHDashStylesImp@HDashStyles@@6B@ 10014cbc     dstyles.obj
+ 0002:00002cd0       ??_R3IHDashStylesImp@HDashStyles@@8 10014cd0     dstyles.obj
+ 0002:00002ce0       ??_R2IHDashStylesImp@HDashStyles@@8 10014ce0     dstyles.obj
+ 0002:00002cf0       ??_R1A@?0A@EA@IHDashStylesImp@HDashStyles@@8 10014cf0     dstyles.obj
+ 0002:00002d0c       ??_R4HFillStyle@@6B@       10014d0c     fstyle.obj
+ 0002:00002d20       ??_R3HFillStyle@@8         10014d20     fstyle.obj
+ 0002:00002d30       ??_R2HFillStyle@@8         10014d30     fstyle.obj
+ 0002:00002d3c       ??_R1A@?0A@EA@HFillStyle@@8 10014d3c     fstyle.obj
+ 0002:00002d58       ??_R3_IHFillStyle@@8       10014d58     fstyle.obj
+ 0002:00002d68       ??_R2_IHFillStyle@@8       10014d68     fstyle.obj
+ 0002:00002d74       ??_R1A@?0A@EA@_IHFillStyle@@8 10014d74     fstyle.obj
+ 0002:00002d90       ??_R4IHelperImp@HFillStyle@@6B@ 10014d90     fstyle.obj
+ 0002:00002da4       ??_R3IHelperImp@HFillStyle@@8 10014da4     fstyle.obj
+ 0002:00002db4       ??_R2IHelperImp@HFillStyle@@8 10014db4     fstyle.obj
+ 0002:00002dc4       ??_R1A@?0A@EA@IHelperImp@HFillStyle@@8 10014dc4     fstyle.obj
+ 0002:00002de0       ??_R4IHFillStyleImp@HFillStyle@@6B@ 10014de0     fstyle.obj
+ 0002:00002df4       ??_R3IHFillStyleImp@HFillStyle@@8 10014df4     fstyle.obj
+ 0002:00002e04       ??_R2IHFillStyleImp@HFillStyle@@8 10014e04     fstyle.obj
+ 0002:00002e14       ??_R1A@?0A@EA@IHFillStyleImp@HFillStyle@@8 10014e14     fstyle.obj
+ 0002:00002e30       ??_R3_IHFillStyles@@8      10014e30     fstyles.obj
+ 0002:00002e40       ??_R2_IHFillStyles@@8      10014e40     fstyles.obj
+ 0002:00002e4c       ??_R1A@?0A@EA@_IHFillStyles@@8 10014e4c     fstyles.obj
+ 0002:00002e68       ??_R4HFillStyles@@6B@      10014e68     fstyles.obj
+ 0002:00002e7c       ??_R3HFillStyles@@8        10014e7c     fstyles.obj
+ 0002:00002e8c       ??_R2HFillStyles@@8        10014e8c     fstyles.obj
+ 0002:00002e98       ??_R1A@?0A@EA@HFillStyles@@8 10014e98     fstyles.obj
+ 0002:00002eb4       ??_R4IHelperImp@HFillStyles@@6B@ 10014eb4     fstyles.obj
+ 0002:00002ec8       ??_R3IHelperImp@HFillStyles@@8 10014ec8     fstyles.obj
+ 0002:00002ed8       ??_R2IHelperImp@HFillStyles@@8 10014ed8     fstyles.obj
+ 0002:00002ee8       ??_R1A@?0A@EA@IHelperImp@HFillStyles@@8 10014ee8     fstyles.obj
+ 0002:00002f04       ??_R4IHFillStylesImp@HFillStyles@@6B@ 10014f04     fstyles.obj
+ 0002:00002f18       ??_R3IHFillStylesImp@HFillStyles@@8 10014f18     fstyles.obj
+ 0002:00002f28       ??_R2IHFillStylesImp@HFillStyles@@8 10014f28     fstyles.obj
+ 0002:00002f38       ??_R1A@?0A@EA@IHFillStylesImp@HFillStyles@@8 10014f38     fstyles.obj
+ 0002:00002f54       ??_R4HHatchPatternStyle@@6B@ 10014f54     hstyle.obj
+ 0002:00002f68       ??_R3HHatchPatternStyle@@8 10014f68     hstyle.obj
+ 0002:00002f78       ??_R2HHatchPatternStyle@@8 10014f78     hstyle.obj
+ 0002:00002f84       ??_R1A@?0A@EA@HHatchPatternStyle@@8 10014f84     hstyle.obj
+ 0002:00002fa0       ??_R3_IHHatchPatternStyle@@8 10014fa0     hstyle.obj
+ 0002:00002fb0       ??_R2_IHHatchPatternStyle@@8 10014fb0     hstyle.obj
+ 0002:00002fbc       ??_R1A@?0A@EA@_IHHatchPatternStyle@@8 10014fbc     hstyle.obj
+ 0002:00002fd8       ??_R4IHelperImp@HHatchPatternStyle@@6B@ 10014fd8     hstyle.obj
+ 0002:00002fec       ??_R3IHelperImp@HHatchPatternStyle@@8 10014fec     hstyle.obj
+ 0002:00002ffc       ??_R2IHelperImp@HHatchPatternStyle@@8 10014ffc     hstyle.obj
+ 0002:0000300c       ??_R1A@?0A@EA@IHelperImp@HHatchPatternStyle@@8 1001500c     hstyle.obj
+ 0002:00003028       ??_R4IHHatchPatternStyleImp@HHatchPatternStyle@@6B@ 10015028     hstyle.obj
+ 0002:0000303c       ??_R3IHHatchPatternStyleImp@HHatchPatternStyle@@8 1001503c     hstyle.obj
+ 0002:0000304c       ??_R2IHHatchPatternStyleImp@HHatchPatternStyle@@8 1001504c     hstyle.obj
+ 0002:0000305c       ??_R1A@?0A@EA@IHHatchPatternStyleImp@HHatchPatternStyle@@8 1001505c     hstyle.obj
+ 0002:00003078       ??_R3_IHHatchPatternStyles@@8 10015078     hstyles.obj
+ 0002:00003088       ??_R2_IHHatchPatternStyles@@8 10015088     hstyles.obj
+ 0002:00003094       ??_R1A@?0A@EA@_IHHatchPatternStyles@@8 10015094     hstyles.obj
+ 0002:000030b0       ??_R4HHatchPatternStyles@@6B@ 100150b0     hstyles.obj
+ 0002:000030c4       ??_R3HHatchPatternStyles@@8 100150c4     hstyles.obj
+ 0002:000030d4       ??_R2HHatchPatternStyles@@8 100150d4     hstyles.obj
+ 0002:000030e0       ??_R1A@?0A@EA@HHatchPatternStyles@@8 100150e0     hstyles.obj
+ 0002:000030fc       ??_R4IHelperImp@HHatchPatternStyles@@6B@ 100150fc     hstyles.obj
+ 0002:00003110       ??_R3IHelperImp@HHatchPatternStyles@@8 10015110     hstyles.obj
+ 0002:00003120       ??_R2IHelperImp@HHatchPatternStyles@@8 10015120     hstyles.obj
+ 0002:00003130       ??_R1A@?0A@EA@IHelperImp@HHatchPatternStyles@@8 10015130     hstyles.obj
+ 0002:0000314c       ??_R4IHHatchPatternStylesImp@HHatchPatternStyles@@6B@ 1001514c     hstyles.obj
+ 0002:00003160       ??_R3IHHatchPatternStylesImp@HHatchPatternStyles@@8 10015160     hstyles.obj
+ 0002:00003170       ??_R2IHHatchPatternStylesImp@HHatchPatternStyles@@8 10015170     hstyles.obj
+ 0002:00003180       ??_R1A@?0A@EA@IHHatchPatternStylesImp@HHatchPatternStyles@@8 10015180     hstyles.obj
+ 0002:0000319c       ??_R4HLinearStyle@@6B@     1001519c     lstyle.obj
+ 0002:000031b0       ??_R3HLinearStyle@@8       100151b0     lstyle.obj
+ 0002:000031c0       ??_R2HLinearStyle@@8       100151c0     lstyle.obj
+ 0002:000031cc       ??_R1A@?0A@EA@HLinearStyle@@8 100151cc     lstyle.obj
+ 0002:000031e8       ??_R3_IHLinearStyle@@8     100151e8     lstyle.obj
+ 0002:000031f8       ??_R2_IHLinearStyle@@8     100151f8     lstyle.obj
+ 0002:00003204       ??_R1A@?0A@EA@_IHLinearStyle@@8 10015204     lstyle.obj
+ 0002:00003220       ??_R4IHelperImp@HLinearStyle@@6B@ 10015220     lstyle.obj
+ 0002:00003234       ??_R3IHelperImp@HLinearStyle@@8 10015234     lstyle.obj
+ 0002:00003244       ??_R2IHelperImp@HLinearStyle@@8 10015244     lstyle.obj
+ 0002:00003254       ??_R1A@?0A@EA@IHelperImp@HLinearStyle@@8 10015254     lstyle.obj
+ 0002:00003270       ??_R4IHLinearStyleImp@HLinearStyle@@6B@ 10015270     lstyle.obj
+ 0002:00003284       ??_R3IHLinearStyleImp@HLinearStyle@@8 10015284     lstyle.obj
+ 0002:00003294       ??_R2IHLinearStyleImp@HLinearStyle@@8 10015294     lstyle.obj
+ 0002:000032a4       ??_R1A@?0A@EA@IHLinearStyleImp@HLinearStyle@@8 100152a4     lstyle.obj
+ 0002:000032c0       ??_R3_IHLinearStyles@@8    100152c0     lstyles.obj
+ 0002:000032d0       ??_R2_IHLinearStyles@@8    100152d0     lstyles.obj
+ 0002:000032dc       ??_R1A@?0A@EA@_IHLinearStyles@@8 100152dc     lstyles.obj
+ 0002:000032f8       ??_R4HLinearStyles@@6B@    100152f8     lstyles.obj
+ 0002:0000330c       ??_R3HLinearStyles@@8      1001530c     lstyles.obj
+ 0002:0000331c       ??_R2HLinearStyles@@8      1001531c     lstyles.obj
+ 0002:00003328       ??_R1A@?0A@EA@HLinearStyles@@8 10015328     lstyles.obj
+ 0002:00003344       ??_R4IHelperImp@HLinearStyles@@6B@ 10015344     lstyles.obj
+ 0002:00003358       ??_R3IHelperImp@HLinearStyles@@8 10015358     lstyles.obj
+ 0002:00003368       ??_R2IHelperImp@HLinearStyles@@8 10015368     lstyles.obj
+ 0002:00003378       ??_R1A@?0A@EA@IHelperImp@HLinearStyles@@8 10015378     lstyles.obj
+ 0002:00003394       ??_R4IHLinearStylesImp@HLinearStyles@@6B@ 10015394     lstyles.obj
+ 0002:000033a8       ??_R3IHLinearStylesImp@HLinearStyles@@8 100153a8     lstyles.obj
+ 0002:000033b8       ??_R2IHLinearStylesImp@HLinearStyles@@8 100153b8     lstyles.obj
+ 0002:000033c8       ??_R1A@?0A@EA@IHLinearStylesImp@HLinearStyles@@8 100153c8     lstyles.obj
+ 0002:000033e4       ??_R4?$ClassFactory@VHLinearStyles@@@@6B@ 100153e4     server.obj
+ 0002:000033f8       ??_R3?$ClassFactory@VHLinearStyles@@@@8 100153f8     server.obj
+ 0002:00003408       ??_R2?$ClassFactory@VHLinearStyles@@@@8 10015408     server.obj
+ 0002:0000341c       ??_R1A@?0A@EA@?$ClassFactory@VHLinearStyles@@@@8 1001541c     server.obj
+ 0002:00003438       ??_R1A@?0A@EA@JClassFactory@@8 10015438     server.obj
+ 0002:00003454       ??_R3JClassFactory@@8      10015454     server.obj
+ 0002:00003464       ??_R2JClassFactory@@8      10015464     server.obj
+ 0002:00003474       ??_R1A@?0A@EA@IClassFactory@@8 10015474     server.obj
+ 0002:00003490       ??_R3IClassFactory@@8      10015490     server.obj
+ 0002:000034a0       ??_R2IClassFactory@@8      100154a0     server.obj
+ 0002:000034ac       ??_R4?$ClassFactory@VHLinearStyle@@@@6B@ 100154ac     server.obj
+ 0002:000034c0       ??_R3?$ClassFactory@VHLinearStyle@@@@8 100154c0     server.obj
+ 0002:000034d0       ??_R2?$ClassFactory@VHLinearStyle@@@@8 100154d0     server.obj
+ 0002:000034e4       ??_R1A@?0A@EA@?$ClassFactory@VHLinearStyle@@@@8 100154e4     server.obj
+ 0002:00003500       ??_R4?$ClassFactory@VHFillStyles@@@@6B@ 10015500     server.obj
+ 0002:00003514       ??_R3?$ClassFactory@VHFillStyles@@@@8 10015514     server.obj
+ 0002:00003524       ??_R2?$ClassFactory@VHFillStyles@@@@8 10015524     server.obj
+ 0002:00003538       ??_R1A@?0A@EA@?$ClassFactory@VHFillStyles@@@@8 10015538     server.obj
+ 0002:00003554       ??_R4?$ClassFactory@VHFillStyle@@@@6B@ 10015554     server.obj
+ 0002:00003568       ??_R3?$ClassFactory@VHFillStyle@@@@8 10015568     server.obj
+ 0002:00003578       ??_R2?$ClassFactory@VHFillStyle@@@@8 10015578     server.obj
+ 0002:0000358c       ??_R1A@?0A@EA@?$ClassFactory@VHFillStyle@@@@8 1001558c     server.obj
+ 0002:000035a8       ??_R4?$ClassFactory@VHSymbolPatternStyles@@@@6B@ 100155a8     server.obj
+ 0002:000035bc       ??_R3?$ClassFactory@VHSymbolPatternStyles@@@@8 100155bc     server.obj
+ 0002:000035cc       ??_R2?$ClassFactory@VHSymbolPatternStyles@@@@8 100155cc     server.obj
+ 0002:000035e0       ??_R1A@?0A@EA@?$ClassFactory@VHSymbolPatternStyles@@@@8 100155e0     server.obj
+ 0002:000035fc       ??_R4?$ClassFactory@VHSymbolPatternStyle@@@@6B@ 100155fc     server.obj
+ 0002:00003610       ??_R3?$ClassFactory@VHSymbolPatternStyle@@@@8 10015610     server.obj
+ 0002:00003620       ??_R2?$ClassFactory@VHSymbolPatternStyle@@@@8 10015620     server.obj
+ 0002:00003634       ??_R1A@?0A@EA@?$ClassFactory@VHSymbolPatternStyle@@@@8 10015634     server.obj
+ 0002:00003650       ??_R4?$ClassFactory@VHHatchPatternStyles@@@@6B@ 10015650     server.obj
+ 0002:00003664       ??_R3?$ClassFactory@VHHatchPatternStyles@@@@8 10015664     server.obj
+ 0002:00003674       ??_R2?$ClassFactory@VHHatchPatternStyles@@@@8 10015674     server.obj
+ 0002:00003688       ??_R1A@?0A@EA@?$ClassFactory@VHHatchPatternStyles@@@@8 10015688     server.obj
+ 0002:000036a4       ??_R4?$ClassFactory@VHHatchPatternStyle@@@@6B@ 100156a4     server.obj
+ 0002:000036b8       ??_R3?$ClassFactory@VHHatchPatternStyle@@@@8 100156b8     server.obj
+ 0002:000036c8       ??_R2?$ClassFactory@VHHatchPatternStyle@@@@8 100156c8     server.obj
+ 0002:000036dc       ??_R1A@?0A@EA@?$ClassFactory@VHHatchPatternStyle@@@@8 100156dc     server.obj
+ 0002:000036f8       ??_R4?$ClassFactory@VHDashStyles@@@@6B@ 100156f8     server.obj
+ 0002:0000370c       ??_R3?$ClassFactory@VHDashStyles@@@@8 1001570c     server.obj
+ 0002:0000371c       ??_R2?$ClassFactory@VHDashStyles@@@@8 1001571c     server.obj
+ 0002:00003730       ??_R1A@?0A@EA@?$ClassFactory@VHDashStyles@@@@8 10015730     server.obj
+ 0002:0000374c       ??_R4?$ClassFactory@VHDashStyle@@@@6B@ 1001574c     server.obj
+ 0002:00003760       ??_R3?$ClassFactory@VHDashStyle@@@@8 10015760     server.obj
+ 0002:00003770       ??_R2?$ClassFactory@VHDashStyle@@@@8 10015770     server.obj
+ 0002:00003784       ??_R1A@?0A@EA@?$ClassFactory@VHDashStyle@@@@8 10015784     server.obj
+ 0002:000037a0       ??_R4HSymbolPatternStyle@@6B@ 100157a0     sstyle.obj
+ 0002:000037b4       ??_R3HSymbolPatternStyle@@8 100157b4     sstyle.obj
+ 0002:000037c4       ??_R2HSymbolPatternStyle@@8 100157c4     sstyle.obj
+ 0002:000037d0       ??_R1A@?0A@EA@HSymbolPatternStyle@@8 100157d0     sstyle.obj
+ 0002:000037ec       ??_R3_IHSymbolPatternStyle@@8 100157ec     sstyle.obj
+ 0002:000037fc       ??_R2_IHSymbolPatternStyle@@8 100157fc     sstyle.obj
+ 0002:00003808       ??_R1A@?0A@EA@_IHSymbolPatternStyle@@8 10015808     sstyle.obj
+ 0002:00003824       ??_R4IHelperImp@HSymbolPatternStyle@@6B@ 10015824     sstyle.obj
+ 0002:00003838       ??_R3IHelperImp@HSymbolPatternStyle@@8 10015838     sstyle.obj
+ 0002:00003848       ??_R2IHelperImp@HSymbolPatternStyle@@8 10015848     sstyle.obj
+ 0002:00003858       ??_R1A@?0A@EA@IHelperImp@HSymbolPatternStyle@@8 10015858     sstyle.obj
+ 0002:00003874       ??_R4IHSymbolPatternStyleImp@HSymbolPatternStyle@@6B@ 10015874     sstyle.obj
+ 0002:00003888       ??_R3IHSymbolPatternStyleImp@HSymbolPatternStyle@@8 10015888     sstyle.obj
+ 0002:00003898       ??_R2IHSymbolPatternStyleImp@HSymbolPatternStyle@@8 10015898     sstyle.obj
+ 0002:000038a8       ??_R1A@?0A@EA@IHSymbolPatternStyleImp@HSymbolPatternStyle@@8 100158a8     sstyle.obj
+ 0002:000038c4       ??_R3_IHSymbolPatternStyles@@8 100158c4     sstyles.obj
+ 0002:000038d4       ??_R2_IHSymbolPatternStyles@@8 100158d4     sstyles.obj
+ 0002:000038e0       ??_R1A@?0A@EA@_IHSymbolPatternStyles@@8 100158e0     sstyles.obj
+ 0002:000038fc       ??_R4HSymbolPatternStyles@@6B@ 100158fc     sstyles.obj
+ 0002:00003910       ??_R3HSymbolPatternStyles@@8 10015910     sstyles.obj
+ 0002:00003920       ??_R2HSymbolPatternStyles@@8 10015920     sstyles.obj
+ 0002:0000392c       ??_R1A@?0A@EA@HSymbolPatternStyles@@8 1001592c     sstyles.obj
+ 0002:00003948       ??_R4IHelperImp@HSymbolPatternStyles@@6B@ 10015948     sstyles.obj
+ 0002:0000395c       ??_R3IHelperImp@HSymbolPatternStyles@@8 1001595c     sstyles.obj
+ 0002:0000396c       ??_R2IHelperImp@HSymbolPatternStyles@@8 1001596c     sstyles.obj
+ 0002:0000397c       ??_R1A@?0A@EA@IHelperImp@HSymbolPatternStyles@@8 1001597c     sstyles.obj
+ 0002:00003998       ??_R4IHSymbolPatternStylesImp@HSymbolPatternStyles@@6B@ 10015998     sstyles.obj
+ 0002:000039ac       ??_R3IHSymbolPatternStylesImp@HSymbolPatternStyles@@8 100159ac     sstyles.obj
+ 0002:000039bc       ??_R2IHSymbolPatternStylesImp@HSymbolPatternStyles@@8 100159bc     sstyles.obj
+ 0002:000039cc       ??_R1A@?0A@EA@IHSymbolPatternStylesImp@HSymbolPatternStyles@@8 100159cc     sstyles.obj
+ 0002:000039e8       ??_R4type_info@@6B@        100159e8     MSVCRT:ti_inst.obj
+ 0002:000039fc       ??_R3type_info@@8          100159fc     MSVCRT:ti_inst.obj
+ 0002:00003a0c       ??_R2type_info@@8          10015a0c     MSVCRT:ti_inst.obj
+ 0002:00003a14       ??_R1A@?0A@EA@type_info@@8 10015a14     MSVCRT:ti_inst.obj
+ 0002:00003a30       ___safe_se_handler_table   10015a30     <linker-defined>
+ 0002:00003b10       ___rtc_iaa                 10015b10     MSVCRT:initsect.obj
+ 0002:00003b14       ___rtc_izz                 10015b14     MSVCRT:initsect.obj
+ 0002:00003b18       ___rtc_taa                 10015b18     MSVCRT:initsect.obj
+ 0002:00003b1c       ___rtc_tzz                 10015b1c     MSVCRT:initsect.obj
+ 0002:00004654       __IMPORT_DESCRIPTOR_Daxutil 10016654     daxutil:Daxutil.dll
+ 0002:00004668       __IMPORT_DESCRIPTOR_jengine 10016668     jengine:jengine.dll
+ 0002:0000467c       __IMPORT_DESCRIPTOR_JUtil  1001667c     jutil:JUtil.dll
+ 0002:00004690       __IMPORT_DESCRIPTOR_stylspt 10016690     stylspt:stylspt.dll
+ 0002:000046a4       __IMPORT_DESCRIPTOR_sealloc 100166a4     sealloc:sealloc.dll
+ 0002:000046b8       __IMPORT_DESCRIPTOR_KERNEL32 100166b8     kernel32:KERNEL32.dll
+ 0002:000046cc       __IMPORT_DESCRIPTOR_OLEAUT32 100166cc     oleaut32:OLEAUT32.dll
+ 0002:000046e0       __IMPORT_DESCRIPTOR_MSVCR80 100166e0     MSVCRT:MSVCR80.dll
+ 0002:000046f4       __NULL_IMPORT_DESCRIPTOR   100166f4     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  10018000     newmode.obj
+ 0003:00000004       ??_R0?AVHDashStyle@@@8     10018004     dstyle.obj
+ 0003:00000020       ??_R0?AUIUnknown@@@8       10018020     dstyle.obj
+ 0003:00000038       ??_R0?AU_IHDashStyle@@@8   10018038     dstyle.obj
+ 0003:00000054       ??_R0?AUIHelperImp@HDashStyle@@@8 10018054     dstyle.obj
+ 0003:00000078       ??_R0?AUIHelper@@@8        10018078     dstyle.obj
+ 0003:00000090       ??_R0?AUIHDashStyleImp@HDashStyle@@@8 10018090     dstyle.obj
+ 0003:000000b8       ??_R0?AU_IHDashStyles@@@8  100180b8     dstyles.obj
+ 0003:000000d4       ??_R0?AVHDashStyles@@@8    100180d4     dstyles.obj
+ 0003:000000f0       ??_R0?AUIHelperImp@HDashStyles@@@8 100180f0     dstyles.obj
+ 0003:00000118       ??_R0?AUIHDashStylesImp@HDashStyles@@@8 10018118     dstyles.obj
+ 0003:00000144       ??_R0?AVHFillStyle@@@8     10018144     fstyle.obj
+ 0003:00000160       ??_R0?AU_IHFillStyle@@@8   10018160     fstyle.obj
+ 0003:0000017c       ??_R0?AUIHelperImp@HFillStyle@@@8 1001817c     fstyle.obj
+ 0003:000001a0       ??_R0?AUIHFillStyleImp@HFillStyle@@@8 100181a0     fstyle.obj
+ 0003:000001c8       ??_R0?AU_IHFillStyles@@@8  100181c8     fstyles.obj
+ 0003:000001e4       ??_R0?AVHFillStyles@@@8    100181e4     fstyles.obj
+ 0003:00000200       ??_R0?AUIHelperImp@HFillStyles@@@8 10018200     fstyles.obj
+ 0003:00000228       ??_R0?AUIHFillStylesImp@HFillStyles@@@8 10018228     fstyles.obj
+ 0003:00000c78       ??_R0?AVHHatchPatternStyle@@@8 10018c78     hstyle.obj
+ 0003:00000c9c       ??_R0?AU_IHHatchPatternStyle@@@8 10018c9c     hstyle.obj
+ 0003:00000cc0       ??_R0?AUIHelperImp@HHatchPatternStyle@@@8 10018cc0     hstyle.obj
+ 0003:00000cec       ??_R0?AUIHHatchPatternStyleImp@HHatchPatternStyle@@@8 10018cec     hstyle.obj
+ 0003:00000d24       ??_R0?AU_IHHatchPatternStyles@@@8 10018d24     hstyles.obj
+ 0003:00000d48       ??_R0?AVHHatchPatternStyles@@@8 10018d48     hstyles.obj
+ 0003:00000d6c       ??_R0?AUIHelperImp@HHatchPatternStyles@@@8 10018d6c     hstyles.obj
+ 0003:00000d9c       ??_R0?AUIHHatchPatternStylesImp@HHatchPatternStyles@@@8 10018d9c     hstyles.obj
+ 0003:00000dd8       ??_R0?AVHLinearStyle@@@8   10018dd8     lstyle.obj
+ 0003:00000df4       ??_R0?AU_IHLinearStyle@@@8 10018df4     lstyle.obj
+ 0003:00000e14       ??_R0?AUIHelperImp@HLinearStyle@@@8 10018e14     lstyle.obj
+ 0003:00000e3c       ??_R0?AUIHLinearStyleImp@HLinearStyle@@@8 10018e3c     lstyle.obj
+ 0003:00000e68       ??_R0?AU_IHLinearStyles@@@8 10018e68     lstyles.obj
+ 0003:00000e88       ??_R0?AVHLinearStyles@@@8  10018e88     lstyles.obj
+ 0003:00000ea4       ??_R0?AUIHelperImp@HLinearStyles@@@8 10018ea4     lstyles.obj
+ 0003:00000ecc       ??_R0?AUIHLinearStylesImp@HLinearStyles@@@8 10018ecc     lstyles.obj
+ 0003:00001920       ??_R0?AV?$ClassFactory@VHLinearStyles@@@@@8 10019920     server.obj
+ 0003:00001950       ??_R0?AVJClassFactory@@@8  10019950     server.obj
+ 0003:0000196c       ??_R0?AUIClassFactory@@@8  1001996c     server.obj
+ 0003:00001988       ??_R0?AV?$ClassFactory@VHLinearStyle@@@@@8 10019988     server.obj
+ 0003:000019b8       ??_R0?AV?$ClassFactory@VHFillStyles@@@@@8 100199b8     server.obj
+ 0003:000019e4       ??_R0?AV?$ClassFactory@VHFillStyle@@@@@8 100199e4     server.obj
+ 0003:00001a10       ??_R0?AV?$ClassFactory@VHSymbolPatternStyles@@@@@8 10019a10     server.obj
+ 0003:00001a48       ??_R0?AV?$ClassFactory@VHSymbolPatternStyle@@@@@8 10019a48     server.obj
+ 0003:00001a7c       ??_R0?AV?$ClassFactory@VHHatchPatternStyles@@@@@8 10019a7c     server.obj
+ 0003:00001ab0       ??_R0?AV?$ClassFactory@VHHatchPatternStyle@@@@@8 10019ab0     server.obj
+ 0003:00001ae4       ??_R0?AV?$ClassFactory@VHDashStyles@@@@@8 10019ae4     server.obj
+ 0003:00001b10       ??_R0?AV?$ClassFactory@VHDashStyle@@@@@8 10019b10     server.obj
+ 0003:00001b3c       ??_R0?AVHSymbolPatternStyle@@@8 10019b3c     sstyle.obj
+ 0003:00001b60       ??_R0?AU_IHSymbolPatternStyle@@@8 10019b60     sstyle.obj
+ 0003:00001b84       ??_R0?AUIHelperImp@HSymbolPatternStyle@@@8 10019b84     sstyle.obj
+ 0003:00001bb4       ??_R0?AUIHSymbolPatternStyleImp@HSymbolPatternStyle@@@8 10019bb4     sstyle.obj
+ 0003:00001bf0       ??_R0?AU_IHSymbolPatternStyles@@@8 10019bf0     sstyles.obj
+ 0003:00001c18       ??_R0?AVHSymbolPatternStyles@@@8 10019c18     sstyles.obj
+ 0003:00001c3c       ??_R0?AUIHelperImp@HSymbolPatternStyles@@@8 10019c3c     sstyles.obj
+ 0003:00001c6c       ??_R0?AUIHSymbolPatternStylesImp@HSymbolPatternStyles@@@8 10019c6c     sstyles.obj
+ 0003:00001ca8       ??_R0?AVtype_info@@@8      10019ca8     MSVCRT:ti_inst.obj
+ 0003:00001cc0       ___security_cookie         10019cc0     MSVCRT:gs_cookie.obj
+ 0003:00001cc4       ___security_cookie_complement 10019cc4     MSVCRT:gs_cookie.obj
+ 0003:00001cd0       ___native_dllmain_reason   10019cd0     MSVCRT:natstart.obj
+ 0003:00001cd4       ___native_vcclrit_reason   10019cd4     MSVCRT:natstart.obj
+ 0003:00002464       ?__type_info_root_node@@3U__type_info_node@@A 1001a464     MSVCRT:tncleanup.obj
+ 0003:0000246c       __adjust_fdiv              1001a46c     <common>
+ 0003:00002470       ___native_startup_state    1001a470     <common>
+ 0003:00002474       ___native_startup_lock     1001a474     <common>
+ 0003:00002478       ___onexitend               1001a478     <common>
+ 0003:0000247c       ___onexitbegin             1001a47c     <common>
+ 0003:00002480       ___dyn_tls_init_callback   1001a480     <common>
+
+ entry point at        0001:0000fa5e
+
+ Static symbols
+
+ 0001:00000240       ?IsDashStyleEditable@@YA_NPAUIUnknown@@@Z 10001240 f   dstyle.obj
+ 0001:00008dd0       ?GetStringFromColorRef@@YAHJAAVGUserText@@@Z 10009dd0 f   lstyle.obj
+ 0001:00008dd0       ?GetStringFromColorRef@@YAHJAAVGUserText@@@Z 10009dd0 f   lstyle.obj
+ 0001:0000c060       ?GetResourceModuleHandle@@YAPAUHINSTANCE__@@XZ 1000d060 f   server.obj
+ 0001:0000f75c       _pre_c_init                1001075c f   MSVCRT:crtdll.obj
+ 0001:0000f948       ___DllMainCRTStartup       10010948 f   MSVCRT:crtdll.obj
+ 0001:0000ff90       __unwindfunclet$?IsDashStyleEditable@@YA_NPAUIUnknown@@@Z$2 10010f90 f   dstyle.obj
+ 0001:0000ff98       __ehhandler$?IsDashStyleEditable@@YA_NPAUIUnknown@@@Z 10010f98 f   dstyle.obj
+ 0001:0000ffc0       __unwindfunclet$?put_Units@IHDashStyleImp@HDashStyle@@UAGJJ@Z$4 10010fc0 f   dstyle.obj
+ 0001:0000ffc8       __ehhandler$?put_Units@IHDashStyleImp@HDashStyle@@UAGJJ@Z 10010fc8 f   dstyle.obj
+ 0001:0000fff0       __unwindfunclet$?get_Units@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z$1 10010ff0 f   dstyle.obj
+ 0001:0000fff8       __ehhandler$?get_Units@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z 10010ff8 f   dstyle.obj
+ 0001:00010020       __unwindfunclet$?get_DashGapCount@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z$1 10011020 f   dstyle.obj
+ 0001:00010028       __ehhandler$?get_DashGapCount@IHDashStyleImp@HDashStyle@@UAGJPAJ@Z 10011028 f   dstyle.obj
+ 0001:00010050       __unwindfunclet$?SetDashGap@IHDashStyleImp@HDashStyle@@UAGJJPAUtagSAFEARRAY@@@Z$6 10011050 f   dstyle.obj
+ 0001:00010058       __ehhandler$?SetDashGap@IHDashStyleImp@HDashStyle@@UAGJJPAUtagSAFEARRAY@@@Z 10011058 f   dstyle.obj
+ 0001:00010080       __unwindfunclet$?GetDashGap@IHDashStyleImp@HDashStyle@@UAGJPAJPAPAUtagSAFEARRAY@@@Z$8 10011080 f   dstyle.obj
+ 0001:00010088       __ehhandler$?GetDashGap@IHDashStyleImp@HDashStyle@@UAGJPAJPAPAUtagSAFEARRAY@@@Z 10011088 f   dstyle.obj
+ 0001:000100b0       __unwindfunclet$?put_Center@IHDashStyleImp@HDashStyle@@UAGJF@Z$3 100110b0 f   dstyle.obj
+ 0001:000100b8       __ehhandler$?put_Center@IHDashStyleImp@HDashStyle@@UAGJF@Z 100110b8 f   dstyle.obj
+ 0001:000100e0       __unwindfunclet$?get_Center@IHDashStyleImp@HDashStyle@@UAGJPAF@Z$2 100110e0 f   dstyle.obj
+ 0001:000100e8       __ehhandler$?get_Center@IHDashStyleImp@HDashStyle@@UAGJPAF@Z 100110e8 f   dstyle.obj
+ 0001:00010110       __unwindfunclet$?put_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJN@Z$3 10011110 f   dstyle.obj
+ 0001:00010118       __ehhandler$?put_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJN@Z 10011118 f   dstyle.obj
+ 0001:00010140       __unwindfunclet$?get_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJPAN@Z$2 10011140 f   dstyle.obj
+ 0001:00010148       __ehhandler$?get_PercentStartEnd@IHDashStyleImp@HDashStyle@@UAGJPAN@Z 10011148 f   dstyle.obj
+ 0001:00010170       __unwindfunclet$?Add@IHDashStylesImp@HDashStyles@@UAGJPA_WPAPAUIUnknown@@@Z$8 10011170 f   dstyles.obj
+ 0001:00010178       __ehhandler$?Add@IHDashStylesImp@HDashStyles@@UAGJPA_WPAPAUIUnknown@@@Z 10011178 f   dstyles.obj
+ 0001:000101a0       __unwindfunclet$?Remove@IHDashStylesImp@HDashStyles@@UAGJPA_W@Z$3 100111a0 f   dstyles.obj
+ 0001:000101a8       __ehhandler$?Remove@IHDashStylesImp@HDashStyles@@UAGJPA_W@Z 100111a8 f   dstyles.obj
+ 0001:000101d0       __unwindfunclet$?get_FillColor@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z$3 100111d0 f   fstyle.obj
+ 0001:000101d8       __ehhandler$?get_FillColor@IHFillStyleImp@HFillStyle@@UAGJPAJ@Z 100111d8 f   fstyle.obj
+ 0001:00010200       __unwindfunclet$?get_Rotation@IHFillStyleImp@HFillStyle@@UAGJPAN@Z$5 10011200 f   fstyle.obj
+ 0001:00010208       __ehhandler$?get_Rotation@IHFillStyleImp@HFillStyle@@UAGJPAN@Z 10011208 f   fstyle.obj
+ 0001:00010230       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$10 10011230 f   fstyle.obj
+ 0001:00010239       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$11 10011239 f   fstyle.obj
+ 0001:00010245       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$12 10011245 f   fstyle.obj
+ 0001:00010251       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$13 10011251 f   fstyle.obj
+ 0001:0001025d       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$14 1001125d f   fstyle.obj
+ 0001:00010269       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$15 10011269 f   fstyle.obj
+ 0001:00010275       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$16 10011275 f   fstyle.obj
+ 0001:00010281       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$17 10011281 f   fstyle.obj
+ 0001:0001028d       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$18 1001128d f   fstyle.obj
+ 0001:00010296       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$19 10011296 f   fstyle.obj
+ 0001:000102a2       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$20 100112a2 f   fstyle.obj
+ 0001:000102ae       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$21 100112ae f   fstyle.obj
+ 0001:000102ba       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$22 100112ba f   fstyle.obj
+ 0001:000102c6       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$23 100112c6 f   fstyle.obj
+ 0001:000102d1       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$24 100112d1 f   fstyle.obj
+ 0001:000102dc       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$25 100112dc f   fstyle.obj
+ 0001:000102e7       __unwindfunclet$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z$26 100112e7 f   fstyle.obj
+ 0001:000102f2       __ehhandler$?get_Description@IHFillStyleImp@HFillStyle@@UAGJPAPA_W@Z 100112f2 f   fstyle.obj
+ 0001:00010320       __unwindfunclet$?SetDashGap@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJJPAUtagSAFEARRAY@@@Z$15 10011320 f   hstyle.obj
+ 0001:00010329       __ehhandler$?SetDashGap@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJJPAUtagSAFEARRAY@@@Z 10011329 f   hstyle.obj
+ 0001:00010360       __unwindfunclet$?SetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z$4 10011360 f   hstyle.obj
+ 0001:00010368       __ehhandler$?SetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 10011368 f   hstyle.obj
+ 0001:00010390       __unwindfunclet$?GetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z$3 10011390 f   hstyle.obj
+ 0001:00010398       __ehhandler$?GetMasterRotation@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z 10011398 f   hstyle.obj
+ 0001:000103c0       __unwindfunclet$?SetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z$4 100113c0 f   hstyle.obj
+ 0001:000103c8       __ehhandler$?SetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 100113c8 f   hstyle.obj
+ 0001:000103f0       __unwindfunclet$?GetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z$3 100113f0 f   hstyle.obj
+ 0001:000103f8       __ehhandler$?GetMasterScale@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJPAN@Z 100113f8 f   hstyle.obj
+ 0001:00010420       __unwindfunclet$?SetMasterColor@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJ@Z$4 10011420 f   hstyle.obj
+ 0001:00010428       __ehhandler$?SetMasterColor@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJJ@Z 10011428 f   hstyle.obj
+ 0001:00010450       __unwindfunclet$?SetMasterWidth@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z$4 10011450 f   hstyle.obj
+ 0001:00010458       __ehhandler$?SetMasterWidth@IHHatchPatternStyleImp@HHatchPatternStyle@@UAGJN@Z 10011458 f   hstyle.obj
+ 0001:00010480       __unwindfunclet$?Remove@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPA_W@Z$4 10011480 f   hstyles.obj
+ 0001:00010488       __ehhandler$?Remove@IHHatchPatternStylesImp@HHatchPatternStyles@@UAGJPA_W@Z 10011488 f   hstyles.obj
+ 0001:000104b0       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$8 100114b0 f   lstyle.obj
+ 0001:000104b9       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$9 100114b9 f   lstyle.obj
+ 0001:000104c2       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$10 100114c2 f   lstyle.obj
+ 0001:000104ce       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$11 100114ce f   lstyle.obj
+ 0001:000104da       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$12 100114da f   lstyle.obj
+ 0001:000104e6       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$13 100114e6 f   lstyle.obj
+ 0001:000104f2       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$14 100114f2 f   lstyle.obj
+ 0001:000104fb       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$15 100114fb f   lstyle.obj
+ 0001:00010507       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$16 10011507 f   lstyle.obj
+ 0001:00010513       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$17 10011513 f   lstyle.obj
+ 0001:0001051f       __unwindfunclet$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z$18 1001151f f   lstyle.obj
+ 0001:00010528       __ehhandler$?get_Description@IHLinearStyleImp@HLinearStyle@@UAGJPAPA_W@Z 10011528 f   lstyle.obj
+ 0001:00010550       __unwindfunclet$??0?$ClassFactory@VHLinearStyles@@@@QAE@HHH@Z$0 10011550 f   server.obj
+ 0001:00010559       __ehhandler$??0?$ClassFactory@VHLinearStyles@@@@QAE@HHH@Z 10011559 f   server.obj
+ 0001:00010580       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHLinearStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011580 f   server.obj
+ 0001:0001058b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHLinearStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001158b f   server.obj
+ 0001:000105b0       __unwindfunclet$??0?$ClassFactory@VHLinearStyle@@@@QAE@HHH@Z$0 100115b0 f   server.obj
+ 0001:000105b9       __ehhandler$??0?$ClassFactory@VHLinearStyle@@@@QAE@HHH@Z 100115b9 f   server.obj
+ 0001:000105e0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHLinearStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100115e0 f   server.obj
+ 0001:000105eb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHLinearStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100115eb f   server.obj
+ 0001:00010610       __unwindfunclet$??0?$ClassFactory@VHFillStyles@@@@QAE@HHH@Z$0 10011610 f   server.obj
+ 0001:00010619       __ehhandler$??0?$ClassFactory@VHFillStyles@@@@QAE@HHH@Z 10011619 f   server.obj
+ 0001:00010640       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHFillStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011640 f   server.obj
+ 0001:0001064b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHFillStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001164b f   server.obj
+ 0001:00010670       __unwindfunclet$??0?$ClassFactory@VHFillStyle@@@@QAE@HHH@Z$0 10011670 f   server.obj
+ 0001:00010679       __ehhandler$??0?$ClassFactory@VHFillStyle@@@@QAE@HHH@Z 10011679 f   server.obj
+ 0001:000106a0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHFillStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100116a0 f   server.obj
+ 0001:000106ab       __ehhandler$?OnCreateInstance@?$ClassFactory@VHFillStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100116ab f   server.obj
+ 0001:000106d0       __unwindfunclet$??0?$ClassFactory@VHSymbolPatternStyles@@@@QAE@HHH@Z$0 100116d0 f   server.obj
+ 0001:000106d9       __ehhandler$??0?$ClassFactory@VHSymbolPatternStyles@@@@QAE@HHH@Z 100116d9 f   server.obj
+ 0001:00010700       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011700 f   server.obj
+ 0001:0001070b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001170b f   server.obj
+ 0001:00010730       __unwindfunclet$??0?$ClassFactory@VHSymbolPatternStyle@@@@QAE@HHH@Z$0 10011730 f   server.obj
+ 0001:00010739       __ehhandler$??0?$ClassFactory@VHSymbolPatternStyle@@@@QAE@HHH@Z 10011739 f   server.obj
+ 0001:00010760       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011760 f   server.obj
+ 0001:0001076b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHSymbolPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001176b f   server.obj
+ 0001:00010790       __unwindfunclet$??0?$ClassFactory@VHHatchPatternStyles@@@@QAE@HHH@Z$0 10011790 f   server.obj
+ 0001:00010799       __ehhandler$??0?$ClassFactory@VHHatchPatternStyles@@@@QAE@HHH@Z 10011799 f   server.obj
+ 0001:000107c0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHHatchPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100117c0 f   server.obj
+ 0001:000107cb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHHatchPatternStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100117cb f   server.obj
+ 0001:000107f0       __unwindfunclet$??0?$ClassFactory@VHHatchPatternStyle@@@@QAE@HHH@Z$0 100117f0 f   server.obj
+ 0001:000107f9       __ehhandler$??0?$ClassFactory@VHHatchPatternStyle@@@@QAE@HHH@Z 100117f9 f   server.obj
+ 0001:00010820       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHHatchPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011820 f   server.obj
+ 0001:0001082b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHHatchPatternStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001182b f   server.obj
+ 0001:00010850       __unwindfunclet$??0?$ClassFactory@VHDashStyles@@@@QAE@HHH@Z$0 10011850 f   server.obj
+ 0001:00010859       __ehhandler$??0?$ClassFactory@VHDashStyles@@@@QAE@HHH@Z 10011859 f   server.obj
+ 0001:00010880       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHDashStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10011880 f   server.obj
+ 0001:0001088b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHDashStyles@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1001188b f   server.obj
+ 0001:000108b0       __unwindfunclet$??0?$ClassFactory@VHDashStyle@@@@QAE@HHH@Z$0 100118b0 f   server.obj
+ 0001:000108b9       __ehhandler$??0?$ClassFactory@VHDashStyle@@@@QAE@HHH@Z 100118b9 f   server.obj
+ 0001:000108e0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHDashStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100118e0 f   server.obj
+ 0001:000108eb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHDashStyle@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100118eb f   server.obj
+ 0001:00010910       __unwindfunclet$_DllGetClassObject@12$0 10011910 f   server.obj
+ 0001:0001091b       __unwindfunclet$_DllGetClassObject@12$1 1001191b f   server.obj
+ 0001:00010926       __unwindfunclet$_DllGetClassObject@12$2 10011926 f   server.obj
+ 0001:00010931       __unwindfunclet$_DllGetClassObject@12$3 10011931 f   server.obj
+ 0001:0001093c       __unwindfunclet$_DllGetClassObject@12$4 1001193c f   server.obj
+ 0001:00010947       __unwindfunclet$_DllGetClassObject@12$5 10011947 f   server.obj
+ 0001:00010952       __unwindfunclet$_DllGetClassObject@12$6 10011952 f   server.obj
+ 0001:0001095d       __unwindfunclet$_DllGetClassObject@12$7 1001195d f   server.obj
+ 0001:00010968       __unwindfunclet$_DllGetClassObject@12$8 10011968 f   server.obj
+ 0001:00010973       __unwindfunclet$_DllGetClassObject@12$9 10011973 f   server.obj
+ 0001:0001097e       __ehhandler$_DllGetClassObject@12 1001197e f   server.obj
+ 0001:000109a0       __unwindfunclet$??_G?$ClassFactory@VHLinearStyles@@@@UAEPAXI@Z$0 100119a0 f   server.obj
+ 0001:000109a9       __ehhandler$??_G?$ClassFactory@VHLinearStyles@@@@UAEPAXI@Z 100119a9 f   server.obj
+ 0001:000109d0       __unwindfunclet$??_G?$ClassFactory@VHLinearStyle@@@@UAEPAXI@Z$0 100119d0 f   server.obj
+ 0001:000109d9       __ehhandler$??_G?$ClassFactory@VHLinearStyle@@@@UAEPAXI@Z 100119d9 f   server.obj
+ 0001:00010a00       __unwindfunclet$??_G?$ClassFactory@VHFillStyles@@@@UAEPAXI@Z$0 10011a00 f   server.obj
+ 0001:00010a09       __ehhandler$??_G?$ClassFactory@VHFillStyles@@@@UAEPAXI@Z 10011a09 f   server.obj
+ 0001:00010a30       __unwindfunclet$??_G?$ClassFactory@VHFillStyle@@@@UAEPAXI@Z$0 10011a30 f   server.obj
+ 0001:00010a39       __ehhandler$??_G?$ClassFactory@VHFillStyle@@@@UAEPAXI@Z 10011a39 f   server.obj
+ 0001:00010a60       __unwindfunclet$??_G?$ClassFactory@VHSymbolPatternStyles@@@@UAEPAXI@Z$0 10011a60 f   server.obj
+ 0001:00010a69       __ehhandler$??_G?$ClassFactory@VHSymbolPatternStyles@@@@UAEPAXI@Z 10011a69 f   server.obj
+ 0001:00010a90       __unwindfunclet$??_G?$ClassFactory@VHSymbolPatternStyle@@@@UAEPAXI@Z$0 10011a90 f   server.obj
+ 0001:00010a99       __ehhandler$??_G?$ClassFactory@VHSymbolPatternStyle@@@@UAEPAXI@Z 10011a99 f   server.obj
+ 0001:00010ac0       __unwindfunclet$??_G?$ClassFactory@VHHatchPatternStyles@@@@UAEPAXI@Z$0 10011ac0 f   server.obj
+ 0001:00010ac9       __ehhandler$??_G?$ClassFactory@VHHatchPatternStyles@@@@UAEPAXI@Z 10011ac9 f   server.obj
+ 0001:00010af0       __unwindfunclet$??_G?$ClassFactory@VHHatchPatternStyle@@@@UAEPAXI@Z$0 10011af0 f   server.obj
+ 0001:00010af9       __ehhandler$??_G?$ClassFactory@VHHatchPatternStyle@@@@UAEPAXI@Z 10011af9 f   server.obj
+ 0001:00010b20       __unwindfunclet$??_G?$ClassFactory@VHDashStyles@@@@UAEPAXI@Z$0 10011b20 f   server.obj
+ 0001:00010b29       __ehhandler$??_G?$ClassFactory@VHDashStyles@@@@UAEPAXI@Z 10011b29 f   server.obj
+ 0001:00010b50       __unwindfunclet$??_G?$ClassFactory@VHDashStyle@@@@UAEPAXI@Z$0 10011b50 f   server.obj
+ 0001:00010b59       __ehhandler$??_G?$ClassFactory@VHDashStyle@@@@UAEPAXI@Z 10011b59 f   server.obj
+ 0001:00010b80       ??__EGNULL_Camera@@YAXXZ   10011b80 f   guid.obj
+ 0001:00010ba0       ??__EGNULL_CAMERA@@YAXXZ   10011ba0 f   guid.obj
+ 0001:00010bc0       ??__EGID_Camera@@YAXXZ     10011bc0 f   guid.obj
+ 0001:00010be0       ??__EGID_CAMERA@@YAXXZ     10011be0 f   guid.obj
+ 0001:00010c00       ??__EGNULL_Camera@@YAXXZ   10011c00 f   module.obj
+ 0001:00010c20       ??__EGNULL_CAMERA@@YAXXZ   10011c20 f   module.obj
+ 0001:00010c40       ??__EGID_Camera@@YAXXZ     10011c40 f   module.obj
+ 0001:00010c60       ??__EGID_CAMERA@@YAXXZ     10011c60 f   module.obj

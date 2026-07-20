@@ -1,0 +1,122 @@
+<HTML>
+<head>
+<STYLE type='text/css'>@import url('styles.css');</STYLE>
+<script language='javascript' src='util.js'></script>
+<script language='javascript'>
+top_level.instr = window;
+
+function move( dir )
+{
+	var d = 1
+	if ( !cs_action.trans_button[0].checked ) {
+		d = top_level.IPAControl.AssemblyRadius / 10
+		top_level.move( 0,0, dir*d )
+	} else {
+		top_level.IPAControl.Position( 0,0,dir,3 )
+	}
+}
+function rot( type )
+{
+	var a = 0
+	var b = 0
+	var r = 90
+	if ( type == 1 ) a = -1
+	if ( type == 2 ) a = 1
+	if ( type == 3 ) b = -1
+	if ( type == 4 ) b = 1
+	if ( cs_action.rot_button[0].checked ) r = 5
+	if ( cs_action.rot_button[1].checked ) r = 30
+	if ( cs_action.rot_button[2].checked ) r = 45
+	if ( r == 5 ) 
+		top_level.orientation( r * a, r * b, 0, 3 )
+	else 
+		top_level.rotate( r * a, r * b, 0 )
+}
+</script>
+</head>
+<body class='instr'>
+<form name="cs_action">
+<table width="200" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"> 
+        <p><b>Move Cross Section Plane</b><br>
+          <i>Use the mouse in the graphics window to drag the cross section</i><br>
+          or<br>
+          <i>Click on an image to move the cross section plane</i><br>
+          <br>
+          <a href="javascript:top_level.ResetObject()"><img src="../icons/resetcs.gif" width="99" height="30" border="0"></a> 
+        </p>
+      </div>
+    </td>
+    <td rowspan="12" bgcolor="#000000"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#000000" height="2"> </td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b><br>
+        Rotate Cross Section Plane</b></div>
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr>
+      <td> 
+        <div align="left">
+          <input type="radio" name="rot_button" value="5">
+          Rotate 5 deg<br>
+          <input type="radio" name="rot_button" value="30">
+          Rotate 30 deg </div>
+        <div align="center"></div>
+    </td>
+      <td> 
+        <div align="left">
+          <input type="radio" name="rot_button" value="45">
+          Rotate 45 deg<br>
+          <input type="radio" name="rot_button" value="90" checked>
+          Rotate 90 deg<br>
+        </div>
+      </td>
+  </tr>
+  <tr> 
+    <td width="91"><a href="javascript:rot(1)"><img src="../icons/rotr1.gif" width="100" height="100" border="0"></a></td>
+    <td width="106"><a href="javascript:rot(2)"><img src="../icons/rotr2.gif" width="100" height="100" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"></div>
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="91"><a href="javascript:rot(3)"><img src="../icons/rotg1.gif" width="100" height="100" border="0"></a></td>
+    <td width="106"><a href="javascript:rot(4)"><img src="../icons/rotg2.gif" width="100" height="100" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td width="91">&nbsp;</td>
+    <td width="106">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#000000" height="2"> </td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <div align="center"><b><br>
+        Slide Cross Section Plane</b></div>
+    </td>
+  </tr>
+  <tr> 
+      <td width="91"><input type="radio" name="trans_button" value="1" checked>
+          Move a little</td>
+      <td width="106"><input type="radio" name="trans_button" value="2">
+          Move a lot</td>
+  </tr>
+  <tr> 
+      <td width="91"><a href="javascript:move(1)"><img src="../icons/transb1.gif" width="100" height="100" border="0"></a></td>
+      <td width="106"><a href="javascript:move(-1)"><img src="../icons/transb2.gif" width="100" height="100" border="0"></a></td>
+  </tr>
+</table>
+</form>
+</body>
+</HTML>

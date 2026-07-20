@@ -1,0 +1,1502 @@
+ ubspm2d
+
+ Timestamp is 46b39cca (Fri Aug 03 16:23:22 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000b591cH .text                   CODE
+ 0002:00000000 00000108H .idata$5                DATA
+ 0002:00000108 00000004H .CRT$XCA                DATA
+ 0002:0000010c 00000004H .CRT$XCZ                DATA
+ 0002:00000110 00000004H .CRT$XIA                DATA
+ 0002:00000114 00000004H .CRT$XIAA               DATA
+ 0002:00000118 00000004H .CRT$XIC                DATA
+ 0002:0000011c 00000004H .CRT$XIZ                DATA
+ 0002:00000120 000023b0H .rdata                  DATA
+ 0002:000024d0 00000031H .rdata$debug            DATA
+ 0002:00002510 00000004H .rdata$sxdata           DATA
+ 0002:00002514 00000004H .rtc$IAA                DATA
+ 0002:00002518 00000004H .rtc$IZZ                DATA
+ 0002:0000251c 00000004H .rtc$TAA                DATA
+ 0002:00002520 00000004H .rtc$TZZ                DATA
+ 0002:00002528 00000084H .xdata$x                DATA
+ 0002:000025ac 00000028H .idata$2                DATA
+ 0002:000025d4 00000014H .idata$3                DATA
+ 0002:000025e8 00000108H .idata$4                DATA
+ 0002:000026f0 000003a8H .idata$6                DATA
+ 0002:00002aa0 00002c54H .edata                  DATA
+ 0003:00000000 00047b30H .data                   DATA
+ 0003:00047b40 0000127cH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _BS2cvsoffpg               10001000 f   bs2cvsoffpg.obj
+ 0001:00000d30       _BS2cvsoffwl               10001d30 f   bs2cvsoffwl.obj
+ 0001:00001a60       _BS2cvsto1                 10002a60 f   bs2cvsto1.obj
+ 0001:00001ac0       _BSactivsplt               10002ac0 f   bsactivsplt.obj
+ 0001:00002230       _BSadd_ekt                 10003230 f   bsadd_ekt.obj
+ 0001:00002440       _BSadd_kt                  10003440 f   bsadd_kt.obj
+ 0001:00002490       _BSadd_kt2r                10003490 f   bsadd_kt2r.obj
+ 0001:00002970       _BSadd_ktr                 10003970 f   bsadd_ktr.obj
+ 0001:00002e90       _BSadd_kts                 10003e90 f   bsadd_kts.obj
+ 0001:000036a0       _BSadjpar                  100046a0 f   bsadjpar.obj
+ 0001:000036f0       _BSadjust                  100046f0 f   bsadjust.obj
+ 0001:00003800       _BSalloccv                 10004800 f   bsalloccv.obj
+ 0001:00003900       _BSangarctou               10004900 f   bsangarctou.obj
+ 0001:00003c80       _BSangqdofpt               10004c80 f   bsangqdofpt.obj
+ 0001:000040c0       _BSapproxcvs               100050c0 f   bsapproxcvs.obj
+ 0001:00006520       _BSarc3pts                 10007520 f   bsarc3pts.obj
+ 0001:000067f0       _BSarcangpar               100077f0 f   bsarcangpar.obj
+ 0001:00006a60       _BSarccomp                 10007a60 f   bsarccomp.obj
+ 0001:000070b0       _BSarclen                  100080b0 f   bsarclen.obj
+ 0001:00007600       _BSarclength               10008600 f   bsarclength.obj
+ 0001:00007b40       _BSarclg3ds                10008b40 f   bsarclg3ds.obj
+ 0001:00008670       _BSarclg4ds                10009670 f   bsarclg4ds.obj
+ 0001:00008a50       _BSarclnparc               10009a50 f   bsarclnparc.obj
+ 0001:00009000       _BSavgdispts               1000a000 f   bsavgdispts.obj
+ 0001:00009120       _BSavgprsfft               1000a120 f   bsavgprsfft.obj
+ 0001:000094e0       _BSavgpts                  1000a4e0 f   bsavgpts.obj
+ 0001:000095b0       _BSbasisvect               1000a5b0 f   bsbasisvect.obj
+ 0001:00009930       _BSbeztocan                1000a930 f   bsbeztocan.obj
+ 0001:00009b50       _BSbidag2sv                1000ab50 f   bsbidag2sv.obj
+ 0001:0000ab80       _BSbinomcoef               1000bb80 f   bsbinomcoef.obj
+ 0001:0000ac00       _BSblkmv                   1000bc00 f   bsblkmv.obj
+ 0001:0000ac20       _BSbndhsback               1000bc20 f   bsbndhsback.obj
+ 0001:0000b0a0       _BSbndhshdtr               1000c0a0 f   bsbndhshdtr.obj
+ 0001:0000b350       _BSbndhshold               1000c350 f   bsbndhshold.obj
+ 0001:0000ba90       _BSboxlgd1                 1000ca90 f   bsboxlgd1.obj
+ 0001:0000bb60       _BSboxpoles                1000cb60 f   bsboxpoles.obj
+ 0001:0000be30       _BSbranch                  1000ce30 f   bsbranch.obj
+ 0001:0000c320       _BSbrapproxs               1000d320 f   bsbrapproxs.obj
+ 0001:0000d670       _BSbreakcv                 1000e670 f   bsbreakcv.obj
+ 0001:0000d9d0       _BSbspl                    1000e9d0 f   bsbspl.obj
+ 0001:0000e1f0       _BSbstobez                 1000f1f0 f   bsbstobez.obj
+ 0001:0000f500       _BSbx2                     10010500 f   bsbx2.obj
+ 0001:0000f6b0       _BSbx3                     100106b0 f   bsbx3.obj
+ 0001:0000f7a0       _BSbxint                   100107a0 f   bsbxint.obj
+ 0001:0000f810       _BSbzbz_int                10010810 f   bsbzbz_int.obj
+ 0001:0000fc80       _BSbzeroes                 10010c80 f   bsbzeroes.obj
+ 0001:00010250       _BSbzoverlap               10011250 f   bsbzoverlap.obj
+ 0001:00010470       _BSbzur1pls                10011470 f   bsbzur1pls.obj
+ 0001:00010540       _BScanoff2d                10011540 f   bscanoff2d.obj
+ 0001:00010c10       _BScantlgd                 10011c10 f   bscantlgd.obj
+ 0001:00010d50       _BScantlgdp                10011d50 f   bscantlgdp.obj
+ 0001:00010f20       _BScastblgd                10011f20 f   bscastblgd.obj
+ 0001:000112d0       _BScastdbez                100122d0 f   bscastdbez.obj
+ 0001:000113d0       _BScbrt                    100123d0 f   bscbrt.obj
+ 0001:00011500       _BScbzpr                   10012500 f   bscbzpr.obj
+ 0001:00011670       _BSchangepar               10012670 f   bschangepar.obj
+ 0001:000116b0       _BSchangetol               100126b0 f   bschangetol.obj
+ 0001:00011a40       _BSchgcvewlr               10012a40 f   bschgcvewlr.obj
+ 0001:00012030       _BSchgcvewts               10013030 f   bschgcvewts.obj
+ 0001:00012550       _BSchgdeppar               10013550 f   bschgdeppar.obj
+ 0001:000127e0       _BSchgewtlr                100137e0 f   bschgewtlr.obj
+ 0001:00012b10       _BSchgewts                 10013b10 f   bschgewts.obj
+ 0001:00012d00       _BSchklmem                 10013d00 f   bschklmem.obj
+ 0001:00012d70       _BSchkmem1                 10013d70 f   bschkmem1.obj
+ 0001:00012f10       _BSchkmemo                 10013f10 f   bschkmemo.obj
+ 0001:00013130       _BSchkplygn                10014130 f   bschkplygn.obj
+ 0001:00013440       _BSchkuvpars               10014440 f   bschkuvpars.obj
+ 0001:000137d0       _BSchkzolgd                100147d0 f   bschkzolgd.obj
+ 0001:00013850       _BSchrdlkts                10014850 f   bschrdlkts.obj
+ 0001:00014490       _BSchtptstco               10015490 f   bschtptstco.obj
+ 0001:000148a0       _BSchtptstcv               100158a0 f   bschtptstcv.obj
+ 0001:000148f0       _BScirc_prop               100158f0 f   bscirc_prop.obj
+ 0001:00014d70       _BScircprop                10015d70 f   bscircprop.obj
+ 0001:00014f70       _BScirrdcr                 10015f70 f   bscirrdcr.obj
+ 0001:00014ff0       _BSclcvshffl               10015ff0 f   bsclcvshffl.obj
+ 0001:000158a0       _BScmpcvoff1               100168a0 f   bscmpcvoff1.obj
+ 0001:000197a0       _BScmpcvoffl               1001a7a0 f   bscmpcvoffl.obj
+ 0001:0001d830       _BScmpextoff               1001e830 f   bscmpextoff.obj
+ 0001:0001f180       _BScmpintoff               10020180 f   bscmpintoff.obj
+ 0001:0001ff90       _BScmpmrgoff               10020f90 f   bscmpmrgoff.obj
+ 0001:00020c90       _BScmpoffcls               10021c90 f   bscmpoffcls.obj
+ 0001:00023a20       _BScncprop                 10024a20 f   bscncprop.obj
+ 0001:00024370       _BScncxtdst                10025370 f   bscncxtdst.obj
+ 0001:00024ac0       _BScnvtmekt                10025ac0 f   bscnvtmekt.obj
+ 0001:00024c00       _BScnvtomkt                10025c00 f   bscnvtomkt.obj
+ 0001:00024d50       _BScoincdpts               10025d50 f   bscoincdpts.obj
+ 0001:00024dd0       _BScoincida                10025dd0 f   bscoincida.obj
+ 0001:00024e50       _BScoincidpa               10025e50 f   bscoincidpa.obj
+ 0001:00024eb0       _BScoincids                10025eb0 f   bscoincids.obj
+ 0001:00025060       _BScollin                  10026060 f   bscollin.obj
+ 0001:00025120       _BScollinmn2               10026120 f   bscollinmn2.obj
+ 0001:000251a0       _BScollinmny               100261a0 f   bscollinmny.obj
+ 0001:00025220       _BScomb2cvs                10026220 f   bscomb2cvs.obj
+ 0001:00025840       _BScompare                 10026840 f   bscompare.obj
+ 0001:00025b20       _BSconextend               10026b20 f   bsconextend.obj
+ 0001:00025e70       _BSconic32                 10026e70 f   bsconic32.obj
+ 0001:000260d0       _BSconicgen0               100270d0 f   bsconicgen0.obj
+ 0001:00026140       _BSconicgen3               10027140 f   bsconicgen3.obj
+ 0001:00026980       _BSconicgen4               10027980 f   bsconicgen4.obj
+ 0001:00027280       _BSconicprp                10028280 f   bsconicprp.obj
+ 0001:000278b0       _BScotan32                 100288b0 f   bscotan32.obj
+ 0001:00027a80       _BScrossp                  10028a80 f   bscrossp.obj
+ 0001:00027ad0       _BScumdist                 10028ad0 f   bscumdist.obj
+ 0001:00027c00       _BScumdistar               10028c00 f   bscumdistar.obj
+ 0001:00027d30       _BScumdstopt               10028d30 f   bscumdstopt.obj
+ 0001:00028060       _BScv_copy                 10029060 f   bscv_copy.obj
+ 0001:000281a0       _BScv_in_fnc               100291a0 f   bscv_in_fnc.obj
+ 0001:00029580       _BScv_shffl                1002a580 f   bscv_shffl.obj
+ 0001:00029dd0       _BScv_slfint               1002add0 f   bscv_slfint.obj
+ 0001:00029e20       _BScvarrev0                1002ae20 f   bscvarrev0.obj
+ 0001:0002a480       _BScvarrev0w               1002b480 f   bscvarrev0w.obj
+ 0001:0002ae50       _BScvarreval               1002be50 f   bscvarreval.obj
+ 0001:0002af70       _BScvarrevc                1002bf70 f   bscvarrevc.obj
+ 0001:0002b9a0       _BScvarrevt                1002c9a0 f   bscvarrevt.obj
+ 0001:0002bc10       _BScvcmp_rng               1002cc10 f   bscvcmp_rng.obj
+ 0001:0002bd60       _BScvcv_comb               1002cd60 f   bscvcv_comb.obj
+ 0001:0002c2b0       _BScvcv_int                1002d2b0 f   bscvcv_int.obj
+ 0001:0002d2e0       _BScvcv_sort               1002e2e0 f   bscvcv_sort.obj
+ 0001:0002e520       _BScvcvint                 1002f520 f   bscvcvint.obj
+ 0001:0002e760       _BScvcviter                1002f760 f   bscvcviter.obj
+ 0001:0002ebb0       _BScveval                  1002fbb0 f   bscveval.obj
+ 0001:0002eff0       _BScveval0                 1002fff0 f   bscveval0.obj
+ 0001:0002f130       _BScveval1                 10030130 f   bscveval1.obj
+ 0001:0002f380       _BScveval2                 10030380 f   bscveval2.obj
+ 0001:0002f660       _BScveval_b                10030660 f   bscveval_b.obj
+ 0001:0002f990       _BScveval_h                10030990 f   bscveval_h.obj
+ 0001:00030140       _BScvevaln                 10031140 f   bscvevaln.obj
+ 0001:00030790       _BScvevpgbnd               10031790 f   bscvevpgbnd.obj
+ 0001:000308c0       _BScvincktm                100318c0 f   bscvincktm.obj
+ 0001:00030f10       _BScvincvfnc               10031f10 f   bscvincvfnc.obj
+ 0001:00032090       _BScvinttrmd               10033090 f   bscvinttrmd.obj
+ 0001:00032f80       _BScvktncsp                10033f80 f   bscvktncsp.obj
+ 0001:000331c0       _BScvkttol2                100341c0 f   bscvkttol2.obj
+ 0001:000332f0       _BScvlgdtbez               100342f0 f   bscvlgdtbez.obj
+ 0001:00033410       _BScvlsqfit                10034410 f   bscvlsqfit.obj
+ 0001:00033a40       _BScvmidpt                 10034a40 f   bscvmidpt.obj
+ 0001:00033b50       _BScvndegspn               10034b50 f   bscvndegspn.obj
+ 0001:00033bf0       _BScvndpchrg               10034bf0 f   bscvndpchrg.obj
+ 0001:00034550       _BScvnodpts                10035550 f   bscvnodpts.obj
+ 0001:000345d0       _BScvnormal                100355d0 f   bscvnormal.obj
+ 0001:00034780       _BScvnrpervc               10035780 f   bscvnrpervc.obj
+ 0001:00034ac0       _BScvntoo                  10035ac0 f   bscvntoo.obj
+ 0001:00034b40       _BScvoff3d                 10035b40 f   bscvoff3d.obj
+ 0001:000357c0       _BScvoffset                100367c0 f   bscvoffset.obj
+ 0001:00035860       _BScvoffsetd               10036860 f   bscvoffsetd.obj
+ 0001:00035ab0       _BScvoton                  10036ab0 f   bscvoton.obj
+ 0001:00035b30       _BScvrngtree               10036b30 f   bscvrngtree.obj
+ 0001:00035f90       _BScvset_rng               10036f90 f   bscvset_rng.obj
+ 0001:000360d0       _BScvsetclsd               100370d0 f   bscvsetclsd.obj
+ 0001:00036a40       _BScvsilhouet              10037a40 f   bscvsilhouet.obj
+ 0001:00036d20       _BScvsplit                 10037d20 f   bscvsplit.obj
+ 0001:000379f0       _BScvspndst                100389f0 f   bscvspndst.obj
+ 0001:00037b40       _BScvspnrgtr               10038b40 f   bscvspnrgtr.obj
+ 0001:000381c0       _BScvtgeomcv               100391c0 f   bscvtgeomcv.obj
+ 0001:00039d90       _BScvtobz                  1003ad90 f   bscvtobz.obj
+ 0001:00039e20       _BScvtstclsd               1003ae20 f   bscvtstclsd.obj
+ 0001:00039f00       _BSdbgalloc                1003af00 f   bsdbgalloc.obj
+ 0001:0003a010       _BSdbgfree                 1003b010 f   bsdbgfree.obj
+ 0001:0003a270       _BSdbginit                 1003b270 f   bsdbginit.obj
+ 0001:0003a290       _BSdbgralloc               1003b290 f   bsdbgralloc.obj
+ 0001:0003a5d0       _BSdbgrc                   1003b5d0 f   bsdbgrc.obj
+ 0001:0003a620       _BSdbgsalloc               1003b620 f   bsdbgsalloc.obj
+ 0001:0003a720       _BSdbgsfree                1003b720 f   bsdbgsfree.obj
+ 0001:0003a940       _BSdblptind                1003b940 f   bsdblptind.obj
+ 0001:0003aba0       _BSdcastelj                1003bba0 f   bsdcastelj.obj
+ 0001:0003ada0       _BSdecomp                  1003bda0 f   bsdecomp.obj
+ 0001:0003b300       _BSderlgdpol               1003c300 f   bsderlgdpol.obj
+ 0001:0003b890       _BSdirfit_3                1003c890 f   bsdirfitcv.obj
+ 0001:0003bf90       _BSdirfit_2                1003cf90 f   bsdirfitcv.obj
+ 0001:0003c330       _BSdirfit_1                1003d330 f   bsdirfitcv.obj
+ 0001:0003c400       _BSdirfitcv                1003d400 f   bsdirfitcv.obj
+ 0001:0003caa0       _BSdistll                  1003daa0 f   bsdistll.obj
+ 0001:0003cfa0       _BSdistnct2                1003dfa0 f   bsdistnct2.obj
+ 0001:0003d000       _BSdistptli                1003e000 f   bsdistptli.obj
+ 0001:0003d0f0       _BSdistptpl                1003e0f0 f   bsdistptpl.obj
+ 0001:0003d160       _BSdistptpt                1003e160 f   bsdistptpt.obj
+ 0001:0003d1a0       _BSdistptpts               1003e1a0 f   bsdistptpts.obj
+ 0001:0003d1e0       _BSdistwpwp                1003e1e0 f   bsdistwpwp.obj
+ 0001:0003d240       _BSdistwpwps               1003e240 f   bsdistwpwps.obj
+ 0001:0003d290       _BSdlsegs2                 1003e290 f   bsdlsegs2.obj
+ 0001:0003da00       _BSdmod                    1003ea00 f   bsdmod.obj
+ 0001:0003daa0       _BSdotp                    1003eaa0 f   bsdotp.obj
+ 0001:0003dad0       _BSdptseg2                 1003ead0 f   bsdptseg2.obj
+ 0001:0003dc50       _BSdsqrtc                  1003ec50 f   bsdsqrtc.obj
+ 0001:0003dd00       _BSdta_rducv               1003ed00 f   bsdta_rducv.obj
+ 0001:0003e530       _BSeig3sv                  1003f530 f   bseig3sv.obj
+ 0001:0003e640       _BSeig3x3                  1003f640 f   bseig3x3.obj
+ 0001:0003ec50       _BSeigcon                  1003fc50 f   bseigcon.obj
+ 0001:0003ef90       _BSeigmatvv1               1003ff90 f   bseigmatvv1.obj
+ 0001:0003fbb0       _BSeigval3x3               10040bb0 f   bseigval3x3.obj
+ 0001:00040010       _BSeigvcm3x3               10041010 f   bseigvcm3x3.obj
+ 0001:00040590       _BSelarptang               10041590 f   bselarptang.obj
+ 0001:000412a0       _BSendpoint                100422a0 f   bsendpoint.obj
+ 0001:00041740       _BSendptinbx               10042740 f   bsendptinbx.obj
+ 0001:00041900       _BSeqspaces                10042900 f   bseqspaces.obj
+ 0001:00041a20       _BSeval                    10042a20 f   bseval.obj
+ 0001:00041ac0       _BSevalbsp                 10042ac0 f   bsevalbsp.obj
+ 0001:00041c20       _BSextpolcv0               10042c20 f   bsextpolcv0.obj
+ 0001:00042720       _BSextpolcv1               10043720 f   bsextpolcv1.obj
+ 0001:00042a50       _BSextrcvspn               10043a50 f   bsextrcvspn.obj
+ 0001:00042bd0       _BSextrtlgd                10043bd0 f   bsextrtlgd.obj
+ 0001:00043570       _BSexttrmcmp               10044570 f   bsexttrmcmp.obj
+ 0001:000442a0       _BSfgvsv                   100452a0 f   bsfgvsv.obj
+ 0001:00044500       _BSfillet                  10045500 f   bsfillet.obj
+ 0001:00045b20       _BSfillet3d                10046b20 f   bsfillet3d.obj
+ 0001:00046600       _BSfindmkts                10047600 f   bsfindmkts.obj
+ 0001:000466c0       _BSfindspn                 100476c0 f   bsfindspn.obj
+ 0001:00046830       _BSfindspnr                10047830 f   bsfindspnr.obj
+ 0001:00046ab0       _BSfit2doff                10047ab0 f   bsfit2doff.obj
+ 0001:000475a0       _BSfitbycir                100485a0 f   bsfitbycir.obj
+ 0001:00047c70       _BSfitratcv                10048c70 f   bsfitratcv.obj
+ 0001:0004ac30       _BSfitratpts               1004bc30 f   bsfitratpts.obj
+ 0001:0004e030       _BSfndcvcsp                1004f030 f   bsfndcvcsp.obj
+ 0001:0004e200       _BSfndcvtrns               1004f200 f   bsfndcvtrns.obj
+ 0001:0004e4f0       _BSfndcvturn               1004f4f0 f   bsfndcvturn.obj
+ 0001:0004e670       _BSfndneighb               1004f670 f   bsfndneighb.obj
+ 0001:0004e740       _BSfndoffdir               1004f740 f   bsfndoffdir.obj
+ 0001:0004fac0       _BSfndrtlgd1               10050ac0 f   bsfndrtlgd1.obj
+ 0001:0004fde0       _BSfndspnarr               10050de0 f   bsfndspnarr.obj
+ 0001:0004feb0       _BSfndstrort               10050eb0 f   bsfndstrort.obj
+ 0001:0004ffc0       _BSfndtnpol2               10050fc0 f   bsfndtnpol2.obj
+ 0001:00051330       _BSfndturovr               10052330 f   bsfndturovr.obj
+ 0001:00051870       _BSfreecv                  10052870 f   bsfreecv.obj
+ 0001:00051910       _BSftmatsz                 10052910 f   bsftmatsz.obj
+ 0001:00051a00       _BSgauss                   10052a00 f   bsgauss.obj
+ 0001:00052070       _BSgen_link                10053070 f   bsgen_link.obj
+ 0001:000530d0       _BSgensym                  100540d0 f   bsgensym.obj
+ 0001:00053240       _BSgenus                   10054240 f   bsgenus.obj
+ 0001:000535d0       _BSget_u_nor               100545d0 f   bsget_u_nor.obj
+ 0001:000537e0       _BSgetmult                 100547e0 f   bsgetmult.obj
+ 0001:000538b0       _BSgetndgpts               100548b0 f   bsgetndgpts.obj
+ 0001:00053ca0       _BSgoodstart               10054ca0 f   bsgoodstart.obj
+ 0001:00053fe0       _BSgraham                  10054fe0 f   bsgraham.obj
+ 0001:00054390       _BSgroupcv                 10055390 f   bsgroupcv.obj
+ 0001:00054760       _BShifit                   10055760 f   bshifit.obj
+ 0001:00054a20       _BShlfbezcv                10055a20 f   bshlfbezcv.obj
+ 0001:00054c00       _BShlfcpocan               10055c00 f   bshlfcpocan.obj
+ 0001:00054e10       _BShlfcpolgd               10055e10 f   bshlfcpolgd.obj
+ 0001:00054f70       _BShlfcvdep                10055f70 f   bshlfcvdep.obj
+ 0001:000552b0       _BShorn_pd                 100562b0 f   bshorn_pd.obj
+ 0001:000554f0       _BShorncan                 100564f0 f   bshorncan.obj
+ 0001:00055570       _BShorncanc                10056570 f   bshorncanc.obj
+ 0001:00055660       _BShorncansy               10056660 f   bshorncansy.obj
+ 0001:00055700       _BShornlgd                 10056700 f   bshornlgd.obj
+ 0001:00055970       _BShousehld                10056970 f   bshousehld.obj
+ 0001:00056150       _BShshldtran               10057150 f   bshshldtran.obj
+ 0001:00056990       _BShsr1sv                  10057990 f   bshsr1sv.obj
+ 0001:00056d40       _BShsr2sv                  10057d40 f   bshsr2sv.obj
+ 0001:00057060       _BShsr3sv                  10058060 f   bshsr3sv.obj
+ 0001:00057380       _BSiarcln                  10058380 f   bsiarcln.obj
+ 0001:00057460       _BSiarcln2                 10058460 f   bsiarcln2.obj
+ 0001:00057b90       _BSigmemal                 10058b90 f   bsigmemal.obj
+ 0001:00057c10       _BSigmemfr                 10058c10 f   bsigmemfr.obj
+ 0001:00057c50       _BSimptprcnc               10058c50 f   bsimptprcnc.obj
+ 0001:00058560       _BSinit20                  10059560 f   bsinit20.obj
+ 0001:00058570       _BSinsparkts               10059570 f   bsinsparkts.obj
+ 0001:00059270       _BSinsrt_mat               1005a270 f   bsinsrt_mat.obj
+ 0001:000595c0       _BSintegval                1005a5c0 f   bsintegval.obj
+ 0001:00059850       _BSintsort                 1005a850 f   bsintsort.obj
+ 0001:00059a60       _BSinv_mat                 1005aa60 f   bsinv_mat.obj
+ 0001:00059af0       _BSinvc                    1005aaf0 f   bsinvc.obj
+ 0001:00059b20       _BSiskntbez                1005ab20 f   bsiskntbez.obj
+ 0001:00059be0       _BSknot_rem2               1005abe0 f   bsknot_rem2.obj
+ 0001:00059f60       _BSkts_f_fit               1005af60 f   bskts_f_fit.obj
+ 0001:0005a730       _BSktsprsfft               1005b730 f   bsktsprsfft.obj
+ 0001:0005a840       _BSlawcvvals               1005b840 f   bslawcvvals.obj
+ 0001:0005ada0       _BSlenvec                  1005bda0 f   bslenvec.obj
+ 0001:0005add0       _BSlenvecsq                1005bdd0 f   bslenvecsq.obj
+ 0001:0005ae00       _BSlftorrght               1005be00 f   bslftorrght.obj
+ 0001:0005af60       _BSlgddivxa                1005bf60 f   bslgddivxa.obj
+ 0001:0005b2e0       _BSlgdtbez                 1005c2e0 f   bslgdtbez.obj
+ 0001:0005b690       _BSlgdtbzsp                1005c690 f   bslgdtbzsp.obj
+ 0001:0005bbb0       _BSlgdtcan                 1005cbb0 f   bslgdtcan.obj
+ 0001:0005bd60       _BScnpntab                 1005cd60 f   bscnpntab.obj
+ 0001:0005bd60       _BSrootdata                1005cd60 f   bsrootdata.obj
+ 0001:0005bd60       _BSglobals                 1005cd60 f   bsglobals.obj
+ 0001:0005bd60       _BSinit                    1005cd60 f   bsinit.obj
+ 0001:0005bd60       _BSlgdcantab               1005cd60 f   bslgdcantab.obj
+ 0001:0005bd60       _BSlgdtchtab               1005cd60 f   bslgdtchtab.obj
+ 0001:0005bd60       _BScnptab                  1005cd60 f   bscnptab.obj
+ 0001:0005bd70       _BSlininter                1005cd70 f   bslininter.obj
+ 0001:0005bec0       _BSlinintnkt               1005cec0 f   bslinintnkt.obj
+ 0001:0005c070       _BSlldist                  1005d070 f   bslldist.obj
+ 0001:0005c5c0       _BSlnendpt                 1005d5c0 f   bslnendpt.obj
+ 0001:0005c920       _BSlngen                   1005d920 f   bslngen.obj
+ 0001:0005c990       _BSlngenord                1005d990 f   bslngenord.obj
+ 0001:0005cc20       _BSlnln_int                1005dc20 f   bslnln_int.obj
+ 0001:0005d2e0       _BSlnn2cvs                 1005e2e0 f   bslnn2cvs.obj
+ 0001:0005d720       _BSlnxttpt                 1005e720 f   bslnxttpt.obj
+ 0001:0005da90       _BSlocalcord               1005ea90 f   bslocalcord.obj
+ 0001:0005dc50       _BSlockmem                 1005ec50 f   bslockmem.obj
+ 0001:0005dd10       _BSls_slfint               1005ed10 f   bsls_slfint.obj
+ 0001:0005e0b0       _BSlsls_int                1005f0b0 f   bslsls_int.obj
+ 0001:0005f0d0       _BSlslsmem                 100600d0 f   bslslsmem.obj
+ 0001:0005fb90       _BSlsqptlnpl               10060b90 f   bslsqptlnpl.obj
+ 0001:0005fd70       _BSmansf0                  10060d70 f   bsmansf0.obj
+ 0001:0005ff70       _BSmansf1                  10060f70 f   bsmansf1.obj
+ 0001:00060410       _BSmansf2                  10061410 f   bsmansf2.obj
+ 0001:000609f0       _BSmaxext                  100619f0 f   bsmaxext.obj
+ 0001:00061180       _BSmdistbzbz               10062180 f   bsmdistbzbz.obj
+ 0001:000613c0       _BSmdistcvcv               100623c0 f   bsmdistcvcv.obj
+ 0001:00062000       _BSmdistptcv               10063000 f   bsmdistptcv.obj
+ 0001:00062e70       _BSmdptbezcv               10063e70 f   bsmdptbezcv.obj
+ 0001:000635f0       _BSmdptbezln               100645f0 f   bsmdptbezln.obj
+ 0001:00063b40       _BSmdptsbscv               10064b40 f   bsmdptsbscv.obj
+ 0001:00064600       _BSmdstbzbz                10065600 f   bsmdstbzbz.obj
+ 0001:00064b10       _BSmdstccgtc               10065b10 f   bsmdstccgtc.obj
+ 0001:000652d0       _BSmdstptarr               100662d0 f   bsmdstptarr.obj
+ 0001:000653a0       _BSmdstptcv                100663a0 f   bsmdstptcv.obj
+ 0001:00065540       _BSmdstptscv               10066540 f   bsmdstptscv.obj
+ 0001:000657b0       _BSmemclean                100667b0 f   bsmemclean.obj
+ 0001:00065810       _BSmergarrcv               10066810 f   bsmergarrcv.obj
+ 0001:00065bd0       _BSmerge_cv                10066bd0 f   bsmerge_cv.obj
+ 0001:00065c50       _BSmergecvnn               10066c50 f   bsmergecvnn.obj
+ 0001:00066260       _BSmkvec                   10067260 f   bsmkvec.obj
+ 0001:000662a0       _BSmod_gauss               100672a0 f   bsmod_gauss.obj
+ 0001:00066c50       _BSmodcvtnpl               10067c50 f   bsmodcvtnpl.obj
+ 0001:00067000       _BSmodnplpts               10068000 f   bsmodnplpts.obj
+ 0001:000671c0       _BSmodnpptsl               100681c0 f   bsmodnpptsl.obj
+ 0001:00067630       _BSmodptslaw               10068630 f   bsmodptslaw.obj
+ 0001:00067710       _BSmodshpcvg               10068710 f   bsmodshpcvg.obj
+ 0001:00068620       _BSmodshppts               10069620 f   bsmodshppts.obj
+ 0001:00068830       _BSnewktr                  10069830 f   bsnewktr.obj
+ 0001:000689e0       _BSnodevals                100699e0 f   bsnodevals.obj
+ 0001:00068e20       _BSnodvalrg                10069e20 f   bsnodvalrg.obj
+ 0001:00068fd0       _BSnorkts                  10069fd0 f   bsnorkts.obj
+ 0001:000690b0       _BSnormals                 1006a0b0 f   bsnormals.obj
+ 0001:00069730       _BSnorvec                  1006a730 f   bsnorvec.obj
+ 0001:000697d0       _BSnpftwcns2               1006a7d0 f   bsnpftwcns2.obj
+ 0001:0006aaa0       _BSnquad                   1006baa0 f   bsnquad.obj
+ 0001:0006b550       _BSnrm_2_cvs               1006c550 f   bsnrm_2_cvs.obj
+ 0001:0006bfa0       _BSnulpol                  1006cfa0 f   bsnulpol.obj
+ 0001:0006c0c0       _BSofchkln                 1006d0c0 f   bsofchkln.obj
+ 0001:0006c1a0       _BSofcvjoin                1006d1a0 f   bsofcvjoin.obj
+ 0001:0006c650       _BSoffcvxy                 1006d650 f   bsoffcvxy.obj
+ 0001:0006cb50       _BSoffsetpt                1006db50 f   bsoffsetpt.obj
+ 0001:0006d730       _BSofk3arc                 1006e730 f   bsofk3arc.obj
+ 0001:00070380       _BSofmkcls                 10071380 f   bsofmkcls.obj
+ 0001:00071900       _BSofnorm                  10072900 f   bsofnorm.obj
+ 0001:00071eb0       _BSofrmlp3                 10072eb0 f   bsofrmlp3.obj
+ 0001:000721b0       _BSofrparcv                100731b0 f   bsofrparcv.obj
+ 0001:00072270       _BSofupdeg                 10073270 f   bsofupdeg.obj
+ 0001:00072340       _BSoverlap                 10073340 f   bsoverlap.obj
+ 0001:000724b0       _BSpardelcv                100734b0 f   bspardelcv.obj
+ 0001:00072ab0       _BSpartloop2               10073ab0 f   bspartloop2.obj
+ 0001:00073050       _BSpartofcv                10074050 f   bspartofcv.obj
+ 0001:00073720       _BSperiodfit               10074720 f   bsperiodfit.obj
+ 0001:00073fd0       _BSperpa                   10074fd0 f   bsperpa.obj
+ 0001:00074690       _BSperpr                   10075690 f   bsperpr.obj
+ 0001:000749c0       _BSperpr1                  100759c0 f   bsperpr1.obj
+ 0001:00074f80       _BSphyparang               10075f80 f   bsphyparang.obj
+ 0001:000750b0       _BSphypxtnd                100760b0 f   bsphypxtnd.obj
+ 0001:000758f0       _BSpjptimcnc               100768f0 f   bspjptimcnc.obj
+ 0001:00075ae0       _BSpl_cv_int               10076ae0 f   bspl_cv_int.obj
+ 0001:00076600       _BSpl_pl                   10077600 f   bspl_pl.obj
+ 0001:00076850       _BSplanar2                 10077850 f   bsplanar2.obj
+ 0001:000768b0       _BSpoint3                  100778b0 f   bspoint3.obj
+ 0001:00076980       _BSpoisonmem               10077980 f   bspoisonmem.obj
+ 0001:00076a30       _BSpoisonstk               10077a30 f   bspoisonstk.obj
+ 0001:00076ad0       _BSpolarnif                10077ad0 f   bspolarnif.obj
+ 0001:00076d60       _BSpolarsrt2               10077d60 f   bspolarsrt2.obj
+ 0001:00077570       _BSpolxtdst0               10078570 f   bspolxtdst0.obj
+ 0001:00078170       _BSpoly2                   10079170 f   bspoly2.obj
+ 0001:00078370       _BSpoly3                   10079370 f   bspoly3.obj
+ 0001:00078430       _BSpoly_ext                10079430 f   bspoly_ext.obj
+ 0001:00078ce0       _BSpolyextfc               10079ce0 f   bspolyextfc.obj
+ 0001:00079500       _BSpolyxcvcv               1007a500 f   bspolyxcvcv.obj
+ 0001:0007ac20       _BSpolyxd0                 1007bc20 f   bspolyxd0.obj
+ 0001:0007ba50       _BSpolyxt0                 1007ca50 f   bspolyxt0.obj
+ 0001:0007c820       _BSpolyxtdst               1007d820 f   bspolyxtdst.obj
+ 0001:0007c870       _BSpolyxttpt               1007d870 f   bspolyxttpt.obj
+ 0001:0007d070       _BSpower                   1007e070 f   bspower.obj
+ 0001:0007d100       _BSprep_trim               1007e100 f   bsprep_trim.obj
+ 0001:0007d480       _BSprepcarc                1007e480 f   bsprepcarc.obj
+ 0001:0007e040       _BSprepcirc                1007f040 f   bsprepcirc.obj
+ 0001:0007e3b0       _BSprepcircp               1007f3b0 f   bsprepcircp.obj
+ 0001:0007e7d0       _BSpreploop                1007f7d0 f   bspreploop.obj
+ 0001:000801f0       _BSprftwbsol               100811f0 f   bsprftwbsol.obj
+ 0001:000815c0       _BSprgeomcv                100825c0 f   bsprgeomcv.obj
+ 0001:000825a0       _BSprintbspc               100835a0 f   bsprintbspc.obj
+ 0001:000825c0       _BSprintbsps               100835c0 f   bsprintbsps.obj
+ 0001:000825e0       _BSprj_cv_pl               100835e0 f   bsprj_cv_pl.obj
+ 0001:000828f0       _BSprncp_nor               100838f0 f   bsprncp_nor.obj
+ 0001:00082fc0       _BSproj0                   10083fc0 f   bsproj0.obj
+ 0001:000830b0       _BSproj1                   100840b0 f   bsproj1.obj
+ 0001:00083220       _BSprptnrcv                10084220 f   bsprptnrcv.obj
+ 0001:000833c0       _BSprptoncv                100843c0 f   bsprptoncv.obj
+ 0001:00083510       _BSprptonln                10084510 f   bsprptonln.obj
+ 0001:000836e0       _BSprtbspcv                100846e0 f   bsprtbspcv.obj
+ 0001:00083780       _BSprtbspsf                10084780 f   bsprtbspsf.obj
+ 0001:00083820       _BSpt_in_cv                10084820 f   bspt_in_cv.obj
+ 0001:00084060       _BSpt_in_plg               10085060 f   bspt_in_plg.obj
+ 0001:00084670       _BSpt_on_ln2               10085670 f   bspt_on_ln2.obj
+ 0001:000846f0       _BSpt_on_lne               100856f0 f   bspt_on_lne.obj
+ 0001:00084770       _BSpt_pt                   10085770 f   bspt_pt.obj
+ 0001:000848e0       _BSptcvgen                 100858e0 f   bsptcvgen.obj
+ 0001:000849d0       _BSptinbx                  100859d0 f   bsptinbx.obj
+ 0001:00084a60       _BSptlngen                 10085a60 f   bsptlngen.obj
+ 0001:00084b90       _BSptlnplan                10085b90 f   bsptlnplan.obj
+ 0001:00084c10       _BSptnwtold                10085c10 f   bsptnwtold.obj
+ 0001:00084cb0       _BSptoldtnw                10085cb0 f   bsptoldtnw.obj
+ 0001:00084d40       _BSptonarc                 10085d40 f   bsptonarc.obj
+ 0001:000851b0       _BSpts_infnc               100861b0 f   bspts_infnc.obj
+ 0001:00085670       _BSptsdlcv                 10086670 f   bsptsdlcv.obj
+ 0001:00085e30       _BSptsincfnc               10086e30 f   bsptsincfnc.obj
+ 0001:00086580       _BSptsnwtold               10087580 f   bsptsnwtold.obj
+ 0001:00086ab0       _BSptsoldtnw               10087ab0 f   bsptsoldtnw.obj
+ 0001:00087170       _BSptsoncv                 10088170 f   BSptsoncv.obj
+ 0001:000878c0       _BSpttan2cvs               100888c0 f   bspttan2cvs.obj
+ 0001:00087d30       _BSqnwt                    10088d30 f   bsqnwt.obj
+ 0001:00088750       _BSqnwt2                   10089750 f   bsqnwt2.obj
+ 0001:000892a0       _BSquicksort               1008a2a0 f   bsquicksort.obj
+ 0001:000892f0       _BSr_approxs               1008a2f0 f   bsr_approxs.obj
+ 0001:0008a1f0       _BSrdcencrcv               1008b1f0 f   bsrdcencrcv.obj
+ 0001:0008a610       _BSrdgeomcv                1008b610 f   bsrdgeomcv.obj
+ 0001:0008af60       _BSreadcv                  1008bf60 f   bsreadcv.obj
+ 0001:0008b750       _BSreadd                   1008c750 f   bsreadd.obj
+ 0001:0008b7e0       _BSreadhex                 1008c7e0 f   bsreadhex.obj
+ 0001:0008b8e0       _BSreadhexd                1008c8e0 f   bsreadhexd.obj
+ 0001:0008ba80       _BSreadln                  1008ca80 f   bsreadln.obj
+ 0001:0008bac0       _BSrefine                  1008cac0 f   bsrefine.obj
+ 0001:0008c0b0       _BSrelplnln                1008d0b0 f   bsrelplnln.obj
+ 0001:0008c2b0       _BSremloop                 1008d2b0 f   bsremloop.obj
+ 0001:0008c590       _BSreparmcv                1008d590 f   bsreparmcv.obj
+ 0001:0008c750       _BSrev_cv                  1008d750 f   bsrev_cv.obj
+ 0001:0008cad0       _BSrhosplit1               1008dad0 f   bsrhosplit1.obj
+ 0001:0008cbf0       _BSrhosplit2               1008dbf0 f   bsrhosplit2.obj
+ 0001:0008ccf0       _BSrk_rkvecs               1008dcf0 f   bsrk_rkvecs.obj
+ 0001:0008d410       _BSrkv_f_kts               1008e410 f   bsrkv_f_kts.obj
+ 0001:0008e070       _BSrm1knot                 1008f070 f   bsrm1knot.obj
+ 0001:0008e4e0       _BSrm_kt_app               1008f4e0 f   bsrm_kt_app.obj
+ 0001:0008eb80       _BSrmktsnchg               1008fb80 f   bsrmktsnchg.obj
+ 0001:0008fe00       _BSrmnknots                10090e00 f   bsrmnknots.obj
+ 0001:00090290       _BSroto                    10091290 f   bsroto.obj
+ 0001:00091c70       _BSrpoly                   10092c70 f   bsrpoly.obj
+ 0001:00092820       _BSrpoly2                  10093820 f   bsrpoly2.obj
+ 0001:00092aa0       _BSrpoly3                  10093aa0 f   bsrpoly3.obj
+ 0001:00093000       _BSrpoly3c                 10094000 f   bsrpoly3c.obj
+ 0001:00093620       _BSrpoly4                  10094620 f   bsrpoly4.obj
+ 0001:00094370       _BSrpower                  10095370 f   bsrpower.obj
+ 0001:000943a0       _BSrspl                    100953a0 f   bsrspl.obj
+ 0001:00094500       _BSrtlgd2                  10095500 f   bsrtlgd2.obj
+ 0001:00094a20       _BSsclsv                   10095a20 f   bssclsv.obj
+ 0001:00095230       _BSsetder_cv               10096230 f   bssetder_cv.obj
+ 0001:00095920       _BSsetigmem                10096920 f   bssetigmem.obj
+ 0001:00095950       _BSsetq                    10096950 f   bssetq.obj
+ 0001:00095e50       _BSsetspn                  10096e50 f   bssetspn.obj
+ 0001:00096460       _BSsftsv                   10097460 f   bssftsv.obj
+ 0001:000964e0       _BSsingbval                100974e0 f   bssingbval.obj
+ 0001:00097e90       _BSsingsv                  10098e90 f   bssingsv.obj
+ 0001:00098010       _BSsingval                 10099010 f   bssingval.obj
+ 0001:000983a0       _BSsng0sv                  100993a0 f   bssng0sv.obj
+ 0001:000985d0       _BSsng1sv                  100995d0 f   bssng1sv.obj
+ 0001:000987f0       _BSsolve                   100997f0 f   bssolve.obj
+ 0001:00098af0       _BSsort                    10099af0 f   bssort.obj
+ 0001:00098c40       _BSsort2sv                 10099c40 f   bssort2sv.obj
+ 0001:000991c0       _BSsorttrpls               1009a1c0 f   bssorttrpls.obj
+ 0001:00099270       _BSspantocan               1009a270 f   bsspantocan.obj
+ 0001:00099490       _BSspn_t_bz                1009a490 f   bsspn_t_bz.obj
+ 0001:000994f0       _BSspnndptpr               1009a4f0 f   bsspnndptpr.obj
+ 0001:00099650       _BSspnnumins               1009a650 f   bsspnnumins.obj
+ 0001:00099910       _BSspnoffset               1009a910 f   bsspnoffset.obj
+ 0001:0009acc0       _BSspnpow01                1009bcc0 f   bsspnpow01.obj
+ 0001:0009af70       _BSspnslfint               1009bf70 f   bsspnslfint.obj
+ 0001:0009b4f0       _BSspnspnmem               1009c4f0 f   bsspnspnmem.obj
+ 0001:0009b8a0       _BSsrtptslnv               1009c8a0 f   bssrtptslnv.obj
+ 0001:0009ba00       _BSssln                    1009ca00 f   bsssln.obj
+ 0001:0009bb50       _BSstallcvfl               1009cb50 f   bsstallcvfl.obj
+ 0001:0009bc10       _BSstfrecvfl               1009cc10 f   bsstfrecvfl.obj
+ 0001:0009bca0       _BSstolmthd                1009cca0 f   bsstolmthd.obj
+ 0001:0009bcc0       _BSstrkbez                 1009ccc0 f   bsstrkbez.obj
+ 0001:0009c180       _BStagsort                 1009d180 f   bstagsort.obj
+ 0001:0009c210       _BStagsorti                1009d210 f   bstagsorti.obj
+ 0001:0009c2a0       _BStanffit                 1009d2a0 f   bstanffit.obj
+ 0001:0009c570       _BStrancurv                1009d570 f   bstrancurv.obj
+ 0001:0009c720       _BStrans1                  1009d720 f   bstrans1.obj
+ 0001:0009ca60       _BStrans2                  1009da60 f   bstrans2.obj
+ 0001:0009cb00       _BStrans_mat               1009db00 f   bstrans_mat.obj
+ 0001:0009ccb0       _BStransconc               1009dcb0 f   bstransconc.obj
+ 0001:0009d1e0       _BStrplcomp                1009e1e0 f   bstrplcomp.obj
+ 0001:0009d250       _BStrunclgd                1009e250 f   bstrunclgd.obj
+ 0001:0009d2e0       _BStruncmlgd               1009e2e0 f   bstruncmlgd.obj
+ 0001:0009d430       _BStst_plan                1009e430 f   bstst_plan.obj
+ 0001:0009d4b0       _BStst_stack               1009e4b0 f   bstst_stack.obj
+ 0001:0009dc00       _BStstcvarct               1009ec00 f   bststcvarct.obj
+ 0001:0009e530       _BStstcvcarc               1009f530 f   bststcvcarc.obj
+ 0001:0009e7b0       _BStstcvcnct               1009f7b0 f   bststcvcnct.obj
+ 0001:0009ef30       _BStstcvcusp               1009ff30 f   bststcvcusp.obj
+ 0001:0009f1f0       _BStstcvdegn               100a01f0 f   bststcvdegn.obj
+ 0001:0009f270       _BStstcvfarc               100a0270 f   bststcvfarc.obj
+ 0001:0009f3f0       _BStstcvfln                100a03f0 f   bststcvfln.obj
+ 0001:0009fc50       _BStstspn1                 100a0c50 f   bststspn1.obj
+ 0001:0009ffc0       _BSunwght_p                100a0fc0 f   bsunwght_p.obj
+ 0001:000a0020       _BSupthe_deg               100a1020 f   bsupthe_deg.obj
+ 0001:000a0070       _BSupthedegr               100a1070 f   bsupthedegr.obj
+ 0001:000a0ac0       _BSvarcvoff                100a1ac0 f   bsvarcvoff.obj
+ 0001:000a0e60       _BSvectnuv                 100a1e60 f   bsvectnuv.obj
+ 0001:000a0f60       _BSvrcvoffnt               100a1f60 f   bsvrcvoffnt.obj
+ 0001:000a1340       _BSvrcvofntp               100a2340 f   bsvrcvofntp.obj
+ 0001:000a30d0       _BSvrcvofwtp               100a40d0 f   bsvrcvofwtp.obj
+ 0001:000a3710       _BSwght_p                  100a4710 f   bswght_p.obj
+ 0001:000a3770       _BSwrbscvwhx               100a4770 f   bswrbscvwhx.obj
+ 0001:000a3e00       _BSwrbssfwhx               100a4e00 f   bswrbssfwhx.obj
+ 0001:000a46a0       _BSwritehex                100a56a0 f   bswritehex.obj
+ 0001:000a4730       _BSx2gmcarcs               100a5730 f   bsx2gmcarcs.obj
+ 0001:000a8b80       _BSxarcarc                 100a9b80 f   bsxarcarc.obj
+ 0001:000a90d0       _BSxbzarcarc               100aa0d0 f   bsxbzarcarc.obj
+ 0001:000a93d0       _BSxbzlnarc                100aa3d0 f   bsxbzlnarc.obj
+ 0001:000a9690       _BSxbzs4                   100aa690 f   bsxbzs4.obj
+ 0001:000aa440       _BSxcncln                  100ab440 f   bsxcncln.obj
+ 0001:000aa7b0       _BSxln                     100ab7b0 f   bsxln.obj
+ 0001:000aa920       _BSxlnarc                  100ab920 f   bsxlnarc.obj
+ 0001:000aad00       _BSxlnln                   100abd00 f   bsxlnln.obj
+ 0001:000ab650       _BSxlnln2d                 100ac650 f   bsxlnln2d.obj
+ 0001:000ac410       _BSxlnlnopt                100ad410 f   bsxlnlnopt.obj
+ 0001:000acd70       _BSxlnsph                  100add70 f   bsxlnsph.obj
+ 0001:000acff0       _BSxlsls                   100adff0 f   bsxlsls.obj
+ 0001:000ad420       _BSxspnspn                 100ae420 f   bsxspnspn.obj
+ 0001:000ad4b0       _BSxtractpar               100ae4b0 f   bsxtractpar.obj
+ 0001:000ad500       _BSxycvoff                 100ae500 f   bsxycvoff.obj
+ 0001:000b0470       _BSxycvoffwl               100b1470 f   bsxycvoffwl.obj
+ 0001:000b3230       _BSzigzag                  100b4230 f   bszigzag.obj
+ 0001:000b33e0       _MAartobc                  100b43e0 f   maartobc.obj
+ 0001:000b4010       _MAbcendpts                100b5010 f   mabcendpts.obj
+ 0001:000b40c0       _MAbcueval                 100b50c0 f   mabcueval.obj
+ 0001:000b4380       _MAidmx                    100b5380 f   maidmx.obj
+ 0001:000b43e0       _MAmulmx                   100b53e0 f   mamulmx.obj
+ 0001:000b4500       _MAoptsxform               100b5500 f   maoptsxfo.obj
+ 0001:000b48f0       _MAptsxform                100b58f0 f   maptsxfor.obj
+ 0001:000b4af0       _MArptsxform               100b5af0 f   marptsxfo.obj
+ 0001:000b4d80       _MAtypemx                  100b5d80 f   matypemx.obj
+ 0001:000b4f90       __CIsqrt                   100b5f90 f   MSVCRT:MSVCR80.dll
+ 0001:000b4fa0       __chkstk                   100b5fa0 f   MSVCRT:chkstk.obj
+ 0001:000b4fa0       __alloca_probe             100b5fa0     MSVCRT:chkstk.obj
+ 0001:000b4fcc       __CIcos                    100b5fcc f   MSVCRT:MSVCR80.dll
+ 0001:000b4fd2       __CIsin                    100b5fd2 f   MSVCRT:MSVCR80.dll
+ 0001:000b4fe0       __ftol2_sse                100b5fe0 f   MSVCRT:ftol2.obj
+ 0001:000b4fe9       __ftol2_pentium4           100b5fe9 f   MSVCRT:ftol2.obj
+ 0001:000b4ffc       __ftol2_sse_excpt          100b5ffc f   MSVCRT:ftol2.obj
+ 0001:000b5016       __ftol2                    100b6016 f   MSVCRT:ftol2.obj
+ 0001:000b508c       __CIacos                   100b608c f   MSVCRT:MSVCR80.dll
+ 0001:000b5092       @__security_check_cookie@4 100b6092 f   MSVCRT:secchk.obj
+ 0001:000b50a2       _memset                    100b60a2 f   MSVCRT:MSVCR80.dll
+ 0001:000b50a8       __CIpow                    100b60a8 f   MSVCRT:MSVCR80.dll
+ 0001:000b50ae       _memcpy                    100b60ae f   MSVCRT:MSVCR80.dll
+ 0001:000b50b4       __CIasin                   100b60b4 f   MSVCRT:MSVCR80.dll
+ 0001:000b50ba       __CIlog                    100b60ba f   MSVCRT:MSVCR80.dll
+ 0001:000b50c0       __CIatan2                  100b60c0 f   MSVCRT:MSVCR80.dll
+ 0001:000b50c6       __CIatan                   100b60c6 f   MSVCRT:MSVCR80.dll
+ 0001:000b50cc       __CItan                    100b60cc f   MSVCRT:MSVCR80.dll
+ 0001:000b50d2       __CIexp                    100b60d2 f   MSVCRT:MSVCR80.dll
+ 0001:000b5125       __CRT_INIT@12              100b6125 f   MSVCRT:crtdll.obj
+ 0001:000b53da       __DllMainCRTStartup@12     100b63da f   MSVCRT:crtdll.obj
+ 0001:000b544b       __get_sse2_info            100b644b f   MSVCRT:cpu_disp.obj
+ 0001:000b54ab       ___sse2_available_init     100b64ab f   MSVCRT:cpu_disp.obj
+ 0001:000b54b8       ___report_gsfailure        100b64b8 f   MSVCRT:gs_report.obj
+ 0001:000b55bc       ___clean_type_info_names   100b65bc f   MSVCRT:tncleanup.obj
+ 0001:000b55c8       __onexit                   100b65c8 f   MSVCRT:atonexit.obj
+ 0001:000b5667       _atexit                    100b6667 f   MSVCRT:atonexit.obj
+ 0001:000b5679       __RTC_Initialize           100b6679 f   MSVCRT:initsect.obj
+ 0001:000b569d       __RTC_Terminate            100b669d f   MSVCRT:initsect.obj
+ 0001:000b56d0       __ValidateImageBase        100b66d0 f   MSVCRT:pesect.obj
+ 0001:000b5700       __FindPESection            100b6700 f   MSVCRT:pesect.obj
+ 0001:000b5742       __IsNonwritableInCurrentImage 100b6742 f   MSVCRT:pesect.obj
+ 0001:000b57ae       __initterm                 100b67ae f   MSVCRT:MSVCR80.dll
+ 0001:000b57b4       __initterm_e               100b67b4 f   MSVCRT:MSVCR80.dll
+ 0001:000b57ba       __amsg_exit                100b67ba f   MSVCRT:MSVCR80.dll
+ 0001:000b57c0       ___CppXcptFilter           100b67c0 f   MSVCRT:MSVCR80.dll
+ 0001:000b57c6       _DllMain@12                100b67c6 f   MSVCRT:dllmain.obj
+ 0001:000b57e8       __SEH_prolog4              100b67e8 f   MSVCRT:sehprolg4.obj
+ 0001:000b582d       __SEH_epilog4              100b682d f   MSVCRT:sehprolg4.obj
+ 0001:000b5841       __except_handler4          100b6841 f   MSVCRT:chandler4gs.obj
+ 0001:000b5864       ___security_init_cookie    100b6864 f   MSVCRT:gs_support.obj
+ 0001:000b58f8       __crt_debugger_hook        100b68f8 f   MSVCRT:MSVCR80.dll
+ 0001:000b58fe       ___clean_type_info_names_internal 100b68fe f   MSVCRT:MSVCR80.dll
+ 0001:000b5904       __unlock                   100b6904 f   MSVCRT:MSVCR80.dll
+ 0001:000b590a       ___dllonexit               100b690a f   MSVCRT:MSVCR80.dll
+ 0001:000b5910       __lock                     100b6910 f   MSVCRT:MSVCR80.dll
+ 0001:000b5916       __except_handler4_common   100b6916 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp__GetCurrentProcessId@0 100b7000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 100b7004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetTickCount@0      100b7008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__QueryPerformanceCounter@4 100b700c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__DisableThreadLibraryCalls@4 100b7010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsDebuggerPresent@0 100b7014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__SetUnhandledExceptionFilter@4 100b7018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 100b701c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcess@0 100b7020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__TerminateProcess@8  100b7024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 100b7028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             100b702c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 100b7030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetSystemTimeAsFileTime@4 100b7034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 100b7038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__exit                100b703c     MSVCRT:MSVCR80.dll
+ 0002:00000040       __imp__memcpy              100b7040     MSVCRT:MSVCR80.dll
+ 0002:00000044       __imp___CIasin             100b7044     MSVCRT:MSVCR80.dll
+ 0002:00000048       __imp___CIlog              100b7048     MSVCRT:MSVCR80.dll
+ 0002:0000004c       __imp___CIatan2            100b704c     MSVCRT:MSVCR80.dll
+ 0002:00000050       __imp___CIatan             100b7050     MSVCRT:MSVCR80.dll
+ 0002:00000054       __imp___CItan              100b7054     MSVCRT:MSVCR80.dll
+ 0002:00000058       __imp___CIexp              100b7058     MSVCRT:MSVCR80.dll
+ 0002:0000005c       __imp__fprintf             100b705c     MSVCRT:MSVCR80.dll
+ 0002:00000060       __imp__fclose              100b7060     MSVCRT:MSVCR80.dll
+ 0002:00000064       __imp__fopen               100b7064     MSVCRT:MSVCR80.dll
+ 0002:00000068       __imp__fscanf              100b7068     MSVCRT:MSVCR80.dll
+ 0002:0000006c       __imp__feof                100b706c     MSVCRT:MSVCR80.dll
+ 0002:00000070       __imp__sscanf              100b7070     MSVCRT:MSVCR80.dll
+ 0002:00000074       __imp__strchr              100b7074     MSVCRT:MSVCR80.dll
+ 0002:00000078       __imp__getc                100b7078     MSVCRT:MSVCR80.dll
+ 0002:0000007c       __imp__fseek               100b707c     MSVCRT:MSVCR80.dll
+ 0002:00000080       __imp__ftell               100b7080     MSVCRT:MSVCR80.dll
+ 0002:00000084       __imp__realloc             100b7084     MSVCRT:MSVCR80.dll
+ 0002:00000088       __imp__sprintf             100b7088     MSVCRT:MSVCR80.dll
+ 0002:0000008c       __imp___encode_pointer     100b708c     MSVCRT:MSVCR80.dll
+ 0002:00000090       __imp___malloc_crt         100b7090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp___encoded_null       100b7094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___decode_pointer     100b7098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp___initterm           100b709c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___initterm_e         100b70a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp___amsg_exit          100b70a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___adjust_fdiv        100b70a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp____CppXcptFilter     100b70ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp___crt_debugger_hook  100b70b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp____clean_type_info_names_internal 100b70b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___unlock             100b70b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp____dllonexit         100b70bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp___lock               100b70c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___onexit             100b70c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp___except_handler4_common 100b70c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp__free                100b70cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp__printf              100b70d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp____iob_func          100b70d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp__fgets               100b70d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__scanf               100b70dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___CIpow              100b70e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp__memset              100b70e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___CIacos             100b70e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp___CIsin              100b70ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___CIcos              100b70f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp__memmove             100b70f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___CIsqrt             100b70f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp__qsort               100b70fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp__malloc              100b7100     MSVCRT:MSVCR80.dll
+ 0002:00000104       \177MSVCR80_NULL_THUNK_DATA 100b7104     MSVCRT:MSVCR80.dll
+ 0002:00000108       ___xc_a                    100b7108     MSVCRT:cinitexe.obj
+ 0002:0000010c       ___xc_z                    100b710c     MSVCRT:cinitexe.obj
+ 0002:00000110       ___xi_a                    100b7110     MSVCRT:cinitexe.obj
+ 0002:0000011c       ___xi_z                    100b711c     MSVCRT:cinitexe.obj
+ 0002:0000013c       ??_C@_0M@IIKJBEJC@BS2cvsoffpg?$AA@ 100b713c     bs2cvsoffpg.obj
+ 0002:00000148       __real@3ff0000000000000    100b7148     bs2cvsoffpg.obj
+ 0002:00000150       __real@0000000000000000    100b7150     bs2cvsoffpg.obj
+ 0002:00000158       ??_C@_0M@GOBCNLNM@BS2cvsoffwl?$AA@ 100b7158     bs2cvsoffwl.obj
+ 0002:00000164       ??_C@_09LCNBPHHI@BS2cvsto1?$AA@ 100b7164     bs2cvsto1.obj
+ 0002:00000170       ??_C@_0M@NGHJLFEA@BSactivsplt?$AA@ 100b7170     bsactivsplt.obj
+ 0002:0000017c       ??_C@_09IEFCHPCA@BSadd_ekt?$AA@ 100b717c     bsadd_ekt.obj
+ 0002:00000188       ??_C@_08HMJCGIKC@BSadd_kt?$AA@ 100b7188     bsadd_kt.obj
+ 0002:00000194       ??_C@_0L@OFLOGBBJ@BSadd_kt2r?$AA@ 100b7194     bsadd_kt2r.obj
+ 0002:000001a0       ??_C@_09CFKNELNI@BSadd_ktr?$AA@ 100b71a0     bsadd_ktr.obj
+ 0002:000001ac       ??_C@_09DMLGHKJJ@BSadd_kts?$AA@ 100b71ac     bsadd_kts.obj
+ 0002:000001b8       ??_C@_08BOBIGLFB@BSadjust?$AA@ 100b71b8     bsadjust.obj
+ 0002:000001c4       ??_C@_09ODIBGHEK@BSalloccv?$AA@ 100b71c4     bsalloccv.obj
+ 0002:000001d0       __real@3fe0000000000000    100b71d0     bsangarctou.obj
+ 0002:000001d8       __real@4008000000000000    100b71d8     bsangarctou.obj
+ 0002:000001e0       __real@401921fb54442d18    100b71e0     bsangarctou.obj
+ 0002:000001e8       ??_C@_0M@IJKDOHGD@BSangarctou?$AA@ 100b71e8     bsangarctou.obj
+ 0002:000001f8       __real@3ce4000000000000    100b71f8     bsangarctou.obj
+ 0002:00000200       ??_C@_0M@KHDDNDC@BSangqdofpt?$AA@ 100b7200     bsangqdofpt.obj
+ 0002:00000210       __real@4012d97c7f3321d2    100b7210     bsangqdofpt.obj
+ 0002:00000218       __real@400921fb54442d18    100b7218     bsangqdofpt.obj
+ 0002:00000220       __real@3ff921fb54442d18    100b7220     bsangqdofpt.obj
+ 0002:00000228       ??_C@_0M@ONPCCHGI@BSapproxcvs?$AA@ 100b7228     bsapproxcvs.obj
+ 0002:00000238       __real@3ff199999999999a    100b7238     bsapproxcvs.obj
+ 0002:00000240       __real@3ddb7cdfd9d7bdbb    100b7240     bsapproxcvs.obj
+ 0002:00000248       ??_C@_09POGHKJAH@BSarc3pts?$AA@ 100b7248     bsarc3pts.obj
+ 0002:00000254       ??_C@_0M@MDEBAEG@BSarcangpar?$AA@ 100b7254     bsarcangpar.obj
+ 0002:00000260       __real@36a0000000000000    100b7260     bsarccomp.obj
+ 0002:00000268       __real@4000000000000000    100b7268     bsarccomp.obj
+ 0002:00000270       ??_C@_09PGNEOKDJ@BSarccomp?$AA@ 100b7270     bsarccomp.obj
+ 0002:0000027c       ??_C@_08EDBANFKK@BSarclen?$AA@ 100b727c     bsarclen.obj
+ 0002:00000288       ??_C@_0L@KKDKPMPO@BSarclg3ds?$AA@ 100b7288     bsarclg3ds.obj
+ 0002:00000294       ??_C@_0M@BKDPDENH@BSarclnparc?$AA@ 100b7294     bsarclnparc.obj
+ 0002:000002a0       __real@4059000000000000    100b72a0     bsarclnparc.obj
+ 0002:000002a8       ??_C@_0M@MDJDBDH@BSavgdispts?$AA@ 100b72a8     bsavgdispts.obj
+ 0002:000002b4       ??_C@_0M@NDCIJCCI@BSavgprsfft?$AA@ 100b72b4     bsavgprsfft.obj
+ 0002:000002c0       ??_C@_08NFEGHMAA@BSavgpts?$AA@ 100b72c0     bsavgpts.obj
+ 0002:000002cc       ??_C@_0M@ONMLNBIP@BSbasisvect?$AA@ 100b72cc     bsbasisvect.obj
+ 0002:000002d8       __real@bff0000000000000    100b72d8     bsbasisvect.obj
+ 0002:000002e0       __real@3cd203af9ee75616    100b72e0     bsbasisvect.obj
+ 0002:000002e8       ??_C@_0L@BHPNOGMD@BSbidag2sv?$AA@ 100b72e8     bsbidag2sv.obj
+ 0002:000002f8       __real@4020000000000000    100b72f8     bsbidag2sv.obj
+ 0002:00000300       __real@4079000000000000    100b7300     bsbidag2sv.obj
+ 0002:00000308       ??_C@_0M@FAGFPFEL@BSbinomcoef?$AA@ 100b7308     bsbinomcoef.obj
+ 0002:00000314       ??_C@_0M@DFCDIFFD@BSbndhsback?$AA@ 100b7314     bsbndhsback.obj
+ 0002:00000320       ??_C@_0M@MKCEHBCN@BSbndhshdtr?$AA@ 100b7320     bsbndhshdtr.obj
+ 0002:0000032c       ??_C@_0M@BDIILBDD@BSbndhshold?$AA@ 100b732c     bsbndhshold.obj
+ 0002:00000338       ??_C@_08PAOGIPOI@BSbranch?$AA@ 100b7338     bsbranch.obj
+ 0002:00000344       ??_C@_0M@PHMFKOCM@BSbrapproxs?$AA@ 100b7344     bsbrapproxs.obj
+ 0002:00000350       __real@3f50624dd2f1a9fc    100b7350     bsbrapproxs.obj
+ 0002:00000358       ??_C@_09HGEEAHM@BSbreakcv?$AA@ 100b7358     bsbreakcv.obj
+ 0002:00000364       ??_C@_06DMNMFJCM@BSbspl?$AA@ 100b7364     bsbspl.obj
+ 0002:0000036c       ??_C@_09DJJFIKD@BSbstobez?$AA@ 100b736c     bsbstobez.obj
+ 0002:00000378       __real@3d719799812dea11    100b7378     bsbstobez.obj
+ 0002:00000380       __real@4202a05f20000000    100b7380     bsbzbz_int.obj
+ 0002:00000388       __real@3d3c25c268497682    100b7388     bsbzbz_int.obj
+ 0002:00000390       __real@3f1a36e2eb1c432d    100b7390     bsbzbz_int.obj
+ 0002:00000398       __real@412e848000000000    100b7398     bsbzbz_int.obj
+ 0002:000003a0       ??_C@_0L@EEJNDOCM@BSbzbz_int?$AA@ 100b73a0     bsbzbz_int.obj
+ 0002:000003ac       ??_C@_09OFFDPMOJ@BSbzeroes?$AA@ 100b73ac     bsbzeroes.obj
+ 0002:000003b8       __real@3e45798ee2308c3a    100b73b8     bsbzeroes.obj
+ 0002:000003c0       __real@4024000000000000    100b73c0     bsbzeroes.obj
+ 0002:000003c8       ??_C@_0M@EDDDNMMG@BSbzoverlap?$AA@ 100b73c8     bsbzoverlap.obj
+ 0002:000003d4       ??_C@_0L@ENGBINJB@BSbzur1pls?$AA@ 100b73d4     bsbzur1pls.obj
+ 0002:000003e0       ??_C@_0L@DNLKPBGK@BScanoff2d?$AA@ 100b73e0     bscanoff2d.obj
+ 0002:000003ec       ??_C@_09LNBFMODG@BScantlgd?$AA@ 100b73ec     bscantlgd.obj
+ 0002:000003f8       __real@3fd5555555555555    100b73f8     bscbrt.obj
+ 0002:00000400       ??_C@_07MDLAHMCJ@BScbzpr?$AA@ 100b7400     bscbzpr.obj
+ 0002:00000408       ??_C@_0BM@IAOPLNNO@?5?5?5?5New?5offset_tol?5?5?5?$DN?5?$CFlf?6?$AA@ 100b7408     bschangetol.obj
+ 0002:00000424       ??_C@_0BM@NMCGLKNC@?5?5?5?5New?5chrdht_tol?5?5?5?$DN?5?$CFlf?6?$AA@ 100b7424     bschangetol.obj
+ 0002:00000440       ??_C@_0BM@IDJMCMFB@?5?5?5?5New?5dist_sqtol?5?5?5?$DN?5?$CFlf?6?$AA@ 100b7440     bschangetol.obj
+ 0002:0000045c       ??_C@_0BM@MFBFJMLJ@?5?5?5?5New?5dist_tol?5?5?5?5?5?$DN?5?$CFlf?6?$AA@ 100b745c     bschangetol.obj
+ 0002:00000478       ??_C@_0BM@KHNIHGN@?5?5?5?5New?5basis_tol?5?5?5?5?$DN?5?$CFlf?6?$AA@ 100b7478     bschangetol.obj
+ 0002:00000494       ??_C@_0BM@PNCMECOP@?6?5Modified?5tolerances?5are?3?6?$AA@ 100b7494     bschangetol.obj
+ 0002:000004b0       ??_C@_0CD@HALICBEI@?6?5?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN@ 100b74b0     bschangetol.obj
+ 0002:000004d4       ??_C@_0CA@EIEHKJGG@?6?5No?5tolerances?5were?5modified?4?6?$AA@ 100b74d4     bschangetol.obj
+ 0002:000004f4       ??_C@_0BM@PPPOEIPH@?5Key?5in?5new?5offset_tol?5?5?5?3?5?$AA@ 100b74f4     bschangetol.obj
+ 0002:00000510       ??_C@_0BP@JIDCOLHB@?6?5Modify?5offset_tol?5?$CIy?1?$FLn?$FN?$CJ?5?3?5?$AA@ 100b7510     bschangetol.obj
+ 0002:00000530       ??_C@_0BM@JNGKJBFB@?5Key?5in?5new?5chrdht_tol?5?5?5?3?5?$AA@ 100b7530     bschangetol.obj
+ 0002:0000054c       ??_C@_0BP@KKODGNBH@?6?5Modify?5chrdht_tol?5?$CIy?1?$FLn?$FN?$CJ?5?3?5?$AA@ 100b754c     bschangetol.obj
+ 0002:0000056c       ??_C@_0CA@PCPOEIF@?6?5?$CK?$CK?$CK?5error?5in?5BSchangepar?5?$CK?$CK?$CK?6?$AA@ 100b756c     bschangetol.obj
+ 0002:0000058c       ??_C@_0BM@JMCMIHPG@?5Key?5in?5new?5dist_tol?5?5?5?5?5?3?5?$AA@ 100b758c     bschangetol.obj
+ 0002:000005a8       ??_C@_0BP@FDCDBPHB@?6?5Modify?5dist_tol?5?$CIy?1?$FLn?$FN?$CJ?5?5?5?3?5?$AA@ 100b75a8     bschangetol.obj
+ 0002:000005c8       ??_C@_0CA@NMBGCAFE@?6?5?$CK?$CK?$CK?5error?5in?5BSchgdeppar?5?$CK?$CK?$CK?6?$AA@ 100b75c8     bschangetol.obj
+ 0002:000005e8       ??_C@_03DLDNIBIK@?$CFlf?$AA@ 100b75e8     bschangetol.obj
+ 0002:000005ec       ??_C@_0BM@NDGIOLKD@?5Key?5in?5new?5basis_tol?5?5?5?5?3?5?$AA@ 100b75ec     bschangetol.obj
+ 0002:00000608       ??_C@_0BP@POKKJKJG@?6?5Modify?5basis_tol?5?$CIy?1?$FLn?$FN?$CJ?5?5?3?5?$AA@ 100b7608     bschangetol.obj
+ 0002:00000628       ??_C@_0BP@DPHMPOGB@?6?5Modify?5tolerances?5?$CIy?1?$FLn?$FN?$CJ?5?3?5?$AA@ 100b7628     bschangetol.obj
+ 0002:00000648       ??_C@_0CC@DCAACOBL@?6?5?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN?$DN@ 100b7648     bschangetol.obj
+ 0002:0000066c       ??_C@_0M@CCLAGPDL@BSchgcvewlr?$AA@ 100b766c     bschgcvewlr.obj
+ 0002:00000678       ??_C@_0M@CJJOKMLC@BSchgcvewts?$AA@ 100b7678     bschgcvewts.obj
+ 0002:00000688       __real@3fd0000000000000    100b7688     bschgdeppar.obj
+ 0002:00000690       __real@408f400000000000    100b7690     bschgdeppar.obj
+ 0002:00000698       ??_C@_0L@MLNMBLLP@BSchgewtlr?$AA@ 100b7698     bschgewtlr.obj
+ 0002:000006a4       ??_C@_09MOPJCNDO@BSchgewts?$AA@ 100b76a4     bschgewts.obj
+ 0002:000006b0       ??_C@_0CH@MAOPGMBD@The?5locked?5memory?5has?5been?5corru@ 100b76b0     bschklmem.obj
+ 0002:000006d8       ??_C@_0CA@LKPHNNN@?5?$CK?$CK?$CK?5input?5pointer?5is?5NULL?5?$CK?$CK?$CK?6?$AA@ 100b76d8     bschkmem1.obj
+ 0002:000006f8       ??_C@_0BN@BMELBAKF@?5?$CK?$CK?$CK?5BSdbglev?5is?5NOT?520?5?$CK?$CK?$CK?6?$AA@ 100b76f8     bschkmem1.obj
+ 0002:00000718       ??_C@_0CO@EOFNEFJF@?5?$CK?$CK?$CK?5stackallocated?5memory?5not?5s@ 100b7718     bschkmem1.obj
+ 0002:00000748       ??_C@_0CJ@CHIBEIGB@?5?$CK?$CK?$CK?5allocated?5memory?5not?5scratc@ 100b7748     bschkmem1.obj
+ 0002:00000774       ??_C@_0DA@LHANLIKD@?5?$CK?$CK?$CK?5memory?5scratch?5after?5alloca@ 100b7774     bschkmem1.obj
+ 0002:000007a4       ??_C@_0DB@BONNCKNF@?5?$CK?$CK?$CK?5memory?5scratch?5before?5alloc@ 100b77a4     bschkmem1.obj
+ 0002:000007d8       ??_C@_0CF@GNBMFLCN@?5?$CK?$CK?$CK?5pointer?5in?5question?5is?3?50x?$CF@ 100b77d8     bschkmemo.obj
+ 0002:00000800       ??_C@_0DB@IMLCKGEK@?5?$CK?$CK?$CK?5memory?5scratch?5AFTER?5alloca@ 100b7800     bschkmemo.obj
+ 0002:00000834       ??_C@_0DB@IDEGMDID@?5?$CK?$CK?$CK?5memory?5scratch?5BEFORE?5alloc@ 100b7834     bschkmemo.obj
+ 0002:00000868       ??_C@_0CI@LCJKOELL@?5?$CK?$CK?$CK?5NO?5allocated?5memory?5scratch@ 100b7868     bschkmemo.obj
+ 0002:00000890       ??_C@_0DF@KIMNNOEG@?5?$CK?$CK?$CK?5checking?5?$CFd?5pointer?$CIs?$CJ?5of?5a@ 100b7890     bschkmemo.obj
+ 0002:000008c8       ??_C@_0CE@LHCMIDME@?5?$CK?$CK?$CK?5NO?5memory?5currently?5allocat@ 100b78c8     bschkmemo.obj
+ 0002:000008f0       __real@3ffccccccccccccd    100b78f0     bschkplygn.obj
+ 0002:000008f8       ??_C@_0M@KDMAHMAK@BSchkuvpars?$AA@ 100b78f8     bschkuvpars.obj
+ 0002:00000904       ??_C@_0L@CBACFJKA@BSchrdlkts?$AA@ 100b7904     bschrdlkts.obj
+ 0002:00000910       ??_C@_0M@MCFPJIEG@BSchtptstco?$AA@ 100b7910     bschtptstco.obj
+ 0002:0000091c       ??_C@_0M@FJFPDBFO@BSchtptstcv?$AA@ 100b791c     bschtptstcv.obj
+ 0002:00000928       ??_C@_0M@IOJNCENC@BScirc_prop?$AA@ 100b7928     bscirc_prop.obj
+ 0002:00000934       ??_C@_0L@EDPCBEEC@BScircprop?$AA@ 100b7934     bscircprop.obj
+ 0002:00000940       ??_C@_09KLILICPF@BScirrdcr?$AA@ 100b7940     bscirrdcr.obj
+ 0002:0000094c       ??_C@_0M@FHNOFMFF@BSclcvshffl?$AA@ 100b794c     bsclcvshffl.obj
+ 0002:00000958       ??_C@_0M@GKIPKDAN@BScmpcvoff1?$AA@ 100b7958     bscmpcvoff1.obj
+ 0002:00000964       ??_C@_0M@GFJKIABE@BScmpcvoffl?$AA@ 100b7964     bscmpcvoffl.obj
+ 0002:00000970       __real@3eb0c6f7a0b5ed8d    100b7970     bscmpcvoffl.obj
+ 0002:00000978       ??_C@_0M@KMJHNFMN@BScmpextoff?$AA@ 100b7978     bscmpextoff.obj
+ 0002:00000984       ??_C@_0M@LOLIFODP@BScmpintoff?$AA@ 100b7984     bscmpintoff.obj
+ 0002:00000990       __real@416312cfffae147b    100b7990     bscmpintoff.obj
+ 0002:00000998       ??_C@_0M@BJKDFFJO@BScmpmrgoff?$AA@ 100b7998     bscmpmrgoff.obj
+ 0002:000009a4       ??_C@_0M@FLOPPBPA@BScmpoffcls?$AA@ 100b79a4     bscmpoffcls.obj
+ 0002:000009b0       ??_C@_09JCDIKNIA@BScncprop?$AA@ 100b79b0     bscncprop.obj
+ 0002:000009c0       __real@3df49da7e361ce4c    100b79c0     bscncprop.obj
+ 0002:000009c8       ??_C@_0L@BACNEJOK@BScncxtdst?$AA@ 100b79c8     bscncxtdst.obj
+ 0002:000009d4       ??_C@_0L@JFHAFKKG@BScnvtmekt?$AA@ 100b79d4     bscnvtmekt.obj
+ 0002:000009e0       ??_C@_0L@CKAECBCJ@BScnvtomkt?$AA@ 100b79e0     bscnvtomkt.obj
+ 0002:000009ec       ??_C@_0M@MKAODAKI@BScoincdpts?$AA@ 100b79ec     bscoincdpts.obj
+ 0002:000009f8       ??_C@_0L@KDAODHBC@BScoincida?$AA@ 100b79f8     bscoincida.obj
+ 0002:00000a04       ??_C@_0M@JCBIOMNO@BScoincidpa?$AA@ 100b7a04     bscoincidpa.obj
+ 0002:00000a10       ??_C@_08OAINLLHD@BScollin?$AA@ 100b7a10     bscollin.obj
+ 0002:00000a1c       ??_C@_0M@KEPKMDIC@BScollinmn2?$AA@ 100b7a1c     bscollinmn2.obj
+ 0002:00000a28       ??_C@_0M@LHHHFFEM@BScollinmny?$AA@ 100b7a28     bscollinmny.obj
+ 0002:00000a34       ??_C@_0L@CNBLNCKI@BScomb2cvs?$AA@ 100b7a34     bscomb2cvs.obj
+ 0002:00000a40       ??_C@_09GPKCOJAC@BScompare?$AA@ 100b7a40     bscompare.obj
+ 0002:00000a4c       ??_C@_0M@LIMIANAM@BSconextend?$AA@ 100b7a4c     bsconextend.obj
+ 0002:00000a58       ??_C@_09KKGNIKLA@BSconic32?$AA@ 100b7a58     bsconic32.obj
+ 0002:00000a64       ??_C@_0M@OPOOOACC@BSconicgen0?$AA@ 100b7a64     bsconicgen0.obj
+ 0002:00000a70       ??_C@_0M@MEMDLDOB@BSconicgen3?$AA@ 100b7a70     bsconicgen3.obj
+ 0002:00000a80       __real@3fb999999999999a    100b7a80     bsconicgen3.obj
+ 0002:00000a88       __real@3e7ad7f29abcaf48    100b7a88     bsconicgen3.obj
+ 0002:00000a90       ??_C@_0M@ILICCFCG@BSconicgen4?$AA@ 100b7a90     bsconicgen4.obj
+ 0002:00000aa0       __real@4010000000000000    100b7aa0     bsconicgen4.obj
+ 0002:00000aa8       ??_C@_0L@BNMPNNOD@BSconicprp?$AA@ 100b7aa8     bsconicprp.obj
+ 0002:00000ab4       ??_C@_09MKDKDIFB@BScotan32?$AA@ 100b7ab4     bscotan32.obj
+ 0002:00000ac0       ??_C@_09KOMDHKAI@BScumdist?$AA@ 100b7ac0     bscumdist.obj
+ 0002:00000acc       ??_C@_0M@CMBFAGIK@BScumdistar?$AA@ 100b7acc     bscumdistar.obj
+ 0002:00000ad8       ??_C@_0M@PANOEFDI@BScumdstopt?$AA@ 100b7ad8     bscumdstopt.obj
+ 0002:00000ae4       ??_C@_09PGDKIFOL@BScv_copy?$AA@ 100b7ae4     bscv_copy.obj
+ 0002:00000af0       ??_C@_0M@IAGAGAL@BScv_in_fnc?$AA@ 100b7af0     bscv_in_fnc.obj
+ 0002:00000afc       ??_C@_0L@CNJIBHFL@BScv_shffl?$AA@ 100b7afc     bscv_shffl.obj
+ 0002:00000b08       ??_C@_0L@CMFFILBE@BScvarrev0?$AA@ 100b7b08     bscvarrev0.obj
+ 0002:00000b14       ??_C@_0M@HKIIGOMH@BScvarrev0w?$AA@ 100b7b14     bscvarrev0w.obj
+ 0002:00000b20       ??_C@_0M@LOMAOBNK@BScvarreval?$AA@ 100b7b20     bscvarreval.obj
+ 0002:00000b2c       ??_C@_0L@LNMDIFID@BScvarrevc?$AA@ 100b7b2c     bscvarrevc.obj
+ 0002:00000b38       ??_C@_0L@LIEAABBF@BScvarrevt?$AA@ 100b7b38     bscvarrevt.obj
+ 0002:00000b48       __real@3cb0000000000000    100b7b48     bscvarrevt.obj
+ 0002:00000b50       ??_C@_0M@KMOAACAN@BScvcmp_rng?$AA@ 100b7b50     bscvcmp_rng.obj
+ 0002:00000b5c       ??_C@_0M@IGFAONAD@BScvcv_comb?$AA@ 100b7b5c     bscvcv_comb.obj
+ 0002:00000b68       ??_C@_0L@NFPMPEOP@BScvcv_int?$AA@ 100b7b68     bscvcv_int.obj
+ 0002:00000b74       ??_C@_0M@ONFCCLBL@BScvcv_sort?$AA@ 100b7b74     bscvcv_sort.obj
+ 0002:00000b80       ??_C@_09KLPPPFCE@BScvcvint?$AA@ 100b7b80     bscvcvint.obj
+ 0002:00000b8c       ??_C@_0L@DOBHOOM@BScvcviter?$AA@ 100b7b8c     bscvcviter.obj
+ 0002:00000b98       ??_C@_0L@KGHECHM@BScveval_n?$AA@ 100b7b98     bscveval.obj
+ 0002:00000ba4       ??_C@_09CPIDGALJ@BScveval0?$AA@ 100b7ba4     bscveval0.obj
+ 0002:00000bb0       ??_C@_09DGJIFBPI@BScveval1?$AA@ 100b7bb0     bscveval1.obj
+ 0002:00000bbc       ??_C@_09BNLFACDL@BScveval2?$AA@ 100b7bbc     bscveval2.obj
+ 0002:00000bc8       ??_C@_0L@KGNCANHA@BScveval_b?$AA@ 100b7bc8     bscveval_b.obj
+ 0002:00000bd4       ??_C@_09LLLBAGD@BScvevaln?$AA@ 100b7bd4     bscvevaln.obj
+ 0002:00000be0       ??_C@_0M@OFDDDEKF@BScvevpgbnd?$AA@ 100b7be0     bscvevpgbnd.obj
+ 0002:00000bec       ??_C@_0L@NKGADJOF@BScvincktm?$AA@ 100b7bec     bscvincktm.obj
+ 0002:00000bf8       ??_C@_0M@POEMDMNE@BScvincvfnc?$AA@ 100b7bf8     bscvincvfnc.obj
+ 0002:00000c04       ??_C@_0M@ICDLFMB@BScvinttrmd?$AA@ 100b7c04     bscvinttrmd.obj
+ 0002:00000c10       ??_C@_0L@CILFJPPG@BScvktncsp?$AA@ 100b7c10     bscvktncsp.obj
+ 0002:00000c1c       ??_C@_0L@JNAGGGKH@BScvkttol2?$AA@ 100b7c1c     bscvkttol2.obj
+ 0002:00000c28       ??_C@_0M@FMMGMFBF@BScvlgdtbez?$AA@ 100b7c28     bscvlgdtbez.obj
+ 0002:00000c34       ??_C@_0L@FAKEICAD@BScvlsqfit?$AA@ 100b7c34     bscvlsqfit.obj
+ 0002:00000c40       __real@3fd872b020c49ba6    100b7c40     bscvlsqfit.obj
+ 0002:00000c48       __real@3fe3c6a7ef9db22d    100b7c48     bscvlsqfit.obj
+ 0002:00000c50       ??_C@_09JHJHMCKA@BScvmidpt?$AA@ 100b7c50     bscvmidpt.obj
+ 0002:00000c5c       ??_C@_0M@BPPBGADG@BScvndegspn?$AA@ 100b7c5c     bscvndegspn.obj
+ 0002:00000c68       ??_C@_0M@OMDEOKGH@BScvndpchrg?$AA@ 100b7c68     bscvndpchrg.obj
+ 0002:00000c74       ??_C@_0L@DFOCOHJP@BScvnodpts?$AA@ 100b7c74     bscvnodpts.obj
+ 0002:00000c80       ??_C@_0L@KPIGGFPK@BScvnormal?$AA@ 100b7c80     bscvnormal.obj
+ 0002:00000c8c       ??_C@_0M@DLLLGMBA@BScvnrpervc?$AA@ 100b7c8c     bscvnrpervc.obj
+ 0002:00000c98       ??_C@_08DGKPIJMD@BScvntoo?$AA@ 100b7c98     bscvntoo.obj
+ 0002:00000ca4       ??_C@_09MKBIBNDJ@BScvoff3d?$AA@ 100b7ca4     bscvoff3d.obj
+ 0002:00000cb0       ??_C@_0L@IOEKBOON@BScvoffset?$AA@ 100b7cb0     bscvoffset.obj
+ 0002:00000cbc       ??_C@_08BCNEJBDC@BScvoton?$AA@ 100b7cbc     bscvoton.obj
+ 0002:00000cc8       ??_C@_0M@LLLIIIHA@BScvrngtree?$AA@ 100b7cc8     bscvrngtree.obj
+ 0002:00000cd8       __real@3feb333333333333    100b7cd8     bscvrngtree.obj
+ 0002:00000ce0       ??_C@_0M@HICFDPFH@BScvset_rng?$AA@ 100b7ce0     bscvset_rng.obj
+ 0002:00000cec       ??_C@_0M@JDOBCJJM@BScvsetclsd?$AA@ 100b7cec     bscvsetclsd.obj
+ 0002:00000cf8       __real@3d06849b86a12b9b    100b7cf8     bscvsilhouet.obj
+ 0002:00000d00       ??_C@_0N@LICJPKKK@BScvsilhouet?$AA@ 100b7d00     bscvsilhouet.obj
+ 0002:00000d10       ??_C@_09BFPIOEKI@BScvsplit?$AA@ 100b7d10     bscvsplit.obj
+ 0002:00000d1c       ??_C@_0L@BOKOPCPE@BScvspndst?$AA@ 100b7d1c     bscvspndst.obj
+ 0002:00000d28       ??_C@_0M@JHBMCBGJ@BScvspnrgtr?$AA@ 100b7d28     bscvspnrgtr.obj
+ 0002:00000d34       ??_C@_0M@NPKPLJFF@BScvtgeomcv?$AA@ 100b7d34     bscvtgeomcv.obj
+ 0002:00000d40       ??_C@_08KEIKKDDJ@BScvtobz?$AA@ 100b7d40     bscvtobz.obj
+ 0002:00000d4c       ??_C@_0M@JNCKIJHB@BScvtstclsd?$AA@ 100b7d4c     bscvtstclsd.obj
+ 0002:00000d58       ??_C@_0DL@OMFHIPBM@?5?$CK?$CK?$CK?5memory?5scratch?5before?5and?5a@ 100b7d58     bsdbgfree.obj
+ 0002:00000d94       ??_C@_0DG@HBOFOGME@?5?$CK?$CK?$CK?5attempt?5to?5deallocate?5stack@ 100b7d94     bsdbgfree.obj
+ 0002:00000dcc       ??_C@_0DD@PIFIMBBI@?5?$CK?$CK?$CK?5attempt?5to?5deallocate?5an?5in@ 100b7dcc     bsdbgfree.obj
+ 0002:00000e00       ??_C@_0EL@MDPIGCLB@Warning?3?5there?5has?5been?5an?5attem@ 100b7e00     bsdbgralloc.obj
+ 0002:00000e50       ??_C@_0EA@PBKKCEOM@?5?$CK?$CK?$CK?5memory?5scratch?5before?5and?5a@ 100b7e50     bsdbgsfree.obj
+ 0002:00000e90       ??_C@_0DF@DGKFFEMI@?5?$CK?$CK?$CK?5memory?5scratch?5after?5stacka@ 100b7e90     bsdbgsfree.obj
+ 0002:00000ec8       ??_C@_0DG@KFDCFKBI@?5?$CK?$CK?$CK?5memory?5scratch?5before?5stack@ 100b7ec8     bsdbgsfree.obj
+ 0002:00000f00       ??_C@_0DG@GFEAJBBC@?5?$CK?$CK?$CK?5attempt?5to?5stackdeallocate?5@ 100b7f00     bsdbgsfree.obj
+ 0002:00000f38       ??_C@_0L@JFKODJEH@BSdblptind?$AA@ 100b7f38     bsdblptind.obj
+ 0002:00000f44       ??_C@_0L@GJJGGMOP@BSdcastelj?$AA@ 100b7f44     bsdcastelj.obj
+ 0002:00000f50       ??_C@_08MHBMAJKH@BSdecomp?$AA@ 100b7f50     bsdecomp.obj
+ 0002:00000f5c       ??_C@_0L@GAIFBMPF@BSdirfitcv?$AA@ 100b7f5c     bsdirfitcv.obj
+ 0002:00000f68       ??_C@_08LAJDLJKK@BSdistll?$AA@ 100b7f68     bsdistll.obj
+ 0002:00000f74       ??_C@_0L@CDBKAIIB@BSdistptli?$AA@ 100b7f74     bsdistptli.obj
+ 0002:00000f80       ??_C@_0L@ELFBKGNA@BSdistptpl?$AA@ 100b7f80     bsdistptpl.obj
+ 0002:00000f8c       ??_C@_09BEAAHPOH@BSdlsegs2?$AA@ 100b7f8c     bsdlsegs2.obj
+ 0002:00000f98       __real@3af357c299a88ea7    100b7f98     bsdlsegs2.obj
+ 0002:00000fa0       ??_C@_06NMPJOCGF@BSdmod?$AA@ 100b7fa0     bsdmod.obj
+ 0002:00000fa8       ??_C@_09PHPNBIOA@BSdptseg2?$AA@ 100b7fa8     bsdptseg2.obj
+ 0002:00000fb4       ??_C@_0M@EAPMCCJC@BSdta_rducv?$AA@ 100b7fb4     bsdta_rducv.obj
+ 0002:00000fc0       ??_C@_08KDELKJOP@BSeig3x3?$AA@ 100b7fc0     bseig3x3.obj
+ 0002:00000fd0       __real@426d1a94a2000000    100b7fd0     bseig3x3.obj
+ 0002:00000fd8       ??_C@_08HODKDAKB@BSeigcon?$AA@ 100b7fd8     bseigcon.obj
+ 0002:00000fe4       ??_C@_0M@FJOAKBHG@BSeigmatvv1?$AA@ 100b7fe4     bseigmatvv1.obj
+ 0002:00000ff0       __real@3fc999999999999a    100b7ff0     bseigmatvv1.obj
+ 0002:00000ff8       ??_C@_0M@PIMLFCIG@BSeigval3x3?$AA@ 100b7ff8     bseigval3x3.obj
+ 0002:00001008       __real@0350000000000000    100b8008     bseigvcm3x3.obj
+ 0002:00001010       ??_C@_0M@IIGDNKDN@BSeigvcm3x3?$AA@ 100b8010     bseigvcm3x3.obj
+ 0002:0000101c       ??_C@_0M@LPBOLHJL@BSelarptang?$AA@ 100b801c     bselarptang.obj
+ 0002:00001028       __real@3fe921fb54442d18    100b8028     bselarptang.obj
+ 0002:00001030       ??_C@_0L@LLGHMCOO@BSendpoint?$AA@ 100b8030     bsendpoint.obj
+ 0002:0000103c       ??_C@_0M@NBFFHGNJ@BSendptinbx?$AA@ 100b803c     bsendptinbx.obj
+ 0002:00001048       ??_C@_0L@CPBMGEAK@BSeqspaces?$AA@ 100b8048     bseqspaces.obj
+ 0002:00001054       ??_C@_06KEMGLMEJ@BSeval?$AA@ 100b8054     bseval.obj
+ 0002:0000105c       ??_C@_09KNJLKAKN@BSevalbsp?$AA@ 100b805c     bsevalbsp.obj
+ 0002:00001068       ??_C@_0M@CCABHFN@BSextpolcv0?$AA@ 100b8068     bsextpolcv0.obj
+ 0002:00001078       __real@40b3880000000000    100b8078     bsextpolcv0.obj
+ 0002:00001080       __real@3f3a36e2eb1c432d    100b8080     bsextpolcv0.obj
+ 0002:00001088       __real@3f70624dd2f1a9fc    100b8088     bsextpolcv0.obj
+ 0002:00001090       __real@3f60624dd2f1a9fc    100b8090     bsextpolcv0.obj
+ 0002:00001098       ??_C@_0M@BLDLCGBM@BSextpolcv1?$AA@ 100b8098     bsextpolcv1.obj
+ 0002:000010a8       __real@40c3880000000000    100b80a8     bsextpolcv1.obj
+ 0002:000010b0       ??_C@_0M@LIIBBCNL@BSextrcvspn?$AA@ 100b80b0     bsextrcvspn.obj
+ 0002:000010bc       ??_C@_0L@EOFILIPI@BSextrtlgd?$AA@ 100b80bc     bsextrtlgd.obj
+ 0002:000010c8       ??_C@_0M@JEENAICP@BSexttrmcmp?$AA@ 100b80c8     bsexttrmcmp.obj
+ 0002:000010d8       __real@3ff8000000000000    100b80d8     bsexttrmcmp.obj
+ 0002:000010e0       __real@3fe999999999999a    100b80e0     bsexttrmcmp.obj
+ 0002:000010e8       __real@3fd3333333333333    100b80e8     bsexttrmcmp.obj
+ 0002:000010f0       ??_C@_08NNNLHEHG@BSfillet?$AA@ 100b80f0     bsfillet.obj
+ 0002:000010fc       ??_C@_0L@JLBEDOE@BSfillet3d?$AA@ 100b80fc     bsfillet3d.obj
+ 0002:00001108       ??_C@_0L@DKCBMDHL@BSfindmkts?$AA@ 100b8108     bsfindmkts.obj
+ 0002:00001118       __real@3bc79ca10c924223    100b8118     bsfindspn.obj
+ 0002:00001120       ??_C@_0L@IJDNIPDN@BSfit2doff?$AA@ 100b8120     bsfit2doff.obj
+ 0002:00001130       __real@3faaf286bca1af28    100b8130     bsfitbycir.obj
+ 0002:00001138       ??_C@_0L@IFJEAKAF@BSfitratcv?$AA@ 100b8138     bsfitratcv.obj
+ 0002:00001144       ??_C@_0M@DFNFGGKP@BSfitratpts?$AA@ 100b8144     bsfitratpts.obj
+ 0002:00001150       ??_C@_0L@HFHHGOKO@BSfndcvcsp?$AA@ 100b8150     bsfndcvcsp.obj
+ 0002:0000115c       ??_C@_0M@EJMNHBDJ@BSfndcvtrns?$AA@ 100b815c     bsfndcvtrns.obj
+ 0002:00001168       ??_C@_0M@DOEKHPII@BSfndcvturn?$AA@ 100b8168     bsfndcvturn.obj
+ 0002:00001174       ??_C@_0M@FLLMLPA@BSfndneighb?$AA@ 100b8174     bsfndneighb.obj
+ 0002:00001180       ??_C@_0M@POLNPCLD@BSfndoffdir?$AA@ 100b8180     bsfndoffdir.obj
+ 0002:00001190       __real@3f80000000000000    100b8190     bsfndrtlgd1.obj
+ 0002:00001198       ??_C@_0M@DNCDJEPH@BSfndrtlgd1?$AA@ 100b8198     bsfndrtlgd1.obj
+ 0002:000011a4       ??_C@_0M@JMJBBCON@BSfndspnarr?$AA@ 100b81a4     bsfndspnarr.obj
+ 0002:000011b0       ??_C@_0M@LJCENACH@BSfndtnpol2?$AA@ 100b81b0     bsfndtnpol2.obj
+ 0002:000011bc       ??_C@_0M@ELDNBILM@BSfndturovr?$AA@ 100b81bc     bsfndturovr.obj
+ 0002:000011c8       ??_C@_08PCGJLFOF@BSfreecv?$AA@ 100b81c8     bsfreecv.obj
+ 0002:000011d4       ??_C@_09LEEEFCGE@BSftmatsz?$AA@ 100b81d4     bsftmatsz.obj
+ 0002:000011e0       ??_C@_07FMLPNLKB@BSgauss?$AA@ 100b81e0     bsgauss.obj
+ 0002:000011e8       ??_C@_0L@BAILGKNN@BSgen_link?$AA@ 100b81e8     bsgen_link.obj
+ 0002:000011f4       ??_C@_08PAOIFIBM@BSgensym?$AA@ 100b81f4     bsgensym.obj
+ 0002:00001200       ??_C@_07CKKKNBEN@BSgenus?$AA@ 100b8200     bsgenus.obj
+ 0002:00001208       ??_C@_0M@FLBKFDN@BSget_u_nor?$AA@ 100b8208     bsget_u_nor.obj
+ 0002:00001214       ??_C@_09GJCLNFHE@BSgetmult?$AA@ 100b8214     bsgetmult.obj
+ 0002:00001220       ??_C@_0M@OLNAHENO@BSgetndgpts?$AA@ 100b8220     bsgetndgpts.obj
+ 0002:0000122c       ??_C@_0M@GBKFIJIN@BSgoodstart?$AA@ 100b822c     bsgoodstart.obj
+ 0002:00001238       ??_C@_08PJEGNPLI@BSgraham?$AA@ 100b8238     bsgraham.obj
+ 0002:00001244       ??_C@_09PMGHIMKC@BSgroupcv?$AA@ 100b8244     bsgroupcv.obj
+ 0002:00001250       ??_C@_07IBMFGKKF@BShifit?$AA@ 100b8250     bshifit.obj
+ 0002:00001258       ??_C@_0M@EACKLEEK@BShlfcpolgd?$AA@ 100b8258     bshlfcpolgd.obj
+ 0002:00001264       ??_C@_0L@HKPFHJAI@BShousehld?$AA@ 100b8264     bshousehld.obj
+ 0002:00001270       ??_C@_0M@BBECAJLL@BShshldtran?$AA@ 100b8270     bshshldtran.obj
+ 0002:0000127c       ??_C@_08PPIPHOBD@BSiarcln?$AA@ 100b827c     bsiarcln.obj
+ 0002:00001288       ??_C@_09GJDBJKNB@BSiarcln2?$AA@ 100b8288     bsiarcln2.obj
+ 0002:00001298       __real@3e112e0be826d695    100b8298     bsimptprcnc.obj
+ 0002:000012a0       ??_C@_0M@CALNLPPG@BSimptprcnc?$AA@ 100b82a0     bsimptprcnc.obj
+ 0002:000012b0       __real@bfe0000000000000    100b82b0     bsimptprcnc.obj
+ 0002:000012b8       ??_C@_0M@DFLNGNOF@BSinsparkts?$AA@ 100b82b8     bsinsparkts.obj
+ 0002:000012c4       ??_C@_0M@LIKPKMNB@BSinsrt_mat?$AA@ 100b82c4     bsinsrt_mat.obj
+ 0002:000012d0       ??_C@_0L@NINLONHA@BSintegval?$AA@ 100b82d0     bsintegval.obj
+ 0002:000012dc       ??_C@_09HFPKDFHC@BSinv_mat?$AA@ 100b82dc     bsinv_mat.obj
+ 0002:000012e8       ??_C@_0M@MKCJEKPK@BSknot_rem2?$AA@ 100b82e8     bsknot_rem2.obj
+ 0002:000012f4       ??_C@_0M@LMNCJJHG@BSkts_f_fit?$AA@ 100b82f4     bskts_f_fit.obj
+ 0002:00001300       ??_C@_0M@BCANBFLG@BSktsprsfft?$AA@ 100b8300     bsktsprsfft.obj
+ 0002:0000130c       ??_C@_0M@EIIKGHJG@BSlawcvvals?$AA@ 100b830c     bslawcvvals.obj
+ 0002:00001318       ??_C@_0M@GGPGOCNJ@BSlftorrght?$AA@ 100b8318     bslftorrght.obj
+ 0002:00001324       ??_C@_09JBGEFGEE@BSlgdtbez?$AA@ 100b8324     bslgdtbez.obj
+ 0002:00001330       ??_C@_0L@FJLEOEGP@BSlgdtbzsp?$AA@ 100b8330     bslgdtbzsp.obj
+ 0002:00001340       __real@4004000000000000    100b8340     bslgdtcan.obj
+ 0002:00001348       ??_C@_0L@FILEJPCE@BSlininter?$AA@ 100b8348     bslininter.obj
+ 0002:00001354       ??_C@_0M@LDPOPDEC@BSlinintnkt?$AA@ 100b8354     bslinintnkt.obj
+ 0002:00001360       ??_C@_08DGGDNOLK@BSlldist?$AA@ 100b8360     bslldist.obj
+ 0002:0000136c       ??_C@_09EEPFFMNI@BSlnendpt?$AA@ 100b836c     bslnendpt.obj
+ 0002:00001378       ??_C@_07KJPPJAHJ@BSlngen?$AA@ 100b8378     bslngen.obj
+ 0002:00001380       ??_C@_0L@DCMCMDCJ@BSlngenord?$AA@ 100b8380     bslngenord.obj
+ 0002:0000138c       ??_C@_0L@LMNGOBLP@BSlnln_int?$AA@ 100b838c     bslnln_int.obj
+ 0002:00001398       ??_C@_09FMKFMBN@BSlnn2cvs?$AA@ 100b8398     bslnn2cvs.obj
+ 0002:000013a4       ??_C@_09IBPEJFCB@BSlnxttpt?$AA@ 100b83a4     bslnxttpt.obj
+ 0002:000013b0       ??_C@_0M@BGIPNGCM@BSlocalcord?$AA@ 100b83b0     bslocalcord.obj
+ 0002:000013bc       ??_C@_0BI@JFFCDFH@n?5is?5a?5negative?5number?4?$AA@ 100b83bc     bslockmem.obj
+ 0002:000013d4       ??_C@_0CJ@MMACANFJ@Poisoning?5is?5complete?4?5Address?5?$DN@ 100b83d4     bslockmem.obj
+ 0002:00001400       ??_C@_0BJ@PADHFFCK@?$CK?$CK?$CK?5insufficient?5memory?6?$AA@ 100b8400     bslockmem.obj
+ 0002:0000141c       ??_C@_0DL@GOHGHCEP@?$CK?$CK?$CK?5The?5number?5of?5allocated?5byte@ 100b841c     bslockmem.obj
+ 0002:00001458       ??_C@_0DD@KCENMMHA@?$CK?$CK?$CK?5Memory?5has?5already?5been?5allo@ 100b8458     bslockmem.obj
+ 0002:0000148c       ??_C@_0M@MMCNDEHF@BSls_slfint?$AA@ 100b848c     bsls_slfint.obj
+ 0002:00001498       ??_C@_0L@OECANEAA@BSlsls_int?$AA@ 100b8498     bslsls_int.obj
+ 0002:000014a4       ??_C@_09BGGCECE@BSlslsmem?$AA@ 100b84a4     bslslsmem.obj
+ 0002:000014b0       ??_C@_0M@LNHIOIEB@BSlsqptlnpl?$AA@ 100b84b0     bslsqptlnpl.obj
+ 0002:000014bc       ??_C@_08NHGGICBA@BSmansf0?$AA@ 100b84bc     bsmansf0.obj
+ 0002:000014c8       ??_C@_08MOHNLDFB@BSmansf1?$AA@ 100b84c8     bsmansf1.obj
+ 0002:000014d4       ??_C@_08OFFAOAJC@BSmansf2?$AA@ 100b84d4     bsmansf2.obj
+ 0002:000014e0       ??_C@_08MPBJOMAK@BSmaxext?$AA@ 100b84e0     bsmaxext.obj
+ 0002:000014f0       __real@46293e5939a08cea    100b84f0     bsmdistbzbz.obj
+ 0002:000014f8       ??_C@_0M@GHNMCAKE@BSmdistbzbz?$AA@ 100b84f8     bsmdistbzbz.obj
+ 0002:00001504       ??_C@_0M@LNBNJDJH@BSmdistcvcv?$AA@ 100b8504     bsmdistcvcv.obj
+ 0002:00001510       ??_C@_0M@DAFELGEO@BSmdistptcv?$AA@ 100b8510     bsmdistptcv.obj
+ 0002:00001520       __real@c0c3880000000000    100b8520     bsmdistptcv.obj
+ 0002:00001528       __real@39b4484bfeebc2a0    100b8528     bsmdptbezcv.obj
+ 0002:00001530       ??_C@_0M@LFHCMIH@BSmdptbezcv?$AA@ 100b8530     bsmdptbezcv.obj
+ 0002:00001540       __real@3fefae147ae147ae    100b8540     bsmdptbezcv.obj
+ 0002:00001548       __real@3f847ae147ae147b    100b8548     bsmdptbezcv.obj
+ 0002:00001550       __real@7fefffffffffffff    100b8550     bsmdptbezcv.obj
+ 0002:00001558       __real@408c200000000000    100b8558     bsmdptbezcv.obj
+ 0002:00001560       ??_C@_0M@MPFGOCD@BSmdptsbscv?$AA@ 100b8560     bsmdptsbscv.obj
+ 0002:0000156c       ??_C@_0L@IFDCHEEC@BSmdstbzbz?$AA@ 100b856c     bsmdstbzbz.obj
+ 0002:00001578       ??_C@_0M@ENGLNBMC@BSmdstccgtc?$AA@ 100b8578     bsmdstccgtc.obj
+ 0002:00001584       ??_C@_0M@GINGOKBL@BSmdstptarr?$AA@ 100b8584     bsmdstptarr.obj
+ 0002:00001590       ??_C@_0L@NCLKOCKI@BSmdstptcv?$AA@ 100b8590     bsmdstptcv.obj
+ 0002:0000159c       ??_C@_0M@OLEOHJEM@BSmdstptscv?$AA@ 100b859c     bsmdstptscv.obj
+ 0002:000015a8       ??_C@_0CK@MPADIPKJ@Warning?3?5there?5are?5?$CFd?5unfreed?5po@ 100b85a8     bsmemclean.obj
+ 0002:000015d4       ??_C@_0DN@PIKPJPAH@Warning?3?5there?5has?5been?5an?5attem@ 100b85d4     bsmemclean.obj
+ 0002:00001618       ??_C@_0EE@BAMNOENK@Warning?3?5there?5has?5been?5an?5attem@ 100b8618     bsmemclean.obj
+ 0002:0000165c       ??_C@_0M@JJNPKIDJ@BSmergarrcv?$AA@ 100b865c     bsmergarrcv.obj
+ 0002:00001668       ??_C@_0L@OCBGKJHK@BSmerge_cv?$AA@ 100b8668     bsmerge_cv.obj
+ 0002:00001674       ??_C@_0M@FKGPMIEA@BSmergecvnn?$AA@ 100b8674     bsmergecvnn.obj
+ 0002:00001680       ??_C@_0M@CADGJAPN@BSmod_gauss?$AA@ 100b8680     bsmod_gauss.obj
+ 0002:0000168c       ??_C@_0M@GHHLPGEO@BSmodcvtnpl?$AA@ 100b868c     bsmodcvtnpl.obj
+ 0002:00001698       ??_C@_0M@PKPACODO@BSmodnplpts?$AA@ 100b8698     bsmodnplpts.obj
+ 0002:000016a4       ??_C@_0M@BIJHNLPB@BSmodnpptsl?$AA@ 100b86a4     bsmodnpptsl.obj
+ 0002:000016b0       __real@3fe5555555555555    100b86b0     bsmodnpptsl.obj
+ 0002:000016b8       ??_C@_0M@NAHOMHFA@BSmodptslaw?$AA@ 100b86b8     bsmodptslaw.obj
+ 0002:000016c4       ??_C@_0M@NJOKNCAP@BSmodshpcvg?$AA@ 100b86c4     bsmodshpcvg.obj
+ 0002:000016d0       ??_C@_0M@LGGMCJEF@BSmodshppts?$AA@ 100b86d0     bsmodshppts.obj
+ 0002:000016dc       ??_C@_08FIKPAKIB@BSnewktr?$AA@ 100b86dc     bsnewktr.obj
+ 0002:000016e8       ??_C@_0L@ECACFADA@BSnodevals?$AA@ 100b86e8     bsnodevals.obj
+ 0002:000016f4       ??_C@_0L@NPPMOKGF@BSnodvalrg?$AA@ 100b86f4     bsnodvalrg.obj
+ 0002:00001700       ??_C@_08CIMPJHNG@BSnorkts?$AA@ 100b8700     bsnorkts.obj
+ 0002:0000170c       ??_C@_09JEHHCEAD@BSnormals?$AA@ 100b870c     bsnormals.obj
+ 0002:00001718       ??_C@_08NNJKMDIC@BSnorvec?$AA@ 100b8718     bsnorvec.obj
+ 0002:00001724       ??_C@_0M@CAILDDGE@BSnpftwcns2?$AA@ 100b8724     bsnpftwcns2.obj
+ 0002:00001730       ??_C@_07BHBOOGD@BSnquad?$AA@ 100b8730     bsnquad.obj
+ 0002:00001738       __real@4066800000000000    100b8738     bsnquad.obj
+ 0002:00001740       __real@4028000000000000    100b8740     bsnquad.obj
+ 0002:00001748       ??_C@_0M@LICKMAPI@BSnrm_2_cvs?$AA@ 100b8748     bsnrm_2_cvs.obj
+ 0002:00001758       __real@3da5fd7fe1796495    100b8758     bsnrm_2_cvs.obj
+ 0002:00001760       __real@4014000000000000    100b8760     bsnrm_2_cvs.obj
+ 0002:00001768       ??_C@_09FNPOLDHI@BSofchkln?$AA@ 100b8768     bsofchkln.obj
+ 0002:00001774       ??_C@_0L@LGLLLCKE@BSofcvjoin?$AA@ 100b8774     bsofcvjoin.obj
+ 0002:00001780       ??_C@_0BA@GLNMDGHM@MakeC1BSoffcvxy?$AA@ 100b8780     bsoffcvxy.obj
+ 0002:00001790       ??_C@_09MGDMBDKC@BSoffcvxy?$AA@ 100b8790     bsoffcvxy.obj
+ 0002:0000179c       ??_C@_0L@BCNMCJNL@BSoffsetpt?$AA@ 100b879c     bsoffsetpt.obj
+ 0002:000017a8       __real@3fe5555c52e72da1    100b87a8     bsofk3arc.obj
+ 0002:000017b0       __real@3fd555475a31a4be    100b87b0     bsofk3arc.obj
+ 0002:000017b8       __real@3fe8000000000000    100b87b8     bsofk3arc.obj
+ 0002:000017c0       ??_C@_09DCMFNPJM@BSofk3arc?$AA@ 100b87c0     bsofk3arc.obj
+ 0002:000017cc       ??_C@_09BKIMOMCL@BSofmkcls?$AA@ 100b87cc     bsofmkcls.obj
+ 0002:000017d8       ??_C@_08FDAJGDBD@BSofnorm?$AA@ 100b87d8     bsofnorm.obj
+ 0002:000017e4       ??_C@_09NKGKKMIC@BSofrmlp3?$AA@ 100b87e4     bsofrmlp3.obj
+ 0002:000017f0       ??_C@_0L@PLGEGFBP@BSofrparcv?$AA@ 100b87f0     bsofrparcv.obj
+ 0002:000017fc       ??_C@_09FOJBBOCN@BSofupdeg?$AA@ 100b87fc     bsofupdeg.obj
+ 0002:00001808       ??_C@_09IHGHNHLN@BSoverlap?$AA@ 100b8808     bsoverlap.obj
+ 0002:00001814       ??_C@_0L@FPNJCHEH@BSpardelcv?$AA@ 100b8814     bspardelcv.obj
+ 0002:00001820       ??_C@_0M@EMLNCNLJ@BSpartloop2?$AA@ 100b8820     bspartloop2.obj
+ 0002:0000182c       ??_C@_0L@HJACNNBJ@BSpartofcv?$AA@ 100b882c     bspartofcv.obj
+ 0002:00001838       ??_C@_0M@COMAPNPC@BSperiodfit?$AA@ 100b8838     bsperiodfit.obj
+ 0002:00001844       ??_C@_07FAIJLJHB@BSperpa?$AA@ 100b8844     bsperpa.obj
+ 0002:0000184c       ??_C@_07DBGGPIOD@BSperpr?$AA@ 100b884c     bsperpr.obj
+ 0002:00001854       ??_C@_08PPGPNCII@BSperpr1?$AA@ 100b8854     bsperpr1.obj
+ 0002:00001860       ??_C@_0M@FMHOLDBC@BSphyparang?$AA@ 100b8860     bsphyparang.obj
+ 0002:0000186c       ??_C@_0L@KHCHOHNI@BSphypxtnd?$AA@ 100b886c     bsphypxtnd.obj
+ 0002:00001878       __real@3feccccccccccccd    100b8878     bsphypxtnd.obj
+ 0002:00001880       ??_C@_0M@FJAOCLBN@BSpjptimcnc?$AA@ 100b8880     bspjptimcnc.obj
+ 0002:00001890       __real@ffefffffffffffff    100b8890     bspjptimcnc.obj
+ 0002:00001898       ??_C@_0M@OLGELPHH@BSpl_cv_int?$AA@ 100b8898     bspl_cv_int.obj
+ 0002:000018a4       ??_C@_07LKGPNCKO@BSpl_pl?$AA@ 100b88a4     bspl_pl.obj
+ 0002:000018ac       ??_C@_09PBJGOHFM@BSplanar2?$AA@ 100b88ac     bsplanar2.obj
+ 0002:000018b8       ??_C@_08MPLJGJOB@BSpoint3?$AA@ 100b88b8     bspoint3.obj
+ 0002:000018c4       ??_C@_0CK@FPAAGJIP@Poisoning?5is?5completed?4?5Address?5@ 100b88c4     bspoisonmem.obj
+ 0002:000018f0       ??_C@_0BI@NCHBFMKP@?$CK?$CK?$CK?5stack?5is?5too?5small?6?$AA@ 100b88f0     bspoisonstk.obj
+ 0002:00001908       ??_C@_0CK@CEGNBLP@Poisoning?5is?5completed?4?5address?5@ 100b8908     bspoisonstk.obj
+ 0002:00001934       ??_C@_0L@BCODFHML@BSpolarnif?$AA@ 100b8934     bspolarnif.obj
+ 0002:00001940       ??_C@_0M@OBBOFIKN@BSpolarsrt2?$AA@ 100b8940     bspolarsrt2.obj
+ 0002:00001950       __real@bfb999999999999a    100b8950     bspolxtdst0.obj
+ 0002:00001958       ??_C@_0M@JNELCMNI@BSpolxtdst0?$AA@ 100b8958     bspolxtdst0.obj
+ 0002:00001964       ??_C@_07DELILEGE@BSpoly2?$AA@ 100b8964     bspoly2.obj
+ 0002:00001970       __real@416312d000000000    100b8970     bspoly2.obj
+ 0002:00001978       ??_C@_07CNKDIFCF@BSpoly3?$AA@ 100b8978     bspoly3.obj
+ 0002:00001980       ??_C@_0L@HGCGACBN@BSpoly_ext?$AA@ 100b8980     bspoly_ext.obj
+ 0002:00001990       __real@3fa999999999999a    100b8990     bspoly_ext.obj
+ 0002:00001998       ??_C@_0M@EFEFMNOB@BSpolyextfc?$AA@ 100b8998     bspolyextfc.obj
+ 0002:000019a4       ??_C@_0M@HGEKJGED@BSpolyxcvcv?$AA@ 100b89a4     bspolyxcvcv.obj
+ 0002:000019b0       ??_C@_09KJKMAANI@BSpolyxd0?$AA@ 100b89b0     bspolyxd0.obj
+ 0002:000019bc       ??_C@_09LFIKKDKI@BSpolyxt0?$AA@ 100b89bc     bspolyxt0.obj
+ 0002:000019c8       ??_C@_0M@HAIKIDDH@BSpolyxtdst?$AA@ 100b89c8     bspolyxtdst.obj
+ 0002:000019d4       ??_C@_0M@CCNFGKPB@BSpolyxttpt?$AA@ 100b89d4     bspolyxttpt.obj
+ 0002:000019e0       ??_C@_0M@ECLIMKJK@BSprep_trim?$AA@ 100b89e0     bsprep_trim.obj
+ 0002:000019f0       __real@3d19000000000000    100b89f0     bsprepcarc.obj
+ 0002:000019f8       __real@4010c152382d737e    100b89f8     bsprepcarc.obj
+ 0002:00001a00       __real@4000c152382d7397    100b8a00     bsprepcarc.obj
+ 0002:00001a08       __real@4070e00000000000    100b8a08     bsprepcarc.obj
+ 0002:00001a10       __real@4056800000000000    100b8a10     bsprepcarc.obj
+ 0002:00001a18       __real@4076800000000000    100b8a18     bsprepcarc.obj
+ 0002:00001a20       ??_C@_0L@MAKIPBGM@BSprepcarc?$AA@ 100b8a20     bsprepcarc.obj
+ 0002:00001a2c       ??_C@_0L@FBMNJID@BSprepcirc?$AA@ 100b8a2c     bsprepcirc.obj
+ 0002:00001a38       ??_C@_0M@FLILLHLF@BSprepcircp?$AA@ 100b8a38     bsprepcircp.obj
+ 0002:00001a44       ??_C@_0L@NHDGGADP@BSpreploop?$AA@ 100b8a44     bspreploop.obj
+ 0002:00001a50       ??_C@_0M@JJANCGIF@BSprftwbsol?$AA@ 100b8a50     bsprftwbsol.obj
+ 0002:00001a5c       ??_C@_0L@KBFLAOIH@BSprgeomcv?$AA@ 100b8a5c     bsprgeomcv.obj
+ 0002:00001a68       ??_C@_0L@MBOOBBNB@GR3bcsubbc?$AA@ 100b8a68     bsprgeomcv.obj
+ 0002:00001a74       ??_C@_0M@KPHFBEMG@GR3dlinestr?$AA@ 100b8a74     bsprgeomcv.obj
+ 0002:00001a80       ??_C@_0L@PFLCGEEP@GR3dellarc?$AA@ 100b8a80     bsprgeomcv.obj
+ 0002:00001a8c       ??_C@_0L@BJHPOJCF@GR3dcirarc?$AA@ 100b8a8c     bsprgeomcv.obj
+ 0002:00001a98       ??_C@_0M@HIEDFBLN@GR3dellipse?$AA@ 100b8a98     bsprgeomcv.obj
+ 0002:00001aa4       ??_C@_0L@PDJEAIFC@GR3dcircle?$AA@ 100b8aa4     bsprgeomcv.obj
+ 0002:00001ab0       ??_C@_0M@IFCEDLJF@GR3dlineseg?$AA@ 100b8ab0     bsprgeomcv.obj
+ 0002:00001abc       ??_C@_09BHHINBME@GR3dpoint?$AA@ 100b8abc     bsprgeomcv.obj
+ 0002:00001ac8       ??_C@_05HIBFNGCI@?$CFd?5?5?5?$AA@ 100b8ac8     bsprgeomcv.obj
+ 0002:00001ad0       ??_C@_06PEMCHKCC@?$CFlf?5?5?6?$AA@ 100b8ad0     bsprgeomcv.obj
+ 0002:00001ad8       ??_C@_01EEMJAFIK@?6?$AA@   100b8ad8     bsprgeomcv.obj
+ 0002:00001adc       ??_C@_06JLKJLGAK@?$CFlf?5?5?5?$AA@ 100b8adc     bsprgeomcv.obj
+ 0002:00001ae4       ??_C@_05MGPIDIGL@?$CFhd?5?6?$AA@ 100b8ae4     bsprgeomcv.obj
+ 0002:00001aec       ??_C@_0M@PDKBNLKI@BSprj_cv_pl?$AA@ 100b8aec     bsprj_cv_pl.obj
+ 0002:00001af8       ??_C@_0M@NKBHGDGC@BSprncp_nor?$AA@ 100b8af8     bsprncp_nor.obj
+ 0002:00001b04       ??_C@_07JCCLDHBC@BSproj0?$AA@ 100b8b04     bsproj0.obj
+ 0002:00001b0c       ??_C@_0L@POLCBDIA@BSprptnrcv?$AA@ 100b8b0c     bsprptnrcv.obj
+ 0002:00001b18       ??_C@_0L@NJBNNCBH@BSprptoncv?$AA@ 100b8b18     bsprptoncv.obj
+ 0002:00001b24       ??_C@_0L@FAFKANHD@BSprptonln?$AA@ 100b8b24     bsprptonln.obj
+ 0002:00001b30       ??_C@_01NOFIACDB@w?$AA@    100b8b30     bsprtbspcv.obj
+ 0002:00001b34       ??_C@_02DKCKIIND@?$CFs?$AA@ 100b8b34     bsprtbspcv.obj
+ 0002:00001b38       ??_C@_0M@OMCGAPCL@file?5name?$DP?6?$AA@ 100b8b38     bsprtbspcv.obj
+ 0002:00001b44       ??_C@_0L@OMDIDFNE@BSpt_in_cv?$AA@ 100b8b44     bspt_in_cv.obj
+ 0002:00001b50       ??_C@_0M@PIPDANEP@BSpt_in_plg?$AA@ 100b8b50     bspt_in_plg.obj
+ 0002:00001b5c       ??_C@_0M@EFKEKNCN@BSpt_on_ln2?$AA@ 100b8b5c     bspt_on_ln2.obj
+ 0002:00001b68       ??_C@_0M@LAFOGGLO@BSpt_on_lne?$AA@ 100b8b68     bspt_on_lne.obj
+ 0002:00001b74       ??_C@_07GIOEJGLE@BSpt_pt?$AA@ 100b8b74     bspt_pt.obj
+ 0002:00001b7c       ??_C@_09JCPDLAMM@BSptcvgen?$AA@ 100b8b7c     bsptcvgen.obj
+ 0002:00001b88       ??_C@_09DDDFNOFK@BSptlngen?$AA@ 100b8b88     bsptlngen.obj
+ 0002:00001b94       ??_C@_0L@NEGHIIDI@BSptlnplan?$AA@ 100b8b94     bsptlnplan.obj
+ 0002:00001ba0       ??_C@_0L@HCCDLILF@BSptnwtold?$AA@ 100b8ba0     bsptnwtold.obj
+ 0002:00001bac       ??_C@_0L@DINGJDLJ@BSptoldtnw?$AA@ 100b8bac     bsptoldtnw.obj
+ 0002:00001bb8       ??_C@_09DMANDIJA@BSptonarc?$AA@ 100b8bb8     bsptonarc.obj
+ 0002:00001bc4       ??_C@_0M@OEHFCJJ@BSpts_infnc?$AA@ 100b8bc4     bspts_infnc.obj
+ 0002:00001bd0       ??_C@_09NKJCBFFP@BSptsdlcv?$AA@ 100b8bd0     bsptsdlcv.obj
+ 0002:00001bdc       ??_C@_0M@CAGBDGPI@BSptsincfnc?$AA@ 100b8bdc     bsptsincfnc.obj
+ 0002:00001be8       ??_C@_0M@CCBCBNJE@BSptsnwtold?$AA@ 100b8be8     bsptsnwtold.obj
+ 0002:00001bf4       ??_C@_0M@GIOHDGJI@BSptsoldtnw?$AA@ 100b8bf4     bsptsoldtnw.obj
+ 0002:00001c00       ??_C@_09HELOMMF@BSptsoncv?$AA@ 100b8c00     BSptsoncv.obj
+ 0002:00001c0c       ??_C@_0M@HDBBIHFG@BSpttan2cvs?$AA@ 100b8c0c     bspttan2cvs.obj
+ 0002:00001c18       ??_C@_06DOLLLFOA@BSqnwt?$AA@ 100b8c18     bsqnwt.obj
+ 0002:00001c20       ??_C@_07ENEEANLM@BSqnwt2?$AA@ 100b8c20     bsqnwt2.obj
+ 0002:00001c28       ??_C@_0M@KDNFEKDA@BSr_approxs?$AA@ 100b8c28     bsr_approxs.obj
+ 0002:00001c34       ??_C@_0M@NDFJEKGE@BSrdcencrcv?$AA@ 100b8c34     bsrdcencrcv.obj
+ 0002:00001c40       ??_C@_0L@DFHJBOKN@BSrdgeomcv?$AA@ 100b8c40     bsrdgeomcv.obj
+ 0002:00001c4c       ??_C@_02DPKJAMEF@?$CFd?$AA@ 100b8c4c     bsrdgeomcv.obj
+ 0002:00001c50       ??_C@_03OACELNE@?$CFhd?$AA@ 100b8c50     bsrdgeomcv.obj
+ 0002:00001c54       ??_C@_08DCBHPOLO@BSreadcv?$AA@ 100b8c54     bsreadcv.obj
+ 0002:00001c60       ??_C@_0BD@MKMCJNC@num_boundaries?5?$CFhd?$AA@ 100b8c60     bsreadcv.obj
+ 0002:00001c74       ??_C@_0P@BKABKCEG@phy_closed?5?$CFhd?$AA@ 100b8c74     bsreadcv.obj
+ 0002:00001c84       ??_C@_0L@FFKLHANI@planar?5?$CFhd?$AA@ 100b8c84     bsreadcv.obj
+ 0002:00001c90       ??_C@_0O@KEOPKHBM@num_knots?5?$CFld?$AA@ 100b8c90     bsreadcv.obj
+ 0002:00001ca0       ??_C@_04CIKFEMNB@?5?$CFhd?$AA@ 100b8ca0     bsreadcv.obj
+ 0002:00001ca8       ??_C@_08KMPIOPJN@rational?$AA@ 100b8ca8     bsreadcv.obj
+ 0002:00001cb4       ??_C@_0N@PPOJGOKB@rational?5?$CFhd?$AA@ 100b8cb4     bsreadcv.obj
+ 0002:00001cc4       ??_C@_0L@NBKHBOFJ@unweighted?$AA@ 100b8cc4     bsreadcv.obj
+ 0002:00001cd0       ??_C@_0O@CDPMFJNJ@num_poles?5?$CFld?$AA@ 100b8cd0     bsreadcv.obj
+ 0002:00001ce0       ??_C@_0BA@BOGDMGPJ@non_uniform?5?$CFhd?$AA@ 100b8ce0     bsreadcv.obj
+ 0002:00001cf0       ??_C@_0N@CHHPMKKM@periodic?5?$CFhd?$AA@ 100b8cf0     bsreadcv.obj
+ 0002:00001d00       ??_C@_02JKEHMDF@nt?$AA@    100b8d00     bsreadcv.obj
+ 0002:00001d04       ??_C@_03IECIMIEG@HEX?$AA@  100b8d04     bsreadcv.obj
+ 0002:00001d08       ??_C@_05NDNMCCJH@order?$AA@ 100b8d08     bsreadcv.obj
+ 0002:00001d10       ??_C@_0CP@KJOIBFEI@?$CK?$CK?$CK?5error?5in?5f_s_BSreadd?3?5String@ 100b8d10     bsreadd.obj
+ 0002:00001d40       ??_C@_03BABANCEJ@?$CFle?$AA@ 100b8d40     bsreadd.obj
+ 0002:00001d44       ??_C@_0BK@DDCJEOJ@?$CK?$CK?$CK?5error?5in?5BSreadd?5?$CK?$CK?$CK?6?$AA@ 100b8d44     bsreadd.obj
+ 0002:00001d60       ??_C@_02NJNOFBBI@?$CFx?$AA@ 100b8d60     bsreadhex.obj
+ 0002:00001d68       __real@3ee4f8b588e368f1    100b8d68     bsrefine.obj
+ 0002:00001d70       __real@3abef2d0f5da7dd9    100b8d70     bsrefine.obj
+ 0002:00001d78       ??_C@_0L@HEJNNDLL@BSrelplnln?$AA@ 100b8d78     bsrelplnln.obj
+ 0002:00001d84       ??_C@_09BNEHFMHO@BSremloop?$AA@ 100b8d84     bsremloop.obj
+ 0002:00001d90       ??_C@_0L@FIELKNFG@BSreparmcv?$AA@ 100b8d90     bsreparmcv.obj
+ 0002:00001d9c       ??_C@_08MHPNMKIM@BSrev_cv?$AA@ 100b8d9c     bsrev_cv.obj
+ 0002:00001da8       ??_C@_0M@DEIPHDOF@BSrk_rkvecs?$AA@ 100b8da8     bsrk_rkvecs.obj
+ 0002:00001db4       ??_C@_0M@PFCFMOKJ@BSrkv_f_kts?$AA@ 100b8db4     bsrkv_f_kts.obj
+ 0002:00001dc0       ??_C@_0M@FHIEOLMP@BSrmnknot_b?$AA@ 100b8dc0     bsrm1knot.obj
+ 0002:00001dcc       ??_C@_0M@DBKNPHPE@BSrm_kt_app?$AA@ 100b8dcc     bsrm_kt_app.obj
+ 0002:00001dd8       ??_C@_0M@JNEHFJAP@BSrmktsnchg?$AA@ 100b8dd8     bsrmktsnchg.obj
+ 0002:00001de4       ??_C@_06GKNHNNJG@BSroto?$AA@ 100b8de4     bsroto.obj
+ 0002:00001df0       __real@4034000000000000    100b8df0     bsrpoly.obj
+ 0002:00001df8       __real@39e0000000000000    100b8df8     bsrpoly.obj
+ 0002:00001e00       ??_C@_07IABFENIH@BSrpoly?$AA@ 100b8e00     bsrpoly.obj
+ 0002:00001e08       __real@c000000000000000    100b8e08     bsrpoly.obj
+ 0002:00001e10       __real@3f747ae147ae147b    100b8e10     bsrpoly.obj
+ 0002:00001e18       __real@3d20000000000000    100b8e18     bsrpoly.obj
+ 0002:00001e20       __real@47efffffe0000000    100b8e20     bsrpoly.obj
+ 0002:00001e28       __real@3ff80406ea1f0344    100b8e28     bsrpoly.obj
+ 0002:00001e30       __real@4032000000000000    100b8e30     bsrpoly3.obj
+ 0002:00001e38       __real@403b000000000000    100b8e38     bsrpoly3.obj
+ 0002:00001e40       __real@4000c152382d7365    100b8e40     bsrpoly3c.obj
+ 0002:00001e48       __real@c008000000000000    100b8e48     bsrpoly3c.obj
+ 0002:00001e50       __real@3fb0000000000000    100b8e50     bsrpoly4.obj
+ 0002:00001e58       __real@3f70000000000000    100b8e58     bsrpoly4.obj
+ 0002:00001e60       __real@3fc0000000000000    100b8e60     bsrpoly4.obj
+ 0002:00001e68       ??_C@_08MIHGPADJ@BSrpoly4?$AA@ 100b8e68     bsrpoly4.obj
+ 0002:00001e78       __real@4018000000000000    100b8e78     bsrpoly4.obj
+ 0002:00001e80       ??_C@_06FMDMMOKO@BSrspl?$AA@ 100b8e80     bsrspl.obj
+ 0002:00001e88       ??_C@_0M@JOPGDPIN@BSsetder_cv?$AA@ 100b8e88     bssetder_cv.obj
+ 0002:00001e94       ??_C@_06OMELCLJN@BSsetq?$AA@ 100b8e94     bssetq.obj
+ 0002:00001e9c       ??_C@_08GNNFAHKO@BSsetspn?$AA@ 100b8e9c     bssetspn.obj
+ 0002:00001ea8       ??_C@_0L@KNHGMBHN@BSsingbval?$AA@ 100b8ea8     bssingbval.obj
+ 0002:00001eb8       __real@3cf0000000000000    100b8eb8     bssingbval.obj
+ 0002:00001ec0       ??_C@_08GPGBKODO@BSsingsv?$AA@ 100b8ec0     bssingsv.obj
+ 0002:00001ecc       ??_C@_09CGPBBNGJ@BSsingval?$AA@ 100b8ecc     bssingval.obj
+ 0002:00001ed8       ??_C@_07EMIKEKGE@BSsolve?$AA@ 100b8ed8     bssolve.obj
+ 0002:00001ee0       ??_C@_06PKAMEDAO@BSsort?$AA@ 100b8ee0     bssort.obj
+ 0002:00001ee8       ??_C@_0M@OMJJPNHE@BSsorttrpls?$AA@ 100b8ee8     bssorttrpls.obj
+ 0002:00001ef4       ??_C@_0M@IDBCNBJB@BSspantocan?$AA@ 100b8ef4     bsspantocan.obj
+ 0002:00001f00       ??_C@_0L@KOPOHKF@BSspn_t_bz?$AA@ 100b8f00     bsspn_t_bz.obj
+ 0002:00001f0c       ??_C@_0M@INAJDKMJ@BSspnndptpr?$AA@ 100b8f0c     bsspnndptpr.obj
+ 0002:00001f18       ??_C@_0M@HACDIILN@BSspnnumins?$AA@ 100b8f18     bsspnnumins.obj
+ 0002:00001f24       ??_C@_0M@FIHGAMPA@BSspnoffset?$AA@ 100b8f24     bsspnoffset.obj
+ 0002:00001f30       ??_C@_0L@PCBGBNBE@BSspnpow01?$AA@ 100b8f30     bsspnpow01.obj
+ 0002:00001f3c       ??_C@_0M@GKGCIBDG@BSspnslfint?$AA@ 100b8f3c     bsspnslfint.obj
+ 0002:00001f48       ??_C@_0M@DGDBNJLJ@BSspnspnmem?$AA@ 100b8f48     bsspnspnmem.obj
+ 0002:00001f54       ??_C@_0M@NKGKJEHK@BSsrtptslnv?$AA@ 100b8f54     bssrtptslnv.obj
+ 0002:00001f60       ??_C@_06EGFGNPII@BSssln?$AA@ 100b8f60     bsssln.obj
+ 0002:00001f68       ??_C@_0M@DDKKCPOJ@BSstallcvfl?$AA@ 100b8f68     bsstallcvfl.obj
+ 0002:00001f74       ??_C@_0M@CJIBJAKL@BSstfrecvfl?$AA@ 100b8f74     bsstfrecvfl.obj
+ 0002:00001f80       ??_C@_09FFPGBCEF@BSstrkbez?$AA@ 100b8f80     bsstrkbez.obj
+ 0002:00001f8c       ??_C@_09BMNOKHPI@BStagsort?$AA@ 100b8f8c     bstagsort.obj
+ 0002:00001f98       ??_C@_0L@HEFHEGH@BStagsorti?$AA@ 100b8f98     bstagsorti.obj
+ 0002:00001fa4       ??_C@_09POKKONNJ@BStanffit?$AA@ 100b8fa4     bstanffit.obj
+ 0002:00001fb0       ??_C@_08IDLHGDHB@BStrans1?$AA@ 100b8fb0     bstrans1.obj
+ 0002:00001fbc       ??_C@_08KIJKDALC@BStrans2?$AA@ 100b8fbc     bstrans2.obj
+ 0002:00001fc8       ??_C@_0M@KDOOOHLI@BStrans_mat?$AA@ 100b8fc8     bstrans_mat.obj
+ 0002:00001fd4       ??_C@_0M@GDOJLJBP@BStransconc?$AA@ 100b8fd4     bstransconc.obj
+ 0002:00001fe0       __real@401c000000000000    100b8fe0     bstransconc.obj
+ 0002:00001fe8       ??_C@_0L@BIFJNGIM@BStst_plan?$AA@ 100b8fe8     bstst_plan.obj
+ 0002:00001ff4       ??_C@_0M@LMMDBJAP@BStst_stack?$AA@ 100b8ff4     bstst_stack.obj
+ 0002:00002000       ??_C@_0M@KEDLKJIH@BStstcvarct?$AA@ 100b9000     bststcvarct.obj
+ 0002:0000200c       ??_C@_0M@IEDAEPEH@BStstcvcarc?$AA@ 100b900c     bststcvcarc.obj
+ 0002:00002018       ??_C@_0M@MEDEBCMA@BStstcvcnct?$AA@ 100b9018     bststcvcnct.obj
+ 0002:00002024       ??_C@_0M@DLGGKECK@BStstcvcusp?$AA@ 100b9024     bststcvcusp.obj
+ 0002:00002030       ??_C@_0M@BGDBBLNG@BStstcvdegn?$AA@ 100b9030     bststcvdegn.obj
+ 0002:0000203c       ??_C@_0M@EMNAMADH@BStstcvfarc?$AA@ 100b903c     bststcvfarc.obj
+ 0002:00002048       ??_C@_0L@IDMEJHMN@BStstcvfln?$AA@ 100b9048     bststcvfln.obj
+ 0002:00002054       ??_C@_09PJJFPMLH@BStstspn1?$AA@ 100b9054     bststspn1.obj
+ 0002:00002060       ??_C@_0M@PLDAOJDH@BSupthe_deg?$AA@ 100b9060     bsupthe_deg.obj
+ 0002:0000206c       ??_C@_0M@KBEMDFLP@BSupthedegr?$AA@ 100b906c     bsupthedegr.obj
+ 0002:00002078       ??_C@_0L@EIDKPMHD@BSvarcvoff?$AA@ 100b9078     bsvarcvoff.obj
+ 0002:00002084       ??_C@_0M@LFHHDKHK@BSvrcvoffnt?$AA@ 100b9084     bsvrcvoffnt.obj
+ 0002:00002090       __real@bfef837b4a2339c1    100b9090     bsvrcvofntp.obj
+ 0002:00002098       ??_C@_0M@FBOPBDH@BSvrcvofntp?$AA@ 100b9098     bsvrcvofntp.obj
+ 0002:000020a4       ??_C@_0M@CIAPOJCC@BSvrcvofwtp?$AA@ 100b90a4     bsvrcvofwtp.obj
+ 0002:000020b0       ??_C@_0BF@GOFKGCGN@?6?6End?5of?5curve?5?$CC?$CFs?$CC?6?$AA@ 100b90b0     bswrbscvwhx.obj
+ 0002:000020c8       ??_C@_08KIKGFOKI@boundary?$AA@ 100b90c8     bswrbscvwhx.obj
+ 0002:000020d4       ??_C@_0BD@POMIJGJP@num_boundaries?5?$CFd?6?$AA@ 100b90d4     bswrbscvwhx.obj
+ 0002:000020e8       ??_C@_0P@PBAMKIPO@phy_closed?5?$CFs?6?$AA@ 100b90e8     bswrbscvwhx.obj
+ 0002:000020f8       ??_C@_0L@LOKGHKGA@planar?5?$CFs?6?$AA@ 100b90f8     bswrbscvwhx.obj
+ 0002:00002104       ??_C@_04EBOPOGB@knot?$AA@  100b9104     bswrbscvwhx.obj
+ 0002:0000210c       ??_C@_0P@OOEKFLGC@num_knots?5?$CFld?6?$AA@ 100b910c     bswrbscvwhx.obj
+ 0002:0000211c       ??_C@_0M@LEJNMEKB@?$CFs?5?$CF20?415le?$AA@ 100b911c     bswrbscvwhx.obj
+ 0002:00002128       ??_C@_06CMCBKMCB@weight?$AA@ 100b9128     bswrbscvwhx.obj
+ 0002:00002130       ??_C@_0N@BEOEGEBJ@rational?5?$CFs?6?$AA@ 100b9130     bswrbscvwhx.obj
+ 0002:00002140       ??_C@_0BC@MDKAPOPJ@unweighted?5poles?6?$AA@ 100b9140     bswrbscvwhx.obj
+ 0002:00002152       ??_C@_00CNPNBAHC@?$AA@     100b9152     bswrbscvwhx.obj
+ 0002:00002154       ??_C@_01PKGAHCOL@?$CJ?$AA@ 100b9154     bswrbscvwhx.obj
+ 0002:00002158       ??_C@_09MLJAPCKC@?5?$CF20?415le?$AA@ 100b9158     bswrbscvwhx.obj
+ 0002:00002164       ??_C@_05DNIIFBMG@?$CFs?5?$CFs?$AA@ 100b9164     bswrbscvwhx.obj
+ 0002:0000216c       ??_C@_01ODHLEDKK@?$CI?$AA@ 100b916c     bswrbscvwhx.obj
+ 0002:00002170       ??_C@_07KIJINGAM@?$CFs?$FL?$CFld?$FN?$AA@ 100b9170     bswrbscvwhx.obj
+ 0002:00002178       ??_C@_04PKANKCNO@pole?$AA@ 100b9178     bswrbscvwhx.obj
+ 0002:00002180       ??_C@_0P@FMDHOKD@num_poles?5?$CFld?6?$AA@ 100b9180     bswrbscvwhx.obj
+ 0002:00002190       ??_C@_0BA@PFGOMMEB@non_uniform?5?$CFs?6?$AA@ 100b9190     bswrbscvwhx.obj
+ 0002:000021a0       ??_C@_0N@MMHCMABE@periodic?5?$CFs?6?$AA@ 100b91a0     bswrbscvwhx.obj
+ 0002:000021b0       ??_C@_01GBGANLPD@0?$AA@    100b91b0     bswrbscvwhx.obj
+ 0002:000021b4       ??_C@_05MAJJAKPI@FALSE?$AA@ 100b91b4     bswrbscvwhx.obj
+ 0002:000021bc       ??_C@_01HIHLOKLC@1?$AA@    100b91bc     bswrbscvwhx.obj
+ 0002:000021c0       ??_C@_04HCDDPBNL@TRUE?$AA@ 100b91c0     bswrbscvwhx.obj
+ 0002:000021c8       ??_C@_09MKBFLJJA@order?5?$CFd?6?$AA@ 100b91c8     bswrbscvwhx.obj
+ 0002:000021d4       ??_C@_08KKDPFDFB@BScurve?6?$AA@ 100b91d4     bswrbscvwhx.obj
+ 0002:000021e0       ??_C@_08HFABLEFB@?6?6?$CC?$CFs?$CC?3?6?$AA@ 100b91e0     bswrbscvwhx.obj
+ 0002:000021ec       ??_C@_0BH@IGNMGKNI@?6?6End?5of?5surface?5?$CC?$CFs?$CC?6?$AA@ 100b91ec     bswrbssfwhx.obj
+ 0002:00002204       ??_C@_0BL@CNGOKKKA@boundary?5?$CFd?5num_points?5?$CFd?6?$AA@ 100b9204     bswrbssfwhx.obj
+ 0002:00002220       ??_C@_0L@PAOEPPIN@on_off?5?$CFs?6?$AA@ 100b9220     bswrbssfwhx.obj
+ 0002:0000222c       ??_C@_0P@FFPMFAMD@pos_orient?5?$CFs?6?$AA@ 100b922c     bswrbssfwhx.obj
+ 0002:0000223c       ??_C@_0BB@GKADIMIB@v_phy_closed?5?$CFs?6?$AA@ 100b923c     bswrbssfwhx.obj
+ 0002:00002250       ??_C@_0BB@DJJJNHAF@u_phy_closed?5?$CFs?6?$AA@ 100b9250     bswrbssfwhx.obj
+ 0002:00002264       ??_C@_0BB@HFEFHPBN@v_num_knots?5?$CFld?6?$AA@ 100b9264     bswrbssfwhx.obj
+ 0002:00002278       ??_C@_0BB@CGNPCEJJ@u_num_knots?5?$CFld?6?$AA@ 100b9278     bswrbssfwhx.obj
+ 0002:0000228c       ??_C@_0BB@JOMMFKNM@v_num_poles?5?$CFld?6?$AA@ 100b928c     bswrbssfwhx.obj
+ 0002:000022a0       ??_C@_0BB@MNFGABFI@u_num_poles?5?$CFld?6?$AA@ 100b92a0     bswrbssfwhx.obj
+ 0002:000022b4       ??_C@_0BC@DFEPKPMI@v_non_uniform?5?$CFs?6?$AA@ 100b92b4     bswrbssfwhx.obj
+ 0002:000022c8       ??_C@_0BC@NPMJHCKK@u_non_uniform?5?$CFs?6?$AA@ 100b92c8     bswrbssfwhx.obj
+ 0002:000022dc       ??_C@_0P@EBOMPEEE@v_periodic?5?$CFs?6?$AA@ 100b92dc     bswrbssfwhx.obj
+ 0002:000022ec       ??_C@_0P@FAJBJODN@u_periodic?5?$CFs?6?$AA@ 100b92ec     bswrbssfwhx.obj
+ 0002:000022fc       ??_C@_0BH@EBGBGGCD@u_order?5?$CFd?6v_order?5?$CFd?6?$AA@ 100b92fc     bswrbssfwhx.obj
+ 0002:00002314       ??_C@_0L@PJIJHJIG@BSsurface?6?$AA@ 100b9314     bswrbssfwhx.obj
+ 0002:00002320       ??_C@_05JPFLBMGK@?50x?$CFx?$AA@ 100b9320     bswritehex.obj
+ 0002:00002328       ??_C@_03DCFNIELN@?$CF?$CKc?$AA@ 100b9328     bswritehex.obj
+ 0002:0000232c       ??_C@_0M@MJLPBGDH@BSx2gmcarcs?$AA@ 100b932c     bsx2gmcarcs.obj
+ 0002:00002338       ??_C@_09JNNGEFLI@BSxarcarc?$AA@ 100b9338     bsxarcarc.obj
+ 0002:00002344       ??_C@_0M@DMDDLIPG@BSxbzarcarc?$AA@ 100b9344     bsxbzarcarc.obj
+ 0002:00002350       ??_C@_0L@BKNJIICJ@BSxbzlnarc?$AA@ 100b9350     bsxbzlnarc.obj
+ 0002:0000235c       ??_C@_07OMENIKL@BSxbzs4?$AA@ 100b935c     bsxbzs4.obj
+ 0002:00002368       __real@3fb4189374bc6a7f    100b9368     bsxbzs4.obj
+ 0002:00002370       ??_C@_08NGPODCOB@BSxcncln?$AA@ 100b9370     bsxcncln.obj
+ 0002:0000237c       ??_C@_05GHCGLMDO@BSxln?$AA@ 100b937c     bsxln.obj
+ 0002:00002384       ??_C@_08COLHLIII@BSxlnarc?$AA@ 100b9384     bsxlnarc.obj
+ 0002:00002390       ??_C@_06HOBPKMPM@xlnarc?$AA@ 100b9390     bsxlnarc.obj
+ 0002:00002398       ??_C@_07DJKBPHJB@BSxlnln?$AA@ 100b9398     bsxlnln.obj
+ 0002:000023a0       ??_C@_09GNPNHKBI@BSxlnln2d?$AA@ 100b93a0     bsxlnln2d.obj
+ 0002:000023b0       __real@3d09000000000000    100b93b0     bsxlnln2d.obj
+ 0002:000023b8       ??_C@_0L@HKBKAFAN@BSxlnlnopt?$AA@ 100b93b8     bsxlnlnopt.obj
+ 0002:000023c4       ??_C@_08DENHCKDJ@BSxlnsph?$AA@ 100b93c4     bsxlnsph.obj
+ 0002:000023d0       ??_C@_07GELOBEMP@BSxlsls?$AA@ 100b93d0     bsxlsls.obj
+ 0002:000023d8       ??_C@_09JEPFJINC@BSxspnspn?$AA@ 100b93d8     bsxspnspn.obj
+ 0002:000023e4       ??_C@_0M@IPFKAMNH@BSxtractpar?$AA@ 100b93e4     bsxtractpar.obj
+ 0002:000023f0       ??_C@_09CPOKNGAH@BSxycvoff?$AA@ 100b93f0     bsxycvoff.obj
+ 0002:000023fc       ??_C@_0M@LIAHJELC@BSxycvoffwl?$AA@ 100b93fc     bsxycvoffwl.obj
+ 0002:00002408       ??_C@_08BJOBFCNA@BSzigzag?$AA@ 100b9408     bszigzag.obj
+ 0002:00002414       ??_C@_08NCKDKAJJ@MAartobc?$AA@ 100b9414     maartobc.obj
+ 0002:00002420       ??_C@_0L@GPDKOONP@MAbcendpts?$AA@ 100b9420     mabcendpts.obj
+ 0002:0000242c       ??_C@_09FCHMODNA@MAbcueval?$AA@ 100b942c     mabcueval.obj
+ 0002:00002438       ??_C@_06EMEDDBE@MAidmx?$AA@ 100b9438     maidmx.obj
+ 0002:00002440       ??_C@_07JJHIBJGK@MAmulmx?$AA@ 100b9440     mamulmx.obj
+ 0002:00002448       ??_C@_0M@NJFMDJF@MAoptsxform?$AA@ 100b9448     maoptsxfo.obj
+ 0002:00002454       ??_C@_0L@OIIFKDKM@MAptsxform?$AA@ 100b9454     maptsxfor.obj
+ 0002:00002460       ??_C@_0M@NPMFMJMN@MArptsxform?$AA@ 100b9460     marptsxfo.obj
+ 0002:0000246c       ??_C@_08LFNFCJDA@MAtypemx?$AA@ 100b946c     matypemx.obj
+ 0002:00002478       __pRawDllMain              100b9478     MSVCRT:crtdll.obj
+ 0002:00002478       __pDefaultRawDllMain       100b9478     MSVCRT:crtdll.obj
+ 0002:00002488       __load_config_used         100b9488     MSVCRT:loadcfg.obj
+ 0002:00002510       ___safe_se_handler_table   100b9510     <linker-defined>
+ 0002:00002514       ___rtc_iaa                 100b9514     MSVCRT:initsect.obj
+ 0002:00002518       ___rtc_izz                 100b9518     MSVCRT:initsect.obj
+ 0002:0000251c       ___rtc_taa                 100b951c     MSVCRT:initsect.obj
+ 0002:00002520       ___rtc_tzz                 100b9520     MSVCRT:initsect.obj
+ 0002:000025ac       __IMPORT_DESCRIPTOR_MSVCR80 100b95ac     MSVCRT:MSVCR80.dll
+ 0002:000025c0       __IMPORT_DESCRIPTOR_KERNEL32 100b95c0     kernel32:KERNEL32.dll
+ 0002:000025d4       __NULL_IMPORT_DESCRIPTOR   100b95d4     MSVCRT:MSVCR80.dll
+ 0003:00000000       __newmode                  100bd000     newmode.obj
+ 0003:00000004       _num_rts                   100bd004     bsarclg3ds.obj
+ 0003:0000001c       _numrts                    100bd01c     bsarclg4ds.obj
+ 0003:00000478       _BScnpn                    100bd478     bscnpntab.obj
+ 0003:00000bb0       _BScnp                     100bdbb0     bscnptab.obj
+ 0003:000014e0       _BSparameters              100be4e0     bsglobals.obj
+ 0003:00001578       _BSiparameters             100be578     bsglobals.obj
+ 0003:00001588       _BScan_to_lgd              100be588     bslgdcantab.obj
+ 0003:00009788       _BSlgd_to_can              100c6788     bslgdcantab.obj
+ 0003:0000b888       _BShlf_cut_lgd             100c8888     bslgdcantab.obj
+ 0003:0001bc88       _BSlgd_to_tch              100d8c88     bslgdtchtab.obj
+ 0003:00023e88       _BStch_to_lgd              100e0e88     bslgdtchtab.obj
+ 0003:0002c088       _BSroottab                 100e9088     bsrootdata.obj
+ 0003:0002ca68       _BShitab                   100e9a68     bsrootdata.obj
+ 0003:0002cf58       _BStabint                  100e9f58     bsrootdata.obj
+ 0003:00047b20       ___security_cookie         10104b20     MSVCRT:gs_cookie.obj
+ 0003:00047b24       ___security_cookie_complement 10104b24     MSVCRT:gs_cookie.obj
+ 0003:00047b28       ___native_dllmain_reason   10104b28     MSVCRT:natstart.obj
+ 0003:00047b2c       ___native_vcclrit_reason   10104b2c     MSVCRT:natstart.obj
+ 0003:00047b40       _BSlmemnumb                10104b40     bsinit.obj
+ 0003:00047b44       _BSlmemptr                 10104b44     bsinit.obj
+ 0003:00047b48       _BSalloczero               10104b48     bsinit.obj
+ 0003:00047b4c       _BSfreezero                10104b4c     bsinit.obj
+ 0003:00047b50       _BSlist_al                 10104b50     bsinit.obj
+ 0003:00047b5c       _BSdbglev                  10104b5c     bsinit.obj
+ 0003:00047bd0       _new_fn_ptr                10104bd0     bssetigmem.obj
+ 0003:00047bd4       _delete_fn_ptr             10104bd4     bssetigmem.obj
+ 0003:00047f0c       ?__type_info_root_node@@3U__type_info_node@@A 10104f0c     MSVCRT:tncleanup.obj
+ 0003:00047f20       _BSfile_name               10104f20     <common>
+ 0003:00048880       _BSerrcount                10105880     <common>
+ 0003:000488a0       _f_val                     101058a0     <common>
+ 0003:00048da0       __adjust_fdiv              10105da0     <common>
+ 0003:00048da4       ___native_startup_state    10105da4     <common>
+ 0003:00048da8       ___native_startup_lock     10105da8     <common>
+ 0003:00048dac       ___onexitend               10105dac     <common>
+ 0003:00048db0       ___onexitbegin             10105db0     <common>
+ 0003:00048db4       ___sse2_available          10105db4     <common>
+ 0003:00048db8       ___dyn_tls_init_callback   10105db8     <common>
+
+ entry point at        0001:000b53da
+
+ Static symbols
+
+ 0001:00003fe0       _degenBSapproxcvs          10004fe0 f   bsapproxcvs.obj
+ 0001:00007670       _gaussBSarclg3ds           10008670 f   bsarclg3ds.obj
+ 0001:000078b0       _arcBSarclg3ds             100088b0 f   bsarclg3ds.obj
+ 0001:00007ea0       _gaussBSarclg4ds           10008ea0 f   bsarclg4ds.obj
+ 0001:00008190       _prodBSarclg4ds            10009190 f   bsarclg4ds.obj
+ 0001:00008280       _arcBSarclg4ds             10009280 f   bsarclg4ds.obj
+ 0001:0000c030       _insrtBSbrapproxs          1000d030 f   bsbrapproxs.obj
+ 0001:00010410       _bezlgdBSbzur1pls          10011410 f   bsbzur1pls.obj
+ 0001:00013e40       _insBSchtptstco            10014e40 f   bschtptstco.obj
+ 0001:00014160       _checkBSchtptstco          10015160 f   bschtptstco.obj
+ 0001:00015220       _extcvBScmpcvoff1          10016220 f   bscmpcvoff1.obj
+ 0001:00015520       _trim1BScmpcvoff1          10016520 f   bscmpcvoff1.obj
+ 0001:00015520       _trim1BScmpmrgoff          10016520 f   bscmpcvoff1.obj
+ 0001:00015740       _chkzconnectBScmpcvoff1    10016740 f   bscmpcvoff1.obj
+ 0001:00020920       _chkzconnectBScmpoffcls    10021920 f   bscmpoffcls.obj
+ 0001:00020a70       _trim1BScmpoffcls          10021a70 f   bscmpoffcls.obj
+ 0001:00020a70       _trim1BScmpextoff          10021a70 f   bscmpoffcls.obj
+ 0001:00020a70       _trim1BScmpintoff          10021a70 f   bscmpoffcls.obj
+ 0001:00029660       _newBScv_slfint            1002a660 f   bscv_slfint.obj
+ 0001:0002aaf0       _aux_BScvarreval           1002baf0 f   bscvarreval.obj
+ 0001:0002c200       _GetBox_BScvcv_int         1002d200 f   bscvcv_int.obj
+ 0001:0002c200       _GetBox_BSmdistcvcv        1002d200 f   bscvcv_int.obj
+ 0001:0002e6d0       _outBScvcviter             1002f6d0 f   bscvcviter.obj
+ 0001:0002fd10       _pntBScvevaln              10030d10 f   bscvevaln.obj
+ 0001:00033360       _onCurveBScvlsqfit         10034360 f   bscvlsqfit.obj
+ 0001:000346a0       _qnwtBScvnrpervc           100356a0 f   bscvnrpervc.obj
+ 0001:00036240       _getBScvsilhouet           10037240 f   bscvsilhouet.obj
+ 0001:00036420       _isReadyBScvsilhouet       10037420 f   bscvsilhouet.obj
+ 0001:00036840       _bezBScvsilhouet           10037840 f   bscvsilhouet.obj
+ 0001:0003a220       _dummyBSdbginit            1003b220 f   bsdbginit.obj
+ 0001:0003b480       _ChordalParametrization    1003c480 f   bsdirfitcv.obj
+ 0001:0003b630       _CreateKnotsByAverage_1    1003c630 f   bsdirfitcv.obj
+ 0001:0003b760       _CreateKnotsByAverage_2    1003c760 f   bsdirfitcv.obj
+ 0001:0003ed40       _sortBSeigmatvv1           1003fd40 f   bseigmatvv1.obj
+ 0001:00042c90       _linextBSexttrmcmp         10043c90 f   bsexttrmcmp.obj
+ 0001:00044450       _qnwtBSfillet              10045450 f   bsfillet.obj
+ 0001:000468e0       _polyBSfit2doff            100478e0 f   bsfit2doff.obj
+ 0001:00046990       _ratlBSfit2doff            10047990 f   bsfit2doff.obj
+ 0001:00046c10       _GaussPartialPivot         10047c10 f   bsfitbycir.obj
+ 0001:00047200       _fitBSfitbycir             10048200 f   bsfitbycir.obj
+ 0001:000477e0       _helperBSfitratcv          100487e0 f   bsfitratcv.obj
+ 0001:00049be0       _helperBSfitratpts         1004abe0 f   bsfitratpts.obj
+ 0001:0004e460       _qnwtBSfndcvturn           1004f460 f   bsfndcvturn.obj
+ 0001:0004eb60       _rtlgd1BSfndrtlgd1         1004fb60 f   bsfndrtlgd1.obj
+ 0001:0004ec30       _chklgd3BSfndrtlgd1        1004fc30 f   bsfndrtlgd1.obj
+ 0001:0004ef30       _chklgd4BSfndrtlgd1        1004ff30 f   bsfndrtlgd1.obj
+ 0001:0004f2c0       _newtonBSfndrtlgd1         100502c0 f   bsfndrtlgd1.obj
+ 0001:0004f450       _normBSfndrtlgd1           10050450 f   bsfndrtlgd1.obj
+ 0001:0004f570       _fndrtBSfndrtlgd1          10050570 f   bsfndrtlgd1.obj
+ 0001:00059760       _swapBSintsort             1005a760 f   bsintsort.obj
+ 0001:0005b180       _bezdegp1BSlgdtbez         1005c180 f   bslgdtbez.obj
+ 0001:0005c450       _intBSlnendpt              1005d450 f   bslnendpt.obj
+ 0001:0005c560       _outBSlnendpt              1005d560 f   bslnendpt.obj
+ 0001:0005d160       _qnwtBSlnn2cvs             1005e160 f   bslnn2cvs.obj
+ 0001:0005f4f0       _coincidentBSlsqptlnpl     100604f0 f   bslsqptlnpl.obj
+ 0001:0005f590       _collinearBSlsqptlnpl      10060590 f   bslsqptlnpl.obj
+ 0001:0005f810       _coplanarBSlsqptlnpl       10060810 f   bslsqptlnpl.obj
+ 0001:00060eb0       _GetApprox_BSmdistbzbz     10061eb0 f   bsmdistbzbz.obj
+ 0001:00061310       _lowBoundBSmdistcvcv       10062310 f   bsmdistcvcv.obj
+ 0001:000628f0       _boxBSmdptbezcv            100638f0 f   bsmdptbezcv.obj
+ 0001:00062ac0       _NewtonBSmdptbezcv         10063ac0 f   bsmdptbezcv.obj
+ 0001:00064540       _setparBSmdstbzbz          10065540 f   bsmdstbzbz.obj
+ 0001:0006aec0       _distBSnrm_2_cvs           1006bec0 f   bsnrm_2_cvs.obj
+ 0001:0006c2b0       _DeleteBSoffcvxy           1006d2b0 f   bsoffcvxy.obj
+ 0001:0006c4c0       _MakeC1BSoffcvxy           1006d4c0 f   bsoffcvxy.obj
+ 0001:0006cc00       _collinBSofk3arc           1006dc00 f   bsofk3arc.obj
+ 0001:00075830       _qnwtBSpjptimcnc           10076830 f   bspjptimcnc.obj
+ 0001:000770e0       _linearBSpolxtdst0         100780e0 f   bspolxtdst0.obj
+ 0001:00083120       _qnwtBSprptnrcv            10084120 f   bsprptnrcv.obj
+ 0001:00086fd0       _dinfBSptsoncv             10087fd0 f   BSptsoncv.obj
+ 0001:00086fd0       _dinfBSmdptsbscv           10087fd0 f   BSptsoncv.obj
+ 0001:00087620       _qnwtbezBSpttan2cvs        10088620 f   bspttan2cvs.obj
+ 0001:000877f0       _qnwtlineBSpttan2cvs       100887f0 f   bspttan2cvs.obj
+ 0001:00089170       _SwapParameters            1008a170 f   bsquicksort.obj
+ 0001:00089180       _SortParameters            1008a180 f   bsquicksort.obj
+ 0001:0008b6e0       _f_s_BSreadd               1008c6e0 f   bsreadd.obj
+ 0001:0008d8c0       _deletBSrm1knot            1008e8c0 f   bsrm1knot.obj
+ 0001:0008f490       _deletBSrmnknots           10090490 f   bsrmnknots.obj
+ 0001:00090430       _realitBSrpoly             10091430 f   bsrpoly.obj
+ 0001:00090800       _nextkBSrpoly              10091800 f   bsrpoly.obj
+ 0001:00090950       _newestBSrpoly             10091950 f   bsrpoly.obj
+ 0001:00090aa0       _quadsdBSrpoly             10091aa0 f   bsrpoly.obj
+ 0001:00090b20       _quadBSrpoly               10091b20 f   bsrpoly.obj
+ 0001:00090d30       _calcscBSrpoly             10091d30 f   bsrpoly.obj
+ 0001:00090f20       _quaditBSrpoly             10091f20 f   bsrpoly.obj
+ 0001:00091560       _fxshfrBSrpoly             10092560 f   bsrpoly.obj
+ 0001:000929c0       _pol3tpqBSrpoly3           100939c0 f   bsrpoly3.obj
+ 0001:00093270       _pol4tpqBSrpoly4           10094270 f   bsrpoly4.obj
+ 0001:000932f0       _factpol4BSrpoly4          100942f0 f   bsrpoly4.obj
+ 0001:00093550       _solv1BSrpoly4             10094550 f   bsrpoly4.obj
+ 0001:000935b0       _solv2BSrpoly4             100945b0 f   bsrpoly4.obj
+ 0001:00098990       _partitionBSsort           10099990 f   bssort.obj
+ 0001:00098a60       _findpivotBSsort           10099a60 f   bssort.obj
+ 0001:000991a0       _triple_compBSsorttrpls    1009a1a0 f   bssorttrpls.obj
+ 0001:0009c140       __bstagsort_qsort_compare  1009d140 f   bstagsort.obj
+ 0001:0009f2d0       _vecBStstcvfln             100a02d0 f   bststcvfln.obj
+ 0001:000a0ff0       _addktsBSxycvoff           100a1ff0 f   bsvrcvofntp.obj
+ 0001:000a0ff0       _addktsBSvrcvofntp         100a1ff0 f   bsvrcvofntp.obj
+ 0001:000a4710       _fixparBSx2gmcarcs         100a5710 f   bsx2gmcarcs.obj
+ 0001:000a95b0       _delsqBSxbzs4              100aa5b0 f   bsxbzs4.obj
+ 0001:000ac1b0       _househldBSxlnlnopt        100ad1b0 f   bsxlnlnopt.obj
+ 0001:000ac1b0       _househldBSlldist          100ad1b0 f   bsxlnlnopt.obj
+ 0001:000ac1b0       _househldBSxlnln           100ad1b0 f   bsxlnlnopt.obj
+ 0001:000acf10       _IsIntersect               100adf10 f   bsxlsls.obj
+ 0001:000b50d8       _pre_c_init                100b60d8 f   MSVCRT:crtdll.obj
+ 0001:000b52c4       ___DllMainCRTStartup       100b62c4 f   MSVCRT:crtdll.obj
+ 0001:000b53fb       _has_osfxsr_set            100b63fb f   MSVCRT:cpu_disp.obj

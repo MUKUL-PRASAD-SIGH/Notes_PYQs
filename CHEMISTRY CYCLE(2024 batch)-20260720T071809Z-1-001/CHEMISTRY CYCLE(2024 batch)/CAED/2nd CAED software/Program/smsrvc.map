@@ -1,0 +1,1065 @@
+ smsrvc
+
+ Timestamp is 46b3a687 (Fri Aug 03 17:04:55 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000820eH .text                   CODE
+ 0001:00008210 00000a25H .text$x                 CODE
+ 0001:00008c40 00000126H .text$yc                CODE
+ 0001:00008d70 00000042H .text$yd                CODE
+ 0002:00000000 00000444H .idata$5                DATA
+ 0002:00000444 00000004H .CRT$XCA                DATA
+ 0002:00000448 00000024H .CRT$XCU                DATA
+ 0002:0000046c 00000004H .CRT$XCZ                DATA
+ 0002:00000470 00000004H .CRT$XIA                DATA
+ 0002:00000474 00000004H .CRT$XIAA               DATA
+ 0002:00000478 00000004H .CRT$XIZ                DATA
+ 0002:00000480 00001220H .rdata                  DATA
+ 0002:000016a0 00000030H .rdata$debug            DATA
+ 0002:000016d0 0000062cH .rdata$r                DATA
+ 0002:00001d00 0000009cH .rdata$sxdata           DATA
+ 0002:00001d9c 00000004H .rtc$IAA                DATA
+ 0002:00001da0 00000004H .rtc$IZZ                DATA
+ 0002:00001da4 00000004H .rtc$TAA                DATA
+ 0002:00001da8 00000004H .rtc$TZZ                DATA
+ 0002:00001db0 000008b0H .xdata$x                DATA
+ 0002:00002660 00000000H ATL$__a                 DATA
+ 0002:00002660 00000000H ATL$__z                 DATA
+ 0002:00002660 00000140H .idata$2                DATA
+ 0002:000027a0 00000014H .idata$3                DATA
+ 0002:000027b4 00000444H .idata$4                DATA
+ 0002:00002bf8 00002258H .idata$6                DATA
+ 0002:00004e50 00000069H .edata                  DATA
+ 0003:00000000 00001a5cH .data                   DATA
+ 0003:00001a60 00000834H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000027       ___safe_se_handler_count   00000027     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??3CObject@@SGXPAX@Z       10001030 f i mouseapp.obj
+ 0001:00000040       ??1AFX_MAINTAIN_STATE2@@QAE@XZ 10001040 f i mouseapp.obj
+ 0001:00000060       _DllMain@12                10001060 f   mouseapp.obj
+ 0001:00000160       _DllGetClassObject@12      10001160 f   mouseapp.obj
+ 0001:000001f0       _DllCanUnloadNow@0         100011f0 f   mouseapp.obj
+ 0001:00000270       ?SMGetResourceModuleHandle@@YAHPAPAUHINSTANCE__@@@Z 10001270 f   mouseapp.obj
+ 0001:00000290       _ExtRawDllMain@12          10001290 f   mouseapp.obj
+ 0001:000002c0       ??1JGraphicContext@@QAE@XZ 100012c0 f i mousesrv.obj
+ 0001:00000330       ??0JOleObjectFactory@@QAE@ABU_GUID@@PAUCRuntimeClass@@HPBD@Z 10001330 f i mousesrv.obj
+ 0001:000003a0       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 100013a0 f i mousesrv.obj
+ 0001:000003a0       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 100013a0 f i mousesrv.obj
+ 0001:000003b0       ?AssertValid@CObject@@UBEXXZ 100013b0 f i mousesrv.obj
+ 0001:000003c0       ?IsRegistered@COleObjectFactory@@UBEHXZ 100013c0 f i mousesrv.obj
+ 0001:000003d0       ?OnCreateObject@JOleObjectFactory@@UAEPAVCCmdTarget@@XZ 100013d0 f i mousesrv.obj
+ 0001:00000460       ?_GetBaseClass@smartMouseService@@KGPAUCRuntimeClass@@XZ 10001460 f   mousesrv.obj
+ 0001:00000470       ?GetThisClass@smartMouseService@@SGPAUCRuntimeClass@@XZ 10001470 f   mousesrv.obj
+ 0001:00000470       ?GetRuntimeClass@smartMouseService@@UBEPAUCRuntimeClass@@XZ 10001470 f   mousesrv.obj
+ 0001:00000480       ?doInit@smartMouseService@@IAEJXZ 10001480 f   mousesrv.obj
+ 0001:000006d0       ??_EJHiliteElement@@UAEPAXI@Z 100016d0 f i mousesrv.obj
+ 0001:000006d0       ??_GJHiliteElement@@UAEPAXI@Z 100016d0 f i mousesrv.obj
+ 0001:000006f0       ??_EJDisplay2d@@UAEPAXI@Z  100016f0 f i mousesrv.obj
+ 0001:000006f0       ??_GJDisplay2d@@UAEPAXI@Z  100016f0 f i mousesrv.obj
+ 0001:00000720       ?DrawDynamicLists@smartMouseService@@IAEJXZ 10001720 f   mousesrv.obj
+ 0001:00000740       ?SetCustomCursor@smartMouseService@@IAEJPAUHICON__@@@Z 10001740 f   mousesrv.obj
+ 0001:00000780       ?ResetCursor@smartMouseService@@IAEJXZ 10001780 f   mousesrv.obj
+ 0001:000007b0       ?BeginWaiting@smartMouseService@@AAEJW4WaitState@1@@Z 100017b0 f   mousesrv.obj
+ 0001:000007d0       ?EndWaiting@smartMouseService@@AAEXXZ 100017d0 f   mousesrv.obj
+ 0001:000007e0       ?DrawFence@smartMouseService@@IAEJUtagPOINT@@0@Z 100017e0 f   mousesrv.obj
+ 0001:000008f0       ?EraseFence@smartMouseService@@IAEJUtagPOINT@@0@Z 100018f0 f   mousesrv.obj
+ 0001:00000920       ?FenceLocate@smartMouseService@@IAEJUtagPOINT@@0PAPAUIDispatch@@@Z 10001920 f   mousesrv.obj
+ 0001:00000d90       ?setLocateEnv@smartMouseService@@IAEJXZ 10001d90 f   mousesrv.obj
+ 0001:00000eb0       ?mapFilterToInterfaces@smartMouseService@@IAEJPAJJ@Z 10001eb0 f   mousesrv.obj
+ 0001:00000fb0       ?ValueInFilter@smartMouseService@@IAEHJ@Z 10001fb0 f   mousesrv.obj
+ 0001:00000ff0       ?resetState@smartMouseService@@IAEXXZ 10001ff0 f   mousesrv.obj
+ 0001:00001000       ?clearAnchor@smartMouseService@@IAEXXZ 10002000 f   mousesrv.obj
+ 0001:00001020       ?GetInterfaceMap@smartMouseService@@MBEPBUAFX_INTERFACEMAP@@XZ 10002020 f   mousesrv.obj
+ 0001:00001030       ?AddRef@XSMProperties@smartMouseService@@UAGKXZ 10002030 f   mousesrv.obj
+ 0001:00001050       ?Release@XSMProperties@smartMouseService@@UAGKXZ 10002050 f   mousesrv.obj
+ 0001:00001070       ?QueryInterface@XSMProperties@smartMouseService@@UAGJABU_GUID@@PAPAX@Z 10002070 f   mousesrv.obj
+ 0001:00001090       ?put_Enabled@XSMProperties@smartMouseService@@UAGJF@Z 10002090 f   mousesrv.obj
+ 0001:000010b0       ?put_SendMoveEvents@XSMProperties@smartMouseService@@UAGJF@Z 100020b0 f   mousesrv.obj
+ 0001:000010d0       ?put_SendGraphicViews@XSMProperties@smartMouseService@@UAGJF@Z 100020d0 f   mousesrv.obj
+ 0001:000010f0       ?put_PauseLocate@XSMProperties@smartMouseService@@UAGJJ@Z 100020f0 f   mousesrv.obj
+ 0001:00001120       ?put_InterDocumentLocate@XSMProperties@smartMouseService@@UAGJF@Z 10002120 f   mousesrv.obj
+ 0001:00001140       ?put_LocateMode@XSMProperties@smartMouseService@@UAGJJ@Z 10002140 f   mousesrv.obj
+ 0001:000011b0       ?AddToLocateFilter@XSMProperties@smartMouseService@@UAGJJ@Z 100021b0 f   mousesrv.obj
+ 0001:00001200       ?ClearLocateFilter@XSMProperties@smartMouseService@@UAGJXZ 10002200 f   mousesrv.obj
+ 0001:00001220       ?AddRef@XSMMouseService@smartMouseService@@UAGKXZ 10002220 f   mousesrv.obj
+ 0001:00001240       ?Release@XSMMouseService@smartMouseService@@UAGKXZ 10002240 f   mousesrv.obj
+ 0001:00001260       ?QueryInterface@XSMMouseService@smartMouseService@@UAGJABU_GUID@@PAPAX@Z 10002260 f   mousesrv.obj
+ 0001:000012e0       ?AddRef@XSMGraphicLocatePoint@smartMouseService@@UAGKXZ 100022e0 f   mousesrv.obj
+ 0001:00001300       ?Release@XSMGraphicLocatePoint@smartMouseService@@UAGKXZ 10002300 f   mousesrv.obj
+ 0001:00001320       ?QueryInterface@XSMGraphicLocatePoint@smartMouseService@@UAGJABU_GUID@@PAPAX@Z 10002320 f   mousesrv.obj
+ 0001:00001340       ?get_PointOnGraphicFlag@XSMGraphicLocatePoint@smartMouseService@@UAGJPAH@Z 10002340 f   mousesrv.obj
+ 0001:00001370       ?get_PointOnGraphic@XSMGraphicLocatePoint@smartMouseService@@UAGJPAN00@Z 10002370 f   mousesrv.obj
+ 0001:000013d0       ??I?$TIP@PAUIJGraphic@@@@QAEPAPAUIJGraphic@@XZ 100023d0 f i mousesrv.obj
+ 0001:000013f0       ??1?$_com_ptr_t@V?$_com_IIID@UIJGraphic@@$1?_GUID_f073d730_cee6_11cd_8ba4_08003624fc01@@3U__s_GUID@@B@@@@QAE@XZ 100023f0 f i mousesrv.obj
+ 0001:000013f0       ??1?$_com_ptr_t@V?$_com_IIID@UIDispatch@@$1?_GUID_00020400_0000_0000_c000_000000000046@@3U__s_GUID@@B@@@@QAE@XZ 100023f0 f i mousesrv.obj
+ 0001:000013f0       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 100023f0 f i mousesrv.obj
+ 0001:00001400       ??_GJOleObjectFactory@@UAEPAXI@Z 10002400 f i mousesrv.obj
+ 0001:00001400       ??_EJOleObjectFactory@@UAEPAXI@Z 10002400 f i mousesrv.obj
+ 0001:00001550       ??1smartMouseService@@MAE@XZ 10002550 f   mousesrv.obj
+ 0001:00001700       ?SetView@smartMouseService@@IAEJPAUIJView@@@Z 10002700 f   mousesrv.obj
+ 0001:00001800       ?ResetKeyPoint@smartMouseService@@IAEXXZ 10002800 f   mousesrv.obj
+ 0001:00001840       ?SetCustomCursor@smartMouseService@@IAEJI@Z 10002840 f   mousesrv.obj
+ 0001:000018b0       ?DisplayDynamicElements@smartMouseService@@IAEJHNN@Z 100028b0 f   mousesrv.obj
+ 0001:00001c00       ?setDynamicsState@smartMouseService@@IAEXJJNN@Z 10002c00 f   mousesrv.obj
+ 0001:00001d60       ?put_DynamicsMode@XSMProperties@smartMouseService@@UAGJJ@Z 10002d60 f   mousesrv.obj
+ 0001:00001dd0       ?Register@XSMProperties@smartMouseService@@UAGJPAUIJVBMouseControlEvents@@@Z 10002dd0 f   mousesrv.obj
+ 0001:00001e40       ?RegisterLocateCallback@XSMProperties@smartMouseService@@UAGJPAUIJVBMouseControlLocateFilterEvents@@@Z 10002e40 f   mousesrv.obj
+ 0001:00001eb0       ?SetCursor@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@PAUHWND__@@II@Z 10002eb0 f   mousesrv.obj
+ 0001:00001f00       ??0smartMouseService@@IAE@XZ 10002f00 f   mousesrv.obj
+ 0001:00002440       ??_EsmartMouseService@@MAEPAXI@Z 10003440 f i mousesrv.obj
+ 0001:00002440       ??_GsmartMouseService@@MAEPAXI@Z 10003440 f i mousesrv.obj
+ 0001:00002460       ?doWakeup@smartMouseService@@IAEJXZ 10003460 f   mousesrv.obj
+ 0001:00002760       ?doSleep@smartMouseService@@IAEJXZ 10003760 f   mousesrv.obj
+ 0001:00002870       ?doTerminate@smartMouseService@@IAEJXZ 10003870 f   mousesrv.obj
+ 0001:000029b0       ?doTransition@smartMouseService@@IAEJXZ 100039b0 f   mousesrv.obj
+ 0001:00002b70       ?Wakeup@XSMMouseService@smartMouseService@@UAGJXZ 10003b70 f   mousesrv.obj
+ 0001:00002b90       ?Sleep@XSMMouseService@smartMouseService@@UAGJXZ 10003b90 f   mousesrv.obj
+ 0001:00002bb0       ?Terminate@XSMMouseService@smartMouseService@@UAGJXZ 10003bb0 f   mousesrv.obj
+ 0001:00002bd0       ??$?9V?$_com_IIID@UIJGraphic@@$1?_GUID_f073d730_cee6_11cd_8ba4_08003624fc01@@3U__s_GUID@@B@@@@YA_NHAAV?$_com_ptr_t@V?$_com_IIID@UIJGraphic@@$1?_GUID_f073d730_cee6_11cd_8ba4_08003624fc01@@3U__s_GUID@@B@@@@@Z 10003bd0 f i mousesrv.obj
+ 0001:00002bf0       ?CreateObject@smartMouseService@@SGPAVCObject@@XZ 10003bf0 f   mousesrv.obj
+ 0001:00002c60       ?FireMouseValidateEvent@smartMouseService@@QAEHPAUIUnknown@@@Z 10003c60 f   mousesrv.obj
+ 0001:00002d80       ?ValidateHelper@@YAHPAXPAUIUnknown@@@Z 10003d80 f   mousesrv.obj
+ 0001:00002da0       ?SetOptionsForSmartLocate@smartMouseService@@IAEJXZ 10003da0 f   mousesrv.obj
+ 0001:000031a0       ?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 100041a0 f   mousesrv.obj
+ 0001:00003890       ?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 10004890 f   mousesrv.obj
+ 0001:00003a40       ?doMButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 10004a40 f   mousesrv.obj
+ 0001:00003b60       ?doMouseMove@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 10004b60 f   mousesrv.obj
+ 0001:00003f00       ?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z 10004f00 f   mousesrv.obj
+ 0001:00004c60       ?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z 10005c60 f   mousesrv.obj
+ 0001:000056ba       ?GetRuntimeClass@JHiliteElement@@UBEPAUCRuntimeClass@@XZ 100066ba f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056c0       ?Display@JHiliteElement@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 100066c0 f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056c6       ?Replace@JHiliteElement@@UAEJQAPAUIUnknown@@J@Z 100066c6 f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056cc       ?GetRuntimeClass@JDisplay2d@@UBEPAUCRuntimeClass@@XZ 100066cc f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056d2       ?OnFinalRelease@JSMHelper2d@@UAEXXZ 100066d2 f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056d8       ?SetupFeedBack@JSMHelper2d@@UAEJPAUIJView@@@Z 100066d8 f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056de       ?AddPinPoint@JSMHelper2d@@UAEJXZ 100066de f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056e4       ?IsPinPointInstalled@JSMHelper2d@@UAE_NXZ 100066e4 f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056ea       ?SetHome@JSMHelper2d@@UAEJXZ 100066ea f   cmdsp2d:CMDSPT2D.dll
+ 0001:000056f0       ?OnFinalRelease@JDisplayBaseList@@UAEXXZ 100066f0 f   displst:Displst.dll
+ 0001:000056f6       ?GetInterfaceMap@JDisplayBaseList@@MBEPBUAFX_INTERFACEMAP@@XZ 100066f6 f   displst:Displst.dll
+ 0001:000056fc       ?Initialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 100066fc f   displst:Displst.dll
+ 0001:00005702       ?SetView@JDisplayBaseList@@UAEJPAUIJView@@H@Z 10006702 f   displst:Displst.dll
+ 0001:00005708       ?SetPriority@JDisplayBaseList@@UAEJH@Z 10006708 f   displst:Displst.dll
+ 0001:0000570e       ?SetTransform@JDisplayBaseList@@UAEJPAUtagG4x4@@@Z 1000670e f   displst:Displst.dll
+ 0001:00005714       ?GetHilitePlaneId@JDisplayBaseList@@UAEJPAK@Z 10006714 f   displst:Displst.dll
+ 0001:0000571a       ?UnInitialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 1000671a f   displst:Displst.dll
+ 0001:00005720       ?GetListType@JDisplayBaseList@@MAEJPAK@Z 10006720 f   displst:Displst.dll
+ 0001:00005726       ?BatchPreModify@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10006726 f   displst:Displst.dll
+ 0001:0000572c       ?BatchEvaluate@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 1000672c f   displst:Displst.dll
+ 0001:00005732       ?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 10006732 f   displst:Displst.dll
+ 0001:00005738       ?BeginGraphicContext@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 10006738 f   displst:Displst.dll
+ 0001:0000573e       ?EndGraphicContext@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 1000673e f   displst:Displst.dll
+ 0001:00005744       ?Cleanup@JDisplayElementBase@@MAEJXZ 10006744 f   displst:Displst.dll
+ 0001:0000574a       ?PreDraw@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 1000674a f   displst:Displst.dll
+ 0001:00005750       ?RenderElement@JDisplayBaseList@@MAEJPAVJGraphicContext@@PAUIJGraphic@@@Z 10006750 f   displst:Displst.dll
+ 0001:00005756       ?SetIncrementalDisplay@JDisplayBaseList@@MAEJH@Z 10006756 f   displst:Displst.dll
+ 0001:0000575c       ?Add@JDisplayElementBase@@UAEJHH@Z 1000675c f   displst:Displst.dll
+ 0001:00005762       ?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10006762 f   displst:Displst.dll
+ 0001:00005768       ?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10006768 f   displst:Displst.dll
+ 0001:0000576e       ?RemoveAll@JDisplayElementBase@@UAEJH@Z 1000676e f   displst:Displst.dll
+ 0001:00005774       ?Display@JDisplayGType2d@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 10006774 f   displst:Displst.dll
+ 0001:0000577a       ?EnumEntries@JDisplayBaseList@@MAEJPAPAUIEnumUnknown@@@Z 1000677a f   displst:Displst.dll
+ 0001:00005780       ?Cleanup@JDisplayBaseList@@MAEJXZ 10006780 f   displst:Displst.dll
+ 0001:00005786       ?StrokeElement@JDisplayGType2d@@MAEJPAVJGraphicContext@@PATtagGCurve2d@@EW4JDisplayStyleType@1@W4JDisplayWeight@1@K@Z 10006786 f   displst:Displst.dll
+ 0001:0000578c       ?RememberElements@JDisplayGType2d@@MAEJQATtagGCurve2d@@QAEHPAW4JDisplayStyleType@1@PAW4JDisplayWeight@1@PAK@Z 1000678c f   displst:Displst.dll
+ 0001:00005792       ?GetActiveRange@JDisplayGType2d@@MAEJPAUtagGBox@@PAUtagJFUZZDEFN@@PAH@Z 10006792 f   displst:Displst.dll
+ 0001:00005798       _BatchFlush@0              10006798 f   jengine:jengine.dll
+ 0001:0000579e       _ConstructGraphicContext@12 1000679e f   jengine:jengine.dll
+ 0001:000057a4       @GetPersistManager@8       100067a4 f   jengine:jengine.dll
+ 0001:000057aa       _JFreeLibrary              100067aa f   jutil:JUtil.dll
+ 0001:000057b0       _HRerrEx                   100067b0 f   jutil:JUtil.dll
+ 0001:000057b6       _JCoCreateInstance         100067b6 f   jutil:JUtil.dll
+ 0001:000057c0       _IsEqualGUID               100067c0 f i skcmdspt:SMHELPER.obj
+ 0001:00005890       ?_GetBaseClass@SkSMHelper@@KGPAUCRuntimeClass@@XZ 10006890 f   skcmdspt:SMHELPER.obj
+ 0001:000058a0       ?GetThisClass@SkSMHelper@@SGPAUCRuntimeClass@@XZ 100068a0 f   skcmdspt:SMHELPER.obj
+ 0001:000058a0       ?GetRuntimeClass@SkSMHelper@@UBEPAUCRuntimeClass@@XZ 100068a0 f   skcmdspt:SMHELPER.obj
+ 0001:000058b0       ??1SkSMHelper@@UAE@XZ      100068b0 f   skcmdspt:SMHELPER.obj
+ 0001:00005900       ?AddToList@@YAXQAPAUtagConstraintInfo@@PAHU_GUID@@KH@Z 10006900 f   skcmdspt:SMHELPER.obj
+ 0001:000059d0       ?GetSolver@SkSMHelper@@UAEJPAPAUIJRelationSolver@@@Z 100069d0 f   skcmdspt:SMHELPER.obj
+ 0001:000059e0       ?SetConstraintBmpColor@SkSMHelper@@UAEJXZ 100069e0 f   skcmdspt:SMHELPER.obj
+ 0001:00005ac0       ?SetLocateTolerance@SkSMHelper@@UAEJXZ 10006ac0 f   skcmdspt:SMHELPER.obj
+ 0001:00005b60       ?SetDefaultInfo@SkSMHelper@@UAEJXZ 10006b60 f   skcmdspt:SMHELPER.obj
+ 0001:00005ea0       ?Locate@SkSMHelper@@QAEJPAUIJView@@VCPoint@@HK@Z 10006ea0 f   skcmdspt:SMHELPER.obj
+ 0001:00005f20       ?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z 10006f20 f   skcmdspt:SMHELPER.obj
+ 0001:00006060       ?InstallPinPointRelations@SkSMHelper@@EAEJXZ 10007060 f   skcmdspt:SMHELPER.obj
+ 0001:00006190       ?RemovePinPointRelations@SkSMHelper@@EAEJXZ 10007190 f   skcmdspt:SMHELPER.obj
+ 0001:000062c0       ?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z 100072c0 f   skcmdspt:SMHELPER.obj
+ 0001:00006390       ?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z 10007390 f   skcmdspt:SMHELPER.obj
+ 0001:000064d0       ?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 100074d0 f   skcmdspt:SMHELPER.obj
+ 0001:000065c0       ?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z 100075c0 f   skcmdspt:SMHELPER.obj
+ 0001:00006690       ?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10007690 f   skcmdspt:SMHELPER.obj
+ 0001:00006780       ?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z 10007780 f   skcmdspt:SMHELPER.obj
+ 0001:00006860       ??0SkConstraintHelper@@QAE@XZ 10007860 f   skcmdspt:SMHELPER.obj
+ 0001:000068c0       ??1SkConstraintHelper@@UAE@XZ 100078c0 f   skcmdspt:SMHELPER.obj
+ 0001:00006910       ?Commit@SkConstraintHelper@@UAEJPAUIJView@@H@Z 10007910 f   skcmdspt:SMHELPER.obj
+ 0001:00006a20       ?Commit@SkConstraintHelper@@UAEJPAUIJView@@PAUIUnknown@@HH@Z 10007a20 f   skcmdspt:SMHELPER.obj
+ 0001:00006b40       ??_GSkSMHelper@@UAEPAXI@Z  10007b40 f i skcmdspt:SMHELPER.obj
+ 0001:00006b40       ??_ESkSMHelper@@UAEPAXI@Z  10007b40 f i skcmdspt:SMHELPER.obj
+ 0001:00006b60       ?DefaultConstraintClasses@SkSMHelper@@QAEJXZ 10007b60 f   skcmdspt:SMHELPER.obj
+ 0001:00007410       ??_ESkConstraintHelper@@UAEPAXI@Z 10008410 f i skcmdspt:SMHELPER.obj
+ 0001:00007410       ??_GSkConstraintHelper@@UAEPAXI@Z 10008410 f i skcmdspt:SMHELPER.obj
+ 0001:00007430       ?ReleaseConstraintsWithoutUnhooking@SkConstraintHelper@@UAEXXZ 10008430 f   skcmdspt:SMHELPER.obj
+ 0001:00007470       ??0SkSMHelper@@QAE@XZ      10008470 f   skcmdspt:SMHELPER.obj
+ 0001:000074f0       ?CreateObject@SkSMHelper@@SGPAVCObject@@XZ 100084f0 f   skcmdspt:SMHELPER.obj
+ 0001:00007552       _IMRectByPtPt2d            10008552 f   ugeom2d:ugeom2d.dll
+ 0001:00007558       _IMLineByPtPt2d            10008558 f   ugeom2d:ugeom2d.dll
+ 0001:0000755e       _IMEllipseByCtrMajMinRot2d 1000855e f   ugeom2d:ugeom2d.dll
+ 0001:00007564       ?IsEqual@tagGPosition2d@@QBEHABU1@@Z 10008564 f   umath:umath.dll
+ 0001:0000756a       ?GetDistanceTolerance@@YA?BNXZ 1000856a f   umath:umath.dll
+ 0001:00007570       ??3@YAXPAX@Z               10008570 f   mfc80:MFC80.DLL
+ 0001:00007576       ?AfxDeactivateActCtx@@YGHKK@Z 10008576 f   mfc80:MFC80.DLL
+ 0001:0000757c       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000857c f   mfc80:MFC80.DLL
+ 0001:00007582       ?RegisterAll@COleObjectFactory@@SGHXZ 10008582 f   mfc80:MFC80.DLL
+ 0001:00007588       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 10008588 f   mfc80:MFC80.DLL
+ 0001:0000758e       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000858e f   mfc80:MFC80.DLL
+ 0001:00007594       ?AfxDllGetClassObject@@YGJABU_GUID@@0PAPAX@Z 10008594 f   mfc80:MFC80.DLL
+ 0001:0000759a       ??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1000859a f   mfc80:MFC80.DLL
+ 0001:000075a0       ?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 100085a0 f   mfc80:MFC80.DLL
+ 0001:000075a6       ?AfxDllCanUnloadNow@@YGJXZ 100085a6 f   mfc80:MFC80.DLL
+ 0001:000075ac       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 100085ac f   mfc80:MFC80.DLL
+ 0001:000075b2       ?GetThisInterfaceMap@CCmdTarget@@KGPBUAFX_INTERFACEMAP@@XZ 100085b2 f   mfc80:MFC80.DLL
+ 0001:000075b8       ??1COleObjectFactory@@UAE@XZ 100085b8 f   mfc80:MFC80.DLL
+ 0001:000075be       ??0COleObjectFactory@@QAE@ABU_GUID@@PAUCRuntimeClass@@HPBD@Z 100085be f   mfc80:MFC80.DLL
+ 0001:000075c4       ?GetRuntimeClass@COleObjectFactory@@UBEPAUCRuntimeClass@@XZ 100085c4 f   mfc80:MFC80.DLL
+ 0001:000075ca       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 100085ca f   mfc80:MFC80.DLL
+ 0001:000075d0       ?OnFinalRelease@CCmdTarget@@UAEXXZ 100085d0 f   mfc80:MFC80.DLL
+ 0001:000075d6       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 100085d6 f   mfc80:MFC80.DLL
+ 0001:000075dc       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 100085dc f   mfc80:MFC80.DLL
+ 0001:000075e2       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 100085e2 f   mfc80:MFC80.DLL
+ 0001:000075e8       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 100085e8 f   mfc80:MFC80.DLL
+ 0001:000075ee       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 100085ee f   mfc80:MFC80.DLL
+ 0001:000075f4       ?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 100085f4 f   mfc80:MFC80.DLL
+ 0001:000075fa       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 100085fa f   mfc80:MFC80.DLL
+ 0001:00007600       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 10008600 f   mfc80:MFC80.DLL
+ 0001:00007606       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 10008606 f   mfc80:MFC80.DLL
+ 0001:0000760c       ?GetInterfaceMap@COleObjectFactory@@MBEPBUAFX_INTERFACEMAP@@XZ 1000860c f   mfc80:MFC80.DLL
+ 0001:00007612       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 10008612 f   mfc80:MFC80.DLL
+ 0001:00007618       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 10008618 f   mfc80:MFC80.DLL
+ 0001:0000761e       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000861e f   mfc80:MFC80.DLL
+ 0001:00007624       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 10008624 f   mfc80:MFC80.DLL
+ 0001:0000762a       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000862a f   mfc80:MFC80.DLL
+ 0001:00007630       ?Register@COleObjectFactory@@UAEHXZ 10008630 f   mfc80:MFC80.DLL
+ 0001:00007636       ?UpdateRegistry@COleObjectFactory@@MAEHH@Z 10008636 f   mfc80:MFC80.DLL
+ 0001:0000763c       ?VerifyUserLicense@COleObjectFactory@@MAEHXZ 1000863c f   mfc80:MFC80.DLL
+ 0001:00007642       ?GetLicenseKey@COleObjectFactory@@MAEHKPAPA_W@Z 10008642 f   mfc80:MFC80.DLL
+ 0001:00007648       ?VerifyLicenseKey@COleObjectFactory@@MAEHPA_W@Z 10008648 f   mfc80:MFC80.DLL
+ 0001:0000764e       ?OnCreateObject@COleObjectFactory@@MAEPAVCCmdTarget@@XZ 1000864e f   mfc80:MFC80.DLL
+ 0001:00007654       ?ExternalAddRef@CCmdTarget@@QAEKXZ 10008654 f   mfc80:MFC80.DLL
+ 0001:0000765a       ?ExternalRelease@CCmdTarget@@QAEKXZ 1000865a f   mfc80:MFC80.DLL
+ 0001:00007660       ?ExternalQueryInterface@CCmdTarget@@QAEKPBXPAPAX@Z 10008660 f   mfc80:MFC80.DLL
+ 0001:00007666       ??_V@YAXPAX@Z              10008666 f   mfc80:MFC80.DLL
+ 0001:0000766c       _malloc                    1000866c f   msvcrt:MSVCR80.dll
+ 0001:00007672       __callnewh                 10008672 f   msvcrt:MSVCR80.dll
+ 0001:00007678       ??_Etype_info@@UAEPAXI@Z   10008678 f i msvcrt:ti_inst.obj
+ 0001:000076c2       ___CxxFrameHandler3        100086c2 f   msvcrt:MSVCR80.dll
+ 0001:000076c8       @__security_check_cookie@4 100086c8 f   msvcrt:secchk.obj
+ 0001:000076d7       __except_handler4          100086d7 f   msvcrt:chandler4gs.obj
+ 0001:00007700       __alloca_probe_16          10008700 f   msvcrt:alloca16.obj
+ 0001:00007716       __alloca_probe_8           10008716     msvcrt:alloca16.obj
+ 0001:00007730       __allmul                   10008730 f   msvcrt:llmul.obj
+ 0001:00007770       _memset                    10008770 f   msvcrt:MSVCR80.dll
+ 0001:00007776       __CIsqrt                   10008776 f   msvcrt:MSVCR80.dll
+ 0001:0000777c       __onexit                   1000877c f   msvcrt:atonexit.obj
+ 0001:0000781b       _atexit                    1000881b f   msvcrt:atonexit.obj
+ 0001:0000787a       __CRT_INIT@12              1000887a f   msvcrt:crtdll.obj
+ 0001:00007b2f       __DllMainCRTStartup@12     10008b2f f   msvcrt:crtdll.obj
+ 0001:00007b50       __SEH_prolog4_GS           10008b50 f   msvcrt:sehprolg4gs.obj
+ 0001:00007b98       __SEH_epilog4_GS           10008b98 f   msvcrt:sehprolg4gs.obj
+ 0001:00007ba7       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10008ba7 f   msvcrt:ehvecdtr.obj
+ 0001:00007c05       ??_M@YGXPAXIHP6EX0@Z@Z     10008c05 f   msvcrt:ehvecdtr.obj
+ 0001:00007c68       ___report_gsfailure        10008c68 f   msvcrt:gs_report.obj
+ 0001:00007d6c       __except_handler4_common   10008d6c f   msvcrt:MSVCR80.dll
+ 0001:00007d80       __alloca_probe             10008d80     msvcrt:chkstk.obj
+ 0001:00007d80       __chkstk                   10008d80 f   msvcrt:chkstk.obj
+ 0001:00007dac       __unlock                   10008dac f   msvcrt:MSVCR80.dll
+ 0001:00007db2       ___dllonexit               10008db2 f   msvcrt:MSVCR80.dll
+ 0001:00007db8       __lock                     10008db8 f   msvcrt:MSVCR80.dll
+ 0001:00007dc0       __SEH_prolog4              10008dc0 f   msvcrt:sehprolg4.obj
+ 0001:00007e05       __SEH_epilog4              10008e05 f   msvcrt:sehprolg4.obj
+ 0001:00007e19       ___clean_type_info_names   10008e19 f   msvcrt:tncleanup.obj
+ 0001:00007e25       __RTC_Initialize           10008e25 f   msvcrt:initsect.obj
+ 0001:00007e49       __RTC_Terminate            10008e49 f   msvcrt:initsect.obj
+ 0001:00007e70       __ValidateImageBase        10008e70 f   msvcrt:pesect.obj
+ 0001:00007ea0       __FindPESection            10008ea0 f   msvcrt:pesect.obj
+ 0001:00007ee2       __IsNonwritableInCurrentImage 10008ee2 f   msvcrt:pesect.obj
+ 0001:00007f4e       __initterm                 10008f4e f   msvcrt:MSVCR80.dll
+ 0001:00007f54       __initterm_e               10008f54 f   msvcrt:MSVCR80.dll
+ 0001:00007f5a       __amsg_exit                10008f5a f   msvcrt:MSVCR80.dll
+ 0001:00007f60       ___CppXcptFilter           10008f60 f   msvcrt:MSVCR80.dll
+ 0001:00007f66       ___security_init_cookie    10008f66 f   msvcrt:gs_support.obj
+ 0001:00007ffa       ?terminate@@YAXXZ          10008ffa f   msvcrt:MSVCR80.dll
+ 0001:00008000       ??1type_info@@UAE@XZ       10009000 f   msvcrt:MSVCR80.dll
+ 0001:00008000       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10009000 f   msvcrt:MSVCR80.dll
+ 0001:00008006       __crt_debugger_hook        10009006 f   msvcrt:MSVCR80.dll
+ 0001:0000800c       ___clean_type_info_names_internal 1000900c f   msvcrt:MSVCR80.dll
+ 0001:00008020       ?_com_issue_error@@YGXJ@Z  10009020 f   comsuppw:comsupp.obj
+ 0001:00008030       ??1_com_error@@UAE@XZ      10009030 f i comsuppw:comraise.obj
+ 0001:00008060       ?_com_raise_error@@YGXJPAUIErrorInfo@@@Z 10009060 f   comsuppw:comraise.obj
+ 0001:000080a0       ??0_com_error@@QAE@ABV0@@Z 100090a0 f i comsuppw:comraise.obj
+ 0001:000080e0       ??_G_com_error@@UAEPAXI@Z  100090e0 f i comsuppw:comraise.obj
+ 0001:000080e0       ??_E_com_error@@UAEPAXI@Z  100090e0 f i comsuppw:comraise.obj
+ 0001:0000811c       ?_AtlGetThreadACPFake@ATL@@YGIXZ 1000911c f i atls:atltrace.obj
+ 0001:00008181       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10009181 f i atls:atltrace.obj
+ 0001:00008185       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10009185 f i atls:atltrace.obj
+ 0001:000081ea       ?GetInterfaceMap@JSMHelper2d@@MBEPBUAFX_INTERFACEMAP@@XZ 100091ea f   cmdsp2d:CMDSPT2D.dll
+ 0001:000081f0       _GetDcmImp                 100091f0 f   dcm_imp:DCM_IMP.dll
+ 0001:000081f6       _DCMTurnOnNeedExcludeFromCnstrProcess 100091f6 f   dcm_imp:DCM_IMP.dll
+ 0001:000081fc       _DCMNeedExcludeFromCnstrProcess 100091fc f   dcm_imp:DCM_IMP.dll
+ 0001:00008202       _JLoadLibrary              10009202 f   jutil:JUtil.dll
+ 0001:00008208       __CxxThrowException@8      10009208 f   msvcrt:MSVCR80.dll
+ 0002:00000000       __imp_??0JSmartLocate2d@@QAE@XZ 1000a000     cmdsp2d:CMDSPT2D.dll
+ 0002:00000004       __imp_??0JDisplay2d@@QAE@XZ 1000a004     cmdsp2d:CMDSPT2D.dll
+ 0002:00000008       __imp_??0JHiliteElement@@QAE@XZ 1000a008     cmdsp2d:CMDSPT2D.dll
+ 0002:0000000c       __imp_?Initialize@JSMHelper2d@@QAEKXZ 1000a00c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000010       __imp_?SetPlacementMode@JSMHelper2d@@QAEJH@Z 1000a010     cmdsp2d:CMDSPT2D.dll
+ 0002:00000014       __imp_?GetRuntimeClass@JHiliteElement@@UBEPAUCRuntimeClass@@XZ 1000a014     cmdsp2d:CMDSPT2D.dll
+ 0002:00000018       __imp_?Display@JHiliteElement@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 1000a018     cmdsp2d:CMDSPT2D.dll
+ 0002:0000001c       __imp_?Replace@JHiliteElement@@UAEJQAPAUIUnknown@@J@Z 1000a01c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000020       __imp_?GetRuntimeClass@JDisplay2d@@UBEPAUCRuntimeClass@@XZ 1000a020     cmdsp2d:CMDSPT2D.dll
+ 0002:00000024       __imp_??1JHiliteElement@@UAE@XZ 1000a024     cmdsp2d:CMDSPT2D.dll
+ 0002:00000028       __imp_??1JDisplay2d@@UAE@XZ 1000a028     cmdsp2d:CMDSPT2D.dll
+ 0002:0000002c       __imp_??1JSmartLocate2d@@QAE@XZ 1000a02c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000030       __imp_?DCToModel@@YAJPAUIJView@@ABUtagPOINT@@PAUtagGPosition2d@@@Z 1000a030     cmdsp2d:CMDSPT2D.dll
+ 0002:00000034       __imp_?ClearHighlight@JSmartLocate2d@@QAEJXZ 1000a034     cmdsp2d:CMDSPT2D.dll
+ 0002:00000038       __imp_?Clear@JSMHelper2d@@QAEJXZ 1000a038     cmdsp2d:CMDSPT2D.dll
+ 0002:0000003c       __imp_?OnFinalRelease@JSMHelper2d@@UAEXXZ 1000a03c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000040       __imp_?SetupFeedBack@JSMHelper2d@@UAEJPAUIJView@@@Z 1000a040     cmdsp2d:CMDSPT2D.dll
+ 0002:00000044       __imp_?AddPinPoint@JSMHelper2d@@UAEJXZ 1000a044     cmdsp2d:CMDSPT2D.dll
+ 0002:00000048       __imp_?IsPinPointInstalled@JSMHelper2d@@UAE_NXZ 1000a048     cmdsp2d:CMDSPT2D.dll
+ 0002:0000004c       __imp_?SetHome@JSMHelper2d@@UAEJXZ 1000a04c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000050       __imp_??1JDSLSelectCntl@@UAE@XZ 1000a050     cmdsp2d:CMDSPT2D.dll
+ 0002:00000054       __imp_??_7JDSLSelectCntl@@6B@ 1000a054     cmdsp2d:CMDSPT2D.dll
+ 0002:00000058       __imp_?ShowConstraintBitmaps@JSMHelper2d@@QAEJPAUIJView@@@Z 1000a058     cmdsp2d:CMDSPT2D.dll
+ 0002:0000005c       __imp_?RestoreBitmap@JSMHelper2d@@QAEJXZ 1000a05c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000060       __imp_?Release@JConstraintHelper2d@@QAEJXZ 1000a060     cmdsp2d:CMDSPT2D.dll
+ 0002:00000064       __imp_?GetGeoms@JConstraintHelper2d@@QAEJHHQAUSobject_keypoint@@PAH@Z 1000a064     cmdsp2d:CMDSPT2D.dll
+ 0002:00000068       __imp_?GetConstraintsType@JConstraintHelper2d@@QAEJPAW4CS_constraint_type@@0@Z 1000a068     cmdsp2d:CMDSPT2D.dll
+ 0002:0000006c       __imp_?SetTarget@JSMHelper2d@@QAEJPAUIUnknown@@@Z 1000a06c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000070       __imp_?Evaluate@JSMHelper2d@@QAEJPAUIJView@@PAU_IJDocument@@PAUtagGPosition2d@@PAVJConstraintHelper2d@@H@Z 1000a070     cmdsp2d:CMDSPT2D.dll
+ 0002:00000074       __imp_?SetOverrideContext@JSmartLocate2d@@QAEJPAVJGraphicContext@@@Z 1000a074     cmdsp2d:CMDSPT2D.dll
+ 0002:00000078       __imp_?SetPlane3DContext@JSmartLocate2d@@QAEXH@Z 1000a078     cmdsp2d:CMDSPT2D.dll
+ 0002:0000007c       __imp_?SetInterfaceArray@JSmartLocate2d@@QAEJPAPAU_GUID@@K@Z 1000a07c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000080       __imp_?SetLocateBorelineRadius@JSmartLocate2d@@QAEJH@Z 1000a080     cmdsp2d:CMDSPT2D.dll
+ 0002:00000084       __imp_?SetLocateMethod@JSmartLocate2d@@QAEJH@Z 1000a084     cmdsp2d:CMDSPT2D.dll
+ 0002:00000088       __imp_?SetupSmartLocate@JSmartLocate2d@@QAEJHHHPAUIJView@@HPAXP6AH1PAUIUnknown@@@Z@Z 1000a088     cmdsp2d:CMDSPT2D.dll
+ 0002:0000008c       __imp_?SetSelCtlUp@JSmartLocate2d@@QAEXH@Z 1000a08c     cmdsp2d:CMDSPT2D.dll
+ 0002:00000090       __imp_?ClickLocate@JSmartLocate2d@@QAEJPAUIJView@@VCPoint@@PAHPAPAPAUIJGraphic@@PAKPAPAHPAPANH@Z 1000a090     cmdsp2d:CMDSPT2D.dll
+ 0002:00000094       __imp_?MoveLocate@JSmartLocate2d@@QAEJPAUIJView@@VCPoint@@@Z 1000a094     cmdsp2d:CMDSPT2D.dll
+ 0002:00000098       __imp_?GetSmartLocateHighlightedElementsList@JSmartLocate2d@@QAEJPAPAUIUnknown@@AAH@Z 1000a098     cmdsp2d:CMDSPT2D.dll
+ 0002:0000009c       __imp_?GetSmartLocateHighlightedElementsListSize@JSmartLocate2d@@QAEHXZ 1000a09c     cmdsp2d:CMDSPT2D.dll
+ 0002:000000a0       __imp_?ModelToDC@@YAJPAUIJView@@ABUtagGPosition2d@@PAUtagPOINT@@@Z 1000a0a0     cmdsp2d:CMDSPT2D.dll
+ 0002:000000a4       __imp_?ClickOverSelectionControl@JSmartLocate2d@@QAEJIPAPAUIJGraphic@@PAHPAN@Z 1000a0a4     cmdsp2d:CMDSPT2D.dll
+ 0002:000000a8       __imp_?MoveOverSelectionControl@JSmartLocate2d@@QAEJI@Z 1000a0a8     cmdsp2d:CMDSPT2D.dll
+ 0002:000000ac       __imp_?PauseLocate@JSmartLocate2d@@QAEJPAUIJView@@VCPoint@@PAK@Z 1000a0ac     cmdsp2d:CMDSPT2D.dll
+ 0002:000000b0       __imp_?GetThisClass@JSMHelper2d@@SGPAUCRuntimeClass@@XZ 1000a0b0     cmdsp2d:CMDSPT2D.dll
+ 0002:000000b4       __imp_??1JSMHelper2d@@UAE@XZ 1000a0b4     cmdsp2d:CMDSPT2D.dll
+ 0002:000000b8       __imp_?GetInterfaceMap@JSMHelper2d@@MBEPBUAFX_INTERFACEMAP@@XZ 1000a0b8     cmdsp2d:CMDSPT2D.dll
+ 0002:000000bc       __imp_?Locate@JSMHelper2d@@QAEJPAUIJView@@VCPoint@@K@Z 1000a0bc     cmdsp2d:CMDSPT2D.dll
+ 0002:000000c0       __imp_??1JConstraintHelper2d@@UAE@XZ 1000a0c0     cmdsp2d:CMDSPT2D.dll
+ 0002:000000c4       __imp_??0JConstraintHelper2d@@QAE@XZ 1000a0c4     cmdsp2d:CMDSPT2D.dll
+ 0002:000000c8       __imp_?Commit@JConstraintHelper2d@@UAEJPAUIJView@@H@Z 1000a0c8     cmdsp2d:CMDSPT2D.dll
+ 0002:000000cc       __imp_?Release0@JConstraintHelper2d@@QAEJXZ 1000a0cc     cmdsp2d:CMDSPT2D.dll
+ 0002:000000d0       __imp_?Release1@JConstraintHelper2d@@QAEJXZ 1000a0d0     cmdsp2d:CMDSPT2D.dll
+ 0002:000000d4       __imp_?Commit@JConstraintHelper2d@@UAEJPAUIJView@@PAUIUnknown@@HH@Z 1000a0d4     cmdsp2d:CMDSPT2D.dll
+ 0002:000000d8       __imp_??0JSMHelper2d@@QAE@XZ 1000a0d8     cmdsp2d:CMDSPT2D.dll
+ 0002:000000dc       \177CMDSPT2D_NULL_THUNK_DATA 1000a0dc     cmdsp2d:CMDSPT2D.dll
+ 0002:000000e0       __imp__DCMTurnOnNeedExcludeFromCnstrProcess 1000a0e0     dcm_imp:DCM_IMP.dll
+ 0002:000000e4       __imp__GetDcmImp           1000a0e4     dcm_imp:DCM_IMP.dll
+ 0002:000000e8       __imp__DCMNeedExcludeFromCnstrProcess 1000a0e8     dcm_imp:DCM_IMP.dll
+ 0002:000000ec       \177DCM_IMP_NULL_THUNK_DATA 1000a0ec     dcm_imp:DCM_IMP.dll
+ 0002:000000f0       __imp_?OnFinalRelease@JDisplayBaseList@@UAEXXZ 1000a0f0     displst:Displst.dll
+ 0002:000000f4       __imp_?GetInterfaceMap@JDisplayBaseList@@MBEPBUAFX_INTERFACEMAP@@XZ 1000a0f4     displst:Displst.dll
+ 0002:000000f8       __imp_?Initialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 1000a0f8     displst:Displst.dll
+ 0002:000000fc       __imp_?SetView@JDisplayBaseList@@UAEJPAUIJView@@H@Z 1000a0fc     displst:Displst.dll
+ 0002:00000100       __imp_?SetPriority@JDisplayBaseList@@UAEJH@Z 1000a100     displst:Displst.dll
+ 0002:00000104       __imp_?SetTransform@JDisplayBaseList@@UAEJPAUtagG4x4@@@Z 1000a104     displst:Displst.dll
+ 0002:00000108       __imp_?GetHilitePlaneId@JDisplayBaseList@@UAEJPAK@Z 1000a108     displst:Displst.dll
+ 0002:0000010c       __imp_?UnInitialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 1000a10c     displst:Displst.dll
+ 0002:00000110       __imp_?GetListType@JDisplayBaseList@@MAEJPAK@Z 1000a110     displst:Displst.dll
+ 0002:00000114       __imp_?BatchPreModify@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 1000a114     displst:Displst.dll
+ 0002:00000118       __imp_?BatchEvaluate@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 1000a118     displst:Displst.dll
+ 0002:0000011c       __imp_?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 1000a11c     displst:Displst.dll
+ 0002:00000120       __imp_?BeginGraphicContext@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 1000a120     displst:Displst.dll
+ 0002:00000124       __imp_?EndGraphicContext@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 1000a124     displst:Displst.dll
+ 0002:00000128       __imp_?Cleanup@JDisplayElementBase@@MAEJXZ 1000a128     displst:Displst.dll
+ 0002:0000012c       __imp_?PreDraw@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 1000a12c     displst:Displst.dll
+ 0002:00000130       __imp_?RenderElement@JDisplayBaseList@@MAEJPAVJGraphicContext@@PAUIJGraphic@@@Z 1000a130     displst:Displst.dll
+ 0002:00000134       __imp_?SetIncrementalDisplay@JDisplayBaseList@@MAEJH@Z 1000a134     displst:Displst.dll
+ 0002:00000138       __imp_?Add@JDisplayElementBase@@UAEJHH@Z 1000a138     displst:Displst.dll
+ 0002:0000013c       __imp_?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 1000a13c     displst:Displst.dll
+ 0002:00000140       __imp_?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 1000a140     displst:Displst.dll
+ 0002:00000144       __imp_?RemoveAll@JDisplayElementBase@@UAEJH@Z 1000a144     displst:Displst.dll
+ 0002:00000148       __imp_?Display@JDisplayGType2d@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 1000a148     displst:Displst.dll
+ 0002:0000014c       __imp_?EnumEntries@JDisplayBaseList@@MAEJPAPAUIEnumUnknown@@@Z 1000a14c     displst:Displst.dll
+ 0002:00000150       __imp_?Cleanup@JDisplayBaseList@@MAEJXZ 1000a150     displst:Displst.dll
+ 0002:00000154       __imp_?StrokeElement@JDisplayGType2d@@MAEJPAVJGraphicContext@@PATtagGCurve2d@@EW4JDisplayStyleType@1@W4JDisplayWeight@1@K@Z 1000a154     displst:Displst.dll
+ 0002:00000158       __imp_?RememberElements@JDisplayGType2d@@MAEJQATtagGCurve2d@@QAEHPAW4JDisplayStyleType@1@PAW4JDisplayWeight@1@PAK@Z 1000a158     displst:Displst.dll
+ 0002:0000015c       __imp_?GetActiveRange@JDisplayGType2d@@MAEJPAUtagGBox@@PAUtagJFUZZDEFN@@PAH@Z 1000a15c     displst:Displst.dll
+ 0002:00000160       __imp_?DisplayElement@JDisplayGType2d@@QAEJPAUIJView@@HPATtagGCurve2d@@EW4JDisplayStyleType@1@W4JDisplayWeight@1@K@Z 1000a160     displst:Displst.dll
+ 0002:00000164       __imp_?ClearElements@JDisplayGType2d@@QAEJPAUIJView@@H@Z 1000a164     displst:Displst.dll
+ 0002:00000168       __imp_??1JDisplayGType2d@@UAE@XZ 1000a168     displst:Displst.dll
+ 0002:0000016c       __imp_?DisplayElements@JDisplayGType2d@@QAEJPAUIJView@@HQATtagGCurve2d@@QAEHQAW4JDisplayStyleType@1@QAW4JDisplayWeight@1@QAK@Z 1000a16c     displst:Displst.dll
+ 0002:00000170       __imp_??0JDisplayGType2d@@QAE@XZ 1000a170     displst:Displst.dll
+ 0002:00000174       \177Displst_NULL_THUNK_DATA 1000a174     displst:Displst.dll
+ 0002:00000178       __imp__JLoadLibrary        1000a178     jutil:JUtil.dll
+ 0002:0000017c       __imp_??1GUserText@@QAE@XZ 1000a17c     jutil:JUtil.dll
+ 0002:00000180       __imp_??BGUserText@@QBEPBDXZ 1000a180     jutil:JUtil.dll
+ 0002:00000184       __imp_?LoadStringResource@GUserText@@QAEHQAUHINSTANCE__@@I@Z 1000a184     jutil:JUtil.dll
+ 0002:00000188       __imp_??0GUserText@@QAE@XZ 1000a188     jutil:JUtil.dll
+ 0002:0000018c       __imp_??0GUserText@@QAE@PB_WHH@Z 1000a18c     jutil:JUtil.dll
+ 0002:00000190       __imp__JCoCreateInstance   1000a190     jutil:JUtil.dll
+ 0002:00000194       __imp__HRerrEx             1000a194     jutil:JUtil.dll
+ 0002:00000198       __imp_?AttachLocaleResDLL@@YAPAUHINSTANCE__@@PAU1@PBDJKH@Z 1000a198     jutil:JUtil.dll
+ 0002:0000019c       __imp__JFreeLibrary        1000a19c     jutil:JUtil.dll
+ 0002:000001a0       \177JUtil_NULL_THUNK_DATA  1000a1a0     jutil:JUtil.dll
+ 0002:000001a4       __imp__GetSystemTimeAsFileTime@4 1000a1a4     kernel32:KERNEL32.dll
+ 0002:000001a8       __imp__GetCurrentProcessId@0 1000a1a8     kernel32:KERNEL32.dll
+ 0002:000001ac       __imp__GetCurrentThreadId@0 1000a1ac     kernel32:KERNEL32.dll
+ 0002:000001b0       __imp__GetTickCount@0      1000a1b0     kernel32:KERNEL32.dll
+ 0002:000001b4       __imp__GetThreadLocale@0   1000a1b4     kernel32:KERNEL32.dll
+ 0002:000001b8       __imp__GetLocaleInfoA@16   1000a1b8     kernel32:KERNEL32.dll
+ 0002:000001bc       __imp__GetACP@0            1000a1bc     kernel32:KERNEL32.dll
+ 0002:000001c0       __imp__LocalFree@4         1000a1c0     kernel32:KERNEL32.dll
+ 0002:000001c4       __imp__GetVersionExA@4     1000a1c4     kernel32:KERNEL32.dll
+ 0002:000001c8       __imp__QueryPerformanceCounter@4 1000a1c8     kernel32:KERNEL32.dll
+ 0002:000001cc       __imp__IsDebuggerPresent@0 1000a1cc     kernel32:KERNEL32.dll
+ 0002:000001d0       __imp__SetUnhandledExceptionFilter@4 1000a1d0     kernel32:KERNEL32.dll
+ 0002:000001d4       __imp__UnhandledExceptionFilter@4 1000a1d4     kernel32:KERNEL32.dll
+ 0002:000001d8       __imp__GetCurrentProcess@0 1000a1d8     kernel32:KERNEL32.dll
+ 0002:000001dc       __imp__TerminateProcess@8  1000a1dc     kernel32:KERNEL32.dll
+ 0002:000001e0       __imp__InterlockedCompareExchange@12 1000a1e0     kernel32:KERNEL32.dll
+ 0002:000001e4       __imp__Sleep@4             1000a1e4     kernel32:KERNEL32.dll
+ 0002:000001e8       __imp__GetProcAddress@8    1000a1e8     kernel32:KERNEL32.dll
+ 0002:000001ec       __imp__InterlockedExchange@8 1000a1ec     kernel32:KERNEL32.dll
+ 0002:000001f0       \177KERNEL32_NULL_THUNK_DATA 1000a1f0     kernel32:KERNEL32.dll
+ 0002:000001f4       __imp_??_V@YAXPAX@Z        1000a1f4     mfc80:MFC80.DLL
+ 0002:000001f8       __imp_?ExternalQueryInterface@CCmdTarget@@QAEKPBXPAPAX@Z 1000a1f8     mfc80:MFC80.DLL
+ 0002:000001fc       __imp_?ExternalRelease@CCmdTarget@@QAEKXZ 1000a1fc     mfc80:MFC80.DLL
+ 0002:00000200       __imp_?ExternalAddRef@CCmdTarget@@QAEKXZ 1000a200     mfc80:MFC80.DLL
+ 0002:00000204       __imp_?OnCreateObject@COleObjectFactory@@MAEPAVCCmdTarget@@XZ 1000a204     mfc80:MFC80.DLL
+ 0002:00000208       __imp_?VerifyLicenseKey@COleObjectFactory@@MAEHPA_W@Z 1000a208     mfc80:MFC80.DLL
+ 0002:0000020c       __imp_?GetLicenseKey@COleObjectFactory@@MAEHKPAPA_W@Z 1000a20c     mfc80:MFC80.DLL
+ 0002:00000210       __imp_?VerifyUserLicense@COleObjectFactory@@MAEHXZ 1000a210     mfc80:MFC80.DLL
+ 0002:00000214       __imp_?UpdateRegistry@COleObjectFactory@@MAEHH@Z 1000a214     mfc80:MFC80.DLL
+ 0002:00000218       __imp_?Register@COleObjectFactory@@UAEHXZ 1000a218     mfc80:MFC80.DLL
+ 0002:0000021c       __imp_??3@YAXPAX@Z         1000a21c     mfc80:MFC80.DLL
+ 0002:00000220       __imp_?AfxDeactivateActCtx@@YGHKK@Z 1000a220     mfc80:MFC80.DLL
+ 0002:00000224       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 1000a224     mfc80:MFC80.DLL
+ 0002:00000228       __imp_?RegisterAll@COleObjectFactory@@SGHXZ 1000a228     mfc80:MFC80.DLL
+ 0002:0000022c       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 1000a22c     mfc80:MFC80.DLL
+ 0002:00000230       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 1000a230     mfc80:MFC80.DLL
+ 0002:00000234       __imp_?AfxDllGetClassObject@@YGJABU_GUID@@0PAPAX@Z 1000a234     mfc80:MFC80.DLL
+ 0002:00000238       __imp_??0AFX_MAINTAIN_STATE2@@QAE@PAVAFX_MODULE_STATE@@@Z 1000a238     mfc80:MFC80.DLL
+ 0002:0000023c       __imp_?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000a23c     mfc80:MFC80.DLL
+ 0002:00000240       __imp_?AfxDllCanUnloadNow@@YGJXZ 1000a240     mfc80:MFC80.DLL
+ 0002:00000244       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 1000a244     mfc80:MFC80.DLL
+ 0002:00000248       __imp_?GetThisInterfaceMap@CCmdTarget@@KGPBUAFX_INTERFACEMAP@@XZ 1000a248     mfc80:MFC80.DLL
+ 0002:0000024c       __imp_??1COleObjectFactory@@UAE@XZ 1000a24c     mfc80:MFC80.DLL
+ 0002:00000250       __imp_??0COleObjectFactory@@QAE@ABU_GUID@@PAUCRuntimeClass@@HPBD@Z 1000a250     mfc80:MFC80.DLL
+ 0002:00000254       __imp_?GetRuntimeClass@COleObjectFactory@@UBEPAUCRuntimeClass@@XZ 1000a254     mfc80:MFC80.DLL
+ 0002:00000258       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1000a258     mfc80:MFC80.DLL
+ 0002:0000025c       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 1000a25c     mfc80:MFC80.DLL
+ 0002:00000260       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000a260     mfc80:MFC80.DLL
+ 0002:00000264       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000a264     mfc80:MFC80.DLL
+ 0002:00000268       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1000a268     mfc80:MFC80.DLL
+ 0002:0000026c       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000a26c     mfc80:MFC80.DLL
+ 0002:00000270       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000a270     mfc80:MFC80.DLL
+ 0002:00000274       __imp_?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 1000a274     mfc80:MFC80.DLL
+ 0002:00000278       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1000a278     mfc80:MFC80.DLL
+ 0002:0000027c       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1000a27c     mfc80:MFC80.DLL
+ 0002:00000280       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000a280     mfc80:MFC80.DLL
+ 0002:00000284       __imp_?GetInterfaceMap@COleObjectFactory@@MBEPBUAFX_INTERFACEMAP@@XZ 1000a284     mfc80:MFC80.DLL
+ 0002:00000288       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000a288     mfc80:MFC80.DLL
+ 0002:0000028c       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 1000a28c     mfc80:MFC80.DLL
+ 0002:00000290       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000a290     mfc80:MFC80.DLL
+ 0002:00000294       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000a294     mfc80:MFC80.DLL
+ 0002:00000298       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000a298     mfc80:MFC80.DLL
+ 0002:0000029c       \177MFC80_NULL_THUNK_DATA  1000a29c     mfc80:MFC80.DLL
+ 0002:000002a0       __imp___decode_pointer     1000a2a0     msvcrt:MSVCR80.dll
+ 0002:000002a4       __imp_?terminate@@YAXXZ    1000a2a4     msvcrt:MSVCR80.dll
+ 0002:000002a8       __imp____CppXcptFilter     1000a2a8     msvcrt:MSVCR80.dll
+ 0002:000002ac       __imp___adjust_fdiv        1000a2ac     msvcrt:MSVCR80.dll
+ 0002:000002b0       __imp___CxxThrowException@8 1000a2b0     msvcrt:MSVCR80.dll
+ 0002:000002b4       __imp___amsg_exit          1000a2b4     msvcrt:MSVCR80.dll
+ 0002:000002b8       __imp____clean_type_info_names_internal 1000a2b8     msvcrt:MSVCR80.dll
+ 0002:000002bc       __imp___initterm_e         1000a2bc     msvcrt:MSVCR80.dll
+ 0002:000002c0       __imp___initterm           1000a2c0     msvcrt:MSVCR80.dll
+ 0002:000002c4       __imp___crt_debugger_hook  1000a2c4     msvcrt:MSVCR80.dll
+ 0002:000002c8       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000a2c8     msvcrt:MSVCR80.dll
+ 0002:000002cc       __imp__malloc              1000a2cc     msvcrt:MSVCR80.dll
+ 0002:000002d0       __imp___callnewh           1000a2d0     msvcrt:MSVCR80.dll
+ 0002:000002d4       __imp__free                1000a2d4     msvcrt:MSVCR80.dll
+ 0002:000002d8       __imp__wcscpy_s            1000a2d8     msvcrt:MSVCR80.dll
+ 0002:000002dc       __imp____CxxFrameHandler3  1000a2dc     msvcrt:MSVCR80.dll
+ 0002:000002e0       __imp__calloc              1000a2e0     msvcrt:MSVCR80.dll
+ 0002:000002e4       __imp__memset              1000a2e4     msvcrt:MSVCR80.dll
+ 0002:000002e8       __imp___CIsqrt             1000a2e8     msvcrt:MSVCR80.dll
+ 0002:000002ec       __imp__strtol              1000a2ec     msvcrt:MSVCR80.dll
+ 0002:000002f0       __imp___except_handler4_common 1000a2f0     msvcrt:MSVCR80.dll
+ 0002:000002f4       __imp___unlock             1000a2f4     msvcrt:MSVCR80.dll
+ 0002:000002f8       __imp___encode_pointer     1000a2f8     msvcrt:MSVCR80.dll
+ 0002:000002fc       __imp____dllonexit         1000a2fc     msvcrt:MSVCR80.dll
+ 0002:00000300       __imp___lock               1000a300     msvcrt:MSVCR80.dll
+ 0002:00000304       __imp___onexit             1000a304     msvcrt:MSVCR80.dll
+ 0002:00000308       __imp___encoded_null       1000a308     msvcrt:MSVCR80.dll
+ 0002:0000030c       __imp___malloc_crt         1000a30c     msvcrt:MSVCR80.dll
+ 0002:00000310       \177MSVCR80_NULL_THUNK_DATA 1000a310     msvcrt:MSVCR80.dll
+ 0002:00000314       __imp__SetTimer@16         1000a314     user32:USER32.dll
+ 0002:00000318       __imp__LoadCursorA@8       1000a318     user32:USER32.dll
+ 0002:0000031c       __imp__KillTimer@8         1000a31c     user32:USER32.dll
+ 0002:00000320       __imp__GetCursor@0         1000a320     user32:USER32.dll
+ 0002:00000324       __imp__SetCursor@4         1000a324     user32:USER32.dll
+ 0002:00000328       __imp__GetKeyState@4       1000a328     user32:USER32.dll
+ 0002:0000032c       \177USER32_NULL_THUNK_DATA 1000a32c     user32:USER32.dll
+ 0002:00000330       __imp_??0JBranchLocate2d@@QAE@XZ 1000a330     cmdspt:cmdspt.dll
+ 0002:00000334       __imp_?SetInterfaceArray@JLocate2d@@QAEJPAPAU_GUID@@K@Z 1000a334     cmdspt:cmdspt.dll
+ 0002:00000338       __imp_??1JBranchLocate2d@@UAE@XZ 1000a338     cmdspt:cmdspt.dll
+ 0002:0000033c       __imp_?LocateElements@JLocate2d@@QAEJPAUIJView@@W4tagJREADWRITESTATUS@@UtagRECT@@@Z 1000a33c     cmdspt:cmdspt.dll
+ 0002:00000340       __imp_?GetElementsAtLevelCount@JBranchLocate2d@@QAEJKPAK@Z 1000a340     cmdspt:cmdspt.dll
+ 0002:00000344       __imp_?GetElementAtLevel@JBranchLocate2d@@QAEJKKPAKPAUtagJLOCATERESULT@@@Z 1000a344     cmdspt:cmdspt.dll
+ 0002:00000348       \177cmdspt_NULL_THUNK_DATA 1000a348     cmdspt:cmdspt.dll
+ 0002:0000034c       __imp_?SetQuickPickHesitate@JQuickPickCntl@@QAEXH@Z 1000a34c     control:control.dll
+ 0002:00000350       __imp_??1JQuickPickCntl@@UAE@XZ 1000a350     control:control.dll
+ 0002:00000354       __imp_?GetIgnoreNextMouseButton@JQuickPickCntl@@QAEHXZ 1000a354     control:control.dll
+ 0002:00000358       __imp_?Set2dLMBSet@JQuickPickCntl@@QAEXH@Z 1000a358     control:control.dll
+ 0002:0000035c       __imp_?GetShowMouseButtonOnCursor@JQuickPickCntl@@QAEHXZ 1000a35c     control:control.dll
+ 0002:00000360       __imp_?GetRMBDisplay@JQuickPickCntl@@QAEHXZ 1000a360     control:control.dll
+ 0002:00000364       __imp_?GetHesitationTimer@JQuickPickCntl@@QAEJPAK@Z 1000a364     control:control.dll
+ 0002:00000368       __imp_??0JQuickPickCntl@@QAE@XZ 1000a368     control:control.dll
+ 0002:0000036c       __imp_?SetIgnoreNextMouseButton@JQuickPickCntl@@QAEXH@Z 1000a36c     control:control.dll
+ 0002:00000370       \177control_NULL_THUNK_DATA 1000a370     control:control.dll
+ 0002:00000374       __imp__ConstructGraphicContext@12 1000a374     jengine:jengine.dll
+ 0002:00000378       __imp__BatchFlush@0        1000a378     jengine:jengine.dll
+ 0002:0000037c       __imp_??0JEnvironmentType@@QAE@XZ 1000a37c     jengine:jengine.dll
+ 0002:00000380       __imp_??1JEnvironmentType@@QAE@XZ 1000a380     jengine:jengine.dll
+ 0002:00000384       __imp_?IsDraftProfileFamily@JEnvironmentType@@QAEHXZ 1000a384     jengine:jengine.dll
+ 0002:00000388       __imp_?IsDraftFamily@JEnvironmentType@@QAEHXZ 1000a388     jengine:jengine.dll
+ 0002:0000038c       __imp_?IsAssembly@JEnvironmentType@@QAEHXZ 1000a38c     jengine:jengine.dll
+ 0002:00000390       __imp_?IsSheetMetal@JEnvironmentType@@QAEHXZ 1000a390     jengine:jengine.dll
+ 0002:00000394       __imp_@GetPersistManager@8 1000a394     jengine:jengine.dll
+ 0002:00000398       __imp_?IsLayout@JEnvironmentType@@QAEHXZ 1000a398     jengine:jengine.dll
+ 0002:0000039c       __imp_?IsProfileHole@JEnvironmentType@@QAEHXZ 1000a39c     jengine:jengine.dll
+ 0002:000003a0       __imp_?IsProfileRevolved@JEnvironmentType@@QAEHXZ 1000a3a0     jengine:jengine.dll
+ 0002:000003a4       __imp_?IsProfile@JEnvironmentType@@QAEHXZ 1000a3a4     jengine:jengine.dll
+ 0002:000003a8       __imp_?IsPart@JEnvironmentType@@QAEHXZ 1000a3a8     jengine:jengine.dll
+ 0002:000003ac       \177jengine_NULL_THUNK_DATA 1000a3ac     jengine:jengine.dll
+ 0002:000003b0       __imp__CLSIDFromString@8   1000a3b0     ole32:ole32.dll
+ 0002:000003b4       \177ole32_NULL_THUNK_DATA  1000a3b4     ole32:ole32.dll
+ 0002:000003b8       __imp_??0SkPrefsPrecision@@QAE@XZ 1000a3b8     uskpref:skpref.dll
+ 0002:000003bc       __imp_?GetEvaluatedPoint@SkPrefsPrecision@@QAEJPAUtagGPosition2d@@@Z 1000a3bc     uskpref:skpref.dll
+ 0002:000003c0       __imp_?SetShowState@SkPrefsPrecision@@QAEJW4RequestorToShow@1@H@Z 1000a3c0     uskpref:skpref.dll
+ 0002:000003c4       __imp_?GetDisplayDistance@SkPrefsPrecision@@QAEJPAH@Z 1000a3c4     uskpref:skpref.dll
+ 0002:000003c8       __imp_?GetDisplayHelperLine@SkPrefsPrecision@@QAEJPAH@Z 1000a3c8     uskpref:skpref.dll
+ 0002:000003cc       __imp_?GetInstallFlag@SkPrefsPrecision@@QAEJPAH@Z 1000a3cc     uskpref:skpref.dll
+ 0002:000003d0       __imp_?GetAngleInfo@SkPrefsPrecision@@QAEJPAN00PAW4X_orient_types@1@@Z 1000a3d0     uskpref:skpref.dll
+ 0002:000003d4       __imp_?SetEvaluatedPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 1000a3d4     uskpref:skpref.dll
+ 0002:000003d8       __imp_?GetTargetPoint@SkPrefsPrecision@@QAEJPAUtagGPosition2d@@@Z 1000a3d8     uskpref:skpref.dll
+ 0002:000003dc       __imp_?SetTargetPoint@SkPrefsPrecision@@QAEJUtagGPosition2d@@@Z 1000a3dc     uskpref:skpref.dll
+ 0002:000003e0       __imp_?GetShowState@SkPrefsPrecision@@QAEJPAH@Z 1000a3e0     uskpref:skpref.dll
+ 0002:000003e4       __imp_??1SkPrefsPrecision@@UAE@XZ 1000a3e4     uskpref:skpref.dll
+ 0002:000003e8       \177skpref_NULL_THUNK_DATA 1000a3e8     uskpref:skpref.dll
+ 0002:000003ec       __imp_?GetConstraintDisplay@SkPrefsSmartSketch@@QAEJPAH@Z 1000a3ec     sprfhlp:sprfhlp.dll
+ 0002:000003f0       __imp_??0SkPrefsSmartSketch@@QAE@XZ 1000a3f0     sprfhlp:sprfhlp.dll
+ 0002:000003f4       __imp_?GetToleranceZone@SkPrefsSmartSketch@@QAEJPAH@Z 1000a3f4     sprfhlp:sprfhlp.dll
+ 0002:000003f8       __imp_??1SkPrefsSmartSketch@@UAE@XZ 1000a3f8     sprfhlp:sprfhlp.dll
+ 0002:000003fc       __imp_??0SkPrefsColor@@QAE@XZ 1000a3fc     sprfhlp:sprfhlp.dll
+ 0002:00000400       __imp_?GetColor@SkPrefsColor@@QAEJW4SkColors@1@PAK@Z 1000a400     sprfhlp:sprfhlp.dll
+ 0002:00000404       __imp_??1SkPrefsColor@@UAE@XZ 1000a404     sprfhlp:sprfhlp.dll
+ 0002:00000408       __imp_?GetCnstrOnExtension@SkPrefsSmartSketch@@QAEJPAH@Z 1000a408     sprfhlp:sprfhlp.dll
+ 0002:0000040c       __imp_?GetShowRelationship@SkPrefsSmartSketch@@QAEJW4SmSkRelationships@1@PAH@Z 1000a40c     sprfhlp:sprfhlp.dll
+ 0002:00000410       __imp_?GetPrefEntryInRegistry_byIndex@SkPrefsSmartSketch@@QAEJPB_WHPAD@Z 1000a410     sprfhlp:sprfhlp.dll
+ 0002:00000414       __imp_?GetOrderCnstrIdFields_givenRegistData@SkPrefsSmartSketch@@QAEXPAPADQA_WPAKPAH@Z 1000a414     sprfhlp:sprfhlp.dll
+ 0002:00000418       __imp_?GetOrderRelationship@SkPrefsSmartSketch@@QAEJW4SmSkRelationships@1@PAK@Z 1000a418     sprfhlp:sprfhlp.dll
+ 0002:0000041c       __imp_?GetPrefSetEntries_count@SkPrefsSmartSketch@@QAEJPB_WPAK@Z 1000a41c     sprfhlp:sprfhlp.dll
+ 0002:00000420       __imp_?GetShowRelationshipOnPause@SkPrefsSmartSketch@@QAEJPAH@Z 1000a420     sprfhlp:sprfhlp.dll
+ 0002:00000424       \177sprfhlp_NULL_THUNK_DATA 1000a424     sprfhlp:sprfhlp.dll
+ 0002:00000428       __imp__IMLineByPtPt2d      1000a428     ugeom2d:ugeom2d.dll
+ 0002:0000042c       __imp__IMEllipseByCtrMajMinRot2d 1000a42c     ugeom2d:ugeom2d.dll
+ 0002:00000430       __imp__IMRectByPtPt2d      1000a430     ugeom2d:ugeom2d.dll
+ 0002:00000434       \177ugeom2d_NULL_THUNK_DATA 1000a434     ugeom2d:ugeom2d.dll
+ 0002:00000438       __imp_?GetDistanceTolerance@@YA?BNXZ 1000a438     umath:umath.dll
+ 0002:0000043c       __imp_?IsEqual@tagGPosition2d@@QBEHABU1@@Z 1000a43c     umath:umath.dll
+ 0002:00000440       \177umath_NULL_THUNK_DATA  1000a440     umath:umath.dll
+ 0002:00000444       ___xc_a                    1000a444     msvcrt:cinitexe.obj
+ 0002:0000046c       ___xc_z                    1000a46c     msvcrt:cinitexe.obj
+ 0002:00000470       ___xi_a                    1000a470     msvcrt:cinitexe.obj
+ 0002:00000478       ___xi_z                    1000a478     msvcrt:cinitexe.obj
+ 0002:0000049c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000a49c     mouseapp.obj
+ 0002:000004b8       __pRawDllMain              1000a4b8     mouseapp.obj
+ 0002:000004bc       ??_C@_06LECMGHEH@2d?4drx?$AA@ 1000a4bc     mouseapp.obj
+ 0002:000004c4       ?_interfaceEntries@smartMouseService@@0QBUAFX_INTERFACEMAP_ENTRY@@B 1000a4c4     mousesrv.obj
+ 0002:000004e4       ??_C@_0BC@BCJDLMEM@smartMouseService?$AA@ 1000a4e4     mousesrv.obj
+ 0002:000004f8       ??_C@_0BF@LMBKPEGH@JM_COLLECTOR_COMMAND?$AA@ 1000a4f8     mousesrv.obj
+ 0002:00000510       ??_C@_0CM@GOIAMPIP@General?2SESEInsightTarget?2Manage@ 1000a510     mousesrv.obj
+ 0002:0000053c       ??_C@_0CM@CFLLONED@General?2SESEInsightSource?2Manage@ 1000a53c     mousesrv.obj
+ 0002:00000568       ??_C@_0BC@PMPKKPPO@SESEInsightTarget?$AA@ 1000a568     mousesrv.obj
+ 0002:0000057c       ??_C@_0BC@IBOENEBP@SESEInsightSource?$AA@ 1000a57c     mousesrv.obj
+ 0002:00000590       ??_C@_0DA@EEEMJNPA@General?2StructureEditorTarget?2Ma@ 1000a590     mousesrv.obj
+ 0002:000005c0       ??_C@_0DA@PHHLPDM@General?2StructureEditorSource?2Ma@ 1000a5c0     mousesrv.obj
+ 0002:000005f0       ??_C@_0BG@GLPNBFBI@StructureEditorTarget?$AA@ 1000a5f0     mousesrv.obj
+ 0002:00000608       ??_C@_0BG@BGODGOPJ@StructureEditorSource?$AA@ 1000a608     mousesrv.obj
+ 0002:00000620       ??_C@_0L@MNMJNOKC@?2UnManaged?$AA@ 1000a620     mousesrv.obj
+ 0002:0000062c       ??_C@_08GNBJJBFL@?2Managed?$AA@ 1000a62c     mousesrv.obj
+ 0002:00000638       ??_C@_0N@DCACADCL@IfFontItalic?$AA@ 1000a638     mousesrv.obj
+ 0002:00000648       ??_C@_0L@HABBFGEE@FontScript?$AA@ 1000a648     mousesrv.obj
+ 0002:00000654       ??_C@_08IOPOCEFC@FontSize?$AA@ 1000a654     mousesrv.obj
+ 0002:00000660       ??_C@_09BIHFJGEM@FontStyle?$AA@ 1000a660     mousesrv.obj
+ 0002:0000066c       ??_C@_08MKFDOKHL@FontName?$AA@ 1000a66c     mousesrv.obj
+ 0002:00000678       ??_C@_09PPPLNFCP@Revisions?$AA@ 1000a678     mousesrv.obj
+ 0002:00000684       ??_C@_0L@IKFKNMIK@LCA?2Step?93?$AA@ 1000a684     mousesrv.obj
+ 0002:00000690       ??_C@_0L@JDEBONML@LCA?2Step?92?$AA@ 1000a690     mousesrv.obj
+ 0002:0000069c       ??_C@_0L@LIGMLOAI@LCA?2Step?91?$AA@ 1000a69c     mousesrv.obj
+ 0002:000006a8       ??_C@_0BC@PJLOJMLB@?2ColumnAllignment?$AA@ 1000a6a8     mousesrv.obj
+ 0002:000006bc       ??_C@_0N@MJNDLMLL@?2ColumnWidth?$AA@ 1000a6bc     mousesrv.obj
+ 0002:000006cc       ??_C@_0M@GILJBBJK@?2ColumnName?$AA@ 1000a6cc     mousesrv.obj
+ 0002:000006d8       ??_C@_0BN@JDKHKMCP@General?2EditProfile?2Position?$AA@ 1000a6d8     mousesrv.obj
+ 0002:000006f8       ??_C@_0CG@MMFLBBHB@General?2EditProfile?2ManagedPrope@ 1000a6f8     mousesrv.obj
+ 0002:00000720       ??_C@_0M@JCDCLJCA@EditProfile?$AA@ 1000a720     mousesrv.obj
+ 0002:0000072c       ??_C@_08OPPFIBME@General?2?$AA@ 1000a72c     mousesrv.obj
+ 0002:00000738       ??_C@_0CI@NHNILGNF@General?2SearchResults?2ManagedPro@ 1000a738     mousesrv.obj
+ 0002:00000760       ??_C@_0CK@GNOEILGH@General?2SearchResults?2UnManagedP@ 1000a760     mousesrv.obj
+ 0002:0000078c       ??_C@_0O@PKDDHDIC@SearchResults?$AA@ 1000a78c     mousesrv.obj
+ 0002:0000079c       ??_C@_0CE@CNFCLGND@General?2WhereUsed?2ManagedPropert@ 1000a79c     mousesrv.obj
+ 0002:000007c0       ??_C@_0CG@DLLONGGL@General?2WhereUsed?2UnManagedPrope@ 1000a7c0     mousesrv.obj
+ 0002:000007e8       ??_C@_09NNDHDAJB@WhereUsed?$AA@ 1000a7e8     mousesrv.obj
+ 0002:000007f4       ??_C@_0BA@FMHGINFB@PropertyManager?$AA@ 1000a7f4     mousesrv.obj
+ 0002:00000804       ??_C@_05CDEHLADN@?$CFs?$CFlu?$AA@ 1000a804     mousesrv.obj
+ 0002:0000080c       ??_C@_06GDCBNBFJ@?$CFlu?$CFls?$AA@ 1000a80c     mousesrv.obj
+ 0002:00000814       ??_C@_0N@NLFOEMPN@PropValue?$CFlu?$AA@ 1000a814     mousesrv.obj
+ 0002:00000824       ??_C@_09FJMCAKIG@PropCount?$AA@ 1000a824     mousesrv.obj
+ 0002:00000830       ??_C@_0CK@MBCJNOIL@General?2PropertyManager?2ManagedP@ 1000a830     mousesrv.obj
+ 0002:0000085c       ??_C@_0CM@KLFAECG@General?2PropertyManager?2UnManage@ 1000a85c     mousesrv.obj
+ 0002:000009a4       ?guid@smartMouseService@@2U_GUID@@B 1000a9a4     mousesrv.obj
+ 0002:000009b4       _IID_IJRelation            1000a9b4     mousesrv.obj
+ 0002:000009c4       _CLSID_JSelectSetManager   1000a9c4     mousesrv.obj
+ 0002:000009d4       _IID_IJRenderInfo          1000a9d4     mousesrv.obj
+ 0002:000009e4       _IID_IJGraphicView         1000a9e4     mousesrv.obj
+ 0002:000009f4       _IID_IJGraphic             1000a9f4     mousesrv.obj
+ 0002:00000a04       _IID_IJTypedGeometry2d     1000aa04     mousesrv.obj
+ 0002:00000a14       _IID_IJComplexString2d     1000aa14     mousesrv.obj
+ 0002:00000a24       _IID_IJCurve2d             1000aa24     mousesrv.obj
+ 0002:00000a34       _IID_IJPoint2d             1000aa34     mousesrv.obj
+ 0002:00000a44       _IID_IJBoundary2d          1000aa44     mousesrv.obj
+ 0002:00000a54       _IID_IJDocument            1000aa54     mousesrv.obj
+ 0002:00000a64       _IID_IJCommand             1000aa64     mousesrv.obj
+ 0002:00000a74       _IID_IJSelectSet           1000aa74     mousesrv.obj
+ 0002:00000a84       _IID_IJViewSet             1000aa84     mousesrv.obj
+ 0002:00000a94       _CLSID_JHoriz2d            1000aa94     mousesrv.obj
+ 0002:00000aa4       _CLSID_JVert2d             1000aaa4     mousesrv.obj
+ 0002:00000ab4       _CLSID_JPointOn2d          1000aab4     mousesrv.obj
+ 0002:00000ac4       _CLSID_JParallel2d         1000aac4     mousesrv.obj
+ 0002:00000ad4       _CLSID_JPerpendicular2d    1000aad4     mousesrv.obj
+ 0002:00000ae4       _CLSID_JKeyPoint2d         1000aae4     mousesrv.obj
+ 0002:00000af4       _CLSID_JIntersect2d        1000aaf4     mousesrv.obj
+ 0002:00000b04       _CLSID_JTangent2d          1000ab04     mousesrv.obj
+ 0002:00000b14       _CLSID_JPinPointXY2d       1000ab14     mousesrv.obj
+ 0002:00000b24       _CLSID_JPinPointX2d        1000ab24     mousesrv.obj
+ 0002:00000b34       _CLSID_JPinPointY2d        1000ab34     mousesrv.obj
+ 0002:00000b44       _CLSID_JPinPointLX2d       1000ab44     mousesrv.obj
+ 0002:00000b54       _CLSID_JPinPointLY2d       1000ab54     mousesrv.obj
+ 0002:00000b64       _CLSID_JAlignHzTemp2d      1000ab64     mousesrv.obj
+ 0002:00000b74       _CLSID_JAlignVtTemp2d      1000ab74     mousesrv.obj
+ 0002:00000b84       _IID_IJOccurrence          1000ab84     mousesrv.obj
+ 0002:00000b94       _IID_IJVBMouseService      1000ab94     mousesrv.obj
+ 0002:00000ba4       _IID_IJVBMouseControlProperties 1000aba4     mousesrv.obj
+ 0002:00000bb4       _IID_IJGraphicLocatePoint  1000abb4     mousesrv.obj
+ 0002:00000bc4       _IID_IJProfile             1000abc4     mousesrv.obj
+ 0002:00000bd4       _IID_IJHole2d              1000abd4     mousesrv.obj
+ 0002:00000be4       _IID_IJRefPlane            1000abe4     mousesrv.obj
+ 0002:00000bf4       _IID_IJDimSrc              1000abf4     mousesrv.obj
+ 0002:00000c04       _IID_IJMFeature            1000ac04     mousesrv.obj
+ 0002:00000c14       _IID_IJRefAxis             1000ac14     mousesrv.obj
+ 0002:00000c24       _IID_IJCenterMark          1000ac24     mousesrv.obj
+ 0002:00000c34       _IID_IJCenterLine          1000ac34     mousesrv.obj
+ 0002:00000c44       _IID_IJCuttingPlane        1000ac44     mousesrv.obj
+ 0002:00000c54       _IID_IJDrawingView3d       1000ac54     mousesrv.obj
+ 0002:00000c64       _IID_IJDetailEnvelope      1000ac64     mousesrv.obj
+ 0002:00000c74       _IID_IJViewPlane           1000ac74     mousesrv.obj
+ 0002:00000c84       _IID_IJDrawingViewXSection 1000ac84     mousesrv.obj
+ 0002:00000c94       _IID_IJLeader              1000ac94     mousesrv.obj
+ 0002:00000ca4       _IID_IJDatumFrame          1000aca4     mousesrv.obj
+ 0002:00000cb4       _IID_IJDatumTarget         1000acb4     mousesrv.obj
+ 0002:00000cc4       _IID_IJFeatureControlFrame 1000acc4     mousesrv.obj
+ 0002:00000cd4       _IID_IJSurfaceFinishSymbols 1000acd4     mousesrv.obj
+ 0002:00000ce4       _IID_IJWeldSymbols         1000ace4     mousesrv.obj
+ 0002:00000cf4       _IID_IJBalloon             1000acf4     mousesrv.obj
+ 0002:00000d04       _IID_IJSmartFrame2d        1000ad04     mousesrv.obj
+ 0002:00000d14       _IID_IJTextBox             1000ad14     mousesrv.obj
+ 0002:00000d24       _IID_IJCallOut             1000ad24     mousesrv.obj
+ 0002:00000d34       _IID_IJBoltHoleCircle      1000ad34     mousesrv.obj
+ 0002:00000d44       _IID_IJPoint               1000ad44     mousesrv.obj
+ 0002:00000d54       _IID_IJLine                1000ad54     mousesrv.obj
+ 0002:00000d64       _IID_IJLineString          1000ad64     mousesrv.obj
+ 0002:00000d74       _IID_IJEllipse             1000ad74     mousesrv.obj
+ 0002:00000d84       _IID_IJArc                 1000ad84     mousesrv.obj
+ 0002:00000d94       _IID_IJBspCurve            1000ad94     mousesrv.obj
+ 0002:00000da4       _IID_IJComplexString       1000ada4     mousesrv.obj
+ 0002:00000db4       _IID_IJPlane               1000adb4     mousesrv.obj
+ 0002:00000dc4       _IID_IJCone                1000adc4     mousesrv.obj
+ 0002:00000dd4       _IID_IJSphere              1000add4     mousesrv.obj
+ 0002:00000de4       _IID_IJTorus               1000ade4     mousesrv.obj
+ 0002:00000df4       _IID_IJProjection          1000adf4     mousesrv.obj
+ 0002:00000e04       _IID_IJRevolution          1000ae04     mousesrv.obj
+ 0002:00000e14       _IID_IJBspSurface          1000ae14     mousesrv.obj
+ 0002:00000e24       _IID_IJBoundaries          1000ae24     mousesrv.obj
+ 0002:00000e34       _IID_IJRuled               1000ae34     mousesrv.obj
+ 0002:00000e44       _IID_IJPolyMesh            1000ae44     mousesrv.obj
+ 0002:00000e54       _IID_IJDMObject            1000ae54     mousesrv.obj
+ 0002:00000e64       _CLSID_JMPointCmd          1000ae64     mousesrv.obj
+ 0002:00000e74       _IID_IJMTopologyProxy      1000ae74     mousesrv.obj
+ 0002:00000e84       _IID_AnyTopologicalFace    1000ae84     mousesrv.obj
+ 0002:00000e94       _IID_AnyTopologicalEdge    1000ae94     mousesrv.obj
+ 0002:00000ea4       _IID_TopologicalVertex     1000aea4     mousesrv.obj
+ 0002:00000eb4       _IID_IJMKeyPoint           1000aeb4     mousesrv.obj
+ 0002:00000ec4       _IID_IJMPointCmd           1000aec4     mousesrv.obj
+ 0002:00000ed4       ?classsmartMouseService@smartMouseService@@2UCRuntimeClass@@B 1000aed4     mousesrv.obj
+ 0002:00000ef0       ?interfaceMap@smartMouseService@@1UAFX_INTERFACEMAP@@B 1000aef0     mousesrv.obj
+ 0002:00000efc       ??_7JOleObjectFactory@@6B@ 1000aefc     mousesrv.obj
+ 0002:00000f70       ??_C@_0P@HPHNKMFI@?4?2mousesrv?4cpp?$AA@ 1000af70     mousesrv.obj
+ 0002:00000f80       ??_C@_0BK@LDDDHEKM@smartMouseService?3?3doInit?$AA@ 1000af80     mousesrv.obj
+ 0002:00000fa4       ??_SJDisplay2d@@6B@        1000afa4     mousesrv.obj
+ 0002:00001054       ??_SJHiliteElement@@6B@    1000b054     mousesrv.obj
+ 0002:00001104       ??_C@_0BP@NBNPIAJD@smartMouseService?3?3FenceLocate?$AA@ 1000b104     mousesrv.obj
+ 0002:00001128       ??_7XSMProperties@smartMouseService@@6B@ 1000b128     mousesrv.obj
+ 0002:00001164       ??_7XSMGraphicLocatePoint@smartMouseService@@6B@ 1000b164     mousesrv.obj
+ 0002:0000117c       ??_7XSMMouseService@smartMouseService@@6B@ 1000b17c     mousesrv.obj
+ 0002:000011a4       ??_7smartMouseService@@6B@ 1000b1a4     mousesrv.obj
+ 0002:00001240       ??_C@_0CM@JEIIDLIK@smartMouseService?3?3SetOptionsFor@ 1000b240     mousesrv.obj
+ 0002:0000126c       ??_C@_0CB@NDKFDCOF@smartMouseService?3?3doLButtonDown@ 1000b26c     mousesrv.obj
+ 0002:00001290       ??_C@_0BP@JLIFCDHJ@smartMouseService?3?3doMouseMove?$AA@ 1000b290     mousesrv.obj
+ 0002:000012b0       ??_C@_0BC@EPNFAEHM@SmartMouseService?$AA@ 1000b2b0     mousesrv.obj
+ 0002:000012c4       ??_C@_0L@OOFBCNKG@SkSMHelper?$AA@ 1000b2c4     skcmdspt:SMHELPER.obj
+ 0002:000012e0       ?classSkSMHelper@SkSMHelper@@2UCRuntimeClass@@B 1000b2e0     skcmdspt:SMHELPER.obj
+ 0002:000012fc       ??_C@_0BN@DFFJOGFM@GetModuleHandleFromResources?$AA@ 1000b2fc     skcmdspt:SMHELPER.obj
+ 0002:0000131c       ??_C@_07JOCCBFIH@i2d?4dcx?$AA@ 1000b31c     skcmdspt:SMHELPER.obj
+ 0002:0000132c       ??_7SkSMHelper@@6B@        1000b32c     skcmdspt:SMHELPER.obj
+ 0002:000013c8       ??_C@_0P@FFFCLMAJ@?4?2SMHELPER?4CPP?$AA@ 1000b3c8     skcmdspt:SMHELPER.obj
+ 0002:000013d8       ??_C@_0BL@PMHGEDIE@SkSMHelper?3?3SetDefaultInfo?$AA@ 1000b3d8     skcmdspt:SMHELPER.obj
+ 0002:000013f4       ??_C@_0BD@FBBPHBFF@SkSMHelper?3?3Locate?$AA@ 1000b3f4     skcmdspt:SMHELPER.obj
+ 0002:00001408       ??_C@_0CC@MNNMBHGI@SkSMHelper?3?3LoadPinPointResource@ 1000b408     skcmdspt:SMHELPER.obj
+ 0002:0000142c       ??_C@_0CF@KIMHFMIJ@SkSMHelper?3?3InstallPinPointRelat@ 1000b42c     skcmdspt:SMHELPER.obj
+ 0002:00001454       ??_C@_0CE@KKBBMHDF@SkSMHelper?3?3RemovePinPointRelati@ 1000b454     skcmdspt:SMHELPER.obj
+ 0002:00001478       ??_C@_0CE@HDMGDIJA@SkSMHelper?3?3SetPinPointCmdShowSt@ 1000b478     skcmdspt:SMHELPER.obj
+ 0002:0000149c       ??_C@_0BN@KDLEBDMP@SkSMHelper?3?3GetPinPointOnOff?$AA@ 1000b49c     skcmdspt:SMHELPER.obj
+ 0002:000014bc       ??_C@_0CD@CFIKAFAG@SkSMHelper?3?3SetPinPointTargetPoi@ 1000b4bc     skcmdspt:SMHELPER.obj
+ 0002:000014e0       ??_C@_0CD@CEKECCNJ@SkSMHelper?3?3GetPinPointTargetPoi@ 1000b4e0     skcmdspt:SMHELPER.obj
+ 0002:00001504       ??_C@_0CG@NECBFMCC@SkSMHelper?3?3SetPinPointEvaluated@ 1000b504     skcmdspt:SMHELPER.obj
+ 0002:0000152c       ??_C@_0CB@MJKDGENF@SkSMHelper?3?3GetPinPointAngleInfo@ 1000b52c     skcmdspt:SMHELPER.obj
+ 0002:00001554       ??_7SkConstraintHelper@@6B@ 1000b554     skcmdspt:SMHELPER.obj
+ 0002:00001564       ??_C@_0BL@IHLKNCIM@SkConstraintHelper?3?3Commit?$AA@ 1000b564     skcmdspt:SMHELPER.obj
+ 0002:00001580       ??_C@_0CF@BLALJEKM@SkSMHelper?3?3DefaultConstraintCla@ 1000b580     skcmdspt:SMHELPER.obj
+ 0002:000015a8       ??_C@_1BK@KKEFCMNB@?$AAS?$AAm?$AAa?$AAr?$AAt?$AAC?$AAo?$AAn?$AAs?$AAt?$AAr?$AAs?$AA?$AA@ 1000b5a8     skcmdspt:SMHELPER.obj
+ 0002:000015c4       ??_C@_06JBKGCNBB@Delete?$AA@ 1000b5c4     mfcs80:stdafx.obj
+ 0002:000015cc       ??_C@_08KAAPDIAN@NoRemove?$AA@ 1000b5cc     mfcs80:stdafx.obj
+ 0002:000015d8       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 1000b5d8     mfcs80:stdafx.obj
+ 0002:000015e4       ??_C@_03LAIAPFCB@Val?$AA@  1000b5e4     mfcs80:stdafx.obj
+ 0002:000015e8       ??_C@_01HMGJMAIH@B?$AA@    1000b5e8     mfcs80:stdafx.obj
+ 0002:000015ec       ??_C@_01CKDDGHAB@D?$AA@    1000b5ec     mfcs80:stdafx.obj
+ 0002:000015f0       ??_C@_01PLPBNMEI@M?$AA@    1000b5f0     mfcs80:stdafx.obj
+ 0002:000015f4       ??_C@_01CPLAODJH@S?$AA@    1000b5f4     mfcs80:stdafx.obj
+ 0002:0000161c       ??_7type_info@@6B@         1000b61c     msvcrt:ti_inst.obj
+ 0002:00001620       __pDefaultRawDllMain       1000b620     msvcrt:crtdll.obj
+ 0002:0000162c       _IID_IDispatch             1000b62c     uuid:oaidl_i.obj
+ 0002:0000163c       _IID_IUnknown              1000b63c     uuid:unknwn_i.obj
+ 0002:00001650       ??_7_com_error@@6B@        1000b650     comsuppw:comraise.obj
+ 0002:00001658       __load_config_used         1000b658     msvcrt:loadcfg.obj
+ 0002:000016d0       ??_R4JOleObjectFactory@@6B@ 1000b6d0     mousesrv.obj
+ 0002:000016e4       ??_R3JOleObjectFactory@@8  1000b6e4     mousesrv.obj
+ 0002:000016f4       ??_R2JOleObjectFactory@@8  1000b6f4     mousesrv.obj
+ 0002:00001708       ??_R1A@?0A@EA@JOleObjectFactory@@8 1000b708     mousesrv.obj
+ 0002:00001724       ??_R1A@?0A@EA@COleObjectFactory@@8 1000b724     mousesrv.obj
+ 0002:00001740       ??_R3COleObjectFactory@@8  1000b740     mousesrv.obj
+ 0002:00001750       ??_R2COleObjectFactory@@8  1000b750     mousesrv.obj
+ 0002:00001760       ??_R1A@?0A@EA@CCmdTarget@@8 1000b760     mousesrv.obj
+ 0002:0000177c       ??_R3CCmdTarget@@8         1000b77c     mousesrv.obj
+ 0002:0000178c       ??_R2CCmdTarget@@8         1000b78c     mousesrv.obj
+ 0002:00001798       ??_R1A@?0A@EA@CObject@@8   1000b798     mousesrv.obj
+ 0002:000017b4       ??_R3CObject@@8            1000b7b4     mousesrv.obj
+ 0002:000017c4       ??_R2CObject@@8            1000b7c4     mousesrv.obj
+ 0002:000017cc       ??_R4JHiliteElement@@6B@   1000b7cc     mousesrv.obj
+ 0002:000017e0       ??_R3JHiliteElement@@8     1000b7e0     mousesrv.obj
+ 0002:000017f0       ??_R2JHiliteElement@@8     1000b7f0     mousesrv.obj
+ 0002:00001808       ??_R1A@?0A@EA@JHiliteElement@@8 1000b808     mousesrv.obj
+ 0002:00001824       ??_R1A@?0A@EA@JDisplayElementBase@@8 1000b824     mousesrv.obj
+ 0002:00001840       ??_R3JDisplayElementBase@@8 1000b840     mousesrv.obj
+ 0002:00001850       ??_R2JDisplayElementBase@@8 1000b850     mousesrv.obj
+ 0002:00001864       ??_R1A@?0A@EA@JDisplayBaseList@@8 1000b864     mousesrv.obj
+ 0002:00001880       ??_R3JDisplayBaseList@@8   1000b880     mousesrv.obj
+ 0002:00001890       ??_R2JDisplayBaseList@@8   1000b890     mousesrv.obj
+ 0002:000018a0       ??_R4JDisplay2d@@6B@       1000b8a0     mousesrv.obj
+ 0002:000018b4       ??_R3JDisplay2d@@8         1000b8b4     mousesrv.obj
+ 0002:000018c4       ??_R2JDisplay2d@@8         1000b8c4     mousesrv.obj
+ 0002:000018dc       ??_R1A@?0A@EA@JDisplay2d@@8 1000b8dc     mousesrv.obj
+ 0002:000018f8       ??_R1A@?0A@EA@JDisplayGType2d@@8 1000b8f8     mousesrv.obj
+ 0002:00001914       ??_R3JDisplayGType2d@@8    1000b914     mousesrv.obj
+ 0002:00001924       ??_R2JDisplayGType2d@@8    1000b924     mousesrv.obj
+ 0002:00001938       ??_R4XSMProperties@smartMouseService@@6B@ 1000b938     mousesrv.obj
+ 0002:0000194c       ??_R3XSMProperties@smartMouseService@@8 1000b94c     mousesrv.obj
+ 0002:0000195c       ??_R2XSMProperties@smartMouseService@@8 1000b95c     mousesrv.obj
+ 0002:0000196c       ??_R1A@?0A@EA@XSMProperties@smartMouseService@@8 1000b96c     mousesrv.obj
+ 0002:00001988       ??_R1A@?0A@EA@IJVBMouseControlProperties@@8 1000b988     mousesrv.obj
+ 0002:000019a4       ??_R3IJVBMouseControlProperties@@8 1000b9a4     mousesrv.obj
+ 0002:000019b4       ??_R2IJVBMouseControlProperties@@8 1000b9b4     mousesrv.obj
+ 0002:000019c0       ??_R1A@?0A@EA@IUnknown@@8  1000b9c0     mousesrv.obj
+ 0002:000019dc       ??_R3IUnknown@@8           1000b9dc     mousesrv.obj
+ 0002:000019ec       ??_R2IUnknown@@8           1000b9ec     mousesrv.obj
+ 0002:000019f4       ??_R4XSMGraphicLocatePoint@smartMouseService@@6B@ 1000b9f4     mousesrv.obj
+ 0002:00001a08       ??_R3XSMGraphicLocatePoint@smartMouseService@@8 1000ba08     mousesrv.obj
+ 0002:00001a18       ??_R2XSMGraphicLocatePoint@smartMouseService@@8 1000ba18     mousesrv.obj
+ 0002:00001a28       ??_R1A@?0A@EA@XSMGraphicLocatePoint@smartMouseService@@8 1000ba28     mousesrv.obj
+ 0002:00001a44       ??_R1A@?0A@EA@IJGraphicLocatePoint@@8 1000ba44     mousesrv.obj
+ 0002:00001a60       ??_R3IJGraphicLocatePoint@@8 1000ba60     mousesrv.obj
+ 0002:00001a70       ??_R2IJGraphicLocatePoint@@8 1000ba70     mousesrv.obj
+ 0002:00001a7c       ??_R4XSMMouseService@smartMouseService@@6B@ 1000ba7c     mousesrv.obj
+ 0002:00001a90       ??_R3XSMMouseService@smartMouseService@@8 1000ba90     mousesrv.obj
+ 0002:00001aa0       ??_R2XSMMouseService@smartMouseService@@8 1000baa0     mousesrv.obj
+ 0002:00001ab0       ??_R1A@?0A@EA@XSMMouseService@smartMouseService@@8 1000bab0     mousesrv.obj
+ 0002:00001acc       ??_R1A@?0A@EA@IJVBMouseService@@8 1000bacc     mousesrv.obj
+ 0002:00001ae8       ??_R3IJVBMouseService@@8   1000bae8     mousesrv.obj
+ 0002:00001af8       ??_R2IJVBMouseService@@8   1000baf8     mousesrv.obj
+ 0002:00001b04       ??_R4smartMouseService@@6B@ 1000bb04     mousesrv.obj
+ 0002:00001b18       ??_R3smartMouseService@@8  1000bb18     mousesrv.obj
+ 0002:00001b28       ??_R2smartMouseService@@8  1000bb28     mousesrv.obj
+ 0002:00001b40       ??_R1A@?0A@EA@smartMouseService@@8 1000bb40     mousesrv.obj
+ 0002:00001b5c       ??_R1A@?0A@EA@SkSMHelper@@8 1000bb5c     mousesrv.obj
+ 0002:00001b78       ??_R3SkSMHelper@@8         1000bb78     mousesrv.obj
+ 0002:00001b88       ??_R2SkSMHelper@@8         1000bb88     mousesrv.obj
+ 0002:00001b9c       ??_R1A@?0A@EA@JSMHelper2d@@8 1000bb9c     mousesrv.obj
+ 0002:00001bb8       ??_R3JSMHelper2d@@8        1000bbb8     mousesrv.obj
+ 0002:00001bc8       ??_R2JSMHelper2d@@8        1000bbc8     mousesrv.obj
+ 0002:00001bd8       ??_R4SkSMHelper@@6B@       1000bbd8     skcmdspt:SMHELPER.obj
+ 0002:00001bec       ??_R4SkConstraintHelper@@6B@ 1000bbec     skcmdspt:SMHELPER.obj
+ 0002:00001c00       ??_R3SkConstraintHelper@@8 1000bc00     skcmdspt:SMHELPER.obj
+ 0002:00001c10       ??_R2SkConstraintHelper@@8 1000bc10     skcmdspt:SMHELPER.obj
+ 0002:00001c1c       ??_R1A@?0A@EA@SkConstraintHelper@@8 1000bc1c     skcmdspt:SMHELPER.obj
+ 0002:00001c38       ??_R1A@?0A@EA@JConstraintHelper2d@@8 1000bc38     skcmdspt:SMHELPER.obj
+ 0002:00001c54       ??_R3JConstraintHelper2d@@8 1000bc54     skcmdspt:SMHELPER.obj
+ 0002:00001c64       ??_R2JConstraintHelper2d@@8 1000bc64     skcmdspt:SMHELPER.obj
+ 0002:00001c6c       ??_R4type_info@@6B@        1000bc6c     msvcrt:ti_inst.obj
+ 0002:00001c80       ??_R3type_info@@8          1000bc80     msvcrt:ti_inst.obj
+ 0002:00001c90       ??_R2type_info@@8          1000bc90     msvcrt:ti_inst.obj
+ 0002:00001c98       ??_R1A@?0A@EA@type_info@@8 1000bc98     msvcrt:ti_inst.obj
+ 0002:00001cb4       ??_R4_com_error@@6B@       1000bcb4     comsuppw:comraise.obj
+ 0002:00001cc8       ??_R3_com_error@@8         1000bcc8     comsuppw:comraise.obj
+ 0002:00001cd8       ??_R2_com_error@@8         1000bcd8     comsuppw:comraise.obj
+ 0002:00001ce0       ??_R1A@?0A@EA@_com_error@@8 1000bce0     comsuppw:comraise.obj
+ 0002:00001d00       ___safe_se_handler_table   1000bd00     <linker-defined>
+ 0002:00001d9c       ___rtc_iaa                 1000bd9c     msvcrt:initsect.obj
+ 0002:00001da0       ___rtc_izz                 1000bda0     msvcrt:initsect.obj
+ 0002:00001da4       ___rtc_taa                 1000bda4     msvcrt:initsect.obj
+ 0002:00001da8       ___rtc_tzz                 1000bda8     msvcrt:initsect.obj
+ 0002:0000262c       __TI1?AV_com_error@@       1000c62c     comsuppw:comraise.obj
+ 0002:0000263c       __CTA1?AV_com_error@@      1000c63c     comsuppw:comraise.obj
+ 0002:00002644       __CT??_R0?AV_com_error@@@8??0_com_error@@QAE@ABV0@@Z16 1000c644     comsuppw:comraise.obj
+ 0002:00002660       __IMPORT_DESCRIPTOR_CMDSPT2D 1000c660     cmdsp2d:CMDSPT2D.dll
+ 0002:00002674       __IMPORT_DESCRIPTOR_cmdspt 1000c674     cmdspt:cmdspt.dll
+ 0002:00002688       __IMPORT_DESCRIPTOR_control 1000c688     control:control.dll
+ 0002:0000269c       __IMPORT_DESCRIPTOR_Displst 1000c69c     displst:Displst.dll
+ 0002:000026b0       __IMPORT_DESCRIPTOR_jengine 1000c6b0     jengine:jengine.dll
+ 0002:000026c4       __IMPORT_DESCRIPTOR_JUtil  1000c6c4     jutil:JUtil.dll
+ 0002:000026d8       __IMPORT_DESCRIPTOR_ugeom2d 1000c6d8     ugeom2d:ugeom2d.dll
+ 0002:000026ec       __IMPORT_DESCRIPTOR_umath  1000c6ec     umath:umath.dll
+ 0002:00002700       __IMPORT_DESCRIPTOR_skpref 1000c700     uskpref:skpref.dll
+ 0002:00002714       __IMPORT_DESCRIPTOR_sprfhlp 1000c714     sprfhlp:sprfhlp.dll
+ 0002:00002728       __IMPORT_DESCRIPTOR_MFC80  1000c728     mfc80:MFC80.DLL
+ 0002:0000273c       __IMPORT_DESCRIPTOR_MSVCR80 1000c73c     msvcrt:MSVCR80.dll
+ 0002:00002750       __IMPORT_DESCRIPTOR_KERNEL32 1000c750     kernel32:KERNEL32.dll
+ 0002:00002764       __IMPORT_DESCRIPTOR_USER32 1000c764     user32:USER32.dll
+ 0002:00002778       __IMPORT_DESCRIPTOR_ole32  1000c778     ole32:ole32.dll
+ 0002:0000278c       __IMPORT_DESCRIPTOR_DCM_IMP 1000c78c     dcm_imp:DCM_IMP.dll
+ 0002:000027a0       __NULL_IMPORT_DESCRIPTOR   1000c7a0     cmdsp2d:CMDSPT2D.dll
+ 0003:00000000       __newmode                  1000f000     newmode.obj
+ 0003:00000c78       ??_R0?AVJOleObjectFactory@@@8 1000fc78     mousesrv.obj
+ 0003:00000c98       ??_R0?AVCOleObjectFactory@@@8 1000fc98     mousesrv.obj
+ 0003:00000cb8       ??_R0?AVCCmdTarget@@@8     1000fcb8     mousesrv.obj
+ 0003:00000cd4       ??_R0?AVCObject@@@8        1000fcd4     mousesrv.obj
+ 0003:00000cec       ??_R0?AVJHiliteElement@@@8 1000fcec     mousesrv.obj
+ 0003:00000d0c       ??_R0?AVJDisplayElementBase@@@8 1000fd0c     mousesrv.obj
+ 0003:00000d30       ??_R0?AVJDisplayBaseList@@@8 1000fd30     mousesrv.obj
+ 0003:00000d50       ??_R0?AVJDisplay2d@@@8     1000fd50     mousesrv.obj
+ 0003:00000d6c       ??_R0?AVJDisplayGType2d@@@8 1000fd6c     mousesrv.obj
+ 0003:00000d8c       ??_R0?AVXSMProperties@smartMouseService@@@8 1000fd8c     mousesrv.obj
+ 0003:00000dbc       ??_R0?AUIJVBMouseControlProperties@@@8 1000fdbc     mousesrv.obj
+ 0003:00000de8       ??_R0?AUIUnknown@@@8       1000fde8     mousesrv.obj
+ 0003:00000e00       ??_R0?AVXSMGraphicLocatePoint@smartMouseService@@@8 1000fe00     mousesrv.obj
+ 0003:00000e38       ??_R0?AUIJGraphicLocatePoint@@@8 1000fe38     mousesrv.obj
+ 0003:00000e5c       ??_R0?AVXSMMouseService@smartMouseService@@@8 1000fe5c     mousesrv.obj
+ 0003:00000e8c       ??_R0?AUIJVBMouseService@@@8 1000fe8c     mousesrv.obj
+ 0003:00000eac       ??_R0?AVsmartMouseService@@@8 1000feac     mousesrv.obj
+ 0003:00000ecc       ??_R0?AVSkSMHelper@@@8     1000fecc     mousesrv.obj
+ 0003:00000ee8       ??_R0?AVJSMHelper2d@@@8    1000fee8     mousesrv.obj
+ 0003:000019c8       ??_R0?AVSkConstraintHelper@@@8 100109c8     skcmdspt:SMHELPER.obj
+ 0003:000019ec       ??_R0?AVJConstraintHelper2d@@@8 100109ec     skcmdspt:SMHELPER.obj
+ 0003:00001a10       ??_R0?AVtype_info@@@8      10010a10     msvcrt:ti_inst.obj
+ 0003:00001a28       ___security_cookie         10010a28     msvcrt:gs_cookie.obj
+ 0003:00001a2c       ___security_cookie_complement 10010a2c     msvcrt:gs_cookie.obj
+ 0003:00001a30       ___native_dllmain_reason   10010a30     msvcrt:natstart.obj
+ 0003:00001a34       ___native_vcclrit_reason   10010a34     msvcrt:natstart.obj
+ 0003:00001a38       ?__errorPfn@@3P6GXJPAUIErrorInfo@@@ZA 10010a38     comsuppw:comsupp.obj
+ 0003:00001a3c       ??_R0?AV_com_error@@@8     10010a3c     comsuppw:comraise.obj
+ 0003:00001a58       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10010a58     atls:atltrace.obj
+ 0003:00001a60       __afxForceEXTDLL           10010a60     mouseapp.obj
+ 0003:00001a88       ?LocateFilterConstants@@3W4<unnamed-tag>@@A 10010a88     mousesrv.obj
+ 0003:00001a8c       ?LocateModeConstants@@3W4<unnamed-tag>@@A 10010a8c     mousesrv.obj
+ 0003:00001a90       ?DynamicModeConstants@@3W4<unnamed-tag>@@A 10010a90     mousesrv.obj
+ 0003:00001aa0       ?factory@smartMouseService@@2VJOleObjectFactory@@A 10010aa0     mousesrv.obj
+ 0003:00001f40       __afxForceEXCLUDE          10010f40     mfcs80:nolib.obj
+ 0003:00001f44       __afxForceSTDAFX           10010f44     mfcs80:stdafx.obj
+ 0003:00002274       ?__type_info_root_node@@3U__type_info_node@@A 10011274     msvcrt:tncleanup.obj
+ 0003:0000227c       __adjust_fdiv              1001127c     <common>
+ 0003:00002280       ___native_startup_state    10011280     <common>
+ 0003:00002284       ___native_startup_lock     10011284     <common>
+ 0003:00002288       ___dyn_tls_init_callback   10011288     <common>
+ 0003:0000228c       ___onexitend               1001128c     <common>
+ 0003:00002290       ___onexitbegin             10011290     <common>
+
+ entry point at        0001:00007b2f
+
+ Static symbols
+
+ 0001:00000710       ?MAKEPOINT@@YA?AUtagPOINT@@J@Z 10001710 f   mousesrv.obj
+ 0001:00001280       ?ProcessPartLocateEvent@@YAJPAUIJGraphic@@PAPAUIDispatch@@@Z 10002280 f   mousesrv.obj
+ 0001:00001460       ?IsView3d@@YAJPAUIUnknown@@PAH@Z 10002460 f   mousesrv.obj
+ 0001:00005860       ?LoadDCX2dResourceDLL@@YAXXZ 10006860 f   skcmdspt:SMHELPER.obj
+ 0001:0000782d       _pre_c_init                1000882d f   msvcrt:crtdll.obj
+ 0001:00007a19       ___DllMainCRTStartup       10008a19 f   msvcrt:crtdll.obj
+ 0001:00008210       __unwindfunclet$_DllMain@12$0 10009210 f   mouseapp.obj
+ 0001:0000821a       __ehhandler$_DllMain@12    1000921a f   mouseapp.obj
+ 0001:00008240       __unwindfunclet$_DllGetClassObject@12$0 10009240 f   mouseapp.obj
+ 0001:00008248       __ehhandler$_DllGetClassObject@12 10009248 f   mouseapp.obj
+ 0001:00008270       __unwindfunclet$_DllCanUnloadNow@0$0 10009270 f   mouseapp.obj
+ 0001:00008278       __ehhandler$_DllCanUnloadNow@0 10009278 f   mouseapp.obj
+ 0001:000082a0       __unwindfunclet$??0JOleObjectFactory@@QAE@ABU_GUID@@PAUCRuntimeClass@@HPBD@Z$0 100092a0 f   mousesrv.obj
+ 0001:000082a8       __ehhandler$??0JOleObjectFactory@@QAE@ABU_GUID@@PAUCRuntimeClass@@HPBD@Z 100092a8 f   mousesrv.obj
+ 0001:000082d0       __unwindfunclet$?OnCreateObject@JOleObjectFactory@@UAEPAVCCmdTarget@@XZ$0 100092d0 f   mousesrv.obj
+ 0001:000082d8       __ehhandler$?OnCreateObject@JOleObjectFactory@@UAEPAVCCmdTarget@@XZ 100092d8 f   mousesrv.obj
+ 0001:00008300       __unwindfunclet$?doInit@smartMouseService@@IAEJXZ$8 10009300 f   mousesrv.obj
+ 0001:0000830a       __unwindfunclet$?doInit@smartMouseService@@IAEJXZ$9 1000930a f   mousesrv.obj
+ 0001:00008314       __unwindfunclet$?doInit@smartMouseService@@IAEJXZ$10 10009314 f   mousesrv.obj
+ 0001:0000831f       __ehhandler$?doInit@smartMouseService@@IAEJXZ 1000931f f   mousesrv.obj
+ 0001:00008340       __unwindfunclet$?FenceLocate@smartMouseService@@IAEJUtagPOINT@@0PAPAUIDispatch@@@Z$12 10009340 f   mousesrv.obj
+ 0001:0000834c       __ehhandler$?FenceLocate@smartMouseService@@IAEJUtagPOINT@@0PAPAUIDispatch@@@Z 1000934c f   mousesrv.obj
+ 0001:00008370       __unwindfunclet$?setLocateEnv@smartMouseService@@IAEJXZ$0 10009370 f   mousesrv.obj
+ 0001:00008379       __ehhandler$?setLocateEnv@smartMouseService@@IAEJXZ 10009379 f   mousesrv.obj
+ 0001:000083b0       __unwindfunclet$??_GJOleObjectFactory@@UAEPAXI@Z$0 100093b0 f   mousesrv.obj
+ 0001:000083b8       __ehhandler$??_GJOleObjectFactory@@UAEPAXI@Z 100093b8 f   mousesrv.obj
+ 0001:000083e0       __unwindfunclet$??1smartMouseService@@MAE@XZ$0 100093e0 f   mousesrv.obj
+ 0001:000083e8       __unwindfunclet$??1smartMouseService@@MAE@XZ$1 100093e8 f   mousesrv.obj
+ 0001:000083f6       __unwindfunclet$??1smartMouseService@@MAE@XZ$2 100093f6 f   mousesrv.obj
+ 0001:00008405       __unwindfunclet$??1smartMouseService@@MAE@XZ$3 10009405 f   mousesrv.obj
+ 0001:00008413       __ehhandler$??1smartMouseService@@MAE@XZ 10009413 f   mousesrv.obj
+ 0001:00008430       __unwindfunclet$?DisplayDynamicElements@smartMouseService@@IAEJHNN@Z$21 10009430 f   mousesrv.obj
+ 0001:0000843c       __ehhandler$?DisplayDynamicElements@smartMouseService@@IAEJHNN@Z 1000943c f   mousesrv.obj
+ 0001:00008470       __unwindfunclet$??0smartMouseService@@IAE@XZ$0 10009470 f   mousesrv.obj
+ 0001:0000847b       __unwindfunclet$??0smartMouseService@@IAE@XZ$1 1000947b f   mousesrv.obj
+ 0001:0000848c       __unwindfunclet$??0smartMouseService@@IAE@XZ$2 1000948c f   mousesrv.obj
+ 0001:0000849e       __unwindfunclet$??0smartMouseService@@IAE@XZ$3 1000949e f   mousesrv.obj
+ 0001:000084af       __unwindfunclet$??0smartMouseService@@IAE@XZ$5 100094af f   mousesrv.obj
+ 0001:000084bb       __unwindfunclet$??0smartMouseService@@IAE@XZ$4 100094bb f   mousesrv.obj
+ 0001:000084c7       __unwindfunclet$??0smartMouseService@@IAE@XZ$6 100094c7 f   mousesrv.obj
+ 0001:000084d3       __ehhandler$??0smartMouseService@@IAE@XZ 100094d3 f   mousesrv.obj
+ 0001:00008500       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$1 10009500 f   mousesrv.obj
+ 0001:0000850c       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$2 1000950c f   mousesrv.obj
+ 0001:00008518       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$5 10009518 f   mousesrv.obj
+ 0001:00008524       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$3 10009524 f   mousesrv.obj
+ 0001:00008530       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$6 10009530 f   mousesrv.obj
+ 0001:0000853c       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$4 1000953c f   mousesrv.obj
+ 0001:00008548       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$7 10009548 f   mousesrv.obj
+ 0001:00008554       __unwindfunclet$?doWakeup@smartMouseService@@IAEJXZ$8 10009554 f   mousesrv.obj
+ 0001:00008560       __ehhandler$?doWakeup@smartMouseService@@IAEJXZ 10009560 f   mousesrv.obj
+ 0001:00008590       __unwindfunclet$?CreateObject@smartMouseService@@SGPAVCObject@@XZ$0 10009590 f   mousesrv.obj
+ 0001:0000859a       __ehhandler$?CreateObject@smartMouseService@@SGPAVCObject@@XZ 1000959a f   mousesrv.obj
+ 0001:000085c0       __unwindfunclet$?FireMouseValidateEvent@smartMouseService@@QAEHPAUIUnknown@@@Z$0 100095c0 f   mousesrv.obj
+ 0001:000085c8       __unwindfunclet$?FireMouseValidateEvent@smartMouseService@@QAEHPAUIUnknown@@@Z$1 100095c8 f   mousesrv.obj
+ 0001:000085d0       __ehhandler$?FireMouseValidateEvent@smartMouseService@@QAEHPAUIUnknown@@@Z 100095d0 f   mousesrv.obj
+ 0001:000085f0       __unwindfunclet$?SetOptionsForSmartLocate@smartMouseService@@IAEJXZ$13 100095f0 f   mousesrv.obj
+ 0001:000085fc       __unwindfunclet$?SetOptionsForSmartLocate@smartMouseService@@IAEJXZ$14 100095fc f   mousesrv.obj
+ 0001:00008607       __ehhandler$?SetOptionsForSmartLocate@smartMouseService@@IAEJXZ 10009607 f   mousesrv.obj
+ 0001:00008640       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$16 10009640 f   mousesrv.obj
+ 0001:0000864c       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$13 1000964c f   mousesrv.obj
+ 0001:00008658       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$14 10009658 f   mousesrv.obj
+ 0001:00008663       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$17 10009663 f   mousesrv.obj
+ 0001:0000866f       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$15 1000966f f   mousesrv.obj
+ 0001:0000867b       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$18 1000967b f   mousesrv.obj
+ 0001:00008687       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$19 10009687 f   mousesrv.obj
+ 0001:00008693       __unwindfunclet$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$20 10009693 f   mousesrv.obj
+ 0001:0000869f       __ehhandler$?doLButtonDown@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 1000969f f   mousesrv.obj
+ 0001:000086c0       __unwindfunclet$?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$4 100096c0 f   mousesrv.obj
+ 0001:000086cc       __unwindfunclet$?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$3 100096cc f   mousesrv.obj
+ 0001:000086d8       __unwindfunclet$?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$5 100096d8 f   mousesrv.obj
+ 0001:000086e4       __unwindfunclet$?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$6 100096e4 f   mousesrv.obj
+ 0001:000086f0       __ehhandler$?doLButtonUp@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 100096f0 f   mousesrv.obj
+ 0001:00008720       __unwindfunclet$?doMouseMove@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z$9 10009720 f   mousesrv.obj
+ 0001:0000872c       __ehhandler$?doMouseMove@smartMouseService@@IAEJPAUIJView@@W4tagJACTION@@JJJHNNN@Z 1000972c f   mousesrv.obj
+ 0001:00008760       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$21 10009760 f   mousesrv.obj
+ 0001:0000876c       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$17 1000976c f   mousesrv.obj
+ 0001:00008778       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$18 10009778 f   mousesrv.obj
+ 0001:00008784       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$19 10009784 f   mousesrv.obj
+ 0001:00008790       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$22 10009790 f   mousesrv.obj
+ 0001:0000879c       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$20 1000979c f   mousesrv.obj
+ 0001:000087a8       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$23 100097a8 f   mousesrv.obj
+ 0001:000087b4       __unwindfunclet$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z$24 100097b4 f   mousesrv.obj
+ 0001:000087c0       __ehhandler$?MouseEvent@XSMMouseService@smartMouseService@@UAGJPAUIJView@@W4tagJACTION@@JJJHNNNPAH@Z 100097c0 f   mousesrv.obj
+ 0001:000087f0       __unwindfunclet$?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z$18 100097f0 f   mousesrv.obj
+ 0001:000087fc       __unwindfunclet$?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z$16 100097fc f   mousesrv.obj
+ 0001:00008808       __unwindfunclet$?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z$19 10009808 f   mousesrv.obj
+ 0001:00008814       __unwindfunclet$?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z$17 10009814 f   mousesrv.obj
+ 0001:00008820       __ehhandler$?GenericEvent@XSMMouseService@smartMouseService@@UAGJPAUIUnknown@@PAUIJView@@IIJPAJ@Z 10009820 f   mousesrv.obj
+ 0001:00008850       __unwindfunclet$??__F?factory@smartMouseService@@2VJOleObjectFactory@@A@@YAXXZ$0 10009850 f   mousesrv.obj
+ 0001:0000885a       __ehhandler$??__F?factory@smartMouseService@@2VJOleObjectFactory@@A@@YAXXZ 1000985a f   mousesrv.obj
+ 0001:00008880       __unwindfunclet$??1SkSMHelper@@UAE@XZ$0 10009880 f   skcmdspt:SMHELPER.obj
+ 0001:00008889       __ehhandler$??1SkSMHelper@@UAE@XZ 10009889 f   skcmdspt:SMHELPER.obj
+ 0001:000088b0       __unwindfunclet$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ$0 100098b0 f   skcmdspt:SMHELPER.obj
+ 0001:000088bc       __unwindfunclet$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ$1 100098bc f   skcmdspt:SMHELPER.obj
+ 0001:000088c8       __ehhandler$?SetConstraintBmpColor@SkSMHelper@@UAEJXZ 100098c8 f   skcmdspt:SMHELPER.obj
+ 0001:00008900       __unwindfunclet$?SetLocateTolerance@SkSMHelper@@UAEJXZ$0 10009900 f   skcmdspt:SMHELPER.obj
+ 0001:0000890c       __ehhandler$?SetLocateTolerance@SkSMHelper@@UAEJXZ 1000990c f   skcmdspt:SMHELPER.obj
+ 0001:00008940       __unwindfunclet$?SetDefaultInfo@SkSMHelper@@UAEJXZ$12 10009940 f   skcmdspt:SMHELPER.obj
+ 0001:0000894c       __ehhandler$?SetDefaultInfo@SkSMHelper@@UAEJXZ 1000994c f   skcmdspt:SMHELPER.obj
+ 0001:00008980       __unwindfunclet$?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z$4 10009980 f   skcmdspt:SMHELPER.obj
+ 0001:00008989       __ehhandler$?LoadPinPointResources@SkSMHelper@@EAEJPAVGUserText@@PAJ1@Z 10009989 f   skcmdspt:SMHELPER.obj
+ 0001:000089b0       __unwindfunclet$?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z$1 100099b0 f   skcmdspt:SMHELPER.obj
+ 0001:000089bc       __ehhandler$?SetPinPointCmdShowState@SkSMHelper@@EAEJH@Z 100099bc f   skcmdspt:SMHELPER.obj
+ 0001:000089f0       __unwindfunclet$?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z$4 100099f0 f   skcmdspt:SMHELPER.obj
+ 0001:000089fc       __ehhandler$?GetPinPointOnOff@SkSMHelper@@EAEJPAH000@Z 100099fc f   skcmdspt:SMHELPER.obj
+ 0001:00008a30       __unwindfunclet$?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z$1 10009a30 f   skcmdspt:SMHELPER.obj
+ 0001:00008a3c       __ehhandler$?SetPinPointTargetPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10009a3c f   skcmdspt:SMHELPER.obj
+ 0001:00008a70       __unwindfunclet$?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z$1 10009a70 f   skcmdspt:SMHELPER.obj
+ 0001:00008a7c       __ehhandler$?GetPinPointTargetPoint@SkSMHelper@@EAEJPAUtagGPosition2d@@@Z 10009a7c f   skcmdspt:SMHELPER.obj
+ 0001:00008ab0       __unwindfunclet$?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z$1 10009ab0 f   skcmdspt:SMHELPER.obj
+ 0001:00008abc       __ehhandler$?SetPinPointEvaluatedPoint@SkSMHelper@@EAEJUtagGPosition2d@@@Z 10009abc f   skcmdspt:SMHELPER.obj
+ 0001:00008af0       __unwindfunclet$?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z$1 10009af0 f   skcmdspt:SMHELPER.obj
+ 0001:00008afc       __ehhandler$?GetPinPointAngleInfo@SkSMHelper@@EAEJPAN00PAW4X_orient_types@SkPrefsPrecision@@@Z 10009afc f   skcmdspt:SMHELPER.obj
+ 0001:00008b30       __unwindfunclet$??0SkConstraintHelper@@QAE@XZ$0 10009b30 f   skcmdspt:SMHELPER.obj
+ 0001:00008b39       __ehhandler$??0SkConstraintHelper@@QAE@XZ 10009b39 f   skcmdspt:SMHELPER.obj
+ 0001:00008b60       __unwindfunclet$??1SkConstraintHelper@@UAE@XZ$0 10009b60 f   skcmdspt:SMHELPER.obj
+ 0001:00008b69       __ehhandler$??1SkConstraintHelper@@UAE@XZ 10009b69 f   skcmdspt:SMHELPER.obj
+ 0001:00008b90       __unwindfunclet$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ$15 10009b90 f   skcmdspt:SMHELPER.obj
+ 0001:00008b9c       __unwindfunclet$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ$16 10009b9c f   skcmdspt:SMHELPER.obj
+ 0001:00008ba8       __ehhandler$?DefaultConstraintClasses@SkSMHelper@@QAEJXZ 10009ba8 f   skcmdspt:SMHELPER.obj
+ 0001:00008be0       __unwindfunclet$??0SkSMHelper@@QAE@XZ$0 10009be0 f   skcmdspt:SMHELPER.obj
+ 0001:00008be9       __ehhandler$??0SkSMHelper@@QAE@XZ 10009be9 f   skcmdspt:SMHELPER.obj
+ 0001:00008c10       __unwindfunclet$?CreateObject@SkSMHelper@@SGPAVCObject@@XZ$0 10009c10 f   skcmdspt:SMHELPER.obj
+ 0001:00008c1a       __ehhandler$?CreateObject@SkSMHelper@@SGPAVCObject@@XZ 10009c1a f   skcmdspt:SMHELPER.obj
+ 0001:00008c40       ??__EGNULL_Camera@@YAXXZ   10009c40 f   mousesrv.obj
+ 0001:00008c60       ??__EGNULL_CAMERA@@YAXXZ   10009c60 f   mousesrv.obj
+ 0001:00008c80       ??__EGID_Camera@@YAXXZ     10009c80 f   mousesrv.obj
+ 0001:00008ca0       ??__EGID_CAMERA@@YAXXZ     10009ca0 f   mousesrv.obj
+ 0001:00008cc0       ??__E?factory@smartMouseService@@2VJOleObjectFactory@@A@@YAXXZ 10009cc0 f   mousesrv.obj
+ 0001:00008cf0       ??__EGNULL_Camera@@YAXXZ   10009cf0 f   skcmdspt:SMHELPER.obj
+ 0001:00008d10       ??__EGNULL_CAMERA@@YAXXZ   10009d10 f   skcmdspt:SMHELPER.obj
+ 0001:00008d30       ??__EGID_Camera@@YAXXZ     10009d30 f   skcmdspt:SMHELPER.obj
+ 0001:00008d50       ??__EGID_CAMERA@@YAXXZ     10009d50 f   skcmdspt:SMHELPER.obj
+ 0001:00008d70       ??__F?factory@smartMouseService@@2VJOleObjectFactory@@A@@YAXXZ 10009d70 f   mousesrv.obj

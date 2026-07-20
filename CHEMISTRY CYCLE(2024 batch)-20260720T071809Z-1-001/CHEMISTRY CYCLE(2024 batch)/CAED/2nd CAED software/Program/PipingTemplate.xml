@@ -1,0 +1,156 @@
+<?xml version="1.0" standalone="yes"?>
+<PipingStreamSet xmlns="http://tempuri.org/PipingStreamSet.xsd">
+  <xs:schema id="PipingStreamSet" targetNamespace="http://tempuri.org/PipingStreamSet.xsd" xmlns:mstns="http://tempuri.org/PipingStreamSet.xsd" xmlns="http://tempuri.org/PipingStreamSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="PipingStreamSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="CS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="iCS" type="xs:int" />
+                <xs:element name="strName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Var">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="iVar" type="xs:int" />
+                <xs:element name="iCS" type="xs:int" />
+                <xs:element name="strAttr" type="xs:string" />
+                <xs:element name="strVal" type="xs:string" minOccurs="0" />
+                <xs:element name="numVal" type="xs:double" minOccurs="0" />
+                <xs:element name="nValFormat" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Attr">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strAttr" type="xs:string" />
+                <xs:element name="nUnitClass" type="xs:int" minOccurs="0" />
+                <xs:element name="nUnit" type="xs:int" minOccurs="0" />
+                <xs:element name="strCustomUnit" type="xs:string" minOccurs="0" />
+                <xs:element name="iAttr" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="CoordSysKey" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:CS" />
+        <xs:field xpath="mstns:iCS" />
+      </xs:unique>
+      <xs:unique name="VariantKey" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Var" />
+        <xs:field xpath="mstns:iVar" />
+        <xs:field xpath="mstns:iCS" />
+        <xs:field xpath="mstns:strAttr" />
+      </xs:unique>
+      <xs:unique name="AttrKey" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Attr" />
+        <xs:field xpath="mstns:strAttr" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <CS>
+    <iCS>0</iCS>
+    <strName>INPUT_POINT_1</strName>
+  </CS>
+  <CS>
+    <iCS>1</iCS>
+    <strName>OUTPUT_POINT_1</strName>
+  </CS>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>0</iCS>
+    <strAttr>IO</strAttr>
+    <strVal />
+    <numVal>1</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>1</iCS>
+    <strAttr>IO</strAttr>
+    <strVal />
+    <numVal>2</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>0</iCS>
+    <strAttr>SN</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>1</iCS>
+    <strAttr>SN</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>0</iCS>
+    <strAttr>CD</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>1</iCS>
+    <strAttr>CD</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>0</iCS>
+    <strAttr>ET</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Var>
+    <iVar>0</iVar>
+    <iCS>1</iCS>
+    <strAttr>ET</strAttr>
+    <strVal />
+    <numVal>0</numVal>
+    <nValFormat>1</nValFormat>
+  </Var>
+  <Attr>
+    <strAttr>IO</strAttr>
+    <nUnitClass>4</nUnitClass>
+    <nUnit>1</nUnit>
+    <strCustomUnit />
+    <iAttr>0</iAttr>
+  </Attr>
+  <Attr>
+    <strAttr>SN</strAttr>
+    <nUnitClass>4</nUnitClass>
+    <nUnit>1</nUnit>
+    <strCustomUnit />
+    <iAttr>1</iAttr>
+  </Attr>
+  <Attr>
+    <strAttr>CD</strAttr>
+    <nUnitClass>7</nUnitClass>
+    <nUnit>3</nUnit>
+    <strCustomUnit />
+    <iAttr>2</iAttr>
+  </Attr>
+  <Attr>
+    <strAttr>ET</strAttr>
+    <nUnitClass>4</nUnitClass>
+    <nUnit>1</nUnit>
+    <strCustomUnit />
+    <iAttr>3</iAttr>
+  </Attr>
+</PipingStreamSet>

@@ -1,0 +1,646 @@
+ HSENSOR
+
+ Timestamp is 46b3a472 (Fri Aug 03 16:56:02 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005b98H .text                   CODE
+ 0001:00005ba0 00000803H .text$x                 CODE
+ 0001:000063b0 00000176H .text$yc                CODE
+ 0002:00000000 0000015cH .idata$5                DATA
+ 0002:0000015c 00000004H .CRT$XCA                DATA
+ 0002:00000160 00000030H .CRT$XCU                DATA
+ 0002:00000190 00000004H .CRT$XCZ                DATA
+ 0002:00000194 00000004H .CRT$XIA                DATA
+ 0002:00000198 00000004H .CRT$XIAA               DATA
+ 0002:0000019c 00000004H .CRT$XIZ                DATA
+ 0002:000001a0 00000ac8H .rdata                  DATA
+ 0002:00000c68 00000031H .rdata$debug            DATA
+ 0002:00000c9c 00000590H .rdata$r                DATA
+ 0002:00001230 000000a4H .rdata$sxdata           DATA
+ 0002:000012d4 00000004H .rtc$IAA                DATA
+ 0002:000012d8 00000004H .rtc$IZZ                DATA
+ 0002:000012dc 00000004H .rtc$TAA                DATA
+ 0002:000012e0 00000004H .rtc$TZZ                DATA
+ 0002:000012e8 0000082cH .xdata$x                DATA
+ 0002:00001b14 000000a0H .idata$2                DATA
+ 0002:00001bb4 00000014H .idata$3                DATA
+ 0002:00001bc8 0000015cH .idata$4                DATA
+ 0002:00001d24 000005b4H .idata$6                DATA
+ 0002:000022e0 0000006aH .edata                  DATA
+ 0003:00000000 00002128H .data                   DATA
+ 0003:00002128 000009ccH .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000370H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000029       ___safe_se_handler_count   00000029     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000030       ??1HSensor@@QAE@XZ         10001030 f   hsensor.obj
+ 0001:00000040       ?Initialize@HSensor@@QAEJXZ 10001040 f   hsensor.obj
+ 0001:00000040       ?Initialize@HSheetMetalSensors@@QAEJXZ 10001040 f   hsensors.obj
+ 0001:00000040       ?Initialize@HSensors@@QAEJXZ 10001040 f   hsensors.obj
+ 0001:00000050       ?AddRef@HSensor@@UAGKXZ    10001050 f   hsensor.obj
+ 0001:00000060       ?AddRef@IHelperImp@HSensor@@UAGKXZ 10001060 f   hsensor.obj
+ 0001:00000080       ?Release@IHelperImp@HSensor@@UAGKXZ 10001080 f   hsensor.obj
+ 0001:000000a0       ?Bind@IHelperImp@HSensor@@UAGJPAUIUnknown@@@Z 100010a0 f   hsensor.obj
+ 0001:00000110       ?GetBinding@IHelperImp@HSensor@@UAGJPAPAUIUnknown@@@Z 10001110 f   hsensor.obj
+ 0001:00000130       ?SetParent@IHelperImp@HSensor@@UAGJPAUIUnknown@@@Z 10001130 f   hsensor.obj
+ 0001:00000150       ?GetClassID@IHelperImp@HSensor@@UAGJPAU_GUID@@@Z 10001150 f   hsensor.obj
+ 0001:00000180       ?QueryInterface@IHSensorImp@HSensor@@UAGJABU_GUID@@PAPAX@Z 10001180 f   hsensor.obj
+ 0001:000001a0       ?AddRef@IHSensorImp@HSensor@@UAGKXZ 100011a0 f   hsensor.obj
+ 0001:000001c0       ?Release@IHSensorImp@HSensor@@UAGKXZ 100011c0 f   hsensor.obj
+ 0001:000001e0       _IsEqualGUID               100011e0 f i hsensor.obj
+ 0001:00000280       ?Release@HSensor@@UAGKXZ   10001280 f   hsensor.obj
+ 0001:000002d0       ?QueryInterface@HSensor@@UAGJABU_GUID@@PAPAX@Z 100012d0 f   hsensor.obj
+ 0001:00000360       ?get_SensorType@IHSensorImp@HSensor@@UAGJPAH@Z 10001360 f   hsensor.obj
+ 0001:00000470       ?get_Status@IHSensorImp@HSensor@@UAGJPAH@Z 10001470 f   hsensor.obj
+ 0001:00000580       ?get_IsInRange@IHSensorImp@HSensor@@UAGJPAF@Z 10001580 f   hsensor.obj
+ 0001:000006c0       ?get_CurrentValue@IHSensorImp@HSensor@@UAGJPAN@Z 100016c0 f   hsensor.obj
+ 0001:000007c0       ?put_Name@IHSensorImp@HSensor@@UAGJPA_W@Z 100017c0 f   hsensor.obj
+ 0001:00000990       ?get_Name@IHSensorImp@HSensor@@UAGJPAPA_W@Z 10001990 f   hsensor.obj
+ 0001:00000ab0       ?put_Description@IHSensorImp@HSensor@@UAGJPA_W@Z 10001ab0 f   hsensor.obj
+ 0001:00000c90       ?get_Description@IHSensorImp@HSensor@@UAGJPAPA_W@Z 10001c90 f   hsensor.obj
+ 0001:00000db0       ?put_LowerRange@IHSensorImp@HSensor@@UAGJN@Z 10001db0 f   hsensor.obj
+ 0001:00000f10       ?get_LowerRange@IHSensorImp@HSensor@@UAGJPAN@Z 10001f10 f   hsensor.obj
+ 0001:00001010       ?put_UpperRange@IHSensorImp@HSensor@@UAGJN@Z 10002010 f   hsensor.obj
+ 0001:00001170       ?get_UpperRange@IHSensorImp@HSensor@@UAGJPAN@Z 10002170 f   hsensor.obj
+ 0001:00001270       ?put_Operator@IHSensorImp@HSensor@@UAGJH@Z 10002270 f   hsensor.obj
+ 0001:00001400       ?get_Operator@IHSensorImp@HSensor@@UAGJPAH@Z 10002400 f   hsensor.obj
+ 0001:00001510       ?put_MinimumThreshold@IHSensorImp@HSensor@@UAGJN@Z 10002510 f   hsensor.obj
+ 0001:00001680       ?get_MinimumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z 10002680 f   hsensor.obj
+ 0001:00001790       ?put_MaximumThreshold@IHSensorImp@HSensor@@UAGJN@Z 10002790 f   hsensor.obj
+ 0001:00001900       ?get_MaximumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z 10002900 f   hsensor.obj
+ 0001:00001a10       ?put_DisplayType@IHSensorImp@HSensor@@UAGJH@Z 10002a10 f   hsensor.obj
+ 0001:00001ba0       ?get_DisplayType@IHSensorImp@HSensor@@UAGJPAH@Z 10002ba0 f   hsensor.obj
+ 0001:00001cc0       ?put_UpdateMechanism@IHSensorImp@HSensor@@UAGJH@Z 10002cc0 f   hsensor.obj
+ 0001:00001e50       ?get_UpdateMechanism@IHSensorImp@HSensor@@UAGJPAH@Z 10002e50 f   hsensor.obj
+ 0001:00001f60       ?Update@IHSensorImp@HSensor@@UAGJXZ 10002f60 f   hsensor.obj
+ 0001:00002070       ?Delete@IHSensorImp@HSensor@@UAGJXZ 10003070 f   hsensor.obj
+ 0001:00002120       ?put_UnitType@IHSensorImp@HSensor@@UAGJH@Z 10003120 f   hsensor.obj
+ 0001:000022b0       ?get_UnitType@IHSensorImp@HSensor@@UAGJPAH@Z 100032b0 f   hsensor.obj
+ 0001:000023d0       ??0HSensor@@QAE@PAUIUnknown@@@Z 100033d0 f   hsensor.obj
+ 0001:00002400       ?QueryInterface@IHelperImp@HSensors@@UAGJABU_GUID@@PAPAX@Z 10003400 f   hsensors.obj
+ 0001:00002400       ?QueryInterface@IHelperImp@HSheetMetalSensors@@UAGJABU_GUID@@PAPAX@Z 10003400 f   hsensors.obj
+ 0001:00002420       ?SetParent@IHelperImp@HSensors@@UAGJPAUIUnknown@@@Z 10003420 f   hsensors.obj
+ 0001:00002420       ?SetParent@IHelperImp@HSheetMetalSensors@@UAGJPAUIUnknown@@@Z 10003420 f   hsensors.obj
+ 0001:00002440       ?GetClassID@IHelperImp@HSensors@@UAGJPAU_GUID@@@Z 10003440 f   hsensors.obj
+ 0001:00002470       ?Release@IHSensorsImp@HSensors@@UAGKXZ 10003470 f   hsensors.obj
+ 0001:00002470       ?Release@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGKXZ 10003470 f   hsensors.obj
+ 0001:00002490       ?Item@IHSensorsImp@HSensors@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10003490 f   hsensors.obj
+ 0001:00002490       ?Item@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJUtagVARIANT@@PAPAUIUnknown@@@Z 10003490 f   hsensors.obj
+ 0001:000025c0       ?get_Application@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAPAUIUnknown@@@Z 100035c0 f   hsensors.obj
+ 0001:000025c0       ?get_Application@IHSensorsImp@HSensors@@UAGJPAPAUIUnknown@@@Z 100035c0 f   hsensors.obj
+ 0001:000025e0       ?AddRef@HSensors@@UAGKXZ   100035e0 f   hsensors.obj
+ 0001:000025e0       ?AddRef@HSheetMetalSensors@@UAGKXZ 100035e0 f   hsensors.obj
+ 0001:000025f0       ?QueryInterface@HSheetMetalSensors@@UAGJABU_GUID@@PAPAX@Z 100035f0 f   hsensors.obj
+ 0001:000026e0       ?AddRef@IHelperImp@HSheetMetalSensors@@UAGKXZ 100036e0 f   hsensors.obj
+ 0001:000026e0       ?AddRef@IHelperImp@HSensors@@UAGKXZ 100036e0 f   hsensors.obj
+ 0001:00002700       ?Release@IHelperImp@HSensors@@UAGKXZ 10003700 f   hsensors.obj
+ 0001:00002700       ?Release@IHelperImp@HSheetMetalSensors@@UAGKXZ 10003700 f   hsensors.obj
+ 0001:00002720       ?Bind@IHelperImp@HSheetMetalSensors@@UAGJPAUIUnknown@@@Z 10003720 f   hsensors.obj
+ 0001:00002720       ?Bind@IHelperImp@HSensors@@UAGJPAUIUnknown@@@Z 10003720 f   hsensors.obj
+ 0001:00002730       ?GetBinding@IHelperImp@HSensors@@UAGJPAPAUIUnknown@@@Z 10003730 f   hsensors.obj
+ 0001:00002730       ?GetBinding@IHelperImp@HSheetMetalSensors@@UAGJPAPAUIUnknown@@@Z 10003730 f   hsensors.obj
+ 0001:00002750       ?GetClassID@IHelperImp@HSheetMetalSensors@@UAGJPAU_GUID@@@Z 10003750 f   hsensors.obj
+ 0001:00002780       ?QueryInterface@IHSensorsImp@HSensors@@UAGJABU_GUID@@PAPAX@Z 10003780 f   hsensors.obj
+ 0001:00002780       ?QueryInterface@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJABU_GUID@@PAPAX@Z 10003780 f   hsensors.obj
+ 0001:00002780       ?QueryInterface@IHelperImp@HSensor@@UAGJABU_GUID@@PAPAX@Z 10003780 f   hsensor.obj
+ 0001:000027a0       ?AddRef@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGKXZ 100037a0 f   hsensors.obj
+ 0001:000027a0       ?AddRef@IHSensorsImp@HSensors@@UAGKXZ 100037a0 f   hsensors.obj
+ 0001:000027c0       ?_NewEnum@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAPAUIUnknown@@@Z 100037c0 f   hsensors.obj
+ 0001:000027c0       ?_NewEnum@IHSensorsImp@HSensors@@UAGJPAPAUIUnknown@@@Z 100037c0 f   hsensors.obj
+ 0001:000027f0       ?get_Count@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAH@Z 100037f0 f   hsensors.obj
+ 0001:000027f0       ?get_Count@IHSensorsImp@HSensors@@UAGJPAH@Z 100037f0 f   hsensors.obj
+ 0001:00002810       ??I?$TIP@PAUIJDoubleValue@@@@QAEPAPAUIJDoubleValue@@XZ 10003810 f i hsensors.obj
+ 0001:00002810       ??I?$TIP@PAU_IHSensor@@@@QAEPAPAU_IHSensor@@XZ 10003810 f i hsensors.obj
+ 0001:00002830       ??1?$TIP@PAU_IHSensor@@@@QAE@XZ 10003830 f i hsensors.obj
+ 0001:00002830       ??1?$TIP@PAUIUnknown@@@@QAE@XZ 10003830 f i hsensors.obj
+ 0001:00002830       ??1?$TIP@PAUIJDoubleValue@@@@QAE@XZ 10003830 f i hsensors.obj
+ 0001:00002830       ??1?$TIP@PAUIJSensorManager@@@@QAE@XZ 10003830 f i hsensors.obj
+ 0001:00002830       ??1?$TIP@PAUIJSensor@@@@QAE@XZ 10003830 f i hsensor.obj
+ 0001:00002830       ??1?$TIP@PAUIJPersistManager@@@@QAE@XZ 10003830 f i hsensors.obj
+ 0001:00002840       ??1HSensors@@QAE@XZ        10003840 f   hsensors.obj
+ 0001:00002870       ?QueryInterface@HSensors@@UAGJABU_GUID@@PAPAX@Z 10003870 f   hsensors.obj
+ 0001:00002960       ?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z 10003960 f   hsensors.obj
+ 0001:00002e40       ?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z 10003e40 f   hsensors.obj
+ 0001:000032a0       ?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z 100042a0 f   hsensors.obj
+ 0001:00003860       ??1HSheetMetalSensors@@QAE@XZ 10004860 f   hsensors.obj
+ 0001:00003890       ?AddVariableSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z 10004890 f   hsensors.obj
+ 0001:00003a00       ?AddMinimumDistanceSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z 10004a00 f   hsensors.obj
+ 0001:00003b80       ?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z 10004b80 f   hsensors.obj
+ 0001:000042e0       ?AddSurfaceAreaSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z 100052e0 f   hsensors.obj
+ 0001:00004460       ??0HSensors@@QAE@PAUIUnknown@@@Z 10005460 f   hsensors.obj
+ 0001:000044a0       ?Release@HSensors@@UAGKXZ  100054a0 f   hsensors.obj
+ 0001:00004500       ?get_Parent@IHSensorsImp@HSensors@@UAGJPAPAUIUnknown@@@Z 10005500 f   hsensors.obj
+ 0001:00004550       ??0HSheetMetalSensors@@QAE@PAUIUnknown@@@Z 10005550 f   hsensors.obj
+ 0001:00004590       ?Release@HSheetMetalSensors@@UAGKXZ 10005590 f   hsensors.obj
+ 0001:000045f0       ?get_Parent@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAPAUIUnknown@@@Z 100055f0 f   hsensors.obj
+ 0001:00004640       _DllMain@12                10005640 f   hsensvr.obj
+ 0001:00004670       ?ServerGetNumberOfObjects@@YAKXZ 10005670 f   hsensvr.obj
+ 0001:00004680       ?ServerGetNumberOfLocks@@YAKXZ 10005680 f   hsensvr.obj
+ 0001:00004690       ?ServerIncrementNumberOfObjects@@YAXXZ 10005690 f   hsensvr.obj
+ 0001:000046a0       ?ServerDecrementNumberOfObjects@@YAXXZ 100056a0 f   hsensvr.obj
+ 0001:000046b0       ?ServerIncrementNumberOfLocks@@YAXXZ 100056b0 f   hsensvr.obj
+ 0001:000046c0       ?ServerDecrementNumberOfLocks@@YAXXZ 100056c0 f   hsensvr.obj
+ 0001:000046d0       _DllCanUnloadNow@0         100056d0 f   hsensvr.obj
+ 0001:000046f0       ??0?$ClassFactory@VHSensors@@@@QAE@HHH@Z 100056f0 f i hsensvr.obj
+ 0001:00004770       ?OnCreateInstance@?$ClassFactory@VHSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10005770 f i hsensvr.obj
+ 0001:000048c0       ??0?$ClassFactory@VHSheetMetalSensors@@@@QAE@HHH@Z 100058c0 f i hsensvr.obj
+ 0001:00004940       ?OnCreateInstance@?$ClassFactory@VHSheetMetalSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10005940 f i hsensvr.obj
+ 0001:00004a90       ??0?$ClassFactory@VHSensor@@@@QAE@HHH@Z 10005a90 f i hsensvr.obj
+ 0001:00004b10       ?OnCreateInstance@?$ClassFactory@VHSensor@@@@UAEJPAUIUnknown@@PAPAU2@@Z 10005b10 f i hsensvr.obj
+ 0001:00004c60       _DllGetClassObject@12      10005c60 f   hsensvr.obj
+ 0001:00004df0       ??_G?$ClassFactory@VHSensors@@@@UAEPAXI@Z 10005df0 f i hsensvr.obj
+ 0001:00004df0       ??_E?$ClassFactory@VHSensors@@@@UAEPAXI@Z 10005df0 f i hsensvr.obj
+ 0001:00004e50       ??_G?$ClassFactory@VHSheetMetalSensors@@@@UAEPAXI@Z 10005e50 f i hsensvr.obj
+ 0001:00004e50       ??_E?$ClassFactory@VHSheetMetalSensors@@@@UAEPAXI@Z 10005e50 f i hsensvr.obj
+ 0001:00004eb0       ??_E?$ClassFactory@VHSensor@@@@UAEPAXI@Z 10005eb0 f i hsensvr.obj
+ 0001:00004eb0       ??_G?$ClassFactory@VHSensor@@@@UAEPAXI@Z 10005eb0 f i hsensvr.obj
+ 0001:00004f10       _HSensorGetActiveEnv@12    10005f10 f   hsenutil.obj
+ 0001:0000523a       ?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 1000623a f   daxutil:Daxutil.dll
+ 0001:00005240       ?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 10006240 f   daxutil:Daxutil.dll
+ 0001:00005246       ?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10006246 f   daxutil:Daxutil.dll
+ 0001:0000524c       ?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 1000624c f   daxutil:Daxutil.dll
+ 0001:00005252       _HMakePersistent@20        10006252 f   daxutil:Daxutil.dll
+ 0001:00005258       _HAddRefObject@8           10006258 f   jengine:jengine.dll
+ 0001:0000525e       _HReleaseObject@8          1000625e f   jengine:jengine.dll
+ 0001:00005264       _JBindDAXObject@12         10006264 f   jengine:jengine.dll
+ 0001:0000526a       @GetPersistManager@8       1000626a f   jengine:jengine.dll
+ 0001:00005270       _HGetBinding@12            10006270 f   jengine:jengine.dll
+ 0001:00005276       _HSetParentObject@12       10006276 f   jengine:jengine.dll
+ 0001:0000527c       _BatchFlush@0              1000627c f   jengine:jengine.dll
+ 0001:00005282       _BatchModify@8             10006282 f   jengine:jengine.dll
+ 0001:00005288       _BatchDelete@4             10006288 f   jengine:jengine.dll
+ 0001:0000528e       _HBindCollection@12        1000628e f   jengine:jengine.dll
+ 0001:00005294       _JGetApplication           10006294 f   jengine:jengine.dll
+ 0001:0000529a       _JGetFastDAXObject@16      1000629a f   jengine:jengine.dll
+ 0001:000052a0       _BatchInsert@4             100062a0 f   jengine:jengine.dll
+ 0001:000052a6       ??1JMemberRoadmap@@QAE@XZ  100062a6 f   jengine:jengine.dll
+ 0001:000052ac       ??0JMemberRoadmap@@QAE@PBXK@Z 100062ac f   jengine:jengine.dll
+ 0001:000052b2       _JGetRootOwner             100062b2 f   jengine:jengine.dll
+ 0001:000052b8       _HRerrEx                   100062b8 f   jutil:JUtil.dll
+ 0001:000052be       ?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 100062be f   jutil:JUtil.dll
+ 0001:000052c4       _JCoCreateInstance         100062c4 f   jutil:JUtil.dll
+ 0001:000052ca       ?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 100062ca f   jutil:JUtil.dll
+ 0001:000052d0       ?AddRef@JClassFactory@@UAGKXZ 100062d0 f   jutil:JUtil.dll
+ 0001:000052d6       ?Release@JClassFactory@@UAGKXZ 100062d6 f   jutil:JUtil.dll
+ 0001:000052dc       ?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100062dc f   jutil:JUtil.dll
+ 0001:000052e2       ?LockServer@JClassFactory@@UAGJH@Z 100062e2 f   jutil:JUtil.dll
+ 0001:000052e8       ?GetUnitClassFromID@@YAJIPAW4JUnitClass@@@Z 100062e8 f   sensor:sensor.dll
+ 0001:000052ee       ?GetSensorManager@@YAJPAUIUnknown@@PAPAUIJSensorManager@@@Z 100062ee f   sensor:sensor.dll
+ 0001:000052f4       _malloc                    100062f4 f   MSVCRT:MSVCR80.dll
+ 0001:000052fa       __callnewh                 100062fa f   MSVCRT:MSVCR80.dll
+ 0001:00005300       ??_Etype_info@@UAEPAXI@Z   10006300 f i MSVCRT:ti_inst.obj
+ 0001:0000534a       ??3@YAXPAX@Z               1000634a f   MSVCRT:MSVCR80.dll
+ 0001:00005350       ___CxxFrameHandler3        10006350 f   MSVCRT:MSVCR80.dll
+ 0001:00005356       @__security_check_cookie@4 10006356 f   MSVCRT:secchk.obj
+ 0001:000053bd       __CRT_INIT@12              100063bd f   MSVCRT:crtdll.obj
+ 0001:00005672       __DllMainCRTStartup@12     10006672 f   MSVCRT:crtdll.obj
+ 0001:00005693       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10006693 f   MSVCRT:ehvecdtr.obj
+ 0001:000056f1       ??_M@YGXPAXIHP6EX0@Z@Z     100066f1 f   MSVCRT:ehvecdtr.obj
+ 0001:00005754       ___report_gsfailure        10006754 f   MSVCRT:gs_report.obj
+ 0001:00005858       ___clean_type_info_names   10006858 f   MSVCRT:tncleanup.obj
+ 0001:00005864       __onexit                   10006864 f   MSVCRT:atonexit.obj
+ 0001:00005903       _atexit                    10006903 f   MSVCRT:atonexit.obj
+ 0001:00005915       __RTC_Initialize           10006915 f   MSVCRT:initsect.obj
+ 0001:00005939       __RTC_Terminate            10006939 f   MSVCRT:initsect.obj
+ 0001:00005960       __ValidateImageBase        10006960 f   MSVCRT:pesect.obj
+ 0001:00005990       __FindPESection            10006990 f   MSVCRT:pesect.obj
+ 0001:000059d2       __IsNonwritableInCurrentImage 100069d2 f   MSVCRT:pesect.obj
+ 0001:00005a3e       __initterm                 10006a3e f   MSVCRT:MSVCR80.dll
+ 0001:00005a44       __initterm_e               10006a44 f   MSVCRT:MSVCR80.dll
+ 0001:00005a4a       __amsg_exit                10006a4a f   MSVCRT:MSVCR80.dll
+ 0001:00005a50       ___CppXcptFilter           10006a50 f   MSVCRT:MSVCR80.dll
+ 0001:00005a58       __SEH_prolog4              10006a58 f   MSVCRT:sehprolg4.obj
+ 0001:00005a9d       __SEH_epilog4              10006a9d f   MSVCRT:sehprolg4.obj
+ 0001:00005ab1       __except_handler4          10006ab1 f   MSVCRT:chandler4gs.obj
+ 0001:00005ad4       ___security_init_cookie    10006ad4 f   MSVCRT:gs_support.obj
+ 0001:00005b68       ?terminate@@YAXXZ          10006b68 f   MSVCRT:MSVCR80.dll
+ 0001:00005b6e       ??1type_info@@UAE@XZ       10006b6e f   MSVCRT:MSVCR80.dll
+ 0001:00005b6e       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006b6e f   MSVCRT:MSVCR80.dll
+ 0001:00005b74       __crt_debugger_hook        10006b74 f   MSVCRT:MSVCR80.dll
+ 0001:00005b7a       ___clean_type_info_names_internal 10006b7a f   MSVCRT:MSVCR80.dll
+ 0001:00005b80       __unlock                   10006b80 f   MSVCRT:MSVCR80.dll
+ 0001:00005b86       ___dllonexit               10006b86 f   MSVCRT:MSVCR80.dll
+ 0001:00005b8c       __lock                     10006b8c f   MSVCRT:MSVCR80.dll
+ 0001:00005b92       __except_handler4_common   10006b92 f   MSVCRT:MSVCR80.dll
+ 0002:00000000       __imp_?HCollection_NewEnumClsid@@YAJABU_GUID@@PAUIUnknown@@P6AJPAUtagVARIANT@@PAXAAK1@ZPAPAU2@H@Z 10008000     daxutil:Daxutil.dll
+ 0002:00000004       __imp_?HNextEnumVARIANT@@YAJPAUtagVARIANT@@PAXAAKPAUIUnknown@@@Z 10008004     daxutil:Daxutil.dll
+ 0002:00000008       __imp_?HCollectionGetCount@@YAJPAUIUnknown@@ABU_GUID@@PAJH@Z 10008008     daxutil:Daxutil.dll
+ 0002:0000000c       __imp__HMakePersistent@20  1000800c     daxutil:Daxutil.dll
+ 0002:00000010       __imp_?HCollectionItemUnk@@YAJPAUIUnknown@@ABU_GUID@@UtagVARIANT@@PAPAU1@H@Z 10008010     daxutil:Daxutil.dll
+ 0002:00000014       \177Daxutil_NULL_THUNK_DATA 10008014     daxutil:Daxutil.dll
+ 0002:00000018       __imp_?AddRef@JClassFactory@@UAGKXZ 10008018     jutil:JUtil.dll
+ 0002:0000001c       __imp_?QueryInterface@JClassFactory@@UAGJABU_GUID@@PAPAX@Z 1000801c     jutil:JUtil.dll
+ 0002:00000020       __imp_??0JClassFactory@@QAE@P6AXXZ0HHH@Z 10008020     jutil:JUtil.dll
+ 0002:00000024       __imp_??1JClassFactory@@UAE@XZ 10008024     jutil:JUtil.dll
+ 0002:00000028       __imp__JCoCreateInstance   10008028     jutil:JUtil.dll
+ 0002:0000002c       __imp_?CreateAutomationObject@@YAJABU_GUID@@0PAUIUnknown@@PAPAU2@@Z 1000802c     jutil:JUtil.dll
+ 0002:00000030       __imp_??0GUserText@@QAE@PBDHI@Z 10008030     jutil:JUtil.dll
+ 0002:00000034       __imp_?Empty@GUserText@@QAEAAV1@XZ 10008034     jutil:JUtil.dll
+ 0002:00000038       __imp_??4GUserText@@QAEAAV0@PB_W@Z 10008038     jutil:JUtil.dll
+ 0002:0000003c       __imp_??9@YA_NABVGUserText@@0@Z 1000803c     jutil:JUtil.dll
+ 0002:00000040       __imp_??1GUserText@@QAE@XZ 10008040     jutil:JUtil.dll
+ 0002:00000044       __imp__HRerrEx             10008044     jutil:JUtil.dll
+ 0002:00000048       __imp_?Release@JClassFactory@@UAGKXZ 10008048     jutil:JUtil.dll
+ 0002:0000004c       __imp_?CreateInstance@JClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 1000804c     jutil:JUtil.dll
+ 0002:00000050       __imp_?LockServer@JClassFactory@@UAGJH@Z 10008050     jutil:JUtil.dll
+ 0002:00000054       \177JUtil_NULL_THUNK_DATA  10008054     jutil:JUtil.dll
+ 0002:00000058       __imp__Sleep@4             10008058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__InterlockedCompareExchange@12 1000805c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__TerminateProcess@8  10008060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetCurrentProcess@0 10008064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__UnhandledExceptionFilter@4 10008068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__SetUnhandledExceptionFilter@4 1000806c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__IsDebuggerPresent@0 10008070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__QueryPerformanceCounter@4 10008074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetTickCount@0      10008078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetCurrentThreadId@0 1000807c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetCurrentProcessId@0 10008080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetSystemTimeAsFileTime@4 10008084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__InterlockedExchange@8 10008088     kernel32:KERNEL32.dll
+ 0002:0000008c       \177KERNEL32_NULL_THUNK_DATA 1000808c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___adjust_fdiv        10008090     MSVCRT:MSVCR80.dll
+ 0002:00000094       __imp___onexit             10008094     MSVCRT:MSVCR80.dll
+ 0002:00000098       __imp___lock               10008098     MSVCRT:MSVCR80.dll
+ 0002:0000009c       __imp____dllonexit         1000809c     MSVCRT:MSVCR80.dll
+ 0002:000000a0       __imp___unlock             100080a0     MSVCRT:MSVCR80.dll
+ 0002:000000a4       __imp____clean_type_info_names_internal 100080a4     MSVCRT:MSVCR80.dll
+ 0002:000000a8       __imp___crt_debugger_hook  100080a8     MSVCRT:MSVCR80.dll
+ 0002:000000ac       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 100080ac     MSVCRT:MSVCR80.dll
+ 0002:000000b0       __imp_?terminate@@YAXXZ    100080b0     MSVCRT:MSVCR80.dll
+ 0002:000000b4       __imp____CppXcptFilter     100080b4     MSVCRT:MSVCR80.dll
+ 0002:000000b8       __imp___amsg_exit          100080b8     MSVCRT:MSVCR80.dll
+ 0002:000000bc       __imp___initterm_e         100080bc     MSVCRT:MSVCR80.dll
+ 0002:000000c0       __imp__malloc              100080c0     MSVCRT:MSVCR80.dll
+ 0002:000000c4       __imp___callnewh           100080c4     MSVCRT:MSVCR80.dll
+ 0002:000000c8       __imp_??3@YAXPAX@Z         100080c8     MSVCRT:MSVCR80.dll
+ 0002:000000cc       __imp____CxxFrameHandler3  100080cc     MSVCRT:MSVCR80.dll
+ 0002:000000d0       __imp___encode_pointer     100080d0     MSVCRT:MSVCR80.dll
+ 0002:000000d4       __imp___malloc_crt         100080d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp___encoded_null       100080d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp__free                100080dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___decode_pointer     100080e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp___initterm           100080e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___except_handler4_common 100080e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       \177MSVCR80_NULL_THUNK_DATA 100080ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp__VariantInit@4       100080f0     oleaut32:OLEAUT32.dll
+ 0002:000000f4       __imp__VariantChangeType@16 100080f4     oleaut32:OLEAUT32.dll
+ 0002:000000f8       \177OLEAUT32_NULL_THUNK_DATA 100080f8     oleaut32:OLEAUT32.dll
+ 0002:000000fc       __imp__HSetParentObject@12 100080fc     jengine:jengine.dll
+ 0002:00000100       __imp__HGetBinding@12      10008100     jengine:jengine.dll
+ 0002:00000104       __imp_??1JMemberRoadmap@@QAE@XZ 10008104     jengine:jengine.dll
+ 0002:00000108       __imp__JBindDAXObject@12   10008108     jengine:jengine.dll
+ 0002:0000010c       __imp__HReleaseObject@8    1000810c     jengine:jengine.dll
+ 0002:00000110       __imp__HAddRefObject@8     10008110     jengine:jengine.dll
+ 0002:00000114       __imp_??0JMemberRoadmap@@QAE@PBXK@Z 10008114     jengine:jengine.dll
+ 0002:00000118       __imp__JGetRootOwner       10008118     jengine:jengine.dll
+ 0002:0000011c       __imp_@GetPersistManager@8 1000811c     jengine:jengine.dll
+ 0002:00000120       __imp__BatchInsert@4       10008120     jengine:jengine.dll
+ 0002:00000124       __imp__JGetFastDAXObject@16 10008124     jengine:jengine.dll
+ 0002:00000128       __imp__JGetApplication     10008128     jengine:jengine.dll
+ 0002:0000012c       __imp__HBindCollection@12  1000812c     jengine:jengine.dll
+ 0002:00000130       __imp__BatchDelete@4       10008130     jengine:jengine.dll
+ 0002:00000134       __imp__BatchModify@8       10008134     jengine:jengine.dll
+ 0002:00000138       __imp__BatchFlush@0        10008138     jengine:jengine.dll
+ 0002:0000013c       \177jengine_NULL_THUNK_DATA 1000813c     jengine:jengine.dll
+ 0002:00000140       __imp__JSESysFreeString@4  10008140     sealloc:sealloc.dll
+ 0002:00000144       __imp__JSESysAllocString@4 10008144     sealloc:sealloc.dll
+ 0002:00000148       __imp__JVariantClear@4     10008148     sealloc:sealloc.dll
+ 0002:0000014c       \177sealloc_NULL_THUNK_DATA 1000814c     sealloc:sealloc.dll
+ 0002:00000150       __imp_?GetUnitClassFromID@@YAJIPAW4JUnitClass@@@Z 10008150     sensor:sensor.dll
+ 0002:00000154       __imp_?GetSensorManager@@YAJPAUIUnknown@@PAPAUIJSensorManager@@@Z 10008154     sensor:sensor.dll
+ 0002:00000158       \177sensor_NULL_THUNK_DATA 10008158     sensor:sensor.dll
+ 0002:0000015c       ___xc_a                    1000815c     MSVCRT:cinitexe.obj
+ 0002:00000190       ___xc_z                    10008190     MSVCRT:cinitexe.obj
+ 0002:00000194       ___xi_a                    10008194     MSVCRT:cinitexe.obj
+ 0002:0000019c       ___xi_z                    1000819c     MSVCRT:cinitexe.obj
+ 0002:000001bc       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 100081bc     hsenguid.obj
+ 0002:000001cc       _IID_IJPersistManager      100081cc     hsenguid.obj
+ 0002:000001dc       _IID_IJApplication         100081dc     hsenguid.obj
+ 0002:000001ec       _IID_IJDocument            100081ec     hsenguid.obj
+ 0002:000001fc       _IID_IJView                100081fc     hsenguid.obj
+ 0002:0000020c       _IID_IJOwner               1000820c     hsenguid.obj
+ 0002:0000021c       _CLSID_JDoubleValue        1000821c     hsenguid.obj
+ 0002:0000022c       _CLSID_JSensor             1000822c     hsenguid.obj
+ 0002:0000023c       _CLSID_HSensor             1000823c     hsenguid.obj
+ 0002:0000024c       _CLSID_HSensors            1000824c     hsenguid.obj
+ 0002:0000025c       _CLSID_HSheetMetalSensors  1000825c     hsenguid.obj
+ 0002:0000026c       _IID_IJDoubleValue         1000826c     hsenguid.obj
+ 0002:0000027c       _IID_IHelper               1000827c     hsenguid.obj
+ 0002:0000028c       _CLSID_CFrameWorkDispatchObjectFactory 1000828c     hsenguid.obj
+ 0002:0000029c       _IID_IJSensor              1000829c     hsenguid.obj
+ 0002:000002ac       _IID__IHSensor             100082ac     hsenguid.obj
+ 0002:000002bc       _IID__IHSensors            100082bc     hsenguid.obj
+ 0002:000002cc       _IID__IHSheetMetalSensors  100082cc     hsenguid.obj
+ 0002:000002e0       ??_7HSensor@@6B@           100082e0     hsensor.obj
+ 0002:000002f0       ??_7IHelperImp@HSensor@@6B@ 100082f0     hsensor.obj
+ 0002:00000314       ??_7IHSensorImp@HSensor@@6B@ 10008314     hsensor.obj
+ 0002:00000388       ??_C@_0O@GEBNEAHH@?4?2hsensor?4cpp?$AA@ 10008388     hsensor.obj
+ 0002:00000398       ??_C@_0CF@DFFGELMJ@HSensor?3?3IHSensorImp?3?3get_Sensor@ 10008398     hsensor.obj
+ 0002:000003c0       ??_C@_0CB@IGJMBLNP@HSensor?3?3IHSensorImp?3?3get_Status@ 100083c0     hsensor.obj
+ 0002:000003e4       ??_C@_0CE@OFOIJDOO@HSensor?3?3IHSensorImp?3?3get_IsInRa@ 100083e4     hsensor.obj
+ 0002:00000408       ??_C@_0CH@OFECFDDJ@HSensor?3?3IHSensorImp?3?3get_Curren@ 10008408     hsensor.obj
+ 0002:00000430       ??_C@_0BP@CHPIDHBK@HSensor?3?3IHSensorImp?3?3put_Name?$AA@ 10008430     hsensor.obj
+ 0002:0000044f       ??_C@_00CNPNBAHC@?$AA@     1000844f     hsensor.obj
+ 0002:00000450       ??_C@_0BP@JDOCCJIJ@HSensor?3?3IHSensorImp?3?3get_Name?$AA@ 10008450     hsensor.obj
+ 0002:00000470       ??_C@_0CG@IGBDINBE@HSensor?3?3IHSensorImp?3?3put_Descri@ 10008470     hsensor.obj
+ 0002:00000498       ??_C@_0CG@NJKPNELA@HSensor?3?3IHSensorImp?3?3get_Descri@ 10008498     hsensor.obj
+ 0002:000004c0       ??_C@_0CF@KANPJOKP@HSensor?3?3IHSensorImp?3?3put_LowerR@ 100084c0     hsensor.obj
+ 0002:000004e8       ??_C@_0CF@BJAODCJG@HSensor?3?3IHSensorImp?3?3get_LowerR@ 100084e8     hsensor.obj
+ 0002:00000510       ??_C@_0CF@MHKANDEN@HSensor?3?3IHSensorImp?3?3put_UpperR@ 10008510     hsensor.obj
+ 0002:00000538       ??_C@_0CF@HOHBHPHE@HSensor?3?3IHSensorImp?3?3get_UpperR@ 10008538     hsensor.obj
+ 0002:00000560       ??_C@_0CD@PDDEDNNN@HSensor?3?3IHSensorImp?3?3put_Operat@ 10008560     hsensor.obj
+ 0002:00000584       ??_C@_0CD@DGFIHAKD@HSensor?3?3IHSensorImp?3?3get_Operat@ 10008584     hsensor.obj
+ 0002:000005a8       ??_C@_0CL@BAFABIBB@HSensor?3?3IHSensorImp?3?3put_Minimu@ 100085a8     hsensor.obj
+ 0002:000005d4       ??_C@_0CL@NCJFCHIA@HSensor?3?3IHSensorImp?3?3get_Minimu@ 100085d4     hsensor.obj
+ 0002:00000600       ??_C@_0CL@FNLMMOD@HSensor?3?3IHSensorImp?3?3put_Maximu@ 10008600     hsensor.obj
+ 0002:0000062c       ??_C@_0CL@MHBOPDHC@HSensor?3?3IHSensorImp?3?3get_Maximu@ 1000862c     hsensor.obj
+ 0002:00000658       ??_C@_0CG@BMDBIMM@HSensor?3?3IHSensorImp?3?3put_Displa@ 10008658     hsensor.obj
+ 0002:00000680       ??_C@_0CG@FOHPEBGI@HSensor?3?3IHSensorImp?3?3get_Displa@ 10008680     hsensor.obj
+ 0002:000006a8       ??_C@_0CK@IPEDMIPI@HSensor?3?3IHSensorImp?3?3put_Update@ 100086a8     hsensor.obj
+ 0002:000006d4       ??_C@_0CK@JNIDPOEE@HSensor?3?3IHSensorImp?3?3get_Update@ 100086d4     hsensor.obj
+ 0002:00000700       ??_C@_0BN@LKECDFEE@HSensor?3?3IHSensorImp?3?3Update?$AA@ 10008700     hsensor.obj
+ 0002:00000720       ??_C@_0BN@JHOCONIA@HSensor?3?3IHSensorImp?3?3Delete?$AA@ 10008720     hsensor.obj
+ 0002:00000740       ??_C@_0CD@DLEANALC@HSensor?3?3IHSensorImp?3?3put_UnitTy@ 10008740     hsensor.obj
+ 0002:00000764       ??_C@_0CD@POCMJNMM@HSensor?3?3IHSensorImp?3?3get_UnitTy@ 10008764     hsensor.obj
+ 0002:000007bc       ??_7IHelperImp@HSheetMetalSensors@@6B@ 100087bc     hsensors.obj
+ 0002:000007dc       ??_7IHelperImp@HSensors@@6B@ 100087dc     hsensors.obj
+ 0002:000007fc       ??_7IHSensorsImp@HSensors@@6B@ 100087fc     hsensors.obj
+ 0002:0000082c       ??_7HSensors@@6B@          1000882c     hsensors.obj
+ 0002:00000838       ??_C@_0P@LDOFPPIJ@?4?2hsensors?4cpp?$AA@ 10008838     hsensors.obj
+ 0002:00000848       ??_C@_0CK@ILKCHBNF@HSensors?3?3IHSensorsImp?3?3AddVaria@ 10008848     hsensors.obj
+ 0002:00000874       ??_C@_0DB@HIFCIJLA@HSensors?3?3IHSensorsImp?3?3AddMinim@ 10008874     hsensors.obj
+ 0002:000008a8       ??_C@_0CN@LCGOPMIK@HSensors?3?3IHSensorsImp?3?3AddSurfa@ 100088a8     hsensors.obj
+ 0002:000008dc       ??_7IHSheetMetalSensorsImp@HSheetMetalSensors@@6B@ 100088dc     hsensors.obj
+ 0002:00000910       ??_7HSheetMetalSensors@@6B@ 10008910     hsensors.obj
+ 0002:0000091c       ??_C@_0DO@BKIPFPLE@HSheetMetalSensors?3?3IHSheetMetal@ 1000891c     hsensors.obj
+ 0002:00000960       ??_C@_0EF@FEJIMHND@HSheetMetalSensors?3?3IHSheetMetal@ 10008960     hsensors.obj
+ 0002:000009a8       ??_C@_0EH@DNKPDFGC@HSheetMetalSensors?3?3IHSheetMetal@ 100089a8     hsensors.obj
+ 0002:000009f0       ??_C@_0N@OCMHMLBE@JGetDocument?$AA@ 100089f0     hsensors.obj
+ 0002:00000a00       ??_C@_0EB@LFKDAIFF@HSheetMetalSensors?3?3IHSheetMetal@ 10008a00     hsensors.obj
+ 0002:00000a44       ??_C@_0CD@NPOGHGLM@HSensors?3?3IHSensorsImp?3?3get_Pare@ 10008a44     hsensors.obj
+ 0002:00000a68       ??_C@_0DH@KGFBOLAG@HSheetMetalSensors?3?3IHSheetMetal@ 10008a68     hsensors.obj
+ 0002:00000aa4       ??_7?$ClassFactory@VHSensors@@@@6B@ 10008aa4     hsensvr.obj
+ 0002:00000ac0       ??_C@_0BG@OMBIHGCH@z?3?2include?2uclsfact?4h?$AA@ 10008ac0     hsensvr.obj
+ 0002:00000ad8       ??_C@_0CP@JDCDHBEB@ClassFactory?$DMclass?5HSensors?$DO?3?3On@ 10008ad8     hsensvr.obj
+ 0002:00000b0c       ??_7?$ClassFactory@VHSheetMetalSensors@@@@6B@ 10008b0c     hsensvr.obj
+ 0002:00000b28       ??_C@_0DJ@KGHLMNKH@ClassFactory?$DMclass?5HSheetMetalSe@ 10008b28     hsensvr.obj
+ 0002:00000b68       ??_7?$ClassFactory@VHSensor@@@@6B@ 10008b68     hsensvr.obj
+ 0002:00000b84       ??_C@_0CO@OJOMDBNN@ClassFactory?$DMclass?5HSensor?$DO?3?3OnC@ 10008b84     hsensvr.obj
+ 0002:00000bb4       ??_C@_0P@HGHHNDAE@?4?2hsenutil?4cpp?$AA@ 10008bb4     hsenutil.obj
+ 0002:00000bc4       ??_C@_0BE@HIOFNPIC@HSensorGetActiveEnv?$AA@ 10008bc4     hsenutil.obj
+ 0002:00000bd8       _IID_IClassFactory         10008bd8     uuid:unknwn_i.obj
+ 0002:00000be8       _IID_IUnknown              10008be8     uuid:unknwn_i.obj
+ 0002:00000bf8       _IID_IDispatch             10008bf8     uuid:oaidl_i.obj
+ 0002:00000c0c       ??_7type_info@@6B@         10008c0c     MSVCRT:ti_inst.obj
+ 0002:00000c10       __pRawDllMain              10008c10     MSVCRT:crtdll.obj
+ 0002:00000c10       __pDefaultRawDllMain       10008c10     MSVCRT:crtdll.obj
+ 0002:00000c20       __load_config_used         10008c20     MSVCRT:loadcfg.obj
+ 0002:00000c9c       ??_R4HSensor@@6B@          10008c9c     hsensor.obj
+ 0002:00000cb0       ??_R3HSensor@@8            10008cb0     hsensor.obj
+ 0002:00000cc0       ??_R2HSensor@@8            10008cc0     hsensor.obj
+ 0002:00000ccc       ??_R1A@?0A@EA@HSensor@@8   10008ccc     hsensor.obj
+ 0002:00000ce8       ??_R1A@?0A@EA@IUnknown@@8  10008ce8     hsensor.obj
+ 0002:00000d04       ??_R3IUnknown@@8           10008d04     hsensor.obj
+ 0002:00000d14       ??_R2IUnknown@@8           10008d14     hsensor.obj
+ 0002:00000d1c       ??_R4IHelperImp@HSensor@@6B@ 10008d1c     hsensor.obj
+ 0002:00000d30       ??_R3IHelperImp@HSensor@@8 10008d30     hsensor.obj
+ 0002:00000d40       ??_R2IHelperImp@HSensor@@8 10008d40     hsensor.obj
+ 0002:00000d50       ??_R1A@?0A@EA@IHelperImp@HSensor@@8 10008d50     hsensor.obj
+ 0002:00000d6c       ??_R1A@?0A@EA@IHelper@@8   10008d6c     hsensor.obj
+ 0002:00000d88       ??_R3IHelper@@8            10008d88     hsensor.obj
+ 0002:00000d98       ??_R2IHelper@@8            10008d98     hsensor.obj
+ 0002:00000da4       ??_R4IHSensorImp@HSensor@@6B@ 10008da4     hsensor.obj
+ 0002:00000db8       ??_R3IHSensorImp@HSensor@@8 10008db8     hsensor.obj
+ 0002:00000dc8       ??_R2IHSensorImp@HSensor@@8 10008dc8     hsensor.obj
+ 0002:00000dd8       ??_R1A@?0A@EA@IHSensorImp@HSensor@@8 10008dd8     hsensor.obj
+ 0002:00000df4       ??_R1A@?0A@EA@_IHSensor@@8 10008df4     hsensor.obj
+ 0002:00000e10       ??_R3_IHSensor@@8          10008e10     hsensor.obj
+ 0002:00000e20       ??_R2_IHSensor@@8          10008e20     hsensor.obj
+ 0002:00000e2c       ??_R4IHelperImp@HSheetMetalSensors@@6B@ 10008e2c     hsensors.obj
+ 0002:00000e40       ??_R3IHelperImp@HSheetMetalSensors@@8 10008e40     hsensors.obj
+ 0002:00000e50       ??_R2IHelperImp@HSheetMetalSensors@@8 10008e50     hsensors.obj
+ 0002:00000e60       ??_R1A@?0A@EA@IHelperImp@HSheetMetalSensors@@8 10008e60     hsensors.obj
+ 0002:00000e7c       ??_R4IHelperImp@HSensors@@6B@ 10008e7c     hsensors.obj
+ 0002:00000e90       ??_R3IHelperImp@HSensors@@8 10008e90     hsensors.obj
+ 0002:00000ea0       ??_R2IHelperImp@HSensors@@8 10008ea0     hsensors.obj
+ 0002:00000eb0       ??_R1A@?0A@EA@IHelperImp@HSensors@@8 10008eb0     hsensors.obj
+ 0002:00000ecc       ??_R4IHSensorsImp@HSensors@@6B@ 10008ecc     hsensors.obj
+ 0002:00000ee0       ??_R3IHSensorsImp@HSensors@@8 10008ee0     hsensors.obj
+ 0002:00000ef0       ??_R2IHSensorsImp@HSensors@@8 10008ef0     hsensors.obj
+ 0002:00000f00       ??_R1A@?0A@EA@IHSensorsImp@HSensors@@8 10008f00     hsensors.obj
+ 0002:00000f1c       ??_R1A@?0A@EA@_IHSensors@@8 10008f1c     hsensors.obj
+ 0002:00000f38       ??_R3_IHSensors@@8         10008f38     hsensors.obj
+ 0002:00000f48       ??_R2_IHSensors@@8         10008f48     hsensors.obj
+ 0002:00000f54       ??_R4HSensors@@6B@         10008f54     hsensors.obj
+ 0002:00000f68       ??_R3HSensors@@8           10008f68     hsensors.obj
+ 0002:00000f78       ??_R2HSensors@@8           10008f78     hsensors.obj
+ 0002:00000f84       ??_R1A@?0A@EA@HSensors@@8  10008f84     hsensors.obj
+ 0002:00000fa0       ??_R4IHSheetMetalSensorsImp@HSheetMetalSensors@@6B@ 10008fa0     hsensors.obj
+ 0002:00000fb4       ??_R3IHSheetMetalSensorsImp@HSheetMetalSensors@@8 10008fb4     hsensors.obj
+ 0002:00000fc4       ??_R2IHSheetMetalSensorsImp@HSheetMetalSensors@@8 10008fc4     hsensors.obj
+ 0002:00000fd4       ??_R1A@?0A@EA@IHSheetMetalSensorsImp@HSheetMetalSensors@@8 10008fd4     hsensors.obj
+ 0002:00000ff0       ??_R1A@?0A@EA@_IHSheetMetalSensors@@8 10008ff0     hsensors.obj
+ 0002:0000100c       ??_R3_IHSheetMetalSensors@@8 1000900c     hsensors.obj
+ 0002:0000101c       ??_R2_IHSheetMetalSensors@@8 1000901c     hsensors.obj
+ 0002:00001028       ??_R4HSheetMetalSensors@@6B@ 10009028     hsensors.obj
+ 0002:0000103c       ??_R3HSheetMetalSensors@@8 1000903c     hsensors.obj
+ 0002:0000104c       ??_R2HSheetMetalSensors@@8 1000904c     hsensors.obj
+ 0002:00001058       ??_R1A@?0A@EA@HSheetMetalSensors@@8 10009058     hsensors.obj
+ 0002:00001074       ??_R4?$ClassFactory@VHSensors@@@@6B@ 10009074     hsensvr.obj
+ 0002:00001088       ??_R3?$ClassFactory@VHSensors@@@@8 10009088     hsensvr.obj
+ 0002:00001098       ??_R2?$ClassFactory@VHSensors@@@@8 10009098     hsensvr.obj
+ 0002:000010ac       ??_R1A@?0A@EA@?$ClassFactory@VHSensors@@@@8 100090ac     hsensvr.obj
+ 0002:000010c8       ??_R1A@?0A@EA@JClassFactory@@8 100090c8     hsensvr.obj
+ 0002:000010e4       ??_R3JClassFactory@@8      100090e4     hsensvr.obj
+ 0002:000010f4       ??_R2JClassFactory@@8      100090f4     hsensvr.obj
+ 0002:00001104       ??_R1A@?0A@EA@IClassFactory@@8 10009104     hsensvr.obj
+ 0002:00001120       ??_R3IClassFactory@@8      10009120     hsensvr.obj
+ 0002:00001130       ??_R2IClassFactory@@8      10009130     hsensvr.obj
+ 0002:0000113c       ??_R4?$ClassFactory@VHSheetMetalSensors@@@@6B@ 1000913c     hsensvr.obj
+ 0002:00001150       ??_R3?$ClassFactory@VHSheetMetalSensors@@@@8 10009150     hsensvr.obj
+ 0002:00001160       ??_R2?$ClassFactory@VHSheetMetalSensors@@@@8 10009160     hsensvr.obj
+ 0002:00001174       ??_R1A@?0A@EA@?$ClassFactory@VHSheetMetalSensors@@@@8 10009174     hsensvr.obj
+ 0002:00001190       ??_R4?$ClassFactory@VHSensor@@@@6B@ 10009190     hsensvr.obj
+ 0002:000011a4       ??_R3?$ClassFactory@VHSensor@@@@8 100091a4     hsensvr.obj
+ 0002:000011b4       ??_R2?$ClassFactory@VHSensor@@@@8 100091b4     hsensvr.obj
+ 0002:000011c8       ??_R1A@?0A@EA@?$ClassFactory@VHSensor@@@@8 100091c8     hsensvr.obj
+ 0002:000011e4       ??_R4type_info@@6B@        100091e4     MSVCRT:ti_inst.obj
+ 0002:000011f8       ??_R3type_info@@8          100091f8     MSVCRT:ti_inst.obj
+ 0002:00001208       ??_R2type_info@@8          10009208     MSVCRT:ti_inst.obj
+ 0002:00001210       ??_R1A@?0A@EA@type_info@@8 10009210     MSVCRT:ti_inst.obj
+ 0002:00001230       ___safe_se_handler_table   10009230     <linker-defined>
+ 0002:000012d4       ___rtc_iaa                 100092d4     MSVCRT:initsect.obj
+ 0002:000012d8       ___rtc_izz                 100092d8     MSVCRT:initsect.obj
+ 0002:000012dc       ___rtc_taa                 100092dc     MSVCRT:initsect.obj
+ 0002:000012e0       ___rtc_tzz                 100092e0     MSVCRT:initsect.obj
+ 0002:00001b14       __IMPORT_DESCRIPTOR_Daxutil 10009b14     daxutil:Daxutil.dll
+ 0002:00001b28       __IMPORT_DESCRIPTOR_jengine 10009b28     jengine:jengine.dll
+ 0002:00001b3c       __IMPORT_DESCRIPTOR_JUtil  10009b3c     jutil:JUtil.dll
+ 0002:00001b50       __IMPORT_DESCRIPTOR_sensor 10009b50     sensor:sensor.dll
+ 0002:00001b64       __IMPORT_DESCRIPTOR_sealloc 10009b64     sealloc:sealloc.dll
+ 0002:00001b78       __IMPORT_DESCRIPTOR_OLEAUT32 10009b78     oleaut32:OLEAUT32.dll
+ 0002:00001b8c       __IMPORT_DESCRIPTOR_MSVCR80 10009b8c     MSVCRT:MSVCR80.dll
+ 0002:00001ba0       __IMPORT_DESCRIPTOR_KERNEL32 10009ba0     kernel32:KERNEL32.dll
+ 0002:00001bb4       __NULL_IMPORT_DESCRIPTOR   10009bb4     daxutil:Daxutil.dll
+ 0003:00000000       __newmode                  1000b000     newmode.obj
+ 0003:00000a28       ??_R0?AVHSensor@@@8        1000ba28     hsensor.obj
+ 0003:00000a40       ??_R0?AUIUnknown@@@8       1000ba40     hsensor.obj
+ 0003:00000a58       ??_R0?AUIHelperImp@HSensor@@@8 1000ba58     hsensor.obj
+ 0003:00000a7c       ??_R0?AUIHelper@@@8        1000ba7c     hsensor.obj
+ 0003:00000a94       ??_R0?AUIHSensorImp@HSensor@@@8 1000ba94     hsensor.obj
+ 0003:00000ab8       ??_R0?AU_IHSensor@@@8      1000bab8     hsensor.obj
+ 0003:00000ad0       ??_R0?AUIHelperImp@HSheetMetalSensors@@@8 1000bad0     hsensors.obj
+ 0003:00000afc       ??_R0?AUIHelperImp@HSensors@@@8 1000bafc     hsensors.obj
+ 0003:00000b20       ??_R0?AUIHSensorsImp@HSensors@@@8 1000bb20     hsensors.obj
+ 0003:00000b44       ??_R0?AU_IHSensors@@@8     1000bb44     hsensors.obj
+ 0003:00000b60       ??_R0?AVHSensors@@@8       1000bb60     hsensors.obj
+ 0003:00000b78       ??_R0?AUIHSheetMetalSensorsImp@HSheetMetalSensors@@@8 1000bb78     hsensors.obj
+ 0003:00000bb0       ??_R0?AU_IHSheetMetalSensors@@@8 1000bbb0     hsensors.obj
+ 0003:00000bd4       ??_R0?AVHSheetMetalSensors@@@8 1000bbd4     hsensors.obj
+ 0003:00001618       ??_R0?AV?$ClassFactory@VHSensors@@@@@8 1000c618     hsensvr.obj
+ 0003:00001644       ??_R0?AVJClassFactory@@@8  1000c644     hsensvr.obj
+ 0003:00001660       ??_R0?AUIClassFactory@@@8  1000c660     hsensvr.obj
+ 0003:0000167c       ??_R0?AV?$ClassFactory@VHSheetMetalSensors@@@@@8 1000c67c     hsensvr.obj
+ 0003:000016b0       ??_R0?AV?$ClassFactory@VHSensor@@@@@8 1000c6b0     hsensvr.obj
+ 0003:000020f8       ??_R0?AVtype_info@@@8      1000d0f8     MSVCRT:ti_inst.obj
+ 0003:00002110       ___security_cookie         1000d110     MSVCRT:gs_cookie.obj
+ 0003:00002114       ___security_cookie_complement 1000d114     MSVCRT:gs_cookie.obj
+ 0003:00002120       ___native_dllmain_reason   1000d120     MSVCRT:natstart.obj
+ 0003:00002124       ___native_vcclrit_reason   1000d124     MSVCRT:natstart.obj
+ 0003:00002ad4       ?__type_info_root_node@@3U__type_info_node@@A 1000dad4     MSVCRT:tncleanup.obj
+ 0003:00002adc       __adjust_fdiv              1000dadc     <common>
+ 0003:00002ae0       ___native_startup_state    1000dae0     <common>
+ 0003:00002ae4       ___native_startup_lock     1000dae4     <common>
+ 0003:00002ae8       ___onexitend               1000dae8     <common>
+ 0003:00002aec       ___onexitbegin             1000daec     <common>
+ 0003:00002af0       ___dyn_tls_init_callback   1000daf0     <common>
+
+ entry point at        0001:00005672
+
+ Static symbols
+
+ 0001:000041d0       ?JGetDocument@@YAJPAUIUnknown@@ABU_GUID@@PAPAX@Z 100051d0 f   hsensors.obj
+ 0001:00005370       _pre_c_init                10006370 f   MSVCRT:crtdll.obj
+ 0001:0000555c       ___DllMainCRTStartup       1000655c f   MSVCRT:crtdll.obj
+ 0001:00005ba0       __unwindfunclet$?get_SensorType@IHSensorImp@HSensor@@UAGJPAH@Z$4 10006ba0 f   hsensor.obj
+ 0001:00005ba8       __ehhandler$?get_SensorType@IHSensorImp@HSensor@@UAGJPAH@Z 10006ba8 f   hsensor.obj
+ 0001:00005bd0       __unwindfunclet$?get_Status@IHSensorImp@HSensor@@UAGJPAH@Z$4 10006bd0 f   hsensor.obj
+ 0001:00005bd8       __ehhandler$?get_Status@IHSensorImp@HSensor@@UAGJPAH@Z 10006bd8 f   hsensor.obj
+ 0001:00005c00       __unwindfunclet$?get_IsInRange@IHSensorImp@HSensor@@UAGJPAF@Z$4 10006c00 f   hsensor.obj
+ 0001:00005c08       __ehhandler$?get_IsInRange@IHSensorImp@HSensor@@UAGJPAF@Z 10006c08 f   hsensor.obj
+ 0001:00005c30       __unwindfunclet$?get_CurrentValue@IHSensorImp@HSensor@@UAGJPAN@Z$4 10006c30 f   hsensor.obj
+ 0001:00005c38       __ehhandler$?get_CurrentValue@IHSensorImp@HSensor@@UAGJPAN@Z 10006c38 f   hsensor.obj
+ 0001:00005c60       __unwindfunclet$?put_Name@IHSensorImp@HSensor@@UAGJPA_W@Z$6 10006c60 f   hsensor.obj
+ 0001:00005c68       __unwindfunclet$?put_Name@IHSensorImp@HSensor@@UAGJPA_W@Z$7 10006c68 f   hsensor.obj
+ 0001:00005c71       __unwindfunclet$?put_Name@IHSensorImp@HSensor@@UAGJPA_W@Z$8 10006c71 f   hsensor.obj
+ 0001:00005c7a       __ehhandler$?put_Name@IHSensorImp@HSensor@@UAGJPA_W@Z 10006c7a f   hsensor.obj
+ 0001:00005ca0       __unwindfunclet$?get_Name@IHSensorImp@HSensor@@UAGJPAPA_W@Z$5 10006ca0 f   hsensor.obj
+ 0001:00005ca8       __ehhandler$?get_Name@IHSensorImp@HSensor@@UAGJPAPA_W@Z 10006ca8 f   hsensor.obj
+ 0001:00005cd0       __unwindfunclet$?put_Description@IHSensorImp@HSensor@@UAGJPA_W@Z$6 10006cd0 f   hsensor.obj
+ 0001:00005cd8       __unwindfunclet$?put_Description@IHSensorImp@HSensor@@UAGJPA_W@Z$7 10006cd8 f   hsensor.obj
+ 0001:00005ce1       __unwindfunclet$?put_Description@IHSensorImp@HSensor@@UAGJPA_W@Z$8 10006ce1 f   hsensor.obj
+ 0001:00005cea       __ehhandler$?put_Description@IHSensorImp@HSensor@@UAGJPA_W@Z 10006cea f   hsensor.obj
+ 0001:00005d10       __unwindfunclet$?get_Description@IHSensorImp@HSensor@@UAGJPAPA_W@Z$5 10006d10 f   hsensor.obj
+ 0001:00005d18       __ehhandler$?get_Description@IHSensorImp@HSensor@@UAGJPAPA_W@Z 10006d18 f   hsensor.obj
+ 0001:00005d40       __unwindfunclet$?put_LowerRange@IHSensorImp@HSensor@@UAGJN@Z$6 10006d40 f   hsensor.obj
+ 0001:00005d48       __ehhandler$?put_LowerRange@IHSensorImp@HSensor@@UAGJN@Z 10006d48 f   hsensor.obj
+ 0001:00005d70       __unwindfunclet$?get_LowerRange@IHSensorImp@HSensor@@UAGJPAN@Z$4 10006d70 f   hsensor.obj
+ 0001:00005d78       __ehhandler$?get_LowerRange@IHSensorImp@HSensor@@UAGJPAN@Z 10006d78 f   hsensor.obj
+ 0001:00005da0       __unwindfunclet$?put_UpperRange@IHSensorImp@HSensor@@UAGJN@Z$6 10006da0 f   hsensor.obj
+ 0001:00005da8       __ehhandler$?put_UpperRange@IHSensorImp@HSensor@@UAGJN@Z 10006da8 f   hsensor.obj
+ 0001:00005dd0       __unwindfunclet$?get_UpperRange@IHSensorImp@HSensor@@UAGJPAN@Z$4 10006dd0 f   hsensor.obj
+ 0001:00005dd8       __ehhandler$?get_UpperRange@IHSensorImp@HSensor@@UAGJPAN@Z 10006dd8 f   hsensor.obj
+ 0001:00005e00       __unwindfunclet$?put_Operator@IHSensorImp@HSensor@@UAGJH@Z$7 10006e00 f   hsensor.obj
+ 0001:00005e08       __ehhandler$?put_Operator@IHSensorImp@HSensor@@UAGJH@Z 10006e08 f   hsensor.obj
+ 0001:00005e30       __unwindfunclet$?get_Operator@IHSensorImp@HSensor@@UAGJPAH@Z$4 10006e30 f   hsensor.obj
+ 0001:00005e38       __ehhandler$?get_Operator@IHSensorImp@HSensor@@UAGJPAH@Z 10006e38 f   hsensor.obj
+ 0001:00005e60       __unwindfunclet$?put_MinimumThreshold@IHSensorImp@HSensor@@UAGJN@Z$6 10006e60 f   hsensor.obj
+ 0001:00005e68       __ehhandler$?put_MinimumThreshold@IHSensorImp@HSensor@@UAGJN@Z 10006e68 f   hsensor.obj
+ 0001:00005e90       __unwindfunclet$?get_MinimumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z$4 10006e90 f   hsensor.obj
+ 0001:00005e98       __ehhandler$?get_MinimumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z 10006e98 f   hsensor.obj
+ 0001:00005ec0       __unwindfunclet$?put_MaximumThreshold@IHSensorImp@HSensor@@UAGJN@Z$6 10006ec0 f   hsensor.obj
+ 0001:00005ec8       __ehhandler$?put_MaximumThreshold@IHSensorImp@HSensor@@UAGJN@Z 10006ec8 f   hsensor.obj
+ 0001:00005ef0       __unwindfunclet$?get_MaximumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z$4 10006ef0 f   hsensor.obj
+ 0001:00005ef8       __ehhandler$?get_MaximumThreshold@IHSensorImp@HSensor@@UAGJPAN@Z 10006ef8 f   hsensor.obj
+ 0001:00005f20       __unwindfunclet$?put_DisplayType@IHSensorImp@HSensor@@UAGJH@Z$7 10006f20 f   hsensor.obj
+ 0001:00005f28       __ehhandler$?put_DisplayType@IHSensorImp@HSensor@@UAGJH@Z 10006f28 f   hsensor.obj
+ 0001:00005f50       __unwindfunclet$?get_DisplayType@IHSensorImp@HSensor@@UAGJPAH@Z$4 10006f50 f   hsensor.obj
+ 0001:00005f58       __ehhandler$?get_DisplayType@IHSensorImp@HSensor@@UAGJPAH@Z 10006f58 f   hsensor.obj
+ 0001:00005f80       __unwindfunclet$?put_UpdateMechanism@IHSensorImp@HSensor@@UAGJH@Z$7 10006f80 f   hsensor.obj
+ 0001:00005f88       __ehhandler$?put_UpdateMechanism@IHSensorImp@HSensor@@UAGJH@Z 10006f88 f   hsensor.obj
+ 0001:00005fb0       __unwindfunclet$?get_UpdateMechanism@IHSensorImp@HSensor@@UAGJPAH@Z$4 10006fb0 f   hsensor.obj
+ 0001:00005fb8       __ehhandler$?get_UpdateMechanism@IHSensorImp@HSensor@@UAGJPAH@Z 10006fb8 f   hsensor.obj
+ 0001:00005fe0       __unwindfunclet$?Update@IHSensorImp@HSensor@@UAGJXZ$5 10006fe0 f   hsensor.obj
+ 0001:00005fe8       __ehhandler$?Update@IHSensorImp@HSensor@@UAGJXZ 10006fe8 f   hsensor.obj
+ 0001:00006010       __unwindfunclet$?put_UnitType@IHSensorImp@HSensor@@UAGJH@Z$7 10007010 f   hsensor.obj
+ 0001:00006018       __ehhandler$?put_UnitType@IHSensorImp@HSensor@@UAGJH@Z 10007018 f   hsensor.obj
+ 0001:00006040       __unwindfunclet$?get_UnitType@IHSensorImp@HSensor@@UAGJPAH@Z$4 10007040 f   hsensor.obj
+ 0001:00006048       __ehhandler$?get_UnitType@IHSensorImp@HSensor@@UAGJPAH@Z 10007048 f   hsensor.obj
+ 0001:00006070       __unwindfunclet$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z$28 10007070 f   hsensors.obj
+ 0001:00006078       __unwindfunclet$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z$29 10007078 f   hsensors.obj
+ 0001:00006080       __unwindfunclet$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z$30 10007080 f   hsensors.obj
+ 0001:00006088       __unwindfunclet$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z$31 10007088 f   hsensors.obj
+ 0001:00006090       __unwindfunclet$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z$32 10007090 f   hsensors.obj
+ 0001:00006098       __ehhandler$?AddVariableSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@PA_W1NNNNHHHPAPAU3@@Z 10007098 f   hsensors.obj
+ 0001:000060c0       __unwindfunclet$?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z$25 100070c0 f   hsensors.obj
+ 0001:000060c8       __unwindfunclet$?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z$26 100070c8 f   hsensors.obj
+ 0001:000060d0       __unwindfunclet$?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z$27 100070d0 f   hsensors.obj
+ 0001:000060d8       __unwindfunclet$?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z$28 100070d8 f   hsensors.obj
+ 0001:000060e0       __ehhandler$?AddMinimumDistanceSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@0PA_W1NNNNHHHPAPAU3@@Z 100070e0 f   hsensors.obj
+ 0001:00006100       __unwindfunclet$?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z$30 10007100 f   hsensors.obj
+ 0001:00006108       __unwindfunclet$?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z$31 10007108 f   hsensors.obj
+ 0001:00006110       __unwindfunclet$?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z$32 10007110 f   hsensors.obj
+ 0001:00006118       __unwindfunclet$?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z$33 10007118 f   hsensors.obj
+ 0001:00006120       __ehhandler$?AddSurfaceAreaSensor@IHSensorsImp@HSensors@@UAGJPAUIUnknown@@HHPA_W1NNNNHHHPAPAU3@@Z 10007120 f   hsensors.obj
+ 0001:00006140       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$33 10007140 f   hsensors.obj
+ 0001:00006148       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$34 10007148 f   hsensors.obj
+ 0001:00006150       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$35 10007150 f   hsensors.obj
+ 0001:00006158       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$36 10007158 f   hsensors.obj
+ 0001:00006160       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$37 10007160 f   hsensors.obj
+ 0001:00006168       __unwindfunclet$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z$38 10007168 f   hsensors.obj
+ 0001:00006170       __ehhandler$?AddSheetMetalCheckerSensor@IHSheetMetalSensorsImp@HSheetMetalSensors@@UAGJPAUIUnknown@@HHPA_W1NHPAPAU3@@Z 10007170 f   hsensors.obj
+ 0001:00006190       __unwindfunclet$??0?$ClassFactory@VHSensors@@@@QAE@HHH@Z$0 10007190 f   hsensvr.obj
+ 0001:00006199       __ehhandler$??0?$ClassFactory@VHSensors@@@@QAE@HHH@Z 10007199 f   hsensvr.obj
+ 0001:000061c0       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 100071c0 f   hsensvr.obj
+ 0001:000061cb       __ehhandler$?OnCreateInstance@?$ClassFactory@VHSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z 100071cb f   hsensvr.obj
+ 0001:000061f0       __unwindfunclet$??0?$ClassFactory@VHSheetMetalSensors@@@@QAE@HHH@Z$0 100071f0 f   hsensvr.obj
+ 0001:000061f9       __ehhandler$??0?$ClassFactory@VHSheetMetalSensors@@@@QAE@HHH@Z 100071f9 f   hsensvr.obj
+ 0001:00006220       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHSheetMetalSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007220 f   hsensvr.obj
+ 0001:0000622b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHSheetMetalSensors@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000722b f   hsensvr.obj
+ 0001:00006250       __unwindfunclet$??0?$ClassFactory@VHSensor@@@@QAE@HHH@Z$0 10007250 f   hsensvr.obj
+ 0001:00006259       __ehhandler$??0?$ClassFactory@VHSensor@@@@QAE@HHH@Z 10007259 f   hsensvr.obj
+ 0001:00006280       __unwindfunclet$?OnCreateInstance@?$ClassFactory@VHSensor@@@@UAEJPAUIUnknown@@PAPAU2@@Z$4 10007280 f   hsensvr.obj
+ 0001:0000628b       __ehhandler$?OnCreateInstance@?$ClassFactory@VHSensor@@@@UAEJPAUIUnknown@@PAPAU2@@Z 1000728b f   hsensvr.obj
+ 0001:000062b0       __unwindfunclet$_DllGetClassObject@12$0 100072b0 f   hsensvr.obj
+ 0001:000062bb       __unwindfunclet$_DllGetClassObject@12$1 100072bb f   hsensvr.obj
+ 0001:000062c6       __unwindfunclet$_DllGetClassObject@12$2 100072c6 f   hsensvr.obj
+ 0001:000062d1       __ehhandler$_DllGetClassObject@12 100072d1 f   hsensvr.obj
+ 0001:000062f0       __unwindfunclet$??_G?$ClassFactory@VHSensors@@@@UAEPAXI@Z$0 100072f0 f   hsensvr.obj
+ 0001:000062f9       __ehhandler$??_G?$ClassFactory@VHSensors@@@@UAEPAXI@Z 100072f9 f   hsensvr.obj
+ 0001:00006320       __unwindfunclet$??_G?$ClassFactory@VHSheetMetalSensors@@@@UAEPAXI@Z$0 10007320 f   hsensvr.obj
+ 0001:00006329       __ehhandler$??_G?$ClassFactory@VHSheetMetalSensors@@@@UAEPAXI@Z 10007329 f   hsensvr.obj
+ 0001:00006350       __unwindfunclet$??_G?$ClassFactory@VHSensor@@@@UAEPAXI@Z$0 10007350 f   hsensvr.obj
+ 0001:00006359       __ehhandler$??_G?$ClassFactory@VHSensor@@@@UAEPAXI@Z 10007359 f   hsensvr.obj
+ 0001:00006380       __unwindfunclet$_HSensorGetActiveEnv@12$10 10007380 f   hsenutil.obj
+ 0001:00006388       __ehhandler$_HSensorGetActiveEnv@12 10007388 f   hsenutil.obj
+ 0001:000063b0       ??__EGNULL_Camera@@YAXXZ   100073b0 f   hsenguid.obj
+ 0001:000063d0       ??__EGNULL_CAMERA@@YAXXZ   100073d0 f   hsenguid.obj
+ 0001:000063f0       ??__EGID_Camera@@YAXXZ     100073f0 f   hsenguid.obj
+ 0001:00006410       ??__EGID_CAMERA@@YAXXZ     10007410 f   hsenguid.obj
+ 0001:00006430       ??__EGNULL_Camera@@YAXXZ   10007430 f   hsensvr.obj
+ 0001:00006450       ??__EGNULL_CAMERA@@YAXXZ   10007450 f   hsensvr.obj
+ 0001:00006470       ??__EGID_Camera@@YAXXZ     10007470 f   hsensvr.obj
+ 0001:00006490       ??__EGID_CAMERA@@YAXXZ     10007490 f   hsensvr.obj
+ 0001:000064b0       ??__EGNULL_Camera@@YAXXZ   100074b0 f   hsenutil.obj
+ 0001:000064d0       ??__EGNULL_CAMERA@@YAXXZ   100074d0 f   hsenutil.obj
+ 0001:000064f0       ??__EGID_Camera@@YAXXZ     100074f0 f   hsenutil.obj
+ 0001:00006510       ??__EGID_CAMERA@@YAXXZ     10007510 f   hsenutil.obj

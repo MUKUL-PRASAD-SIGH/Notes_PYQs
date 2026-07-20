@@ -1,0 +1,31 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+AUTOCNST.CMAIN          BITMAP  DISCARDABLE     "toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+#define IDS_TITLE               1
+#define IDS_BADCURVES           2
+#define IDS_BADENV              3
+#define IDS_PLACE_HORT_VERT     4
+#define IDS_PLACE_CONNECT       5
+#define IDS_PLACE_TANGENCY      6
+#define IDS_READING            7
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE               "Auto Constrain"
+    IDS_BADCURVES           "Bad curve encountered, continue processing?"
+    IDS_BADENV              " Must be run from a Profile,  Layout or Draft  environment"
+    IDS_PLACE_HORT_VERT     "Placing Horizontal and Vertical Relationships"
+    IDS_PLACE_CONNECT       "Placing Connect Relationships"
+    IDS_PLACE_TANGENCY      "Placing Tangency Relationships"
+    IDS_READING             "Reading Curves"
+END

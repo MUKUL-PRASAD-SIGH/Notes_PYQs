@@ -1,0 +1,2 @@
+regsvr32 MySensorFunctions.dll
+regedit InstallSensorFunctions64BitWindows.reg

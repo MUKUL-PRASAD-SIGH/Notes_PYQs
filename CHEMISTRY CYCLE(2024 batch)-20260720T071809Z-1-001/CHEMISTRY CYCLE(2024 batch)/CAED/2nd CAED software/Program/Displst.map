@@ -1,0 +1,916 @@
+ Displst
+
+ Timestamp is 46b3a376 (Fri Aug 03 16:51:50 2007)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008bd7H .text                   CODE
+ 0001:00008be0 00000befH .text$x                 CODE
+ 0001:000097d0 00000376H .text$yc                CODE
+ 0002:00000000 000001bcH .idata$5                DATA
+ 0002:000001bc 00000004H .CRT$XCA                DATA
+ 0002:000001c0 00000070H .CRT$XCU                DATA
+ 0002:00000230 00000004H .CRT$XCZ                DATA
+ 0002:00000234 00000004H .CRT$XIA                DATA
+ 0002:00000238 00000004H .CRT$XIAA               DATA
+ 0002:0000023c 00000004H .CRT$XIZ                DATA
+ 0002:00000240 00000d10H .rdata                  DATA
+ 0002:00000f50 00000031H .rdata$debug            DATA
+ 0002:00000f84 0000053cH .rdata$r                DATA
+ 0002:000014c0 000000f4H .rdata$sxdata           DATA
+ 0002:000015b4 00000004H .rtc$IAA                DATA
+ 0002:000015b8 00000004H .rtc$IZZ                DATA
+ 0002:000015bc 00000004H .rtc$TAA                DATA
+ 0002:000015c0 00000004H .rtc$TZZ                DATA
+ 0002:000015c8 00000e7cH .xdata$x                DATA
+ 0002:00002444 00000000H ATL$__a                 DATA
+ 0002:00002444 00000000H ATL$__z                 DATA
+ 0002:00002444 000000b4H .idata$2                DATA
+ 0002:000024f8 00000014H .idata$3                DATA
+ 0002:0000250c 000001bcH .idata$4                DATA
+ 0002:000026c8 00000692H .idata$6                DATA
+ 0002:00002d60 000021f1H .edata                  DATA
+ 0003:00000000 0000498cH .data                   DATA
+ 0003:00004990 000012d0H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:0000003d       ___safe_se_handler_count   0000003d     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??2@YAPAXI@Z               10001000 f   nothrownew.obj
+ 0001:00000025       ??_U@YAPAXI@Z              10001025 f   nothrownew.obj
+ 0001:00000030       ??3CObject@@SGXPAX@Z       10001030 f i jdspbase.obj
+ 0001:00000040       ?Display@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@@Z 10001040 f i jdspbase.obj
+ 0001:00000050       ?BatchEvaluate@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10001050 f i jdspbase.obj
+ 0001:00000050       ?BatchPreModify@JDisplayBaseList@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10001050 f i jdspbase.obj
+ 0001:00000060       ?EnumEntries@JDisplayBaseList@@MAEJPAPAUIEnumUnknown@@@Z 10001060 f i jdspbase.obj
+ 0001:00000070       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGPoint2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001070 f i jdspbase.obj
+ 0001:000000c0       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGLineString2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 100010c0 f i jdspbase.obj
+ 0001:00000110       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGEllipse2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001110 f i jdspbase.obj
+ 0001:00000160       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGArc2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001160 f i jdspbase.obj
+ 0001:000001b0       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGBspCurve2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 100011b0 f i jdspbase.obj
+ 0001:00000200       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGComplexString2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001200 f i jdspbase.obj
+ 0001:00000250       ?Render2d@@YAJPAVJGraphicContext@@PAUtagGRectangle2d@@PAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001250 f i jdspbase.obj
+ 0001:000002a0       ?_GetBaseClass@JDisplayBaseList@@KGPAUCRuntimeClass@@XZ 100012a0 f   jdspbase.obj
+ 0001:000002b0       ?GetThisClass@JDisplayBaseList@@SGPAUCRuntimeClass@@XZ 100012b0 f   jdspbase.obj
+ 0001:000002b0       ?GetRuntimeClass@JDisplayBaseList@@UBEPAUCRuntimeClass@@XZ 100012b0 f   jdspbase.obj
+ 0001:000002c0       ?GetInterfaceMap@JDisplayBaseList@@MBEPBUAFX_INTERFACEMAP@@XZ 100012c0 f   jdspbase.obj
+ 0001:000002c0       ?GetThisInterfaceMap@JDisplayBaseList@@KGPBUAFX_INTERFACEMAP@@XZ 100012c0 f   jdspbase.obj
+ 0001:000002d0       ?Initialize@JDisplayBaseList@@QAEKXZ 100012d0 f   jdspbase.obj
+ 0001:000002e0       ?OnFinalRelease@JDisplayBaseList@@UAEXXZ 100012e0 f   jdspbase.obj
+ 0001:000002f0       ?QueryInterface@XDynamicList@JDisplayBaseList@@UAGJABU_GUID@@PAPAX@Z 100012f0 f   jdspbase.obj
+ 0001:00000310       ?AddRef@XDynamicList@JDisplayBaseList@@UAGKXZ 10001310 f   jdspbase.obj
+ 0001:00000320       ?Release@XDynamicList@JDisplayBaseList@@UAGKXZ 10001320 f   jdspbase.obj
+ 0001:00000330       ?Initialize@XDynamicList@JDisplayBaseList@@UAGJPAUIUnknown@@@Z 10001330 f   jdspbase.obj
+ 0001:00000350       ?UnInitialize@XDynamicList@JDisplayBaseList@@UAGJPAUIUnknown@@@Z 10001350 f   jdspbase.obj
+ 0001:00000370       ?GetListType@XDynamicList@JDisplayBaseList@@UAGJPAK@Z 10001370 f   jdspbase.obj
+ 0001:00000390       ?Display@XDynamicList@JDisplayBaseList@@UAGJPAUIUnknown@@PAUtagRECT@@@Z 10001390 f   jdspbase.obj
+ 0001:000003b0       ?BatchPreModify@XDynamicList@JDisplayBaseList@@UAGJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100013b0 f   jdspbase.obj
+ 0001:000003e0       ?BatchEvaluate@XDynamicList@JDisplayBaseList@@UAGJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 100013e0 f   jdspbase.obj
+ 0001:00000410       ?EnumEntries@XDynamicList@JDisplayBaseList@@UAGJPAPAUIEnumUnknown@@@Z 10001410 f   jdspbase.obj
+ 0001:00000430       ?PreDraw@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10001430 f   jdspbase.obj
+ 0001:00000440       ?NotifyViewSet@JDisplayBaseList@@IAEJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z 10001440 f   jdspbase.obj
+ 0001:00000490       ?RenderGType@JDisplayBaseList@@IAEJPAVJGraphicContext@@PATtagGCurve2d@@EPAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@@Z 10001490 f   jdspbase.obj
+ 0001:00000730       ?RenderElement@JDisplayBaseList@@MAEJPAVJGraphicContext@@PAUIJGraphic@@@Z 10001730 f   jdspbase.obj
+ 0001:00000780       ?SetColor@JDisplayBaseList@@IAEJHK@Z 10001780 f   jdspbase.obj
+ 0001:00000800       ?SetPriority@JDisplayBaseList@@UAEJH@Z 10001800 f   jdspbase.obj
+ 0001:00000850       ?RecordOnNextTransform@JDisplayBaseList@@QAEJXZ 10001850 f   jdspbase.obj
+ 0001:00000880       ?TurnOffTransform@JDisplayBaseList@@QAEJXZ 10001880 f   jdspbase.obj
+ 0001:000008a0       ?SetTransform@JDisplayBaseList@@UAEJPAUtagG4x4@@@Z 100018a0 f   jdspbase.obj
+ 0001:00000900       ?GetHilitePlaneId@JDisplayBaseList@@UAEJPAK@Z 10001900 f   jdspbase.obj
+ 0001:00000910       ?SetListType@JDisplayBaseList@@IAEJHK@Z 10001910 f   jdspbase.obj
+ 0001:00000930       ?GetListType@JDisplayBaseList@@MAEJPAK@Z 10001930 f   jdspbase.obj
+ 0001:00000950       ?CopyGType@JDisplayBaseList@@IAEJPATtagGCurve2d@@E0@Z 10001950 f   jdspbase.obj
+ 0001:00000b40       ?FreeGType@JDisplayBaseList@@IAEJPATtagGCurve2d@@E@Z 10001b40 f   jdspbase.obj
+ 0001:00000c40       ?RangeGType2d@JDisplayBaseList@@IAEJPATtagGCurve2d@@EPAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@PAUtagGBox@@PAUtagJFUZZDEFN@@@Z 10001c40 f   jdspbase.obj
+ 0001:00000ef0       ?InitRangeAndFuzz@JDisplayBaseList@@IAEJPAUtagGBox@@PAUtagJFUZZDEFN@@@Z 10001ef0 f   jdspbase.obj
+ 0001:00000f30       ?AccumulateRange@JDisplayBaseList@@IAEJUtagGBox@@UtagJFUZZDEFN@@PAU2@PAU3@@Z 10001f30 f   jdspbase.obj
+ 0001:00000f90       ?SetHiliteType@JDisplayBaseList@@QAEJW4tagHiliteType@@@Z 10001f90 f   jdspbase.obj
+ 0001:00000fa0       ?SetIncrementalDisplay@JDisplayBaseList@@MAEJH@Z 10001fa0 f   jdspbase.obj
+ 0001:00000fb0       ?SetTypeEx@JDisplayBaseList@@QAEXK@Z 10001fb0 f   jdspbase.obj
+ 0001:00000fd0       ?GetTypeEx@JDisplayBaseList@@QAEKXZ 10001fd0 f   jdspbase.obj
+ 0001:00000fe0       ?SetModeEx@JDisplayBaseList@@QAEXK@Z 10001fe0 f   jdspbase.obj
+ 0001:00001000       ?GetModeEx@JDisplayBaseList@@QAEKXZ 10002000 f   jdspbase.obj
+ 0001:00001010       ?QueryInterface@XDynamicListSupport@JDisplayBaseList@@UAGJABU_GUID@@PAPAX@Z 10002010 f   jdspbase.obj
+ 0001:00001030       ?AddRef@XDynamicListSupport@JDisplayBaseList@@UAGKXZ 10002030 f   jdspbase.obj
+ 0001:00001040       ?Release@XDynamicListSupport@JDisplayBaseList@@UAGKXZ 10002040 f   jdspbase.obj
+ 0001:00001050       ?SetIncrementalDisplay@XDynamicListSupport@JDisplayBaseList@@UAGJH@Z 10002050 f   jdspbase.obj
+ 0001:00001070       ?SetHiliteType@XDynamicListSupport@JDisplayBaseList@@UAGJW4tagHiliteType@@@Z 10002070 f   jdspbase.obj
+ 0001:00001090       ?SetTypeEx@XDynamicListSupport@JDisplayBaseList@@UAGJK@Z 10002090 f   jdspbase.obj
+ 0001:000010b0       ?GetTypeEx@XDynamicListSupport@JDisplayBaseList@@UAGJPAK@Z 100020b0 f   jdspbase.obj
+ 0001:000010d0       ?SetModeEx@XDynamicListSupport@JDisplayBaseList@@UAGJK@Z 100020d0 f   jdspbase.obj
+ 0001:000010f0       ?GetModeEx@XDynamicListSupport@JDisplayBaseList@@UAGJPAK@Z 100020f0 f   jdspbase.obj
+ 0001:00001110       ??4?$TIP@PAUIJGraphic@@@@QAEAAV0@ABV0@@Z 10002110 f i jdspbase.obj
+ 0001:00001140       ??1?$TIP@PAUIJGraphic@@@@QAE@XZ 10002140 f i jdspbase.obj
+ 0001:00001150       ??0XDynamicList@JDisplayBaseList@@QAE@XZ 10002150 f i jdspbase.obj
+ 0001:00001160       ??0XDynamicListSupport@JDisplayBaseList@@QAE@XZ 10002160 f i jdspbase.obj
+ 0001:00001170       ??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@ABU01@@Z 10002170 f i jdspbase.obj
+ 0001:00001200       ??4HIGHLIGHTOBJECT@JDisplayElementBase@@QAEAAU01@ABU01@@Z 10002200 f i jdspbase.obj
+ 0001:00001250       ??0JDisplayBaseList@@QAE@XZ 10002250 f   jdspbase.obj
+ 0001:00001350       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 10002350 f i jdspbase.obj
+ 0001:00001350       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 10002350 f i jdspbase.obj
+ 0001:00001360       ??3@YAXPAX0@Z              10002360 f i jdspelm.obj
+ 0001:00001360       ?AssertValid@CObject@@UBEXXZ 10002360 f i jdspbase.obj
+ 0001:00001370       ?Cleanup@JDisplayBaseList@@MAEJXZ 10002370 f   jdspbase.obj
+ 0001:00001450       ??1JDisplayBaseList@@UAE@XZ 10002450 f   jdspbase.obj
+ 0001:000014b0       ?BeginGraphicContext@JDisplayBaseList@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 100024b0 f   jdspbase.obj
+ 0001:00001690       ?EndGraphicContext@JDisplayBaseList@@MAEJPAVJGraphicContext@@@Z 10002690 f   jdspbase.obj
+ 0001:00001710       ?ConnectToViewSet@JDisplayBaseList@@IAEJPAUIJView@@H@Z 10002710 f   jdspbase.obj
+ 0001:00001b20       ?SetView@JDisplayBaseList@@UAEJPAUIJView@@H@Z 10002b20 f   jdspbase.obj
+ 0001:00001b60       ?Initialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10002b60 f   jdspbase.obj
+ 0001:00001d50       ?UnInitialize@JDisplayBaseList@@MAEJPAUIUnknown@@@Z 10002d50 f   jdspbase.obj
+ 0001:00001ff0       ??0XDynamicList@JDisplayBaseList@@QAE@ABV01@@Z 10002ff0 f i jdspbase.obj
+ 0001:00002000       ??4XDynamicList@JDisplayBaseList@@QAEAAV01@ABV01@@Z 10003000 f i jdspbase.obj
+ 0001:00002000       ??4XDynamicListSupport@JDisplayBaseList@@QAEAAV01@ABV01@@Z 10003000 f i jdspbase.obj
+ 0001:00002010       ??0XDynamicListSupport@JDisplayBaseList@@QAE@ABV01@@Z 10003010 f i jdspbase.obj
+ 0001:00002020       ??_EJDisplayBaseList@@UAEPAXI@Z 10003020 f i jdspbase.obj
+ 0001:00002080       ?CreateObject@JDisplayBaseList@@SGPAVCObject@@XZ 10003080 f   jdspbase.obj
+ 0001:000020f0       ??0bad_alloc@std@@QAE@PBD@Z 100030f0 f i jdspelm.obj
+ 0001:00002150       ??1bad_alloc@std@@UAE@XZ   10003150 f i jdspelm.obj
+ 0001:000021a0       ??_Ebad_alloc@std@@UAEPAXI@Z 100031a0 f i jdspelm.obj
+ 0001:000021a0       ??_Gbad_alloc@std@@UAEPAXI@Z 100031a0 f i jdspelm.obj
+ 0001:00002210       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10003210 f i jdspelm.obj
+ 0001:00002280       ??1logic_error@std@@UAE@XZ 10003280 f i jdspelm.obj
+ 0001:000022e0       ?what@logic_error@std@@UBEPBDXZ 100032e0 f i jdspelm.obj
+ 0001:000022f0       ??_Glogic_error@std@@UAEPAXI@Z 100032f0 f i jdspelm.obj
+ 0001:000022f0       ??_Elogic_error@std@@UAEPAXI@Z 100032f0 f i jdspelm.obj
+ 0001:00002310       ??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10003310 f i jdspelm.obj
+ 0001:00002370       ??1length_error@std@@UAE@XZ 10003370 f i jdspelm.obj
+ 0001:000023c0       ??_Glength_error@std@@UAEPAXI@Z 100033c0 f i jdspelm.obj
+ 0001:000023c0       ??_Elength_error@std@@UAEPAXI@Z 100033c0 f i jdspelm.obj
+ 0001:00002420       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10003420 f i jdspelm.obj
+ 0001:00002480       ??1out_of_range@std@@UAE@XZ 10003480 f i jdspelm.obj
+ 0001:000024d0       ??_Gout_of_range@std@@UAEPAXI@Z 100034d0 f i jdspelm.obj
+ 0001:000024d0       ??_Eout_of_range@std@@UAEPAXI@Z 100034d0 f i jdspelm.obj
+ 0001:00002530       ??1JGraphicContext@@QAE@XZ 10003530 f i jdspelm.obj
+ 0001:000025a0       ??M@YA_NABVJIdentity@@0@Z  100035a0 f i jdspelm.obj
+ 0001:000025c0       ?GetThisClass@JDisplayElementBase@@SGPAUCRuntimeClass@@XZ 100035c0 f   jdspelm.obj
+ 0001:000025c0       ?GetRuntimeClass@JDisplayElementBase@@UBEPAUCRuntimeClass@@XZ 100035c0 f   jdspelm.obj
+ 0001:000025d0       ?Cleanup@JDisplayElementBase@@MAEJXZ 100035d0 f   jdspelm.obj
+ 0001:00002610       ?JCopyUnknown@@YAJPAPAUIUnknown@@PBQAU1@@Z 10003610 f   jdspelm.obj
+ 0001:00002630       ?JDeleteUnknown@@YAXPAPAUIUnknown@@@Z 10003630 f   jdspelm.obj
+ 0001:00002650       ?JNextUnknown@@YAJPAPAUIUnknown@@PBQAU1@KAAK@Z 10003650 f   jdspelm.obj
+ 0001:00002690       ?Clear@?$TIP@PAUIJGraphic@@@@QAEXXZ 10003690 f i jdspelm.obj
+ 0001:000026b0       ?AllocateStorage@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@QAEJK@Z 100036b0 f i jdspelm.obj
+ 0001:00002710       ?size@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QBEIXZ 10003710 f i jdspelm.obj
+ 0001:00002730       ?_Xlen@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@KAXXZ 10003730 f i jdspelm.obj
+ 0001:00002790       ??0logic_error@std@@QAE@ABV01@@Z 10003790 f i jdspelm.obj
+ 0001:00002800       ??0length_error@std@@QAE@ABV01@@Z 10003800 f i jdspelm.obj
+ 0001:00002860       ?_Max@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@@Z 10003860 f i jdspelm.obj
+ 0001:00002880       ?_Min@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@KAPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@@Z 10003880 f i jdspelm.obj
+ 0001:000028a0       ?_Dec@const_iterator@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAEXXZ 100038a0 f i jdspelm.obj
+ 0001:00002930       ?_Inc@const_iterator@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAEXXZ 10003930 f i jdspelm.obj
+ 0001:000029a0       ??0bad_alloc@std@@QAE@ABV01@@Z 100039a0 f i jdspelm.obj
+ 0001:00002a00       ??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ 10003a00 f   jdspelm.obj
+ 0001:00002a70       ?Clear@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJXZ 10003a70 f   jdspelm.obj
+ 0001:00002b30       ??M@YA_NABUHIGHLIGHTOBJECT@JDisplayElementBase@@0@Z 10003b30 f   jdspelm.obj
+ 0001:00002b90       ??8@YA_NABUHIGHLIGHTOBJECT@JDisplayElementBase@@0@Z 10003b90 f   jdspelm.obj
+ 0001:00002bf0       ?GetObjectA@HIGHLIGHTOBJECT@JDisplayElementBase@@QBEJPAPAUIJGraphic@@@Z 10003bf0 f   jdspelm.obj
+ 0001:00002d20       ?PutObject@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJPAUIUnknown@@@Z 10003d20 f   jdspelm.obj
+ 0001:00002ee0       ??1?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ 10003ee0 f i jdspelm.obj
+ 0001:00002ef0       ??0?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@QAE@ABU_GUID@@P6AJPAPAUIUnknown@@PBQAU2@KAAK@ZP6AJ12@ZP6AX1@ZPAU2@@Z 10003ef0 f i jdspelm.obj
+ 0001:00002f60       _IsEqualGUID               10003f60 f i jdspelm.obj
+ 0001:00003000       ?QueryInterface@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJABU_GUID@@PAPAX@Z 10004000 f i jdspelm.obj
+ 0001:00003060       ?AddRef@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGKXZ 10004060 f i jdspelm.obj
+ 0001:00003070       ?Next@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJKPAPAUIUnknown@@PAK@Z 10004070 f i jdspelm.obj
+ 0001:000030e0       ?Skip@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJK@Z 100040e0 f i jdspelm.obj
+ 0001:00003120       ?Reset@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJXZ 10004120 f i jdspelm.obj
+ 0001:00003130       ??1?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@QAE@XZ 10004130 f i jdspelm.obj
+ 0001:00003190       ?allocate@?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@QAEPAUHIGHLIGHTOBJECT@JDisplayElementBase@@I@Z 10004190 f i jdspelm.obj
+ 0001:000031e0       ?_Lbound@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 100041e0 f i jdspelm.obj
+ 0001:00003220       ?_Lrotate@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@@Z 10004220 f i jdspelm.obj
+ 0001:00003270       ?_Rrotate@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@@Z 10004270 f i jdspelm.obj
+ 0001:000032d0       ?_Ubound@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 100042d0 f i jdspelm.obj
+ 0001:00003310       ??$_Find@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@U12@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@0ABU12@@Z 10004310 f i jdspelm.obj
+ 0001:00003350       ??$_Fill@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@U12@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@0ABU12@@Z 10004350 f i jdspelm.obj
+ 0001:000033b0       ??$_Copy_opt@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@Uforward_iterator_tag@std@@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00Uforward_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 100043b0 f i jdspelm.obj
+ 0001:00003420       ??$_Construct@UHIGHLIGHTOBJECT@JDisplayElementBase@@U12@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@ABU12@@Z 10004420 f i jdspelm.obj
+ 0001:00003480       ??$_Copy_backward_opt@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@Uforward_iterator_tag@std@@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00Uforward_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 10004480 f i jdspelm.obj
+ 0001:000034f0       ?IsEmpty@JDisplayElementBase@@QAEHXZ 100044f0 f   jdspelm.obj
+ 0001:00003530       ??1HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ 10004530 f   jdspelm.obj
+ 0001:000035a0       ??E?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV01@H@Z 100045a0 f i jdspelm.obj
+ 0001:00003630       ?Clone@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJPAPAUIEnumUnknown@@@Z 10004630 f i jdspelm.obj
+ 0001:00003760       ?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@XZ 10004760 f i jdspelm.obj
+ 0001:00003810       ??0_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE@PAU012@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z 10004810 f i jdspelm.obj
+ 0001:00003890       ??$_Distance2@Viterator@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@I@std@@YAXViterator@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@0@0AAIUbidirectional_iterator_tag@0@@Z 10004890 f i jdspelm.obj
+ 0001:000038d0       ?construct@?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@QAEXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@ABU34@@Z 100048d0 f i jdspelm.obj
+ 0001:000038f0       ??$_Copy_backward_opt@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00Urandom_access_iterator_tag@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 100048f0 f i jdspelm.obj
+ 0001:00003950       ?begin@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ 10004950 f i jdspelm.obj
+ 0001:000039d0       ?end@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ 100049d0 f i jdspelm.obj
+ 0001:00003a50       ?Release@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGKXZ 10004a50 f i jdspelm.obj
+ 0001:00003a80       ?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z 10004a80 f i jdspelm.obj
+ 0001:00003b20       ??$unchecked_copy@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@@stdext@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00@Z 10004b20 f i jdspelm.obj
+ 0001:00003b80       ?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z 10004b80 f   jdspelm.obj
+ 0001:00003e30       ?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 10004e30 f   jdspelm.obj
+ 0001:000041d0       ?find@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 100051d0 f i jdspelm.obj
+ 0001:00004240       ?_Insert@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10005240 f i jdspelm.obj
+ 0001:00004420       ??$_Unchecked_move_backward@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@@stdext@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00@Z 10005420 f i jdspelm.obj
+ 0001:00004450       ??$_Uninit_copy@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 10005450 f i jdspelm.obj
+ 0001:000044f0       ?insert@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@_N@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 100054f0 f i jdspelm.obj
+ 0001:000045f0       ??$_Uninit_fill_n@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@IU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@IABU12@AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 100055f0 f i jdspelm.obj
+ 0001:00004690       ?_Erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@@Z 10005690 f i jdspelm.obj
+ 0001:00004710       ?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 10005710 f i jdspelm.obj
+ 0001:000049d0       ??0out_of_range@std@@QAE@ABV01@@Z 100059d0 f i jdspelm.obj
+ 0001:00004a30       ?_Ufill@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU34@IABU34@@Z 10005a30 f i jdspelm.obj
+ 0001:00004a70       ?_Destroy@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@0@Z 10005a70 f i jdspelm.obj
+ 0001:00004aa0       ?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 10005aa0 f i jdspelm.obj
+ 0001:00004b70       ?erase@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QAE?AV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@V32@@Z 10005b70 f i jdspelm.obj
+ 0001:00004bc0       ?_Tidy@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXXZ 10005bc0 f i jdspelm.obj
+ 0001:00004c10       ??1?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE@XZ 10005c10 f i jdspelm.obj
+ 0001:00004c50       ?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAEIABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10005c50 f i jdspelm.obj
+ 0001:00004cc0       ?erase@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QAE?AV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@V32@0@Z 10005cc0 f i jdspelm.obj
+ 0001:00004d30       ??$Remove_elements_not_in_input@V?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@0@Z 10005d30 f i jdspelm.obj
+ 0001:00004ea0       ??$_Umove@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU23@00@Z 10005ea0 f i jdspelm.obj
+ 0001:00004ed0       ?erase@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE_NABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10005ed0 f i jdspelm.obj
+ 0001:00004f60       ??1?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QAE@XZ 10005f60 f i jdspelm.obj
+ 0001:00004f70       ??1?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ 10005f70 f i jdspelm.obj
+ 0001:00004fe0       ??0?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ 10005fe0 f i jdspelm.obj
+ 0001:00005050       ?_Insert_n@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@IABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10006050 f i jdspelm.obj
+ 0001:00005330       ?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10006330 f   jdspelm.obj
+ 0001:00005400       ??0?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ 10006400 f i jdspelm.obj
+ 0001:00005460       ??1?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ 10006460 f i jdspelm.obj
+ 0001:000054c0       ?clear@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAEXXZ 100064c0 f i jdspelm.obj
+ 0001:00005530       ?insert@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QAE?AV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@V32@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10006530 f i jdspelm.obj
+ 0001:000055e0       ??0JDisplayElementBase@@QAE@XZ 100065e0 f   jdspelm.obj
+ 0001:00005650       ??1JDisplayElementBase@@UAE@XZ 10006650 f   jdspelm.obj
+ 0001:000056c0       ?RemoveAll@JDisplayElementBase@@UAEJH@Z 100066c0 f   jdspelm.obj
+ 0001:00005720       ?push_back@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@QAEXABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 10006720 f i jdspelm.obj
+ 0001:000057d0       ??_EJDisplayElementBase@@UAEPAXI@Z 100067d0 f i jdspelm.obj
+ 0001:00005830       ?CreateObject@JDisplayElementBase@@SGPAVCObject@@XZ 10006830 f   jdspelm.obj
+ 0001:000058a0       ?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z 100068a0 f   jdspelm.obj
+ 0001:00005b60       ?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 10006b60 f   jdspelm.obj
+ 0001:00005c80       ?Add@JDisplayElementBase@@UAEJHH@Z 10006c80 f   jdspelm.obj
+ 0001:00005d90       ?GetThisClass@JDisplayGType2d@@SGPAUCRuntimeClass@@XZ 10006d90 f   jdspgtyp.obj
+ 0001:00005d90       ?GetRuntimeClass@JDisplayGType2d@@UBEPAUCRuntimeClass@@XZ 10006d90 f   jdspgtyp.obj
+ 0001:00005da0       ?Display@JDisplayGType2d@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 10006da0 f   jdspgtyp.obj
+ 0001:00005f90       ?DisplayElement@JDisplayGType2d@@QAEJPAUIJView@@HPATtagGCurve2d@@EW4JDisplayStyleType@1@W4JDisplayWeight@1@K@Z 10006f90 f   jdspgtyp.obj
+ 0001:00006180       ?DisplayElements@JDisplayGType2d@@QAEJPAUIJView@@HQATtagGCurve2d@@QAEHQAW4JDisplayStyleType@1@QAW4JDisplayWeight@1@QAK@Z 10007180 f   jdspgtyp.obj
+ 0001:00006370       ?ClearElements@JDisplayGType2d@@QAEJPAUIJView@@H@Z 10007370 f   jdspgtyp.obj
+ 0001:00006400       ?StrokeElement@JDisplayGType2d@@MAEJPAVJGraphicContext@@PATtagGCurve2d@@EW4JDisplayStyleType@1@W4JDisplayWeight@1@K@Z 10007400 f   jdspgtyp.obj
+ 0001:000065b0       ?RememberElements@JDisplayGType2d@@MAEJQATtagGCurve2d@@QAEHPAW4JDisplayStyleType@1@PAW4JDisplayWeight@1@PAK@Z 100075b0 f   jdspgtyp.obj
+ 0001:000068e0       ?GetActiveRange@JDisplayGType2d@@MAEJPAUtagGBox@@PAUtagJFUZZDEFN@@PAH@Z 100078e0 f   jdspgtyp.obj
+ 0001:00006bd0       ??0JDisplayGType2d@@QAE@XZ 10007bd0 f   jdspgtyp.obj
+ 0001:00007100       ??1JDisplayGType2d@@UAE@XZ 10008100 f   jdspgtyp.obj
+ 0001:000072b0       ??_EJDisplayGType2d@@UAEPAXI@Z 100082b0 f i jdspgtyp.obj
+ 0001:00007310       ?CreateObject@JDisplayGType2d@@SGPAVCObject@@XZ 10008310 f   jdspgtyp.obj
+ 0001:00007380       ?_GetBaseClass@JRubberBandBase@@KGPAUCRuntimeClass@@XZ 10008380 f   jrubbase.obj
+ 0001:00007380       ?_GetBaseClass@JDisplayGType2d@@KGPAUCRuntimeClass@@XZ 10008380 f   jdspgtyp.obj
+ 0001:00007380       ?_GetBaseClass@JDisplayElementBase@@KGPAUCRuntimeClass@@XZ 10008380 f   jdspelm.obj
+ 0001:00007390       ?GetRuntimeClass@JRubberBandBase@@UBEPAUCRuntimeClass@@XZ 10008390 f   jrubbase.obj
+ 0001:00007390       ?GetThisClass@JRubberBandBase@@SGPAUCRuntimeClass@@XZ 10008390 f   jrubbase.obj
+ 0001:000073a0       ??0JRubberBandBase@@QAE@XZ 100083a0 f   jrubbase.obj
+ 0001:00007410       ??1JRubberBandBase@@UAE@XZ 10008410 f   jrubbase.obj
+ 0001:00007470       ?BeginRubberBand@JRubberBandBase@@UAEJPAUIJView@@H@Z 10008470 f   jrubbase.obj
+ 0001:000074c0       ?EndRubberBand@JRubberBandBase@@UAEJXZ 100084c0 f   jrubbase.obj
+ 0001:00007510       ?BatchPreModify@JRubberBandBase@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10008510 f   jrubbase.obj
+ 0001:00007520       ?BeginGraphicContext@JRubberBandBase@@MAEJPAUIUnknown@@PAUtagRECT@@PAVJGraphicContext@@@Z 10008520 f   jrubbase.obj
+ 0001:00007570       ??_EJRubberBandBase@@UAEPAXI@Z 10008570 f i jrubbase.obj
+ 0001:000075d0       ?CreateObject@JRubberBandBase@@SGPAVCObject@@XZ 100085d0 f   jrubbase.obj
+ 0001:00007640       ?BatchEvaluate@JRubberBandBase@@MAEJPAUIJViewSet@@PAUIEnumJIDREF@@PAUIJRelationNotify@@@Z 10008640 f   jrubbase.obj
+ 0001:00007774       _HRerrEx                   10008774 f   JUtil:JUtil.dll
+ 0001:0000777a       ?JIsValidAddress@@YAHPBXIH@Z 1000877a f   JUtil:JUtil.dll
+ 0001:00007780       _JCoCreateInstance         10008780 f   JUtil:JUtil.dll
+ 0001:00007786       ?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 10008786 f   umath:umath.dll
+ 0001:0000778c       ?Convert3d@tagGBox@@QAEXABUtagGBox2d@@@Z 1000878c f   umath:umath.dll
+ 0001:00007792       ??_5tagGBox@@QAEAAU0@ABU0@@Z 10008792 f   umath:umath.dll
+ 0001:00007798       ?ConvertGBoxToGClipVolume@@YAJPAUtagGBox@@PAUtagGClipVolume@@@Z 10008798 f   umath:umath.dll
+ 0001:0000779e       ?BuildBox@@YA?AUtagGBox@@NNN@Z 1000879e f   umath:umath.dll
+ 0001:000077a4       _IMGComplexStringCopyNoAlloc2d 100087a4 f   ugeom2d:ugeom2d.dll
+ 0001:000077aa       _IMComplexStringAllocFrmGTypedCurve2d 100087aa f   ugeom2d:ugeom2d.dll
+ 0001:000077b0       _IMFitCurveCopy2d          100087b0 f   ugeom2d:ugeom2d.dll
+ 0001:000077b6       _IMFitCurveAlloc2d         100087b6 f   ugeom2d:ugeom2d.dll
+ 0001:000077bc       _IMLineStringCopy2d        100087bc f   ugeom2d:ugeom2d.dll
+ 0001:000077c2       _IMLineString2dAllocMem    100087c2 f   ugeom2d:ugeom2d.dll
+ 0001:000077c8       _IMBspCurveCopy2d          100087c8 f   ugeom2d:ugeom2d.dll
+ 0001:000077ce       _IMGBspCurve2dAllocMem     100087ce f   ugeom2d:ugeom2d.dll
+ 0001:000077d4       _IMGComplexStringFreeMem2d 100087d4 f   ugeom2d:ugeom2d.dll
+ 0001:000077da       _IMFitCurveFreeMem2d       100087da f   ugeom2d:ugeom2d.dll
+ 0001:000077e0       _IMLineStringFreePoints2d  100087e0 f   ugeom2d:ugeom2d.dll
+ 0001:000077e6       _IMGBspCurveFreeMem2d      100087e6 f   ugeom2d:ugeom2d.dll
+ 0001:000077ec       _ConstructGraphicContext@12 100087ec f   jengine:jengine.dll
+ 0001:000077f2       _BatchCommittedOff         100087f2 f   jengine:jengine.dll
+ 0001:000077f8       _BatchCommittedOn          100087f8 f   jengine:jengine.dll
+ 0001:000077fe       ?GetRange2dEx@@YAJKPAXPAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@PAUtagGBox2d@@PAUtagJFUZZDEFN@@@Z 100087fe f   render:render.dll
+ 0001:00007810       _BuildRenderStyleObject@8  10008810 f   rendspt:util.obj
+ 0001:00007850       _RealRender2d@16           10008850 f   rendspt:util.obj
+ 0001:00007ad0       _MakeCurrentVersion@8      10008ad0 f   rendspt:override.obj
+ 0001:00007be0       _CreateOverrideStructureWidthAndColor@24 10008be0 f   rendspt:override.obj
+ 0001:00007c90       _MergeOverrideStructures@12 10008c90 f   rendspt:override.obj
+ 0001:00007fc0       _malloc                    10008fc0 f   MSVCRT:MSVCR80.dll
+ 0001:00007fc6       __callnewh                 10008fc6 f   MSVCRT:MSVCR80.dll
+ 0001:00007fcc       ??3@YAXPAX@Z               10008fcc f   MSVCRT:MSVCR80.dll
+ 0001:00007fd2       ??_Etype_info@@UAEPAXI@Z   10008fd2 f i MSVCRT:ti_inst.obj
+ 0001:0000801c       ___CxxFrameHandler3        1000901c f   MSVCRT:MSVCR80.dll
+ 0001:00008022       @__security_check_cookie@4 10009022 f   MSVCRT:secchk.obj
+ 0001:00008040       _memset                    10009040 f   MSVCRT:MSVCR80.dll
+ 0001:00008046       __except_handler4          10009046 f   MSVCRT:chandler4gs.obj
+ 0001:00008070       __alloca_probe_16          10009070 f   MSVCRT:alloca16.obj
+ 0001:00008086       __alloca_probe_8           10009086     MSVCRT:alloca16.obj
+ 0001:000080a0       __allmul                   100090a0 f   MSVCRT:llmul.obj
+ 0001:000080d4       ??_V@YAXPAX@Z              100090d4 f   MSVCRT:MSVCR80.dll
+ 0001:000080da       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 100090da f   MSVCRT:ehvecdtr.obj
+ 0001:00008138       ??_M@YGXPAXIHP6EX0@Z@Z     10009138 f   MSVCRT:ehvecdtr.obj
+ 0001:0000819c       ?what@exception@std@@UBEPBDXZ 1000919c f   MSVCRT:MSVCR80.dll
+ 0001:000081a2       __CxxThrowException@8      100091a2 f   MSVCRT:MSVCR80.dll
+ 0001:000081a8       ??0exception@std@@QAE@ABV01@@Z 100091a8 f   MSVCRT:MSVCR80.dll
+ 0001:000081fb       __CRT_INIT@12              100091fb f   MSVCRT:crtdll.obj
+ 0001:000084b0       __DllMainCRTStartup@12     100094b0 f   MSVCRT:crtdll.obj
+ 0001:000084d1       ___report_gsfailure        100094d1 f   MSVCRT:gs_report.obj
+ 0001:000085d6       __except_handler4_common   100095d6 f   MSVCRT:MSVCR80.dll
+ 0001:000085e0       __chkstk                   100095e0 f   MSVCRT:chkstk.obj
+ 0001:000085e0       __alloca_probe             100095e0     MSVCRT:chkstk.obj
+ 0001:0000860c       ?terminate@@YAXXZ          1000960c f   MSVCRT:MSVCR80.dll
+ 0001:00008614       __SEH_prolog4              10009614 f   MSVCRT:sehprolg4.obj
+ 0001:00008659       __SEH_epilog4              10009659 f   MSVCRT:sehprolg4.obj
+ 0001:0000866d       ___clean_type_info_names   1000966d f   MSVCRT:tncleanup.obj
+ 0001:00008679       __onexit                   10009679 f   MSVCRT:atonexit.obj
+ 0001:00008718       _atexit                    10009718 f   MSVCRT:atonexit.obj
+ 0001:0000872a       __RTC_Initialize           1000972a f   MSVCRT:initsect.obj
+ 0001:0000874e       __RTC_Terminate            1000974e f   MSVCRT:initsect.obj
+ 0001:00008780       __ValidateImageBase        10009780 f   MSVCRT:pesect.obj
+ 0001:000087b0       __FindPESection            100097b0 f   MSVCRT:pesect.obj
+ 0001:000087f2       __IsNonwritableInCurrentImage 100097f2 f   MSVCRT:pesect.obj
+ 0001:0000885e       __initterm                 1000985e f   MSVCRT:MSVCR80.dll
+ 0001:00008864       __initterm_e               10009864 f   MSVCRT:MSVCR80.dll
+ 0001:0000886a       __amsg_exit                1000986a f   MSVCRT:MSVCR80.dll
+ 0001:00008870       ___CppXcptFilter           10009870 f   MSVCRT:MSVCR80.dll
+ 0001:00008876       _DllMain@12                10009876 f   MSVCRT:dllmain.obj
+ 0001:00008896       ___security_init_cookie    10009896 f   MSVCRT:gs_support.obj
+ 0001:0000892a       ??1type_info@@UAE@XZ       1000992a f   MSVCRT:MSVCR80.dll
+ 0001:0000892a       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000992a f   MSVCRT:MSVCR80.dll
+ 0001:00008930       __crt_debugger_hook        10009930 f   MSVCRT:MSVCR80.dll
+ 0001:00008936       ___clean_type_info_names_internal 10009936 f   MSVCRT:MSVCR80.dll
+ 0001:0000893c       __unlock                   1000993c f   MSVCRT:MSVCR80.dll
+ 0001:00008942       ___dllonexit               10009942 f   MSVCRT:MSVCR80.dll
+ 0001:00008948       __lock                     10009948 f   MSVCRT:MSVCR80.dll
+ 0001:0000894e       ?GetThisInterfaceMap@CCmdTarget@@KGPBUAFX_INTERFACEMAP@@XZ 1000994e f   mfc80:MFC80.DLL
+ 0001:00008954       ?GetThisClass@CCmdTarget@@SGPAUCRuntimeClass@@XZ 10009954 f   mfc80:MFC80.DLL
+ 0001:0000895a       ?ExternalQueryInterface@CCmdTarget@@QAEKPBXPAPAX@Z 1000995a f   mfc80:MFC80.DLL
+ 0001:00008960       ?ExternalAddRef@CCmdTarget@@QAEKXZ 10009960 f   mfc80:MFC80.DLL
+ 0001:00008966       ?ExternalRelease@CCmdTarget@@QAEKXZ 10009966 f   mfc80:MFC80.DLL
+ 0001:0000896c       ??1CCmdTarget@@UAE@XZ      1000996c f   mfc80:MFC80.DLL
+ 0001:00008972       ??0CCmdTarget@@QAE@XZ      10009972 f   mfc80:MFC80.DLL
+ 0001:00008978       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 10009978 f   mfc80:MFC80.DLL
+ 0001:0000897e       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000997e f   mfc80:MFC80.DLL
+ 0001:00008984       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 10009984 f   mfc80:MFC80.DLL
+ 0001:0000898a       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1000998a f   mfc80:MFC80.DLL
+ 0001:00008990       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 10009990 f   mfc80:MFC80.DLL
+ 0001:00008996       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 10009996 f   mfc80:MFC80.DLL
+ 0001:0000899c       ?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 1000999c f   mfc80:MFC80.DLL
+ 0001:000089a2       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 100099a2 f   mfc80:MFC80.DLL
+ 0001:000089a8       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 100099a8 f   mfc80:MFC80.DLL
+ 0001:000089ae       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 100099ae f   mfc80:MFC80.DLL
+ 0001:000089b4       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 100099b4 f   mfc80:MFC80.DLL
+ 0001:000089ba       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 100099ba f   mfc80:MFC80.DLL
+ 0001:000089c0       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 100099c0 f   mfc80:MFC80.DLL
+ 0001:000089c6       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 100099c6 f   mfc80:MFC80.DLL
+ 0001:000089cc       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 100099cc f   mfc80:MFC80.DLL
+ 0001:00008a8e       __RawDllMainProxy@12       10009a8e f   mfcs80:rawdllmainproxy.obj
+ 0001:00008ab1       ?_AtlGetThreadACPFake@ATL@@YGIXZ 10009ab1 f i atls:atltrace.obj
+ 0001:00008b16       ?_AtlGetThreadACPReal@ATL@@YGIXZ 10009b16 f i atls:atltrace.obj
+ 0001:00008b1a       ?_AtlGetThreadACPThunk@ATL@@YGIXZ 10009b1a f i atls:atltrace.obj
+ 0001:00008b80       __SEH_prolog4_GS           10009b80 f   MSVCRT:sehprolg4gs.obj
+ 0001:00008bc8       __SEH_epilog4_GS           10009bc8 f   MSVCRT:sehprolg4gs.obj
+ 0002:00000000       __imp_??1JIdentity@@UAE@XZ 1000b000     JUtil:JUtil.dll
+ 0002:00000004       __imp_??_7JIdentity@@6B@   1000b004     JUtil:JUtil.dll
+ 0002:00000008       __imp_?JIsValidAddress@@YAHPBXIH@Z 1000b008     JUtil:JUtil.dll
+ 0002:0000000c       __imp_??0JIdentity@@QAE@XZ 1000b00c     JUtil:JUtil.dll
+ 0002:00000010       __imp__JCoCreateInstance   1000b010     JUtil:JUtil.dll
+ 0002:00000014       __imp__HRerrEx             1000b014     JUtil:JUtil.dll
+ 0002:00000018       \177JUtil_NULL_THUNK_DATA  1000b018     JUtil:JUtil.dll
+ 0002:0000001c       __imp__GetVersionExA@4     1000b01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetThreadLocale@0   1000b020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetLocaleInfoA@16   1000b024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetACP@0            1000b028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetSystemTimeAsFileTime@4 1000b02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetCurrentProcessId@0 1000b030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetCurrentThreadId@0 1000b034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetTickCount@0      1000b038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__QueryPerformanceCounter@4 1000b03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__DisableThreadLibraryCalls@4 1000b040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__IsDebuggerPresent@0 1000b044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__SetUnhandledExceptionFilter@4 1000b048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__UnhandledExceptionFilter@4 1000b04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetCurrentProcess@0 1000b050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__TerminateProcess@8  1000b054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__InterlockedCompareExchange@12 1000b058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__Sleep@4             1000b05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__InterlockedExchange@8 1000b060     kernel32:KERNEL32.dll
+ 0002:00000064       \177KERNEL32_NULL_THUNK_DATA 1000b064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 1000b068     mfc80:MFC80.DLL
+ 0002:0000006c       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 1000b06c     mfc80:MFC80.DLL
+ 0002:00000070       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 1000b070     mfc80:MFC80.DLL
+ 0002:00000074       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 1000b074     mfc80:MFC80.DLL
+ 0002:00000078       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 1000b078     mfc80:MFC80.DLL
+ 0002:0000007c       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 1000b07c     mfc80:MFC80.DLL
+ 0002:00000080       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 1000b080     mfc80:MFC80.DLL
+ 0002:00000084       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 1000b084     mfc80:MFC80.DLL
+ 0002:00000088       __imp_?GetMessageMap@CCmdTarget@@MBEPBUAFX_MSGMAP@@XZ 1000b088     mfc80:MFC80.DLL
+ 0002:0000008c       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 1000b08c     mfc80:MFC80.DLL
+ 0002:00000090       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 1000b090     mfc80:MFC80.DLL
+ 0002:00000094       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 1000b094     mfc80:MFC80.DLL
+ 0002:00000098       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 1000b098     mfc80:MFC80.DLL
+ 0002:0000009c       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 1000b09c     mfc80:MFC80.DLL
+ 0002:000000a0       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 1000b0a0     mfc80:MFC80.DLL
+ 0002:000000a4       __imp_??0CCmdTarget@@QAE@XZ 1000b0a4     mfc80:MFC80.DLL
+ 0002:000000a8       __imp_??1CCmdTarget@@UAE@XZ 1000b0a8     mfc80:MFC80.DLL
+ 0002:000000ac       __imp_?ExternalRelease@CCmdTarget@@QAEKXZ 1000b0ac     mfc80:MFC80.DLL
+ 0002:000000b0       __imp_?ExternalAddRef@CCmdTarget@@QAEKXZ 1000b0b0     mfc80:MFC80.DLL
+ 0002:000000b4       __imp_?ExternalQueryInterface@CCmdTarget@@QAEKPBXPAPAX@Z 1000b0b4     mfc80:MFC80.DLL
+ 0002:000000b8       __imp_?GetThisClass@CCmdTarget@@SGPAUCRuntimeClass@@XZ 1000b0b8     mfc80:MFC80.DLL
+ 0002:000000bc       __imp_?GetThisInterfaceMap@CCmdTarget@@KGPBUAFX_INTERFACEMAP@@XZ 1000b0bc     mfc80:MFC80.DLL
+ 0002:000000c0       \177MFC80_NULL_THUNK_DATA  1000b0c0     mfc80:MFC80.DLL
+ 0002:000000c4       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1000b0c4     msvcprt:MSVCP80.dll
+ 0002:000000c8       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 1000b0c8     msvcprt:MSVCP80.dll
+ 0002:000000cc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000b0cc     msvcprt:MSVCP80.dll
+ 0002:000000d0       \177MSVCP80_NULL_THUNK_DATA 1000b0d0     msvcprt:MSVCP80.dll
+ 0002:000000d4       __imp_?what@exception@std@@UBEPBDXZ 1000b0d4     MSVCRT:MSVCR80.dll
+ 0002:000000d8       __imp_??0exception@std@@QAE@XZ 1000b0d8     MSVCRT:MSVCR80.dll
+ 0002:000000dc       __imp___invalid_parameter_noinfo 1000b0dc     MSVCRT:MSVCR80.dll
+ 0002:000000e0       __imp___CxxThrowException@8 1000b0e0     MSVCRT:MSVCR80.dll
+ 0002:000000e4       __imp_??0exception@std@@QAE@ABV01@@Z 1000b0e4     MSVCRT:MSVCR80.dll
+ 0002:000000e8       __imp___except_handler4_common 1000b0e8     MSVCRT:MSVCR80.dll
+ 0002:000000ec       __imp_?terminate@@YAXXZ    1000b0ec     MSVCRT:MSVCR80.dll
+ 0002:000000f0       __imp___encode_pointer     1000b0f0     MSVCRT:MSVCR80.dll
+ 0002:000000f4       __imp___malloc_crt         1000b0f4     MSVCRT:MSVCR80.dll
+ 0002:000000f8       __imp___encoded_null       1000b0f8     MSVCRT:MSVCR80.dll
+ 0002:000000fc       __imp___decode_pointer     1000b0fc     MSVCRT:MSVCR80.dll
+ 0002:00000100       __imp___initterm           1000b100     MSVCRT:MSVCR80.dll
+ 0002:00000104       __imp___initterm_e         1000b104     MSVCRT:MSVCR80.dll
+ 0002:00000108       __imp___amsg_exit          1000b108     MSVCRT:MSVCR80.dll
+ 0002:0000010c       __imp___adjust_fdiv        1000b10c     MSVCRT:MSVCR80.dll
+ 0002:00000110       __imp____CppXcptFilter     1000b110     MSVCRT:MSVCR80.dll
+ 0002:00000114       __imp_??0exception@std@@QAE@ABQBD@Z 1000b114     MSVCRT:MSVCR80.dll
+ 0002:00000118       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1000b118     MSVCRT:MSVCR80.dll
+ 0002:0000011c       __imp___crt_debugger_hook  1000b11c     MSVCRT:MSVCR80.dll
+ 0002:00000120       __imp____clean_type_info_names_internal 1000b120     MSVCRT:MSVCR80.dll
+ 0002:00000124       __imp___unlock             1000b124     MSVCRT:MSVCR80.dll
+ 0002:00000128       __imp____dllonexit         1000b128     MSVCRT:MSVCR80.dll
+ 0002:0000012c       __imp___lock               1000b12c     MSVCRT:MSVCR80.dll
+ 0002:00000130       __imp___onexit             1000b130     MSVCRT:MSVCR80.dll
+ 0002:00000134       __imp__memset              1000b134     MSVCRT:MSVCR80.dll
+ 0002:00000138       __imp____CxxFrameHandler3  1000b138     MSVCRT:MSVCR80.dll
+ 0002:0000013c       __imp__free                1000b13c     MSVCRT:MSVCR80.dll
+ 0002:00000140       __imp_??3@YAXPAX@Z         1000b140     MSVCRT:MSVCR80.dll
+ 0002:00000144       __imp___callnewh           1000b144     MSVCRT:MSVCR80.dll
+ 0002:00000148       __imp__malloc              1000b148     MSVCRT:MSVCR80.dll
+ 0002:0000014c       __imp_??1exception@std@@UAE@XZ 1000b14c     MSVCRT:MSVCR80.dll
+ 0002:00000150       __imp_??_V@YAXPAX@Z        1000b150     MSVCRT:MSVCR80.dll
+ 0002:00000154       \177MSVCR80_NULL_THUNK_DATA 1000b154     MSVCRT:MSVCR80.dll
+ 0002:00000158       __imp__BatchCommittedOff   1000b158     jengine:jengine.dll
+ 0002:0000015c       __imp__ConstructGraphicContext@12 1000b15c     jengine:jengine.dll
+ 0002:00000160       __imp__BatchCommittedOn    1000b160     jengine:jengine.dll
+ 0002:00000164       \177jengine_NULL_THUNK_DATA 1000b164     jengine:jengine.dll
+ 0002:00000168       __imp_?GetRange2dEx@@YAJKPAXPAUtagRenderStyleInfo@@PAUtagRenderStyleOverride@@PAUtagGBox2d@@PAUtagJFUZZDEFN@@@Z 1000b168     render:render.dll
+ 0002:0000016c       \177render_NULL_THUNK_DATA 1000b16c     render:render.dll
+ 0002:00000170       __imp__IMFitCurveFreeMem2d 1000b170     ugeom2d:ugeom2d.dll
+ 0002:00000174       __imp__IMGComplexStringFreeMem2d 1000b174     ugeom2d:ugeom2d.dll
+ 0002:00000178       __imp__IMLineStringFreePoints2d 1000b178     ugeom2d:ugeom2d.dll
+ 0002:0000017c       __imp__IMGBspCurveFreeMem2d 1000b17c     ugeom2d:ugeom2d.dll
+ 0002:00000180       __imp__IMLineString2dAllocMem 1000b180     ugeom2d:ugeom2d.dll
+ 0002:00000184       __imp__IMLineStringCopy2d  1000b184     ugeom2d:ugeom2d.dll
+ 0002:00000188       __imp__IMFitCurveAlloc2d   1000b188     ugeom2d:ugeom2d.dll
+ 0002:0000018c       __imp__IMFitCurveCopy2d    1000b18c     ugeom2d:ugeom2d.dll
+ 0002:00000190       __imp__IMComplexStringAllocFrmGTypedCurve2d 1000b190     ugeom2d:ugeom2d.dll
+ 0002:00000194       __imp__IMGComplexStringCopyNoAlloc2d 1000b194     ugeom2d:ugeom2d.dll
+ 0002:00000198       __imp__IMBspCurveCopy2d    1000b198     ugeom2d:ugeom2d.dll
+ 0002:0000019c       __imp__IMGBspCurve2dAllocMem 1000b19c     ugeom2d:ugeom2d.dll
+ 0002:000001a0       \177ugeom2d_NULL_THUNK_DATA 1000b1a0     ugeom2d:ugeom2d.dll
+ 0002:000001a4       __imp_?Convert3d@tagGBox@@QAEXABUtagGBox2d@@@Z 1000b1a4     umath:umath.dll
+ 0002:000001a8       __imp_?BuildBox2d@@YA?AUtagGBox2d@@NN@Z 1000b1a8     umath:umath.dll
+ 0002:000001ac       __imp_?BuildBox@@YA?AUtagGBox@@NNN@Z 1000b1ac     umath:umath.dll
+ 0002:000001b0       __imp_??_5tagGBox@@QAEAAU0@ABU0@@Z 1000b1b0     umath:umath.dll
+ 0002:000001b4       __imp_?ConvertGBoxToGClipVolume@@YAJPAUtagGBox@@PAUtagGClipVolume@@@Z 1000b1b4     umath:umath.dll
+ 0002:000001b8       \177umath_NULL_THUNK_DATA  1000b1b8     umath:umath.dll
+ 0002:000001bc       ___xc_a                    1000b1bc     MSVCRT:cinitexe.obj
+ 0002:00000230       ___xc_z                    1000b230     MSVCRT:cinitexe.obj
+ 0002:00000234       ___xi_a                    1000b234     MSVCRT:cinitexe.obj
+ 0002:0000023c       ___xi_z                    1000b23c     MSVCRT:cinitexe.obj
+ 0002:0000025c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1000b25c     DLLGUID.obj
+ 0002:00000274       _CLSID_JStyleSimpleLine    1000b274     DLLGUID.obj
+ 0002:00000284       _CLSID_JStyleSimpleFill    1000b284     DLLGUID.obj
+ 0002:00000294       _CLSID_JStyleSimpleDashType 1000b294     DLLGUID.obj
+ 0002:000002a4       _IID_IJGraphicView         1000b2a4     DLLGUID.obj
+ 0002:000002b4       _IID_IJGraphic             1000b2b4     DLLGUID.obj
+ 0002:000002c4       _IID_IJViewSet             1000b2c4     DLLGUID.obj
+ 0002:000002d4       _IID_IJStyleRender         1000b2d4     DLLGUID.obj
+ 0002:000002e4       _IID_IJStyleSimpleLine     1000b2e4     DLLGUID.obj
+ 0002:000002f4       _IID_IJStyleSimpleDashType 1000b2f4     DLLGUID.obj
+ 0002:00000304       _IID_IJStyleSolidFill      1000b304     DLLGUID.obj
+ 0002:00000314       _IID_IJRender2d            1000b314     DLLGUID.obj
+ 0002:00000324       _IID_IJRHilite             1000b324     DLLGUID.obj
+ 0002:00000334       _IID_IJDynamicList         1000b334     DLLGUID.obj
+ 0002:00000344       _IID_IJDynamicListSupport  1000b344     DLLGUID.obj
+ 0002:00000354       ?_interfaceEntries@JDisplayBaseList@@0QBUAFX_INTERFACEMAP_ENTRY@@B 1000b354     jdspbase.obj
+ 0002:0000036c       ??_C@_0BB@KCIIMIOG@JDisplayBaseList?$AA@ 1000b36c     jdspbase.obj
+ 0002:00000390       ?classJDisplayBaseList@JDisplayBaseList@@2UCRuntimeClass@@B 1000b390     jdspbase.obj
+ 0002:000003ac       ?interfaceMap@JDisplayBaseList@@1UAFX_INTERFACEMAP@@B 1000b3ac     jdspbase.obj
+ 0002:000003b4       ??_C@_0P@JNEFPFA@?4?2jdspbase?4cpp?$AA@ 1000b3b4     jdspbase.obj
+ 0002:000003c4       ??_C@_0CA@HCKBGCNL@JDisplayBaseList?3?3NotifyViewSet?$AA@ 1000b3c4     jdspbase.obj
+ 0002:000003e4       ??_C@_0BO@CFIAKLEO@JDisplayBaseList?3?3RenderGType?$AA@ 1000b3e4     jdspbase.obj
+ 0002:00000404       ??_C@_0CA@BDCJBKCI@JDisplayBaseList?3?3RenderElement?$AA@ 1000b404     jdspbase.obj
+ 0002:00000424       ??_C@_0BL@KKDCOBPP@JDisplayBaseList?3?3SetColor?$AA@ 1000b424     jdspbase.obj
+ 0002:00000440       ??_C@_0BO@PKMKGIDJ@JDisplayBaseList?3?3SetPriority?$AA@ 1000b440     jdspbase.obj
+ 0002:00000460       ??_C@_0BP@DBJEJMPK@JDisplayBaseList?3?3SetTransform?$AA@ 1000b460     jdspbase.obj
+ 0002:00000480       ??_C@_0BM@DKDBFCP@JDisplayBaseList?3?3CopyGType?$AA@ 1000b480     jdspbase.obj
+ 0002:0000049c       ??_C@_0BM@CMCALCLI@JDisplayBaseList?3?3FreeGType?$AA@ 1000b49c     jdspbase.obj
+ 0002:000004b8       ??_C@_0BP@FLOMPCKI@JDisplayBaseList?3?3RangeGType2d?$AA@ 1000b4b8     jdspbase.obj
+ 0002:000004d8       __real@46293e5939a08cea    1000b4d8     jdspbase.obj
+ 0002:000004e0       __real@c6293e5939a08cea    1000b4e0     jdspbase.obj
+ 0002:000004ec       ??_7XDynamicList@JDisplayBaseList@@6B@ 1000b4ec     jdspbase.obj
+ 0002:00000518       ??_7XDynamicListSupport@JDisplayBaseList@@6B@ 1000b518     jdspbase.obj
+ 0002:00000544       ??_7JDisplayBaseList@@6B@  1000b544     jdspbase.obj
+ 0002:000005e0       ??_C@_0BK@HKBPJINI@JDisplayBaseList?3?3Cleanup?$AA@ 1000b5e0     jdspbase.obj
+ 0002:000005fc       ??_C@_0CG@PLMOKCMD@JDisplayBaseList?3?3BeginGraphicCo@ 1000b5fc     jdspbase.obj
+ 0002:00000624       ??_C@_0CE@GNOEADGB@JDisplayBaseList?3?3EndGraphicCont@ 1000b624     jdspbase.obj
+ 0002:00000648       ??_C@_0CD@MHGIAFB@JDisplayBaseList?3?3ConnectToViewS@ 1000b648     jdspbase.obj
+ 0002:0000066c       ??_C@_0BK@IGAHFEIG@JDisplayBaseList?3?3SetView?$AA@ 1000b66c     jdspbase.obj
+ 0002:00000688       ??_C@_0BN@HMANODJK@JDisplayBaseList?3?3Initialize?$AA@ 1000b688     jdspbase.obj
+ 0002:000006a8       ??_C@_0BP@EEKKBBPD@JDisplayBaseList?3?3UnInitialize?$AA@ 1000b6a8     jdspbase.obj
+ 0002:000006c8       ??_C@_0BE@LOBGOODL@JDisplayElementBase?$AA@ 1000b6c8     jdspelm.obj
+ 0002:000006f0       ?classJDisplayElementBase@JDisplayElementBase@@2UCRuntimeClass@@B 1000b6f0     jdspelm.obj
+ 0002:00000710       ??_7bad_alloc@std@@6B@     1000b710     jdspelm.obj
+ 0002:0000071c       ??_7logic_error@std@@6B@   1000b71c     jdspelm.obj
+ 0002:00000728       ??_7length_error@std@@6B@  1000b728     jdspelm.obj
+ 0002:00000734       ??_7out_of_range@std@@6B@  1000b734     jdspelm.obj
+ 0002:0000073c       ??_C@_0O@DIOFPFJD@?4?2jdspelm?4cpp?$AA@ 1000b73c     jdspelm.obj
+ 0002:0000074c       ??_C@_0BN@GLKNJKOG@JDisplayElementBase?3?3Cleanup?$AA@ 1000b74c     jdspelm.obj
+ 0002:0000076c       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 1000b76c     jdspelm.obj
+ 0002:00000780       ??_C@_0DB@IJLLHOOH@JDisplayElementBase?3?3HIGHLIGHTOB@ 1000b780     jdspelm.obj
+ 0002:000007b4       ??_C@_0DA@DMKOHP@JDisplayElementBase?3?3HIGHLIGHTOB@ 1000b7b4     jdspelm.obj
+ 0002:000007e8       ??_7?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@6B@ 1000b7e8     jdspelm.obj
+ 0002:00000804       ??_C@_0BD@CGMEBIIF@z?3?2include?2uenum?4h?$AA@ 1000b804     jdspelm.obj
+ 0002:00000818       ??_C@_0FA@ILGLPAHH@JEnumDataHolder?$DMstruct?5IEnumUnkn@ 1000b818     jdspelm.obj
+ 0002:00000868       ??_C@_0BN@NLLLJLIC@JDisplayElementBase?3?3Display?$AA@ 1000b868     jdspelm.obj
+ 0002:00000888       ??_C@_0CB@GBPEOLJB@JDisplayElementBase?3?3EnumEntries@ 1000b888     jdspelm.obj
+ 0002:000008ac       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 1000b8ac     jdspelm.obj
+ 0002:000008c0       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 1000b8c0     jdspelm.obj
+ 0002:000008dc       ??_C@_0BM@PIDAHJLF@JDisplayElementBase?3?3Remove?$AA@ 1000b8dc     jdspelm.obj
+ 0002:000008fc       ??_7JDisplayElementBase@@6B@ 1000b8fc     jdspelm.obj
+ 0002:000009ac       ??_C@_0BP@LAJMOHKH@JDisplayElementBase?3?3RemoveAll?$AA@ 1000b9ac     jdspelm.obj
+ 0002:000009cc       ??_C@_0BN@JCNCJAJJ@JDisplayElementBase?3?3Replace?$AA@ 1000b9cc     jdspelm.obj
+ 0002:000009ec       ??_C@_0BJ@KBCLJFID@JDisplayElementBase?3?3Add?$AA@ 1000b9ec     jdspelm.obj
+ 0002:00000a08       ??_C@_0BA@LLKBDLHA@JDisplayGType2d?$AA@ 1000ba08     jdspgtyp.obj
+ 0002:00000a60       ?classJDisplayGType2d@JDisplayGType2d@@2UCRuntimeClass@@B 1000ba60     jdspgtyp.obj
+ 0002:00000a7c       ??_C@_0P@IAHDOJDG@?4?2jdspgtyp?4cpp?$AA@ 1000ba7c     jdspgtyp.obj
+ 0002:00000a8c       ??_C@_0BJ@HMJOJOLN@JDisplayGType2d?3?3Display?$AA@ 1000ba8c     jdspgtyp.obj
+ 0002:00000aa8       ??_C@_0CA@DIADEFOC@JDisplayGType2d?3?3DisplayElement?$AA@ 1000baa8     jdspgtyp.obj
+ 0002:00000ac8       ??_C@_0CB@EKCOKKCE@JDisplayGType2d?3?3DisplayElements@ 1000bac8     jdspgtyp.obj
+ 0002:00000aec       ??_C@_0BP@FOKNGEHE@JDisplayGType2d?3?3ClearElements?$AA@ 1000baec     jdspgtyp.obj
+ 0002:00000b0c       ??_C@_0BP@IDNEOIDJ@JDisplayGType2d?3?3StrokeElement?$AA@ 1000bb0c     jdspgtyp.obj
+ 0002:00000b2c       ??_C@_0CC@EDENHPEG@JDisplayGType2d?3?3RememberElement@ 1000bb2c     jdspgtyp.obj
+ 0002:00000b50       ??_C@_0CA@MGJHGKFJ@JDisplayGType2d?3?3GetActiveRange?$AA@ 1000bb50     jdspgtyp.obj
+ 0002:00000b70       ??_C@_0CB@BFAIPPPI@JDisplayGType2d?3?3JDisplayGType2d@ 1000bb70     jdspgtyp.obj
+ 0002:00000b9c       ??_7JDisplayGType2d@@6B@   1000bb9c     jdspgtyp.obj
+ 0002:00000c44       ??_C@_0BA@LDPOKBFO@JRubberBandBase?$AA@ 1000bc44     jrubbase.obj
+ 0002:00000c68       ?classJRubberBandBase@JRubberBandBase@@2UCRuntimeClass@@B 1000bc68     jrubbase.obj
+ 0002:00000c8c       ??_7JRubberBandBase@@6B@   1000bc8c     jrubbase.obj
+ 0002:00000d44       ??_C@_0P@CBBPIMNK@?4?2jrubbase?4cpp?$AA@ 1000bd44     jrubbase.obj
+ 0002:00000d54       ??_C@_0CB@KBMFLALK@JRubberBandBase?3?3BeginRubberBand@ 1000bd54     jrubbase.obj
+ 0002:00000d78       ??_C@_0BP@EKFOFHKC@JRubberBandBase?3?3EndRubberBand?$AA@ 1000bd78     jrubbase.obj
+ 0002:00000d98       ??_C@_0CF@MDPIFMBH@JRubberBandBase?3?3BeginGraphicCon@ 1000bd98     jrubbase.obj
+ 0002:00000dc0       ??_C@_0BP@PHBGLPBN@JRubberBandBase?3?3BatchEvaluate?$AA@ 1000bdc0     jrubbase.obj
+ 0002:00000de8       ??_C@_0L@DMCAILMN@?4?2util?4cpp?$AA@ 1000bde8     rendspt:util.obj
+ 0002:00000df4       ??_C@_0N@EJPEDPPF@RealRender2d?$AA@ 1000bdf4     rendspt:util.obj
+ 0002:00000e04       ??_C@_0P@GLDCLKBB@?4?2override?4cpp?$AA@ 1000be04     rendspt:override.obj
+ 0002:00000e14       ??_C@_0BD@HKMPHMDA@MakeCurrentVersion?$AA@ 1000be14     rendspt:override.obj
+ 0002:00000e28       ??_C@_0CF@IGOMJFFC@CreateOverrideStructureWidthAndC@ 1000be28     rendspt:override.obj
+ 0002:00000e50       ??_C@_0BI@EHOCLCDL@MergeOverrideStructures?$AA@ 1000be50     rendspt:override.obj
+ 0002:00000e68       _IID_IJFilterStyleOverride 1000be68     rendspt:guid.obj
+ 0002:00000e78       _IID_IUnknown              1000be78     uuid:unknwn_i.obj
+ 0002:00000e88       _IID_IEnumUnknown          1000be88     uuid:objidl_i.obj
+ 0002:00000e9c       ??_7type_info@@6B@         1000be9c     MSVCRT:ti_inst.obj
+ 0002:00000ea0       __pDefaultRawDllMain       1000bea0     MSVCRT:crtdll.obj
+ 0002:00000eac       ??_C@_06JBKGCNBB@Delete?$AA@ 1000beac     mfcs80:stdafx.obj
+ 0002:00000eb4       ??_C@_08KAAPDIAN@NoRemove?$AA@ 1000beb4     mfcs80:stdafx.obj
+ 0002:00000ec0       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 1000bec0     mfcs80:stdafx.obj
+ 0002:00000ecc       ??_C@_03LAIAPFCB@Val?$AA@  1000becc     mfcs80:stdafx.obj
+ 0002:00000ed0       ??_C@_01HMGJMAIH@B?$AA@    1000bed0     mfcs80:stdafx.obj
+ 0002:00000ed4       ??_C@_01CKDDGHAB@D?$AA@    1000bed4     mfcs80:stdafx.obj
+ 0002:00000ed8       ??_C@_01PLPBNMEI@M?$AA@    1000bed8     mfcs80:stdafx.obj
+ 0002:00000edc       ??_C@_01CPLAODJH@S?$AA@    1000bedc     mfcs80:stdafx.obj
+ 0002:00000f00       __pRawDllMain              1000bf00     mfcs80:rawdllmainproxy.obj
+ 0002:00000f08       __load_config_used         1000bf08     MSVCRT:loadcfg.obj
+ 0002:00000f84       ??_R4XDynamicList@JDisplayBaseList@@6B@ 1000bf84     jdspbase.obj
+ 0002:00000f98       ??_R3XDynamicList@JDisplayBaseList@@8 1000bf98     jdspbase.obj
+ 0002:00000fa8       ??_R2XDynamicList@JDisplayBaseList@@8 1000bfa8     jdspbase.obj
+ 0002:00000fb8       ??_R1A@?0A@EA@XDynamicList@JDisplayBaseList@@8 1000bfb8     jdspbase.obj
+ 0002:00000fd4       ??_R1A@?0A@EA@IJDynamicList@@8 1000bfd4     jdspbase.obj
+ 0002:00000ff0       ??_R3IJDynamicList@@8      1000bff0     jdspbase.obj
+ 0002:00001000       ??_R2IJDynamicList@@8      1000c000     jdspbase.obj
+ 0002:0000100c       ??_R1A@?0A@EA@IUnknown@@8  1000c00c     jdspbase.obj
+ 0002:00001028       ??_R3IUnknown@@8           1000c028     jdspbase.obj
+ 0002:00001038       ??_R2IUnknown@@8           1000c038     jdspbase.obj
+ 0002:00001040       ??_R4XDynamicListSupport@JDisplayBaseList@@6B@ 1000c040     jdspbase.obj
+ 0002:00001054       ??_R3XDynamicListSupport@JDisplayBaseList@@8 1000c054     jdspbase.obj
+ 0002:00001064       ??_R2XDynamicListSupport@JDisplayBaseList@@8 1000c064     jdspbase.obj
+ 0002:00001074       ??_R1A@?0A@EA@XDynamicListSupport@JDisplayBaseList@@8 1000c074     jdspbase.obj
+ 0002:00001090       ??_R1A@?0A@EA@IJDynamicListSupport@@8 1000c090     jdspbase.obj
+ 0002:000010ac       ??_R3IJDynamicListSupport@@8 1000c0ac     jdspbase.obj
+ 0002:000010bc       ??_R2IJDynamicListSupport@@8 1000c0bc     jdspbase.obj
+ 0002:000010c8       ??_R4JDisplayBaseList@@6B@ 1000c0c8     jdspbase.obj
+ 0002:000010dc       ??_R3JDisplayBaseList@@8   1000c0dc     jdspbase.obj
+ 0002:000010ec       ??_R2JDisplayBaseList@@8   1000c0ec     jdspbase.obj
+ 0002:000010fc       ??_R1A@?0A@EA@JDisplayBaseList@@8 1000c0fc     jdspbase.obj
+ 0002:00001118       ??_R1A@?0A@EA@CCmdTarget@@8 1000c118     jdspbase.obj
+ 0002:00001134       ??_R3CCmdTarget@@8         1000c134     jdspbase.obj
+ 0002:00001144       ??_R2CCmdTarget@@8         1000c144     jdspbase.obj
+ 0002:00001150       ??_R1A@?0A@EA@CObject@@8   1000c150     jdspbase.obj
+ 0002:0000116c       ??_R3CObject@@8            1000c16c     jdspbase.obj
+ 0002:0000117c       ??_R2CObject@@8            1000c17c     jdspbase.obj
+ 0002:00001184       ??_R4bad_alloc@std@@6B@    1000c184     jdspelm.obj
+ 0002:00001198       ??_R3bad_alloc@std@@8      1000c198     jdspelm.obj
+ 0002:000011a8       ??_R2bad_alloc@std@@8      1000c1a8     jdspelm.obj
+ 0002:000011b4       ??_R1A@?0A@EA@bad_alloc@std@@8 1000c1b4     jdspelm.obj
+ 0002:000011d0       ??_R1A@?0A@EA@exception@std@@8 1000c1d0     jdspelm.obj
+ 0002:000011ec       ??_R3exception@std@@8      1000c1ec     jdspelm.obj
+ 0002:000011fc       ??_R2exception@std@@8      1000c1fc     jdspelm.obj
+ 0002:00001204       ??_R4logic_error@std@@6B@  1000c204     jdspelm.obj
+ 0002:00001218       ??_R3logic_error@std@@8    1000c218     jdspelm.obj
+ 0002:00001228       ??_R2logic_error@std@@8    1000c228     jdspelm.obj
+ 0002:00001234       ??_R1A@?0A@EA@logic_error@std@@8 1000c234     jdspelm.obj
+ 0002:00001250       ??_R4length_error@std@@6B@ 1000c250     jdspelm.obj
+ 0002:00001264       ??_R3length_error@std@@8   1000c264     jdspelm.obj
+ 0002:00001274       ??_R2length_error@std@@8   1000c274     jdspelm.obj
+ 0002:00001284       ??_R1A@?0A@EA@length_error@std@@8 1000c284     jdspelm.obj
+ 0002:000012a0       ??_R4out_of_range@std@@6B@ 1000c2a0     jdspelm.obj
+ 0002:000012b4       ??_R3out_of_range@std@@8   1000c2b4     jdspelm.obj
+ 0002:000012c4       ??_R2out_of_range@std@@8   1000c2c4     jdspelm.obj
+ 0002:000012d4       ??_R1A@?0A@EA@out_of_range@std@@8 1000c2d4     jdspelm.obj
+ 0002:000012f0       ??_R4?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@6B@ 1000c2f0     jdspelm.obj
+ 0002:00001304       ??_R3?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@8 1000c304     jdspelm.obj
+ 0002:00001314       ??_R2?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@8 1000c314     jdspelm.obj
+ 0002:00001324       ??_R1A@?0A@EA@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@8 1000c324     jdspelm.obj
+ 0002:00001340       ??_R1A@?0A@EA@IEnumUnknown@@8 1000c340     jdspelm.obj
+ 0002:0000135c       ??_R3IEnumUnknown@@8       1000c35c     jdspelm.obj
+ 0002:0000136c       ??_R2IEnumUnknown@@8       1000c36c     jdspelm.obj
+ 0002:00001378       ??_R4JDisplayElementBase@@6B@ 1000c378     jdspelm.obj
+ 0002:0000138c       ??_R3JDisplayElementBase@@8 1000c38c     jdspelm.obj
+ 0002:0000139c       ??_R2JDisplayElementBase@@8 1000c39c     jdspelm.obj
+ 0002:000013b0       ??_R1A@?0A@EA@JDisplayElementBase@@8 1000c3b0     jdspelm.obj
+ 0002:000013cc       ??_R4JDisplayGType2d@@6B@  1000c3cc     jdspgtyp.obj
+ 0002:000013e0       ??_R3JDisplayGType2d@@8    1000c3e0     jdspgtyp.obj
+ 0002:000013f0       ??_R2JDisplayGType2d@@8    1000c3f0     jdspgtyp.obj
+ 0002:00001404       ??_R1A@?0A@EA@JDisplayGType2d@@8 1000c404     jdspgtyp.obj
+ 0002:00001420       ??_R4JRubberBandBase@@6B@  1000c420     jrubbase.obj
+ 0002:00001434       ??_R3JRubberBandBase@@8    1000c434     jrubbase.obj
+ 0002:00001444       ??_R2JRubberBandBase@@8    1000c444     jrubbase.obj
+ 0002:0000145c       ??_R1A@?0A@EA@JRubberBandBase@@8 1000c45c     jrubbase.obj
+ 0002:00001478       ??_R4type_info@@6B@        1000c478     MSVCRT:ti_inst.obj
+ 0002:0000148c       ??_R3type_info@@8          1000c48c     MSVCRT:ti_inst.obj
+ 0002:0000149c       ??_R2type_info@@8          1000c49c     MSVCRT:ti_inst.obj
+ 0002:000014a4       ??_R1A@?0A@EA@type_info@@8 1000c4a4     MSVCRT:ti_inst.obj
+ 0002:000014c0       ___safe_se_handler_table   1000c4c0     <linker-defined>
+ 0002:000015b4       ___rtc_iaa                 1000c5b4     MSVCRT:initsect.obj
+ 0002:000015b8       ___rtc_izz                 1000c5b8     MSVCRT:initsect.obj
+ 0002:000015bc       ___rtc_taa                 1000c5bc     MSVCRT:initsect.obj
+ 0002:000015c0       ___rtc_tzz                 1000c5c0     MSVCRT:initsect.obj
+ 0002:00001900       __TI3?AVlength_error@std@@ 1000c900     jdspelm.obj
+ 0002:0000193c       __CTA3?AVlength_error@std@@ 1000c93c     jdspelm.obj
+ 0002:0000194c       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 1000c94c     jdspelm.obj
+ 0002:00001968       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 1000c968     jdspelm.obj
+ 0002:00001984       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1000c984     jdspelm.obj
+ 0002:00001a00       __TI2?AVbad_alloc@std@@    1000ca00     jdspelm.obj
+ 0002:00001a10       __CTA2?AVbad_alloc@std@@   1000ca10     jdspelm.obj
+ 0002:00001a1c       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 1000ca1c     jdspelm.obj
+ 0002:00001ed8       __TI3?AVout_of_range@std@@ 1000ced8     jdspelm.obj
+ 0002:00001f1c       __CTA3?AVout_of_range@std@@ 1000cf1c     jdspelm.obj
+ 0002:00001f2c       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 1000cf2c     jdspelm.obj
+ 0002:00002444       __IMPORT_DESCRIPTOR_JUtil  1000d444     JUtil:JUtil.dll
+ 0002:00002458       __IMPORT_DESCRIPTOR_umath  1000d458     umath:umath.dll
+ 0002:0000246c       __IMPORT_DESCRIPTOR_ugeom2d 1000d46c     ugeom2d:ugeom2d.dll
+ 0002:00002480       __IMPORT_DESCRIPTOR_jengine 1000d480     jengine:jengine.dll
+ 0002:00002494       __IMPORT_DESCRIPTOR_render 1000d494     render:render.dll
+ 0002:000024a8       __IMPORT_DESCRIPTOR_KERNEL32 1000d4a8     kernel32:KERNEL32.dll
+ 0002:000024bc       __IMPORT_DESCRIPTOR_MSVCP80 1000d4bc     msvcprt:MSVCP80.dll
+ 0002:000024d0       __IMPORT_DESCRIPTOR_MSVCR80 1000d4d0     MSVCRT:MSVCR80.dll
+ 0002:000024e4       __IMPORT_DESCRIPTOR_MFC80  1000d4e4     mfc80:MFC80.DLL
+ 0002:000024f8       __NULL_IMPORT_DESCRIPTOR   1000d4f8     JUtil:JUtil.dll
+ 0003:00000000       __newmode                  10010000     newmode.obj
+ 0003:00001448       ??_R0?AVXDynamicList@JDisplayBaseList@@@8 10011448     jdspbase.obj
+ 0003:00001474       ??_R0?AUIJDynamicList@@@8  10011474     jdspbase.obj
+ 0003:00001490       ??_R0?AUIUnknown@@@8       10011490     jdspbase.obj
+ 0003:000014a8       ??_R0?AVXDynamicListSupport@JDisplayBaseList@@@8 100114a8     jdspbase.obj
+ 0003:000014dc       ??_R0?AUIJDynamicListSupport@@@8 100114dc     jdspbase.obj
+ 0003:00001500       ??_R0?AVJDisplayBaseList@@@8 10011500     jdspbase.obj
+ 0003:00001520       ??_R0?AVCCmdTarget@@@8     10011520     jdspbase.obj
+ 0003:0000153c       ??_R0?AVCObject@@@8        1001153c     jdspbase.obj
+ 0003:00001f78       ??_R0?AVbad_alloc@std@@@8  10011f78     jdspelm.obj
+ 0003:00001f94       ??_R0?AVexception@std@@@8  10011f94     jdspelm.obj
+ 0003:00001fb0       ??_R0?AVlogic_error@std@@@8 10011fb0     jdspelm.obj
+ 0003:00001fd0       ??_R0?AVlength_error@std@@@8 10011fd0     jdspelm.obj
+ 0003:00001ff0       ??_R0?AVout_of_range@std@@@8 10011ff0     jdspelm.obj
+ 0003:00002010       ??_R0?AV?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@@8 10012010     jdspelm.obj
+ 0003:00002054       ??_R0?AUIEnumUnknown@@@8   10012054     jdspelm.obj
+ 0003:00002070       ??_R0?AVJDisplayElementBase@@@8 10012070     jdspelm.obj
+ 0003:00002ab8       ??_R0?AVJDisplayGType2d@@@8 10012ab8     jdspgtyp.obj
+ 0003:000034f8       ??_R0?AVJRubberBandBase@@@8 100134f8     jrubbase.obj
+ 0003:00004958       ??_R0?AVtype_info@@@8      10014958     MSVCRT:ti_inst.obj
+ 0003:00004970       ___security_cookie         10014970     MSVCRT:gs_cookie.obj
+ 0003:00004974       ___security_cookie_complement 10014974     MSVCRT:gs_cookie.obj
+ 0003:00004980       ___native_dllmain_reason   10014980     MSVCRT:natstart.obj
+ 0003:00004984       ___native_vcclrit_reason   10014984     MSVCRT:natstart.obj
+ 0003:00004988       ?g_pfnGetThreadACP@ATL@@3P6GIXZA 10014988     atls:atltrace.obj
+ 0003:00005c34       ?__type_info_root_node@@3U__type_info_node@@A 10015c34     MSVCRT:tncleanup.obj
+ 0003:00005c3c       __afxForceEXCLUDE          10015c3c     mfcs80:nolib.obj
+ 0003:00005c40       __afxForceSTDAFX           10015c40     mfcs80:stdafx.obj
+ 0003:00005c44       __adjust_fdiv              10015c44     <common>
+ 0003:00005c48       ___native_startup_state    10015c48     <common>
+ 0003:00005c4c       ___native_startup_lock     10015c4c     <common>
+ 0003:00005c50       ___onexitend               10015c50     <common>
+ 0003:00005c54       ___onexitbegin             10015c54     <common>
+ 0003:00005c58       ___dyn_tls_init_callback   10015c58     <common>
+ 0003:00005c5c       __pActualRawDllMain        10015c5c     <common>
+
+ entry point at        0001:000084b0
+
+ Static symbols
+
+ 0001:00001864       __catch$?ConnectToViewSet@JDisplayBaseList@@IAEJPAUIJView@@H@Z$3 10002864 f   jdspbase.obj
+ 0001:000018e6       __catch$?ConnectToViewSet@JDisplayBaseList@@IAEJPAUIJView@@H@Z$6 100028e6 f   jdspbase.obj
+ 0001:00002adf       __catch$?Clear@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJXZ$0 10003adf f   jdspelm.obj
+ 0001:000037f2       __catch$?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@XZ$0 100047f2 f i jdspelm.obj
+ 0001:00003b08       __catch$?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z$0 10004b08 f i jdspelm.obj
+ 0001:000044c7       __catch$??$_Uninit_copy@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 100054c7 f i jdspelm.obj
+ 0001:00004667       __catch$??$_Uninit_fill_n@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@IU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@IABU12@AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z$0 10005667 f i jdspelm.obj
+ 0001:000051f5       __catch$?_Insert_n@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@IABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z$0 100061f5 f i jdspelm.obj
+ 0001:000052a2       __catch$?_Insert_n@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@IABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z$2 100062a2 f i jdspelm.obj
+ 0001:000081ae       _pre_c_init                100091ae f   MSVCRT:crtdll.obj
+ 0001:0000839a       ___DllMainCRTStartup       1000939a f   MSVCRT:crtdll.obj
+ 0001:000089d2       __FindPESection            100099d2 f   mfcs80:rawdllmainproxy.obj
+ 0001:00008a0c       __IsNonwritableInCurrentImage 10009a0c f   mfcs80:rawdllmainproxy.obj
+ 0001:00008be0       __unwindfunclet$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@ABU01@@Z$0 10009be0 f   jdspbase.obj
+ 0001:00008beb       __unwindfunclet$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@ABU01@@Z$1 10009beb f   jdspbase.obj
+ 0001:00008bf7       __ehhandler$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@ABU01@@Z 10009bf7 f   jdspbase.obj
+ 0001:00008c20       __unwindfunclet$??0JDisplayBaseList@@QAE@XZ$0 10009c20 f   jdspbase.obj
+ 0001:00008c2b       __ehhandler$??0JDisplayBaseList@@QAE@XZ 10009c2b f   jdspbase.obj
+ 0001:00008c50       __unwindfunclet$??1JDisplayBaseList@@UAE@XZ$0 10009c50 f   jdspbase.obj
+ 0001:00008c58       __ehhandler$??1JDisplayBaseList@@UAE@XZ 10009c58 f   jdspbase.obj
+ 0001:00008c80       __ehhandler$?ConnectToViewSet@JDisplayBaseList@@IAEJPAUIJView@@H@Z 10009c80 f   jdspbase.obj
+ 0001:00008ca0       __unwindfunclet$?CreateObject@JDisplayBaseList@@SGPAVCObject@@XZ$0 10009ca0 f   jdspbase.obj
+ 0001:00008caa       __ehhandler$?CreateObject@JDisplayBaseList@@SGPAVCObject@@XZ 10009caa f   jdspbase.obj
+ 0001:00008cd0       __unwindfunclet$??0bad_alloc@std@@QAE@PBD@Z$0 10009cd0 f   jdspelm.obj
+ 0001:00008cd9       __ehhandler$??0bad_alloc@std@@QAE@PBD@Z 10009cd9 f   jdspelm.obj
+ 0001:00008d00       __unwindfunclet$??1bad_alloc@std@@UAE@XZ$0 10009d00 f   jdspelm.obj
+ 0001:00008d09       __ehhandler$??1bad_alloc@std@@UAE@XZ 10009d09 f   jdspelm.obj
+ 0001:00008d30       __unwindfunclet$??_Gbad_alloc@std@@UAEPAXI@Z$0 10009d30 f   jdspelm.obj
+ 0001:00008d39       __ehhandler$??_Gbad_alloc@std@@UAEPAXI@Z 10009d39 f   jdspelm.obj
+ 0001:00008d60       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10009d60 f   jdspelm.obj
+ 0001:00008d69       __unwindfunclet$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 10009d69 f   jdspelm.obj
+ 0001:00008d75       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10009d75 f   jdspelm.obj
+ 0001:00008d90       __unwindfunclet$??1logic_error@std@@UAE@XZ$0 10009d90 f   jdspelm.obj
+ 0001:00008d99       __unwindfunclet$??1logic_error@std@@UAE@XZ$1 10009d99 f   jdspelm.obj
+ 0001:00008da5       __ehhandler$??1logic_error@std@@UAE@XZ 10009da5 f   jdspelm.obj
+ 0001:00008dc0       __unwindfunclet$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10009dc0 f   jdspelm.obj
+ 0001:00008dc8       __ehhandler$??0length_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10009dc8 f   jdspelm.obj
+ 0001:00008df0       __unwindfunclet$??1length_error@std@@UAE@XZ$0 10009df0 f   jdspelm.obj
+ 0001:00008df8       __ehhandler$??1length_error@std@@UAE@XZ 10009df8 f   jdspelm.obj
+ 0001:00008e20       __unwindfunclet$??_Glength_error@std@@UAEPAXI@Z$0 10009e20 f   jdspelm.obj
+ 0001:00008e28       __ehhandler$??_Glength_error@std@@UAEPAXI@Z 10009e28 f   jdspelm.obj
+ 0001:00008e50       __unwindfunclet$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$0 10009e50 f   jdspelm.obj
+ 0001:00008e58       __ehhandler$??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10009e58 f   jdspelm.obj
+ 0001:00008e80       __unwindfunclet$??1out_of_range@std@@UAE@XZ$0 10009e80 f   jdspelm.obj
+ 0001:00008e88       __ehhandler$??1out_of_range@std@@UAE@XZ 10009e88 f   jdspelm.obj
+ 0001:00008eb0       __unwindfunclet$??_Gout_of_range@std@@UAEPAXI@Z$0 10009eb0 f   jdspelm.obj
+ 0001:00008eb8       __ehhandler$??_Gout_of_range@std@@UAEPAXI@Z 10009eb8 f   jdspelm.obj
+ 0001:00008ee0       __unwindfunclet$?_Xlen@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@KAXXZ$0 10009ee0 f   jdspelm.obj
+ 0001:00008ee9       __ehhandler$?_Xlen@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@KAXXZ 10009ee9 f   jdspelm.obj
+ 0001:00008f10       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$0 10009f10 f   jdspelm.obj
+ 0001:00008f19       __unwindfunclet$??0logic_error@std@@QAE@ABV01@@Z$1 10009f19 f   jdspelm.obj
+ 0001:00008f25       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 10009f25 f   jdspelm.obj
+ 0001:00008f40       __unwindfunclet$??0length_error@std@@QAE@ABV01@@Z$0 10009f40 f   jdspelm.obj
+ 0001:00008f48       __ehhandler$??0length_error@std@@QAE@ABV01@@Z 10009f48 f   jdspelm.obj
+ 0001:00008f70       __unwindfunclet$??0bad_alloc@std@@QAE@ABV01@@Z$0 10009f70 f   jdspelm.obj
+ 0001:00008f79       __ehhandler$??0bad_alloc@std@@QAE@ABV01@@Z 10009f79 f   jdspelm.obj
+ 0001:00008fa0       __unwindfunclet$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ$0 10009fa0 f   jdspelm.obj
+ 0001:00008fab       __unwindfunclet$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ$1 10009fab f   jdspelm.obj
+ 0001:00008fb7       __ehhandler$??0HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ 10009fb7 f   jdspelm.obj
+ 0001:00008fe0       __ehhandler$?Clear@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJXZ 10009fe0 f   jdspelm.obj
+ 0001:00009000       __unwindfunclet$?PutObject@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJPAUIUnknown@@@Z$3 1000a000 f   jdspelm.obj
+ 0001:00009008       __ehhandler$?PutObject@HIGHLIGHTOBJECT@JDisplayElementBase@@QAEJPAUIUnknown@@@Z 1000a008 f   jdspelm.obj
+ 0001:00009030       __unwindfunclet$??$_Construct@UHIGHLIGHTOBJECT@JDisplayElementBase@@U12@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@ABU12@@Z$0 1000a030 f   jdspelm.obj
+ 0001:00009041       __ehhandler$??$_Construct@UHIGHLIGHTOBJECT@JDisplayElementBase@@U12@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@ABU12@@Z 1000a041 f   jdspelm.obj
+ 0001:00009060       __unwindfunclet$??1HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ$0 1000a060 f   jdspelm.obj
+ 0001:0000906b       __unwindfunclet$??1HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ$1 1000a06b f   jdspelm.obj
+ 0001:00009077       __ehhandler$??1HIGHLIGHTOBJECT@JDisplayElementBase@@QAE@XZ 1000a077 f   jdspelm.obj
+ 0001:000090a0       __unwindfunclet$??E?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV01@H@Z$0 1000a0a0 f   jdspelm.obj
+ 0001:000090b9       __ehhandler$??E?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV01@H@Z 1000a0b9 f   jdspelm.obj
+ 0001:000090e0       __unwindfunclet$?Clone@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJPAPAUIEnumUnknown@@@Z$2 1000a0e0 f   jdspelm.obj
+ 0001:000090eb       __ehhandler$?Clone@?$JEnumDataHolder@UIEnumUnknown@@PAUIUnknown@@PAU2@@@UAGJPAPAUIEnumUnknown@@@Z 1000a0eb f   jdspelm.obj
+ 0001:00009110       __ehhandler$?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@XZ 1000a110 f   jdspelm.obj
+ 0001:00009130       __unwindfunclet$??0_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE@PAU012@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z$0 1000a130 f   jdspelm.obj
+ 0001:0000913b       __ehhandler$??0_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE@PAU012@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z 1000a13b f   jdspelm.obj
+ 0001:00009160       __unwindfunclet$?begin@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ$0 1000a160 f   jdspelm.obj
+ 0001:00009179       __ehhandler$?begin@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ 1000a179 f   jdspelm.obj
+ 0001:000091a0       __unwindfunclet$?end@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ$0 1000a1a0 f   jdspelm.obj
+ 0001:000091b9       __ehhandler$?end@?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE?AV?$SELocking_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@1@XZ 1000a1b9 f   jdspelm.obj
+ 0001:000091e0       __unwindfunclet$?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z$2 1000a1e0 f   jdspelm.obj
+ 0001:000091f1       __ehhandler$?_Buynode@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@PAU342@00ABUHIGHLIGHTOBJECT@JDisplayElementBase@@D@Z 1000a1f1 f   jdspelm.obj
+ 0001:00009210       __unwindfunclet$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z$4 1000a210 f   jdspelm.obj
+ 0001:0000921b       __unwindfunclet$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z$5 1000a21b f   jdspelm.obj
+ 0001:00009226       __unwindfunclet$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z$7 1000a226 f   jdspelm.obj
+ 0001:00009231       __unwindfunclet$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z$8 1000a231 f   jdspelm.obj
+ 0001:0000923c       __unwindfunclet$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z$6 1000a23c f   jdspelm.obj
+ 0001:00009247       __ehhandler$?Display@JDisplayElementBase@@MAEJPAUIUnknown@@PAUtagRECT@@@Z 1000a247 f   jdspelm.obj
+ 0001:00009270       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$3 1000a270 f   jdspelm.obj
+ 0001:00009278       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$4 1000a278 f   jdspelm.obj
+ 0001:00009280       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$6 1000a280 f   jdspelm.obj
+ 0001:00009288       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$7 1000a288 f   jdspelm.obj
+ 0001:00009290       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$5 1000a290 f   jdspelm.obj
+ 0001:00009298       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$8 1000a298 f   jdspelm.obj
+ 0001:000092a3       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$9 1000a2a3 f   jdspelm.obj
+ 0001:000092ab       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$11 1000a2ab f   jdspelm.obj
+ 0001:000092b3       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$12 1000a2b3 f   jdspelm.obj
+ 0001:000092bb       __unwindfunclet$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z$10 1000a2bb f   jdspelm.obj
+ 0001:000092c3       __ehhandler$?EnumEntries@JDisplayElementBase@@MAEJPAPAUIEnumUnknown@@@Z 1000a2c3 f   jdspelm.obj
+ 0001:000092e0       __unwindfunclet$?_Insert@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z$0 1000a2e0 f   jdspelm.obj
+ 0001:000092e9       __ehhandler$?_Insert@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@ABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 1000a2e9 f   jdspelm.obj
+ 0001:00009310       __ehhandler$??$_Uninit_copy@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAPAUHIGHLIGHTOBJECT@JDisplayElementBase@@PAU12@00AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 1000a310 f   jdspelm.obj
+ 0001:00009330       __ehhandler$??$_Uninit_fill_n@PAUHIGHLIGHTOBJECT@JDisplayElementBase@@IU12@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@YAXPAUHIGHLIGHTOBJECT@JDisplayElementBase@@IABU12@AAV?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@0@U_Nonscalar_ptr_iterator_tag@0@U_Range_checked_iterator_tag@0@@Z 1000a330 f   jdspelm.obj
+ 0001:00009350       __unwindfunclet$?_Erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@@Z$0 1000a350 f   jdspelm.obj
+ 0001:0000935b       __ehhandler$?_Erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@2@@Z 1000a35b f   jdspelm.obj
+ 0001:00009380       __unwindfunclet$?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$0 1000a380 f   jdspelm.obj
+ 0001:00009389       __unwindfunclet$?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z$1 1000a389 f   jdspelm.obj
+ 0001:00009394       __ehhandler$?erase@?$_Tree@V?$_Tset_traits@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 1000a394 f   jdspelm.obj
+ 0001:000093b0       __unwindfunclet$??0out_of_range@std@@QAE@ABV01@@Z$0 1000a3b0 f   jdspelm.obj
+ 0001:000093b8       __ehhandler$??0out_of_range@std@@QAE@ABV01@@Z 1000a3b8 f   jdspelm.obj
+ 0001:000093e0       __unwindfunclet$??1?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ$0 1000a3e0 f   jdspelm.obj
+ 0001:000093e8       __ehhandler$??1?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ 1000a3e8 f   jdspelm.obj
+ 0001:00009410       __unwindfunclet$??0?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ$0 1000a410 f   jdspelm.obj
+ 0001:00009418       __ehhandler$??0?$set@UHIGHLIGHTOBJECT@JDisplayElementBase@@U?$less@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@4@@std@@QAE@XZ 1000a418 f   jdspelm.obj
+ 0001:00009440       __unwindfunclet$?_Insert_n@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@IABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z$4 1000a440 f   jdspelm.obj
+ 0001:00009448       __ehhandler$?_Insert_n@?$vector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@std@@IAEXV?$_Vector_iterator@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@2@IABUHIGHLIGHTOBJECT@JDisplayElementBase@@@Z 1000a448 f   jdspelm.obj
+ 0001:00009470       __unwindfunclet$?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z$2 1000a470 f   jdspelm.obj
+ 0001:00009478       __ehhandler$?Remove@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 1000a478 f   jdspelm.obj
+ 0001:000094a0       __unwindfunclet$??0?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ$0 1000a4a0 f   jdspelm.obj
+ 0001:000094a8       __unwindfunclet$??0?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ$1 1000a4a8 f   jdspelm.obj
+ 0001:000094b3       __ehhandler$??0?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ 1000a4b3 f   jdspelm.obj
+ 0001:000094d0       __unwindfunclet$??1?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ$0 1000a4d0 f   jdspelm.obj
+ 0001:000094d8       __unwindfunclet$??1?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ$1 1000a4d8 f   jdspelm.obj
+ 0001:000094e3       __ehhandler$??1?$STLUniqueVector@UHIGHLIGHTOBJECT@JDisplayElementBase@@V?$allocator@UHIGHLIGHTOBJECT@JDisplayElementBase@@@std@@@@QAE@XZ 1000a4e3 f   jdspelm.obj
+ 0001:00009500       __unwindfunclet$??0JDisplayElementBase@@QAE@XZ$0 1000a500 f   jdspelm.obj
+ 0001:00009508       __unwindfunclet$??0JDisplayElementBase@@QAE@XZ$1 1000a508 f   jdspelm.obj
+ 0001:00009516       __ehhandler$??0JDisplayElementBase@@QAE@XZ 1000a516 f   jdspelm.obj
+ 0001:00009540       __unwindfunclet$??1JDisplayElementBase@@UAE@XZ$0 1000a540 f   jdspelm.obj
+ 0001:00009548       __unwindfunclet$??1JDisplayElementBase@@UAE@XZ$1 1000a548 f   jdspelm.obj
+ 0001:00009556       __ehhandler$??1JDisplayElementBase@@UAE@XZ 1000a556 f   jdspelm.obj
+ 0001:00009580       __unwindfunclet$?CreateObject@JDisplayElementBase@@SGPAVCObject@@XZ$0 1000a580 f   jdspelm.obj
+ 0001:0000958a       __ehhandler$?CreateObject@JDisplayElementBase@@SGPAVCObject@@XZ 1000a58a f   jdspelm.obj
+ 0001:000095b0       __unwindfunclet$?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z$1 1000a5b0 f   jdspelm.obj
+ 0001:000095b8       __unwindfunclet$?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z$2 1000a5b8 f   jdspelm.obj
+ 0001:000095c0       __unwindfunclet$?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z$3 1000a5c0 f   jdspelm.obj
+ 0001:000095c8       __ehhandler$?Replace@JDisplayElementBase@@UAEJQAPAUIUnknown@@J@Z 1000a5c8 f   jdspelm.obj
+ 0001:000095f0       __unwindfunclet$?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z$2 1000a5f0 f   jdspelm.obj
+ 0001:000095f8       __ehhandler$?Add@JDisplayElementBase@@UAEJPAUIUnknown@@H@Z 1000a5f8 f   jdspelm.obj
+ 0001:00009620       __unwindfunclet$?Add@JDisplayElementBase@@UAEJHH@Z$1 1000a620 f   jdspelm.obj
+ 0001:00009628       __ehhandler$?Add@JDisplayElementBase@@UAEJHH@Z 1000a628 f   jdspelm.obj
+ 0001:00009650       __unwindfunclet$?Display@JDisplayGType2d@@UAEJPAUIUnknown@@PAUtagRECT@@@Z$4 1000a650 f   jdspgtyp.obj
+ 0001:0000965b       __ehhandler$?Display@JDisplayGType2d@@UAEJPAUIUnknown@@PAUtagRECT@@@Z 1000a65b f   jdspgtyp.obj
+ 0001:00009680       __unwindfunclet$??0JDisplayGType2d@@QAE@XZ$19 1000a680 f   jdspgtyp.obj
+ 0001:0000968b       __ehhandler$??0JDisplayGType2d@@QAE@XZ 1000a68b f   jdspgtyp.obj
+ 0001:000096b0       __unwindfunclet$??1JDisplayGType2d@@UAE@XZ$0 1000a6b0 f   jdspgtyp.obj
+ 0001:000096b8       __ehhandler$??1JDisplayGType2d@@UAE@XZ 1000a6b8 f   jdspgtyp.obj
+ 0001:000096e0       __unwindfunclet$?CreateObject@JDisplayGType2d@@SGPAVCObject@@XZ$0 1000a6e0 f   jdspgtyp.obj
+ 0001:000096ea       __ehhandler$?CreateObject@JDisplayGType2d@@SGPAVCObject@@XZ 1000a6ea f   jdspgtyp.obj
+ 0001:00009710       __unwindfunclet$??0JRubberBandBase@@QAE@XZ$0 1000a710 f   jrubbase.obj
+ 0001:00009718       __ehhandler$??0JRubberBandBase@@QAE@XZ 1000a718 f   jrubbase.obj
+ 0001:00009740       __unwindfunclet$??1JRubberBandBase@@UAE@XZ$0 1000a740 f   jrubbase.obj
+ 0001:00009748       __ehhandler$??1JRubberBandBase@@UAE@XZ 1000a748 f   jrubbase.obj
+ 0001:00009770       __unwindfunclet$?CreateObject@JRubberBandBase@@SGPAVCObject@@XZ$0 1000a770 f   jrubbase.obj
+ 0001:0000977a       __ehhandler$?CreateObject@JRubberBandBase@@SGPAVCObject@@XZ 1000a77a f   jrubbase.obj
+ 0001:000097a0       __unwindfunclet$_MergeOverrideStructures@12$2 1000a7a0 f   rendspt:override.obj
+ 0001:000097ae       __ehhandler$_MergeOverrideStructures@12 1000a7ae f   rendspt:override.obj
+ 0001:000097d0       ??__EGNULL_Camera@@YAXXZ   1000a7d0 f   DLLGUID.obj
+ 0001:000097f0       ??__EGNULL_CAMERA@@YAXXZ   1000a7f0 f   DLLGUID.obj
+ 0001:00009810       ??__EGID_Camera@@YAXXZ     1000a810 f   DLLGUID.obj
+ 0001:00009830       ??__EGID_CAMERA@@YAXXZ     1000a830 f   DLLGUID.obj
+ 0001:00009850       ??__EGNULL_Camera@@YAXXZ   1000a850 f   jdspbase.obj
+ 0001:00009870       ??__EGNULL_CAMERA@@YAXXZ   1000a870 f   jdspbase.obj
+ 0001:00009890       ??__EGID_Camera@@YAXXZ     1000a890 f   jdspbase.obj
+ 0001:000098b0       ??__EGID_CAMERA@@YAXXZ     1000a8b0 f   jdspbase.obj
+ 0001:000098d0       ??__EGNULL_Camera@@YAXXZ   1000a8d0 f   jdspelm.obj
+ 0001:000098f0       ??__EGNULL_CAMERA@@YAXXZ   1000a8f0 f   jdspelm.obj
+ 0001:00009910       ??__EGID_Camera@@YAXXZ     1000a910 f   jdspelm.obj
+ 0001:00009930       ??__EGID_CAMERA@@YAXXZ     1000a930 f   jdspelm.obj
+ 0001:00009950       ??__EGNULL_Camera@@YAXXZ   1000a950 f   jdspgtyp.obj
+ 0001:00009970       ??__EGNULL_CAMERA@@YAXXZ   1000a970 f   jdspgtyp.obj
+ 0001:00009990       ??__EGID_Camera@@YAXXZ     1000a990 f   jdspgtyp.obj
+ 0001:000099b0       ??__EGID_CAMERA@@YAXXZ     1000a9b0 f   jdspgtyp.obj
+ 0001:000099d0       ??__EGNULL_Camera@@YAXXZ   1000a9d0 f   jrubbase.obj
+ 0001:000099f0       ??__EGNULL_CAMERA@@YAXXZ   1000a9f0 f   jrubbase.obj
+ 0001:00009a10       ??__EGID_Camera@@YAXXZ     1000aa10 f   jrubbase.obj
+ 0001:00009a30       ??__EGID_CAMERA@@YAXXZ     1000aa30 f   jrubbase.obj
+ 0001:00009a50       ??__EGNULL_Camera@@YAXXZ   1000aa50 f   rendspt:util.obj
+ 0001:00009a70       ??__EGNULL_CAMERA@@YAXXZ   1000aa70 f   rendspt:util.obj
+ 0001:00009a90       ??__EGID_Camera@@YAXXZ     1000aa90 f   rendspt:util.obj
+ 0001:00009ab0       ??__EGID_CAMERA@@YAXXZ     1000aab0 f   rendspt:util.obj
+ 0001:00009ad0       ??__EGNULL_Camera@@YAXXZ   1000aad0 f   rendspt:guid.obj
+ 0001:00009af0       ??__EGNULL_CAMERA@@YAXXZ   1000aaf0 f   rendspt:guid.obj
+ 0001:00009b10       ??__EGID_Camera@@YAXXZ     1000ab10 f   rendspt:guid.obj
+ 0001:00009b30       ??__EGID_CAMERA@@YAXXZ     1000ab30 f   rendspt:guid.obj

@@ -1,0 +1,153 @@
+<Schema name="SEListCtrlSchema-EDSPLMSolutions"
+        xmlns="urn:schemas-microsoft-com:xml-data"
+        xmlns:dt="urn:schemas-microsoft-com:datatypes"
+        xmlns:selvdt="urn:schemas-solidedge-edsplm-com">
+
+<AttributeType name="InsertControlType" dt:type="enumeration"
+               dt:values="editbox 
+                          combobox 
+                          combobox_editable 
+                          combobox_multivalue 
+                          datecontrol 
+                          spinbutton 
+                          radiobutton 
+                          pushbutton 
+                          combobox_multivalue_editable 
+                          checkbox" 
+               default="editbox"  required="no" />
+
+<AttributeType name="Format" dt:type="enumeration"
+               dt:values="left right center" 
+               default="left"  required="no" />
+<AttributeType name="list" dt:type="boolean"
+               default="0"  required="no" />
+
+<AttributeType name="Readonly"  
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Hidden" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="SingleFullRowSelect" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="UnderlineDirtyCells" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="MultiColumnSort" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Selected" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Checked" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Expand" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Has_Children" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Dirty" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Empty" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Autocomplete" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="CompactPath" 
+      dt:type="boolean" default="0" required="no" />
+<AttributeType name="Width" 
+      dt:type="i4" default="100" required="no" />
+<AttributeType name="Value" 
+      dt:type="string" default="" required="yes" />
+<AttributeType name="Order"
+      dt:type="i4" default="-1" required="no" />
+<AttributeType name="ColumnName"
+      dt:type="string" required="yes" />
+<AttributeType name="TextColor"
+      dt:type="ui4" default="0" required="no" />
+<AttributeType name="BackColor"
+      dt:type="ui4" default="0" required="no" />
+
+<ElementType name="DataElement" content="textOnly" />
+<ElementType name="Index" content="textOnly" dt:type="i4" />
+<ElementType name="ImageIndex" content="textOnly" dt:type="i4" />
+<ElementType name="Indent" content="textOnly" dt:type="i4" />
+<ElementType name="UserData" content="textOnly" />
+<ElementType name="ToolTipText" content="textOnly" dt:type="string" />
+<ElementType name="Link" content="textOnly" dt:type="string" />
+
+<ElementType name="CellData" content="mixed" order="many" 
+             model="open">
+     <attribute type="list" />
+     <element type="DataElement" />
+</ElementType>
+
+<ElementType name="SelectedIndex" content="mixed" order="many" 
+             model="closed">
+     <attribute type="list" />
+     <element type="Index" />
+</ElementType>
+
+<ElementType name="CELL" content="mixed" 
+             model="closed">
+     <attribute type="InsertControlType" />
+     <attribute type="Readonly" />
+     <attribute type="Selected" />
+     <attribute type="Dirty" />
+     <attribute type="Empty" />
+     <attribute type="Autocomplete" />
+     <attribute type="CompactPath" />
+     <attribute type="TextColor" />
+     <attribute type="BackColor" />
+     <element type="CellData" />
+     <element type="SelectedIndex" />
+     <element type="ToolTipText" />
+     <element type="ImageIndex" />
+     <element type="Link" />
+</ElementType>
+
+<ElementType name="CELLS" content="eltOnly" order="many" 
+             model="closed">
+     <element type="CELL" />
+</ElementType>
+
+<ElementType name="ROW" content="mixed"
+             model="open">
+     <attribute type="Readonly" />
+     <attribute type="Hidden" />
+     <attribute type="Checked" />
+     <attribute type="Expand" />
+     <attribute type="Has_Children" />
+     <element type="UserData" />
+     <element type="Indent" />
+     <element type="CELLS" />
+     <element type="ROWS" />
+</ElementType>
+
+<ElementType name="ROWS" content="eltOnly" order="many" 
+             model="open">
+     <element type="ROW" />
+</ElementType>
+
+<ElementType name="COLUMN" content="mixed" 
+             model="open">
+     <attribute type="Format" />
+     <attribute type="Readonly" />
+     <attribute type="Hidden" />
+     <attribute type="Selected" />
+     <attribute type="Width" />
+     <attribute type="Order" />
+     <attribute type="ColumnName" />
+     <element type="ImageIndex" />
+     <element type="UserData" />
+</ElementType>
+
+<ElementType name="COLUMNS" content="eltOnly" order="many" 
+             model="open">
+     <element type="COLUMN" />
+</ElementType>
+
+<ElementType name="SETreeGridData" content="mixed" 
+             model="open">
+     <attribute type="Readonly" />
+     <attribute type="SingleFullRowSelect" />
+     <attribute type="UnderlineDirtyCells" />
+     <attribute type="MultiColumnSort" />
+     <element type="COLUMNS" />
+     <element type="ROWS" />
+</ElementType>
+
+</Schema>

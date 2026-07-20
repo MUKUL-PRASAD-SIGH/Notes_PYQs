@@ -1,0 +1,48 @@
+#!/bin/sh
+# orbix_profile
+#
+#  This script is executed by /etc/profile to setup Orbix environment variables
+#
+IT_PRODUCT_DIR=/misc/orbix/ibm/v5.0
+IT_DOMAIN_NAME=openideas10
+IT_CONFIG_DOMAINS_DIR=/etc/opt/iona/domains
+IT_LICENSE_FILE=$IT_PRODUCT_DIR/licenses.txt
+JAVA_HOME=/usr/java130
+export IT_PRODUCT_DIR IT_DOMAIN_NAME IT_CONFIG_DOMAINS_DIR T_LICENSE_FILE JAVA_HOME
+
+addition="$IT_PRODUCT_DIR/orbix_art/2.0/bin:/etc/opt/iona/bin"
+if [ -n "$PATH" ]
+then
+   if [ `echo $PATH | grep $addition | wc -l` = 0 ]
+   then
+      PATH=$addition:$PATH
+   fi
+else
+   PATH=$addition
+fi
+export PATH
+
+addition="$IT_PRODUCT_DIR/shlib:$IT_PRODUCT_DIR/shlib/default"
+if [ -n "$LIBPATH" ]
+then
+   if [ `echo $LIBPATH | grep $addition | wc -l` = 0 ]
+   then
+      LIBPATH=$addition:$LIBPATH
+   fi
+else
+   LIBPATH=$addition
+fi
+export LIBPATH
+
+addtion="$IT_PRODUCT_DIR/orbix_art/2.0/lib/orbix2000.jar"
+if [ -n "$CLASSPATH" ]
+then
+   if [ `echo $CLASSPATH | grep $addition | wc -l` = 0 ]
+   then
+      CLASSPATH=$addition:$CLASSPATH
+   fi
+else
+   CLASSPATH=$addition
+fi
+export CLASSPATH
+
